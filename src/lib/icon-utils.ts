@@ -5,9 +5,9 @@ import { type IconItem } from "@/types/icon";
  * Excludes filled, solid, bold, bulk icons, BoxIcons (which are primarily filled), and CSS.gg icons
  */
 export function supportsStrokeWidth(icon: IconItem): boolean {
-  // Special handling for Solar icons - only outline variants support stroke
+  // Solar icons don't support stroke width customization
   if (icon.id.startsWith('solar-')) {
-    return icon.style === 'outline';
+    return false;
   }
 
   // CSS.gg icons don't support stroke width customization
