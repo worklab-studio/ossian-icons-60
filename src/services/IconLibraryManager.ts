@@ -26,11 +26,38 @@ class IconLibraryManager {
   private loadingPromises = new Map<string, Promise<IconItem[]>>();
   private searchIndex = new Map<string, Set<string>>();
 
-  // Library metadata - empty for now, ready for new data
-  public readonly libraries: IconLibraryMetadata[] = [];
+  // Library metadata
+  public readonly libraries: IconLibraryMetadata[] = [
+    { id: 'ant', name: 'Ant Design', count: 789, style: 'outlined', description: 'Enterprise-class UI design language' },
+    { id: 'atlas', name: 'Atlas Icons', count: 2450, style: 'outline', description: 'Professional icon collection' },
+    { id: 'bootstrap', name: 'Bootstrap Icons', count: 1846, style: 'outline', description: 'Official Bootstrap icon library' },
+    { id: 'carbon', name: 'Carbon Design', count: 2100, style: 'outline', description: 'IBM Carbon Design System icons' },
+    { id: 'css-gg', name: 'CSS.gg', count: 704, style: 'minimalist', description: 'Pure CSS icons' },
+    { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Beautiful open-source icons' },
+    { id: 'fluent-ui', name: 'Fluent UI', count: 5200, style: 'filled/outlined', description: 'Microsoft Fluent Design icons' },
+    { id: 'hugeicon', name: 'Hugeicons', count: 4800, style: 'stroke/solid', description: 'Huge collection of icons' },
+    { id: 'iconamoon', name: 'Iconamoon', count: 3400, style: 'duotone', description: 'Duotone icon collection' },
+    { id: 'iconoir', name: 'Iconoir', count: 1561, style: 'outline', description: 'SVG icon library' },
+    { id: 'ikonate', name: 'Ikonate', count: 238, style: 'customizable', description: 'Customizable icons' },
+    { id: 'line', name: 'Line Awesome', count: 1544, style: 'outline', description: 'Line style awesome icons' },
+    { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
+    { id: 'majesticon', name: 'Majesticons', count: 760, style: 'outline/solid', description: 'High-quality icon set' },
+    { id: 'mingcute', name: 'Mingcute', count: 2600, style: 'outline/filled', description: 'Cute and minimal icons' },
+    { id: 'octicons', name: 'Octicons', count: 329, style: 'outline', description: 'GitHub Octicons' },
+    { id: 'phosphor', name: 'Phosphor', count: 9000, style: 'thin/light/regular/bold/fill/duotone', description: 'Flexible icon family' },
+    { id: 'pixelart-icons', name: 'Pixelarticons', count: 460, style: 'pixelart', description: 'Pixel art style icons' },
+    { id: 'pixelart', name: 'Pixelart', count: 460, style: 'pixelart', description: 'Alternative pixel art icons' },
+    { id: 'proicons', name: 'Proicons', count: 300, style: 'outline', description: 'Professional icons' },
+    { id: 'radix', name: 'Radix UI', count: 318, style: 'outline', description: 'Radix UI icon collection' },
+    { id: 'sargam', name: 'Sargam Icons', count: 700, style: 'outline', description: 'Open-source icon library' },
+    { id: 'simple', name: 'Simple Icons', count: 2900, style: 'brand', description: 'Popular brand icons' },
+    { id: 'solar', name: 'Solar Icons', count: 7000, style: 'linear/bold/broken/outline', description: 'Solar design system icons' },
+    { id: 'tabler', name: 'Tabler Icons', count: 6000, style: 'outline', description: 'Free SVG icons' },
+    { id: 'teeny-icons', name: 'Teeny Icons', count: 1200, style: 'outline/solid', description: 'Tiny 1px icons' }
+  ];
 
-  // No popular libraries to preload
-  private readonly popularLibraries: string[] = [];
+  // Popular libraries to preload for better UX
+  private readonly popularLibraries: string[] = ['lucide', 'phosphor', 'tabler', 'solar', 'iconoir'];
 
   constructor() {
     // Clean up old cache entries on startup
@@ -47,9 +74,115 @@ class IconLibraryManager {
   // Dynamic import functions for each library - empty for now
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
     try {
-      // No libraries available yet
-      console.warn(`Library ${libraryId} not available - no icon data loaded`);
-      return [];
+      switch (libraryId) {
+        case 'ant': {
+          const { antIcons } = await import('@/Data/ant-icons');
+          return antIcons;
+        }
+        case 'atlas': {
+          const { atlasIcons } = await import('@/Data/atlas-icons');
+          return atlasIcons;
+        }
+        case 'bootstrap': {
+          const { bootstrapIcons } = await import('@/Data/bootstrap-icons');
+          return bootstrapIcons;
+        }
+        case 'carbon': {
+          const { carbonIcons } = await import('@/Data/carbon-icons');
+          return carbonIcons;
+        }
+        case 'css-gg': {
+          const { cssGgIcons } = await import('@/Data/css-gg-icons');
+          return cssGgIcons;
+        }
+        case 'feather': {
+          const { featherIcons } = await import('@/Data/feather-icons');
+          return featherIcons;
+        }
+        case 'fluent-ui': {
+          const { fluentUiIcons } = await import('@/Data/fluent-ui-icons');
+          return fluentUiIcons;
+        }
+        case 'hugeicon': {
+          const { hugeiconIcons } = await import('@/Data/hugeicon-icons');
+          return hugeiconIcons;
+        }
+        case 'iconamoon': {
+          const { iconamoonIcons } = await import('@/Data/iconamoon-icons');
+          return iconamoonIcons;
+        }
+        case 'iconoir': {
+          const { iconoirIcons } = await import('@/Data/iconoir-icons');
+          return iconoirIcons;
+        }
+        case 'ikonate': {
+          const { ikonateIcons } = await import('@/Data/ikonate-icons');
+          return ikonateIcons;
+        }
+        case 'line': {
+          const { lineIcons } = await import('@/Data/line-icons');
+          return lineIcons;
+        }
+        case 'lucide': {
+          const { lucideIcons } = await import('@/Data/lucide-icons');
+          return lucideIcons;
+        }
+        case 'majesticon': {
+          const { majesticonIcons } = await import('@/Data/majesticon-icons');
+          return majesticonIcons;
+        }
+        case 'mingcute': {
+          const { mingcuteIcons } = await import('@/Data/mingcute-icons');
+          return mingcuteIcons;
+        }
+        case 'octicons': {
+          const { octiconsIcons } = await import('@/Data/octicons-icons');
+          return octiconsIcons;
+        }
+        case 'phosphor': {
+          const { phosphorIcons } = await import('@/Data/phosphor-icons');
+          return phosphorIcons;
+        }
+        case 'pixelart-icons': {
+          const { pixelartIconsIcons } = await import('@/Data/pixelart-icons-icons');
+          return pixelartIconsIcons;
+        }
+        case 'pixelart': {
+          const { pixelartIcons } = await import('@/Data/pixelart-icons');
+          return pixelartIcons;
+        }
+        case 'proicons': {
+          const { proiconsIcons } = await import('@/Data/proicons-icons');
+          return proiconsIcons;
+        }
+        case 'radix': {
+          const { radixIcons } = await import('@/Data/radix-icons');
+          return radixIcons;
+        }
+        case 'sargam': {
+          const { sargamIcons } = await import('@/Data/sargam-icons');
+          return sargamIcons;
+        }
+        case 'simple': {
+          const { simpleIcons } = await import('@/Data/simple-icons');
+          return simpleIcons;
+        }
+        case 'solar': {
+          const { solarIcons } = await import('@/Data/solar-icons');
+          return solarIcons;
+        }
+        case 'tabler': {
+          const { tablerIcons } = await import('@/Data/tabler-icons');
+          return tablerIcons;
+        }
+        case 'teeny-icons': {
+          const { teenyIconsIcons } = await import('@/Data/teeny-icons-icons');
+          return teenyIconsIcons;
+        }
+        default:
+          console.warn(`Library ${libraryId} not available`);
+          return [];
+      }
     } catch (error) {
       console.error(`Failed to load library ${libraryId}:`, error);
       return [];
