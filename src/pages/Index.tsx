@@ -27,6 +27,7 @@ import { MobileLibraryDrawer } from "@/components/mobile/MobileLibraryDrawer";
 import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { MobileIconActions } from "@/components/mobile/MobileIconActions";
 import { HapticsManager } from "@/lib/haptics";
+import { SimpleLucideTest } from "@/components/SimpleLucideTest";
 
 function IconGridPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -392,6 +393,7 @@ function IconGridPage() {
 
           {/* Content area with top padding to account for fixed header */}
           <main className="flex-1 overflow-auto pt-32">
+            <SimpleLucideTest />
             {error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
                 <Alert className="max-w-md">
