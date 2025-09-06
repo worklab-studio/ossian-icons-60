@@ -2,16 +2,15 @@ import React, { useState, useMemo, useEffect } from "react";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Header } from "@/components/header";
 import { AppSidebar } from "@/components/app-sidebar";
-import { IconGrid } from "@/components/icon-grid/IconGrid";
-import { SectionedIconGrid } from "@/components/icon-grid/SectionedIconGrid";
+import { SimpleIconGrid } from "@/components/icon-grid/SimpleIconGrid";
 import { ControlPanel } from "@/components/control-panel";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { IconCustomizationProvider, useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { type IconItem } from "@/types/icon";
 import { sortIconsByStyleThenName } from "@/lib/icon-utils";
 import { toast } from "@/hooks/use-toast";
-import { useAsyncIconLibrary, useIconLibraryMetadata } from "@/hooks/useAsyncIconLibrary";
-import { useSearchWorker } from "@/hooks/useSearchWorker";
+import { useSimpleIconLibrary } from "@/hooks/useSimpleIconLibrary";
+import { useSimpleSearch } from "@/hooks/useSimpleSearch";
 import { useFirstTimeUser } from "@/hooks/useFirstTimeUser";
 import { useVisitedUser } from "@/hooks/useVisitedUser";
 import { showFirstCopyNudge } from "@/components/ui/first-copy-nudge";
@@ -19,8 +18,6 @@ import { Skeleton } from "@/components/ui/skeleton";
 import LoadingWithTagline from "@/components/LoadingWithTagline";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertCircle, Loader2 } from "lucide-react";
-import { iconLibraryManager } from "@/services/IconLibraryManager";
-import { type LibrarySection } from "@/types/icon";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { MobileHeader } from "@/components/mobile/MobileHeader";
 import { MobileLibraryDrawer } from "@/components/mobile/MobileLibraryDrawer";
@@ -28,13 +25,29 @@ import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { MobileIconActions } from "@/components/mobile/MobileIconActions";
 import { HapticsManager } from "@/lib/haptics";
 
+// Mock data - replace with your actual icon data
+const sampleIcons: IconItem[] = [
+  {
+    id: 'sample-1',
+    name: 'home',
+    svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>',
+    tags: ['home', 'house', 'building'],
+    category: 'navigation'
+  },
+  {
+    id: 'sample-2',
+    name: 'user',
+    svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>',
+    tags: ['user', 'person', 'profile'],
+    category: 'users'
+  }
+];
+
 function IconGridPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSet, setSelectedSet] = useState("all");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [searchResults, setSearchResults] = useState<IconItem[]>([]);
-  const [searchTotalCount, setSearchTotalCount] = useState<number>(0);
   const [showLoadingAnimation, setShowLoadingAnimation] = useState(true);
   const [minDurationComplete, setMinDurationComplete] = useState(false);
   const { customization } = useIconCustomization();
@@ -45,38 +58,20 @@ function IconGridPage() {
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
   const [showIconActions, setShowIconActions] = useState(false);
 
-  // Load Tabler first as priority
-  const priorityLibrary = 'tabler';
-
   // Visited user state for smart loading
-  const { shouldSkipLoading, markLoadingSeen, hasCachedData } = useVisitedUser();
+  const { shouldSkipLoading, markLoadingSeen } = useVisitedUser();
   
-  // Async icon loading
+  // Simple icon loading
   const { 
     icons, 
-    sections,
-    loading, 
-    backgroundLoading,
+    isLoading, 
     error, 
-    loaded,
-    loadLibrary, 
-    loadLibraryProgressive,
-    loadAllLibraries,
-    loadAllLibrariesSectioned,
-    loadAllLibrariesSectionedProgressive,
-    clearError 
-  } = useAsyncIconLibrary();
+    loadIcons,
+    clearIcons 
+  } = useSimpleIconLibrary();
   
-  // Library metadata for total counts
-  const { libraries, totalCount } = useIconLibraryMetadata();
-  
-  // Search worker
-  const { 
-    search, 
-    indexLibrary, 
-    isReady: searchReady, 
-    isSearching 
-  } = useSearchWorker();
+  // Simple search
+  const { searchIcons } = useSimpleSearch();
 
   // Control loading animation visibility
   useEffect(() => {
@@ -88,67 +83,24 @@ function IconGridPage() {
       return;
     }
 
-    // Hide loading only when both conditions are met:
-    // 1. Minimum duration has passed  
-    // 2. Tabler icons are loaded (priority library)
-    if (minDurationComplete && loaded && icons.length > 0) {
+    // Hide loading when both conditions are met
+    if (minDurationComplete && icons.length > 0) {
       setShowLoadingAnimation(false);
-      // Mark that user has seen the loading animation
       markLoadingSeen();
     }
-  }, [minDurationComplete, loaded, icons.length, shouldSkipLoading, markLoadingSeen]);
+  }, [minDurationComplete, icons.length, shouldSkipLoading, markLoadingSeen]);
 
-  // Fallback timeout removed - just keep loading until ready
-
-  // Load Tabler first for immediate display, then load all libraries
+  // Load sample icons on mount
   useEffect(() => {
-    const loadIcons = async () => {
-      try {
-        // If returning user with cache, load immediately without animation
-        if (shouldSkipLoading) {
-          console.log('Fast loading for returning user');
-          await loadLibrary(priorityLibrary);
-          loadAllLibrariesSectioned();
-          return;
-        }
-
-        // Load Tabler first for immediate display
-        await loadLibrary(priorityLibrary);
-        // Load all other libraries in parallel for faster loading
-        loadAllLibrariesSectioned();
-      } catch (error) {
-        console.error('Failed to load priority library:', error);
-        // Fallback to loading all libraries
-        loadAllLibrariesSectioned();
-      }
-    };
-    
-    loadIcons();
-  }, [loadLibrary, loadAllLibrariesSectioned, priorityLibrary, shouldSkipLoading]);
-
-  // Load specific library when selection changes (after initial load)
-  useEffect(() => {
-    if (loaded && selectedSet !== "all") {
-      loadLibraryProgressive(selectedSet);
+    if (shouldSkipLoading) {
+      loadIcons(sampleIcons);
+    } else {
+      // Simulate loading delay
+      setTimeout(() => {
+        loadIcons(sampleIcons);
+      }, 1000);
     }
-  }, [selectedSet, loadLibraryProgressive, loaded]);
-
-  // Load all libraries when switching back to "All Icons"
-  useEffect(() => {
-    if (loaded && selectedSet === "all") {
-      loadAllLibrariesSectioned();
-    }
-  }, [selectedSet, loadAllLibrariesSectioned, loaded]);
-
-  // Index loaded icons for search - with error handling
-  useEffect(() => {
-    if (loaded && icons.length > 0 && searchReady) {
-      indexLibrary(selectedSet, icons).catch(error => {
-        console.error('Failed to index icons for search:', error);
-        // Search will fall back to client-side search automatically
-      });
-    }
-  }, [loaded, icons, searchReady, selectedSet, indexLibrary]);
+  }, [loadIcons, shouldSkipLoading]);
 
   // Get the selected icon object
   const selectedIcon = useMemo(() => {
@@ -156,73 +108,19 @@ function IconGridPage() {
     return icons.find(icon => icon.id === selectedId) || null;
   }, [selectedId, icons]);
 
-  // Handle search with worker or fallback
-  useEffect(() => {
-    if (!searchQuery.trim()) {
-      setSearchResults([]);
-      setSearchTotalCount(0);
-      return;
-    }
-
-    const performSearch = async () => {
-      try {
-        // Try worker search with conservative options including library filter
-        if (searchReady && loaded) {
-          const searchResult = await search(searchQuery, {
-            maxResults: 1000, // Conservative limit for performance
-            fuzzy: true,
-            enableSynonyms: false, // Conservative default
-            enablePhonetic: false, // Conservative default
-            libraryId: selectedSet !== 'all' ? selectedSet : undefined // Only filter if specific library selected
-          });
-          // Filter out any invalid results
-          const validResults = searchResult.results.filter(icon => icon && icon.svg);
-          setSearchResults(validResults);
-          setSearchTotalCount(searchResult.totalCount);
-        } else if (loaded) {
-          // Enhanced fallback search when worker isn't ready
-          const { fallbackSearch } = await import('@/lib/fallback-search');
-          const fallbackResult = fallbackSearch(icons, searchQuery, {
-            fuzzy: true,
-            maxResults: 1000, // Conservative limit for performance
-            minScore: 8.0, // Higher threshold for precision
-            enableSynonyms: false, // Conservative default
-            enablePhonetic: false, // Conservative default
-            libraryId: selectedSet !== 'all' ? selectedSet : undefined // Only filter if specific library selected
-          });
-          setSearchResults(fallbackResult.results);
-          setSearchTotalCount(fallbackResult.totalCount);
-        }
-      } catch (error) {
-        console.warn('Worker search failed, using fallback:', error);
-        // Always fallback to client-side search on any error
-        const { fallbackSearch } = await import('@/lib/fallback-search');
-        const fallbackResult = fallbackSearch(icons, searchQuery, {
-          fuzzy: true,
-          maxResults: 1000, // Conservative limit for performance
-          minScore: 8.0, // Higher threshold for precision
-          enableSynonyms: false, // Conservative default
-          enablePhonetic: false, // Conservative default
-          libraryId: selectedSet !== 'all' ? selectedSet : undefined // Only filter if specific library selected
-        });
-        setSearchResults(fallbackResult.results);
-        setSearchTotalCount(fallbackResult.totalCount);
-      }
-    };
-
-    performSearch();
-  }, [searchQuery, search, searchReady, loaded, icons, selectedSet]);
+  // Handle search
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    return searchIcons(searchQuery, icons);
+  }, [searchQuery, searchIcons, icons]);
 
   // Get current icon set to display
   const currentIcons = useMemo(() => {
     if (searchQuery.trim()) {
-      // Filter search results to only include icons with valid svg data
       return searchResults.filter(icon => icon.svg !== undefined && icon.svg !== null);
     }
-    // Filter out icons that don't have valid svg data
     return icons.filter(icon => icon.svg !== undefined && icon.svg !== null);
   }, [searchQuery, searchResults, icons]);
-
 
   // Get available categories from current icon set
   const availableCategories = useMemo(() => {
@@ -245,73 +143,8 @@ function IconGridPage() {
     return sortIconsByStyleThenName(filtered);
   }, [currentIcons, selectedCategory]);
 
-  // Group search results by library for sectioned display when searching "all icons"
-  const groupedSearchSections = useMemo(() => {
-    if (!searchQuery.trim() || selectedSet !== "all" || searchResults.length === 0) {
-      return [];
-    }
-
-    // Group icons by library ID
-    const iconsByLibrary = new Map<string, IconItem[]>();
-    
-    searchResults.forEach(icon => {
-      // Extract library ID from icon ID (assumes format like "library-iconname")
-      const libraryId = icon.id.split('-')[0];
-      
-      // Validate that icon belongs to the correct library
-      if (libraryId && icon.id.startsWith(`${libraryId}-`)) {
-        if (!iconsByLibrary.has(libraryId)) {
-          iconsByLibrary.set(libraryId, []);
-        }
-        iconsByLibrary.get(libraryId)!.push(icon);
-      } else {
-        console.warn(`Skipping cross-contaminated search result: ${icon.id}`);
-      }
-    });
-
-    // Create sections in the same order as defined in IconLibraryManager
-    const orderedSections: LibrarySection[] = [];
-    
-    iconLibraryManager.libraries.forEach(libraryMeta => {
-      const libraryIcons = iconsByLibrary.get(libraryMeta.id);
-      if (libraryIcons && libraryIcons.length > 0) {
-        // Filter by category if selected
-        let filteredIcons = libraryIcons;
-        if (selectedCategory) {
-          filteredIcons = libraryIcons.filter(icon => icon.category === selectedCategory);
-        }
-        
-        if (filteredIcons.length > 0) {
-          // Sort icons within each library (stroke/outline icons first, then filled/solid)
-          const sortedIcons = sortIconsByStyleThenName(filteredIcons);
-          
-          orderedSections.push({
-            libraryId: libraryMeta.id,
-            libraryName: libraryMeta.name,
-            icons: sortedIcons
-          });
-        }
-      }
-    });
-
-    return orderedSections;
-  }, [searchQuery, selectedSet, searchResults, selectedCategory]);
-
-  // Apply category filtering to sections when showing "all icons" without search
-  const filteredSections = useMemo(() => {
-    if (selectedSet !== "all" || searchQuery.trim() || !selectedCategory) {
-      return sections;
-    }
-
-    // Filter sections to only include icons matching the selected category
-    return sections.map(section => ({
-      ...section,
-      icons: section.icons.filter(icon => icon.category === selectedCategory)
-    })).filter(section => section.icons.length > 0); // Remove empty sections
-  }, [sections, selectedSet, searchQuery, selectedCategory]);
-
   // Reset category when library changes
-  React.useEffect(() => {
+  useEffect(() => {
     setSelectedCategory(null);
   }, [selectedSet]);
 
@@ -376,42 +209,16 @@ function IconGridPage() {
               }}
             >
               <h1 className="text-lg font-semibold">
-                {selectedSet === "all" ? "All Icons" : 
-                 selectedSet === "favorites" ? "Favorites" : 
-                 selectedSet === "material" ? "Material Design Icons" :
-                 selectedSet === "animated" ? "Animated Icons" :
-                 selectedSet === "lucide" ? "Lucide Icons" :
-                 selectedSet === "feather" ? "Feather Icons" :
-                 selectedSet === "phosphor" ? "Phosphor Icons" :
-                 selectedSet === "tabler" ? "Tabler Icons" :
-                 selectedSet === "bootstrap" ? "Bootstrap Icons" :
-                 selectedSet === "remix" ? "Remix Icons" :
-                 selectedSet === "boxicons" ? "Boxicons" :
-                 selectedSet === "css-gg" ? "CSS.GG Icons" :
-                 selectedSet === "iconsax" ? "Iconsax Icons" :
-                 selectedSet === "atlas" ? "Atlas Icons" :
-                 selectedSet === "solar" ? "Solar Icons" :
-                 selectedSet === "octicons" ? "Octicons" :
-                 selectedSet === "radix" ? "Radix Icons" :
-                 selectedSet === "antd" ? "Ant Design Icons" :
-                 selectedSet === "fluent" ? "Fluent Icons" :
-                 selectedSet === "iconnoir" ? "Iconoir Icons" :
-                 selectedSet === "teeny" ? "Teeny Icons" :
-                 selectedSet === "pixelart" ? "Pixel Art Icons" :
-                 selectedSet === "lineicons" ? "Line Icons" :
-                 "Icons"}
+                {selectedSet === "all" ? "All Icons" : "Sample Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">
-                    ({searchTotalCount > 0 ? searchTotalCount.toLocaleString() : '0'} results)
+                    ({searchResults.length} results)
                   </span>
                 )}
               </h1>
               {!searchQuery && (
                 <p className="text-sm text-muted-foreground mt-1">
-                  {selectedSet === "all" ? 
-                    `${totalCount.toLocaleString()} icons across all libraries` :
-                    `${displayedIcons.length.toLocaleString()} icons`
-                  }
+                  {displayedIcons.length.toLocaleString()} icons
                 </p>
               )}
             </div>
@@ -422,7 +229,7 @@ function IconGridPage() {
             {showLoadingAnimation ? (
               <div className="flex-1 flex items-center justify-center h-full">
                 <LoadingWithTagline 
-                  minDuration={3000}
+                  minDuration={2000}
                   onMinDurationComplete={() => setMinDurationComplete(true)}
                 />
               </div>
@@ -434,70 +241,51 @@ function IconGridPage() {
                     <p className="font-medium">Failed to load icons</p>
                     <p className="text-sm text-muted-foreground mt-1">{error}</p>
                     <button
-                      onClick={clearError}
-                      className="mt-3 text-sm text-primary hover:text-primary/80 underline"
+                      onClick={() => loadIcons(sampleIcons)}
+                      className="mt-3 text-sm text-primary hover:underline"
                     >
                       Try again
                     </button>
                   </AlertDescription>
                 </Alert>
               </div>
-            ) : displayedIcons.length === 0 && !loading ? (
-              <div className="flex h-64 items-center justify-center text-center px-6">
-                <div className="space-y-2">
-                  <p className="text-lg text-muted-foreground">
-                    {selectedSet === "favorites" ? "No favorites yet" : 
-                     searchQuery ? "No icons found" : "No icons available"}
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    {selectedSet === "favorites" 
-                      ? "Tap library menu to browse icons"
-                      : searchQuery
-                      ? "Try a different search term"
-                      : "Tap library menu to select icons"
-                    }
-                  </p>
-                </div>
-              </div>
             ) : (
-              // Mobile icon grid
-              (selectedSet === "all" && !searchQuery.trim() && sections.length > 0) || 
-              (selectedSet === "all" && searchQuery.trim() && groupedSearchSections.length > 0) ? (
-                <SectionedIconGrid
-                  sections={searchQuery.trim() ? groupedSearchSections : sections}
-                  selectedId={selectedId}
-                  onCopy={handleCopy}
+              <div className="px-4 pb-6">
+                {/* Category Filter */}
+                {availableCategories.length > 0 && (
+                  <div className="mb-4">
+                    <CategoryFilter
+                      categories={availableCategories}
+                      selectedCategory={selectedCategory}
+                      onCategoryChange={setSelectedCategory}
+                    />
+                  </div>
+                )}
+
+                {/* Icon Grid */}
+                <SimpleIconGrid
+                  icons={displayedIcons}
                   onIconClick={handleIconClick}
-                  color={customization.color}
-                  strokeWidth={customization.strokeWidth}
-                />
-              ) : (
-                <IconGrid
-                  items={displayedIcons}
-                  selectedId={selectedId}
                   onCopy={handleCopy}
-                  onIconClick={handleIconClick}
-                  color={customization.color}
-                  strokeWidth={customization.strokeWidth}
                 />
-              )
+              </div>
             )}
           </main>
         </div>
 
-        {/* Mobile drawers and sheets */}
+        {/* Mobile Drawers/Sheets */}
         <MobileLibraryDrawer
           isOpen={showLibraryDrawer}
           onClose={() => setShowLibraryDrawer(false)}
           selectedSet={selectedSet}
           onSetChange={handleMobileSetChange}
         />
-        
+
         <MobileCustomizeSheet
           isOpen={showCustomizeSheet}
           onClose={() => setShowCustomizeSheet(false)}
         />
-        
+
         <MobileIconActions
           isOpen={showIconActions}
           onClose={() => setShowIconActions(false)}
@@ -506,182 +294,84 @@ function IconGridPage() {
       </>
     );
   }
-  
+
   // Desktop layout
   return (
     <SidebarProvider>
-      <div className="flex h-screen w-full overflow-hidden">{/* Fixed viewport height */}
-        <AppSidebar 
+      <div className="flex h-screen w-full">
+        <AppSidebar
           selectedSet={selectedSet}
           onSetChange={setSelectedSet}
         />
-        
-        <div className="flex-1 flex flex-col h-screen">{/* Fixed layout container */}
-          <Header 
+
+        <main className="flex-1 flex flex-col overflow-hidden">
+          <Header
             searchQuery={searchQuery}
             onSearchChange={setSearchQuery}
             onSearchClear={() => setSearchQuery("")}
           />
-          
-          {/* Fixed header with padding */}
-          <div className="px-6 pt-6 pb-4 border-b border-border/30 bg-background">
-            <div className="space-y-3">
-              <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-                <div className="space-y-1">
-                    <h2 className="text-2xl font-semibold">
-                    {selectedSet === "all" ? "All icons" : 
-                     selectedSet === "favorites" ? "Favorites" : 
-                     selectedSet === "material" ? "Material Design Icons" :
-                     selectedSet === "animated" ? "Animated Icons" :
-                     selectedSet === "lucide" ? "Lucide Icons" :
-                     selectedSet === "feather" ? "Feather Icons" :
-                     selectedSet === "phosphor" ? "Phosphor Icons" :
-                     selectedSet === "tabler" ? "Tabler Icons" :
-                     selectedSet === "bootstrap" ? "Bootstrap Icons" :
-                     selectedSet === "remix" ? "Remix Icons" :
-                     selectedSet === "boxicons" ? "Boxicons" :
-                     selectedSet === "css-gg" ? "CSS.GG Icons" :
-                     selectedSet === "iconsax" ? "Iconsax Icons" :
-                      selectedSet === "atlas" ? "Atlas Icons" :
-                      selectedSet === "solar" ? "Solar Icons" :
-                      selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
-                  </h2>
-                   <p className="text-sm text-muted-foreground">
-                      {searchQuery && searchTotalCount > (groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0) : displayedIcons.length) ? (
-                        <>
-                          Showing {groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0).toLocaleString() : displayedIcons.length.toLocaleString()} of {searchTotalCount.toLocaleString()} icons matching "{searchQuery}"
-                          {selectedCategory && ` in ${selectedCategory}`}
-                        </>
-                      ) : searchQuery ? (
-                        <>
-                          {groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0).toLocaleString() : displayedIcons.length.toLocaleString()} icons matching "{searchQuery}"
-                          {selectedCategory && ` in ${selectedCategory}`}
-                        </>
-                      ) : (
-                        <>
-                          {(() => {
-                            if (selectedSet === "all") return totalCount.toLocaleString();
-                            if (selectedSet === "animated") {
-                              const animatedLib = libraries.find(lib => lib.id === "animated");
-                              return animatedLib ? animatedLib.count.toLocaleString() : "0";
-                            }
-                            const selectedLib = libraries.find(lib => lib.id === selectedSet);
-                            return selectedLib ? selectedLib.count.toLocaleString() : "0";
-                          })()} icons
-                          {selectedCategory && ` in ${selectedCategory}`}
-                        </>
-                      )}
-                    </p>
-                </div>
-                
-                <div className="flex items-center">
-                  <CategoryFilter 
-                    categories={availableCategories}
-                    selectedCategory={selectedCategory}
-                    onCategoryChange={setSelectedCategory}
+
+          {showLoadingAnimation ? (
+            <div className="flex-1 flex items-center justify-center">
+              <LoadingWithTagline 
+                minDuration={2000}
+                onMinDurationComplete={() => setMinDurationComplete(true)}
+              />
+            </div>
+          ) : error ? (
+            <div className="flex-1 flex items-center justify-center text-center px-6">
+              <Alert className="max-w-md">
+                <AlertCircle className="h-4 w-4" />
+                <AlertDescription className="mt-2">
+                  <p className="font-medium">Failed to load icons</p>
+                  <p className="text-sm text-muted-foreground mt-1">{error}</p>
+                  <button
+                    onClick={() => loadIcons(sampleIcons)}
+                    className="mt-3 text-sm text-primary hover:underline"
+                  >
+                    Try again
+                  </button>
+                </AlertDescription>
+              </Alert>
+            </div>
+          ) : (
+            <div className="flex-1 flex overflow-hidden">
+              <div className="flex-1 flex flex-col overflow-hidden">
+                <div className="flex-1 overflow-auto p-6">
+                  {/* Category Filter */}
+                  {availableCategories.length > 0 && (
+                    <div className="mb-6">
+                      <CategoryFilter
+                        categories={availableCategories}
+                        selectedCategory={selectedCategory}
+                        onCategoryChange={setSelectedCategory}
+                      />
+                    </div>
+                  )}
+
+                  {/* Icon Grid */}
+                  <SimpleIconGrid
+                    icons={displayedIcons}
+                    onIconClick={handleIconClick}
+                    onCopy={handleCopy}
                   />
                 </div>
               </div>
-            </div>
-          </div>
 
-          {/* Scrollable main content */}
-          <main className="flex-1 overflow-hidden">
-            {showLoadingAnimation ? (
-              <div className="flex-1 flex items-center justify-center h-full">
-                <LoadingWithTagline 
-                  minDuration={3000}
-                  onMinDurationComplete={() => setMinDurationComplete(true)}
-                />
-              </div>
-            ) : error ? (
-              <div className="flex h-64 items-center justify-center text-center px-6">
-                <Alert className="max-w-md">
-                  <AlertCircle className="h-4 w-4" />
-                  <AlertDescription className="mt-2">
-                    <p className="font-medium">Failed to load icons</p>
-                    <p className="text-sm text-muted-foreground mt-1">{error}</p>
-                    <button
-                      onClick={clearError}
-                      className="mt-3 text-sm text-primary hover:text-primary/80 underline"
-                    >
-                      Try again
-                    </button>
-                  </AlertDescription>
-                </Alert>
-              </div>
-            ) : displayedIcons.length === 0 && !loading ? (
-              <div className="flex h-64 items-center justify-center text-center px-6">
-                <div className="space-y-2">
-                  <p className="text-lg text-muted-foreground">
-                    {selectedSet === "favorites" ? "No favorites yet" : 
-                     searchQuery ? "No icons found" : "No icons available"}
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    {selectedSet === "favorites" 
-                      ? "Star some icons to see them here"
-                      : searchQuery
-                      ? `Try a different search term or select a different library`
-                      : "Select a library from the sidebar to get started"
-                    }
-                  </p>
-                </div>
-              </div>
-            ) : (
-              // Use SectionedIconGrid for: 1) "all icons" without search, OR 2) "all icons" with search results
-              (selectedSet === "all" && !searchQuery.trim() && filteredSections.length > 0) ||
-               (selectedSet === "all" && searchQuery.trim() && groupedSearchSections.length > 0) ? (
-                <SectionedIconGrid
-                  sections={searchQuery.trim() ? groupedSearchSections : filteredSections}
-                  selectedId={selectedId}
-                  onCopy={handleCopy}
-                  onIconClick={handleIconClick}
-                  color={customization.color}
-                  strokeWidth={customization.strokeWidth}
-                />
-              ) : (
-                <IconGrid
-                  items={displayedIcons}
-                  selectedId={selectedId}
-                  onCopy={handleCopy}
-                  onIconClick={handleIconClick}
-                  color={customization.color}
-                  strokeWidth={customization.strokeWidth}
-                  libraryName={selectedSet !== "all" ? (
-                    selectedSet === "favorites" ? "Favorites" : 
-                    selectedSet === "material" ? "Material Design Icons" :
-                    selectedSet === "animated" ? "Animated Icons" :
-                    selectedSet === "lucide" ? "Lucide Icons" :
-                    selectedSet === "feather" ? "Feather Icons" :
-                    selectedSet === "phosphor" ? "Phosphor Icons" :
-                    selectedSet === "tabler" ? "Tabler Icons" :
-                    selectedSet === "bootstrap" ? "Bootstrap Icons" :
-                    selectedSet === "remix" ? "Remix Icons" :
-                    selectedSet === "boxicons" ? "Boxicons" :
-                    selectedSet === "css-gg" ? "CSS.GG Icons" :
-                    selectedSet === "iconsax" ? "Iconsax Icons" :
-                    selectedSet === "atlas" ? "Atlas Icons" :
-                    selectedSet === "solar" ? "Solar Icons" :
-                    selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
-                  ) : undefined}
-                />
-              )
-            )}
-          </main>
-          
-          <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
-            <p>Built by Ossian Design Lab • <a href="mailto:support@iconstack.io" className="hover:text-primary">Support</a></p>
-          </footer>
-        </div>
-        
-        <ControlPanel selectedIcon={selectedIcon} selectedSet={selectedSet} />
+              {/* Control Panel */}
+              <ControlPanel selectedIcon={selectedIcon} />
+            </div>
+          )}
+        </main>
       </div>
     </SidebarProvider>
   );
 }
 
-const Index = () => {
-  return <IconGridPage />;
-};
-
-export default Index;
+export default function Index() {
+  return (
+    <IconCustomizationProvider>
+      <IconGridPage />
+    </IconCustomizationProvider>
+  );
+}

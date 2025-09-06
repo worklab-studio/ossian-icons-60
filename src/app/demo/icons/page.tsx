@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { IconGrid } from "@/components/icon-grid/IconGrid";
+import { SimpleIconGrid } from "@/components/icon-grid/SimpleIconGrid";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Slider } from "@/components/ui/slider";
@@ -131,13 +131,9 @@ export default function IconsDemo() {
         </div>
 
         {/* Icon Grid */}
-        <IconGrid
-          items={filteredIcons}
-          selectedId={selectedId}
+        <SimpleIconGrid
+          icons={filteredIcons}
           onCopy={handleCopy}
-          color={color}
-          strokeWidth={strokeWidth[0]}
-          ariaLabel={`Icon browser showing ${filteredIcons.length} icons`}
         />
       </div>
     </div>

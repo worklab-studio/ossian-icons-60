@@ -11,7 +11,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { copyIcon } from "@/lib/copy";
 import { getSimpleSvg, downloadFile, copyToClipboard } from "@/lib/simple-helpers";
 import { supportsStrokeWidth } from "@/lib/icon-utils";
-// Dynamic import for GIF functionality to reduce bundle size
+// GIF export removed to reduce bundle size
 
 // Force HMR refresh - no Card components used in this file
 
@@ -334,112 +334,11 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
     }
   };
 
-  const handleDownloadGIF = async () => {
-    if (!selectedIcon) {
-      toast({
-        description: "Please select an icon first",
-        variant: "destructive",
-        duration: 2000
-      });
-      return;
-    }
-
-    try {
-      toast({
-        description: "Generating GIF... This may take a moment",
-        duration: 3000
-      });
-
-      const svgContent = getCustomizedSVG();
-      
-      // Dynamic import to reduce bundle size
-      const { default: GIF } = await import('gif.js');
-      
-      // Create GIF using gif.js
-      const gif = new (GIF as any)({
-        workers: 2,
-        quality: 10,
-        width: 200,
-        height: 200,
-        transparent: 0x000000
-      });
-
-      // Create frames by capturing the animated SVG at different time intervals
-      const frameCount = 60; // Number of frames
-      const duration = 2000; // Animation duration in ms
-      const frameDelay = duration / frameCount;
-
-      // Create a container for the SVG
-      const container = document.createElement('div');
-      container.style.position = 'absolute';
-      container.style.left = '-9999px';
-      container.style.width = '200px';
-      container.style.height = '200px';
-      document.body.appendChild(container);
-
-      // Create SVG element
-      const svgElement = document.createElement('div');
-      svgElement.innerHTML = svgContent;
-      svgElement.style.width = '200px';
-      svgElement.style.height = '200px';
-      container.appendChild(svgElement);
-
-      // Capture frames
-      for (let i = 0; i < frameCount; i++) {
-        const canvas = document.createElement('canvas');
-        canvas.width = 200;
-        canvas.height = 200;
-        const ctx = canvas.getContext('2d');
-        
-        if (ctx) {
-          // Create image from SVG
-          const img = document.createElement('img');
-          const svgBlob = new Blob([svgContent], { type: 'image/svg+xml;charset=utf-8' });
-          const url = URL.createObjectURL(svgBlob);
-          
-          await new Promise<void>((resolve) => {
-            img.onload = () => {
-              ctx.fillStyle = 'transparent';
-              ctx.fillRect(0, 0, 200, 200);
-              ctx.drawImage(img, 0, 0, 200, 200);
-              gif.addFrame(canvas, { delay: frameDelay });
-              URL.revokeObjectURL(url);
-              resolve();
-            };
-            img.src = url;
-          });
-        }
-      }
-
-      // Clean up container
-      document.body.removeChild(container);
-
-      // Render GIF
-      gif.on('finished', function(blob: Blob) {
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.download = `${selectedIcon.name}.gif`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(url);
-        
-        toast({
-          description: `${selectedIcon.name}.gif downloaded successfully!`,
-          duration: 2000
-        });
-      });
-
-      gif.render();
-      
-    } catch (error) {
-      toast({
-        description: "Failed to generate GIF",
-        variant: "destructive",
-        duration: 2000
-      });
-    }
+  const handleDownloadGIF = () => {
+    toast({
+      description: "GIF export has been temporarily disabled to improve performance",
+      variant: "default",
+    });
   };
 
   return (

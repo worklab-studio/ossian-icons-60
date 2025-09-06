@@ -1,7 +1,12 @@
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { useIconLibraryMetadata } from "@/hooks/useAsyncIconLibrary";
+// Mock library metadata for simplified version
+const libraries = [
+  { id: 'lucide', name: 'Lucide', count: 1000 },
+  { id: 'feather', name: 'Feather', count: 286 },
+  { id: 'material', name: 'Material', count: 8000 }
+];
 import { Layers, Sparkles } from "lucide-react";
 
 const iconMap: Record<string, any> = {
@@ -32,7 +37,7 @@ export function MobileLibraryDrawer({
   selectedSet,
   onSetChange,
 }: MobileLibraryDrawerProps) {
-  const { libraries } = useIconLibraryMetadata();
+  // Use mock libraries data
 
   const handleSetChange = (setId: string) => {
     onSetChange(setId);

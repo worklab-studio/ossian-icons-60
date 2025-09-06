@@ -3,7 +3,13 @@ import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGrou
 import { cn } from "@/lib/utils";
 import { AnimatedPlayIcon } from "@/components/animated-play-icon";
 import { IconstackLogo } from "@/components/iconstack-logo";
-import { useIconLibraryMetadata } from "@/hooks/useAsyncIconLibrary";
+// Mock library metadata for simplified version
+const libraries = [
+  { id: 'lucide', name: 'Lucide', count: 1000 },
+  { id: 'feather', name: 'Feather', count: 286 },
+  { id: 'material', name: 'Material', count: 8000 }
+];
+const totalCount = 50000;
 
 // Icon mappings for UI
 const iconMap = {
@@ -41,7 +47,6 @@ interface AppSidebarProps {
 }
 
 export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
-  const { libraries, totalCount } = useIconLibraryMetadata();
   
   // Create top navigation items
   const topNavItems = [
