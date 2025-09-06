@@ -30,7 +30,7 @@ import { HapticsManager } from "@/lib/haptics";
 
 function IconGridPage() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedSet, setSelectedSet] = useState("all");
+  const [selectedSet, setSelectedSet] = useState("lucide"); // Start with lucide to show the 4 icons
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<IconItem[]>([]);
@@ -45,7 +45,7 @@ function IconGridPage() {
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
   const [showIconActions, setShowIconActions] = useState(false);
 
-  // Load Lucide first as priority (since it's the only library with data)
+  // Start with Lucide as the selected library to show the 4 icons immediately
   const priorityLibrary = 'lucide';
 
   // Visited user state for smart loading
@@ -100,31 +100,21 @@ function IconGridPage() {
 
   // Fallback timeout removed - just keep loading until ready
 
-  // Load Tabler first for immediate display, then load all libraries
+  // Load Lucide first for immediate display
   useEffect(() => {
     const loadIcons = async () => {
       try {
-        // If returning user with cache, load immediately without animation
-        if (shouldSkipLoading) {
-          console.log('Fast loading for returning user');
-          await loadLibrary(priorityLibrary);
-          loadAllLibrariesSectioned();
-          return;
-        }
-
-        // Load Lucide first for immediate display
+        console.log('Loading Lucide icons...');
+        // Always load Lucide first since it's the only library with data
         await loadLibrary(priorityLibrary);
-        // Load all other libraries in parallel for faster loading
-        loadAllLibrariesSectioned();
+        console.log('Lucide icons loaded successfully');
       } catch (error) {
-        console.error('Failed to load priority library:', error);
-        // Fallback to loading all libraries
-        loadAllLibrariesSectioned();
+        console.error('Failed to load Lucide library:', error);
       }
     };
     
     loadIcons();
-  }, [loadLibrary, loadAllLibrariesSectioned, priorityLibrary, shouldSkipLoading]);
+  }, [loadLibrary, priorityLibrary]);
 
   // Load specific library when selection changes (after initial load)
   useEffect(() => {
