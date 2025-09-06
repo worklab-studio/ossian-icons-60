@@ -43,11 +43,11 @@ function normalizeStyleColors(svgContent: string): string {
 function normalizeAttributeColors(svgContent: string): string {
   return svgContent
     // Normalize fill attributes (preserve fill="none" and fill="transparent")
-    .replace(/fill="(?!none|transparent|inherit|currentColor)([^"]+)"/gi, 'fill="currentColor"')
-    // Normalize stroke attributes (preserve stroke="none" and stroke="transparent")
-    .replace(/stroke="(?!none|transparent|inherit|currentColor)([^"]+)"/gi, 'stroke="currentColor"')
+    .replace(/\bfill="(?!none|transparent|inherit|currentColor)([^"]+)"/gi, 'fill="currentColor"')
+    // Normalize stroke attributes but only the color value, not other stroke attributes
+    .replace(/\bstroke="(?!none|transparent|inherit|currentColor)([^"]+)"/gi, 'stroke="currentColor"')
     // Normalize stop-color attributes in gradients
-    .replace(/stop-color="(?!none|transparent|inherit|currentColor)([^"]+)"/gi, 'stop-color="currentColor"');
+    .replace(/\bstop-color="(?!none|transparent|inherit|currentColor)([^"]+)"/gi, 'stop-color="currentColor"');
 }
 
 /**
