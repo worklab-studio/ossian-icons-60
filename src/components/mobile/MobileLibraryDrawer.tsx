@@ -2,21 +2,10 @@ import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from "@/components/u
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useIconLibraryMetadata } from "@/hooks/useAsyncIconLibrary";
-import { Layers, Sparkles } from "lucide-react";
+import { Layers, Zap } from "lucide-react";
 
 const iconMap: Record<string, any> = {
-  lucide: Layers,
-  material: Layers,
-  feather: Layers,
-  phosphor: Layers,
-  tabler: Layers,
-  bootstrap: Layers,
-  remix: Layers,
-  boxicons: Layers,
-  "css-gg": Layers,
-  iconsax: Layers,
-  atlas: Layers,
-  solar: Layers,
+  lucide: Zap,
 };
 
 interface MobileLibraryDrawerProps {
@@ -62,14 +51,6 @@ export function MobileLibraryDrawer({
               <Layers className="mr-3 h-4 w-4" />
               All Icons
             </Button>
-            <Button
-              variant={selectedSet === "animated" ? "secondary" : "ghost"}
-              className="w-full justify-start h-10"
-              onClick={() => handleSetChange("animated")}
-            >
-              <Sparkles className="mr-3 h-4 w-4" />
-              Animated
-            </Button>
           </div>
         </div>
 
@@ -80,27 +61,25 @@ export function MobileLibraryDrawer({
               Libraries
             </h3>
             <div className="space-y-1">
-              {libraries
-                .filter(lib => lib.id !== "animated")
-                .map((library) => {
-                  const IconComponent = iconMap[library.id] || Layers;
-                  return (
-                    <Button
-                      key={library.id}
-                      variant={selectedSet === library.id ? "secondary" : "ghost"}
-                      className="w-full justify-between h-10"
-                      onClick={() => handleSetChange(library.id)}
-                    >
-                      <div className="flex items-center">
-                        <IconComponent className="mr-3 h-4 w-4" />
-                        {library.name}
-                      </div>
-                      <span className="text-xs text-muted-foreground">
-                        {library.count.toLocaleString()}
-                      </span>
-                    </Button>
-                  );
-                })}
+              {libraries.map((library) => {
+                const IconComponent = iconMap[library.id] || Zap;
+                return (
+                  <Button
+                    key={library.id}
+                    variant={selectedSet === library.id ? "secondary" : "ghost"}
+                    className="w-full justify-between h-10"
+                    onClick={() => handleSetChange(library.id)}
+                  >
+                    <div className="flex items-center">
+                      <IconComponent className="mr-3 h-4 w-4" />
+                      {library.name}
+                    </div>
+                    <span className="text-xs text-muted-foreground">
+                      {library.count.toLocaleString()}
+                    </span>
+                  </Button>
+                );
+              })}
             </div>
           </div>
         </ScrollArea>

@@ -1,4 +1,4 @@
-import { Package2, Home, Layers, Map, Grid3X3, Box, Code2, Feather, Zap, Crown, Palette, Atom, Gamepad2, Music, TestTube, Circle, Table, Play, Globe, Minus, Hash, Bug, Workflow, GitBranch, Component, Sparkles, Sun } from "lucide-react";
+import { Home, Zap } from "lucide-react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarSeparator } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
 import { AnimatedPlayIcon } from "@/components/animated-play-icon";
@@ -7,33 +7,8 @@ import { useIconLibraryMetadata } from "@/hooks/useAsyncIconLibrary";
 
 // Icon mappings for UI
 const iconMap = {
-  material: Sparkles,
-  atlas: Globe,
   lucide: Zap,
-  feather: Feather,
-  solar: Sun,
-  phosphor: Atom,
-  tabler: Table,
-  bootstrap: Layers,
-  remix: Music,
-  boxicons: Package2,
-  'css-gg': Code2,
-  iconsax: Crown,
-  line: Minus,
-  pixelart: Hash,
-  teeny: Circle,
-  ant: Bug,
-  fluent: Workflow,
-  iconnoir: Palette,
-  octicons: GitBranch,
-  radix: Component,
-  animated: AnimatedPlayIcon,
 };
-
-// Placeholder libraries (coming soon)
-const placeholderLibraries = [
-  // All libraries are now active!
-];
 
 interface AppSidebarProps {
   selectedSet: string;
@@ -50,12 +25,6 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
       id: "all",
       count: totalCount,
       icon: Home
-    },
-    {
-      name: "Animated",
-      id: "animated", 
-      count: libraries.find(lib => lib.id === 'animated')?.count || 0,
-      icon: AnimatedPlayIcon
     }
   ];
 
@@ -120,30 +89,28 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {libraries
-                .filter(lib => lib.id !== 'animated') // Exclude animated from main libraries
-                .map((library) => {
-                  const IconComponent = iconMap[library.id as keyof typeof iconMap] || Box;
-                  return (
-                    <SidebarMenuItem key={library.id}>
-                      <SidebarMenuButton 
-                        onClick={() => onSetChange(library.id)}
-                        className={cn(
-                          "w-full justify-between gap-3 text-sm",
-                          selectedSet === library.id && "bg-accent text-accent-foreground font-medium"
-                        )}
-                      >
-                        <div className="flex items-center gap-3">
-                          <IconComponent className="h-4 w-4" />
-                          <span>{library.name}</span>
-                        </div>
-                        <span className="text-xs text-muted-foreground tabular-nums">
-                          {library.count.toLocaleString()}
-                        </span>
-                      </SidebarMenuButton>
-                    </SidebarMenuItem>
-                  );
-                })}
+              {libraries.map((library) => {
+                const IconComponent = iconMap[library.id as keyof typeof iconMap] || Zap;
+                return (
+                  <SidebarMenuItem key={library.id}>
+                    <SidebarMenuButton 
+                      onClick={() => onSetChange(library.id)}
+                      className={cn(
+                        "w-full justify-between gap-3 text-sm",
+                        selectedSet === library.id && "bg-accent text-accent-foreground font-medium"
+                      )}
+                    >
+                      <div className="flex items-center gap-3">
+                        <IconComponent className="h-4 w-4" />
+                        <span>{library.name}</span>
+                      </div>
+                      <span className="text-xs text-muted-foreground tabular-nums">
+                        {library.count.toLocaleString()}
+                      </span>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                );
+              })}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

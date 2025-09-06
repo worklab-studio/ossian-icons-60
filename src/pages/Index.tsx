@@ -45,8 +45,8 @@ function IconGridPage() {
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
   const [showIconActions, setShowIconActions] = useState(false);
 
-  // Load Tabler first as priority
-  const priorityLibrary = 'tabler';
+  // Load Lucide as our only library
+  const primaryLibrary = 'lucide';
 
   // Visited user state for smart loading
   const { shouldSkipLoading, markLoadingSeen, hasCachedData } = useVisitedUser();
@@ -90,7 +90,7 @@ function IconGridPage() {
 
     // Hide loading only when both conditions are met:
     // 1. Minimum duration has passed  
-    // 2. Tabler icons are loaded (priority library)
+    // 2. Lucide icons are loaded (primary library)
     if (minDurationComplete && loaded && icons.length > 0) {
       setShowLoadingAnimation(false);
       // Mark that user has seen the loading animation
@@ -100,45 +100,33 @@ function IconGridPage() {
 
   // Fallback timeout removed - just keep loading until ready
 
-  // Load Tabler first for immediate display, then load all libraries
+  // Load Lucide icons
   useEffect(() => {
     const loadIcons = async () => {
       try {
         // If returning user with cache, load immediately without animation
         if (shouldSkipLoading) {
           console.log('Fast loading for returning user');
-          await loadLibrary(priorityLibrary);
-          loadAllLibrariesSectioned();
+          await loadLibrary(primaryLibrary);
           return;
         }
 
-        // Load Tabler first for immediate display
-        await loadLibrary(priorityLibrary);
-        // Load all other libraries in parallel for faster loading
-        loadAllLibrariesSectioned();
+        // Load Lucide icons
+        await loadLibrary(primaryLibrary);
       } catch (error) {
-        console.error('Failed to load priority library:', error);
-        // Fallback to loading all libraries
-        loadAllLibrariesSectioned();
+        console.error('Failed to load Lucide library:', error);
       }
     };
     
     loadIcons();
-  }, [loadLibrary, loadAllLibrariesSectioned, priorityLibrary, shouldSkipLoading]);
+  }, [loadLibrary, primaryLibrary, shouldSkipLoading]);
 
   // Load specific library when selection changes (after initial load)
   useEffect(() => {
-    if (loaded && selectedSet !== "all") {
-      loadLibraryProgressive(selectedSet);
+    if (loaded && selectedSet !== "all" && selectedSet === "lucide") {
+      loadLibrary(selectedSet);
     }
-  }, [selectedSet, loadLibraryProgressive, loaded]);
-
-  // Load all libraries when switching back to "All Icons"
-  useEffect(() => {
-    if (loaded && selectedSet === "all") {
-      loadAllLibrariesSectioned();
-    }
-  }, [selectedSet, loadAllLibrariesSectioned, loaded]);
+  }, [selectedSet, loadLibrary, loaded]);
 
   // Index loaded icons for search - with error handling
   useEffect(() => {
@@ -377,28 +365,7 @@ function IconGridPage() {
             >
               <h1 className="text-lg font-semibold">
                 {selectedSet === "all" ? "All Icons" : 
-                 selectedSet === "favorites" ? "Favorites" : 
-                 selectedSet === "material" ? "Material Design Icons" :
-                 selectedSet === "animated" ? "Animated Icons" :
                  selectedSet === "lucide" ? "Lucide Icons" :
-                 selectedSet === "feather" ? "Feather Icons" :
-                 selectedSet === "phosphor" ? "Phosphor Icons" :
-                 selectedSet === "tabler" ? "Tabler Icons" :
-                 selectedSet === "bootstrap" ? "Bootstrap Icons" :
-                 selectedSet === "remix" ? "Remix Icons" :
-                 selectedSet === "boxicons" ? "Boxicons" :
-                 selectedSet === "css-gg" ? "CSS.GG Icons" :
-                 selectedSet === "iconsax" ? "Iconsax Icons" :
-                 selectedSet === "atlas" ? "Atlas Icons" :
-                 selectedSet === "solar" ? "Solar Icons" :
-                 selectedSet === "octicons" ? "Octicons" :
-                 selectedSet === "radix" ? "Radix Icons" :
-                 selectedSet === "antd" ? "Ant Design Icons" :
-                 selectedSet === "fluent" ? "Fluent Icons" :
-                 selectedSet === "iconnoir" ? "Iconoir Icons" :
-                 selectedSet === "teeny" ? "Teeny Icons" :
-                 selectedSet === "pixelart" ? "Pixel Art Icons" :
-                 selectedSet === "lineicons" ? "Line Icons" :
                  "Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">

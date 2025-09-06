@@ -27,10 +27,12 @@ class IconLibraryManager {
   private searchIndex = new Map<string, Set<string>>();
 
   // Library metadata
-  public readonly libraries: IconLibraryMetadata[] = [];
+  public readonly libraries: IconLibraryMetadata[] = [
+    { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' }
+  ];
 
   // Popular libraries to preload for better UX
-  private readonly popularLibraries: string[] = [];
+  private readonly popularLibraries: string[] = ['lucide'];
 
   constructor() {
     // Clean up old cache entries on startup
@@ -44,9 +46,14 @@ class IconLibraryManager {
     }, 5 * 60 * 1000); // Every 5 minutes
   }
 
-  // Dynamic import functions for each library - all empty now (clean slate)
+  // Dynamic import library
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
-    console.warn(`Library ${libraryId} not available - no icon data loaded`);
+    if (libraryId === 'lucide') {
+      const { lucideIcons } = await import('@/data/lucide-icons');
+      return lucideIcons;
+    }
+    
+    console.warn(`Library ${libraryId} is not supported`);
     return [];
   }
 
