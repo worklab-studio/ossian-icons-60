@@ -2,39 +2,14 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { type IconItem } from "@/types/icon";
 import { optimizeSvg } from "./svg-optimize";
+import { detectLibraryFromIconId, applyStrokeConfiguration } from "@/Data/stroke-config";
 
 /**
+ * @deprecated Use detectLibraryFromIconId from stroke-config instead
  * Detect icon library from icon ID for library-specific handling
  */
 function detectIconLibrary(iconId: string): string {
-  if (iconId.startsWith('tabler-')) return 'tabler';
-  if (iconId.startsWith('lucide-')) return 'lucide';
-  if (iconId.startsWith('atlas-')) return 'atlas';
-  if (iconId.startsWith('phosphor-')) return 'phosphor';
-  if (iconId.startsWith('boxicons-')) return 'boxicons';
-  if (iconId.startsWith('octicons-')) return 'octicons';
-  if (iconId.startsWith('bootstrap-')) return 'bootstrap';
-  if (iconId.startsWith('remix-')) return 'remix';
-  if (iconId.startsWith('material-')) return 'material';
-  if (iconId.startsWith('feather-')) return 'feather';
-  if (iconId.startsWith('heroicons-')) return 'heroicons';
-  if (iconId.startsWith('radix-')) return 'radix';
-  if (iconId.startsWith('css-gg-')) return 'css-gg';
-  if (iconId.startsWith('fluent-')) return 'fluent';
-  if (iconId.startsWith('iconsax-')) return 'iconsax';
-  if (iconId.startsWith('iconoir-')) return 'iconoir';
-  if (iconId.startsWith('solar-')) return 'solar';
-  if (iconId.startsWith('teeny-')) return 'teeny';
-  if (iconId.startsWith('ant-')) return 'ant';
-  if (iconId.startsWith('line-')) return 'line';
-  if (iconId.startsWith('pixelart-')) return 'pixelart';
-  if (iconId.startsWith('carbon-')) return 'carbon';
-  if (iconId.startsWith('iconamoon-')) return 'iconamoon';
-  if (iconId.startsWith('mingcute-')) return 'mingcute';
-  if (iconId.startsWith('majesticon-')) return 'majesticons';
-  if (iconId.startsWith('sargam-')) return 'sargam';
-  if (iconId.startsWith('ikonate-')) return 'ikonate';
-  return 'unknown';
+  return detectLibraryFromIconId(iconId);
 }
 
 /**
@@ -276,16 +251,8 @@ export function buildCustomizedSvg(
         });
     }
     
-    // Step 5: Apply stroke-width (for outline icons that support it)
-    const supportsStroke = ['lucide', 'feather', 'tabler', 'heroicons', 'atlas'].includes(library);
-    if (strokeWidth !== 2 && supportsStroke) {
-      normalizedSvg = normalizedSvg
-        .replace(/stroke-width="[^"]*"/g, `stroke-width="${strokeWidth}"`)
-        .replace(/strokeWidth="[^"]*"/g, `stroke-width="${strokeWidth}"`) // Handle camelCase from React components
-        // Add stroke-width if missing but stroke exists
-        .replace(/(<[^>]*stroke="[^"]*"[^>]*?)(?![^>]*stroke-width)([^>]*>)/g, 
-          `$1 stroke-width="${strokeWidth}"$2`);
-    }
+    // Step 5: Apply stroke-width using configuration system
+    normalizedSvg = applyStrokeConfiguration(normalizedSvg, library, strokeWidth);
     
     // Step 6: Ensure proper SVG structure for export compatibility
     if (!normalizedSvg.includes('xmlns=')) {

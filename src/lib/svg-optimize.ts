@@ -3,6 +3,8 @@
  * Normalizes all SVGs to use currentColor as the baseline for consistent theming
  */
 
+import { getStrokeConfig } from "@/Data/stroke-config";
+
 /**
  * Normalize SVG styles and attributes to use currentColor
  * This creates a consistent baseline for color customization
@@ -220,10 +222,11 @@ function processLibrarySpecificSvg(svgContent: string, library: string): string 
       break;
       
     case 'fluent-ui':
-      // FluentUI icons have hardcoded stroke-width="2" that conflicts with customization
-      processed = processed.replace(/\s*stroke-width="[^"]*"/gi, '');
-      // Also remove any stroke-width in style attributes
-      processed = processed.replace(/stroke-width:\s*[^;]+;?/gi, '');
+      // Use stroke configuration for FluentUI processing
+      const fluentConfig = getStrokeConfig('fluent-ui');
+      if (fluentConfig.customProcessor) {
+        processed = fluentConfig.customProcessor(processed);
+      }
       break;
   }
   

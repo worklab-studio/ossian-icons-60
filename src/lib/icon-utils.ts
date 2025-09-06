@@ -1,33 +1,23 @@
 import { type IconItem } from "@/types/icon";
+import { detectLibraryFromIconId, getStrokeConfig } from "@/Data/stroke-config";
 
 /**
  * Determines if an icon supports stroke width customization
- * Excludes filled, solid, bold, bulk icons, BoxIcons (which are primarily filled), and CSS.gg icons
+ * Uses centralized stroke configuration system
  */
 export function supportsStrokeWidth(icon: IconItem): boolean {
-  // Solar icons don't support stroke width customization
-  if (icon.id.startsWith('solar-')) {
+  const library = detectLibraryFromIconId(icon.id);
+  const config = getStrokeConfig(library);
+  
+  // Use library configuration first
+  if (!config.supportsCustomization) {
     return false;
   }
-
-  // CSS.gg icons don't support stroke width customization
-  if (icon.id.startsWith('css-gg-')) {
-    return false;
-  }
-
-  // FluentUI icons have hardcoded stroke-width and don't support customization
-  if (icon.id.startsWith('fluent-ui-')) {
-    return false;
-  }
-
-  // If no style is defined, check against known filled library prefixes
+  
+  // If library supports customization, check style-specific rules
   if (!icon.style) {
-    // Exception: BoxIcons and Ant icons don't have explicit style but are primarily filled
-    if (icon.id.startsWith('boxicons-') || icon.id.startsWith('ant-')) {
-      return false;
-    }
-    // Default: icons without style support stroke width (like Line icons, Radix icons)
-    return true;
+    // For icons without style, use library default support
+    return config.supportsCustomization;
   }
 
   // List of styles that explicitly support stroke width (outline/line variants)
@@ -61,8 +51,8 @@ export function supportsStrokeWidth(icon: IconItem): boolean {
     return false;
   }
   
-  // Default: assume it supports stroke width for unknown styles
-  return true;
+  // Default: use library configuration for unknown styles
+  return config.supportsCustomization;
 }
 
 /**
