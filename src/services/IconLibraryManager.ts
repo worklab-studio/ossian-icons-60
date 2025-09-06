@@ -77,6 +77,9 @@ class IconLibraryManager {
       case 'lucide':
         const { lucideIcons } = await import('@/data/lucide-icons');
         return lucideIcons;
+      case 'tabler':
+        const { tablerIcons } = await import('@/data/tabler-icons');
+        return tablerIcons;
       default:
         console.warn(`Library ${libraryId} not available - no icon data loaded`);
         return [];

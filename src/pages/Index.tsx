@@ -31,7 +31,7 @@ import { SimpleLucideTest } from "@/components/SimpleLucideTest";
 
 function IconGridPage() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedSet, setSelectedSet] = useState("lucide"); // Start with lucide to show the 4 icons
+  const [selectedSet, setSelectedSet] = useState("tabler"); // Start with tabler to show the new icon
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<IconItem[]>([]);
@@ -47,7 +47,7 @@ function IconGridPage() {
   const [showIconActions, setShowIconActions] = useState(false);
 
   // Start with Lucide as the selected library to show the 4 icons immediately
-  const priorityLibrary = 'lucide';
+  const priorityLibrary = 'tabler';
 
   // Visited user state (simplified - no loading animation)
   const { shouldSkipLoading, markLoadingSeen, hasCachedData } = useVisitedUser();
