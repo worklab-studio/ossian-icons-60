@@ -377,15 +377,60 @@ class IconLibraryManager {
       const icons = libraryMap.get(libraryId) || [];
       
       if (icons.length > 0 && libraryMeta) {
-        sections.push({
-          libraryId,
-          libraryName: libraryMeta.name,
-          icons
-        });
+        // Special handling for Solar icons - group by style
+        if (libraryId === 'solar') {
+          const styleGroups = this.groupSolarIconsByStyle(icons);
+          for (const [style, styleIcons] of styleGroups) {
+            sections.push({
+              libraryId: `${libraryId}-${style.toLowerCase().replace(' ', '-')}`,
+              libraryName: `${libraryMeta.name} - ${style}`,
+              icons: styleIcons
+            });
+          }
+        } else {
+          sections.push({
+            libraryId,
+            libraryName: libraryMeta.name,
+            icons
+          });
+        }
       }
     }
     
     return sections;
+  }
+
+  // Group Solar icons by style in the desired order
+  private groupSolarIconsByStyle(icons: IconItem[]): Map<string, IconItem[]> {
+    const styleOrder = ['Outline', 'Linear', 'Line Duotone', 'Broken', 'Bold Duotone', 'Bold'];
+    const styleGroups = new Map<string, IconItem[]>();
+    
+    // Initialize groups in order
+    styleOrder.forEach(style => {
+      styleGroups.set(style, []);
+    });
+    
+    // Group icons by style
+    icons.forEach(icon => {
+      const style = icon.style || 'Unknown';
+      const normalizedStyle = styleOrder.find(s => s.toLowerCase() === style.toLowerCase()) || 'Unknown';
+      
+      if (!styleGroups.has(normalizedStyle)) {
+        styleGroups.set(normalizedStyle, []);
+      }
+      styleGroups.get(normalizedStyle)!.push(icon);
+    });
+    
+    // Remove empty groups and return in order
+    const result = new Map<string, IconItem[]>();
+    styleOrder.forEach(style => {
+      const icons = styleGroups.get(style) || [];
+      if (icons.length > 0) {
+        result.set(style, icons);
+      }
+    });
+    
+    return result;
   }
 
   // Search across loaded libraries
