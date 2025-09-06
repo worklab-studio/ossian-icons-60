@@ -45,7 +45,7 @@ function IconGridPage() {
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
   const [showIconActions, setShowIconActions] = useState(false);
 
-  // Load Lucide as our only library
+  // Default to loading all libraries
   const primaryLibrary = 'lucide';
 
   // Visited user state for smart loading
@@ -100,33 +100,43 @@ function IconGridPage() {
 
   // Fallback timeout removed - just keep loading until ready
 
-  // Load Lucide icons
+  // Load initial icons based on selected set
   useEffect(() => {
     const loadIcons = async () => {
       try {
         // If returning user with cache, load immediately without animation
         if (shouldSkipLoading) {
           console.log('Fast loading for returning user');
-          await loadLibrary(primaryLibrary);
+          if (selectedSet === "all") {
+            await loadAllLibrariesSectioned();
+          } else {
+            await loadLibrary(selectedSet);
+          }
           return;
         }
 
-        // Load Lucide icons
-        await loadLibrary(primaryLibrary);
+        // Load icons based on selected set
+        if (selectedSet === "all") {
+          await loadAllLibrariesSectioned();
+        } else {
+          await loadLibrary(selectedSet);
+        }
       } catch (error) {
-        console.error('Failed to load Lucide library:', error);
+        console.error('Failed to load library:', error);
       }
     };
     
     loadIcons();
-  }, [loadLibrary, primaryLibrary, shouldSkipLoading]);
+  }, [loadLibrary, loadAllLibrariesSectioned, selectedSet, shouldSkipLoading]);
 
   // Load specific library when selection changes (after initial load)
   useEffect(() => {
-    if (loaded && selectedSet !== "all" && selectedSet === "lucide") {
+    if (loaded && selectedSet !== "all") {
       loadLibrary(selectedSet);
+    } else if (loaded && selectedSet === "all") {
+      loadAllLibrariesSectioned();
     }
-  }, [selectedSet, loadLibrary, loaded]);
+  }, [selectedSet, loadLibrary, loadAllLibrariesSectioned, loaded]);
 
   // Index loaded icons for search - with error handling
   useEffect(() => {
