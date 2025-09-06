@@ -35,8 +35,8 @@ function IconGridPage() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<IconItem[]>([]);
   const [searchTotalCount, setSearchTotalCount] = useState<number>(0);
-  const [showLoadingAnimation, setShowLoadingAnimation] = useState(true);
-  const [minDurationComplete, setMinDurationComplete] = useState(false);
+  const [showLoadingAnimation, setShowLoadingAnimation] = useState(false);
+  const [minDurationComplete, setMinDurationComplete] = useState(true);
   const { customization } = useIconCustomization();
 
   // Mobile state
@@ -78,25 +78,12 @@ function IconGridPage() {
     isSearching 
   } = useSearchWorker();
 
-  // Control loading animation visibility
+  // Control loading animation visibility - disabled
   useEffect(() => {
-    // Skip loading entirely for returning users with cache
-    if (shouldSkipLoading) {
-      console.log('Skipping loading animation for returning user with cache');
-      setShowLoadingAnimation(false);
-      setMinDurationComplete(true);
-      return;
-    }
-
-    // Hide loading only when both conditions are met:
-    // 1. Minimum duration has passed  
-    // 2. Lucide icons are loaded (primary library)
-    if (minDurationComplete && loaded && icons.length > 0) {
-      setShowLoadingAnimation(false);
-      // Mark that user has seen the loading animation
-      markLoadingSeen();
-    }
-  }, [minDurationComplete, loaded, icons.length, shouldSkipLoading, markLoadingSeen]);
+    // Loading animation is disabled
+    setShowLoadingAnimation(false);
+    setMinDurationComplete(true);
+  }, []);
 
   // Fallback timeout removed - just keep loading until ready
 
@@ -104,17 +91,6 @@ function IconGridPage() {
   useEffect(() => {
     const loadIcons = async () => {
       try {
-        // If returning user with cache, load immediately without animation
-        if (shouldSkipLoading) {
-          console.log('Fast loading for returning user');
-          if (selectedSet === "all") {
-            await loadAllLibrariesSectioned();
-          } else {
-            await loadLibrary(selectedSet);
-          }
-          return;
-        }
-
         // Load icons based on selected set
         if (selectedSet === "all") {
           await loadAllLibrariesSectioned();
@@ -127,7 +103,7 @@ function IconGridPage() {
     };
     
     loadIcons();
-  }, [loadLibrary, loadAllLibrariesSectioned, selectedSet, shouldSkipLoading]);
+  }, [loadLibrary, loadAllLibrariesSectioned, selectedSet]);
 
   // Load specific library when selection changes (after initial load)
   useEffect(() => {
