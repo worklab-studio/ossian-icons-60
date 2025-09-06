@@ -28,7 +28,6 @@ class IconLibraryManager {
 
   // Library metadata
   public readonly libraries: IconLibraryMetadata[] = [
-    { id: 'tabler', name: 'Tabler Icons', count: 6000, style: 'outline', description: 'Free SVG icons' },
     { id: 'phosphor', name: 'Phosphor', count: 9000, style: 'thin/light/regular/bold/fill/duotone', description: 'Flexible icon family' },
     { id: 'solar', name: 'Solar Icons', count: 7000, style: 'linear/bold/broken/outline', description: 'Solar design system icons' },
     { id: 'hugeicon', name: 'Hugeicons', count: 4800, style: 'stroke/solid', description: 'Huge collection of icons' },
@@ -57,7 +56,7 @@ class IconLibraryManager {
   ];
 
   // Popular libraries to preload for better UX
-  private readonly popularLibraries: string[] = ['lucide', 'phosphor', 'tabler', 'solar', 'iconoir'];
+  private readonly popularLibraries: string[] = ['lucide', 'phosphor', 'solar', 'iconoir'];
 
   constructor() {
     // Clean up old cache entries on startup
