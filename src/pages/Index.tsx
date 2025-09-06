@@ -87,32 +87,32 @@ function IconGridPage() {
 
   // Fallback timeout removed - just keep loading until ready
 
-  // Load initial icons based on selected set
+  // Load icons based on selected set - consolidated loading logic
   useEffect(() => {
     const loadIcons = async () => {
       try {
-        // Load icons based on selected set
+        console.log(`Loading icons for: ${selectedSet}`);
+        
         if (selectedSet === "all") {
+          console.log('Loading all libraries sectioned...');
           await loadAllLibrariesSectioned();
         } else {
+          console.log(`Loading library: ${selectedSet}`);
           await loadLibrary(selectedSet);
         }
+        
+        console.log(`Successfully loaded icons for: ${selectedSet}`, {
+          iconsCount: icons.length,
+          sectionsCount: sections.length,
+          loaded
+        });
       } catch (error) {
-        console.error('Failed to load library:', error);
+        console.error('Failed to load library:', selectedSet, error);
       }
     };
     
     loadIcons();
   }, [loadLibrary, loadAllLibrariesSectioned, selectedSet]);
-
-  // Load specific library when selection changes (after initial load)
-  useEffect(() => {
-    if (loaded && selectedSet !== "all") {
-      loadLibrary(selectedSet);
-    } else if (loaded && selectedSet === "all") {
-      loadAllLibrariesSectioned();
-    }
-  }, [selectedSet, loadLibrary, loadAllLibrariesSectioned, loaded]);
 
   // Index loaded icons for search - with error handling
   useEffect(() => {
@@ -546,6 +546,13 @@ function IconGridPage() {
                   minDuration={3000}
                   onMinDurationComplete={() => setMinDurationComplete(true)}
                 />
+              </div>
+            ) : loading ? (
+              <div className="flex-1 flex items-center justify-center h-full">
+                <div className="text-center space-y-2">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
+                  <p className="text-sm text-muted-foreground">Loading icons...</p>
+                </div>
               </div>
             ) : error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
