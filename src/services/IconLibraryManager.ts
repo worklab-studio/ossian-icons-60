@@ -71,19 +71,10 @@ class IconLibraryManager {
     }, 5 * 60 * 1000); // Every 5 minutes
   }
 
-  // Dynamic import functions for each library
+  // Dynamic import functions for each library - all empty now (clean slate)
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
-    switch (libraryId) {
-      case 'lucide':
-        const { lucideIcons } = await import('@/data/lucide-icons');
-        return lucideIcons;
-      case 'tabler':
-        const { tablerIcons } = await import('@/data/tabler-icons');
-        return tablerIcons;
-      default:
-        console.warn(`Library ${libraryId} not available - no icon data loaded`);
-        return [];
-    }
+    console.warn(`Library ${libraryId} not available - no icon data loaded`);
+    return [];
   }
 
   // Load library with caching and deduplication

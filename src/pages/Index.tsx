@@ -27,17 +27,16 @@ import { MobileLibraryDrawer } from "@/components/mobile/MobileLibraryDrawer";
 import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { MobileIconActions } from "@/components/mobile/MobileIconActions";
 import { HapticsManager } from "@/lib/haptics";
-import { SimpleLucideTest } from "@/components/SimpleLucideTest";
 
 function IconGridPage() {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedSet, setSelectedSet] = useState("tabler"); // Start with tabler to show the new icon
+  const [selectedSet, setSelectedSet] = useState("all");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<IconItem[]>([]);
   const [searchTotalCount, setSearchTotalCount] = useState<number>(0);
-  // Loading states (simplified - no animation)
-  const [minDurationComplete, setMinDurationComplete] = useState(true);
+  const [showLoadingAnimation, setShowLoadingAnimation] = useState(true);
+  const [minDurationComplete, setMinDurationComplete] = useState(false);
   const { customization } = useIconCustomization();
 
   // Mobile state
@@ -46,10 +45,10 @@ function IconGridPage() {
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
   const [showIconActions, setShowIconActions] = useState(false);
 
-  // Start with Lucide as the selected library to show the 4 icons immediately
+  // Load Tabler first as priority
   const priorityLibrary = 'tabler';
 
-  // Visited user state (simplified - no loading animation)
+  // Visited user state for smart loading
   const { shouldSkipLoading, markLoadingSeen, hasCachedData } = useVisitedUser();
   
   // Async icon loading
@@ -79,26 +78,53 @@ function IconGridPage() {
     isSearching 
   } = useSearchWorker();
 
-  // No loading animation - remove this entire effect
-  // Loading animation removed per user request
+  // Control loading animation visibility
+  useEffect(() => {
+    // Skip loading entirely for returning users with cache
+    if (shouldSkipLoading) {
+      console.log('Skipping loading animation for returning user with cache');
+      setShowLoadingAnimation(false);
+      setMinDurationComplete(true);
+      return;
+    }
+
+    // Hide loading only when both conditions are met:
+    // 1. Minimum duration has passed  
+    // 2. Tabler icons are loaded (priority library)
+    if (minDurationComplete && loaded && icons.length > 0) {
+      setShowLoadingAnimation(false);
+      // Mark that user has seen the loading animation
+      markLoadingSeen();
+    }
+  }, [minDurationComplete, loaded, icons.length, shouldSkipLoading, markLoadingSeen]);
 
   // Fallback timeout removed - just keep loading until ready
 
-  // Load Lucide icons with debugging
+  // Load Tabler first for immediate display, then load all libraries
   useEffect(() => {
     const loadIcons = async () => {
       try {
-        console.log('Starting to load Lucide icons...');
-        const result = await loadLibrary(priorityLibrary);
-        console.log('Lucide icons load result:', result);
-        console.log('Icons state after load:', icons);
+        // If returning user with cache, load immediately without animation
+        if (shouldSkipLoading) {
+          console.log('Fast loading for returning user');
+          await loadLibrary(priorityLibrary);
+          loadAllLibrariesSectioned();
+          return;
+        }
+
+        // Load Tabler first for immediate display
+        await loadLibrary(priorityLibrary);
+        // Load all other libraries in parallel for faster loading
+        loadAllLibrariesSectioned();
       } catch (error) {
-        console.error('Failed to load Lucide library:', error);
+        console.error('Failed to load priority library:', error);
+        // Fallback to loading all libraries
+        loadAllLibrariesSectioned();
       }
     };
     
     loadIcons();
-  }, [loadLibrary, priorityLibrary]);
+  }, [loadLibrary, loadAllLibrariesSectioned, priorityLibrary, shouldSkipLoading]);
 
   // Load specific library when selection changes (after initial load)
   useEffect(() => {
@@ -393,8 +419,14 @@ function IconGridPage() {
 
           {/* Content area with top padding to account for fixed header */}
           <main className="flex-1 overflow-auto pt-32">
-            <SimpleLucideTest />
-            {error ? (
+            {showLoadingAnimation ? (
+              <div className="flex-1 flex items-center justify-center h-full">
+                <LoadingWithTagline 
+                  minDuration={3000}
+                  onMinDurationComplete={() => setMinDurationComplete(true)}
+                />
+              </div>
+            ) : error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
                 <Alert className="max-w-md">
                   <AlertCircle className="h-4 w-4" />
@@ -555,7 +587,14 @@ function IconGridPage() {
 
           {/* Scrollable main content */}
           <main className="flex-1 overflow-hidden">
-            {error ? (
+            {showLoadingAnimation ? (
+              <div className="flex-1 flex items-center justify-center h-full">
+                <LoadingWithTagline 
+                  minDuration={3000}
+                  onMinDurationComplete={() => setMinDurationComplete(true)}
+                />
+              </div>
+            ) : error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
                 <Alert className="max-w-md">
                   <AlertCircle className="h-4 w-4" />
