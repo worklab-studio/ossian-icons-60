@@ -45,8 +45,8 @@ function IconGridPage() {
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
   const [showIconActions, setShowIconActions] = useState(false);
 
-  // Load Tabler first as priority
-  const priorityLibrary = 'tabler';
+  // Load Lucide first as priority (since it's the only library with data)
+  const priorityLibrary = 'lucide';
 
   // Visited user state for smart loading
   const { shouldSkipLoading, markLoadingSeen, hasCachedData } = useVisitedUser();
@@ -112,7 +112,7 @@ function IconGridPage() {
           return;
         }
 
-        // Load Tabler first for immediate display
+        // Load Lucide first for immediate display
         await loadLibrary(priorityLibrary);
         // Load all other libraries in parallel for faster loading
         loadAllLibrariesSectioned();
