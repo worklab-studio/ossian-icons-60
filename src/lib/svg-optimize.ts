@@ -76,8 +76,9 @@ function ensureConsistentStructure(svgContent: string): string {
   result = result.replace(/\s*width="[^"]*"/gi, '');
   result = result.replace(/\s*height="[^"]*"/gi, '');
   
-  // Don't override existing valid viewBox - only add if missing
-  if (!result.includes('viewBox=')) {
+  // Preserve existing valid viewBox - only add if completely missing
+  const existingViewBox = result.match(/viewBox="([^"]+)"/i);
+  if (!existingViewBox) {
     // Check for common icon library viewBox patterns
     const bootstrapPattern = /version="1\.1".*?xmlns/i.test(result);
     const isBootstrapIcon = bootstrapPattern || result.includes('bootstrap');
@@ -113,6 +114,9 @@ function ensureConsistentStructure(svgContent: string): string {
         result = result.replace('<svg', '<svg viewBox="0 0 24 24"');
       }
     }
+  } else {
+    // Log existing viewBox for debugging
+    console.debug('Preserving existing viewBox:', existingViewBox[1]);
   }
   
   // Add preserveAspectRatio for consistent scaling
@@ -143,26 +147,58 @@ function processLibrarySpecificSvg(svgContent: string, library: string): string 
   
   switch (library) {
     case 'atlas':
-      // Atlas icons have complex CSS with hardcoded colors
+      // Atlas icons have complex CSS with hardcoded colors - comprehensive fix
       processed = processed.replace(/<style[^>]*>([\s\S]*?)<\/style>/gi, (match, cssContent) => {
         const updatedCss = cssContent
-          .replace(/stroke:\s*#[a-fA-F0-9]{3,6}/g, 'stroke: currentColor')
-          .replace(/fill:\s*#[a-fA-F0-9]{3,6}/g, 'fill: currentColor')
-          .replace(/color:\s*#[a-fA-F0-9]{3,6}/g, 'color: currentColor')
-          // Handle more specific color patterns
-          .replace(/stroke:\s*#020202/g, 'stroke: currentColor')
-          .replace(/fill:\s*#020202/g, 'fill: currentColor');
+          // More aggressive hex color matching - handles 6-digit hex starting with 0
+          .replace(/stroke:\s*#[0-9a-fA-F]{3,6}/g, 'stroke: currentColor')
+          .replace(/fill:\s*#[0-9a-fA-F]{3,6}/g, 'fill: currentColor')
+          .replace(/color:\s*#[0-9a-fA-F]{3,6}/g, 'color: currentColor')
+          // RGB color patterns
+          .replace(/stroke:\s*rgb\([^)]+\)/g, 'stroke: currentColor')
+          .replace(/fill:\s*rgb\([^)]+\)/g, 'fill: currentColor')
+          .replace(/color:\s*rgb\([^)]+\)/g, 'color: currentColor')
+          // HSL color patterns
+          .replace(/stroke:\s*hsl\([^)]+\)/g, 'stroke: currentColor')
+          .replace(/fill:\s*hsl\([^)]+\)/g, 'fill: currentColor')
+          .replace(/color:\s*hsl\([^)]+\)/g, 'color: currentColor')
+          // Named colors (black, white, etc.)
+          .replace(/stroke:\s*(black|white|red|blue|green|gray|grey)/gi, 'stroke: currentColor')
+          .replace(/fill:\s*(black|white|red|blue|green|gray|grey)/gi, 'fill: currentColor');
         return `<style>${updatedCss}</style>`;
+      });
+      
+      // Also handle inline styles on elements
+      processed = processed.replace(/style="([^"]*)"/gi, (match, styleContent) => {
+        const updatedStyle = styleContent
+          .replace(/stroke:\s*#[0-9a-fA-F]{3,6}/g, 'stroke: currentColor')
+          .replace(/fill:\s*#[0-9a-fA-F]{3,6}/g, 'fill: currentColor')
+          .replace(/color:\s*#[0-9a-fA-F]{3,6}/g, 'color: currentColor');
+        return `style="${updatedStyle}"`;
       });
       break;
       
     case 'iconamoon':
-      // Iconamoon icons often have clipPath issues
-      processed = processed.replace(/(<clipPath[^>]*>[\s\S]*?<\/clipPath>)/gi, '');
+      // Iconamoon icons need clipPath/defs cleaning but not complete removal
+      // Clean up problematic clipPath definitions while preserving structure
+      processed = processed.replace(/<defs[^>]*>[\s\S]*?<\/defs>/gi, '');
+      processed = processed.replace(/clip-path="[^"]*"/gi, '');
+      
       // Ensure proper fill for paths without explicit fill
       if (!processed.includes('fill=') && !processed.includes('stroke=')) {
         processed = processed.replace(/<path([^>]*)>/g, '<path$1 fill="currentColor">');
       }
+      break;
+      
+    case 'ant':
+      // Ant icons need XML declaration removal and viewBox fixes
+      processed = processed.replace(/<\?xml[^>]*\?>\s*/gi, '');
+      processed = processed.replace(/standalone="no"/gi, '');
+      break;
+      
+    case 'iconoir':
+      // Iconoir icons may have transform issues
+      processed = processed.replace(/transform="scale\([^)]*\)"/g, '');
       break;
       
     case 'carbon':
@@ -198,6 +234,11 @@ export function optimizeSvg(svgContent: string, library?: string): string {
   
   let result = svgContent;
   
+  // Debug logging for problematic libraries
+  if (library && ['atlas', 'ant', 'iconamoon', 'carbon', 'iconoir', 'mingcute', 'majesticons', 'sargam', 'ikonate'].includes(library)) {
+    console.debug(`Processing ${library} icon, original length:`, result.length);
+  }
+  
   // Step 1: Clean up XML declarations and malformed structure
   result = cleanupSvgStructure(result);
   
@@ -217,6 +258,11 @@ export function optimizeSvg(svgContent: string, library?: string): string {
   
   // Step 6: Ensure paintable attributes for canvas rendering
   result = ensurePaintableAttributes(result);
+  
+  // Debug logging for problematic libraries
+  if (library && ['atlas', 'ant', 'iconamoon', 'carbon', 'iconoir', 'mingcute', 'majesticons', 'sargam', 'ikonate'].includes(library)) {
+    console.debug(`Processed ${library} icon, final length:`, result.length);
+  }
   
   return result;
 }
