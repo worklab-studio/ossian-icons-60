@@ -8,6 +8,7 @@ import { ControlPanel } from "@/components/control-panel";
 import { CategoryFilter } from "@/components/CategoryFilter";
 import { IconCustomizationProvider, useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { type IconItem } from "@/types/icon";
+import { sortIconsByStyleThenName } from "@/lib/icon-utils";
 import { toast } from "@/hooks/use-toast";
 import { useAsyncIconLibrary, useIconLibraryMetadata } from "@/hooks/useAsyncIconLibrary";
 import { useSearchWorker } from "@/hooks/useSearchWorker";
@@ -240,18 +241,8 @@ function IconGridPage() {
       filtered = filtered.filter(icon => icon.category === selectedCategory);
     }
     
-    // Sort to show outline icons first, then others
-    return filtered.sort((a, b) => {
-      // Prioritize outline icons
-      const aIsOutline = a.style === 'outline' || a.id.includes('outline');
-      const bIsOutline = b.style === 'outline' || b.id.includes('outline');
-      
-      if (aIsOutline && !bIsOutline) return -1;
-      if (!aIsOutline && bIsOutline) return 1;
-      
-      // Then sort alphabetically by name
-      return a.name.localeCompare(b.name);
-    });
+    // Sort to show stroke/outline icons first, then filled/solid icons
+    return sortIconsByStyleThenName(filtered);
   }, [currentIcons, selectedCategory]);
 
   // Group search results by library for sectioned display when searching "all icons"
@@ -285,16 +276,8 @@ function IconGridPage() {
         }
         
         if (filteredIcons.length > 0) {
-          // Sort icons within each library (outline icons first, then alphabetically)
-          const sortedIcons = filteredIcons.sort((a, b) => {
-            const aIsOutline = a.style === 'outline' || a.id.includes('outline');
-            const bIsOutline = b.style === 'outline' || b.id.includes('outline');
-            
-            if (aIsOutline && !bIsOutline) return -1;
-            if (!aIsOutline && bIsOutline) return 1;
-            
-            return a.name.localeCompare(b.name);
-          });
+          // Sort icons within each library (stroke/outline icons first, then filled/solid)
+          const sortedIcons = sortIconsByStyleThenName(filteredIcons);
           
           orderedSections.push({
             libraryId: libraryMeta.id,
