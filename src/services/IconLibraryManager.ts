@@ -28,7 +28,8 @@ class IconLibraryManager {
 
   // Library metadata
   public readonly libraries: IconLibraryMetadata[] = [
-    { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' }
+    { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
+    { id: 'atlas', name: 'Atlas', count: 2660, style: 'outline', description: 'Comprehensive icon collection' }
   ];
 
   // Popular libraries to preload for better UX
@@ -51,6 +52,11 @@ class IconLibraryManager {
     if (libraryId === 'lucide') {
       const { lucideIcons } = await import('@/data/lucide-icons');
       return lucideIcons;
+    }
+    
+    if (libraryId === 'atlas') {
+      const { atlasIcons } = await import('@/data/atlas');
+      return atlasIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
