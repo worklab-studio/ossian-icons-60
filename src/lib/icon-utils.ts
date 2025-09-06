@@ -15,6 +15,11 @@ export function supportsStrokeWidth(icon: IconItem): boolean {
     return false;
   }
 
+  // FluentUI icons have hardcoded stroke-width and don't support customization
+  if (icon.id.startsWith('fluent-ui-')) {
+    return false;
+  }
+
   // If no style is defined, check against known filled library prefixes
   if (!icon.style) {
     // Exception: BoxIcons and Ant icons don't have explicit style but are primarily filled

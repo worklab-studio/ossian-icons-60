@@ -218,6 +218,13 @@ function processLibrarySpecificSvg(svgContent: string, library: string): string 
       // Ikonate icons may have animation attributes that interfere
       processed = processed.replace(/\s*(animate|animation)[^=]*="[^"]*"/gi, '');
       break;
+      
+    case 'fluent-ui':
+      // FluentUI icons have hardcoded stroke-width="2" that conflicts with customization
+      processed = processed.replace(/\s*stroke-width="[^"]*"/gi, '');
+      // Also remove any stroke-width in style attributes
+      processed = processed.replace(/stroke-width:\s*[^;]+;?/gi, '');
+      break;
   }
   
   return processed;
