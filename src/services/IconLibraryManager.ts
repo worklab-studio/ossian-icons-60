@@ -49,13 +49,18 @@ class IconLibraryManager {
 
   // Dynamic import library
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
+    console.log(`🔍 Importing library: ${libraryId}`);
+    
     if (libraryId === 'lucide') {
       const { lucideIcons } = await import('@/data/lucide-icons');
+      console.log(`✅ Lucide icons imported: ${lucideIcons.length} icons`);
       return lucideIcons;
     }
     
     if (libraryId === 'atlas') {
       const { atlasIcons } = await import('@/data/atlas');
+      console.log(`✅ Atlas icons imported: ${atlasIcons.length} icons`);
+      console.log(`🔍 First Atlas icon:`, atlasIcons[0]);
       return atlasIcons;
     }
     
@@ -307,16 +312,21 @@ class IconLibraryManager {
 
   // Filter icons to ensure they belong to the specified library
   private filterIconsByLibraryId(icons: IconItem[], libraryId: string): IconItem[] {
-    return icons.filter(icon => {
+    console.log(`🔍 Filtering ${icons.length} icons for library: ${libraryId}`);
+    
+    const filtered = icons.filter(icon => {
       const iconLibraryId = icon.id.split('-')[0];
       const isValidIcon = iconLibraryId === libraryId;
       
       if (!isValidIcon) {
-        console.warn(`Filtered out cross-contaminated icon: ${icon.id} from library ${libraryId}`);
+        console.warn(`❌ Filtered out cross-contaminated icon: ${icon.id} from library ${libraryId} (expected: ${libraryId}, got: ${iconLibraryId})`);
       }
       
       return isValidIcon;
     });
+    
+    console.log(`✅ Filtered result: ${filtered.length} icons for library: ${libraryId}`);
+    return filtered;
   }
 
   // Search across loaded libraries
