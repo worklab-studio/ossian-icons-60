@@ -35,8 +35,8 @@ function IconGridPage() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<IconItem[]>([]);
   const [searchTotalCount, setSearchTotalCount] = useState<number>(0);
-  const [showLoadingAnimation, setShowLoadingAnimation] = useState(true);
-  const [minDurationComplete, setMinDurationComplete] = useState(false);
+  // Loading states (simplified - no animation)
+  const [minDurationComplete, setMinDurationComplete] = useState(true);
   const { customization } = useIconCustomization();
 
   // Mobile state
@@ -48,7 +48,7 @@ function IconGridPage() {
   // Start with Lucide as the selected library to show the 4 icons immediately
   const priorityLibrary = 'lucide';
 
-  // Visited user state for smart loading
+  // Visited user state (simplified - no loading animation)
   const { shouldSkipLoading, markLoadingSeen, hasCachedData } = useVisitedUser();
   
   // Async icon loading
@@ -78,36 +78,19 @@ function IconGridPage() {
     isSearching 
   } = useSearchWorker();
 
-  // Control loading animation visibility
-  useEffect(() => {
-    // Skip loading entirely for returning users with cache
-    if (shouldSkipLoading) {
-      console.log('Skipping loading animation for returning user with cache');
-      setShowLoadingAnimation(false);
-      setMinDurationComplete(true);
-      return;
-    }
-
-    // Hide loading only when both conditions are met:
-    // 1. Minimum duration has passed  
-    // 2. Tabler icons are loaded (priority library)
-    if (minDurationComplete && loaded && icons.length > 0) {
-      setShowLoadingAnimation(false);
-      // Mark that user has seen the loading animation
-      markLoadingSeen();
-    }
-  }, [minDurationComplete, loaded, icons.length, shouldSkipLoading, markLoadingSeen]);
+  // No loading animation - remove this entire effect
+  // Loading animation removed per user request
 
   // Fallback timeout removed - just keep loading until ready
 
-  // Load Lucide first for immediate display
+  // Load Lucide icons with debugging
   useEffect(() => {
     const loadIcons = async () => {
       try {
-        console.log('Loading Lucide icons...');
-        // Always load Lucide first since it's the only library with data
-        await loadLibrary(priorityLibrary);
-        console.log('Lucide icons loaded successfully');
+        console.log('Starting to load Lucide icons...');
+        const result = await loadLibrary(priorityLibrary);
+        console.log('Lucide icons load result:', result);
+        console.log('Icons state after load:', icons);
       } catch (error) {
         console.error('Failed to load Lucide library:', error);
       }
@@ -409,14 +392,7 @@ function IconGridPage() {
 
           {/* Content area with top padding to account for fixed header */}
           <main className="flex-1 overflow-auto pt-32">
-            {showLoadingAnimation ? (
-              <div className="flex-1 flex items-center justify-center h-full">
-                <LoadingWithTagline 
-                  minDuration={3000}
-                  onMinDurationComplete={() => setMinDurationComplete(true)}
-                />
-              </div>
-            ) : error ? (
+            {error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
                 <Alert className="max-w-md">
                   <AlertCircle className="h-4 w-4" />
@@ -577,14 +553,7 @@ function IconGridPage() {
 
           {/* Scrollable main content */}
           <main className="flex-1 overflow-hidden">
-            {showLoadingAnimation ? (
-              <div className="flex-1 flex items-center justify-center h-full">
-                <LoadingWithTagline 
-                  minDuration={3000}
-                  onMinDurationComplete={() => setMinDurationComplete(true)}
-                />
-              </div>
-            ) : error ? (
+            {error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
                 <Alert className="max-w-md">
                   <AlertCircle className="h-4 w-4" />
