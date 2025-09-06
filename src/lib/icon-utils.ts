@@ -1,26 +1,17 @@
 import { type IconItem } from "@/types/icon";
-import { detectLibraryFromIconId, getStrokeConfig } from "@/Data/stroke-config";
 
 /**
- * Determines if an icon supports stroke width customization
- * Uses centralized stroke configuration system
+ * Simple stroke width support detection based on style
  */
 export function supportsStrokeWidth(icon: IconItem): boolean {
-  const library = detectLibraryFromIconId(icon.id);
-  const config = getStrokeConfig(library);
-  
-  // Use library configuration first
-  if (!config.supportsCustomization) {
+  if (!icon.style) {
+    // Default to no stroke support if no style specified
     return false;
   }
-  
-  // If library supports customization, check style-specific rules
-  if (!icon.style) {
-    // For icons without style, use library default support
-    return config.supportsCustomization;
-  }
 
-  // List of styles that explicitly support stroke width (outline/line variants)
+  const style = icon.style.toLowerCase();
+  
+  // List of styles that support stroke width (outline/line variants)
   const strokeSupportStyles = [
     'outline',
     'regular', 
@@ -38,8 +29,6 @@ export function supportsStrokeWidth(icon: IconItem): boolean {
     'bulk',
     'fill'
   ];
-
-  const style = icon.style.toLowerCase();
   
   // First check if it's explicitly a stroke-supporting style
   if (strokeSupportStyles.includes(style)) {
@@ -51,8 +40,8 @@ export function supportsStrokeWidth(icon: IconItem): boolean {
     return false;
   }
   
-  // Default: use library configuration for unknown styles
-  return config.supportsCustomization;
+  // Default to false for unknown styles
+  return false;
 }
 
 /**

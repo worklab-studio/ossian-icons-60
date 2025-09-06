@@ -4,7 +4,8 @@ import { Copy, Download, FileCode, Braces, Image } from "lucide-react";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
 import React from "react";
-import { buildCustomizedSvg, copyToClipboard, downloadFile } from "@/lib/svg-build";
+import { copyIcon } from "@/lib/copy";
+import { getSimpleSvg, downloadFile, copyToClipboard } from "@/lib/simple-helpers";
 import { HapticsManager } from "@/lib/haptics";
 
 interface MobileIconActionsProps {
@@ -27,11 +28,7 @@ export function MobileIconActions({
 
   const getCustomizedSVG = () => {
     if (!selectedIcon) return '';
-    return buildCustomizedSvg(
-      selectedIcon,
-      customization.color,
-      customization.strokeWidth
-    );
+    return getSimpleSvg(selectedIcon);
   };
 
   const handleDownloadSVG = async () => {
@@ -40,11 +37,7 @@ export function MobileIconActions({
     await HapticsManager.medium();
     
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
       
       const blob = new Blob([customizedSVG], { type: 'image/svg+xml' });
       downloadFile(blob, `${selectedIcon.name}.svg`);
@@ -71,11 +64,7 @@ export function MobileIconActions({
     await HapticsManager.medium();
     
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
       
       if (!customizedSVG.includes('xmlns=')) {
         throw new Error('Invalid SVG structure');
@@ -128,11 +117,7 @@ export function MobileIconActions({
     await HapticsManager.light();
     
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
       await copyToClipboard(customizedSVG);
       toast({
         description: "SVG copied to clipboard!",
@@ -156,11 +141,7 @@ export function MobileIconActions({
     await HapticsManager.light();
     
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
       await copyToClipboard(customizedSVG);
       toast({
         description: "SVG XML copied to clipboard!",

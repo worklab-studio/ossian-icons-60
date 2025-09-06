@@ -71,122 +71,10 @@ class IconLibraryManager {
     }, 5 * 60 * 1000); // Every 5 minutes
   }
 
-  // Dynamic import functions for each library - empty for now
+  // Dynamic import functions for each library - all empty now (clean slate)
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
-    try {
-      switch (libraryId) {
-        case 'ant': {
-          const { antIcons } = await import('@/Data/ant-icons');
-          return antIcons;
-        }
-        case 'atlas': {
-          const { atlasIcons } = await import('@/Data/atlas-icons');
-          return atlasIcons;
-        }
-        case 'bootstrap': {
-          const { bootstrapIcons } = await import('@/Data/bootstrap-icons');
-          return bootstrapIcons;
-        }
-        case 'carbon': {
-          const { carbonIcons } = await import('@/Data/carbon-icons');
-          return carbonIcons;
-        }
-        case 'css-gg': {
-          const { cssGgIcons } = await import('@/Data/css-gg-icons');
-          return cssGgIcons;
-        }
-        case 'feather': {
-          const { featherIcons } = await import('@/Data/feather-icons');
-          return featherIcons;
-        }
-        case 'fluent-ui': {
-          const { fluentUiIcons } = await import('@/Data/fluent-ui-icons');
-          return fluentUiIcons;
-        }
-        case 'hugeicon': {
-          const { hugeiconIcons } = await import('@/Data/hugeicon-icons');
-          return hugeiconIcons;
-        }
-        case 'iconamoon': {
-          const { iconamoonIcons } = await import('@/Data/iconamoon-icons');
-          return iconamoonIcons;
-        }
-        case 'iconoir': {
-          const { iconoirIcons } = await import('@/Data/iconoir-icons');
-          return iconoirIcons;
-        }
-        case 'ikonate': {
-          const { ikonateIcons } = await import('@/Data/ikonate-icons');
-          return ikonateIcons;
-        }
-        case 'line': {
-          const { lineIcons } = await import('@/Data/line-icons');
-          return lineIcons;
-        }
-        case 'lucide': {
-          const { lucideIcons } = await import('@/Data/lucide-icons');
-          return lucideIcons;
-        }
-        case 'majesticon': {
-          const { majesticonIcons } = await import('@/Data/majesticon-icons');
-          return majesticonIcons;
-        }
-        case 'mingcute': {
-          const { mingcuteIcons } = await import('@/Data/mingcute-icons');
-          return mingcuteIcons;
-        }
-        case 'octicons': {
-          const { octiconsIcons } = await import('@/Data/octicons-icons');
-          return octiconsIcons;
-        }
-        case 'phosphor': {
-          const { phosphorIcons } = await import('@/Data/phosphor-icons');
-          return phosphorIcons;
-        }
-        case 'pixelart-icons': {
-          const { pixelartIconsIcons } = await import('@/Data/pixelart-icons-icons');
-          return pixelartIconsIcons;
-        }
-        case 'pixelart': {
-          const { pixelartIcons } = await import('@/Data/pixelart-icons');
-          return pixelartIcons;
-        }
-        case 'proicons': {
-          const { proiconsIcons } = await import('@/Data/proicons-icons');
-          return proiconsIcons;
-        }
-        case 'radix': {
-          const { radixIcons } = await import('@/Data/radix-icons');
-          return radixIcons;
-        }
-        case 'sargam': {
-          const { sargamIcons } = await import('@/Data/sargam-icons');
-          return sargamIcons;
-        }
-        case 'simple': {
-          const { simpleIcons } = await import('@/Data/simple-icons');
-          return simpleIcons;
-        }
-        case 'solar': {
-          const { solarIcons } = await import('@/Data/solar-icons');
-          return solarIcons;
-        }
-        case 'tabler': {
-          const { tablerIcons } = await import('@/Data/tabler-icons');
-          return tablerIcons;
-        }
-        case 'teeny-icons': {
-          const { teenyIconsIcons } = await import('@/Data/teeny-icons-icons');
-          return teenyIconsIcons;
-        }
-        default:
-          console.warn(`Library ${libraryId} not available`);
-          return [];
-      }
-    } catch (error) {
-      console.error(`Failed to load library ${libraryId}:`, error);
-      return [];
-    }
+    console.warn(`Library ${libraryId} not available - no icon data loaded`);
+    return [];
   }
 
   // Load library with caching and deduplication
@@ -326,12 +214,8 @@ class IconLibraryManager {
     // Import the raw library
     const rawIcons = await this.importLibrary(libraryId);
     
-    // Apply optimizeSvg on every string icon at load for normalized exports
-    const { optimizeSvg } = await import('@/lib/svg-optimize');
-    const icons = rawIcons.map(icon => ({
-      ...icon,
-      svg: typeof icon.svg === 'string' ? optimizeSvg(icon.svg) : icon.svg
-    }));
+    // No SVG processing needed - clean icons
+    const icons = rawIcons;
     
     // Cache the result
     this.updateMemoryCache(libraryId, icons);

@@ -8,7 +8,8 @@ import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
-import { buildCustomizedSvg, copyToClipboard, downloadFile } from "@/lib/svg-build";
+import { copyIcon } from "@/lib/copy";
+import { getSimpleSvg, downloadFile, copyToClipboard } from "@/lib/simple-helpers";
 import { supportsStrokeWidth } from "@/lib/icon-utils";
 // @ts-ignore - gif.js doesn't have TypeScript definitions
 import GIF from 'gif.js';
@@ -37,11 +38,7 @@ export function ControlPanel({
     if (!selectedIcon) return;
     
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
       
       const blob = new Blob([customizedSVG], { type: 'image/svg+xml' });
       downloadFile(blob, `${selectedIcon.name}.svg`);
@@ -63,11 +60,7 @@ export function ControlPanel({
     if (!selectedIcon) return;
     
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
       
       // Enhanced PNG conversion with retry mechanism
       await convertSvgToPng(customizedSVG, selectedIcon.name);
@@ -158,11 +151,7 @@ export function ControlPanel({
 
   const getCustomizedSVG = () => {
     if (!selectedIcon) return '';
-    return buildCustomizedSvg(
-      selectedIcon,
-      customization.color,
-      customization.strokeWidth
-    );
+    return getSimpleSvg(selectedIcon);
   };
 
   const handleCopySVG = async () => {
@@ -175,11 +164,7 @@ export function ControlPanel({
       return;
     }
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
 
       const encodedSVG = encodeURIComponent(customizedSVG);
       const dataURL = `data:image/svg+xml,${encodedSVG}`;
@@ -207,11 +192,7 @@ export function ControlPanel({
       return;
     }
     try {
-      const customizedSVG = buildCustomizedSvg(
-        selectedIcon,
-        customization.color,
-        customization.strokeWidth
-      );
+      const customizedSVG = getSimpleSvg(selectedIcon);
       await copyToClipboard(customizedSVG);
       toast({
         description: "SVG XML copied to clipboard!",

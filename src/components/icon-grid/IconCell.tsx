@@ -2,6 +2,7 @@ import React, { useState, useCallback, useRef, useMemo, memo } from "react";
 import { Copy } from "lucide-react";
 import { type IconItem } from "@/types/icon";
 import { copyIcon } from "@/lib/copy";
+import { getSimpleSvg, copyToClipboard } from "@/lib/simple-helpers";
 import { getIconAriaLabel } from "@/lib/a11y";
 import { CopyTooltip } from "@/components/ui/copy-tooltip";
 import { cn } from "@/lib/utils";
@@ -11,7 +12,6 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { supportsStrokeWidth } from "@/lib/icon-utils";
 import { HapticsManager } from "@/lib/haptics";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { buildCustomizedSvg, copyToClipboard } from "@/lib/svg-build";
 
 console.log('IconCell module loading...', { memo, React });
 
@@ -96,7 +96,7 @@ export function IconCell({
     }
     
     try {
-      const svgString = buildCustomizedSvg(icon, customization.color, customization.strokeWidth);
+      const svgString = getSimpleSvg(icon);
       await copyToClipboard(svgString);
       setShowCopied(true);
       onCopy?.(icon);
@@ -146,8 +146,8 @@ export function IconCell({
     }
     
     try {
-      // Use the centralized buildCustomizedSvg for consistent processing
-      const processedSvg = buildCustomizedSvg(icon, iconColor, iconStrokeWidth);
+      // Use simple SVG without processing
+      const processedSvg = getSimpleSvg(icon);
       
       return (
         <div 
