@@ -291,6 +291,19 @@ function IconGridPage() {
     return orderedSections;
   }, [searchQuery, selectedSet, searchResults, selectedCategory]);
 
+  // Apply category filtering to sections when showing "all icons" without search
+  const filteredSections = useMemo(() => {
+    if (selectedSet !== "all" || searchQuery.trim() || !selectedCategory) {
+      return sections;
+    }
+
+    // Filter sections to only include icons matching the selected category
+    return sections.map(section => ({
+      ...section,
+      icons: section.icons.filter(icon => icon.category === selectedCategory)
+    })).filter(section => section.icons.length > 0); // Remove empty sections
+  }, [sections, selectedSet, searchQuery, selectedCategory]);
+
   // Reset category when library changes
   React.useEffect(() => {
     setSelectedCategory(null);
@@ -610,10 +623,10 @@ function IconGridPage() {
               </div>
             ) : (
               // Use SectionedIconGrid for: 1) "all icons" without search, OR 2) "all icons" with search results
-              (selectedSet === "all" && !searchQuery.trim() && sections.length > 0) || 
-              (selectedSet === "all" && searchQuery.trim() && groupedSearchSections.length > 0) ? (
+              (selectedSet === "all" && !searchQuery.trim() && filteredSections.length > 0) ||
+               (selectedSet === "all" && searchQuery.trim() && groupedSearchSections.length > 0) ? (
                 <SectionedIconGrid
-                  sections={searchQuery.trim() ? groupedSearchSections : sections}
+                  sections={searchQuery.trim() ? groupedSearchSections : filteredSections}
                   selectedId={selectedId}
                   onCopy={handleCopy}
                   onIconClick={handleIconClick}
