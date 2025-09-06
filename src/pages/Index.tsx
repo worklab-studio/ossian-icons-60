@@ -19,7 +19,7 @@ import { showFirstCopyNudge } from "@/components/ui/first-copy-nudge";
 import { Skeleton } from "@/components/ui/skeleton";
 import LoadingWithTagline from "@/components/LoadingWithTagline";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { AlertCircle, Loader2 } from "lucide-react";
+import { AlertCircle as AlertCircleIcon, Loader2 } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { MobileHeader } from "@/components/mobile/MobileHeader";
 import { MobileLibraryDrawer } from "@/components/mobile/MobileLibraryDrawer";
@@ -27,21 +27,288 @@ import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { MobileIconActions } from "@/components/mobile/MobileIconActions";
 import { HapticsManager } from "@/lib/haptics";
 
-// Mock data - replace with your actual icon data
+import { 
+  Home, User, Settings, Search, Menu, Heart, Star, Check, Plus,
+  Minus, Edit, Download, Upload, Mail, Phone, Calendar, Clock,
+  ArrowRight, ArrowLeft, ArrowUp, ArrowDown, Play, Pause,
+  Camera, Image, File, Globe, Lock, Eye, EyeOff, Bell, 
+  Send, Share, Archive, Bookmark, Sun, Moon, Activity, AlertCircle
+} from "lucide-react";
+
+// Sample Lucide icons for demonstration
 const sampleIcons: IconItem[] = [
   {
-    id: 'sample-1',
+    id: 'lucide-home',
     name: 'home',
-    svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>',
-    tags: ['home', 'house', 'building'],
+    svg: Home,
+    tags: ['home', 'house', 'building', 'main'],
     category: 'navigation'
   },
   {
-    id: 'sample-2',
+    id: 'lucide-user',
     name: 'user',
-    svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>',
-    tags: ['user', 'person', 'profile'],
+    svg: User,
+    tags: ['user', 'person', 'profile', 'account'],
     category: 'users'
+  },
+  {
+    id: 'lucide-settings',
+    name: 'settings',
+    svg: Settings,
+    tags: ['settings', 'config', 'gear', 'preferences'],
+    category: 'system'
+  },
+  {
+    id: 'lucide-search',
+    name: 'search',
+    svg: Search,
+    tags: ['search', 'find', 'magnifying glass'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-menu',
+    name: 'menu',
+    svg: Menu,
+    tags: ['menu', 'hamburger', 'navigation'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-heart',
+    name: 'heart',
+    svg: Heart,
+    tags: ['heart', 'love', 'favorite', 'like'],
+    category: 'social'
+  },
+  {
+    id: 'lucide-star',
+    name: 'star',
+    svg: Star,
+    tags: ['star', 'favorite', 'rating', 'bookmark'],
+    category: 'social'
+  },
+  {
+    id: 'lucide-check',
+    name: 'check',
+    svg: Check,
+    tags: ['check', 'done', 'complete', 'success'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-plus',
+    name: 'plus',
+    svg: Plus,
+    tags: ['plus', 'add', 'create', 'new'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-minus',
+    name: 'minus',
+    svg: Minus,
+    tags: ['minus', 'remove', 'delete', 'subtract'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-edit',
+    name: 'edit',
+    svg: Edit,
+    tags: ['edit', 'pencil', 'modify', 'write'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-download',
+    name: 'download',
+    svg: Download,
+    tags: ['download', 'save', 'arrow down'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-upload',
+    name: 'upload',
+    svg: Upload,
+    tags: ['upload', 'cloud', 'arrow up'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-mail',
+    name: 'mail',
+    svg: Mail,
+    tags: ['mail', 'email', 'message', 'letter'],
+    category: 'communication'
+  },
+  {
+    id: 'lucide-phone',
+    name: 'phone',
+    svg: Phone,
+    tags: ['phone', 'call', 'telephone'],
+    category: 'communication'
+  },
+  {
+    id: 'lucide-calendar',
+    name: 'calendar',
+    svg: Calendar,
+    tags: ['calendar', 'date', 'schedule', 'time'],
+    category: 'time'
+  },
+  {
+    id: 'lucide-clock',
+    name: 'clock',
+    svg: Clock,
+    tags: ['clock', 'time', 'watch', 'hour'],
+    category: 'time'
+  },
+  {
+    id: 'lucide-arrow-right',
+    name: 'arrow-right',
+    svg: ArrowRight,
+    tags: ['arrow', 'right', 'next', 'forward'],
+    category: 'arrows'
+  },
+  {
+    id: 'lucide-arrow-left',
+    name: 'arrow-left',
+    svg: ArrowLeft,
+    tags: ['arrow', 'left', 'back', 'previous'],
+    category: 'arrows'
+  },
+  {
+    id: 'lucide-arrow-up',
+    name: 'arrow-up',
+    svg: ArrowUp,
+    tags: ['arrow', 'up', 'top', 'ascending'],
+    category: 'arrows'
+  },
+  {
+    id: 'lucide-arrow-down',
+    name: 'arrow-down',
+    svg: ArrowDown,
+    tags: ['arrow', 'down', 'bottom', 'descending'],
+    category: 'arrows'
+  },
+  {
+    id: 'lucide-play',
+    name: 'play',
+    svg: Play,
+    tags: ['play', 'start', 'video', 'music'],
+    category: 'media'
+  },
+  {
+    id: 'lucide-pause',
+    name: 'pause',
+    svg: Pause,
+    tags: ['pause', 'stop', 'video', 'music'],
+    category: 'media'
+  },
+  {
+    id: 'lucide-camera',
+    name: 'camera',
+    svg: Camera,
+    tags: ['camera', 'photo', 'picture', 'image'],
+    category: 'media'
+  },
+  {
+    id: 'lucide-image',
+    name: 'image',
+    svg: Image,
+    tags: ['image', 'photo', 'picture'],
+    category: 'media'
+  },
+  {
+    id: 'lucide-file',
+    name: 'file',
+    svg: File,
+    tags: ['file', 'document', 'page'],
+    category: 'files'
+  },
+  {
+    id: 'lucide-globe',
+    name: 'globe',
+    svg: Globe,
+    tags: ['globe', 'world', 'earth', 'internet'],
+    category: 'network'
+  },
+  {
+    id: 'lucide-lock',
+    name: 'lock',
+    svg: Lock,
+    tags: ['lock', 'secure', 'private', 'password'],
+    category: 'security'
+  },
+  {
+    id: 'lucide-eye',
+    name: 'eye',
+    svg: Eye,
+    tags: ['eye', 'view', 'show', 'visible'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-eye-off',
+    name: 'eye-off',
+    svg: EyeOff,
+    tags: ['eye off', 'hide', 'invisible', 'hidden'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-bell',
+    name: 'bell',
+    svg: Bell,
+    tags: ['bell', 'notification', 'alert', 'ring'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-send',
+    name: 'send',
+    svg: Send,
+    tags: ['send', 'message', 'submit', 'arrow'],
+    category: 'communication'
+  },
+  {
+    id: 'lucide-share',
+    name: 'share',
+    svg: Share,
+    tags: ['share', 'network', 'social', 'connect'],
+    category: 'social'
+  },
+  {
+    id: 'lucide-archive',
+    name: 'archive',
+    svg: Archive,
+    tags: ['archive', 'box', 'storage', 'save'],
+    category: 'files'
+  },
+  {
+    id: 'lucide-bookmark',
+    name: 'bookmark',
+    svg: Bookmark,
+    tags: ['bookmark', 'save', 'favorite', 'tag'],
+    category: 'interface'
+  },
+  {
+    id: 'lucide-sun',
+    name: 'sun',
+    svg: Sun,
+    tags: ['sun', 'light', 'day', 'bright'],
+    category: 'weather'
+  },
+  {
+    id: 'lucide-moon',
+    name: 'moon',
+    svg: Moon,
+    tags: ['moon', 'dark', 'night', 'theme'],
+    category: 'weather'
+  },
+  {
+    id: 'lucide-activity',
+    name: 'activity',
+    svg: Activity,
+    tags: ['activity', 'chart', 'graph', 'analytics'],
+    category: 'charts'
+  },
+  {
+    id: 'lucide-alert-circle',
+    name: 'alert-circle',
+    svg: AlertCircle,
+    tags: ['alert', 'warning', 'error', 'exclamation'],
+    category: 'interface'
   }
 ];
 
@@ -238,7 +505,7 @@ function IconGridPage() {
             ) : error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
                 <Alert className="max-w-md">
-                  <AlertCircle className="h-4 w-4" />
+                  <AlertCircleIcon className="h-4 w-4" />
                   <AlertDescription className="mt-2">
                     <p className="font-medium">Failed to load icons</p>
                     <p className="text-sm text-muted-foreground mt-1">{error}</p>
@@ -324,7 +591,7 @@ function IconGridPage() {
           ) : error ? (
             <div className="flex-1 flex items-center justify-center text-center px-6">
               <Alert className="max-w-md">
-                <AlertCircle className="h-4 w-4" />
+                <AlertCircleIcon className="h-4 w-4" />
                 <AlertDescription className="mt-2">
                   <p className="font-medium">Failed to load icons</p>
                   <p className="text-sm text-muted-foreground mt-1">{error}</p>
