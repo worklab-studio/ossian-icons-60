@@ -76,11 +76,26 @@ export function isFilledIconLibrary(iconId: string): boolean {
 /**
  * Get style priority for sorting (lower number = higher priority)
  * Prioritizes outline/line/stroke icons first, then regular, then solid/filled
+ * Special handling for Solar icons with custom order
  */
-export function getStylePriority(style: string): number {
+export function getStylePriority(style: string, iconId?: string): number {
   if (!style) return 1; // Default priority for no style
 
   const styleLower = style.toLowerCase();
+  
+  // Special handling for Solar icons
+  if (iconId?.startsWith('solar-')) {
+    const solarOrder: { [key: string]: number } = {
+      'outline': 0,
+      'linear': 1,
+      'line duotone': 2,
+      'broken': 3,
+      'bold duotone': 4,
+      'bold': 5
+    };
+    
+    return solarOrder[styleLower] ?? 6;
+  }
   
   // Priority 0: outline, line, stroke styles (most preferred)
   if (['outline', 'line', 'stroke', 'thin', 'light', 'regular'].includes(styleLower)) {
@@ -108,8 +123,8 @@ export function getStylePriority(style: string): number {
 export function sortIconsByStyleThenName(icons: IconItem[]): IconItem[] {
   return [...icons].sort((a, b) => {
     // First sort by style priority
-    const stylePriorityA = getStylePriority(a.style || '');
-    const stylePriorityB = getStylePriority(b.style || '');
+    const stylePriorityA = getStylePriority(a.style || '', a.id);
+    const stylePriorityB = getStylePriority(b.style || '', b.id);
     
     if (stylePriorityA !== stylePriorityB) {
       return stylePriorityA - stylePriorityB;
