@@ -22,12 +22,18 @@ function detectIconLibrary(iconId: string): string {
   if (iconId.startsWith('css-gg-')) return 'css-gg';
   if (iconId.startsWith('fluent-')) return 'fluent';
   if (iconId.startsWith('iconsax-')) return 'iconsax';
-  if (iconId.startsWith('iconnoir-')) return 'iconnoir';
+  if (iconId.startsWith('iconoir-')) return 'iconoir';
   if (iconId.startsWith('solar-')) return 'solar';
   if (iconId.startsWith('teeny-')) return 'teeny';
   if (iconId.startsWith('ant-')) return 'ant';
   if (iconId.startsWith('line-')) return 'line';
   if (iconId.startsWith('pixelart-')) return 'pixelart';
+  if (iconId.startsWith('carbon-')) return 'carbon';
+  if (iconId.startsWith('iconamoon-')) return 'iconamoon';
+  if (iconId.startsWith('mingcute-')) return 'mingcute';
+  if (iconId.startsWith('majesticon-')) return 'majesticons';
+  if (iconId.startsWith('sargam-')) return 'sargam';
+  if (iconId.startsWith('ikonate-')) return 'ikonate';
   return 'unknown';
 }
 
@@ -245,7 +251,7 @@ export function buildCustomizedSvg(
     }
     
     // Step 3: Normalize to currentColor baseline (handles all color normalization)
-    let normalizedSvg = optimizeSvg(svgContent);
+    let normalizedSvg = optimizeSvg(svgContent, library);
     
     // Step 4: Apply chosen color (if not currentColor)
     if (color !== 'currentColor') {

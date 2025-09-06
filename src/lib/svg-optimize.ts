@@ -51,6 +51,22 @@ function normalizeAttributeColors(svgContent: string): string {
 }
 
 /**
+ * Remove XML declarations and clean up malformed attributes
+ */
+function cleanupSvgStructure(svgContent: string): string {
+  return svgContent
+    // Remove XML declarations that break parsing (Ant icons)
+    .replace(/<\?xml[^>]*\?>\s*/gi, '')
+    // Remove DOCTYPE declarations
+    .replace(/<!DOCTYPE[^>]*>\s*/gi, '')
+    // Fix self-closing tags that may be malformed
+    .replace(/(<[^>]+)\s*\/\s*>/g, '$1/>')
+    // Clean up extra whitespace
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
  * Ensure consistent SVG structure for proper scaling and compatibility
  */
 function ensureConsistentStructure(svgContent: string): string {
@@ -60,7 +76,7 @@ function ensureConsistentStructure(svgContent: string): string {
   result = result.replace(/\s*width="[^"]*"/gi, '');
   result = result.replace(/\s*height="[^"]*"/gi, '');
   
-  // Ensure viewBox is present - properly detect existing viewBox
+  // Don't override existing valid viewBox - only add if missing
   if (!result.includes('viewBox=')) {
     // Check for common icon library viewBox patterns
     const bootstrapPattern = /version="1\.1".*?xmlns/i.test(result);
@@ -120,26 +136,86 @@ function ensurePaintableAttributes(svgContent: string): string {
 }
 
 /**
+ * Library-specific SVG processing
+ */
+function processLibrarySpecificSvg(svgContent: string, library: string): string {
+  let processed = svgContent;
+  
+  switch (library) {
+    case 'atlas':
+      // Atlas icons have complex CSS with hardcoded colors
+      processed = processed.replace(/<style[^>]*>([\s\S]*?)<\/style>/gi, (match, cssContent) => {
+        const updatedCss = cssContent
+          .replace(/stroke:\s*#[a-fA-F0-9]{3,6}/g, 'stroke: currentColor')
+          .replace(/fill:\s*#[a-fA-F0-9]{3,6}/g, 'fill: currentColor')
+          .replace(/color:\s*#[a-fA-F0-9]{3,6}/g, 'color: currentColor')
+          // Handle more specific color patterns
+          .replace(/stroke:\s*#020202/g, 'stroke: currentColor')
+          .replace(/fill:\s*#020202/g, 'fill: currentColor');
+        return `<style>${updatedCss}</style>`;
+      });
+      break;
+      
+    case 'iconamoon':
+      // Iconamoon icons often have clipPath issues
+      processed = processed.replace(/(<clipPath[^>]*>[\s\S]*?<\/clipPath>)/gi, '');
+      // Ensure proper fill for paths without explicit fill
+      if (!processed.includes('fill=') && !processed.includes('stroke=')) {
+        processed = processed.replace(/<path([^>]*)>/g, '<path$1 fill="currentColor">');
+      }
+      break;
+      
+    case 'carbon':
+      // Carbon icons sometimes have transform issues
+      processed = processed.replace(/transform="translate\([^)]*\)"/g, '');
+      break;
+      
+    case 'mingcute':
+    case 'majesticons':
+    case 'sargam':
+      // These libraries often have nested groups that cause issues
+      processed = processed.replace(/<g[^>]*>\s*<g[^>]*>/g, '<g>');
+      processed = processed.replace(/<\/g>\s*<\/g>/g, '</g>');
+      break;
+      
+    case 'ikonate':
+      // Ikonate icons may have animation attributes that interfere
+      processed = processed.replace(/\s*(animate|animation)[^=]*="[^"]*"/gi, '');
+      break;
+  }
+  
+  return processed;
+}
+
+/**
  * Main SVG optimization function
  * Normalizes SVG content to use currentColor and ensures consistent structure
  */
-export function optimizeSvg(svgContent: string): string {
+export function optimizeSvg(svgContent: string, library?: string): string {
   if (!svgContent || typeof svgContent !== 'string') {
     return svgContent;
   }
   
   let result = svgContent;
   
-  // Step 1: Normalize colors in style attributes
+  // Step 1: Clean up XML declarations and malformed structure
+  result = cleanupSvgStructure(result);
+  
+  // Step 2: Apply library-specific processing
+  if (library) {
+    result = processLibrarySpecificSvg(result, library);
+  }
+  
+  // Step 3: Normalize colors in style attributes
   result = normalizeStyleColors(result);
   
-  // Step 2: Normalize colors in attributes  
+  // Step 4: Normalize colors in attributes  
   result = normalizeAttributeColors(result);
   
-  // Step 3: Ensure consistent scaling structure
+  // Step 5: Ensure consistent scaling structure
   result = ensureConsistentStructure(result);
   
-  // Step 4: Ensure paintable attributes for canvas rendering
+  // Step 6: Ensure paintable attributes for canvas rendering
   result = ensurePaintableAttributes(result);
   
   return result;
