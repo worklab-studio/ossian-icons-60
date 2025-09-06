@@ -26,39 +26,14 @@ class IconLibraryManager {
   private loadingPromises = new Map<string, Promise<IconItem[]>>();
   private searchIndex = new Map<string, Set<string>>();
 
-  // Library metadata - loaded synchronously for initial UI
-  public readonly libraries: IconLibraryMetadata[] = [
-    { id: 'tabler', name: 'Tabler', count: 5000, style: 'outline' },
-    { id: 'ant', name: 'Ant Design', count: 800, style: 'mixed' },
-    { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline' },
-    { id: 'fluent', name: 'Fluent UI', count: 2000, style: 'mixed' },
-    { id: 'atlas', name: 'Atlas Icons', count: 300, style: 'outline' },
-    { id: 'feather', name: 'Feather', count: 287, style: 'outline' },
-    { id: 'solar', name: 'Solar', count: 7000, style: 'mixed' },
-    { id: 'bootstrap', name: 'Bootstrap', count: 2000, style: 'filled' },
-    { id: 'remix', name: 'Remix', count: 2800, style: 'mixed' },
-    { id: 'material', name: 'Material Design', count: 7000, style: 'filled' },
-    { id: 'pixelart', name: 'Pixelart Icons', count: 400, style: 'pixel' },
-    { id: 'line', name: 'Line Icons', count: 500, style: 'outline' },
-    { id: 'phosphor', name: 'Phosphor', count: 9000, style: 'mixed' },
-    { id: 'iconnoir', name: 'IconNoir', count: 1400, style: 'outline' },
-    { id: 'css-gg', name: 'CSS.gg', count: 700, style: 'outline' },
-    { id: 'iconsax', name: 'Iconsax', count: 6000, style: 'mixed' },
-    { id: 'boxicons', name: 'BoxIcons', count: 1600, style: 'mixed' },
-    { id: 'octicons', name: 'Octicons', count: 600, style: 'filled' },
-    { id: 'teeny', name: 'Teeny Icons', count: 2000, style: 'outline' },
-    { id: 'radix', name: 'Radix Icons', count: 300, style: 'filled' },
-    { id: 'animated', name: 'Animated', count: 31, style: 'animated' },
-  ];
+  // Library metadata - empty for now, ready for new data
+  public readonly libraries: IconLibraryMetadata[] = [];
 
-  // Preload popular libraries in background
-  private readonly popularLibraries = ['material', 'lucide', 'feather'];
+  // No popular libraries to preload
+  private readonly popularLibraries: string[] = [];
 
   constructor() {
-    // Start preloading popular libraries after a short delay
-    setTimeout(() => this.preloadPopularLibraries(), 1000);
-    
-  // Clean up old cache entries on startup
+    // Clean up old cache entries on startup
     this.clearOldCacheEntries();
     this.cleanupExpiredCache();
     
@@ -69,105 +44,12 @@ class IconLibraryManager {
     }, 5 * 60 * 1000); // Every 5 minutes
   }
 
-  // Dynamic import functions for each library
+  // Dynamic import functions for each library - empty for now
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
     try {
-      switch (libraryId) {
-        case 'material':
-          const materialModule = await import('@/data/material-icons');
-          return materialModule.materialIcons;
-        
-        case 'atlas':
-          const atlasModule = await import('@/data/atlas-icons');
-          return await atlasModule.getAtlasIcons();
-        
-        case 'lucide':
-          const lucideModule = await import('@/data/lucide-icons');
-          return await lucideModule.getLucideIcons();
-        
-        case 'feather':
-          const featherModule = await import('@/data/feather-icons');
-          return await featherModule.getFeatherIcons();
-        
-        case 'solar':
-          const solarModule = await import('@/data/solar-icons');
-          return solarModule.solarIcons;
-        
-        case 'phosphor':
-          const phosphorModule = await import('@/data/phosphor-icons');
-          return await phosphorModule.getPhosphorIcons();
-        
-        case 'tabler':
-          const tablerModule = await import('@/data/tabler-icons');
-          const tablerIcons = tablerModule.tablerIcons;
-          
-          // Handle both pre-processed icons (array) and runtime processing (promise)
-          if (Array.isArray(tablerIcons)) {
-            return tablerIcons;
-          } else {
-            // Runtime processing - icons are returned as a promise
-            return await tablerIcons;
-          }
-        
-        case 'bootstrap':
-          const bootstrapModule = await import('@/data/bootstrap-icons');
-          return await bootstrapModule.getBootstrapIcons();
-        
-        case 'remix':
-          const remixModule = await import('@/data/remix-icons');
-          return remixModule.remixIcons;
-        
-        case 'boxicons':
-          const boxiconsModule = await import('@/data/boxicons');
-          return await boxiconsModule.getBoxicons();
-        
-        case 'css-gg':
-          const cssGgModule = await import('@/data/css-gg-icons');
-          return cssGgModule.default;
-        
-        case 'iconsax':
-          const iconsaxModule = await import('@/data/iconsax-icons');
-          return iconsaxModule.iconsaxIcons;
-        
-        case 'line':
-          const lineModule = await import('@/data/line-icons');
-          return lineModule.lineIcons;
-        
-        case 'pixelart':
-          const pixelartModule = await import('@/data/pixelart-icons');
-          return pixelartModule.pixelartIcons;
-        
-        case 'teeny':
-          const teenyModule = await import('@/data/teeny-icons');
-          return teenyModule.teenyIcons;
-        
-        case 'ant':
-          const antModule = await import('@/data/ant-icons');
-          return antModule.antIcons;
-        
-        case 'fluent':
-          const fluentModule = await import('@/data/fluent-icons');
-          return fluentModule.fluentIcons;
-        
-        case 'iconnoir':
-          const iconnoirModule = await import('@/data/iconnoir-icons');
-          return await iconnoirModule.getIconnoirIcons();
-        
-        case 'octicons':
-          const octiconsModule = await import('@/data/octicons-icons');
-          return await octiconsModule.getOcticonsIcons();
-        
-        case 'radix':
-          const radixModule = await import('@/data/radix-icons');
-          return radixModule.radixIcons;
-        
-        case 'animated':
-          const animatedModule = await import('@/data/animated-icons');
-          return animatedModule.animatedIcons;
-        
-        default:
-          throw new Error(`Unknown library: ${libraryId}`);
-      }
+      // No libraries available yet
+      console.warn(`Library ${libraryId} not available - no icon data loaded`);
+      return [];
     } catch (error) {
       console.error(`Failed to load library ${libraryId}:`, error);
       return [];
@@ -500,130 +382,137 @@ class IconLibraryManager {
           }
         }
       }
-      
-      // If still over quota, remove least recently used entries
-      const cacheEntries: { key: string; lastAccessed: number }[] = [];
-      for (let i = localStorage.length - 1; i >= 0; i--) {
-        const key = localStorage.key(i);
-        if (key?.startsWith(CACHE_KEY_PREFIX)) {
-          try {
-            const data = JSON.parse(localStorage.getItem(key) || '');
-            cacheEntries.push({ key, lastAccessed: data.lastAccessed || 0 });
-          } catch {
-            localStorage.removeItem(key);
-          }
-        }
-      }
-      
-      // Sort by last accessed and remove oldest if we have too many entries
-      cacheEntries.sort((a, b) => a.lastAccessed - b.lastAccessed);
-      while (cacheEntries.length > 5) { // Keep only 5 most recent libraries
-        const oldest = cacheEntries.shift();
-        if (oldest) {
-          localStorage.removeItem(oldest.key);
+    } catch (error) {
+      console.warn('Failed to clear old cache entries:', error);
+    }
+  }
+
+  private cleanupExpiredCache() {
+    try {
+      for (const [key, cached] of this.cache) {
+        if (this.isCacheExpired(cached)) {
+          this.cache.delete(key);
+          localStorage.removeItem(CACHE_KEY_PREFIX + key);
         }
       }
     } catch (error) {
-      console.warn('Failed to clear old cache entries:', error);
+      console.warn('Failed to cleanup expired cache:', error);
     }
   }
 
   private getFromLocalStorage(libraryId: string): CachedLibrary | null {
     try {
       const data = localStorage.getItem(CACHE_KEY_PREFIX + libraryId);
-      return data ? JSON.parse(data) : null;
+      if (!data) return null;
+      
+      const parsed = JSON.parse(data);
+      // Filter out any invalid icons
+      const validIcons = parsed.icons.filter((icon: any) => icon && icon.id && icon.name);
+      
+      return {
+        icons: validIcons,
+        timestamp: parsed.timestamp,
+        accessCount: parsed.accessCount || 1,
+        lastAccessed: parsed.lastAccessed || Date.now()
+      };
     } catch (error) {
-      // Clean up corrupted data
+      console.warn(`Failed to load from localStorage: ${libraryId}`, error);
+      // Remove corrupted cache entry
       localStorage.removeItem(CACHE_KEY_PREFIX + libraryId);
       return null;
     }
   }
 
-  private cleanupExpiredCache() {
-    // Clean localStorage
-    for (let i = localStorage.length - 1; i >= 0; i--) {
-      const key = localStorage.key(i);
-      if (key?.startsWith(CACHE_KEY_PREFIX)) {
-        try {
-          const data = JSON.parse(localStorage.getItem(key) || '');
-          if (Date.now() - data.timestamp > CACHE_EXPIRY_MS) {
-            localStorage.removeItem(key);
-          }
-        } catch {
-          localStorage.removeItem(key);
+  private updateSearchIndex(libraryId: string, icons: IconItem[]) {
+    const searchTerms = new Set<string>();
+    
+    icons.forEach(icon => {
+      // Add icon name terms
+      searchTerms.add(icon.name.toLowerCase());
+      
+      // Add tag terms
+      icon.tags?.forEach(tag => {
+        searchTerms.add(tag.toLowerCase());
+      });
+      
+      // Add category term
+      if (icon.category) {
+        searchTerms.add(icon.category.toLowerCase());
+      }
+    });
+    
+    this.searchIndex.set(libraryId, searchTerms);
+  }
+
+  // Get search suggestions based on indexed terms
+  getSearchSuggestions(query: string, maxSuggestions: number = 10): string[] {
+    const queryLower = query.toLowerCase();
+    const suggestions = new Set<string>();
+    
+    for (const [, terms] of this.searchIndex) {
+      for (const term of terms) {
+        if (term.includes(queryLower) && suggestions.size < maxSuggestions) {
+          suggestions.add(term);
         }
       }
     }
-
-    // Clean memory cache
-    for (const [key, cached] of this.cache) {
-      if (this.isCacheExpired(cached)) {
-        this.cache.delete(key);
-      }
-    }
-  }
-
-  // Search index management
-  private updateSearchIndex(libraryId: string, icons: IconItem[]) {
-    const indexSet = new Set<string>();
     
-    for (const icon of icons) {
-      // Add searchable terms
-      indexSet.add(icon.name.toLowerCase());
-      if (icon.category) indexSet.add(icon.category.toLowerCase());
-      if (icon.tags) {
-        icon.tags.forEach(tag => indexSet.add(tag.toLowerCase()));
-      }
-    }
+    return Array.from(suggestions).slice(0, maxSuggestions);
+  }
+
+  // Clear all caches
+  clearAllCaches() {
+    this.cache.clear();
+    this.searchIndex.clear();
     
-    this.searchIndex.set(libraryId, indexSet);
-  }
-
-  getCacheStats() {
-    return {
-      memoryCount: this.cache.size,
-      loadingCount: this.loadingPromises.size,
-      indexedLibraries: this.searchIndex.size,
-      totalLibraries: this.libraries.length
-    };
-  }
-
-  // Cache status methods for loading optimization
-  hasCachedLibrary(libraryId: string): boolean {
-    const cached = this.cache.get(libraryId);
-    if (cached && !this.isCacheExpired(cached)) {
-      return true;
-    }
-
-    // Check localStorage cache
+    // Clear localStorage caches
     try {
-      const storedCache = localStorage.getItem(CACHE_KEY_PREFIX + libraryId);
-      if (!storedCache) return false;
-      
-      const parsed = JSON.parse(storedCache);
-      const isExpired = Date.now() - parsed.timestamp > CACHE_EXPIRY_MS;
-      return !isExpired && parsed.icons && parsed.icons.length > 0;
-    } catch {
-      return false;
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const key = localStorage.key(i);
+        if (key?.startsWith(CACHE_KEY_PREFIX)) {
+          localStorage.removeItem(key);
+        }
+      }
+    } catch (error) {
+      console.warn('Failed to clear localStorage caches:', error);
     }
   }
 
+  // Check if we have cached data for priority libraries
   hasPriorityLibraryCache(): boolean {
-    return this.hasCachedLibrary('tabler');
+    // Since we don't have any libraries right now, return false
+    return false;
   }
 
-  getCacheStatus(): { [libraryId: string]: boolean } {
-    const status: { [libraryId: string]: boolean } = {};
-    for (const lib of this.libraries) {
-      status[lib.id] = this.hasCachedLibrary(lib.id);
+  // Get cache statistics
+  getCacheStats() {
+    const stats = {
+      memoryCacheSize: this.cache.size,
+      searchIndexSize: this.searchIndex.size,
+      totalCachedIcons: 0,
+      localStorageKeys: 0
+    };
+
+    // Count total cached icons
+    for (const [, cached] of this.cache) {
+      stats.totalCachedIcons += cached.icons.length;
     }
-    return status;
-  }
 
-  getPopularLibrariesCacheStatus(): boolean {
-    return this.popularLibraries.every(id => this.hasCachedLibrary(id));
+    // Count localStorage keys
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key?.startsWith(CACHE_KEY_PREFIX)) {
+          stats.localStorageKeys++;
+        }
+      }
+    } catch (error) {
+      console.warn('Failed to count localStorage keys:', error);
+    }
+
+    return stats;
   }
 }
 
-// Export singleton instance
+// Singleton instance
 export const iconLibraryManager = new IconLibraryManager();
