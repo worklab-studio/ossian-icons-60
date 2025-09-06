@@ -55,21 +55,35 @@ class IconLibraryManager {
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
     console.log(`🔍 Importing library: ${libraryId}`);
     
-    if (libraryId === 'lucide') {
-      const { lucideIcons } = await import('@/data/lucide-icons');
-      console.log(`✅ Lucide icons imported: ${lucideIcons.length} icons`);
-      return lucideIcons;
+    try {
+      if (libraryId === 'lucide') {
+        const { lucideIcons } = await import('@/data/lucide-icons');
+        console.log(`✅ Lucide icons imported: ${lucideIcons.length} icons`);
+        return lucideIcons;
+      }
+      
+      if (libraryId === 'atlas') {
+        console.log(`🔄 Attempting Atlas import...`);
+        const module = await import('@/data/atlas');
+        console.log(`📦 Atlas module imported:`, Object.keys(module));
+        
+        if (!module.atlasIcons) {
+          console.error(`❌ atlasIcons not found in module. Available exports:`, Object.keys(module));
+          return [];
+        }
+        
+        const { atlasIcons } = module;
+        console.log(`✅ Atlas icons imported: ${atlasIcons.length} icons`);
+        console.log(`🔍 First Atlas icon:`, atlasIcons[0]);
+        return atlasIcons;
+      }
+      
+      console.warn(`⚠️ Library ${libraryId} is not supported`);
+      return [];
+    } catch (error) {
+      console.error(`❌ Failed to import library ${libraryId}:`, error);
+      return [];
     }
-    
-    if (libraryId === 'atlas') {
-      const { atlasIcons } = await import('@/data/atlas');
-      console.log(`✅ Atlas icons imported: ${atlasIcons.length} icons`);
-      console.log(`🔍 First Atlas icon:`, atlasIcons[0]);
-      return atlasIcons;
-    }
-    
-    console.warn(`Library ${libraryId} is not supported`);
-    return [];
   }
 
   // Load library with caching and deduplication
