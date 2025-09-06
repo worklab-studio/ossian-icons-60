@@ -132,15 +132,12 @@ export function IconCell({
     }
   }, [handleClick]);
 
-  // Memoize icon rendering for performance
+  // Use centralized SVG processing for consistent display and export
   const renderedIcon = useMemo(() => {
     const iconColor = customization.color;
     const iconStrokeWidth = customization.strokeWidth;
     
-    console.log('Rendering icon:', icon.id, 'svg type:', typeof icon.svg, 'svg value:', icon.svg);
-    
     if (!icon.svg) {
-      console.warn('Icon svg is undefined for icon:', icon.id, icon.name);
       return (
         <div className="icon-loading">
           <div className="w-4 h-4 border-2 border-muted-foreground border-t-transparent rounded-full animate-spin" />
@@ -148,64 +145,13 @@ export function IconCell({
       );
     }
     
-    const supportsStroke = supportsStrokeWidth(icon);
-    const isAnimatedIcon = icon.style === 'animated';
-    
-    if (typeof icon.svg === 'string') {
-      // For SVG strings, we need to modify the stroke-width attribute and colors
-      let modifiedSvg = icon.svg;
-      
-      // Comprehensive color replacement for all icon libraries
-      modifiedSvg = modifiedSvg
-        // Replace all instances of #292D32 (main Iconsax color) with currentColor
-        .replace(/#292D32/gi, 'currentColor')
-        // Handle Atlas-specific colors
-        .replace(/#020202/gi, 'currentColor')
-        .replace(/#020202/gi, 'currentColor')
-        // Handle other common hardcoded colors that might exist
-        .replace(/#2F2F2F/gi, 'currentColor')
-        .replace(/#333333/gi, 'currentColor')
-        .replace(/#000000/gi, 'currentColor')
-        .replace(/#000/gi, 'currentColor')
-        // Replace ALL 6-digit hex colors in fill and stroke
-        .replace(/fill="#[0-9A-Fa-f]{6}"/gi, 'fill="currentColor"')
-        .replace(/stroke="#[0-9A-Fa-f]{6}"/gi, 'stroke="currentColor"')
-        // Replace ALL 3-digit hex colors in fill and stroke
-        .replace(/fill="#[0-9A-Fa-f]{3}"/gi, 'fill="currentColor"')
-        .replace(/stroke="#[0-9A-Fa-f]{3}"/gi, 'stroke="currentColor"')
-        // Handle CSS style attributes with any hex colors
-        .replace(/style="([^"]*?)fill:\s*#[0-9A-Fa-f]{3,6}([^"]*?)"/gi, 'style="$1fill: currentColor$2"')
-        .replace(/style="([^"]*?)stroke:\s*#[0-9A-Fa-f]{3,6}([^"]*?)"/gi, 'style="$1stroke: currentColor$2"')
-        // Handle stop-color in gradients with any hex colors
-        .replace(/stop-color="#[0-9A-Fa-f]{3,6}"/gi, 'stop-color="currentColor"')
-        // Handle CSS classes within SVG (common in Atlas icons)
-        .replace(/<style[^>]*>([^<]*\.cls-\d+[^}]*fill:\s*#[0-9A-Fa-f]{3,6}[^<]*)<\/style>/gi, 
-          (match, content) => match.replace(/#[0-9A-Fa-f]{3,6}/g, 'currentColor'))
-        .replace(/<style[^>]*>([^<]*\.cls-\d+[^}]*stroke:\s*#[0-9A-Fa-f]{3,6}[^<]*)<\/style>/gi, 
-          (match, content) => match.replace(/#[0-9A-Fa-f]{3,6}/g, 'currentColor'))
-        // Preserve fill="none" and stroke="none"
-        .replace(/fill="currentColor"([^>]*?)stroke="currentColor"/gi, 'fill="none"$1stroke="currentColor"');
-      
-      // Apply stroke width to SVG string only for icons that support it
-      if (supportsStroke) {        
-        // Replace existing stroke-width attributes
-        modifiedSvg = modifiedSvg
-          .replace(/stroke-width="[^"]*"/g, `stroke-width="${iconStrokeWidth}"`)
-          .replace(/strokeWidth="[^"]*"/g, `strokeWidth="${iconStrokeWidth}"`)
-          .replace(/stroke-width:\s*[^;"\s]+/g, `stroke-width: ${iconStrokeWidth}`);
-        
-        // Add stroke-width to elements that have stroke but no stroke-width
-        modifiedSvg = modifiedSvg.replace(/(<[^>]*stroke="[^"]*"[^>]*?)(?![^>]*stroke-width)([^>]*>)/g, `$1 stroke-width="${iconStrokeWidth}"$2`);
-        
-        // If no stroke-width exists anywhere, inject it into the root SVG element
-        if (!modifiedSvg.includes('stroke-width')) {
-          modifiedSvg = modifiedSvg.replace(/<svg([^>]*?)>/g, `<svg$1 stroke-width="${iconStrokeWidth}">`);
-        }
-      }
+    try {
+      // Use the centralized buildCustomizedSvg for consistent processing
+      const processedSvg = buildCustomizedSvg(icon, iconColor, iconStrokeWidth);
       
       return (
         <div 
-          dangerouslySetInnerHTML={{ __html: modifiedSvg }}
+          dangerouslySetInnerHTML={{ __html: processedSvg }}
           className="icon-svg"
           style={{ 
             color: iconColor,
@@ -213,56 +159,15 @@ export function IconCell({
           }}
         />
       );
-    } else {
-      const IconComponent = icon.svg as React.ComponentType<any>;
-      
-      console.log('Trying to render icon component:', icon.id, 'Component:', IconComponent, 'Type:', typeof IconComponent);
-      
-      if (typeof IconComponent !== 'function' && typeof IconComponent !== 'object') {
-        console.warn('Icon component is invalid for icon:', icon.id, icon.name, 'Type:', typeof IconComponent, 'Value:', IconComponent);
-        return (
-          <div className="icon-loading">
-            <div className="w-4 h-4 border-2 border-muted-foreground border-t-transparent rounded-full animate-spin" />
-          </div>
-        );
-      }
-      
-      const iconProps: any = {
-        className: "icon-component",
-        style: { color: iconColor },
-      };
-      
-      // Apply size as number (32px equivalent for consistent sizing)
-      iconProps.size = 32;
-      
-      // Apply strokeWidth only for icons that support it
-      if (supportsStroke) {
-        iconProps.strokeWidth = iconStrokeWidth;
-      }
-      
-      // Apply color prop (most libraries support this)
-      iconProps.color = iconColor;
-      
-      // Pass hover state to animated icons
-      if (isAnimatedIcon) {
-        iconProps.isHovered = isHovered;
-      }
-      
-      try {
-        console.log('About to render IconComponent with props:', iconProps);
-        const result = <IconComponent {...iconProps} />;
-        console.log('Successfully rendered IconComponent:', result);
-        return result;
-      } catch (error) {
-        console.error('Error rendering icon component:', icon.id, error);
-        return (
-          <div className="icon-error">
-            <span className="text-xs">⚠</span>
-          </div>
-        );
-      }
+    } catch (error) {
+      console.error('Error processing icon:', icon.id, error);
+      return (
+        <div className="icon-error">
+          <span className="text-xs">⚠</span>
+        </div>
+      );
     }
-  }, [icon, customization.color, customization.strokeWidth, isHovered]);
+  }, [icon, customization.color, customization.strokeWidth]);
 
   // Cleanup timeout on unmount
   const cleanupTimeout = useCallback(() => {

@@ -195,17 +195,20 @@
 
   .icon-svg,
   .icon-component {
-    height: clamp(24px, 32%, 40px);
-    width: clamp(24px, 32%, 40px);
+    width: 32px;
+    height: 32px;
     transition: color 0.2s ease;
     contain: layout;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .icon-loading,
   .icon-error {
     @apply flex items-center justify-center;
-    height: clamp(24px, 32%, 40px);
-    width: clamp(24px, 32%, 40px);
+    width: 32px;
+    height: 32px;
   }
 
   .icon-error {
@@ -271,14 +274,15 @@
     stop-color: currentColor !important; 
   }
   
-  /* Unified rendered icon box size for consistent exports */
-  .icon-svg, .icon-component { 
-    width: 32px; 
-    height: 32px; 
-  }
+  /* Ensure SVG fills container properly */
   .icon-svg svg, .icon-component svg { 
     width: 100%; 
     height: 100%; 
     display: block; 
+  }
+  
+  /* Prevent SVG overflow issues */
+  .icon-svg, .icon-component {
+    overflow: visible;
   }
 }

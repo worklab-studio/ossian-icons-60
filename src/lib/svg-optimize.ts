@@ -60,23 +60,37 @@ function ensureConsistentStructure(svgContent: string): string {
   result = result.replace(/\s*width="[^"]*"/gi, '');
   result = result.replace(/\s*height="[^"]*"/gi, '');
   
-  // Ensure viewBox is present (extract from original width/height if needed)
+  // Ensure viewBox is present - properly detect existing viewBox
   if (!result.includes('viewBox=')) {
-    // Try to extract viewBox from existing structure or default to 24x24
-    const sizeMatch = result.match(/viewBox="([^"]+)"/);
-    if (sizeMatch) {
-      // viewBox already exists, keep it
+    // Check for common icon library viewBox patterns
+    const bootstrapPattern = /version="1\.1".*?xmlns/i.test(result);
+    const isBootstrapIcon = bootstrapPattern || result.includes('bootstrap');
+    
+    if (isBootstrapIcon) {
+      // Bootstrap Icons use 16x16 viewBox
+      result = result.replace('<svg', '<svg viewBox="0 0 16 16"');
     } else {
-      // Look for common sizes in the SVG structure  
+      // Look for coordinate system clues in path data
       const hasLargeCoords = /[d="'][^"']*[1-9]\d{2,}[^"']*["']/i.test(result);
       if (hasLargeCoords) {
-        // Larger coordinate system detected (like 1024x1024)
-        const coordMatch = result.match(/[d="'][^"']*?(\d{3,4})[^"']*["']/);
-        if (coordMatch) {
-          const size = coordMatch[1];
-          result = result.replace('<svg', `<svg viewBox="0 0 ${size} ${size}"`);
+        // Detect coordinate system size more accurately
+        const pathData = result.match(/d="([^"]+)"/i);
+        if (pathData) {
+          const coords = pathData[1].match(/\d+/g);
+          if (coords) {
+            const maxCoord = Math.max(...coords.map(Number));
+            if (maxCoord >= 1000) {
+              result = result.replace('<svg', '<svg viewBox="0 0 1024 1024"');
+            } else if (maxCoord >= 100) {
+              result = result.replace('<svg', '<svg viewBox="0 0 256 256"');
+            } else {
+              result = result.replace('<svg', '<svg viewBox="0 0 24 24"');
+            }
+          } else {
+            result = result.replace('<svg', '<svg viewBox="0 0 24 24"');
+          }
         } else {
-          result = result.replace('<svg', '<svg viewBox="0 0 1024 1024"');
+          result = result.replace('<svg', '<svg viewBox="0 0 24 24"');
         }
       } else {
         // Standard 24x24 coordinate system
@@ -85,7 +99,7 @@ function ensureConsistentStructure(svgContent: string): string {
     }
   }
   
-  // Add preserveAspectRatio for consistent scaling (helps PNG render size)
+  // Add preserveAspectRatio for consistent scaling
   if (!result.includes('preserveAspectRatio=')) {
     result = result.replace('<svg', '<svg preserveAspectRatio="xMidYMid meet"');
   }
