@@ -11,8 +11,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { copyIcon } from "@/lib/copy";
 import { getSimpleSvg, downloadFile, copyToClipboard } from "@/lib/simple-helpers";
 import { supportsStrokeWidth } from "@/lib/icon-utils";
-// @ts-ignore - gif.js doesn't have TypeScript definitions
-import GIF from 'gif.js';
+// Dynamic import for GIF functionality to reduce bundle size
 
 // Force HMR refresh - no Card components used in this file
 
@@ -352,6 +351,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
       });
 
       const svgContent = getCustomizedSVG();
+      
+      // Dynamic import to reduce bundle size
+      const { default: GIF } = await import('gif.js');
       
       // Create GIF using gif.js
       const gif = new (GIF as any)({
