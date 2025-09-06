@@ -197,7 +197,7 @@
   .icon-component {
     width: 32px;
     height: 32px;
-    transition: color 0.2s ease;
+    /* Removed color transition to prevent glitches during scroll */
     contain: layout;
     display: flex;
     align-items: center;

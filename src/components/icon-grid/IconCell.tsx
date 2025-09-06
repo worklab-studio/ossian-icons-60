@@ -156,6 +156,8 @@ export function IconCell({
           style={{ 
             color: iconColor,
             ['--icon-color' as any]: iconColor,
+            // Force immediate color application to prevent glitches
+            willChange: 'auto',
           }}
         />
       );
