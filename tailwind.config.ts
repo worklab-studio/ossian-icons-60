@@ -66,7 +66,7 @@ export default {
 				'icon-hover': 'hsl(var(--icon-hover))'
 			},
 			fontFamily: {
-				'sans': ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+				'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
 			},
 			boxShadow: {
 				'search': '0 4px 20px hsl(var(--search-shadow))',

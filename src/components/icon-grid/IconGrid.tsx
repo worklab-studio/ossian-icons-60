@@ -1,65 +1,107 @@
-import React, { useMemo } from 'react';
-import { type IconItem } from '@/types/icon';
-import { IconCell } from './IconCell';
-import { useIconCustomization } from '@/contexts/IconCustomizationContext';
+import React, { useRef, useMemo } from "react";
+import { type IconGridProps } from "@/types/icon";
+import { IconCell } from "./IconCell";
+import { useVirtualGrid } from "./useVirtualGrid";
+import { getGridAriaLabel } from "@/lib/a11y";
+import { cn } from "@/lib/utils";
 
-interface IconGridProps {
-  items: IconItem[];
-  selectedId?: string | null;
-  onCopy?: (icon: IconItem) => void;
-  onIconClick?: (icon: IconItem) => void;
-  color?: string;
-  strokeWidth?: number;
-  ariaLabel?: string;
-  className?: string;
-}
-
-export function IconGrid({ 
-  items, 
+export function IconGrid({
+  items,
   selectedId,
   onCopy,
   onIconClick,
-  color,
-  strokeWidth,
-  ariaLabel = "Icon grid",
-  className = ""
+  color = "currentColor",
+  strokeWidth = 1.5,
+  ariaLabel,
+  libraryName,
 }: IconGridProps) {
-  const { customization } = useIconCustomization();
+  const containerRef = useRef<HTMLDivElement>(null);
+  const { virtualizer, rows, columnsCount } = useVirtualGrid({
+    items,
+    containerRef,
+    enabled: items.length > 100, // Only virtualize for large lists
+  });
 
-  // Use passed props or fallback to customization context
-  const finalColor = color || customization.color;
-  const finalStrokeWidth = strokeWidth || customization.strokeWidth;
+  const computedAriaLabel = useMemo(() => {
+    return ariaLabel || getGridAriaLabel(items.length);
+  }, [ariaLabel, items.length]);
 
-  // Memoize the grid items for performance
-  const gridItems = useMemo(() => {
-    return items.filter(icon => icon.svg !== undefined && icon.svg !== null);
-  }, [items]);
-
-  if (gridItems.length === 0) {
-    return (
-      <div className="flex items-center justify-center py-12">
-        <p className="text-muted-foreground">No icons found</p>
-      </div>
-    );
-  }
-
+  // Enhanced smooth scrolling container with consistent styling
   return (
-    <div 
-      className={`grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 gap-1 ${className}`}
-      role="grid"
-      aria-label={ariaLabel}
-    >
-      {gridItems.map((icon) => (
-        <IconCell
-          key={icon.id}
-          icon={icon}
-          isSelected={selectedId === icon.id}
-          color={finalColor}
-          strokeWidth={finalStrokeWidth}
-          onCopy={onCopy}
-          onIconClick={onIconClick}
-        />
-      ))}
+    <div className="relative h-full">
+      <div 
+        ref={containerRef}
+        className="h-full overflow-y-auto overflow-x-hidden"
+        role="grid"
+        aria-label={computedAriaLabel}
+      >
+        {items.length > 100 ? (
+          // Virtualized rendering for large lists
+          <div
+            style={{
+              height: `${virtualizer.getTotalSize()}px`,
+              width: '100%',
+              position: 'relative',
+            }}
+          >
+            {virtualizer.getVirtualItems().map((virtualItem) => {
+              const row = rows[virtualItem.index];
+              if (!row) return null;
+
+              return (
+                <div
+                  key={virtualItem.index}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: `${virtualItem.size}px`,
+                    transform: `translateY(${virtualItem.start}px)`,
+                  }}
+                  className=""
+                >
+                  <div className="grid min-w-0 gap-0" style={{ 
+                    gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`, 
+                    height: '80px'
+                  }}>
+                    {row.map((icon) => (
+                      <IconCell
+                        key={icon.id}
+                        icon={icon}
+                        isSelected={icon.id === selectedId}
+                        color={color}
+                        strokeWidth={strokeWidth}
+                        onCopy={onCopy}
+                        onIconClick={onIconClick}
+                      />
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          // Simple grid for smaller lists with fixed 80px height
+          <div className="grid min-w-0 gap-0" 
+               style={{ 
+                 gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`,
+                 gridAutoRows: '80px'
+               }}>
+            {items.map((icon) => (
+              <IconCell
+                key={icon.id}
+                icon={icon}
+                isSelected={selectedId === icon.id}
+                color={color}
+                strokeWidth={strokeWidth}
+                onCopy={onCopy}
+                onIconClick={onIconClick}
+              />
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
