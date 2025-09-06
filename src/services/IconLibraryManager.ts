@@ -197,7 +197,8 @@ class IconLibraryManager {
       // Update access stats
       cached.accessCount++;
       cached.lastAccessed = Date.now();
-      return cached.icons;
+      // Ensure strict library filtering
+      return this.filterIconsByLibraryId(cached.icons, libraryId);
     }
 
     // Check if already loading
@@ -212,7 +213,8 @@ class IconLibraryManager {
     try {
       const icons = await loadPromise;
       this.loadingPromises.delete(libraryId);
-      return icons;
+      // Ensure strict library filtering
+      return this.filterIconsByLibraryId(icons, libraryId);
     } catch (error) {
       this.loadingPromises.delete(libraryId);
       throw error;
@@ -433,6 +435,20 @@ class IconLibraryManager {
     return result;
   }
 
+  // Filter icons to ensure they belong to the specified library
+  private filterIconsByLibraryId(icons: IconItem[], libraryId: string): IconItem[] {
+    return icons.filter(icon => {
+      const iconLibraryId = icon.id.split('-')[0];
+      const isValidIcon = iconLibraryId === libraryId;
+      
+      if (!isValidIcon) {
+        console.warn(`Filtered out cross-contaminated icon: ${icon.id} from library ${libraryId}`);
+      }
+      
+      return isValidIcon;
+    });
+  }
+
   // Search across loaded libraries
   searchIcons(query: string, libraryIds?: string[]): IconItem[] {
     if (!query.trim()) return [];
@@ -443,7 +459,10 @@ class IconLibraryManager {
     for (const [libraryId, cached] of this.cache) {
       if (libraryIds && !libraryIds.includes(libraryId)) continue;
       
-      for (const icon of cached.icons) {
+      // Apply strict library filtering to cached icons
+      const libraryIcons = this.filterIconsByLibraryId(cached.icons, libraryId);
+      
+      for (const icon of libraryIcons) {
         if (
           icon.name.toLowerCase().includes(searchQuery) ||
           icon.tags?.some(tag => tag.toLowerCase().includes(searchQuery)) ||

@@ -257,10 +257,16 @@ function IconGridPage() {
     searchResults.forEach(icon => {
       // Extract library ID from icon ID (assumes format like "library-iconname")
       const libraryId = icon.id.split('-')[0];
-      if (!iconsByLibrary.has(libraryId)) {
-        iconsByLibrary.set(libraryId, []);
+      
+      // Validate that icon belongs to the correct library
+      if (libraryId && icon.id.startsWith(`${libraryId}-`)) {
+        if (!iconsByLibrary.has(libraryId)) {
+          iconsByLibrary.set(libraryId, []);
+        }
+        iconsByLibrary.get(libraryId)!.push(icon);
+      } else {
+        console.warn(`Skipping cross-contaminated search result: ${icon.id}`);
       }
-      iconsByLibrary.get(libraryId)!.push(icon);
     });
 
     // Create sections in the same order as defined in IconLibraryManager
