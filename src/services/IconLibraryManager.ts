@@ -36,8 +36,8 @@ class IconLibraryManager {
   private readonly popularLibraries: string[] = ['lucide'];
 
   constructor() {
-    // Clear any corrupted cache on startup for debugging
-    console.log(`🧹 Clearing all caches for debugging...`);
+    // Clear any corrupted cache on startup for debugging + force fresh load after color fix
+    console.log(`🧹 Clearing all caches to apply color fixes...`);
     this.clearAllCaches();
     
     // Clean up old cache entries on startup
