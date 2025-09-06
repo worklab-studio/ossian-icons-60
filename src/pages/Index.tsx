@@ -2,6 +2,8 @@ import React, { useState, useMemo, useEffect } from "react";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Header } from "@/components/header";
 import { AppSidebar } from "@/components/app-sidebar";
+import { IconGrid } from "@/components/icon-grid/IconGrid";
+import { SectionedIconGrid } from "@/components/icon-grid/SectionedIconGrid";
 import { SimpleIconGrid } from "@/components/icon-grid/SimpleIconGrid";
 import { ControlPanel } from "@/components/control-panel";
 import { CategoryFilter } from "@/components/CategoryFilter";
@@ -262,12 +264,13 @@ function IconGridPage() {
                   </div>
                 )}
 
-                {/* Icon Grid */}
-                <SimpleIconGrid
-                  icons={displayedIcons}
-                  onIconClick={handleIconClick}
-                  onCopy={handleCopy}
-                />
+                  {/* Icon Grid */}
+                  <IconGrid
+                    items={displayedIcons}
+                    selectedId={selectedId}
+                    onIconClick={handleIconClick}
+                    onCopy={handleCopy}
+                  />
               </div>
             )}
           </main>
@@ -350,8 +353,9 @@ function IconGridPage() {
                   )}
 
                   {/* Icon Grid */}
-                  <SimpleIconGrid
-                    icons={displayedIcons}
+                  <IconGrid
+                    items={displayedIcons}
+                    selectedId={selectedId}
                     onIconClick={handleIconClick}
                     onCopy={handleCopy}
                   />
