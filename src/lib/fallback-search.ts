@@ -212,6 +212,9 @@ export function fallbackSearch(
     libraryId
   } = options;
   
+  console.log(`🔍 Fallback search for "${query}" (libraryId: ${libraryId || 'all'})`);
+  console.log(`Total icons available: ${icons.length}`);
+  
   if (!query?.trim() || !icons.length) return { results: [], totalCount: 0 };
   
   // Filter icons by library if specified
@@ -222,6 +225,9 @@ export function fallbackSearch(
       const iconLibrary = icon.id.split('-')[0];
       return iconLibrary === libraryId;
     });
+    console.log(`Filtered to ${filteredIcons.length} icons for library: ${libraryId}`);
+  } else {
+    console.log(`Searching all ${filteredIcons.length} icons (no library filter)`);
   }
   
   const normalizedQuery = query.toLowerCase().trim();
@@ -268,6 +274,8 @@ export function fallbackSearch(
 
   const totalCount = sortedResults.length;
   const limitedResults = sortedResults.slice(0, maxResults);
+  
+  console.log(`✅ Fallback search results: ${limitedResults.length} icons (from ${totalCount} total matches)`);
   
   return { 
     results: limitedResults.map(result => result.icon),

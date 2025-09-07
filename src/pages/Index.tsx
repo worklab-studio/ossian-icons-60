@@ -175,9 +175,20 @@ function IconGridPage() {
     }
 
     const performSearch = async () => {
+      console.log(`🔍 Starting search for "${searchQuery}" in ${selectedSet}`);
+      console.log(`Search ready: ${searchReady}, Loaded: ${loaded}`);
+      console.log(`Available icons: ${icons.length}`);
+      
+      if (selectedSet === 'all' && sections.length > 0) {
+        const totalIconsInSections = sections.reduce((total, section) => total + section.icons.length, 0);
+        console.log(`Total icons in sections: ${totalIconsInSections}`);
+        console.log(`Sections breakdown:`, sections.map(s => `${s.libraryId}: ${s.icons.length}`));
+      }
+
       try {
         // Try worker search with conservative options including library filter
         if (searchReady && loaded) {
+          console.log('🤖 Using worker search');
           const searchResult = await search(searchQuery, {
             maxResults: 1000, // Conservative limit for performance
             fuzzy: true,
@@ -188,9 +199,11 @@ function IconGridPage() {
           });
           // Filter out any invalid results
           const validResults = searchResult.results.filter(icon => icon && icon.svg);
+          console.log(`✅ Worker search results: ${validResults.length} valid icons (total: ${searchResult.totalCount})`);
           setSearchResults(validResults);
           setSearchTotalCount(searchResult.totalCount);
         } else if (loaded) {
+          console.log('🔄 Using fallback search');
           // Enhanced fallback search when worker isn't ready
           const { fallbackSearch } = await import('@/lib/fallback-search');
           const fallbackResult = fallbackSearch(icons, searchQuery, {

@@ -387,10 +387,18 @@ function searchIcons(
   // Filter search by library if specified
   const librariesToSearch = libraryId && libraryId !== 'all' ? [libraryId] : Array.from(searchIndex.keys());
   
+  console.log(`🔍 Worker searching for "${query}" in libraries:`, librariesToSearch);
+  console.log(`Available indexes:`, Array.from(searchIndex.keys()));
+  console.log(`Library filter: ${libraryId || 'none (searching all)'}`);
+  
   // Search across specified libraries
+  let totalCandidates = 0;
   for (const currentLibraryId of librariesToSearch) {
     const index = searchIndex.get(currentLibraryId);
-    if (!index) continue;
+    if (!index) {
+      console.log(`⚠️ No index found for library: ${currentLibraryId}`);
+      continue;
+    }
     
     const candidates = new Set<SearchableIcon>();
     
@@ -428,16 +436,22 @@ function searchIcons(
       }
     }
     
+    console.log(`📚 Library ${currentLibraryId}: ${candidates.size} candidates found`);
+    totalCandidates += candidates.size;
+
     // Score all candidates
     for (const icon of candidates) {
-      if (seen.has(icon.id)) continue;
+      if (seen.has(icon.id)) {
+        console.log(`⚠️ Duplicate icon found: ${icon.id}`);
+        continue;
+      }
       seen.add(icon.id);
       
       const result = calculateIconScore(
         icon, 
         normalizedQuery, 
         expandedQueries, 
-        queryWords, 
+        queryWords,
         options
       );
       
@@ -446,6 +460,8 @@ function searchIcons(
       }
     }
   }
+  
+  console.log(`📊 Search summary: ${totalCandidates} total candidates, ${results.length} passed scoring threshold`);
   
   // Sort by score (descending) and limit results
   const sortedResults = results
@@ -462,6 +478,8 @@ function searchIcons(
     })
     .slice(0, maxResults);
   
+  console.log(`✅ Final worker results: ${sortedResults.length} icons (from ${results.length} total matches)`);
+
   // Cache the results
   searchCache.set(cacheKey, {
     results: sortedResults,
@@ -492,6 +510,8 @@ self.onmessage = function(event: MessageEvent<SearchMessage>) {
       case 'search':
         if (query !== undefined) {
           const results = searchIcons(query, { ...options, libraryId });
+          console.log(`🤖 Worker search completed: ${results.length} results for "${query}"`);
+          
           // Calculate total count before limiting
           const totalCount = results.length;
           const limitedResults = results.slice(0, options?.maxResults || 1000);
