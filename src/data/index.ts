@@ -2,6 +2,7 @@
 export * from './lucide-icons';
 export * from './atlas';
 export * from './feather';
+export * from './tabler';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';

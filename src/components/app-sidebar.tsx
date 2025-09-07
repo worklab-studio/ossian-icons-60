@@ -1,4 +1,4 @@
-import { Home, Zap, Feather } from "lucide-react";
+import { Home, Zap, Feather, Table } from "lucide-react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarSeparator } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
 import { AnimatedPlayIcon } from "@/components/animated-play-icon";
@@ -10,6 +10,7 @@ const iconMap = {
   lucide: Zap,
   atlas: Home,
   feather: Feather,
+  tabler: Table,
 };
 
 interface AppSidebarProps {
@@ -42,7 +43,7 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
             <div className="flex flex-col">
               <span className="text-sm font-semibold">Iconstack</span>
               <span className="text-xs text-muted-foreground">
-                50,000+ icons
+                55,000+ icons
               </span>
             </div>
           </div>

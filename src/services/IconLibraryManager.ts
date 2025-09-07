@@ -30,7 +30,8 @@ class IconLibraryManager {
   public readonly libraries: IconLibraryMetadata[] = [
     { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
     { id: 'atlas', name: 'Atlas', count: 0, style: 'outline', description: 'Comprehensive icon collection' },
-    { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' }
+    { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' },
+    { id: 'tabler', name: 'Tabler', count: 4964, style: 'outline', description: 'Free SVG icons for web development' }
   ];
 
   // Popular libraries to preload for better UX
@@ -69,6 +70,12 @@ class IconLibraryManager {
       const { featherIcons } = await import('@/data/feather');
       console.log(`✅ Feather icons imported: ${featherIcons.length} icons`);
       return featherIcons;
+    }
+    
+    if (libraryId === 'tabler') {
+      const { tablerIcons } = await import('@/data/tabler');
+      console.log(`✅ Tabler icons imported: ${tablerIcons.length} icons`);
+      return tablerIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
