@@ -28,11 +28,12 @@ class IconLibraryManager {
 
   // Library metadata
   public readonly libraries: IconLibraryMetadata[] = [
-    { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' },
     { id: 'tabler', name: 'Tabler', count: 4964, style: 'outline', description: 'Free SVG icons for web development' },
+    { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' },
     { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' },
     { id: 'phosphor', name: 'Phosphor', count: 9072, style: 'mixed', description: 'A flexible icon family with multiple weights' },
       { id: 'bootstrap', name: 'Bootstrap', count: 2078, style: 'mixed', description: 'Official open source SVG icon library for Bootstrap' },
+      { id: 'iconsax', name: 'Iconsax', count: 943, style: 'twotone', description: 'Modern twotone icons with distinctive design and depth' },
       { id: 'radix', name: 'Radix', count: 318, style: 'outline', description: 'A crisp set of 15×15 icons designed by the Workos team' },
       { id: 'line', name: 'Line', count: 606, style: 'outline', description: 'Clean and minimal outline icons' },
       { id: 'pixelart', name: 'Pixel Art', count: 486, style: 'pixel', description: 'Retro pixel art icons with distinctive 8-bit aesthetic' },
@@ -47,8 +48,7 @@ class IconLibraryManager {
       { id: 'iconoir', name: 'Iconoir', count: 1383, style: 'mixed', description: 'Beautiful open source icons with clean design' },
       { id: 'majesticon', name: 'Majesticon', count: 760, style: 'outline', description: 'Professional outline icons with clean, consistent design' },
       { id: 'simple', name: 'Brand', count: 3355, style: 'brand', description: 'Popular brand and company logos as beautiful SVG icons' },
-      { id: 'octicons', name: 'Octicons', count: 661, style: 'outline', description: 'GitHub\'s official icon library with clean, consistent design' },
-      { id: 'iconsax', name: 'Iconsax', count: 943, style: 'twotone', description: 'Modern twotone icons with distinctive design and depth' }
+      { id: 'octicons', name: 'Octicons', count: 661, style: 'outline', description: 'GitHub\'s official icon library with clean, consistent design' }
   ];
 
   // Popular libraries to preload for better UX
