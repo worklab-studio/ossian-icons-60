@@ -135,7 +135,6 @@ export function IconCell({
   // Use centralized SVG processing for consistent display and export
   const renderedIcon = useMemo(() => {
     const iconColor = customization.color;
-    const iconStrokeWidth = customization.strokeWidth;
     
     if (!icon.svg) {
       return (
@@ -146,12 +145,24 @@ export function IconCell({
     }
     
     try {
-      // Use simple SVG without processing
       const processedSvg = getSimpleSvg(icon);
+      let finalSvg = processedSvg;
+
+      // Apply stroke-width customization for supported icons
+      if (supportsStrokeWidth(icon) && customization.strokeWidth !== 2) {
+        finalSvg = processedSvg.replace(
+          /stroke-width="[\d.]+"/g, 
+          `stroke-width="${customization.strokeWidth}"`
+        );
+      }
+
+      // Apply color
+      finalSvg = finalSvg.replace(/stroke="currentColor"/g, `stroke="${iconColor}"`);
+      finalSvg = finalSvg.replace(/fill="currentColor"/g, `fill="${iconColor}"`);
       
       return (
         <div 
-          dangerouslySetInnerHTML={{ __html: processedSvg }}
+          dangerouslySetInnerHTML={{ __html: finalSvg }}
           className="icon-svg"
           style={{ 
             color: iconColor,

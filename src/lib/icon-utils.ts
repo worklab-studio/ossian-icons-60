@@ -18,7 +18,12 @@ export function supportsStrokeWidth(icon: IconItem): boolean {
     'line',
     'thin',
     'light',
-    'stroke'
+    'stroke',
+    'linear',           // Solar/Heroicons
+    'line duotone',     // Solar
+    'broken',           // Solar
+    'micro',            // Heroicons
+    'mini'              // Heroicons
   ];
 
   // List of styles that don't support stroke width (filled variants)
@@ -27,7 +32,9 @@ export function supportsStrokeWidth(icon: IconItem): boolean {
     'filled', 
     'bold',
     'bulk',
-    'fill'
+    'fill',
+    'bold duotone',     // Solar
+    'duotone'           // Mixed libraries
   ];
   
   // First check if it's explicitly a stroke-supporting style
