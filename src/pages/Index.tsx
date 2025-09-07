@@ -130,15 +130,35 @@ function IconGridPage() {
     loadIcons();
   }, [loadLibrary, loadAllLibrariesSectioned, selectedSet]);
 
-  // Index loaded icons for search - with error handling
+  // Index loaded icons for search - with proper library separation for "all"
   useEffect(() => {
-    if (loaded && icons.length > 0 && searchReady) {
-      indexLibrary(selectedSet, icons).catch(error => {
-        console.error('Failed to index icons for search:', error);
-        // Search will fall back to client-side search automatically
-      });
+    if (loaded && searchReady) {
+      const indexIcons = async () => {
+        try {
+          if (selectedSet === "all" && sections.length > 0) {
+            // Index each library separately when showing all icons
+            console.log('Indexing all libraries separately for comprehensive search...');
+            for (const section of sections) {
+              if (section.icons.length > 0) {
+                console.log(`Indexing ${section.libraryId} with ${section.icons.length} icons`);
+                await indexLibrary(section.libraryId, section.icons);
+              }
+            }
+            console.log(`Successfully indexed ${sections.length} libraries for search`);
+          } else if (icons.length > 0) {
+            // Index single library
+            console.log(`Indexing ${selectedSet} with ${icons.length} icons`);
+            await indexLibrary(selectedSet, icons);
+          }
+        } catch (error) {
+          console.error('Failed to index icons for search:', error);
+          // Search will fall back to client-side search automatically
+        }
+      };
+      
+      indexIcons();
     }
-  }, [loaded, icons, searchReady, selectedSet, indexLibrary]);
+  }, [loaded, icons, sections, searchReady, selectedSet, indexLibrary]);
 
   // Get the selected icon object
   const selectedIcon = useMemo(() => {
@@ -163,7 +183,8 @@ function IconGridPage() {
             fuzzy: true,
             enableSynonyms: false, // Conservative default
             enablePhonetic: false, // Conservative default
-            libraryId: selectedSet !== 'all' ? selectedSet : undefined // Only filter if specific library selected
+            // Don't pass libraryId for "all" - let worker search across all indexed libraries
+            libraryId: selectedSet !== 'all' ? selectedSet : undefined
           });
           // Filter out any invalid results
           const validResults = searchResult.results.filter(icon => icon && icon.svg);
