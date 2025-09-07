@@ -84,9 +84,28 @@ function IconGridPage() {
       if (search && searchReady && loaded) {
         console.log('🧪 Testing individual library searches...');
         
+        // Test Fluent UI specifically first
+        console.log('\n🔍 Testing Fluent UI library loading...');
+        try {
+          await loadLibrary('fluent-ui');
+          const fluentResult = await search('access', { 
+            maxResults: 10, 
+            libraryId: 'fluent-ui',
+            fuzzy: true 
+          });
+          console.log(`📊 Fluent UI search for "access": ${fluentResult.results.length} results`);
+          if (fluentResult.results.length > 0) {
+            console.log(`✅ First Fluent UI result:`, fluentResult.results[0]);
+          } else {
+            console.warn(`❌ No Fluent UI results found for "access"`);
+          }
+        } catch (error) {
+          console.error('❌ Failed to test Fluent UI:', error);
+        }
+        
         // Test search in each library
         const testQueries = ['pen', 'home', 'user'];
-        const testLibraries = ['feather', 'tabler', 'lucide', 'solar'];
+        const testLibraries = ['feather', 'tabler', 'lucide', 'solar', 'fluent-ui'];
         
         for (const library of testLibraries) {
           for (const query of testQueries) {
@@ -99,8 +118,13 @@ function IconGridPage() {
               });
               console.log(`📊 ${library}/${query}: ${result.results.length} results (total: ${result.totalCount})`);
               
-              // Verify all results are from the correct library
-              const misattributed = result.results.filter(icon => !icon.id.startsWith(library + '-'));
+              // Verify all results are from the correct library (handle hyphenated names)
+              const misattributed = result.results.filter(icon => {
+                if (library.includes('-')) {
+                  return !icon.id.startsWith(library + '-');
+                }
+                return !icon.id.startsWith(library + '-');
+              });
               if (misattributed.length > 0) {
                 console.warn(`⚠️ Misattributed icons in ${library}:`, misattributed.map(i => i.id));
               }

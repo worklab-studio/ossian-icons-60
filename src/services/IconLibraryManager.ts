@@ -345,6 +345,11 @@ class IconLibraryManager {
     
     console.log(`📊 Raw import result for ${libraryId}:`, rawIcons?.length || 0, 'icons');
     
+    // For Fluent UI, log first few icon IDs to debug
+    if (libraryId === 'fluent-ui' && rawIcons && rawIcons.length > 0) {
+      console.log(`🔍 First 5 Fluent UI icon IDs:`, rawIcons.slice(0, 5).map(icon => icon.id));
+    }
+    
     // No SVG processing needed - clean icons
     const icons = rawIcons;
     
@@ -457,7 +462,18 @@ class IconLibraryManager {
     console.log(`🔍 Filtering ${icons.length} icons for library: ${libraryId}`);
     
     const filtered = icons.filter(icon => {
-      const iconLibraryId = icon.id.split('-')[0];
+      // Extract library ID from icon ID, handling hyphenated library names
+      let iconLibraryId: string;
+      
+      // Special handling for hyphenated library names
+      if (libraryId.includes('-')) {
+        // For libraries like 'fluent-ui', check if icon ID starts with the full library ID
+        iconLibraryId = icon.id.startsWith(libraryId + '-') ? libraryId : icon.id.split('-')[0];
+      } else {
+        // For single-word libraries, use the first part
+        iconLibraryId = icon.id.split('-')[0];
+      }
+      
       const isValidIcon = iconLibraryId === libraryId;
       
       if (!isValidIcon) {
