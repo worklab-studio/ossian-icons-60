@@ -20,6 +20,7 @@ const iconMap = {
   mingcute: Sparkles,
   heroicons: Sparkles,
   material: Atom,
+  'fluent-ui': Layers,
 };
 
 interface AppSidebarProps {

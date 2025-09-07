@@ -12,6 +12,7 @@ export * from './hugeicon';
 export * from './mingcute';
 export * from './heroicons';
 export * from './material';
+export * from './fluent-ui';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';

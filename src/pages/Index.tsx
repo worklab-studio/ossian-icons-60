@@ -359,6 +359,7 @@ function IconGridPage() {
                  selectedSet === "mingcute" ? "Mingcute Icons" :
                  selectedSet === "heroicons" ? "Heroicons" :
                  selectedSet === "material" ? "Material Design Icons" :
+                 selectedSet === "fluent-ui" ? "Fluent UI Icons" :
                  "Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -489,9 +490,10 @@ function IconGridPage() {
               <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
                 <div className="space-y-1">
                     <h2 className="text-2xl font-semibold">
-                    {selectedSet === "all" ? "All icons" : 
+                     {selectedSet === "all" ? "All icons" : 
                      selectedSet === "favorites" ? "Favorites" : 
                      selectedSet === "material" ? "Material Design Icons" :
+                     selectedSet === "fluent-ui" ? "Fluent UI Icons" :
                      selectedSet === "animated" ? "Animated Icons" :
                      selectedSet === "lucide" ? "Lucide Icons" :
                      selectedSet === "feather" ? "Feather Icons" :
