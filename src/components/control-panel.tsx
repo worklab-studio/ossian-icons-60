@@ -59,7 +59,7 @@ export function ControlPanel({
     if (!selectedIcon) return;
     
     try {
-      const customizedSVG = getSimpleSvg(selectedIcon);
+      const customizedSVG = getCustomizedSVG();
       
       // Enhanced PNG conversion with retry mechanism
       await convertSvgToPng(customizedSVG, selectedIcon.name);
