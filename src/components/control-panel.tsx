@@ -205,7 +205,10 @@ export function ControlPanel({
     }
     try {
       const customizedSVG = getCustomizedSVG();
-      await copyToClipboard(customizedSVG);
+      // Convert to data URI format with URL encoding
+      const encodedSVG = encodeURIComponent(customizedSVG);
+      const dataURI = `data:image/svg+xml,${encodedSVG}`;
+      await copyToClipboard(dataURI);
       toast({
         description: "SVG XML copied to clipboard!",
         duration: 2000
