@@ -41,7 +41,8 @@ class IconLibraryManager {
       { id: 'heroicons', name: 'Heroicons', count: 648, style: 'mixed', description: 'Beautiful hand-crafted SVG icons by the makers of Tailwind CSS' },
       { id: 'material', name: 'Material Design', count: 7447, style: 'outline', description: 'Google\'s comprehensive Material Design icon system' },
       { id: 'fluent-ui', name: 'Fluent UI', count: 4780, style: 'mixed', description: 'Microsoft\'s modern design system icons' },
-      { id: 'lucide', name: 'Lucide', count: 1632, style: 'outline', description: 'Simply beautiful open source icons' }
+      { id: 'lucide', name: 'Lucide', count: 1632, style: 'outline', description: 'Simply beautiful open source icons' },
+      { id: 'carbon', name: 'Carbon', count: 2510, style: 'mixed', description: 'IBM\'s comprehensive design system icons' }
   ];
 
   // Popular libraries to preload for better UX
@@ -146,6 +147,12 @@ class IconLibraryManager {
       const { lucideIcons } = await import('@/data/lucide');
       console.log(`✅ Lucide icons imported: ${lucideIcons.length} icons`);
       return lucideIcons;
+    }
+    
+    if (libraryId === 'carbon') {
+      const { carbonIcons } = await import('@/data/carbon');
+      console.log(`✅ Carbon icons imported: ${carbonIcons.length} icons`);
+      return carbonIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
