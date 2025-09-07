@@ -355,6 +355,7 @@ function IconGridPage() {
                 {selectedSet === "all" ? "All Icons" : 
                  selectedSet === "lucide" ? "Lucide Icons" :
                  selectedSet === "pixelart" ? "Pixel Art Icons" :
+                 selectedSet === "hugeicon" ? "Huge Icons" :
                  "Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -503,8 +504,9 @@ function IconGridPage() {
                          selectedSet === "bootstrap" ? "Bootstrap Icons" :
                          selectedSet === "radix" ? "Radix Icons" :
                           selectedSet === "line" ? "Line Icons" :
-                          selectedSet === "pixelart" ? "Pixel Art Icons" :
-                         selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
+                           selectedSet === "pixelart" ? "Pixel Art Icons" :
+                           selectedSet === "hugeicon" ? "Huge Icons" :
+                          selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">
                       {searchQuery && searchTotalCount > (groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0) : displayedIcons.length) ? (
@@ -629,8 +631,9 @@ function IconGridPage() {
                     selectedSet === "iconsax" ? "Iconsax Icons" :
                      selectedSet === "solar" ? "Solar Icons" :
                      selectedSet === "atlas" ? "Atlas Icons" :
-                     selectedSet === "pixelart" ? "Pixel Art Icons" :
-                      selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
+                      selectedSet === "pixelart" ? "Pixel Art Icons" :
+                      selectedSet === "hugeicon" ? "Huge Icons" :
+                       selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
                   ) : undefined}
                 />
               )

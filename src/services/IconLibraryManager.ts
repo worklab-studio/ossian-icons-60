@@ -36,7 +36,8 @@ class IconLibraryManager {
       { id: 'bootstrap', name: 'Bootstrap', count: 2078, style: 'mixed', description: 'Official open source SVG icon library for Bootstrap' },
       { id: 'radix', name: 'Radix', count: 318, style: 'outline', description: 'A crisp set of 15×15 icons designed by the Workos team' },
       { id: 'line', name: 'Line', count: 606, style: 'outline', description: 'Clean and minimal outline icons' },
-      { id: 'pixelart', name: 'Pixel Art', count: 486, style: 'pixel', description: 'Retro pixel art icons with distinctive 8-bit aesthetic' }
+      { id: 'pixelart', name: 'Pixel Art', count: 486, style: 'pixel', description: 'Retro pixel art icons with distinctive 8-bit aesthetic' },
+      { id: 'hugeicon', name: 'Huge Icons', count: 4497, style: 'outline', description: 'Comprehensive outline icon library with extensive coverage' }
   ];
 
   // Popular libraries to preload for better UX
@@ -111,6 +112,12 @@ class IconLibraryManager {
       const { pixelartIcons } = await import('@/data/pixelart');
       console.log(`✅ Pixel Art icons imported: ${pixelartIcons.length} icons`);
       return pixelartIcons;
+    }
+    
+    if (libraryId === 'hugeicon') {
+      const { hugeiconIcons } = await import('@/data/hugeicon');
+      console.log(`✅ Huge Icons imported: ${hugeiconIcons.length} icons`);
+      return hugeiconIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);

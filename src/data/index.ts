@@ -8,6 +8,7 @@ export * from './bootstrap';
 export * from './radix';
 export * from './line';
 export * from './pixelart';
+export * from './hugeicon';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';
