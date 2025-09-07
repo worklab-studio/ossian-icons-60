@@ -9,6 +9,7 @@ export * from './radix';
 export * from './line';
 export * from './pixelart';
 export * from './hugeicon';
+export * from './mingcute';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';

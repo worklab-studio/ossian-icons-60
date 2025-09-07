@@ -356,6 +356,7 @@ function IconGridPage() {
                  selectedSet === "lucide" ? "Lucide Icons" :
                  selectedSet === "pixelart" ? "Pixel Art Icons" :
                  selectedSet === "hugeicon" ? "Huge Icons" :
+                 selectedSet === "mingcute" ? "Mingcute Icons" :
                  "Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -505,7 +506,8 @@ function IconGridPage() {
                          selectedSet === "radix" ? "Radix Icons" :
                           selectedSet === "line" ? "Line Icons" :
                            selectedSet === "pixelart" ? "Pixel Art Icons" :
-                           selectedSet === "hugeicon" ? "Huge Icons" :
+                            selectedSet === "hugeicon" ? "Huge Icons" :
+                            selectedSet === "mingcute" ? "Mingcute Icons" :
                           selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">
@@ -632,7 +634,8 @@ function IconGridPage() {
                      selectedSet === "solar" ? "Solar Icons" :
                      selectedSet === "atlas" ? "Atlas Icons" :
                       selectedSet === "pixelart" ? "Pixel Art Icons" :
-                      selectedSet === "hugeicon" ? "Huge Icons" :
+                       selectedSet === "hugeicon" ? "Huge Icons" :
+                       selectedSet === "mingcute" ? "Mingcute Icons" :
                        selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
                   ) : undefined}
                 />

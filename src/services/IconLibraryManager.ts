@@ -37,7 +37,8 @@ class IconLibraryManager {
       { id: 'radix', name: 'Radix', count: 318, style: 'outline', description: 'A crisp set of 15×15 icons designed by the Workos team' },
       { id: 'line', name: 'Line', count: 606, style: 'outline', description: 'Clean and minimal outline icons' },
       { id: 'pixelart', name: 'Pixel Art', count: 486, style: 'pixel', description: 'Retro pixel art icons with distinctive 8-bit aesthetic' },
-      { id: 'hugeicon', name: 'Huge Icons', count: 4497, style: 'outline', description: 'Comprehensive outline icon library with extensive coverage' }
+      { id: 'hugeicon', name: 'Huge Icons', count: 4497, style: 'outline', description: 'Comprehensive outline icon library with extensive coverage' },
+      { id: 'mingcute', name: 'Mingcute', count: 3102, style: 'mixed', description: 'Carefully crafted icon library with consistent design language' }
   ];
 
   // Popular libraries to preload for better UX
@@ -118,6 +119,12 @@ class IconLibraryManager {
       const { hugeiconIcons } = await import('@/data/hugeicon');
       console.log(`✅ Huge Icons imported: ${hugeiconIcons.length} icons`);
       return hugeiconIcons;
+    }
+    
+    if (libraryId === 'mingcute') {
+      const { mingcuteIcons } = await import('@/data/mingcute');
+      console.log(`✅ Mingcute icons imported: ${mingcuteIcons.length} icons`);
+      return mingcuteIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
