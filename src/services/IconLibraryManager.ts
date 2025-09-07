@@ -43,7 +43,8 @@ class IconLibraryManager {
       { id: 'fluent-ui', name: 'Fluent UI', count: 4780, style: 'mixed', description: 'Microsoft\'s modern design system icons' },
       { id: 'lucide', name: 'Lucide', count: 1632, style: 'outline', description: 'Simply beautiful open source icons' },
       { id: 'carbon', name: 'Carbon', count: 2510, style: 'mixed', description: 'IBM\'s comprehensive design system icons' },
-      { id: 'iconamoon', name: 'Iconamoon', count: 608, style: 'outline', description: 'Modern outline icons with consistent design language' }
+      { id: 'iconamoon', name: 'Iconamoon', count: 608, style: 'outline', description: 'Modern outline icons with consistent design language' },
+      { id: 'iconoir', name: 'Iconoir', count: 1383, style: 'mixed', description: 'Beautiful open source icons with clean design' }
   ];
 
   // Popular libraries to preload for better UX
@@ -160,6 +161,12 @@ class IconLibraryManager {
       const { iconamoonIcons } = await import('@/data/iconamoon');
       console.log(`✅ Iconamoon icons imported: ${iconamoonIcons.length} icons`);
       return iconamoonIcons;
+    }
+    
+    if (libraryId === 'iconoir') {
+      const { iconoirIcons } = await import('@/data/iconoir');
+      console.log(`✅ Iconoir icons imported: ${iconoirIcons.length} icons`);
+      return iconoirIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
