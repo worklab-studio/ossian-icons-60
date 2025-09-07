@@ -148,7 +148,20 @@ export function ControlPanel({
 
   const getCustomizedSVG = () => {
     if (!selectedIcon) return '';
-    return getSimpleSvg(selectedIcon);
+    
+    let svgContent = getSimpleSvg(selectedIcon);
+    
+    // Apply stroke-width customization if supported and not default
+    if (supportsStrokeWidth(selectedIcon) && customization.strokeWidth !== 2) {
+      svgContent = svgContent.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`);
+    }
+    
+    // Apply color customization by replacing currentColor with the actual color
+    if (customization.color !== '#000000') {
+      svgContent = svgContent.replace(/currentColor/g, customization.color);
+    }
+    
+    return svgContent;
   };
 
   const handleCopySVG = async () => {
