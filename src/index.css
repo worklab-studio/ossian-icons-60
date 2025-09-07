@@ -286,3 +286,28 @@
     overflow: visible;
   }
 }
+
+/* Atlas icon color consistency - ensure all SVG elements inherit color */
+.atlas-icon-container svg * {
+  fill: currentColor !important;
+  stroke: currentColor !important;
+}
+
+.atlas-icon-container svg *[fill="none"] {
+  fill: none !important;
+}
+
+.atlas-icon-container svg *[stroke="none"] {
+  stroke: none !important;
+}
+
+/* Ensure color changes apply immediately during virtual scrolling */
+.atlas-icon-container {
+  color: inherit;
+}
+
+.atlas-icon-container svg {
+  color: inherit;
+  width: 100%;
+  height: 100%;
+}

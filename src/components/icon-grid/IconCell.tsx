@@ -152,13 +152,10 @@ export function IconCell({
       return (
         <div 
           dangerouslySetInnerHTML={{ __html: processedSvg }}
-          className="icon-svg"
+          className="atlas-icon-container"
           style={{ 
             color: iconColor,
             ['--icon-color' as any]: iconColor,
-            // Ensure consistent color inheritance for all SVG elements
-            fill: iconColor,
-            stroke: iconColor,
           }}
         />
       );
