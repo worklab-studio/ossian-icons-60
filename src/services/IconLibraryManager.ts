@@ -33,7 +33,8 @@ class IconLibraryManager {
     { id: 'tabler', name: 'Tabler', count: 4964, style: 'outline', description: 'Free SVG icons for web development' },
     { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' },
     { id: 'phosphor', name: 'Phosphor', count: 9072, style: 'mixed', description: 'A flexible icon family with multiple weights' },
-    { id: 'bootstrap', name: 'Bootstrap', count: 2078, style: 'mixed', description: 'Official open source SVG icon library for Bootstrap' }
+      { id: 'bootstrap', name: 'Bootstrap', count: 2078, style: 'mixed', description: 'Official open source SVG icon library for Bootstrap' },
+      { id: 'radix', name: 'Radix', count: 318, style: 'outline', description: 'A crisp set of 15×15 icons designed by the Workos team' }
   ];
 
   // Popular libraries to preload for better UX
@@ -90,6 +91,12 @@ class IconLibraryManager {
       const { bootstrapIcons } = await import('@/data/bootstrap');
       console.log(`✅ Bootstrap icons imported: ${bootstrapIcons.length} icons`);
       return bootstrapIcons;
+    }
+    
+    if (libraryId === 'radix') {
+      const { radixIcons } = await import('@/data/radix');
+      console.log(`✅ Radix icons imported: ${radixIcons.length} icons`);
+      return radixIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);

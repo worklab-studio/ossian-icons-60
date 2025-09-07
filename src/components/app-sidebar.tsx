@@ -13,6 +13,7 @@ const iconMap = {
   solar: Sun,
   phosphor: Atom,
   bootstrap: Grid3X3,
+  radix: Globe,
 };
 
 interface AppSidebarProps {

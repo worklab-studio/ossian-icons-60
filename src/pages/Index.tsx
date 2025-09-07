@@ -499,7 +499,8 @@ function IconGridPage() {
                      selectedSet === "iconsax" ? "Iconsax Icons" :
                         selectedSet === "solar" ? "Solar Icons" :
                         selectedSet === "phosphor" ? "Phosphor Icons" :
-                        selectedSet === "bootstrap" ? "Bootstrap Icons" :
+                         selectedSet === "bootstrap" ? "Bootstrap Icons" :
+                         selectedSet === "radix" ? "Radix Icons" :
                         selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">
