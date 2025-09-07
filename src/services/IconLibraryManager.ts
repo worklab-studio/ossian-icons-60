@@ -35,8 +35,7 @@ class IconLibraryManager {
     { id: 'phosphor', name: 'Phosphor', count: 9072, style: 'mixed', description: 'A flexible icon family with multiple weights' },
       { id: 'bootstrap', name: 'Bootstrap', count: 2078, style: 'mixed', description: 'Official open source SVG icon library for Bootstrap' },
       { id: 'radix', name: 'Radix', count: 318, style: 'outline', description: 'A crisp set of 15×15 icons designed by the Workos team' },
-      { id: 'line', name: 'Line', count: 606, style: 'outline', description: 'Clean and minimal outline icons' },
-      { id: 'ant', name: 'Ant Design', count: 481, style: 'mixed', description: 'Ant Design official icon library with comprehensive UI coverage' }
+      { id: 'line', name: 'Line', count: 606, style: 'outline', description: 'Clean and minimal outline icons' }
   ];
 
   // Popular libraries to preload for better UX
@@ -105,12 +104,6 @@ class IconLibraryManager {
       const { lineIcons } = await import('@/data/line');
       console.log(`✅ Line icons imported: ${lineIcons.length} icons`);
       return lineIcons;
-    }
-    
-    if (libraryId === 'ant') {
-      const { antIcons } = await import('@/data/ant');
-      console.log(`✅ Ant Design icons imported: ${antIcons.length} icons`);
-      return antIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
