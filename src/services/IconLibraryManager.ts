@@ -29,7 +29,7 @@ class IconLibraryManager {
   // Library metadata
   public readonly libraries: IconLibraryMetadata[] = [
     { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
-    { id: 'atlas', name: 'Atlas', count: 0, style: 'outline', description: 'Comprehensive icon collection' },
+    { id: 'atlas', name: 'Atlas', count: 2660, style: 'outline', description: 'Comprehensive icon collection' },
     { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' },
     { id: 'tabler', name: 'Tabler', count: 4964, style: 'outline', description: 'Free SVG icons for web development' }
   ];
