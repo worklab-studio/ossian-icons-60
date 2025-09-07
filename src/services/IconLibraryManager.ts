@@ -31,8 +31,7 @@ class IconLibraryManager {
     { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
     { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' },
     { id: 'tabler', name: 'Tabler', count: 4964, style: 'outline', description: 'Free SVG icons for web development' },
-    { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' },
-    { id: 'atlas', name: 'Atlas', count: 2660, style: 'outline', description: 'Comprehensive outline icon library' }
+    { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' }
   ];
 
   // Popular libraries to preload for better UX
@@ -77,12 +76,6 @@ class IconLibraryManager {
       const { solarIcons } = await import('@/data/solar');
       console.log(`✅ Solar icons imported: ${solarIcons.length} icons`);
       return solarIcons;
-    }
-    
-    if (libraryId === 'atlas') {
-      const { atlasIcons } = await import('@/data/atlas');
-      console.log(`✅ Atlas icons imported: ${atlasIcons.length} icons`);
-      return atlasIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
@@ -235,13 +228,6 @@ class IconLibraryManager {
     
     // No SVG processing needed - clean icons
     const icons = rawIcons;
-    
-    if (libraryId === "atlas") {
-      console.log(`🗺️ ATLAS DEBUG - Raw icons:`, icons?.length || 0);
-      if (icons && icons.length > 0) {
-        console.log(`🗺️ ATLAS DEBUG - First icon:`, icons[0]);
-      }
-    }
     
     // Cache the result
     this.updateMemoryCache(libraryId, icons);

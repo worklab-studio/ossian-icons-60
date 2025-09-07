@@ -11,7 +11,6 @@ const iconMap = {
   feather: Feather,
   tabler: Table,
   solar: Sun,
-  atlas: Globe,
 };
 
 interface AppSidebarProps {
