@@ -9,6 +9,7 @@ import { IconCustomizationProvider } from "@/contexts/IconCustomizationContext";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import IconsDemo from "./app/demo/icons/page";
+import Sitemap from "./components/Sitemap";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/demo/icons" element={<IconsDemo />} />
+              <Route path="/sitemap.xml" element={<Sitemap />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
