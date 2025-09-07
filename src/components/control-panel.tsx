@@ -177,12 +177,9 @@ export function ControlPanel({
     }
     try {
       const customizedSVG = getCustomizedSVG();
-
-      const encodedSVG = encodeURIComponent(customizedSVG);
-      const dataURL = `data:image/svg+xml,${encodedSVG}`;
-      await copyToClipboard(dataURL);
+      await copyToClipboard(customizedSVG);
       toast({
-        description: "SVG data URL copied to clipboard!",
+        description: "SVG copied to clipboard!",
         duration: 2000
       });
     } catch (error) {

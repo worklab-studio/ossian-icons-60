@@ -6,6 +6,7 @@ import { toast } from "@/hooks/use-toast";
 import React from "react";
 import { copyIcon } from "@/lib/copy";
 import { getSimpleSvg, downloadFile, copyToClipboard } from "@/lib/simple-helpers";
+import { supportsStrokeWidth } from "@/lib/icon-utils";
 import { HapticsManager } from "@/lib/haptics";
 
 interface MobileIconActionsProps {
@@ -30,6 +31,11 @@ export function MobileIconActions({
     if (!selectedIcon) return '';
     
     let svgContent = getSimpleSvg(selectedIcon);
+    
+    // Apply stroke-width customization if supported and not default
+    if (supportsStrokeWidth(selectedIcon) && customization.strokeWidth !== 2) {
+      svgContent = svgContent.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`);
+    }
     
     // Apply color customization - replace all color attributes
     // Replace currentColor in stroke and fill attributes
