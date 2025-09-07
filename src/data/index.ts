@@ -18,6 +18,7 @@ export * from './iconamoon';
 export * from './iconoir';
 export * from './majesticon';
 export * from './simple';
+export * from './octicons';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';
