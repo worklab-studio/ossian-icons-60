@@ -174,7 +174,7 @@ export function ControlPanel({
       return;
     }
     try {
-      const customizedSVG = getSimpleSvg(selectedIcon);
+      const customizedSVG = getCustomizedSVG();
 
       const encodedSVG = encodeURIComponent(customizedSVG);
       const dataURL = `data:image/svg+xml,${encodedSVG}`;
@@ -202,7 +202,7 @@ export function ControlPanel({
       return;
     }
     try {
-      const customizedSVG = getSimpleSvg(selectedIcon);
+      const customizedSVG = getCustomizedSVG();
       await copyToClipboard(customizedSVG);
       toast({
         description: "SVG XML copied to clipboard!",

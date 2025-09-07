@@ -27,8 +27,19 @@ async function copyToClipboard(text: string): Promise<boolean> {
 }
 
 export async function copyIcon(icon: IconItem, color: string = 'currentColor', strokeWidth: number = 2): Promise<void> {
-  // Simple copy of raw SVG string without processing
-  const svgString = typeof icon.svg === 'string' ? icon.svg : '<svg><!-- No SVG data --></svg>';
+  // Get base SVG and apply customizations
+  let svgString = typeof icon.svg === 'string' ? icon.svg : '<svg><!-- No SVG data --></svg>';
+  
+  // Apply stroke-width customization if not default
+  if (strokeWidth !== 2) {
+    svgString = svgString.replace(/stroke-width="[^"]*"/g, `stroke-width="${strokeWidth}"`);
+  }
+  
+  // Apply color customization if not default
+  if (color !== 'currentColor') {
+    svgString = svgString.replace(/currentColor/g, color);
+  }
+  
   const success = await copyToClipboard(svgString);
   if (!success) {
     throw new Error('Clipboard not available');

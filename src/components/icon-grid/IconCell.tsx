@@ -96,7 +96,19 @@ export function IconCell({
     }
     
     try {
-      const svgString = getSimpleSvg(icon);
+      // Apply customizations to the copied SVG
+      let svgString = getSimpleSvg(icon);
+      
+      // Apply stroke-width customization if supported and not default
+      if (supportsStrokeWidth(icon) && customization.strokeWidth !== 2) {
+        svgString = svgString.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`);
+      }
+      
+      // Apply color customization
+      if (customization.color !== '#000000') {
+        svgString = svgString.replace(/currentColor/g, customization.color);
+      }
+      
       await copyToClipboard(svgString);
       setShowCopied(true);
       onCopy?.(icon);
