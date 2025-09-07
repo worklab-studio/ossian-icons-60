@@ -699,8 +699,8 @@ class IconLibraryManager {
 
   // Check if we have cached data for priority libraries
   hasPriorityLibraryCache(): boolean {
-    // Since we don't have any libraries right now, return false
-    return false;
+    const priorityLibraries = ['lucide', 'feather', 'tabler'];
+    return priorityLibraries.some(libId => this.cache.has(libId));
   }
 
   // Get cache statistics

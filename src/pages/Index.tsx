@@ -78,12 +78,17 @@ function IconGridPage() {
     isSearching 
   } = useSearchWorker();
 
-  // Control loading animation visibility - disabled
+  // Control loading animation visibility - smart loading based on cache
   useEffect(() => {
-    // Loading animation is disabled
-    setShowLoadingAnimation(false);
-    setMinDurationComplete(true);
-  }, []);
+    if (shouldSkipLoading) {
+      // Skip loading for returning users with cached data
+      setShowLoadingAnimation(false);
+      setMinDurationComplete(true);
+    } else {
+      // Show loading for first-time users or users without cache
+      setShowLoadingAnimation(true);
+    }
+  }, [shouldSkipLoading]);
 
   // Fallback timeout removed - just keep loading until ready
 
