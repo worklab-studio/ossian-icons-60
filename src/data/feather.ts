@@ -2015,3 +2015,6 @@ export const featherIcons: IconItem[] = [
     tags: ["zoom", "out"]
   }
 ];
+
+// Export alias for consistency
+export const feather = featherIcons;

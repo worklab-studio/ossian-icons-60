@@ -29,7 +29,8 @@ class IconLibraryManager {
   // Library metadata
   public readonly libraries: IconLibraryMetadata[] = [
     { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
-    { id: 'atlas', name: 'Atlas', count: 2660, style: 'outline', description: 'Comprehensive icon collection' }
+    { id: 'atlas', name: 'Atlas', count: 0, style: 'outline', description: 'Comprehensive icon collection' },
+    { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' }
   ];
 
   // Popular libraries to preload for better UX
@@ -62,6 +63,12 @@ class IconLibraryManager {
       console.log(`✅ Atlas icons imported: ${atlasIcons.length} icons`);
       console.log(`🔍 First Atlas icon:`, atlasIcons[0]);
       return atlasIcons;
+    }
+    
+    if (libraryId === 'feather') {
+      const { featherIcons } = await import('@/data/feather');
+      console.log(`✅ Feather icons imported: ${featherIcons.length} icons`);
+      return featherIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
