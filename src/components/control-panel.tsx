@@ -107,9 +107,7 @@ export function ControlPanel({
         clearTimeout(timeout);
         
         try {
-          // Set white background for better PNG visibility
-          ctx.fillStyle = 'white';
-          ctx.fillRect(0, 0, 500, 500);
+          // Canvas starts with transparent background by default
           
           // Draw the SVG image (use original size since we already scaled the context)
           ctx.drawImage(img, 0, 0, size, size);
