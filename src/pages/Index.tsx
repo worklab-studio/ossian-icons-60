@@ -501,8 +501,9 @@ function IconGridPage() {
                         selectedSet === "phosphor" ? "Phosphor Icons" :
                          selectedSet === "bootstrap" ? "Bootstrap Icons" :
                          selectedSet === "radix" ? "Radix Icons" :
-                         selectedSet === "line" ? "Line Icons" :
-                        selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
+                          selectedSet === "line" ? "Line Icons" :
+                          selectedSet === "ant" ? "Ant Design Icons" :
+                         selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">
                       {searchQuery && searchTotalCount > (groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0) : displayedIcons.length) ? (
@@ -626,8 +627,9 @@ function IconGridPage() {
                     selectedSet === "css-gg" ? "CSS.GG Icons" :
                     selectedSet === "iconsax" ? "Iconsax Icons" :
                      selectedSet === "solar" ? "Solar Icons" :
-                     selectedSet === "atlas" ? "Atlas Icons" :
-                     selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
+                      selectedSet === "atlas" ? "Atlas Icons" :
+                      selectedSet === "ant" ? "Ant Design Icons" :
+                      selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
                   ) : undefined}
                 />
               )

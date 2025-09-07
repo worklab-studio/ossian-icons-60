@@ -7,6 +7,7 @@ export * from './phosphor';
 export * from './bootstrap';
 export * from './radix';
 export * from './line';
+export * from './ant';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';
