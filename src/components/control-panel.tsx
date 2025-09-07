@@ -156,10 +156,12 @@ export function ControlPanel({
       svgContent = svgContent.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`);
     }
     
-    // Apply color customization by replacing currentColor with the actual color
-    if (customization.color !== '#000000') {
-      svgContent = svgContent.replace(/currentColor/g, customization.color);
-    }
+    // Apply color customization - replace all color attributes
+    // Replace currentColor in stroke and fill attributes
+    svgContent = svgContent.replace(/stroke="currentColor"/g, `stroke="${customization.color}"`);
+    svgContent = svgContent.replace(/fill="currentColor"/g, `fill="${customization.color}"`);
+    // Replace standalone currentColor references
+    svgContent = svgContent.replace(/currentColor/g, customization.color);
     
     return svgContent;
   };

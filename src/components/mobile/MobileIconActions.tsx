@@ -28,7 +28,17 @@ export function MobileIconActions({
 
   const getCustomizedSVG = () => {
     if (!selectedIcon) return '';
-    return getSimpleSvg(selectedIcon);
+    
+    let svgContent = getSimpleSvg(selectedIcon);
+    
+    // Apply color customization - replace all color attributes
+    // Replace currentColor in stroke and fill attributes
+    svgContent = svgContent.replace(/stroke="currentColor"/g, `stroke="${customization.color}"`);
+    svgContent = svgContent.replace(/fill="currentColor"/g, `fill="${customization.color}"`);
+    // Replace standalone currentColor references
+    svgContent = svgContent.replace(/currentColor/g, customization.color);
+    
+    return svgContent;
   };
 
   const handleDownloadSVG = async () => {
@@ -37,7 +47,7 @@ export function MobileIconActions({
     await HapticsManager.medium();
     
     try {
-      const customizedSVG = getSimpleSvg(selectedIcon);
+      const customizedSVG = getCustomizedSVG();
       
       const blob = new Blob([customizedSVG], { type: 'image/svg+xml' });
       downloadFile(blob, `${selectedIcon.name}.svg`);
@@ -64,7 +74,7 @@ export function MobileIconActions({
     await HapticsManager.medium();
     
     try {
-      const customizedSVG = getSimpleSvg(selectedIcon);
+      const customizedSVG = getCustomizedSVG();
       
       if (!customizedSVG.includes('xmlns=')) {
         throw new Error('Invalid SVG structure');
@@ -117,7 +127,7 @@ export function MobileIconActions({
     await HapticsManager.light();
     
     try {
-      const customizedSVG = getSimpleSvg(selectedIcon);
+      const customizedSVG = getCustomizedSVG();
       await copyToClipboard(customizedSVG);
       toast({
         description: "SVG copied to clipboard!",
@@ -141,7 +151,7 @@ export function MobileIconActions({
     await HapticsManager.light();
     
     try {
-      const customizedSVG = getSimpleSvg(selectedIcon);
+      const customizedSVG = getCustomizedSVG();
       await copyToClipboard(customizedSVG);
       toast({
         description: "SVG XML copied to clipboard!",

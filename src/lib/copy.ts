@@ -35,8 +35,12 @@ export async function copyIcon(icon: IconItem, color: string = 'currentColor', s
     svgString = svgString.replace(/stroke-width="[^"]*"/g, `stroke-width="${strokeWidth}"`);
   }
   
-  // Apply color customization if not default
+  // Apply color customization - replace all color attributes
   if (color !== 'currentColor') {
+    // Replace currentColor in stroke and fill attributes
+    svgString = svgString.replace(/stroke="currentColor"/g, `stroke="${color}"`);
+    svgString = svgString.replace(/fill="currentColor"/g, `fill="${color}"`);
+    // Replace standalone currentColor references
     svgString = svgString.replace(/currentColor/g, color);
   }
   

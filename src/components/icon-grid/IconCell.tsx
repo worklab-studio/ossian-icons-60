@@ -104,10 +104,12 @@ export function IconCell({
         svgString = svgString.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`);
       }
       
-      // Apply color customization
-      if (customization.color !== '#000000') {
-        svgString = svgString.replace(/currentColor/g, customization.color);
-      }
+      // Apply color customization - replace all color attributes
+      // Replace currentColor in stroke and fill attributes
+      svgString = svgString.replace(/stroke="currentColor"/g, `stroke="${customization.color}"`);
+      svgString = svgString.replace(/fill="currentColor"/g, `fill="${customization.color}"`);
+      // Replace standalone currentColor references
+      svgString = svgString.replace(/currentColor/g, customization.color);
       
       await copyToClipboard(svgString);
       setShowCopied(true);
