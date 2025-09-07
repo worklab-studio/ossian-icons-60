@@ -156,8 +156,9 @@ export function IconCell({
           style={{ 
             color: iconColor,
             ['--icon-color' as any]: iconColor,
-            // Force immediate color application to prevent glitches
-            willChange: 'auto',
+            // Ensure consistent color inheritance for all SVG elements
+            fill: iconColor,
+            stroke: iconColor,
           }}
         />
       );

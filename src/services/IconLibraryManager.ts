@@ -73,9 +73,11 @@ class IconLibraryManager {
         }
         
         const { atlasIcons } = module;
-        console.log(`✅ Atlas icons imported: ${atlasIcons.length} icons`);
-        console.log(`🔍 First Atlas icon:`, atlasIcons[0]);
-        return atlasIcons;
+        const { standardizeAtlasIcons } = await import('@/lib/atlas-color-fixer');
+        const standardizedIcons = standardizeAtlasIcons(atlasIcons);
+        console.log(`✅ Atlas icons imported and standardized: ${standardizedIcons.length} icons`);
+        console.log(`🔍 First standardized Atlas icon:`, standardizedIcons[0]);
+        return standardizedIcons;
       }
       
       console.warn(`⚠️ Library ${libraryId} is not supported`);
