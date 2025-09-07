@@ -21,7 +21,6 @@ const iconMap = {
   material: Atom,
   'fluent-ui': Layers,
   lucide: Zap,
-  carbon: Layers,
 };
 
 interface AppSidebarProps {
