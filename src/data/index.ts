@@ -16,6 +16,7 @@ export * from './lucide';
 export * from './carbon';
 export * from './iconamoon';
 export * from './iconoir';
+export * from './majesticon';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';
