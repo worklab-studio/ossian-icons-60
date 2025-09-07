@@ -81,7 +81,7 @@ function IconGridPage() {
   // Test library searches on component mount for debugging
   useEffect(() => {
     const testLibrarySearches = async () => {
-      if (search && searchReady) {
+      if (search && searchReady && loaded) {
         console.log('🧪 Testing individual library searches...');
         
         // Test search in each library
@@ -113,7 +113,7 @@ function IconGridPage() {
     };
 
     // Only run tests once when ready - force run for debugging
-    if (searchReady && loaded) {
+    if (searchReady && loaded && search) {
       // Clear the test flag to force re-run
       localStorage.removeItem('library-search-tested');
       if (!localStorage.getItem('library-search-tested')) {
