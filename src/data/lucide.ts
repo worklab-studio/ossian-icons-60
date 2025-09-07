@@ -15,7 +15,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -37,7 +37,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -59,7 +59,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -81,7 +81,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -104,7 +104,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -123,7 +123,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -145,7 +145,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -165,7 +165,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -189,7 +189,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -213,7 +213,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -237,7 +237,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -262,7 +262,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -286,7 +286,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -309,7 +309,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -329,7 +329,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -352,7 +352,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -375,7 +375,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -396,7 +396,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -417,7 +417,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -441,7 +441,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -463,7 +463,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -485,7 +485,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -506,7 +506,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -527,7 +527,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -548,7 +548,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -569,7 +569,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -591,7 +591,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -612,7 +612,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -633,7 +633,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -657,7 +657,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -679,7 +679,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -701,7 +701,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -722,7 +722,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -743,7 +743,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -764,7 +764,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -785,7 +785,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -807,7 +807,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -833,7 +833,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -853,7 +853,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -873,7 +873,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -897,7 +897,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -918,7 +918,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -942,7 +942,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -964,7 +964,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -988,7 +988,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1011,7 +1011,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1036,7 +1036,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1058,7 +1058,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1080,7 +1080,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1100,7 +1100,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1123,7 +1123,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1145,7 +1145,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1166,7 +1166,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1188,7 +1188,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1208,7 +1208,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1227,7 +1227,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1247,7 +1247,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1266,7 +1266,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1286,7 +1286,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1305,7 +1305,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1325,7 +1325,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1344,7 +1344,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1367,7 +1367,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1390,7 +1390,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1413,7 +1413,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1434,7 +1434,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1454,7 +1454,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1477,7 +1477,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1497,7 +1497,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1518,7 +1518,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1539,7 +1539,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1561,7 +1561,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1584,7 +1584,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1607,7 +1607,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1627,7 +1627,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1648,7 +1648,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1670,7 +1670,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1691,7 +1691,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1711,7 +1711,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1732,7 +1732,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1754,7 +1754,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1775,7 +1775,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1795,7 +1795,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1818,7 +1818,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1841,7 +1841,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1864,7 +1864,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1886,7 +1886,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1907,7 +1907,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1928,7 +1928,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1948,7 +1948,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1971,7 +1971,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -1991,7 +1991,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2012,7 +2012,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2035,7 +2035,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2058,7 +2058,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2078,7 +2078,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2101,7 +2101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2122,7 +2122,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2142,7 +2142,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2163,7 +2163,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2187,7 +2187,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2206,7 +2206,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2226,7 +2226,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2246,7 +2246,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2268,7 +2268,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2290,7 +2290,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2313,7 +2313,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2334,7 +2334,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2355,7 +2355,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2375,7 +2375,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2396,7 +2396,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2417,7 +2417,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2439,7 +2439,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2460,7 +2460,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2483,7 +2483,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2503,7 +2503,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2525,7 +2525,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2546,7 +2546,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2568,7 +2568,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2589,7 +2589,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2610,7 +2610,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2632,7 +2632,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2653,7 +2653,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2674,7 +2674,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2693,7 +2693,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2716,7 +2716,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2736,7 +2736,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2756,7 +2756,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2781,7 +2781,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2805,7 +2805,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2829,7 +2829,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2853,7 +2853,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2874,7 +2874,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2897,7 +2897,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2920,7 +2920,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2941,7 +2941,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2964,7 +2964,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -2986,7 +2986,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3009,7 +3009,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3030,7 +3030,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3052,7 +3052,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3075,7 +3075,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3098,7 +3098,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3118,7 +3118,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3139,7 +3139,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3161,7 +3161,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3181,7 +3181,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3203,7 +3203,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3224,7 +3224,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3246,7 +3246,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3267,7 +3267,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3293,7 +3293,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3316,7 +3316,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3337,7 +3337,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3361,7 +3361,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3382,7 +3382,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3404,7 +3404,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3426,7 +3426,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3448,7 +3448,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3468,7 +3468,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3489,7 +3489,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3510,7 +3510,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3531,7 +3531,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3552,7 +3552,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3573,7 +3573,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3595,7 +3595,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3619,7 +3619,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3643,7 +3643,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3671,7 +3671,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3695,7 +3695,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3714,7 +3714,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3734,7 +3734,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3759,7 +3759,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3779,7 +3779,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3800,7 +3800,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3821,7 +3821,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3842,7 +3842,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3861,7 +3861,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3880,7 +3880,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3900,7 +3900,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3921,7 +3921,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3940,7 +3940,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3961,7 +3961,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -3982,7 +3982,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4004,7 +4004,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4024,7 +4024,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4045,7 +4045,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4074,7 +4074,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4095,7 +4095,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4117,7 +4117,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4137,7 +4137,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4158,7 +4158,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4181,7 +4181,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4203,7 +4203,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4223,7 +4223,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4243,7 +4243,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4264,7 +4264,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4288,7 +4288,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4308,7 +4308,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4329,7 +4329,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4350,7 +4350,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4372,7 +4372,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4395,7 +4395,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4416,7 +4416,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4437,7 +4437,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4458,7 +4458,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4477,7 +4477,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4497,7 +4497,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4517,7 +4517,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4538,7 +4538,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4559,7 +4559,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4578,7 +4578,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4603,7 +4603,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4627,7 +4627,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4652,7 +4652,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4676,7 +4676,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4696,7 +4696,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4719,7 +4719,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4740,7 +4740,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4770,7 +4770,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4790,7 +4790,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4810,7 +4810,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4841,7 +4841,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4874,7 +4874,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4900,7 +4900,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4925,7 +4925,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4951,7 +4951,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4977,7 +4977,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -4999,7 +4999,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5024,7 +5024,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5048,7 +5048,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5068,7 +5068,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5089,7 +5089,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5111,7 +5111,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5132,7 +5132,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5154,7 +5154,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5182,7 +5182,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5209,7 +5209,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5238,7 +5238,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5263,7 +5263,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5292,7 +5292,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5319,7 +5319,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5344,7 +5344,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5370,7 +5370,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5395,7 +5395,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5417,7 +5417,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5444,7 +5444,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5472,7 +5472,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5495,7 +5495,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5519,7 +5519,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5543,7 +5543,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5566,7 +5566,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5589,7 +5589,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5613,7 +5613,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5644,7 +5644,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5672,7 +5672,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5695,7 +5695,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5718,7 +5718,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5741,7 +5741,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5764,7 +5764,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5788,7 +5788,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5812,7 +5812,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5836,7 +5836,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5862,7 +5862,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5886,7 +5886,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5912,7 +5912,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5936,7 +5936,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5960,7 +5960,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -5982,7 +5982,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6004,7 +6004,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6024,7 +6024,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6047,7 +6047,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6072,7 +6072,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6095,7 +6095,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6115,7 +6115,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6139,7 +6139,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6159,7 +6159,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6183,7 +6183,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6208,7 +6208,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6230,7 +6230,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6252,7 +6252,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6274,7 +6274,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6295,7 +6295,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6317,7 +6317,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6339,7 +6339,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6360,7 +6360,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6383,7 +6383,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6405,7 +6405,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6431,7 +6431,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6453,7 +6453,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6476,7 +6476,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6496,7 +6496,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6517,7 +6517,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6539,7 +6539,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6561,7 +6561,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6584,7 +6584,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6606,7 +6606,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6631,7 +6631,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6652,7 +6652,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6674,7 +6674,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6696,7 +6696,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6719,7 +6719,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6741,7 +6741,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6763,7 +6763,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6783,7 +6783,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6808,7 +6808,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6829,7 +6829,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6850,7 +6850,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6871,7 +6871,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6895,7 +6895,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6916,7 +6916,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6936,7 +6936,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6960,7 +6960,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -6980,7 +6980,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7000,7 +7000,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7021,7 +7021,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7040,7 +7040,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7060,7 +7060,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7082,7 +7082,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7101,7 +7101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7121,7 +7121,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7141,7 +7141,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7160,7 +7160,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7179,7 +7179,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7198,7 +7198,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7218,7 +7218,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7238,7 +7238,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7261,7 +7261,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7281,7 +7281,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7301,7 +7301,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7321,7 +7321,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7341,7 +7341,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7361,7 +7361,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7381,7 +7381,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7404,7 +7404,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7427,7 +7427,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7451,7 +7451,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7474,7 +7474,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7495,7 +7495,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7516,7 +7516,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7537,7 +7537,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7558,7 +7558,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7579,7 +7579,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7600,7 +7600,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7621,7 +7621,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7642,7 +7642,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7663,7 +7663,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7683,7 +7683,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7703,7 +7703,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7723,7 +7723,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7743,7 +7743,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7763,7 +7763,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7783,7 +7783,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7809,7 +7809,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7831,7 +7831,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7852,7 +7852,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7879,7 +7879,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7899,7 +7899,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7921,7 +7921,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7942,7 +7942,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7967,7 +7967,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -7992,7 +7992,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8013,7 +8013,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8033,7 +8033,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8054,7 +8054,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8078,7 +8078,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8098,7 +8098,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8119,7 +8119,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8141,7 +8141,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8161,7 +8161,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8182,7 +8182,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8204,7 +8204,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8225,7 +8225,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8246,7 +8246,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8266,7 +8266,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8286,7 +8286,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8305,7 +8305,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8325,7 +8325,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8345,7 +8345,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8366,7 +8366,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8387,7 +8387,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8408,7 +8408,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8427,7 +8427,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8450,7 +8450,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8472,7 +8472,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8494,7 +8494,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8515,7 +8515,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8538,7 +8538,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8561,7 +8561,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8585,7 +8585,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8606,7 +8606,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8629,7 +8629,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8652,7 +8652,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8674,7 +8674,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8696,7 +8696,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8719,7 +8719,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8741,7 +8741,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8761,7 +8761,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8781,7 +8781,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8801,7 +8801,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8821,7 +8821,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8841,7 +8841,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8861,7 +8861,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8881,7 +8881,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8901,7 +8901,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8921,7 +8921,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8941,7 +8941,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8961,7 +8961,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -8981,7 +8981,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9001,7 +9001,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9023,7 +9023,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9045,7 +9045,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9067,7 +9067,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9091,7 +9091,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9113,7 +9113,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9133,7 +9133,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9154,7 +9154,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9175,7 +9175,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9195,7 +9195,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9222,7 +9222,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9243,7 +9243,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9268,7 +9268,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9289,7 +9289,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9314,7 +9314,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9334,7 +9334,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9356,7 +9356,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9376,7 +9376,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9397,7 +9397,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9419,7 +9419,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9441,7 +9441,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9466,7 +9466,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9492,7 +9492,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9516,7 +9516,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9537,7 +9537,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9556,7 +9556,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9576,7 +9576,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9597,7 +9597,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9617,7 +9617,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9638,7 +9638,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9658,7 +9658,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9681,7 +9681,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9705,7 +9705,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9727,7 +9727,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9759,7 +9759,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9781,7 +9781,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9801,7 +9801,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9831,7 +9831,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9852,7 +9852,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9874,7 +9874,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9898,7 +9898,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9917,7 +9917,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9937,7 +9937,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9959,7 +9959,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -9981,7 +9981,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10003,7 +10003,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10023,7 +10023,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10049,7 +10049,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10072,7 +10072,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10095,7 +10095,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10118,7 +10118,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10138,7 +10138,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10162,7 +10162,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10184,7 +10184,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10205,7 +10205,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10226,7 +10226,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10248,7 +10248,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10269,7 +10269,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10291,7 +10291,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10311,7 +10311,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10331,7 +10331,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10351,7 +10351,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10371,7 +10371,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10391,7 +10391,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10411,7 +10411,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10431,7 +10431,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10451,7 +10451,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10471,7 +10471,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10491,7 +10491,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10511,7 +10511,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10543,7 +10543,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10564,7 +10564,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10584,7 +10584,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10607,7 +10607,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10627,7 +10627,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10646,7 +10646,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10669,7 +10669,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10689,7 +10689,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10710,7 +10710,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10732,7 +10732,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10755,7 +10755,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10775,7 +10775,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10800,7 +10800,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10824,7 +10824,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10847,7 +10847,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10868,7 +10868,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10890,7 +10890,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10913,7 +10913,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10934,7 +10934,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10955,7 +10955,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10978,7 +10978,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -10998,7 +10998,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11020,7 +11020,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11041,7 +11041,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11060,7 +11060,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11080,7 +11080,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11101,7 +11101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11123,7 +11123,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11146,7 +11146,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11170,7 +11170,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11195,7 +11195,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11219,7 +11219,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11240,7 +11240,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11261,7 +11261,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11283,7 +11283,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11304,7 +11304,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11324,7 +11324,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11345,7 +11345,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11373,7 +11373,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11402,7 +11402,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11423,7 +11423,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11446,7 +11446,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11466,7 +11466,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11486,7 +11486,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11509,7 +11509,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11530,7 +11530,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11553,7 +11553,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11572,7 +11572,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11593,7 +11593,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11616,7 +11616,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11642,7 +11642,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11664,7 +11664,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11688,7 +11688,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11715,7 +11715,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11736,7 +11736,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11755,7 +11755,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11775,7 +11775,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11800,7 +11800,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11820,7 +11820,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11843,7 +11843,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11866,7 +11866,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11886,7 +11886,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11910,7 +11910,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11932,7 +11932,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11952,7 +11952,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11972,7 +11972,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -11993,7 +11993,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12012,7 +12012,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12033,7 +12033,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12054,7 +12054,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12074,7 +12074,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12095,7 +12095,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12115,7 +12115,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12135,7 +12135,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12158,7 +12158,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12179,7 +12179,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12205,7 +12205,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12226,7 +12226,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12249,7 +12249,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12271,7 +12271,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12291,7 +12291,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12310,7 +12310,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12332,7 +12332,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12352,7 +12352,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12372,7 +12372,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12393,7 +12393,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12418,7 +12418,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12445,7 +12445,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12468,7 +12468,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12492,7 +12492,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12515,7 +12515,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12536,7 +12536,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12558,7 +12558,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12579,7 +12579,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12601,7 +12601,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12624,7 +12624,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12647,7 +12647,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12670,7 +12670,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12691,7 +12691,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12713,7 +12713,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12734,7 +12734,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12755,7 +12755,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12777,7 +12777,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12799,7 +12799,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12821,7 +12821,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12850,7 +12850,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12872,7 +12872,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12895,7 +12895,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12917,7 +12917,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12938,7 +12938,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12960,7 +12960,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -12982,7 +12982,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13005,7 +13005,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13027,7 +13027,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13049,7 +13049,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13070,7 +13070,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13091,7 +13091,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13112,7 +13112,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13134,7 +13134,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13157,7 +13157,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13178,7 +13178,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13199,7 +13199,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13220,7 +13220,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13242,7 +13242,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13264,7 +13264,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13285,7 +13285,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13309,7 +13309,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13331,7 +13331,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13353,7 +13353,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13377,7 +13377,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13401,7 +13401,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13422,7 +13422,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13443,7 +13443,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13465,7 +13465,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13488,7 +13488,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13511,7 +13511,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13534,7 +13534,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13556,7 +13556,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13578,7 +13578,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13600,7 +13600,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13623,7 +13623,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13645,7 +13645,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13666,7 +13666,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13688,7 +13688,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13710,7 +13710,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13730,7 +13730,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13751,7 +13751,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13777,7 +13777,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13804,7 +13804,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13828,7 +13828,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13849,7 +13849,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13868,7 +13868,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13892,7 +13892,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13914,7 +13914,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13933,7 +13933,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13952,7 +13952,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13971,7 +13971,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -13992,7 +13992,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14011,7 +14011,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14033,7 +14033,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14054,7 +14054,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14078,7 +14078,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14099,7 +14099,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14120,7 +14120,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14144,7 +14144,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14168,7 +14168,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14192,7 +14192,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14216,7 +14216,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14239,7 +14239,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14267,7 +14267,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14290,7 +14290,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14316,7 +14316,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14342,7 +14342,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14364,7 +14364,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14384,7 +14384,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14405,7 +14405,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14425,7 +14425,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14446,7 +14446,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14474,7 +14474,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14494,7 +14494,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14515,7 +14515,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14537,7 +14537,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14559,7 +14559,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14579,7 +14579,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14600,7 +14600,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14622,7 +14622,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14644,7 +14644,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14665,7 +14665,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14685,7 +14685,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14705,7 +14705,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14724,7 +14724,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14745,7 +14745,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14765,7 +14765,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14786,7 +14786,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14807,7 +14807,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14828,7 +14828,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14849,7 +14849,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14869,7 +14869,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14892,7 +14892,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14914,7 +14914,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14935,7 +14935,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14956,7 +14956,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14975,7 +14975,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -14995,7 +14995,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15017,7 +15017,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15039,7 +15039,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15059,7 +15059,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15081,7 +15081,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15100,7 +15100,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15122,7 +15122,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15144,7 +15144,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15167,7 +15167,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15188,7 +15188,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15209,7 +15209,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15228,7 +15228,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15249,7 +15249,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15270,7 +15270,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15293,7 +15293,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15314,7 +15314,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15335,7 +15335,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15358,7 +15358,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15381,7 +15381,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15401,7 +15401,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15424,7 +15424,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15445,7 +15445,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15467,7 +15467,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15488,7 +15488,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15510,7 +15510,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15534,7 +15534,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15556,7 +15556,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15577,7 +15577,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15598,7 +15598,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15622,7 +15622,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15644,7 +15644,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15667,7 +15667,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15691,7 +15691,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15712,7 +15712,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15735,7 +15735,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15759,7 +15759,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15783,7 +15783,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15806,7 +15806,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15829,7 +15829,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15851,7 +15851,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15871,7 +15871,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15890,7 +15890,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15910,7 +15910,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15933,7 +15933,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15955,7 +15955,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15976,7 +15976,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -15997,7 +15997,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16020,7 +16020,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16041,7 +16041,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16068,7 +16068,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16088,7 +16088,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16109,7 +16109,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16130,7 +16130,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16151,7 +16151,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16173,7 +16173,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16196,7 +16196,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16220,7 +16220,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16244,7 +16244,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16271,7 +16271,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16295,7 +16295,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16317,7 +16317,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16339,7 +16339,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16361,7 +16361,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16382,7 +16382,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16405,7 +16405,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16427,7 +16427,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16450,7 +16450,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16472,7 +16472,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16493,7 +16493,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16515,7 +16515,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16539,7 +16539,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16561,7 +16561,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16581,7 +16581,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16604,7 +16604,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16627,7 +16627,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16650,7 +16650,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16672,7 +16672,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16694,7 +16694,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16716,7 +16716,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16739,7 +16739,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16765,7 +16765,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16785,7 +16785,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16807,7 +16807,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16829,7 +16829,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16852,7 +16852,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16875,7 +16875,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16898,7 +16898,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16921,7 +16921,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16942,7 +16942,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16965,7 +16965,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -16984,7 +16984,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17004,7 +17004,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17024,7 +17024,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17043,7 +17043,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17063,7 +17063,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17084,7 +17084,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17105,7 +17105,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17125,7 +17125,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17144,7 +17144,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17172,7 +17172,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17191,7 +17191,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17211,7 +17211,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17232,7 +17232,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17259,7 +17259,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17285,7 +17285,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17308,7 +17308,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17336,7 +17336,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17358,7 +17358,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17380,7 +17380,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17402,7 +17402,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17424,7 +17424,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17444,7 +17444,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17465,7 +17465,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17486,7 +17486,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17509,7 +17509,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17532,7 +17532,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17554,7 +17554,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17576,7 +17576,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17600,7 +17600,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17622,7 +17622,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17645,7 +17645,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17667,7 +17667,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17693,7 +17693,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17714,7 +17714,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17736,7 +17736,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17757,7 +17757,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17777,7 +17777,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17800,7 +17800,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17819,7 +17819,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17840,7 +17840,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17863,7 +17863,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17884,7 +17884,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17905,7 +17905,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17925,7 +17925,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17945,7 +17945,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17966,7 +17966,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -17988,7 +17988,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18009,7 +18009,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18031,7 +18031,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18051,7 +18051,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18072,7 +18072,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18093,7 +18093,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18120,7 +18120,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18148,7 +18148,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18175,7 +18175,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18196,7 +18196,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18218,7 +18218,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18239,7 +18239,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18260,7 +18260,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18281,7 +18281,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18302,7 +18302,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18324,7 +18324,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18348,7 +18348,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18372,7 +18372,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18393,7 +18393,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18413,7 +18413,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18433,7 +18433,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18456,7 +18456,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18477,7 +18477,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18499,7 +18499,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18519,7 +18519,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18540,7 +18540,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18562,7 +18562,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18584,7 +18584,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18608,7 +18608,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18629,7 +18629,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18650,7 +18650,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18671,7 +18671,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18691,7 +18691,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18711,7 +18711,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18732,7 +18732,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18753,7 +18753,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18775,7 +18775,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18799,7 +18799,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18822,7 +18822,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18845,7 +18845,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18866,7 +18866,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18885,7 +18885,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18907,7 +18907,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18928,7 +18928,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18948,7 +18948,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18969,7 +18969,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -18991,7 +18991,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19014,7 +19014,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19037,7 +19037,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19060,7 +19060,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19083,7 +19083,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19106,7 +19106,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19129,7 +19129,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19150,7 +19150,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19172,7 +19172,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19194,7 +19194,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19216,7 +19216,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19239,7 +19239,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19263,7 +19263,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19286,7 +19286,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19309,7 +19309,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19332,7 +19332,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19355,7 +19355,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19378,7 +19378,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19400,7 +19400,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19423,7 +19423,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19447,7 +19447,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19466,7 +19466,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19488,7 +19488,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19514,7 +19514,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19538,7 +19538,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19563,7 +19563,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19586,7 +19586,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19607,7 +19607,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19628,7 +19628,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19648,7 +19648,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19668,7 +19668,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19689,7 +19689,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19710,7 +19710,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19737,7 +19737,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19758,7 +19758,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19781,7 +19781,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19802,7 +19802,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19823,7 +19823,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19844,7 +19844,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19864,7 +19864,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19886,7 +19886,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19908,7 +19908,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19931,7 +19931,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19953,7 +19953,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19975,7 +19975,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -19995,7 +19995,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20017,7 +20017,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20038,7 +20038,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20060,7 +20060,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20080,7 +20080,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20101,7 +20101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20123,7 +20123,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20143,7 +20143,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20164,7 +20164,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20187,7 +20187,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20208,7 +20208,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20229,7 +20229,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20251,7 +20251,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20272,7 +20272,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20294,7 +20294,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20314,7 +20314,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20335,7 +20335,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20358,7 +20358,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20379,7 +20379,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20401,7 +20401,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20422,7 +20422,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20443,7 +20443,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20465,7 +20465,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20487,7 +20487,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20511,7 +20511,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20534,7 +20534,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20555,7 +20555,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20577,7 +20577,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20604,7 +20604,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20625,7 +20625,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20646,7 +20646,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20667,7 +20667,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20693,7 +20693,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20713,7 +20713,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20735,7 +20735,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20756,7 +20756,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20777,7 +20777,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20798,7 +20798,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20819,7 +20819,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20840,7 +20840,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20861,7 +20861,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20880,7 +20880,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20901,7 +20901,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20932,7 +20932,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20954,7 +20954,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20974,7 +20974,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -20994,7 +20994,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21015,7 +21015,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21037,7 +21037,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21058,7 +21058,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21079,7 +21079,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21100,7 +21100,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21121,7 +21121,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21142,7 +21142,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21164,7 +21164,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21185,7 +21185,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21206,7 +21206,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21225,7 +21225,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21245,7 +21245,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21269,7 +21269,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21290,7 +21290,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21311,7 +21311,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21340,7 +21340,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21364,7 +21364,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21387,7 +21387,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21408,7 +21408,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21430,7 +21430,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21451,7 +21451,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21473,7 +21473,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21495,7 +21495,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21514,7 +21514,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21536,7 +21536,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21566,7 +21566,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21588,7 +21588,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21611,7 +21611,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21634,7 +21634,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21657,7 +21657,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21679,7 +21679,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21701,7 +21701,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21724,7 +21724,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21746,7 +21746,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21769,7 +21769,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21792,7 +21792,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21813,7 +21813,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21834,7 +21834,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21853,7 +21853,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21873,7 +21873,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21892,7 +21892,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21914,7 +21914,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21933,7 +21933,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21954,7 +21954,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21977,7 +21977,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -21997,7 +21997,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22017,7 +22017,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22039,7 +22039,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22060,7 +22060,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22081,7 +22081,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22101,7 +22101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22121,7 +22121,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22141,7 +22141,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22162,7 +22162,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22182,7 +22182,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22202,7 +22202,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22222,7 +22222,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22242,7 +22242,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22262,7 +22262,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22283,7 +22283,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22307,7 +22307,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22327,7 +22327,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22347,7 +22347,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22369,7 +22369,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22390,7 +22390,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22411,7 +22411,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22430,7 +22430,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22451,7 +22451,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22470,7 +22470,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22493,7 +22493,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22515,7 +22515,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22537,7 +22537,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22559,7 +22559,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22583,7 +22583,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22610,7 +22610,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22636,7 +22636,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22660,7 +22660,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22691,7 +22691,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22716,7 +22716,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22739,7 +22739,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22760,7 +22760,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22781,7 +22781,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22801,7 +22801,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22822,7 +22822,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22843,7 +22843,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22862,7 +22862,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22881,7 +22881,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22901,7 +22901,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22924,7 +22924,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22945,7 +22945,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22966,7 +22966,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -22989,7 +22989,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23012,7 +23012,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23034,7 +23034,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23058,7 +23058,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23082,7 +23082,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23105,7 +23105,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23127,7 +23127,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23149,7 +23149,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23170,7 +23170,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23192,7 +23192,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23213,7 +23213,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23236,7 +23236,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23260,7 +23260,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23281,7 +23281,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23304,7 +23304,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23325,7 +23325,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23345,7 +23345,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23366,7 +23366,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23389,7 +23389,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23410,7 +23410,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23437,7 +23437,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23457,7 +23457,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23478,7 +23478,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23501,7 +23501,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23522,7 +23522,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23542,7 +23542,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23569,7 +23569,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23590,7 +23590,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23613,7 +23613,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23634,7 +23634,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23654,7 +23654,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23675,7 +23675,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23696,7 +23696,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23717,7 +23717,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23736,7 +23736,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23756,7 +23756,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23779,7 +23779,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23806,7 +23806,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23826,7 +23826,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23848,7 +23848,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23870,7 +23870,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23890,7 +23890,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23911,7 +23911,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23933,7 +23933,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23952,7 +23952,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23973,7 +23973,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -23995,7 +23995,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24019,7 +24019,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24039,7 +24039,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24058,7 +24058,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24079,7 +24079,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24101,7 +24101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24122,7 +24122,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24143,7 +24143,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24164,7 +24164,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24185,7 +24185,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24206,7 +24206,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24227,7 +24227,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24248,7 +24248,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24267,7 +24267,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24288,7 +24288,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24312,7 +24312,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24334,7 +24334,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24354,7 +24354,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24377,7 +24377,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24398,7 +24398,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24421,7 +24421,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24444,7 +24444,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24465,7 +24465,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24486,7 +24486,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24506,7 +24506,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24528,7 +24528,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24548,7 +24548,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24569,7 +24569,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24592,7 +24592,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24612,7 +24612,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24632,7 +24632,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24651,7 +24651,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24670,7 +24670,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24693,7 +24693,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24716,7 +24716,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24738,7 +24738,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24758,7 +24758,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24781,7 +24781,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24801,7 +24801,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24823,7 +24823,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24847,7 +24847,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24870,7 +24870,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24892,7 +24892,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24912,7 +24912,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24934,7 +24934,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24956,7 +24956,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24976,7 +24976,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -24997,7 +24997,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25019,7 +25019,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25040,7 +25040,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25064,7 +25064,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25085,7 +25085,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25104,7 +25104,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25124,7 +25124,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25154,7 +25154,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25174,7 +25174,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25197,7 +25197,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25223,7 +25223,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25245,7 +25245,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25264,7 +25264,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25286,7 +25286,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25311,7 +25311,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25334,7 +25334,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25356,7 +25356,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25377,7 +25377,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25398,7 +25398,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25421,7 +25421,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25441,7 +25441,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25462,7 +25462,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25483,7 +25483,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25505,7 +25505,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25528,7 +25528,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25550,7 +25550,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25571,7 +25571,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25593,7 +25593,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25615,7 +25615,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25636,7 +25636,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25657,7 +25657,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25677,7 +25677,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25699,7 +25699,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25718,7 +25718,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25737,7 +25737,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25756,7 +25756,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25780,7 +25780,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25800,7 +25800,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25821,7 +25821,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25841,7 +25841,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25864,7 +25864,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25886,7 +25886,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25911,7 +25911,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25933,7 +25933,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25954,7 +25954,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25976,7 +25976,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -25999,7 +25999,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26022,7 +26022,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26044,7 +26044,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26066,7 +26066,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26093,7 +26093,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26118,7 +26118,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26139,7 +26139,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26159,7 +26159,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26179,7 +26179,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26202,7 +26202,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26224,7 +26224,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26246,7 +26246,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26271,7 +26271,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26294,7 +26294,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26315,7 +26315,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26338,7 +26338,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26359,7 +26359,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26379,7 +26379,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26400,7 +26400,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26420,7 +26420,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26445,7 +26445,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26466,7 +26466,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26490,7 +26490,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26510,7 +26510,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26531,7 +26531,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26553,7 +26553,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26574,7 +26574,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26599,7 +26599,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26622,7 +26622,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26642,7 +26642,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26663,7 +26663,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26686,7 +26686,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26709,7 +26709,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26731,7 +26731,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26754,7 +26754,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26776,7 +26776,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26798,7 +26798,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26823,7 +26823,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26844,7 +26844,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26866,7 +26866,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26889,7 +26889,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26911,7 +26911,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26936,7 +26936,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26960,7 +26960,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -26985,7 +26985,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27008,7 +27008,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27031,7 +27031,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27057,7 +27057,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27081,7 +27081,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27106,7 +27106,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27128,7 +27128,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27152,7 +27152,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27177,7 +27177,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27200,7 +27200,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27223,7 +27223,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27246,7 +27246,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27268,7 +27268,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27288,7 +27288,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27309,7 +27309,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27331,7 +27331,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27352,7 +27352,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27374,7 +27374,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27394,7 +27394,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27414,7 +27414,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27434,7 +27434,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27456,7 +27456,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27476,7 +27476,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27497,7 +27497,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27518,7 +27518,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27548,7 +27548,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27571,7 +27571,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27595,7 +27595,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27617,7 +27617,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27639,7 +27639,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27659,7 +27659,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27680,7 +27680,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27703,7 +27703,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27724,7 +27724,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27747,7 +27747,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27766,7 +27766,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27787,7 +27787,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27807,7 +27807,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27827,7 +27827,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27849,7 +27849,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27869,7 +27869,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27889,7 +27889,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27910,7 +27910,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27931,7 +27931,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27952,7 +27952,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27973,7 +27973,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -27994,7 +27994,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28013,7 +28013,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28041,7 +28041,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28064,7 +28064,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28083,7 +28083,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28104,7 +28104,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28129,7 +28129,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28150,7 +28150,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28171,7 +28171,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28199,7 +28199,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28224,7 +28224,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28247,7 +28247,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28269,7 +28269,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28290,7 +28290,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28313,7 +28313,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28332,7 +28332,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28354,7 +28354,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28374,7 +28374,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28395,7 +28395,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28414,7 +28414,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28437,7 +28437,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28457,7 +28457,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28479,7 +28479,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28500,7 +28500,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28526,7 +28526,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28546,7 +28546,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28566,7 +28566,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28588,7 +28588,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28614,7 +28614,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28633,7 +28633,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28652,7 +28652,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28679,7 +28679,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28706,7 +28706,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28726,7 +28726,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28748,7 +28748,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28768,7 +28768,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28792,7 +28792,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28814,7 +28814,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28837,7 +28837,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28867,7 +28867,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28889,7 +28889,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28912,7 +28912,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28936,7 +28936,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28955,7 +28955,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28975,7 +28975,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -28994,7 +28994,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29016,7 +29016,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29038,7 +29038,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29059,7 +29059,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29080,7 +29080,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29101,7 +29101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29123,7 +29123,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29144,7 +29144,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29166,7 +29166,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29186,7 +29186,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29209,7 +29209,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29237,7 +29237,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29258,7 +29258,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29278,7 +29278,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29299,7 +29299,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29320,7 +29320,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29341,7 +29341,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29362,7 +29362,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29383,7 +29383,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29404,7 +29404,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29425,7 +29425,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29446,7 +29446,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29467,7 +29467,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29488,7 +29488,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29509,7 +29509,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29530,7 +29530,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29552,7 +29552,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29578,7 +29578,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29600,7 +29600,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29620,7 +29620,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29640,7 +29640,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29660,7 +29660,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29680,7 +29680,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29700,7 +29700,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29720,7 +29720,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29741,7 +29741,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29764,7 +29764,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29785,7 +29785,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29818,7 +29818,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29846,7 +29846,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29873,7 +29873,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29903,7 +29903,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29925,7 +29925,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29945,7 +29945,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29966,7 +29966,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -29987,7 +29987,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30009,7 +30009,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30031,7 +30031,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30051,7 +30051,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30073,7 +30073,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30093,7 +30093,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30113,7 +30113,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30136,7 +30136,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30156,7 +30156,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30177,7 +30177,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30197,7 +30197,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30219,7 +30219,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30241,7 +30241,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30263,7 +30263,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30283,7 +30283,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30304,7 +30304,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30325,7 +30325,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30345,7 +30345,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30365,7 +30365,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30389,7 +30389,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30409,7 +30409,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30429,7 +30429,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30450,7 +30450,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30471,7 +30471,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30491,7 +30491,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30512,7 +30512,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30532,7 +30532,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30552,7 +30552,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30573,7 +30573,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30594,7 +30594,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30615,7 +30615,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30636,7 +30636,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30655,7 +30655,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30675,7 +30675,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30704,7 +30704,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30728,7 +30728,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30747,7 +30747,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30773,7 +30773,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30792,7 +30792,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30814,7 +30814,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30835,7 +30835,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30854,7 +30854,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30875,7 +30875,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30894,7 +30894,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30914,7 +30914,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30934,7 +30934,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30957,7 +30957,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -30980,7 +30980,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31000,7 +31000,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31021,7 +31021,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31041,7 +31041,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31061,7 +31061,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31082,7 +31082,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31103,7 +31103,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31130,7 +31130,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31157,7 +31157,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31180,7 +31180,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31209,7 +31209,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31236,7 +31236,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31262,7 +31262,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31288,7 +31288,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31309,7 +31309,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31331,7 +31331,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31352,7 +31352,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31375,7 +31375,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31397,7 +31397,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31423,7 +31423,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31447,7 +31447,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31466,7 +31466,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31489,7 +31489,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31511,7 +31511,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31540,7 +31540,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31564,7 +31564,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31586,7 +31586,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31615,7 +31615,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31637,7 +31637,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31658,7 +31658,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31678,7 +31678,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31700,7 +31700,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31720,7 +31720,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31741,7 +31741,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31760,7 +31760,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31780,7 +31780,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31801,7 +31801,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31823,7 +31823,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31846,7 +31846,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31868,7 +31868,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31889,7 +31889,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31914,7 +31914,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31939,7 +31939,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31961,7 +31961,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -31981,7 +31981,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32002,7 +32002,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32023,7 +32023,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32047,7 +32047,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32068,7 +32068,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32089,7 +32089,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32110,7 +32110,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32131,7 +32131,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32154,7 +32154,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32175,7 +32175,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32198,7 +32198,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32220,7 +32220,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32243,7 +32243,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32276,7 +32276,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32298,7 +32298,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32325,7 +32325,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32351,7 +32351,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32375,7 +32375,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32394,7 +32394,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32414,7 +32414,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32434,7 +32434,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32454,7 +32454,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32474,7 +32474,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32496,7 +32496,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32517,7 +32517,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32537,7 +32537,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32558,7 +32558,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32580,7 +32580,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32605,7 +32605,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32628,7 +32628,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32651,7 +32651,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32673,7 +32673,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32694,7 +32694,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32714,7 +32714,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32734,7 +32734,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32754,7 +32754,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32776,7 +32776,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32799,7 +32799,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32819,7 +32819,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32843,7 +32843,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32864,7 +32864,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32889,7 +32889,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32910,7 +32910,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32937,7 +32937,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32959,7 +32959,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -32984,7 +32984,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33008,7 +33008,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33033,7 +33033,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33058,7 +33058,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33084,7 +33084,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33107,7 +33107,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33128,7 +33128,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33148,7 +33148,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33170,7 +33170,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33190,7 +33190,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33212,7 +33212,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33233,7 +33233,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33253,7 +33253,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33275,7 +33275,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33295,7 +33295,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33316,7 +33316,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33343,7 +33343,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33362,7 +33362,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33381,7 +33381,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33405,7 +33405,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33430,7 +33430,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33453,7 +33453,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33474,7 +33474,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33496,7 +33496,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33518,7 +33518,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33539,7 +33539,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33559,7 +33559,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33579,7 +33579,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33598,7 +33598,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33617,7 +33617,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33636,7 +33636,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33657,7 +33657,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33680,7 +33680,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33701,7 +33701,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33721,7 +33721,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33741,7 +33741,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33762,7 +33762,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33782,7 +33782,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33808,7 +33808,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33834,7 +33834,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33854,7 +33854,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33879,7 +33879,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33898,7 +33898,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33922,7 +33922,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33946,7 +33946,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33967,7 +33967,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -33992,7 +33992,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34013,7 +34013,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34042,7 +34042,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34064,7 +34064,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34085,7 +34085,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34106,7 +34106,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34128,7 +34128,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34149,7 +34149,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34178,7 +34178,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34199,7 +34199,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34220,7 +34220,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34242,7 +34242,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34264,7 +34264,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34286,7 +34286,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34306,7 +34306,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34328,7 +34328,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34349,7 +34349,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34371,7 +34371,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34391,7 +34391,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34412,7 +34412,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34434,7 +34434,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34456,7 +34456,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34477,7 +34477,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34502,7 +34502,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34524,7 +34524,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34552,7 +34552,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34578,7 +34578,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34599,7 +34599,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34620,7 +34620,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34643,7 +34643,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34664,7 +34664,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34687,7 +34687,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34708,7 +34708,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34729,7 +34729,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34749,7 +34749,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34772,7 +34772,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34794,7 +34794,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34815,7 +34815,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34839,7 +34839,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34859,7 +34859,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34880,7 +34880,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34903,7 +34903,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34924,7 +34924,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34943,7 +34943,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34964,7 +34964,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -34985,7 +34985,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35005,7 +35005,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35025,7 +35025,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35048,7 +35048,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35074,7 +35074,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35101,7 +35101,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35123,7 +35123,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35146,7 +35146,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35168,7 +35168,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35191,7 +35191,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35212,7 +35212,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35237,7 +35237,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35259,7 +35259,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35284,7 +35284,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35305,7 +35305,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35325,7 +35325,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35353,7 +35353,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35379,7 +35379,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35402,7 +35402,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35432,7 +35432,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35453,7 +35453,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35473,7 +35473,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35498,7 +35498,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35520,7 +35520,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35545,7 +35545,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35564,7 +35564,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35586,7 +35586,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35608,7 +35608,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35629,7 +35629,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35652,7 +35652,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35674,7 +35674,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35695,7 +35695,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35716,7 +35716,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35735,7 +35735,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35755,7 +35755,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35775,7 +35775,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35797,7 +35797,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35816,7 +35816,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35838,7 +35838,7 @@ export const lucideIcons: IconItem[] = [
   viewBox="0 0 24 24"
   fill="none"
   stroke="currentColor"
-  stroke-width="24"
+  stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
