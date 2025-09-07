@@ -356,10 +356,9 @@ function IconGridPage() {
                  selectedSet === "lucide" ? "Lucide Icons" :
                  selectedSet === "pixelart" ? "Pixel Art Icons" :
                  selectedSet === "hugeicon" ? "Huge Icons" :
-                selectedSet === "mingcute" ? "Mingcute Icons" :
-                selectedSet === "heroicons" ? "Heroicons" :
-            selectedSet === "heroicons" ? "Heroicons" :
-                  selectedSet === "heroicons" ? "Heroicons" :
+                 selectedSet === "mingcute" ? "Mingcute Icons" :
+                 selectedSet === "heroicons" ? "Heroicons" :
+                 selectedSet === "material" ? "Material Design Icons" :
                  "Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -510,8 +509,9 @@ function IconGridPage() {
                           selectedSet === "line" ? "Line Icons" :
                            selectedSet === "pixelart" ? "Pixel Art Icons" :
                             selectedSet === "hugeicon" ? "Huge Icons" :
-                            selectedSet === "mingcute" ? "Mingcute Icons" :
-                          selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
+                             selectedSet === "mingcute" ? "Mingcute Icons" :
+                             selectedSet === "heroicons" ? "Heroicons" :
+                           selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">
                       {searchQuery && searchTotalCount > (groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0) : displayedIcons.length) ? (

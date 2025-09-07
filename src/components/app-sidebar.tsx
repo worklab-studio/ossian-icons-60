@@ -19,6 +19,7 @@ const iconMap = {
   hugeicon: Layers,
   mingcute: Sparkles,
   heroicons: Sparkles,
+  material: Atom,
 };
 
 interface AppSidebarProps {
