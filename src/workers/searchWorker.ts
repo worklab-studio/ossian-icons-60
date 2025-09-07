@@ -391,6 +391,9 @@ function searchIcons(
   console.log(`Available indexes:`, Array.from(searchIndex.keys()));
   console.log(`Library filter: ${libraryId || 'none (searching all)'}`);
   
+  // Track library attribution for debugging
+  const libraryStats = new Map<string, number>();
+  
   // Search across specified libraries
   let totalCandidates = 0;
   for (const currentLibraryId of librariesToSearch) {
@@ -457,6 +460,10 @@ function searchIcons(
       
       if (result && result.score >= minScore) {
         results.push(result);
+        
+        // Track library attribution
+        const detectedLibrary = icon.id.split('-')[0];
+        libraryStats.set(detectedLibrary, (libraryStats.get(detectedLibrary) || 0) + 1);
       }
     }
   }
@@ -477,6 +484,9 @@ function searchIcons(
       return a.icon.name.length - b.icon.name.length;
     })
     .slice(0, maxResults);
+  
+  // Log library attribution stats
+  console.log('🏷️ Library Attribution Stats:', Object.fromEntries(libraryStats));
   
   console.log(`✅ Final worker results: ${sortedResults.length} icons (from ${results.length} total matches)`);
 

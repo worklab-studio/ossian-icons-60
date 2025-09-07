@@ -199,7 +199,22 @@ function IconGridPage() {
           });
           // Filter out any invalid results
           const validResults = searchResult.results.filter(icon => icon && icon.svg);
+          
+          // Validate library attribution
+          const libraryValidation = new Map<string, { expected: string, actual: string, count: number }>();
+          validResults.forEach(icon => {
+            const expectedLibrary = icon.id.split('-')[0];
+            const actualLibrary = sections.find(section => 
+              section.icons.some(sectionIcon => sectionIcon.id === icon.id)
+            )?.libraryId || 'unknown';
+            
+            const key = `${expectedLibrary}->${actualLibrary}`;
+            const current = libraryValidation.get(key) || { expected: expectedLibrary, actual: actualLibrary, count: 0 };
+            libraryValidation.set(key, { ...current, count: current.count + 1 });
+          });
+
           console.log(`✅ Worker search results: ${validResults.length} valid icons (total: ${searchResult.totalCount})`);
+          console.log('🏷️ Library Attribution Validation:', Object.fromEntries(libraryValidation));
           setSearchResults(validResults);
           setSearchTotalCount(searchResult.totalCount);
         } else if (loaded) {

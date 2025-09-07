@@ -275,9 +275,17 @@ export function fallbackSearch(
   const totalCount = sortedResults.length;
   const limitedResults = sortedResults.slice(0, maxResults);
   
+  // Track library attribution for debugging
+  const libraryStats = new Map<string, number>();
+  limitedResults.forEach(result => {
+    const library = result.icon.id.split('-')[0];
+    libraryStats.set(library, (libraryStats.get(library) || 0) + 1);
+  });
+
   console.log(`✅ Fallback search results: ${limitedResults.length} icons (from ${totalCount} total matches)`);
+  console.log('🏷️ Fallback Library Attribution:', Object.fromEntries(libraryStats));
   
-  return { 
+  return {
     results: limitedResults.map(result => result.icon),
     totalCount 
   };
