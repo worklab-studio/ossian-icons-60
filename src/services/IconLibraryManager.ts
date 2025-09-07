@@ -216,18 +216,32 @@ class IconLibraryManager {
   }
 
   private async loadLibraryInternal(libraryId: string): Promise<IconItem[]> {
+    console.log(`🔍 Loading library internal: ${libraryId}`);
+    
     // Try localStorage cache first
     const localCache = this.getFromLocalStorage(libraryId);
     if (localCache && !this.isCacheExpired(localCache)) {
+      console.log(`🎯 LocalStorage cache hit for ${libraryId}:`, localCache.icons.length, 'icons');
       this.updateMemoryCache(libraryId, localCache.icons);
       return localCache.icons;
     }
 
+    console.log(`📦 No cache found for ${libraryId}, importing from source...`);
+    
     // Import the raw library
     const rawIcons = await this.importLibrary(libraryId);
     
+    console.log(`📊 Raw import result for ${libraryId}:`, rawIcons?.length || 0, 'icons');
+    
     // No SVG processing needed - clean icons
     const icons = rawIcons;
+    
+    if (libraryId === "atlas") {
+      console.log(`🗺️ ATLAS DEBUG - Raw icons:`, icons?.length || 0);
+      if (icons && icons.length > 0) {
+        console.log(`🗺️ ATLAS DEBUG - First icon:`, icons[0]);
+      }
+    }
     
     // Cache the result
     this.updateMemoryCache(libraryId, icons);
@@ -235,6 +249,8 @@ class IconLibraryManager {
     
     // Update search index
     this.updateSearchIndex(libraryId, icons);
+    
+    console.log(`✅ Successfully loaded ${libraryId}:`, icons.length, 'icons');
     
     return icons;
   }

@@ -97,8 +97,12 @@ function IconGridPage() {
           console.log('Loading all libraries sectioned...');
           await loadAllLibrariesSectioned();
         } else {
-          console.log(`Loading library: ${selectedSet}`);
+          console.log(`🚀 Loading library: ${selectedSet}`);
+          if (selectedSet === "atlas") {
+            console.log('🗺️ ATLAS LOADING - This is the Atlas library');
+          }
           await loadLibrary(selectedSet);
+          console.log(`✅ Completed loading: ${selectedSet}`);
         }
         
         console.log(`Successfully loaded icons for: ${selectedSet}`, {
@@ -107,7 +111,11 @@ function IconGridPage() {
           loaded
         });
       } catch (error) {
-        console.error('Failed to load library:', selectedSet, error);
+        console.error(`❌ Failed to load library: ${selectedSet}`, error);
+        if (selectedSet === "atlas") {
+          console.error('🗺️ ATLAS ERROR - Atlas library failed to load:', error);
+        }
+        // Error is handled by the hook's internal error state
       }
     };
     
