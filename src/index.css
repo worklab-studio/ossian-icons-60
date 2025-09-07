@@ -197,7 +197,7 @@
   .icon-component {
     width: 32px;
     height: 32px;
-    /* Removed color transition to prevent glitches during scroll */
+    transition: color 0.2s ease;
     contain: layout;
     display: flex;
     align-items: center;
@@ -285,23 +285,4 @@
   .icon-svg, .icon-component {
     overflow: visible;
   }
-}
-
-/* Atlas icon color consistency - ensure all SVG elements inherit color */
-.atlas-icon-container svg * {
-  fill: currentColor !important;
-  stroke: currentColor !important;
-}
-
-.atlas-icon-container svg *[fill="none"] {
-  fill: none !important;
-}
-
-.atlas-icon-container svg *[stroke="none"] {
-  stroke: none !important;
-}
-
-/* Ensure color changes apply immediately during virtual scrolling */
-.atlas-icon-container {
-  color: inherit;
 }

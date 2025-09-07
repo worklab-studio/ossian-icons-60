@@ -88,7 +88,7 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
       }
       return 80; // Fixed 80px for desktop and tablet
     },
-    overscan: 1, // Reduced overscan to minimize mounting/unmounting during scroll
+    overscan: enabled && rows.length > 100 ? 2 : 5, // Dynamic overscan for performance
     enabled,
     scrollMargin: containerRef.current?.offsetTop ?? 0,
     // Enhanced scrolling options for smoother experience
@@ -96,8 +96,6 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
     scrollPaddingStart: 0,
     scrollPaddingEnd: 0,
     measureElement: undefined, // Let browser handle measurements for speed
-    // Add lane to reduce recomputation
-    lanes: 1,
   });
 
   return {

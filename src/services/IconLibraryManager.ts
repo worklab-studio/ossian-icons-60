@@ -36,10 +36,6 @@ class IconLibraryManager {
   private readonly popularLibraries: string[] = ['lucide'];
 
   constructor() {
-    // Clear any corrupted cache on startup for debugging + force fresh load after color fix
-    console.log(`🧹 Clearing all caches to apply color fixes...`);
-    this.clearAllCaches();
-    
     // Clean up old cache entries on startup
     this.clearOldCacheEntries();
     this.cleanupExpiredCache();
@@ -55,47 +51,28 @@ class IconLibraryManager {
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
     console.log(`🔍 Importing library: ${libraryId}`);
     
-    try {
-      if (libraryId === 'lucide') {
-        const { lucideIcons } = await import('@/data/lucide-icons');
-        console.log(`✅ Lucide icons imported: ${lucideIcons.length} icons`);
-        return lucideIcons;
-      }
-      
-      if (libraryId === 'atlas') {
-        console.log(`🔄 Attempting Atlas import...`);
-        const module = await import('@/data/atlas');
-        console.log(`📦 Atlas module imported:`, Object.keys(module));
-        
-        if (!module.atlasIcons) {
-          console.error(`❌ atlasIcons not found in module. Available exports:`, Object.keys(module));
-          return [];
-        }
-        
-        const { atlasIcons } = module;
-        const { standardizeAtlasIcons } = await import('@/lib/atlas-color-fixer');
-        const standardizedIcons = standardizeAtlasIcons(atlasIcons);
-        console.log(`✅ Atlas icons imported and standardized: ${standardizedIcons.length} icons`);
-        console.log(`🔍 First standardized Atlas icon:`, standardizedIcons[0]);
-        return standardizedIcons;
-      }
-      
-      console.warn(`⚠️ Library ${libraryId} is not supported`);
-      return [];
-    } catch (error) {
-      console.error(`❌ Failed to import library ${libraryId}:`, error);
-      return [];
+    if (libraryId === 'lucide') {
+      const { lucideIcons } = await import('@/data/lucide-icons');
+      console.log(`✅ Lucide icons imported: ${lucideIcons.length} icons`);
+      return lucideIcons;
     }
+    
+    if (libraryId === 'atlas') {
+      const { atlasIcons } = await import('@/data/atlas');
+      console.log(`✅ Atlas icons imported: ${atlasIcons.length} icons`);
+      console.log(`🔍 First Atlas icon:`, atlasIcons[0]);
+      return atlasIcons;
+    }
+    
+    console.warn(`Library ${libraryId} is not supported`);
+    return [];
   }
 
   // Load library with caching and deduplication
   async loadLibrary(libraryId: string): Promise<IconItem[]> {
-    console.log(`🎯 LoadLibrary called for: ${libraryId}`);
-    
     // Check memory cache first
     const cached = this.cache.get(libraryId);
     if (cached && !this.isCacheExpired(cached)) {
-      console.log(`💾 Using memory cache for: ${libraryId} (${cached.icons.length} icons)`);
       // Update access stats
       cached.accessCount++;
       cached.lastAccessed = Date.now();
@@ -105,25 +82,19 @@ class IconLibraryManager {
 
     // Check if already loading
     if (this.loadingPromises.has(libraryId)) {
-      console.log(`⏳ Already loading: ${libraryId}, waiting for existing promise`);
       return this.loadingPromises.get(libraryId)!;
     }
 
     // Start loading
-    console.log(`🚀 Starting fresh load for: ${libraryId}`);
     const loadPromise = this.loadLibraryInternal(libraryId);
     this.loadingPromises.set(libraryId, loadPromise);
 
     try {
       const icons = await loadPromise;
       this.loadingPromises.delete(libraryId);
-      console.log(`🎉 Load complete for ${libraryId}: ${icons.length} icons before filtering`);
       // Ensure strict library filtering
-      const filtered = this.filterIconsByLibraryId(icons, libraryId);
-      console.log(`✨ Final result for ${libraryId}: ${filtered.length} icons after filtering`);
-      return filtered;
+      return this.filterIconsByLibraryId(icons, libraryId);
     } catch (error) {
-      console.error(`❌ Load failed for ${libraryId}:`, error);
       this.loadingPromises.delete(libraryId);
       throw error;
     }
@@ -224,21 +195,15 @@ class IconLibraryManager {
   }
 
   private async loadLibraryInternal(libraryId: string): Promise<IconItem[]> {
-    console.log(`🔄 Loading library internal: ${libraryId}`);
-    
     // Try localStorage cache first
     const localCache = this.getFromLocalStorage(libraryId);
     if (localCache && !this.isCacheExpired(localCache)) {
-      console.log(`📦 Using localStorage cache for: ${libraryId} (${localCache.icons.length} icons)`);
       this.updateMemoryCache(libraryId, localCache.icons);
       return localCache.icons;
     }
 
-    console.log(`🚀 No valid cache, importing fresh: ${libraryId}`);
-    
     // Import the raw library
     const rawIcons = await this.importLibrary(libraryId);
-    console.log(`📥 Raw import complete for ${libraryId}: ${rawIcons.length} icons`);
     
     // No SVG processing needed - clean icons
     const icons = rawIcons;
@@ -250,7 +215,6 @@ class IconLibraryManager {
     // Update search index
     this.updateSearchIndex(libraryId, icons);
     
-    console.log(`✅ Library ${libraryId} loaded successfully: ${icons.length} icons`);
     return icons;
   }
 
