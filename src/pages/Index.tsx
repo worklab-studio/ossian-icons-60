@@ -352,9 +352,8 @@ function IconGridPage() {
               }}
             >
               <h1 className="text-lg font-semibold">
-                 {selectedSet === "all" ? "All Icons" : 
+                {selectedSet === "all" ? "All Icons" : 
                  selectedSet === "lucide" ? "Lucide Icons" :
-                 selectedSet === "ant-design" ? "Ant Design Icons" :
                  "Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -498,13 +497,12 @@ function IconGridPage() {
                      selectedSet === "boxicons" ? "Boxicons" :
                      selectedSet === "css-gg" ? "CSS.GG Icons" :
                      selectedSet === "iconsax" ? "Iconsax Icons" :
-                         selectedSet === "solar" ? "Solar Icons" :
-                         selectedSet === "phosphor" ? "Phosphor Icons" :
-                          selectedSet === "bootstrap" ? "Bootstrap Icons" :
-                          selectedSet === "radix" ? "Radix Icons" :
-                          selectedSet === "line" ? "Line Icons" :
-                          selectedSet === "ant-design" ? "Ant Design Icons" :
-                         selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
+                        selectedSet === "solar" ? "Solar Icons" :
+                        selectedSet === "phosphor" ? "Phosphor Icons" :
+                         selectedSet === "bootstrap" ? "Bootstrap Icons" :
+                         selectedSet === "radix" ? "Radix Icons" :
+                         selectedSet === "line" ? "Line Icons" :
+                        selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">
                       {searchQuery && searchTotalCount > (groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0) : displayedIcons.length) ? (
@@ -627,12 +625,9 @@ function IconGridPage() {
                     selectedSet === "boxicons" ? "Boxicons" :
                     selectedSet === "css-gg" ? "CSS.GG Icons" :
                     selectedSet === "iconsax" ? "Iconsax Icons" :
-                      selectedSet === "solar" ? "Solar Icons" :
-                      selectedSet === "radix" ? "Radix Icons" :
-                      selectedSet === "line" ? "Line Icons" :
-                      selectedSet === "ant-design" ? "Ant Design Icons" :
-                      selectedSet === "atlas" ? "Atlas Icons" :
-                      selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
+                     selectedSet === "solar" ? "Solar Icons" :
+                     selectedSet === "atlas" ? "Atlas Icons" :
+                     selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
                   ) : undefined}
                 />
               )
