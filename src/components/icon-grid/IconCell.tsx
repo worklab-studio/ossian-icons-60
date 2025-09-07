@@ -1,20 +1,19 @@
 import React, { useState, useCallback, useRef, useMemo, memo } from "react";
-import { Copy, Download, Check } from "lucide-react";
+import { Copy } from "lucide-react";
 import { type IconItem } from "@/types/icon";
 import { copyIcon } from "@/lib/copy";
 import { getSimpleSvg, copyToClipboard } from "@/lib/simple-helpers";
 import { getIconAriaLabel } from "@/lib/a11y";
 import { CopyTooltip } from "@/components/ui/copy-tooltip";
-import { Button } from "@/components/ui/button";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { useTheme } from "next-themes";
+import { renderToStaticMarkup } from "react-dom/server";
 import { supportsStrokeWidth } from "@/lib/icon-utils";
 import { HapticsManager } from "@/lib/haptics";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { exportIconAsPng, exportIconAsSvg } from "@/lib/icon-export";
-import { toast } from "sonner";
+
+console.log('IconCell module loading...', { memo, React });
 
 interface IconCellProps {
   icon: IconItem;
@@ -25,6 +24,7 @@ interface IconCellProps {
   onIconClick?: (icon: IconItem) => void;
 }
 
+// Export the component directly without memo for now
 export function IconCell({ 
   icon, 
   isSelected = false, 
@@ -33,6 +33,7 @@ export function IconCell({
   onCopy,
   onIconClick
 }: IconCellProps) {
+  console.log('IconCell rendering directly...', { icon, isSelected });
   const [isHovered, setIsHovered] = useState(false);
   const [showCopied, setShowCopied] = useState(false);
   const [showTooltip, setShowTooltip] = useState(false);
@@ -68,37 +69,6 @@ export function IconCell({
       '--icon-color': selectedColor
     } as React.CSSProperties;
   }, [customization.color, theme]);
-
-  // Use centralized SVG processing for consistent display and export
-  const renderedIcon = useMemo(() => {
-    const iconColor = customization.color;
-    
-    if (!icon.svg) {
-      return '<div class="w-4 h-4 border-2 border-muted-foreground border-t-transparent rounded-full animate-spin"></div>';
-    }
-    
-    try {
-      const processedSvg = getSimpleSvg(icon);
-      let finalSvg = processedSvg;
-
-      // Apply stroke-width customization for supported icons
-      if (supportsStrokeWidth(icon) && customization.strokeWidth !== 2) {
-        finalSvg = processedSvg.replace(
-          /stroke-width="[\d.]+"/g, 
-          `stroke-width="${customization.strokeWidth}"`
-        );
-      }
-
-      // Apply color
-      finalSvg = finalSvg.replace(/stroke="currentColor"/g, `stroke="${iconColor}"`);
-      finalSvg = finalSvg.replace(/fill="currentColor"/g, `fill="${iconColor}"`);
-      
-      return finalSvg;
-    } catch (error) {
-      console.error('Error processing icon:', icon.id, error);
-      return '<span>⚠</span>';
-    }
-  }, [icon, customization.color, customization.strokeWidth]);
 
   const handleClick = useCallback(async (e: React.MouseEvent) => {
     e.preventDefault();
@@ -162,23 +132,53 @@ export function IconCell({
     }
   }, [handleClick]);
 
-  const handleExportPng = async (size: number = 512) => {
-    try {
-      await exportIconAsPng(renderedIcon, icon.name, { size });
-      toast.success(`${icon.name} exported as PNG (${size}px)`);
-    } catch (error) {
-      toast.error('Failed to export PNG');
+  // Use centralized SVG processing for consistent display and export
+  const renderedIcon = useMemo(() => {
+    const iconColor = customization.color;
+    
+    if (!icon.svg) {
+      return (
+        <div className="icon-loading">
+          <div className="w-4 h-4 border-2 border-muted-foreground border-t-transparent rounded-full animate-spin" />
+        </div>
+      );
     }
-  };
+    
+    try {
+      const processedSvg = getSimpleSvg(icon);
+      let finalSvg = processedSvg;
 
-  const handleExportSvg = () => {
-    try {
-      exportIconAsSvg(renderedIcon, icon.name);
-      toast.success(`${icon.name} exported as SVG`);
+      // Apply stroke-width customization for supported icons
+      if (supportsStrokeWidth(icon) && customization.strokeWidth !== 2) {
+        finalSvg = processedSvg.replace(
+          /stroke-width="[\d.]+"/g, 
+          `stroke-width="${customization.strokeWidth}"`
+        );
+      }
+
+      // Apply color
+      finalSvg = finalSvg.replace(/stroke="currentColor"/g, `stroke="${iconColor}"`);
+      finalSvg = finalSvg.replace(/fill="currentColor"/g, `fill="${iconColor}"`);
+      
+      return (
+        <div 
+          dangerouslySetInnerHTML={{ __html: finalSvg }}
+          className="icon-svg"
+          style={{ 
+            color: iconColor,
+            ['--icon-color' as any]: iconColor,
+          }}
+        />
+      );
     } catch (error) {
-      toast.error('Failed to export SVG');
+      console.error('Error processing icon:', icon.id, error);
+      return (
+        <div className="icon-error">
+          <span className="text-xs">⚠</span>
+        </div>
+      );
     }
-  };
+  }, [icon, customization.color, customization.strokeWidth]);
 
   // Cleanup timeout on unmount
   const cleanupTimeout = useCallback(() => {
@@ -198,93 +198,48 @@ export function IconCell({
     setShowTooltip(false);
     cleanupTimeout();
   }, [cleanupTimeout]);
+
+  console.log('About to render IconCell JSX for icon:', icon.id);
   
-  return (
-    <CopyTooltip showCopied={showCopied}>
-      <div className="group relative">
+  try {
+    return (
+      <CopyTooltip showCopied={showCopied}>
         <button
           ref={buttonRef}
-          className={cn(
-            "relative flex h-16 w-16 items-center justify-center rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
-            "border border-border hover:border-border/80 hover:bg-accent/50",
-            "sm:h-20 sm:w-20",
-            isSelected && "ring-2 ring-primary",
-            !isHovered && "hover:shadow-md"
-          )}
           onClick={handleClick}
-          onDoubleClick={handleDoubleClick}
           onKeyDown={handleKeyDown}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          onDoubleClick={handleDoubleClick}
           tabIndex={0}
+          role="button"
           aria-label={getIconAriaLabel(icon.name, isSelected)}
+          aria-pressed={isSelected}
+          data-selected={isSelected}
+          data-hovered={isHovered}
+          data-selected-state={isSelected}
+          className="icon-cell"
           style={colorStyles}
         >
-          {/* Icon */}
-          <div 
-            className="h-6 w-6 sm:h-8 sm:w-8 transition-all duration-200"
-            dangerouslySetInnerHTML={{ __html: renderedIcon }}
-          />
+          <div className={cn(
+            "icon-highlight",
+            (isHovered || isSelected) && "icon-highlight--active"
+          )} />
           
-          {/* Copy indicator */}
-          {showCopied && (
-            <div className="absolute inset-0 flex items-center justify-center bg-background/90 rounded-lg">
-              <Check className="h-4 w-4 text-green-500" />
-            </div>
-          )}
+          {renderedIcon}
           
-          {/* Hover overlay with actions */}
-          {isHovered && (
-            <div className="absolute inset-0 bg-background/90 rounded-lg flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-              <Button
-                size="sm"
-                variant="ghost"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  handleCopy(e);
-                }}
-                className="h-7 w-7 p-0"
-              >
-                <Copy className="h-3 w-3" />
-              </Button>
-              
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button
-                    size="sm"
-                    variant="ghost"
-                    onClick={(e) => e.stopPropagation()}
-                    className="h-7 w-7 p-0"
-                  >
-                    <Download className="h-3 w-3" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="center" className="w-48">
-                  <DropdownMenuItem onClick={() => handleExportPng(256)}>
-                    Download PNG (256px)
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => handleExportPng(512)}>
-                    Download PNG (512px)
-                  </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => handleExportPng(1024)}>
-                    Download PNG (1024px)
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem onClick={handleExportSvg}>
-                    Download SVG
-                  </DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
+          {!isMobile && showTooltip && (
+            <div className="icon-tooltip">
+              Double click to copy icon
             </div>
           )}
         </button>
-        
-        {!isMobile && showTooltip && (
-          <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-background border rounded px-2 py-1 text-xs whitespace-nowrap z-10">
-            Double click to copy icon
-          </div>
-        )}
-      </div>
-    </CopyTooltip>
-  );
+      </CopyTooltip>
+    );
+  } catch (error) {
+    console.error('Error in IconCell JSX return:', error);
+    return <div>Error rendering icon: {icon.id}</div>;
+  }
 }
+
+console.log('IconCell exported successfully');
