@@ -1,5 +1,5 @@
 // Majesticon
-// Generated on: 2025-09-07T15:51:44.615923Z
+// Generated on: 2025-09-07T16:37:55.435132Z
 // Total icons: 760
 
 import { type IconItem } from '@/types/icon';
