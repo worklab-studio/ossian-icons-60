@@ -27,29 +27,29 @@ const iconMap = {
   majesticon: Crown,
   simple: Tag,
   octicons: Github,
-  iconsax: Layers,
+  iconsax: Layers
 };
-
 interface AppSidebarProps {
   selectedSet: string;
   onSetChange: (setId: string) => void;
 }
+export function AppSidebar({
+  selectedSet,
+  onSetChange
+}: AppSidebarProps) {
+  const {
+    libraries,
+    totalCount
+  } = useIconLibraryMetadata();
 
-export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
-  const { libraries, totalCount } = useIconLibraryMetadata();
-  
   // Create top navigation items
-  const topNavItems = [
-    {
-      name: "All Icons",
-      id: "all",
-      count: totalCount,
-      icon: Home
-    }
-  ];
-
-  return (
-    <Sidebar className="border-r flex flex-col">
+  const topNavItems = [{
+    name: "All Icons",
+    id: "all",
+    count: totalCount,
+    icon: Home
+  }];
+  return <Sidebar className="border-r flex flex-col">
       {/* Fixed Header - Logo Area */}
       <SidebarHeader className="flex-shrink-0 border-b h-16">
         <div className="flex items-center px-3 h-full">
@@ -59,9 +59,7 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
             </div>
             <div className="flex flex-col">
               <span className="text-sm font-semibold">Iconstack</span>
-              <span className="text-xs text-muted-foreground">
-                55,000+ icons
-              </span>
+              <span className="text-xs text-muted-foreground">50,000+ icons</span>
             </div>
           </div>
         </div>
@@ -75,15 +73,8 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {topNavItems.map((item) => (
-                <SidebarMenuItem key={item.id}>
-                  <SidebarMenuButton 
-                    onClick={() => onSetChange(item.id)}
-                    className={cn(
-                      "w-full justify-between gap-3 text-sm",
-                      selectedSet === item.id && "bg-accent text-accent-foreground font-medium"
-                    )}
-                  >
+              {topNavItems.map(item => <SidebarMenuItem key={item.id}>
+                  <SidebarMenuButton onClick={() => onSetChange(item.id)} className={cn("w-full justify-between gap-3 text-sm", selectedSet === item.id && "bg-accent text-accent-foreground font-medium")}>
                     <div className="flex items-center gap-3">
                       <item.icon className="h-4 w-4" />
                       <span>{item.name}</span>
@@ -92,8 +83,7 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
                       {item.count.toLocaleString()}
                     </span>
                   </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
+                </SidebarMenuItem>)}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
@@ -109,17 +99,10 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {libraries.map((library) => {
-                const IconComponent = iconMap[library.id as keyof typeof iconMap] || Home;
-                return (
-                  <SidebarMenuItem key={library.id}>
-                    <SidebarMenuButton 
-                      onClick={() => onSetChange(library.id)}
-                      className={cn(
-                        "w-full justify-between gap-3 text-sm",
-                        selectedSet === library.id && "bg-accent text-accent-foreground font-medium"
-                      )}
-                    >
+              {libraries.map(library => {
+              const IconComponent = iconMap[library.id as keyof typeof iconMap] || Home;
+              return <SidebarMenuItem key={library.id}>
+                    <SidebarMenuButton onClick={() => onSetChange(library.id)} className={cn("w-full justify-between gap-3 text-sm", selectedSet === library.id && "bg-accent text-accent-foreground font-medium")}>
                       <div className="flex items-center gap-3">
                         <IconComponent className="h-4 w-4" />
                         <span>{library.name}</span>
@@ -128,13 +111,11 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
                         {library.count.toLocaleString()}
                       </span>
                     </SidebarMenuButton>
-                  </SidebarMenuItem>
-                );
-              })}
+                  </SidebarMenuItem>;
+            })}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-    </Sidebar>
-  );
+    </Sidebar>;
 }
