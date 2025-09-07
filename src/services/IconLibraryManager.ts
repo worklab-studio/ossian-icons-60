@@ -46,7 +46,7 @@ class IconLibraryManager {
       { id: 'iconamoon', name: 'Iconamoon', count: 608, style: 'outline', description: 'Modern outline icons with consistent design language' },
       { id: 'iconoir', name: 'Iconoir', count: 1383, style: 'mixed', description: 'Beautiful open source icons with clean design' },
       { id: 'majesticon', name: 'Majesticon', count: 760, style: 'outline', description: 'Professional outline icons with clean, consistent design' },
-      { id: 'simple', name: 'Simple Icons', count: 3355, style: 'brand', description: 'Popular brand and company logos as beautiful SVG icons' }
+      { id: 'simple', name: 'Brand', count: 3355, style: 'brand', description: 'Popular brand and company logos as beautiful SVG icons' }
   ];
 
   // Popular libraries to preload for better UX
