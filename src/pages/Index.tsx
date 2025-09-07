@@ -495,9 +495,8 @@ function IconGridPage() {
                      selectedSet === "boxicons" ? "Boxicons" :
                      selectedSet === "css-gg" ? "CSS.GG Icons" :
                      selectedSet === "iconsax" ? "Iconsax Icons" :
-                      selectedSet === "atlas" ? "Atlas Icons" :
-                      selectedSet === "solar" ? "Solar Icons" :
-                      selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
+                     selectedSet === "solar" ? "Solar Icons" :
+                     selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">
                       {searchQuery && searchTotalCount > (groupedSearchSections.length > 0 ? groupedSearchSections.reduce((total, section) => total + section.icons.length, 0) : displayedIcons.length) ? (
@@ -620,7 +619,6 @@ function IconGridPage() {
                     selectedSet === "boxicons" ? "Boxicons" :
                     selectedSet === "css-gg" ? "CSS.GG Icons" :
                     selectedSet === "iconsax" ? "Iconsax Icons" :
-                    selectedSet === "atlas" ? "Atlas Icons" :
                     selectedSet === "solar" ? "Solar Icons" :
                     selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)
                   ) : undefined}

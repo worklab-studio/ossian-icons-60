@@ -1,6 +1,5 @@
 // Export all icon libraries from this index file
 export * from './lucide-icons';
-export * from './atlas';
 export * from './feather';
 export * from './tabler';
 

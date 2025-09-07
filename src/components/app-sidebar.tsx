@@ -8,7 +8,6 @@ import { useIconLibraryMetadata } from "@/hooks/useAsyncIconLibrary";
 // Icon mappings for UI
 const iconMap = {
   lucide: Zap,
-  atlas: Home,
   feather: Feather,
   tabler: Table,
 };
