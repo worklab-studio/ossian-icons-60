@@ -90,6 +90,15 @@ function IconGridPage() {
     }
   }, [shouldSkipLoading]);
 
+  // Hide loading animation when both conditions are met
+  useEffect(() => {
+    if (loaded && minDurationComplete && showLoadingAnimation) {
+      console.log('Hiding loading animation - icons loaded and minimum duration complete');
+      setShowLoadingAnimation(false);
+      markLoadingSeen();
+    }
+  }, [loaded, minDurationComplete, showLoadingAnimation, markLoadingSeen]);
+
   // Fallback timeout removed - just keep loading until ready
 
   // Load icons based on selected set - consolidated loading logic
