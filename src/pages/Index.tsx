@@ -78,6 +78,51 @@ function IconGridPage() {
     isSearching 
   } = useSearchWorker();
 
+  // Test library searches on component mount for debugging
+  useEffect(() => {
+    const testLibrarySearches = async () => {
+      if (search && searchReady) {
+        console.log('🧪 Testing individual library searches...');
+        
+        // Test search in each library
+        const testQueries = ['pen', 'home', 'user'];
+        const testLibraries = ['feather', 'tabler', 'lucide', 'solar'];
+        
+        for (const library of testLibraries) {
+          for (const query of testQueries) {
+            try {
+              console.log(`\n🔍 Testing: "${query}" in ${library} library`);
+              const result = await search(query, { 
+                maxResults: 20, 
+                libraryId: library,
+                fuzzy: true 
+              });
+              console.log(`📊 ${library}/${query}: ${result.results.length} results (total: ${result.totalCount})`);
+              
+              // Verify all results are from the correct library
+              const misattributed = result.results.filter(icon => !icon.id.startsWith(library + '-'));
+              if (misattributed.length > 0) {
+                console.warn(`⚠️ Misattributed icons in ${library}:`, misattributed.map(i => i.id));
+              }
+            } catch (error) {
+              console.error(`❌ Error testing ${library}/${query}:`, error);
+            }
+          }
+        }
+      }
+    };
+
+    // Only run tests once when ready - force run for debugging
+    if (searchReady && loaded) {
+      // Clear the test flag to force re-run
+      localStorage.removeItem('library-search-tested');
+      if (!localStorage.getItem('library-search-tested')) {
+        testLibrarySearches();
+        localStorage.setItem('library-search-tested', 'true');
+      }
+    }
+  }, [search, searchReady, loaded]);
+
   // Control loading animation visibility - smart loading based on cache
   useEffect(() => {
     if (shouldSkipLoading) {
