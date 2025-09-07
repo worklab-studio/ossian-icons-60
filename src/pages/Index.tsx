@@ -358,22 +358,36 @@ function IconGridPage() {
     if (!searchQuery.trim() || selectedSet !== "all" || searchResults.length === 0) {
       return [];
     }
+    
+    console.log(`🔍 Grouping ${searchResults.length} search results for "all icons" view...`);
 
     // Group icons by library ID
     const iconsByLibrary = new Map<string, IconItem[]>();
     
     searchResults.forEach(icon => {
-      // Extract library ID from icon ID (assumes format like "library-iconname")
-      const libraryId = icon.id.split('-')[0];
+      // Extract library ID from icon ID, handling hyphenated library names
+      let libraryId: string | null = null;
       
-      // Validate that icon belongs to the correct library
-      if (libraryId && icon.id.startsWith(`${libraryId}-`)) {
+      // Check against all registered libraries to find the correct match
+      for (const libraryMeta of iconLibraryManager.libraries) {
+        if (icon.id.startsWith(`${libraryMeta.id}-`)) {
+          libraryId = libraryMeta.id;
+          break;
+        }
+      }
+      
+      // Fallback: if no library matches, extract first part
+      if (!libraryId) {
+        libraryId = icon.id.split('-')[0];
+        console.warn(`⚠️ No matching library found for icon: ${icon.id}, using fallback: ${libraryId}`);
+      }
+      
+      // Add icon to the appropriate library group
+      if (libraryId) {
         if (!iconsByLibrary.has(libraryId)) {
           iconsByLibrary.set(libraryId, []);
         }
         iconsByLibrary.get(libraryId)!.push(icon);
-      } else {
-        console.warn(`Skipping cross-contaminated search result: ${icon.id}`);
       }
     });
 
@@ -402,6 +416,9 @@ function IconGridPage() {
       }
     });
 
+    console.log(`📊 Grouped search results into ${orderedSections.length} library sections:`, 
+      orderedSections.map(s => `${s.libraryName}: ${s.icons.length} icons`));
+    
     return orderedSections;
   }, [searchQuery, selectedSet, searchResults, selectedCategory]);
 
