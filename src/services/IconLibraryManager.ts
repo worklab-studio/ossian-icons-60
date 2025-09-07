@@ -42,7 +42,8 @@ class IconLibraryManager {
       { id: 'material', name: 'Material Design', count: 7447, style: 'outline', description: 'Google\'s comprehensive Material Design icon system' },
       { id: 'fluent-ui', name: 'Fluent UI', count: 4780, style: 'mixed', description: 'Microsoft\'s modern design system icons' },
       { id: 'lucide', name: 'Lucide', count: 1632, style: 'outline', description: 'Simply beautiful open source icons' },
-      { id: 'carbon', name: 'Carbon', count: 2510, style: 'mixed', description: 'IBM\'s comprehensive design system icons' }
+      { id: 'carbon', name: 'Carbon', count: 2510, style: 'mixed', description: 'IBM\'s comprehensive design system icons' },
+      { id: 'iconamoon', name: 'Iconamoon', count: 608, style: 'outline', description: 'Modern outline icons with consistent design language' }
   ];
 
   // Popular libraries to preload for better UX
@@ -153,6 +154,12 @@ class IconLibraryManager {
       const { carbonIcons } = await import('@/data/carbon');
       console.log(`✅ Carbon icons imported: ${carbonIcons.length} icons`);
       return carbonIcons;
+    }
+    
+    if (libraryId === 'iconamoon') {
+      const { iconamoonIcons } = await import('@/data/iconamoon');
+      console.log(`✅ Iconamoon icons imported: ${iconamoonIcons.length} icons`);
+      return iconamoonIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);

@@ -14,6 +14,7 @@ export * from './material';
 export * from './fluent-ui';
 export * from './lucide';
 export * from './carbon';
+export * from './iconamoon';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';
