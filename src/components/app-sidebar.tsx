@@ -25,6 +25,7 @@ const iconMap = {
   iconamoon: MousePointer,
   iconoir: Layers,
   majesticon: Crown,
+  simple: Zap,
 };
 
 interface AppSidebarProps {
