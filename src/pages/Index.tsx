@@ -501,6 +501,7 @@ function IconGridPage() {
                         selectedSet === "phosphor" ? "Phosphor Icons" :
                          selectedSet === "bootstrap" ? "Bootstrap Icons" :
                          selectedSet === "radix" ? "Radix Icons" :
+                         selectedSet === "line" ? "Line Icons" :
                         selectedSet.charAt(0).toUpperCase() + selectedSet.slice(1)}
                   </h2>
                    <p className="text-sm text-muted-foreground">

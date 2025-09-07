@@ -34,7 +34,8 @@ class IconLibraryManager {
     { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' },
     { id: 'phosphor', name: 'Phosphor', count: 9072, style: 'mixed', description: 'A flexible icon family with multiple weights' },
       { id: 'bootstrap', name: 'Bootstrap', count: 2078, style: 'mixed', description: 'Official open source SVG icon library for Bootstrap' },
-      { id: 'radix', name: 'Radix', count: 318, style: 'outline', description: 'A crisp set of 15×15 icons designed by the Workos team' }
+      { id: 'radix', name: 'Radix', count: 318, style: 'outline', description: 'A crisp set of 15×15 icons designed by the Workos team' },
+      { id: 'line', name: 'Line', count: 606, style: 'outline', description: 'Clean and minimal outline icons' }
   ];
 
   // Popular libraries to preload for better UX
@@ -97,6 +98,12 @@ class IconLibraryManager {
       const { radixIcons } = await import('@/data/radix');
       console.log(`✅ Radix icons imported: ${radixIcons.length} icons`);
       return radixIcons;
+    }
+    
+    if (libraryId === 'line') {
+      const { lineIcons } = await import('@/data/line');
+      console.log(`✅ Line icons imported: ${lineIcons.length} icons`);
+      return lineIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
