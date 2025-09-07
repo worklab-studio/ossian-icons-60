@@ -47,7 +47,8 @@ class IconLibraryManager {
       { id: 'iconoir', name: 'Iconoir', count: 1383, style: 'mixed', description: 'Beautiful open source icons with clean design' },
       { id: 'majesticon', name: 'Majesticon', count: 760, style: 'outline', description: 'Professional outline icons with clean, consistent design' },
       { id: 'simple', name: 'Brand', count: 3355, style: 'brand', description: 'Popular brand and company logos as beautiful SVG icons' },
-      { id: 'octicons', name: 'Octicons', count: 661, style: 'outline', description: 'GitHub\'s official icon library with clean, consistent design' }
+      { id: 'octicons', name: 'Octicons', count: 661, style: 'outline', description: 'GitHub\'s official icon library with clean, consistent design' },
+      { id: 'iconsax', name: 'Iconsax', count: 943, style: 'twotone', description: 'Modern twotone icons with distinctive design and depth' }
   ];
 
   // Popular libraries to preload for better UX
@@ -188,6 +189,12 @@ class IconLibraryManager {
       const { octiconsIcons } = await import('@/data/octicons');
       console.log(`✅ Octicons imported: ${octiconsIcons.length} icons`);
       return octiconsIcons;
+    }
+    
+    if (libraryId === 'iconsax') {
+      const { iconsaxIcons } = await import('@/data/iconsax');
+      console.log(`✅ Iconsax imported: ${iconsaxIcons.length} icons`);
+      return iconsaxIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
