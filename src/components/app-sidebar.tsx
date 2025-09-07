@@ -18,6 +18,7 @@ const iconMap = {
   pixelart: Grid,
   hugeicon: Layers,
   mingcute: Sparkles,
+  heroicons: Sparkles,
 };
 
 interface AppSidebarProps {

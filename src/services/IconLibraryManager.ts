@@ -38,7 +38,8 @@ class IconLibraryManager {
       { id: 'line', name: 'Line', count: 606, style: 'outline', description: 'Clean and minimal outline icons' },
       { id: 'pixelart', name: 'Pixel Art', count: 486, style: 'pixel', description: 'Retro pixel art icons with distinctive 8-bit aesthetic' },
       { id: 'hugeicon', name: 'Huge Icons', count: 4497, style: 'outline', description: 'Comprehensive outline icon library with extensive coverage' },
-      { id: 'mingcute', name: 'Mingcute', count: 3102, style: 'mixed', description: 'Carefully crafted icon library with consistent design language' }
+      { id: 'mingcute', name: 'Mingcute', count: 3102, style: 'mixed', description: 'Carefully crafted icon library with consistent design language' },
+      { id: 'heroicons', name: 'Heroicons', count: 648, style: 'mixed', description: 'Beautiful hand-crafted SVG icons by the makers of Tailwind CSS' }
   ];
 
   // Popular libraries to preload for better UX
@@ -125,6 +126,12 @@ class IconLibraryManager {
       const { mingcuteIcons } = await import('@/data/mingcute');
       console.log(`✅ Mingcute icons imported: ${mingcuteIcons.length} icons`);
       return mingcuteIcons;
+    }
+    
+    if (libraryId === 'heroicons') {
+      const { heroiconsIcons } = await import('@/data/heroicons');
+      console.log(`✅ Heroicons imported: ${heroiconsIcons.length} icons`);
+      return heroiconsIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);

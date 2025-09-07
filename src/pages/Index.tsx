@@ -356,7 +356,10 @@ function IconGridPage() {
                  selectedSet === "lucide" ? "Lucide Icons" :
                  selectedSet === "pixelart" ? "Pixel Art Icons" :
                  selectedSet === "hugeicon" ? "Huge Icons" :
-                 selectedSet === "mingcute" ? "Mingcute Icons" :
+                selectedSet === "mingcute" ? "Mingcute Icons" :
+                selectedSet === "heroicons" ? "Heroicons" :
+            selectedSet === "heroicons" ? "Heroicons" :
+                  selectedSet === "heroicons" ? "Heroicons" :
                  "Icons"}
                 {searchQuery && (
                   <span className="ml-2 text-sm text-muted-foreground">

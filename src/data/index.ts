@@ -10,6 +10,7 @@ export * from './line';
 export * from './pixelart';
 export * from './hugeicon';
 export * from './mingcute';
+export * from './heroicons';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';
