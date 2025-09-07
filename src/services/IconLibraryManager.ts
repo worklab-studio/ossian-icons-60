@@ -28,7 +28,6 @@ class IconLibraryManager {
 
   // Library metadata
   public readonly libraries: IconLibraryMetadata[] = [
-    { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
     { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' },
     { id: 'tabler', name: 'Tabler', count: 4964, style: 'outline', description: 'Free SVG icons for web development' },
     { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' },
@@ -45,7 +44,7 @@ class IconLibraryManager {
   ];
 
   // Popular libraries to preload for better UX
-  private readonly popularLibraries: string[] = ['lucide'];
+  private readonly popularLibraries: string[] = [];
 
   constructor() {
     // Clean up old cache entries on startup
@@ -62,12 +61,6 @@ class IconLibraryManager {
   // Dynamic import library
   private async importLibrary(libraryId: string): Promise<IconItem[]> {
     console.log(`🔍 Importing library: ${libraryId}`);
-    
-    if (libraryId === 'lucide') {
-      const { lucideIcons } = await import('@/data/lucide-icons');
-      console.log(`✅ Lucide icons imported: ${lucideIcons.length} icons`);
-      return lucideIcons;
-    }
     
     
     if (libraryId === 'feather') {
