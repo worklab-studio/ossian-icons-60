@@ -1,8 +1,28 @@
 // Simple helper functions to replace complex SVG processing
 import { type IconItem } from "@/types/icon";
 
+export function preprocessCarbonSvg(svgString: string): string {
+  return svgString
+    // Remove transparent background rectangles that cause deformation
+    .replace(/<rect\s+width="32"\s+height="32"\s*\/>/g, '')
+    .replace(/<rect\s+height="32"\s+width="32"\s*\/>/g, '')
+    // Remove transparent rectangle elements with IDs
+    .replace(/<rect\s+id="_Tansparent_Rectangle_"[^>]*\/>/g, '')
+    .replace(/<rect\s+id="_x3C_Tranparent_Rectangle_x3E_"[^>]*\/>/g, '')
+    // Clean up any remaining transparent rectangles
+    .replace(/<rect\s+[^>]*fill="none"[^>]*width="32"[^>]*height="32"[^>]*\/>/g, '')
+    .replace(/<rect\s+[^>]*width="32"[^>]*height="32"[^>]*fill="none"[^>]*\/>/g, '');
+}
+
 export function getSimpleSvg(icon: IconItem): string {
-  return typeof icon.svg === 'string' ? icon.svg : '<svg><!-- No SVG data --></svg>';
+  if (typeof icon.svg === 'string') {
+    // Apply Carbon-specific preprocessing to fix deformed icons
+    if (icon.id.startsWith('carbon-')) {
+      return preprocessCarbonSvg(icon.svg);
+    }
+    return icon.svg;
+  }
+  return '<svg><!-- No SVG data --></svg>';
 }
 
 export function downloadFile(blob: Blob, filename: string): void {
