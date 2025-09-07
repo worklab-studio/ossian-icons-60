@@ -1,4 +1,4 @@
-import { Home, Zap, Feather, Table, Sun, Globe } from "lucide-react";
+import { Home, Zap, Feather, Table, Sun, Globe, Atom } from "lucide-react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarSeparator } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
 import { AnimatedPlayIcon } from "@/components/animated-play-icon";
@@ -11,6 +11,7 @@ const iconMap = {
   feather: Feather,
   tabler: Table,
   solar: Sun,
+  phosphor: Atom,
 };
 
 interface AppSidebarProps {

@@ -31,7 +31,8 @@ class IconLibraryManager {
     { id: 'lucide', name: 'Lucide', count: 1500, style: 'outline', description: 'Beautiful & consistent icons' },
     { id: 'feather', name: 'Feather', count: 287, style: 'outline', description: 'Simply beautiful open source icons' },
     { id: 'tabler', name: 'Tabler', count: 4964, style: 'outline', description: 'Free SVG icons for web development' },
-    { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' }
+    { id: 'solar', name: 'Solar', count: 1241, style: 'outline', description: 'Beautiful outline icons with consistent style' },
+    { id: 'phosphor', name: 'Phosphor', count: 9072, style: 'mixed', description: 'A flexible icon family with multiple weights' }
   ];
 
   // Popular libraries to preload for better UX
@@ -76,6 +77,12 @@ class IconLibraryManager {
       const { solarIcons } = await import('@/data/solar');
       console.log(`✅ Solar icons imported: ${solarIcons.length} icons`);
       return solarIcons;
+    }
+    
+    if (libraryId === 'phosphor') {
+      const { phosphorIcons } = await import('@/data/phosphor');
+      console.log(`✅ Phosphor icons imported: ${phosphorIcons.length} icons`);
+      return phosphorIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
