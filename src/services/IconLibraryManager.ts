@@ -45,7 +45,8 @@ class IconLibraryManager {
       { id: 'carbon', name: 'Carbon', count: 2510, style: 'mixed', description: 'IBM\'s comprehensive design system icons' },
       { id: 'iconamoon', name: 'Iconamoon', count: 608, style: 'outline', description: 'Modern outline icons with consistent design language' },
       { id: 'iconoir', name: 'Iconoir', count: 1383, style: 'mixed', description: 'Beautiful open source icons with clean design' },
-      { id: 'majesticon', name: 'Majesticon', count: 760, style: 'outline', description: 'Professional outline icons with clean, consistent design' }
+      { id: 'majesticon', name: 'Majesticon', count: 760, style: 'outline', description: 'Professional outline icons with clean, consistent design' },
+      { id: 'simple', name: 'Simple Icons', count: 3355, style: 'brand', description: 'Popular brand and company logos as beautiful SVG icons' }
   ];
 
   // Popular libraries to preload for better UX
@@ -174,6 +175,12 @@ class IconLibraryManager {
       const { majesticonIcons } = await import('@/data/majesticon');
       console.log(`✅ Majesticon icons imported: ${majesticonIcons.length} icons`);
       return majesticonIcons;
+    }
+    
+    if (libraryId === 'simple') {
+      const { simpleIcons } = await import('@/data/simple');
+      console.log(`✅ Simple Icons imported: ${simpleIcons.length} icons`);
+      return simpleIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
