@@ -1,4 +1,4 @@
-import { Home, Zap, Feather, Table, Sun, Globe, Atom, Grid3X3, Minus, Grid, Layers, Sparkles, Building, MousePointer, Crown } from "lucide-react";
+import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag } from "lucide-react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarSeparator } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
 import { AnimatedPlayIcon } from "@/components/animated-play-icon";
@@ -10,22 +10,22 @@ const iconMap = {
   feather: Feather,
   tabler: Table,
   solar: Sun,
-  phosphor: Atom,
-  bootstrap: Grid3X3,
-  radix: Globe,
+  phosphor: Lightbulb,
+  bootstrap: Cpu,
+  radix: Component,
   line: Minus,
-  pixelart: Grid,
-  hugeicon: Layers,
-  mingcute: Sparkles,
-  heroicons: Sparkles,
-  material: Atom,
-  'fluent-ui': Layers,
-  lucide: Zap,
-  carbon: Building,
-  iconamoon: MousePointer,
-  iconoir: Layers,
+  pixelart: Grid3X3,
+  hugeicon: Maximize2,
+  mingcute: Smile,
+  heroicons: Shield,
+  material: Palette,
+  'fluent-ui': Workflow,
+  lucide: Lightbulb,
+  carbon: Atom,
+  iconamoon: Moon,
+  iconoir: Paintbrush,
   majesticon: Crown,
-  simple: Zap,
+  simple: Tag,
 };
 
 interface AppSidebarProps {
@@ -108,7 +108,7 @@ export function AppSidebar({ selectedSet, onSetChange }: AppSidebarProps) {
           <SidebarGroupContent>
             <SidebarMenu>
               {libraries.map((library) => {
-                const IconComponent = iconMap[library.id as keyof typeof iconMap] || Zap;
+                const IconComponent = iconMap[library.id as keyof typeof iconMap] || Home;
                 return (
                   <SidebarMenuItem key={library.id}>
                     <SidebarMenuButton 
