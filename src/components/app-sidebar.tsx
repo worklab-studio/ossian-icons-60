@@ -23,7 +23,6 @@ const iconMap = {
   lucide: Zap,
   carbon: Building,
   iconamoon: MousePointer,
-  iconoir: Layers,
 };
 
 interface AppSidebarProps {
