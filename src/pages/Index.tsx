@@ -73,7 +73,7 @@ function IconGridPage() {
   // Library metadata for total counts
   const { libraries, totalCount } = useIconLibraryMetadata();
 
-  // Schema.org markup for SEO
+  // Schema.org markup for SEO - defined after totalCount is available
   const { schemaMarkup } = useSchemaMarkup({
     totalIcons: totalCount,
     includeFAQ: true
