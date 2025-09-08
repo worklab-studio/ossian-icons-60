@@ -1,6 +1,6 @@
 import React, { useRef, useMemo } from "react";
 import { type IconGridProps } from "@/types/icon";
-import { IconCell } from "./IconCell";
+import { IconCellSimple as IconCell } from "./IconCell.simple";
 import { useVirtualGrid } from "./useVirtualGrid";
 import { getGridAriaLabel } from "@/lib/a11y";
 import { cn } from "@/lib/utils";
@@ -28,12 +28,13 @@ export function IconGrid({
 
   // Enhanced smooth scrolling container with consistent styling
   return (
-    <div className="relative h-full">
+    <div className="relative w-full min-h-[400px]" style={{ backgroundColor: 'rgba(255, 0, 0, 0.1)' }}>
       <div 
         ref={containerRef}
-        className="h-full overflow-y-auto overflow-x-hidden"
+        className="w-full min-h-[400px] overflow-y-auto overflow-x-hidden bg-background"
         role="grid"
         aria-label={computedAriaLabel}
+        style={{ border: '2px solid blue' }}
       >
         {items.length > 100 ? (
           // Virtualized rendering for large lists
@@ -83,22 +84,27 @@ export function IconGrid({
           </div>
         ) : (
           // Simple grid for smaller lists with fixed 80px height
-          <div className="grid min-w-0 gap-0" 
+          <div className="grid min-w-0 gap-1 p-4" 
                style={{ 
                  gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`,
-                 gridAutoRows: '80px'
+                 gridAutoRows: '80px',
+                 backgroundColor: 'rgba(0, 255, 0, 0.1)',
+                 border: '2px solid green'
                }}>
-            {items.map((icon) => (
-              <IconCell
-                key={icon.id}
-                icon={icon}
-                isSelected={selectedId === icon.id}
-                color={color}
-                strokeWidth={strokeWidth}
-                onCopy={onCopy}
-                onIconClick={onIconClick}
-              />
-            ))}
+            {items.map((icon, index) => {
+              console.log(`Rendering IconCell ${index}:`, icon.name);
+              return (
+                <IconCell
+                  key={icon.id}
+                  icon={icon}
+                  isSelected={selectedId === icon.id}
+                  color={color}
+                  strokeWidth={strokeWidth}
+                  onCopy={onCopy}
+                  onIconClick={onIconClick}
+                />
+              );
+            })}
           </div>
         )}
       </div>
