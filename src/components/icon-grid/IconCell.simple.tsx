@@ -70,14 +70,6 @@ export function IconCellSimple({
       )}
       data-selected-state={isSelected}
       aria-label={`Select ${icon.name} icon`}
-      style={{ 
-        backgroundColor: 'rgba(255, 255, 0, 0.2)',
-        border: '1px solid orange',
-        minHeight: '80px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}
     >
       {renderIcon()}
     </button>
