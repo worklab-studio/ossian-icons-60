@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Header } from "@/components/header";
 import { AppSidebar } from "@/components/app-sidebar";
@@ -27,6 +28,8 @@ import { MobileLibraryDrawer } from "@/components/mobile/MobileLibraryDrawer";
 import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { MobileIconActions } from "@/components/mobile/MobileIconActions";
 import { HapticsManager } from "@/lib/haptics";
+import { SchemaMarkup } from "@/components/SchemaMarkup";
+import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
 
 function IconGridPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -69,6 +72,12 @@ function IconGridPage() {
   
   // Library metadata for total counts
   const { libraries, totalCount } = useIconLibraryMetadata();
+
+  // Schema.org markup for SEO
+  const { schemaMarkup } = useSchemaMarkup({
+    totalIcons: totalCount,
+    includeFAQ: true
+  });
   
   // Search worker
   const { 
@@ -619,7 +628,20 @@ function IconGridPage() {
   
   // Desktop layout
   return (
-    <SidebarProvider>
+    <>
+      <Helmet>
+        <title>Iconstack – 50,000+ Free SVG Icons</title>
+        <meta 
+          name="description" 
+          content="Stop hunting icons. Start shipping designs. Iconstack brings you 50,000+ free SVG icons – download, copy, and use instantly. MIT licensed." 
+        />
+        <meta name="keywords" content="icons, svg, free icons, web development, ui design, icon library, open source, mit license" />
+        <link rel="canonical" href="https://iconstack.io" />
+      </Helmet>
+      
+      <SchemaMarkup schema={schemaMarkup} />
+      
+      <SidebarProvider>
       <div className="flex h-screen w-full overflow-hidden">{/* Fixed viewport height */}
         <AppSidebar 
           selectedSet={selectedSet}
@@ -805,6 +827,7 @@ function IconGridPage() {
         <ControlPanel selectedIcon={selectedIcon} selectedSet={selectedSet} />
       </div>
     </SidebarProvider>
+    </>
   );
 }
 

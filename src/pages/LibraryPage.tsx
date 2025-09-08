@@ -9,6 +9,8 @@ import LoadingSpinner from '@/components/LoadingSpinner';
 import { type IconItem } from '@/types/icon';
 import { copyIcon } from '@/lib/copy';
 import { toast } from 'sonner';
+import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { useSchemaMarkup } from '@/hooks/useSchemaMarkup';
 
 const LibraryPageContent = () => {
   const { libraryId } = useParams<{ libraryId: string }>();
@@ -19,6 +21,13 @@ const LibraryPageContent = () => {
 
   // Get library metadata
   const libraryMetadata = iconLibraryManager.libraries.find(lib => lib.id === libraryId);
+
+  // Schema.org markup for SEO
+  const { schemaMarkup } = useSchemaMarkup({
+    icons,
+    libraryId: libraryId || '',
+    includeFAQ: false
+  });
 
   useEffect(() => {
     if (!libraryId || !libraryMetadata) {
@@ -98,6 +107,8 @@ const LibraryPageContent = () => {
 
   return (
     <>
+      <SchemaMarkup schema={schemaMarkup} />
+      
       <Helmet>
         <title>{libraryMetadata.name} Icons - {libraryMetadata.count} {libraryMetadata.style} icons | Iconstack</title>
         <meta 
