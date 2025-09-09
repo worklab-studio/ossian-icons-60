@@ -83,6 +83,7 @@ function IconGridPage() {
   const { 
     search, 
     indexLibrary, 
+    clearIndex,
     isReady: searchReady, 
     isSearching 
   } = useSearchWorker();
@@ -178,6 +179,26 @@ function IconGridPage() {
   }, [loaded, minDurationComplete, showLoadingAnimation, markLoadingSeen]);
 
   // Fallback timeout removed - just keep loading until ready
+
+  // Reset search index when switching library tabs
+  useEffect(() => {
+    const resetSearchOnLibraryChange = async () => {
+      if (clearIndex && searchReady) {
+        console.log(`🔄 Clearing search index for library change to: ${selectedSet}`);
+        
+        // Clear the search index
+        await clearIndex();
+        
+        // Reset search results and counts
+        setSearchResults([]);
+        setSearchTotalCount(0);
+        
+        console.log(`✅ Search index cleared for: ${selectedSet}`);
+      }
+    };
+    
+    resetSearchOnLibraryChange();
+  }, [selectedSet, clearIndex, searchReady]);
 
   // Load icons based on selected set - consolidated loading logic
   useEffect(() => {
@@ -328,7 +349,7 @@ function IconGridPage() {
     };
 
     performSearch();
-  }, [searchQuery, search, searchReady, loaded, icons, selectedSet]);
+  }, [searchQuery, search, searchReady, loaded, icons, selectedSet, sections]);
 
   // Get current icon set to display
   const currentIcons = useMemo(() => {
