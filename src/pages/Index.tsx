@@ -83,6 +83,7 @@ function IconGridPage() {
   const { 
     search, 
     indexLibrary, 
+    clearIndex,
     isReady: searchReady, 
     isSearching 
   } = useSearchWorker();
@@ -185,6 +186,12 @@ function IconGridPage() {
       try {
         console.log(`Loading icons for: ${selectedSet}`);
         
+        // Clear search index and reset search state when library changes
+        console.log('Clearing search index for library change...');
+        await clearIndex();
+        setSearchResults([]);
+        setSearchTotalCount(0);
+        
         if (selectedSet === "all") {
           console.log('Loading all libraries sectioned...');
           await loadAllLibrariesSectioned();
@@ -206,7 +213,7 @@ function IconGridPage() {
     };
     
     loadIcons();
-  }, [loadLibrary, loadAllLibrariesSectioned, selectedSet]);
+  }, [loadLibrary, loadAllLibrariesSectioned, selectedSet, clearIndex]);
 
   // Index loaded icons for search - with proper library separation for "all"
   useEffect(() => {
