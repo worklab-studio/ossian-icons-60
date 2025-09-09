@@ -188,7 +188,9 @@ function IconGridPage() {
         
         // Clear search index and reset search state when library changes
         console.log('Clearing search index for library change...');
-        await clearIndex();
+        if (clearIndex) {
+          await clearIndex();
+        }
         setSearchResults([]);
         setSearchTotalCount(0);
         
