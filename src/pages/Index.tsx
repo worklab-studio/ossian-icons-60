@@ -820,7 +820,7 @@ function IconGridPage() {
           </main>
           
           <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
-            <p>Built by Ossian Design Lab • <a href="mailto:support@iconstack.io" className="hover:text-primary">Support</a> • <a href="https://buymeacoffee.com/thedeepflux" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Buy me a coffee</a></p>
+            <p>Built by Ossian Design Lab • <a href="https://buymeacoffee.com/thedeepflux" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Buy me a coffee</a></p>
           </footer>
         </div>
         
