@@ -338,20 +338,6 @@ function cleanCache() {
   }
 }
 
-// Clear cache entries related to a specific library
-function clearLibraryCache(libraryId?: string) {
-  if (!libraryId) {
-    searchCache.clear();
-    return;
-  }
-  
-  for (const [key] of searchCache.entries()) {
-    if (key.includes(`library:${libraryId}`) || key.includes('library:all')) {
-      searchCache.delete(key);
-    }
-  }
-}
-
 // Enhanced search function with comprehensive scoring
 function searchIcons(
   query: string, 
@@ -377,8 +363,8 @@ function searchIcons(
   
   const normalizedQuery = query.toLowerCase().trim();
   
-  // Check cache first - include library context in cache key
-  const cacheKey = `${normalizedQuery}-library:${libraryId || 'all'}-${JSON.stringify(options)}`;
+  // Check cache first
+  const cacheKey = `${normalizedQuery}-${JSON.stringify(options)}`;
   const cached = searchCache.get(cacheKey);
   if (cached && (Date.now() - cached.timestamp) < CACHE_TTL) {
     return cached.results.slice(0, maxResults);
@@ -553,10 +539,8 @@ self.onmessage = function(event: MessageEvent<SearchMessage>) {
       case 'clear':
         if (libraryId) {
           searchIndex.delete(libraryId);
-          clearLibraryCache(libraryId);
         } else {
           searchIndex.clear();
-          clearLibraryCache();
         }
         self.postMessage({ 
           type: 'clearComplete',
