@@ -83,7 +83,6 @@ function IconGridPage() {
   const { 
     search, 
     indexLibrary, 
-    clearIndex,
     isReady: searchReady, 
     isSearching 
   } = useSearchWorker();
@@ -179,28 +178,6 @@ function IconGridPage() {
   }, [loaded, minDurationComplete, showLoadingAnimation, markLoadingSeen]);
 
   // Fallback timeout removed - just keep loading until ready
-
-  // Clear search index and re-search when selectedSet changes
-  useEffect(() => {
-    const handleLibraryChange = async () => {
-      if (clearIndex) {
-        try {
-          console.log(`🧹 Clearing search index for library change to: ${selectedSet}`);
-          await clearIndex();
-          
-          // Clear current search results
-          setSearchResults([]);
-          setSearchTotalCount(0);
-          
-          console.log(`✅ Search index cleared for: ${selectedSet}`);
-        } catch (error) {
-          console.error(`❌ Failed to clear search index:`, error);
-        }
-      }
-    };
-    
-    handleLibraryChange();
-  }, [selectedSet, clearIndex]);
 
   // Load icons based on selected set - consolidated loading logic
   useEffect(() => {
