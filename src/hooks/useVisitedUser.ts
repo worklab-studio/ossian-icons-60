@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
-import { iconLibraryManager } from '@/services/IconLibraryManager';
 
 const STORAGE_KEY = 'iconstack_user_visits';
-const CACHE_CHECK_KEY = 'iconstack_cache_status';
 
 interface UserVisitData {
   visitCount: number;
@@ -13,7 +11,6 @@ interface UserVisitData {
 
 export function useVisitedUser() {
   const [isReturningUser, setIsReturningUser] = useState<boolean | null>(null);
-  const [hasCachedData, setHasCachedData] = useState<boolean>(false);
   const [shouldSkipLoading, setShouldSkipLoading] = useState<boolean>(false);
   
   useEffect(() => {
@@ -33,18 +30,13 @@ export function useVisitedUser() {
         const isReturning = visitData.visitCount > 0;
         setIsReturningUser(isReturning);
 
-        // Check if we have cached icon data using IconLibraryManager
-        const hasCacheData = iconLibraryManager.hasPriorityLibraryCache();
-        setHasCachedData(hasCacheData);
-
-        // Determine if we should skip loading animation
-        const shouldSkip = isReturning && hasCacheData && visitData.hasSeenLoading;
+        // No cache check - always show loading for first-time users
+        const shouldSkip = isReturning && visitData.hasSeenLoading;
         setShouldSkipLoading(shouldSkip);
 
         // Debug logging to understand what's happening
         console.log('Loading Decision:', {
           isReturning,
-          hasCacheData,
           hasSeenLoading: visitData.hasSeenLoading,
           shouldSkip,
           visitCount: visitData.visitCount
@@ -61,7 +53,6 @@ export function useVisitedUser() {
       } catch (error) {
         console.warn('Failed to check user visit status:', error);
         setIsReturningUser(false);
-        setHasCachedData(false);
         setShouldSkipLoading(false);
       }
     };
@@ -96,7 +87,7 @@ export function useVisitedUser() {
 
   return {
     isReturningUser,
-    hasCachedData,
+    hasCachedData: false, // No cache system
     shouldSkipLoading,
     markLoadingSeen,
     clearVisitData

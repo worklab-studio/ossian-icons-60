@@ -9,22 +9,7 @@ export interface IconLibraryMetadata {
   description?: string;
 }
 
-// Cache configuration
-const CACHE_KEY_PREFIX = 'icon-library-';
-const CACHE_EXPIRY_MS = 24 * 60 * 60 * 1000; // 24 hours
-const MAX_CACHE_SIZE = 10; // Maximum number of libraries to keep in memory
-
-interface CachedLibrary {
-  icons: IconItem[];
-  timestamp: number;
-  accessCount: number;
-  lastAccessed: number;
-}
-
 class IconLibraryManager {
-  private cache = new Map<string, CachedLibrary>();
-  private loadingPromises = new Map<string, Promise<IconItem[]>>();
-  private searchIndex = new Map<string, Set<string>>();
 
   // Library metadata
   public readonly libraries: IconLibraryMetadata[] = [
@@ -51,19 +36,8 @@ class IconLibraryManager {
       { id: 'octicons', name: 'Octicons', count: 661, style: 'outline', description: 'GitHub\'s official icon library with clean, consistent design' }
   ];
 
-  // Popular libraries to preload for better UX
-  private readonly popularLibraries: string[] = [];
-
   constructor() {
-    // Clean up old cache entries on startup
-    this.clearOldCacheEntries();
-    this.cleanupExpiredCache();
-    
-    // Set up periodic cache cleanup
-    setInterval(() => {
-      this.clearOldCacheEntries();
-      this.cleanupExpiredCache();
-    }, 5 * 60 * 1000); // Every 5 minutes
+    // No cache setup needed
   }
 
   // Dynamic import library
@@ -201,36 +175,17 @@ class IconLibraryManager {
     return [];
   }
 
-  // Load library with caching and deduplication
+  // Load library - always fresh, no caching
   async loadLibrary(libraryId: string): Promise<IconItem[]> {
-    // Check memory cache first
-    const cached = this.cache.get(libraryId);
-    if (cached && !this.isCacheExpired(cached)) {
-      // Update access stats
-      cached.accessCount++;
-      cached.lastAccessed = Date.now();
-      // Ensure strict library filtering
-      return this.filterIconsByLibraryId(cached.icons, libraryId);
-    }
-
-    // Check if already loading
-    if (this.loadingPromises.has(libraryId)) {
-      return this.loadingPromises.get(libraryId)!;
-    }
-
-    // Start loading
-    const loadPromise = this.loadLibraryInternal(libraryId);
-    this.loadingPromises.set(libraryId, loadPromise);
-
-    try {
-      const icons = await loadPromise;
-      this.loadingPromises.delete(libraryId);
-      // Ensure strict library filtering
-      return this.filterIconsByLibraryId(icons, libraryId);
-    } catch (error) {
-      this.loadingPromises.delete(libraryId);
-      throw error;
-    }
+    console.log(`🔍 Loading library: ${libraryId}`);
+    
+    // Import the raw library
+    const rawIcons = await this.importLibrary(libraryId);
+    
+    console.log(`📊 Import result for ${libraryId}:`, rawIcons?.length || 0, 'icons');
+    
+    // Ensure strict library filtering
+    return this.filterIconsByLibraryId(rawIcons, libraryId);
   }
 
   // Load library in batches - returns initial batch immediately
@@ -238,18 +193,6 @@ class IconLibraryManager {
     initialBatch: IconItem[];
     loadRemaining: () => Promise<IconItem[]>;
   }> {
-    // Check cache first
-    const cached = this.cache.get(libraryId);
-    if (cached && !this.isCacheExpired(cached)) {
-      cached.accessCount++;
-      cached.lastAccessed = Date.now();
-      const icons = cached.icons;
-      return {
-        initialBatch: icons.slice(0, initialBatchSize),
-        loadRemaining: async () => icons
-      };
-    }
-
     // Load full library and return batched
     const allIcons = await this.loadLibrary(libraryId);
     return {
@@ -327,43 +270,6 @@ class IconLibraryManager {
     };
   }
 
-  private async loadLibraryInternal(libraryId: string): Promise<IconItem[]> {
-    console.log(`🔍 Loading library internal: ${libraryId}`);
-    
-    // Try localStorage cache first
-    const localCache = this.getFromLocalStorage(libraryId);
-    if (localCache && !this.isCacheExpired(localCache)) {
-      console.log(`🎯 LocalStorage cache hit for ${libraryId}:`, localCache.icons.length, 'icons');
-      this.updateMemoryCache(libraryId, localCache.icons);
-      return localCache.icons;
-    }
-
-    console.log(`📦 No cache found for ${libraryId}, importing from source...`);
-    
-    // Import the raw library
-    const rawIcons = await this.importLibrary(libraryId);
-    
-    console.log(`📊 Raw import result for ${libraryId}:`, rawIcons?.length || 0, 'icons');
-    
-    // For Fluent UI, log first few icon IDs to debug
-    if (libraryId === 'fluent-ui' && rawIcons && rawIcons.length > 0) {
-      console.log(`🔍 First 5 Fluent UI icon IDs:`, rawIcons.slice(0, 5).map(icon => icon.id));
-    }
-    
-    // No SVG processing needed - clean icons
-    const icons = rawIcons;
-    
-    // Cache the result
-    this.updateMemoryCache(libraryId, icons);
-    this.saveToLocalStorage(libraryId, icons);
-    
-    // Update search index
-    this.updateSearchIndex(libraryId, icons);
-    
-    console.log(`✅ Successfully loaded ${libraryId}:`, icons.length, 'icons');
-    
-    return icons;
-  }
 
   // Get multiple libraries
   async loadLibraries(libraryIds: string[]): Promise<Map<string, IconItem[]>> {
@@ -487,266 +393,6 @@ class IconLibraryManager {
     return filtered;
   }
 
-  // Search across loaded libraries
-  searchIcons(query: string, libraryIds?: string[]): IconItem[] {
-    if (!query.trim()) return [];
-    
-    const searchQuery = query.toLowerCase();
-    const results: IconItem[] = [];
-    
-    for (const [libraryId, cached] of this.cache) {
-      if (libraryIds && !libraryIds.includes(libraryId)) continue;
-      
-      // Apply strict library filtering to cached icons
-      const libraryIcons = this.filterIconsByLibraryId(cached.icons, libraryId);
-      
-      for (const icon of libraryIcons) {
-        if (
-          icon.name.toLowerCase().includes(searchQuery) ||
-          icon.tags?.some(tag => tag.toLowerCase().includes(searchQuery)) ||
-          icon.category?.toLowerCase().includes(searchQuery)
-        ) {
-          results.push(icon);
-        }
-      }
-    }
-    
-    return results;
-  }
-
-  // Preload popular libraries
-  private async preloadPopularLibraries() {
-    try {
-      await Promise.allSettled(
-        this.popularLibraries.map(id => this.loadLibrary(id))
-      );
-    } catch (error) {
-      console.warn('Failed to preload popular libraries:', error);
-    }
-  }
-
-  // Cache management
-  private updateMemoryCache(libraryId: string, icons: IconItem[]) {
-    // Implement LRU eviction if cache is full
-    if (this.cache.size >= MAX_CACHE_SIZE && !this.cache.has(libraryId)) {
-      this.evictLeastRecentlyUsed();
-    }
-
-    this.cache.set(libraryId, {
-      icons,
-      timestamp: Date.now(),
-      accessCount: 1,
-      lastAccessed: Date.now()
-    });
-  }
-
-  private evictLeastRecentlyUsed() {
-    let oldestAccess = Date.now();
-    let oldestKey = '';
-
-    for (const [key, cached] of this.cache) {
-      if (cached.lastAccessed < oldestAccess) {
-        oldestAccess = cached.lastAccessed;
-        oldestKey = key;
-      }
-    }
-
-    if (oldestKey) {
-      this.cache.delete(oldestKey);
-      localStorage.removeItem(CACHE_KEY_PREFIX + oldestKey);
-    }
-  }
-
-  private isCacheExpired(cached: CachedLibrary): boolean {
-    return Date.now() - cached.timestamp > CACHE_EXPIRY_MS;
-  }
-
-  // LocalStorage cache with size management
-  private saveToLocalStorage(libraryId: string, icons: IconItem[]) {
-    try {
-      // Don't cache large icon libraries with React components - only cache metadata
-      if (icons.length > 100) {
-        console.log(`Skipping localStorage cache for large library: ${libraryId} (${icons.length} icons)`);
-        return;
-      }
-      
-      // Create lightweight version without React components
-      const lightweightIcons = icons.map(icon => ({
-        id: icon.id,
-        name: icon.name,
-        tags: icon.tags,
-        category: icon.category,
-        style: icon.style,
-        // Only store string SVGs, not React components
-        svg: typeof icon.svg === 'string' ? icon.svg : null
-      }));
-      
-      const data = {
-        icons: lightweightIcons,
-        timestamp: Date.now(),
-        accessCount: 1,
-        lastAccessed: Date.now()
-      };
-      
-      const serialized = JSON.stringify(data);
-      if (serialized.length < 2 * 1024 * 1024) { // 2MB limit
-        localStorage.setItem(CACHE_KEY_PREFIX + libraryId, serialized);
-      } else {
-        console.warn(`Data too large to cache: ${libraryId} (${(serialized.length / 1024 / 1024).toFixed(2)}MB)`);
-      }
-    } catch (error) {
-      console.warn('Failed to save to localStorage:', error);
-      // Try to clear some space by removing old cache entries
-      this.clearOldCacheEntries();
-    }
-  }
-
-  private clearOldCacheEntries() {
-    try {
-      // Remove expired entries first
-      for (let i = localStorage.length - 1; i >= 0; i--) {
-        const key = localStorage.key(i);
-        if (key?.startsWith(CACHE_KEY_PREFIX)) {
-          try {
-            const data = JSON.parse(localStorage.getItem(key) || '');
-            if (Date.now() - data.timestamp > CACHE_EXPIRY_MS) {
-              localStorage.removeItem(key);
-            }
-          } catch {
-            localStorage.removeItem(key);
-          }
-        }
-      }
-    } catch (error) {
-      console.warn('Failed to clear old cache entries:', error);
-    }
-  }
-
-  private cleanupExpiredCache() {
-    try {
-      for (const [key, cached] of this.cache) {
-        if (this.isCacheExpired(cached)) {
-          this.cache.delete(key);
-          localStorage.removeItem(CACHE_KEY_PREFIX + key);
-        }
-      }
-    } catch (error) {
-      console.warn('Failed to cleanup expired cache:', error);
-    }
-  }
-
-  private getFromLocalStorage(libraryId: string): CachedLibrary | null {
-    try {
-      const data = localStorage.getItem(CACHE_KEY_PREFIX + libraryId);
-      if (!data) return null;
-      
-      const parsed = JSON.parse(data);
-      // Filter out any invalid icons
-      const validIcons = parsed.icons.filter((icon: any) => icon && icon.id && icon.name);
-      
-      return {
-        icons: validIcons,
-        timestamp: parsed.timestamp,
-        accessCount: parsed.accessCount || 1,
-        lastAccessed: parsed.lastAccessed || Date.now()
-      };
-    } catch (error) {
-      console.warn(`Failed to load from localStorage: ${libraryId}`, error);
-      // Remove corrupted cache entry
-      localStorage.removeItem(CACHE_KEY_PREFIX + libraryId);
-      return null;
-    }
-  }
-
-  private updateSearchIndex(libraryId: string, icons: IconItem[]) {
-    const searchTerms = new Set<string>();
-    
-    icons.forEach(icon => {
-      // Add icon name terms
-      searchTerms.add(icon.name.toLowerCase());
-      
-      // Add tag terms
-      icon.tags?.forEach(tag => {
-        searchTerms.add(tag.toLowerCase());
-      });
-      
-      // Add category term
-      if (icon.category) {
-        searchTerms.add(icon.category.toLowerCase());
-      }
-    });
-    
-    this.searchIndex.set(libraryId, searchTerms);
-  }
-
-  // Get search suggestions based on indexed terms
-  getSearchSuggestions(query: string, maxSuggestions: number = 10): string[] {
-    const queryLower = query.toLowerCase();
-    const suggestions = new Set<string>();
-    
-    for (const [, terms] of this.searchIndex) {
-      for (const term of terms) {
-        if (term.includes(queryLower) && suggestions.size < maxSuggestions) {
-          suggestions.add(term);
-        }
-      }
-    }
-    
-    return Array.from(suggestions).slice(0, maxSuggestions);
-  }
-
-  // Clear all caches
-  clearAllCaches() {
-    this.cache.clear();
-    this.searchIndex.clear();
-    
-    // Clear localStorage caches
-    try {
-      for (let i = localStorage.length - 1; i >= 0; i--) {
-        const key = localStorage.key(i);
-        if (key?.startsWith(CACHE_KEY_PREFIX)) {
-          localStorage.removeItem(key);
-        }
-      }
-    } catch (error) {
-      console.warn('Failed to clear localStorage caches:', error);
-    }
-  }
-
-  // Check if we have cached data for priority libraries
-  hasPriorityLibraryCache(): boolean {
-    const priorityLibraries = ['lucide', 'feather', 'tabler'];
-    return priorityLibraries.some(libId => this.cache.has(libId));
-  }
-
-  // Get cache statistics
-  getCacheStats() {
-    const stats = {
-      memoryCacheSize: this.cache.size,
-      searchIndexSize: this.searchIndex.size,
-      totalCachedIcons: 0,
-      localStorageKeys: 0
-    };
-
-    // Count total cached icons
-    for (const [, cached] of this.cache) {
-      stats.totalCachedIcons += cached.icons.length;
-    }
-
-    // Count localStorage keys
-    try {
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key?.startsWith(CACHE_KEY_PREFIX)) {
-          stats.localStorageKeys++;
-        }
-      }
-    } catch (error) {
-      console.warn('Failed to count localStorage keys:', error);
-    }
-
-    return stats;
-  }
 }
 
 // Singleton instance

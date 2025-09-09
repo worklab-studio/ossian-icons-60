@@ -17,7 +17,6 @@ interface UseAsyncIconLibraryReturn extends UseAsyncIconLibraryState {
   loadAllLibraries: () => Promise<void>;
   loadAllLibrariesSectioned: () => Promise<void>;
   loadAllLibrariesSectionedProgressive: () => Promise<void>;
-  searchIcons: (query: string, libraryIds?: string[]) => IconItem[];
   clearError: () => void;
 }
 
@@ -183,10 +182,7 @@ export function useAsyncIconLibrary(): UseAsyncIconLibraryReturn {
     }
   }, []);
 
-  // Search icons (only in loaded libraries)
-  const searchIcons = useCallback((query: string, libraryIds?: string[]): IconItem[] => {
-    return iconLibraryManager.searchIcons(query, libraryIds);
-  }, []);
+  // Search functionality removed - use search worker instead
 
   // Clear error
   const clearError = useCallback(() => {
@@ -200,7 +196,6 @@ export function useAsyncIconLibrary(): UseAsyncIconLibraryReturn {
     loadAllLibraries,
     loadAllLibrariesSectioned,
     loadAllLibrariesSectionedProgressive,
-    searchIcons,
     clearError
   };
 }

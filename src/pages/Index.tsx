@@ -51,8 +51,8 @@ function IconGridPage() {
   // Default to loading all libraries
   const primaryLibrary = 'lucide';
 
-  // Visited user state for smart loading
-  const { shouldSkipLoading, markLoadingSeen, hasCachedData } = useVisitedUser();
+  // Visited user state for simple loading
+  const { shouldSkipLoading, markLoadingSeen } = useVisitedUser();
   
   // Async icon loading
   const { 

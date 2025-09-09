@@ -56,10 +56,7 @@ const searchIndex = new Map<string, {
   popularityIndex: Map<string, number>;
 }>();
 
-// Search result cache with LRU eviction
-const searchCache = new Map<string, { results: SearchResult[]; timestamp: number }>();
-const MAX_CACHE_SIZE = 200;
-const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+// No search result caching - always execute fresh searches
 
 // Tiered scoring system for precise search results  
 const FIELD_WEIGHTS = {
@@ -317,26 +314,7 @@ function buildIndex(libraryId: string, icons: SearchableIcon[]) {
   });
 }
 
-// Clear expired cache entries
-function cleanCache() {
-  const now = Date.now();
-  for (const [key, entry] of searchCache.entries()) {
-    if (now - entry.timestamp > CACHE_TTL) {
-      searchCache.delete(key);
-    }
-  }
-  
-  // Enforce cache size limit
-  if (searchCache.size > MAX_CACHE_SIZE) {
-    const entries = Array.from(searchCache.entries())
-      .sort((a, b) => a[1].timestamp - b[1].timestamp);
-    
-    const toDelete = entries.slice(0, entries.length - MAX_CACHE_SIZE);
-    for (const [key] of toDelete) {
-      searchCache.delete(key);
-    }
-  }
-}
+// No cache management needed - searches are always fresh
 
 // Enhanced search function with comprehensive scoring
 function searchIcons(
@@ -362,18 +340,6 @@ function searchIcons(
   if (!query?.trim()) return [];
   
   const normalizedQuery = query.toLowerCase().trim();
-  
-  // Check cache first
-  const cacheKey = `${normalizedQuery}-${JSON.stringify(options)}`;
-  const cached = searchCache.get(cacheKey);
-  if (cached && (Date.now() - cached.timestamp) < CACHE_TTL) {
-    return cached.results.slice(0, maxResults);
-  }
-  
-  // Clean cache periodically
-  if (Math.random() < 0.1) {
-    cleanCache();
-  }
   
   // Expand query with synonyms and extract words
   const expandedQueries = enableSynonyms ? 
@@ -489,12 +455,6 @@ function searchIcons(
   console.log('🏷️ Library Attribution Stats:', Object.fromEntries(libraryStats));
   
   console.log(`✅ Final worker results: ${sortedResults.length} icons (from ${results.length} total matches)`);
-
-  // Cache the results
-  searchCache.set(cacheKey, {
-    results: sortedResults,
-    timestamp: Date.now()
-  });
   
   return sortedResults;
 }
