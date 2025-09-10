@@ -19,6 +19,7 @@ import { toast } from "@/hooks/use-toast";
 import { copyIcon } from "@/lib/copy";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
+import { useSearchWorker } from "@/hooks/useSearchWorker";
 
 export default function IconDetailPage() {
   const { libraryId, iconName: iconNameParam } = useParams<{
@@ -32,9 +33,13 @@ export default function IconDetailPage() {
   const [icon, setIcon] = useState<IconItem | null>(null);
   const [similarIcons, setSimilarIcons] = useState<IconItem[]>([]);
   const [loading, setLoading] = useState(true);
+  const [similarIconsLoading, setSimilarIconsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [libraryMetadata, setLibraryMetadata] = useState<{ name: string; description?: string } | null>(null);
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
+  
+  // Search worker for cross-library similar icon discovery
+  const { search, indexLibrary, isReady: searchWorkerReady } = useSearchWorker();
 
   // Parse URL parameters
   const { libraryId: parsedLibraryId, iconName } = useMemo(() => {
@@ -87,39 +92,8 @@ export default function IconDetailPage() {
 
         setIcon(targetIcon);
 
-        // Find similar icons (same library, similar tags or names)
-        const similar = libraryIcons
-          .filter(ico => ico.id !== targetIcon.id)
-          .filter(ico => {
-            // Check for similar tags
-            if (targetIcon.tags && ico.tags) {
-              const commonTags = targetIcon.tags.filter(tag => ico.tags?.includes(tag));
-              if (commonTags.length > 0) return true;
-            }
-            
-            // Check for similar names (same category or style)
-            if (targetIcon.category && ico.category === targetIcon.category) return true;
-            if (targetIcon.style && ico.style === targetIcon.style) return true;
-            
-            // Check for similar name words
-            const targetWords = targetIcon.name.toLowerCase().split(/\s+/);
-            const iconWords = ico.name.toLowerCase().split(/\s+/);
-            const commonWords = targetWords.filter(word => iconWords.includes(word));
-            if (commonWords.length > 0) return true;
-            
-            return false;
-          })
-          .slice(0, 24); // Limit to 24 similar icons
-
-        // If no similar icons found, show popular icons from same library
-        if (similar.length === 0) {
-          const fallbackIcons = libraryIcons
-            .filter(ico => ico.id !== targetIcon.id)
-            .slice(0, 24);
-          setSimilarIcons(fallbackIcons);
-        } else {
-          setSimilarIcons(similar);
-        }
+        // Set up cross-library similar icon search
+        findSimilarIconsAcrossLibraries(targetIcon);
 
       } catch (err) {
         console.error('Failed to load icon:', err);
@@ -131,6 +105,87 @@ export default function IconDetailPage() {
 
     loadIconData();
   }, [parsedLibraryId, iconName]);
+
+  // Function to find similar icons across all libraries using search worker
+  const findSimilarIconsAcrossLibraries = async (targetIcon: IconItem) => {
+    if (!searchWorkerReady) {
+      // Fallback to same-library search if worker not ready
+      const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
+      const fallback = libraryIcons
+        .filter(ico => ico.id !== targetIcon.id)
+        .slice(0, 24);
+      setSimilarIcons(fallback);
+      return;
+    }
+
+    try {
+      setSimilarIconsLoading(true);
+
+      // Index popular libraries for cross-library search
+      const popularLibraries = ['lucide', 'tabler', 'heroicons', 'phosphor', 'feather'];
+      const indexPromises = popularLibraries.map(async (libId) => {
+        try {
+          const icons = await iconLibraryManager.loadLibrary(libId);
+          await indexLibrary(libId, icons);
+        } catch (error) {
+          console.warn(`Failed to index library ${libId}:`, error);
+        }
+      });
+
+      await Promise.all(indexPromises);
+
+      // Search for similar icons using multiple strategies
+      const searchQueries = [
+        targetIcon.name, // Direct name search
+        ...(targetIcon.tags || []), // Tag-based search
+        targetIcon.category || '', // Category search
+      ].filter(Boolean);
+
+      const allResults = new Set<string>(); // Use Set to avoid duplicates
+      const similarIconsMap = new Map<string, IconItem>();
+
+      // Execute multiple searches and combine results
+      for (const query of searchQueries) {
+        if (query.trim()) {
+          try {
+            const { results } = await search(query, {
+              maxResults: 50,
+              fuzzy: true,
+              enableSynonyms: true,
+              enablePhonetic: false
+            });
+
+            results
+              .filter(icon => icon.id !== targetIcon.id) // Exclude current icon
+              .slice(0, 20) // Limit per query
+              .forEach(icon => {
+                if (!allResults.has(icon.id)) {
+                  allResults.add(icon.id);
+                  similarIconsMap.set(icon.id, icon);
+                }
+              });
+          } catch (error) {
+            console.warn(`Search failed for query "${query}":`, error);
+          }
+        }
+      }
+
+      // Convert to array and limit to 24 results
+      const finalSimilarIcons = Array.from(similarIconsMap.values()).slice(0, 24);
+
+      setSimilarIcons(finalSimilarIcons);
+    } catch (error) {
+      console.error('Failed to find similar icons:', error);
+      // Fallback to same-library search
+      const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
+      const fallback = libraryIcons
+        .filter(ico => ico.id !== targetIcon.id)
+        .slice(0, 24);
+      setSimilarIcons(fallback);
+    } finally {
+      setSimilarIconsLoading(false);
+    }
+  };
 
   // Handle icon copy
   const handleIconCopy = async (iconToCopy: IconItem) => {
@@ -316,24 +371,35 @@ export default function IconDetailPage() {
                   </div>
                   
                   {/* Similar Icons Section */}
-                  {similarIcons.length > 0 && (
-                    <div className="flex-1 flex flex-col">
-                      <div className="p-6 pb-4">
-                        <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
-                      </div>
-                      <div className="border-b border-border/30"></div>
-                      <div className="flex-1 p-6 pt-4 overflow-hidden">
+                  <div className="flex-1 flex flex-col">
+                    <div className="p-6 pb-4">
+                      <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
+                    </div>
+                    <div className="border-b border-border/30"></div>
+                    <div className="flex-1 p-6 pt-4 overflow-hidden">
+                      {similarIconsLoading ? (
+                        <div className="flex items-center justify-center h-32">
+                          <div className="flex items-center gap-2 text-muted-foreground">
+                            <Loader2 className="h-4 w-4 animate-spin" />
+                            <span className="text-sm">Finding similar icons across libraries...</span>
+                          </div>
+                        </div>
+                      ) : similarIcons.length > 0 ? (
                         <IconGrid
                           items={similarIcons}
                           selectedId={null}
                           onCopy={handleIconCopy}
                           color={customization.color}
                           strokeWidth={customization.strokeWidth}
-                          ariaLabel="Similar icons grid"
+                          ariaLabel="Similar icons grid from multiple libraries"
                         />
-                      </div>
+                      ) : (
+                        <div className="flex items-center justify-center h-32">
+                          <span className="text-sm text-muted-foreground">No similar icons found</span>
+                        </div>
+                      )}
                     </div>
-                  )}
+                  </div>
                 </div>
               </div>
             </main>
