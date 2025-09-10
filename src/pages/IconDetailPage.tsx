@@ -244,11 +244,11 @@ export default function IconDetailPage() {
             
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Fixed Icon Display - Non-scrollable */}
-              <div className="w-80 flex-shrink-0 border-r border-border/30">
+              <div className="w-96 flex-shrink-0 border-r border-border/30">
                 <div className="p-6">
                   <div className="flex items-center justify-center mb-6">
                     <div 
-                      className="flex items-center justify-center w-72 h-72"
+                      className="flex items-center justify-center w-80 h-80"
                       style={{ color: customization.color }}
                     >
                       {typeof icon.svg === 'string' ? (
@@ -257,7 +257,7 @@ export default function IconDetailPage() {
                         }} />
                       ) : (
                         React.createElement(icon.svg as React.ComponentType<any>, {
-                          size: 256,
+                          size: 320,
                           color: customization.color,
                           strokeWidth: customization.strokeWidth
                         })
