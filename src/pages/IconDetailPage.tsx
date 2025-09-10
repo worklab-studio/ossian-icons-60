@@ -265,9 +265,15 @@ export default function IconDetailPage() {
                     </div>
                   </div>
                   
+                  {/* Edge-to-edge segment */}
+                  <div className="border-b border-border/30 w-full -mx-6 mb-6"></div>
+                  
                   <div className="text-center">
                     <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
-                    <p className="text-sm text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
+                    <p className="text-sm text-muted-foreground">
+                      From {libraryMetadata?.name || parsedLibraryId}
+                      {icon.style && ` • ${icon.style} style`}
+                    </p>
                   </div>
                 </div>
               </div>
