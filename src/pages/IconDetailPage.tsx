@@ -263,6 +263,14 @@ export default function IconDetailPage() {
                     )}
                   </div>
                 </div>
+                
+                {/* New segment below icon */}
+                <div className="pb-4 mb-4 border-b border-border/30">
+                  <div className="text-center">
+                    <p className="text-xs text-muted-foreground uppercase tracking-wide">Icon Details</p>
+                  </div>
+                </div>
+                
                 <div className="text-center">
                   <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
                   <p className="text-sm text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
@@ -320,24 +328,27 @@ export default function IconDetailPage() {
                       )}
                     </div>
                   </div>
+                  
+                  {/* Similar Icons Section */}
+                  {similarIcons.length > 0 && (
+                    <div>
+                      <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
+                      <div className="h-64 overflow-hidden">
+                        <IconGrid
+                          items={similarIcons}
+                          selectedId={null}
+                          onCopy={handleIconCopy}
+                          color={customization.color}
+                          strokeWidth={customization.strokeWidth}
+                          ariaLabel="Similar icons grid"
+                        />
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </main>
             
-            {/* Similar Icons Section - Full Width at Bottom */}
-            {similarIcons.length > 0 && (
-              <div className="border-t border-border/30 p-6">
-                <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
-                <IconGrid
-                  items={similarIcons}
-                  selectedId={null}
-                  onCopy={handleIconCopy}
-                  color={customization.color}
-                  strokeWidth={customization.strokeWidth}
-                  ariaLabel="Similar icons grid"
-                />
-              </div>
-            )}
             
             {/* Footer - exactly like homepage */}
             <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
