@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { Header } from "@/components/header";
+import { IconDetailHeader } from "@/components/IconDetailHeader";
 import { ControlPanel } from "@/components/control-panel";
 import { IconGrid } from "@/components/icon-grid/IconGrid";
 import { Badge } from "@/components/ui/badge";
@@ -189,7 +189,7 @@ export default function IconDetailPage() {
       <SidebarProvider>
         <div className="flex h-screen w-full overflow-hidden">
           <div className="flex-1 flex flex-col h-screen">
-            <Header 
+            <IconDetailHeader 
               searchQuery=""
               onSearchChange={() => {}}
               onSearchClear={() => {}}
@@ -211,7 +211,7 @@ export default function IconDetailPage() {
       <SidebarProvider>
         <div className="flex h-screen w-full overflow-hidden">
           <div className="flex-1 flex flex-col h-screen">
-            <Header 
+            <IconDetailHeader 
               searchQuery=""
               onSearchChange={() => {}}
               onSearchClear={() => {}}
@@ -263,7 +263,7 @@ export default function IconDetailPage() {
       <SidebarProvider>
         <div className="flex h-screen w-full overflow-hidden">{/* Fixed viewport height exactly like homepage */}
           <div className="flex-1 flex flex-col h-screen">{/* Fixed layout container like homepage */}
-            <Header 
+            <IconDetailHeader 
               searchQuery=""
               onSearchChange={() => {}}
               onSearchClear={() => {}}
