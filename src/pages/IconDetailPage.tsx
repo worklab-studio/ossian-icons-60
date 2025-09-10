@@ -189,11 +189,7 @@ export default function IconDetailPage() {
       <SidebarProvider>
         <div className="flex h-screen w-full overflow-hidden">
           <div className="flex-1 flex flex-col h-screen">
-            <IconDetailHeader 
-              searchQuery=""
-              onSearchChange={() => {}}
-              onSearchClear={() => {}}
-            />
+            <IconDetailHeader />
             <div className="flex-1 flex items-center justify-center">
               <div className="flex items-center gap-2">
                 <Loader2 className="h-6 w-6 animate-spin" />
@@ -211,11 +207,7 @@ export default function IconDetailPage() {
       <SidebarProvider>
         <div className="flex h-screen w-full overflow-hidden">
           <div className="flex-1 flex flex-col h-screen">
-            <IconDetailHeader 
-              searchQuery=""
-              onSearchChange={() => {}}
-              onSearchClear={() => {}}
-            />
+            <IconDetailHeader />
             <div className="flex-1 flex items-center justify-center p-4">
               <Alert variant="destructive">
                 <AlertCircle className="h-4 w-4" />
@@ -263,11 +255,7 @@ export default function IconDetailPage() {
       <SidebarProvider>
         <div className="flex h-screen w-full overflow-hidden">{/* Fixed viewport height exactly like homepage */}
           <div className="flex-1 flex flex-col h-screen">{/* Fixed layout container like homepage */}
-            <IconDetailHeader 
-              searchQuery=""
-              onSearchChange={() => {}}
-              onSearchClear={() => {}}
-            />
+            <IconDetailHeader />
             
             {/* Fixed breadcrumb section - matching homepage's title section */}
             <div className="px-6 pt-6 pb-4 border-b border-border/30 bg-background">
@@ -291,7 +279,7 @@ export default function IconDetailPage() {
                     </Breadcrumb>
                     <h1 className="text-2xl font-semibold">{icon.name}</h1>
                     <p className="text-sm text-muted-foreground">
-                      From the {libraryMetadata?.name || parsedLibraryId} library
+                      {libraryMetadata?.name || parsedLibraryId} library
                     </p>
                   </div>
                 </div>
@@ -300,19 +288,24 @@ export default function IconDetailPage() {
             
             <main className="flex-1 overflow-hidden">{/* Scrollable content area like homepage */}
               <div className="h-full overflow-y-auto">
-                {/* Icon Display Section */}
-                <div className="p-6 lg:p-12 flex flex-col items-center justify-center min-h-[70vh] space-y-8">
-                  {/* Large Icon Display */}
-                  <div className="flex flex-col items-center space-y-6">
-                    {renderIcon(icon)}
+                {/* Icon Display Section - Side by Side Layout */}
+                <div className="p-6 lg:p-12">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start min-h-[60vh]">
+                    {/* Left: Large Icon Display */}
+                    <div className="flex items-center justify-center lg:sticky lg:top-8">
+                      <div className="flex flex-col items-center space-y-6">
+                        {renderIcon(icon)}
+                      </div>
+                    </div>
                     
-                    {/* Icon Info Card */}
-                    <Card className="w-full max-w-lg bg-card border shadow-sm">
-                      <CardContent className="p-6 space-y-6">
-                        <div className="text-center">
-                          <h2 className="text-3xl font-bold text-foreground mb-2">{icon.name}</h2>
-                          <p className="text-muted-foreground text-lg">{libraryMetadata?.name || parsedLibraryId}</p>
-                        </div>
+                    {/* Right: Icon Details Card */}
+                    <div className="flex items-start">{/* Icon Info Card */}
+                      <Card className="w-full bg-card border shadow-sm">
+                        <CardContent className="p-6 space-y-6">
+                          <div>
+                            <h2 className="text-3xl font-bold text-foreground mb-2">{icon.name}</h2>
+                            <p className="text-muted-foreground text-lg">{libraryMetadata?.name || parsedLibraryId}</p>
+                          </div>
                         
                         {/* Tags */}
                         {icon.tags && icon.tags.length > 0 && (
@@ -362,10 +355,11 @@ export default function IconDetailPage() {
                         </div>
                       </CardContent>
                     </Card>
-                  </div>
+                   </div>
+                 </div>
                 </div>
-                
-                {/* Similar Icons Section */}
+                 
+                 {/* Similar Icons Section */}
                 {similarIcons.length > 0 && (
                   <section className="border-t bg-muted/20 py-12">
                     <div className="px-6 lg:px-12">
