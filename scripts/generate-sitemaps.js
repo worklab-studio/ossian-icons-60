@@ -111,12 +111,36 @@ async function loadRealIconData(libraryId) {
     // Dynamic import based on library ID - use .ts extension
     const iconData = await import(`../src/data/${libraryId}.ts`);
     
-    // Get the main export (different libraries export with different naming patterns)
-    const exportName = `${libraryId}Icons`;
-    const iconArray = iconData[exportName] || iconData[`${libraryId.replace('-', '')}Icons`] || iconData.default;
+    // Map library IDs to their exact export names
+    const exportMap = {
+      'tabler': 'tablerIcons',
+      'feather': 'featherIcons', 
+      'solar': 'solarIcons',
+      'phosphor': 'phosphorIcons',
+      'bootstrap': 'bootstrapIcons',
+      'iconsax': 'iconsaxIcons',
+      'radix': 'radixIcons',
+      'line': 'lineIcons',
+      'pixelart': 'pixelartIcons',
+      'hugeicon': 'hugeiconIcons',
+      'mingcute': 'mingcuteIcons',
+      'heroicons': 'heroiconsIcons',
+      'material': 'materialIcons',
+      'fluent-ui': 'fluentUiIcons',
+      'lucide': 'lucideIcons',
+      'carbon': 'carbonIcons',
+      'iconamoon': 'iconamoonIcons',
+      'iconoir': 'iconoirIcons',
+      'majesticon': 'majesticonIcons',
+      'simple': 'simpleIcons',
+      'octicons': 'octiconsIcons'
+    };
+    
+    const exportName = exportMap[libraryId];
+    const iconArray = iconData[exportName];
     
     if (!iconArray || !Array.isArray(iconArray)) {
-      console.warn(`⚠️  No icon array found for ${libraryId} (looking for ${exportName}), using fallback`);
+      console.warn(`⚠️  No icon array found for ${libraryId} (looking for ${exportName})`);
       console.log('Available exports:', Object.keys(iconData));
       return [];
     }
@@ -142,7 +166,11 @@ async function generateLibrarySitemap(library) {
   if (realIcons.length > 0) {
     iconNames = realIcons
       .slice(0, MAX_URLS_PER_SITEMAP)
-      .map(icon => icon.name || icon.id || 'unnamed-icon');
+      .map(icon => {
+        // Use name if available, otherwise extract from id (remove library prefix)
+        const name = icon.name || icon.id;
+        return name.replace(`${library.id}-`, '');
+      });
   } else {
     // Fallback to mock data if real data unavailable
     console.log(`📝 Using mock data for ${library.id}`);
