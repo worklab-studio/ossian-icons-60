@@ -299,7 +299,7 @@ export default function IconDetailPage() {
             
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Fixed Icon Display - Non-scrollable */}
-              <div className="w-96 flex-shrink-0 border-r border-border/30">
+              <div className="w-96 flex-shrink-0 border-r border-border/30 relative">
                 <div className="p-6">
                   <div className="flex items-center justify-center mb-6">
                     <div 
@@ -308,7 +308,7 @@ export default function IconDetailPage() {
                     >
                       {typeof icon.svg === 'string' ? (
                         <div 
-                          className="icon-svg"
+                          className="icon-svg [&>svg]:!w-80 [&>svg]:!h-80"
                           dangerouslySetInnerHTML={{ 
                             __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
                           }} 
@@ -322,6 +322,9 @@ export default function IconDetailPage() {
                       )}
                     </div>
                   </div>
+                  
+                  {/* Edge-to-edge separator */}
+                  <div className="absolute left-0 right-0 border-b border-border"></div>
                   
                 </div>
               </div>
