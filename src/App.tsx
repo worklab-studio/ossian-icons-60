@@ -11,6 +11,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import IconsDemo from "./app/demo/icons/page";
 import LibraryPage from "./pages/LibraryPage";
+import IconDetailPage from "./pages/IconDetailPage";
 import Sitemap from "./components/Sitemap";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/demo/icons" element={<IconsDemo />} />
                 <Route path="/library/:libraryId" element={<LibraryPage />} />
+                <Route path="/icon/:libraryId/:iconName" element={<IconDetailPage />} />
                 <Route path="/sitemap.xml" element={<Sitemap />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
