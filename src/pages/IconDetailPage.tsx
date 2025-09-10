@@ -149,36 +149,6 @@ export default function IconDetailPage() {
     }
   };
 
-  // Render the icon with current customization
-  const renderIcon = (iconToRender: IconItem) => {
-    if (typeof iconToRender.svg === 'string') {
-      let svgContent = iconToRender.svg;
-      
-      // Apply customizations
-      if (customization.strokeWidth !== 2) {
-        svgContent = svgContent.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`);
-      }
-      
-      return (
-        <div 
-          className="flex items-center justify-center w-72 h-72 rounded-xl bg-muted/30 border-2 border-border shadow-sm"
-          style={{ color: customization.color }}
-          dangerouslySetInnerHTML={{ __html: svgContent }}
-        />
-      );
-    } else {
-      const IconComponent = iconToRender.svg as React.ComponentType<any>;
-      return (
-        <div className="flex items-center justify-center w-72 h-72 rounded-xl bg-muted/30 border-2 border-border shadow-sm">
-          <IconComponent 
-            size={256} 
-            color={customization.color}
-            strokeWidth={customization.strokeWidth}
-          />
-        </div>
-      );
-    }
-  };
 
   // Generate page title and description for SEO
   const pageTitle = `${icon?.name || iconName} Icon - ${libraryMetadata?.name || parsedLibraryId} | IconStack`;
@@ -272,23 +242,36 @@ export default function IconDetailPage() {
               </Breadcrumb>
             </div>
             
-            <main className="flex-1 overflow-hidden flex">
+            <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Fixed Icon Display - Non-scrollable */}
-              <div className="w-80 flex-shrink-0 p-6 border-r border-border/30 bg-background">
-                <div className="sticky top-0">
-                  <div className="flex items-center justify-center mb-6">
-                    {renderIcon(icon)}
+              <div className="w-80 flex-shrink-0 p-6 border-r border-border/30">
+                <div className="flex items-center justify-center mb-6">
+                  <div 
+                    className="flex items-center justify-center w-72 h-72"
+                    style={{ color: customization.color }}
+                  >
+                    {typeof icon.svg === 'string' ? (
+                      <div dangerouslySetInnerHTML={{ 
+                        __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
+                      }} />
+                    ) : (
+                      React.createElement(icon.svg as React.ComponentType<any>, {
+                        size: 256,
+                        color: customization.color,
+                        strokeWidth: customization.strokeWidth
+                      })
+                    )}
                   </div>
-                  <div className="text-center">
-                    <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
-                    <p className="text-sm text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
-                  </div>
+                </div>
+                <div className="text-center">
+                  <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
+                  <p className="text-sm text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
                 </div>
               </div>
               
-              {/* Right: Scrollable Details */}
-              <div className="flex-1 overflow-y-auto">
-                <div className="p-6 space-y-6">
+              {/* Right: Fixed Details - Non-scrollable */}
+              <div className="flex-1 p-6 overflow-hidden">
+                <div className="h-full flex flex-col space-y-6">
                   {/* Tags Section */}
                   {icon.tags && icon.tags.length > 0 && (
                     <div className="pb-6 border-b border-border/30">
@@ -337,26 +320,24 @@ export default function IconDetailPage() {
                       )}
                     </div>
                   </div>
-                  
-                  {/* Similar Icons Section */}
-                  {similarIcons.length > 0 && (
-                    <div>
-                      <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
-                      <div className="bg-muted/20 rounded-lg p-4">
-                        <IconGrid
-                          items={similarIcons}
-                          selectedId={null}
-                          onCopy={handleIconCopy}
-                          color={customization.color}
-                          strokeWidth={customization.strokeWidth}
-                          ariaLabel="Similar icons grid"
-                        />
-                      </div>
-                    </div>
-                  )}
                 </div>
               </div>
             </main>
+            
+            {/* Similar Icons Section - Full Width at Bottom */}
+            {similarIcons.length > 0 && (
+              <div className="border-t border-border/30 p-6">
+                <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
+                <IconGrid
+                  items={similarIcons}
+                  selectedId={null}
+                  onCopy={handleIconCopy}
+                  color={customization.color}
+                  strokeWidth={customization.strokeWidth}
+                  ariaLabel="Similar icons grid"
+                />
+              </div>
+            )}
             
             {/* Footer - exactly like homepage */}
             <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
