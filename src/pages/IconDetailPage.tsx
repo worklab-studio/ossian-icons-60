@@ -252,9 +252,12 @@ export default function IconDetailPage() {
                       style={{ color: customization.color }}
                     >
                       {typeof icon.svg === 'string' ? (
-                        <div dangerouslySetInnerHTML={{ 
-                          __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
-                        }} />
+                        <div 
+                          className="icon-svg"
+                          dangerouslySetInnerHTML={{ 
+                            __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
+                          }} 
+                        />
                       ) : (
                         React.createElement(icon.svg as React.ComponentType<any>, {
                           size: 320,
