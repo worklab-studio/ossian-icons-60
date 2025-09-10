@@ -2,15 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Button } from '@/components/ui/button';
+import { Separator } from '@/components/ui/separator';
+import { ScrollArea } from '@/components/ui/scroll-area';
+import { Badge } from '@/components/ui/badge';
 import { iconLibraryManager } from '@/services/IconLibraryManager';
 import { IconItem } from '@/types/icon';
+import { IconDetailHeader } from '@/components/IconDetailHeader';
+import { IconGrid } from '@/components/icon-grid/IconGrid';
 import LoadingSpinner from '@/components/LoadingSpinner';
-import { ArrowLeft, Copy, Download } from 'lucide-react';
+import { ArrowLeft, Copy, Download, ExternalLink } from 'lucide-react';
 import { ColorPicker } from '@/components/color-picker';
 import { StrokeSlider } from '@/components/stroke-slider';
 import { useIconCustomization } from '@/contexts/IconCustomizationContext';
 import { copyIcon } from '@/lib/copy';
 import { findSimilarIcons } from '@/utils/similarIcons';
+import { supportsStrokeWidth } from '@/lib/icon-utils';
 import { toast } from 'sonner';
 
 const IconDetailPage = () => {
@@ -192,215 +198,216 @@ const IconDetailPage = () => {
       </Helmet>
 
       <div className="min-h-screen bg-background">
-        <div className="container mx-auto px-4 py-8 max-w-7xl">
-          {/* Breadcrumb */}
-          <nav className="text-sm text-muted-foreground mb-8">
-            <button 
-              onClick={() => navigate('/')}
-              className="hover:text-foreground transition-colors"
-            >
-              Home
-            </button>
-            <span className="mx-2">/</span>
-            <button 
-              onClick={() => navigate(`/library/${libraryId}`)}
-              className="hover:text-foreground transition-colors"
-            >
-              {libraryName}
-            </button>
-            <span className="mx-2">/</span>
-            <span className="text-foreground">{icon.name}</span>
-          </nav>
+        {/* Header without search - matching homepage structure exactly */}
+        <IconDetailHeader />
 
-          {/* Main Two-Column Layout */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-            {/* Left Column - Icon Display & Details */}
-            <div className="lg:col-span-2 space-y-8">
+        <div className="flex min-h-[calc(100vh-4rem)]">
+          {/* Main Content - Icon Display and Details (65% width) */}
+          <div className="flex-1 p-6">
+            <div className="max-w-4xl mx-auto space-y-6">
+              {/* Breadcrumb Navigation */}
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => navigate(-1)}
+                  className="gap-2 px-2"
+                >
+                  <ArrowLeft className="h-4 w-4" />
+                  Back
+                </Button>
+                <span>/</span>
+                <span 
+                  className="hover:text-foreground cursor-pointer"
+                  onClick={() => navigate(`/library/${libraryId}`)}
+                >
+                  {libraryName}
+                </span>
+                <span>/</span>
+                <span className="text-foreground font-medium">{icon?.name}</span>
+              </div>
+
               {/* Large Icon Display */}
-              <div className="text-center space-y-6">
-                <div className="flex justify-center">
-                  <div className="relative p-12 bg-muted/30 rounded-2xl border border-border">
-                    {typeof icon.svg === 'string' ? (
-                      <div 
-                        className="w-32 h-32 md:w-40 md:h-40"
-                        style={{ 
-                          color: customization.color,
-                          strokeWidth: customization.strokeWidth 
-                        }}
-                        dangerouslySetInnerHTML={{ 
-                          __html: icon.svg
-                            .replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
-                            .replace(/stroke="currentColor"/g, `stroke="${customization.color}"`)
-                            .replace(/fill="currentColor"/g, `fill="${customization.color}"`)
-                            .replace(/currentColor/g, customization.color)
-                        }}
-                      />
-                    ) : (
-                      <icon.svg 
-                        className="w-32 h-32 md:w-40 md:h-40" 
-                        style={{ 
-                          color: customization.color,
-                          strokeWidth: customization.strokeWidth 
-                        }}
-                      />
-                    )}
-                  </div>
-                </div>
-
-                <div className="space-y-3">
-                  <h1 className="text-4xl md:text-5xl font-bold text-foreground">{icon.name}</h1>
-                  <p className="text-xl text-muted-foreground">
-                    Free SVG icon from {libraryName} library
-                  </p>
-                  {icon.style && (
-                    <div className="inline-block px-3 py-1 bg-muted rounded-full text-sm text-muted-foreground">
-                      {icon.style}
-                    </div>
+              <div className="flex items-center justify-center py-12">
+                <div 
+                  className="flex items-center justify-center"
+                  style={{
+                    color: customization.color,
+                    strokeWidth: customization.strokeWidth
+                  }}
+                >
+                  {typeof icon.svg === 'string' ? (
+                    <div 
+                      className="w-64 h-64"
+                      style={{ 
+                        color: customization.color,
+                        strokeWidth: customization.strokeWidth 
+                      }}
+                      dangerouslySetInnerHTML={{ 
+                        __html: icon.svg
+                          .replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
+                          .replace(/stroke="currentColor"/g, `stroke="${customization.color}"`)
+                          .replace(/fill="currentColor"/g, `fill="${customization.color}"`)
+                          .replace(/currentColor/g, customization.color)
+                      }}
+                    />
+                  ) : (
+                    <icon.svg 
+                      className="w-64 h-64" 
+                      style={{ 
+                        color: customization.color,
+                        strokeWidth: customization.strokeWidth 
+                      }}
+                    />
                   )}
                 </div>
               </div>
 
-              {/* Geometric Divider */}
-              <div className="border-t border-border"></div>
-
-              {/* Icon Details */}
-              <div className="space-y-6">
-                <h2 className="text-2xl font-semibold text-foreground">Icon Details</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="space-y-4">
-                    <div className="flex justify-between py-3 border-b border-border">
-                      <span className="font-medium text-muted-foreground">Name</span>
-                      <span className="text-foreground">{icon.name}</span>
-                    </div>
-                    <div className="flex justify-between py-3 border-b border-border">
-                      <span className="font-medium text-muted-foreground">Library</span>
-                      <span className="text-foreground">{libraryName}</span>
-                    </div>
-                    {icon.style && (
-                      <div className="flex justify-between py-3 border-b border-border">
-                        <span className="font-medium text-muted-foreground">Style</span>
-                        <span className="text-foreground">{icon.style}</span>
-                      </div>
-                    )}
-                  </div>
-                  <div className="space-y-4">
-                    <div className="flex justify-between py-3 border-b border-border">
-                      <span className="font-medium text-muted-foreground">Format</span>
-                      <span className="text-foreground">SVG</span>
-                    </div>
-                    <div className="flex justify-between py-3 border-b border-border">
-                      <span className="font-medium text-muted-foreground">License</span>
-                      <span className="text-foreground">Free to use</span>
-                    </div>
-                    <div className="flex justify-between py-3 border-b border-border">
-                      <span className="font-medium text-muted-foreground">File Size</span>
-                      <span className="text-foreground">Optimized</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Column - Customization Panel */}
-            <div className="space-y-8">
-              <div className="sticky top-8">
-                <div className="bg-muted/30 rounded-2xl border border-border p-6 space-y-8">
-                  <h3 className="text-xl font-semibold text-foreground">Customize Icon</h3>
-                  
-                  {/* Geometric Divider */}
-                  <div className="border-t border-border"></div>
-                  
-                  {/* Color Picker */}
+              {/* Icon Information Card */}
+              <div className="border rounded-lg p-6 space-y-4">
+                <div className="flex items-center justify-between">
                   <div>
-                    <ColorPicker />
+                    <h1 className="text-2xl font-semibold">{icon.name}</h1>
+                    <p className="text-muted-foreground">
+                      From {libraryName} • {icon.style ? `${icon.style} style` : 'Vector icon'}
+                    </p>
                   </div>
-
-                  {/* Geometric Divider */}
-                  <div className="border-t border-border"></div>
-
-                  {/* Stroke Slider */}
-                  <div>
-                    <StrokeSlider />
-                  </div>
-
-                  {/* Geometric Divider */}
-                  <div className="border-t border-border"></div>
-
-                  {/* Action Buttons */}
-                  <div className="space-y-4">
-                    <Button 
-                      onClick={handleCopyIcon} 
-                      className="w-full" 
-                      size="lg"
+                  <div className="flex gap-2">
+                    <Button
+                      onClick={handleCopyIcon}
+                      size="sm"
+                      className="gap-2"
                     >
-                      <Copy className="w-4 h-4 mr-2" />
-                      Copy SVG Code
+                      <Copy className="h-4 w-4" />
+                      Copy SVG
                     </Button>
-                    <Button 
-                      onClick={handleDownloadIcon} 
-                      variant="outline" 
-                      className="w-full" 
-                      size="lg"
+                    <Button
+                      onClick={handleDownloadIcon}
+                      variant="outline"
+                      size="sm"
+                      className="gap-2"
                     >
-                      <Download className="w-4 h-4 mr-2" />
+                      <Download className="h-4 w-4" />
                       Download SVG
                     </Button>
-                    <Button 
-                      onClick={() => navigate('/')} 
-                      variant="ghost" 
-                      className="w-full" 
-                      size="lg"
-                    >
-                      <ArrowLeft className="w-4 h-4 mr-2" />
-                      Explore All Icons
-                    </Button>
+                  </div>
+                </div>
+                
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">{libraryName}</Badge>
+                  {icon.style && <Badge variant="outline">{icon.style}</Badge>}
+                  {icon.category && <Badge variant="outline">{icon.category}</Badge>}
+                  {icon.tags?.map(tag => (
+                    <Badge key={tag} variant="outline">{tag}</Badge>
+                  ))}
+                </div>
+                
+                <Separator />
+                
+                <div className="grid grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <span className="text-muted-foreground">Format:</span>
+                    <span className="ml-2 font-medium">SVG</span>
+                  </div>
+                  <div>
+                    <span className="text-muted-foreground">ID:</span>
+                    <span className="ml-2 font-mono text-xs">{icon.id}</span>
+                  </div>
+                  <div>
+                    <span className="text-muted-foreground">Library:</span>
+                    <span className="ml-2 font-medium">{libraryName}</span>
+                  </div>
+                  <div>
+                    <span className="text-muted-foreground">License:</span>
+                    <span className="ml-2 font-medium">Free to use</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Similar Icons Section */}
-          {similarIcons.length > 0 && (
-            <>
-              {/* Geometric Divider */}
-              <div className="border-t border-border mb-12"></div>
-              
-              <div className="space-y-8">
-                <div className="text-center space-y-4">
-                  <h2 className="text-3xl font-bold text-foreground">Similar Icons</h2>
-                  <p className="text-lg text-muted-foreground">
-                    More icons from {libraryName} that might interest you
-                  </p>
+          {/* Customization Sidebar (35% width) - Matching ControlPanel exactly */}
+          <div className="w-80 border-l bg-background h-screen flex flex-col">
+            {/* Fixed Header */}
+            <div className="h-16 border-b flex items-center px-6">
+              <h2 className="text-lg font-semibold">Customize</h2>
+            </div>
+            
+            {/* Scrollable Middle Section */}
+            <div className="flex-1 overflow-hidden">
+              <ScrollArea className="h-full scrollbar-none">
+                <div className="p-6 space-y-6">
+                  <ColorPicker />
+                  
+                  <Separator />
+                  
+                  {supportsStrokeWidth(icon) && (
+                    <>
+                      <StrokeSlider />
+                      <Separator />
+                    </>
+                  )}
                 </div>
-
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-                  {similarIcons.map((similarIcon) => (
-                    <button
-                      key={similarIcon.id}
-                      onClick={() => handleSimilarIconClick(similarIcon)}
-                      className="group p-6 bg-muted/30 rounded-xl border border-border hover:bg-muted/50 hover:border-primary/20 transition-all duration-200 hover:scale-105"
-                    >
-                      <div className="flex flex-col items-center space-y-3">
-                        {typeof similarIcon.svg === 'string' ? (
-                          <div 
-                            className="w-8 h-8 text-foreground group-hover:text-primary transition-colors"
-                            dangerouslySetInnerHTML={{ __html: similarIcon.svg }}
-                          />
-                        ) : (
-                          <similarIcon.svg className="w-8 h-8 text-foreground group-hover:text-primary transition-colors" />
-                        )}
-                        <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors text-center line-clamp-2">
-                          {similarIcon.name}
-                        </span>
-                      </div>
-                    </button>
-                  ))}
+              </ScrollArea>
+            </div>
+            
+            {/* Fixed Footer - Export Section */}
+            <div className="p-6 pt-4 border-t bg-background">
+              <div className="space-y-3">
+                <h4 className="text-sm font-medium">Export</h4>
+                <div className="space-y-2">
+                  <Button
+                    onClick={handleCopyIcon}
+                    size="sm"
+                    className="w-full gap-2"
+                  >
+                    <Copy className="h-4 w-4" />
+                    Copy SVG
+                  </Button>
+                  <Button
+                    onClick={handleDownloadIcon}
+                    variant="outline"
+                    size="sm"
+                    className="w-full gap-2"
+                  >
+                    <Download className="h-4 w-4" />
+                    Download SVG
+                  </Button>
+                  <Button
+                    onClick={() => navigate('/')}
+                    variant="ghost"
+                    size="sm"
+                    className="w-full gap-2"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    Explore All Icons
+                  </Button>
                 </div>
               </div>
-            </>
-          )}
+            </div>
+          </div>
         </div>
+
+        {/* Similar Icons Section - Full width with border separator following homepage grid structure */}
+        {similarIcons.length > 0 && (
+          <div className="border-t bg-background">
+            <div className="container mx-auto px-6 py-6">
+              <div className="mb-6">
+                <h3 className="text-lg font-semibold">Similar Icons</h3>
+                <p className="text-muted-foreground text-sm">
+                  Other icons from {libraryName} that might interest you
+                </p>
+              </div>
+              <IconGrid 
+                items={similarIcons}
+                onIconClick={handleSimilarIconClick}
+                color={customization.color}
+                strokeWidth={customization.strokeWidth}
+                ariaLabel={`Similar icons to ${icon.name}`}
+              />
+            </div>
+          </div>
+        )}
       </div>
     </>
   );
