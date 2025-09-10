@@ -241,8 +241,16 @@ function IconGridPage() {
   // Get the selected icon object
   const selectedIcon = useMemo(() => {
     if (!selectedId) return null;
+    
+    // First check search results if we're currently searching
+    if (searchQuery.trim() && searchResults.length > 0) {
+      const searchIcon = searchResults.find(icon => icon.id === selectedId);
+      if (searchIcon) return searchIcon;
+    }
+    
+    // Then check the main icons array
     return icons.find(icon => icon.id === selectedId) || null;
-  }, [selectedId, icons]);
+  }, [selectedId, icons, searchResults, searchQuery]);
 
   // Handle search with worker or fallback
   useEffect(() => {
