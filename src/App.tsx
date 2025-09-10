@@ -1,4 +1,5 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -11,9 +12,27 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import IconsDemo from "./app/demo/icons/page";
 import LibraryPage from "./pages/LibraryPage";
+import IconDetailPage from "./pages/IconDetailPage";
 import Sitemap from "./components/Sitemap";
+import { SitemapService } from "./services/SitemapService";
 
 const queryClient = new QueryClient();
+
+// Dynamic sitemap component
+function DynamicLibrarySitemap() {
+  const { libraryId } = useParams<{ libraryId: string }>();
+  const [sitemapContent, setSitemapContent] = React.useState<string>('');
+  
+  React.useEffect(() => {
+    if (libraryId) {
+      SitemapService.generateLibrarySitemap(libraryId).then(setSitemapContent);
+    }
+  }, [libraryId]);
+  
+  return (
+    <div dangerouslySetInnerHTML={{ __html: sitemapContent }} />
+  );
+}
 
 const App = () => (
   <HelmetProvider>
@@ -28,7 +47,23 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/demo/icons" element={<IconsDemo />} />
                 <Route path="/library/:libraryId" element={<LibraryPage />} />
+                <Route path="/icon/:libraryId/:iconName" element={<IconDetailPage />} />
+                
+                {/* Dynamic sitemap routes */}
                 <Route path="/sitemap.xml" element={<Sitemap />} />
+                <Route 
+                  path="/sitemap-main.xml" 
+                  element={
+                    <div dangerouslySetInnerHTML={{ 
+                      __html: SitemapService.generateMainSitemap() 
+                    }} />
+                  } 
+                />
+                <Route 
+                  path="/sitemap-:libraryId.xml" 
+                  element={<DynamicLibrarySitemap />} 
+                />
+                
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
