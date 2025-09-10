@@ -155,7 +155,7 @@ export default function IconDetailPage() {
       
       return (
         <div 
-          className="flex items-center justify-center w-64 h-64 rounded-lg bg-background border"
+          className="flex items-center justify-center w-72 h-72 rounded-xl bg-muted/30 border-2 border-border shadow-sm"
           style={{ color: customization.color }}
           dangerouslySetInnerHTML={{ __html: svgContent }}
         />
@@ -163,7 +163,7 @@ export default function IconDetailPage() {
     } else {
       const IconComponent = iconToRender.svg as React.ComponentType<any>;
       return (
-        <div className="flex items-center justify-center w-64 h-64 rounded-lg bg-background border">
+        <div className="flex items-center justify-center w-72 h-72 rounded-xl bg-muted/30 border-2 border-border shadow-sm">
           <IconComponent 
             size={256} 
             color={customization.color}
@@ -242,97 +242,107 @@ export default function IconDetailPage() {
         iconName={icon.name} 
       />
 
-      <div className="flex">
-        {/* Main Content Area */}
-        <div className="flex-1 overflow-hidden">
-          {/* Two-column layout */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-0 h-full">
-            {/* Left: Icon Display (65% on larger screens) */}
-            <div className="lg:col-span-2 border-b lg:border-b-0 lg:border-r">
-              <div className="p-8 space-y-6">
-                {/* Large Icon Display */}
-                <div className="flex flex-col items-center space-y-4">
-                  {renderIcon(icon)}
-                  
-                  {/* Icon Info Card */}
-                  <Card className="w-full max-w-md">
-                    <CardContent className="p-6 space-y-4">
-                      <div>
-                        <h1 className="text-2xl font-bold">{icon.name}</h1>
-                        <p className="text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
+      <main className="container mx-auto">
+        {/* Two-column layout matching homepage design */}
+        <div className="flex flex-col lg:flex-row min-h-[calc(100vh-4rem)]">
+          {/* Left: Icon Display (65% on larger screens) */}
+          <div className="flex-1 lg:flex-[2] border-b lg:border-b-0 lg:border-r bg-background">
+            <div className="p-6 lg:p-12 flex flex-col items-center justify-center min-h-[60vh] lg:min-h-full space-y-8">
+              {/* Large Icon Display */}
+              <div className="flex flex-col items-center space-y-6">
+                {renderIcon(icon)}
+                
+                {/* Icon Info Card */}
+                <Card className="w-full max-w-lg bg-card border shadow-sm">
+                  <CardContent className="p-6 space-y-6">
+                    <div className="text-center">
+                      <h1 className="text-3xl font-bold text-foreground mb-2">{icon.name}</h1>
+                      <p className="text-muted-foreground text-lg">{libraryMetadata?.name || parsedLibraryId}</p>
+                    </div>
+                    
+                    {/* Tags */}
+                    {icon.tags && icon.tags.length > 0 && (
+                      <div className="space-y-3">
+                        <h4 className="text-sm font-semibold text-foreground">Tags</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {icon.tags.map((tag, index) => (
+                            <Badge key={index} variant="secondary" className="text-xs px-2 py-1">
+                              {tag}
+                            </Badge>
+                          ))}
+                        </div>
                       </div>
-                      
-                      {/* Tags */}
-                      {icon.tags && icon.tags.length > 0 && (
-                        <div className="space-y-2">
-                          <h4 className="text-sm font-medium">Tags</h4>
-                          <div className="flex flex-wrap gap-1">
-                            {icon.tags.map((tag, index) => (
-                              <Badge key={index} variant="secondary" className="text-xs">
-                                {tag}
-                              </Badge>
-                            ))}
-                          </div>
+                    )}
+                    
+                    <Separator className="bg-border" />
+                    
+                    {/* Technical Info */}
+                    <div className="grid grid-cols-2 gap-6 text-sm">
+                      <div>
+                        <span className="text-muted-foreground block mb-1">Format</span>
+                        <div className="font-semibold text-foreground">SVG</div>
+                      </div>
+                      <div>
+                        <span className="text-muted-foreground block mb-1">License</span>
+                        <div className="font-semibold text-foreground">Open Source</div>
+                      </div>
+                      {icon.style && (
+                        <div>
+                          <span className="text-muted-foreground block mb-1">Style</span>
+                          <div className="font-semibold text-foreground capitalize">{icon.style}</div>
                         </div>
                       )}
-                      
-                      <Separator />
-                      
-                      {/* Technical Info */}
-                      <div className="grid grid-cols-2 gap-4 text-sm">
+                      {icon.category && (
                         <div>
-                          <span className="text-muted-foreground">Format:</span>
-                          <div className="font-medium">SVG</div>
+                          <span className="text-muted-foreground block mb-1">Category</span>
+                          <div className="font-semibold text-foreground capitalize">{icon.category}</div>
                         </div>
-                        <div>
-                          <span className="text-muted-foreground">ID:</span>
-                          <div className="font-mono text-xs break-all">{icon.id}</div>
-                        </div>
-                        {icon.style && (
-                          <div>
-                            <span className="text-muted-foreground">Style:</span>
-                            <div className="font-medium">{icon.style}</div>
-                          </div>
-                        )}
-                        {icon.category && (
-                          <div>
-                            <span className="text-muted-foreground">Category:</span>
-                            <div className="font-medium">{icon.category}</div>
-                          </div>
-                        )}
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
+                      )}
+                    </div>
+                    
+                    <div className="pt-2">
+                      <span className="text-muted-foreground text-xs block mb-1">Icon ID</span>
+                      <code className="font-mono text-xs text-muted-foreground break-all bg-muted px-2 py-1 rounded">
+                        {icon.id}
+                      </code>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
-            </div>
-            
-            {/* Right: Control Panel (35% on larger screens) */}
-            <div className="lg:col-span-1">
-              <ControlPanel selectedIcon={icon} selectedSet={parsedLibraryId} />
             </div>
           </div>
           
-          {/* Similar Icons Section */}
-          {similarIcons.length > 0 && (
-            <div className="border-t bg-muted/30">
-              <div className="p-8">
-                <h2 className="text-xl font-semibold mb-6">
+          {/* Right: Control Panel (35% on larger screens) */}
+          <div className="w-full lg:w-80 lg:flex-[1] bg-background border-l-0 lg:border-l">
+            <div className="h-full">
+              <ControlPanel selectedIcon={icon} selectedSet={parsedLibraryId} />
+            </div>
+          </div>
+        </div>
+        
+        {/* Similar Icons Section - Full width below main content */}
+        {similarIcons.length > 0 && (
+          <section className="border-t bg-muted/20 py-12">
+            <div className="px-6 lg:px-12">
+              <div className="max-w-none">
+                <h2 className="text-2xl font-bold text-foreground mb-8">
                   Similar Icons from {libraryMetadata?.name || parsedLibraryId}
                 </h2>
-                <IconGrid
-                  items={similarIcons}
-                  selectedId={null}
-                  onCopy={handleIconCopy}
-                  color={customization.color}
-                  strokeWidth={customization.strokeWidth}
-                  ariaLabel="Similar icons grid"
-                />
+                <div className="bg-background rounded-lg border shadow-sm p-6">
+                  <IconGrid
+                    items={similarIcons}
+                    selectedId={null}
+                    onCopy={handleIconCopy}
+                    color={customization.color}
+                    strokeWidth={customization.strokeWidth}
+                    ariaLabel="Similar icons grid"
+                  />
+                </div>
               </div>
             </div>
-          )}
-        </div>
-      </div>
+          </section>
+        )}
+      </main>
     </div>
   );
 }
