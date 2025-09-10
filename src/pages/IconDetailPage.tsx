@@ -312,20 +312,6 @@ export default function IconDetailPage() {
                     </div>
                   </div>
                   
-                  {/* Tags Section */}
-                  {icon.tags && icon.tags.length > 0 && (
-                    <div className="p-6 border-b border-border/30">
-                      <h3 className="text-sm font-medium text-muted-foreground mb-3">TAGS</h3>
-                      <div className="flex flex-wrap gap-2">
-                        {icon.tags.map((tag, index) => (
-                          <Badge key={index} variant="secondary" className="text-xs">
-                            {tag}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                  
                   {/* Similar Icons Section */}
                   {similarIcons.length > 0 && (
                     <div className="flex-1 flex flex-col">
