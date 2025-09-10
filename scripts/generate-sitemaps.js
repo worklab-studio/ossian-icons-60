@@ -2,42 +2,43 @@
 
 /**
  * Build-time sitemap generation script
- * Generates all sitemaps including 50k+ individual icon pages
+ * Generates all sitemaps including 50k+ individual icon pages with real icon data
  */
 
 import { writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { createRequire } from 'module';
 
+const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Import the SitemapService - we'll need to adjust the import path
 const DOMAIN = "https://iconstack.io";
 
-// Mock icon library manager for build time
+// Real library metadata with actual counts
 const LIBRARIES = [
-  { id: 'tabler', name: 'Tabler', count: 4500 },
-  { id: 'feather', name: 'Feather', count: 286 },
-  { id: 'solar', name: 'Solar', count: 7000 },
-  { id: 'phosphor', name: 'Phosphor', count: 7000 },
-  { id: 'bootstrap', name: 'Bootstrap', count: 2000 },
-  { id: 'iconsax', name: 'Iconsax', count: 1000 },
+  { id: 'tabler', name: 'Tabler', count: 4964 },
+  { id: 'feather', name: 'Feather', count: 287 },
+  { id: 'solar', name: 'Solar', count: 1241 },
+  { id: 'phosphor', name: 'Phosphor', count: 9072 },
+  { id: 'bootstrap', name: 'Bootstrap', count: 2078 },
+  { id: 'iconsax', name: 'Iconsax', count: 943 },
   { id: 'radix', name: 'Radix', count: 318 },
-  { id: 'line', name: 'Line MD', count: 600 },
-  { id: 'pixelart', name: 'Pixel Art', count: 480 },
-  { id: 'hugeicon', name: 'Huge Icons', count: 4000 },
-  { id: 'mingcute', name: 'Mingcute', count: 2000 },
-  { id: 'heroicons', name: 'Heroicons', count: 292 },
-  { id: 'material', name: 'Material Design', count: 11000 },
-  { id: 'fluent-ui', name: 'Fluent UI', count: 2000 },
-  { id: 'lucide', name: 'Lucide', count: 1400 },
-  { id: 'carbon', name: 'Carbon', count: 2000 },
-  { id: 'iconamoon', name: 'Iconamoon', count: 4000 },
-  { id: 'iconoir', name: 'Iconoir', count: 1400 },
-  { id: 'majesticon', name: 'Majesticons', count: 760 },
-  { id: 'simple', name: 'Simple Icons', count: 3000 },
-  { id: 'octicons', name: 'Octicons', count: 600 }
+  { id: 'line', name: 'Line', count: 606 },
+  { id: 'pixelart', name: 'Pixel Art', count: 486 },
+  { id: 'hugeicon', name: 'Huge Icons', count: 4497 },
+  { id: 'mingcute', name: 'Mingcute', count: 3102 },
+  { id: 'heroicons', name: 'Heroicons', count: 648 },
+  { id: 'material', name: 'Material Design', count: 7447 },
+  { id: 'fluent-ui', name: 'Fluent UI', count: 4780 },
+  { id: 'lucide', name: 'Lucide', count: 1632 },
+  { id: 'carbon', name: 'Carbon', count: 2510 },
+  { id: 'iconamoon', name: 'Iconamoon', count: 608 },
+  { id: 'iconoir', name: 'Iconoir', count: 1383 },
+  { id: 'majesticon', name: 'Majesticon', count: 760 },
+  { id: 'simple', name: 'Brand', count: 3355 },
+  { id: 'octicons', name: 'Octicons', count: 661 }
 ];
 
 function generateSitemapIndex() {
@@ -103,32 +104,67 @@ function iconNameToUrlSafe(name) {
     .replace(/^-|-$/g, '');
 }
 
-function generateLibrarySitemap(library) {
+async function loadRealIconData(libraryId) {
+  try {
+    console.log(`📚 Loading real icon data for ${libraryId}...`);
+    
+    // Dynamic import based on library ID - use .ts extension
+    const iconData = await import(`../src/data/${libraryId}.ts`);
+    
+    // Get the main export (different libraries export with different naming patterns)
+    const exportName = `${libraryId}Icons`;
+    const iconArray = iconData[exportName] || iconData[`${libraryId.replace('-', '')}Icons`] || iconData.default;
+    
+    if (!iconArray || !Array.isArray(iconArray)) {
+      console.warn(`⚠️  No icon array found for ${libraryId} (looking for ${exportName}), using fallback`);
+      console.log('Available exports:', Object.keys(iconData));
+      return [];
+    }
+    
+    console.log(`✅ Loaded ${iconArray.length} icons for ${libraryId}`);
+    return iconArray;
+  } catch (error) {
+    console.warn(`⚠️  Failed to load ${libraryId} icons:`, error.message);
+    return [];
+  }
+}
+
+async function generateLibrarySitemap(library) {
   const lastmod = new Date().toISOString().split('T')[0];
   const MAX_URLS_PER_SITEMAP = 45000;
   
-  // Generate mock icon names based on library patterns
-  const iconNames = [];
-  const baseNames = [
-    'home', 'user', 'search', 'settings', 'edit', 'delete', 'add', 'remove',
-    'star', 'heart', 'bookmark', 'share', 'download', 'upload', 'save', 'print',
-    'mail', 'phone', 'message', 'notification', 'calendar', 'clock', 'timer',
-    'play', 'pause', 'stop', 'forward', 'backward', 'volume', 'mute',
-    'image', 'video', 'camera', 'gallery', 'folder', 'file', 'document',
-    'arrow-up', 'arrow-down', 'arrow-left', 'arrow-right', 'chevron',
-    'check', 'x', 'plus', 'minus', 'info', 'warning', 'error', 'success',
-    'lock', 'unlock', 'eye', 'eye-off', 'visible', 'hidden',
-    'menu', 'grid', 'list', 'layout', 'sidebar', 'header', 'footer'
-  ];
+  // Load real icon data
+  const realIcons = await loadRealIconData(library.id);
   
-  // Generate variations based on library count
-  const targetCount = Math.min(library.count, MAX_URLS_PER_SITEMAP);
+  // Use real icon names if available, otherwise fallback to mock
+  let iconNames = [];
   
-  for (let i = 0; i < targetCount; i++) {
-    const baseName = baseNames[i % baseNames.length];
-    const variation = Math.floor(i / baseNames.length);
-    const iconName = variation > 0 ? `${baseName}-${variation}` : baseName;
-    iconNames.push(iconName);
+  if (realIcons.length > 0) {
+    iconNames = realIcons
+      .slice(0, MAX_URLS_PER_SITEMAP)
+      .map(icon => icon.name || icon.id || 'unnamed-icon');
+  } else {
+    // Fallback to mock data if real data unavailable
+    console.log(`📝 Using mock data for ${library.id}`);
+    const baseNames = [
+      'home', 'user', 'search', 'settings', 'edit', 'delete', 'add', 'remove',
+      'star', 'heart', 'bookmark', 'share', 'download', 'upload', 'save', 'print',
+      'mail', 'phone', 'message', 'notification', 'calendar', 'clock', 'timer',
+      'play', 'pause', 'stop', 'forward', 'backward', 'volume', 'mute',
+      'image', 'video', 'camera', 'gallery', 'folder', 'file', 'document',
+      'arrow-up', 'arrow-down', 'arrow-left', 'arrow-right', 'chevron',
+      'check', 'x', 'plus', 'minus', 'info', 'warning', 'error', 'success',
+      'lock', 'unlock', 'eye', 'eye-off', 'visible', 'hidden',
+      'menu', 'grid', 'list', 'layout', 'sidebar', 'header', 'footer'
+    ];
+    
+    const targetCount = Math.min(library.count, MAX_URLS_PER_SITEMAP);
+    for (let i = 0; i < targetCount; i++) {
+      const baseName = baseNames[i % baseNames.length];
+      const variation = Math.floor(i / baseNames.length);
+      const iconName = variation > 0 ? `${baseName}-${variation}` : baseName;
+      iconNames.push(iconName);
+    }
   }
   
   const urlEntries = iconNames.map(iconName => {
@@ -172,11 +208,11 @@ async function generateAllSitemaps() {
     ensureDir(mainPath);
     writeFileSync(mainPath, mainSitemap);
     
-    // Generate library-specific sitemaps
+    // Generate library-specific sitemaps with real icon data
     let totalIconPages = 0;
     for (const library of LIBRARIES) {
       console.log(`📄 Generating sitemap for ${library.name} (${library.count} icons)...`);
-      const librarySitemap = generateLibrarySitemap(library);
+      const librarySitemap = await generateLibrarySitemap(library);
       const libraryPath = join(publicDir, `sitemap-${library.id}.xml`);
       ensureDir(libraryPath);
       writeFileSync(libraryPath, librarySitemap);
