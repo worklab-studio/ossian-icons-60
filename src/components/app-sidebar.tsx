@@ -58,7 +58,10 @@ export function AppSidebar({
               <IconstackLogo className="h-4 w-4 text-primary-foreground" />
             </div>
             <div className="flex flex-col">
-              <span className="text-sm font-semibold">Iconstack</span>
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-semibold">Iconstack</span>
+                <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold transition-colors bg-secondary text-secondary-foreground">Beta</span>
+              </div>
               <span className="text-xs text-muted-foreground">50,000+ icons</span>
             </div>
           </div>

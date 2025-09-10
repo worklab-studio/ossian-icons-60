@@ -51,6 +51,7 @@ export function MobileHeader({
         <div className="flex items-center gap-2">
           <IconstackLogo className="h-6 w-6 text-primary" />
           <span className="font-bold text-lg text-primary">Iconstack</span>
+          <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold transition-colors bg-secondary text-secondary-foreground">Beta</span>
         </div>
         
         <div className="flex items-center gap-2">
