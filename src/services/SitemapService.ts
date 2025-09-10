@@ -2,7 +2,7 @@ import { iconLibraryManager } from "./IconLibraryManager";
 import { generateIconUrl } from "@/lib/url-helpers";
 
 export class SitemapService {
-  private static readonly DOMAIN = "https://iconstack.app";
+  private static readonly DOMAIN = "https://iconstack.io";
   private static readonly MAX_URLS_PER_SITEMAP = 45000; // Keep under 50k limit
   
   /**
