@@ -110,6 +110,7 @@ async function loadRealIconData(libraryId) {
     
     // Dynamic import based on library ID - use .ts extension
     const iconData = await import(`../src/data/${libraryId}.ts`);
+    console.log(`🔍 Debug: Available exports for ${libraryId}:`, Object.keys(iconData));
     
     // Map library IDs to their exact export names
     const exportMap = {
@@ -142,6 +143,8 @@ async function loadRealIconData(libraryId) {
     if (!iconArray || !Array.isArray(iconArray)) {
       console.warn(`⚠️  No icon array found for ${libraryId} (looking for ${exportName})`);
       console.log('Available exports:', Object.keys(iconData));
+      console.log('Export content type:', typeof iconData[exportName]);
+      console.log('Export content sample:', iconData[exportName]?.slice(0, 2));
       return [];
     }
     
@@ -159,6 +162,7 @@ async function generateLibrarySitemap(library) {
   
   // Load real icon data
   const realIcons = await loadRealIconData(library.id);
+  console.log(`🔍 Generated ${realIcons.length} icons for ${library.id} sitemap`);
   
   // Use real icon names if available, otherwise fallback to mock
   let iconNames = [];

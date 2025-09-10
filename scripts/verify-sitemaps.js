@@ -68,8 +68,8 @@ function verifySitemaps() {
   console.log(`📈 Total URLs indexed: ${totalUrls}`);
   console.log(`📁 Total sitemap files: ${results.length + 1}`); // +1 for main
   
-  if (totalUrls < 1000) {
-    console.log('⚠️  Warning: Total URL count seems low. Expected 40,000+ URLs');
+  if (totalUrls < 47000) {
+    console.log('⚠️  Warning: Total URL count seems low. Expected 47,740+ URLs');
     console.log('💡 Run "node scripts/generate-sitemaps.js" to generate complete sitemaps');
   } else {
     console.log('🎉 Sitemap generation appears complete!');
