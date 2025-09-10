@@ -15,6 +15,8 @@ import { parseIconUrl } from "@/lib/url-helpers";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
 import { copyIcon } from "@/lib/copy";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 
 export default function IconDetailPage() {
   const { libraryId, iconName: iconNameParam } = useParams<{
@@ -23,12 +25,14 @@ export default function IconDetailPage() {
   }>();
   const navigate = useNavigate();
   const { customization } = useIconCustomization();
+  const isMobile = useIsMobile();
   
   const [icon, setIcon] = useState<IconItem | null>(null);
   const [similarIcons, setSimilarIcons] = useState<IconItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [libraryMetadata, setLibraryMetadata] = useState<{ name: string; description?: string } | null>(null);
+  const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
 
   // Parse URL parameters
   const { libraryId: parsedLibraryId, iconName } = useMemo(() => {
@@ -176,9 +180,9 @@ export default function IconDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-background">
-        <IconDetailHeader />
-        <div className="flex items-center justify-center py-20">
+      <div className="flex h-screen w-full overflow-hidden">
+        <IconDetailHeader onCustomizeClick={() => setShowCustomizeSheet(true)} />
+        <div className="flex-1 flex items-center justify-center">
           <div className="flex items-center gap-2">
             <Loader2 className="h-6 w-6 animate-spin" />
             <span>Loading icon...</span>
@@ -190,9 +194,9 @@ export default function IconDetailPage() {
 
   if (error || !icon) {
     return (
-      <div className="min-h-screen bg-background">
-        <IconDetailHeader />
-        <div className="container mx-auto px-4 py-8">
+      <div className="flex h-screen w-full overflow-hidden">
+        <IconDetailHeader onCustomizeClick={() => setShowCustomizeSheet(true)} />
+        <div className="flex-1 flex items-center justify-center p-4">
           <Alert variant="destructive">
             <AlertCircle className="h-4 w-4" />
             <AlertDescription>
@@ -208,8 +212,113 @@ export default function IconDetailPage() {
   const pageTitle = `${icon.name} Icon - ${libraryMetadata?.name || parsedLibraryId} | IconStack`;
   const pageDescription = `Download and customize the ${icon.name} icon from ${libraryMetadata?.name || parsedLibraryId}. Available in SVG format with customizable colors and stroke width.`;
 
+  // Mobile layout for small screens
+  if (isMobile) {
+    return (
+      <>
+        <Helmet>
+          <title>{pageTitle}</title>
+          <meta name="description" content={pageDescription} />
+          <meta property="og:title" content={pageTitle} />
+          <meta property="og:description" content={pageDescription} />
+          <meta property="og:type" content="website" />
+          <link rel="canonical" href={`https://iconstack.app/icon/${parsedLibraryId}/${iconNameParam}`} />
+          
+          {/* JSON-LD Schema Markup */}
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CreativeWork",
+              "name": icon.name,
+              "description": pageDescription,
+              "creator": {
+                "@type": "Organization",
+                "name": libraryMetadata?.name || parsedLibraryId
+              },
+              "url": `https://iconstack.app/icon/${parsedLibraryId}/${iconNameParam}`,
+              "keywords": icon.tags?.join(', ') || '',
+              "category": icon.category || 'Icon',
+              "fileFormat": "SVG"
+            })}
+          </script>
+        </Helmet>
+
+        <div className="flex h-screen flex-col overflow-hidden">
+          <IconDetailHeader 
+            libraryName={libraryMetadata?.name || parsedLibraryId} 
+            iconName={icon.name}
+            onCustomizeClick={() => setShowCustomizeSheet(true)}
+          />
+          
+          <main className="flex-1 overflow-y-auto">
+            {/* Icon Display */}
+            <div className="p-4 flex flex-col items-center justify-center min-h-[50vh] space-y-6">
+              {renderIcon(icon)}
+              
+              {/* Icon Info Card */}
+              <Card className="w-full max-w-sm bg-card border shadow-sm">
+                <CardContent className="p-4 space-y-4">
+                  <div className="text-center">
+                    <h1 className="text-xl font-bold text-foreground mb-1">{icon.name}</h1>
+                    <p className="text-muted-foreground text-sm">{libraryMetadata?.name || parsedLibraryId}</p>
+                  </div>
+                  
+                  {/* Tags */}
+                  {icon.tags && icon.tags.length > 0 && (
+                    <div className="space-y-2">
+                      <h4 className="text-xs font-semibold text-foreground">Tags</h4>
+                      <div className="flex flex-wrap gap-1">
+                        {icon.tags.map((tag, index) => (
+                          <Badge key={index} variant="secondary" className="text-xs px-1 py-0.5">
+                            {tag}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            </div>
+            
+            {/* Similar Icons Section */}
+            {similarIcons.length > 0 && (
+              <section className="border-t bg-muted/20 py-6">
+                <div className="px-4">
+                  <h2 className="text-lg font-bold text-foreground mb-4">
+                    Similar Icons
+                  </h2>
+                  <div className="bg-background rounded-lg border shadow-sm p-4">
+                    <IconGrid
+                      items={similarIcons}
+                      selectedId={null}
+                      onCopy={handleIconCopy}
+                      color={customization.color}
+                      strokeWidth={customization.strokeWidth}
+                      ariaLabel="Similar icons grid"
+                    />
+                  </div>
+                </div>
+              </section>
+            )}
+          </main>
+          
+          {/* Footer */}
+          <footer className="border-t p-3 text-center text-xs text-muted-foreground bg-background">
+            <p>Built by Ossian Design Lab</p>
+          </footer>
+        </div>
+        
+        <MobileCustomizeSheet
+          isOpen={showCustomizeSheet}
+          onClose={() => setShowCustomizeSheet(false)}
+        />
+      </>
+    );
+  }
+
+  // Desktop layout - exactly matching homepage structure
   return (
-    <div className="min-h-screen bg-background">
+    <>
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
@@ -237,17 +346,17 @@ export default function IconDetailPage() {
         </script>
       </Helmet>
 
-      <IconDetailHeader 
-        libraryName={libraryMetadata?.name || parsedLibraryId} 
-        iconName={icon.name} 
-      />
-
-      <div className="flex">
-        {/* Main Content Area - Full width minus control panel */}
-        <div className="flex-1 min-h-screen flex flex-col pr-80">
-          {/* Icon Display - Full width */}
-          <div className="flex-1 bg-background">
-            <div className="p-6 lg:p-12 flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] space-y-8">
+      <div className="flex h-screen w-full overflow-hidden">{/* Fixed viewport height exactly like homepage */}
+        <div className="flex-1 flex flex-col h-screen">{/* Fixed layout container like homepage */}
+          <IconDetailHeader 
+            libraryName={libraryMetadata?.name || parsedLibraryId} 
+            iconName={icon.name}
+            onCustomizeClick={() => setShowCustomizeSheet(true)}
+          />
+          
+          <main className="flex-1 overflow-y-auto">{/* Scrollable content area like homepage */}
+            {/* Icon Display Section */}
+            <div className="p-6 lg:p-12 flex flex-col items-center justify-center min-h-[70vh] space-y-8">
               {/* Large Icon Display */}
               <div className="flex flex-col items-center space-y-6">
                 {renderIcon(icon)}
@@ -310,42 +419,45 @@ export default function IconDetailPage() {
                 </Card>
               </div>
             </div>
-          </div>
-          
-          {/* Similar Icons Section - Full width */}
-          {similarIcons.length > 0 && (
-            <section className="border-t bg-muted/20 py-12">
-              <div className="px-6 lg:px-12">
-                <div className="max-w-none">
-                  <h2 className="text-2xl font-bold text-foreground mb-8">
-                    Similar Icons from {libraryMetadata?.name || parsedLibraryId}
-                  </h2>
-                  <div className="bg-background rounded-lg border shadow-sm p-6">
-                    <IconGrid
-                      items={similarIcons}
-                      selectedId={null}
-                      onCopy={handleIconCopy}
-                      color={customization.color}
-                      strokeWidth={customization.strokeWidth}
-                      ariaLabel="Similar icons grid"
-                    />
+            
+            {/* Similar Icons Section */}
+            {similarIcons.length > 0 && (
+              <section className="border-t bg-muted/20 py-12">
+                <div className="px-6 lg:px-12">
+                  <div className="max-w-none">
+                    <h2 className="text-2xl font-bold text-foreground mb-8">
+                      Similar Icons from {libraryMetadata?.name || parsedLibraryId}
+                    </h2>
+                    <div className="bg-background rounded-lg border shadow-sm p-6">
+                      <IconGrid
+                        items={similarIcons}
+                        selectedId={null}
+                        onCopy={handleIconCopy}
+                        color={customization.color}
+                        strokeWidth={customization.strokeWidth}
+                        ariaLabel="Similar icons grid"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-            </section>
-          )}
+              </section>
+            )}
+          </main>
           
-          {/* Footer matching homepage */}
+          {/* Footer matching homepage - sticky to bottom */}
           <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
             <p>Built by Ossian Design Lab • <a href="https://buymeacoffee.com/thedeepflux" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Support creator</a></p>
           </footer>
         </div>
         
         {/* Fixed Control Panel at right edge - exactly like homepage */}
-        <div className="fixed right-0 top-16 bottom-0 w-80 z-40">
-          <ControlPanel selectedIcon={icon} selectedSet={parsedLibraryId} />
-        </div>
+        <ControlPanel selectedIcon={icon} selectedSet={parsedLibraryId} />
       </div>
-    </div>
+      
+      <MobileCustomizeSheet
+        isOpen={showCustomizeSheet}
+        onClose={() => setShowCustomizeSheet(false)}
+      />
+    </>
   );
 }
