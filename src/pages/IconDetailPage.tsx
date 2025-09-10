@@ -108,31 +108,43 @@ export default function IconDetailPage() {
 
   // Function to find similar icons across all libraries using search worker
   const findSimilarIconsAcrossLibraries = async (targetIcon: IconItem) => {
+    console.log('🔍 Starting similar icons search for:', targetIcon.name, 'from library:', parsedLibraryId);
+    console.log('🔧 Search worker ready:', searchWorkerReady);
+    
     if (!searchWorkerReady) {
+      console.log('⚠️ Search worker not ready, using fallback');
       // Fallback to same-library search if worker not ready
       const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
       const fallback = libraryIcons
         .filter(ico => ico.id !== targetIcon.id)
         .slice(0, 24);
+      console.log('📦 Fallback similar icons found:', fallback.length);
       setSimilarIcons(fallback);
       return;
     }
 
     try {
       setSimilarIconsLoading(true);
+      console.log('🔄 Starting cross-library search...');
 
       // Index popular libraries for cross-library search
       const popularLibraries = ['lucide', 'tabler', 'heroicons', 'phosphor', 'feather'];
+      console.log('📚 Indexing libraries:', popularLibraries);
+      
       const indexPromises = popularLibraries.map(async (libId) => {
         try {
+          console.log(`📖 Loading library: ${libId}`);
           const icons = await iconLibraryManager.loadLibrary(libId);
+          console.log(`📖 Loaded ${icons.length} icons from ${libId}`);
           await indexLibrary(libId, icons);
+          console.log(`✅ Successfully indexed ${libId}`);
         } catch (error) {
-          console.warn(`Failed to index library ${libId}:`, error);
+          console.warn(`❌ Failed to index library ${libId}:`, error);
         }
       });
 
       await Promise.all(indexPromises);
+      console.log('🎯 All libraries indexed');
 
       // Search for similar icons using multiple strategies
       const searchQueries = [
@@ -141,6 +153,8 @@ export default function IconDetailPage() {
         targetIcon.category || '', // Category search
       ].filter(Boolean);
 
+      console.log('🔎 Search queries:', searchQueries);
+
       const allResults = new Set<string>(); // Use Set to avoid duplicates
       const similarIconsMap = new Map<string, IconItem>();
 
@@ -148,13 +162,16 @@ export default function IconDetailPage() {
       for (const query of searchQueries) {
         if (query.trim()) {
           try {
+            console.log(`🔍 Searching for: "${query}"`);
             const { results } = await search(query, {
               maxResults: 50,
               fuzzy: true,
               enableSynonyms: true,
-              enablePhonetic: false
+              enablePhonetic: true
             });
 
+            console.log(`📊 Found ${results.length} results for query "${query}"`);
+            
             results
               .filter(icon => icon.id !== targetIcon.id) // Exclude current icon
               .slice(0, 20) // Limit per query
@@ -162,25 +179,29 @@ export default function IconDetailPage() {
                 if (!allResults.has(icon.id)) {
                   allResults.add(icon.id);
                   similarIconsMap.set(icon.id, icon);
+                  console.log(`➕ Added similar icon: ${icon.name} (${icon.id})`);
                 }
               });
           } catch (error) {
-            console.warn(`Search failed for query "${query}":`, error);
+            console.warn(`❌ Search failed for query "${query}":`, error);
           }
         }
       }
 
       // Convert to array and limit to 24 results
       const finalSimilarIcons = Array.from(similarIconsMap.values()).slice(0, 24);
+      console.log(`🎉 Final similar icons count: ${finalSimilarIcons.length}`);
+      console.log('📋 Similar icons:', finalSimilarIcons.map(i => `${i.name} (${i.id.split('-')[0]})`));
 
       setSimilarIcons(finalSimilarIcons);
     } catch (error) {
-      console.error('Failed to find similar icons:', error);
+      console.error('💥 Failed to find similar icons:', error);
       // Fallback to same-library search
       const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
       const fallback = libraryIcons
         .filter(ico => ico.id !== targetIcon.id)
         .slice(0, 24);
+      console.log('🔄 Using fallback similar icons:', fallback.length);
       setSimilarIcons(fallback);
     } finally {
       setSimilarIconsLoading(false);
