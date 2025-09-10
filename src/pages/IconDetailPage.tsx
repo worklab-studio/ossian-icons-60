@@ -265,22 +265,53 @@ export default function IconDetailPage() {
                     </div>
                   </div>
                   
-                  {/* Edge-to-edge segment */}
-                  <div className="border-b border-border/30 w-full -mx-6 mb-6"></div>
-                  
-                  <div className="text-center">
-                    <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
-                    <p className="text-sm text-muted-foreground">
-                      From {libraryMetadata?.name || parsedLibraryId}
-                      {icon.style && ` • ${icon.style} style`}
-                    </p>
-                  </div>
                 </div>
               </div>
               
               {/* Right: Fixed Details - Non-scrollable */}
               <div className="flex-1 overflow-hidden">
                 <div className="h-full flex flex-col">
+                  {/* Icon Info Header */}
+                  <div className="p-6">
+                    <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      From {libraryMetadata?.name || parsedLibraryId}
+                      {icon.style && ` • ${icon.style} style`}
+                    </p>
+                  </div>
+                  
+                  {/* Edge-to-edge segment */}
+                  <div className="border-b border-border"></div>
+                  
+                  {/* Technical Details Section - 2 Column Layout */}
+                  <div className="p-6 border-b border-border/30">
+                    <div className="grid grid-cols-2 gap-6 text-sm">
+                      {/* Column 1 */}
+                      <div className="space-y-3">
+                        <div>
+                          <div className="text-muted-foreground">Format</div>
+                          <div>SVG</div>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground">Library</div>
+                          <div>{libraryMetadata?.name || parsedLibraryId}</div>
+                        </div>
+                      </div>
+                      
+                      {/* Column 2 */}
+                      <div className="space-y-3">
+                        <div>
+                          <div className="text-muted-foreground">ID</div>
+                          <div className="font-mono text-xs break-all">{icon.id}</div>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground">License</div>
+                          <div>Open Source</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
                   {/* Tags Section */}
                   {icon.tags && icon.tags.length > 0 && (
                     <div className="p-6 border-b border-border/30">
@@ -294,41 +325,6 @@ export default function IconDetailPage() {
                       </div>
                     </div>
                   )}
-                  
-                  {/* Technical Details Section - 2 Column Layout */}
-                  <div className="p-6 border-b border-border/30">
-                    <h3 className="text-sm font-medium text-muted-foreground mb-4">DETAILS</h3>
-                    <div className="grid grid-cols-2 gap-x-6 gap-y-3">
-                      <div className="flex justify-between items-center col-span-2">
-                        <span className="text-sm text-muted-foreground">Format</span>
-                        <span className="text-sm font-medium">SVG</span>
-                      </div>
-                      <div className="flex justify-between items-center col-span-2">
-                        <span className="text-sm text-muted-foreground">ID</span>
-                        <code className="text-xs font-mono bg-muted px-2 py-1 rounded">{icon.id}</code>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm text-muted-foreground">Library</span>
-                        <span className="text-sm font-medium">{libraryMetadata?.name || parsedLibraryId}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm text-muted-foreground">License</span>
-                        <span className="text-sm font-medium">Open Source</span>
-                      </div>
-                      {icon.style && (
-                        <div className="flex justify-between items-center">
-                          <span className="text-sm text-muted-foreground">Style</span>
-                          <span className="text-sm font-medium capitalize">{icon.style}</span>
-                        </div>
-                      )}
-                      {icon.category && (
-                        <div className="flex justify-between items-center">
-                          <span className="text-sm text-muted-foreground">Category</span>
-                          <span className="text-sm font-medium capitalize">{icon.category}</span>
-                        </div>
-                      )}
-                    </div>
-                  </div>
                   
                   {/* Similar Icons Section */}
                   {similarIcons.length > 0 && (
