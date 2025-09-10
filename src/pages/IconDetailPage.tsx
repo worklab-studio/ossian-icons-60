@@ -5,7 +5,7 @@ import { IconDetailHeader } from "@/components/IconDetailHeader";
 import { ControlPanel } from "@/components/control-panel";
 import { IconGrid } from "@/components/icon-grid/IconGrid";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
+
 import { Separator } from "@/components/ui/separator";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { SidebarProvider } from "@/components/ui/sidebar";
@@ -257,130 +257,104 @@ export default function IconDetailPage() {
           <div className="flex-1 flex flex-col h-screen">{/* Fixed layout container like homepage */}
             <IconDetailHeader />
             
-            {/* Fixed breadcrumb section - matching homepage's title section */}
+            {/* Fixed breadcrumb section */}
             <div className="px-6 pt-6 pb-4 border-b border-border/30 bg-background">
-              <div className="space-y-3">
-                <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-                  <div className="space-y-1">
-                    <Breadcrumb>
-                      <BreadcrumbList>
-                        <BreadcrumbItem>
-                          <BreadcrumbLink href="/">Home</BreadcrumbLink>
-                        </BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                        <BreadcrumbItem>
-                          <BreadcrumbLink href={`/?library=${parsedLibraryId}`}>{libraryMetadata?.name || parsedLibraryId}</BreadcrumbLink>
-                        </BreadcrumbItem>
-                        <BreadcrumbSeparator />
-                        <BreadcrumbItem>
-                          <BreadcrumbPage>{icon.name}</BreadcrumbPage>
-                        </BreadcrumbItem>
-                      </BreadcrumbList>
-                    </Breadcrumb>
-                    <h1 className="text-2xl font-semibold">{icon.name}</h1>
-                    <p className="text-sm text-muted-foreground">
-                      {libraryMetadata?.name || parsedLibraryId} library
-                    </p>
+              <Breadcrumb>
+                <BreadcrumbList>
+                  <BreadcrumbItem>
+                    <BreadcrumbLink href={`/?library=${parsedLibraryId}`}>{libraryMetadata?.name || parsedLibraryId}</BreadcrumbLink>
+                  </BreadcrumbItem>
+                  <BreadcrumbSeparator />
+                  <BreadcrumbItem>
+                    <BreadcrumbPage>{icon.name}</BreadcrumbPage>
+                  </BreadcrumbItem>
+                </BreadcrumbList>
+              </Breadcrumb>
+            </div>
+            
+            <main className="flex-1 overflow-hidden flex">
+              {/* Left: Fixed Icon Display - Non-scrollable */}
+              <div className="w-80 flex-shrink-0 p-6 border-r border-border/30 bg-background">
+                <div className="sticky top-0">
+                  <div className="flex items-center justify-center mb-6">
+                    {renderIcon(icon)}
+                  </div>
+                  <div className="text-center">
+                    <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
+                    <p className="text-sm text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            <main className="flex-1 overflow-hidden">{/* Scrollable content area like homepage */}
-              <div className="h-full overflow-y-auto">
-                {/* Icon Display Section - Side by Side Layout */}
-                <div className="p-6 lg:p-12">
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start min-h-[60vh]">
-                    {/* Left: Large Icon Display */}
-                    <div className="flex items-center justify-center lg:sticky lg:top-8">
-                      <div className="flex flex-col items-center space-y-6">
-                        {renderIcon(icon)}
+              
+              {/* Right: Scrollable Details */}
+              <div className="flex-1 overflow-y-auto">
+                <div className="p-6 space-y-6">
+                  {/* Tags Section */}
+                  {icon.tags && icon.tags.length > 0 && (
+                    <div className="pb-6 border-b border-border/30">
+                      <h3 className="text-sm font-medium text-muted-foreground mb-3">TAGS</h3>
+                      <div className="flex flex-wrap gap-2">
+                        {icon.tags.map((tag, index) => (
+                          <Badge key={index} variant="secondary" className="text-xs">
+                            {tag}
+                          </Badge>
+                        ))}
                       </div>
                     </div>
-                    
-                    {/* Right: Icon Details Card */}
-                    <div className="flex items-start">{/* Icon Info Card */}
-                      <Card className="w-full bg-card border shadow-sm">
-                        <CardContent className="p-6 space-y-6">
-                          <div>
-                            <h2 className="text-3xl font-bold text-foreground mb-2">{icon.name}</h2>
-                            <p className="text-muted-foreground text-lg">{libraryMetadata?.name || parsedLibraryId}</p>
-                          </div>
-                        
-                        {/* Tags */}
-                        {icon.tags && icon.tags.length > 0 && (
-                          <div className="space-y-3">
-                            <h4 className="text-sm font-semibold text-foreground">Tags</h4>
-                            <div className="flex flex-wrap gap-2">
-                              {icon.tags.map((tag, index) => (
-                                <Badge key={index} variant="secondary" className="text-xs px-2 py-1">
-                                  {tag}
-                                </Badge>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-                        
-                        <Separator className="bg-border" />
-                        
-                        {/* Technical Info */}
-                        <div className="grid grid-cols-2 gap-6 text-sm">
-                          <div>
-                            <span className="text-muted-foreground block mb-1">Format</span>
-                            <div className="font-semibold text-foreground">SVG</div>
-                          </div>
-                          <div>
-                            <span className="text-muted-foreground block mb-1">License</span>
-                            <div className="font-semibold text-foreground">Open Source</div>
-                          </div>
-                          {icon.style && (
-                            <div>
-                              <span className="text-muted-foreground block mb-1">Style</span>
-                              <div className="font-semibold text-foreground capitalize">{icon.style}</div>
-                            </div>
-                          )}
-                          {icon.category && (
-                            <div>
-                              <span className="text-muted-foreground block mb-1">Category</span>
-                              <div className="font-semibold text-foreground capitalize">{icon.category}</div>
-                            </div>
-                          )}
+                  )}
+                  
+                  {/* Technical Details Section */}
+                  <div className="pb-6 border-b border-border/30">
+                    <h3 className="text-sm font-medium text-muted-foreground mb-4">DETAILS</h3>
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm text-muted-foreground">Format</span>
+                        <span className="text-sm font-medium">SVG</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm text-muted-foreground">ID</span>
+                        <code className="text-xs font-mono bg-muted px-2 py-1 rounded">{icon.id}</code>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm text-muted-foreground">Library</span>
+                        <span className="text-sm font-medium">{libraryMetadata?.name || parsedLibraryId}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm text-muted-foreground">License</span>
+                        <span className="text-sm font-medium">Open Source</span>
+                      </div>
+                      {icon.style && (
+                        <div className="flex justify-between items-center">
+                          <span className="text-sm text-muted-foreground">Style</span>
+                          <span className="text-sm font-medium capitalize">{icon.style}</span>
                         </div>
-                        
-                        <div className="pt-2">
-                          <span className="text-muted-foreground text-xs block mb-1">Icon ID</span>
-                          <code className="font-mono text-xs text-muted-foreground break-all bg-muted px-2 py-1 rounded">
-                            {icon.id}
-                          </code>
+                      )}
+                      {icon.category && (
+                        <div className="flex justify-between items-center">
+                          <span className="text-sm text-muted-foreground">Category</span>
+                          <span className="text-sm font-medium capitalize">{icon.category}</span>
                         </div>
-                      </CardContent>
-                    </Card>
-                   </div>
-                 </div>
+                      )}
+                    </div>
+                  </div>
+                  
+                  {/* Similar Icons Section */}
+                  {similarIcons.length > 0 && (
+                    <div>
+                      <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
+                      <div className="bg-muted/20 rounded-lg p-4">
+                        <IconGrid
+                          items={similarIcons}
+                          selectedId={null}
+                          onCopy={handleIconCopy}
+                          color={customization.color}
+                          strokeWidth={customization.strokeWidth}
+                          ariaLabel="Similar icons grid"
+                        />
+                      </div>
+                    </div>
+                  )}
                 </div>
-                 
-                 {/* Similar Icons Section */}
-                {similarIcons.length > 0 && (
-                  <section className="border-t bg-muted/20 py-12">
-                    <div className="px-6 lg:px-12">
-                      <div className="max-w-none">
-                        <h2 className="text-2xl font-bold text-foreground mb-8">
-                          Similar Icons from {libraryMetadata?.name || parsedLibraryId}
-                        </h2>
-                        <div className="bg-background rounded-lg border shadow-sm p-6">
-                          <IconGrid
-                            items={similarIcons}
-                            selectedId={null}
-                            onCopy={handleIconCopy}
-                            color={customization.color}
-                            strokeWidth={customization.strokeWidth}
-                            ariaLabel="Similar icons grid"
-                           />
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                )}
               </div>
             </main>
             
