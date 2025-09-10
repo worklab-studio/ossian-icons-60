@@ -243,79 +243,76 @@ export default function IconDetailPage() {
       />
 
       <div className="flex">
-        {/* Main Content Area */}
-        <div className="flex-1 min-h-screen flex flex-col">
-          {/* Two-column layout matching homepage design */}
-          <div className="flex-1 flex flex-col lg:flex-row">
-            {/* Left: Icon Display (takes remaining space) */}
-            <div className="flex-1 border-b lg:border-b-0 lg:border-r bg-background">
-              <div className="p-6 lg:p-12 flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] space-y-8">
-                {/* Large Icon Display */}
-                <div className="flex flex-col items-center space-y-6">
-                  {renderIcon(icon)}
-                  
-                  {/* Icon Info Card */}
-                  <Card className="w-full max-w-lg bg-card border shadow-sm">
-                    <CardContent className="p-6 space-y-6">
-                      <div className="text-center">
-                        <h1 className="text-3xl font-bold text-foreground mb-2">{icon.name}</h1>
-                        <p className="text-muted-foreground text-lg">{libraryMetadata?.name || parsedLibraryId}</p>
+        {/* Main Content Area - Full width minus control panel */}
+        <div className="flex-1 min-h-screen flex flex-col pr-80">
+          {/* Icon Display - Full width */}
+          <div className="flex-1 bg-background">
+            <div className="p-6 lg:p-12 flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] space-y-8">
+              {/* Large Icon Display */}
+              <div className="flex flex-col items-center space-y-6">
+                {renderIcon(icon)}
+                
+                {/* Icon Info Card */}
+                <Card className="w-full max-w-lg bg-card border shadow-sm">
+                  <CardContent className="p-6 space-y-6">
+                    <div className="text-center">
+                      <h1 className="text-3xl font-bold text-foreground mb-2">{icon.name}</h1>
+                      <p className="text-muted-foreground text-lg">{libraryMetadata?.name || parsedLibraryId}</p>
+                    </div>
+                    
+                    {/* Tags */}
+                    {icon.tags && icon.tags.length > 0 && (
+                      <div className="space-y-3">
+                        <h4 className="text-sm font-semibold text-foreground">Tags</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {icon.tags.map((tag, index) => (
+                            <Badge key={index} variant="secondary" className="text-xs px-2 py-1">
+                              {tag}
+                            </Badge>
+                          ))}
+                        </div>
                       </div>
-                      
-                      {/* Tags */}
-                      {icon.tags && icon.tags.length > 0 && (
-                        <div className="space-y-3">
-                          <h4 className="text-sm font-semibold text-foreground">Tags</h4>
-                          <div className="flex flex-wrap gap-2">
-                            {icon.tags.map((tag, index) => (
-                              <Badge key={index} variant="secondary" className="text-xs px-2 py-1">
-                                {tag}
-                              </Badge>
-                            ))}
-                          </div>
+                    )}
+                    
+                    <Separator className="bg-border" />
+                    
+                    {/* Technical Info */}
+                    <div className="grid grid-cols-2 gap-6 text-sm">
+                      <div>
+                        <span className="text-muted-foreground block mb-1">Format</span>
+                        <div className="font-semibold text-foreground">SVG</div>
+                      </div>
+                      <div>
+                        <span className="text-muted-foreground block mb-1">License</span>
+                        <div className="font-semibold text-foreground">Open Source</div>
+                      </div>
+                      {icon.style && (
+                        <div>
+                          <span className="text-muted-foreground block mb-1">Style</span>
+                          <div className="font-semibold text-foreground capitalize">{icon.style}</div>
                         </div>
                       )}
-                      
-                      <Separator className="bg-border" />
-                      
-                      {/* Technical Info */}
-                      <div className="grid grid-cols-2 gap-6 text-sm">
+                      {icon.category && (
                         <div>
-                          <span className="text-muted-foreground block mb-1">Format</span>
-                          <div className="font-semibold text-foreground">SVG</div>
+                          <span className="text-muted-foreground block mb-1">Category</span>
+                          <div className="font-semibold text-foreground capitalize">{icon.category}</div>
                         </div>
-                        <div>
-                          <span className="text-muted-foreground block mb-1">License</span>
-                          <div className="font-semibold text-foreground">Open Source</div>
-                        </div>
-                        {icon.style && (
-                          <div>
-                            <span className="text-muted-foreground block mb-1">Style</span>
-                            <div className="font-semibold text-foreground capitalize">{icon.style}</div>
-                          </div>
-                        )}
-                        {icon.category && (
-                          <div>
-                            <span className="text-muted-foreground block mb-1">Category</span>
-                            <div className="font-semibold text-foreground capitalize">{icon.category}</div>
-                          </div>
-                        )}
-                      </div>
-                      
-                      <div className="pt-2">
-                        <span className="text-muted-foreground text-xs block mb-1">Icon ID</span>
-                        <code className="font-mono text-xs text-muted-foreground break-all bg-muted px-2 py-1 rounded">
-                          {icon.id}
-                        </code>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
+                      )}
+                    </div>
+                    
+                    <div className="pt-2">
+                      <span className="text-muted-foreground text-xs block mb-1">Icon ID</span>
+                      <code className="font-mono text-xs text-muted-foreground break-all bg-muted px-2 py-1 rounded">
+                        {icon.id}
+                      </code>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </div>
           
-          {/* Similar Icons Section - Full width below main content */}
+          {/* Similar Icons Section - Full width */}
           {similarIcons.length > 0 && (
             <section className="border-t bg-muted/20 py-12">
               <div className="px-6 lg:px-12">
@@ -344,8 +341,10 @@ export default function IconDetailPage() {
           </footer>
         </div>
         
-        {/* Right: Fixed Control Panel (exactly like homepage) */}
-        <ControlPanel selectedIcon={icon} selectedSet={parsedLibraryId} />
+        {/* Fixed Control Panel at right edge - exactly like homepage */}
+        <div className="fixed right-0 top-16 bottom-0 w-80 z-40">
+          <ControlPanel selectedIcon={icon} selectedSet={parsedLibraryId} />
+        </div>
       </div>
     </div>
   );
