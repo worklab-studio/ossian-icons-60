@@ -244,45 +244,40 @@ export default function IconDetailPage() {
             
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Fixed Icon Display - Non-scrollable */}
-              <div className="w-80 flex-shrink-0 p-6 border-r border-border/30">
-                <div className="flex items-center justify-center mb-6">
-                  <div 
-                    className="flex items-center justify-center w-72 h-72"
-                    style={{ color: customization.color }}
-                  >
-                    {typeof icon.svg === 'string' ? (
-                      <div dangerouslySetInnerHTML={{ 
-                        __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
-                      }} />
-                    ) : (
-                      React.createElement(icon.svg as React.ComponentType<any>, {
-                        size: 256,
-                        color: customization.color,
-                        strokeWidth: customization.strokeWidth
-                      })
-                    )}
+              <div className="w-80 flex-shrink-0 border-r border-border/30">
+                <div className="p-6">
+                  <div className="flex items-center justify-center mb-6">
+                    <div 
+                      className="flex items-center justify-center w-72 h-72"
+                      style={{ color: customization.color }}
+                    >
+                      {typeof icon.svg === 'string' ? (
+                        <div dangerouslySetInnerHTML={{ 
+                          __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
+                        }} />
+                      ) : (
+                        React.createElement(icon.svg as React.ComponentType<any>, {
+                          size: 256,
+                          color: customization.color,
+                          strokeWidth: customization.strokeWidth
+                        })
+                      )}
+                    </div>
                   </div>
-                </div>
-                
-                {/* New segment below icon */}
-                <div className="pb-4 mb-4 border-b border-border/30">
+                  
                   <div className="text-center">
-                    <p className="text-xs text-muted-foreground uppercase tracking-wide">Icon Details</p>
+                    <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
+                    <p className="text-sm text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
                   </div>
-                </div>
-                
-                <div className="text-center">
-                  <h1 className="text-xl font-semibold mb-2">{icon.name}</h1>
-                  <p className="text-sm text-muted-foreground">{libraryMetadata?.name || parsedLibraryId}</p>
                 </div>
               </div>
               
               {/* Right: Fixed Details - Non-scrollable */}
-              <div className="flex-1 p-6 overflow-hidden">
-                <div className="h-full flex flex-col space-y-6">
+              <div className="flex-1 overflow-hidden">
+                <div className="h-full flex flex-col">
                   {/* Tags Section */}
                   {icon.tags && icon.tags.length > 0 && (
-                    <div className="pb-6 border-b border-border/30">
+                    <div className="p-6 border-b border-border/30">
                       <h3 className="text-sm font-medium text-muted-foreground mb-3">TAGS</h3>
                       <div className="flex flex-wrap gap-2">
                         {icon.tags.map((tag, index) => (
@@ -294,15 +289,15 @@ export default function IconDetailPage() {
                     </div>
                   )}
                   
-                  {/* Technical Details Section */}
-                  <div className="pb-6 border-b border-border/30">
+                  {/* Technical Details Section - 2 Column Layout */}
+                  <div className="p-6 border-b border-border/30">
                     <h3 className="text-sm font-medium text-muted-foreground mb-4">DETAILS</h3>
-                    <div className="space-y-4">
-                      <div className="flex justify-between items-center">
+                    <div className="grid grid-cols-2 gap-x-6 gap-y-3">
+                      <div className="flex justify-between items-center col-span-2">
                         <span className="text-sm text-muted-foreground">Format</span>
                         <span className="text-sm font-medium">SVG</span>
                       </div>
-                      <div className="flex justify-between items-center">
+                      <div className="flex justify-between items-center col-span-2">
                         <span className="text-sm text-muted-foreground">ID</span>
                         <code className="text-xs font-mono bg-muted px-2 py-1 rounded">{icon.id}</code>
                       </div>
@@ -331,9 +326,12 @@ export default function IconDetailPage() {
                   
                   {/* Similar Icons Section */}
                   {similarIcons.length > 0 && (
-                    <div>
-                      <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
-                      <div className="h-64 overflow-hidden">
+                    <div className="flex-1 flex flex-col">
+                      <div className="p-6 pb-4">
+                        <h3 className="text-sm font-medium text-muted-foreground mb-4">SIMILAR ICONS</h3>
+                      </div>
+                      <div className="border-b border-border/30"></div>
+                      <div className="flex-1 p-6 pt-4 overflow-hidden">
                         <IconGrid
                           items={similarIcons}
                           selectedId={null}
