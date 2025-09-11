@@ -52,7 +52,7 @@ export function AppSidebar({
   return <Sidebar className="border-r flex flex-col">
       {/* Fixed Header - Logo Area */}
       <SidebarHeader className="flex-shrink-0 border-b h-16">
-        <div className="flex items-center px-3 h-full">
+        <div className="flex items-center px-3 h-full cursor-pointer" onClick={() => window.location.href = '/'}>
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary">
               <IconstackLogo className="h-4 w-4 text-primary-foreground" />
