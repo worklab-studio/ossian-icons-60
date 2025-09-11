@@ -9,11 +9,6 @@ import { execSync } from 'child_process';
 
 try {
   console.log('🚀 Starting complete sitemap generation...');
-  
-  // First test our import
-  console.log('🧪 Testing Tabler import first...');
-  execSync('node test-tabler-sitemap.js', { stdio: 'inherit' });
-  
   console.log('📋 This will create sitemaps for all 47,740+ icon pages');
   
   // Generate all sitemaps with real data
