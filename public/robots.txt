@@ -11,7 +11,7 @@ User-agent: facebookexternalhit
 Allow: /
 
 User-agent: OAI-SearchBot
-Disallow:
+Allow: /
 
 User-agent: *
 Allow: /
