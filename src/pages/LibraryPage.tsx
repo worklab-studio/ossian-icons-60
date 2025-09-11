@@ -19,8 +19,13 @@ const LibraryPageContent = () => {
   const [error, setError] = useState<string | null>(null);
   const { customization } = useIconCustomization();
 
-  // Get library metadata
+  // Get library metadata with debug logging
   const libraryMetadata = iconLibraryManager.libraries.find(lib => lib.id === libraryId);
+  console.log('🔍 Library lookup:', { 
+    libraryId, 
+    found: !!libraryMetadata, 
+    availableLibraries: iconLibraryManager.libraries.map(l => l.id) 
+  });
 
   // Schema.org markup for SEO
   const { schemaMarkup } = useSchemaMarkup({
@@ -30,20 +35,34 @@ const LibraryPageContent = () => {
   });
 
   useEffect(() => {
-    if (!libraryId || !libraryMetadata) {
-      setError('Library not found');
+    console.log('🔍 LibraryPage useEffect triggered:', { libraryId, libraryMetadata: !!libraryMetadata });
+    
+    if (!libraryId) {
+      console.error('❌ No libraryId provided');
+      setError('No library ID provided');
+      setLoading(false);
+      return;
+    }
+    
+    if (!libraryMetadata) {
+      console.error('❌ Library metadata not found for:', libraryId);
+      setError(`Library "${libraryId}" not found`);
       setLoading(false);
       return;
     }
 
     const loadLibrary = async () => {
       try {
+        console.log('🚀 Starting library load for:', libraryId);
         setLoading(true);
+        setError(null);
+        
         const libraryIcons = await iconLibraryManager.loadLibrary(libraryId);
+        console.log('✅ Library loaded successfully:', libraryId, 'icons:', libraryIcons.length);
         setIcons(libraryIcons);
       } catch (err) {
-        console.error('Failed to load library:', err);
-        setError('Failed to load library icons');
+        console.error('❌ Failed to load library:', libraryId, err);
+        setError(`Failed to load library icons: ${err instanceof Error ? err.message : 'Unknown error'}`);
       } finally {
         setLoading(false);
       }
@@ -62,12 +81,15 @@ const LibraryPageContent = () => {
     }
   };
 
-  // Redirect to 404 if library doesn't exist
-  if (!libraryMetadata) {
-    return <Navigate to="/404" replace />;
+  // Show detailed error instead of silent redirect
+  if (!libraryMetadata && !loading) {
+    console.error('❌ Library not found, rendering error state');
   }
 
-  if (error) {
+  if (error || (!libraryMetadata && !loading)) {
+    const errorMessage = error || `Library "${libraryId}" not found`;
+    console.log('🚨 Rendering error state:', errorMessage);
+    
     return (
       <div className="min-h-screen bg-background">
         <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -80,8 +102,17 @@ const LibraryPageContent = () => {
         </header>
         <main className="container mx-auto px-4 py-8">
           <div className="text-center">
-            <h1 className="text-2xl font-bold text-foreground mb-4">Error</h1>
-            <p className="text-muted-foreground">{error}</p>
+            <h1 className="text-2xl font-bold text-foreground mb-4">Library Not Found</h1>
+            <p className="text-muted-foreground mb-4">{errorMessage}</p>
+            <p className="text-sm text-muted-foreground">
+              Available libraries: {iconLibraryManager.libraries.map(l => l.id).join(', ')}
+            </p>
+            <a 
+              href="/" 
+              className="inline-block mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Return Home
+            </a>
           </div>
         </main>
       </div>
@@ -128,8 +159,12 @@ const LibraryPageContent = () => {
         <meta name="twitter:title" content={`${libraryMetadata.name} Icons - Iconstack`} />
         <meta name="twitter:description" content={`${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}`} />
         
-        {/* Canonical URL */}
-        <link rel="canonical" href={`https://iconstack.io/library/${libraryId}`} />
+        {/* Canonical URL - ensure proper URL encoding */}
+        <link rel="canonical" href={`https://iconstack.io/library/${encodeURIComponent(libraryId || '')}`} />
+        
+        {/* Robots meta - help Google understand this is indexable */}
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
         
         {/* Structured Data */}
         <script type="application/ld+json">

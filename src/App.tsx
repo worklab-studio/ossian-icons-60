@@ -48,6 +48,7 @@ const App = () => (
                 <Route path="/demo/icons" element={<IconsDemo />} />
                 <Route path="/library/:libraryId" element={<LibraryPage />} />
                 <Route path="/icon/:libraryId/:iconName" element={<IconDetailPage />} />
+                <Route path="/404" element={<NotFound />} />
                 
                 {/* Dynamic sitemap routes */}
                 <Route path="/sitemap.xml" element={<Sitemap />} />
