@@ -1,8 +1,8 @@
-# Inconstack - The Ultimate Free Icon Library
+# Iconstack - The Ultimate Free Icon Library
 
 ## Project Overview
 
-**Inconstack** is the largest free icon library with 50,000+ SVG icons from top open-source sets. Download instantly, copy as SVG/XML, or use in Figma, Notion, and web apps.
+**Iconstack** is the largest free icon library with 50,000+ SVG icons from top open-source sets. Download instantly, copy as SVG/XML, or use in Figma, Notion, and web apps.
 
 Built by **Ossian Design Lab** • [iconstack.io](https://iconstack.io)
 

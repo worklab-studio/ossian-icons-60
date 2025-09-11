@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const STORAGE_KEY = 'inconstack_first_copy_completed';
+const STORAGE_KEY = 'iconstack_first_copy_completed';
 
 export function useFirstTimeUser() {
   const [isFirstCopy, setIsFirstCopy] = useState<boolean | null>(null);

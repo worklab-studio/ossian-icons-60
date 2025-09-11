@@ -29,7 +29,7 @@ export class SchemaService {
         "query-input": "required name=search_term_string"
       },
       "sameAs": [
-        "https://twitter.com/inconstack"
+        "https://twitter.com/iconstack"
       ]
     };
   }
@@ -52,7 +52,7 @@ export class SchemaService {
       "description": "Creator and publisher of Iconstack, the comprehensive icon library platform",
       "foundingDate": "2024",
       "sameAs": [
-        "https://twitter.com/inconstack"
+        "https://twitter.com/iconstack"
       ]
     };
   }
