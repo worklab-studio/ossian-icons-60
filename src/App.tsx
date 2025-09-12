@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import IconsDemo from "./app/demo/icons/page";
 import LibraryPage from "./pages/LibraryPage";
 import IconDetailPage from "./pages/IconDetailPage";
+import LicensePage from "./pages/LicensePage";
 import Sitemap from "./components/Sitemap";
 import { SitemapService } from "./services/SitemapService";
 
@@ -48,6 +49,7 @@ const App = () => (
                 <Route path="/demo/icons" element={<IconsDemo />} />
                 <Route path="/library/:libraryId" element={<LibraryPage />} />
                 <Route path="/icon/:libraryId/:iconName" element={<IconDetailPage />} />
+                <Route path="/license" element={<LicensePage />} />
                 <Route path="/404" element={<NotFound />} />
                 
                 {/* Dynamic sitemap routes */}
