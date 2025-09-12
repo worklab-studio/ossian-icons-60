@@ -45,7 +45,7 @@ export function MobileHeader({
   const shortcutKey = searchQuery ? 'Esc' : '⌘K';
 
   return (
-    <div className="sticky top-14 md:top-12 z-50 bg-background border-b">
+    <div className="sticky top-0 z-50 bg-background border-b">
       {/* Top navigation bar */}
       <div className="flex h-14 items-center justify-between px-4">
         <div className="flex items-center gap-2">

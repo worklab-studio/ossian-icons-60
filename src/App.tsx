@@ -16,7 +16,6 @@ import IconDetailPage from "./pages/IconDetailPage";
 import LicensePage from "./pages/LicensePage";
 import Sitemap from "./components/Sitemap";
 import { SitemapService } from "./services/SitemapService";
-import { AnnouncementBar } from "./components/AnnouncementBar";
 
 const queryClient = new QueryClient();
 
@@ -44,7 +43,6 @@ const App = () => (
           <TooltipProvider>
             <Toaster />
             <Sonner />
-            <AnnouncementBar />
             <BrowserRouter>
               <Routes>
                 <Route path="/" element={<Index />} />
