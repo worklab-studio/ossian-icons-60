@@ -176,7 +176,7 @@ export class SchemaService {
   /**
    * Generate BreadcrumbList schema for navigation
    */
-  static generateBreadcrumbSchema(path: string): SchemaMarkup {
+  static generateBreadcrumbSchema(path: string, iconName?: string): SchemaMarkup {
     const breadcrumbs = [
       { name: "Home", url: "https://iconstack.io" }
     ];
@@ -190,6 +190,30 @@ export class SchemaService {
           url: `https://iconstack.io/library/${libraryId}`
         });
       }
+    } else if (path.startsWith('/icon/')) {
+      const pathParts = path.split('/');
+      const libraryId = pathParts[2];
+      const iconSlug = pathParts[3];
+      const library = iconLibraryManager.libraries.find(lib => lib.id === libraryId);
+      
+      if (library) {
+        breadcrumbs.push({
+          name: `${library.name} Icons`,
+          url: `https://iconstack.io/library/${libraryId}`
+        });
+        
+        if (iconName) {
+          breadcrumbs.push({
+            name: iconName,
+            url: `https://iconstack.io/icon/${libraryId}/${iconSlug}`
+          });
+        }
+      }
+    } else if (path === '/demo/icons') {
+      breadcrumbs.push({
+        name: "Demo Icons",
+        url: "https://iconstack.io/demo/icons"
+      });
     }
 
     return {

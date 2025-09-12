@@ -6,13 +6,14 @@ import { type IconItem } from '@/types/icon';
 interface UseSchemaMarkupOptions {
   icons?: IconItem[];
   libraryId?: string;
+  iconName?: string;
   totalIcons?: number;
   includeFAQ?: boolean;
 }
 
 export function useSchemaMarkup(options: UseSchemaMarkupOptions = {}) {
   const location = useLocation();
-  const { icons, libraryId, totalIcons, includeFAQ } = options;
+  const { icons, libraryId, iconName, totalIcons, includeFAQ } = options;
 
   const schemaMarkup = useMemo(() => {
     const schemas: SchemaMarkup[] = [];
@@ -23,7 +24,7 @@ export function useSchemaMarkup(options: UseSchemaMarkupOptions = {}) {
     schemas.push(SchemaService.generateProductSchema());
     
     // Breadcrumb navigation
-    schemas.push(SchemaService.generateBreadcrumbSchema(location.pathname));
+    schemas.push(SchemaService.generateBreadcrumbSchema(location.pathname, iconName));
     
     // Page-specific schemas
     if (location.pathname === '/') {
@@ -43,11 +44,22 @@ export function useSchemaMarkup(options: UseSchemaMarkupOptions = {}) {
       if (icons && icons.length > 0) {
         schemas.push(SchemaService.generateItemListSchema(icons, libraryId));
       }
+    } else if (location.pathname.startsWith('/icon/')) {
+      // Individual icon page schemas
+      if (libraryId && iconName) {
+        const creativeWorkSchema = SchemaService.generateCreativeWorkSchema(libraryId);
+        if (creativeWorkSchema) {
+          schemas.push(creativeWorkSchema);
+        }
+      }
+    } else if (location.pathname === '/demo/icons') {
+      // Demo page schemas
+      schemas.push(SchemaService.generateDatasetSchema());
     }
     
     // Combine all schemas
     return SchemaService.combineSchemas(schemas);
-  }, [location.pathname, icons, libraryId, totalIcons, includeFAQ]);
+  }, [location.pathname, icons, libraryId, iconName, totalIcons, includeFAQ]);
 
   return {
     schemaMarkup,

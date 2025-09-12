@@ -20,6 +20,8 @@ import { copyIcon } from "@/lib/copy";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { useSearchWorker } from "@/hooks/useSearchWorker";
+import { SchemaMarkup } from "@/components/SchemaMarkup";
+import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
 
 export default function IconDetailPage() {
   const { libraryId, iconName: iconNameParam } = useParams<{
@@ -230,6 +232,13 @@ export default function IconDetailPage() {
   const pageTitle = `${icon?.name || iconName} Icon - ${libraryMetadata?.name || parsedLibraryId} | IconStack`;
   const pageDescription = `Download and customize the ${icon?.name || iconName} icon from ${libraryMetadata?.name || parsedLibraryId}. Available in SVG format with customizable colors and stroke width.`;
 
+  // Generate schema markup for this icon page
+  const { schemaMarkup } = useSchemaMarkup({
+    libraryId: parsedLibraryId,
+    iconName: icon?.name || iconName,
+    icons: icon ? [icon] : undefined
+  });
+
   if (loading) {
     return (
       <SidebarProvider>
@@ -277,26 +286,20 @@ export default function IconDetailPage() {
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={`https://iconstack.app/icon/${parsedLibraryId}/${iconNameParam}`} />
+        <meta name="keywords" content={`${icon?.name}, ${libraryMetadata?.name}, icon, svg, ${icon?.tags?.join(', ') || ''}, free icons, web development`} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <link rel="canonical" href={`https://iconstack.io/icon/${parsedLibraryId}/${iconNameParam}`} />
         
-        {/* JSON-LD Schema Markup */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "CreativeWork",
-            "name": icon.name,
-            "description": pageDescription,
-            "creator": {
-              "@type": "Organization",
-              "name": libraryMetadata?.name || parsedLibraryId
-            },
-            "url": `https://iconstack.app/icon/${parsedLibraryId}/${iconNameParam}`,
-            "keywords": icon.tags?.join(', ') || '',
-            "category": icon.category || 'Icon',
-            "fileFormat": "SVG"
-          })}
-        </script>
+        {/* Open Graph tags */}
+        <meta property="og:image" content="https://iconstack.io/lovable-uploads/98f14649-ca6b-4fda-8694-18be1925419a.png" />
+        <meta property="og:url" content={`https://iconstack.io/icon/${parsedLibraryId}/${iconNameParam}`} />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://iconstack.io/lovable-uploads/98f14649-ca6b-4fda-8694-18be1925419a.png" />
       </Helmet>
+
+      <SchemaMarkup schema={schemaMarkup} />
 
       <SidebarProvider>
         <div className="flex h-screen w-full overflow-hidden">{/* Fixed viewport height exactly like homepage */}
