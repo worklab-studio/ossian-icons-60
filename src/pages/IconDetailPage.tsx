@@ -22,6 +22,7 @@ import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { useSearchWorker } from "@/hooks/useSearchWorker";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
+import { IconMetaService } from "@/services/IconMetaService";
 
 export default function IconDetailPage() {
   const { libraryId, iconName: iconNameParam } = useParams<{
@@ -228,9 +229,19 @@ export default function IconDetailPage() {
   };
 
 
-  // Generate page title and description for SEO
-  const pageTitle = `${icon?.name || iconName} Icon - ${libraryMetadata?.name || parsedLibraryId} | IconStack`;
-  const pageDescription = `Download and customize the ${icon?.name || iconName} icon from ${libraryMetadata?.name || parsedLibraryId}. Available in SVG format with customizable colors and stroke width.`;
+  // Generate enhanced meta tags for SEO
+  const enhancedMeta = useMemo(() => {
+    if (!icon || !libraryMetadata) return null;
+    
+    const library = iconLibraryManager.libraries.find(lib => lib.id === parsedLibraryId);
+    if (!library) return null;
+    
+    return IconMetaService.generateEnhancedMeta(icon, library, parsedLibraryId);
+  }, [icon, libraryMetadata, parsedLibraryId]);
+
+  // Fallback meta for loading states
+  const pageTitle = enhancedMeta?.title || `${icon?.name || iconName} Icon - ${libraryMetadata?.name || parsedLibraryId} | IconStack`;
+  const pageDescription = enhancedMeta?.description || `Download and customize the ${icon?.name || iconName} icon from ${libraryMetadata?.name || parsedLibraryId}. Available in SVG format with customizable colors and stroke width.`;
 
   // Generate schema markup for this icon page
   const { schemaMarkup } = useSchemaMarkup({
@@ -283,20 +294,49 @@ export default function IconDetailPage() {
       <Helmet>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={pageDescription} />
+        
+        {/* Enhanced SEO Meta Tags */}
+        {enhancedMeta && (
+          <>
+            <meta name="keywords" content={enhancedMeta.keywords} />
+            
+            {/* Open Graph enhanced tags */}
+            <meta property="og:title" content={enhancedMeta.ogTitle} />
+            <meta property="og:description" content={enhancedMeta.ogDescription} />
+            
+            {/* Twitter Card enhanced tags */}
+            <meta name="twitter:title" content={enhancedMeta.twitterTitle} />
+            <meta name="twitter:description" content={enhancedMeta.twitterDescription} />
+          </>
+        )}
+        
+        {/* Fallback meta tags for loading states */}
+        {!enhancedMeta && (
+          <>
+            <meta property="og:title" content={pageTitle} />
+            <meta property="og:description" content={pageDescription} />
+            <meta name="keywords" content={`${icon?.name}, ${libraryMetadata?.name}, icon, svg, ${icon?.tags?.join(', ') || ''}, free icons, web development`} />
+          </>
+        )}
+        
+        {/* Standard meta tags */}
         <meta property="og:type" content="website" />
-        <meta name="keywords" content={`${icon?.name}, ${libraryMetadata?.name}, icon, svg, ${icon?.tags?.join(', ') || ''}, free icons, web development`} />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={`https://iconstack.io/icon/${parsedLibraryId}/${iconNameParam}`} />
         
-        {/* Open Graph tags */}
+        {/* Open Graph images */}
         <meta property="og:image" content="https://iconstack.io/lovable-uploads/98f14649-ca6b-4fda-8694-18be1925419a.png" />
         <meta property="og:url" content={`https://iconstack.io/icon/${parsedLibraryId}/${iconNameParam}`} />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://iconstack.io/lovable-uploads/98f14649-ca6b-4fda-8694-18be1925419a.png" />
+        
+        {/* Additional SEO enhancements */}
+        <meta name="author" content="IconStack" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta property="og:site_name" content="IconStack" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <SchemaMarkup schema={schemaMarkup} />
