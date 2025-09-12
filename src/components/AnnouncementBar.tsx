@@ -43,7 +43,7 @@ export function AnnouncementBar() {
       role="region"
       aria-label="Announcement"
       data-component="announcement-bar"
-      className="announcement-bar fixed top-0 left-0 right-0 z-50 h-14 md:h-12 bg-gradient-to-r from-gray-900 via-gray-800 via-purple-900 to-purple-700 dark:from-gray-900 dark:via-gray-800 dark:via-purple-900 dark:to-purple-700 text-gray-100 overflow-hidden"
+      className="announcement-bar fixed top-0 left-0 right-0 z-60 h-14 md:h-12 bg-gradient-to-r from-gray-900 via-gray-800 via-purple-900 to-purple-700 dark:from-gray-900 dark:via-gray-800 dark:via-purple-900 dark:to-purple-700 text-gray-100 overflow-hidden"
       style={{
         background: 'linear-gradient(90deg, #111827 0%, #1F2937 35%, #4C1D95 65%, #7C3AED 100%)',
         backgroundSize: '200% 100%',
