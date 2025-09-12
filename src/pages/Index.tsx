@@ -828,7 +828,7 @@ function IconGridPage() {
           </main>
           
           <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
-            <p>Ossian Design Lab • <a href="https://buymeacoffee.com/thedeepflux" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Support creator</a> • <a href="https://www.figma.com/community/plugin/1548394766689434419/iconstack-50-000-free-svg-icons" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-red-500 via-green-500 to-blue-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity">Figma Plugin</a> <span className="inline-flex items-center rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">New</span></p>
+            <p>Ossian Design Lab • <a href="https://buymeacoffee.com/thedeepflux" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Support creator</a> • <a href="https://www.figma.com/community/plugin/1548394766689434419/iconstack-50-000-free-svg-icons" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] bg-clip-text text-transparent hover:opacity-80 transition-opacity">Figma Plugin</a> <span className="inline-flex items-center rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">New</span></p>
           </footer>
         </div>
         
