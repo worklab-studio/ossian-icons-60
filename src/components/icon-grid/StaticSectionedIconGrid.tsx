@@ -80,7 +80,7 @@ export function StaticSectionedIconGrid({
         libraryName: section.libraryName,
         sectionStart: currentPosition
       });
-      currentPosition += 32; // Header height (text only, no padding)
+      currentPosition += 44; // Header height (reduced from 60px)
       
       // Group icons into rows
       for (let i = 0; i < section.icons.length; i += columnsCount) {
@@ -127,7 +127,7 @@ export function StaticSectionedIconGrid({
     getScrollElement: () => containerRef.current,
     estimateSize: (index) => {
       const item = virtualItems[index];
-      if (item?.type === 'header') return 32;
+      if (item?.type === 'header') return 44;
       if (item?.type === 'section-separator') return 16;
       return 80; // icon rows are 80px
     },
@@ -151,9 +151,9 @@ export function StaticSectionedIconGrid({
   return (
     <div className="relative h-full">
       {/* Fixed sticky header - floats over content */}
-      <div className="absolute top-0 left-0 right-0 z-30 h-[32px] bg-background/95 backdrop-blur-sm border-b border-border/20">
+      <div className="absolute top-0 left-0 right-0 z-30 h-[44px] bg-background/95 backdrop-blur-sm border-b border-border/50">
         {stickyHeader && (
-          <div className="flex items-center pl-4 h-full">
+          <div className="flex items-center pl-4 py-2 h-full">
             <h3 className="text-lg font-semibold text-foreground">
               {stickyHeader.libraryName}
             </h3>
@@ -163,7 +163,7 @@ export function StaticSectionedIconGrid({
       
       <div
         ref={containerRef}
-        className="h-full overflow-y-auto overflow-x-hidden pt-[32px]"
+        className="h-full overflow-y-auto overflow-x-hidden pt-[44px]"
         role="grid"
         aria-label={computedAriaLabel}
       >
@@ -192,7 +192,7 @@ export function StaticSectionedIconGrid({
                     height: `${virtualItem.size}px`,
                     transform: `translateY(${virtualItem.start}px)`,
                   }}
-                  className={`flex items-center pl-4 bg-background/95 backdrop-blur-sm border-b border-border/20 ${isSticky ? 'opacity-0' : ''}`}
+                  className={`flex items-center pl-4 py-2 bg-background/95 backdrop-blur-sm border-b border-border/50 ${isSticky ? 'opacity-0' : ''}`}
                 >
                   <h3 className="text-lg font-semibold text-foreground">
                     {item.libraryName}
