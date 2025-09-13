@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { ChevronRight, Home } from "lucide-react";
-import { Header } from "@/components/header";
-import { AppSidebar } from "@/components/app-sidebar";
+import { ThemeToggle } from "@/components/theme-toggle";
+import { IconstackLogo } from "@/components/iconstack-logo";
 import { ControlPanel } from "@/components/control-panel";
 import { IconGrid } from "@/components/icon-grid/IconGrid";
 import { SidebarProvider } from "@/components/ui/sidebar";
@@ -15,8 +15,6 @@ import type { IconItem } from "@/types/icon";
 
 export function IconsPopularPage() {
   const [popularIcons, setPopularIcons] = useState<IconItem[]>([]);
-  const [filteredIcons, setFilteredIcons] = useState<IconItem[]>([]);
-  const [searchQuery, setSearchQuery] = useState("");
   const [selectedIcon, setSelectedIcon] = useState<IconItem | null>(null);
   const [loading, setLoading] = useState(true);
   const { customization } = useIconCustomization();
@@ -29,7 +27,6 @@ export function IconsPopularPage() {
         setLoading(true);
         const icons = await iconLibraryManager.getPopularIcons();
         setPopularIcons(icons);
-        setFilteredIcons(icons);
       } catch (error) {
         console.error("Failed to load popular icons:", error);
         toast({
@@ -44,22 +41,6 @@ export function IconsPopularPage() {
 
     loadPopularIcons();
   }, [toast]);
-
-  // Filter icons based on search query
-  useEffect(() => {
-    if (!searchQuery.trim()) {
-      setFilteredIcons(popularIcons);
-      return;
-    }
-
-    const query = searchQuery.toLowerCase();
-    const filtered = popularIcons.filter(icon =>
-      icon.name.toLowerCase().includes(query) ||
-      icon.id.toLowerCase().includes(query) ||
-      icon.tags?.some(tag => tag.toLowerCase().includes(query))
-    );
-    setFilteredIcons(filtered);
-  }, [searchQuery, popularIcons]);
 
   const handleIconCopy = async (icon: IconItem) => {
     try {
@@ -83,10 +64,6 @@ export function IconsPopularPage() {
     setSelectedIcon(icon);
   };
 
-  const handleSearchClear = () => {
-    setSearchQuery("");
-  };
-
   return (
     <>
       <Helmet>
@@ -107,14 +84,18 @@ export function IconsPopularPage() {
       <SidebarProvider>
         <div className="h-screen w-full overflow-hidden">
           <div className="flex h-screen w-full overflow-hidden">
-            <AppSidebar selectedSet="popular" onSetChange={() => {}} />
-            
+            {/* Main Content Area */}
             <div className="flex-1 flex flex-col h-screen">
-              <Header 
-                searchQuery={searchQuery}
-                onSearchChange={setSearchQuery}
-                onSearchClear={handleSearchClear}
-              />
+              {/* Header with Logo and Theme Toggle */}
+              <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+                <div className="flex h-16 items-center justify-between px-6">
+                  <div className="flex items-center gap-3">
+                    <IconstackLogo className="h-8 w-8" />
+                    <span className="text-xl font-bold">Iconstack</span>
+                  </div>
+                  <ThemeToggle />
+                </div>
+              </header>
               
               {/* Breadcrumb Navigation */}
               <div className="border-b px-6 py-3">
@@ -141,7 +122,6 @@ export function IconsPopularPage() {
                 <h1 className="text-2xl font-bold">Popular Icons</h1>
                 <p className="text-muted-foreground mt-1">
                   Top {popularIcons.length} most popular icons across all libraries
-                  {searchQuery && ` (${filteredIcons.length} matching "${searchQuery}")`}
                 </p>
               </div>
 
@@ -154,24 +134,22 @@ export function IconsPopularPage() {
                       <p className="text-muted-foreground">Loading popular icons...</p>
                     </div>
                   </div>
-                ) : filteredIcons.length === 0 ? (
+                ) : popularIcons.length === 0 ? (
                   <div className="flex items-center justify-center h-64">
                     <div className="text-center">
                       <p className="text-lg font-medium">No icons found</p>
-                      <p className="text-muted-foreground mt-1">
-                        {searchQuery ? `No icons match "${searchQuery}"` : "No popular icons available"}
-                      </p>
+                      <p className="text-muted-foreground mt-1">No popular icons available</p>
                     </div>
                   </div>
                 ) : (
                   <IconGrid
-                    items={filteredIcons}
+                    items={popularIcons}
                     selectedId={selectedIcon?.id}
                     onCopy={handleIconCopy}
                     onIconClick={handleIconClick}
                     color={customization.color}
                     strokeWidth={customization.strokeWidth}
-                    ariaLabel={`Popular icons grid with ${filteredIcons.length} icons`}
+                    ariaLabel={`Popular icons grid with ${popularIcons.length} icons`}
                   />
                 )}
               </div>
