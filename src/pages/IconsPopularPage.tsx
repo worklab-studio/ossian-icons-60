@@ -124,21 +124,25 @@ export function IconsPopularPage() {
 
               {/* Page Title */}
               <div className="border-b px-6 py-4">
-                <h1 className="text-2xl font-bold">Popular Icons</h1>
-                <p className="text-muted-foreground mt-1">
-                  Top {totalIconCount} most popular icons across all libraries
-                </p>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h1 className="text-2xl font-bold">Popular Icons</h1>
+                    <p className="text-muted-foreground mt-1">
+                      Top {totalIconCount} most popular icons across all libraries
+                    </p>
+                  </div>
+                  <Button 
+                    onClick={() => window.location.href = '/'}
+                    variant="default"
+                    className="shrink-0"
+                  >
+                    Explore All 50,000+ Icons
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </div>
                 <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
                   Browse the top 1,000 most popular icons from leading libraries like Tabler, Heroicons, Material, Lucide, Phosphor, Bootstrap Icons, Iconoir, Octicons, Solar Icons, and Mingcute. Explore even more with 50,000+ free SVG icons across 21 additional libraries on Iconstack.
                 </p>
-                <Button 
-                  className="mt-4" 
-                  onClick={() => window.location.href = '/'}
-                  variant="default"
-                >
-                  Explore All 50,000+ Icons
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
               </div>
 
               {/* Main Content Area */}
