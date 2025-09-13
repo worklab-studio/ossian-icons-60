@@ -26,8 +26,8 @@ export function StaticSectionedIconGrid({
   const [containerWidth, setContainerWidth] = useState(0);
   const [scrollTop, setScrollTop] = useState(0);
 
-  // Calculate columns to fit container width with gaps (minimum 88px per icon including gap)
-  const columnsCount = containerWidth > 0 ? Math.floor(Math.max(containerWidth, 320) / 88) || 4 : 4;
+  // Calculate columns to fit container width with 80px cells
+  const columnsCount = containerWidth > 0 ? Math.floor(Math.max(containerWidth, 320) / 80) || 4 : 4;
 
   // Update container width and track scroll
   useEffect(() => {
@@ -91,7 +91,7 @@ export function StaticSectionedIconGrid({
           rowIndex: Math.floor(i / columnsCount),
           icons: rowIcons
         });
-        currentPosition += 88; // Row height with spacing
+        currentPosition += 80; // Row height
       }
       
       // Add actual section separator item (except for last section)
@@ -129,7 +129,7 @@ export function StaticSectionedIconGrid({
       const item = virtualItems[index];
       if (item?.type === 'header') return 60;
       if (item?.type === 'section-separator') return 16;
-      return 88; // icon rows are 88px
+      return 80; // icon rows are 80px
     },
     overscan: 5,
   });
@@ -232,7 +232,7 @@ export function StaticSectionedIconGrid({
                   }}
                   className=""
                 >
-                  <div className="grid min-w-0 gap-2 p-2" style={{ gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`, height: '88px' }}>
+                  <div className="grid min-w-0 gap-0" style={{ gridTemplateColumns: `repeat(${columnsCount}, 80px)`, height: '80px' }}>
                     {item.icons.map((icon) => (
                       <StaticIconCell
                         key={icon.id}
