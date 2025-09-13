@@ -146,16 +146,16 @@ export function IconsPopularPage() {
               </div>
 
               {/* Main Content Area */}
-              <div className="flex-1 overflow-auto p-6">
+              <div className="flex-1 overflow-auto">
                 {loading ? (
-                  <div className="flex items-center justify-center h-64">
+                  <div className="flex items-center justify-center h-64 px-6">
                     <div className="text-center">
                       <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
                       <p className="text-muted-foreground">Loading popular icons...</p>
                     </div>
                   </div>
                 ) : popularSections.length === 0 ? (
-                  <div className="flex items-center justify-center h-64">
+                  <div className="flex items-center justify-center h-64 px-6">
                     <div className="text-center">
                       <p className="text-lg font-medium">No icons found</p>
                       <p className="text-muted-foreground mt-1">No popular icons available</p>
