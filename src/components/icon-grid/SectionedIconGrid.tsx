@@ -140,13 +140,16 @@ export function SectionedIconGrid({
   return (
     <div className="relative h-full">
       {/* Fixed sticky header - floats over content */}
-      <div className="absolute top-0 left-0 right-0 z-30 h-[60px] bg-background/95 backdrop-blur-sm border-b border-border/50">
+      <div className="absolute top-0 left-0 right-0 z-30 h-[60px] bg-background/95 backdrop-blur-sm">
         {stickyHeader && (
-          <div className="flex items-center px-0 py-4 h-full">
-            <h3 className="text-lg font-semibold text-foreground">
-              {stickyHeader.libraryName}
-            </h3>
-          </div>
+          <>
+            <div className="flex items-center px-6 py-4 h-full">
+              <h3 className="text-lg font-semibold text-foreground">
+                {stickyHeader.libraryName}
+              </h3>
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 border-b border-border/50"></div>
+          </>
         )}
       </div>
       
@@ -185,11 +188,14 @@ export function SectionedIconGrid({
                     height: `${virtualItem.size}px`,
                     transform: `translateY(${virtualItem.start}px)`,
                   }}
-                  className="flex items-center px-0 py-4 bg-background/95 backdrop-blur-sm border-b border-border/50"
+                  className="bg-background/95 backdrop-blur-sm"
                 >
-                  <h3 className="text-lg font-semibold text-foreground">
-                    {item.libraryName}
-                  </h3>
+                  <div className="flex items-center px-6 py-4 h-full">
+                    <h3 className="text-lg font-semibold text-foreground">
+                      {item.libraryName}
+                    </h3>
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 border-b border-border/50"></div>
                 </div>
               );
             }
