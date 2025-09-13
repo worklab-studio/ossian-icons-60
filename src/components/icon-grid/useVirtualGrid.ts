@@ -12,7 +12,7 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
   const [containerWidth, setContainerWidth] = useState(0);
   const resizeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Memoize column calculation for mobile edge-to-edge grid
+  // Memoize column calculation for edge-to-edge grid
   const columnsCount = useMemo(() => {
     if (!containerWidth) return 4;
     
@@ -20,17 +20,25 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
     const isMobile = containerWidth < 768;
     
     if (isMobile) {
-      // Mobile: 4 columns minimum, then scale based on 80px width
+      // Mobile: 4-6 columns for optimal square cell size
       const minCols = 4;
-      const maxCols = Math.floor(containerWidth / 80);
-      return Math.max(minCols, maxCols);
+      const maxCols = 6;
+      const idealCols = Math.floor(containerWidth / 64); // Target ~64px cells
+      return Math.max(minCols, Math.min(maxCols, idealCols));
     } else {
-      // Desktop: scale based on exactly fitting 80px cells
+      // Desktop: 6-12 columns for edge-to-edge layout
       const minCols = 6;
-      const maxCols = Math.floor(containerWidth / 80);
-      return Math.max(minCols, maxCols);
+      const maxCols = 12;
+      const idealCols = Math.floor(containerWidth / 72); // Target ~72px cells
+      return Math.max(minCols, Math.min(maxCols, idealCols));
     }
   }, [containerWidth]);
+  
+  // Calculate dynamic cell size for perfect edge-to-edge fit
+  const cellSize = useMemo(() => {
+    if (!containerWidth || !columnsCount) return 80;
+    return Math.floor(containerWidth / columnsCount);
+  }, [containerWidth, columnsCount]);
 
   // Memoize row grouping with better performance
   const rows = useMemo(() => {
@@ -86,8 +94,8 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
     count: rows.length,
     getScrollElement: () => containerRef.current,
     estimateSize: () => {
-      // Fixed 80px row height for all devices to match CSS grid
-      return 80;
+      // Dynamic row height to match cell size for square cells
+      return cellSize;
     },
     overscan: enabled && rows.length > 100 ? 2 : 5, // Dynamic overscan for performance
     enabled,
@@ -103,5 +111,6 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
     virtualizer,
     rows,
     columnsCount,
+    cellSize,
   };
 }

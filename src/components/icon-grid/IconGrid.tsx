@@ -16,7 +16,7 @@ export function IconGrid({
   libraryName,
 }: IconGridProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const { virtualizer, rows, columnsCount } = useVirtualGrid({
+  const { virtualizer, rows, columnsCount, cellSize } = useVirtualGrid({
     items,
     containerRef,
     enabled: items.length > 100, // Only virtualize for large lists
@@ -61,9 +61,10 @@ export function IconGrid({
                   }}
                   className=""
                 >
-                   <div className="grid min-w-0 gap-0" style={{ 
-                     gridTemplateColumns: `repeat(${columnsCount}, 80px)`, 
-                     height: '80px'
+                   <div className="grid min-w-0 gap-0 w-full" style={{ 
+                     gridTemplateColumns: `repeat(${columnsCount}, 1fr)`, 
+                     height: `${cellSize}px`,
+                     aspectRatio: '1'
                    }}>
                     {row.map((icon) => (
                       <IconCell
@@ -82,11 +83,11 @@ export function IconGrid({
             })}
           </div>
         ) : (
-          // Simple grid for smaller lists with fixed 80px height
-          <div className="grid min-w-0 gap-0" 
+          // Simple grid for smaller lists with dynamic cell size
+          <div className="grid min-w-0 gap-0 w-full" 
                style={{ 
-            gridTemplateColumns: `repeat(${columnsCount}, 80px)`,
-                 gridAutoRows: '80px'
+            gridTemplateColumns: `repeat(${columnsCount}, 1fr)`,
+                 gridAutoRows: `${cellSize}px`
                }}>
             {items.map((icon) => (
               <IconCell

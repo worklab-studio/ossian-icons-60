@@ -144,25 +144,17 @@
     display: none;
   }
 
-  /* Icon Cell Performance Optimizations - Mobile responsive square cells */
+  /* Icon Cell Performance Optimizations - Fully responsive square cells */
   .icon-cell {
     @apply relative flex items-center justify-center m-0 p-0 border-0;
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
     will-change: transform;
     contain: layout style;
     transform: translate3d(0, 0, 0); /* Hardware acceleration */
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth transitions for all changes */
-  }
-
-  /* Mobile-specific square cells */
-  @media (max-width: 640px) {
-    .icon-cell {
-      aspect-ratio: 1;
-      height: 80px; /* Fixed 80px to match virtual grid */
-      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth resize transitions */
-    }
   }
 
   .icon-cell[data-hovered="true"],
