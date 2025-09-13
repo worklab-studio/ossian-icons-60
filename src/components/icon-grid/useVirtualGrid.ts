@@ -81,12 +81,8 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
     count: rows.length,
     getScrollElement: () => containerRef.current,
     estimateSize: () => {
-      // Calculate row height based on container width to maintain square cells
-      const isMobile = containerWidth < 640;
-      if (isMobile && containerWidth > 0) {
-        return containerWidth / 4; // Square cells: width/4 columns = height
-      }
-      return 80; // Fixed 80px for desktop and tablet
+      // Fixed 80px row height for all devices to match CSS grid
+      return 80;
     },
     overscan: enabled && rows.length > 100 ? 2 : 5, // Dynamic overscan for performance
     enabled,
