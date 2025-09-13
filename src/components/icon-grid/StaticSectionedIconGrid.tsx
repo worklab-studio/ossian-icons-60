@@ -5,7 +5,7 @@ import { StaticIconCell } from './StaticIconCell';
 
 // Flatten sections for virtualization while keeping track of section headers
 type VirtualItem = {
-  type: 'header' | 'icons-row';
+  type: 'header' | 'icons-row' | 'section-separator';
   sectionIndex: number;
   rowIndex?: number;
   icons?: IconItem[];
@@ -94,9 +94,13 @@ export function StaticSectionedIconGrid({
         currentPosition += 88; // Row height with spacing
       }
       
-      // Add section separator spacing (except for last section)
+      // Add actual section separator item (except for last section)
       if (sectionIndex < sections.length - 1) {
-        currentPosition += 16;
+        items.push({
+          type: 'section-separator',
+          sectionIndex
+        });
+        currentPosition += 16; // Separator height
       }
     });
     
@@ -123,7 +127,9 @@ export function StaticSectionedIconGrid({
     getScrollElement: () => containerRef.current,
     estimateSize: (index) => {
       const item = virtualItems[index];
-      return item?.type === 'header' ? 60 : 88; // Headers are 60px, icon rows are 88px
+      if (item?.type === 'header') return 60;
+      if (item?.type === 'section-separator') return 16;
+      return 88; // icon rows are 88px
     },
     overscan: 5,
   });
@@ -172,12 +178,8 @@ export function StaticSectionedIconGrid({
             const item = virtualItems[virtualItem.index];
             
             if (item?.type === 'header') {
-              // Hide this header if it's the same as the sticky header
-              const shouldHideHeader = stickyHeader && stickyHeader.sectionIndex === item.sectionIndex;
-              
-              if (shouldHideHeader) {
-                return null;
-              }
+              // Keep headers visible but adjust opacity if sticky
+              const isSticky = stickyHeader && stickyHeader.sectionIndex === item.sectionIndex;
               
               return (
                 <div
@@ -190,12 +192,29 @@ export function StaticSectionedIconGrid({
                     height: `${virtualItem.size}px`,
                     transform: `translateY(${virtualItem.start}px)`,
                   }}
-                  className="flex items-center pl-4 py-4 bg-background/95 backdrop-blur-sm border-b border-border/50"
+                  className={`flex items-center pl-4 py-4 bg-background/95 backdrop-blur-sm border-b border-border/50 ${isSticky ? 'opacity-0' : ''}`}
                 >
                   <h3 className="text-lg font-semibold text-foreground">
                     {item.libraryName}
                   </h3>
                 </div>
+              );
+            }
+
+            if (item?.type === 'section-separator') {
+              return (
+                <div
+                  key={`separator-${item.sectionIndex}`}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: `${virtualItem.size}px`,
+                    transform: `translateY(${virtualItem.start}px)`,
+                  }}
+                  className="w-full"
+                />
               );
             }
 
