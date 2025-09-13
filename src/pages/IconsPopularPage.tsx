@@ -94,9 +94,15 @@ export function IconsPopularPage() {
               {/* Header with Logo and Theme Toggle */}
               <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="flex h-16 items-center justify-between px-6">
-                  <div className="flex items-center gap-3">
-                    <IconstackLogo className="h-8 w-8" />
-                    <span className="text-xl font-bold">Iconstack</span>
+                  <div className="flex items-center gap-2">
+                    <IconstackLogo className="h-6 w-6 text-primary" />
+                    <div className="flex flex-col">
+                      <div className="flex items-center gap-2">
+                        <span className="font-bold text-lg text-primary">Iconstack</span>
+                        <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold transition-colors bg-secondary text-secondary-foreground">Beta</span>
+                      </div>
+                      <span className="text-xs text-muted-foreground">50,000+ icons</span>
+                    </div>
                   </div>
                   <ThemeToggle />
                 </div>
