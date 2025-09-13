@@ -161,8 +161,7 @@
   @media (max-width: 640px) {
     .icon-cell {
       aspect-ratio: 1;
-      min-height: unset; /* Remove min-height on mobile */
-      height: 25vw; /* Make height 1/4 of viewport width for 4-column square grid */
+      height: 80px; /* Fixed 80px to match virtual grid */
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth resize transitions */
     }
   }
