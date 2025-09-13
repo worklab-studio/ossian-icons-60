@@ -150,7 +150,7 @@
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
     width: 100%;
     aspect-ratio: 1; /* Make cells square */
-    min-height: 80px; /* Fixed 80px for desktop and tablet */
+    height: 80px; /* Fixed 80px for desktop and tablet */
     will-change: transform;
     contain: layout style;
     transform: translate3d(0, 0, 0); /* Hardware acceleration */
