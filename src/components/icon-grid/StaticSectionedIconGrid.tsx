@@ -80,7 +80,9 @@ export function StaticSectionedIconGrid({
         libraryName: section.libraryName,
         sectionStart: currentPosition
       });
-      currentPosition += 44; // Header height (reduced from 60px)
+      // First icon row should start right at header's bottom border (currentPosition + header height)
+      const firstIconRowPosition = currentPosition + 44;
+      currentPosition = firstIconRowPosition; // Icons start at header bottom
       
       // Group icons into rows
       for (let i = 0; i < section.icons.length; i += columnsCount) {
