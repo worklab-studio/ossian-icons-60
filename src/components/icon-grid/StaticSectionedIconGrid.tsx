@@ -66,11 +66,6 @@ export function StaticSectionedIconGrid({
     let currentPosition = 0;
     
     sections.forEach((section, sectionIndex) => {
-      // Add spacing before section (except first section)
-      if (sectionIndex > 0) {
-        currentPosition += 24; // Add 24px spacing between sections
-      }
-      
       // Track section start position
       positions.push({
         sectionIndex,
@@ -145,7 +140,7 @@ export function StaticSectionedIconGrid({
   return (
     <div className="relative h-full">
       {/* Fixed sticky header - floats over content */}
-      <div className="absolute top-0 left-0 right-0 z-30 h-[60px] bg-background/95 backdrop-blur-sm border-b border-border shadow-sm">
+      <div className="absolute top-0 left-0 right-0 z-30 h-[60px] bg-background/95 backdrop-blur-sm border-b border-border/50">
         {stickyHeader && (
           <div className="flex items-center pl-4 py-4 h-full">
             <h3 className="text-lg font-semibold text-foreground">
@@ -157,7 +152,7 @@ export function StaticSectionedIconGrid({
       
       <div
         ref={containerRef}
-        className="h-full overflow-y-auto overflow-x-hidden pt-[60px]"
+        className="h-full overflow-y-auto overflow-x-hidden"
         role="grid"
         aria-label={computedAriaLabel}
       >
