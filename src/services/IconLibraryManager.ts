@@ -393,8 +393,8 @@ class IconLibraryManager {
     return filtered;
   }
 
-  // Get popular icons across all libraries (1000 total)
-  async getPopularIcons(): Promise<IconItem[]> {
+  // Get popular icons across all libraries (1000 total) organized by library
+  async getPopularIconsGrouped(): Promise<LibrarySection[]> {
     const popularIconsPerLibrary = {
       'material': ['home', 'menu', 'search', 'person', 'settings', 'favorite', 'share', 'edit', 'delete', 'add', 'remove', 'check', 'close', 'arrow_back', 'arrow_forward', 'expand_more', 'expand_less', 'star', 'notifications', 'email', 'phone', 'location_on', 'calendar_today', 'shopping_cart', 'account_circle', 'visibility', 'visibility_off', 'lock', 'unlock', 'download', 'upload', 'print', 'save', 'copy', 'cut', 'paste', 'undo', 'redo', 'refresh', 'sync', 'help', 'info', 'warning', 'error', 'done', 'cancel', 'launch', 'open_in_new', 'fullscreen', 'fullscreen_exit', 'zoom_in', 'zoom_out', 'filter_list', 'sort', 'view_list', 'view_module', 'view_carousel', 'grid_view', 'dashboard', 'analytics', 'timeline', 'history', 'bookmark', 'bookmarks', 'label', 'local_offer', 'shopping_bag', 'payment', 'credit_card', 'attach_money', 'trending_up', 'trending_down', 'bar_chart', 'pie_chart', 'donut_large', 'assessment', 'insert_chart', 'show_chart', 'multiline_chart', 'scatter_plot', 'bubble_chart', 'table_chart', 'functions', 'code', 'computer', 'laptop', 'tablet', 'smartphone', 'watch', 'tv', 'speaker', 'headset', 'mic', 'camera', 'photo_camera', 'videocam', 'movie', 'music_note', 'volume_up', 'volume_down', 'volume_off', 'play_arrow', 'pause', 'stop', 'skip_previous', 'skip_next', 'replay', 'shuffle', 'repeat', 'repeat_one', 'forward_10', 'replay_10', 'speed', 'slow_motion_video', 'hd', 'sd', 'fiber_dvr', 'live_tv', 'radio', 'podcast', 'library_music', 'library_books', 'auto_stories', 'menu_book', 'import_contacts', 'chrome_reader_mode', 'article', 'description', 'subject', 'title', 'format_bold', 'format_italic', 'format_underlined', 'format_color_fill', 'format_color_text', 'format_size', 'text_fields', 'font_download', 'format_align_left', 'format_align_center', 'format_align_right', 'format_align_justify', 'format_list_bulleted', 'format_list_numbered', 'format_indent_increase', 'format_indent_decrease', 'format_quote', 'link', 'link_off', 'insert_link', 'attachment', 'insert_drive_file', 'folder', 'folder_open', 'create_new_folder', 'drive_folder_upload', 'cloud', 'cloud_upload', 'cloud_download', 'cloud_done', 'cloud_off', 'backup', 'restore', 'file_copy', 'file_present', 'picture_as_pdf', 'image', 'collections', 'photo_library', 'video_library', 'movie_creation', 'music_video', 'playlist_add', 'queue_music', 'library_add', 'create_playlist'],
       'tabler': ['home', 'menu-2', 'search', 'user', 'settings', 'heart', 'share', 'edit', 'trash', 'plus', 'minus', 'check', 'x', 'arrow-left', 'arrow-right', 'chevron-down', 'chevron-up', 'star', 'bell', 'mail', 'phone', 'map-pin', 'calendar', 'shopping-cart', 'user-circle', 'eye', 'eye-off', 'lock', 'lock-open', 'download', 'upload', 'printer', 'device-floppy', 'copy', 'cut', 'clipboard', 'arrow-back-up', 'rotate-clockwise', 'refresh', 'sync', 'help', 'info-circle', 'alert-triangle', 'alert-circle', 'circle-check', 'circle-x', 'external-link', 'maximize', 'minimize', 'zoom-in', 'zoom-out', 'filter', 'sort-ascending', 'list', 'grid-dots', 'carousel-horizontal', 'dashboard', 'chart-line', 'timeline', 'history', 'bookmark', 'bookmarks', 'tag', 'discount', 'shopping-bag', 'credit-card', 'currency-dollar', 'trending-up', 'trending-down', 'chart-bar', 'chart-pie', 'chart-donut', 'report-analytics', 'chart-area', 'chart-dots', 'table', 'function', 'code', 'device-desktop', 'device-laptop', 'device-tablet', 'device-mobile', 'device-watch', 'device-tv', 'speakerphone', 'headphones', 'microphone', 'camera', 'photo', 'video', 'movie', 'music', 'volume', 'volume-2', 'volume-x', 'player-play', 'player-pause', 'player-stop', 'player-skip-back', 'player-skip-forward', 'repeat', 'repeat-once', 'shuffle', 'rewind', 'fast-forward', 'brand-youtube', 'brand-spotify', 'books', 'book', 'notebook', 'article', 'file-text', 'pencil', 'typography', 'palette', 'color-picker', 'font', 'text-size', 'align-left', 'align-center', 'align-right', 'align-justified', 'list-details', 'list-numbers', 'indent-increase', 'indent-decrease', 'quote', 'link', 'unlink', 'paperclip', 'file', 'folder', 'folder-open', 'folder-plus', 'cloud', 'cloud-upload', 'cloud-download', 'database', 'server', 'api', 'webhook', 'git-branch', 'git-commit', 'git-pull-request', 'brand-github', 'brand-gitlab'],
@@ -403,30 +403,57 @@ class IconLibraryManager {
       'heroicons': ['home', 'bars-3', 'magnifying-glass', 'user', 'cog-6-tooth', 'heart', 'share', 'pencil', 'trash', 'plus', 'minus', 'check', 'x-mark', 'arrow-left', 'arrow-right', 'chevron-down', 'chevron-up', 'star', 'bell', 'envelope', 'phone', 'map-pin', 'calendar-days', 'shopping-cart', 'user-circle', 'eye', 'eye-slash', 'lock-closed', 'lock-open', 'arrow-down-tray', 'arrow-up-tray', 'printer', 'document-arrow-down', 'clipboard', 'scissors', 'clipboard-document', 'arrow-uturn-left', 'arrow-path', 'arrow-path', 'question-mark-circle', 'information-circle', 'exclamation-triangle', 'exclamation-circle', 'check-circle', 'x-circle', 'arrow-top-right-on-square', 'arrows-pointing-out', 'arrows-pointing-in', 'magnifying-glass-plus', 'magnifying-glass-minus', 'funnel', 'bars-arrow-up', 'list-bullet', 'squares-2x2', 'view-columns', 'chart-bar', 'chart-pie', 'presentation-chart-line', 'clock', 'bookmark', 'tag', 'shopping-bag', 'credit-card', 'currency-dollar', 'computer-desktop', 'device-tablet', 'device-phone-mobile', 'tv', 'speaker-wave', 'musical-note', 'play', 'pause', 'stop', 'backward', 'forward', 'arrow-path', 'arrows-right-left', 'book-open', 'document-text', 'pencil-square', 'language', 'paint-brush', 'bold', 'italic', 'underline', 'strikethrough', 'list-bullet', 'numbered-list', 'link', 'paper-clip', 'document', 'folder', 'folder-open', 'folder-plus', 'cloud', 'cloud-arrow-up', 'cloud-arrow-down', 'server', 'code-bracket', 'command-line']
     };
 
-    const popularIcons: IconItem[] = [];
+    const sections: LibrarySection[] = [];
     
     // Load each library and get popular icons
     for (const [libraryId, iconNames] of Object.entries(popularIconsPerLibrary)) {
       try {
         const libraryIcons = await this.loadLibrary(libraryId);
+        const libraryMetadata = this.libraries.find(lib => lib.id === libraryId);
         
-        // Get the first 200 popular icons from this library
-        const popularFromLibrary = iconNames.slice(0, 200).map(iconName => {
+        // First try exact matches, then fallback to any available icons
+        let popularFromLibrary = iconNames.map(iconName => {
           return libraryIcons.find(icon => 
             icon.name.toLowerCase() === iconName.toLowerCase() ||
             icon.id.toLowerCase() === iconName.toLowerCase() ||
-            icon.id.toLowerCase().includes(iconName.toLowerCase())
+            icon.id.toLowerCase().includes(iconName.toLowerCase()) ||
+            icon.name.toLowerCase().includes(iconName.toLowerCase())
           );
         }).filter(Boolean) as IconItem[];
         
-        popularIcons.push(...popularFromLibrary);
+        // If we didn't find enough icons with our predefined list, 
+        // fill up to 200 with the first available icons from the library
+        if (popularFromLibrary.length < 200) {
+          const remainingCount = 200 - popularFromLibrary.length;
+          const usedIds = new Set(popularFromLibrary.map(icon => icon.id));
+          const additionalIcons = libraryIcons
+            .filter(icon => !usedIds.has(icon.id))
+            .slice(0, remainingCount);
+          popularFromLibrary.push(...additionalIcons);
+        }
+        
+        // Only include if we have icons
+        if (popularFromLibrary.length > 0) {
+          sections.push({
+            libraryId: libraryId,
+            libraryName: libraryMetadata?.name || libraryId,
+            icons: popularFromLibrary.slice(0, 200) // Ensure max 200 per library
+          });
+        }
+        
+        console.log(`Loaded ${popularFromLibrary.length} icons from ${libraryId}`);
       } catch (error) {
         console.warn(`Failed to load popular icons from ${libraryId}:`, error);
       }
     }
     
-    // Return exactly 1000 icons (or less if not enough found)
-    return popularIcons.slice(0, 1000);
+    return sections;
+  }
+
+  // Legacy method for backwards compatibility
+  async getPopularIcons(): Promise<IconItem[]> {
+    const sections = await this.getPopularIconsGrouped();
+    return sections.flatMap(section => section.icons);
   }
 }
 

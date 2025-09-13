@@ -4,17 +4,18 @@ import { ChevronRight, Home } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { IconstackLogo } from "@/components/iconstack-logo";
 import { ControlPanel } from "@/components/control-panel";
-import { IconGrid } from "@/components/icon-grid/IconGrid";
+import { SectionedIconGrid } from "@/components/icon-grid/SectionedIconGrid";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { iconLibraryManager } from "@/services/IconLibraryManager";
 import { useToast } from "@/hooks/use-toast";
 import { copyIcon } from "@/lib/copy";
-import type { IconItem } from "@/types/icon";
+import type { IconItem, LibrarySection } from "@/types/icon";
 
 export function IconsPopularPage() {
-  const [popularIcons, setPopularIcons] = useState<IconItem[]>([]);
+  const [popularSections, setPopularSections] = useState<LibrarySection[]>([]);
+  const [totalIconCount, setTotalIconCount] = useState(0);
   const [selectedIcon, setSelectedIcon] = useState<IconItem | null>(null);
   const [loading, setLoading] = useState(true);
   const { customization } = useIconCustomization();
@@ -25,8 +26,11 @@ export function IconsPopularPage() {
     async function loadPopularIcons() {
       try {
         setLoading(true);
-        const icons = await iconLibraryManager.getPopularIcons();
-        setPopularIcons(icons);
+        const sections = await iconLibraryManager.getPopularIconsGrouped();
+        setPopularSections(sections);
+        const total = sections.reduce((sum, section) => sum + section.icons.length, 0);
+        setTotalIconCount(total);
+        console.log(`Loaded ${total} total popular icons across ${sections.length} libraries`);
       } catch (error) {
         console.error("Failed to load popular icons:", error);
         toast({
@@ -121,7 +125,7 @@ export function IconsPopularPage() {
               <div className="border-b px-6 py-4">
                 <h1 className="text-2xl font-bold">Popular Icons</h1>
                 <p className="text-muted-foreground mt-1">
-                  Top {popularIcons.length} most popular icons across all libraries
+                  Top {totalIconCount} most popular icons across all libraries
                 </p>
               </div>
 
@@ -134,7 +138,7 @@ export function IconsPopularPage() {
                       <p className="text-muted-foreground">Loading popular icons...</p>
                     </div>
                   </div>
-                ) : popularIcons.length === 0 ? (
+                ) : popularSections.length === 0 ? (
                   <div className="flex items-center justify-center h-64">
                     <div className="text-center">
                       <p className="text-lg font-medium">No icons found</p>
@@ -142,14 +146,14 @@ export function IconsPopularPage() {
                     </div>
                   </div>
                 ) : (
-                  <IconGrid
-                    items={popularIcons}
+                  <SectionedIconGrid
+                    sections={popularSections}
                     selectedId={selectedIcon?.id}
                     onCopy={handleIconCopy}
                     onIconClick={handleIconClick}
                     color={customization.color}
                     strokeWidth={customization.strokeWidth}
-                    ariaLabel={`Popular icons grid with ${popularIcons.length} icons`}
+                    ariaLabel={`Popular icons grid with ${totalIconCount} icons organized by library`}
                   />
                 )}
               </div>
