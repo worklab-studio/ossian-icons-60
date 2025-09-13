@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { ChevronRight, Home } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Button } from "@/components/ui/button";
 import { IconstackLogo } from "@/components/iconstack-logo";
 import { ControlPanel } from "@/components/control-panel";
 import { SectionedIconGrid } from "@/components/icon-grid/SectionedIconGrid";
@@ -127,6 +128,16 @@ export function IconsPopularPage() {
                 <p className="text-muted-foreground mt-1">
                   Top {totalIconCount} most popular icons across all libraries
                 </p>
+                <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
+                  Browse the top 1,000 most popular icons from leading libraries like Tabler, Heroicons, Material, Lucide, Phosphor, Bootstrap Icons, Iconoir, Octicons, Solar Icons, and Mingcute. Explore even more with 50,000+ free SVG icons across 21 additional libraries on Iconstack.
+                </p>
+                <Button 
+                  className="mt-4" 
+                  onClick={() => window.location.href = '/'}
+                  variant="default"
+                >
+                  Explore All 50,000+ Icons
+                </Button>
               </div>
 
               {/* Main Content Area */}
