@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { ChevronRight, Home } from "lucide-react";
+import { ChevronRight, Home, ArrowRight } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { IconstackLogo } from "@/components/iconstack-logo";
@@ -137,6 +137,7 @@ export function IconsPopularPage() {
                   variant="default"
                 >
                   Explore All 50,000+ Icons
+                  <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>
 
