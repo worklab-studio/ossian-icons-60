@@ -13,10 +13,12 @@ export function IconDetailHeader({}: IconDetailHeaderProps) {
         {/* Left: Iconstack branding */}
         <div className="flex items-center gap-2">
           <IconstackLogo className="h-6 w-6 text-primary" />
-          <div className="flex items-center gap-2">
-            <span className="font-bold text-lg text-primary">Iconstack</span>
+          <div className="flex flex-col">
+            <div className="flex items-center gap-2">
+              <span className="font-bold text-lg text-primary">Iconstack</span>
+              <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold transition-colors bg-secondary text-secondary-foreground">Beta</span>
+            </div>
             <span className="text-xs text-muted-foreground">50,000+ icons</span>
-            <span className="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-semibold transition-colors bg-secondary text-secondary-foreground">Beta</span>
           </div>
         </div>
         
