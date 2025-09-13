@@ -5,30 +5,47 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { IconstackLogo } from "@/components/iconstack-logo";
 import { ControlPanel } from "@/components/control-panel";
-import { StaticSectionedIconGrid } from "@/components/icon-grid/StaticSectionedIconGrid";
+import { SectionedIconGrid } from "@/components/icon-grid/SectionedIconGrid";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
+import { iconLibraryManager } from "@/services/IconLibraryManager";
 import { useToast } from "@/hooks/use-toast";
 import { copyIcon } from "@/lib/copy";
-import { popularIconsStatic } from "@/data/popular-icons-static";
 import type { IconItem, LibrarySection } from "@/types/icon";
 
 export function IconsPopularPage() {
+  const [popularSections, setPopularSections] = useState<LibrarySection[]>([]);
+  const [totalIconCount, setTotalIconCount] = useState(0);
   const [selectedIcon, setSelectedIcon] = useState<IconItem | null>(null);
-  const [loading, setLoading] = useState(false); // Static content loads immediately
+  const [loading, setLoading] = useState(true);
   const { customization } = useIconCustomization();
   const { toast } = useToast();
 
-  // Use static popular icons data
-  const popularSections = popularIconsStatic;
-  const totalIconCount = popularSections.reduce((sum, section) => sum + section.icons.length, 0);
-
-  // Progressive enhancement - add dynamic functionality after static load
+  // Load popular icons on component mount
   useEffect(() => {
-    // Log static load for debugging
-    console.log(`Static popular icons loaded: ${totalIconCount} icons across ${popularSections.length} libraries`);
-  }, [totalIconCount, popularSections.length]);
+    async function loadPopularIcons() {
+      try {
+        setLoading(true);
+        const sections = await iconLibraryManager.getPopularIconsGrouped();
+        setPopularSections(sections);
+        const total = sections.reduce((sum, section) => sum + section.icons.length, 0);
+        setTotalIconCount(total);
+        console.log(`Loaded ${total} total popular icons across ${sections.length} libraries`);
+      } catch (error) {
+        console.error("Failed to load popular icons:", error);
+        toast({
+          title: "Error loading icons",
+          description: "Failed to load popular icons. Please try again.",
+          variant: "destructive",
+        });
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadPopularIcons();
+  }, [toast]);
 
   const handleIconCopy = async (icon: IconItem) => {
     try {
@@ -153,7 +170,7 @@ export function IconsPopularPage() {
                     </div>
                   </div>
                 ) : (
-                  <StaticSectionedIconGrid
+                  <SectionedIconGrid
                     sections={popularSections}
                     selectedId={selectedIcon?.id}
                     onCopy={handleIconCopy}
