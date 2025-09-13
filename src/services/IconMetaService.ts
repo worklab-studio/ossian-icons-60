@@ -131,7 +131,7 @@ export class IconMetaService {
 
   private static generateTitle(iconName: string, libraryName: string, style: string): string {
     const styleText = style && style !== 'mixed' ? ` (${this.capitalizeFirst(style)})` : '';
-    return `${iconName} Icon${styleText} - Free SVG from ${libraryName} | IconStack`;
+    return `${iconName} Icon${styleText} - Free SVG from ${libraryName} | Iconstack`;
   }
 
   private static generateDescription(icon: IconItem, library: IconLibraryMetadata, libraryId: string): string {
@@ -210,7 +210,7 @@ export class IconMetaService {
 
   private static generateOGTitle(iconName: string, libraryName: string, style: string): string {
     const styleText = style && style !== 'mixed' ? ` ${this.capitalizeFirst(style)}` : '';
-    return `${iconName}${styleText} Icon | ${libraryName} | IconStack`;
+    return `${iconName}${styleText} Icon | ${libraryName} | Iconstack`;
   }
 
   private static generateOGDescription(icon: IconItem, library: IconLibraryMetadata): string {

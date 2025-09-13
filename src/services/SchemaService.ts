@@ -16,7 +16,7 @@ export class SchemaService {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Iconstack",
-      "alternateName": "Icon Stack",
+      "alternateName": "Iconstack",
       "url": "https://iconstack.io",
       "description": "50,000+ MIT-licensed icons from 20+ libraries with live customization and export",
       "keywords": "icons, svg, free icons, web development, ui design, icon library, open source",

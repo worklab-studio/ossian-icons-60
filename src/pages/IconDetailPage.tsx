@@ -240,7 +240,7 @@ export default function IconDetailPage() {
   }, [icon, libraryMetadata, parsedLibraryId]);
 
   // Fallback meta for loading states
-  const pageTitle = enhancedMeta?.title || `${icon?.name || iconName} Icon - ${libraryMetadata?.name || parsedLibraryId} | IconStack`;
+  const pageTitle = enhancedMeta?.title || `${icon?.name || iconName} Icon - ${libraryMetadata?.name || parsedLibraryId} | Iconstack`;
   const pageDescription = enhancedMeta?.description || `Download and customize the ${icon?.name || iconName} icon from ${libraryMetadata?.name || parsedLibraryId}. Available in SVG format with customizable colors and stroke width.`;
 
   // Generate schema markup for this icon page
@@ -333,9 +333,9 @@ export default function IconDetailPage() {
         <meta name="twitter:image" content="https://iconstack.io/lovable-uploads/98f14649-ca6b-4fda-8694-18be1925419a.png" />
         
         {/* Additional SEO enhancements */}
-        <meta name="author" content="IconStack" />
+        <meta name="author" content="Iconstack" />
         <meta name="format-detection" content="telephone=no" />
-        <meta property="og:site_name" content="IconStack" />
+        <meta property="og:site_name" content="Iconstack" />
         <meta property="og:locale" content="en_US" />
       </Helmet>
 

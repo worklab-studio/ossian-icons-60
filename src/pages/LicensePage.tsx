@@ -30,7 +30,7 @@ const LicensePage = () => {
   return (
     <>
       <Helmet>
-        <title>License | IconStack - Open Source Icon Libraries</title>
+        <title>License | Iconstack - Open Source Icon Libraries</title>
         <meta 
           name="description" 
           content="IconStack aggregates 50,000+ free icons from leading open-source libraries, all licensed under MIT License for personal and commercial use." 
