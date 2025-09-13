@@ -117,7 +117,7 @@ export default {
 				'fade-in': 'fade-in 0.15s ease-out',
 				'slide-up': 'slide-up 0.2s ease-out',
 				'smooth-bounce': 'smooth-bounce 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
-				'gradient-shift': 'gradient-shift 4s ease-in-out infinite'
+				'gradient-shift': 'gradient-shift 8s ease-in-out infinite'
 			},
 			transitionTimingFunction: {
 				'smooth-scroll': 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
