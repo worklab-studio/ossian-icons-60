@@ -496,6 +496,17 @@ function IconGridPage() {
   if (isMobile) {
     return (
       <>
+        <Helmet>
+          <title>Iconstack – 50,000+ Free SVG Icons</title>
+          <meta 
+            name="description" 
+            content="Iconstack: 50,000+ free SVG icons from Material, Tabler, Phosphor, Lucide, Remix, Bootstrap & more. Search, customize color & stroke, and download SVG/PNG/XML — no login." 
+          />
+          <meta name="keywords" content="icons, svg, free icons, web development, ui design, icon library, open source, mit license" />
+          <link rel="canonical" href="https://iconstack.io" />
+        </Helmet>
+        
+        <SchemaMarkup schema={schemaMarkup} />
         <div className="flex flex-col h-screen w-full">
           {/* Fixed top header - non-scrollable */}
           <div className="fixed top-0 left-0 right-0 z-50 bg-background">
@@ -641,7 +652,7 @@ function IconGridPage() {
         <title>Iconstack – 50,000+ Free SVG Icons</title>
         <meta 
           name="description" 
-          content="Iconstack: 50,000+ free SVG icons from Material, Tabler, Phosphor, Lucide & Remix. Search, customize color & stroke, download SVG/PNG/XML — no login." 
+          content="Iconstack: 50,000+ free SVG icons from Material, Tabler, Phosphor, Lucide, Remix, Bootstrap & more. Search, customize color & stroke, and download SVG/PNG/XML — no login." 
         />
         <meta name="keywords" content="icons, svg, free icons, web development, ui design, icon library, open source, mit license" />
         <link rel="canonical" href="https://iconstack.io" />
