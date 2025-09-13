@@ -146,7 +146,7 @@ export function IconsPopularPage() {
               </div>
 
               {/* Main Content Area */}
-              <div className="flex-1 overflow-auto">
+              <div className="flex-1 overflow-auto p-6">
                 {loading ? (
                   <div className="flex items-center justify-center h-64">
                     <div className="text-center">
@@ -162,17 +162,15 @@ export function IconsPopularPage() {
                     </div>
                   </div>
                 ) : (
-                  <div className="px-6">
-                    <SectionedIconGrid
-                      sections={popularSections}
-                      selectedId={selectedIcon?.id}
-                      onCopy={handleIconCopy}
-                      onIconClick={handleIconClick}
-                      color={customization.color}
-                      strokeWidth={customization.strokeWidth}
-                      ariaLabel={`Popular icons grid with ${totalIconCount} icons organized by library`}
-                    />
-                  </div>
+                  <SectionedIconGrid
+                    sections={popularSections}
+                    selectedId={selectedIcon?.id}
+                    onCopy={handleIconCopy}
+                    onIconClick={handleIconClick}
+                    color={customization.color}
+                    strokeWidth={customization.strokeWidth}
+                    ariaLabel={`Popular icons grid with ${totalIconCount} icons organized by library`}
+                  />
                 )}
               </div>
 
