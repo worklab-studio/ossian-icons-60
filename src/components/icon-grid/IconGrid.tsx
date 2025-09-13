@@ -61,10 +61,10 @@ export function IconGrid({
                   }}
                   className=""
                 >
-                  <div className="grid min-w-0 gap-0" style={{ 
-                    gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`, 
-                    height: '80px'
-                  }}>
+                   <div className="grid min-w-0 gap-0" style={{ 
+                     gridTemplateColumns: `repeat(${columnsCount}, 80px)`, 
+                     height: '80px'
+                   }}>
                     {row.map((icon) => (
                       <IconCell
                         key={icon.id}
@@ -85,7 +85,7 @@ export function IconGrid({
           // Simple grid for smaller lists with fixed 80px height
           <div className="grid min-w-0 gap-0" 
                style={{ 
-                 gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`,
+            gridTemplateColumns: `repeat(${columnsCount}, 80px)`,
                  gridAutoRows: '80px'
                }}>
             {items.map((icon) => (

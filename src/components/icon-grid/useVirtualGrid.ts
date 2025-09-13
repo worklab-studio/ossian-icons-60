@@ -17,14 +17,19 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
     if (!containerWidth) return 4;
     
     // Use consistent 640px breakpoint to match use-mobile hook
-    const isMobile = containerWidth < 640;
-    if (isMobile) {
-      // Fixed 4 columns on mobile for consistent square grid
-      return 4;
-    }
+    const isMobile = containerWidth < 768;
     
-    // Better desktop column calculation with consistent 80px cells
-    return Math.floor(Math.max(containerWidth, 320) / 80) || 4;
+    if (isMobile) {
+      // Mobile: 4 columns minimum, then scale based on 80px width
+      const minCols = 4;
+      const maxCols = Math.floor(containerWidth / 80);
+      return Math.max(minCols, maxCols);
+    } else {
+      // Desktop: scale based on exactly fitting 80px cells
+      const minCols = 6;
+      const maxCols = Math.floor(containerWidth / 80);
+      return Math.max(minCols, maxCols);
+    }
   }, [containerWidth]);
 
   // Memoize row grouping with better performance
