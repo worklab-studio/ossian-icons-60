@@ -26,8 +26,8 @@ export function StaticSectionedIconGrid({
   const [containerWidth, setContainerWidth] = useState(0);
   const [scrollTop, setScrollTop] = useState(0);
 
-  // Calculate columns to fit container width without gaps (minimum 80px per icon)
-  const columnsCount = containerWidth > 0 ? Math.floor(Math.max(containerWidth, 320) / 80) || 4 : 4;
+  // Calculate columns to fit container width with gaps (minimum 88px per icon including gap)
+  const columnsCount = containerWidth > 0 ? Math.floor(Math.max(containerWidth, 320) / 88) || 4 : 4;
 
   // Update container width and track scroll
   useEffect(() => {
@@ -91,7 +91,12 @@ export function StaticSectionedIconGrid({
           rowIndex: Math.floor(i / columnsCount),
           icons: rowIcons
         });
-        currentPosition += 80; // Row height
+        currentPosition += 88; // Row height with spacing
+      }
+      
+      // Add section separator spacing (except for last section)
+      if (sectionIndex < sections.length - 1) {
+        currentPosition += 16;
       }
     });
     
@@ -118,7 +123,7 @@ export function StaticSectionedIconGrid({
     getScrollElement: () => containerRef.current,
     estimateSize: (index) => {
       const item = virtualItems[index];
-      return item?.type === 'header' ? 60 : 80; // Headers are 60px, icon rows are 80px
+      return item?.type === 'header' ? 60 : 88; // Headers are 60px, icon rows are 88px
     },
     overscan: 5,
   });
@@ -152,7 +157,7 @@ export function StaticSectionedIconGrid({
       
       <div
         ref={containerRef}
-        className="h-full overflow-y-auto overflow-x-hidden"
+        className="h-full overflow-y-auto overflow-x-hidden pt-[60px]"
         role="grid"
         aria-label={computedAriaLabel}
       >
@@ -208,7 +213,7 @@ export function StaticSectionedIconGrid({
                   }}
                   className=""
                 >
-                  <div className="grid min-w-0 gap-0" style={{ gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`, height: '80px' }}>
+                  <div className="grid min-w-0 gap-2 p-2" style={{ gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`, height: '88px' }}>
                     {item.icons.map((icon) => (
                       <StaticIconCell
                         key={icon.id}
