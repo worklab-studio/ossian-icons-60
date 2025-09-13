@@ -641,7 +641,7 @@ function IconGridPage() {
         <title>Iconstack – 50,000+ Free SVG Icons</title>
         <meta 
           name="description" 
-          content="Stop hunting icons. Start shipping designs. Iconstack brings you 50,000+ free SVG icons – download, copy, and use instantly. MIT licensed." 
+          content="Iconstack: 50,000+ free SVG icons from Material, Tabler, Phosphor, Lucide & Remix. Search, customize color & stroke, download SVG/PNG/XML — no login." 
         />
         <meta name="keywords" content="icons, svg, free icons, web development, ui design, icon library, open source, mit license" />
         <link rel="canonical" href="https://iconstack.io" />
