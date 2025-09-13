@@ -5,7 +5,7 @@ import { StaticIconCell } from './StaticIconCell';
 
 // Flatten sections for virtualization while keeping track of section headers
 type VirtualItem = {
-  type: 'header' | 'icons-row' | 'section-separator';
+  type: 'header' | 'icons-row';
   sectionIndex: number;
   rowIndex?: number;
   icons?: IconItem[];
@@ -26,8 +26,8 @@ export function StaticSectionedIconGrid({
   const [containerWidth, setContainerWidth] = useState(0);
   const [scrollTop, setScrollTop] = useState(0);
 
-  // Calculate columns to fit container width with gaps (minimum 88px per icon including gap)
-  const columnsCount = containerWidth > 0 ? Math.floor(Math.max(containerWidth, 320) / 88) || 4 : 4;
+  // Calculate columns to fit container width without gaps (minimum 80px per icon)
+  const columnsCount = containerWidth > 0 ? Math.floor(Math.max(containerWidth, 320) / 80) || 4 : 4;
 
   // Update container width and track scroll
   useEffect(() => {
@@ -91,16 +91,7 @@ export function StaticSectionedIconGrid({
           rowIndex: Math.floor(i / columnsCount),
           icons: rowIcons
         });
-        currentPosition += 88; // Row height with spacing
-      }
-      
-      // Add actual section separator item (except for last section)
-      if (sectionIndex < sections.length - 1) {
-        items.push({
-          type: 'section-separator',
-          sectionIndex
-        });
-        currentPosition += 16; // Separator height
+        currentPosition += 80; // Row height
       }
     });
     
@@ -127,9 +118,7 @@ export function StaticSectionedIconGrid({
     getScrollElement: () => containerRef.current,
     estimateSize: (index) => {
       const item = virtualItems[index];
-      if (item?.type === 'header') return 60;
-      if (item?.type === 'section-separator') return 16;
-      return 88; // icon rows are 88px
+      return item?.type === 'header' ? 60 : 80; // Headers are 60px, icon rows are 80px
     },
     overscan: 5,
   });
@@ -163,7 +152,7 @@ export function StaticSectionedIconGrid({
       
       <div
         ref={containerRef}
-        className="h-full overflow-y-auto overflow-x-hidden pt-[60px]"
+        className="h-full overflow-y-auto overflow-x-hidden"
         role="grid"
         aria-label={computedAriaLabel}
       >
@@ -178,8 +167,12 @@ export function StaticSectionedIconGrid({
             const item = virtualItems[virtualItem.index];
             
             if (item?.type === 'header') {
-              // Keep headers visible but adjust opacity if sticky
-              const isSticky = stickyHeader && stickyHeader.sectionIndex === item.sectionIndex;
+              // Hide this header if it's the same as the sticky header
+              const shouldHideHeader = stickyHeader && stickyHeader.sectionIndex === item.sectionIndex;
+              
+              if (shouldHideHeader) {
+                return null;
+              }
               
               return (
                 <div
@@ -192,29 +185,12 @@ export function StaticSectionedIconGrid({
                     height: `${virtualItem.size}px`,
                     transform: `translateY(${virtualItem.start}px)`,
                   }}
-                  className={`flex items-center pl-4 py-4 bg-background/95 backdrop-blur-sm border-b border-border/50 ${isSticky ? 'opacity-0' : ''}`}
+                  className="flex items-center pl-4 py-4 bg-background/95 backdrop-blur-sm border-b border-border/50"
                 >
                   <h3 className="text-lg font-semibold text-foreground">
                     {item.libraryName}
                   </h3>
                 </div>
-              );
-            }
-
-            if (item?.type === 'section-separator') {
-              return (
-                <div
-                  key={`separator-${item.sectionIndex}`}
-                  style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: `${virtualItem.size}px`,
-                    transform: `translateY(${virtualItem.start}px)`,
-                  }}
-                  className="w-full"
-                />
               );
             }
 
@@ -232,7 +208,7 @@ export function StaticSectionedIconGrid({
                   }}
                   className=""
                 >
-                  <div className="grid min-w-0 gap-2 p-2" style={{ gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`, height: '88px' }}>
+                  <div className="grid min-w-0 gap-0" style={{ gridTemplateColumns: `repeat(${columnsCount}, minmax(0, 1fr))`, height: '80px' }}>
                     {item.icons.map((icon) => (
                       <StaticIconCell
                         key={icon.id}

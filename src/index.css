@@ -150,7 +150,7 @@
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
     width: 100%;
     aspect-ratio: 1; /* Make cells square */
-    height: 80px; /* Fixed 80px for desktop and tablet */
+    min-height: 80px; /* Fixed 80px for desktop and tablet */
     will-change: transform;
     contain: layout style;
     transform: translate3d(0, 0, 0); /* Hardware acceleration */
@@ -161,7 +161,8 @@
   @media (max-width: 640px) {
     .icon-cell {
       aspect-ratio: 1;
-      height: 80px; /* Fixed 80px to match virtual grid */
+      min-height: unset; /* Remove min-height on mobile */
+      height: 25vw; /* Make height 1/4 of viewport width for 4-column square grid */
       transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth resize transitions */
     }
   }
