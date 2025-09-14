@@ -32,6 +32,7 @@ import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
 
 function IconGridPage() {
+  console.log('IconGridPage component loading - LoadingWithTagline has been removed');
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSet, setSelectedSet] = useState("all");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
