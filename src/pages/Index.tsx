@@ -498,10 +498,6 @@ function IconGridPage() {
       <>
         <Helmet>
           <title>Iconstack – 50,000+ Free SVG Icons</title>
-          <meta 
-            name="description" 
-            content="Iconstack: 50,000+ free SVG icons from Material, Tabler, Phosphor, Lucide, Remix, Bootstrap & more. Search, customize color & stroke, and download SVG/PNG/XML — no login." 
-          />
           <meta name="keywords" content="icons, svg, free icons, web development, ui design, icon library, open source, mit license" />
           <link rel="canonical" href="https://iconstack.io" />
         </Helmet>
@@ -650,10 +646,6 @@ function IconGridPage() {
     <>
       <Helmet>
         <title>Iconstack – 50,000+ Free SVG Icons</title>
-        <meta 
-          name="description" 
-          content="Iconstack: 50,000+ free SVG icons from Material, Tabler, Phosphor, Lucide, Remix, Bootstrap & more. Search, customize color & stroke, and download SVG/PNG/XML — no login." 
-        />
         <meta name="keywords" content="icons, svg, free icons, web development, ui design, icon library, open source, mit license" />
         <link rel="canonical" href="https://iconstack.io" />
       </Helmet>
