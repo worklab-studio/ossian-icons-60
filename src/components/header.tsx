@@ -50,7 +50,12 @@ export function Header({ searchQuery, onSearchChange, onSearchClear }: HeaderPro
               className="h-10 pl-10 pr-16 transition-all"
             />
             <div className="absolute right-3 top-1/2 -translate-y-1/2 hidden sm:flex items-center">
-              <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+              <kbd 
+                className={`inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100 ${
+                  searchQuery ? 'pointer-events-auto cursor-pointer hover:bg-muted/80 transition-colors' : 'pointer-events-none'
+                }`}
+                onClick={searchQuery ? onSearchClear : undefined}
+              >
                 {shortcutKey}
               </kbd>
             </div>

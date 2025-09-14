@@ -87,7 +87,10 @@ export function MobileHeader({
           />
           {searchQuery && (
             <div className="absolute right-3 top-1/2 -translate-y-1/2">
-              <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+              <kbd 
+                className="inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100 cursor-pointer hover:bg-muted/80 transition-colors"
+                onClick={onSearchClear}
+              >
                 {shortcutKey}
               </kbd>
             </div>
