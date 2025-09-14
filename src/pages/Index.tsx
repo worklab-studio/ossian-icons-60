@@ -17,7 +17,7 @@ import { useFirstTimeUser } from "@/hooks/useFirstTimeUser";
 import { useVisitedUser } from "@/hooks/useVisitedUser";
 import { showFirstCopyNudge } from "@/components/ui/first-copy-nudge";
 import { Skeleton } from "@/components/ui/skeleton";
-import LoadingWithTagline from "@/components/LoadingWithTagline";
+
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertCircle, Loader2 } from "lucide-react";
 import { iconLibraryManager } from "@/services/IconLibraryManager";
@@ -39,7 +39,6 @@ function IconGridPage() {
   const [searchResults, setSearchResults] = useState<IconItem[]>([]);
   const [searchTotalCount, setSearchTotalCount] = useState<number>(0);
   const [showLoadingAnimation, setShowLoadingAnimation] = useState(false);
-  const [minDurationComplete, setMinDurationComplete] = useState(true);
   const { customization } = useIconCustomization();
 
   // Mobile state
@@ -156,26 +155,10 @@ function IconGridPage() {
     }
   }, [search, searchReady, loaded]);
 
-  // Control loading animation visibility - smart loading based on cache
+  // Control loading animation visibility - show content immediately
   useEffect(() => {
-    if (shouldSkipLoading) {
-      // Skip loading for returning users with cached data
-      setShowLoadingAnimation(false);
-      setMinDurationComplete(true);
-    } else {
-      // Show loading for first-time users or users without cache
-      setShowLoadingAnimation(true);
-    }
-  }, [shouldSkipLoading]);
-
-  // Hide loading animation when both conditions are met
-  useEffect(() => {
-    if (loaded && minDurationComplete && showLoadingAnimation) {
-      console.log('Hiding loading animation - icons loaded and minimum duration complete');
-      setShowLoadingAnimation(false);
-      markLoadingSeen();
-    }
-  }, [loaded, minDurationComplete, showLoadingAnimation, markLoadingSeen]);
+    setShowLoadingAnimation(!loaded);
+  }, [loaded]);
 
   // Fallback timeout removed - just keep loading until ready
 
@@ -553,12 +536,12 @@ function IconGridPage() {
 
           {/* Content area with top padding to account for fixed header */}
           <main className="flex-1 overflow-auto pt-32">
-            {showLoadingAnimation ? (
+            {loading ? (
               <div className="flex-1 flex items-center justify-center h-full">
-                <LoadingWithTagline 
-                  minDuration={3000}
-                  onMinDurationComplete={() => setMinDurationComplete(true)}
-                />
+                <div className="text-center space-y-2">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
+                  <p className="text-sm text-muted-foreground">Loading icons...</p>
+                </div>
               </div>
             ) : error ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
@@ -738,14 +721,7 @@ function IconGridPage() {
 
           {/* Scrollable main content */}
           <main className="flex-1 overflow-hidden">
-            {showLoadingAnimation ? (
-              <div className="flex-1 flex items-center justify-center h-full">
-                <LoadingWithTagline 
-                  minDuration={3000}
-                  onMinDurationComplete={() => setMinDurationComplete(true)}
-                />
-              </div>
-            ) : loading ? (
+            {loading ? (
               <div className="flex-1 flex items-center justify-center h-full">
                 <div className="text-center space-y-2">
                   <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
