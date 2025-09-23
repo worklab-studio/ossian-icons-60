@@ -103,12 +103,14 @@ export function ColorPicker() {
   const hslColor = useMemo(() => `hsl(${hue}, 100%, 50%)`, [hue]);
 
   const handleHexChange = (inputValue: string) => {
-    setHexInput(inputValue);
+    // Normalize input - add # if missing
+    const normalizedValue = inputValue.startsWith('#') ? inputValue : `#${inputValue}`;
+    setHexInput(normalizedValue);
     
-    // Validate hex color
+    // Validate hex color (accepts both #RRGGBB and #RGB formats)
     const hexRegex = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/;
-    if (hexRegex.test(inputValue)) {
-      updateColor(inputValue);
+    if (hexRegex.test(normalizedValue)) {
+      updateColor(normalizedValue);
     }
   };
 
