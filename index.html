@@ -97,6 +97,11 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
     
     <!-- Lucent Analytics -->
     <script src="https://cdn.lucenthq.com/lucent.min.js"></script>
@@ -107,10 +112,5 @@
             window.Lucent && Lucent.init("2b6b01ef-e87f-4a95-8d78-0905130a5b9b")
           );
     </script>
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
