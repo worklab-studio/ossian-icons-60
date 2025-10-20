@@ -97,6 +97,16 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    
+    <!-- Lucent Analytics -->
+    <script src="https://cdn.lucenthq.com/lucent.min.js"></script>
+    <script>
+      window.Lucent
+        ? Lucent.init("2b6b01ef-e87f-4a95-8d78-0905130a5b9b")
+        : window.addEventListener("DOMContentLoaded", () =>
+            window.Lucent && Lucent.init("2b6b01ef-e87f-4a95-8d78-0905130a5b9b")
+          );
+    </script>
   </head>
 
   <body>
