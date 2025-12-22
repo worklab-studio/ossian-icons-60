@@ -7,8 +7,9 @@ const footerItems = [
     badge: "New"
   },
   {
-    text: "Ultimate launch toolkit for founders: ProductLaunchos.com",
+    text: "Ultimate launch toolkit for founders - Productlaunchos.com",
     link: "https://productlaunchos.com",
+    badge: "Trending"
   },
   {
     text: "A complete icon library - iconstack.io",
