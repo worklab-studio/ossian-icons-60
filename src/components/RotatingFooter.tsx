@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { TrendingUp } from "lucide-react";
 
-const footerItems = [
+type BadgeType = "New" | "Trending";
+
+const footerItems: { text: string; link: string; badge?: BadgeType }[] = [
   {
     text: "IconStack Figma Plugin is live",
     link: "https://www.figma.com/community/plugin/1548394766689434419/iconstack-50-000-free-svg-icons",
@@ -16,6 +19,23 @@ const footerItems = [
     link: "https://iconstack.io",
   },
 ];
+
+const BadgeComponent = ({ type }: { type: BadgeType }) => {
+  if (type === "Trending") {
+    return (
+      <span className="ml-2 inline-flex items-center gap-1 rounded-full bg-blue-500/10 px-1.5 py-0.5 text-[10px] font-medium text-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.4)]">
+        <TrendingUp size={10} />
+        {type}
+      </span>
+    );
+  }
+  
+  return (
+    <span className="ml-2 inline-flex items-center rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">
+      {type}
+    </span>
+  );
+};
 
 export function RotatingFooter() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -49,11 +69,7 @@ export function RotatingFooter() {
           }`}
         >
           {current.text}
-          {current.badge && (
-            <span className="ml-2 inline-flex items-center rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">
-              {current.badge}
-            </span>
-          )}
+          {current.badge && <BadgeComponent type={current.badge} />}
         </a>
       </div>
     </footer>
