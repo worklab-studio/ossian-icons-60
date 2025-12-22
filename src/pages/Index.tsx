@@ -30,6 +30,7 @@ import { MobileIconActions } from "@/components/mobile/MobileIconActions";
 import { HapticsManager } from "@/lib/haptics";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
+import { RotatingFooter } from "@/components/RotatingFooter";
 
 function IconGridPage() {
   console.log('IconGridPage component loading - LoadingWithTagline has been removed');
@@ -807,9 +808,7 @@ function IconGridPage() {
             )}
           </main>
           
-          <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
-            <p><a href="https://www.figma.com/community/plugin/1548394766689434419/iconstack-50-000-free-svg-icons" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] bg-clip-text text-transparent hover:opacity-80 bg-[length:200%_100%] animate-gradient-shift" style={{backgroundImage: 'linear-gradient(90deg, #833AB4, #FD1D1D, #FCB045, #833AB4, #FD1D1D)'}}>Figma Plugin</a> <span className="inline-flex items-center rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">New</span></p>
-          </footer>
+          <RotatingFooter />
         </div>
         
         <ControlPanel selectedIcon={selectedIcon} selectedSet={selectedSet} />
