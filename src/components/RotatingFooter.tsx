@@ -23,7 +23,7 @@ const footerItems: { text: string; link: string; badge?: BadgeType }[] = [
 const BadgeComponent = ({ type }: { type: BadgeType }) => {
   if (type === "Trending") {
     return (
-      <span className="ml-2 inline-flex items-center gap-1 rounded-full bg-blue-500/10 px-1.5 py-0.5 text-[10px] font-medium text-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.4)]">
+      <span className="ml-2 inline-flex items-center gap-1 rounded-full border border-blue-500/50 bg-blue-500/10 px-1.5 py-0.5 text-[10px] font-medium text-blue-500">
         <TrendingUp size={10} />
         {type}
       </span>
