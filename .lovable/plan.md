@@ -1,45 +1,80 @@
 
+# Redesign Library Page to Match Home Page Layout
 
-# Show All Similar Icons + 36px Preview + SEO Review
+## Goal
+Make the library page (`/library/:libraryId`) use the same layout as the home page, but replace the sidebar with a panel showing the library name and description.
 
-## Changes
+## Desktop Layout
 
-### 1. Primary Icon Size: 36x36 (`src/pages/IconDetailPage.tsx`)
+**Current home page structure:**
+```text
++------------------+---------------------------+--------------+
+| AppSidebar       | Header (search bar)       | ControlPanel |
+| (library list)   |---------------------------|  (customize) |
+|                  | Sub-header (title, count)  |              |
+|                  |---------------------------|              |
+|                  | IconGrid                  |              |
+|                  |                           |              |
++------------------+---------------------------+--------------+
+```
 
-- Line 310: Change `[&>svg]:w-6 [&>svg]:h-6` to `[&>svg]:w-9 [&>svg]:h-9` (36px)
-- Line 318: Change `size: 24` to `size: 36`
+**New library page (desktop):**
+```text
++------------------+---------------------------+--------------+
+| Library Info     | Header (search bar)       | ControlPanel |
+| - Name           |---------------------------|  (customize) |
+| - Description    | Sub-header (count, filter) |              |
+| - Icon count     |---------------------------|              |
+| - Back link      | IconGrid                  |              |
+|                  |                           |              |
++------------------+---------------------------+--------------+
+```
 
-### 2. Show ALL Similar Icons (remove `.slice(0, 24)`)
+**Mobile layout:** Same as home page mobile layout -- fixed header with search, library info below, then icon grid. Use the existing mobile components (MobileHeader pattern) but with library info instead of library selector.
 
-- Line 154: Remove `.slice(0, 24)` so all scored icons with score > 0 are shown
-- Line 162 (fallback): Remove `.slice(0, 24)` there too
+## Technical Changes
 
-This means if an icon like "arrow" matches 200+ icons across all libraries, they all show. The CSS grid handles any count gracefully.
+### File: `src/pages/LibraryPage.tsx` (full rewrite)
 
-### 3. SEO/Indexing Assessment
+**New imports needed:**
+- `SidebarProvider` from ui/sidebar (for layout structure)
+- `Header` from components/header (search bar)
+- `ControlPanel` from components/control-panel
+- `CategoryFilter` from components/CategoryFilter
+- `MobileHeader`, `MobileCustomizeSheet`, `MobileIconActions` for mobile
+- `sortIconsByStyleThenName` from lib/icon-utils
+- `useFirstTimeUser`, `showFirstCopyNudge` for first-copy UX
+- `ScrollArea` for sidebar scroll
 
-The page is already well-suited for traffic and indexing:
+**New state:**
+- `searchQuery` + filtering logic (reuse pattern from Index.tsx)
+- `selectedId` for icon selection
+- `selectedCategory` for category filtering
+- `showCustomizeSheet`, `showIconActions` for mobile
 
-- **Helmet meta tags**: Unique `<title>`, `<meta description>`, Open Graph tags, and Twitter cards per icon page
-- **Schema.org JSON-LD**: Structured data via `useSchemaMarkup` hook (BreadcrumbList, CreativeWork, etc.)
-- **Sitemaps**: Individual XML sitemaps per library (e.g., `sitemap-phosphor.xml`) with every icon URL listed
-- **Canonical URLs**: Clean `/icon/{library}/{icon-name}` structure
-- **robots.txt**: Present and configured
-- **Breadcrumbs**: Rendered in both UI and schema markup
+**Desktop layout:**
+- Left panel: Fixed-width sidebar (~240px) with back arrow/link to home, library name (h1), description, icon count, and style info
+- Center: `Header` component (search), sub-header with count + `CategoryFilter`, then `IconGrid`
+- Right: `ControlPanel` (customize panel)
+- Remove breadcrumbs (sidebar has back link), remove the big centered library header, remove "Explore Other Libraries" section
+- Keep `RotatingFooter`
 
-**What's good:** Every icon has a unique, crawlable URL with proper meta, schema, and sitemap coverage. This is solid for Google indexing.
+**Mobile layout:**
+- Fixed top: `MobileHeader` (but with library name instead of library selector button)
+- Below: Library name + count
+- Main: `IconGrid`
+- Bottom sheets for customize and icon actions
 
-**Minor improvement opportunities** (not in this plan, but worth noting):
-- Add `<link rel="canonical">` explicitly in Helmet to avoid duplicate content issues
-- Consider adding `alt` text or `aria-label` descriptions to the SVG preview for accessibility signals
+**Search/filter logic:**
+- Local search: filter `icons` array by name/tags matching `searchQuery`
+- Category filter from `availableCategories`
+- `displayedIcons` = filtered + sorted via `sortIconsByStyleThenName`
 
----
+**Icon click behavior:**
+- Desktop: select icon (for ControlPanel) + navigate to detail page
+- Mobile: show MobileIconActions sheet
 
-## Technical Details
-
-**File: `src/pages/IconDetailPage.tsx`**
-- Line 154: `slice(0, 24)` removed
-- Line 162: `slice(0, 24)` removed
-- Line 310: `w-6 h-6` changed to `w-9 h-9`
-- Line 318: `size: 24` changed to `size: 36`
-
+**Keep existing:**
+- SEO (Helmet, SchemaMarkup, canonical URL)
+- Loading/error states
+- `handleCopy` logic
