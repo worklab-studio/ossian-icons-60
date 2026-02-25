@@ -1,42 +1,50 @@
 
 
-# Fix Icon Detail Page + Redesign Library Page
+# Fix Icon Detail Page: Preview Size, Similar Icons, Library Links
 
-## 3 Issues to Fix
+## Issues
 
-### 1. Icon Preview Still Small
-**Root cause:** SVG strings contain hardcoded `width="24" height="24"` attributes that override CSS classes like `[&>svg]:!w-[400px]`.
+1. **Icon preview too large** -- 400x400 is oversized per user feedback, needs to be reduced
+2. **Similar icons empty** -- Only searching 4 libraries instead of all available ones
+3. **Library page crashing** -- Helmet component crashes during render; need bulletproof null handling
 
-**Fix in `src/pages/IconDetailPage.tsx`:**
-- Strip `width` and `height` attributes from SVG string before rendering
-- Use a CSS container to control size: `w-full max-w-[400px] aspect-square` on desktop, `max-w-[200px]` on mobile
-- Apply `[&>svg]:w-full [&>svg]:h-full` so SVG fills the container
+## Changes
 
-### 2. Similar Icons Not Loading
-**Root cause:** Search worker is unreliable -- requires indexing 5 libraries into a web worker before searching, timing-dependent, often fails silently.
+### 1. Reduce Icon Preview Size (IconDetailPage.tsx)
 
-**Fix in `src/pages/IconDetailPage.tsx`:**
-- Remove search worker dependency entirely from this page
-- Replace with a simple main-thread approach:
-  1. Load the current library (already loaded)
-  2. Load 2 popular libraries (e.g., lucide, tabler -- small async imports)
-  3. Filter by matching icon name words and tag overlap
-  4. This is deterministic, fast, and always works
-- Keep `handleSimilarIconClick` navigation to detail pages (already working)
+- Desktop: Change from `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
+- Desktop container wrapper (line 630): Change from `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
+- Left panel width: Reduce from `w-[480px]` to `w-[400px]`
+- Mobile: Keep `w-48 h-48` (192px) as-is
+- Copy SVG and Download SVG buttons remain unchanged
 
-### 3. Redesign Library Page (New UI)
-**Root cause:** Current LibraryPage has a basic layout, crashes on `libraryMetadata.name` access before null check, and IconGrid has no fixed-height container so virtualization breaks for large libraries.
+### 2. Load ALL Libraries for Similar Icons (IconDetailPage.tsx)
 
-**Full rewrite of `src/pages/LibraryPage.tsx`:**
-- Add breadcrumbs: `Home > Library Name`
-- Proper header with library name, description, icon count, and back navigation
-- Wrap IconGrid in a `h-[calc(100vh-280px)]` container for virtualization to work
-- Add `onIconClick` handler to navigate to icon detail pages (internal linking)
-- Add optional chaining for all `libraryMetadata` access
-- Add `RotatingFooter` at the bottom
-- Mobile-responsive layout using `useIsMobile` hook
-- SEO: keep existing Helmet/schema markup with null guards
-- Add "Explore other libraries" links section below the grid for internal linking
+- Replace the limited `librariesToSearch` array (4 libraries) with ALL libraries from `iconLibraryManager.libraries`
+- Load all libraries in parallel using `Promise.allSettled` for resilience
+- Keep the same scoring logic (name/tag word overlap)
+- This guarantees similar icons from every library appear
+
+Current code (line 123-131):
+```
+const librariesToSearch = [parsedLibraryId];
+const popular = ['lucide', 'tabler', 'heroicons', 'phosphor', 'feather'];
+for (const id of popular) {
+  if (id !== parsedLibraryId && librariesToSearch.length < 4) {
+    librariesToSearch.push(id);
+  }
+}
+```
+
+New approach: use `iconLibraryManager.libraries.map(lib => lib.id)` to search ALL libraries.
+
+### 3. Fix Library Page Crash (LibraryPage.tsx)
+
+The Helmet component at line 112-122 accesses `libraryMetadata.count` and `libraryMetadata.style` which can error if the Helmet component processes them during an intermediate state. Fix by:
+
+- Moving the early return guard ABOVE the Helmet render: return error UI if `!libraryMetadata` regardless of loading state
+- Use optional chaining (`libraryMetadata?.style`, `libraryMetadata?.count`) inside Helmet as extra safety
+- This prevents the crash that occurs when navigating to `/library/{id}`
 
 ---
 
@@ -44,19 +52,14 @@
 
 **Files modified (2):**
 
-**`src/pages/IconDetailPage.tsx`**
-- In `iconPreview`, strip `width="..."` and `height="..."` from SVG string using regex before `dangerouslySetInnerHTML`
-- Replace `findSimilarIconsAcrossLibraries` function: remove search worker calls, load 2-3 libraries directly via `iconLibraryManager.loadLibrary()`, filter by name/tag match on main thread
-- Remove `useSearchWorker` import and hook usage
-- Remove the retry `useEffect` for `searchWorkerReady`
+**`src/pages/IconDetailPage.tsx`:**
+- Line 312: Change `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
+- Line 327: Change size `400` to `280`
+- Line 627: Change `w-[480px]` to `w-[400px]`
+- Line 630: Change `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
+- Lines 123-142: Replace limited library search with `Promise.allSettled` across ALL libraries from `iconLibraryManager.libraries`
 
-**`src/pages/LibraryPage.tsx`**
-- Import `Link` from react-router-dom, `useIsMobile`, `RotatingFooter`, `Home`/`ArrowLeft` from lucide, breadcrumb components
-- Add breadcrumb navigation (Home link + library name)
-- Add `onIconClick` to `IconGrid` that navigates to `/icon/{libraryId}/{iconName}`
-- Wrap IconGrid in fixed-height scrollable container
-- Add optional chaining on all `libraryMetadata` references in render
-- Add "Explore other libraries" section with links to 3-4 popular libraries
-- Add `RotatingFooter` component at bottom
-- Mobile layout: stacked vertical with smaller header text
+**`src/pages/LibraryPage.tsx`:**
+- Line 83: Change guard to `if (error || !libraryMetadata)` (remove `&& !loading` condition) so it returns error UI immediately when metadata is missing
+- Lines 113-114: Add optional chaining on `.count`, `.style` inside Helmet as extra safety
 
