@@ -97,7 +97,7 @@ function calculateIconScore(
   queryWords: string[],
   options: SearchMessage['options'] = {}
 ): SearchResult | null {
-  const { fuzzy = true, enableSynonyms = false, enablePhonetic = true } = options;
+  const { fuzzy = true, enableSynonyms = true, enablePhonetic = true } = options;
   
   let bestScore = 0;
   let matchedFields: string[] = [];
@@ -130,7 +130,7 @@ function calculateIconScore(
     } else if (nameMatch.prefix) {
       queryScore = Math.max(queryScore, FIELD_WEIGHTS.namePrefix);
       currentFields.push('name');
-    } else if (fuzzy && normalizedQuery.length >= 4) {
+    } else if (fuzzy && normalizedQuery.length >= 3) {
       const nameScore = fuzzyScore(normalizedQuery, iconName);
       if (nameScore > 0) {
         queryScore = Math.max(queryScore, nameScore * FIELD_WEIGHTS.nameFuzzy);
@@ -149,7 +149,7 @@ function calculateIconScore(
       } else if (tagMatch.prefix) {
         queryScore = Math.max(queryScore, FIELD_WEIGHTS.tagExact * 0.8);
         currentFields.push('tag');
-      } else if (fuzzy && normalizedQuery.length >= 4) {
+      } else if (fuzzy && normalizedQuery.length >= 3) {
         const tagScore = fuzzyScore(normalizedQuery, tag);
         if (tagScore > 0) {
           queryScore = Math.max(queryScore, tagScore * FIELD_WEIGHTS.tagFuzzy);
@@ -168,7 +168,7 @@ function calculateIconScore(
     } else if (categoryMatch.prefix) {
       queryScore = Math.max(queryScore, FIELD_WEIGHTS.categoryExact * 0.8);
       currentFields.push('category');
-    } else if (fuzzy && normalizedQuery.length >= 4) {
+    } else if (fuzzy && normalizedQuery.length >= 3) {
       const categoryScore = fuzzyScore(normalizedQuery, iconCategory);
       if (categoryScore > 0) {
         queryScore = Math.max(queryScore, categoryScore * FIELD_WEIGHTS.categoryFuzzy);
@@ -330,9 +330,9 @@ function searchIcons(
 ): SearchResult[] {
   const {
     fuzzy = true,
-    maxResults = 500,      // Reduced to prioritize best matches
-    minScore = 8.0,        // Significantly increased for precision
-    enableSynonyms = false, // Disabled by default for exact results
+    maxResults = 500,
+    minScore = 3.0,
+    enableSynonyms = true,
     enablePhonetic = true,
     libraryId
   } = options;
@@ -375,21 +375,21 @@ function searchIcons(
     for (const expandedQuery of expandedQueries) {
       const normalizedExpanded = expandedQuery.toLowerCase();
       
-      // Optimized index lookups for performance (exact/prefix only)
+      // Index lookups: exact, prefix, and substring/contains matching
       for (const [key, icons] of index.nameIndex) {
-        if (key === normalizedExpanded || (normalizedExpanded.length >= 3 && key.startsWith(normalizedExpanded))) {
+        if (key === normalizedExpanded || (normalizedExpanded.length >= 3 && (key.startsWith(normalizedExpanded) || key.includes(normalizedExpanded)))) {
           icons.forEach(icon => candidates.add(icon));
         }
       }
       
       for (const [key, icons] of index.tagIndex) {
-        if (key === normalizedExpanded || (normalizedExpanded.length >= 3 && key.startsWith(normalizedExpanded))) {
+        if (key === normalizedExpanded || (normalizedExpanded.length >= 3 && (key.startsWith(normalizedExpanded) || key.includes(normalizedExpanded)))) {
           icons.forEach(icon => candidates.add(icon));
         }
       }
       
       for (const [key, icons] of index.categoryIndex) {
-        if (key === normalizedExpanded || (normalizedExpanded.length >= 3 && key.startsWith(normalizedExpanded))) {
+        if (key === normalizedExpanded || (normalizedExpanded.length >= 3 && (key.startsWith(normalizedExpanded) || key.includes(normalizedExpanded)))) {
           icons.forEach(icon => candidates.add(icon));
         }
       }

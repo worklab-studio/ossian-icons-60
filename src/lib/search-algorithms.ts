@@ -48,8 +48,8 @@ export function fuzzyScore(query: string, target: string): number {
   const distance = levenshteinDistance(normalizedQuery, normalizedTarget);
   const similarity = 1 - (distance / maxLength);
   
-  // Only return score if similarity is above threshold (strict for precision)
-  return similarity >= 0.9 ? similarity * 0.5 : 0;
+  // Only return score if similarity is above threshold
+  return similarity >= 0.65 ? similarity * 0.5 : 0;
 }
 
 // Soundex algorithm for phonetic matching

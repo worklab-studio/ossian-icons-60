@@ -261,10 +261,10 @@ function IconGridPage() {
         if (searchReady && loaded) {
           console.log('🤖 Using worker search');
           const searchResult = await search(searchQuery, {
-            maxResults: 1000, // Conservative limit for performance
+            maxResults: 1000,
             fuzzy: true,
-            enableSynonyms: false, // Conservative default
-            enablePhonetic: false, // Conservative default
+            enableSynonyms: true,
+            enablePhonetic: true,
             // Don't pass libraryId for "all" - let worker search across all indexed libraries
             libraryId: selectedSet !== 'all' ? selectedSet : undefined
           });
@@ -294,10 +294,10 @@ function IconGridPage() {
           const { fallbackSearch } = await import('@/lib/fallback-search');
           const fallbackResult = fallbackSearch(icons, searchQuery, {
             fuzzy: true,
-            maxResults: 1000, // Conservative limit for performance
-            minScore: 8.0, // Higher threshold for precision
-            enableSynonyms: false, // Conservative default
-            enablePhonetic: false, // Conservative default
+            maxResults: 1000,
+            minScore: 3.0,
+            enableSynonyms: true,
+            enablePhonetic: true,
             libraryId: selectedSet !== 'all' ? selectedSet : undefined // Only filter if specific library selected
           });
           setSearchResults(fallbackResult.results);
@@ -309,10 +309,10 @@ function IconGridPage() {
         const { fallbackSearch } = await import('@/lib/fallback-search');
         const fallbackResult = fallbackSearch(icons, searchQuery, {
           fuzzy: true,
-          maxResults: 1000, // Conservative limit for performance
-          minScore: 8.0, // Higher threshold for precision
-          enableSynonyms: false, // Conservative default
-          enablePhonetic: false, // Conservative default
+          maxResults: 1000,
+          minScore: 3.0,
+          enableSynonyms: true,
+          enablePhonetic: true,
           libraryId: selectedSet !== 'all' ? selectedSet : undefined // Only filter if specific library selected
         });
         setSearchResults(fallbackResult.results);
