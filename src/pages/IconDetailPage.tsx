@@ -120,26 +120,18 @@ export default function IconDetailPage() {
       const tagWords = (targetIcon.tags || []).map(t => stem(t.toLowerCase()));
       const allTargetWords = new Set([...nameWords, ...tagWords]);
 
-      // Load current library + 2-3 popular libraries
-      const librariesToSearch = [parsedLibraryId];
-      const popular = ['lucide', 'tabler', 'heroicons', 'phosphor', 'feather'];
-      for (const id of popular) {
-        if (id !== parsedLibraryId && librariesToSearch.length < 4) {
-          librariesToSearch.push(id);
-        }
-      }
+      // Load ALL libraries for comprehensive similar icons
+      const allLibraryIds = iconLibraryManager.libraries.map(lib => lib.id);
 
       const allIcons: IconItem[] = [];
-      await Promise.all(
-        librariesToSearch.map(async (libId) => {
-          try {
-            const icons = await iconLibraryManager.loadLibrary(libId);
-            allIcons.push(...icons);
-          } catch (e) {
-            console.warn(`Failed to load library ${libId} for similar icons:`, e);
-          }
-        })
+      const results = await Promise.allSettled(
+        allLibraryIds.map(libId => iconLibraryManager.loadLibrary(libId))
       );
+      for (const result of results) {
+        if (result.status === 'fulfilled') {
+          allIcons.push(...result.value);
+        }
+      }
 
       // Score each icon by name/tag word overlap
       const scored = allIcons
@@ -309,7 +301,7 @@ export default function IconDetailPage() {
   // Shared icon preview — strip hardcoded width/height so CSS controls size
   const iconPreview = (
     <div 
-      className={`flex items-center justify-center ${isMobile ? 'w-48 h-48' : 'w-[400px] h-[400px]'} [&>svg]:w-full [&>svg]:h-full`}
+      className={`flex items-center justify-center ${isMobile ? 'w-48 h-48' : 'w-[280px] h-[280px]'} [&>svg]:w-full [&>svg]:h-full`}
       style={{ color: customization.color }}
     >
       {typeof icon.svg === 'string' ? (
@@ -324,7 +316,7 @@ export default function IconDetailPage() {
         />
       ) : (
         React.createElement(icon.svg as React.ComponentType<any>, {
-          size: isMobile ? 192 : 400,
+          size: isMobile ? 192 : 280,
           color: customization.color,
           strokeWidth: customization.strokeWidth
         })
@@ -624,10 +616,10 @@ export default function IconDetailPage() {
             
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Icon Display with quick actions */}
-              <div className="w-[480px] flex-shrink-0 border-r border-border/30 flex flex-col">
+              <div className="w-[400px] flex-shrink-0 border-r border-border/30 flex flex-col">
                 <div className="p-6 flex-shrink-0">
                   <div className="flex items-center justify-center mb-6">
-                    <div className="flex items-center justify-center w-[400px] h-[400px]">
+                    <div className="flex items-center justify-center w-[280px] h-[280px]">
                       {iconPreview}
                     </div>
                   </div>

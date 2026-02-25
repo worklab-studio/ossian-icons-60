@@ -80,7 +80,7 @@ const LibraryPageContent = () => {
     .sort(() => 0.5 - Math.random())
     .slice(0, 4);
 
-  if (error || (!libraryMetadata && !loading)) {
+  if (error || !libraryMetadata) {
     return (
       <div className="min-h-screen bg-background flex flex-col">
         <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -110,8 +110,8 @@ const LibraryPageContent = () => {
         <>
           <SchemaMarkup schema={schemaMarkup} />
           <Helmet>
-            <title>{libraryMetadata.name} Icons - {libraryMetadata.count} {libraryMetadata.style} icons | Iconstack</title>
-            <meta name="description" content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description || ''} Free SVG icons.`} />
+            <title>{libraryMetadata?.name} Icons - {libraryMetadata?.count} {libraryMetadata?.style} icons | Iconstack</title>
+            <meta name="description" content={`Browse and copy ${libraryMetadata?.count} ${libraryMetadata?.style} icons from ${libraryMetadata?.name}. ${libraryMetadata?.description || ''} Free SVG icons.`} />
             <meta property="og:title" content={`${libraryMetadata.name} Icons | Iconstack`} />
             <meta property="og:description" content={`${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}`} />
             <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
