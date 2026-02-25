@@ -36,8 +36,8 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
   
   // Calculate dynamic cell size for perfect edge-to-edge fit
   const cellSize = useMemo(() => {
-    if (!containerWidth || !columnsCount) return 80;
-    return Math.floor(containerWidth / columnsCount);
+    if (!containerWidth || !columnsCount) return 72;
+    return Math.max(64, Math.floor(containerWidth / columnsCount));
   }, [containerWidth, columnsCount]);
 
   // Memoize row grouping with better performance
@@ -79,11 +79,26 @@ export function useVirtualGrid({ items, containerRef, enabled = true }: UseVirtu
     // Initial width update
     updateWidth();
     
-    // Add debounced resize listener
+    // Use ResizeObserver to detect container layout changes
+    let resizeObserver: ResizeObserver | null = null;
+    if (containerRef.current) {
+      resizeObserver = new ResizeObserver((entries) => {
+        for (const entry of entries) {
+          const width = entry.contentRect.width;
+          if (width > 0) {
+            setContainerWidth(width);
+          }
+        }
+      });
+      resizeObserver.observe(containerRef.current);
+    }
+    
+    // Add debounced resize listener as fallback
     window.addEventListener('resize', debouncedUpdateWidth, { passive: true });
     
     return () => {
       window.removeEventListener('resize', debouncedUpdateWidth);
+      resizeObserver?.disconnect();
       if (resizeTimeoutRef.current) {
         clearTimeout(resizeTimeoutRef.current);
       }

@@ -301,12 +301,12 @@ export default function IconDetailPage() {
   // Shared icon preview — strip hardcoded width/height so CSS controls size
   const iconPreview = (
     <div 
-      className={`flex items-center justify-center ${isMobile ? 'w-48 h-48' : 'w-[280px] h-[280px]'} [&>svg]:w-full [&>svg]:h-full`}
+      className={`flex items-center justify-center ${isMobile ? 'w-32 h-32' : 'w-32 h-32'} [&>svg]:w-full [&>svg]:h-full`}
       style={{ color: customization.color }}
     >
       {typeof icon.svg === 'string' ? (
         <div 
-          className="icon-svg w-full h-full [&>svg]:w-full [&>svg]:h-full"
+          className="icon-svg w-full h-full max-w-[128px] max-h-[128px] [&>svg]:w-full [&>svg]:h-full"
           dangerouslySetInnerHTML={{ 
             __html: icon.svg
               .replace(/\s*width="[^"]*"/g, '')
@@ -316,7 +316,7 @@ export default function IconDetailPage() {
         />
       ) : (
         React.createElement(icon.svg as React.ComponentType<any>, {
-          size: isMobile ? 192 : 280,
+          size: 128,
           color: customization.color,
           strokeWidth: customization.strokeWidth
         })
@@ -616,10 +616,10 @@ export default function IconDetailPage() {
             
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Icon Display with quick actions */}
-              <div className="w-[400px] flex-shrink-0 border-r border-border/30 flex flex-col">
+              <div className="w-[360px] flex-shrink-0 border-r border-border/30 flex flex-col">
                 <div className="p-6 flex-shrink-0">
                   <div className="flex items-center justify-center mb-6">
-                    <div className="flex items-center justify-center w-[280px] h-[280px]">
+                    <div className="flex items-center justify-center w-32 h-32">
                       {iconPreview}
                     </div>
                   </div>
