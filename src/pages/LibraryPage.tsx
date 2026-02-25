@@ -110,10 +110,10 @@ const LibraryPageContent = () => {
         <>
           <SchemaMarkup schema={schemaMarkup} />
           <Helmet>
-            <title>{libraryMetadata?.name} Icons - {libraryMetadata?.count} {libraryMetadata?.style} icons | Iconstack</title>
-            <meta name="description" content={`Browse and copy ${libraryMetadata?.count} ${libraryMetadata?.style} icons from ${libraryMetadata?.name}. ${libraryMetadata?.description || ''} Free SVG icons.`} />
+            <title>{`${libraryMetadata.name} Icons - ${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} icons | Iconstack`}</title>
+            <meta name="description" content={`Browse and copy ${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} icons from ${libraryMetadata.name}. ${libraryMetadata.description || ''} Free SVG icons.`} />
             <meta property="og:title" content={`${libraryMetadata.name} Icons | Iconstack`} />
-            <meta property="og:description" content={`${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}`} />
+            <meta property="og:description" content={`${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} icons from ${libraryMetadata.name}`} />
             <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
             <meta property="og:type" content="website" />
             <meta name="twitter:card" content="summary_large_image" />
