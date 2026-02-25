@@ -1,4 +1,4 @@
-import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers } from "lucide-react";
+import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight } from "lucide-react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarSeparator } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
 import { AnimatedPlayIcon } from "@/components/animated-play-icon";
@@ -90,6 +90,17 @@ export function AppSidebar({
                     </span>
                   </SidebarMenuButton>
                 </SidebarMenuItem>)}
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
+                  <a href="https://dodoinvoice.com" target="_blank" rel="noopener noreferrer">
+                    <div className="flex items-center gap-3">
+                      <FileText className="h-4 w-4" />
+                      <span>Dodo Invoice</span>
+                    </div>
+                    <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
+                  </a>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
