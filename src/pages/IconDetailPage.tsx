@@ -27,6 +27,7 @@ import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
 import { IconMetaService } from "@/services/IconMetaService";
 import { getSimpleSvg, downloadFile, copyToClipboard } from "@/lib/simple-helpers";
 import { supportsStrokeWidth } from "@/lib/icon-utils";
+import { RotatingFooter } from "@/components/RotatingFooter";
 
 export default function IconDetailPage() {
   const { libraryId, iconName: iconNameParam } = useParams<{
@@ -109,6 +110,13 @@ export default function IconDetailPage() {
 
     loadIconData();
   }, [parsedLibraryId, iconName]);
+
+  // Retry similar icons when search worker becomes ready
+  useEffect(() => {
+    if (searchWorkerReady && icon && similarIcons.length === 0 && !similarIconsLoading) {
+      findSimilarIconsAcrossLibraries(icon);
+    }
+  }, [searchWorkerReady, icon]);
 
   // Function to find similar icons across all libraries using search worker
   const findSimilarIconsAcrossLibraries = async (targetIcon: IconItem) => {
@@ -326,14 +334,14 @@ export default function IconDetailPage() {
     >
       {typeof icon.svg === 'string' ? (
         <div 
-          className={`icon-svg ${isMobile ? '[&>svg]:!w-48 [&>svg]:!h-48' : '[&>svg]:!w-80 [&>svg]:!h-80'}`}
+          className={`icon-svg ${isMobile ? '[&>svg]:!w-48 [&>svg]:!h-48' : '[&>svg]:!w-[400px] [&>svg]:!h-[400px]'}`}
           dangerouslySetInnerHTML={{ 
             __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
           }} 
         />
       ) : (
         React.createElement(icon.svg as React.ComponentType<any>, {
-          size: isMobile ? 192 : 320,
+          size: isMobile ? 192 : 400,
           color: customization.color,
           strokeWidth: customization.strokeWidth
         })
@@ -566,9 +574,7 @@ export default function IconDetailPage() {
           </div>
           
           {/* Footer */}
-          <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background mt-auto">
-            <p>Ossian Design Lab • <a href="https://buymeacoffee.com/thedeepflux" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Buy me a coffee</a></p>
-          </footer>
+          <RotatingFooter />
         </div>
 
         <MobileCustomizeSheet
@@ -635,10 +641,10 @@ export default function IconDetailPage() {
             
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Icon Display with quick actions */}
-              <div className="w-96 flex-shrink-0 border-r border-border/30 flex flex-col">
+              <div className="w-[480px] flex-shrink-0 border-r border-border/30 flex flex-col">
                 <div className="p-6 flex-shrink-0">
                   <div className="flex items-center justify-center mb-6">
-                    <div className="flex items-center justify-center w-80 h-80">
+                    <div className="flex items-center justify-center w-[400px] h-[400px]">
                       {iconPreview}
                     </div>
                   </div>
@@ -711,9 +717,7 @@ export default function IconDetailPage() {
             </main>
             
             {/* Footer */}
-            <footer className="border-t p-4 text-center text-xs text-muted-foreground bg-background">
-              <p>Ossian Design Lab • <a href="https://buymeacoffee.com/thedeepflux" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Buy me a coffee</a> • <a href="https://www.figma.com/community/plugin/1548394766689434419/iconstack-50-000-free-svg-icons" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCB045] bg-clip-text text-transparent hover:opacity-80 transition-all duration-300 bg-[length:200%_100%] animate-gradient-shift" style={{backgroundImage: 'linear-gradient(90deg, #833AB4, #FD1D1D, #FCB045, #833AB4, #FD1D1D)'}}>Figma Plugin</a> <span className="inline-flex items-center rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">New</span></p>
-            </footer>
+            <RotatingFooter />
           </div>
           
           <ControlPanel selectedIcon={icon} selectedSet={parsedLibraryId} />
