@@ -1,26 +1,27 @@
 
 
-# Add DodoInvoice Footer Link with "Hot" Badge
+# Add "Dodo Invoice" Link in Sidebar
 
 ## Change
 
-**File: `src/components/RotatingFooter.tsx`**
+**File: `src/components/app-sidebar.tsx`**
 
-1. Add `"Hot"` to the `BadgeType` union type:
-   ```ts
-   type BadgeType = "New" | "Trending" | "Hot";
-   ```
+Add a "Dodo Invoice" menu item inside the Browse section (lines 80-93), right after the "All Icons" item and before the `SidebarSeparator`. It will use the same `SidebarMenuButton` styling but render as an `<a>` tag opening in a new tab, with `FileText` icon on the left and `ArrowUpRight` icon on the right.
 
-2. Add a "Hot" badge style in the `BadgeComponent` (red/orange themed, with a flame-like appearance using existing icons or just text).
+```tsx
+// After the All Icons map, add:
+<SidebarMenuItem>
+  <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
+    <a href="https://dodoinvoice.com" target="_blank" rel="noopener noreferrer">
+      <div className="flex items-center gap-3">
+        <FileText className="h-4 w-4" />
+        <span>Dodo Invoice</span>
+      </div>
+      <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
+    </a>
+  </SidebarMenuButton>
+</SidebarMenuItem>
+```
 
-3. Add the new entry to `footerItems`:
-   ```ts
-   {
-     text: "Free AI Invoicing for freelancers and agencies - dodoinvoice.com",
-     link: "https://dodoinvoice.com",
-     badge: "Hot"
-   }
-   ```
-
-The "Hot" badge will use a red/orange color scheme (e.g., `border-orange-500/50 bg-orange-500/10 text-orange-500`) with a `Flame` icon from lucide-react, matching the existing badge pattern.
+Also import `FileText` and `ArrowUpRight` from `lucide-react`.
 
