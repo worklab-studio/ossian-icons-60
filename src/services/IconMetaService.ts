@@ -129,9 +129,8 @@ export class IconMetaService {
     };
   }
 
-  private static generateTitle(iconName: string, libraryName: string, style: string): string {
-    const styleText = style && style !== 'mixed' ? ` (${this.capitalizeFirst(style)})` : '';
-    return `${iconName} Icon${styleText} - Free SVG from ${libraryName} | Iconstack`;
+  private static generateTitle(iconName: string, libraryName: string, _style: string): string {
+    return `${iconName} Icon - Free SVG Download | ${libraryName} Icons`;
   }
 
   private static generateDescription(icon: IconItem, library: IconLibraryMetadata, libraryId: string): string {
@@ -208,9 +207,8 @@ export class IconMetaService {
     return Array.from(keywords).slice(0, 25).join(', '); // Limit to 25 keywords
   }
 
-  private static generateOGTitle(iconName: string, libraryName: string, style: string): string {
-    const styleText = style && style !== 'mixed' ? ` ${this.capitalizeFirst(style)}` : '';
-    return `${iconName}${styleText} Icon | ${libraryName} | Iconstack`;
+  private static generateOGTitle(iconName: string, libraryName: string, _style: string): string {
+    return `${iconName} Icon - Free SVG Download | ${libraryName} Icons`;
   }
 
   private static generateOGDescription(icon: IconItem, library: IconLibraryMetadata): string {
