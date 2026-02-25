@@ -1,71 +1,52 @@
 
 
-# Icon Detail Page: Internal Linking + UI/UX Improvements
+# Fix Icon Detail Page Issues
 
-## Current Problems
+## Problems Identified
 
-1. **No internal linking** -- Similar icons just copy on click; they don't link to their own detail pages, so Google can't discover them
-2. **Breadcrumb missing Home** -- No link back to homepage in the breadcrumb trail
-3. **No "More from this library" link** -- Dead end page with no way to explore the library
-4. **Tags aren't clickable** -- Icon tags exist in data but aren't displayed or linked to search
-5. **Right panel doesn't scroll** -- Content gets cut off, especially the similar icons section
-6. **No mobile layout** -- Page only has desktop layout despite having `isMobile` hook
+1. **Icon preview too small** -- The icon visual area needs to be larger and more prominent
+2. **Similar icons not loading** -- The search worker indexing has a race condition; when `searchWorkerReady` is false at call time, fallback loads random icons from the same library but may fail
+3. **Library links crash the app** -- The LibraryPage component accesses `libraryMetadata.name`, `.count`, etc. inside `<Helmet>` BEFORE the null guard check, causing a React crash (visible in console logs)
+4. **Footer doesn't match homepage** -- Detail page uses a plain inline footer instead of the `RotatingFooter` component used on the homepage
 
 ---
 
 ## Changes
 
-### 1. Make Similar Icons Link to Their Detail Pages
-**File:** `src/pages/IconDetailPage.tsx`
-- Pass `onIconClick` to `IconGrid` that navigates to `/icon/{libraryId}/{iconName}` instead of just copying
-- Each similar icon becomes a crawlable internal link for Google
-- Extract the library ID from the icon's `id` field (format: `libraryId-iconName`)
+### 1. Make Icon Preview Bigger (IconDetailPage.tsx)
 
-### 2. Fix Breadcrumbs with Home Link
-**File:** `src/pages/IconDetailPage.tsx`
-- Add Home as the first breadcrumb item: `Home > Tabler > arrow-left`
-- Home links to `/`, library links to `/library/{libraryId}`
+- Increase the left panel width from `w-96` (384px) to a larger size
+- Increase icon render size from 320px to ~400px for desktop
+- Keep the "Copy SVG" and "Download SVG" buttons unchanged
 
-### 3. Add "More from this Library" Link Section
-**File:** `src/pages/IconDetailPage.tsx`
-- Below technical details, add a prominent link: "Browse all {count} icons in {Library Name}" linking to `/library/{libraryId}`
-- Also add links to 2-3 other popular libraries as "Explore other libraries"
+### 2. Fix Similar Icons Not Loading (IconDetailPage.tsx)
 
-### 4. Display Tags as Clickable Search Links
-**File:** `src/pages/IconDetailPage.tsx`
-- Show icon tags as Badge components below the icon name
-- Each tag links to `/?q={tag}` to trigger a search on the homepage
-- These act as internal links Google can follow to discover more content
+- The `findSimilarIconsAcrossLibraries` function checks `searchWorkerReady` at call time, but the worker may not be ready yet when the icon loads
+- Add a `useEffect` that retries finding similar icons once `searchWorkerReady` becomes true
+- Ensure the fallback path (loading from same library) works reliably
 
-### 5. Make Right Panel Scrollable
-**File:** `src/pages/IconDetailPage.tsx`
-- Change the right panel from `overflow-hidden` to `overflow-y-auto`
-- Ensures similar icons and all content is accessible regardless of screen height
+### 3. Fix Library Page Crash (LibraryPage.tsx)
 
-### 6. Add Mobile Layout
-**File:** `src/pages/IconDetailPage.tsx`
-- Add a responsive mobile layout (stacked vertical) using the existing `isMobile` hook
-- Icon preview on top, details below, similar icons at bottom
-- Copy/download actions via the existing `MobileIconActions` sheet
-- Hide ControlPanel sidebar on mobile
+- The `<Helmet>` block at line 143 accesses `libraryMetadata.name` and `libraryMetadata.count` without a null check
+- The guard that returns an error UI is at line 89, but the Helmet renders before the guard catches it in certain cases
+- Add early return or null checks so Helmet doesn't crash when `libraryMetadata` is undefined
 
-### 7. Add Quick Copy Buttons to Icon Preview
-**File:** `src/pages/IconDetailPage.tsx`
-- Add "Copy SVG" and "Download SVG" buttons directly below the large icon preview
-- Users can take action without finding the sidebar control panel
+### 4. Replace Footer with RotatingFooter (IconDetailPage.tsx)
+
+- Replace the plain `<footer>` on both desktop (line 714) and mobile (line 569) layouts with the `<RotatingFooter />` component
+- Import `RotatingFooter` from `@/components/RotatingFooter`
 
 ---
 
 ## Technical Details
 
 **Files modified (2):**
-- `src/pages/IconDetailPage.tsx` -- all UI changes, internal linking, mobile layout
-- `src/components/IconDetailHeader.tsx` -- add search input or back button for mobile
 
-**Key implementation details:**
-- Extract library ID from similar icon IDs using `icon.id.split('-')[0]` pattern, or fall back to checking which library each icon belongs to via `iconLibraryManager.libraries`
-- Use `generateIconUrl()` from `src/lib/url-helpers.ts` for all internal links
-- Use `Link` from react-router-dom for internal navigation (crawlable by Google)
-- Similar icons grid: override `onIconClick` to call `navigate(generateIconUrl(libId, icon.name))`
-- Tags rendered as `<Link to={`/?q=${tag}`}>` wrapped in Badge components
+- `src/pages/IconDetailPage.tsx`
+  - Increase icon preview container from `w-80 h-80` / size 320 to larger dimensions
+  - Add `useEffect` to retry similar icons search when `searchWorkerReady` changes
+  - Replace inline footer with `<RotatingFooter />`
 
+- `src/pages/LibraryPage.tsx`
+  - Add null guard before `<Helmet>` to prevent crash when `libraryMetadata` is undefined
+  - Wrap Helmet content with proper conditional check
