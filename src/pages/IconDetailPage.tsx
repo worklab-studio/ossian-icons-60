@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 import { IconDetailHeader } from "@/components/IconDetailHeader";
 import { ControlPanel } from "@/components/control-panel";
 import { IconGrid } from "@/components/icon-grid/IconGrid";
+import { IconCell } from "@/components/icon-grid/IconCell";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
@@ -298,25 +299,23 @@ export default function IconDetailPage() {
     );
   }
 
-  // Shared icon preview — strip hardcoded width/height so CSS controls size
+  // Shared icon preview — native 24x24 size
   const iconPreview = (
     <div 
-      className={`flex items-center justify-center ${isMobile ? 'w-32 h-32' : 'w-32 h-32'} [&>svg]:w-full [&>svg]:h-full`}
+      className="flex items-center justify-center w-32 h-32"
       style={{ color: customization.color }}
     >
       {typeof icon.svg === 'string' ? (
         <div 
-          className="icon-svg w-full h-full max-w-[128px] max-h-[128px] [&>svg]:w-full [&>svg]:h-full"
+          className="icon-svg [&>svg]:w-6 [&>svg]:h-6"
           dangerouslySetInnerHTML={{ 
             __html: icon.svg
-              .replace(/\s*width="[^"]*"/g, '')
-              .replace(/\s*height="[^"]*"/g, '')
               .replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
           }} 
         />
       ) : (
         React.createElement(icon.svg as React.ComponentType<any>, {
-          size: 128,
+          size: 24,
           color: customization.color,
           strokeWidth: customization.strokeWidth
         })
@@ -396,7 +395,7 @@ export default function IconDetailPage() {
     </div>
   );
 
-  // Similar icons section with clickable navigation
+  // Similar icons section — simple CSS grid, no virtualization
   const similarIconsSection = (
     <div className="flex-1 flex flex-col min-h-0">
       <div className="px-6 py-4">
@@ -412,15 +411,25 @@ export default function IconDetailPage() {
             </div>
           </div>
         ) : similarIcons.length > 0 ? (
-          <IconGrid
-            items={similarIcons}
-            selectedId={null}
-            onCopy={handleIconCopy}
-            onIconClick={handleSimilarIconClick}
-            color={customization.color}
-            strokeWidth={customization.strokeWidth}
-            ariaLabel="Similar icons grid from multiple libraries"
-          />
+          <div 
+            className="grid gap-0"
+            style={{ 
+              gridTemplateColumns: 'repeat(auto-fill, minmax(64px, 1fr))',
+              gridAutoRows: '64px'
+            }}
+          >
+            {similarIcons.map((simIcon) => (
+              <IconCell
+                key={simIcon.id}
+                icon={simIcon}
+                isSelected={false}
+                color={customization.color}
+                strokeWidth={customization.strokeWidth}
+                onCopy={handleIconCopy}
+                onIconClick={handleSimilarIconClick}
+              />
+            ))}
+          </div>
         ) : (
           <div className="flex items-center justify-center h-32">
             <span className="text-sm text-muted-foreground">No similar icons found</span>
