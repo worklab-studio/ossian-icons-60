@@ -1,33 +1,35 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { IconCustomizationProvider, useIconCustomization } from '@/contexts/IconCustomizationContext';
 import { iconLibraryManager } from '@/services/IconLibraryManager';
 import { IconGrid } from '@/components/icon-grid/IconGrid';
-import { ThemeToggle } from '@/components/theme-toggle';
 import LoadingSpinner from '@/components/LoadingSpinner';
 import { type IconItem } from '@/types/icon';
 import { copyIcon } from '@/lib/copy';
 import { toast } from 'sonner';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { useSchemaMarkup } from '@/hooks/useSchemaMarkup';
+import { RotatingFooter } from '@/components/RotatingFooter';
+import { useIsMobile } from '@/hooks/use-mobile';
+import { generateIconUrl } from '@/lib/url-helpers';
+import { Home, ArrowLeft } from 'lucide-react';
+import {
+  Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList,
+  BreadcrumbPage, BreadcrumbSeparator
+} from '@/components/ui/breadcrumb';
 
 const LibraryPageContent = () => {
   const { libraryId } = useParams<{ libraryId: string }>();
+  const navigate = useNavigate();
+  const isMobile = useIsMobile();
   const [icons, setIcons] = useState<IconItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const { customization } = useIconCustomization();
 
-  // Get library metadata with debug logging
   const libraryMetadata = iconLibraryManager.libraries.find(lib => lib.id === libraryId);
-  console.log('🔍 Library lookup:', { 
-    libraryId, 
-    found: !!libraryMetadata, 
-    availableLibraries: iconLibraryManager.libraries.map(l => l.id) 
-  });
 
-  // Schema.org markup for SEO
   const { schemaMarkup } = useSchemaMarkup({
     icons,
     libraryId: libraryId || '',
@@ -35,34 +37,20 @@ const LibraryPageContent = () => {
   });
 
   useEffect(() => {
-    console.log('🔍 LibraryPage useEffect triggered:', { libraryId, libraryMetadata: !!libraryMetadata });
-    
-    if (!libraryId) {
-      console.error('❌ No libraryId provided');
-      setError('No library ID provided');
-      setLoading(false);
-      return;
-    }
-    
-    if (!libraryMetadata) {
-      console.error('❌ Library metadata not found for:', libraryId);
-      setError(`Library "${libraryId}" not found`);
+    if (!libraryId || !libraryMetadata) {
+      setError(libraryId ? `Library "${libraryId}" not found` : 'No library ID provided');
       setLoading(false);
       return;
     }
 
     const loadLibrary = async () => {
       try {
-        console.log('🚀 Starting library load for:', libraryId);
         setLoading(true);
         setError(null);
-        
         const libraryIcons = await iconLibraryManager.loadLibrary(libraryId);
-        console.log('✅ Library loaded successfully:', libraryId, 'icons:', libraryIcons.length);
         setIcons(libraryIcons);
       } catch (err) {
-        console.error('❌ Failed to load library:', libraryId, err);
-        setError(`Failed to load library icons: ${err instanceof Error ? err.message : 'Unknown error'}`);
+        setError(`Failed to load library: ${err instanceof Error ? err.message : 'Unknown error'}`);
       } finally {
         setLoading(false);
       }
@@ -75,165 +63,171 @@ const LibraryPageContent = () => {
     try {
       await copyIcon(icon, customization.color, customization.strokeWidth);
       toast.success(`${icon.name} copied to clipboard!`);
-    } catch (error) {
-      console.error('Copy failed:', error);
+    } catch {
       toast.error('Failed to copy icon');
     }
   };
 
-  // Show detailed error instead of silent redirect
-  if (!libraryMetadata && !loading) {
-    console.error('❌ Library not found, rendering error state');
-  }
+  const handleIconClick = (icon: IconItem) => {
+    if (libraryId) {
+      navigate(generateIconUrl(libraryId, icon.name));
+    }
+  };
+
+  // Other libraries to explore
+  const otherLibraries = iconLibraryManager.libraries
+    .filter(lib => lib.id !== libraryId)
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 4);
 
   if (error || (!libraryMetadata && !loading)) {
-    const errorMessage = error || `Library "${libraryId}" not found`;
-    console.log('🚨 Rendering error state:', errorMessage);
-    
     return (
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background flex flex-col">
         <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
-              <h1 className="text-xl font-bold">Iconstack</h1>
-              <ThemeToggle />
-            </div>
+          <div className="container mx-auto px-4 py-4 flex items-center gap-3">
+            <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
+              <ArrowLeft className="h-5 w-5" />
+            </Link>
+            <h1 className="text-xl font-bold">Iconstack</h1>
           </div>
         </header>
-        <main className="container mx-auto px-4 py-8">
+        <main className="flex-1 flex items-center justify-center p-4">
           <div className="text-center">
-            <h1 className="text-2xl font-bold text-foreground mb-4">Library Not Found</h1>
-            <p className="text-muted-foreground mb-4">{errorMessage}</p>
-            <p className="text-sm text-muted-foreground">
-              Available libraries: {iconLibraryManager.libraries.map(l => l.id).join(', ')}
-            </p>
-            <a 
-              href="/" 
-              className="inline-block mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
-            >
+            <h2 className="text-2xl font-bold text-foreground mb-4">Library Not Found</h2>
+            <p className="text-muted-foreground mb-6">{error || `Library "${libraryId}" not found`}</p>
+            <Link to="/" className="inline-block px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors">
               Return Home
-            </a>
+            </Link>
           </div>
         </main>
       </div>
     );
   }
 
-  const generateStructuredData = () => {
-    return {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": `${libraryMetadata.name} Icons - Iconstack`,
-      "description": `Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description}`,
-      "url": `https://iconstack.io/library/${libraryId}`,
-      "mainEntity": {
-        "@type": "SoftwareApplication",
-        "name": libraryMetadata.name,
-        "description": libraryMetadata.description,
-        "applicationCategory": "Icon Library",
-        "operatingSystem": "Web Browser"
-      }
-    };
-  };
-
   return (
     <>
-      <SchemaMarkup schema={schemaMarkup} />
-      
       {libraryMetadata && (
-        <Helmet>
-          <title>{libraryMetadata.name} Icons - {libraryMetadata.count} {libraryMetadata.style} icons | Iconstack</title>
-          <meta 
-            name="description" 
-            content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description} Free SVG icons for web development.`}
-          />
-          <meta name="keywords" content={`${libraryMetadata.name.toLowerCase()}, icons, svg, ${libraryMetadata.style}, web development, ui design, iconstack`} />
-          
-          <meta property="og:title" content={`${libraryMetadata.name} Icons - ${libraryMetadata.count} ${libraryMetadata.style} icons | Iconstack`} />
-          <meta property="og:description" content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description}`} />
-          <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
-          <meta property="og:type" content="website" />
-          
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={`${libraryMetadata.name} Icons - Iconstack`} />
-          <meta name="twitter:description" content={`${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}`} />
-          
-          <link rel="canonical" href={`https://iconstack.io/library/${encodeURIComponent(libraryId || '')}`} />
-          
-          <meta name="robots" content="index, follow" />
-          <meta name="googlebot" content="index, follow" />
-          
-          <script type="application/ld+json">
-            {JSON.stringify(generateStructuredData())}
-          </script>
-        </Helmet>
+        <>
+          <SchemaMarkup schema={schemaMarkup} />
+          <Helmet>
+            <title>{libraryMetadata.name} Icons - {libraryMetadata.count} {libraryMetadata.style} icons | Iconstack</title>
+            <meta name="description" content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description || ''} Free SVG icons.`} />
+            <meta property="og:title" content={`${libraryMetadata.name} Icons | Iconstack`} />
+            <meta property="og:description" content={`${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}`} />
+            <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
+            <meta property="og:type" content="website" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <link rel="canonical" href={`https://iconstack.io/library/${encodeURIComponent(libraryId || '')}`} />
+            <meta name="robots" content="index, follow" />
+          </Helmet>
+        </>
       )}
 
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background flex flex-col">
+        {/* Header */}
         <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
-              <h1 className="text-xl font-bold">Iconstack</h1>
-              <ThemeToggle />
+          <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
+                <ArrowLeft className="h-5 w-5" />
+              </Link>
+              <span className="text-xl font-bold">Iconstack</span>
             </div>
           </div>
         </header>
-        
-        <main className="container mx-auto px-4 py-8">
-          {/* Library Header */}
-          <header className="mb-8 text-center animate-fade-in">
-            <h1 className="text-4xl font-bold text-foreground mb-2">
-              {libraryMetadata.name} Icons
+
+        {/* Breadcrumbs */}
+        <div className="container mx-auto px-4 py-3 border-b border-border/30">
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link to="/"><Home className="h-4 w-4" /></Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>{libraryMetadata?.name || libraryId}</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+        </div>
+
+        {/* Library Header */}
+        <div className="container mx-auto px-4 py-6 sm:py-8">
+          <header className="text-center animate-fade-in">
+            <h1 className={`font-bold text-foreground mb-2 ${isMobile ? 'text-2xl' : 'text-4xl'}`}>
+              {libraryMetadata?.name} Icons
             </h1>
-            <p className="text-lg text-muted-foreground mb-1">
-              {libraryMetadata.description}
-            </p>
+            {libraryMetadata?.description && (
+              <p className={`text-muted-foreground mb-1 ${isMobile ? 'text-sm' : 'text-lg'}`}>
+                {libraryMetadata.description}
+              </p>
+            )}
             <p className="text-sm text-muted-foreground">
-              {libraryMetadata.count.toLocaleString()} {libraryMetadata.style} icons
+              {libraryMetadata?.count?.toLocaleString()} {libraryMetadata?.style} icons
             </p>
           </header>
+        </div>
 
-          {/* Loading State */}
+        {/* Main Content */}
+        <div className="flex-1 container mx-auto px-4">
           {loading && (
             <div className="flex justify-center py-12">
               <LoadingSpinner />
             </div>
           )}
 
-          {/* Icons Grid */}
           {!loading && icons.length > 0 && (
-            <section aria-label={`${libraryMetadata.name} icons grid`}>
+            <section aria-label={`${libraryMetadata?.name} icons grid`} className="h-[calc(100vh-280px)]">
               <IconGrid
                 items={icons}
                 onCopy={handleCopy}
+                onIconClick={handleIconClick}
                 color={customization.color}
                 strokeWidth={customization.strokeWidth}
-                libraryName={libraryMetadata.name}
-                ariaLabel={`${libraryMetadata.name} icons collection`}
+                libraryName={libraryMetadata?.name}
+                ariaLabel={`${libraryMetadata?.name} icons collection`}
               />
             </section>
           )}
 
-          {/* Empty State */}
           {!loading && icons.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-muted-foreground">
-                No icons found in this library.
-              </p>
+              <p className="text-muted-foreground">No icons found in this library.</p>
             </div>
           )}
-        </main>
+        </div>
+
+        {/* Explore Other Libraries */}
+        {!loading && otherLibraries.length > 0 && (
+          <div className="container mx-auto px-4 py-8 border-t border-border/30">
+            <h2 className="text-sm font-medium text-muted-foreground mb-4">EXPLORE OTHER LIBRARIES</h2>
+            <div className={`grid gap-3 ${isMobile ? 'grid-cols-2' : 'grid-cols-4'}`}>
+              {otherLibraries.map(lib => (
+                <Link
+                  key={lib.id}
+                  to={`/library/${lib.id}`}
+                  className="p-3 rounded-lg border border-border hover:bg-accent/50 transition-colors"
+                >
+                  <div className="text-sm font-medium">{lib.name}</div>
+                  <div className="text-xs text-muted-foreground">{lib.count.toLocaleString()} {lib.style} icons</div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <RotatingFooter />
       </div>
     </>
   );
 };
 
-const LibraryPage = () => {
-  return (
-    <IconCustomizationProvider>
-      <LibraryPageContent />
-    </IconCustomizationProvider>
-  );
-};
+const LibraryPage = () => (
+  <IconCustomizationProvider>
+    <LibraryPageContent />
+  </IconCustomizationProvider>
+);
 
 export default LibraryPage;
