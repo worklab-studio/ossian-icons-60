@@ -151,7 +151,7 @@ export default function IconDetailPage() {
         })
         .filter(s => s.score > 0)
         .sort((a, b) => b.score - a.score)
-        .slice(0, 24);
+        ;
 
       setSimilarIcons(scored.map(s => s.icon));
     } catch (error) {
@@ -159,7 +159,7 @@ export default function IconDetailPage() {
       // Fallback: show icons from current library
       try {
         const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
-        setSimilarIcons(libraryIcons.filter(ico => ico.id !== targetIcon.id).slice(0, 24));
+        setSimilarIcons(libraryIcons.filter(ico => ico.id !== targetIcon.id));
       } catch { /* ignore */ }
     } finally {
       setSimilarIconsLoading(false);
@@ -307,7 +307,7 @@ export default function IconDetailPage() {
     >
       {typeof icon.svg === 'string' ? (
         <div 
-          className="icon-svg [&>svg]:w-6 [&>svg]:h-6"
+          className="icon-svg [&>svg]:w-9 [&>svg]:h-9"
           dangerouslySetInnerHTML={{ 
             __html: icon.svg
               .replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
@@ -315,7 +315,7 @@ export default function IconDetailPage() {
         />
       ) : (
         React.createElement(icon.svg as React.ComponentType<any>, {
-          size: 24,
+          size: 36,
           color: customization.color,
           strokeWidth: customization.strokeWidth
         })
