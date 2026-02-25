@@ -1,80 +1,37 @@
 
-# Redesign Library Page to Match Home Page Layout
 
-## Goal
-Make the library page (`/library/:libraryId`) use the same layout as the home page, but replace the sidebar with a panel showing the library name and description.
+# Optimize Icon Page Titles for Search Intent
 
-## Desktop Layout
+## Scale
+This change affects **51,378 individual icon pages** — each with a unique, crawlable URL and its own `<title>` tag. That's 51k+ pages competing for long-tail search queries like "activity icon svg download" or "arrow icon feather".
 
-**Current home page structure:**
-```text
-+------------------+---------------------------+--------------+
-| AppSidebar       | Header (search bar)       | ControlPanel |
-| (library list)   |---------------------------|  (customize) |
-|                  | Sub-header (title, count)  |              |
-|                  |---------------------------|              |
-|                  | IconGrid                  |              |
-|                  |                           |              |
-+------------------+---------------------------+--------------+
+## Current Title
+```
+Activity Icon (Outline) - Free SVG from Feather | Iconstack
 ```
 
-**New library page (desktop):**
-```text
-+------------------+---------------------------+--------------+
-| Library Info     | Header (search bar)       | ControlPanel |
-| - Name           |---------------------------|  (customize) |
-| - Description    | Sub-header (count, filter) |              |
-| - Icon count     |---------------------------|              |
-| - Back link      | IconGrid                  |              |
-|                  |                           |              |
-+------------------+---------------------------+--------------+
+## Proposed Title Format
+```
+Activity Icon - Free SVG Download | Feather Icons
 ```
 
-**Mobile layout:** Same as home page mobile layout -- fixed header with search, library info below, then icon grid. Use the existing mobile components (MobileHeader pattern) but with library info instead of library selector.
+### Why this is better for search:
+- **"Free SVG Download"** matches high-intent search queries (people searching want to download)
+- **"Feather Icons"** reads naturally and matches how people refer to libraries
+- **Removes style parenthetical** from title (clutters; kept in meta description instead)
+- **Shorter and punchier** — Google truncates titles over ~60 chars, so every word matters
 
-## Technical Changes
+## Technical Change
 
-### File: `src/pages/LibraryPage.tsx` (full rewrite)
+### File: `src/services/IconMetaService.ts`
 
-**New imports needed:**
-- `SidebarProvider` from ui/sidebar (for layout structure)
-- `Header` from components/header (search bar)
-- `ControlPanel` from components/control-panel
-- `CategoryFilter` from components/CategoryFilter
-- `MobileHeader`, `MobileCustomizeSheet`, `MobileIconActions` for mobile
-- `sortIconsByStyleThenName` from lib/icon-utils
-- `useFirstTimeUser`, `showFirstCopyNudge` for first-copy UX
-- `ScrollArea` for sidebar scroll
+**`generateTitle` method (line 132-134):**
+- From: `{name} Icon{(Style)} - Free SVG from {Library} | Iconstack`
+- To: `{name} Icon - Free SVG Download | {Library} Icons`
 
-**New state:**
-- `searchQuery` + filtering logic (reuse pattern from Index.tsx)
-- `selectedId` for icon selection
-- `selectedCategory` for category filtering
-- `showCustomizeSheet`, `showIconActions` for mobile
+**`generateOGTitle` method (line 157-159):**
+- From: `{name}{Style} Icon | {Library} | Iconstack`  
+- To: `{name} Icon - Free SVG Download | {Library} Icons`
+- (Consistent with page title for social sharing)
 
-**Desktop layout:**
-- Left panel: Fixed-width sidebar (~240px) with back arrow/link to home, library name (h1), description, icon count, and style info
-- Center: `Header` component (search), sub-header with count + `CategoryFilter`, then `IconGrid`
-- Right: `ControlPanel` (customize panel)
-- Remove breadcrumbs (sidebar has back link), remove the big centered library header, remove "Explore Other Libraries" section
-- Keep `RotatingFooter`
-
-**Mobile layout:**
-- Fixed top: `MobileHeader` (but with library name instead of library selector button)
-- Below: Library name + count
-- Main: `IconGrid`
-- Bottom sheets for customize and icon actions
-
-**Search/filter logic:**
-- Local search: filter `icons` array by name/tags matching `searchQuery`
-- Category filter from `availableCategories`
-- `displayedIcons` = filtered + sorted via `sortIconsByStyleThenName`
-
-**Icon click behavior:**
-- Desktop: select icon (for ControlPanel) + navigate to detail page
-- Mobile: show MobileIconActions sheet
-
-**Keep existing:**
-- SEO (Helmet, SchemaMarkup, canonical URL)
-- Loading/error states
-- `handleCopy` logic
+**One file changed, two methods updated. Affects all 51,378 icon pages automatically.**
