@@ -1,36 +1,26 @@
 
 
-# Add Collection & Comparison Pages to Sitemap
+# Add DodoInvoice Footer Link with "Hot" Badge
 
-## Problem
-The new ~760 collection and comparison pages exist in code but Google can't find them because:
-- `public/sitemap.xml` doesn't reference `sitemap-collections.xml`
-- `public/sitemap-collections.xml` doesn't exist as a static file
+## Change
 
-## Solution
+**File: `src/components/RotatingFooter.tsx`**
 
-### 1. Update `public/sitemap.xml` (sitemap index)
-Add the missing `sitemap-collections.xml` entry:
-```xml
-<sitemap>
-  <loc>https://iconstack.io/sitemap-collections.xml</loc>
-  <lastmod>2026-02-25</lastmod>
-</sitemap>
-```
+1. Add `"Hot"` to the `BadgeType` union type:
+   ```ts
+   type BadgeType = "New" | "Trending" | "Hot";
+   ```
 
-### 2. Create `public/sitemap-collections.xml`
-Generate the static XML file containing all collection and comparison URLs:
-- **50 category pages**: `/icons/arrow`, `/icons/navigation`, etc.
-- **~1,050 category+library pages**: `/icons/arrow/tabler`, `/icons/arrow/lucide`, etc.
-- **210 comparison pages**: `/compare/lucide-vs-feather`, `/compare/tabler-vs-material`, etc.
+2. Add a "Hot" badge style in the `BadgeComponent` (red/orange themed, with a flame-like appearance using existing icons or just text).
 
-### 3. Update `scripts/regenerate-sitemaps.js`
-Add a function to auto-generate `sitemap-collections.xml` so future regeneration scripts include these pages. This pulls category slugs from `seo-categories.ts` data and generates all comparison pair slugs.
+3. Add the new entry to `footerItems`:
+   ```ts
+   {
+     text: "Free AI Invoicing for freelancers and agencies - dodoinvoice.com",
+     link: "https://dodoinvoice.com",
+     badge: "Hot"
+   }
+   ```
 
-## Files Changed
-- **`public/sitemap.xml`** -- Add collections sitemap reference
-- **`public/sitemap-collections.xml`** -- New static file with ~1,310 URLs
-- **`scripts/regenerate-sitemaps.js`** -- Add collections sitemap generation logic
+The "Hot" badge will use a red/orange color scheme (e.g., `border-orange-500/50 bg-orange-500/10 text-orange-500`) with a `Flame` icon from lucide-react, matching the existing badge pattern.
 
-## After This
-Once deployed, submit the updated sitemap to Google Search Console for faster crawling. Google will start indexing the ~760+ new pages.
