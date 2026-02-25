@@ -88,4 +88,8 @@
     <loc>https://iconstack.io/sitemap-octicons.xml</loc>
     <lastmod>2025-09-11</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://iconstack.io/sitemap-collections.xml</loc>
+    <lastmod>2026-02-25</lastmod>
+  </sitemap>
 </sitemapindex>
