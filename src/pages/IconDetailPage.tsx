@@ -21,7 +21,7 @@ import { copyIcon } from "@/lib/copy";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { MobileCustomizeSheet } from "@/components/mobile/MobileCustomizeSheet";
 import { MobileIconActions } from "@/components/mobile/MobileIconActions";
-import { useSearchWorker } from "@/hooks/useSearchWorker";
+import { extractWords, stem } from "@/lib/search-algorithms";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
 import { IconMetaService } from "@/services/IconMetaService";
@@ -47,8 +47,7 @@ export default function IconDetailPage() {
   const [showCustomizeSheet, setShowCustomizeSheet] = useState(false);
   const [showMobileActions, setShowMobileActions] = useState(false);
   
-  // Search worker for cross-library similar icon discovery
-  const { search, indexLibrary, isReady: searchWorkerReady } = useSearchWorker();
+  // No search worker needed - we use direct main-thread matching
 
   // Parse URL parameters
   const { libraryId: parsedLibraryId, iconName } = useMemo(() => {
@@ -111,83 +110,64 @@ export default function IconDetailPage() {
     loadIconData();
   }, [parsedLibraryId, iconName]);
 
-  // Retry similar icons when search worker becomes ready
-  useEffect(() => {
-    if (searchWorkerReady && icon && similarIcons.length === 0 && !similarIconsLoading) {
-      findSimilarIconsAcrossLibraries(icon);
-    }
-  }, [searchWorkerReady, icon]);
-
-  // Function to find similar icons across all libraries using search worker
+  // Find similar icons using direct main-thread approach (no worker needed)
   const findSimilarIconsAcrossLibraries = async (targetIcon: IconItem) => {
-    if (!searchWorkerReady) {
-      const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
-      const fallback = libraryIcons
-        .filter(ico => ico.id !== targetIcon.id)
-        .slice(0, 24);
-      setSimilarIcons(fallback);
-      return;
-    }
-
     try {
       setSimilarIconsLoading(true);
 
-      const popularLibraries = ['lucide', 'tabler', 'heroicons', 'phosphor', 'feather'];
-      
-      const indexPromises = popularLibraries.map(async (libId) => {
-        try {
-          const icons = await iconLibraryManager.loadLibrary(libId);
-          await indexLibrary(libId, icons);
-        } catch (error) {
-          console.warn(`Failed to index library ${libId}:`, error);
-        }
-      });
+      // Extract searchable words from target icon
+      const nameWords = extractWords(targetIcon.name).map(stem);
+      const tagWords = (targetIcon.tags || []).map(t => stem(t.toLowerCase()));
+      const allTargetWords = new Set([...nameWords, ...tagWords]);
 
-      await Promise.all(indexPromises);
-
-      const searchQueries = [
-        targetIcon.name,
-        ...(targetIcon.tags || []),
-        targetIcon.category || '',
-      ].filter(Boolean);
-
-      const allResults = new Set<string>();
-      const similarIconsMap = new Map<string, IconItem>();
-
-      for (const query of searchQueries) {
-        if (query.trim()) {
-          try {
-            const { results } = await search(query, {
-              maxResults: 50,
-              fuzzy: true,
-              enableSynonyms: true,
-              enablePhonetic: true
-            });
-
-            results
-              .filter(icon => icon.id !== targetIcon.id)
-              .slice(0, 20)
-              .forEach(icon => {
-                if (!allResults.has(icon.id)) {
-                  allResults.add(icon.id);
-                  similarIconsMap.set(icon.id, icon);
-                }
-              });
-          } catch (error) {
-            console.warn(`Search failed for query "${query}":`, error);
-          }
+      // Load current library + 2-3 popular libraries
+      const librariesToSearch = [parsedLibraryId];
+      const popular = ['lucide', 'tabler', 'heroicons', 'phosphor', 'feather'];
+      for (const id of popular) {
+        if (id !== parsedLibraryId && librariesToSearch.length < 4) {
+          librariesToSearch.push(id);
         }
       }
 
-      const finalSimilarIcons = Array.from(similarIconsMap.values()).slice(0, 24);
-      setSimilarIcons(finalSimilarIcons);
+      const allIcons: IconItem[] = [];
+      await Promise.all(
+        librariesToSearch.map(async (libId) => {
+          try {
+            const icons = await iconLibraryManager.loadLibrary(libId);
+            allIcons.push(...icons);
+          } catch (e) {
+            console.warn(`Failed to load library ${libId} for similar icons:`, e);
+          }
+        })
+      );
+
+      // Score each icon by name/tag word overlap
+      const scored = allIcons
+        .filter(ico => ico.id !== targetIcon.id)
+        .map(ico => {
+          const icoNameWords = extractWords(ico.name).map(stem);
+          const icoTagWords = (ico.tags || []).map(t => stem(t.toLowerCase()));
+          let score = 0;
+          for (const w of icoNameWords) {
+            if (allTargetWords.has(w)) score += 3;
+          }
+          for (const w of icoTagWords) {
+            if (allTargetWords.has(w)) score += 1;
+          }
+          return { icon: ico, score };
+        })
+        .filter(s => s.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 24);
+
+      setSimilarIcons(scored.map(s => s.icon));
     } catch (error) {
       console.error('Failed to find similar icons:', error);
-      const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
-      const fallback = libraryIcons
-        .filter(ico => ico.id !== targetIcon.id)
-        .slice(0, 24);
-      setSimilarIcons(fallback);
+      // Fallback: show icons from current library
+      try {
+        const libraryIcons = await iconLibraryManager.loadLibrary(parsedLibraryId);
+        setSimilarIcons(libraryIcons.filter(ico => ico.id !== targetIcon.id).slice(0, 24));
+      } catch { /* ignore */ }
     } finally {
       setSimilarIconsLoading(false);
     }
@@ -326,17 +306,20 @@ export default function IconDetailPage() {
     );
   }
 
-  // Shared icon preview
+  // Shared icon preview — strip hardcoded width/height so CSS controls size
   const iconPreview = (
     <div 
-      className="flex items-center justify-center"
+      className={`flex items-center justify-center ${isMobile ? 'w-48 h-48' : 'w-[400px] h-[400px]'} [&>svg]:w-full [&>svg]:h-full`}
       style={{ color: customization.color }}
     >
       {typeof icon.svg === 'string' ? (
         <div 
-          className={`icon-svg ${isMobile ? '[&>svg]:!w-48 [&>svg]:!h-48' : '[&>svg]:!w-[400px] [&>svg]:!h-[400px]'}`}
+          className="icon-svg w-full h-full [&>svg]:w-full [&>svg]:h-full"
           dangerouslySetInnerHTML={{ 
-            __html: icon.svg.replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
+            __html: icon.svg
+              .replace(/\s*width="[^"]*"/g, '')
+              .replace(/\s*height="[^"]*"/g, '')
+              .replace(/stroke-width="[^"]*"/g, `stroke-width="${customization.strokeWidth}"`)
           }} 
         />
       ) : (
