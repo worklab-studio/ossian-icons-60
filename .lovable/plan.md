@@ -1,65 +1,46 @@
 
 
-# Fix Icon Detail Page: Preview Size, Similar Icons, Library Links
+# Fix Icon Preview Size + Similar Icons Visibility
 
-## Issues
+## Issue 1: Icon Preview Too Large
+The icon is blown up to 280x280 which looks bad. User wants "normal size."
 
-1. **Icon preview too large** -- 400x400 is oversized per user feedback, needs to be reduced
-2. **Similar icons empty** -- Only searching 4 libraries instead of all available ones
-3. **Library page crashing** -- Helmet component crashes during render; need bulletproof null handling
+**Fix:** Change the preview container from `w-[280px] h-[280px]` to a modest `w-32 h-32` (128px) on desktop, keep `w-32 h-32` on mobile. Stop stripping width/height attributes from the SVG -- instead just let CSS constrain the max size. Also reduce the left panel width from `w-[400px]` to `w-[360px]`.
 
-## Changes
+**File: `src/pages/IconDetailPage.tsx`**
+- Line 304: Change `w-[280px] h-[280px]` to `w-32 h-32`
+- Line 309: Change `w-full h-full` to `w-full h-full max-w-[128px] max-h-[128px]`
+- Line 319: Change `size: 280` to `size: 128`
+- Line 622: Change container `w-[280px] h-[280px]` to `w-32 h-32`
 
-### 1. Reduce Icon Preview Size (IconDetailPage.tsx)
+## Issue 2: Similar Icons Not Visible
+The console logs confirm similar icons ARE loading and `IconCell` components render. The problem is `useVirtualGrid` measures `containerWidth` via `containerRef.current.clientWidth`, which can be 0 when the grid container hasn't been laid out yet (it's deep inside a scrollable flex column). With `containerWidth = 0`, `cellSize = 0`, so all icons have 0 height.
 
-- Desktop: Change from `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
-- Desktop container wrapper (line 630): Change from `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
-- Left panel width: Reduce from `w-[480px]` to `w-[400px]`
-- Mobile: Keep `w-48 h-48` (192px) as-is
-- Copy SVG and Download SVG buttons remain unchanged
+Since similar icons has at most 24 items (well under the 100 threshold), `IconGrid` uses the simple non-virtualized path. But `cellSize` and `columnsCount` from `useVirtualGrid` are still used for `gridAutoRows` and `gridTemplateColumns`. When `containerWidth` is 0, `columnsCount` defaults to 4 but `cellSize` is 0.
 
-### 2. Load ALL Libraries for Similar Icons (IconDetailPage.tsx)
+**Fix:** In `useVirtualGrid.ts`, ensure `cellSize` has a minimum fallback value (e.g., 72px) when `containerWidth` is 0 or too small.
 
-- Replace the limited `librariesToSearch` array (4 libraries) with ALL libraries from `iconLibraryManager.libraries`
-- Load all libraries in parallel using `Promise.allSettled` for resilience
-- Keep the same scoring logic (name/tag word overlap)
-- This guarantees similar icons from every library appear
+**File: `src/components/icon-grid/useVirtualGrid.ts`**
+- Line 40 (cellSize memo): Change to `if (!containerWidth || !columnsCount) return 72;` (was `return 80` but the 80 wasn't being used because the condition wasn't matching -- actually it returns 80, let me re-check)
 
-Current code (line 123-131):
-```
-const librariesToSearch = [parsedLibraryId];
-const popular = ['lucide', 'tabler', 'heroicons', 'phosphor', 'feather'];
-for (const id of popular) {
-  if (id !== parsedLibraryId && librariesToSearch.length < 4) {
-    librariesToSearch.push(id);
-  }
-}
-```
+Actually the default IS 80, but the issue is that `containerWidth` might briefly be set to a very small value. Let me add a minimum: `return Math.max(64, Math.floor(containerWidth / columnsCount))`.
 
-New approach: use `iconLibraryManager.libraries.map(lib => lib.id)` to search ALL libraries.
+**Changes:**
+- `src/components/icon-grid/useVirtualGrid.ts` line 41: `return Math.max(64, Math.floor(containerWidth / columnsCount));`
 
-### 3. Fix Library Page Crash (LibraryPage.tsx)
+Additionally, add a `ResizeObserver` in `useVirtualGrid` instead of relying solely on the initial `clientWidth` read + window resize. This ensures the grid recalculates when its container actually appears in the DOM.
 
-The Helmet component at line 112-122 accesses `libraryMetadata.count` and `libraryMetadata.style` which can error if the Helmet component processes them during an intermediate state. Fix by:
-
-- Moving the early return guard ABOVE the Helmet render: return error UI if `!libraryMetadata` regardless of loading state
-- Use optional chaining (`libraryMetadata?.style`, `libraryMetadata?.count`) inside Helmet as extra safety
-- This prevents the crash that occurs when navigating to `/library/{id}`
+**File: `src/components/icon-grid/useVirtualGrid.ts`**
+- In the `useEffect` (lines 64-80): Add a `ResizeObserver` on `containerRef.current` to catch when the element gets its actual width after being mounted inside a scrollable area.
 
 ---
 
-## Technical Details
+## Summary of Changes
 
-**Files modified (2):**
+**`src/pages/IconDetailPage.tsx`** (4 line changes):
+- Reduce icon preview from 280px to 128px (lines 304, 309, 319, 622)
 
-**`src/pages/IconDetailPage.tsx`:**
-- Line 312: Change `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
-- Line 327: Change size `400` to `280`
-- Line 627: Change `w-[480px]` to `w-[400px]`
-- Line 630: Change `w-[400px] h-[400px]` to `w-[280px] h-[280px]`
-- Lines 123-142: Replace limited library search with `Promise.allSettled` across ALL libraries from `iconLibraryManager.libraries`
-
-**`src/pages/LibraryPage.tsx`:**
-- Line 83: Change guard to `if (error || !libraryMetadata)` (remove `&& !loading` condition) so it returns error UI immediately when metadata is missing
-- Lines 113-114: Add optional chaining on `.count`, `.style` inside Helmet as extra safety
+**`src/components/icon-grid/useVirtualGrid.ts`** (2 changes):
+- Add minimum cellSize of 64px (line 41)
+- Add ResizeObserver to detect container width after mount (lines 64-80)
 
