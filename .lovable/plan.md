@@ -1,46 +1,36 @@
 
 
-# Fix Icon Preview Size + Similar Icons Visibility
+# Fix Icon Preview Size + Similar Icons (Proper Solution)
 
-## Issue 1: Icon Preview Too Large
-The icon is blown up to 280x280 which looks bad. User wants "normal size."
+## Problem 1: Icon Preview Size
+The preview is currently 128x128 with SVG width/height stripped, making it fill the container. User wants native 24x24 size.
 
-**Fix:** Change the preview container from `w-[280px] h-[280px]` to a modest `w-32 h-32` (128px) on desktop, keep `w-32 h-32` on mobile. Stop stripping width/height attributes from the SVG -- instead just let CSS constrain the max size. Also reduce the left panel width from `w-[400px]` to `w-[360px]`.
+**Fix:** Set the icon size to 24px (the native SVG size). Remove the width/height stripping from SVG strings. Use `size: 24` for component-based icons.
 
-**File: `src/pages/IconDetailPage.tsx`**
-- Line 304: Change `w-[280px] h-[280px]` to `w-32 h-32`
-- Line 309: Change `w-full h-full` to `w-full h-full max-w-[128px] max-h-[128px]`
-- Line 319: Change `size: 280` to `size: 128`
-- Line 622: Change container `w-[280px] h-[280px]` to `w-32 h-32`
+## Problem 2: Similar Icons Never Show (Root Cause)
 
-## Issue 2: Similar Icons Not Visible
-The console logs confirm similar icons ARE loading and `IconCell` components render. The problem is `useVirtualGrid` measures `containerWidth` via `containerRef.current.clientWidth`, which can be 0 when the grid container hasn't been laid out yet (it's deep inside a scrollable flex column). With `containerWidth = 0`, `cellSize = 0`, so all icons have 0 height.
+The `IconGrid` component always calls `useVirtualGrid`, which needs to measure its container's `clientWidth` via a ref. The similar icons grid is nested inside a flex scrollable column (`flex-1 overflow-y-auto`) with `h-full` on the grid container. In this layout, the container often resolves to 0 height/width because:
+- The parent is a flex child with no fixed dimensions
+- `h-full` resolves to 0 when the parent's height is content-dependent
+- `useVirtualGrid` reads `clientWidth = 0`, producing `cellSize = 72` (fallback) but `gridAutoRows: 72px` with `h-full` on a 0-height container means nothing is visible
 
-Since similar icons has at most 24 items (well under the 100 threshold), `IconGrid` uses the simple non-virtualized path. But `cellSize` and `columnsCount` from `useVirtualGrid` are still used for `gridAutoRows` and `gridTemplateColumns`. When `containerWidth` is 0, `columnsCount` defaults to 4 but `cellSize` is 0.
-
-**Fix:** In `useVirtualGrid.ts`, ensure `cellSize` has a minimum fallback value (e.g., 72px) when `containerWidth` is 0 or too small.
-
-**File: `src/components/icon-grid/useVirtualGrid.ts`**
-- Line 40 (cellSize memo): Change to `if (!containerWidth || !columnsCount) return 72;` (was `return 80` but the 80 wasn't being used because the condition wasn't matching -- actually it returns 80, let me re-check)
-
-Actually the default IS 80, but the issue is that `containerWidth` might briefly be set to a very small value. Let me add a minimum: `return Math.max(64, Math.floor(containerWidth / columnsCount))`.
-
-**Changes:**
-- `src/components/icon-grid/useVirtualGrid.ts` line 41: `return Math.max(64, Math.floor(containerWidth / columnsCount));`
-
-Additionally, add a `ResizeObserver` in `useVirtualGrid` instead of relying solely on the initial `clientWidth` read + window resize. This ensures the grid recalculates when its container actually appears in the DOM.
-
-**File: `src/components/icon-grid/useVirtualGrid.ts`**
-- In the `useEffect` (lines 64-80): Add a `ResizeObserver` on `containerRef.current` to catch when the element gets its actual width after being mounted inside a scrollable area.
+**Proper fix:** Don't use `IconGrid` for similar icons at all. For 24 icons, a simple CSS grid is all that's needed. Render the icons directly in a `div` with `grid-template-columns: repeat(auto-fill, minmax(64px, 1fr))` and fixed row height. This completely avoids virtualization measurement issues.
 
 ---
 
-## Summary of Changes
+## Technical Changes
 
-**`src/pages/IconDetailPage.tsx`** (4 line changes):
-- Reduce icon preview from 280px to 128px (lines 304, 309, 319, 622)
+### File: `src/pages/IconDetailPage.tsx`
 
-**`src/components/icon-grid/useVirtualGrid.ts`** (2 changes):
-- Add minimum cellSize of 64px (line 41)
-- Add ResizeObserver to detect container width after mount (lines 64-80)
+**Icon preview (lines 301-325):**
+- Remove the `w-32 h-32` container sizing
+- Stop stripping `width`/`height` from SVG strings
+- Set `size: 24` for component-based SVGs
+- Use a simple centered container without forced dimensions
+
+**Similar icons section (lines 399-431):**
+- Replace `<IconGrid>` with a simple inline CSS grid
+- Import `IconCell` directly
+- Render `similarIcons.map(icon => <IconCell .../>)` inside a `div` with `grid-template-columns: repeat(auto-fill, minmax(64px, 1fr))` and `grid-auto-rows: 64px`
+- This guarantees icons always render regardless of container measurements
 
