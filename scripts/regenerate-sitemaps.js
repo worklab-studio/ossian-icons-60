@@ -66,6 +66,13 @@ function generateSitemapIndex() {
     <lastmod>${lastmod}</lastmod>
   </sitemap>`);
   });
+
+  // Collections sitemap
+  sitemapEntries.push(`
+  <sitemap>
+    <loc>${DOMAIN}/sitemap-collections.xml</loc>
+    <lastmod>${lastmod}</lastmod>
+  </sitemap>`);
   
   return `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -136,6 +143,46 @@ ${urlEntries}
 /**
  * Main function to generate all sitemaps
  */
+// Category slugs (must match seo-categories.ts)
+const CATEGORY_SLUGS = [
+  'arrow', 'navigation', 'user', 'communication', 'media', 'file', 'weather',
+  'shopping', 'social', 'device', 'chart', 'editing', 'security', 'calendar',
+  'map', 'settings', 'notification', 'heart', 'star', 'home', 'search',
+  'download-upload', 'cloud', 'code', 'education', 'food', 'health', 'finance',
+  'transport', 'animal', 'sport', 'building', 'music', 'camera', 'power-energy',
+  'layout-grid', 'text-typography', 'shape', 'toggle', 'flag', 'gift', 'tools',
+  'database', 'wifi', 'battery', 'clipboard', 'bookmark', 'filter-sort',
+  'refresh-sync', 'link', 'eye', 'nature'
+];
+
+/**
+ * Generate collections sitemap (categories, category+library, comparisons)
+ */
+function generateCollectionsSitemap() {
+  const lastmod = new Date().toISOString().split('T')[0];
+  const urls = [];
+
+  // Category pages + category+library pages
+  for (const slug of CATEGORY_SLUGS) {
+    urls.push(`  <url><loc>${DOMAIN}/icons/${slug}</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`);
+    for (const lib of LIBRARIES) {
+      urls.push(`  <url><loc>${DOMAIN}/icons/${slug}/${lib.id}</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`);
+    }
+  }
+
+  // Comparison pages (all unique pairs)
+  for (let i = 0; i < LIBRARIES.length; i++) {
+    for (let j = i + 1; j < LIBRARIES.length; j++) {
+      urls.push(`  <url><loc>${DOMAIN}/compare/${LIBRARIES[i].id}-vs-${LIBRARIES[j].id}</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`);
+    }
+  }
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>`;
+}
+
+/**
+ * Main function to generate all sitemaps
+ */
 function generateAllSitemaps() {
   console.log('🚀 Regenerating sitemaps with correct domain...');
   
@@ -159,11 +206,17 @@ function generateAllSitemaps() {
       writeFileSync(join(PUBLIC_DIR, `sitemap-${library.id}.xml`), librarySitemap);
       console.log(`✅ Generated sitemap-${library.id}.xml`);
     });
+
+    // Generate collections sitemap
+    const collectionsSitemap = generateCollectionsSitemap();
+    writeFileSync(join(PUBLIC_DIR, 'sitemap-collections.xml'), collectionsSitemap);
+    console.log('✅ Generated sitemap-collections.xml');
     
-    console.log(`\n🎉 Successfully generated ${2 + LIBRARIES.length} sitemap files:`);
+    console.log(`\n🎉 Successfully generated ${3 + LIBRARIES.length} sitemap files:`);
     console.log(`   - sitemap.xml (index)`);
     console.log(`   - sitemap-main.xml`);
     console.log(`   - ${LIBRARIES.length} library sitemaps`);
+    console.log(`   - sitemap-collections.xml`);
     console.log(`\n🌐 All URLs use domain: ${DOMAIN}`);
     
   } catch (error) {
