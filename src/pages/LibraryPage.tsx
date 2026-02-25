@@ -140,37 +140,34 @@ const LibraryPageContent = () => {
     <>
       <SchemaMarkup schema={schemaMarkup} />
       
-      <Helmet>
-        <title>{libraryMetadata.name} Icons - {libraryMetadata.count} {libraryMetadata.style} icons | Iconstack</title>
-        <meta 
-          name="description" 
-          content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description} Free SVG icons for web development.`}
-        />
-        <meta name="keywords" content={`${libraryMetadata.name.toLowerCase()}, icons, svg, ${libraryMetadata.style}, web development, ui design, iconstack`} />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content={`${libraryMetadata.name} Icons - ${libraryMetadata.count} ${libraryMetadata.style} icons | Iconstack`} />
-        <meta property="og:description" content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description}`} />
-        <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
-        <meta property="og:type" content="website" />
-        
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${libraryMetadata.name} Icons - Iconstack`} />
-        <meta name="twitter:description" content={`${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}`} />
-        
-        {/* Canonical URL - ensure proper URL encoding */}
-        <link rel="canonical" href={`https://iconstack.io/library/${encodeURIComponent(libraryId || '')}`} />
-        
-        {/* Robots meta - help Google understand this is indexable */}
-        <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow" />
-        
-        {/* Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify(generateStructuredData())}
-        </script>
-      </Helmet>
+      {libraryMetadata && (
+        <Helmet>
+          <title>{libraryMetadata.name} Icons - {libraryMetadata.count} {libraryMetadata.style} icons | Iconstack</title>
+          <meta 
+            name="description" 
+            content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description} Free SVG icons for web development.`}
+          />
+          <meta name="keywords" content={`${libraryMetadata.name.toLowerCase()}, icons, svg, ${libraryMetadata.style}, web development, ui design, iconstack`} />
+          
+          <meta property="og:title" content={`${libraryMetadata.name} Icons - ${libraryMetadata.count} ${libraryMetadata.style} icons | Iconstack`} />
+          <meta property="og:description" content={`Browse and copy ${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}. ${libraryMetadata.description}`} />
+          <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
+          <meta property="og:type" content="website" />
+          
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={`${libraryMetadata.name} Icons - Iconstack`} />
+          <meta name="twitter:description" content={`${libraryMetadata.count} ${libraryMetadata.style} icons from ${libraryMetadata.name}`} />
+          
+          <link rel="canonical" href={`https://iconstack.io/library/${encodeURIComponent(libraryId || '')}`} />
+          
+          <meta name="robots" content="index, follow" />
+          <meta name="googlebot" content="index, follow" />
+          
+          <script type="application/ld+json">
+            {JSON.stringify(generateStructuredData())}
+          </script>
+        </Helmet>
+      )}
 
       <div className="min-h-screen bg-background">
         <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
