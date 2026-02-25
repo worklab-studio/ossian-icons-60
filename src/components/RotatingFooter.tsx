@@ -19,7 +19,7 @@ const footerItems: { text: string; link: string; badge?: BadgeType }[] = [
     link: "https://iconstack.io",
   },
   {
-    text: "Free AI Invoicing for freelancers and agencies - dodoinvoice.com",
+    text: "Free AI invoicing tool - Dodoinvoice.com",
     link: "https://dodoinvoice.com",
     badge: "Hot"
   },
