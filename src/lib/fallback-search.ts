@@ -69,7 +69,7 @@ function calculateIconScore(
   queryWords: string[],
   options: FallbackSearchOptions = {}
 ): SearchResult | null {
-  const { fuzzy = true, enableSynonyms = false, enablePhonetic = true } = options;
+  const { fuzzy = true, enableSynonyms = true, enablePhonetic = true } = options;
   
   let bestScore = 0;
   let matchedFields: string[] = [];
@@ -102,7 +102,7 @@ function calculateIconScore(
     } else if (nameMatch.prefix) {
       queryScore = Math.max(queryScore, FIELD_WEIGHTS.namePrefix);
       currentFields.push('name');
-    } else if (fuzzy && normalizedQuery.length >= 4) {
+    } else if (fuzzy && normalizedQuery.length >= 3) {
       const nameScore = fuzzyScore(normalizedQuery, iconName);
       if (nameScore > 0) {
         queryScore = Math.max(queryScore, nameScore * FIELD_WEIGHTS.nameFuzzy);
@@ -121,7 +121,7 @@ function calculateIconScore(
       } else if (tagMatch.prefix) {
         queryScore = Math.max(queryScore, FIELD_WEIGHTS.tagExact * 0.8);
         currentFields.push('tag');
-      } else if (fuzzy && normalizedQuery.length >= 4) {
+      } else if (fuzzy && normalizedQuery.length >= 3) {
         const tagScore = fuzzyScore(normalizedQuery, tag);
         if (tagScore > 0) {
           queryScore = Math.max(queryScore, tagScore * FIELD_WEIGHTS.tagFuzzy);
@@ -140,7 +140,7 @@ function calculateIconScore(
     } else if (categoryMatch.prefix) {
       queryScore = Math.max(queryScore, FIELD_WEIGHTS.categoryExact * 0.8);
       currentFields.push('category');
-    } else if (fuzzy && normalizedQuery.length >= 4) {
+    } else if (fuzzy && normalizedQuery.length >= 3) {
       const categoryScore = fuzzyScore(normalizedQuery, iconCategory);
       if (categoryScore > 0) {
         queryScore = Math.max(queryScore, categoryScore * FIELD_WEIGHTS.categoryFuzzy);
@@ -205,9 +205,9 @@ export function fallbackSearch(
 ): { results: IconItem[]; totalCount: number } {
   const {
     fuzzy = true,
-    maxResults = 500,      // Reduced to prioritize best matches
-    minScore = 8.0,        // Significantly increased for precision
-    enableSynonyms = false, // Disabled by default for exact results
+    maxResults = 500,
+    minScore = 3.0,
+    enableSynonyms = true,
     enablePhonetic = true,
     libraryId
   } = options;

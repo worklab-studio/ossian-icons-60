@@ -137,11 +137,11 @@ export function useSearchWorker(): SearchWorkerHook {
         query: query.trim(),
         libraryId: options.libraryId,
         options: {
-          maxResults: 1000, // Conservative limit for performance
+          maxResults: 1000,
           fuzzy: true,
-          enableSynonyms: false, // Conservative default
-          enablePhonetic: false, // Conservative default
-          minScore: 8.0, // Higher threshold for precision
+          enableSynonyms: true,
+          enablePhonetic: true,
+          minScore: 3.0,
           ...options
         }
       });
