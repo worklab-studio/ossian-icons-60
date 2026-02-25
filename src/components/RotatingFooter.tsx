@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { TrendingUp } from "lucide-react";
+import { TrendingUp, Flame } from "lucide-react";
 
-type BadgeType = "New" | "Trending";
+type BadgeType = "New" | "Trending" | "Hot";
 
 const footerItems: { text: string; link: string; badge?: BadgeType }[] = [
   {
@@ -18,9 +18,23 @@ const footerItems: { text: string; link: string; badge?: BadgeType }[] = [
     text: "A complete icon library - iconstack.io",
     link: "https://iconstack.io",
   },
+  {
+    text: "Free AI Invoicing for freelancers and agencies - dodoinvoice.com",
+    link: "https://dodoinvoice.com",
+    badge: "Hot"
+  },
 ];
 
 const BadgeComponent = ({ type }: { type: BadgeType }) => {
+  if (type === "Hot") {
+    return (
+      <span className="ml-2 inline-flex items-center gap-1 rounded-full border border-orange-500/50 bg-orange-500/10 px-1.5 py-0.5 text-[10px] font-medium text-orange-500">
+        <Flame size={10} />
+        {type}
+      </span>
+    );
+  }
+
   if (type === "Trending") {
     return (
       <span className="ml-2 inline-flex items-center gap-1 rounded-full border border-blue-500/50 bg-blue-500/10 px-1.5 py-0.5 text-[10px] font-medium text-blue-500">
