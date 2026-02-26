@@ -43,7 +43,7 @@ function LiveCounter() {
         <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
       </span>
       <span className="text-xs text-muted-foreground">
-        {count.toLocaleString()} designers browsing
+        <span className="font-bold">{count.toLocaleString()}</span> designers browsing
       </span>
     </div>
   );

@@ -107,7 +107,7 @@ export function MobileHeader({
           <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
         </span>
         <span className="text-[11px] text-muted-foreground">
-          {count.toLocaleString()} designers browsing now
+          <span className="font-bold">{count.toLocaleString()}</span> designers browsing now
         </span>
       </div>
     </div>
