@@ -106,7 +106,7 @@ export class IconMetaService {
     const style = icon.style || library.style;
     
     // Enhanced title with style and format information
-    const title = this.generateTitle(iconName, libraryName, style);
+    const title = this.generateTitle(iconName, libraryName, style, libraryId);
     
     // Rich description with context and use cases
     const description = this.generateDescription(icon, library, libraryId);
@@ -115,7 +115,7 @@ export class IconMetaService {
     const keywords = this.generateKeywords(icon, library, libraryId);
     
     // Social media optimized versions
-    const ogTitle = this.generateOGTitle(iconName, libraryName, style);
+    const ogTitle = this.generateOGTitle(iconName, libraryName, style, libraryId);
     const ogDescription = this.generateOGDescription(icon, library);
     
     return {
@@ -129,7 +129,10 @@ export class IconMetaService {
     };
   }
 
-  private static generateTitle(iconName: string, libraryName: string, _style: string): string {
+  private static generateTitle(iconName: string, libraryName: string, _style: string, libraryId: string): string {
+    if (libraryId === 'simple') {
+      return `Free ${iconName} Icon - SVG Download | Simple Icons`;
+    }
     return `${iconName} Icon - Free SVG Download | ${libraryName} Icons`;
   }
 
@@ -145,7 +148,9 @@ export class IconMetaService {
     const useCaseText = useCases.length > 0 ? ` Perfect for ${useCases.slice(0, 3).join(', ')}.` : '';
     
     // Build comprehensive description
-    let description = `Download ${iconName} icon from ${libraryName} library. `;
+    let description = libraryId === 'simple' 
+      ? `Free ${iconName} brand icon from ${libraryName} library. `
+      : `Download ${iconName} icon from ${libraryName} library. `;
     description += `Features ${styleDesc} design. `;
     description += `Free SVG icon from ${libraryDesc}. `;
     description += `Customizable colors and stroke width.`;
@@ -207,7 +212,10 @@ export class IconMetaService {
     return Array.from(keywords).slice(0, 25).join(', '); // Limit to 25 keywords
   }
 
-  private static generateOGTitle(iconName: string, libraryName: string, _style: string): string {
+  private static generateOGTitle(iconName: string, libraryName: string, _style: string, libraryId: string): string {
+    if (libraryId === 'simple') {
+      return `Free ${iconName} Icon - SVG Download | Simple Icons`;
+    }
     return `${iconName} Icon - Free SVG Download | ${libraryName} Icons`;
   }
 
