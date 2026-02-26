@@ -1,35 +1,15 @@
 
-# Align Sidebar Footer with Main Content Footer
-
-## Problem
-The sidebar's live counter footer and the main content's `RotatingFooter` are not aligned at the same height. They have different padding values causing a visual mismatch.
+# Update Live Audience Counter: Range & Styling
 
 ## Changes
 
-**File: `src/components/app-sidebar.tsx`**
-- Update the `SidebarFooter` padding from `px-4 py-3` to `p-4` to match the `RotatingFooter`'s padding
-- Ensure the `LiveCounter` component uses the same height (`h-5`) and centering (`flex items-center`) as the `RotatingFooter`'s inner container
+### 1. Update range in `src/hooks/useFakeAudienceCount.ts`
+- Change work hours range from `1200-2500` to `5500-8500`
+- Change off hours range from `800-1400` to `4100-6500`
+- Increase fluctuation tolerance from `±50` to `±150` to keep it natural at this scale
 
-**File: `src/components/RotatingFooter.tsx`** (if needed)
-- Verify both footers use the same total height. The `RotatingFooter` uses `p-4` with an inner `h-5` container. We'll match the sidebar footer to these exact values.
+### 2. Make count text bold in `src/components/app-sidebar.tsx`
+- Add `font-bold` to the count text span in the `LiveCounter` component
 
-### Specific changes:
-
-1. **`src/components/app-sidebar.tsx`** - Change sidebar footer:
-   ```tsx
-   // From:
-   <SidebarFooter className="border-t px-4 py-3">
-     <LiveCounter />
-   </SidebarFooter>
-   
-   // To:
-   <SidebarFooter className="border-t p-4">
-     <div className="h-5 flex items-center">
-       <LiveCounter />
-     </div>
-   </SidebarFooter>
-   ```
-
-2. The `LiveCounter` already uses `flex items-center gap-1.5` so the inner content will center within the `h-5` container, exactly matching the `RotatingFooter`'s `h-5 flex items-center justify-center` layout.
-
-This ensures both footers have identical `p-4` padding, `border-t` separator, and `h-5` content height, making them perfectly aligned horizontally.
+### 3. Make count text bold in `src/components/mobile/MobileHeader.tsx`
+- Add `font-bold` to the matching count text span for mobile consistency
