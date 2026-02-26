@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { IconstackLogo } from "@/components/iconstack-logo";
 import { useRef, useEffect } from "react";
+import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
 
 interface MobileHeaderProps {
   searchQuery: string;
@@ -20,6 +21,7 @@ export function MobileHeader({
   onLibraryClick,
 }: MobileHeaderProps) {
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const count = useFakeAudienceCount();
 
   // Add keyboard shortcuts
   useEffect(() => {
@@ -96,6 +98,17 @@ export function MobileHeader({
             </div>
           )}
         </div>
+      </div>
+      
+      {/* Live audience counter */}
+      <div className="flex items-center justify-center gap-1.5 pb-2">
+        <span className="relative flex h-2 w-2">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
+        </span>
+        <span className="text-[11px] text-muted-foreground">
+          {count.toLocaleString()} designers browsing now
+        </span>
       </div>
     </div>
   );

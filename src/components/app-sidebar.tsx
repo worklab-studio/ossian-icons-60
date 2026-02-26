@@ -1,5 +1,6 @@
 import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight } from "lucide-react";
-import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarSeparator } from "@/components/ui/sidebar";
+import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
+import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
 import { cn } from "@/lib/utils";
 import { AnimatedPlayIcon } from "@/components/animated-play-icon";
 import { IconstackLogo } from "@/components/iconstack-logo";
@@ -33,6 +34,21 @@ interface AppSidebarProps {
   selectedSet: string;
   onSetChange: (setId: string) => void;
 }
+function LiveCounter() {
+  const count = useFakeAudienceCount();
+  return (
+    <div className="flex items-center gap-1.5">
+      <span className="relative flex h-2 w-2">
+        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+        <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
+      </span>
+      <span className="text-xs text-muted-foreground">
+        {count.toLocaleString()} designers browsing
+      </span>
+    </div>
+  );
+}
+
 export function AppSidebar({
   selectedSet,
   onSetChange
@@ -134,5 +150,9 @@ export function AppSidebar({
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
+
+      <SidebarFooter className="border-t px-4 py-3">
+        <LiveCounter />
+      </SidebarFooter>
     </Sidebar>;
 }
