@@ -151,8 +151,10 @@ export function AppSidebar({
         </SidebarGroup>
       </SidebarContent>
 
-      <SidebarFooter className="border-t px-4 py-3">
-        <LiveCounter />
+      <SidebarFooter className="border-t p-4">
+        <div className="h-5 flex items-center">
+          <LiveCounter />
+        </div>
       </SidebarFooter>
     </Sidebar>;
 }
