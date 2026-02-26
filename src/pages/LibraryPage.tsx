@@ -10,6 +10,7 @@ import { toast } from 'sonner';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { useSchemaMarkup } from '@/hooks/useSchemaMarkup';
 import { RotatingFooter } from '@/components/RotatingFooter';
+import { LibraryFAQ } from '@/components/LibraryFAQ';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { generateIconUrl } from '@/lib/url-helpers';
 import { ArrowLeft } from 'lucide-react';
@@ -50,7 +51,10 @@ const LibraryPageContent = () => {
   const { schemaMarkup } = useSchemaMarkup({
     icons,
     libraryId: libraryId || '',
-    includeFAQ: false
+    includeFAQ: false,
+    libraryName: libraryMetadata?.name,
+    libraryCount: libraryMetadata?.count,
+    libraryStyle: libraryMetadata?.style,
   });
 
   const { isFirstCopy, markFirstCopyComplete, getKeyboardShortcut } = useFirstTimeUser();
@@ -164,7 +168,7 @@ const LibraryPageContent = () => {
       <SchemaMarkup schema={schemaMarkup} />
       <Helmet>
         <title>{`${libraryMetadata.name} Icons - ${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} icons | Iconstack`}</title>
-        <meta name="description" content={`Browse and copy ${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} icons from ${libraryMetadata.name}. ${libraryMetadata.description || ''} Free SVG icons.`} />
+        <meta name="description" content={`Browse the complete list of ${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} ${libraryMetadata.name} icons. ${libraryMetadata.description || ''} Free, MIT-licensed SVG icons — search, customize, and copy.`} />
         <meta property="og:title" content={`${libraryMetadata.name} Icons | Iconstack`} />
         <meta property="og:description" content={`${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} icons from ${libraryMetadata.name}`} />
         <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
@@ -235,6 +239,13 @@ const LibraryPageContent = () => {
                 libraryName={libraryMetadata.name}
               />
             )}
+            <div className="px-4 pb-4">
+              <LibraryFAQ
+                libraryName={libraryMetadata.name}
+                iconCount={libraryMetadata.count ?? 0}
+                style={libraryMetadata.style}
+              />
+            </div>
           </main>
         </div>
 
@@ -291,6 +302,9 @@ const LibraryPageContent = () => {
                       </>
                     )}
                   </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    Browse the complete list of {libraryMetadata.count?.toLocaleString()} {libraryMetadata.name} icons below. Search to find specific icons or filter by category.
+                  </p>
                 </div>
               </div>
             </ScrollArea>
@@ -358,6 +372,11 @@ const LibraryPageContent = () => {
               )}
             </main>
 
+            <LibraryFAQ
+              libraryName={libraryMetadata.name}
+              iconCount={libraryMetadata.count ?? 0}
+              style={libraryMetadata.style}
+            />
             <RotatingFooter />
           </div>
 

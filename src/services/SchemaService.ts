@@ -264,6 +264,60 @@ export class SchemaService {
   }
 
   /**
+   * Generate library-specific FAQ schema for rich snippets
+   */
+  static generateLibraryFAQSchema(libraryName: string, count: number, style?: string): SchemaMarkup {
+    return {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": `How many ${libraryName} icons are available?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `${libraryName} offers ${count.toLocaleString()} ${style || ''} icons on Iconstack. Browse the complete list, search for specific icons, or filter by category.`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `Are ${libraryName} icons free to use?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `Yes, all ${libraryName} icons are MIT-licensed and completely free for both personal and commercial projects. No attribution is required.`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `What styles does ${libraryName} offer?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": style
+              ? `${libraryName} icons are available in ${style} style. You can customize them on Iconstack by adjusting color and stroke width.`
+              : `${libraryName} icons can be customized on Iconstack by adjusting color and stroke width.`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `How do I use ${libraryName} icons in my project?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `Search for the icon you need, click to copy the SVG code, and paste it into your HTML, React, Vue, or any other project. You can also download icons as SVG or PNG files.`
+          }
+        },
+        {
+          "@type": "Question",
+          "name": `Can I customize ${libraryName} icons?`,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": `Yes! Use the customization panel to change the icon color and stroke width in real-time. Customizations are applied before copying or downloading.`
+          }
+        }
+      ]
+    };
+  }
+
+  /**
    * Generate FAQ schema for common questions
    */
   static generateFAQSchema(): SchemaMarkup {

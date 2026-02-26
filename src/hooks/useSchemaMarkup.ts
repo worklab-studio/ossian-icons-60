@@ -9,11 +9,14 @@ interface UseSchemaMarkupOptions {
   iconName?: string;
   totalIcons?: number;
   includeFAQ?: boolean;
+  libraryName?: string;
+  libraryCount?: number;
+  libraryStyle?: string;
 }
 
 export function useSchemaMarkup(options: UseSchemaMarkupOptions = {}) {
   const location = useLocation();
-  const { icons, libraryId, iconName, totalIcons, includeFAQ } = options;
+  const { icons, libraryId, iconName, totalIcons, includeFAQ, libraryName, libraryCount, libraryStyle } = options;
 
   const schemaMarkup = useMemo(() => {
     const schemas: SchemaMarkup[] = [];
@@ -43,6 +46,11 @@ export function useSchemaMarkup(options: UseSchemaMarkupOptions = {}) {
       
       if (icons && icons.length > 0) {
         schemas.push(SchemaService.generateItemListSchema(icons, libraryId));
+      }
+
+      // Library-specific FAQ schema
+      if (libraryName && libraryCount) {
+        schemas.push(SchemaService.generateLibraryFAQSchema(libraryName, libraryCount, libraryStyle));
       }
     } else if (location.pathname.startsWith('/icon/')) {
       // Individual icon page schemas
