@@ -1,21 +1,24 @@
 
 
-# Make FAQ Section Collapsible
+# "Free [Brand] Icon" Title Pattern for Brand Icons
 
 ## Overview
 
-Wrap the entire FAQ section in a collapsible container so it starts collapsed and doesn't take up space by default. Users can expand it with a single click.
+Update the title generation logic in `IconMetaService` so that brand icon pages (Simple Icons library) use the pattern **"Free [Brand] Icon - SVG Download | Simple Icons"** instead of the generic pattern. This targets high-volume searches like "free amazon icon", "free spotify icon", etc.
 
 ## Changes
 
-### File: `src/components/LibraryFAQ.tsx`
+### File: `src/services/IconMetaService.ts`
 
-- Import `Collapsible`, `CollapsibleTrigger`, `CollapsibleContent` from `@/components/ui/collapsible`
-- Import `ChevronDown` from `lucide-react`
-- Wrap the entire section in a `Collapsible` (defaultOpen={false})
-- The heading "Frequently Asked Questions about {Library} Icons" becomes the `CollapsibleTrigger` with a chevron indicator that rotates on open
-- The accordion content goes inside `CollapsibleContent`
-- This way the FAQ is hidden by default, showing only the clickable title bar
+**`generateTitle` method** (line 132): Add `libraryId` parameter and use conditional logic:
+- If `libraryId === 'simple'`: return `"Free {iconName} Icon - SVG Download | Simple Icons"`
+- Otherwise: keep current pattern `"{iconName} Icon - Free SVG Download | {libraryName} Icons"`
+
+**`generateOGTitle` method** (line 202): Same conditional logic for Open Graph titles.
+
+**`generateEnhancedMeta` method** (line 109): Pass `libraryId` to both `generateTitle` and `generateOGTitle`.
+
+**`generateDescription` method**: For Simple Icons, adjust description to lead with "Free {iconName} brand icon..." instead of "Download {iconName} icon..."
 
 ### No other files need changes
 
