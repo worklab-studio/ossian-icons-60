@@ -108,7 +108,7 @@ export function AppSidebar({
                 </SidebarMenuItem>)}
               <SidebarMenuItem>
                 <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
-                  <a href="https://dodoinvoice.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://dodoinvoice.com?ref=iconstack" target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center gap-3">
                       <FileText className="h-4 w-4" />
                       <span>Dodo Invoice</span>
