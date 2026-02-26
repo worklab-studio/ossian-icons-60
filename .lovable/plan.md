@@ -1,27 +1,61 @@
 
 
-# Add "Dodo Invoice" Link in Sidebar
+# Add Live Audience Counter (Desktop Sidebar Footer + Mobile Header)
 
-## Change
+## Overview
+
+Create a shared hook `useFakeAudienceCount` that generates a realistic-looking fake live count, then display it in two places: the sidebar footer (desktop) and below the search bar (mobile).
+
+## Shared Hook
+
+**New file: `src/hooks/useFakeAudienceCount.ts`**
+
+- Generates a base count between ~800-2,500 (seeded by hour of day for consistency across refreshes within the same hour)
+- Adds small random fluctuations every 3-5 seconds (+-1 to 5) to simulate real-time changes
+- Returns the current count number
+
+## Desktop: Sidebar Footer
 
 **File: `src/components/app-sidebar.tsx`**
 
-Add a "Dodo Invoice" menu item inside the Browse section (lines 80-93), right after the "All Icons" item and before the `SidebarSeparator`. It will use the same `SidebarMenuButton` styling but render as an `<a>` tag opening in a new tab, with `FileText` icon on the left and `ArrowUpRight` icon on the right.
+- Import `SidebarFooter` and the new hook
+- Add a `SidebarFooter` section after `SidebarContent` with a subtle display:
+  ```
+  [green pulsing dot] 1,247 designers browsing
+  ```
+- Styled as `text-xs text-muted-foreground` with a small green animated dot, pinned at the bottom of the sidebar
 
-```tsx
-// After the All Icons map, add:
-<SidebarMenuItem>
-  <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
-    <a href="https://dodoinvoice.com" target="_blank" rel="noopener noreferrer">
-      <div className="flex items-center gap-3">
-        <FileText className="h-4 w-4" />
-        <span>Dodo Invoice</span>
-      </div>
-      <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
-    </a>
-  </SidebarMenuButton>
-</SidebarMenuItem>
+## Mobile: Below Search Bar
+
+**File: `src/components/mobile/MobileHeader.tsx`**
+
+- Import the same hook
+- Add a small line below the search bar (inside the sticky header):
+  ```
+  [green pulsing dot] 1,247 designers browsing now
+  ```
+- Styled as `text-[11px] text-muted-foreground` centered, with the same green dot animation
+
+## Technical Details
+
+### `useFakeAudienceCount` hook logic:
+```ts
+// Base count varies by hour (800-2500 range, higher during work hours)
+// Small fluctuations every 3-5s via setInterval
+// Returns: number (the current fake count)
 ```
 
-Also import `FileText` and `ArrowUpRight` from `lucide-react`.
+### Green pulsing dot (inline CSS or Tailwind):
+```tsx
+<span className="relative flex h-2 w-2">
+  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
+</span>
+```
 
+### Files to create:
+- `src/hooks/useFakeAudienceCount.ts`
+
+### Files to modify:
+- `src/components/app-sidebar.tsx` — add SidebarFooter with live count
+- `src/components/mobile/MobileHeader.tsx` — add live count below search bar
