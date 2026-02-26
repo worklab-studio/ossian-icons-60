@@ -5,6 +5,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from '@/components/ui/collapsible';
+import { ChevronDown } from 'lucide-react';
 
 interface LibraryFAQProps {
   libraryName: string;
@@ -39,22 +41,27 @@ export const LibraryFAQ: React.FC<LibraryFAQProps> = ({ libraryName, iconCount, 
   ];
 
   return (
-    <section className="px-6 py-8 border-t border-border/30">
-      <h3 className="text-lg font-semibold text-foreground mb-4">
-        Frequently Asked Questions about {libraryName} Icons
-      </h3>
-      <Accordion type="single" collapsible className="w-full">
-        {faqs.map((faq, index) => (
-          <AccordionItem key={index} value={`faq-${index}`}>
-            <AccordionTrigger className="text-sm text-left">
-              {faq.question}
-            </AccordionTrigger>
-            <AccordionContent className="text-sm text-muted-foreground">
-              {faq.answer}
-            </AccordionContent>
-          </AccordionItem>
-        ))}
-      </Accordion>
-    </section>
+    <Collapsible defaultOpen={false} className="px-6 py-4 border-t border-border/30">
+      <CollapsibleTrigger className="flex w-full items-center justify-between cursor-pointer group">
+        <h3 className="text-lg font-semibold text-foreground">
+          Frequently Asked Questions about {libraryName} Icons
+        </h3>
+        <ChevronDown className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=open]:rotate-180" />
+      </CollapsibleTrigger>
+      <CollapsibleContent>
+        <Accordion type="single" collapsible className="w-full mt-4">
+          {faqs.map((faq, index) => (
+            <AccordionItem key={index} value={`faq-${index}`}>
+              <AccordionTrigger className="text-sm text-left">
+                {faq.question}
+              </AccordionTrigger>
+              <AccordionContent className="text-sm text-muted-foreground">
+                {faq.answer}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </CollapsibleContent>
+    </Collapsible>
   );
 };
