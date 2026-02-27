@@ -2,7 +2,7 @@ import { createClient } from "@sanity/client";
 import type { BlogPost, BlogPostSummary } from "@/types/blog";
 
 // These are public/publishable values — safe to store in code
-const SANITY_PROJECT_ID = "YOUR_PROJECT_ID"; // Replace after creating your Sanity project
+const SANITY_PROJECT_ID = "q9wjrixz";
 const SANITY_DATASET = "production";
 const SANITY_API_VERSION = "2024-01-01";
 
@@ -74,5 +74,5 @@ export async function getPostSlugs(): Promise<string[]> {
 }
 
 export function isSanityConfigured(): boolean {
-  return SANITY_PROJECT_ID !== "YOUR_PROJECT_ID";
+  return SANITY_PROJECT_ID.length > 0;
 }
