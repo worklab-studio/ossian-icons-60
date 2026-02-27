@@ -2,6 +2,7 @@ import { iconLibraryManager } from "./IconLibraryManager";
 import { generateIconUrl } from "@/lib/url-helpers";
 import { getAllCategorySlugs } from "@/data/seo-categories";
 import { CollectionService } from "./CollectionService";
+import { getPostSlugs, isSanityConfigured } from "./SanityClient";
 
 export class SitemapService {
   private static readonly DOMAIN = "https://iconstack.io";
@@ -28,6 +29,13 @@ export class SitemapService {
     sitemapEntries.push(`
     <sitemap>
       <loc>${this.DOMAIN}/sitemap-collections.xml</loc>
+      <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+    </sitemap>`);
+
+    // Blog sitemap
+    sitemapEntries.push(`
+    <sitemap>
+      <loc>${this.DOMAIN}/sitemap-blog.xml</loc>
       <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     </sitemap>`);
     
@@ -148,6 +156,51 @@ ${urlEntries}
 </urlset>`;
   }
   
+  static async generateBlogSitemap(): Promise<string> {
+    const lastmod = new Date().toISOString().split('T')[0];
+    
+    if (!isSanityConfigured()) {
+      // Return sitemap with just the blog index
+      return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${this.DOMAIN}/blog</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>`;
+    }
+
+    try {
+      const slugs = await getPostSlugs();
+      const urls = [`
+  <url>
+    <loc>${this.DOMAIN}/blog</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>`];
+
+      for (const slug of slugs) {
+        urls.push(`
+  <url>
+    <loc>${this.DOMAIN}/blog/${slug}</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>`);
+      }
+
+      return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.join('')}
+</urlset>`;
+    } catch {
+      return this.generateEmptySitemap();
+    }
+  }
+
   static getLibraryIds(): string[] {
     return iconLibraryManager.libraries.map(lib => lib.id);
   }

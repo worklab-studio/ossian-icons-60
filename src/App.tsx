@@ -18,6 +18,8 @@ import LicensePage from "./pages/LicensePage";
 import CollectionPage from "./pages/CollectionPage";
 import ComparisonPage from "./pages/ComparisonPage";
 import CategoryLibraryPage from "./pages/CategoryLibraryPage";
+import BlogIndexPage from "./pages/BlogIndexPage";
+import BlogPostPage from "./pages/BlogPostPage";
 import Sitemap from "./components/Sitemap";
 import { SitemapService } from "./services/SitemapService";
 
@@ -58,6 +60,8 @@ const App = () => (
                 <Route path="/icons/:category/:libraryId" element={<CategoryLibraryPage />} />
                 <Route path="/icons/:category" element={<CollectionPage />} />
                 <Route path="/compare/:slug" element={<ComparisonPage />} />
+                <Route path="/blog" element={<BlogIndexPage />} />
+                <Route path="/blog/:slug" element={<BlogPostPage />} />
                 <Route path="/404" element={<NotFound />} />
                 
                 {/* Dynamic sitemap routes */}
