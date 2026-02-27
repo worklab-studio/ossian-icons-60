@@ -362,6 +362,60 @@ export class SchemaService {
   }
 
   /**
+   * Generate Article schema for a blog post
+   */
+  static generateArticleSchema(post: { title: string; excerpt: string; publishedAt: string; author: string; coverImage?: { asset?: { _ref?: string } }; slug: { current: string } }): SchemaMarkup {
+    return {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": post.title,
+      "description": post.excerpt,
+      "datePublished": post.publishedAt,
+      "dateModified": post.publishedAt,
+      "author": {
+        "@type": "Person",
+        "name": post.author || "Iconstack Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Ossian Design Lab",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://iconstack.io/favicon.svg"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": `https://iconstack.io/blog/${post.slug.current}`
+      },
+      "url": `https://iconstack.io/blog/${post.slug.current}`
+    };
+  }
+
+  /**
+   * Generate ItemList schema for the blog index
+   */
+  static generateBlogListSchema(posts: { title: string; slug: { current: string }; excerpt: string }[]): SchemaMarkup {
+    return {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Iconstack Blog",
+      "description": "Guides, tips & resources for using icons in web development",
+      "numberOfItems": posts.length,
+      "itemListElement": posts.slice(0, 20).map((post, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "item": {
+          "@type": "Article",
+          "headline": post.title,
+          "url": `https://iconstack.io/blog/${post.slug.current}`,
+          "description": post.excerpt
+        }
+      }))
+    };
+  }
+
+  /**
    * Combine multiple schemas into a single JSON-LD object
    */
   static combineSchemas(schemas: SchemaMarkup[]): any {
