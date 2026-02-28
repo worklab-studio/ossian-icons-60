@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { sanityImageUrl } from "@/services/SanityClient";
-import { ArrowRight } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import type { BlogPostSummary } from "@/types/blog";
 
 interface BlogCardProps {
@@ -12,7 +10,7 @@ interface BlogCardProps {
 
 function estimateReadTime(excerpt: string): string {
   const words = excerpt?.split(/\s+/).length || 0;
-  const mins = Math.max(1, Math.ceil(words / 40)); // rough estimate from excerpt
+  const mins = Math.max(1, Math.ceil(words / 40));
   return `${mins} min read`;
 }
 
@@ -24,16 +22,18 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
   });
 
   const imageUrl = post.coverImage?.asset?._ref
-    ? sanityImageUrl(post.coverImage.asset._ref, featured ? 800 : 600)
+    ? sanityImageUrl(post.coverImage.asset._ref, featured ? 900 : 600)
     : null;
 
   const readTime = estimateReadTime(post.excerpt);
+  const category = post.categories?.[0];
 
   if (featured) {
     return (
       <Link to={`/blog/${post.slug.current}`} className="group block">
-        <div className="overflow-hidden rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 md:grid md:grid-cols-2">
-          <div className="aspect-[16/10] overflow-hidden md:aspect-auto md:min-h-[320px]">
+        <div className="overflow-hidden rounded-xl bg-card transition-all duration-300 hover:shadow-xl md:grid md:grid-cols-2 md:gap-0">
+          {/* Image */}
+          <div className="aspect-[16/10] overflow-hidden md:aspect-auto md:min-h-[380px]">
             {imageUrl ? (
               <img
                 src={imageUrl}
@@ -41,35 +41,28 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             ) : (
-              <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-muted to-muted/50">
-                <span className="text-4xl text-muted-foreground/30">✦</span>
+              <div className="flex h-full w-full items-center justify-center bg-muted">
+                <span className="text-5xl text-muted-foreground/20">✦</span>
               </div>
             )}
           </div>
-          <div className="flex flex-col justify-center p-6 md:p-8">
-            <div className="mb-3 flex flex-wrap items-center gap-2">
-              {post.categories?.slice(0, 2).map((cat) => (
-                <Badge key={cat} variant="secondary" className="text-xs">
-                  {cat}
-                </Badge>
-              ))}
-            </div>
-            <h2 className="mb-3 text-xl font-bold leading-tight text-foreground transition-colors group-hover:text-primary md:text-2xl">
+          {/* Content */}
+          <div className="flex flex-col justify-center p-8 md:p-10">
+            {category && (
+              <span className="mb-3 text-xs font-semibold uppercase tracking-widest text-primary">
+                {category}
+              </span>
+            )}
+            <h2 className="mb-3 text-2xl font-bold leading-tight text-foreground transition-colors group-hover:text-primary md:text-3xl">
               {post.title}
             </h2>
-            <p className="mb-4 line-clamp-3 text-sm text-muted-foreground leading-relaxed">
+            <p className="mb-6 line-clamp-3 text-base leading-relaxed text-muted-foreground">
               {post.excerpt}
             </p>
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2 text-xs text-muted-foreground">
-                <span>{dateStr}</span>
-                <span>·</span>
-                <span>{readTime}</span>
-              </div>
-              <span className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors group-hover:text-primary">
-                Read
-                <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
-              </span>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <span>{dateStr}</span>
+              <span className="text-border">·</span>
+              <span>{readTime}</span>
             </div>
           </div>
         </div>
@@ -79,8 +72,9 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
 
   return (
     <Link to={`/blog/${post.slug.current}`} className="group block">
-      <div className="overflow-hidden rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm transition-all duration-300 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5">
-        <div className="aspect-[16/9] overflow-hidden">
+      <article className="transition-all duration-300 hover:-translate-y-1">
+        {/* Image */}
+        <div className="mb-4 aspect-[16/10] overflow-hidden rounded-lg">
           {imageUrl ? (
             <img
               src={imageUrl}
@@ -89,35 +83,29 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
               loading="lazy"
             />
           ) : (
-            <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-muted to-muted/50">
-              <span className="text-3xl text-muted-foreground/30">✦</span>
+            <div className="flex h-full w-full items-center justify-center bg-muted">
+              <span className="text-3xl text-muted-foreground/20">✦</span>
             </div>
           )}
         </div>
-        <div className="p-5">
-          <div className="mb-2.5 flex flex-wrap items-center gap-2">
-            {post.categories?.slice(0, 2).map((cat) => (
-              <Badge key={cat} variant="secondary" className="text-xs">
-                {cat}
-              </Badge>
-            ))}
-          </div>
-          <h2 className="mb-2 text-base font-semibold leading-snug text-foreground transition-colors group-hover:text-primary">
-            {post.title}
-          </h2>
-          <p className="mb-3 line-clamp-2 text-sm text-muted-foreground leading-relaxed">
-            {post.excerpt}
-          </p>
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span>{dateStr}</span>
-              <span>·</span>
-              <span>{readTime}</span>
-            </div>
-            <ArrowRight className="h-3.5 w-3.5 text-muted-foreground/0 transition-all group-hover:text-muted-foreground group-hover:translate-x-0.5" />
-          </div>
+        {/* Content */}
+        {category && (
+          <span className="mb-2 block text-xs font-semibold uppercase tracking-widest text-primary">
+            {category}
+          </span>
+        )}
+        <h2 className="mb-2 text-lg font-bold leading-snug text-foreground transition-colors group-hover:text-primary">
+          {post.title}
+        </h2>
+        <p className="mb-3 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
+          {post.excerpt}
+        </p>
+        <div className="flex items-center gap-2 text-xs text-muted-foreground">
+          <span>{dateStr}</span>
+          <span className="text-border">·</span>
+          <span>{readTime}</span>
         </div>
-      </div>
+      </article>
     </Link>
   );
 };

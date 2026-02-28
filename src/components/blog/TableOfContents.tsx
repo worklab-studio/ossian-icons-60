@@ -35,21 +35,21 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({ body, sidebar 
     <nav
       className={
         sidebar
-          ? "border-l border-border/50 pl-4"
-          : "rounded-xl border border-border/50 bg-muted/20 p-5"
+          ? "border-l border-border/40 pl-4"
+          : "rounded-lg bg-muted/30 p-5"
       }
       aria-label="Table of contents"
     >
       <h2 className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
         Contents
       </h2>
-      <ul className="space-y-1.5">
+      <ul className="space-y-2">
         {headings.map((h) => (
           <li key={h.id} className={h.level === 3 ? "ml-3" : ""}>
             <a
               href={`#${h.id}`}
               className={`block text-muted-foreground transition-colors hover:text-foreground ${
-                sidebar ? "text-xs leading-relaxed" : "text-sm"
+                sidebar ? "text-[13px] leading-relaxed" : "text-sm"
               }`}
             >
               {h.text}
