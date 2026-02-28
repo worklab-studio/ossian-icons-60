@@ -15,30 +15,30 @@ function headingId(children: React.ReactNode): string {
 const components: PortableTextComponents = {
   block: {
     h2: ({ children }) => (
-      <h2 id={headingId(children)} className="mb-4 mt-10 text-2xl font-bold text-foreground scroll-mt-20">
+      <h2 id={headingId(children)} className="mb-4 mt-12 text-2xl font-bold text-foreground scroll-mt-20">
         {children}
       </h2>
     ),
     h3: ({ children }) => (
-      <h3 id={headingId(children)} className="mb-3 mt-8 text-xl font-semibold text-foreground scroll-mt-20">
+      <h3 id={headingId(children)} className="mb-3 mt-10 text-xl font-semibold text-foreground scroll-mt-20">
         {children}
       </h3>
     ),
     normal: ({ children }) => (
-      <p className="mb-4 leading-relaxed text-muted-foreground">{children}</p>
+      <p className="mb-5 text-lg leading-[1.8] text-foreground/80">{children}</p>
     ),
     blockquote: ({ children }) => (
-      <blockquote className="my-6 border-l-4 border-primary/40 pl-4 italic text-muted-foreground">
+      <blockquote className="my-8 border-l-[3px] border-primary/50 pl-5 text-lg italic text-foreground/70">
         {children}
       </blockquote>
     ),
   },
   list: {
     bullet: ({ children }) => (
-      <ul className="mb-4 ml-6 list-disc space-y-1 text-muted-foreground">{children}</ul>
+      <ul className="mb-5 ml-6 list-disc space-y-2 text-lg leading-[1.8] text-foreground/80">{children}</ul>
     ),
     number: ({ children }) => (
-      <ol className="mb-4 ml-6 list-decimal space-y-1 text-muted-foreground">{children}</ol>
+      <ol className="mb-5 ml-6 list-decimal space-y-2 text-lg leading-[1.8] text-foreground/80">{children}</ol>
     ),
   },
   listItem: {
@@ -69,15 +69,15 @@ const components: PortableTextComponents = {
       if (!value?.asset?._ref) return null;
       const url = sanityImageUrl(value.asset._ref, 1200);
       return (
-        <figure className="my-8">
+        <figure className="my-10">
           <img
             src={url}
             alt={value.alt || ""}
-            className="w-full rounded-lg"
+            className="w-full rounded-xl"
             loading="lazy"
           />
           {value.alt && (
-            <figcaption className="mt-2 text-center text-sm text-muted-foreground">
+            <figcaption className="mt-3 text-center text-sm text-muted-foreground">
               {value.alt}
             </figcaption>
           )}

@@ -7,15 +7,6 @@ import { PortableTextRenderer } from "@/components/blog/PortableTextRenderer";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { SchemaService } from "@/services/SchemaService";
-import { ArrowLeft, Clock, User } from "lucide-react";
-import {
-  Breadcrumb,
-  BreadcrumbList,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbSeparator,
-  BreadcrumbPage,
-} from "@/components/ui/breadcrumb";
 import NotFound from "./NotFound";
 
 function estimateReadTime(body: any[]): string {
@@ -59,6 +50,7 @@ const BlogPostPage: React.FC = () => {
     day: "numeric",
   });
   const readTime = estimateReadTime(post.body);
+  const category = post.categories?.[0];
 
   const articleSchema = SchemaService.generateArticleSchema(post);
   const breadcrumbSchema = SchemaService.generateBreadcrumbSchema(`/blog/${slug}`, post.title);
@@ -87,78 +79,71 @@ const BlogPostPage: React.FC = () => {
       <SchemaMarkup schema={combinedSchema} />
 
       <div className="min-h-screen bg-background">
-        {/* Header with breadcrumbs */}
-        <header className="border-b border-border/50 bg-background/80 backdrop-blur-sm">
-          <div className="mx-auto flex max-w-4xl items-center gap-4 px-6 py-4">
-            <Link to="/blog" className="text-muted-foreground transition-colors hover:text-foreground">
-              <ArrowLeft className="h-5 w-5" />
+        {/* Top nav */}
+        <nav className="border-b border-border/40">
+          <div className="mx-auto flex max-w-4xl items-center px-6 py-4">
+            <Link
+              to="/blog"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+            >
+              ← Iconstack Blog
             </Link>
-            <Breadcrumb>
-              <BreadcrumbList>
-                <BreadcrumbItem>
-                  <BreadcrumbLink asChild>
-                    <Link to="/blog">Blog</Link>
-                  </BreadcrumbLink>
-                </BreadcrumbItem>
-                <BreadcrumbSeparator />
-                <BreadcrumbItem>
-                  <BreadcrumbPage className="line-clamp-1 max-w-[250px]">
-                    {post.title}
-                  </BreadcrumbPage>
-                </BreadcrumbItem>
-              </BreadcrumbList>
-            </Breadcrumb>
+          </div>
+        </nav>
+
+        {/* Hero */}
+        <header className="mx-auto max-w-3xl px-6 pb-8 pt-14 text-center">
+          {/* Category & read time */}
+          <div className="mb-4 flex items-center justify-center gap-2 text-sm">
+            {category && (
+              <>
+                <span className="font-semibold uppercase tracking-widest text-primary text-xs">
+                  {category}
+                </span>
+                <span className="text-muted-foreground">·</span>
+              </>
+            )}
+            <span className="text-muted-foreground">{readTime}</span>
+          </div>
+
+          <h1 className="mb-5 text-3xl font-bold leading-tight tracking-tight text-foreground sm:text-4xl lg:text-5xl">
+            {post.title}
+          </h1>
+
+          {/* Author byline */}
+          <div className="flex items-center justify-center gap-3 text-sm text-muted-foreground">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-muted text-xs font-bold text-muted-foreground">
+              {(post.author || "I")[0].toUpperCase()}
+            </div>
+            <span className="font-medium text-foreground">{post.author || "Iconstack"}</span>
+            <span>·</span>
+            <span>{dateStr}</span>
           </div>
         </header>
 
-        {/* Hero */}
-        <div className="mx-auto max-w-4xl px-6 pt-10">
-          <div className="mb-6 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
-            <span className="flex items-center gap-1.5">
-              <User className="h-3.5 w-3.5" />
-              {post.author || "Iconstack"}
-            </span>
-            <span>·</span>
-            <span>{dateStr}</span>
-            <span>·</span>
-            <span className="flex items-center gap-1.5">
-              <Clock className="h-3.5 w-3.5" />
-              {readTime}
-            </span>
-          </div>
-          <h1 className="mb-4 text-3xl font-bold leading-tight tracking-tight text-foreground sm:text-4xl lg:text-[2.75rem]">
-            {post.title}
-          </h1>
-          {post.excerpt && (
-            <p className="mb-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              {post.excerpt}
-            </p>
-          )}
-        </div>
-
         {/* Cover image */}
         {imageUrl && (
-          <div className="mx-auto max-w-4xl px-6">
+          <div className="mx-auto max-w-4xl px-6 pb-10">
             <img
               src={imageUrl}
               alt={post.coverImage?.alt || post.title}
-              className="mb-10 w-full rounded-xl border border-border/30"
+              className="w-full rounded-xl"
             />
           </div>
         )}
 
-        {/* Content with sticky sidebar TOC */}
-        <div className="mx-auto max-w-4xl px-6 pb-16">
-          <div className="lg:grid lg:grid-cols-[1fr_220px] lg:gap-10">
-            <article className="max-w-none leading-relaxed">
+        {/* Content */}
+        <div className="mx-auto max-w-4xl px-6 pb-20">
+          <div className="lg:grid lg:grid-cols-[1fr_200px] lg:gap-12">
+            <article className="mx-auto max-w-[680px]">
               {/* Inline TOC for mobile */}
-              <div className="mb-8 lg:hidden">
+              <div className="mb-10 lg:hidden">
                 <TableOfContents body={post.body} />
               </div>
               <PortableTextRenderer body={post.body} />
             </article>
 
-            {/* Sticky sidebar TOC for desktop */}
+            {/* Sidebar TOC */}
             <aside className="hidden lg:block">
               <div className="sticky top-8">
                 <TableOfContents body={post.body} sidebar />
@@ -166,14 +151,13 @@ const BlogPostPage: React.FC = () => {
             </aside>
           </div>
 
-          {/* Footer CTA */}
-          <div className="mt-16 border-t border-border/50 pt-8 text-center">
+          {/* Footer */}
+          <div className="mt-20 border-t border-border/40 pt-8 text-center">
             <Link
               to="/blog"
-              className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-muted/30 px-5 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
-              <ArrowLeft className="h-3.5 w-3.5" />
-              Back to Blog
+              ← Back to Blog
             </Link>
           </div>
         </div>
