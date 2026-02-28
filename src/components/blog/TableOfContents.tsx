@@ -8,6 +8,7 @@ interface TocItem {
 
 interface TableOfContentsProps {
   body: any[];
+  sidebar?: boolean;
 }
 
 function extractHeadings(blocks: any[]): TocItem[] {
@@ -25,22 +26,31 @@ function extractHeadings(blocks: any[]): TocItem[] {
     });
 }
 
-export const TableOfContents: React.FC<TableOfContentsProps> = ({ body }) => {
+export const TableOfContents: React.FC<TableOfContentsProps> = ({ body, sidebar = false }) => {
   const headings = extractHeadings(body);
 
   if (headings.length < 2) return null;
 
   return (
-    <nav className="rounded-lg border border-border/50 bg-muted/30 p-5" aria-label="Table of contents">
-      <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
+    <nav
+      className={
+        sidebar
+          ? "border-l border-border/50 pl-4"
+          : "rounded-xl border border-border/50 bg-muted/20 p-5"
+      }
+      aria-label="Table of contents"
+    >
+      <h2 className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
         Contents
       </h2>
       <ul className="space-y-1.5">
         {headings.map((h) => (
-          <li key={h.id} className={h.level === 3 ? "ml-4" : ""}>
+          <li key={h.id} className={h.level === 3 ? "ml-3" : ""}>
             <a
               href={`#${h.id}`}
-              className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              className={`block text-muted-foreground transition-colors hover:text-foreground ${
+                sidebar ? "text-xs leading-relaxed" : "text-sm"
+              }`}
             >
               {h.text}
             </a>

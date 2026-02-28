@@ -6,7 +6,8 @@ import { BlogCard } from "@/components/blog/BlogCard";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { SchemaService } from "@/services/SchemaService";
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, BookOpen } from "lucide-react";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const BlogIndexPage: React.FC = () => {
   const configured = isSanityConfigured();
@@ -19,6 +20,7 @@ const BlogIndexPage: React.FC = () => {
   });
 
   const schema = SchemaService.generateBlogListSchema(posts);
+  const [featuredPost, ...restPosts] = posts;
 
   return (
     <>
@@ -33,49 +35,67 @@ const BlogIndexPage: React.FC = () => {
       <SchemaMarkup schema={schema} />
 
       <div className="min-h-screen bg-background">
-        <header className="border-b border-border/50 bg-background/80 backdrop-blur-sm">
-          <div className="mx-auto flex max-w-5xl items-center gap-4 px-6 py-4">
-            <Link to="/" className="text-muted-foreground transition-colors hover:text-foreground">
-              <ArrowLeft className="h-5 w-5" />
+        {/* Hero */}
+        <header className="border-b border-border/50 bg-background">
+          <div className="mx-auto max-w-5xl px-6 pb-10 pt-8">
+            <Link
+              to="/"
+              className="mb-8 inline-flex items-center gap-2 rounded-full border border-border/50 bg-muted/30 px-3.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            >
+              <ArrowLeft className="h-3.5 w-3.5" />
+              Back to Iconstack
             </Link>
-            <div>
-              <h1 className="text-xl font-bold text-foreground">Iconstack Blog</h1>
-              <p className="text-sm text-muted-foreground">
-                Guides, tips & resources for icons in web development
-              </p>
-            </div>
+            <h1 className="mb-3 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+              Blog
+            </h1>
+            <p className="max-w-xl text-lg text-muted-foreground">
+              Guides, tips & resources for using icons in web development and design.
+            </p>
           </div>
         </header>
 
         <main className="mx-auto max-w-5xl px-6 py-10">
+          {/* Not configured */}
           {!configured && (
-            <div className="rounded-lg border border-border/50 bg-muted/30 p-8 text-center">
+            <div className="flex flex-col items-center rounded-xl border border-border/50 bg-muted/20 px-8 py-16 text-center">
+              <BookOpen className="mb-4 h-10 w-10 text-muted-foreground/40" />
               <h2 className="mb-2 text-lg font-semibold text-foreground">Blog Coming Soon</h2>
-              <p className="text-sm text-muted-foreground">
+              <p className="max-w-sm text-sm text-muted-foreground">
                 We're working on helpful guides about icons, SVGs, and UI design. Check back soon!
               </p>
             </div>
           )}
 
+          {/* Loading skeletons */}
           {configured && isLoading && (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="h-72 animate-pulse rounded-lg bg-muted/50" />
-              ))}
+            <div className="space-y-8">
+              <Skeleton className="h-[320px] w-full rounded-xl" />
+              <div className="grid gap-6 sm:grid-cols-2">
+                <Skeleton className="h-[340px] rounded-xl" />
+                <Skeleton className="h-[340px] rounded-xl" />
+              </div>
             </div>
           )}
 
+          {/* Empty state */}
           {configured && !isLoading && posts.length === 0 && (
-            <div className="rounded-lg border border-border/50 bg-muted/30 p-8 text-center">
+            <div className="flex flex-col items-center rounded-xl border border-border/50 bg-muted/20 px-8 py-16 text-center">
+              <BookOpen className="mb-4 h-10 w-10 text-muted-foreground/40" />
               <p className="text-muted-foreground">No posts yet. Check back soon!</p>
             </div>
           )}
 
-          {posts.length > 0 && (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post) => (
-                <BlogCard key={post._id} post={post} />
-              ))}
+          {/* Posts */}
+          {featuredPost && (
+            <div className="space-y-8">
+              <BlogCard post={featuredPost} featured />
+              {restPosts.length > 0 && (
+                <div className="grid gap-6 sm:grid-cols-2">
+                  {restPosts.map((post) => (
+                    <BlogCard key={post._id} post={post} />
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </main>
