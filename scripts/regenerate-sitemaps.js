@@ -152,7 +152,7 @@ const CATEGORY_SLUGS = [
   'transport', 'animal', 'sport', 'building', 'music', 'camera', 'power-energy',
   'layout-grid', 'text-typography', 'shape', 'toggle', 'flag', 'gift', 'tools',
   'database', 'wifi', 'battery', 'clipboard', 'bookmark', 'filter-sort',
-  'refresh-sync', 'link', 'eye', 'nature'
+  'refresh-sync', 'link', 'eye', 'nature', 'ai', 'api'
 ];
 
 /**
