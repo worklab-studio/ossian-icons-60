@@ -424,6 +424,22 @@ export const SEO_CATEGORIES: SeoCategory[] = [
     seoDescription: "Browse {count} free nature and plant SVG icons across {libs} libraries. Tree, leaf, flower, and eco icons.",
     relatedCategories: ["animal", "weather"]
   },
+  {
+    slug: "ai",
+    title: "AI & Machine Learning",
+    searchTags: ["ai", "artificial-intelligence", "machine-learning", "neural", "brain", "chatbot", "mcp", "generative", "deep-learning", "llm", "robot", "automation", "smart", "cognitive"],
+    seoTitle: "Best AI & Machine Learning Icons for UI Design",
+    seoDescription: "Browse {count} free AI and machine learning SVG icons across {libs} libraries. Download neural network, brain, chatbot, and MCP icons in SVG, PNG, or copy as code.",
+    relatedCategories: ["code", "device", "settings"]
+  },
+  {
+    slug: "api",
+    title: "API & Developer Tools",
+    searchTags: ["api", "sdk", "webhook", "endpoint", "rest", "graphql", "json", "token", "server", "terminal", "console", "debug", "deploy"],
+    seoTitle: "Best API & Developer Tool Icons for UI Design",
+    seoDescription: "Browse {count} free API and developer tool SVG icons across {libs} libraries. Download server, webhook, terminal, and SDK icons in SVG, PNG, or copy as code.",
+    relatedCategories: ["code", "database", "cloud"]
+  },
 ];
 
 export function getCategoryBySlug(slug: string): SeoCategory | undefined {

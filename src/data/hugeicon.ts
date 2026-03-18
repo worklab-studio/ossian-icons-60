@@ -27401,7 +27401,7 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4999 9.74921L11.3282 15.921C10.2237 17.0255 8.43272 17.0255 7.32823 15.921C6.22373 14.8164 6.22373 13.0255 7.32823 11.921L13.4999 5.74939" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mcp", "server"]
+    tags: ["mcp", "server", "ai", "protocol", "api", "integration", "model-context-protocol", "machine-learning", "llm", "developer"]
   },
   {
     id: "hugeicon-medal-01",
