@@ -4,7 +4,7 @@ import { ColorPicker } from "./color-picker";
 import { StrokeSlider } from "./stroke-slider";
 import { Button } from "@/components/ui/button";
 import { Copy, Download, FileCode, Braces, Image, ArrowUpRight } from "lucide-react";
-import { TbBrandX } from "react-icons/tb";
+import xautopilotLogo from "@/assets/xautopilot-logo.png";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
 import React from "react";
@@ -476,7 +476,7 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
             >
               <span className="absolute top-2 right-2 text-[10px] text-muted-foreground/50">Ad</span>
               <div className="flex items-center gap-2 mb-2">
-                <TbBrandX className="h-5 w-5 text-foreground" />
+                <img src={xautopilotLogo} alt="X-Autopilot" className="h-5 w-5 rounded" />
                 <span className="font-semibold text-sm text-foreground">X-Autopilot</span>
                 <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
