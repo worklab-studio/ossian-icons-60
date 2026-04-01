@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import { TbBrandX } from "react-icons/tb";
+import xautopilotLogo from "@/assets/xautopilot-logo.png";
 
 export function RotatingFooter() {
   return (
@@ -11,7 +11,7 @@ export function RotatingFooter() {
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group"
       >
-        <TbBrandX className="h-4 w-4" />
+        <img src={xautopilotLogo} alt="X-Autopilot" className="h-4 w-4 rounded-sm" />
         <span>
           🚀 <strong className="text-zinc-900 dark:text-white">X-Autopilot</strong> just launched on Product Hunt! 20% off for IconStack users — Use code{" "}
           <code className="rounded bg-orange-500/10 dark:bg-orange-500/20 px-1.5 py-0.5 text-xs font-bold text-orange-700 dark:text-orange-300">X20DI</code>
