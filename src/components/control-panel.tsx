@@ -480,7 +480,7 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                 <span className="font-semibold text-sm text-foreground">X-Autopilot</span>
                 <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
-              <p className="text-xs text-muted-foreground mb-3">Automate your X posts with AI-powered scheduling</p>
+              <p className="text-xs text-muted-foreground mb-3">Automate Your X with Claude powered AI agent</p>
               <div className="flex items-center gap-2">
                 <span className="text-xs font-medium bg-orange-500/10 dark:bg-orange-500/20 text-orange-700 dark:text-orange-300 px-2 py-0.5 rounded">20% off</span>
                 <code className="text-xs bg-muted px-1.5 py-0.5 rounded font-mono text-foreground">X20DI</code>
