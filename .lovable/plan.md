@@ -1,40 +1,64 @@
 
 
-# Restore Rotating Footer with 4 Promotions
+# Add Devicon Icon Library
 
-Bring back the rotating footer that cycles through multiple promotions: **Figma Plugin**, **Framer Plugin**, **X-Autopilot**, and **Dodo Invoice**.
+Add **Devicon** (devicons/devicon) — a popular set of programming language, framework, and developer tool logos — as a new icon library in Iconstack.
 
-## What Changes
+## What you'll get
 
-**`src/components/RotatingFooter.tsx`** — Replace the current static single-promo footer with a rotation system that cycles through 4 promo items every ~5 seconds with a smooth fade transition.
+- **~200 brands/tools** (React, Vue, Python, Docker, AWS, etc.) each with multiple variants (original, plain, line, with wordmark).
+- New sidebar entry: **Devicon** with proper count badge.
+- Browseable at `/library/devicon`, with individual icon detail pages, search indexing, sitemap entry, and category filtering — same as every other library.
 
-### Promo items
+## What changes
 
-| # | Brand | Logo | Tagline | Link |
-|---|---|---|---|---|
-| 1 | Figma Plugin | Figma `F` icon (lucide or inline SVG) | "Iconstack for Figma — Drop icons straight into your designs." | figma.com community link (placeholder) |
-| 2 | Framer Plugin | Framer icon | "Iconstack for Framer — Use any icon inside Framer." | framer.com plugin link (placeholder) |
-| 3 | X-Autopilot | `src/assets/xautopilot-logo.png` | "X-Autopilot — Automate your X with a Claude-powered AI agent." | xautopilot link |
-| 4 | Dodo Invoice | `src/assets/dodoinvoice-logo.avif` | "Dodo Invoice — AI invoicing for freelancers and agencies." | dodoinvoice.com?ref=iconstack |
+### 1. New data file: `src/data/devicon.ts`
+Generated from the official `devicon.json` manifest on the devicons/devicon repo. Each icon variant becomes one `IconItem`:
 
-### Behavior
+```ts
+{
+  id: 'devicon-react-original',
+  name: 'react',
+  svg: '<svg ...>...</svg>',  // inlined from CDN
+  style: 'original' | 'plain' | 'line' | 'original-wordmark' | ...,
+  category: 'language' | 'framework' | 'tool' | ...,
+  tags: ['react', 'javascript', 'frontend', ...],
+}
+```
 
-- Auto-rotate every 5 seconds.
-- Smooth fade/slide transition between items (use existing `animate-fade-in` from tailwind config or a simple opacity transition).
-- Pause rotation on hover so the user can read/click.
-- Each item is a clickable `<a>` opening in a new tab.
-- Visual styling stays the same as current: `border-t border-border`, `bg-zinc-100 dark:bg-zinc-900`, centered text, logo + bold brand + tagline + `ArrowRight` icon.
+A one-off Node script (`scripts/fetch-devicon.js`) fetches `devicon.json`, downloads each SVG from `cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/{name}/{name}-{variant}.svg`, normalizes them (strip width/height, ensure viewBox), and writes the `.ts` file. Script is run once; output is committed.
 
-## Technical Details
+### 2. `src/data/index.ts`
+Add `export * from './devicon';`.
 
-- Use `useState` + `useEffect` with `setInterval` to advance an index through the promo array.
-- Promo array defined as a constant at top of file: `{ logo, alt, brand, tagline, href }[]`.
-- Wrap content in a div with `transition-opacity duration-500` and toggle opacity on index change, OR use `key={index}` with `animate-fade-in` to retrigger the existing keyframe.
-- Pause via `onMouseEnter` / `onMouseLeave` toggling a `paused` state that short-circuits the interval.
-- For Figma/Framer logos: use simple inline SVG (Figma "F" mark, Framer triangle) since we don't have asset files — keeps bundle small and avoids new uploads.
-- No other files touched — the component is already imported in `Index`, `LibraryPage`, `IconDetailPage`, and the demo page.
+### 3. `src/services/IconLibraryManager.ts`
+- Append metadata entry:
+  ```ts
+  { id: 'devicon', name: 'Devicon', count: <actual>, style: 'brand', description: 'Programming languages, frameworks & developer tools' }
+  ```
+- Add a case in `importLibrary()` to dynamically import `./devicon`.
+- Add `'devicon'` prefix handling in `filterIconsByLibraryId()`.
 
-## Open question
+### 4. `src/components/app-sidebar.tsx`
+Add a `Code2` (lucide) entry to `iconMap` for `devicon` so it gets a proper sidebar icon.
 
-Do you have specific URLs for the Figma and Framer plugins, or should I use placeholder URLs (`https://figma.com/community` / `https://framer.com/marketplace`) that you can swap later?
+### 5. SEO / sitemap
+- Add `/public/sitemap-devicon.xml` to the sitemap generation script (`scripts/generate-sitemaps-complete.js`) and reference it from `sitemap.xml`.
+- Add Devicon to any library-list arrays used by `seo-categories.ts` if applicable.
+
+## Notes & constraints
+
+- Brand-style library (multi-color SVGs with embedded fills) — color/stroke-width controls in the customize panel will be **disabled** for Devicon, matching how Simple Icons (Brand) is already handled in `isFilledIconLibrary()` / `supportsStrokeWidth()`. I'll add `'devicon-'` to those checks.
+- Bundle size: ~200 icons × ~3 variants average ≈ 600 SVGs. Devicon SVGs are small (~1–2 KB each) → roughly 1–1.5 MB added to `devicon.ts`. This is in line with `material.ts` and `tabler.ts` and is loaded lazily via `importLibrary()`, so it won't slow initial page load.
+- No changes to mobile drawer needed — it reads from the same metadata.
+
+## Files touched
+
+- `src/data/devicon.ts` (new, generated)
+- `src/data/index.ts`
+- `src/services/IconLibraryManager.ts`
+- `src/components/app-sidebar.tsx`
+- `src/lib/icon-utils.ts` (add devicon to filled-library check)
+- `scripts/fetch-devicon.js` (new, one-off generator)
+- `scripts/generate-sitemaps-complete.js` + `public/sitemap.xml` + new `public/sitemap-devicon.xml`
 
