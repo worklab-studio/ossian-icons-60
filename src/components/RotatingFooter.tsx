@@ -30,13 +30,13 @@ const promos: Promo[] = [
   {
     brand: "Iconstack for Figma",
     tagline: "Drop icons straight into your designs.",
-    href: "https://figma.com/community",
+    href: "https://www.figma.com/community/plugin/1548394766689434419",
     logo: <FigmaIcon />,
   },
   {
     brand: "Iconstack for Framer",
     tagline: "Use any icon inside Framer.",
-    href: "https://framer.com/marketplace",
+    href: "https://www.framer.com/marketplace/plugins/iconstack-io/",
     logo: <FramerIcon />,
   },
   {
