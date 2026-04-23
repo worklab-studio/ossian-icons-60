@@ -1,5 +1,5 @@
 import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight } from "lucide-react";
-import xautopilotLogo from "@/assets/xautopilot-logo.png";
+import dodoLogo from "@/assets/dodoinvoice-logo.avif";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
 import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
 import { cn } from "@/lib/utils";
@@ -109,10 +109,10 @@ export function AppSidebar({
                 </SidebarMenuItem>)}
               <SidebarMenuItem>
                 <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
-                  <a href="https://xautopilot.app?ref=iconstack" target="_blank" rel="noopener noreferrer">
+                  <a href="https://dodoinvoice.com?ref=iconstack" target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center gap-3">
-                      <img src={xautopilotLogo} alt="X-Autopilot" className="h-4 w-4 rounded-sm" />
-                      <span>X-Autopilot</span>
+                      <img src={dodoLogo} alt="Dodo Invoice" className="h-4 w-4 rounded-sm" />
+                      <span>Dodo Invoice</span>
                     </div>
                     <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
                   </a>

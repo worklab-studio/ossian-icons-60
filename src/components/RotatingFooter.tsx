@@ -1,20 +1,19 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import xautopilotLogo from "@/assets/xautopilot-logo.png";
+import dodoLogo from "@/assets/dodoinvoice-logo.avif";
 
 export function RotatingFooter() {
   return (
     <footer className="border-t border-orange-500/30 p-3 text-center text-sm bg-zinc-100 dark:bg-zinc-900 overflow-hidden">
       <a
-        href="https://xautopilot.app?ref=iconstack"
+        href="https://dodoinvoice.com?ref=iconstack"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group"
       >
-        <img src={xautopilotLogo} alt="X-Autopilot" className="h-4 w-4 rounded-sm" />
+        <img src={dodoLogo} alt="Dodo Invoice" className="h-4 w-4 rounded-sm" />
         <span>
-          🚀 <strong className="text-zinc-900 dark:text-white">X-Autopilot</strong> just launched on Product Hunt! 20% off for IconStack users — Use code{" "}
-          <code className="rounded bg-orange-500/10 dark:bg-orange-500/20 px-1.5 py-0.5 text-xs font-bold text-orange-700 dark:text-orange-300">X20DI</code>
+          ✨ <strong className="text-zinc-900 dark:text-white">Dodo Invoice</strong> — AI invoicing for freelancers and agencies.
         </span>
         <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
       </a>
