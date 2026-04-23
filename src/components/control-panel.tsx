@@ -467,24 +467,20 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
       <div className="flex-1 overflow-hidden">
         <ScrollArea className="h-full scrollbar-none">
           <div className="p-6 space-y-6">
-            {/* X-Autopilot Ad Banner */}
+            {/* Dodo Invoice Ad Banner */}
             <a
-              href="https://xautopilot.app?ref=iconstack"
+              href="https://dodoinvoice.com?ref=iconstack"
               target="_blank"
               rel="noopener noreferrer"
               className="block relative border border-border rounded-lg p-4 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors group"
             >
               <span className="absolute top-2 right-2 text-[10px] text-muted-foreground/50">Ad</span>
               <div className="flex items-center gap-2 mb-2">
-                <img src={xautopilotLogo} alt="X-Autopilot" className="h-5 w-5 rounded" />
-                <span className="font-semibold text-sm text-foreground">X-Autopilot</span>
+                <img src={dodoLogo} alt="Dodo Invoice" className="h-5 w-5 rounded" />
+                <span className="font-semibold text-sm text-foreground">Dodo Invoice</span>
                 <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
-              <p className="text-xs text-muted-foreground mb-3">Automate Your X with Claude powered AI agent</p>
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-medium bg-orange-500/10 dark:bg-orange-500/20 text-orange-700 dark:text-orange-300 px-2 py-0.5 rounded">20% off</span>
-                <code className="text-xs bg-muted px-1.5 py-0.5 rounded font-mono text-foreground">X20DI</code>
-              </div>
+              <p className="text-xs text-muted-foreground">AI invoicing for freelancers and agencies.</p>
             </a>
 
             <Separator />
