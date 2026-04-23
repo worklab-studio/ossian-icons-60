@@ -33,7 +33,8 @@ class IconLibraryManager {
       { id: 'iconoir', name: 'Iconoir', count: 1383, style: 'mixed', description: 'Beautiful open source icons with clean design' },
       { id: 'majesticon', name: 'Majesticon', count: 760, style: 'outline', description: 'Professional outline icons with clean, consistent design' },
       { id: 'simple', name: 'Brand', count: 3355, style: 'brand', description: 'Popular brand and company logos as beautiful SVG icons' },
-      { id: 'octicons', name: 'Octicons', count: 661, style: 'outline', description: 'GitHub\'s official icon library with clean, consistent design' }
+      { id: 'octicons', name: 'Octicons', count: 661, style: 'outline', description: 'GitHub\'s official icon library with clean, consistent design' },
+      { id: 'devicon', name: 'Devicon', count: 1863, style: 'brand', description: 'Programming languages, frameworks & developer tool logos' }
   ];
 
   constructor() {
@@ -169,6 +170,12 @@ class IconLibraryManager {
       const { iconsaxIcons } = await import('@/data/iconsax');
       console.log(`✅ Iconsax imported: ${iconsaxIcons.length} icons`);
       return iconsaxIcons;
+    }
+
+    if (libraryId === 'devicon') {
+      const { deviconIcons } = await import('@/data/devicon');
+      console.log(`✅ Devicon imported: ${deviconIcons.length} icons`);
+      return deviconIcons;
     }
     
     console.warn(`Library ${libraryId} is not supported`);
