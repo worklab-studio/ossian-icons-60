@@ -1,4 +1,4 @@
-import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight } from "lucide-react";
+import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Code2 } from "lucide-react";
 import dodoLogo from "@/assets/dodoinvoice-logo.avif";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
 import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
@@ -29,7 +29,8 @@ const iconMap = {
   majesticon: Crown,
   simple: Tag,
   octicons: Github,
-  iconsax: Layers
+  iconsax: Layers,
+  devicon: Code2
 };
 interface AppSidebarProps {
   selectedSet: string;
