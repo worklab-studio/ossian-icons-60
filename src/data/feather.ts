@@ -1970,49 +1970,63 @@ export const featherIcons: IconItem[] = [
     name: "X Square",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>`,
     style: "outline",
-    tags: ["x", "square"]
+    tags: ["x", "square", "close", "delete", "cancel", "error", "remove", "wrong", "stop", "box", "outlined", "mark"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-x",
     name: "X",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
     style: "outline",
-    tags: ["x"]
+    tags: ["x", "close", "delete", "cancel", "error", "remove", "wrong", "stop", "cross", "diagonal", "line"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-youtube",
     name: "Youtube",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>`,
     style: "outline",
-    tags: ["youtube"]
+    tags: ["youtube", "video", "stream", "media", "play", "social", "entertainment", "content", "platform", "triangle", "rectangle"]
+  ,
+    category: "social"
   },
   {
     id: "feather-zap-off",
     name: "Zap Off",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="12.41 6.75 13 2 10.57 4.92"/><polyline points="18.57 12.91 21 10 15.66 10"/><polyline points="8 8 3 14 12 14 11 22 16 16"/><line x1="1" y1="1" x2="23" y2="23"/></svg>`,
     style: "outline",
-    tags: ["zap", "off"]
+    tags: ["zap", "off", "power", "disabled", "inactive", "electricity", "disconnect", "mute", "lightning", "strike", "crossed out", "status"]
+  ,
+    category: "system"
   },
   {
     id: "feather-zap",
     name: "Zap",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
     style: "outline",
-    tags: ["zap"]
+    tags: ["zap", "power", "energy", "lightning", "electricity", "speed", "charge", "activate", "alert", "bolt", "jagged"]
+  ,
+    category: "system"
   },
   {
     id: "feather-zoom-in",
     name: "Zoom In",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>`,
     style: "outline",
-    tags: ["zoom", "in"]
+    tags: ["zoom", "in", "magnify", "enlarge", "expand", "focus", "detail", "view", "plus", "circle", "search", "tool"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-zoom-out",
     name: "Zoom Out",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>`,
     style: "outline",
-    tags: ["zoom", "out"]
+    tags: ["zoom", "out", "shrink", "reduce", "minimize", "contract", "overview", "minus", "circle", "search", "tool", "map"]
+  ,
+    category: "ui"
   }
 ];
 
