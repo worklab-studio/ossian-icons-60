@@ -63,7 +63,7 @@ const LIBRARIES = [
   { id: 'devicon',    file: 'devicon.ts',    exportName: 'deviconIcons',    style: 'brand',   kind: 'brand' },
 ];
 
-const BATCH_SIZE = 40;
+const BATCH_SIZE = 25;
 const REQUEST_DELAY_MS = 600; // ~1.6 req/s — safe under free tier limits
 const MAX_RETRIES = 4;
 const MAX_TAGS_PER_ICON = 15;
@@ -163,7 +163,8 @@ async function callGemini(prompt, attempt = 1) {
     generationConfig: {
       responseMimeType: 'application/json',
       temperature: 0.4,
-      maxOutputTokens: 8192,
+      maxOutputTokens: 16384,
+      thinkingConfig: { thinkingBudget: 0 }, // disable thinking — pure JSON output
     },
   };
   const res = await fetch(ENDPOINT, {
