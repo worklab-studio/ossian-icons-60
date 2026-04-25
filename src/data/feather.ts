@@ -1130,280 +1130,360 @@ export const featherIcons: IconItem[] = [
     name: "Mic",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>`,
     style: "outline",
-    tags: ["mic"]
+    tags: ["mic", "audio", "record", "voice", "sound", "speak", "broadcast", "input", "outline", "minimal"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-minimize-2",
     name: "Minimize 2",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="14" y1="10" x2="21" y2="3"/><line x1="3" y1="21" x2="10" y2="14"/></svg>`,
     style: "outline",
-    tags: ["minimize", "2"]
+    tags: ["minimize", "2", "collapse", "shrink", "contract", "fullscreen", "exit", "ui", "arrows", "diagonal", "system", "outline"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-minimize",
     name: "Minimize",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>`,
     style: "outline",
-    tags: ["minimize"]
+    tags: ["minimize", "collapse", "shrink", "contract", "fullscreen", "exit", "ui", "arrows", "horizontal", "system", "outline"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-minus-circle",
     name: "Minus Circle",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="8" y1="12" x2="16" y2="12"/></svg>`,
     style: "outline",
-    tags: ["minus", "circle"]
+    tags: ["minus", "circle", "remove", "delete", "subtract", "decrease", "negative", "quantity", "outline", "button", "ui", "system"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-minus-square",
     name: "Minus Square",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="8" y1="12" x2="16" y2="12"/></svg>`,
     style: "outline",
-    tags: ["minus", "square"]
+    tags: ["minus", "square", "remove", "delete", "subtract", "decrease", "negative", "quantity", "outline", "button", "ui", "system"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-minus",
     name: "Minus",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>`,
     style: "outline",
-    tags: ["minus"]
+    tags: ["minus", "remove", "delete", "subtract", "decrease", "negative", "quantity", "separator", "ui", "system", "line"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-monitor",
     name: "Monitor",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>`,
     style: "outline",
-    tags: ["monitor"]
+    tags: ["monitor", "screen", "display", "computer", "desktop", "device", "view", "presentation", "outline", "system", "media"]
+  ,
+    category: "device"
   },
   {
     id: "feather-moon",
     name: "Moon",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`,
     style: "outline",
-    tags: ["moon"]
+    tags: ["moon", "night", "dark mode", "sleep", "celestial", "space", "astronomy", "weather", "theme", "outline", "nature"]
+  ,
+    category: "nature"
   },
   {
     id: "feather-more-horizontal",
     name: "More Horizontal",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>`,
     style: "outline",
-    tags: ["more", "horizontal"]
+    tags: ["more", "horizontal", "options", "menu", "ellipsis", "settings", "overflow", "kebab", "ui", "outline", "navigation", "system"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-more-vertical",
     name: "More Vertical",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>`,
     style: "outline",
-    tags: ["more", "vertical"]
+    tags: ["more", "vertical", "options", "menu", "ellipsis", "settings", "overflow", "meatball", "ui", "outline", "navigation", "system"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-mouse-pointer",
     name: "Mouse Pointer",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/><path d="M13 13l6 6"/></svg>`,
     style: "outline",
-    tags: ["mouse", "pointer"]
+    tags: ["mouse", "pointer", "cursor", "click", "select", "arrow", "ui", "interaction", "system", "outline", "direction", "navigation"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-move",
     name: "Move",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>`,
     style: "outline",
-    tags: ["move"]
+    tags: ["move", "drag", "reposition", "reorder", "arrows", "direction", "ui", "system", "outline", "transport", "navigation"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-music",
     name: "Music",
     svg: `<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>`,
     style: "outline",
-    tags: ["music"]
+    tags: ["music", "audio", "sound", "song", "note", "entertainment", "media", "player", "outline", "playful", "communication"]
+  ,
+    category: "media"
   },
   {
     id: "feather-navigation-2",
     name: "Navigation 2",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 19 21 12 17 5 21 12 2"/></svg>`,
     style: "outline",
-    tags: ["navigation", "2"]
+    tags: ["navigation", "2", "compass", "direction", "location", "map", "guide", "travel", "arrow", "outline", "system", "ui"]
+  ,
+    category: "navigation"
   },
   {
     id: "feather-navigation",
     name: "Navigation",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>`,
     style: "outline",
-    tags: ["navigation"]
+    tags: ["navigation", "compass", "direction", "location", "map", "guide", "travel", "arrow", "outline", "system", "ui"]
+  ,
+    category: "navigation"
   },
   {
     id: "feather-octagon",
     name: "Octagon",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/></svg>`,
     style: "outline",
-    tags: ["octagon"]
+    tags: ["octagon", "shape", "stop", "warning", "geometric", "outline", "system", "ui", "security", "alert", "sign"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-package",
     name: "Package",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>`,
     style: "outline",
-    tags: ["package"]
+    tags: ["package", "box", "delivery", "shipping", "product", "order", "commerce", "storage", "outline", "system", "file"]
+  ,
+    category: "commerce"
   },
   {
     id: "feather-paperclip",
     name: "Paperclip",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>`,
     style: "outline",
-    tags: ["paperclip"]
+    tags: ["paperclip", "attachment", "file", "link", "connect", "document", "office", "outline", "system", "communication", "ui"]
+  ,
+    category: "file"
   },
   {
     id: "feather-pause-circle",
     name: "Pause Circle",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="10" y1="15" x2="10" y2="9"/><line x1="14" y1="15" x2="14" y2="9"/></svg>`,
     style: "outline",
-    tags: ["pause", "circle"]
+    tags: ["pause", "circle", "stop", "media", "player", "control", "break", "hold", "ui", "outline", "system", "communication"]
+  ,
+    category: "media"
   },
   {
     id: "feather-pause",
     name: "Pause",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>`,
     style: "outline",
-    tags: ["pause"]
+    tags: ["pause", "stop", "media", "player", "control", "break", "hold", "ui", "outline", "system", "communication"]
+  ,
+    category: "media"
   },
   {
     id: "feather-pen-tool",
     name: "Pen Tool",
     svg: `<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>`,
     style: "outline",
-    tags: ["pen", "tool"]
+    tags: ["pen", "tool", "draw", "design", "vector", "edit", "create", "write", "graphic", "outline", "system", "ui"]
+  ,
+    category: "tool"
   },
   {
     id: "feather-percent",
     name: "Percent",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="5" x2="5" y2="19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>`,
     style: "outline",
-    tags: ["percent"]
+    tags: ["percent", "percentage", "discount", "rate", "ratio", "finance", "sale", "calculation", "outline", "system", "commerce"]
+  ,
+    category: "finance"
   },
   {
     id: "feather-phone-call",
     name: "Phone Call",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
     style: "outline",
-    tags: ["phone", "call"]
+    tags: ["phone", "call", "dial", "communication", "incoming", "outgoing", "talk", "contact", "device", "outline", "system", "arrow"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-phone-forwarded",
     name: "Phone Forwarded",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="19 1 23 5 19 9"/><line x1="15" y1="5" x2="23" y2="5"/><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
     style: "outline",
-    tags: ["phone", "forwarded"]
+    tags: ["phone", "forwarded", "call", "communication", "redirect", "transfer", "voicemail", "contact", "device", "outline", "system", "arrow"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-phone-incoming",
     name: "Phone Incoming",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 2 16 8 22 8"/><line x1="23" y1="1" x2="16" y2="8"/><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
     style: "outline",
-    tags: ["phone", "incoming"]
+    tags: ["phone", "incoming", "call", "communication", "receive", "answer", "contact", "device", "outline", "system", "arrow", "ui"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-phone-missed",
     name: "Phone Missed",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="23" y1="1" x2="17" y2="7"/><line x1="17" y1="1" x2="23" y2="7"/><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
     style: "outline",
-    tags: ["phone", "missed"]
+    tags: ["phone", "missed", "call", "communication", "decline", "hangup", "contact", "device", "outline", "system", "arrow", "ui"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-phone-off",
     name: "Phone Off",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.68 13.31a16 16 0 0 0 3.41 2.6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 2 2 0 0 1 1.72 2v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.42 19.42 0 0 1-3.33-2.67m-2.67-3.34a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91"/><line x1="23" y1="1" x2="1" y2="23"/></svg>`,
     style: "outline",
-    tags: ["phone", "off"]
+    tags: ["phone", "off", "call", "communication", "silent", "mute", "unavailable", "contact", "device", "outline", "system", "alert"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-phone-outgoing",
     name: "Phone Outgoing",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 7 23 1 17 1"/><line x1="16" y1="8" x2="23" y2="1"/><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
     style: "outline",
-    tags: ["phone", "outgoing"]
+    tags: ["phone", "outgoing", "call", "communication", "make", "dial", "contact", "device", "outline", "system", "arrow", "ui"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-phone",
     name: "Phone",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
     style: "outline",
-    tags: ["phone"]
+    tags: ["phone", "call", "communication", "contact", "dialer", "device", "mobile", "outline", "system", "ui", "button"]
+  ,
+    category: "communication"
   },
   {
     id: "feather-pie-chart",
     name: "Pie Chart",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>`,
     style: "outline",
-    tags: ["pie", "chart"]
+    tags: ["pie", "chart", "graph", "data", "statistics", "analytics", "report", "finance", "business", "outline", "ui", "system"]
+  ,
+    category: "finance"
   },
   {
     id: "feather-play-circle",
     name: "Play Circle",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>`,
     style: "outline",
-    tags: ["play", "circle"]
+    tags: ["play", "circle", "start", "media", "video", "audio", "player", "control", "ui", "outline", "system", "button"]
+  ,
+    category: "media"
   },
   {
     id: "feather-play",
     name: "Play",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>`,
     style: "outline",
-    tags: ["play"]
+    tags: ["play", "start", "media", "video", "audio", "player", "control", "ui", "outline", "system", "button"]
+  ,
+    category: "media"
   },
   {
     id: "feather-plus-circle",
     name: "Plus Circle",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>`,
     style: "outline",
-    tags: ["plus", "circle"]
+    tags: ["plus", "circle", "add", "create", "new", "increase", "positive", "quantity", "outline", "button", "ui", "system"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-plus-square",
     name: "Plus Square",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>`,
     style: "outline",
-    tags: ["plus", "square"]
+    tags: ["plus", "square", "add", "create", "new", "increase", "positive", "quantity", "outline", "button", "ui", "system"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-plus",
     name: "Plus",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>`,
     style: "outline",
-    tags: ["plus"]
+    tags: ["plus", "add", "create", "new", "increase", "positive", "quantity", "separator", "ui", "system", "line"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-pocket",
     name: "Pocket",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h16a2 2 0 0 1 2 2v6a10 10 0 0 1-10 10A10 10 0 0 1 2 11V5a2 2 0 0 1 2-2z"/><polyline points="8 10 12 14 16 10"/></svg>`,
     style: "outline",
-    tags: ["pocket"]
+    tags: ["pocket", "save", "bookmark", "wallet", "money", "finance", "storage", "outline", "system", "ui", "commerce"]
+  ,
+    category: "finance"
   },
   {
     id: "feather-power",
     name: "Power",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" y1="2" x2="12" y2="12"/></svg>`,
     style: "outline",
-    tags: ["power"]
+    tags: ["power", "on", "off", "shutdown", "restart", "energy", "button", "ui", "system", "outline", "control"]
+  ,
+    category: "system"
   },
   {
     id: "feather-printer",
     name: "Printer",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>`,
     style: "outline",
-    tags: ["printer"]
+    tags: ["printer", "print", "document", "output", "device", "office", "outline", "system", "file", "ui", "tool"]
+  ,
+    category: "device"
   },
   {
     id: "feather-radio",
     name: "Radio",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></svg>`,
     style: "outline",
-    tags: ["radio"]
+    tags: ["radio", "broadcast", "frequency", "antenna", "communication", "media", "audio", "device", "outline", "system", "entertainment"]
+  ,
+    category: "media"
   },
   {
     id: "feather-refresh-ccw",
     name: "Refresh Ccw",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><polyline points="23 20 23 14 17 14"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>`,
     style: "outline",
-    tags: ["refresh", "ccw"]
+    tags: ["refresh", "ccw", "reload", "update", "sync", "cycle", "rotate", "arrow", "ui", "system", "outline", "process"]
+  ,
+    category: "system"
   },
   {
     id: "feather-refresh-cw",
@@ -1970,49 +2050,63 @@ export const featherIcons: IconItem[] = [
     name: "X Square",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>`,
     style: "outline",
-    tags: ["x", "square"]
+    tags: ["x", "square", "close", "delete", "cancel", "error", "remove", "wrong", "stop", "box", "outlined", "mark", "validation", "failure", "rejection"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-x",
     name: "X",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
     style: "outline",
-    tags: ["x"]
+    tags: ["x", "close", "delete", "cancel", "error", "remove", "wrong", "stop", "cross", "diagonal", "line", "clear", "dismiss", "exit", "reject"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-youtube",
     name: "Youtube",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>`,
     style: "outline",
-    tags: ["youtube"]
+    tags: ["youtube", "video", "stream", "media", "play", "social", "entertainment", "content", "platform", "triangle", "rectangle", "sharing", "community", "broadcast", "tutorial"]
+  ,
+    category: "social"
   },
   {
     id: "feather-zap-off",
     name: "Zap Off",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="12.41 6.75 13 2 10.57 4.92"/><polyline points="18.57 12.91 21 10 15.66 10"/><polyline points="8 8 3 14 12 14 11 22 16 16"/><line x1="1" y1="1" x2="23" y2="23"/></svg>`,
     style: "outline",
-    tags: ["zap", "off"]
+    tags: ["zap", "off", "power", "disabled", "inactive", "electricity", "disconnect", "mute", "lightning", "strike", "crossed out", "status", "unavailable", "downtime", "failure"]
+  ,
+    category: "system"
   },
   {
     id: "feather-zap",
     name: "Zap",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
     style: "outline",
-    tags: ["zap"]
+    tags: ["zap", "power", "energy", "lightning", "electricity", "speed", "charge", "activate", "alert", "bolt", "jagged", "fast", "boost", "instant", "active"]
+  ,
+    category: "system"
   },
   {
     id: "feather-zoom-in",
     name: "Zoom In",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>`,
     style: "outline",
-    tags: ["zoom", "in"]
+    tags: ["zoom", "in", "magnify", "enlarge", "expand", "focus", "detail", "view", "plus", "circle", "search", "tool", "inspect", "discover", "clarity"]
+  ,
+    category: "ui"
   },
   {
     id: "feather-zoom-out",
     name: "Zoom Out",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>`,
     style: "outline",
-    tags: ["zoom", "out"]
+    tags: ["zoom", "out", "shrink", "reduce", "minimize", "contract", "overview", "minus", "circle", "search", "tool", "map", "broad view", "context", "distance"]
+  ,
+    category: "ui"
   }
 ];
 
