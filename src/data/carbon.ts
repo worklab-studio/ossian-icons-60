@@ -19314,7 +19314,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Events Alt",
     svg: `<svg stroke="currentColor" fill="currentColor" id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><title>events--alt</title><path d="M18,31h2V29a1.0006,1.0006,0,0,1,1-1h6a1.0006,1.0006,0,0,1,1,1v2h2V29a3.0033,3.0033,0,0,0-3-3H21a3.0033,3.0033,0,0,0-3,3Z" transform="translate(0 0)"/><path d="M24,25a4,4,0,1,1,4-4A4.0039,4.0039,0,0,1,24,25Zm0-6a2,2,0,1,0,2,2A2.0027,2.0027,0,0,0,24,19Z" transform="translate(0 0)"/><path d="M2,31H4V29a1.0009,1.0009,0,0,1,1-1h6a1.0009,1.0009,0,0,1,1,1v2h2V29a3.0033,3.0033,0,0,0-3-3H5a3.0033,3.0033,0,0,0-3,3Z" transform="translate(0 0)"/><path d="M8,25a4,4,0,1,1,4-4A4.0042,4.0042,0,0,1,8,25Zm0-6a2,2,0,1,0,2,2A2.0023,2.0023,0,0,0,8,19Z" transform="translate(0 0)"/><path d="M18,16h2V14a1.0009,1.0009,0,0,1,1-1h6a1.0009,1.0009,0,0,1,1,1v2h2V14a3.0033,3.0033,0,0,0-3-3H21a3.0033,3.0033,0,0,0-3,3Z" transform="translate(0 0)"/><path d="M24,10a4,4,0,1,1,4-4A4.0042,4.0042,0,0,1,24,10Zm0-6a2,2,0,1,0,2,2A2.0023,2.0023,0,0,0,24,4Z" transform="translate(0 0)"/><path d="M2,16H4V14a1.0013,1.0013,0,0,1,1-1h6a1.0013,1.0013,0,0,1,1,1v2h2V14a3.0033,3.0033,0,0,0-3-3H5a3.0033,3.0033,0,0,0-3,3Z" transform="translate(0 0)"/><path d="M8,10a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,8,10ZM8,4a2,2,0,1,0,2,2A2.002,2.002,0,0,0,8,4Z" transform="translate(0 0)"/></svg>`,
     style: "outline",
-    tags: ["events", "alt"],
+    tags: ["events", "alt", "calendar", "date", "schedule", "appointment", "planning", "agenda", "outline", "filled", "ui", "minimal"],
     category: "32"
   },
   {
@@ -19322,7 +19322,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Events",
     svg: `<svg stroke="currentColor" fill="currentColor" id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><title>events</title><path d="M26,14H24v2h2a3.0033,3.0033,0,0,1,3,3v4h2V19A5.0058,5.0058,0,0,0,26,14Z" transform="translate(0 0)"/><path d="M24,4a3,3,0,1,1-3,3,3,3,0,0,1,3-3m0-2a5,5,0,1,0,5,5A5,5,0,0,0,24,2Z" transform="translate(0 0)"/><path d="M23,30H21V28a3.0033,3.0033,0,0,0-3-3H14a3.0033,3.0033,0,0,0-3,3v2H9V28a5.0059,5.0059,0,0,1,5-5h4a5.0059,5.0059,0,0,1,5,5Z" transform="translate(0 0)"/><path d="M16,13a3,3,0,1,1-3,3,3,3,0,0,1,3-3m0-2a5,5,0,1,0,5,5A5,5,0,0,0,16,11Z" transform="translate(0 0)"/><path d="M8,14H6a5.0059,5.0059,0,0,0-5,5v4H3V19a3.0033,3.0033,0,0,1,3-3H8Z" transform="translate(0 0)"/><path d="M8,4A3,3,0,1,1,5,7,3,3,0,0,1,8,4M8,2a5,5,0,1,0,5,5A5,5,0,0,0,8,2Z" transform="translate(0 0)"/></svg>`,
     style: "outline",
-    tags: ["events"],
+    tags: ["events", "calendar", "date", "schedule", "appointment", "planning", "agenda", "outline", "stroke", "ui", "minimal"],
     category: "32"
   },
   {
@@ -19330,7 +19330,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Exam Mode",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>exam-mode</title><path d="M25,23v3H7V16.83l3.59,3.58L12,19,6,13,0,19l1.41,1.41L5,16.83V26a2,2,0,0,0,2,2H25a2,2,0,0,0,2-2V23Z"/><path d="M27,7v9.17l3.59-3.58L32,14l-6,6-6-6,1.41-1.41L25,16.17V7H13V5H25A2,2,0,0,1,27,7Z"/><path d="M8,10H4A2,2,0,0,1,2,8V4A2,2,0,0,1,4,2H8a2,2,0,0,1,2,2V8A2,2,0,0,1,8,10ZM4,4V8H8V4Z"/></svg>`,
     style: "outline",
-    tags: ["exam", "mode"],
+    tags: ["exam", "mode", "test", "assessment", "study", "focus", "learning", "education", "academic", "serious", "ui", "system"],
     category: "32"
   },
   {
@@ -19347,7 +19347,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
   
 </svg>`,
     style: "outline",
-    tags: ["executable", "program"],
+    tags: ["executable", "program", "code", "script", "run", "software", "application", "development", "coding", "system", "tool", "programming"],
     category: "32"
   },
   {
@@ -19355,7 +19355,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Exit",
     svg: `<svg stroke="currentColor" fill="currentColor" id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><title>exit</title><rect x="26" y="4" width="2" height="24"/><polygon points="11.414 20.586 7.828 17 22 17 22 15 7.828 15 11.414 11.414 10 10 4 16 10 22 11.414 20.586"/></svg>`,
     style: "outline",
-    tags: ["exit"],
+    tags: ["exit", "logout", "leave", "door", "escape", "sign out", "close", "arrow", "navigation", "ui", "system"],
     category: "32"
   },
   {
@@ -19363,7 +19363,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Expand All",
     svg: `<svg stroke="currentColor" fill="currentColor" id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><title>expand-all</title><path d="M12,10H26a2.0025,2.0025,0,0,0,2-2V4a2.0025,2.0025,0,0,0-2-2H12a2.0025,2.0025,0,0,0-2,2V5H6V2H4V25a2.0025,2.0025,0,0,0,2,2h4v1a2.0025,2.0025,0,0,0,2,2H26a2.0025,2.0025,0,0,0,2-2V24a2.0025,2.0025,0,0,0-2-2H12a2.0025,2.0025,0,0,0-2,2v1H6V17h4v1a2.0025,2.0025,0,0,0,2,2H26a2.0025,2.0025,0,0,0,2-2V14a2.0025,2.0025,0,0,0-2-2H12a2.0025,2.0025,0,0,0-2,2v1H6V7h4V8A2.0025,2.0025,0,0,0,12,10Zm0-6H26l.0012,4H12Zm0,20H26l.0012,4H12Zm0-10H26l.0012,4H12Z"/></svg>`,
     style: "outline",
-    tags: ["expand", "all"],
+    tags: ["expand", "all", "maximize", "unfold", "open", "grow", "full screen", "arrow", "direction", "ui", "navigation", "system"],
     category: "32"
   },
   {
@@ -19371,7 +19371,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Expand Categories",
     svg: `<svg stroke="currentColor" fill="currentColor" id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32"><title>expand-categories</title><rect x="20" y="26" width="6" height="2"/><rect x="20" y="18" width="8" height="2"/><rect x="20" y="10" width="10" height="2"/><rect x="15" y="4" width="2" height="24"/><polygon points="10.586 3.959 7 7.249 3.412 3.958 2 5.373 7 10 12 5.373 10.586 3.959"/></svg>`,
     style: "outline",
-    tags: ["expand", "categories"],
+    tags: ["expand", "categories", "maximize", "unfold", "open", "grow", "list", "menu", "arrow", "direction", "ui", "navigation"],
     category: "32"
   },
   {
@@ -19384,7 +19384,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
   
 </svg>`,
     style: "outline",
-    tags: ["explore"],
+    tags: ["explore", "discover", "search", "adventure", "journey", "magnifying glass", "find", "investigate", "navigation", "ui", "system"],
     category: "32"
   },
   {
@@ -19392,7 +19392,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Eyedropper",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>eyedropper</title><rect x="2" y="27" width="3" height="3"/><path d="M29.71,7.29l-5-5a1,1,0,0,0-1.41,0h0L20,5.59l-1.29-1.3L17.29,5.71,18.59,7,8.29,17.29A1,1,0,0,0,8,18v1.59l-2.71,2.7a1,1,0,0,0,0,1.41h0l3,3a1,1,0,0,0,1.41,0h0L12.41,24H14a1,1,0,0,0,.71-.29L25,13.41l1.29,1.3,1.42-1.42L26.41,12l3.3-3.29a1,1,0,0,0,0-1.41ZM13.59,22h-2L9,24.59,7.41,23,10,20.41v-2l10-10L23.59,12ZM25,10.59,21.41,7,24,4.41,27.59,8Z" transform="translate(0 0)"/></svg>`,
     style: "outline",
-    tags: ["eyedropper"],
+    tags: ["eyedropper", "color picker", "select color", "sample", "design", "graphics", "tool", "art", "creative", "ui", "system"],
     category: "32"
   },
   {
@@ -19400,7 +19400,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Activated Add",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--activated--add</title><polygon points="30 4 26 4 26 0 24 0 24 4 20 4 20 6 24 6 24 10 26 10 26 6 30 6 30 4"/><path d="M11.5,11A2.5,2.5,0,1,0,14,13.5,2.48,2.48,0,0,0,11.5,11Z"/><path d="M20.5,11A2.5,2.5,0,1,0,23,13.5,2.48,2.48,0,0,0,20.5,11Z"/><path d="M9,20a8.13,8.13,0,0,0,14,0Z"/><path d="M27.82,14A12,12,0,1,1,16,4V2A14,14,0,1,0,30,16a14.71,14.71,0,0,0-.16-2Z"/></svg>`,
     style: "outline",
-    tags: ["face", "activated", "add"],
+    tags: ["face", "activated", "add", "user", "profile", "person", "add user", "new contact", "account", "human", "social", "ui", "filled"],
     category: "32"
   },
   {
@@ -19408,7 +19408,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Activated Filled",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--activated--filled</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm-4.5,9A2.5,2.5,0,1,1,9,13.5,2.48,2.48,0,0,1,11.5,11ZM16,24a8.11,8.11,0,0,1-7-4H23A8.11,8.11,0,0,1,16,24Zm4.5-8A2.5,2.5,0,1,1,23,13.5,2.48,2.48,0,0,1,20.5,16Z"/></svg>`,
     style: "filled",
-    tags: ["face", "activated", "filled"],
+    tags: ["face", "activated", "filled", "user", "profile", "person", "account", "human", "social", "ui", "avatar", "identity"],
     category: "32"
   },
   {
@@ -19416,7 +19416,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Activated",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--activated</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z" transform="translate(0)"/><path d="M11.5,11A2.5,2.5,0,1,0,14,13.5,2.48,2.48,0,0,0,11.5,11Z" transform="translate(0)"/><path d="M20.5,11A2.5,2.5,0,1,0,23,13.5,2.48,2.48,0,0,0,20.5,11Z" transform="translate(0)"/><path d="M9,20a8.13,8.13,0,0,0,14,0Z" transform="translate(0)"/></svg>`,
     style: "outline",
-    tags: ["face", "activated"],
+    tags: ["face", "activated", "user", "profile", "person", "account", "human", "social", "ui", "avatar", "identity", "outline"],
     category: "32"
   },
   {
@@ -19424,7 +19424,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Add",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--add</title><path d="M16,22a6,6,0,0,1-5.14-2.92l-1.71,1a8,8,0,0,0,13.7,0l-1.71-1A6,6,0,0,1,16,22Z"/><polygon points="30 4 26 4 26 0 24 0 24 4 20 4 20 6 24 6 24 10 26 10 26 6 30 6 30 4"/><path d="M11.5,11A2.5,2.5,0,1,0,14,13.5,2.48,2.48,0,0,0,11.5,11Z"/><path d="M20.5,11A2.5,2.5,0,1,0,23,13.5,2.48,2.48,0,0,0,20.5,11Z"/><path d="M27.61,13A12.33,12.33,0,0,1,28,16,12,12,0,1,1,16,4V2A14,14,0,1,0,29.67,13Z"/></svg>`,
     style: "outline",
-    tags: ["face", "add"],
+    tags: ["face", "add", "user", "profile", "person", "add user", "new contact", "account", "human", "social", "ui", "outline"],
     category: "32"
   },
   {
@@ -19432,7 +19432,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Cool",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--cool</title><path d="M16,24a8,8,0,0,0,6.85-3.89l-1.71-1a6,6,0,0,1-10.28,0l-1.71,1A8,8,0,0,0,16,24Z" transform="translate(0)"/><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,2a12,12,0,0,1,10.89,7H25a1,1,0,0,0-1-1H8a1,1,0,0,0-1,1H5.11A12,12,0,0,1,16,4Zm0,24A12,12,0,0,1,4,16a11.86,11.86,0,0,1,.4-3H7v2a2,2,0,0,0,2,2h3.31a2,2,0,0,0,2-1.67L14.83,12h2.34l.55,3.33a2,2,0,0,0,2,1.67H23a2,2,0,0,0,2-2V13h2.6a11.86,11.86,0,0,1,.4,3A12,12,0,0,1,16,28Z" transform="translate(0)"/></svg>`,
     style: "outline",
-    tags: ["face", "cool"],
+    tags: ["face", "cool", "emoji", "sunglasses", "happy", "confident", "relaxed", "mood", "expression", "playful", "social", "ui"],
     category: "32"
   },
   {
@@ -19440,7 +19440,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Dissatisfied Filled",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--dissatisfied--filled</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm-4.5,9h0A2.5,2.5,0,1,1,9,13.5,2.48,2.48,0,0,1,11.54,11Zm9.64,12.92a6,6,0,0,0-10.28,0l-1.71-1a8,8,0,0,1,13.7,0ZM20.5,16a2.5,2.5,0,0,1,0-5h0a2.5,2.5,0,0,1,0,5Z"/></svg>`,
     style: "filled",
-    tags: ["face", "dissatisfied", "filled"],
+    tags: ["face", "dissatisfied", "filled", "sad", "unhappy", "frown", "disappointed", "negative", "mood", "expression", "feedback", "social"],
     category: "32"
   },
   {
@@ -19448,7 +19448,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Dissatisfied",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--dissatisfied</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z" transform="translate(0)"/><path d="M11.5,11A2.5,2.5,0,1,0,14,13.5,2.5,2.5,0,0,0,11.5,11Z" transform="translate(0)"/><path d="M20.5,11A2.5,2.5,0,1,0,23,13.5,2.5,2.5,0,0,0,20.5,11Z" transform="translate(0)"/><path d="M16,19a8,8,0,0,0-6.85,3.89l1.71,1a6,6,0,0,1,10.28,0l1.71-1A8,8,0,0,0,16,19Z" transform="translate(0)"/></svg>`,
     style: "outline",
-    tags: ["face", "dissatisfied"],
+    tags: ["face", "dissatisfied", "sad", "unhappy", "frown", "disappointed", "negative", "mood", "expression", "feedback", "social", "outline"],
     category: "32"
   },
   {
@@ -19456,7 +19456,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Dizzy Filled",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--dizzy--filled</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2ZM9,16.41,7.59,15l2-2-2-2L9,9.59l2,2,2-2L14.41,11l-2,2,2,2L13,16.41l-2-2ZM16,25a3,3,0,1,1,3-3A3,3,0,0,1,16,25Zm8.41-10L23,16.41l-2-2-2,2L17.59,15l2-2-2-2L19,9.59l2,2,2-2L24.41,11l-2,2Z"/></svg>`,
     style: "filled",
-    tags: ["face", "dizzy", "filled"],
+    tags: ["face", "dizzy", "filled", "confused", "shocked", "surprised", "unwell", "mood", "expression", "reaction", "social", "playful"],
     category: "32"
   },
   {
@@ -19464,7 +19464,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Dizzy",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--dizzy</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z" transform="translate(0)"/><polygon points="24.41 11 23 9.59 21 11.59 19 9.59 17.59 11 19.59 13 17.59 15 19 16.41 21 14.41 23 16.41 24.41 15 22.41 13 24.41 11"/><polygon points="14.41 11 13 9.59 11 11.59 9 9.59 7.59 11 9.59 13 7.59 15 9 16.41 11 14.41 13 16.41 14.41 15 12.41 13 14.41 11"/><path d="M16,19a3,3,0,1,0,3,3,3,3,0,0,0-3-3Z" transform="translate(0)"/></svg>`,
     style: "outline",
-    tags: ["face", "dizzy"],
+    tags: ["face", "dizzy", "confused", "shocked", "surprised", "unwell", "mood", "expression", "reaction", "social", "outline", "playful"],
     category: "32"
   },
   {
@@ -19478,7 +19478,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
   
 </svg>`,
     style: "outline",
-    tags: ["face", "mask"],
+    tags: ["face", "mask", "medical", "health", "protection", "safety", "disease", "hospital", "pandemic", "security", "social", "filled"],
     category: "32"
   },
   {
@@ -19486,7 +19486,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Neutral Filled",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--neutral--filled</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2ZM9,13.5A2.5,2.5,0,1,1,11.5,16,2.5,2.5,0,0,1,9,13.5ZM22,22H10V20H22Zm-1.5-6A2.5,2.5,0,1,1,23,13.5,2.5,2.5,0,0,1,20.5,16Z"/></svg>`,
     style: "filled",
-    tags: ["face", "neutral", "filled"],
+    tags: ["face", "neutral", "filled", "indifferent", "unemotional", "blank", "mood", "expression", "feedback", "social", "calm", "ui"],
     category: "32"
   },
   {
@@ -19494,7 +19494,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Neutral",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--neutral</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z"/><path d="M11.5,11A2.5,2.5,0,1,0,14,13.5,2.5,2.5,0,0,0,11.5,11Z"/><path d="M20.5,11A2.5,2.5,0,1,0,23,13.5,2.5,2.5,0,0,0,20.5,11Z"/><rect x="10" y="20" width="12" height="2"/></svg>`,
     style: "outline",
-    tags: ["face", "neutral"],
+    tags: ["face", "neutral", "indifferent", "unemotional", "blank", "mood", "expression", "feedback", "social", "outline", "calm", "ui"],
     category: "32"
   },
   {
@@ -19502,7 +19502,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Pending Filled",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--pending--filled</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2ZM11.5,16A2.5,2.5,0,1,1,14,13.5,2.48,2.48,0,0,1,11.5,16Zm9,0A2.5,2.5,0,1,1,23,13.5,2.48,2.48,0,0,1,20.5,16Z"/></svg>`,
     style: "filled",
-    tags: ["face", "pending", "filled"],
+    tags: ["face", "pending", "filled", "waiting", "loading", "processing", "thinking", "mood", "expression", "status", "social", "ui"],
     category: "32"
   },
   {
@@ -19510,7 +19510,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Pending",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--pending</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z" transform="translate(0)"/><path d="M11.5,11A2.5,2.5,0,1,0,14,13.5,2.48,2.48,0,0,0,11.5,11Z" transform="translate(0)"/><path d="M20.5,11A2.5,2.5,0,1,0,23,13.5,2.48,2.48,0,0,0,20.5,11Z" transform="translate(0)"/></svg>`,
     style: "outline",
-    tags: ["face", "pending"],
+    tags: ["face", "pending", "waiting", "loading", "processing", "thinking", "mood", "expression", "status", "social", "outline", "ui"],
     category: "32"
   },
   {
@@ -19518,7 +19518,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Satisfied Filled",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--satisfied--filled</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm-4.5,9A2.5,2.5,0,1,1,9,13.5,2.48,2.48,0,0,1,11.5,11ZM16,24a8,8,0,0,1-6.85-3.89l1.71-1a6,6,0,0,0,10.28,0l1.71,1A8,8,0,0,1,16,24Zm4.5-8A2.5,2.5,0,1,1,23,13.5,2.48,2.48,0,0,1,20.5,16Z"/></svg>`,
     style: "filled",
-    tags: ["face", "satisfied", "filled"],
+    tags: ["face", "satisfied", "filled", "happy", "smile", "joyful", "positive", "good", "mood", "expression", "feedback", "social"],
     category: "32"
   },
   {
@@ -19526,7 +19526,7 @@ EN7Qq62iKLx5toqYGAbnHphX8dmGEVHLpM5CQnj9Bq8JpF8wLiu3wIN4cH5f4LW8h9w013z6z7Fm
     name: "Face Satisfied",
     svg: `<svg stroke="currentColor" fill="currentColor" height="24" width="24" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>face--satisfied</title><path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z"/><path d="M11.5,11A2.5,2.5,0,1,0,14,13.5,2.48,2.48,0,0,0,11.5,11Z"/><path d="M20.5,11A2.5,2.5,0,1,0,23,13.5,2.48,2.48,0,0,0,20.5,11Z"/><path d="M16,24a8,8,0,0,0,6.85-3.89l-1.71-1a6,6,0,0,1-10.28,0l-1.71,1A8,8,0,0,0,16,24Z"/></svg>`,
     style: "outline",
-    tags: ["face", "satisfied"],
+    tags: ["face", "satisfied", "happy", "smile", "joyful", "positive", "good", "mood", "expression", "feedback", "social", "outline"],
     category: "32"
   },
   {
