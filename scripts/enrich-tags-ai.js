@@ -29,9 +29,9 @@ if (fs.existsSync(ENV_FILE)) {
     if (m) process.env[m[1]] = m[2];
   }
 }
-const API_KEY = process.env.GEMINI_API_KEY;
+const API_KEY = process.env.LOVABLE_API_KEY;
 if (!API_KEY) {
-  console.error('❌ GEMINI_API_KEY missing. Set it in scripts/.env or as env var.');
+  console.error('❌ LOVABLE_API_KEY missing. Run via the Lovable sandbox (it injects this automatically) or export it manually.');
   process.exit(1);
 }
 
@@ -64,11 +64,11 @@ const LIBRARIES = [
 ];
 
 const BATCH_SIZE = 25;
-const REQUEST_DELAY_MS = 600; // ~1.6 req/s — safe under free tier limits
-const MAX_RETRIES = 4;
+const REQUEST_DELAY_MS = 300; // gentle pacing
+const MAX_RETRIES = 5;
 const MAX_TAGS_PER_ICON = 15;
-const MODEL = 'gemini-2.5-flash';
-const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`;
+const MODEL = 'google/gemini-2.5-flash';
+const ENDPOINT = 'https://ai.gateway.lovable.dev/v1/chat/completions';
 
 // ---------- progress ----------
 function loadProgress() {
@@ -156,41 +156,70 @@ Input icons:
 ${JSON.stringify(minimal)}`;
 }
 
-// ---------- gemini call ----------
+// ---------- lovable AI gateway call ----------
 async function callGemini(prompt, attempt = 1) {
   const body = {
-    contents: [{ role: 'user', parts: [{ text: prompt }] }],
-    generationConfig: {
-      responseMimeType: 'application/json',
-      temperature: 0.4,
-      maxOutputTokens: 16384,
-      thinkingConfig: { thinkingBudget: 0 }, // disable thinking — pure JSON output
-    },
+    model: MODEL,
+    messages: [
+      { role: 'system', content: 'You return ONLY valid JSON. No markdown, no prose, no code fences.' },
+      { role: 'user', content: prompt },
+    ],
+    response_format: { type: 'json_object' },
+    temperature: 0.4,
   };
-  const res = await fetch(ENDPOINT, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
+  let res;
+  try {
+    res = await fetch(ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${API_KEY}`,
+      },
+      body: JSON.stringify(body),
+    });
+  } catch (e) {
+    if (attempt <= MAX_RETRIES) {
+      const wait = Math.min(30000, 2000 * 2 ** (attempt - 1));
+      console.warn(`  ⚠ network error (${e.message}), retrying in ${wait}ms`);
+      await new Promise(r => setTimeout(r, wait));
+      return callGemini(prompt, attempt + 1);
+    }
+    throw e;
+  }
   if (!res.ok) {
     const text = await res.text();
+    if (res.status === 402) throw new Error('402 Payment Required — add credits to your Lovable workspace (Settings → Workspace → Usage).');
     if ((res.status === 429 || res.status >= 500) && attempt <= MAX_RETRIES) {
       const wait = Math.min(30000, 2000 * 2 ** (attempt - 1));
       console.warn(`  ⚠ ${res.status}, retrying in ${wait}ms (attempt ${attempt}/${MAX_RETRIES})`);
       await new Promise(r => setTimeout(r, wait));
       return callGemini(prompt, attempt + 1);
     }
-    throw new Error(`Gemini ${res.status}: ${text.slice(0, 500)}`);
+    throw new Error(`Lovable AI ${res.status}: ${text.slice(0, 500)}`);
   }
   const data = await res.json();
-  const txt = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-  if (!txt) throw new Error('No text in Gemini response: ' + JSON.stringify(data).slice(0, 500));
+  const txt = data?.choices?.[0]?.message?.content;
+  if (!txt) throw new Error('No content in response: ' + JSON.stringify(data).slice(0, 500));
   // Strip accidental code fences
   const cleaned = txt.trim().replace(/^```(?:json)?/i, '').replace(/```$/, '').trim();
   let parsed;
   try { parsed = JSON.parse(cleaned); }
-  catch (e) { throw new Error('Bad JSON from Gemini: ' + cleaned.slice(0, 300)); }
-  if (!Array.isArray(parsed)) throw new Error('Expected array, got: ' + typeof parsed);
+  catch (e) { throw new Error('Bad JSON: ' + cleaned.slice(0, 300)); }
+  // json_object mode returns an object — unwrap if model wrapped the array
+  if (!Array.isArray(parsed)) {
+    if (Array.isArray(parsed.results)) parsed = parsed.results;
+    else if (Array.isArray(parsed.icons)) parsed = parsed.icons;
+    else if (Array.isArray(parsed.data)) parsed = parsed.data;
+    else {
+      // Maybe it's keyed by id
+      const vals = Object.values(parsed);
+      if (vals.length && vals.every(v => v && typeof v === 'object' && 'tags' in v)) {
+        parsed = Object.entries(parsed).map(([id, v]) => ({ id, ...v }));
+      } else {
+        throw new Error('Expected array, got: ' + JSON.stringify(parsed).slice(0, 200));
+      }
+    }
+  }
   return parsed;
 }
 
