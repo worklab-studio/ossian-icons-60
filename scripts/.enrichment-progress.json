@@ -10619,7 +10619,32 @@
       "carbon-ccx",
       "carbon-circuit-composer",
       "carbon-composer-edit",
-      "carbon-hinton-plot"
+      "carbon-hinton-plot",
+      "carbon-id",
+      "carbon-matrix",
+      "carbon-operation--gauge",
+      "carbon-operation--if",
+      "carbon-operation",
+      "carbon-rag",
+      "carbon-raw",
+      "carbon-sap",
+      "carbon-sdk",
+      "carbon-slm",
+      "carbon-sql",
+      "carbon-svg",
+      "carbon-tif",
+      "carbon-tsv",
+      "carbon-txt--reference",
+      "carbon-txt",
+      "carbon-url",
+      "carbon-usb",
+      "carbon-vpn",
+      "carbon-wmv",
+      "carbon-xls",
+      "carbon-xml",
+      "carbon-zip--reference",
+      "carbon-zip",
+      "carbon-accept-action--usage"
     ]
   }
 }
