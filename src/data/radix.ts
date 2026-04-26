@@ -3547,7 +3547,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["plus", "circled"]
+    tags: ["plus", "circled", "add", "create", "new", "increase", "positive", "round", "circle", "button", "action", "ui"],
+    category: "ui"
   },
   {
     id: "radix-plus",
@@ -3561,7 +3562,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["plus"]
+    tags: ["plus", "add", "create", "new", "increase", "positive", "math", "action", "button", "simple", "minimal"],
+    category: "ui"
   },
   {
     id: "radix-question-mark-circled",
@@ -3575,7 +3577,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["question", "mark", "circled"]
+    tags: ["question", "mark", "circled", "help", "info", "support", "query", "unknown", "round", "circle", "assistance", "button", "ui"],
+    category: "ui"
   },
   {
     id: "radix-question-mark",
@@ -3589,7 +3592,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["question", "mark"]
+    tags: ["question", "mark", "help", "info", "support", "query", "unknown", "assistance", "simple", "minimal", "mystery", "clarify"],
+    category: "ui"
   },
   {
     id: "radix-quote",
@@ -3603,7 +3607,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["quote"]
+    tags: ["quote", "blockquote", "citation", "text", "speech", "testimonial", "dialogue", "communication", "typography", "comment", "chat"],
+    category: "communication"
   },
   {
     id: "radix-radiobutton",
@@ -3617,7 +3622,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["radiobutton"]
+    tags: ["radiobutton", "select", "option", "choice", "form", "input", "control", "ui", "toggle", "circular", "filled"],
+    category: "ui"
   },
   {
     id: "radix-reader",
@@ -3631,7 +3637,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["reader"]
+    tags: ["reader", "book", "document", "article", "read", "education", "learning", "content", "view", "library", "knowledge"],
+    category: "education"
   },
   {
     id: "radix-reload",
@@ -3645,7 +3652,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["reload"]
+    tags: ["reload", "refresh", "update", "sync", "redo", "circular", "arrow", "process", "system", "cycle", "restart"],
+    category: "system"
   },
   {
     id: "radix-reset",
@@ -3659,7 +3667,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["reset"]
+    tags: ["reset", "clear", "undo", "start over", "default", "circular", "arrow", "system", "return", "erase", "revert"],
+    category: "system"
   },
   {
     id: "radix-resume",
@@ -3673,7 +3682,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["resume"]
+    tags: ["resume", "play", "continue", "start", "media", "arrow", "forward", "playback", "control", "audio", "video"],
+    category: "media"
   },
   {
     id: "radix-rocket",
@@ -3687,7 +3697,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["rocket"]
+    tags: ["rocket", "launch", "startup", "boost", "speed", "fast", "space", "ambition", "project", "growth", "success"],
+    category: "transport"
   },
   {
     id: "radix-rotate-counter-clockwise",
@@ -3701,7 +3712,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["rotate", "counter", "clockwise"]
+    tags: ["rotate", "counter", "clockwise", "turn", "spin", "arrow", "direction", "transform", "circular", "system", "orientation", "adjust", "reverse"],
+    category: "arrow"
   },
   {
     id: "radix-row-spacing",
@@ -3715,7 +3727,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["row", "spacing"]
+    tags: ["row", "spacing", "layout", "design", "typography", "align", "grid", "lines", "ui", "format", "document"],
+    category: "ui"
   },
   {
     id: "radix-rows",
@@ -3729,7 +3742,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["rows"]
+    tags: ["rows", "list", "table", "data", "layout", "grid", "lines", "ui", "structure", "document", "menu"],
+    category: "ui"
   },
   {
     id: "radix-ruler-horizontal",
@@ -3743,7 +3757,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["ruler", "horizontal"]
+    tags: ["ruler", "horizontal", "measure", "length", "tool", "design", "dimension", "scale", "alignment", "width", "drawing", "craft"],
+    category: "tool"
   },
   {
     id: "radix-ruler-square",
@@ -3757,7 +3772,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["ruler", "square"]
+    tags: ["ruler", "square", "measure", "tool", "design", "dimension", "scale", "alignment", "geometry", "drawing", "craft"],
+    category: "tool"
   },
   {
     id: "radix-scissors",
@@ -3771,7 +3787,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["scissors"]
+    tags: ["scissors", "cut", "trim", "edit", "tool", "craft", "delete", "remove", "clip", "snip", "design"],
+    category: "tool"
   },
   {
     id: "radix-section",
@@ -3785,7 +3802,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["section"]
+    tags: ["section", "layout", "document", "page", "block", "area", "group", "ui", "structure", "content", "divide"],
+    category: "ui"
   },
   {
     id: "radix-sewing-pin-filled",
@@ -3799,7 +3817,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["sewing", "pin", "filled"]
+    tags: ["sewing", "pin", "filled", "location", "map", "marker", "address", "position", "navigation", "point", "destination", "drop"],
+    category: "navigation"
   },
   {
     id: "radix-sewing-pin",
@@ -3813,7 +3832,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["sewing", "pin"]
+    tags: ["sewing", "pin", "location", "map", "marker", "address", "position", "navigation", "point", "destination", "outline", "drop"],
+    category: "navigation"
   },
   {
     id: "radix-shadow-inner",
@@ -3897,7 +3917,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["shadow", "inner"]
+    tags: ["shadow", "inner", "effect", "depth", "design", "light", "dark", "style", "ui", "inset", "visual", "layer"],
+    category: "ui"
   },
   {
     id: "radix-shadow-none",
@@ -3981,7 +4002,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["shadow", "none"]
+    tags: ["shadow", "none", "effect", "design", "light", "clear", "style", "ui", "flat", "minimal", "remove", "plain"],
+    category: "ui"
   },
   {
     id: "radix-shadow-outer",
@@ -4030,7 +4052,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["shadow", "outer"]
+    tags: ["shadow", "outer", "effect", "depth", "design", "light", "dark", "style", "ui", "drop", "visual", "layer"],
+    category: "ui"
   },
   {
     id: "radix-shadow",
@@ -4114,7 +4137,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["shadow"]
+    tags: ["shadow", "effect", "depth", "design", "light", "dark", "style", "ui", "visual", "layer", "contrast"],
+    category: "ui"
   },
   {
     id: "radix-share-1",
@@ -4128,7 +4152,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["share", "1"]
+    tags: ["share", "1", "send", "distribute", "social", "network", "link", "export", "connect", "communication", "arrow", "upload"],
+    category: "social"
   },
   {
     id: "radix-share-2",
@@ -4881,7 +4906,8 @@ export const radixIcons: IconItem[] = [
   <path d="M9 4L9 11L4.5 7.5L9 4Z" fill="currentColor" />
 </svg>`,
     style: "outline",
-    tags: ["triangle", "left"]
+    tags: ["triangle", "left", "arrow", "direction", "previous", "back", "caret", "pointer", "navigation", "ui", "minimal", "geometric"],
+    category: "arrow"
   },
   {
     id: "radix-triangle-right",
@@ -4890,7 +4916,8 @@ export const radixIcons: IconItem[] = [
   <path d="M6 11L6 4L10.5 7.5L6 11Z" fill="currentColor" />
 </svg>`,
     style: "outline",
-    tags: ["triangle", "right"]
+    tags: ["triangle", "right", "arrow", "direction", "next", "forward", "caret", "pointer", "navigation", "ui", "minimal", "geometric"],
+    category: "arrow"
   },
   {
     id: "radix-triangle-up",
@@ -4899,7 +4926,8 @@ export const radixIcons: IconItem[] = [
   <path d="M4 9H11L7.5 4.5L4 9Z" fill="currentColor" />
 </svg>`,
     style: "outline",
-    tags: ["triangle", "up"]
+    tags: ["triangle", "up", "arrow", "direction", "caret", "pointer", "collapse", "expand", "sort", "navigation", "ui", "minimal", "geometric"],
+    category: "arrow"
   },
   {
     id: "radix-twitter-logo",
@@ -4913,7 +4941,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["twitter", "logo"]
+    tags: ["twitter", "logo", "x", "social media", "bird", "platform", "share", "connect", "marketing", "branding", "communication", "filled"],
+    category: "social"
   },
   {
     id: "radix-underline",
@@ -4927,7 +4956,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["underline"]
+    tags: ["underline", "text formatting", "emphasis", "highlight", "text editor", "styling", "document", "ui", "minimal", "line"],
+    category: "ui"
   },
   {
     id: "radix-update",
@@ -4941,7 +4971,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["update"]
+    tags: ["update", "refresh", "sync", "reload", "renew", "process", "progress", "circular", "arrow", "system", "modern"],
+    category: "system"
   },
   {
     id: "radix-upload",
@@ -4955,7 +4986,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["upload"]
+    tags: ["upload", "send", "transfer", "file", "cloud", "import", "arrow", "data", "system", "action", "minimal"],
+    category: "file"
   },
   {
     id: "radix-value-none",
@@ -4969,7 +5001,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["value", "none"]
+    tags: ["value", "none", "empty", "null", "zero", "void", "placeholder", "data", "ui", "minimal", "concept"],
+    category: "ui"
   },
   {
     id: "radix-value",
@@ -4983,7 +5016,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["value"]
+    tags: ["value", "data", "measure", "quantity", "amount", "metric", "concept", "ui", "minimal", "abstract"],
+    category: "ui"
   },
   {
     id: "radix-vercel-logo",
@@ -4997,7 +5031,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["vercel", "logo"]
+    tags: ["vercel", "logo", "platform", "hosting", "development", "cloud", "branding", "deployment", "web", "geometric", "minimal", "filled"],
+    category: "other"
   },
   {
     id: "radix-video",
@@ -5011,7 +5046,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["video"]
+    tags: ["video", "movie", "film", "camera", "media", "play", "entertainment", "recording", "multimedia", "ui", "filled"],
+    category: "media"
   },
   {
     id: "radix-view-grid",
@@ -5025,7 +5061,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["view", "grid"]
+    tags: ["view", "grid", "layout", "gallery", "dashboard", "blocks", "arrangement", "display", "ui", "minimal", "structure"],
+    category: "ui"
   },
   {
     id: "radix-view-horizontal",
@@ -5039,7 +5076,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["view", "horizontal"]
+    tags: ["view", "horizontal", "layout", "split", "panes", "arrangement", "display", "ui", "minimal", "structure", "orientation"],
+    category: "ui"
   },
   {
     id: "radix-view-none",
@@ -5053,7 +5091,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["view", "none"]
+    tags: ["view", "none", "hide", "invisible", "empty", "layout", "display", "ui", "minimal", "concept"],
+    category: "ui"
   },
   {
     id: "radix-view-vertical",
@@ -5067,7 +5106,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["view", "vertical"]
+    tags: ["view", "vertical", "layout", "split", "panes", "arrangement", "display", "ui", "minimal", "structure", "orientation"],
+    category: "ui"
   },
   {
     id: "radix-width",
@@ -5081,7 +5121,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["width"]
+    tags: ["width", "size", "dimension", "measure", "scale", "resize", "horizontal", "ui", "minimal", "tool"],
+    category: "tool"
   },
   {
     id: "radix-zoom-in",
@@ -5095,7 +5136,8 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["zoom", "in"]
+    tags: ["zoom", "in", "magnify", "enlarge", "expand", "search", "focus", "plus", "ui", "tool", "minimal", "action"],
+    category: "tool"
   },
   {
     id: "radix-zoom-out",
@@ -5109,6 +5151,7 @@ export const radixIcons: IconItem[] = [
   />
 </svg>`,
     style: "outline",
-    tags: ["zoom", "out"]
+    tags: ["zoom", "out", "minify", "shrink", "reduce", "minus", "ui", "tool", "minimal", "action", "overview"],
+    category: "tool"
   }
 ];

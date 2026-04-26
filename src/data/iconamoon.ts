@@ -12,7 +12,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 17H7M7 17L7 7M7 17L17 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 1"],
+    tags: ["arrow bottom left 1", "diagonal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -22,7 +22,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 8L8 16L16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 2"],
+    tags: ["arrow bottom left 2", "diagonal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -33,7 +33,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14M10 14L14 14M10 14L14 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 3 square"],
+    tags: ["arrow bottom left 3 square", "diagonal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "geometric", "filled"],
     category: "Light"
   },
   {
@@ -44,7 +44,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 4 square"],
+    tags: ["arrow bottom left 4 square", "diagonal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "geometric", "outlined"],
     category: "Light"
   },
   {
@@ -55,7 +55,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14M10 14L14 14M10 14L14 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 5 circle"],
+    tags: ["arrow bottom left 5 circle", "diagonal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "circular", "filled"],
     category: "Light"
   },
   {
@@ -66,7 +66,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 6 circle"],
+    tags: ["arrow bottom left 6 circle", "diagonal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "circular", "outlined"],
     category: "Light"
   },
   {
@@ -76,7 +76,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 7L17 17M17 17L7 17M17 17L7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 1"],
+    tags: ["arrow bottom right 1", "diagonal", "direction", "pointer", "next", "forward", "proceed", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -87,7 +87,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14M14 14L14 10M14 14L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 3 square"],
+    tags: ["arrow bottom right 3 square", "diagonal", "direction", "pointer", "next", "forward", "proceed", "ui", "navigation", "geometric", "filled"],
     category: "Light"
   },
   {
@@ -98,7 +98,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14L14 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 4 square"],
+    tags: ["arrow bottom right 4 square", "diagonal", "direction", "pointer", "next", "forward", "proceed", "ui", "navigation", "geometric", "outlined"],
     category: "Light"
   },
   {
@@ -109,7 +109,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14M14 14L14 10M14 14L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 5 circle"],
+    tags: ["arrow bottom right 5 circle", "diagonal", "direction", "pointer", "next", "forward", "proceed", "ui", "navigation", "circular", "filled"],
     category: "Light"
   },
   {
@@ -120,7 +120,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14L14 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 6 circle"],
+    tags: ["arrow bottom right 6 circle", "diagonal", "direction", "pointer", "next", "forward", "proceed", "ui", "navigation", "circular", "outlined"],
     category: "Light"
   },
   {
@@ -131,7 +131,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom up 4 square"],
+    tags: ["arrow bottom up 4 square", "vertical", "direction", "pointer", "scroll", "up", "top", "ui", "navigation", "geometric", "outlined"],
     category: "Light"
   },
   {
@@ -141,7 +141,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5 12L12 19M12 19L19 12M12 19L12 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 1"],
+    tags: ["arrow down 1", "vertical", "direction", "pointer", "scroll", "bottom", "download", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -151,7 +151,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 2"],
+    tags: ["arrow down 2", "vertical", "direction", "pointer", "scroll", "bottom", "download", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -162,7 +162,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12L12 15M12 15L15 12M12 15L12 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 3 square"],
+    tags: ["arrow down 3 square", "vertical", "direction", "pointer", "scroll", "bottom", "download", "ui", "navigation", "geometric", "filled"],
     category: "Light"
   },
   {
@@ -173,7 +173,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 11L12 14L15 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 4 square"],
+    tags: ["arrow down 4 square", "vertical", "direction", "pointer", "scroll", "bottom", "download", "ui", "navigation", "geometric", "outlined"],
     category: "Light"
   },
   {
@@ -184,7 +184,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12L12 15M12 15L15 12M12 15L12 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 5 circle"],
+    tags: ["arrow down 5 circle", "vertical", "direction", "pointer", "scroll", "bottom", "download", "ui", "navigation", "circular", "filled"],
     category: "Light"
   },
   {
@@ -195,7 +195,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 11L12 14L15 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 6 circle"],
+    tags: ["arrow down 6 circle", "vertical", "direction", "pointer", "scroll", "bottom", "download", "ui", "navigation", "circular", "outlined"],
     category: "Light"
   },
   {
@@ -205,7 +205,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 5L5 12M5 12L12 19M5 12H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 1"],
+    tags: ["arrow left 1", "horizontal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -215,7 +215,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 7L9 12L14 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 2"],
+    tags: ["arrow left 2", "horizontal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -226,7 +226,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 9L9 12M9 12L12 15M9 12H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 3 square"],
+    tags: ["arrow left 3 square", "horizontal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "geometric", "filled"],
     category: "Light"
   },
   {
@@ -237,7 +237,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 9L10 12L13 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 4 square"],
+    tags: ["arrow left 4 square", "horizontal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "geometric", "outlined"],
     category: "Light"
   },
   {
@@ -248,7 +248,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 9L9 12M9 12L12 15M9 12H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 5 circle"],
+    tags: ["arrow left 5 circle", "horizontal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "circular", "filled"],
     category: "Light"
   },
   {
@@ -259,7 +259,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 9L10 12L13 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 6 circle"],
+    tags: ["arrow left 6 circle", "horizontal", "direction", "pointer", "back", "previous", "return", "ui", "navigation", "circular", "outlined"],
     category: "Light"
   },
   {
@@ -269,7 +269,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 16L16 16L16 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right  2"],
+    tags: ["arrow right 2", "horizontal", "direction", "pointer", "next", "forward", "proceed", "ui", "navigation", "minimal", "line"],
     category: "Light"
   },
   {
@@ -279,7 +279,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 19L19 12L12 5M19 12L5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 1"],
+    tags: ["arrow right 1", "forward", "next", "direction", "pointer", "navigation", "minimal", "line", "thin"],
     category: "Light"
   },
   {
@@ -289,7 +289,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 17L15 12L10 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 2"],
+    tags: ["arrow right 2", "forward", "next", "direction", "pointer", "navigation", "minimal", "bold", "thick"],
     category: "Light"
   },
   {
@@ -300,7 +300,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 15L15 12M15 12L12 9M15 12H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 3 square"],
+    tags: ["arrow right 3 square", "forward", "next", "direction", "pointer", "navigation", "geometric", "contained", "filled"],
     category: "Light"
   },
   {
@@ -311,7 +311,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 15L14 12L11 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 4 square"],
+    tags: ["arrow right 4 square", "forward", "next", "direction", "pointer", "navigation", "geometric", "contained", "outlined"],
     category: "Light"
   },
   {
@@ -322,7 +322,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 15L15 12M15 12L12 9M15 12H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 5 circle"],
+    tags: ["arrow right 5 circle", "forward", "next", "direction", "pointer", "navigation", "circular", "contained", "filled"],
     category: "Light"
   },
   {
@@ -333,7 +333,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 15L14 12L11 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 6 circle"],
+    tags: ["arrow right 6 circle", "forward", "next", "direction", "pointer", "navigation", "circular", "contained", "outlined"],
     category: "Light"
   },
   {
@@ -343,7 +343,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 7H7M7 7V17M7 7L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 1"],
+    tags: ["arrow top left 1", "diagonal", "direction", "pointer", "navigation", "minimal", "line", "thin", "back"],
     category: "Light"
   },
   {
@@ -353,7 +353,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 8H8V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 2"],
+    tags: ["arrow top left 2", "diagonal", "direction", "pointer", "navigation", "minimal", "bold", "thick", "back"],
     category: "Light"
   },
   {
@@ -364,7 +364,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10M10 10V14M10 10L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 3 square"],
+    tags: ["arrow top left 3 square", "diagonal", "direction", "pointer", "navigation", "geometric", "contained", "filled", "back"],
     category: "Light"
   },
   {
@@ -375,7 +375,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 4 square"],
+    tags: ["arrow top left 4 square", "diagonal", "direction", "pointer", "navigation", "geometric", "contained", "outlined", "back"],
     category: "Light"
   },
   {
@@ -386,7 +386,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10M10 10V14M10 10L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 5 circle"],
+    tags: ["arrow top left 5 circle", "diagonal", "direction", "pointer", "navigation", "circular", "contained", "filled", "back"],
     category: "Light"
   },
   {
@@ -397,7 +397,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 6 circle"],
+    tags: ["arrow top left 6 circle", "diagonal", "direction", "pointer", "navigation", "circular", "contained", "outlined", "back"],
     category: "Light"
   },
   {
@@ -407,7 +407,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7H17M17 7V17M17 7L7 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 1"],
+    tags: ["arrow top right 1", "diagonal", "direction", "pointer", "navigation", "minimal", "line", "thin", "forward"],
     category: "Light"
   },
   {
@@ -417,7 +417,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 16L16 8L8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 2"],
+    tags: ["arrow top right 2", "diagonal", "direction", "pointer", "navigation", "minimal", "bold", "thick", "forward"],
     category: "Light"
   },
   {
@@ -428,7 +428,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10M14 10L10 10M14 10L10 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 3 square"],
+    tags: ["arrow top right 3 square", "diagonal", "direction", "pointer", "navigation", "geometric", "contained", "filled", "forward"],
     category: "Light"
   },
   {
@@ -439,7 +439,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10M14 10L10 10M14 10L10 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 5 circle"],
+    tags: ["arrow top right 5 circle", "diagonal", "direction", "pointer", "navigation", "circular", "contained", "filled", "forward"],
     category: "Light"
   },
   {
@@ -450,7 +450,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 6 circle"],
+    tags: ["arrow top right 6 circle", "diagonal", "direction", "pointer", "navigation", "circular", "contained", "outlined", "forward"],
     category: "Light"
   },
   {
@@ -460,7 +460,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19 12L12 5L5 12M12 5L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 1"],
+    tags: ["arrow up 1", "upward", "direction", "pointer", "navigation", "minimal", "line", "thin", "scroll"],
     category: "Light"
   },
   {
@@ -470,7 +470,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 14L12 9L7 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 2"],
+    tags: ["arrow up 2", "upward", "direction", "pointer", "navigation", "minimal", "bold", "thick", "scroll"],
     category: "Light"
   },
   {
@@ -481,7 +481,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12L12 9M12 9L9 12M12 9L12 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 3 square"],
+    tags: ["arrow up 3 square", "upward", "direction", "pointer", "navigation", "geometric", "contained", "filled", "scroll"],
     category: "Light"
   },
   {
@@ -492,7 +492,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 13L12 10L9 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 4 square"],
+    tags: ["arrow up 4 square", "upward", "direction", "pointer", "navigation", "geometric", "contained", "outlined", "scroll"],
     category: "Light"
   },
   {
@@ -503,7 +503,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12L12 9M12 9L9 12M12 9L12 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 5 circle"],
+    tags: ["arrow up 5 circle", "upward", "direction", "pointer", "navigation", "circular", "contained", "filled", "scroll"],
     category: "Light"
   },
   {
@@ -514,7 +514,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 13L12 10L9 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 6 circle"],
+    tags: ["arrow up 6 circle", "upward", "direction", "pointer", "navigation", "circular", "contained", "outlined", "scroll"],
     category: "Light"
   },
   {
@@ -526,7 +526,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12.001H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment add"],
+    tags: ["comment add", "chat", "message", "feedback", "new", "plus", "create", "discussion", "social"],
     category: "Light"
   },
   {
@@ -537,7 +537,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.0002 9.99994L11.0002 13.9999L9.00024 11.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment check"],
+    tags: ["comment check", "chat", "message", "feedback", "confirm", "done", "verified", "approved", "social"],
     category: "Light"
   },
   {
@@ -548,7 +548,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0002 9.99994L14.0002 13.9999M10.0002 13.9999L14.0002 9.99994" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment close"],
+    tags: ["comment close", "chat", "message", "delete", "remove", "cancel", "speech bubble", "dialogue", "communication", "error", "decline"],
     category: "Light"
   },
   {
@@ -561,7 +561,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="16.5" y="12" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment dots"],
+    tags: ["comment dots", "chat", "message", "typing", "ellipsis", "thinking", "speech bubble", "dialogue", "communication", "activity", "pending"],
     category: "Light"
   },
   {
@@ -572,7 +572,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12.001H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment remove"],
+    tags: ["comment remove", "chat", "message", "delete", "minus", "subtract", "speech bubble", "dialogue", "communication", "remove", "decline"],
     category: "Light"
   },
   {
@@ -582,7 +582,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20.9999C16.9706 20.9999 21 16.9705 21 11.9999C21 7.02938 16.9706 2.99994 12 2.99994C7.02944 2.99994 3 7.02938 3 11.9999C3 13.4876 3.36093 14.8909 4 16.1271L3 20.9999L7.8728 19.9999C9.10904 20.639 10.5124 20.9999 12 20.9999Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment"],
+    tags: ["comment", "chat", "message", "speech bubble", "dialogue", "communication", "feedback", "discussion", "talk", "conversation", "outline"],
     category: "Light"
   },
   {
@@ -593,7 +593,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 14V4" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["dislike"],
+    tags: ["dislike", "thumb down", "negative", "vote", "feedback", "bad", "unlike", "rejection", "social", "evaluation", "reaction"],
     category: "Light"
   },
   {
@@ -604,7 +604,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 5L12 14L21 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["email"],
+    tags: ["email", "mail", "message", "inbox", "contact", "letter", "correspondence", "notification", "send", "receive", "communication"],
     category: "Light"
   },
   {
@@ -615,7 +615,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 10V20" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["like"],
+    tags: ["like", "thumb up", "positive", "vote", "feedback", "good", "agree", "approval", "social", "evaluation", "reaction"],
     category: "Light"
   },
   {
@@ -626,7 +626,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 4L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["phone off"],
+    tags: ["phone off", "call", "mobile", "hang up", "disconnect", "silent", "unavailable", "communication", "end call", "do not disturb", "mute"],
     category: "Light"
   },
   {
@@ -636,7 +636,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19.5063 7.95952C18.0666 13.6147 13.6147 18.0666 7.95953 19.5063C5.81867 20.0513 4 18.2091 4 16V15C4 14.4477 4.44883 14.0053 4.99842 13.9508C5.92696 13.8587 6.81815 13.6397 7.65438 13.3112L9.17366 14.8305C11.6447 13.648 13.648 11.6447 14.8305 9.17367L13.3112 7.65438C13.6397 6.81816 13.8587 5.92696 13.9508 4.99842C14.0053 4.44883 14.4477 4 15 4H16C18.2091 4 20.0513 5.81867 19.5063 7.95952Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["phone"],
+    tags: ["phone", "call", "mobile", "contact", "telephone", "communication", "dial", "receive", "support", "device", "talk"],
     category: "Light"
   },
   {
@@ -648,7 +648,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5.16583 17.8564L4.44703 17.6423L4.3303 18.0343L4.59656 18.3447L5.16583 17.8564ZM18.8341 17.8564L19.4034 18.3447L19.6696 18.0343L19.5529 17.6423L18.8341 17.8564ZM8.99998 15.75H15V14.25H8.99998V15.75ZM8.99998 14.25C6.84741 14.25 5.03109 15.6812 4.44703 17.6423L5.88463 18.0705C6.28452 16.7278 7.52904 15.75 8.99998 15.75V14.25ZM12 20.25C9.49385 20.25 7.24932 19.1335 5.73511 17.3681L4.59656 18.3447C6.38358 20.4281 9.03781 21.75 12 21.75V20.25ZM15 15.75C16.4709 15.75 17.7154 16.7278 18.1153 18.0705L19.5529 17.6423C18.9689 15.6812 17.1525 14.25 15 14.25V15.75ZM18.2648 17.3681C16.7506 19.1335 14.5061 20.25 12 20.25V21.75C14.9621 21.75 17.6164 20.4281 19.4034 18.3447L18.2648 17.3681Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["profile circle"],
+    tags: ["profile circle", "user", "account", "avatar", "person", "my account", "settings", "login", "rounded", "identity", "member"],
     category: "Light"
   },
   {
@@ -659,7 +659,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="11.9999" cy="6.99997" r="3" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["profile"],
+    tags: ["profile", "user", "account", "avatar", "person", "my account", "settings", "login", "identity", "member", "silhouette"],
     category: "Light"
   },
   {
@@ -669,7 +669,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.99988 12L4.39577 6.56299C4.22284 5.0067 5.82456 3.86433 7.2397 4.53465L19.1841 10.1925C20.7092 10.9149 20.7092 13.0851 19.1841 13.8075L7.23971 19.4653C5.82457 20.1357 4.22284 18.9933 4.39577 17.437L4.99988 12ZM4.99988 12H11.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send"],
+    tags: ["send", "message", "email", "paper plane", "submit", "dispatch", "share", "communication", "forward", "deliver", "mail"],
     category: "Light"
   },
   {
@@ -679,7 +679,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.2722 6.00791C16.6191 6.60134 17.263 7 18 7C19.1046 7 20 6.10457 20 5C20 3.89543 19.1046 3 18 3C16.8954 3 16 3.89543 16 5C16 5.36756 16.0991 5.71195 16.2722 6.00791ZM16.2722 6.00791L7.72784 10.9921M7.72784 10.9921C7.38092 10.3987 6.73701 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14C6.73701 14 7.38092 13.6013 7.72784 13.0079M7.72784 10.9921C7.90085 11.288 8 11.6324 8 12C8 12.3676 7.90085 12.712 7.72784 13.0079M7.72784 13.0079L16.2722 17.9921M16.2722 17.9921C16.6191 17.3987 17.263 17 18 17C19.1046 17 20 17.8954 20 19C20 20.1046 19.1046 21 18 21C16.8954 21 16 20.1046 16 19C16 18.6324 16.0991 18.288 16.2722 17.9921Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share 1"],
+    tags: ["share 1", "social", "connect", "distribute", "export", "network", "link", "arrow", "upload", "spread", "interface"],
     category: "Light"
   },
   {
@@ -690,7 +690,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 8.99995H4V18C4 19.1045 4.89543 20 6 20H18C19.1046 20 20 19.1045 20 18V8.99995H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share 2"],
+    tags: ["share 2", "social", "connect", "distribute", "export", "network", "link", "arrow", "upload", "spread", "interface"],
     category: "Light"
   },
   {
@@ -703,7 +703,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 14C11.5194 14 10.2267 14.8044 9.53513 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["confused face"],
+    tags: ["confused face", "emoji", "emoticon", "puzzled", "uncertain", "questioning", "expression", "mood", "reaction", "human", "doubt"],
     category: "Light"
   },
   {
@@ -716,7 +716,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 9.5L7 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["disappointed face"],
+    tags: ["disappointed face", "emoji", "emoticon", "sad", "unhappy", "frown", "expression", "mood", "reaction", "human", "regret"],
     category: "Light"
   },
   {
@@ -729,7 +729,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 9.5H7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["expressionless face"],
+    tags: ["expressionless face", "emoji", "emoticon", "neutral", "blank", "unemotional", "expression", "mood", "reaction", "human", "indifferent"],
     category: "Light"
   },
   {
@@ -741,7 +741,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="15.01" y="9.5" width="0.01" height="0.01" transform="rotate(90 15.01 9.5)" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["face without mouth"],
+    tags: ["face without mouth", "emoji", "emoticon", "silent", "speechless", "mute", "expression", "mood", "reaction", "human", "secret"],
     category: "Light"
   },
   {
@@ -754,7 +754,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="12.01" y="15" width="0.01" height="0.01" transform="rotate(90 12.01 15)" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["face with open mouth"],
+    tags: ["face with open mouth", "emoji", "emoticon", "surprise", "shock", "awe", "expression", "mood", "reaction", "human", "gasp"],
     category: "Light"
   },
   {
@@ -767,7 +767,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.53516 16C9.22678 14.8044 10.5195 14 12 14C13.4806 14 14.7733 14.8044 15.4649 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["frowning face"],
+    tags: ["frowning face", "emoji", "emoticon", "sad", "unhappy", "displeased", "expression", "mood", "reaction", "human", "disappointment"],
     category: "Light"
   },
   {
@@ -780,7 +780,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 16L11 15L13 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["kissing face with smiling eyes"],
+    tags: ["kissing face with smiling eyes", "emoji", "emoticon", "love", "affection", "kiss", "expression", "mood", "romantic", "human", "friendly"],
     category: "Light"
   },
   {
@@ -793,7 +793,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="15.01" y="9.5" width="0.01" height="0.01" transform="rotate(90 15.01 9.5)" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["kissing face"],
+    tags: ["kissing face", "emoji", "emoticon", "love", "affection", "kiss", "expression", "mood", "romantic", "human", "friendly"],
     category: "Light"
   },
   {
@@ -806,7 +806,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 15H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["neutral face"],
+    tags: ["neutral face", "emoji", "emoticon", "expressionless", "blank", "unemotional", "expression", "mood", "reaction", "human", "indifferent"],
     category: "Light"
   },
   {
@@ -819,7 +819,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7.00012 10.5C7.46332 10.6875 7.96964 10.7907 8.50007 10.7907C9.0305 10.7907 9.53682 10.6875 10 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pensive face"],
+    tags: ["pensive face", "emoji", "emoticon", "thoughtful", "sad", "contemplative", "expression", "mood", "reaction", "human", "melancholy"],
     category: "Light"
   },
   {
@@ -832,7 +832,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 10.5C7.4632 10.6875 7.96952 10.7907 8.49995 10.7907C9.03038 10.7907 9.5367 10.6875 9.9999 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["relieved face"],
+    tags: ["relieved face", "emoji", "emoticon", "calm", "relaxed", "peaceful", "expression", "mood", "reaction", "human", "comfort"],
     category: "Light"
   },
   {
@@ -845,7 +845,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.4649 14C14.7732 15.1956 13.4806 16 12 16C10.5194 16 9.22674 15.1956 8.53513 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slightly smiling face"],
+    tags: ["slightly smiling face", "happy", "content", "neutral", "emoji", "feedback", "satisfaction", "mood", "friendly", "line"],
     category: "Light"
   },
   {
@@ -858,7 +858,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L9 9L8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smiling face"],
+    tags: ["smiling face", "joy", "happiness", "positive", "emoji", "feedback", "satisfaction", "mood", "friendly", "line"],
     category: "Light"
   },
   {
@@ -871,7 +871,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 10.5L10 9.5L8 8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["squinting face"],
+    tags: ["squinting face", "joy", "laughter", "happy", "emoji", "feedback", "amused", "mood", "playful", "line"],
     category: "Light"
   },
   {
@@ -884,7 +884,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.5351 10C9.22672 8.8044 10.5194 8 12 8C13.4805 8 14.7732 8.8044 15.4648 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upside", "down face"],
+    tags: ["upside", "down face", "sarcasm", "irony", "playful", "emoji", "feedback", "joking", "mood", "whimsical", "line"],
     category: "Light"
   },
   {
@@ -897,7 +897,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.5 9.5H13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["winking face"],
+    tags: ["winking face", "flirty", "playful", "mischievous", "emoji", "feedback", "secret", "mood", "friendly", "line"],
     category: "Light"
   },
   {
@@ -907,7 +907,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6.00002 15L6.00002 9C6.00002 5.68629 8.68631 3 12 3C15.3137 3 18 5.68629 18 9V17C18 19.2091 16.2092 21 14 21C11.7909 21 10 19.2091 10 17V9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["attachment"],
+    tags: ["attachment", "paperclip", "link", "file", "connect", "email", "message", "document", "ui", "communication", "outline"],
     category: "Light"
   },
   {
@@ -919,7 +919,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0001 13H14.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cloud add"],
+    tags: ["cloud add", "upload", "storage", "new", "create", "data", "backup", "plus", "system", "outline"],
     category: "Light"
   },
   {
@@ -930,7 +930,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.0001 11L11.0001 14L14.0001 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cloud clock"],
+    tags: ["cloud clock", "schedule", "time", "history", "data", "backup", "sync", "pending", "system", "outline"],
     category: "Light"
   },
   {
@@ -948,7 +948,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud download"],
+    tags: ["cloud download", "retrieve", "get", "save", "data", "backup", "arrow", "system", "outline"],
     category: "Light"
   },
   {
@@ -967,7 +967,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud error"],
+    tags: ["cloud error", "warning", "alert", "problem", "issue", "fail", "data", "system", "outline"],
     category: "Light"
   },
   {
@@ -985,7 +985,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud no"],
+    tags: ["cloud no", "deny", "restrict", "forbidden", "access", "data", "cancel", "system", "outline"],
     category: "Light"
   },
   {
@@ -1003,7 +1003,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud off"],
+    tags: ["cloud off", "disconnect", "disabled", "offline", "data", "system", "outline"],
     category: "Light"
   },
   {
@@ -1014,7 +1014,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0001 13H14.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cloud remove"],
+    tags: ["cloud remove", "delete", "minus", "clear", "data", "storage", "system", "outline"],
     category: "Light"
   },
   {
@@ -1032,7 +1032,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud upload"],
+    tags: ["cloud upload", "send", "store", "save", "data", "backup", "arrow", "system", "outline"],
     category: "Light"
   },
   {
@@ -1050,7 +1050,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud yes"],
+    tags: ["cloud yes", "confirm", "approve", "success", "data", "check", "system", "outline"],
     category: "Light"
   },
   {
@@ -1067,7 +1067,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud"],
+    tags: ["cloud", "weather", "storage", "data", "internet", "network", "system", "outline"],
     category: "Light"
   },
   {
@@ -1078,7 +1078,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 7H20V19C20 20.1046 19.1046 21 18 21H10C8.89543 21 8 20.1046 8 19V7Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["copy"],
+    tags: ["copy", "duplicate", "clone", "paste", "content", "document", "action", "ui", "system", "outline"],
     category: "Light"
   },
   {
@@ -1089,7 +1089,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 20H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["download"],
+    tags: ["download", "save", "get", "retrieve", "arrow", "file", "data", "action", "ui", "system", "outline"],
     category: "Light"
   },
   {
@@ -1102,7 +1102,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file add"],
+    tags: ["file add", "new", "create", "document", "plus", "data", "system", "outline"],
     category: "Light"
   },
   {
@@ -1123,7 +1123,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["file audio"],
+    tags: ["file audio", "music", "sound", "media", "document", "wave", "system", "outline"],
     category: "Light"
   },
   {
@@ -1135,7 +1135,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.0001 13L11.0001 17L9.00012 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file check"],
+    tags: ["file check", "confirm", "approve", "success", "document", "validation", "task", "system", "outline"],
     category: "Light"
   },
   {
@@ -1147,7 +1147,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0002 13L14.0002 17M10.0002 17L14.0002 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file close"],
+    tags: ["file close", "exit", "cancel", "delete", "document", "x mark", "system", "outline"],
     category: "Light"
   },
   {
@@ -1160,7 +1160,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 17H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file document"],
+    tags: ["file document", "text", "page", "report", "data", "system", "outline"],
     category: "Light"
   },
   {
@@ -1173,7 +1173,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file image"],
+    tags: ["file image", "picture", "photo", "gallery", "media", "document", "landscape", "system", "outline"],
     category: "Light"
   },
   {
@@ -1185,7 +1185,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file remove"],
+    tags: ["file remove", "delete", "minus", "clear", "document", "system", "outline"],
     category: "Light"
   },
   {
@@ -1197,7 +1197,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14.5L11 16.2321L11 12.7679L14 14.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file video"],
+    tags: ["file video", "movie", "film", "media", "clip", "multimedia", "document", "play", "entertainment", "data"],
     category: "Light"
   },
   {
@@ -1208,7 +1208,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file"],
+    tags: ["file", "document", "data", "page", "record", "paper", "information", "plain", "minimal", "ui"],
     category: "Light"
   },
   {
@@ -1220,7 +1220,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 13H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder add"],
+    tags: ["folder add", "create", "new", "plus", "directory", "storage", "archive", "collection", "positive", "action"],
     category: "Light"
   },
   {
@@ -1231,7 +1231,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 11L11 15L9 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder check"],
+    tags: ["folder check", "verified", "done", "completed", "success", "confirm", "directory", "archive", "status", "positive"],
     category: "Light"
   },
   {
@@ -1242,7 +1242,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0002 11L14.0002 15M10.0002 15L14.0002 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder close"],
+    tags: ["folder close", "closed", "private", "secure", "end", "finish", "directory", "archive", "access", "restricted"],
     category: "Light"
   },
   {
@@ -1255,7 +1255,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="13" y="11" width="4" height="4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder document"],
+    tags: ["folder document", "text", "report", "data", "archive", "directory", "paperwork", "records", "information", "organized"],
     category: "Light"
   },
   {
@@ -1267,7 +1267,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="7.5" y="9.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder image"],
+    tags: ["folder image", "picture", "photo", "gallery", "graphic", "media", "directory", "visuals", "art", "collection"],
     category: "Light"
   },
   {
@@ -1280,7 +1280,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14.0002 12L12.0002 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder music"],
+    tags: ["folder music", "audio", "song", "playlist", "sound", "media", "directory", "melody", "entertainment", "album"],
     category: "Light"
   },
   {
@@ -1291,7 +1291,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 13H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder remove"],
+    tags: ["folder remove", "delete", "minus", "archive", "cancel", "negative", "directory", "action", "clear", "discard"],
     category: "Light"
   },
   {
@@ -1302,7 +1302,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 13L11 14.7321L11 11.2679L14 13Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder video"],
+    tags: ["folder video", "movie", "film", "clip", "media", "multimedia", "directory", "archive", "entertainment", "collection"],
     category: "Light"
   },
   {
@@ -1312,7 +1312,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 17V5H10L12 7H21V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder"],
+    tags: ["folder", "directory", "archive", "storage", "collection", "organize", "data", "documents", "ui", "plain"],
     category: "Light"
   },
   {
@@ -1323,7 +1323,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 20H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload"],
+    tags: ["upload", "send", "transfer", "publish", "share", "arrow up", "cloud", "action", "import", "submit"],
     category: "Light"
   },
   {
@@ -1335,7 +1335,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12L16.3301 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["3d"],
+    tags: ["3d", "dimension", "perspective", "modeling", "design", "depth", "render", "graphic", "object", "visual"],
     category: "Light"
   },
   {
@@ -1353,7 +1353,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M18 18H20V20H18V18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["apps"],
+    tags: ["apps", "applications", "menu", "grid", "dashboard", "launcher", "software", "programs", "ui", "system"],
     category: "Light"
   },
   {
@@ -1364,7 +1364,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["bookmark off"],
+    tags: ["bookmark off", "unmarked", "remove", "delete", "cancel", "favorite", "save", "negative", "action", "outline"],
     category: "Light"
   },
   {
@@ -1374,7 +1374,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 3H8C6.89543 3 6 3.89543 6 5V21L12 18L18 21V5C18 3.89543 17.1046 3 16 3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["bookmark"],
+    tags: ["bookmark", "save", "favorite", "mark", "read later", "collection", "ui", "pin", "important", "filled"],
     category: "Light"
   },
   {
@@ -1387,7 +1387,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7H9V5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["briefcase"],
+    tags: ["briefcase", "business", "work", "job", "portfolio", "career", "professional", "luggage", "corporate", "finance"],
     category: "Light"
   },
   {
@@ -1400,7 +1400,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar 1"],
+    tags: ["calendar 1", "date", "schedule", "event", "appointment", "month", "time", "planner", "classic", "ui"],
     category: "Light"
   },
   {
@@ -1414,7 +1414,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar 2"],
+    tags: ["calendar 2", "date", "schedule", "event", "appointment", "month", "time", "planner", "modern", "ui"],
     category: "Light"
   },
   {
@@ -1429,7 +1429,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar add"],
+    tags: ["calendar add", "new event", "schedule", "create", "plus", "appointment", "positive", "action", "plan", "booking"],
     category: "Light"
   },
   {
@@ -1443,7 +1443,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar remove"],
+    tags: ["calendar remove", "delete event", "cancel", "minus", "clear", "appointment", "negative", "action", "reschedule", "discard"],
     category: "Light"
   },
   {
@@ -1456,7 +1456,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 4H10V9C10 9.55228 9.55228 10 9 10H5C4.44772 10 4 9.55228 4 9V4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["category"],
+    tags: ["category", "sections", "menu", "list", "sort", "filter", "group", "classification", "ui", "organization"],
     category: "Light"
   },
   {
@@ -1467,7 +1467,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 8V13H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["clock"],
+    tags: ["clock", "time", "alarm", "timer", "watch", "hour", "deadline", "schedule", "minimal", "ui"],
     category: "Light"
   },
   {
@@ -1478,7 +1478,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.3074 9.73851L15 9L14.2615 12.6926C14.1031 13.4843 13.4843 14.1031 12.6926 14.2615L9 15L9.73851 11.3074C9.89686 10.5157 10.5157 9.89686 11.3074 9.73851Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["discover"],
+    tags: ["discover", "explore", "compass", "find", "adventure", "location", "navigation", "journey", "search", "map"],
     category: "Light"
   },
   {
@@ -1490,7 +1490,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 20H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["edit"],
+    tags: ["edit", "write", "pencil", "modify", "update", "compose", "create", "document", "action", "tool"],
     category: "Light"
   },
   {
@@ -1501,7 +1501,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 4L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["eye off"],
+    tags: ["eye off", "hidden", "invisible", "private", "disabled", "toggle", "security", "privacy", "ui", "interface"],
     category: "Light"
   },
   {
@@ -1512,7 +1512,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2 12C3.60014 7.90264 7.33603 5 12 5C16.664 5 20.3999 7.90264 22 12C20.3999 16.0974 16.664 19 12 19C7.33603 19 3.60014 16.0974 2 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["eye"],
+    tags: ["eye", "view", "visible", "show", "watch", "preview", "security", "privacy", "ui", "interface"],
     category: "Light"
   },
   {
@@ -1522,7 +1522,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3L8 5M8 21L8 13M8 5L20 5L18 9L20 13L8 13M8 5L8 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["flag"],
+    tags: ["flag", "report", "bookmark", "mark", "goal", "country", "achievement", "location", "ui"],
     category: "Light"
   },
   {
@@ -1536,7 +1536,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 11V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["gift"],
+    tags: ["gift", "present", "reward", "bonus", "celebration", "loyalty", "ecommerce", "holiday", "commerce"],
     category: "Light"
   },
   {
@@ -1547,7 +1547,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["heart off"],
+    tags: ["heart off", "dislike", "unfavorite", "unlike", "broken", "disabled", "emotion", "social", "ui"],
     category: "Light"
   },
   {
@@ -1557,7 +1557,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19.0711 13.1421L13.4142 18.799C12.6332 19.58 11.3668 19.58 10.5858 18.799L4.92894 13.1421C2.97632 11.1895 2.97632 8.02369 4.92894 6.07106C6.88157 4.11844 10.0474 4.11844 12 6.07106C13.9526 4.11844 17.1185 4.11844 19.0711 6.07106C21.0237 8.02369 21.0237 11.1895 19.0711 13.1421Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["heart"],
+    tags: ["heart", "like", "favorite", "love", "passion", "emotion", "health", "social", "ui"],
     category: "Light"
   },
   {
@@ -1567,7 +1567,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19.75 10C19.75 9.58579 19.4142 9.25 19 9.25C18.5858 9.25 18.25 9.58579 18.25 10H19.75ZM5.75 10C5.75 9.58579 5.41421 9.25 5 9.25C4.58579 9.25 4.25 9.58579 4.25 10H5.75ZM20.4697 12.5303C20.7626 12.8232 21.2374 12.8232 21.5303 12.5303C21.8232 12.2374 21.8232 11.7626 21.5303 11.4697L20.4697 12.5303ZM12 3L12.5303 2.46967C12.2374 2.17678 11.7626 2.17678 11.4697 2.46967L12 3ZM2.46967 11.4697C2.17678 11.7626 2.17678 12.2374 2.46967 12.5303C2.76256 12.8232 3.23744 12.8232 3.53033 12.5303L2.46967 11.4697ZM7 21.75H17V20.25H7V21.75ZM19.75 19V10H18.25V19H19.75ZM5.75 19V10H4.25V19H5.75ZM21.5303 11.4697L12.5303 2.46967L11.4697 3.53033L20.4697 12.5303L21.5303 11.4697ZM11.4697 2.46967L2.46967 11.4697L3.53033 12.5303L12.5303 3.53033L11.4697 2.46967ZM17 21.75C18.5188 21.75 19.75 20.5188 19.75 19H18.25C18.25 19.6904 17.6904 20.25 17 20.25V21.75ZM7 20.25C6.30964 20.25 5.75 19.6904 5.75 19H4.25C4.25 20.5188 5.48122 21.75 7 21.75V20.25Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["home"],
+    tags: ["home", "house", "dashboard", "homepage", "start", "residence", "navigation", "ui", "building"],
     category: "Light"
   },
   {
@@ -1577,7 +1577,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 14L13 2V10H18L11 22V14H6Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lightning 1"],
+    tags: ["lightning 1", "bolt", "flash", "energy", "power", "speed", "weather", "alert", "fast"],
     category: "Light"
   },
   {
@@ -1587,7 +1587,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 14H6L9.5 2H16L13 10H18L10 22L11 14Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lightning 2"],
+    tags: ["lightning 2", "bolt", "flash", "energy", "power", "speed", "weather", "alert", "fast"],
     category: "Light"
   },
   {
@@ -1598,7 +1598,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6.02248 6.02233C3.47176 9.07819 3.63092 13.631 6.49998 16.5L12 22L17.0001 16.9999M9.34428 3.68727C12.0947 2.69049 15.2947 3.29473 17.5 5.50001C19.7052 7.70528 20.3095 10.9053 19.3127 13.6557" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["location pin off"],
+    tags: ["location pin off", "unpin", "disabled", "hide location", "private", "map", "navigation", "ui"],
     category: "Light"
   },
   {
@@ -1609,7 +1609,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 22L17.5 16.5C20.5376 13.4624 20.5376 8.53757 17.5 5.5C14.4624 2.46244 9.53757 2.46244 6.5 5.5C3.46244 8.53757 3.46244 13.4624 6.5 16.5L12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["location pin"],
+    tags: ["location pin", "pin", "marker", "place", "address", "map", "navigation", "gps", "ui"],
     category: "Light"
   },
   {
@@ -1619,7 +1619,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5.25201 9.97523L16.9111 4.42326C18.6115 3.61355 20.3864 5.38846 19.5767 7.08885L14.0248 18.748C13.2661 20.3413 10.966 20.2427 10.3464 18.5904L9.3192 15.8512C9.11639 15.3104 8.68964 14.8836 8.14879 14.6808L5.40963 13.6536C3.75729 13.034 3.65873 10.7339 5.25201 9.97523Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["location"],
+    tags: ["location", "pin", "marker", "place", "address", "map", "navigation", "gps", "ui"],
     category: "Light"
   },
   {
@@ -1631,7 +1631,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="14.5" y="15.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lock off"],
+    tags: ["lock off", "unlock", "open", "unsecured", "disabled", "privacy", "security", "access", "ui"],
     category: "Light"
   },
   {
@@ -1643,7 +1643,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="14.5" y="15.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lock"],
+    tags: ["lock", "secure", "private", "closed", "password", "security", "access", "protected", "ui"],
     category: "Light"
   },
   {
@@ -1682,7 +1682,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 7L12 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mouse"],
+    tags: ["mouse", "cursor", "click", "device", "computer", "peripheral", "input", "hardware", "ui"],
     category: "Light"
   },
   {
@@ -1695,7 +1695,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 12L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["news"],
+    tags: ["news", "article", "feed", "updates", "information", "magazine", "blog", "media", "communication"],
     category: "Light"
   },
   {
@@ -1708,7 +1708,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["notification off"],
+    tags: ["notification off", "mute", "silent", "disabled", "alert off", "bell off", "ui", "interface", "communication"],
     category: "Light"
   },
   {
@@ -1720,7 +1720,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="3" r="1" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["notification"],
+    tags: ["notification", "alert", "bell", "message", "updates", "reminder", "ui", "interface", "communication"],
     category: "Light"
   },
   {
@@ -1735,7 +1735,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="15" cy="8" r="2" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["options"],
+    tags: ["options", "settings", "preferences", "configure", "menu", "choices", "control", "ui", "system"],
     category: "Light"
   },
   {
@@ -1748,7 +1748,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 15H16V21H8V15Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["printer"],
+    tags: ["printer", "print", "document", "output", "hardcopy", "office", "device", "file", "system"],
     category: "Light"
   },
   {
@@ -1762,7 +1762,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 7.99976L4 5.99976C4 4.89519 4.89543 3.99976 6 3.99976L8 3.99976" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scanner"],
+    tags: ["scanner", "scan", "document", "digitize", "barcode", "qr code", "device", "file", "system"],
     category: "Light"
   },
   {
@@ -1772,7 +1772,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 21L16.6569 16.6569M16.6569 16.6569C18.1046 15.2091 19 13.2091 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C13.2091 19 15.2091 18.1046 16.6569 16.6569Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search"],
+    tags: ["search", "find", "magnify", "explore", "lookup", "discover", "query", "ui", "navigation"],
     category: "Light"
   },
   {
@@ -1783,7 +1783,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5.39856 5.87922L5.77356 5.2297C5.47052 5.05473 5.08675 5.11258 4.84875 5.36911L5.39856 5.87922ZM3.40061 9.3446L2.68394 9.12349C2.58078 9.45787 2.72256 9.81916 3.02561 9.99412L3.40061 9.3446ZM3.3989 14.6564L3.0239 14.0069C2.72056 14.182 2.57883 14.5438 2.6825 14.8784L3.3989 14.6564ZM5.39889 18.1205L4.84846 18.63C5.08638 18.887 5.47055 18.9452 5.77389 18.7701L5.39889 18.1205ZM9.99994 20.775L9.24994 20.775C9.24994 21.1249 9.49194 21.4284 9.8331 21.5062L9.99994 20.775ZM14 20.7774L14.1669 21.5086C14.5081 21.4308 14.75 21.1273 14.75 20.7774L14 20.7774ZM18.6014 18.1208L18.2264 18.7703C18.5295 18.9453 18.9132 18.8874 19.1512 18.6309L18.6014 18.1208ZM20.5994 14.6554L21.3161 14.8765C21.4192 14.5422 21.2774 14.1809 20.9744 14.0059L20.5994 14.6554ZM20.6011 9.34354L20.9761 9.99306C21.2794 9.81793 21.4212 9.45615 21.3175 9.12157L20.6011 9.34354ZM18.6011 5.87944L19.1515 5.37001C18.9136 5.11294 18.5294 5.05479 18.2261 5.22992L18.6011 5.87944ZM14 3.22501L14.75 3.22501C14.75 2.87508 14.508 2.57165 14.1669 2.4938L14 3.22501ZM9.99994 3.2226L9.83308 2.4914C9.49193 2.56925 9.24994 2.87268 9.24995 3.2226L9.99994 3.2226ZM14 5.07175L13.25 5.07175L14 5.07175ZM19 13.732L18.625 14.3815L19 13.732ZM17 17.1962L16.625 17.8458L17 17.1962ZM4.99992 13.7321L5.37492 14.3816L4.99992 13.7321ZM6.99994 6.80377L6.62494 7.45329L6.99994 6.80377ZM4.11727 9.56572C4.47787 8.397 5.09686 7.30711 5.94837 6.38932L4.84875 5.36911C3.84079 6.45551 3.10955 7.74405 2.68394 9.12349L4.11727 9.56572ZM4.85529 16.125C4.5397 15.5784 4.2941 15.0115 4.1153 14.4344L2.6825 14.8784C2.89413 15.5614 3.18444 16.231 3.55625 16.875L4.85529 16.125ZM5.94933 17.6111C5.53899 17.1677 5.17087 16.6716 4.85529 16.125L3.55625 16.875C3.92805 17.519 4.36278 18.1052 4.84846 18.63L5.94933 17.6111ZM13.8332 20.0462C12.6126 20.3248 11.3592 20.3159 10.1668 20.0438L9.8331 21.5062C11.2405 21.8273 12.7221 21.8383 14.1669 21.5086L13.8332 20.0462ZM19.8827 14.4343C19.5221 15.603 18.9031 16.6929 18.0516 17.6107L19.1512 18.6309C20.1592 17.5445 20.8905 16.256 21.3161 14.8765L19.8827 14.4343ZM19.1447 7.87501C19.4603 8.42161 19.7059 8.98848 19.8847 9.56552L21.3175 9.12157C21.1059 8.43858 20.8155 7.76898 20.4437 7.12501L19.1447 7.87501ZM18.0506 6.38888C18.461 6.83225 18.8291 7.32839 19.1447 7.87501L20.4437 7.12501C20.0719 6.48101 19.6372 5.89479 19.1515 5.37001L18.0506 6.38888ZM10.1668 3.9538C11.3874 3.67526 12.6408 3.68414 13.8332 3.95622L14.1669 2.4938C12.7594 2.17267 11.2779 2.16168 9.83308 2.4914L10.1668 3.9538ZM10.7499 5.07172L10.7499 3.2226L9.24995 3.2226L9.24995 5.07172L10.7499 5.07172ZM7.37494 6.15426L5.77356 5.2297L5.02356 6.52873L6.62494 7.45329L7.37494 6.15426ZM4.62492 13.0825L3.0239 14.0069L3.7739 15.3059L5.37492 14.3816L4.62492 13.0825ZM5.37492 9.61845L3.77561 8.69509L3.02561 9.99412L4.62492 10.9175L5.37492 9.61845ZM10.7499 20.775L10.7499 18.9282L9.24994 18.9282L9.24994 20.775L10.7499 20.775ZM6.62494 16.5466L5.02389 17.471L5.77389 18.7701L7.37494 17.8457L6.62494 16.5466ZM18.9764 17.4713L17.375 16.5467L16.625 17.8458L18.2264 18.7703L18.9764 17.4713ZM14.75 20.7774L14.75 18.9283L13.25 18.9283L13.25 20.7774L14.75 20.7774ZM20.2261 8.69402L18.625 9.6184L19.375 10.9174L20.9761 9.99306L20.2261 8.69402ZM20.9744 14.0059L19.375 13.0825L18.625 14.3815L20.2244 15.3049L20.9744 14.0059ZM14.75 5.07175L14.75 3.22501L13.25 3.22501L13.25 5.07175L14.75 5.07175ZM18.2261 5.22992L16.625 6.15428L17.375 7.45332L18.9761 6.52896L18.2261 5.22992ZM13.25 5.07175C13.25 7.1887 15.5417 8.51179 17.375 7.45332L16.625 6.15428C15.7917 6.6354 14.75 6.034 14.75 5.07175L13.25 5.07175ZM18.625 9.6184C16.7917 10.6769 16.7917 13.3231 18.625 14.3815L19.375 13.0825C18.5417 12.6014 18.5417 11.3986 19.375 10.9174L18.625 9.6184ZM17.375 16.5467C15.5417 15.4882 13.25 16.8113 13.25 18.9283L14.75 18.9283C14.75 17.966 15.7917 17.3646 16.625 17.8458L17.375 16.5467ZM10.7499 18.9282C10.7499 16.8113 8.45828 15.4882 6.62494 16.5466L7.37494 17.8457C8.20828 17.3646 9.24994 17.966 9.24994 18.9282L10.7499 18.9282ZM5.37492 14.3816C7.20825 13.3231 7.20825 10.6769 5.37492 9.61845L4.62492 10.9175C5.45825 11.3986 5.45825 12.6014 4.62492 13.0825L5.37492 14.3816ZM9.24995 5.07172C9.24995 6.03397 8.20828 6.63538 7.37494 6.15426L6.62494 7.45329C8.45828 8.51177 10.7499 7.18868 10.7499 5.07172L9.24995 5.07172Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["settings"],
+    tags: ["settings", "gear", "cog", "preferences", "options", "control", "configure", "system", "ui"],
     category: "Light"
   },
   {
@@ -1794,7 +1794,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L14 14M10 14L14 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield no"],
+    tags: ["shield no", "security", "protection", "denied", "access", "blocked", "error", "alert", "filled", "flat", "warning"],
     category: "Light"
   },
   {
@@ -1805,7 +1805,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield off"],
+    tags: ["shield off", "security", "protection", "disabled", "inactive", "vulnerable", "unprotected", "alert", "outlined", "warning"],
     category: "Light"
   },
   {
@@ -1816,7 +1816,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 10L11 14L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield yes"],
+    tags: ["shield yes", "security", "protection", "approved", "access", "granted", "verified", "safe", "filled", "flat", "success"],
     category: "Light"
   },
   {
@@ -1826,7 +1826,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 3L12.2954 2.31064C12.1068 2.22979 11.8932 2.22979 11.7046 2.31064L12 3ZM12 21L11.6279 21.6512C11.8585 21.7829 12.1415 21.7829 12.3721 21.6512L12 21ZM18.3939 5.74025L18.0985 6.42961L18.3939 5.74025ZM8.02317 18.7275L7.65106 19.3787L8.02317 18.7275ZM11.7046 2.31064L5.31064 5.05089L5.90152 6.42961L12.2954 3.68936L11.7046 2.31064ZM4.25 6.6594V13.5181H5.75V6.6594H4.25ZM7.65106 19.3787L11.6279 21.6512L12.3721 20.3488L8.39527 18.0763L7.65106 19.3787ZM12.3721 21.6512L16.3489 19.3787L15.6047 18.0763L11.6279 20.3488L12.3721 21.6512ZM19.75 13.5181V6.6594H18.25V13.5181H19.75ZM18.6894 5.05089L12.2954 2.31064L11.7046 3.68936L18.0985 6.42961L18.6894 5.05089ZM19.75 6.6594C19.75 5.95935 19.3328 5.32666 18.6894 5.05089L18.0985 6.42961C18.1904 6.469 18.25 6.55939 18.25 6.6594H19.75ZM16.3489 19.3787C18.4521 18.1769 19.75 15.9403 19.75 13.5181H18.25C18.25 15.4021 17.2405 17.1416 15.6047 18.0763L16.3489 19.3787ZM4.25 13.5181C4.25 15.9403 5.54793 18.1769 7.65106 19.3787L8.39527 18.0763C6.7595 17.1416 5.75 15.4021 5.75 13.5181H4.25ZM5.31064 5.05089C4.6672 5.32665 4.25 5.95935 4.25 6.6594H5.75C5.75 6.55939 5.8096 6.469 5.90152 6.42961L5.31064 5.05089Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["shield"],
+    tags: ["shield", "security", "protection", "safety", "defense", "privacy", "guard", "secure", "outlined", "neutral"],
     category: "Light"
   },
   {
@@ -1837,7 +1837,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star off"],
+    tags: ["star off", "favorite", "rating", "unfavorite", "disabled", "inactive", "bookmark", "outlined", "ui"],
     category: "Light"
   },
   {
@@ -1847,7 +1847,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 2L15.1035 8.72839L22.4616 9.60081L17.0216 14.6316L18.4656 21.8992L12 18.28L5.53437 21.8992L6.97843 14.6316L1.53839 9.60081L8.89651 8.72839L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star"],
+    tags: ["star", "favorite", "rating", "bookmark", "highlight", "important", "filled", "ui", "success"],
     category: "Light"
   },
   {
@@ -1859,7 +1859,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7L9 3H15L17 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trash simple"],
+    tags: ["trash simple", "delete", "remove", "bin", "garbage", "discard", "empty", "outlined", "minimal", "ui"],
     category: "Light"
   },
   {
@@ -1873,7 +1873,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7L9 3H15L17 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "discard", "empty", "filled", "ui", "warning"],
     category: "Light"
   },
   {
@@ -1885,7 +1885,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 11H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["zoom in"],
+    tags: ["zoom in", "magnify", "enlarge", "plus", "search", "focus", "outlined", "ui", "tool"],
     category: "Light"
   },
   {
@@ -1896,7 +1896,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 11H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["zoom out"],
+    tags: ["zoom out", "magnify", "shrink", "minus", "search", "reduce", "outlined", "ui", "tool"],
     category: "Light"
   },
   {
@@ -1908,7 +1908,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12L12 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["attention circle"],
+    tags: ["attention circle", "warning", "alert", "error", "caution", "important", "notification", "circular", "filled", "ui"],
     category: "Light"
   },
   {
@@ -1920,7 +1920,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12L12 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["attention square"],
+    tags: ["attention square", "warning", "alert", "error", "caution", "important", "notification", "square", "filled", "ui"],
     category: "Light"
   },
   {
@@ -1932,7 +1932,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 10.0001L15 14.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["backspace"],
+    tags: ["backspace", "delete", "erase", "keyboard", "input", "undo", "arrow", "ui", "navigation"],
     category: "Light"
   },
   {
@@ -1942,7 +1942,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5 17L19 7L12 3V21L19 17L5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["bluetooth"],
+    tags: ["bluetooth", "wireless", "connection", "device", "pairing", "technology", "outlined", "system"],
     category: "Light"
   },
   {
@@ -1953,7 +1953,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 10L11 14L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["check circle 1"],
+    tags: ["check circle 1", "done", "verified", "complete", "approved", "success", "task", "circular", "filled", "ui"],
     category: "Light"
   },
   {
@@ -1964,7 +1964,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 11.9999C21 16.9704 16.9706 20.9999 12 20.9999C7.02944 20.9999 3 16.9704 3 11.9999C3 7.02931 7.02944 2.99988 12 2.99988" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["check circle 2"],
+    tags: ["check circle 2", "done", "verified", "complete", "approved", "success", "task", "circular", "outlined", "ui"],
     category: "Light"
   },
   {
@@ -1975,7 +1975,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 10L11 14L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["check square"],
+    tags: ["check square", "done", "verified", "complete", "approved", "success", "task", "square", "outlined", "ui"],
     category: "Light"
   },
   {
@@ -1992,7 +1992,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["check"],
+    tags: ["check", "done", "verified", "complete", "approved", "success", "task", "tick", "ui", "confirmation"],
     category: "Light"
   },
   {
@@ -2004,7 +2004,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close circle 1"],
+    tags: ["close circle 1", "cancel", "exit", "error", "remove", "delete", "stop", "circular", "filled", "ui"],
     category: "Light"
   },
   {
@@ -2016,7 +2016,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.9999 4.99998L19 7.99985" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close circle 2"],
+    tags: ["close circle 2", "cancel", "exit", "error", "remove", "delete", "stop", "circular", "outlined", "ui"],
     category: "Light"
   },
   {
@@ -2028,7 +2028,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close square"],
+    tags: ["close square", "cancel", "exit", "error", "remove", "delete", "stop", "square", "outlined", "ui"],
     category: "Light"
   },
   {
@@ -2038,7 +2038,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7L17 17M7 17L17 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close"],
+    tags: ["close", "cancel", "exit", "error", "remove", "delete", "stop", "x mark", "ui", "warning"],
     category: "Light"
   },
   {
@@ -2055,7 +2055,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["compare"],
+    tags: ["compare", "comparison", "versus", "difference", "options", "analysis", "outlined", "ui"],
     category: "Light"
   },
   {
@@ -2068,7 +2068,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 9L9 12L6 15L3 12L6 9Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["component"],
+    tags: ["component", "module", "part", "block", "element", "building", "structure", "outlined", "system", "tool"],
     category: "Light"
   },
   {
@@ -2078,7 +2078,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 21L4 4L21 11L14.7353 13.6849C14.2633 13.8872 13.8872 14.2633 13.6849 14.7353L11 21Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cursor"],
+    tags: ["cursor", "pointer", "mouse", "select", "click", "interaction", "arrow", "ui", "navigation"],
     category: "Light"
   },
   {
@@ -2088,7 +2088,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.5303 5.46967C16.2374 5.17678 15.7626 5.17678 15.4697 5.46967C15.1768 5.76256 15.1768 6.23744 15.4697 6.53033L16.5303 5.46967ZM19 9L19.5303 9.53033C19.8232 9.23744 19.8232 8.76256 19.5303 8.46967L19 9ZM15.4697 11.4697C15.1768 11.7626 15.1768 12.2374 15.4697 12.5303C15.7626 12.8232 16.2374 12.8232 16.5303 12.5303L15.4697 11.4697ZM19 17.75C19.4142 17.75 19.75 17.4142 19.75 17C19.75 16.5858 19.4142 16.25 19 16.25V17.75ZM15.4697 6.53033L18.4697 9.53033L19.5303 8.46967L16.5303 5.46967L15.4697 6.53033ZM18.4697 8.46967L15.4697 11.4697L16.5303 12.5303L19.5303 9.53033L18.4697 8.46967ZM19 8.25H8V9.75H19V8.25ZM3.25 13C3.25 15.6234 5.37665 17.75 8 17.75V16.25C6.20507 16.25 4.75 14.7949 4.75 13H3.25ZM8 8.25C5.37665 8.25 3.25 10.3766 3.25 13H4.75C4.75 11.2051 6.20507 9.75 8 9.75V8.25ZM19 16.25H8V17.75H19V16.25Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["do ", "  redo"],
+    tags: ["do", "redo", "forward", "repeat", "action", "circular", "arrow", "next", "undo"],
     category: "Light"
   },
   {
@@ -2098,7 +2098,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.53033 6.53033C8.82322 6.23744 8.82322 5.76256 8.53033 5.46967C8.23744 5.17678 7.76256 5.17678 7.46967 5.46967L8.53033 6.53033ZM5 9L4.46967 8.46967C4.17678 8.76256 4.17678 9.23744 4.46967 9.53033L5 9ZM7.46967 12.5303C7.76256 12.8232 8.23744 12.8232 8.53033 12.5303C8.82322 12.2374 8.82322 11.7626 8.53033 11.4697L7.46967 12.5303ZM5 16.25C4.58579 16.25 4.25 16.5858 4.25 17C4.25 17.4142 4.58579 17.75 5 17.75V16.25ZM7.46967 5.46967L4.46967 8.46967L5.53033 9.53033L8.53033 6.53033L7.46967 5.46967ZM4.46967 9.53033L7.46967 12.5303L8.53033 11.4697L5.53033 8.46967L4.46967 9.53033ZM5 9.75H16V8.25H5V9.75ZM19.25 13C19.25 14.7949 17.7949 16.25 16 16.25V17.75C18.6234 17.75 20.75 15.6234 20.75 13H19.25ZM16 9.75C17.7949 9.75 19.25 11.2051 19.25 13H20.75C20.75 10.3766 18.6234 8.25 16 8.25V9.75ZM5 17.75H16V16.25H5V17.75Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["do ", "  undo"],
+    tags: ["do", "undo", "back", "previous", "action", "circular", "arrow", "reverse", "redo"],
     category: "Light"
   },
   {
@@ -2116,7 +2116,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["enter"],
+    tags: ["enter", "login", "sign in", "arrow", "door", "access", "onboarding", "gateway"],
     category: "Light"
   },
   {
@@ -2134,7 +2134,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["exit"],
+    tags: ["exit", "logout", "sign out", "arrow", "door", "leave", "close", "departure"],
     category: "Light"
   },
   {
@@ -2147,7 +2147,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 3L6 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["frame"],
+    tags: ["frame", "picture", "image", "gallery", "border", "layout", "window", "placeholder"],
     category: "Light"
   },
   {
@@ -2157,7 +2157,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 4H4L9.6 11.4667C9.85964 11.8129 10 12.2339 10 12.6667V20L14 18V12.6667C14 12.2339 14.1404 11.8129 14.4 11.4667L20 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["funnel"],
+    tags: ["funnel", "filter", "sort", "data", "conversion", "process", "refine", "marketing"],
     category: "Light"
   },
   {
@@ -2169,7 +2169,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 8L11 13L16 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["history"],
+    tags: ["history", "time", "past", "timeline", "clock", "recent", "activity", "log"],
     category: "Light"
   },
   {
@@ -2181,7 +2181,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["information circle"],
+    tags: ["information circle", "info", "details", "help", "about", "faq", "circular", "support", "guidance"],
     category: "Light"
   },
   {
@@ -2193,7 +2193,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["information square"],
+    tags: ["information square", "info", "details", "help", "about", "faq", "square", "support", "guidance"],
     category: "Light"
   },
   {
@@ -2205,7 +2205,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 4H20V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["link external"],
+    tags: ["link external", "share", "new tab", "redirect", "open", "web", "url", "hyperlink"],
     category: "Light"
   },
   {
@@ -2217,7 +2217,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 8H18C20.2091 8 22 9.79086 22 12C22 14.2091 20.2091 16 18 16H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["link"],
+    tags: ["link", "attach", "chain", "connect", "url", "hyperlink", "connection", "web"],
     category: "Light"
   },
   {
@@ -2234,7 +2234,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu burger horizontal"],
+    tags: ["menu burger horizontal", "hamburger", "navigation", "options", "collapsed", "mobile", "horizontal", "lines"],
     category: "Light"
   },
   {
@@ -2251,7 +2251,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu burger vertical"],
+    tags: ["menu burger vertical", "hamburger", "navigation", "options", "collapsed", "mobile", "vertical", "lines"],
     category: "Light"
   },
   {
@@ -2271,7 +2271,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab horizontal circle"],
+    tags: ["menu kebab horizontal circle", "options", "more", "settings", "dots", "circular", "horizontal", "context"],
     category: "Light"
   },
   {
@@ -2291,7 +2291,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab horizontal square"],
+    tags: ["menu kebab horizontal square", "options", "more", "settings", "dots", "square", "horizontal", "context"],
     category: "Light"
   },
   {
@@ -2310,7 +2310,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab horizontal"],
+    tags: ["menu kebab horizontal", "options", "more", "settings", "dots", "horizontal", "context", "actions"],
     category: "Light"
   },
   {
@@ -2330,7 +2330,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab vertical circle"],
+    tags: ["menu kebab vertical circle", "options", "more", "settings", "dots", "circular", "vertical", "context"],
     category: "Light"
   },
   {
@@ -2350,7 +2350,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab vertical square"],
+    tags: ["menu kebab vertical square", "options", "more", "settings", "dots", "square", "vertical", "context"],
     category: "Light"
   },
   {
@@ -2369,7 +2369,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab vertical"],
+    tags: ["menu kebab vertical", "options", "more", "settings", "dots", "vertical", "context", "actions"],
     category: "Light"
   },
   {
@@ -2380,7 +2380,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19 14L21 12M21 12L19 10M21 12L3 12M3 12L5 14M3 12L5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["move"],
+    tags: ["move", "drag", "reorder", "arrows", "position", "relocate", "shift", "transfer"],
     category: "Light"
   },
   {
@@ -2392,7 +2392,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 3L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pen"],
+    tags: ["pen", "edit", "write", "draw", "create", "compose", "pencil", "annotate"],
     category: "Light"
   },
   {
@@ -2404,7 +2404,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5858 7.58572C10.9754 7.1961 11.4858 7.00083 11.9965 6.99994C12.5095 6.99904 13.0228 7.1943 13.4142 7.58572C13.8047 7.97625 14 8.48809 14 8.99994C14 9.51178 13.8047 10.0236 13.4142 10.4141C13.0228 10.8056 12.5095 11.0008 11.9965 10.9999L12 11.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["question mark circle"],
+    tags: ["question mark circle", "help", "faq", "query", "support", "info", "circular", "unknown"],
     category: "Light"
   },
   {
@@ -2416,7 +2416,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5858 7.58572C10.9754 7.1961 11.4858 7.00083 11.9965 6.99994C12.5095 6.99904 13.0228 7.1943 13.4142 7.58572C13.8047 7.97625 14 8.48809 14 8.99994C14 9.51178 13.8047 10.0236 13.4142 10.4141C13.0228 10.8056 12.5095 11.0008 11.9965 10.9999L12 11.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["question mark square"],
+    tags: ["question mark square", "help", "faq", "query", "support", "info", "square", "unknown"],
     category: "Light"
   },
   {
@@ -2427,7 +2427,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 4.49988H7V8.49988" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restart"],
+    tags: ["restart", "refresh", "reload", "reset", "loop", "circular", "arrow", "begin"],
     category: "Light"
   },
   {
@@ -2440,7 +2440,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 20L6 20C4.89543 20 4 19.1046 4 18L4 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen full"],
+    tags: ["screen full", "fullscreen", "expand", "maximize", "display", "view", "monitor", "presentation"],
     category: "Light"
   },
   {
@@ -2453,7 +2453,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 15L7 15C8.10457 15 9 15.8954 9 17L9 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen normal"],
+    tags: ["screen normal", "display", "monitor", "device", "ui", "interface", "minimal", "rectangle", "view", "presentation"],
     category: "Light"
   },
   {
@@ -2463,7 +2463,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 6H20M7 12H17M11 18H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting center"],
+    tags: ["sorting center", "align", "distribute", "layout", "arrangement", "centered", "ui", "tool", "organization", "grid"],
     category: "Light"
   },
   {
@@ -2473,7 +2473,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 6H20M4 12H14M4 18H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting left"],
+    tags: ["sorting left", "align", "distribute", "layout", "arrangement", "left-aligned", "ui", "tool", "organization", "grid"],
     category: "Light"
   },
   {
@@ -2483,7 +2483,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 6H20M10 12H20M16 18H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting right"],
+    tags: ["sorting right", "align", "distribute", "layout", "arrangement", "right-aligned", "ui", "tool", "organization", "grid"],
     category: "Light"
   },
   {
@@ -2494,7 +2494,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 16L17 20M17 20L21 16M17 20L17 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swap"],
+    tags: ["swap", "exchange", "transfer", "switch", "trade", "arrows", "change", "rearrange", "bidirectional"],
     category: "Light"
   },
   {
@@ -2507,7 +2507,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.5 20.9998L4.5 16.9998L8.5 16.9998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["synchronize"],
+    tags: ["synchronize", "sync", "refresh", "update", "arrows", "circular", "process", "data", "connection", "reload"],
     category: "Light"
   },
   {
@@ -2517,7 +2517,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5 7V6C5 4.89543 5.89543 4 7 4H12M19 7V6C19 4.89543 18.1046 4 17 4H12M12 4V20M12 20H9M12 20H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["type"],
+    tags: ["type", "text", "font", "typography", "writing", "keyboard", "input", "document", "edit", "letter"],
     category: "Light"
   },
   {
@@ -2527,7 +2527,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20.25C7.44365 20.25 3.75 16.5563 3.75 12H2.25C2.25 17.3848 6.61522 21.75 12 21.75V20.25ZM12 3.75C16.5563 3.75 20.25 7.44365 20.25 12H21.75C21.75 6.61522 17.3848 2.25 12 2.25V3.75ZM3.75 12C3.75 9.72162 4.67259 7.66015 6.16637 6.16637L5.10571 5.10571C3.34213 6.86929 2.25 9.30782 2.25 12H3.75ZM6.16637 6.16637C7.66015 4.67259 9.72162 3.75 12 3.75V2.25C9.30782 2.25 6.86929 3.34213 5.10571 5.10571L6.16637 6.16637ZM5.10571 6.16637L17.8336 18.8943L18.8943 17.8336L6.16637 5.10571L5.10571 6.16637ZM20.25 12C20.25 14.2784 19.3274 16.3399 17.8336 17.8336L18.8943 18.8943C20.6579 17.1307 21.75 14.6922 21.75 12H20.25ZM17.8336 17.8336C16.3399 19.3274 14.2784 20.25 12 20.25V21.75C14.6922 21.75 17.1307 20.6579 18.8943 18.8943L17.8336 17.8336Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["unavailable"],
+    tags: ["unavailable", "blocked", "restricted", "access denied", "error", "alert", "warning", "forbidden", "stop", "no entry"],
     category: "Light"
   },
   {
@@ -2542,7 +2542,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 17H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calculator"],
+    tags: ["calculator", "math", "arithmetic", "tool", "finance", "accounting", "numbers", "calculation", "education", "business"],
     category: "Light"
   },
   {
@@ -2553,7 +2553,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 0 circle"],
+    tags: ["number 0 circle", "zero", "digit", "count", "quantity", "circular", "empty", "null", "placeholder", "minimal"],
     category: "Light"
   },
   {
@@ -2564,7 +2564,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 17C13.6569 17 15 15.6009 15 13.875V10.125C15 8.39911 13.6569 7 12 7C10.3431 7 9 8.39911 9 10.125V13.875C9 15.6009 10.3431 17 12 17Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 0 square"],
+    tags: ["number 0 square", "zero", "digit", "count", "quantity", "square", "empty", "null", "placeholder", "minimal"],
     category: "Light"
   },
   {
@@ -2574,7 +2574,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20C14.7614 20 17 17.7614 17 15V9C17 6.23858 14.7614 4 12 4C9.23858 4 7 6.23858 7 9V15C7 17.7614 9.23858 20 12 20Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 0"],
+    tags: ["number 0", "zero", "digit", "count", "quantity", "empty", "null", "placeholder", "minimal", "plain"],
     category: "Light"
   },
   {
@@ -2585,7 +2585,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 1 circle"],
+    tags: ["number 1 circle", "one", "digit", "count", "quantity", "circular", "first", "priority", "minimal", "single"],
     category: "Light"
   },
   {
@@ -2596,7 +2596,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12.5 17V7L10.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 1 square"],
+    tags: ["number 1 square", "one", "digit", "count", "quantity", "square", "first", "priority", "minimal", "single"],
     category: "Light"
   },
   {
@@ -2606,7 +2606,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20V4L9 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 1"],
+    tags: ["number 1", "one", "digit", "count", "quantity", "first", "priority", "minimal", "single", "plain"],
     category: "Light"
   },
   {
@@ -2617,7 +2617,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.5 9.5C9.5 8.8602 9.74408 8.2204 10.2322 7.73224C11.2085 6.75593 12.7915 6.75593 13.7678 7.73224C14.7441 8.70856 14.7441 10.2915 13.7678 11.2678L9.93934 15.0962C9.65804 15.3775 9.5 15.759 9.5 16.1569L9.5 17H14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 2 circle"],
+    tags: ["number 2 circle", "two", "digit", "count", "quantity", "circular", "second", "pair", "minimal", "duo"],
     category: "Light"
   },
   {
@@ -2628,7 +2628,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.50012 9.49997C9.50013 8.86017 9.7442 8.22037 10.2324 7.73221C11.2087 6.7559 12.7916 6.7559 13.7679 7.73221C14.7442 8.70852 14.7442 10.2914 13.7679 11.2677L9.93946 15.0962C9.65816 15.3775 9.50012 15.759 9.50012 16.1568L9.50012 17H14.5001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 2 square"],
+    tags: ["number 2 square", "two", "digit", "count", "quantity", "square", "second", "pair", "minimal", "duo"],
     category: "Light"
   },
   {
@@ -2638,7 +2638,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.00001 8C8.00001 6.97631 8.39053 5.95262 9.17158 5.17157C10.7337 3.60947 13.2663 3.60947 14.8284 5.17157C16.3905 6.73366 16.3905 9.26632 14.8284 10.8284L9.17158 16.4853C8.42143 17.2354 8.00001 18.2528 8.00001 19.3137L8.00001 20L16 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 2"],
+    tags: ["number 2", "two", "digit", "count", "quantity", "second", "pair", "minimal", "duo", "plain"],
     category: "Light"
   },
   {
@@ -2649,7 +2649,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 16.2361C10.5308 16.7111 11.2316 17 12 17C13.6569 17 15 15.6569 15 14C15 12.3431 13.6569 11 12 11L15 7H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 3 circle"],
+    tags: ["number 3 circle", "three", "digit", "count", "quantity", "circular", "third", "trio", "minimal", "group"],
     category: "Light"
   },
   {
@@ -2660,7 +2660,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 16.2361C10.5308 16.7111 11.2316 17 12 17C13.6569 17 15 15.6569 15 14C15 12.3431 13.6569 11 12 11L15 7H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 3 square"],
+    tags: ["number 3 square", "three", "digit", "count", "quantity", "square", "third", "trio", "minimal", "group"],
     category: "Light"
   },
   {
@@ -2670,7 +2670,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 19.0004C8.83566 19.6281 9.87439 20 11 20C13.7614 20 16 17.7614 16 15C16 12.2386 13.7614 10 11 10L16 4H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 3"],
+    tags: ["number 3", "three", "digit", "count", "quantity", "third", "trio", "minimal", "group", "plain"],
     category: "Light"
   },
   {
@@ -2681,7 +2681,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5 7L9.22841 11.4506C8.86337 12.7282 9.8227 14 11.1515 14H14.5M14.5 14V10M14.5 14V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 4 circle"],
+    tags: ["number 4 circle", "four", "digit", "count", "quantity", "circular", "fourth", "quad", "minimal", "set"],
     category: "Light"
   },
   {
@@ -2692,7 +2692,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5 7L9.22841 11.4506C8.86337 12.7282 9.8227 14 11.1515 14H14.5M14.5 14V10M14.5 14V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 4 square"],
+    tags: ["number 4 square", "four", "digit", "count", "quantity", "square", "fourth", "quad", "minimal", "set"],
     category: "Light"
   },
   {
@@ -2702,7 +2702,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 4L8.47845 11.6078C8.23093 12.8453 9.17752 14 10.4396 14H16M16 14V8M16 14V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 4"],
+    tags: ["number 4", "four", "digit", "count", "quantity", "fourth", "quad", "minimal", "set", "plain"],
     category: "Light"
   },
   {
@@ -2713,7 +2713,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.5 16.2361C10.0308 16.7111 10.7316 17 11.5 17C13.1569 17 14.5 15.6569 14.5 14C14.5 12.3431 13.1569 11 11.5 11C10.7316 11 10.0308 11.2889 9.5 11.7639L10.5 7H14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 5 circle"],
+    tags: ["number 5 circle", "five", "digit", "count", "quantity", "circular", "fifth", "group", "minimal", "set"],
     category: "Light"
   },
   {
@@ -2724,7 +2724,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.5 16.2361C10.0308 16.7111 10.7316 17 11.5 17C13.1569 17 14.5 15.6569 14.5 14C14.5 12.3431 13.1569 11 11.5 11C10.7316 11 10.0308 11.2889 9.5 11.7639L10.5 7H14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 5 square"],
+    tags: ["number 5 square", "five", "numeric", "digit", "quantity", "count", "square", "geometric", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2734,7 +2734,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 19.0004C8.83566 19.6281 9.87439 20 11 20C13.7614 20 16 17.7614 16 15C16 12.2386 13.7614 10 11 10C9.87439 10 8.83566 10.3719 8 10.9996L9 4H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 5"],
+    tags: ["number 5", "five", "numeric", "digit", "quantity", "count", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2745,7 +2745,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13.6273 7.41107C13.8543 7.06461 13.7575 6.59971 13.411 6.37268C13.0646 6.14566 12.5997 6.24248 12.3726 6.58893L13.6273 7.41107ZM8.8477 11.9682C8.62067 12.3147 8.71749 12.7796 9.06395 13.0066C9.41041 13.2336 9.87531 13.1368 10.1023 12.7904L8.8477 11.9682ZM14.25 14C14.25 15.2426 13.2426 16.25 12 16.25V17.75C14.0711 17.75 15.75 16.0711 15.75 14H14.25ZM12 16.25C10.7574 16.25 9.75 15.2426 9.75 14H8.25C8.25 16.0711 9.92893 17.75 12 17.75V16.25ZM9.75 14C9.75 12.7574 10.7574 11.75 12 11.75V10.25C9.92893 10.25 8.25 11.9289 8.25 14H9.75ZM12 11.75C13.2426 11.75 14.25 12.7574 14.25 14H15.75C15.75 11.9289 14.0711 10.25 12 10.25V11.75ZM12.3726 6.58893L8.8477 11.9682L10.1023 12.7904L13.6273 7.41107L12.3726 6.58893Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 6 circle"],
+    tags: ["number 6 circle", "six", "numeric", "digit", "quantity", "count", "circle", "circular", "outlined", "geometric"],
     category: "Light"
   },
   {
@@ -2756,7 +2756,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13.6273 7.41107C13.8543 7.06461 13.7575 6.59971 13.411 6.37268C13.0646 6.14566 12.5997 6.24248 12.3726 6.58893L13.6273 7.41107ZM8.8477 11.9682C8.62067 12.3147 8.71749 12.7796 9.06395 13.0066C9.41041 13.2336 9.87531 13.1368 10.1023 12.7904L8.8477 11.9682ZM14.25 14C14.25 15.2426 13.2426 16.25 12 16.25V17.75C14.0711 17.75 15.75 16.0711 15.75 14H14.25ZM12 16.25C10.7574 16.25 9.75 15.2426 9.75 14H8.25C8.25 16.0711 9.92893 17.75 12 17.75V16.25ZM9.75 14C9.75 12.7574 10.7574 11.75 12 11.75V10.25C9.92893 10.25 8.25 11.9289 8.25 14H9.75ZM12 11.75C13.2426 11.75 14.25 12.7574 14.25 14H15.75C15.75 11.9289 14.0711 10.25 12 10.25V11.75ZM12.3726 6.58893L8.8477 11.9682L10.1023 12.7904L13.6273 7.41107L12.3726 6.58893Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 6 square"],
+    tags: ["number 6 square", "six", "numeric", "digit", "quantity", "count", "square", "geometric", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2766,7 +2766,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13.6352 4.3987C13.8554 4.04786 13.7495 3.58495 13.3987 3.36475C13.0479 3.14456 12.5849 3.25046 12.3648 3.6013L13.6352 4.3987ZM7.13788 11.9292C6.91768 12.2801 7.02359 12.743 7.37443 12.9632C7.72526 13.1834 8.18818 13.0775 8.40837 12.7266L7.13788 11.9292ZM16.25 15C16.25 17.3472 14.3472 19.25 12 19.25V20.75C15.1756 20.75 17.75 18.1756 17.75 15H16.25ZM12 19.25C9.65279 19.25 7.75 17.3472 7.75 15H6.25C6.25 18.1756 8.82436 20.75 12 20.75V19.25ZM7.75 15C7.75 12.6528 9.65279 10.75 12 10.75V9.25C8.82436 9.25 6.25 11.8244 6.25 15H7.75ZM12 10.75C14.3472 10.75 16.25 12.6528 16.25 15H17.75C17.75 11.8244 15.1756 9.25 12 9.25V10.75ZM12.3648 3.6013L7.13788 11.9292L8.40837 12.7266L13.6352 4.3987L12.3648 3.6013Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 6"],
+    tags: ["number 6", "six", "numeric", "digit", "quantity", "count", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2777,7 +2777,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 7H15L11 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 7 circle"],
+    tags: ["number 7 circle", "seven", "numeric", "digit", "quantity", "count", "circle", "circular", "outlined", "geometric"],
     category: "Light"
   },
   {
@@ -2788,7 +2788,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 7H15L11 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 7 square"],
+    tags: ["number 7 square", "seven", "numeric", "digit", "quantity", "count", "square", "geometric", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2798,7 +2798,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 4H16L10 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 7"],
+    tags: ["number 7", "seven", "numeric", "digit", "quantity", "count", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2810,7 +2810,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="9" r="2" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 8 circle"],
+    tags: ["number 8 circle", "eight", "numeric", "digit", "quantity", "count", "circle", "circular", "outlined", "geometric"],
     category: "Light"
   },
   {
@@ -2822,7 +2822,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="9" r="2" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 8 square"],
+    tags: ["number 8 square", "eight", "numeric", "digit", "quantity", "count", "square", "geometric", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2833,7 +2833,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="7" r="3" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 8"],
+    tags: ["number 8", "eight", "numeric", "digit", "quantity", "count", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2844,7 +2844,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.3727 16.5889C10.1457 16.9354 10.2425 17.4003 10.589 17.6273C10.9354 17.8543 11.4003 17.7575 11.6274 17.4111L10.3727 16.5889ZM15.1523 12.0318C15.3793 11.6853 15.2825 11.2204 14.936 10.9934C14.5896 10.7664 14.1247 10.8632 13.8977 11.2096L15.1523 12.0318ZM9.75 10C9.75 8.75736 10.7574 7.75 12 7.75L12 6.25C9.92893 6.25 8.25 7.92893 8.25 10L9.75 10ZM12 7.75C13.2426 7.75 14.25 8.75736 14.25 10L15.75 10C15.75 7.92893 14.0711 6.25 12 6.25L12 7.75ZM14.25 10C14.25 11.2426 13.2426 12.25 12 12.25L12 13.75C14.0711 13.75 15.75 12.0711 15.75 10L14.25 10ZM12 12.25C10.7574 12.25 9.75 11.2426 9.75 10L8.25 10C8.25 12.0711 9.92893 13.75 12 13.75L12 12.25ZM11.6274 17.4111L15.1523 12.0318L13.8977 11.2096L10.3727 16.5889L11.6274 17.4111Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 9 circle"],
+    tags: ["number 9 circle", "nine", "numeric", "digit", "quantity", "count", "circle", "circular", "outlined", "geometric"],
     category: "Light"
   },
   {
@@ -2855,7 +2855,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.3727 16.5889C10.1457 16.9354 10.2425 17.4003 10.589 17.6273C10.9354 17.8543 11.4003 17.7575 11.6274 17.4111L10.3727 16.5889ZM15.1523 12.0318C15.3793 11.6853 15.2825 11.2204 14.936 10.9934C14.5896 10.7664 14.1247 10.8632 13.8977 11.2096L15.1523 12.0318ZM9.75 10C9.75 8.75736 10.7574 7.75 12 7.75L12 6.25C9.92893 6.25 8.25 7.92893 8.25 10L9.75 10ZM12 7.75C13.2426 7.75 14.25 8.75736 14.25 10L15.75 10C15.75 7.92893 14.0711 6.25 12 6.25L12 7.75ZM14.25 10C14.25 11.2426 13.2426 12.25 12 12.25L12 13.75C14.0711 13.75 15.75 12.0711 15.75 10L14.25 10ZM12 12.25C10.7574 12.25 9.75 11.2426 9.75 10L8.25 10C8.25 12.0711 9.92893 13.75 12 13.75L12 12.25ZM11.6274 17.4111L15.1523 12.0318L13.8977 11.2096L10.3727 16.5889L11.6274 17.4111Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 9 square"],
+    tags: ["number 9 square", "nine", "numeric", "digit", "quantity", "count", "square", "geometric", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2865,7 +2865,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.3648 19.6013C10.1446 19.9521 10.2505 20.415 10.6013 20.6352C10.9521 20.8554 11.415 20.7495 11.6352 20.3987L10.3648 19.6013ZM16.8621 12.0708C17.0823 11.7199 16.9764 11.257 16.6256 11.0368C16.2747 10.8166 15.8118 10.9225 15.5916 11.2734L16.8621 12.0708ZM7.75 9C7.75 6.65279 9.65279 4.75 12 4.75L12 3.25C8.82436 3.25 6.25 5.82436 6.25 9L7.75 9ZM12 4.75C14.3472 4.75 16.25 6.65279 16.25 9L17.75 9C17.75 5.82436 15.1756 3.25 12 3.25L12 4.75ZM16.25 9C16.25 11.3472 14.3472 13.25 12 13.25L12 14.75C15.1756 14.75 17.75 12.1756 17.75 9L16.25 9ZM12 13.25C9.65279 13.25 7.75 11.3472 7.75 9L6.25 9C6.25 12.1756 8.82436 14.75 12 14.75L12 13.25ZM11.6352 20.3987L16.8621 12.0708L15.5916 11.2734L10.3648 19.6013L11.6352 20.3987Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 9"],
+    tags: ["number 9", "nine", "numeric", "digit", "quantity", "count", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2878,7 +2878,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division circle"],
+    tags: ["sign", "division circle", "divide", "math", "calculator", "arithmetic", "operator", "circle", "circular", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2888,7 +2888,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 4L8 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division slash"],
+    tags: ["sign", "division slash", "divide", "math", "calculator", "arithmetic", "operator", "slash", "minimal", "outlined"],
     category: "Light"
   },
   {
@@ -2901,7 +2901,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division square"],
+    tags: ["sign", "division square", "divide", "math", "calculator", "arithmetic", "operator", "square", "geometric", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2913,7 +2913,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M18 12H6.00005" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division"],
+    tags: ["sign", "division", "divide", "math", "calculator", "arithmetic", "operator", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2924,7 +2924,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 15H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  equal"],
+    tags: ["sign", "equal", "equals", "math", "calculator", "result", "comparison", "operator", "minimal", "outlined"],
     category: "Light"
   },
   {
@@ -2935,7 +2935,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.5227 4.49954L12 15.0001L12.4773 4.49954C12.4897 4.22743 12.2724 4.00006 12 4.00006C11.7276 4.00006 11.5103 4.22743 11.5227 4.49954Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  factorial"],
+    tags: ["sign", "factorial", "math", "calculator", "exclamation", "operator", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2946,7 +2946,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 8C8.20914 8 11 12 11 12C11 12 8.20914 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  lemniscate"],
+    tags: ["sign", "lemniscate", "infinity", "endless", "loop", "forever", "math", "symbol", "minimal", "outlined"],
     category: "Light"
   },
   {
@@ -2957,7 +2957,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  minus circle"],
+    tags: ["sign", "minus circle", "subtract", "remove", "decrease", "math", "calculator", "operator", "circle", "circular", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2967,7 +2967,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12H15M4 4H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  minus square"],
+    tags: ["sign", "minus square", "subtract", "remove", "decrease", "math", "calculator", "operator", "square", "geometric", "outlined", "minimal"],
     category: "Light"
   },
   {
@@ -2977,7 +2977,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 12H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  minus"],
+    tags: ["sign", "minus", "subtract", "remove", "decrease", "math", "calculator", "operator", "minimal", "outlined", "plain"],
     category: "Light"
   },
   {
@@ -2989,7 +2989,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 4L8 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  percent"],
+    tags: ["sign", "percent", "percentage", "discount", "rate", "math", "calculator", "symbol", "minimal", "outlined"],
     category: "Light"
   },
   {
@@ -3001,7 +3001,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 8L15 14.03C15 15.118 15.882 16 16.97 16L17 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  pi"],
+    tags: ["sign", "pi", "math", "geometry", "constant", "calculation", "symbol", "education", "science", "mathematics", "circular", "formula"],
     category: "Light"
   },
   {
@@ -3013,7 +3013,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus circle"],
+    tags: ["sign", "plus circle", "add", "create", "new", "positive", "increase", "math", "button", "action", "circular", "addition"],
     category: "Light"
   },
   {
@@ -3026,7 +3026,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 17H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus minus"],
+    tags: ["sign", "plus minus", "range", "tolerance", "approximation", "math", "calculation", "variation", "equation", "symbol", "scientific", "precision"],
     category: "Light"
   },
   {
@@ -3036,7 +3036,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 9V15M9 12H15M4 4H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus square"],
+    tags: ["sign", "plus square", "add", "create", "new", "positive", "increase", "math", "button", "action", "squared", "addition"],
     category: "Light"
   },
   {
@@ -3047,7 +3047,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 12H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus"],
+    tags: ["sign", "plus", "add", "create", "new", "positive", "increase", "math", "addition", "expand", "grow", "simple"],
     category: "Light"
   },
   {
@@ -3057,7 +3057,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 15L4.5 20L8 5H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  radical"],
+    tags: ["sign", "radical", "square root", "math", "calculation", "algebra", "equation", "symbol", "scientific", "root", "minimal", "education"],
     category: "Light"
   },
   {
@@ -3069,7 +3069,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 9L15 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  times circle"],
+    tags: ["sign", "times circle", "close", "delete", "remove", "cancel", "error", "negative", "math", "multiplication", "circular", "button"],
     category: "Light"
   },
   {
@@ -3081,7 +3081,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 9L15 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  times square"],
+    tags: ["sign", "times square", "close", "delete", "remove", "cancel", "error", "negative", "math", "multiplication", "squared", "button"],
     category: "Light"
   },
   {
@@ -3092,7 +3092,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7.00003 7.00003L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  times"],
+    tags: ["sign", "times", "close", "delete", "remove", "cancel", "error", "negative", "math", "multiplication", "cross", "simple"],
     category: "Light"
   },
   {
@@ -3103,7 +3103,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5 9H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  f"],
+    tags: ["sign", "f", "letter", "alphabet", "text", "initial", "symbol", "typography", "minimal", "font", "education", "function"],
     category: "Light"
   },
   {
@@ -3114,7 +3114,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 8L8.36839 8C9.36835 8 10.2825 8.56497 10.7297 9.45936L13.2703 14.5406C13.7175 15.435 14.6317 16 15.6316 16L16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  x"],
+    tags: ["sign", "x", "letter", "alphabet", "text", "initial", "symbol", "typography", "minimal", "font", "variable", "unknown"],
     category: "Light"
   },
   {
@@ -3125,7 +3125,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 16L9.48666 9.29775C9.19393 8.51715 8.44769 8 7.614 8L7 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  y"],
+    tags: ["sign", "y", "letter", "alphabet", "text", "initial", "symbol", "typography", "minimal", "font", "variable", "coordinate"],
     category: "Light"
   },
   {
@@ -3136,7 +3136,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 17H21V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trend down"],
+    tags: ["trend down", "decrease", "decline", "loss", "negative", "financial", "analytics", "chart", "arrow", "statistics", "downward"],
     category: "Light"
   },
   {
@@ -3147,7 +3147,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 7H21V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trend up"],
+    tags: ["trend up", "increase", "growth", "gain", "positive", "financial", "analytics", "chart", "arrow", "statistics", "upward"],
     category: "Light"
   },
   {
@@ -3159,7 +3159,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 2L19 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["camera image"],
+    tags: ["camera image", "photo", "picture", "photography", "capture", "gallery", "media", "device", "snapshot", "visual", "album"],
     category: "Light"
   },
   {
@@ -3170,7 +3170,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 9L19.7575 8.31063C20.3886 8.15285 21 8.63021 21 9.28078V14.7192C21 15.3698 20.3886 15.8472 19.7575 15.6894L17 15V9Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["camera video"],
+    tags: ["camera video", "record", "movie", "film", "videography", "capture", "media", "device", "clip", "motion", "streaming"],
     category: "Light"
   },
   {
@@ -3182,7 +3182,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 15H21.75V14.25H21V15ZM18 15.75H21V14.25H18V15.75ZM20.25 15V19H21.75V15H20.25ZM17.75 19V16H16.25V19H17.75ZM19 20.25C18.3096 20.25 17.75 19.6904 17.75 19H16.25C16.25 20.5188 17.4812 21.75 19 21.75V20.25ZM20.25 19C20.25 19.6904 19.6904 20.25 19 20.25V21.75C20.5188 21.75 21.75 20.5188 21.75 19H20.25ZM18 14.25C17.0335 14.25 16.25 15.0335 16.25 16H17.75C17.75 15.8619 17.8619 15.75 18 15.75V14.25Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["headphone"],
+    tags: ["headphone", "audio", "listen", "music", "sound", "earbuds", "device", "entertainment", "personal", "accessory", "hifi"],
     category: "Light"
   },
   {
@@ -3193,7 +3193,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["microphone off"],
+    tags: ["microphone off", "mute", "silent", "audio off", "voice off", "call", "meeting", "communication", "device", "unavailable", "privacy"],
     category: "Light"
   },
   {
@@ -3205,7 +3205,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 18V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["microphone"],
+    tags: ["microphone", "record", "speak", "audio", "voice", "sound", "call", "meeting", "communication", "device", "input"],
     category: "Light"
   },
   {
@@ -3217,7 +3217,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 3L18 4V8L12 7V3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music 1"],
+    tags: ["music 1", "note", "audio", "song", "melody", "sound", "entertainment", "play", "tune", "minimal", "single"],
     category: "Light"
   },
   {
@@ -3232,7 +3232,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 16V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music 2"],
+    tags: ["music 2", "notes", "audio", "song", "melody", "sound", "entertainment", "play", "tune", "minimal", "double"],
     category: "Light"
   },
   {
@@ -3245,7 +3245,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 9V2L22 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music album"],
+    tags: ["music album", "record", "collection", "playlist", "disc", "cover", "audio", "entertainment", "library", "artwork", "release"],
     category: "Light"
   },
   {
@@ -3258,7 +3258,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 18V11L22 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music artist"],
+    tags: ["music artist", "performer", "singer", "band", "creator", "musician", "profile", "audio", "entertainment", "talent", "person"],
     category: "Light"
   },
   {
@@ -3269,7 +3269,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 12L11 13.7321L11 10.2679L14 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["play circle"],
+    tags: ["play circle", "start", "run", "video", "audio", "media player", "button", "circular", "action", "stream", "watch"],
     category: "Light"
   },
   {
@@ -3280,7 +3280,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 5V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  end"],
+    tags: ["player", "end", "skip", "next", "forward", "media control", "last", "track", "audio", "video", "navigation", "button"],
     category: "Light"
   },
   {
@@ -3291,7 +3291,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 10.2679C22.3333 11.0377 22.3333 12.9623 21 13.7321L12 18.9282C10.6667 19.698 9 18.7358 9 17.1962L9 6.80385C9 5.26425 10.6667 4.302 12 5.0718L21 10.2679Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  next"],
+    tags: ["player", "next", "forward", "skip", "media control", "audio", "video", "right arrow", "navigation", "ui"],
     category: "Light"
   },
   {
@@ -3302,7 +3302,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 7C14 5.89543 14.8954 5 16 5H17C18.1046 5 19 5.89543 19 7V17C19 18.1046 18.1046 19 17 19H16C14.8954 19 14 18.1046 14 17V7Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  pause"],
+    tags: ["player", "pause", "stop", "hold", "break", "media control", "audio", "video", "two bars", "ui"],
     category: "Light"
   },
   {
@@ -3312,7 +3312,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19 10.2679C20.3333 11.0377 20.3333 12.9623 19 13.7321L10 18.9282C8.66667 19.698 7 18.7358 7 17.1962L7 6.80385C7 5.26425 8.66667 4.302 10 5.0718L19 10.2679Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  play"],
+    tags: ["player", "play", "start", "begin", "media control", "audio", "video", "triangle", "arrow", "ui"],
     category: "Light"
   },
   {
@@ -3323,7 +3323,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 13.7321C1.66667 12.9623 1.66667 11.0377 3 10.2679L12 5.0718C13.3333 4.302 15 5.26425 15 6.80385L15 17.1962C15 18.7358 13.3333 19.698 12 18.9282L3 13.7321Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  previous"],
+    tags: ["player", "previous", "backward", "rewind", "media control", "audio", "video", "left arrow", "navigation", "ui"],
     category: "Light"
   },
   {
@@ -3334,7 +3334,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 19L4 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  start"],
+    tags: ["player", "start", "begin", "first", "media control", "audio", "video", "double arrow", "left", "ui"],
     category: "Light"
   },
   {
@@ -3344,7 +3344,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="5" y="5" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  stop"],
+    tags: ["player", "stop", "end", "finish", "media control", "audio", "video", "square", "ui"],
     category: "Light"
   },
   {
@@ -3357,7 +3357,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 13C21 15.2091 19.2091 17 17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist ", "  repeat list"],
+    tags: ["playlist", "repeat list", "loop", "all songs", "media control", "audio", "video", "arrows", "circular", "ui"],
     category: "Light"
   },
   {
@@ -3371,7 +3371,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 13C21 15.2091 19.2091 17 17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist ", "  repeat song"],
+    tags: ["playlist", "repeat song", "loop one", "single track", "media control", "audio", "video", "arrows", "number one", "ui"],
     category: "Light"
   },
   {
@@ -3382,7 +3382,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2.99994 7H5.73518C6.82978 7 7.86186 7.44742 8.6063 8.2148M20.9999 17H16.2647C15.1701 17 14.138 16.5526 13.3936 15.7852M20.9999 17L18.9999 19M20.9999 17L18.9999 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist ", "  shuffle"],
+    tags: ["playlist", "shuffle", "random", "mix", "media control", "audio", "video", "crossed arrows", "ui"],
     category: "Light"
   },
   {
@@ -3395,7 +3395,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 18L21 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist"],
+    tags: ["playlist", "music queue", "audio list", "media control", "songs", "video", "stacked lines", "ui"],
     category: "Light"
   },
   {
@@ -3406,7 +3406,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.8767 9C16.9583 9.9892 16.9999 10.9897 16.9999 12C16.9999 13.0103 16.9583 14.0108 16.8767 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["volume down"],
+    tags: ["volume down", "audio lower", "sound decrease", "speaker", "media control", "minus", "ui"],
     category: "Light"
   },
   {
@@ -3417,7 +3417,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17.0002 10L21.0002 14M17.0002 14L21.0002 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["volume off"],
+    tags: ["volume off", "mute", "silent", "audio disabled", "speaker", "media control", "crossed out", "ui"],
     category: "Light"
   },
   {
@@ -3429,7 +3429,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.8767 9C16.9583 9.9892 16.9999 10.9897 16.9999 12C16.9999 13.0103 16.9583 14.0108 16.8767 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["volume up"],
+    tags: ["volume up", "audio louder", "sound increase", "speaker", "media control", "plus", "ui"],
     category: "Light"
   },
   {
@@ -3440,7 +3440,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="9" y="9" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["badge"],
+    tags: ["badge", "award", "achievement", "certification", "honor", "star", "shield", "ui"],
     category: "Light"
   },
   {
@@ -3452,7 +3452,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 12H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["box"],
+    tags: ["box", "package", "container", "delivery", "storage", "shipping", "square", "commerce"],
     category: "Light"
   },
   {
@@ -3463,7 +3463,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 8L11 11L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["certificate badge"],
+    tags: ["certificate badge", "award", "achievement", "verified", "official", "document", "ribbon", "ui"],
     category: "Light"
   },
   {
@@ -3475,7 +3475,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 10L17 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cheque"],
+    tags: ["cheque", "check", "payment", "bank", "money", "transaction", "document", "finance"],
     category: "Light"
   },
   {
@@ -3486,7 +3486,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 13H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["credit card"],
+    tags: ["credit card", "payment", "bank card", "debit card", "transaction", "finance", "commerce", "rectangular"],
     category: "Light"
   },
   {
@@ -3498,7 +3498,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2 12H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["delivery fast"],
+    tags: ["delivery fast", "express shipping", "quick delivery", "speed", "logistics", "package", "truck", "arrow", "commerce"],
     category: "Light"
   },
   {
@@ -3510,7 +3510,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.5 4C11.5 3.44772 11.0523 3 10.5 3V3C8.84315 3 7.5 4.34315 7.5 6V7H8.5C10.1569 7 11.5 5.65685 11.5 4V4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["delivery free"],
+    tags: ["delivery free", "no cost shipping", "complimentary", "promotion", "logistics", "package", "tag", "commerce"],
     category: "Light"
   },
   {
@@ -3520,7 +3520,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2 3V2.25C1.58579 2.25 1.25 2.58579 1.25 3H2ZM13 3H13.75C13.75 2.58579 13.4142 2.25 13 2.25V3ZM13 9V8.25C12.8011 8.25 12.6103 8.32902 12.4697 8.46967C12.329 8.61032 12.25 8.80109 12.25 9H13ZM2 3.75H13V2.25H2V3.75ZM12.25 3V19H13.75V3H12.25ZM2.75 17V3H1.25V17H2.75ZM13 9.75H18V8.25H13V9.75ZM21.25 13V17H22.75V13H21.25ZM13.75 19L13.75 9H12.25L12.25 19H13.75ZM18.8839 19.8839C18.3957 20.372 17.6043 20.372 17.1161 19.8839L16.0555 20.9445C17.1294 22.0185 18.8706 22.0185 19.9445 20.9445L18.8839 19.8839ZM17.1161 18.1161C17.6043 17.628 18.3957 17.628 18.8839 18.1161L19.9445 17.0555C18.8706 15.9815 17.1294 15.9815 16.0555 17.0555L17.1161 18.1161ZM6.88388 19.8839C6.39573 20.372 5.60427 20.372 5.11612 19.8839L4.05546 20.9445C5.1294 22.0185 6.8706 22.0185 7.94454 20.9445L6.88388 19.8839ZM5.11612 18.1161C5.60427 17.628 6.39573 17.628 6.88388 18.1161L7.94454 17.0555C6.8706 15.9815 5.1294 15.9815 4.05546 17.0555L5.11612 18.1161ZM18.8839 18.1161C19.1281 18.3603 19.25 18.6789 19.25 19H20.75C20.75 18.2974 20.4814 17.5923 19.9445 17.0555L18.8839 18.1161ZM19.25 19C19.25 19.3211 19.1281 19.6397 18.8839 19.8839L19.9445 20.9445C20.4814 20.4077 20.75 19.7026 20.75 19H19.25ZM16 18.25H13V19.75H16V18.25ZM17.1161 19.8839C16.8719 19.6397 16.75 19.3211 16.75 19H15.25C15.25 19.7026 15.5186 20.4077 16.0555 20.9445L17.1161 19.8839ZM16.75 19C16.75 18.6789 16.8719 18.3603 17.1161 18.1161L16.0555 17.0555C15.5186 17.5923 15.25 18.2974 15.25 19H16.75ZM5.11612 19.8839C4.87189 19.6397 4.75 19.3211 4.75 19H3.25C3.25 19.7026 3.51863 20.4077 4.05546 20.9445L5.11612 19.8839ZM4.75 19C4.75 18.6789 4.87189 18.3603 5.11612 18.1161L4.05546 17.0555C3.51863 17.5923 3.25 18.2974 3.25 19H4.75ZM13 18.25H8V19.75H13V18.25ZM6.88388 18.1161C7.12811 18.3603 7.25 18.6789 7.25 19H8.75C8.75 18.2974 8.48137 17.5923 7.94454 17.0555L6.88388 18.1161ZM7.25 19C7.25 19.3211 7.12811 19.6397 6.88388 19.8839L7.94454 20.9445C8.48137 20.4077 8.75 19.7026 8.75 19H7.25ZM21.25 17C21.25 17.6904 20.6904 18.25 20 18.25V19.75C21.5188 19.75 22.75 18.5188 22.75 17H21.25ZM18 9.75C19.7949 9.75 21.25 11.2051 21.25 13H22.75C22.75 10.3766 20.6234 8.25 18 8.25V9.75ZM1.25 17C1.25 18.5188 2.48122 19.75 4 19.75V18.25C3.30964 18.25 2.75 17.6904 2.75 17H1.25Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["delivery"],
+    tags: ["delivery", "shipping", "logistics", "package", "transport", "box", "commerce", "truck"],
     category: "Light"
   },
   {
@@ -3533,7 +3533,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 9L9 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["discount"],
+    tags: ["discount", "sale", "offer", "coupon", "promotion", "price cut", "tag", "commerce"],
     category: "Light"
   },
   {
@@ -3546,7 +3546,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 15L11 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["invoice"],
+    tags: ["invoice", "bill", "receipt", "payment", "document", "finance", "commerce", "paper"],
     category: "Light"
   },
   {
@@ -3557,7 +3557,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 11V8C8 5.79086 9.79086 4 12 4C14.2091 4 16 5.79086 16 8V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping bag"],
+    tags: ["shopping bag", "purchase", "cart", "ecommerce", "retail", "basket", "handle", "commerce"],
     category: "Light"
   },
   {
@@ -3571,7 +3571,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="8.5" y="20.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping card add"],
+    tags: ["shopping card add", "add to cart", "buy item", "ecommerce", "purchase", "plus", "basket", "commerce"],
     category: "Light"
   },
   {
@@ -3584,7 +3584,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="8.5" y="20.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping card remove"],
+    tags: ["shopping card remove", "cart", "delete", "ecommerce", "checkout", "remove item", "purchase", "cancel", "filled"],
     category: "Light"
   },
   {
@@ -3596,7 +3596,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="17.5" y="20.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="2.25" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping card"],
+    tags: ["shopping card", "cart", "add to cart", "ecommerce", "checkout", "purchase", "filled", "buy"],
     category: "Light"
   },
   {
@@ -3607,7 +3607,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 21V16C14 14.8954 13.1046 14 12 14V14C10.8954 14 10 14.8954 10 16V21" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["store"],
+    tags: ["store", "shop", "retail", "marketplace", "ecommerce", "building", "front", "business", "filled"],
     category: "Light"
   },
   {
@@ -3617,7 +3617,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 10H2.25C2.25 10.4142 2.58579 10.75 3 10.75L3 10ZM3 14L3 13.25C2.58579 13.25 2.25 13.5858 2.25 14H3ZM21 10V10.75C21.4142 10.75 21.75 10.4142 21.75 10H21ZM21 14H21.75C21.75 13.5858 21.4142 13.25 21 13.25V14ZM5 5.75H10V4.25H5V5.75ZM10 5.75H19V4.25H10V5.75ZM19 18.25H10V19.75H19V18.25ZM10 18.25H5V19.75H10V18.25ZM9.25 5V19H10.75V5H9.25ZM3.88388 11.1161C4.37204 11.6043 4.37204 12.3957 3.88388 12.8839L4.94454 13.9445C6.01849 12.8706 6.01849 11.1294 4.94454 10.0555L3.88388 11.1161ZM20.1161 12.8839C19.628 12.3957 19.628 11.6043 20.1161 11.1161L19.0555 10.0555C17.9815 11.1294 17.9815 12.8706 19.0555 13.9445L20.1161 12.8839ZM3 10.75C3.32106 10.75 3.63966 10.8719 3.88388 11.1161L4.94454 10.0555C4.40772 9.51863 3.70262 9.25 3 9.25L3 10.75ZM3.75 10V7H2.25V10H3.75ZM3.75 17V14H2.25V17H3.75ZM3.88388 12.8839C3.63966 13.1281 3.32106 13.25 3 13.25L3 14.75C3.70263 14.75 4.40772 14.4814 4.94454 13.9445L3.88388 12.8839ZM20.1161 11.1161C20.3603 10.8719 20.6789 10.75 21 10.75V9.25C20.2974 9.25 19.5923 9.51863 19.0555 10.0555L20.1161 11.1161ZM20.25 7V10H21.75V7H20.25ZM20.25 14C20.25 14.0015 20.25 14.0029 20.25 14.0044C20.25 14.0059 20.25 14.0073 20.25 14.0088C20.25 14.0103 20.25 14.0118 20.25 14.0132C20.25 14.0147 20.25 14.0162 20.25 14.0176C20.25 14.0191 20.25 14.0206 20.25 14.0221C20.25 14.0236 20.25 14.025 20.25 14.0265C20.25 14.028 20.25 14.0295 20.25 14.031C20.25 14.0325 20.25 14.0339 20.25 14.0354C20.25 14.0369 20.25 14.0384 20.25 14.0399C20.25 14.0414 20.25 14.0429 20.25 14.0444C20.25 14.0459 20.25 14.0474 20.25 14.0489C20.25 14.0504 20.25 14.0519 20.25 14.0534C20.25 14.0549 20.25 14.0564 20.25 14.0579C20.25 14.0594 20.25 14.0609 20.25 14.0624C20.25 14.0639 20.25 14.0654 20.25 14.0669C20.25 14.0684 20.25 14.0699 20.25 14.0714C20.25 14.0729 20.25 14.0744 20.25 14.0759C20.25 14.0775 20.25 14.079 20.25 14.0805C20.25 14.082 20.25 14.0835 20.25 14.085C20.25 14.0866 20.25 14.0881 20.25 14.0896C20.25 14.0911 20.25 14.0927 20.25 14.0942C20.25 14.0957 20.25 14.0972 20.25 14.0988C20.25 14.1003 20.25 14.1018 20.25 14.1033C20.25 14.1049 20.25 14.1064 20.25 14.1079C20.25 14.1095 20.25 14.111 20.25 14.1125C20.25 14.1141 20.25 14.1156 20.25 14.1171C20.25 14.1187 20.25 14.1202 20.25 14.1218C20.25 14.1233 20.25 14.1248 20.25 14.1264C20.25 14.1279 20.25 14.1295 20.25 14.131C20.25 14.1326 20.25 14.1341 20.25 14.1357C20.25 14.1372 20.25 14.1388 20.25 14.1403C20.25 14.1419 20.25 14.1434 20.25 14.145C20.25 14.1465 20.25 14.1481 20.25 14.1496C20.25 14.1512 20.25 14.1528 20.25 14.1543C20.25 14.1559 20.25 14.1574 20.25 14.159C20.25 14.1606 20.25 14.1621 20.25 14.1637C20.25 14.1653 20.25 14.1668 20.25 14.1684C20.25 14.17 20.25 14.1715 20.25 14.1731C20.25 14.1747 20.25 14.1762 20.25 14.1778C20.25 14.1794 20.25 14.181 20.25 14.1825C20.25 14.1841 20.25 14.1857 20.25 14.1873C20.25 14.1889 20.25 14.1904 20.25 14.192C20.25 14.1936 20.25 14.1952 20.25 14.1968C20.25 14.1983 20.25 14.1999 20.25 14.2015C20.25 14.2031 20.25 14.2047 20.25 14.2063C20.25 14.2079 20.25 14.2095 20.25 14.2111C20.25 14.2126 20.25 14.2142 20.25 14.2158C20.25 14.2174 20.25 14.219 20.25 14.2206C20.25 14.2222 20.25 14.2238 20.25 14.2254C20.25 14.227 20.25 14.2286 20.25 14.2302C20.25 14.2318 20.25 14.2334 20.25 14.235C20.25 14.2366 20.25 14.2382 20.25 14.2398C20.25 14.2415 20.25 14.2431 20.25 14.2447C20.25 14.2463 20.25 14.2479 20.25 14.2495C20.25 14.2511 20.25 14.2527 20.25 14.2543C20.25 14.256 20.25 14.2576 20.25 14.2592C20.25 14.2608 20.25 14.2624 20.25 14.264C20.25 14.2657 20.25 14.2673 20.25 14.2689C20.25 14.2705 20.25 14.2722 20.25 14.2738C20.25 14.2754 20.25 14.277 20.25 14.2787C20.25 14.2803 20.25 14.2819 20.25 14.2836C20.25 14.2852 20.25 14.2868 20.25 14.2884C20.25 14.2901 20.25 14.2917 20.25 14.2934C20.25 14.295 20.25 14.2966 20.25 14.2983C20.25 14.2999 20.25 14.3015 20.25 14.3032C20.25 14.3048 20.25 14.3065 20.25 14.3081C20.25 14.3097 20.25 14.3114 20.25 14.313C20.25 14.3147 20.25 14.3163 20.25 14.318C20.25 14.3196 20.25 14.3213 20.25 14.3229C20.25 14.3246 20.25 14.3262 20.25 14.3279C20.25 14.3295 20.25 14.3312 20.25 14.3328C20.25 14.3345 20.25 14.3362 20.25 14.3378C20.25 14.3395 20.25 14.3411 20.25 14.3428C20.25 14.3445 20.25 14.3461 20.25 14.3478C20.25 14.3494 20.25 14.3511 20.25 14.3528C20.25 14.3544 20.25 14.3561 20.25 14.3578C20.25 14.3594 20.25 14.3611 20.25 14.3628C20.25 14.3644 20.25 14.3661 20.25 14.3678C20.25 14.3695 20.25 14.3711 20.25 14.3728C20.25 14.3745 20.25 14.3762 20.25 14.3778C20.25 14.3795 20.25 14.3812 20.25 14.3829C20.25 14.3846 20.25 14.3862 20.25 14.3879C20.25 14.3896 20.25 14.3913 20.25 14.393C20.25 14.3947 20.25 14.3963 20.25 14.398C20.25 14.3997 20.25 14.4014 20.25 14.4031C20.25 14.4048 20.25 14.4065 20.25 14.4082C20.25 14.4099 20.25 14.4116 20.25 14.4133C20.25 14.4149 20.25 14.4166 20.25 14.4183C20.25 14.42 20.25 14.4217 20.25 14.4234C20.25 14.4251 20.25 14.4268 20.25 14.4285C20.25 14.4302 20.25 14.4319 20.25 14.4336C20.25 14.4353 20.25 14.4371 20.25 14.4388C20.25 14.4405 20.25 14.4422 20.25 14.4439C20.25 14.4456 20.25 14.4473 20.25 14.449C20.25 14.4507 20.25 14.4524 20.25 14.4541C20.25 14.4559 20.25 14.4576 20.25 14.4593C20.25 14.461 20.25 14.4627 20.25 14.4644C20.25 14.4662 20.25 14.4679 20.25 14.4696C20.25 14.4713 20.25 14.473 20.25 14.4748C20.25 14.4765 20.25 14.4782 20.25 14.4799C20.25 14.4817 20.25 14.4834 20.25 14.4851C20.25 14.4868 20.25 14.4886 20.25 14.4903C20.25 14.492 20.25 14.4938 20.25 14.4955C20.25 14.4972 20.25 14.499 20.25 14.5007C20.25 14.5024 20.25 14.5042 20.25 14.5059C20.25 14.5076 20.25 14.5094 20.25 14.5111C20.25 14.5128 20.25 14.5146 20.25 14.5163C20.25 14.5181 20.25 14.5198 20.25 14.5216C20.25 14.5233 20.25 14.525 20.25 14.5268C20.25 14.5285 20.25 14.5303 20.25 14.532C20.25 14.5338 20.25 14.5355 20.25 14.5373C20.25 14.539 20.25 14.5408 20.25 14.5425C20.25 14.5443 20.25 14.546 20.25 14.5478C20.25 14.5495 20.25 14.5513 20.25 14.5531C20.25 14.5548 20.25 14.5566 20.25 14.5583C20.25 14.5601 20.25 14.5619 20.25 14.5636C20.25 14.5654 20.25 14.5671 20.25 14.5689C20.25 14.5707 20.25 14.5724 20.25 14.5742C20.25 14.576 20.25 14.5777 20.25 14.5795C20.25 14.5813 20.25 14.583 20.25 14.5848C20.25 14.5866 20.25 14.5883 20.25 14.5901C20.25 14.5919 20.25 14.5937 20.25 14.5954C20.25 14.5972 20.25 14.599 20.25 14.6008C20.25 14.6025 20.25 14.6043 20.25 14.6061C20.25 14.6079 20.25 14.6097 20.25 14.6114C20.25 14.6132 20.25 14.615 20.25 14.6168C20.25 14.6186 20.25 14.6204 20.25 14.6221C20.25 14.6239 20.25 14.6257 20.25 14.6275C20.25 14.6293 20.25 14.6311 20.25 14.6329C20.25 14.6347 20.25 14.6364 20.25 14.6382C20.25 14.64 20.25 14.6418 20.25 14.6436C20.25 14.6454 20.25 14.6472 20.25 14.649C20.25 14.6508 20.25 14.6526 20.25 14.6544C20.25 14.6562 20.25 14.658 20.25 14.6598C20.25 14.6616 20.25 14.6634 20.25 14.6652C20.25 14.667 20.25 14.6688 20.25 14.6706C20.25 14.6724 20.25 14.6742 20.25 14.676C20.25 14.6778 20.25 14.6796 20.25 14.6814C20.25 14.6833 20.25 14.6851 20.25 14.6869C20.25 14.6887 20.25 14.6905 20.25 14.6923C20.25 14.6941 20.25 14.6959 20.25 14.6978C20.25 14.6996 20.25 14.7014 20.25 14.7032C20.25 14.705 20.25 14.7068 20.25 14.7087C20.25 14.7105 20.25 14.7123 20.25 14.7141C20.25 14.7159 20.25 14.7178 20.25 14.7196C20.25 14.7214 20.25 14.7232 20.25 14.7251C20.25 14.7269 20.25 14.7287 20.25 14.7305C20.25 14.7324 20.25 14.7342 20.25 14.736C20.25 14.7378 20.25 14.7397 20.25 14.7415C20.25 14.7433 20.25 14.7452 20.25 14.747C20.25 14.7488 20.25 14.7507 20.25 14.7525C20.25 14.7543 20.25 14.7562 20.25 14.758C20.25 14.7599 20.25 14.7617 20.25 14.7635C20.25 14.7654 20.25 14.7672 20.25 14.7691C20.25 14.7709 20.25 14.7727 20.25 14.7746C20.25 14.7764 20.25 14.7783 20.25 14.7801C20.25 14.782 20.25 14.7838 20.25 14.7857C20.25 14.7875 20.25 14.7894 20.25 14.7912C20.25 14.7931 20.25 14.7949 20.25 14.7968C20.25 14.7986 20.25 14.8005 20.25 14.8023C20.25 14.8042 20.25 14.806 20.25 14.8079C20.25 14.8097 20.25 14.8116 20.25 14.8134C20.25 14.8153 20.25 14.8172 20.25 14.819C20.25 14.8209 20.25 14.8227 20.25 14.8246C20.25 14.8265 20.25 14.8283 20.25 14.8302C20.25 14.8321 20.25 14.8339 20.25 14.8358C20.25 14.8376 20.25 14.8395 20.25 14.8414C20.25 14.8433 20.25 14.8451 20.25 14.847C20.25 14.8489 20.25 14.8507 20.25 14.8526C20.25 14.8545 20.25 14.8563 20.25 14.8582C20.25 14.8601 20.25 14.862 20.25 14.8638C20.25 14.8657 20.25 14.8676 20.25 14.8695C20.25 14.8713 20.25 14.8732 20.25 14.8751C20.25 14.877 20.25 14.8789 20.25 14.8807C20.25 14.8826 20.25 14.8845 20.25 14.8864C20.25 14.8883 20.25 14.8901 20.25 14.892C20.25 14.8939 20.25 14.8958 20.25 14.8977C20.25 14.8996 20.25 14.9015 20.25 14.9033C20.25 14.9052 20.25 14.9071 20.25 14.909C20.25 14.9109 20.25 14.9128 20.25 14.9147C20.25 14.9166 20.25 14.9185 20.25 14.9204C20.25 14.9223 20.25 14.9241 20.25 14.926C20.25 14.9279 20.25 14.9298 20.25 14.9317C20.25 14.9336 20.25 14.9355 20.25 14.9374C20.25 14.9393 20.25 14.9412 20.25 14.9431C20.25 14.945 20.25 14.9469 20.25 14.9488C20.25 14.9507 20.25 14.9526 20.25 14.9545C20.25 14.9564 20.25 14.9584 20.25 14.9603C20.25 14.9622 20.25 14.9641 20.25 14.966C20.25 14.9679 20.25 14.9698 20.25 14.9717C20.25 14.9736 20.25 14.9755 20.25 14.9774C20.25 14.9794 20.25 14.9813 20.25 14.9832C20.25 14.9851 20.25 14.987 20.25 14.9889C20.25 14.9908 20.25 14.9928 20.25 14.9947C20.25 14.9966 20.25 14.9985 20.25 15.0004C20.25 15.0023 20.25 15.0043 20.25 15.0062C20.25 15.0081 20.25 15.01 20.25 15.012C20.25 15.0139 20.25 15.0158 20.25 15.0177C20.25 15.0196 20.25 15.0216 20.25 15.0235C20.25 15.0254 20.25 15.0273 20.25 15.0293C20.25 15.0312 20.25 15.0331 20.25 15.0351C20.25 15.037 20.25 15.0389 20.25 15.0409C20.25 15.0428 20.25 15.0447 20.25 15.0466C20.25 15.0486 20.25 15.0505 20.25 15.0524C20.25 15.0544 20.25 15.0563 20.25 15.0583C20.25 15.0602 20.25 15.0621 20.25 15.0641C20.25 15.066 20.25 15.0679 20.25 15.0699C20.25 15.0718 20.25 15.0738 20.25 15.0757C20.25 15.0776 20.25 15.0796 20.25 15.0815C20.25 15.0835 20.25 15.0854 20.25 15.0874C20.25 15.0893 20.25 15.0913 20.25 15.0932C20.25 15.0951 20.25 15.0971 20.25 15.099C20.25 15.101 20.25 15.1029 20.25 15.1049C20.25 15.1068 20.25 15.1088 20.25 15.1107C20.25 15.1127 20.25 15.1146 20.25 15.1166C20.25 15.1185 20.25 15.1205 20.25 15.1225C20.25 15.1244 20.25 15.1264 20.25 15.1283C20.25 15.1303 20.25 15.1322 20.25 15.1342C20.25 15.1362 20.25 15.1381 20.25 15.1401C20.25 15.142 20.25 15.144 20.25 15.146C20.25 15.1479 20.25 15.1499 20.25 15.1518C20.25 15.1538 20.25 15.1558 20.25 15.1577C20.25 15.1597 20.25 15.1617 20.25 15.1636C20.25 15.1656 20.25 15.1676 20.25 15.1695C20.25 15.1715 20.25 15.1735 20.25 15.1754C20.25 15.1774 20.25 15.1794 20.25 15.1813C20.25 15.1833 20.25 15.1853 20.25 15.1873C20.25 15.1892 20.25 15.1912 20.25 15.1932C20.25 15.1952 20.25 15.1971 20.25 15.1991C20.25 15.2011 20.25 15.2031 20.25 15.205C20.25 15.207 20.25 15.209 20.25 15.211C20.25 15.2129 20.25 15.2149 20.25 15.2169C20.25 15.2189 20.25 15.2209 20.25 15.2228C20.25 15.2248 20.25 15.2268 20.25 15.2288C20.25 15.2308 20.25 15.2328 20.25 15.2347C20.25 15.2367 20.25 15.2387 20.25 15.2407C20.25 15.2427 20.25 15.2447 20.25 15.2467C20.25 15.2487 20.25 15.2506 20.25 15.2526C20.25 15.2546 20.25 15.2566 20.25 15.2586C20.25 15.2606 20.25 15.2626 20.25 15.2646C20.25 15.2666 20.25 15.2686 20.25 15.2706C20.25 15.2726 20.25 15.2745 20.25 15.2765C20.25 15.2785 20.25 15.2805 20.25 15.2825C20.25 15.2845 20.25 15.2865 20.25 15.2885C20.25 15.2905 20.25 15.2925 20.25 15.2945C20.25 15.2965 20.25 15.2985 20.25 15.3005C20.25 15.3025 20.25 15.3045 20.25 15.3065C20.25 15.3085 20.25 15.3105 20.25 15.3125C20.25 15.3145 20.25 15.3166 20.25 15.3186C20.25 15.3206 20.25 15.3226 20.25 15.3246C20.25 15.3266 20.25 15.3286 20.25 15.3306C20.25 15.3326 20.25 15.3346 20.25 15.3366C20.25 15.3386 20.25 15.3407 20.25 15.3427C20.25 15.3447 20.25 15.3467 20.25 15.3487C20.25 15.3507 20.25 15.3527 20.25 15.3547C20.25 15.3568 20.25 15.3588 20.25 15.3608C20.25 15.3628 20.25 15.3648 20.25 15.3668C20.25 15.3689 20.25 15.3709 20.25 15.3729C20.25 15.3749 20.25 15.3769 20.25 15.379C20.25 15.381 20.25 15.383 20.25 15.385C20.25 15.387 20.25 15.3891 20.25 15.3911C20.25 15.3931 20.25 15.3951 20.25 15.3972C20.25 15.3992 20.25 15.4012 20.25 15.4032C20.25 15.4053 20.25 15.4073 20.25 15.4093C20.25 15.4113 20.25 15.4134 20.25 15.4154C20.25 15.4174 20.25 15.4194 20.25 15.4215C20.25 15.4235 20.25 15.4255 20.25 15.4276C20.25 15.4296 20.25 15.4316 20.25 15.4337C20.25 15.4357 20.25 15.4377 20.25 15.4398C20.25 15.4418 20.25 15.4438 20.25 15.4459C20.25 15.4479 20.25 15.4499 20.25 15.452C20.25 15.454 20.25 15.456 20.25 15.4581C20.25 15.4601 20.25 15.4622 20.25 15.4642C20.25 15.4662 20.25 15.4683 20.25 15.4703C20.25 15.4724 20.25 15.4744 20.25 15.4764C20.25 15.4785 20.25 15.4805 20.25 15.4826C20.25 15.4846 20.25 15.4867 20.25 15.4887C20.25 15.4907 20.25 15.4928 20.25 15.4948C20.25 15.4969 20.25 15.4989 20.25 15.501C20.25 15.503 20.25 15.5051 20.25 15.5071C20.25 15.5092 20.25 15.5112 20.25 15.5133C20.25 15.5153 20.25 15.5174 20.25 15.5194C20.25 15.5215 20.25 15.5235 20.25 15.5256C20.25 15.5276 20.25 15.5297 20.25 15.5317C20.25 15.5338 20.25 15.5358 20.25 15.5379C20.25 15.5399 20.25 15.542 20.25 15.5441C20.25 15.5461 20.25 15.5482 20.25 15.5502C20.25 15.5523 20.25 15.5543 20.25 15.5564C20.25 15.5585 20.25 15.5605 20.25 15.5626C20.25 15.5646 20.25 15.5667 20.25 15.5688C20.25 15.5708 20.25 15.5729 20.25 15.5749C20.25 15.577 20.25 15.5791 20.25 15.5811C20.25 15.5832 20.25 15.5853 20.25 15.5873C20.25 15.5894 20.25 15.5915 20.25 15.5935C20.25 15.5956 20.25 15.5977 20.25 15.5997C20.25 15.6018 20.25 15.6039 20.25 15.6059C20.25 15.608 20.25 15.6101 20.25 15.6121C20.25 15.6142 20.25 15.6163 20.25 15.6183C20.25 15.6204 20.25 15.6225 20.25 15.6245C20.25 15.6266 20.25 15.6287 20.25 15.6308C20.25 15.6328 20.25 15.6349 20.25 15.637C20.25 15.6391 20.25 15.6411 20.25 15.6432C20.25 15.6453 20.25 15.6474 20.25 15.6494C20.25 15.6515 20.25 15.6536 20.25 15.6557C20.25 15.6577 20.25 15.6598 20.25 15.6619C20.25 15.664 20.25 15.6661 20.25 15.6681C20.25 15.6702 20.25 15.6723 20.25 15.6744C20.25 15.6765 20.25 15.6785 20.25 15.6806C20.25 15.6827 20.25 15.6848 20.25 15.6869C20.25 15.6889 20.25 15.691 20.25 15.6931C20.25 15.6952 20.25 15.6973 20.25 15.6994C20.25 15.7015 20.25 15.7035 20.25 15.7056C20.25 15.7077 20.25 15.7098 20.25 15.7119C20.25 15.714 20.25 15.7161 20.25 15.7182C20.25 15.7202 20.25 15.7223 20.25 15.7244C20.25 15.7265 20.25 15.7286 20.25 15.7307C20.25 15.7328 20.25 15.7349 20.25 15.737C20.25 15.7391 20.25 15.7411 20.25 15.7432C20.25 15.7453 20.25 15.7474 20.25 15.7495C20.25 15.7516 20.25 15.7537 20.25 15.7558C20.25 15.7579 20.25 15.76 20.25 15.7621C20.25 15.7642 20.25 15.7663 20.25 15.7684C20.25 15.7705 20.25 15.7726 20.25 15.7747C20.25 15.7768 20.25 15.7789 20.25 15.781C20.25 15.7831 20.25 15.7852 20.25 15.7873C20.25 15.7894 20.25 15.7915 20.25 15.7936C20.25 15.7957 20.25 15.7978 20.25 15.7999C20.25 15.802 20.25 15.8041 20.25 15.8062C20.25 15.8083 20.25 15.8104 20.25 15.8125C20.25 15.8146 20.25 15.8167 20.25 15.8188C20.25 15.8209 20.25 15.823 20.25 15.8251C20.25 15.8272 20.25 15.8293 20.25 15.8314C20.25 15.8335 20.25 15.8356 20.25 15.8378C20.25 15.8399 20.25 15.842 20.25 15.8441C20.25 15.8462 20.25 15.8483 20.25 15.8504C20.25 15.8525 20.25 15.8546 20.25 15.8567C20.25 15.8589 20.25 15.861 20.25 15.8631C20.25 15.8652 20.25 15.8673 20.25 15.8694C20.25 15.8715 20.25 15.8736 20.25 15.8758C20.25 15.8779 20.25 15.88 20.25 15.8821C20.25 15.8842 20.25 15.8863 20.25 15.8884C20.25 15.8906 20.25 15.8927 20.25 15.8948C20.25 15.8969 20.25 15.899 20.25 15.9011C20.25 15.9033 20.25 15.9054 20.25 15.9075C20.25 15.9096 20.25 15.9117 20.25 15.9138C20.25 15.916 20.25 15.9181 20.25 15.9202C20.25 15.9223 20.25 15.9244 20.25 15.9266C20.25 15.9287 20.25 15.9308 20.25 15.9329C20.25 15.9351 20.25 15.9372 20.25 15.9393C20.25 15.9414 20.25 15.9435 20.25 15.9457C20.25 15.9478 20.25 15.9499 20.25 15.952C20.25 15.9542 20.25 15.9563 20.25 15.9584C20.25 15.9605 20.25 15.9627 20.25 15.9648C20.25 15.9669 20.25 15.969 20.25 15.9712C20.25 15.9733 20.25 15.9754 20.25 15.9776C20.25 15.9797 20.25 15.9818 20.25 15.9839C20.25 15.9861 20.25 15.9882 20.25 15.9903C20.25 15.9925 20.25 15.9946 20.25 15.9967C20.25 15.9989 20.25 16.001 20.25 16.0031C20.25 16.0052 20.25 16.0074 20.25 16.0095C20.25 16.0116 20.25 16.0138 20.25 16.0159C20.25 16.018 20.25 16.0202 20.25 16.0223C20.25 16.0244 20.25 16.0266 20.25 16.0287C20.25 16.0308 20.25 16.033 20.25 16.0351C20.25 16.0372 20.25 16.0394 20.25 16.0415C20.25 16.0437 20.25 16.0458 20.25 16.0479C20.25 16.0501 20.25 16.0522 20.25 16.0543C20.25 16.0565 20.25 16.0586 20.25 16.0608C20.25 16.0629 20.25 16.065 20.25 16.0672C20.25 16.0693 20.25 16.0715 20.25 16.0736C20.25 16.0757 20.25 16.0779 20.25 16.08C20.25 16.0822 20.25 16.0843 20.25 16.0864C20.25 16.0886 20.25 16.0907 20.25 16.0929C20.25 16.095 20.25 16.0971 20.25 16.0993C20.25 16.1014 20.25 16.1036 20.25 16.1057C20.25 16.1079 20.25 16.11 20.25 16.1122C20.25 16.1143 20.25 16.1164 20.25 16.1186C20.25 16.1207 20.25 16.1229 20.25 16.125C20.25 16.1272 20.25 16.1293 20.25 16.1315C20.25 16.1336 20.25 16.1358 20.25 16.1379C20.25 16.1401 20.25 16.1422 20.25 16.1443C20.25 16.1465 20.25 16.1486 20.25 16.1508C20.25 16.1529 20.25 16.1551 20.25 16.1572C20.25 16.1594 20.25 16.1615 20.25 16.1637C20.25 16.1658 20.25 16.168 20.25 16.1701C20.25 16.1723 20.25 16.1744 20.25 16.1766C20.25 16.1787 20.25 16.1809 20.25 16.183C20.25 16.1852 20.25 16.1874 20.25 16.1895C20.25 16.1917 20.25 16.1938 20.25 16.196C20.25 16.1981 20.25 16.2003 20.25 16.2024C20.25 16.2046 20.25 16.2067 20.25 16.2089C20.25 16.211 20.25 16.2132 20.25 16.2154C20.25 16.2175 20.25 16.2197 20.25 16.2218C20.25 16.224 20.25 16.2261 20.25 16.2283C20.25 16.2304 20.25 16.2326 20.25 16.2348C20.25 16.2369 20.25 16.2391 20.25 16.2412C20.25 16.2434 20.25 16.2456 20.25 16.2477C20.25 16.2499 20.25 16.252 20.25 16.2542C20.25 16.2563 20.25 16.2585 20.25 16.2607C20.25 16.2628 20.25 16.265 20.25 16.2671C20.25 16.2693 20.25 16.2715 20.25 16.2736C20.25 16.2758 20.25 16.2779 20.25 16.2801C20.25 16.2823 20.25 16.2844 20.25 16.2866C20.25 16.2888 20.25 16.2909 20.25 16.2931C20.25 16.2952 20.25 16.2974 20.25 16.2996C20.25 16.3017 20.25 16.3039 20.25 16.3061C20.25 16.3082 20.25 16.3104 20.25 16.3126C20.25 16.3147 20.25 16.3169 20.25 16.319C20.25 16.3212 20.25 16.3234 20.25 16.3255C20.25 16.3277 20.25 16.3299 20.25 16.332C20.25 16.3342 20.25 16.3364 20.25 16.3385C20.25 16.3407 20.25 16.3429 20.25 16.345C20.25 16.3472 20.25 16.3494 20.25 16.3515C20.25 16.3537 20.25 16.3559 20.25 16.358C20.25 16.3602 20.25 16.3624 20.25 16.3645C20.25 16.3667 20.25 16.3689 20.25 16.371C20.25 16.3732 20.25 16.3754 20.25 16.3776C20.25 16.3797 20.25 16.3819 20.25 16.3841C20.25 16.3862 20.25 16.3884 20.25 16.3906C20.25 16.3927 20.25 16.3949 20.25 16.3971C20.25 16.3993 20.25 16.4014 20.25 16.4036C20.25 16.4058 20.25 16.4079 20.25 16.4101C20.25 16.4123 20.25 16.4145 20.25 16.4166C20.25 16.4188 20.25 16.421 20.25 16.4232C20.25 16.4253 20.25 16.4275 20.25 16.4297C20.25 16.4318 20.25 16.434 20.25 16.4362C20.25 16.4384 20.25 16.4405 20.25 16.4427C20.25 16.4449 20.25 16.4471 20.25 16.4492C20.25 16.4514 20.25 16.4536 20.25 16.4558C20.25 16.4579 20.25 16.4601 20.25 16.4623C20.25 16.4645 20.25 16.4666 20.25 16.4688C20.25 16.471 20.25 16.4732 20.25 16.4753C20.25 16.4775 20.25 16.4797 20.25 16.4819C20.25 16.484 20.25 16.4862 20.25 16.4884C20.25 16.4906 20.25 16.4927 20.25 16.4949C20.25 16.4971 20.25 16.4993 20.25 16.5015C20.25 16.5036 20.25 16.5058 20.25 16.508C20.25 16.5102 20.25 16.5123 20.25 16.5145C20.25 16.5167 20.25 16.5189 20.25 16.5211C20.25 16.5232 20.25 16.5254 20.25 16.5276C20.25 16.5298 20.25 16.532 20.25 16.5341C20.25 16.5363 20.25 16.5385 20.25 16.5407C20.25 16.5429 20.25 16.545 20.25 16.5472C20.25 16.5494 20.25 16.5516 20.25 16.5538C20.25 16.5559 20.25 16.5581 20.25 16.5603C20.25 16.5625 20.25 16.5647 20.25 16.5668C20.25 16.569 20.25 16.5712 20.25 16.5734C20.25 16.5756 20.25 16.5778 20.25 16.5799C20.25 16.5821 20.25 16.5843 20.25 16.5865C20.25 16.5887 20.25 16.5908 20.25 16.593C20.25 16.5952 20.25 16.5974 20.25 16.5996C20.25 16.6018 20.25 16.6039 20.25 16.6061C20.25 16.6083 20.25 16.6105 20.25 16.6127C20.25 16.6149 20.25 16.617 20.25 16.6192C20.25 16.6214 20.25 16.6236 20.25 16.6258C20.25 16.628 20.25 16.6301 20.25 16.6323C20.25 16.6345 20.25 16.6367 20.25 16.6389C20.25 16.6411 20.25 16.6432 20.25 16.6454C20.25 16.6476 20.25 16.6498 20.25 16.652C20.25 16.6542 20.25 16.6564 20.25 16.6585C20.25 16.6607 20.25 16.6629 20.25 16.6651C20.25 16.6673 20.25 16.6695 20.25 16.6717C20.25 16.6738 20.25 16.676 20.25 16.6782C20.25 16.6804 20.25 16.6826 20.25 16.6848C20.25 16.687 20.25 16.6891 20.25 16.6913C20.25 16.6935 20.25 16.6957 20.25 16.6979C20.25 16.7001 20.25 16.7023 20.25 16.7044C20.25 16.7066 20.25 16.7088 20.25 16.711C20.25 16.7132 20.25 16.7154 20.25 16.7176C20.25 16.7198 20.25 16.7219 20.25 16.7241C20.25 16.7263 20.25 16.7285 20.25 16.7307C20.25 16.7329 20.25 16.7351 20.25 16.7373C20.25 16.7394 20.25 16.7416 20.25 16.7438C20.25 16.746 20.25 16.7482 20.25 16.7504C20.25 16.7526 20.25 16.7548 20.25 16.7569C20.25 16.7591 20.25 16.7613 20.25 16.7635C20.25 16.7657 20.25 16.7679 20.25 16.7701C20.25 16.7723 20.25 16.7745 20.25 16.7766C20.25 16.7788 20.25 16.781 20.25 16.7832C20.25 16.7854 20.25 16.7876 20.25 16.7898C20.25 16.792 20.25 16.7942 20.25 16.7963C20.25 16.7985 20.25 16.8007 20.25 16.8029C20.25 16.8051 20.25 16.8073 20.25 16.8095C20.25 16.8117 20.25 16.8139 20.25 16.816C20.25 16.8182 20.25 16.8204 20.25 16.8226C20.25 16.8248 20.25 16.827 20.25 16.8292C20.25 16.8314 20.25 16.8336 20.25 16.8357C20.25 16.8379 20.25 16.8401 20.25 16.8423C20.25 16.8445 20.25 16.8467 20.25 16.8489C20.25 16.8511 20.25 16.8533 20.25 16.8555C20.25 16.8576 20.25 16.8598 20.25 16.862C20.25 16.8642 20.25 16.8664 20.25 16.8686C20.25 16.8708 20.25 16.873 20.25 16.8752C20.25 16.8774 20.25 16.8795 20.25 16.8817C20.25 16.8839 20.25 16.8861 20.25 16.8883C20.25 16.8905 20.25 16.8927 20.25 16.8949C20.25 16.8971 20.25 16.8993 20.25 16.9014C20.25 16.9036 20.25 16.9058 20.25 16.908C20.25 16.9102 20.25 16.9124 20.25 16.9146C20.25 16.9168 20.25 16.919 20.25 16.9212C20.25 16.9234 20.25 16.9255 20.25 16.9277C20.25 16.9299 20.25 16.9321 20.25 16.9343C20.25 16.9365 20.25 16.9387 20.25 16.9409C20.25 16.9431 20.25 16.9453 20.25 16.9474C20.25 16.9496 20.25 16.9518 20.25 16.954C20.25 16.9562 20.25 16.9584 20.25 16.9606C20.25 16.9628 20.25 16.965 20.25 16.9672C20.25 16.9693 20.25 16.9715 20.25 16.9737C20.25 16.9759 20.25 16.9781 20.25 16.9803C20.25 16.9825 20.25 16.9847 20.25 16.9869C20.25 16.9891 20.25 16.9912 20.25 16.9934C20.25 16.9956 20.25 16.9978 20.25 17H21.75C21.75 16.9978 21.75 16.9956 21.75 16.9934C21.75 16.9912 21.75 16.9891 21.75 16.9869C21.75 16.9847 21.75 16.9825 21.75 16.9803C21.75 16.9781 21.75 16.9759 21.75 16.9737C21.75 16.9715 21.75 16.9693 21.75 16.9672C21.75 16.965 21.75 16.9628 21.75 16.9606C21.75 16.9584 21.75 16.9562 21.75 16.954C21.75 16.9518 21.75 16.9496 21.75 16.9474C21.75 16.9453 21.75 16.9431 21.75 16.9409C21.75 16.9387 21.75 16.9365 21.75 16.9343C21.75 16.9321 21.75 16.9299 21.75 16.9277C21.75 16.9255 21.75 16.9234 21.75 16.9212C21.75 16.919 21.75 16.9168 21.75 16.9146C21.75 16.9124 21.75 16.9102 21.75 16.908C21.75 16.9058 21.75 16.9036 21.75 16.9014C21.75 16.8993 21.75 16.8971 21.75 16.8949C21.75 16.8927 21.75 16.8905 21.75 16.8883C21.75 16.8861 21.75 16.8839 21.75 16.8817C21.75 16.8795 21.75 16.8774 21.75 16.8752C21.75 16.873 21.75 16.8708 21.75 16.8686C21.75 16.8664 21.75 16.8642 21.75 16.862C21.75 16.8598 21.75 16.8576 21.75 16.8555C21.75 16.8533 21.75 16.8511 21.75 16.8489C21.75 16.8467 21.75 16.8445 21.75 16.8423C21.75 16.8401 21.75 16.8379 21.75 16.8357C21.75 16.8336 21.75 16.8314 21.75 16.8292C21.75 16.827 21.75 16.8248 21.75 16.8226C21.75 16.8204 21.75 16.8182 21.75 16.816C21.75 16.8139 21.75 16.8117 21.75 16.8095C21.75 16.8073 21.75 16.8051 21.75 16.8029C21.75 16.8007 21.75 16.7985 21.75 16.7963C21.75 16.7942 21.75 16.792 21.75 16.7898C21.75 16.7876 21.75 16.7854 21.75 16.7832C21.75 16.781 21.75 16.7788 21.75 16.7766C21.75 16.7745 21.75 16.7723 21.75 16.7701C21.75 16.7679 21.75 16.7657 21.75 16.7635C21.75 16.7613 21.75 16.7591 21.75 16.7569C21.75 16.7548 21.75 16.7526 21.75 16.7504C21.75 16.7482 21.75 16.746 21.75 16.7438C21.75 16.7416 21.75 16.7394 21.75 16.7373C21.75 16.7351 21.75 16.7329 21.75 16.7307C21.75 16.7285 21.75 16.7263 21.75 16.7241C21.75 16.7219 21.75 16.7198 21.75 16.7176C21.75 16.7154 21.75 16.7132 21.75 16.711C21.75 16.7088 21.75 16.7066 21.75 16.7044C21.75 16.7023 21.75 16.7001 21.75 16.6979C21.75 16.6957 21.75 16.6935 21.75 16.6913C21.75 16.6891 21.75 16.687 21.75 16.6848C21.75 16.6826 21.75 16.6804 21.75 16.6782C21.75 16.676 21.75 16.6738 21.75 16.6717C21.75 16.6695 21.75 16.6673 21.75 16.6651C21.75 16.6629 21.75 16.6607 21.75 16.6585C21.75 16.6564 21.75 16.6542 21.75 16.652C21.75 16.6498 21.75 16.6476 21.75 16.6454C21.75 16.6432 21.75 16.6411 21.75 16.6389C21.75 16.6367 21.75 16.6345 21.75 16.6323C21.75 16.6301 21.75 16.628 21.75 16.6258C21.75 16.6236 21.75 16.6214 21.75 16.6192C21.75 16.617 21.75 16.6149 21.75 16.6127C21.75 16.6105 21.75 16.6083 21.75 16.6061C21.75 16.6039 21.75 16.6018 21.75 16.5996C21.75 16.5974 21.75 16.5952 21.75 16.593C21.75 16.5908 21.75 16.5887 21.75 16.5865C21.75 16.5843 21.75 16.5821 21.75 16.5799C21.75 16.5778 21.75 16.5756 21.75 16.5734C21.75 16.5712 21.75 16.569 21.75 16.5668C21.75 16.5647 21.75 16.5625 21.75 16.5603C21.75 16.5581 21.75 16.5559 21.75 16.5538C21.75 16.5516 21.75 16.5494 21.75 16.5472C21.75 16.545 21.75 16.5429 21.75 16.5407C21.75 16.5385 21.75 16.5363 21.75 16.5341C21.75 16.532 21.75 16.5298 21.75 16.5276C21.75 16.5254 21.75 16.5232 21.75 16.5211C21.75 16.5189 21.75 16.5167 21.75 16.5145C21.75 16.5123 21.75 16.5102 21.75 16.508C21.75 16.5058 21.75 16.5036 21.75 16.5015C21.75 16.4993 21.75 16.4971 21.75 16.4949C21.75 16.4927 21.75 16.4906 21.75 16.4884C21.75 16.4862 21.75 16.484 21.75 16.4819C21.75 16.4797 21.75 16.4775 21.75 16.4753C21.75 16.4732 21.75 16.471 21.75 16.4688C21.75 16.4666 21.75 16.4645 21.75 16.4623C21.75 16.4601 21.75 16.4579 21.75 16.4558C21.75 16.4536 21.75 16.4514 21.75 16.4492C21.75 16.4471 21.75 16.4449 21.75 16.4427C21.75 16.4405 21.75 16.4384 21.75 16.4362C21.75 16.434 21.75 16.4318 21.75 16.4297C21.75 16.4275 21.75 16.4253 21.75 16.4232C21.75 16.421 21.75 16.4188 21.75 16.4166C21.75 16.4145 21.75 16.4123 21.75 16.4101C21.75 16.4079 21.75 16.4058 21.75 16.4036C21.75 16.4014 21.75 16.3993 21.75 16.3971C21.75 16.3949 21.75 16.3927 21.75 16.3906C21.75 16.3884 21.75 16.3862 21.75 16.3841C21.75 16.3819 21.75 16.3797 21.75 16.3776C21.75 16.3754 21.75 16.3732 21.75 16.371C21.75 16.3689 21.75 16.3667 21.75 16.3645C21.75 16.3624 21.75 16.3602 21.75 16.358C21.75 16.3559 21.75 16.3537 21.75 16.3515C21.75 16.3494 21.75 16.3472 21.75 16.345C21.75 16.3429 21.75 16.3407 21.75 16.3385C21.75 16.3364 21.75 16.3342 21.75 16.332C21.75 16.3299 21.75 16.3277 21.75 16.3255C21.75 16.3234 21.75 16.3212 21.75 16.319C21.75 16.3169 21.75 16.3147 21.75 16.3126C21.75 16.3104 21.75 16.3082 21.75 16.3061C21.75 16.3039 21.75 16.3017 21.75 16.2996C21.75 16.2974 21.75 16.2952 21.75 16.2931C21.75 16.2909 21.75 16.2888 21.75 16.2866C21.75 16.2844 21.75 16.2823 21.75 16.2801C21.75 16.2779 21.75 16.2758 21.75 16.2736C21.75 16.2715 21.75 16.2693 21.75 16.2671C21.75 16.265 21.75 16.2628 21.75 16.2607C21.75 16.2585 21.75 16.2563 21.75 16.2542C21.75 16.252 21.75 16.2499 21.75 16.2477C21.75 16.2456 21.75 16.2434 21.75 16.2412C21.75 16.2391 21.75 16.2369 21.75 16.2348C21.75 16.2326 21.75 16.2304 21.75 16.2283C21.75 16.2261 21.75 16.224 21.75 16.2218C21.75 16.2197 21.75 16.2175 21.75 16.2154C21.75 16.2132 21.75 16.211 21.75 16.2089C21.75 16.2067 21.75 16.2046 21.75 16.2024C21.75 16.2003 21.75 16.1981 21.75 16.196C21.75 16.1938 21.75 16.1917 21.75 16.1895C21.75 16.1874 21.75 16.1852 21.75 16.183C21.75 16.1809 21.75 16.1787 21.75 16.1766C21.75 16.1744 21.75 16.1723 21.75 16.1701C21.75 16.168 21.75 16.1658 21.75 16.1637C21.75 16.1615 21.75 16.1594 21.75 16.1572C21.75 16.1551 21.75 16.1529 21.75 16.1508C21.75 16.1486 21.75 16.1465 21.75 16.1443C21.75 16.1422 21.75 16.1401 21.75 16.1379C21.75 16.1358 21.75 16.1336 21.75 16.1315C21.75 16.1293 21.75 16.1272 21.75 16.125C21.75 16.1229 21.75 16.1207 21.75 16.1186C21.75 16.1164 21.75 16.1143 21.75 16.1122C21.75 16.11 21.75 16.1079 21.75 16.1057C21.75 16.1036 21.75 16.1014 21.75 16.0993C21.75 16.0971 21.75 16.095 21.75 16.0929C21.75 16.0907 21.75 16.0886 21.75 16.0864C21.75 16.0843 21.75 16.0822 21.75 16.08C21.75 16.0779 21.75 16.0757 21.75 16.0736C21.75 16.0715 21.75 16.0693 21.75 16.0672C21.75 16.065 21.75 16.0629 21.75 16.0608C21.75 16.0586 21.75 16.0565 21.75 16.0543C21.75 16.0522 21.75 16.0501 21.75 16.0479C21.75 16.0458 21.75 16.0437 21.75 16.0415C21.75 16.0394 21.75 16.0372 21.75 16.0351C21.75 16.033 21.75 16.0308 21.75 16.0287C21.75 16.0266 21.75 16.0244 21.75 16.0223C21.75 16.0202 21.75 16.018 21.75 16.0159C21.75 16.0138 21.75 16.0116 21.75 16.0095C21.75 16.0074 21.75 16.0052 21.75 16.0031C21.75 16.001 21.75 15.9989 21.75 15.9967C21.75 15.9946 21.75 15.9925 21.75 15.9903C21.75 15.9882 21.75 15.9861 21.75 15.9839C21.75 15.9818 21.75 15.9797 21.75 15.9776C21.75 15.9754 21.75 15.9733 21.75 15.9712C21.75 15.969 21.75 15.9669 21.75 15.9648C21.75 15.9627 21.75 15.9605 21.75 15.9584C21.75 15.9563 21.75 15.9542 21.75 15.952C21.75 15.9499 21.75 15.9478 21.75 15.9457C21.75 15.9435 21.75 15.9414 21.75 15.9393C21.75 15.9372 21.75 15.9351 21.75 15.9329C21.75 15.9308 21.75 15.9287 21.75 15.9266C21.75 15.9244 21.75 15.9223 21.75 15.9202C21.75 15.9181 21.75 15.916 21.75 15.9138C21.75 15.9117 21.75 15.9096 21.75 15.9075C21.75 15.9054 21.75 15.9033 21.75 15.9011C21.75 15.899 21.75 15.8969 21.75 15.8948C21.75 15.8927 21.75 15.8906 21.75 15.8884C21.75 15.8863 21.75 15.8842 21.75 15.8821C21.75 15.88 21.75 15.8779 21.75 15.8758C21.75 15.8736 21.75 15.8715 21.75 15.8694C21.75 15.8673 21.75 15.8652 21.75 15.8631C21.75 15.861 21.75 15.8589 21.75 15.8567C21.75 15.8546 21.75 15.8525 21.75 15.8504C21.75 15.8483 21.75 15.8462 21.75 15.8441C21.75 15.842 21.75 15.8399 21.75 15.8378C21.75 15.8356 21.75 15.8335 21.75 15.8314C21.75 15.8293 21.75 15.8272 21.75 15.8251C21.75 15.823 21.75 15.8209 21.75 15.8188C21.75 15.8167 21.75 15.8146 21.75 15.8125C21.75 15.8104 21.75 15.8083 21.75 15.8062C21.75 15.8041 21.75 15.802 21.75 15.7999C21.75 15.7978 21.75 15.7957 21.75 15.7936C21.75 15.7915 21.75 15.7894 21.75 15.7873C21.75 15.7852 21.75 15.7831 21.75 15.781C21.75 15.7789 21.75 15.7768 21.75 15.7747C21.75 15.7726 21.75 15.7705 21.75 15.7684C21.75 15.7663 21.75 15.7642 21.75 15.7621C21.75 15.76 21.75 15.7579 21.75 15.7558C21.75 15.7537 21.75 15.7516 21.75 15.7495C21.75 15.7474 21.75 15.7453 21.75 15.7432C21.75 15.7411 21.75 15.7391 21.75 15.737C21.75 15.7349 21.75 15.7328 21.75 15.7307C21.75 15.7286 21.75 15.7265 21.75 15.7244C21.75 15.7223 21.75 15.7202 21.75 15.7182C21.75 15.7161 21.75 15.714 21.75 15.7119C21.75 15.7098 21.75 15.7077 21.75 15.7056C21.75 15.7035 21.75 15.7015 21.75 15.6994C21.75 15.6973 21.75 15.6952 21.75 15.6931C21.75 15.691 21.75 15.6889 21.75 15.6869C21.75 15.6848 21.75 15.6827 21.75 15.6806C21.75 15.6785 21.75 15.6765 21.75 15.6744C21.75 15.6723 21.75 15.6702 21.75 15.6681C21.75 15.6661 21.75 15.664 21.75 15.6619C21.75 15.6598 21.75 15.6577 21.75 15.6557C21.75 15.6536 21.75 15.6515 21.75 15.6494C21.75 15.6474 21.75 15.6453 21.75 15.6432C21.75 15.6411 21.75 15.6391 21.75 15.637C21.75 15.6349 21.75 15.6328 21.75 15.6308C21.75 15.6287 21.75 15.6266 21.75 15.6245C21.75 15.6225 21.75 15.6204 21.75 15.6183C21.75 15.6163 21.75 15.6142 21.75 15.6121C21.75 15.6101 21.75 15.608 21.75 15.6059C21.75 15.6039 21.75 15.6018 21.75 15.5997C21.75 15.5977 21.75 15.5956 21.75 15.5935C21.75 15.5915 21.75 15.5894 21.75 15.5873C21.75 15.5853 21.75 15.5832 21.75 15.5811C21.75 15.5791 21.75 15.577 21.75 15.5749C21.75 15.5729 21.75 15.5708 21.75 15.5688C21.75 15.5667 21.75 15.5646 21.75 15.5626C21.75 15.5605 21.75 15.5585 21.75 15.5564C21.75 15.5543 21.75 15.5523 21.75 15.5502C21.75 15.5482 21.75 15.5461 21.75 15.5441C21.75 15.542 21.75 15.5399 21.75 15.5379C21.75 15.5358 21.75 15.5338 21.75 15.5317C21.75 15.5297 21.75 15.5276 21.75 15.5256C21.75 15.5235 21.75 15.5215 21.75 15.5194C21.75 15.5174 21.75 15.5153 21.75 15.5133C21.75 15.5112 21.75 15.5092 21.75 15.5071C21.75 15.5051 21.75 15.503 21.75 15.501C21.75 15.4989 21.75 15.4969 21.75 15.4948C21.75 15.4928 21.75 15.4907 21.75 15.4887C21.75 15.4867 21.75 15.4846 21.75 15.4826C21.75 15.4805 21.75 15.4785 21.75 15.4764C21.75 15.4744 21.75 15.4724 21.75 15.4703C21.75 15.4683 21.75 15.4662 21.75 15.4642C21.75 15.4622 21.75 15.4601 21.75 15.4581C21.75 15.456 21.75 15.454 21.75 15.452C21.75 15.4499 21.75 15.4479 21.75 15.4459C21.75 15.4438 21.75 15.4418 21.75 15.4398C21.75 15.4377 21.75 15.4357 21.75 15.4337C21.75 15.4316 21.75 15.4296 21.75 15.4276C21.75 15.4255 21.75 15.4235 21.75 15.4215C21.75 15.4194 21.75 15.4174 21.75 15.4154C21.75 15.4134 21.75 15.4113 21.75 15.4093C21.75 15.4073 21.75 15.4053 21.75 15.4032C21.75 15.4012 21.75 15.3992 21.75 15.3972C21.75 15.3951 21.75 15.3931 21.75 15.3911C21.75 15.3891 21.75 15.387 21.75 15.385C21.75 15.383 21.75 15.381 21.75 15.379C21.75 15.3769 21.75 15.3749 21.75 15.3729C21.75 15.3709 21.75 15.3689 21.75 15.3668C21.75 15.3648 21.75 15.3628 21.75 15.3608C21.75 15.3588 21.75 15.3568 21.75 15.3547C21.75 15.3527 21.75 15.3507 21.75 15.3487C21.75 15.3467 21.75 15.3447 21.75 15.3427C21.75 15.3407 21.75 15.3386 21.75 15.3366C21.75 15.3346 21.75 15.3326 21.75 15.3306C21.75 15.3286 21.75 15.3266 21.75 15.3246C21.75 15.3226 21.75 15.3206 21.75 15.3186C21.75 15.3166 21.75 15.3145 21.75 15.3125C21.75 15.3105 21.75 15.3085 21.75 15.3065C21.75 15.3045 21.75 15.3025 21.75 15.3005C21.75 15.2985 21.75 15.2965 21.75 15.2945C21.75 15.2925 21.75 15.2905 21.75 15.2885C21.75 15.2865 21.75 15.2845 21.75 15.2825C21.75 15.2805 21.75 15.2785 21.75 15.2765C21.75 15.2745 21.75 15.2726 21.75 15.2706C21.75 15.2686 21.75 15.2666 21.75 15.2646C21.75 15.2626 21.75 15.2606 21.75 15.2586C21.75 15.2566 21.75 15.2546 21.75 15.2526C21.75 15.2506 21.75 15.2487 21.75 15.2467C21.75 15.2447 21.75 15.2427 21.75 15.2407C21.75 15.2387 21.75 15.2367 21.75 15.2347C21.75 15.2328 21.75 15.2308 21.75 15.2288C21.75 15.2268 21.75 15.2248 21.75 15.2228C21.75 15.2209 21.75 15.2189 21.75 15.2169C21.75 15.2149 21.75 15.2129 21.75 15.211C21.75 15.209 21.75 15.207 21.75 15.205C21.75 15.2031 21.75 15.2011 21.75 15.1991C21.75 15.1971 21.75 15.1952 21.75 15.1932C21.75 15.1912 21.75 15.1892 21.75 15.1873C21.75 15.1853 21.75 15.1833 21.75 15.1813C21.75 15.1794 21.75 15.1774 21.75 15.1754C21.75 15.1735 21.75 15.1715 21.75 15.1695C21.75 15.1676 21.75 15.1656 21.75 15.1636C21.75 15.1617 21.75 15.1597 21.75 15.1577C21.75 15.1558 21.75 15.1538 21.75 15.1518C21.75 15.1499 21.75 15.1479 21.75 15.146C21.75 15.144 21.75 15.142 21.75 15.1401C21.75 15.1381 21.75 15.1362 21.75 15.1342C21.75 15.1322 21.75 15.1303 21.75 15.1283C21.75 15.1264 21.75 15.1244 21.75 15.1225C21.75 15.1205 21.75 15.1185 21.75 15.1166C21.75 15.1146 21.75 15.1127 21.75 15.1107C21.75 15.1088 21.75 15.1068 21.75 15.1049C21.75 15.1029 21.75 15.101 21.75 15.099C21.75 15.0971 21.75 15.0951 21.75 15.0932C21.75 15.0913 21.75 15.0893 21.75 15.0874C21.75 15.0854 21.75 15.0835 21.75 15.0815C21.75 15.0796 21.75 15.0776 21.75 15.0757C21.75 15.0738 21.75 15.0718 21.75 15.0699C21.75 15.0679 21.75 15.066 21.75 15.0641C21.75 15.0621 21.75 15.0602 21.75 15.0583C21.75 15.0563 21.75 15.0544 21.75 15.0524C21.75 15.0505 21.75 15.0486 21.75 15.0466C21.75 15.0447 21.75 15.0428 21.75 15.0409C21.75 15.0389 21.75 15.037 21.75 15.0351C21.75 15.0331 21.75 15.0312 21.75 15.0293C21.75 15.0273 21.75 15.0254 21.75 15.0235C21.75 15.0216 21.75 15.0196 21.75 15.0177C21.75 15.0158 21.75 15.0139 21.75 15.012C21.75 15.01 21.75 15.0081 21.75 15.0062C21.75 15.0043 21.75 15.0023 21.75 15.0004C21.75 14.9985 21.75 14.9966 21.75 14.9947C21.75 14.9928 21.75 14.9908 21.75 14.9889C21.75 14.987 21.75 14.9851 21.75 14.9832C21.75 14.9813 21.75 14.9794 21.75 14.9774C21.75 14.9755 21.75 14.9736 21.75 14.9717C21.75 14.9698 21.75 14.9679 21.75 14.966C21.75 14.9641 21.75 14.9622 21.75 14.9603C21.75 14.9584 21.75 14.9564 21.75 14.9545C21.75 14.9526 21.75 14.9507 21.75 14.9488C21.75 14.9469 21.75 14.945 21.75 14.9431C21.75 14.9412 21.75 14.9393 21.75 14.9374C21.75 14.9355 21.75 14.9336 21.75 14.9317C21.75 14.9298 21.75 14.9279 21.75 14.926C21.75 14.9241 21.75 14.9223 21.75 14.9204C21.75 14.9185 21.75 14.9166 21.75 14.9147C21.75 14.9128 21.75 14.9109 21.75 14.909C21.75 14.9071 21.75 14.9052 21.75 14.9033C21.75 14.9015 21.75 14.8996 21.75 14.8977C21.75 14.8958 21.75 14.8939 21.75 14.892C21.75 14.8901 21.75 14.8883 21.75 14.8864C21.75 14.8845 21.75 14.8826 21.75 14.8807C21.75 14.8789 21.75 14.877 21.75 14.8751C21.75 14.8732 21.75 14.8713 21.75 14.8695C21.75 14.8676 21.75 14.8657 21.75 14.8638C21.75 14.862 21.75 14.8601 21.75 14.8582C21.75 14.8563 21.75 14.8545 21.75 14.8526C21.75 14.8507 21.75 14.8489 21.75 14.847C21.75 14.8451 21.75 14.8433 21.75 14.8414C21.75 14.8395 21.75 14.8376 21.75 14.8358C21.75 14.8339 21.75 14.8321 21.75 14.8302C21.75 14.8283 21.75 14.8265 21.75 14.8246C21.75 14.8227 21.75 14.8209 21.75 14.819C21.75 14.8172 21.75 14.8153 21.75 14.8134C21.75 14.8116 21.75 14.8097 21.75 14.8079C21.75 14.806 21.75 14.8042 21.75 14.8023C21.75 14.8005 21.75 14.7986 21.75 14.7968C21.75 14.7949 21.75 14.7931 21.75 14.7912C21.75 14.7894 21.75 14.7875 21.75 14.7857C21.75 14.7838 21.75 14.782 21.75 14.7801C21.75 14.7783 21.75 14.7764 21.75 14.7746C21.75 14.7727 21.75 14.7709 21.75 14.7691C21.75 14.7672 21.75 14.7654 21.75 14.7635C21.75 14.7617 21.75 14.7599 21.75 14.758C21.75 14.7562 21.75 14.7543 21.75 14.7525C21.75 14.7507 21.75 14.7488 21.75 14.747C21.75 14.7452 21.75 14.7433 21.75 14.7415C21.75 14.7397 21.75 14.7378 21.75 14.736C21.75 14.7342 21.75 14.7324 21.75 14.7305C21.75 14.7287 21.75 14.7269 21.75 14.7251C21.75 14.7232 21.75 14.7214 21.75 14.7196C21.75 14.7178 21.75 14.7159 21.75 14.7141C21.75 14.7123 21.75 14.7105 21.75 14.7087C21.75 14.7068 21.75 14.705 21.75 14.7032C21.75 14.7014 21.75 14.6996 21.75 14.6978C21.75 14.6959 21.75 14.6941 21.75 14.6923C21.75 14.6905 21.75 14.6887 21.75 14.6869C21.75 14.6851 21.75 14.6833 21.75 14.6814C21.75 14.6796 21.75 14.6778 21.75 14.676C21.75 14.6742 21.75 14.6724 21.75 14.6706C21.75 14.6688 21.75 14.667 21.75 14.6652C21.75 14.6634 21.75 14.6616 21.75 14.6598C21.75 14.658 21.75 14.6562 21.75 14.6544C21.75 14.6526 21.75 14.6508 21.75 14.649C21.75 14.6472 21.75 14.6454 21.75 14.6436C21.75 14.6418 21.75 14.64 21.75 14.6382C21.75 14.6364 21.75 14.6347 21.75 14.6329C21.75 14.6311 21.75 14.6293 21.75 14.6275C21.75 14.6257 21.75 14.6239 21.75 14.6221C21.75 14.6204 21.75 14.6186 21.75 14.6168C21.75 14.615 21.75 14.6132 21.75 14.6114C21.75 14.6097 21.75 14.6079 21.75 14.6061C21.75 14.6043 21.75 14.6025 21.75 14.6008C21.75 14.599 21.75 14.5972 21.75 14.5954C21.75 14.5937 21.75 14.5919 21.75 14.5901C21.75 14.5883 21.75 14.5866 21.75 14.5848C21.75 14.583 21.75 14.5813 21.75 14.5795C21.75 14.5777 21.75 14.576 21.75 14.5742C21.75 14.5724 21.75 14.5707 21.75 14.5689C21.75 14.5671 21.75 14.5654 21.75 14.5636C21.75 14.5619 21.75 14.5601 21.75 14.5583C21.75 14.5566 21.75 14.5548 21.75 14.5531C21.75 14.5513 21.75 14.5495 21.75 14.5478C21.75 14.546 21.75 14.5443 21.75 14.5425C21.75 14.5408 21.75 14.539 21.75 14.5373C21.75 14.5355 21.75 14.5338 21.75 14.532C21.75 14.5303 21.75 14.5285 21.75 14.5268C21.75 14.525 21.75 14.5233 21.75 14.5216C21.75 14.5198 21.75 14.5181 21.75 14.5163C21.75 14.5146 21.75 14.5128 21.75 14.5111C21.75 14.5094 21.75 14.5076 21.75 14.5059C21.75 14.5042 21.75 14.5024 21.75 14.5007C21.75 14.499 21.75 14.4972 21.75 14.4955C21.75 14.4938 21.75 14.492 21.75 14.4903C21.75 14.4886 21.75 14.4868 21.75 14.4851C21.75 14.4834 21.75 14.4817 21.75 14.4799C21.75 14.4782 21.75 14.4765 21.75 14.4748C21.75 14.473 21.75 14.4713 21.75 14.4696C21.75 14.4679 21.75 14.4662 21.75 14.4644C21.75 14.4627 21.75 14.461 21.75 14.4593C21.75 14.4576 21.75 14.4559 21.75 14.4541C21.75 14.4524 21.75 14.4507 21.75 14.449C21.75 14.4473 21.75 14.4456 21.75 14.4439C21.75 14.4422 21.75 14.4405 21.75 14.4388C21.75 14.4371 21.75 14.4353 21.75 14.4336C21.75 14.4319 21.75 14.4302 21.75 14.4285C21.75 14.4268 21.75 14.4251 21.75 14.4234C21.75 14.4217 21.75 14.42 21.75 14.4183C21.75 14.4166 21.75 14.4149 21.75 14.4133C21.75 14.4116 21.75 14.4099 21.75 14.4082C21.75 14.4065 21.75 14.4048 21.75 14.4031C21.75 14.4014 21.75 14.3997 21.75 14.398C21.75 14.3963 21.75 14.3947 21.75 14.393C21.75 14.3913 21.75 14.3896 21.75 14.3879C21.75 14.3862 21.75 14.3846 21.75 14.3829C21.75 14.3812 21.75 14.3795 21.75 14.3778C21.75 14.3762 21.75 14.3745 21.75 14.3728C21.75 14.3711 21.75 14.3695 21.75 14.3678C21.75 14.3661 21.75 14.3644 21.75 14.3628C21.75 14.3611 21.75 14.3594 21.75 14.3578C21.75 14.3561 21.75 14.3544 21.75 14.3528C21.75 14.3511 21.75 14.3494 21.75 14.3478C21.75 14.3461 21.75 14.3445 21.75 14.3428C21.75 14.3411 21.75 14.3395 21.75 14.3378C21.75 14.3362 21.75 14.3345 21.75 14.3328C21.75 14.3312 21.75 14.3295 21.75 14.3279C21.75 14.3262 21.75 14.3246 21.75 14.3229C21.75 14.3213 21.75 14.3196 21.75 14.318C21.75 14.3163 21.75 14.3147 21.75 14.313C21.75 14.3114 21.75 14.3097 21.75 14.3081C21.75 14.3065 21.75 14.3048 21.75 14.3032C21.75 14.3015 21.75 14.2999 21.75 14.2983C21.75 14.2966 21.75 14.295 21.75 14.2934C21.75 14.2917 21.75 14.2901 21.75 14.2884C21.75 14.2868 21.75 14.2852 21.75 14.2836C21.75 14.2819 21.75 14.2803 21.75 14.2787C21.75 14.277 21.75 14.2754 21.75 14.2738C21.75 14.2722 21.75 14.2705 21.75 14.2689C21.75 14.2673 21.75 14.2657 21.75 14.264C21.75 14.2624 21.75 14.2608 21.75 14.2592C21.75 14.2576 21.75 14.256 21.75 14.2543C21.75 14.2527 21.75 14.2511 21.75 14.2495C21.75 14.2479 21.75 14.2463 21.75 14.2447C21.75 14.2431 21.75 14.2415 21.75 14.2398C21.75 14.2382 21.75 14.2366 21.75 14.235C21.75 14.2334 21.75 14.2318 21.75 14.2302C21.75 14.2286 21.75 14.227 21.75 14.2254C21.75 14.2238 21.75 14.2222 21.75 14.2206C21.75 14.219 21.75 14.2174 21.75 14.2158C21.75 14.2142 21.75 14.2126 21.75 14.2111C21.75 14.2095 21.75 14.2079 21.75 14.2063C21.75 14.2047 21.75 14.2031 21.75 14.2015C21.75 14.1999 21.75 14.1983 21.75 14.1968C21.75 14.1952 21.75 14.1936 21.75 14.192C21.75 14.1904 21.75 14.1889 21.75 14.1873C21.75 14.1857 21.75 14.1841 21.75 14.1825C21.75 14.181 21.75 14.1794 21.75 14.1778C21.75 14.1762 21.75 14.1747 21.75 14.1731C21.75 14.1715 21.75 14.17 21.75 14.1684C21.75 14.1668 21.75 14.1653 21.75 14.1637C21.75 14.1621 21.75 14.1606 21.75 14.159C21.75 14.1574 21.75 14.1559 21.75 14.1543C21.75 14.1528 21.75 14.1512 21.75 14.1496C21.75 14.1481 21.75 14.1465 21.75 14.145C21.75 14.1434 21.75 14.1419 21.75 14.1403C21.75 14.1388 21.75 14.1372 21.75 14.1357C21.75 14.1341 21.75 14.1326 21.75 14.131C21.75 14.1295 21.75 14.1279 21.75 14.1264C21.75 14.1248 21.75 14.1233 21.75 14.1218C21.75 14.1202 21.75 14.1187 21.75 14.1171C21.75 14.1156 21.75 14.1141 21.75 14.1125C21.75 14.111 21.75 14.1095 21.75 14.1079C21.75 14.1064 21.75 14.1049 21.75 14.1033C21.75 14.1018 21.75 14.1003 21.75 14.0988C21.75 14.0972 21.75 14.0957 21.75 14.0942C21.75 14.0927 21.75 14.0911 21.75 14.0896C21.75 14.0881 21.75 14.0866 21.75 14.085C21.75 14.0835 21.75 14.082 21.75 14.0805C21.75 14.079 21.75 14.0775 21.75 14.0759C21.75 14.0744 21.75 14.0729 21.75 14.0714C21.75 14.0699 21.75 14.0684 21.75 14.0669C21.75 14.0654 21.75 14.0639 21.75 14.0624C21.75 14.0609 21.75 14.0594 21.75 14.0579C21.75 14.0564 21.75 14.0549 21.75 14.0534C21.75 14.0519 21.75 14.0504 21.75 14.0489C21.75 14.0474 21.75 14.0459 21.75 14.0444C21.75 14.0429 21.75 14.0414 21.75 14.0399C21.75 14.0384 21.75 14.0369 21.75 14.0354C21.75 14.0339 21.75 14.0325 21.75 14.031C21.75 14.0295 21.75 14.028 21.75 14.0265C21.75 14.025 21.75 14.0236 21.75 14.0221C21.75 14.0206 21.75 14.0191 21.75 14.0176C21.75 14.0162 21.75 14.0147 21.75 14.0132C21.75 14.0118 21.75 14.0103 21.75 14.0088C21.75 14.0073 21.75 14.0059 21.75 14.0044C21.75 14.0029 21.75 14.0015 21.75 14H20.25ZM21 13.25C20.6789 13.25 20.3603 13.1281 20.1161 12.8839L19.0555 13.9445C19.5923 14.4814 20.2974 14.75 21 14.75V13.25ZM5 18.25C4.30964 18.25 3.75 17.6904 3.75 17H2.25C2.25 18.5188 3.48122 19.75 5 19.75V18.25ZM19 19.75C20.5188 19.75 21.75 18.5188 21.75 17H20.25C20.25 17.6904 19.6904 18.25 19 18.25V19.75ZM19 5.75C19.6904 5.75 20.25 6.30964 20.25 7H21.75C21.75 5.48122 20.5188 4.25 19 4.25V5.75ZM5 4.25C3.48122 4.25 2.25 5.48122 2.25 7H3.75C3.75 6.30964 4.30964 5.75 5 5.75V4.25Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["ticket"],
+    tags: ["ticket", "voucher", "coupon", "event", "admission", "booking", "pass", "filled", "entertainment"],
     category: "Light"
   },
   {
@@ -3627,7 +3627,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 17H7M7 17L7 7M7 17L17 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 1 ", " svg"],
+    tags: ["arrow bottom left 1", "svg", "diagonal", "direction", "pointer", "southwest", "navigation", "minimal", "line", "stroke"],
     category: "Thin"
   },
   {
@@ -3637,7 +3637,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 8L8 16L16 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 2 ", " svg"],
+    tags: ["arrow bottom left 2", "svg", "diagonal", "direction", "pointer", "southwest", "navigation", "minimal", "line", "stroke"],
     category: "Thin"
   },
   {
@@ -3648,7 +3648,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14M10 14L14 14M10 14L14 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 3 square ", " svg"],
+    tags: ["arrow bottom left 3 square", "svg", "diagonal", "direction", "pointer", "southwest", "navigation", "geometric", "square", "filled"],
     category: "Thin"
   },
   {
@@ -3659,7 +3659,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14L14 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 4 square ", " svg"],
+    tags: ["arrow bottom left 4 square", "svg", "diagonal", "direction", "pointer", "southwest", "navigation", "geometric", "square", "filled"],
     category: "Thin"
   },
   {
@@ -3670,7 +3670,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14M10 14L14 14M10 14L14 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 5 circle ", " svg"],
+    tags: ["arrow bottom left 5 circle", "svg", "diagonal", "direction", "pointer", "southwest", "navigation", "circular", "rounded", "filled"],
     category: "Thin"
   },
   {
@@ -3681,7 +3681,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L10 14L14 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom left 6 circle ", " svg"],
+    tags: ["arrow bottom left 6 circle", "svg", "diagonal", "direction", "pointer", "southwest", "navigation", "circular", "rounded", "filled"],
     category: "Thin"
   },
   {
@@ -3691,7 +3691,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 7L17 17M17 17L7 17M17 17L7 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 1 ", " svg"],
+    tags: ["arrow bottom right 1", "svg", "diagonal", "direction", "pointer", "southeast", "navigation", "minimal", "line", "stroke"],
     category: "Thin"
   },
   {
@@ -3702,7 +3702,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14M14 14L14 10M14 14L10 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 3 square ", " svg"],
+    tags: ["arrow bottom right 3 square", "svg", "diagonal", "direction", "pointer", "southeast", "navigation", "geometric", "square", "filled"],
     category: "Thin"
   },
   {
@@ -3713,7 +3713,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14L14 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 4 square ", " svg"],
+    tags: ["arrow bottom right 4 square", "svg", "diagonal", "direction", "pointer", "southeast", "navigation", "geometric", "square", "filled"],
     category: "Thin"
   },
   {
@@ -3724,7 +3724,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14M14 14L14 10M14 14L10 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 5 circle ", " svg"],
+    tags: ["arrow bottom right 5 circle", "svg", "diagonal", "direction", "pointer", "southeast", "navigation", "circular", "rounded", "filled"],
     category: "Thin"
   },
   {
@@ -3735,7 +3735,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 14L14 14L14 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom right 6 circle ", " svg"],
+    tags: ["arrow bottom right 6 circle", "svg", "diagonal", "direction", "pointer", "southeast", "navigation", "circular", "rounded", "filled"],
     category: "Thin"
   },
   {
@@ -3746,7 +3746,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10L10 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow bottom up 4 square ", " svg"],
+    tags: ["arrow bottom up 4 square", "svg", "upward", "direction", "pointer", "navigation", "geometric", "square", "filled", "upload"],
     category: "Thin"
   },
   {
@@ -3756,7 +3756,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5 12L12 19M12 19L19 12M12 19L12 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 1 ", " svg"],
+    tags: ["arrow down 1", "svg", "downward", "direction", "pointer", "navigation", "minimal", "line", "stroke", "download"],
     category: "Thin"
   },
   {
@@ -3766,7 +3766,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 2 ", " svg"],
+    tags: ["arrow down 2", "svg", "downward", "direction", "pointer", "navigation", "minimal", "line", "stroke", "download"],
     category: "Thin"
   },
   {
@@ -3777,7 +3777,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12L12 15M12 15L15 12M12 15L12 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 3 square ", " svg"],
+    tags: ["arrow down 3 square", "svg", "downward", "direction", "pointer", "navigation", "geometric", "square", "filled", "download"],
     category: "Thin"
   },
   {
@@ -3788,7 +3788,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 11L12 14L15 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 4 square ", " svg"],
+    tags: ["arrow down 4 square", "svg", "downward", "direction", "pointer", "navigation", "geometric", "square", "filled", "download"],
     category: "Thin"
   },
   {
@@ -3799,7 +3799,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12L12 15M12 15L15 12M12 15L12 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 5 circle ", " svg"],
+    tags: ["arrow down 5 circle", "svg", "downward", "direction", "pointer", "navigation", "circular", "rounded", "filled", "download"],
     category: "Thin"
   },
   {
@@ -3810,7 +3810,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 11L12 14L15 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow down 6 circle ", " svg"],
+    tags: ["arrow down 6 circle", "svg", "downward", "direction", "pointer", "navigation", "circular", "rounded", "filled", "download"],
     category: "Thin"
   },
   {
@@ -3820,7 +3820,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 5L5 12M5 12L12 19M5 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 1 ", " svg"],
+    tags: ["arrow left 1", "svg", "leftward", "direction", "pointer", "navigation", "minimal", "line", "stroke", "back"],
     category: "Thin"
   },
   {
@@ -3830,7 +3830,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 7L9 12L14 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 2 ", " svg"],
+    tags: ["arrow left 2", "svg", "leftward", "direction", "pointer", "navigation", "minimal", "line", "stroke", "back"],
     category: "Thin"
   },
   {
@@ -3841,7 +3841,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 9L9 12M9 12L12 15M9 12H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 3 square ", " svg"],
+    tags: ["arrow left 3 square", "svg", "leftward", "direction", "pointer", "navigation", "geometric", "square", "filled", "back"],
     category: "Thin"
   },
   {
@@ -3852,7 +3852,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 9L10 12L13 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 4 square ", " svg"],
+    tags: ["arrow left 4 square", "svg", "back", "previous", "return", "direction", "navigation", "square", "geometric", "outline", "minimal"],
     category: "Thin"
   },
   {
@@ -3863,7 +3863,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 9L9 12M9 12L12 15M9 12H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 5 circle ", " svg"],
+    tags: ["arrow left 5 circle", "svg", "back", "previous", "return", "direction", "navigation", "circle", "rounded", "outline", "minimal"],
     category: "Thin"
   },
   {
@@ -3874,7 +3874,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 9L10 12L13 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow left 6 circle ", " svg"],
+    tags: ["arrow left 6 circle", "svg", "back", "previous", "return", "direction", "navigation", "circle", "rounded", "filled", "bold", "cta"],
     category: "Thin"
   },
   {
@@ -3884,7 +3884,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 16L16 16L16 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right  2 ", " svg"],
+    tags: ["arrow right 2", "svg", "next", "forward", "go", "direction", "navigation", "pointer", "outline", "minimal", "simple"],
     category: "Thin"
   },
   {
@@ -3894,7 +3894,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 19L19 12L12 5M19 12L5 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 1 ", " svg"],
+    tags: ["arrow right 1", "svg", "next", "forward", "go", "direction", "navigation", "pointer", "outline", "thin", "subtle"],
     category: "Thin"
   },
   {
@@ -3904,7 +3904,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 17L15 12L10 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 2 ", " svg"],
+    tags: ["arrow right 2", "svg", "next", "forward", "go", "direction", "navigation", "pointer", "outline", "medium", "standard"],
     category: "Thin"
   },
   {
@@ -3915,7 +3915,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 15L15 12M15 12L12 9M15 12H9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 3 square ", " svg"],
+    tags: ["arrow right 3 square", "svg", "next", "forward", "go", "direction", "navigation", "square", "geometric", "outline", "minimal"],
     category: "Thin"
   },
   {
@@ -3926,7 +3926,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 15L14 12L11 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 4 square ", " svg"],
+    tags: ["arrow right 4 square", "svg", "next", "forward", "go", "direction", "navigation", "square", "geometric", "filled", "bold", "cta"],
     category: "Thin"
   },
   {
@@ -3937,7 +3937,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 15L15 12M15 12L12 9M15 12H9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 5 circle ", " svg"],
+    tags: ["arrow right 5 circle", "svg", "next", "forward", "go", "direction", "navigation", "circle", "rounded", "outline", "minimal"],
     category: "Thin"
   },
   {
@@ -3948,7 +3948,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 15L14 12L11 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow right 6 circle ", " svg"],
+    tags: ["arrow right 6 circle", "svg", "next", "forward", "go", "direction", "navigation", "circle", "rounded", "filled", "bold", "cta"],
     category: "Thin"
   },
   {
@@ -3958,7 +3958,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 7H7M7 7V17M7 7L17 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 1 ", " svg"],
+    tags: ["arrow top left 1", "svg", "diagonal", "up-left", "direction", "navigation", "pointer", "outline", "thin", "subtle", "corner"],
     category: "Thin"
   },
   {
@@ -3968,7 +3968,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 8H8V16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 2 ", " svg"],
+    tags: ["arrow top left 2", "svg", "diagonal", "up-left", "direction", "navigation", "pointer", "outline", "medium", "standard", "corner"],
     category: "Thin"
   },
   {
@@ -3979,7 +3979,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10M10 10V14M10 10L14 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 3 square ", " svg"],
+    tags: ["arrow top left 3 square", "svg", "diagonal", "up-left", "direction", "navigation", "square", "geometric", "outline", "minimal", "corner"],
     category: "Thin"
   },
   {
@@ -3990,7 +3990,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10V14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 4 square ", " svg"],
+    tags: ["arrow top left 4 square", "svg", "diagonal", "up-left", "direction", "navigation", "square", "geometric", "filled", "bold", "cta", "corner"],
     category: "Thin"
   },
   {
@@ -4001,7 +4001,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10M10 10V14M10 10L14 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 5 circle ", " svg"],
+    tags: ["arrow top left 5 circle", "svg", "diagonal", "up-left", "direction", "navigation", "circle", "rounded", "outline", "minimal", "corner"],
     category: "Thin"
   },
   {
@@ -4012,7 +4012,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 10H10V14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top left 6 circle ", " svg"],
+    tags: ["arrow top left 6 circle", "svg", "diagonal", "up-left", "direction", "navigation", "circle", "rounded", "filled", "bold", "cta", "corner"],
     category: "Thin"
   },
   {
@@ -4022,7 +4022,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7H17M17 7V17M17 7L7 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 1 ", " svg"],
+    tags: ["arrow top right 1", "svg", "diagonal", "up-right", "direction", "navigation", "pointer", "outline", "thin", "subtle", "corner"],
     category: "Thin"
   },
   {
@@ -4032,7 +4032,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 16L16 8L8 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 2 ", " svg"],
+    tags: ["arrow top right 2", "svg", "diagonal", "up-right", "direction", "navigation", "pointer", "outline", "medium", "standard", "corner"],
     category: "Thin"
   },
   {
@@ -4043,7 +4043,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10M14 10L10 10M14 10L10 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 3 square ", " svg"],
+    tags: ["arrow top right 3 square", "svg", "diagonal", "up-right", "direction", "navigation", "square", "geometric", "outline", "minimal", "corner"],
     category: "Thin"
   },
   {
@@ -4054,7 +4054,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10M14 10L10 10M14 10L10 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 5 circle ", " svg"],
+    tags: ["arrow top right 5 circle", "svg", "diagonal", "up-right", "direction", "navigation", "circle", "rounded", "outline", "minimal", "corner"],
     category: "Thin"
   },
   {
@@ -4065,7 +4065,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14L14 10L10 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow top right 6 circle ", " svg"],
+    tags: ["arrow top right 6 circle", "svg", "diagonal", "up-right", "direction", "navigation", "circle", "rounded", "filled", "bold", "cta", "corner"],
     category: "Thin"
   },
   {
@@ -4075,7 +4075,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19 12L12 5L5 12M12 5L12 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 1 ", " svg"],
+    tags: ["arrow up 1", "svg", "upload", "top", "direction", "navigation", "pointer", "outline", "thin", "subtle", "scroll"],
     category: "Thin"
   },
   {
@@ -4085,7 +4085,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 14L12 9L7 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 2 ", " svg"],
+    tags: ["arrow up 2", "svg", "upload", "top", "direction", "navigation", "pointer", "outline", "medium", "standard", "scroll"],
     category: "Thin"
   },
   {
@@ -4096,7 +4096,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12L12 9M12 9L9 12M12 9L12 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 3 square ", " svg"],
+    tags: ["arrow up 3 square", "svg", "upload", "top", "direction", "navigation", "square", "geometric", "outline", "minimal", "scroll"],
     category: "Thin"
   },
   {
@@ -4107,7 +4107,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 13L12 10L9 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 4 square ", " svg"],
+    tags: ["arrow up 4 square", "svg", "upload", "top", "direction", "navigation", "square", "geometric", "filled", "bold", "cta", "scroll"],
     category: "Thin"
   },
   {
@@ -4118,7 +4118,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12L12 9M12 9L9 12M12 9L12 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 5 circle ", " svg"],
+    tags: ["arrow up 5 circle", "svg", "upload", "direction", "north", "pointer", "circular", "navigation", "progress", "move", "filled", "upward"],
     category: "Thin"
   },
   {
@@ -4129,7 +4129,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 13L12 10L9 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow up 6 circle ", " svg"],
+    tags: ["arrow up 6 circle", "svg", "upload", "direction", "north", "pointer", "circular", "navigation", "progress", "move", "outline", "upward"],
     category: "Thin"
   },
   {
@@ -4139,7 +4139,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20.9999C16.9706 20.9999 21 16.9705 21 11.9999C21 7.02938 16.9706 2.99994 12 2.99994C7.02944 2.99994 3 7.02938 3 11.9999C3 13.4876 3.36093 14.8909 4 16.1271L3 20.9999L7.8728 19.9999C9.10904 20.639 10.5124 20.9999 12 20.9999Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment ", " svg"],
+    tags: ["comment", "svg", "chat", "speech bubble", "message", "dialogue", "feedback", "communication", "conversation", "outline", "discussion", "social"],
     category: "Thin"
   },
   {
@@ -4151,7 +4151,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12.001H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment add ", " svg"],
+    tags: ["comment add", "svg", "new message", "add chat", "create comment", "plus", "feedback", "communication", "conversation", "outline", "discussion", "social"],
     category: "Thin"
   },
   {
@@ -4162,7 +4162,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.0002 9.99994L11.0002 13.9999L9.00024 11.9999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment check ", " svg"],
+    tags: ["comment check", "svg", "message sent", "chat confirmed", "feedback received", "verified", "communication", "conversation", "outline", "success", "social"],
     category: "Thin"
   },
   {
@@ -4173,7 +4173,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0002 9.99994L14.0002 13.9999M10.0002 13.9999L14.0002 9.99994" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment close ", " svg"],
+    tags: ["comment close", "svg", "delete message", "cancel chat", "remove feedback", "error", "communication", "conversation", "outline", "warning", "social"],
     category: "Thin"
   },
   {
@@ -4186,7 +4186,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="16.5" y="12" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment dots ", " svg"],
+    tags: ["comment dots", "svg", "typing", "pending message", "ellipsis", "activity", "communication", "conversation", "outline", "waiting", "social"],
     category: "Thin"
   },
   {
@@ -4197,7 +4197,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12.001H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["comment remove ", " svg"],
+    tags: ["comment remove", "svg", "delete message", "cancel chat", "minus", "remove feedback", "communication", "conversation", "outline", "social"],
     category: "Thin"
   },
   {
@@ -4208,7 +4208,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 14V4" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["dislike ", " svg"],
+    tags: ["dislike", "svg", "thumbs down", "negative", "disapprove", "vote", "feedback", "social", "reaction", "unhappy", "outline"],
     category: "Thin"
   },
   {
@@ -4219,7 +4219,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 5L12 14L21 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["email ", " svg"],
+    tags: ["email", "svg", "mail", "message", "contact", "inbox", "correspondence", "communication", "letter", "outline", "send"],
     category: "Thin"
   },
   {
@@ -4230,7 +4230,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 10V20" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["like ", " svg"],
+    tags: ["like", "svg", "thumbs up", "positive", "approve", "vote", "feedback", "social", "reaction", "happy", "outline"],
     category: "Thin"
   },
   {
@@ -4240,7 +4240,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19.5063 7.95952C18.0666 13.6147 13.6147 18.0666 7.95953 19.5063C5.81867 20.0513 4 18.2091 4 16V15C4 14.4477 4.44883 14.0053 4.99842 13.9508C5.92696 13.8587 6.81815 13.6397 7.65438 13.3112L9.17366 14.8305C11.6447 13.648 13.648 11.6447 14.8305 9.17367L13.3112 7.65438C13.6397 6.81816 13.8587 5.92696 13.9508 4.99842C14.0053 4.44883 14.4477 4 15 4H16C18.2091 4 20.0513 5.81867 19.5063 7.95952Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["phone ", " svg"],
+    tags: ["phone", "svg", "call", "telephone", "contact", "communication", "device", "talk", "support", "outline"],
     category: "Thin"
   },
   {
@@ -4251,7 +4251,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 4L20 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["phone off ", " svg"],
+    tags: ["phone off", "svg", "call ended", "hang up", "no service", "silent", "communication", "device", "unavailable", "outline"],
     category: "Thin"
   },
   {
@@ -4262,7 +4262,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="11.9999" cy="6.99997" r="3" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["profile ", " svg"],
+    tags: ["profile", "svg", "user", "account", "person", "avatar", "identity", "settings", "ui", "outline", "human"],
     category: "Thin"
   },
   {
@@ -4274,7 +4274,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5.16583 17.8564L4.68663 17.7137L4.60881 17.975L4.78631 18.1819L5.16583 17.8564ZM18.8341 17.8564L19.2136 18.1819L19.3911 17.975L19.3133 17.7137L18.8341 17.8564ZM8.99998 15.5H15V14.5H8.99998V15.5ZM8.99998 14.5C6.96102 14.5 5.23999 15.8556 4.68663 17.7137L5.64503 17.9991C6.07561 16.5533 7.41543 15.5 8.99998 15.5V14.5ZM12 20.5C9.41785 20.5 7.10503 19.3493 5.54535 17.5309L4.78631 18.1819C6.52787 20.2123 9.11382 21.5 12 21.5V20.5ZM15 15.5C16.5845 15.5 17.9243 16.5533 18.3549 17.9991L19.3133 17.7137C18.76 15.8556 17.0389 14.5 15 14.5V15.5ZM18.4546 17.5309C16.8949 19.3493 14.5821 20.5 12 20.5V21.5C14.8861 21.5 17.4721 20.2123 19.2136 18.1819L18.4546 17.5309Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["profile circle ", " svg"],
+    tags: ["profile circle", "svg", "user", "account", "person", "avatar", "identity", "settings", "ui", "circular", "human", "outline"],
     category: "Thin"
   },
   {
@@ -4284,7 +4284,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.99988 12L4.39577 6.56299C4.22284 5.0067 5.82456 3.86433 7.2397 4.53465L19.1841 10.1925C20.7092 10.9149 20.7092 13.0851 19.1841 13.8075L7.23971 19.4653C5.82457 20.1357 4.22284 18.9933 4.39577 17.437L4.99988 12ZM4.99988 12H11.9999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send ", " svg"],
+    tags: ["send", "svg", "submit", "paper plane", "message", "dispatch", "email", "communication", "share", "outline", "forward"],
     category: "Thin"
   },
   {
@@ -4294,7 +4294,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.2722 6.00791C16.6191 6.60134 17.263 7 18 7C19.1046 7 20 6.10457 20 5C20 3.89543 19.1046 3 18 3C16.8954 3 16 3.89543 16 5C16 5.36756 16.0991 5.71195 16.2722 6.00791ZM16.2722 6.00791L7.72784 10.9921M7.72784 10.9921C7.38092 10.3987 6.73701 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14C6.73701 14 7.38092 13.6013 7.72784 13.0079M7.72784 10.9921C7.90085 11.288 8 11.6324 8 12C8 12.3676 7.90085 12.712 7.72784 13.0079M7.72784 13.0079L16.2722 17.9921M16.2722 17.9921C16.6191 17.3987 17.263 17 18 17C19.1046 17 20 17.8954 20 19C20 20.1046 19.1046 21 18 21C16.8954 21 16 20.1046 16 19C16 18.6324 16.0991 18.288 16.2722 17.9921Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share 1 ", " svg"],
+    tags: ["share 1", "svg", "social media", "connect", "distribute", "network", "link", "communication", "export", "outline", "forward"],
     category: "Thin"
   },
   {
@@ -4305,7 +4305,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 8.99995H4V18C4 19.1045 4.89543 20 6 20H18C19.1046 20 20 19.1045 20 18V8.99995H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share 2 ", " svg"],
+    tags: ["share 2", "svg", "social media", "connect", "distribute", "network", "link", "communication", "export", "outline", "forward"],
     category: "Thin"
   },
   {
@@ -4318,7 +4318,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 14C11.5194 14 10.2267 14.8044 9.53513 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["confused face ", " svg"],
+    tags: ["confused face", "svg", "puzzled", "bewildered", "uncertain", "questioning", "emoji", "reaction", "emotion", "outline", "unclear"],
     category: "Thin"
   },
   {
@@ -4331,7 +4331,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 9.5L7 10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["disappointed face ", " svg"],
+    tags: ["disappointed face", "svg", "sad", "unhappy", "regretful", "let down", "emoji", "reaction", "emotion", "outline", "gloomy"],
     category: "Thin"
   },
   {
@@ -4344,7 +4344,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 9.5H7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["expressionless face ", " svg"],
+    tags: ["expressionless face", "svg", "neutral", "indifferent", "blank", "unemotional", "emoji", "reaction", "emotion", "outline", "apathetic"],
     category: "Thin"
   },
   {
@@ -4356,7 +4356,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="15.01" y="9.5" width="0.01" height="0.01" transform="rotate(90 15.01 9.5)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["face without mouth ", " svg"],
+    tags: ["face without mouth", "svg", "silent", "speechless", "quiet", "mute", "emoji", "reaction", "emotion", "outline", "secret"],
     category: "Thin"
   },
   {
@@ -4369,7 +4369,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="12.01" y="15" width="0.01" height="0.01" transform="rotate(90 12.01 15)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["face with open mouth ", " svg"],
+    tags: ["face with open mouth", "svg", "surprised", "shocked", "amazed", "gasping", "emoji", "reaction", "emotion", "outline", "astonished"],
     category: "Thin"
   },
   {
@@ -4382,7 +4382,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.53516 16C9.22678 14.8044 10.5195 14 12 14C13.4806 14 14.7733 14.8044 15.4649 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["frowning face ", " svg"],
+    tags: ["frowning face", "svg", "unhappy", "sad", "displeased", "gloomy", "emoji", "reaction", "emotion", "outline", "disappointed"],
     category: "Thin"
   },
   {
@@ -4395,7 +4395,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="15.01" y="9.5" width="0.01" height="0.01" transform="rotate(90 15.01 9.5)" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["kissing face ", " svg"],
+    tags: ["kissing face", "svg", "love", "affection", "smooch", "romantic", "emoji", "reaction", "emotion", "outline", "friendly"],
     category: "Thin"
   },
   {
@@ -4408,7 +4408,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 16L11 15L13 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["kissing face with smiling eyes ", " svg"],
+    tags: ["kissing face with smiling eyes", "svg", "love", "affection", "romance", "emoji", "emoticon", "happy", "joyful", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4421,7 +4421,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 15H15" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["neutral face ", " svg"],
+    tags: ["neutral face", "svg", "indifferent", "expressionless", "unemotional", "emoji", "emoticon", "calm", "plain", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4434,7 +4434,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7.00012 10.5C7.46332 10.6875 7.96964 10.7907 8.50007 10.7907C9.0305 10.7907 9.53682 10.6875 10 10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pensive face ", " svg"],
+    tags: ["pensive face", "svg", "thoughtful", "sad", "melancholy", "emoji", "emoticon", "contemplative", "serious", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4447,7 +4447,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 10.5C7.4632 10.6875 7.96952 10.7907 8.49995 10.7907C9.03038 10.7907 9.5367 10.6875 9.9999 10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["relieved face ", " svg"],
+    tags: ["relieved face", "svg", "relaxed", "calm", "satisfied", "emoji", "emoticon", "peaceful", "happy", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4460,7 +4460,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.4649 14C14.7732 15.1956 13.4806 16 12 16C10.5194 16 9.22674 15.1956 8.53513 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slightly smiling face ", " svg"],
+    tags: ["slightly smiling face", "svg", "content", "pleasant", "friendly", "emoji", "emoticon", "happy", "subtle", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4473,7 +4473,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L9 9L8 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smiling face ", " svg"],
+    tags: ["smiling face", "svg", "happy", "joy", "positive", "emoji", "emoticon", "friendly", "cheerful", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4486,7 +4486,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 10.5L10 9.5L8 8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["squinting face ", " svg"],
+    tags: ["squinting face", "svg", "happy", "laughing", "joyful", "emoji", "emoticon", "amused", "delighted", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4499,7 +4499,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.5351 10C9.22672 8.8044 10.5194 8 12 8C13.4805 8 14.7732 8.8044 15.4648 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upside", "down face ", " svg"],
+    tags: ["upside", "down face", "svg", "sarcastic", "playful", "joking", "emoji", "emoticon", "whimsical", "ironic", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4512,7 +4512,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.5 9.5H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["winking face ", " svg"],
+    tags: ["winking face", "svg", "flirty", "playful", "joking", "emoji", "emoticon", "mischievous", "friendly", "filled", "social", "chat"],
     category: "Thin"
   },
   {
@@ -4522,7 +4522,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6.00002 15L6.00002 9C6.00002 5.68629 8.68631 3 12 3C15.3137 3 18 5.68629 18 9V17C18 19.2091 16.2092 21 14 21C11.7909 21 10 19.2091 10 17V9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["attachment ", " svg"],
+    tags: ["attachment", "svg", "paperclip", "link", "clip", "document", "email", "message", "communication", "ui", "filled", "send"],
     category: "Thin"
   },
   {
@@ -4539,7 +4539,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud ", " svg"],
+    tags: ["cloud", "svg", "weather", "sky", "computing", "storage", "data", "internet", "filled", "system", "forecast", "nature"],
     category: "Thin"
   },
   {
@@ -4551,7 +4551,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0001 13H14.0001" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cloud add ", " svg"],
+    tags: ["cloud add", "svg", "upload", "create", "new", "storage", "data", "computing", "system", "filled", "plus", "add to cloud"],
     category: "Thin"
   },
   {
@@ -4562,7 +4562,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.0001 11L11.0001 14L14.0001 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cloud clock ", " svg"],
+    tags: ["cloud clock", "svg", "history", "scheduling", "backup", "storage", "data", "computing", "system", "filled", "time", "sync"],
     category: "Thin"
   },
   {
@@ -4580,7 +4580,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud download ", " svg"],
+    tags: ["cloud download", "svg", "retrieve", "get", "save", "storage", "data", "computing", "system", "filled", "arrow down", "access"],
     category: "Thin"
   },
   {
@@ -4599,7 +4599,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud error ", " svg"],
+    tags: ["cloud error", "svg", "alert", "warning", "issue", "failure", "problem", "storage", "data", "system", "filled", "exclamation"],
     category: "Thin"
   },
   {
@@ -4617,7 +4617,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud no ", " svg"],
+    tags: ["cloud no", "svg", "restricted", "forbidden", "unavailable", "access denied", "storage", "data", "system", "filled", "blocked", "cancel"],
     category: "Thin"
   },
   {
@@ -4635,7 +4635,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud off ", " svg"],
+    tags: ["cloud off", "svg", "disconnected", "offline", "unavailable", "sync off", "storage", "data", "system", "filled", "disabled", "inactive"],
     category: "Thin"
   },
   {
@@ -4646,7 +4646,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0001 13H14.0001" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cloud remove ", " svg"],
+    tags: ["cloud remove", "svg", "delete", "clear", "erase", "storage", "data", "computing", "system", "filled", "minus", "remove from cloud"],
     category: "Thin"
   },
   {
@@ -4664,7 +4664,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud upload ", " svg"],
+    tags: ["cloud upload", "svg", "send", "transfer", "publish", "storage", "data", "computing", "system", "filled", "arrow up", "backup"],
     category: "Thin"
   },
   {
@@ -4682,7 +4682,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["cloud yes ", " svg"],
+    tags: ["cloud yes", "svg", "success", "confirmed", "available", "synced", "storage", "data", "system", "filled", "check", "approved"],
     category: "Thin"
   },
   {
@@ -4693,7 +4693,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 7H20V19C20 20.1046 19.1046 21 18 21H10C8.89543 21 8 20.1046 8 19V7Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["copy ", " svg"],
+    tags: ["copy", "svg", "duplicate", "clone", "content", "paste", "document", "file", "ui", "filled", "replicate", "system"],
     category: "Thin"
   },
   {
@@ -4704,7 +4704,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 20H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["download ", " svg"],
+    tags: ["download", "svg", "save", "get", "retrieve", "arrow down", "file", "system", "ui", "filled", "access", "transfer"],
     category: "Thin"
   },
   {
@@ -4715,7 +4715,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file ", " svg"],
+    tags: ["file", "svg", "document", "paper", "data", "record", "empty state", "system", "ui", "filled", "blank", "page"],
     category: "Thin"
   },
   {
@@ -4728,7 +4728,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file add ", " svg"],
+    tags: ["file add", "svg", "new", "create", "document", "plus", "add file", "system", "ui", "filled", "generate", "compose"],
     category: "Thin"
   },
   {
@@ -4749,7 +4749,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["file audio ", " svg"],
+    tags: ["file audio", "svg", "music", "sound", "media", "mp3", "podcast", "document", "system", "filled", "waveform", "play"],
     category: "Thin"
   },
   {
@@ -4761,7 +4761,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.0001 13L11.0001 17L9.00012 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file check ", " svg"],
+    tags: ["file check", "svg", "document", "verified", "completed", "success", "approval", "confirmation", "validation", "checked", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4773,7 +4773,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0002 13L14.0002 17M10.0002 17L14.0002 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file close ", " svg"],
+    tags: ["file close", "svg", "document", "cancel", "delete", "error", "remove", "unavailable", "failed", "exit", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4786,7 +4786,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 17H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file document ", " svg"],
+    tags: ["file document", "svg", "document", "page", "text", "report", "article", "empty state", "content", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4799,7 +4799,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file image ", " svg"],
+    tags: ["file image", "svg", "picture", "photo", "gallery", "media", "visual", "graphic", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4811,7 +4811,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 3V9H19" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file remove ", " svg"],
+    tags: ["file remove", "svg", "document", "delete", "erase", "discard", "minus", "subtract", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4823,7 +4823,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 14.5L11 16.2321L11 12.7679L14 14.5Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["file video ", " svg"],
+    tags: ["file video", "svg", "movie", "film", "clip", "media", "multimedia", "play", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4833,7 +4833,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 17V5H10L12 7H21V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder ", " svg"],
+    tags: ["folder", "svg", "directory", "organize", "archive", "storage", "data", "documents", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4845,7 +4845,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 13H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder add ", " svg"],
+    tags: ["folder add", "svg", "directory", "create", "new", "plus", "insert", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4856,7 +4856,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 11L11 15L9 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder check ", " svg"],
+    tags: ["folder check", "svg", "directory", "verified", "completed", "success", "approval", "confirmation", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4867,7 +4867,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.0002 11L14.0002 15M10.0002 15L14.0002 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder close ", " svg"],
+    tags: ["folder close", "svg", "directory", "cancel", "delete", "error", "remove", "unavailable", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4880,7 +4880,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="13" y="11" width="4" height="4" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder document ", " svg"],
+    tags: ["folder document", "svg", "directory", "documents", "files", "text", "reports", "content", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4892,7 +4892,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="7.5" y="9.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder image ", " svg"],
+    tags: ["folder image", "svg", "directory", "pictures", "photos", "gallery", "media", "visuals", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4905,7 +4905,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14.0002 12L12.0002 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder music ", " svg"],
+    tags: ["folder music", "svg", "directory", "audio", "songs", "playlist", "sound", "media", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4916,7 +4916,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 13H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder remove ", " svg"],
+    tags: ["folder remove", "svg", "directory", "delete", "erase", "discard", "minus", "subtract", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4927,7 +4927,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 13L11 14.7321L11 11.2679L14 13Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["folder video ", " svg"],
+    tags: ["folder video", "svg", "directory", "movies", "films", "clips", "media", "multimedia", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4938,7 +4938,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 20H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload ", " svg"],
+    tags: ["upload", "svg", "send", "transfer", "publish", "share", "import", "arrow up", "cloud", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4950,7 +4950,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12L16.3301 14.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["3d ", " svg"],
+    tags: ["3d", "svg", "three dimensional", "perspective", "depth", "model", "design", "rendering", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4968,7 +4968,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M18 18H20V20H18V18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["apps ", " svg"],
+    tags: ["apps", "svg", "applications", "menu", "grid", "launcher", "dashboard", "software", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4978,7 +4978,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 3H8C6.89543 3 6 3.89543 6 5V21L12 18L18 21V5C18 3.89543 17.1046 3 16 3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["bookmark ", " svg"],
+    tags: ["bookmark", "svg", "save", "favorite", "read later", "mark", "ribbon", "collection", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -4989,7 +4989,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["bookmark off ", " svg"],
+    tags: ["bookmark off", "svg", "unsave", "unfavorite", "remove", "delete", "cancel", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -5002,7 +5002,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7H9V5Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["briefcase ", " svg"],
+    tags: ["briefcase", "svg", "business", "work", "job", "portfolio", "career", "finance", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -5015,7 +5015,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar 1 ", " svg"],
+    tags: ["calendar 1", "svg", "date", "schedule", "event", "planner", "appointment", "time", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -5029,7 +5029,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar 2 ", " svg"],
+    tags: ["calendar 2", "svg", "date", "schedule", "event", "planner", "appointment", "time", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -5044,7 +5044,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar add ", " svg"],
+    tags: ["calendar add", "svg", "schedule", "new event", "appointment", "plan", "plus", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -5058,7 +5058,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calendar remove ", " svg"],
+    tags: ["calendar remove", "svg", "schedule", "delete event", "cancel", "minus", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -5071,7 +5071,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 4H10V9C10 9.55228 9.55228 10 9 10H5C4.44772 10 4 9.55228 4 9V4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["category ", " svg"],
+    tags: ["category", "svg", "menu", "grid", "dashboard", "organize", "structure", "minimal", "ui", "squares", "group", "collection"],
     category: "Thin"
   },
   {
@@ -5082,7 +5082,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 8V13H16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["clock ", " svg"],
+    tags: ["clock", "svg", "time", "timer", "deadline", "schedule", "history", "circular", "outline", "productivity", "alarm", "event"],
     category: "Thin"
   },
   {
@@ -5093,7 +5093,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.3074 9.73851L15 9L14.2615 12.6926C14.1031 13.4843 13.4843 14.1031 12.6926 14.2615L9 15L9.73851 11.3074C9.89686 10.5157 10.5157 9.89686 11.3074 9.73851Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["discover ", " svg"],
+    tags: ["discover", "svg", "explore", "search", "find", "magnify", "zoom", "investigate", "ui", "tool", "lens", "look"],
     category: "Thin"
   },
   {
@@ -5105,7 +5105,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 20H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["edit ", " svg"],
+    tags: ["edit", "svg", "write", "compose", "modify", "update", "pencil", "document", "tool", "create", "change", "scribble"],
     category: "Thin"
   },
   {
@@ -5116,7 +5116,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2 12C3.60014 7.90264 7.33603 5 12 5C16.664 5 20.3999 7.90264 22 12C20.3999 16.0974 16.664 19 12 19C7.33603 19 3.60014 16.0974 2 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["eye ", " svg"],
+    tags: ["eye", "svg", "view", "show", "visible", "watch", "preview", "security", "privacy", "ui", "sight", "reveal"],
     category: "Thin"
   },
   {
@@ -5127,7 +5127,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 4L20 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["eye off ", " svg"],
+    tags: ["eye off", "svg", "hide", "invisible", "hidden", "private", "unseen", "security", "privacy", "ui", "conceal", "disguise"],
     category: "Thin"
   },
   {
@@ -5137,7 +5137,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 3L8 5M8 21L8 13M8 5L20 5L18 9L20 13L8 13M8 5L8 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["flag ", " svg"],
+    tags: ["flag", "svg", "report", "mark", "goal", "country", "destination", "bookmark", "pin", "achievement", "alert", "notification"],
     category: "Thin"
   },
   {
@@ -5151,7 +5151,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 11V21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["gift ", " svg"],
+    tags: ["gift", "svg", "present", "reward", "bonus", "celebration", "surprise", "commerce", "holiday", "offer", "giveaway", "special"],
     category: "Thin"
   },
   {
@@ -5161,7 +5161,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19.0711 13.1421L13.4142 18.799C12.6332 19.58 11.3668 19.58 10.5858 18.799L4.92894 13.1421C2.97632 11.1895 2.97632 8.02369 4.92894 6.07106C6.88157 4.11844 10.0474 4.11844 12 6.07106C13.9526 4.11844 17.1185 4.11844 19.0711 6.07106C21.0237 8.02369 21.0237 11.1895 19.0711 13.1421Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["heart ", " svg"],
+    tags: ["heart", "svg", "like", "favorite", "love", "health", "passion", "social", "wellness", "emotion", "care", "affection"],
     category: "Thin"
   },
   {
@@ -5172,7 +5172,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["heart off ", " svg"],
+    tags: ["heart off", "svg", "unlike", "unfavorite", "dislike", "remove", "cancel", "social", "disinterest", "broken", "unloved", "ignore"],
     category: "Thin"
   },
   {
@@ -5182,7 +5182,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19.5 10C19.5 9.72386 19.2761 9.5 19 9.5C18.7239 9.5 18.5 9.72386 18.5 10H19.5ZM5.5 10C5.5 9.72386 5.27614 9.5 5 9.5C4.72386 9.5 4.5 9.72386 4.5 10H5.5ZM20.6464 12.3536C20.8417 12.5488 21.1583 12.5488 21.3536 12.3536C21.5488 12.1583 21.5488 11.8417 21.3536 11.6464L20.6464 12.3536ZM12 3L12.3536 2.64645C12.1583 2.45118 11.8417 2.45118 11.6464 2.64645L12 3ZM2.64645 11.6464C2.45118 11.8417 2.45118 12.1583 2.64645 12.3536C2.84171 12.5488 3.15829 12.5488 3.35355 12.3536L2.64645 11.6464ZM7 21.5H17V20.5H7V21.5ZM19.5 19V10H18.5V19H19.5ZM5.5 19V10H4.5V19H5.5ZM21.3536 11.6464L12.3536 2.64645L11.6464 3.35355L20.6464 12.3536L21.3536 11.6464ZM11.6464 2.64645L2.64645 11.6464L3.35355 12.3536L12.3536 3.35355L11.6464 2.64645ZM17 21.5C18.3807 21.5 19.5 20.3807 19.5 19H18.5C18.5 19.8284 17.8284 20.5 17 20.5V21.5ZM7 20.5C6.17157 20.5 5.5 19.8284 5.5 19H4.5C4.5 20.3807 5.61929 21.5 7 21.5V20.5Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["home ", " svg"],
+    tags: ["home", "svg", "house", "dashboard", "start", "main", "residence", "navigation", "building", "shelter", "base", "return"],
     category: "Thin"
   },
   {
@@ -5192,7 +5192,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 14L13 2V10H18L11 22V14H6Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lightning 1 ", " svg"],
+    tags: ["lightning 1", "svg", "bolt", "energy", "power", "fast", "electric", "weather", "speed", "alert", "danger", "thunder"],
     category: "Thin"
   },
   {
@@ -5202,7 +5202,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 14H6L9.5 2H16L13 10H18L10 22L11 14Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lightning 2 ", " svg"],
+    tags: ["lightning 2", "svg", "bolt", "energy", "power", "fast", "electric", "weather", "speed", "alert", "danger", "thunder"],
     category: "Thin"
   },
   {
@@ -5212,7 +5212,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5.25201 9.97523L16.9111 4.42326C18.6115 3.61355 20.3864 5.38846 19.5767 7.08885L14.0248 18.748C13.2661 20.3413 10.966 20.2427 10.3464 18.5904L9.3192 15.8512C9.11639 15.3104 8.68964 14.8836 8.14879 14.6808L5.40963 13.6536C3.75729 13.034 3.65873 10.7339 5.25201 9.97523Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["location ", " svg"],
+    tags: ["location", "svg", "pin", "map", "gps", "address", "place", "navigation", "marker", "destination", "point", "find"],
     category: "Thin"
   },
   {
@@ -5223,7 +5223,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 22L17.5 16.5C20.5376 13.4624 20.5376 8.53757 17.5 5.5C14.4624 2.46244 9.53757 2.46244 6.5 5.5C3.46244 8.53757 3.46244 13.4624 6.5 16.5L12 22Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["location pin ", " svg"],
+    tags: ["location pin", "svg", "map", "gps", "address", "place", "destination", "navigation", "marker", "point", "find", "travel"],
     category: "Thin"
   },
   {
@@ -5234,7 +5234,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6.02248 6.02233C3.47176 9.07819 3.63092 13.631 6.49998 16.5L12 22L17.0001 16.9999M9.34428 3.68727C12.0947 2.69049 15.2947 3.29473 17.5 5.50001C19.7052 7.70528 20.3095 10.9053 19.3127 13.6557" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["location pin off ", " svg"],
+    tags: ["location pin off", "svg", "unpin", "remove", "disabled", "hide", "untrack", "navigation", "blocked", "unavailable", "private", "off"],
     category: "Thin"
   },
   {
@@ -5246,7 +5246,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="14.5" y="15.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lock ", " svg"],
+    tags: ["lock", "svg", "secure", "private", "access", "closed", "protection", "security", "privacy", "safe", "confidential", "restricted"],
     category: "Thin"
   },
   {
@@ -5258,7 +5258,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="14.5" y="15.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["lock off ", " svg"],
+    tags: ["lock off", "svg", "unlock", "open", "unlocked", "public", "insecure", "security", "access", "vulnerable", "exposed", "unrestricted"],
     category: "Thin"
   },
   {
@@ -5268,7 +5268,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 21C16.9706 21 21 16.9706 21 12C21 11.9156 20.9988 11.8316 20.9965 11.7477C19.8634 12.5371 18.4857 13 17 13C13.134 13 10 9.86601 10 6.00002C10 4.96731 10.2236 3.98683 10.6251 3.10437C6.30715 3.76627 3 7.49693 3 12C3 16.9706 7.02944 21 12 21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mode ", "  dark ", " svg"],
+    tags: ["mode", "dark", "svg", "night", "theme", "contrast", "settings", "display", "ui", "moon", "preference", "dim", "sleep"],
     category: "Thin"
   },
   {
@@ -5286,7 +5286,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M18.364 5.63605L17.6568 6.34315" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mode ", "  light ", " svg"],
+    tags: ["mode", "light", "svg", "day", "theme", "bright", "settings", "display", "ui", "sun", "preference", "clear", "awake"],
     category: "Thin"
   },
   {
@@ -5297,7 +5297,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 7L12 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mouse ", " svg"],
+    tags: ["mouse", "svg", "cursor", "click", "pointer", "input", "device", "computer", "hardware", "peripheral", "control", "select"],
     category: "Thin"
   },
   {
@@ -5310,7 +5310,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 12L9 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["news ", " svg"],
+    tags: ["news", "svg", "article", "feed", "updates", "blog", "information", "communication", "newspaper", "magazine", "current events", "report"],
     category: "Thin"
   },
   {
@@ -5322,7 +5322,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="3" r="1" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["notification ", " svg"],
+    tags: ["notification", "svg", "alert", "bell", "message", "update", "reminder", "communication", "announcement", "signal", "attention", "ring"],
     category: "Thin"
   },
   {
@@ -5335,7 +5335,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["notification off ", " svg"],
+    tags: ["notification off", "svg", "mute", "silent", "disabled", "no alerts", "quiet", "communication", "do not disturb", "off", "ignore", "blocked"],
     category: "Thin"
   },
   {
@@ -5350,7 +5350,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="15" cy="8" r="2" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["options ", " svg"],
+    tags: ["options", "svg", "settings", "preferences", "menu", "customize", "control", "ui", "gear", "configuration", "management", "adjust"],
     category: "Thin"
   },
   {
@@ -5363,7 +5363,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 15H16V21H8V15Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["printer ", " svg"],
+    tags: ["printer", "svg", "print", "document", "output", "device", "office", "hardware", "filled", "productivity", "action", "monochrome"],
     category: "Thin"
   },
   {
@@ -5377,7 +5377,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 7.99976L4 5.99976C4 4.89519 4.89543 3.99976 6 3.99976L8 3.99976" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scanner ", " svg"],
+    tags: ["scanner", "svg", "scan", "digitize", "document", "imaging", "office", "hardware", "filled", "productivity", "action", "monochrome"],
     category: "Thin"
   },
   {
@@ -5387,7 +5387,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 21L16.6569 16.6569M16.6569 16.6569C18.1046 15.2091 19 13.2091 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C13.2091 19 15.2091 18.1046 16.6569 16.6569Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search ", " svg"],
+    tags: ["search", "svg", "magnify", "find", "explore", "lookup", "discover", "ui", "navigation", "filled", "minimal", "query"],
     category: "Thin"
   },
   {
@@ -5398,7 +5398,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5.39856 5.87922L5.64856 5.4462C5.44653 5.32956 5.19069 5.36813 5.03202 5.53914L5.39856 5.87922ZM3.40061 9.3446L2.92283 9.19719C2.85405 9.42011 2.94857 9.66097 3.15061 9.77762L3.40061 9.3446ZM3.3989 14.6564L3.1489 14.2234C2.94667 14.3402 2.85219 14.5813 2.9213 14.8044L3.3989 14.6564ZM5.39889 18.1205L5.03193 18.4602C5.19055 18.6315 5.44666 18.6703 5.64889 18.5535L5.39889 18.1205ZM9.99994 20.775L9.49994 20.775C9.49994 21.0083 9.66127 21.2106 9.88872 21.2625L9.99994 20.775ZM14 20.7774L14.1113 21.2649C14.3387 21.213 14.5 21.0107 14.5 20.7774L14 20.7774ZM18.6014 18.1208L18.3514 18.5538C18.5535 18.6705 18.8093 18.6319 18.968 18.4609L18.6014 18.1208ZM20.5994 14.6554L21.0772 14.8028C21.1459 14.5799 21.0514 14.3391 20.8494 14.2224L20.5994 14.6554ZM20.6011 9.34354L20.8511 9.77656C21.0533 9.6598 21.1478 9.41861 21.0787 9.19556L20.6011 9.34354ZM18.6011 5.87944L18.968 5.53982C18.8094 5.36844 18.5533 5.32967 18.3511 5.44643L18.6011 5.87944ZM14 3.22501L14.5 3.22501C14.5 2.99172 14.3387 2.78944 14.1113 2.73754L14 3.22501ZM9.99994 3.2226L9.8887 2.73513C9.66127 2.78704 9.49994 2.98932 9.49994 3.2226L9.99994 3.2226ZM14 5.07175L13.5 5.07175L14 5.07175ZM19 13.732L18.75 14.165L19 13.732ZM17 17.1962L16.75 17.6292L17 17.1962ZM4.99992 13.7321L5.24992 14.1651L4.99992 13.7321ZM6.99994 6.80377L6.74994 7.23679L6.99994 6.80377ZM3.87839 9.49201C4.24981 8.28817 4.88751 7.16517 5.7651 6.21929L5.03202 5.53914C4.05014 6.59744 3.3376 7.85288 2.92283 9.19719L3.87839 9.49201ZM4.63879 16.25C4.31383 15.6872 4.06077 15.1032 3.8765 14.5084L2.9213 14.8044C3.12745 15.4698 3.41032 16.1222 3.77276 16.75L4.63879 16.25ZM5.76585 17.7809C5.34296 17.324 4.96373 16.8128 4.63879 16.25L3.77276 16.75C4.13519 17.3778 4.55882 17.949 5.03193 18.4602L5.76585 17.7809ZM13.8888 20.29C12.6308 20.577 11.3394 20.5678 10.1112 20.2875L9.88872 21.2625C11.2603 21.5754 12.7038 21.5861 14.1113 21.2649L13.8888 20.29ZM20.1216 14.508C19.7502 15.7119 19.1125 16.8348 18.2349 17.7807L18.968 18.4609C19.9499 17.4026 20.6624 16.1471 21.0772 14.8028L20.1216 14.508ZM19.3612 7.75001C19.6862 8.31284 19.9392 8.89683 20.1235 9.49153L21.0787 9.19556C20.8725 8.53023 20.5897 7.87776 20.2272 7.25001L19.3612 7.75001ZM18.2341 6.21906C18.657 6.67601 19.0363 7.18716 19.3612 7.75001L20.2272 7.25001C19.8648 6.62224 19.4412 6.05103 18.968 5.53982L18.2341 6.21906ZM10.1112 3.71007C11.3691 3.423 12.6605 3.43223 13.8888 3.71248L14.1113 2.73754C12.7397 2.42458 11.2962 2.41394 9.8887 2.73513L10.1112 3.71007ZM10.4999 5.07172L10.4999 3.2226L9.49994 3.2226L9.49994 5.07172L10.4999 5.07172ZM7.24994 6.37076L5.64856 5.4462L5.14856 6.31223L6.74994 7.23679L7.24994 6.37076ZM4.74992 13.2991L3.1489 14.2234L3.6489 15.0894L5.24992 14.1651L4.74992 13.2991ZM5.24992 9.83495L3.65061 8.91159L3.15061 9.77762L4.74992 10.701L5.24992 9.83495ZM10.4999 20.775L10.4999 18.9282L9.49994 18.9282L9.49994 20.775L10.4999 20.775ZM6.74994 16.7632L5.14889 17.6875L5.64889 18.5535L7.24994 17.6292L6.74994 16.7632ZM18.8514 17.6878L17.25 16.7632L16.75 17.6292L18.3514 18.5538L18.8514 17.6878ZM14.5 20.7774L14.5 18.9283L13.5 18.9283L13.5 20.7774L14.5 20.7774ZM20.3511 8.91053L18.75 9.83491L19.25 10.7009L20.8511 9.77656L20.3511 8.91053ZM20.8494 14.2224L19.25 13.299L18.75 14.165L20.3494 15.0884L20.8494 14.2224ZM14.5 5.07175L14.5 3.22501L13.5 3.22501L13.5 5.07175L14.5 5.07175ZM18.3511 5.44643L16.75 6.37079L17.25 7.23681L18.8511 6.31245L18.3511 5.44643ZM13.5 5.07175C13.5 6.99625 15.5834 8.19906 17.25 7.23681L16.75 6.37079C15.75 6.94814 14.5 6.22645 14.5 5.07175L13.5 5.07175ZM18.75 9.83491C17.0834 10.7972 17.0834 13.2028 18.75 14.165L19.25 13.299C18.25 12.7217 18.25 11.2783 19.25 10.7009L18.75 9.83491ZM17.25 16.7632C15.5834 15.801 13.5 17.0038 13.5 18.9283L14.5 18.9283C14.5 17.7736 15.75 17.0519 16.75 17.6292L17.25 16.7632ZM10.4999 18.9282C10.4999 17.0037 8.41661 15.8009 6.74994 16.7632L7.24994 17.6292C8.24994 17.0518 9.49994 17.7735 9.49994 18.9282L10.4999 18.9282ZM5.24992 14.1651C6.91659 13.2028 6.91658 10.7972 5.24992 9.83495L4.74992 10.701C5.74992 11.2783 5.74992 12.7217 4.74992 13.2991L5.24992 14.1651ZM9.49994 5.07172C9.49995 6.22642 8.24995 6.94811 7.24994 6.37076L6.74994 7.23679C8.41661 8.19904 10.4999 6.99623 10.4999 5.07172L9.49994 5.07172Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["settings ", " svg"],
+    tags: ["settings", "svg", "gear", "cog", "options", "preferences", "control", "management", "ui", "filled", "configuration", "system"],
     category: "Thin"
   },
   {
@@ -5408,7 +5408,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 3L12.197 2.54043C12.0712 2.48652 11.9288 2.48652 11.803 2.54043L12 3ZM12 21L11.7519 21.4341C11.9056 21.522 12.0944 21.522 12.2481 21.4341L12 21ZM18.3939 5.74025L18.197 6.19982L18.3939 5.74025ZM8.02317 18.7275L7.7751 19.1616L8.02317 18.7275ZM11.803 2.54043L5.40912 5.28068L5.80304 6.19982L12.197 3.45957L11.803 2.54043ZM4.5 6.6594V13.5181H5.5V6.6594H4.5ZM7.7751 19.1616L11.7519 21.4341L12.2481 20.5659L8.27124 18.2934L7.7751 19.1616ZM12.2481 21.4341L16.2249 19.1616L15.7288 18.2934L11.7519 20.5659L12.2481 21.4341ZM19.5 13.5181V6.6594H18.5V13.5181H19.5ZM18.5909 5.28068L12.197 2.54043L11.803 3.45957L18.197 6.19982L18.5909 5.28068ZM19.5 6.6594C19.5 6.05935 19.1424 5.51705 18.5909 5.28068L18.197 6.19982C18.3808 6.27861 18.5 6.45938 18.5 6.6594H19.5ZM16.2249 19.1616C18.2501 18.0044 19.5 15.8506 19.5 13.5181H18.5C18.5 15.4918 17.4424 17.3142 15.7288 18.2934L16.2249 19.1616ZM4.5 13.5181C4.5 15.8506 5.74986 18.0044 7.7751 19.1616L8.27124 18.2934C6.55757 17.3142 5.5 15.4918 5.5 13.5181H4.5ZM5.40912 5.28068C4.8576 5.51705 4.5 6.05935 4.5 6.6594H5.5C5.5 6.45938 5.6192 6.27861 5.80304 6.19982L5.40912 5.28068Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["shield ", " svg"],
+    tags: ["shield", "svg", "protection", "security", "safety", "guard", "defense", "privacy", "filled", "secure", "trust", "alert"],
     category: "Thin"
   },
   {
@@ -5419,7 +5419,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L14 14M10 14L14 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield no ", " svg"],
+    tags: ["shield no", "svg", "unprotected", "insecure", "vulnerable", "danger", "alert", "warning", "filled", "negative", "blocked", "restricted"],
     category: "Thin"
   },
   {
@@ -5430,7 +5430,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield off ", " svg"],
+    tags: ["shield off", "svg", "disabled", "unprotected", "insecure", "vulnerable", "danger", "alert", "warning", "filled", "negative", "blocked"],
     category: "Thin"
   },
   {
@@ -5441,7 +5441,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 10L11 14L9 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield yes ", " svg"],
+    tags: ["shield yes", "svg", "protected", "secure", "safe", "verified", "approved", "privacy", "filled", "positive", "trust", "enabled"],
     category: "Thin"
   },
   {
@@ -5451,7 +5451,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 2L15.1035 8.72839L22.4616 9.60081L17.0216 14.6316L18.4656 21.8992L12 18.28L5.53437 21.8992L6.97843 14.6316L1.53839 9.60081L8.89651 8.72839L12 2Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star ", " svg"],
+    tags: ["star", "svg", "favorite", "rating", "bookmark", "highlight", "quality", "award", "filled", "feedback", "important", "achievement"],
     category: "Thin"
   },
   {
@@ -5462,7 +5462,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star off ", " svg"],
+    tags: ["star off", "svg", "unfavorite", "unrated", "remove", "deselect", "inactive", "filled", "negative", "neutral", "feedback", "placeholder"],
     category: "Thin"
   },
   {
@@ -5476,7 +5476,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7L9 3H15L17 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trash ", " svg"],
+    tags: ["trash", "svg", "delete", "remove", "bin", "garbage", "junk", "discard", "filled", "action", "cleanup", "ui"],
     category: "Thin"
   },
   {
@@ -5488,7 +5488,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7L9 3H15L17 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trash simple ", " svg"],
+    tags: ["trash simple", "svg", "delete", "remove", "bin", "garbage", "junk", "discard", "filled", "action", "cleanup", "ui"],
     category: "Thin"
   },
   {
@@ -5500,7 +5500,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 11H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["zoom in ", " svg"],
+    tags: ["zoom in", "svg", "magnify", "enlarge", "plus", "focus", "detail", "ui", "action", "filled", "view", "expand"],
     category: "Thin"
   },
   {
@@ -5511,7 +5511,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 11H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["zoom out ", " svg"],
+    tags: ["zoom out", "svg", "magnify", "shrink", "minus", "overview", "reduce", "ui", "action", "filled", "view", "contract"],
     category: "Thin"
   },
   {
@@ -5523,7 +5523,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12L12 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["attention circle ", " svg"],
+    tags: ["attention circle", "svg", "warning", "alert", "exclamation", "caution", "danger", "error", "filled", "notification", "important", "circle"],
     category: "Thin"
   },
   {
@@ -5535,7 +5535,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12L12 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["attention square ", " svg"],
+    tags: ["attention square", "svg", "warning", "alert", "exclamation", "caution", "danger", "error", "filled", "notification", "important", "square"],
     category: "Thin"
   },
   {
@@ -5547,7 +5547,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 10.0001L15 14.0001" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["backspace ", " svg"],
+    tags: ["backspace", "svg", "delete", "erase", "undo", "keyboard", "input", "ui", "arrow", "filled", "action", "remove"],
     category: "Thin"
   },
   {
@@ -5557,7 +5557,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5 17L19 7L12 3V21L19 17L5 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["bluetooth ", " svg"],
+    tags: ["bluetooth", "svg", "wireless", "connection", "pairing", "device", "technology", "signal", "filled", "connectivity", "network", "audio"],
     category: "Thin"
   },
   {
@@ -5574,7 +5574,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["check ", " svg"],
+    tags: ["check", "svg", "tick", "confirm", "approve", "done", "complete", "success", "filled", "validation", "positive", "mark"],
     category: "Thin"
   },
   {
@@ -5585,7 +5585,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 10L11 14L9 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["check circle 1 ", " svg"],
+    tags: ["check circle 1", "svg", "tick", "confirm", "approve", "done", "complete", "success", "filled", "validation", "positive", "circle"],
     category: "Thin"
   },
   {
@@ -5596,7 +5596,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 11.9999C21 16.9704 16.9706 20.9999 12 20.9999C7.02944 20.9999 3 16.9704 3 11.9999C3 7.02931 7.02944 2.99988 12 2.99988" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["check circle 2 ", " svg"],
+    tags: ["check circle 2", "svg", "tick", "confirm", "approve", "done", "complete", "success", "filled", "validation", "positive", "circle"],
     category: "Thin"
   },
   {
@@ -5607,7 +5607,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 10L11 14L9 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["check square ", " svg"],
+    tags: ["check square", "svg", "tick", "confirm", "approve", "done", "complete", "success", "filled", "validation", "positive", "square"],
     category: "Thin"
   },
   {
@@ -5617,7 +5617,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 7L17 17M7 17L17 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close ", " svg"],
+    tags: ["close", "svg", "exit", "cancel", "delete", "remove", "stop", "error", "filled", "negative", "dismiss", "cross"],
     category: "Thin"
   },
   {
@@ -5629,7 +5629,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L14 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close circle 1 ", " svg"],
+    tags: ["close circle 1", "svg", "exit", "cancel", "delete", "remove", "stop", "error", "filled", "negative", "dismiss", "circle"],
     category: "Thin"
   },
   {
@@ -5641,7 +5641,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15.9999 4.99998L19 7.99985" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close circle 2 ", " svg"],
+    tags: ["close circle 2", "svg", "exit", "cancel", "delete", "remove", "stop", "error", "filled", "negative", "dismiss", "circle"],
     category: "Thin"
   },
   {
@@ -5653,7 +5653,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 10L14 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["close square ", " svg"],
+    tags: ["close square", "svg", "delete", "remove", "exit", "cancel", "stop", "error", "alert", "filled", "square", "ui"],
     category: "Thin"
   },
   {
@@ -5670,7 +5670,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["compare ", " svg"],
+    tags: ["compare", "svg", "versus", "contrast", "difference", "analysis", "options", "selection", "data", "arrows", "system", "ui"],
     category: "Thin"
   },
   {
@@ -5683,7 +5683,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 9L9 12L6 15L3 12L6 9Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["component ", " svg"],
+    tags: ["component", "svg", "module", "part", "element", "block", "building block", "structure", "system", "development", "engineering", "ui"],
     category: "Thin"
   },
   {
@@ -5693,7 +5693,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 21L4 4L21 11L14.7353 13.6849C14.2633 13.8872 13.8872 14.2633 13.6849 14.7353L11 21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cursor ", " svg"],
+    tags: ["cursor", "svg", "pointer", "mouse", "select", "click", "interaction", "navigation", "input", "arrow", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5703,7 +5703,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.3536 5.64645C16.1583 5.45118 15.8417 5.45118 15.6464 5.64645C15.4512 5.84171 15.4512 6.15829 15.6464 6.35355L16.3536 5.64645ZM19 9L19.3536 9.35355C19.5488 9.15829 19.5488 8.84171 19.3536 8.64645L19 9ZM15.6464 11.6464C15.4512 11.8417 15.4512 12.1583 15.6464 12.3536C15.8417 12.5488 16.1583 12.5488 16.3536 12.3536L15.6464 11.6464ZM19 17.5C19.2761 17.5 19.5 17.2761 19.5 17C19.5 16.7239 19.2761 16.5 19 16.5V17.5ZM15.6464 6.35355L18.6464 9.35355L19.3536 8.64645L16.3536 5.64645L15.6464 6.35355ZM18.6464 8.64645L15.6464 11.6464L16.3536 12.3536L19.3536 9.35355L18.6464 8.64645ZM19 8.5H8V9.5H19V8.5ZM3.5 13C3.5 15.4853 5.51472 17.5 8 17.5V16.5C6.067 16.5 4.5 14.933 4.5 13H3.5ZM8 8.5C5.51472 8.5 3.5 10.5147 3.5 13H4.5C4.5 11.067 6.067 9.5 8 9.5V8.5ZM19 16.5H8V17.5H19V16.5Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["do ", "  redo ", " svg"],
+    tags: ["do", "redo", "svg", "forward", "repeat", "restore", "action", "history", "arrow", "circular", "system", "ui"],
     category: "Thin"
   },
   {
@@ -5713,7 +5713,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.35355 6.35355C8.54882 6.15829 8.54882 5.84171 8.35355 5.64645C8.15829 5.45118 7.84171 5.45118 7.64645 5.64645L8.35355 6.35355ZM5 9L4.64645 8.64645C4.45118 8.84171 4.45118 9.15829 4.64645 9.35355L5 9ZM7.64645 12.3536C7.84171 12.5488 8.15829 12.5488 8.35355 12.3536C8.54882 12.1583 8.54882 11.8417 8.35355 11.6464L7.64645 12.3536ZM5 16.5C4.72386 16.5 4.5 16.7239 4.5 17C4.5 17.2761 4.72386 17.5 5 17.5V16.5ZM7.64645 5.64645L4.64645 8.64645L5.35355 9.35355L8.35355 6.35355L7.64645 5.64645ZM4.64645 9.35355L7.64645 12.3536L8.35355 11.6464L5.35355 8.64645L4.64645 9.35355ZM5 9.5H16V8.5H5V9.5ZM19.5 13C19.5 14.933 17.933 16.5 16 16.5V17.5C18.4853 17.5 20.5 15.4853 20.5 13H19.5ZM16 9.5C17.933 9.5 19.5 11.067 19.5 13H20.5C20.5 10.5147 18.4853 8.5 16 8.5V9.5ZM5 17.5H16V16.5H5V17.5Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["do ", "  undo ", " svg"],
+    tags: ["do", "undo", "svg", "back", "reverse", "cancel", "action", "history", "arrow", "circular", "system", "ui"],
     category: "Thin"
   },
   {
@@ -5731,7 +5731,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["enter ", " svg"],
+    tags: ["enter", "svg", "login", "access", "in", "arrow", "door", "gateway", "action", "navigation", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5749,7 +5749,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["exit ", " svg"],
+    tags: ["exit", "svg", "logout", "leave", "out", "arrow", "door", "action", "navigation", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5762,7 +5762,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 3L6 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["frame ", " svg"],
+    tags: ["frame", "svg", "border", "window", "picture", "layout", "design", "area", "square", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5772,7 +5772,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 4H4L9.6 11.4667C9.85964 11.8129 10 12.2339 10 12.6667V20L14 18V12.6667C14 12.2339 14.1404 11.8129 14.4 11.4667L20 4Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["funnel ", " svg"],
+    tags: ["funnel", "svg", "filter", "sort", "narrow", "process", "data", "analytics", "conversion", "marketing", "system", "ui"],
     category: "Thin"
   },
   {
@@ -5784,7 +5784,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11 8L11 13L16 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["history ", " svg"],
+    tags: ["history", "svg", "past", "timeline", "log", "activity", "recent", "time", "clock", "circular", "system", "ui"],
     category: "Thin"
   },
   {
@@ -5796,7 +5796,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12V16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["information circle ", " svg"],
+    tags: ["information circle", "svg", "info", "details", "help", "faq", "about", "support", "alert", "circular", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5808,7 +5808,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 12V16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["information square ", " svg"],
+    tags: ["information square", "svg", "info", "details", "help", "faq", "about", "support", "alert", "square", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5820,7 +5820,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 8H18C20.2091 8 22 9.79086 22 12C22 14.2091 20.2091 16 18 16H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["link ", " svg"],
+    tags: ["link", "svg", "url", "chain", "connect", "hyperlink", "attach", "share", "web", "communication", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5832,7 +5832,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 4H20V9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["link external ", " svg"],
+    tags: ["link external", "svg", "new tab", "outbound", "share", "open", "redirect", "arrow", "web", "communication", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5849,7 +5849,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu burger horizontal ", " svg"],
+    tags: ["menu burger horizontal", "svg", "hamburger", "navigation", "options", "more", "collapsed", "list", "minimal", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5866,7 +5866,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu burger vertical ", " svg"],
+    tags: ["menu burger vertical", "svg", "hamburger", "navigation", "options", "more", "collapsed", "list", "minimal", "ui", "system"],
     category: "Thin"
   },
   {
@@ -5885,7 +5885,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab horizontal ", " svg"],
+    tags: ["menu kebab horizontal", "svg", "options", "more", "dots", "context menu", "overflow", "action", "minimal", "ui", "system", "navigation"],
     category: "Thin"
   },
   {
@@ -5905,7 +5905,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab horizontal circle ", " svg"],
+    tags: ["menu kebab horizontal circle", "svg", "options", "more", "dots", "context menu", "overflow", "action", "circular", "ui", "system", "navigation"],
     category: "Thin"
   },
   {
@@ -5925,7 +5925,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab horizontal square ", " svg"],
+    tags: ["menu kebab horizontal square", "svg", "options", "more", "dots", "context menu", "overflow", "action", "square", "ui", "system", "navigation"],
     category: "Thin"
   },
   {
@@ -5944,7 +5944,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab vertical ", " svg"],
+    tags: ["menu kebab vertical", "svg", "options", "more", "dots", "context menu", "overflow", "action", "minimal", "ui", "system", "navigation"],
     category: "Thin"
   },
   {
@@ -5964,7 +5964,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab vertical circle ", " svg"],
+    tags: ["menu kebab vertical circle", "svg", "options", "more", "dots", "context menu", "overflow", "action", "circular", "ui", "system", "navigation"],
     category: "Thin"
   },
   {
@@ -5984,7 +5984,7 @@ export const iconamoonIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "outline",
-    tags: ["menu kebab vertical square ", " svg"],
+    tags: ["menu kebab vertical square", "svg", "options", "more", "dots", "context menu", "overflow", "action", "square", "ui", "system", "navigation"],
     category: "Thin"
   },
   {
@@ -5995,7 +5995,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19 14L21 12M21 12L19 10M21 12L3 12M3 12L5 14M3 12L5 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["move ", " svg"],
+    tags: ["move", "svg", "drag", "rearrange", "position", "shift", "arrows", "direction", "action", "ui", "system", "navigation"],
     category: "Thin"
   },
   {
@@ -6007,7 +6007,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 3L10 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pen ", " svg"],
+    tags: ["pen", "svg", "edit", "write", "create", "draw", "compose", "tool", "document", "filled", "ui", "system"],
     category: "Thin"
   },
   {
@@ -6019,7 +6019,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5858 7.58572C10.9754 7.1961 11.4858 7.00083 11.9965 6.99994C12.5095 6.99904 13.0228 7.1943 13.4142 7.58572C13.8047 7.97625 14 8.48809 14 8.99994C14 9.51178 13.8047 10.0236 13.4142 10.4141C13.0228 10.8056 12.5095 11.0008 11.9965 10.9999L12 11.9999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["question mark circle ", " svg"],
+    tags: ["question mark circle", "svg", "help", "info", "query", "support", "faq", "unknown", "circular", "outline", "assistance"],
     category: "Thin"
   },
   {
@@ -6031,7 +6031,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5858 7.58572C10.9754 7.1961 11.4858 7.00083 11.9965 6.99994C12.5095 6.99904 13.0228 7.1943 13.4142 7.58572C13.8047 7.97625 14 8.48809 14 8.99994C14 9.51178 13.8047 10.0236 13.4142 10.4141C13.0228 10.8056 12.5095 11.0008 11.9965 10.9999L12 11.9999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["question mark square ", " svg"],
+    tags: ["question mark square", "svg", "help", "info", "query", "support", "faq", "unknown", "square", "outline", "assistance"],
     category: "Thin"
   },
   {
@@ -6042,7 +6042,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 4.49988H7V8.49988" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restart ", " svg"],
+    tags: ["restart", "svg", "refresh", "reload", "reset", "repeat", "loop", "circular arrow", "process", "undo", "redo"],
     category: "Thin"
   },
   {
@@ -6055,7 +6055,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 20L6 20C4.89543 20 4 19.1046 4 18L4 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen full ", " svg"],
+    tags: ["screen full", "svg", "fullscreen", "expand", "maximize", "display", "presentation", "arrows", "ui control", "video player"],
     category: "Thin"
   },
   {
@@ -6068,7 +6068,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 15L7 15C8.10457 15 9 15.8954 9 17L9 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen normal ", " svg"],
+    tags: ["screen normal", "svg", "exit fullscreen", "minimize", "contract", "display", "presentation", "arrows", "ui control", "video player"],
     category: "Thin"
   },
   {
@@ -6078,7 +6078,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 6H20M7 12H17M11 18H13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting center ", " svg"],
+    tags: ["sorting center", "svg", "align", "distribute", "layout", "arrangement", "centered", "text editor", "design tool", "ui control"],
     category: "Thin"
   },
   {
@@ -6088,7 +6088,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 6H20M4 12H14M4 18H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting left ", " svg"],
+    tags: ["sorting left", "svg", "align left", "distribute", "layout", "arrangement", "left justified", "text editor", "design tool", "ui control"],
     category: "Thin"
   },
   {
@@ -6098,7 +6098,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 6H20M10 12H20M16 18H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting right ", " svg"],
+    tags: ["sorting right", "svg", "align right", "distribute", "layout", "arrangement", "right justified", "text editor", "design tool", "ui control"],
     category: "Thin"
   },
   {
@@ -6109,7 +6109,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13 16L17 20M17 20L21 16M17 20L17 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swap ", " svg"],
+    tags: ["swap", "svg", "exchange", "switch", "transfer", "rearrange", "arrows", "bidirectional", "data flow", "transaction"],
     category: "Thin"
   },
   {
@@ -6122,7 +6122,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.5 20.9998L4.5 16.9998L8.5 16.9998" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["synchronize ", " svg"],
+    tags: ["synchronize", "svg", "sync", "update", "refresh", "data transfer", "circular arrows", "connection", "cloud", "backup"],
     category: "Thin"
   },
   {
@@ -6132,7 +6132,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M5 7V6C5 4.89543 5.89543 4 7 4H12M19 7V6C19 4.89543 18.1046 4 17 4H12M12 4V20M12 20H9M12 20H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["type ", " svg"],
+    tags: ["type", "svg", "text", "font", "typography", "edit", "input", "cursor", "writing", "document", "letter"],
     category: "Thin"
   },
   {
@@ -6142,7 +6142,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20.5C7.30558 20.5 3.5 16.6944 3.5 12H2.5C2.5 17.2467 6.75329 21.5 12 21.5V20.5ZM12 3.5C16.6944 3.5 20.5 7.30558 20.5 12H21.5C21.5 6.75329 17.2467 2.5 12 2.5V3.5ZM3.5 12C3.5 9.65265 4.45085 7.52834 5.98959 5.98959L5.28249 5.28249C3.56387 7.0011 2.5 9.37679 2.5 12H3.5ZM5.98959 5.98959C7.52834 4.45085 9.65265 3.5 12 3.5V2.5C9.37679 2.5 7.0011 3.56387 5.28249 5.28249L5.98959 5.98959ZM5.28249 5.98959L18.0104 18.7175L18.7175 18.0104L5.98959 5.28249L5.28249 5.98959ZM20.5 12C20.5 14.3473 19.5492 16.4717 18.0104 18.0104L18.7175 18.7175C20.4361 16.9989 21.5 14.6232 21.5 12H20.5ZM18.0104 18.0104C16.4717 19.5492 14.3473 20.5 12 20.5V21.5C14.6232 21.5 16.9989 20.4361 18.7175 18.7175L18.0104 18.0104Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["unavailable ", " svg"],
+    tags: ["unavailable", "svg", "blocked", "restricted", "disabled", "forbidden", "error", "access denied", "no entry", "stop", "warning"],
     category: "Thin"
   },
   {
@@ -6157,7 +6157,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 17H15" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["calculator ", " svg"],
+    tags: ["calculator", "svg", "math", "arithmetic", "accounting", "finance", "tool", "numbers", "calculation", "device"],
     category: "Thin"
   },
   {
@@ -6167,7 +6167,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20C14.7614 20 17 17.7614 17 15V9C17 6.23858 14.7614 4 12 4C9.23858 4 7 6.23858 7 9V15C7 17.7614 9.23858 20 12 20Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 0 ", " svg"],
+    tags: ["number 0", "svg", "zero", "digit", "numeric", "count", "quantity", "empty", "null", "placeholder"],
     category: "Thin"
   },
   {
@@ -6178,7 +6178,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 0 circle ", " svg"],
+    tags: ["number 0 circle", "svg", "zero", "digit", "numeric", "count", "quantity", "empty", "null", "circular", "placeholder"],
     category: "Thin"
   },
   {
@@ -6189,7 +6189,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 17C13.6569 17 15 15.6009 15 13.875V10.125C15 8.39911 13.6569 7 12 7C10.3431 7 9 8.39911 9 10.125V13.875C9 15.6009 10.3431 17 12 17Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 0 square ", " svg"],
+    tags: ["number 0 square", "svg", "zero", "digit", "numeric", "count", "quantity", "empty", "null", "square", "placeholder"],
     category: "Thin"
   },
   {
@@ -6199,7 +6199,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 20V4L9 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 1 ", " svg"],
+    tags: ["number 1", "svg", "one", "digit", "numeric", "first", "primary", "single", "count", "quantity"],
     category: "Thin"
   },
   {
@@ -6210,7 +6210,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 1 circle ", " svg"],
+    tags: ["number 1 circle", "svg", "one", "digit", "numeric", "first", "primary", "single", "count", "quantity", "circular"],
     category: "Thin"
   },
   {
@@ -6221,7 +6221,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12.5 17V7L10.5 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 1 square ", " svg"],
+    tags: ["number 1 square", "svg", "one", "digit", "numeric", "first", "primary", "single", "count", "quantity", "square"],
     category: "Thin"
   },
   {
@@ -6231,7 +6231,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8.00001 8C8.00001 6.97631 8.39053 5.95262 9.17158 5.17157C10.7337 3.60947 13.2663 3.60947 14.8284 5.17157C16.3905 6.73366 16.3905 9.26632 14.8284 10.8284L9.17158 16.4853C8.42143 17.2354 8.00001 18.2528 8.00001 19.3137L8.00001 20L16 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 2 ", " svg"],
+    tags: ["number 2", "svg", "two", "digit", "numeric", "second", "pair", "dual", "count", "quantity"],
     category: "Thin"
   },
   {
@@ -6242,7 +6242,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.5 9.5C9.5 8.8602 9.74408 8.2204 10.2322 7.73224C11.2085 6.75593 12.7915 6.75593 13.7678 7.73224C14.7441 8.70856 14.7441 10.2915 13.7678 11.2678L9.93934 15.0962C9.65804 15.3775 9.5 15.759 9.5 16.1569L9.5 17H14.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 2 circle ", " svg"],
+    tags: ["number 2 circle", "svg", "two", "digit", "numeric", "second", "pair", "dual", "count", "quantity", "circular"],
     category: "Thin"
   },
   {
@@ -6253,7 +6253,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.50012 9.49997C9.50013 8.86017 9.7442 8.22037 10.2324 7.73221C11.2087 6.7559 12.7916 6.7559 13.7679 7.73221C14.7442 8.70852 14.7442 10.2914 13.7679 11.2677L9.93946 15.0962C9.65816 15.3775 9.50012 15.759 9.50012 16.1568L9.50012 17H14.5001" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 2 square ", " svg"],
+    tags: ["number 2 square", "svg", "two", "digit", "numeric", "second", "pair", "dual", "count", "quantity", "square"],
     category: "Thin"
   },
   {
@@ -6263,7 +6263,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 19.0004C8.83566 19.6281 9.87439 20 11 20C13.7614 20 16 17.7614 16 15C16 12.2386 13.7614 10 11 10L16 4H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 3 ", " svg"],
+    tags: ["number 3", "svg", "three", "digit", "numeric", "third", "triple", "count", "quantity", "group"],
     category: "Thin"
   },
   {
@@ -6274,7 +6274,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 16.2361C10.5308 16.7111 11.2316 17 12 17C13.6569 17 15 15.6569 15 14C15 12.3431 13.6569 11 12 11L15 7H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 3 circle ", " svg"],
+    tags: ["number 3 circle", "svg", "three", "digit", "numeric", "third", "triple", "count", "quantity", "circular", "group"],
     category: "Thin"
   },
   {
@@ -6285,7 +6285,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 16.2361C10.5308 16.7111 11.2316 17 12 17C13.6569 17 15 15.6569 15 14C15 12.3431 13.6569 11 12 11L15 7H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 3 square ", " svg"],
+    tags: ["number 3 square", "svg", "three", "digit", "numeric", "third", "triple", "count", "quantity", "square", "group"],
     category: "Thin"
   },
   {
@@ -6295,7 +6295,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10 4L8.47845 11.6078C8.23093 12.8453 9.17752 14 10.4396 14H16M16 14V8M16 14V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 4 ", " svg"],
+    tags: ["number 4", "svg", "four", "numeric", "digit", "count", "minimal", "plain", "bold", "ui"],
     category: "Thin"
   },
   {
@@ -6306,7 +6306,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5 7L9.22841 11.4506C8.86337 12.7282 9.8227 14 11.1515 14H14.5M14.5 14V10M14.5 14V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 4 circle ", " svg"],
+    tags: ["number 4 circle", "svg", "four", "numeric", "digit", "count", "circular", "outlined", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6317,7 +6317,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5 7L9.22841 11.4506C8.86337 12.7282 9.8227 14 11.1515 14H14.5M14.5 14V10M14.5 14V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 4 square ", " svg"],
+    tags: ["number 4 square", "svg", "four", "numeric", "digit", "count", "squared", "outlined", "geometric", "ui"],
     category: "Thin"
   },
   {
@@ -6327,7 +6327,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 19.0004C8.83566 19.6281 9.87439 20 11 20C13.7614 20 16 17.7614 16 15C16 12.2386 13.7614 10 11 10C9.87439 10 8.83566 10.3719 8 10.9996L9 4H16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 5 ", " svg"],
+    tags: ["number 5", "svg", "five", "numeric", "digit", "count", "plain", "bold", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6338,7 +6338,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.5 16.2361C10.0308 16.7111 10.7316 17 11.5 17C13.1569 17 14.5 15.6569 14.5 14C14.5 12.3431 13.1569 11 11.5 11C10.7316 11 10.0308 11.2889 9.5 11.7639L10.5 7H14.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 5 circle ", " svg"],
+    tags: ["number 5 circle", "svg", "five", "numeric", "digit", "count", "circular", "outlined", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6349,7 +6349,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9.5 16.2361C10.0308 16.7111 10.7316 17 11.5 17C13.1569 17 14.5 15.6569 14.5 14C14.5 12.3431 13.1569 11 11.5 11C10.7316 11 10.0308 11.2889 9.5 11.7639L10.5 7H14.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 5 square ", " svg"],
+    tags: ["number 5 square", "svg", "five", "numeric", "digit", "count", "squared", "outlined", "geometric", "ui"],
     category: "Thin"
   },
   {
@@ -6359,7 +6359,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13.4235 4.2658C13.5703 4.03191 13.4997 3.7233 13.2658 3.5765C13.0319 3.4297 12.7233 3.50031 12.5765 3.7342L13.4235 4.2658ZM7.34963 12.0621C7.20283 12.296 7.27343 12.6046 7.50733 12.7514C7.74122 12.8982 8.04983 12.8276 8.19662 12.5937L7.34963 12.0621ZM16.5 15C16.5 17.4853 14.4853 19.5 12 19.5V20.5C15.0376 20.5 17.5 18.0376 17.5 15H16.5ZM12 19.5C9.51472 19.5 7.5 17.4853 7.5 15H6.5C6.5 18.0376 8.96243 20.5 12 20.5V19.5ZM7.5 15C7.5 12.5147 9.51472 10.5 12 10.5V9.5C8.96243 9.5 6.5 11.9624 6.5 15H7.5ZM12 10.5C14.4853 10.5 16.5 12.5147 16.5 15H17.5C17.5 11.9624 15.0376 9.5 12 9.5V10.5ZM12.5765 3.7342L7.34963 12.0621L8.19662 12.5937L13.4235 4.2658L12.5765 3.7342Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 6 ", " svg"],
+    tags: ["number 6", "svg", "six", "numeric", "digit", "count", "plain", "bold", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6370,7 +6370,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13.4182 7.27404C13.5695 7.04307 13.505 6.73314 13.274 6.58179C13.043 6.43044 12.7331 6.49499 12.5817 6.72596L13.4182 7.27404ZM9.05681 12.1053C8.90546 12.3362 8.97 12.6462 9.20097 12.7975C9.43194 12.9489 9.74188 12.8843 9.89323 12.6533L9.05681 12.1053ZM14.5 14C14.5 15.3807 13.3807 16.5 12 16.5V17.5C13.933 17.5 15.5 15.933 15.5 14H14.5ZM12 16.5C10.6193 16.5 9.5 15.3807 9.5 14H8.5C8.5 15.933 10.067 17.5 12 17.5V16.5ZM9.5 14C9.5 12.6193 10.6193 11.5 12 11.5V10.5C10.067 10.5 8.5 12.067 8.5 14H9.5ZM12 11.5C13.3807 11.5 14.5 12.6193 14.5 14H15.5C15.5 12.067 13.933 10.5 12 10.5V11.5ZM12.5817 6.72596L9.05681 12.1053L9.89323 12.6533L13.4182 7.27404L12.5817 6.72596Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 6 circle ", " svg"],
+    tags: ["number 6 circle", "svg", "six", "numeric", "digit", "count", "circular", "outlined", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6381,7 +6381,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M13.4182 7.27404C13.5695 7.04307 13.505 6.73314 13.274 6.58179C13.043 6.43044 12.7331 6.49499 12.5817 6.72596L13.4182 7.27404ZM9.05681 12.1053C8.90546 12.3362 8.97 12.6462 9.20097 12.7975C9.43194 12.9489 9.74188 12.8843 9.89323 12.6533L9.05681 12.1053ZM14.5 14C14.5 15.3807 13.3807 16.5 12 16.5V17.5C13.933 17.5 15.5 15.933 15.5 14H14.5ZM12 16.5C10.6193 16.5 9.5 15.3807 9.5 14H8.5C8.5 15.933 10.067 17.5 12 17.5V16.5ZM9.5 14C9.5 12.6193 10.6193 11.5 12 11.5V10.5C10.067 10.5 8.5 12.067 8.5 14H9.5ZM12 11.5C13.3807 11.5 14.5 12.6193 14.5 14H15.5C15.5 12.067 13.933 10.5 12 10.5V11.5ZM12.5817 6.72596L9.05681 12.1053L9.89323 12.6533L13.4182 7.27404L12.5817 6.72596Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 6 square ", " svg"],
+    tags: ["number 6 square", "svg", "six", "numeric", "digit", "count", "squared", "outlined", "geometric", "ui"],
     category: "Thin"
   },
   {
@@ -6391,7 +6391,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 4H16L10 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 7 ", " svg"],
+    tags: ["number 7", "svg", "seven", "numeric", "digit", "count", "plain", "bold", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6402,7 +6402,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 7H15L11 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 7 circle ", " svg"],
+    tags: ["number 7 circle", "svg", "seven", "numeric", "digit", "count", "circular", "outlined", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6413,7 +6413,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 7H15L11 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 7 square ", " svg"],
+    tags: ["number 7 square", "svg", "seven", "numeric", "digit", "count", "squared", "outlined", "geometric", "ui"],
     category: "Thin"
   },
   {
@@ -6424,7 +6424,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="7" r="3" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 8 ", " svg"],
+    tags: ["number 8", "svg", "eight", "numeric", "digit", "count", "plain", "bold", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6436,7 +6436,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="9" r="2" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 8 circle ", " svg"],
+    tags: ["number 8 circle", "svg", "eight", "numeric", "digit", "count", "circular", "outlined", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6448,7 +6448,7 @@ export const iconamoonIcons: IconItem[] = [
 <circle cx="12" cy="9" r="2" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["number 8 square ", " svg"],
+    tags: ["number 8 square", "svg", "eight", "numeric", "digit", "count", "squared", "outlined", "geometric", "ui"],
     category: "Thin"
   },
   {
@@ -6458,7 +6458,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5765 19.7342C10.4297 19.9681 10.5003 20.2767 10.7342 20.4235C10.9681 20.5703 11.2767 20.4997 11.4235 20.2658L10.5765 19.7342ZM16.6504 11.9379C16.7972 11.704 16.7266 11.3954 16.4927 11.2486C16.2588 11.1018 15.9502 11.1724 15.8034 11.4063L16.6504 11.9379ZM7.5 9C7.5 6.51472 9.51472 4.5 12 4.5L12 3.5C8.96244 3.5 6.5 5.96243 6.5 9L7.5 9ZM12 4.5C14.4853 4.5 16.5 6.51472 16.5 9L17.5 9C17.5 5.96243 15.0376 3.5 12 3.5L12 4.5ZM16.5 9C16.5 11.4853 14.4853 13.5 12 13.5L12 14.5C15.0376 14.5 17.5 12.0376 17.5 9L16.5 9ZM12 13.5C9.51472 13.5 7.5 11.4853 7.5 9L6.5 9C6.5 12.0376 8.96243 14.5 12 14.5L12 13.5ZM11.4235 20.2658L16.6504 11.9379L15.8034 11.4063L10.5765 19.7342L11.4235 20.2658Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 9 ", " svg"],
+    tags: ["number 9", "svg", "nine", "numeric", "digit", "count", "plain", "bold", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6469,7 +6469,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5818 16.726C10.4305 16.9569 10.495 17.2669 10.726 17.4182C10.957 17.5696 11.2669 17.505 11.4183 17.274L10.5818 16.726ZM14.9432 11.8947C15.0945 11.6638 15.03 11.3538 14.799 11.2025C14.5681 11.0511 14.2581 11.1157 14.1068 11.3467L14.9432 11.8947ZM9.5 10C9.5 8.61929 10.6193 7.5 12 7.5L12 6.5C10.067 6.5 8.5 8.067 8.5 10L9.5 10ZM12 7.5C13.3807 7.5 14.5 8.61929 14.5 10L15.5 10C15.5 8.067 13.933 6.5 12 6.5L12 7.5ZM14.5 10C14.5 11.3807 13.3807 12.5 12 12.5L12 13.5C13.933 13.5 15.5 11.933 15.5 10L14.5 10ZM12 12.5C10.6193 12.5 9.5 11.3807 9.5 10L8.5 10C8.5 11.933 10.067 13.5 12 13.5L12 12.5ZM11.4183 17.274L14.9432 11.8947L14.1068 11.3467L10.5818 16.726L11.4183 17.274Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 9 circle ", " svg"],
+    tags: ["number 9 circle", "svg", "nine", "numeric", "digit", "count", "circular", "outlined", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6480,7 +6480,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5818 16.726C10.4305 16.9569 10.495 17.2669 10.726 17.4182C10.957 17.5696 11.2669 17.505 11.4183 17.274L10.5818 16.726ZM14.9432 11.8947C15.0945 11.6638 15.03 11.3538 14.799 11.2025C14.5681 11.0511 14.2581 11.1157 14.1068 11.3467L14.9432 11.8947ZM9.5 10C9.5 8.61929 10.6193 7.5 12 7.5L12 6.5C10.067 6.5 8.5 8.067 8.5 10L9.5 10ZM12 7.5C13.3807 7.5 14.5 8.61929 14.5 10L15.5 10C15.5 8.067 13.933 6.5 12 6.5L12 7.5ZM14.5 10C14.5 11.3807 13.3807 12.5 12 12.5L12 13.5C13.933 13.5 15.5 11.933 15.5 10L14.5 10ZM12 12.5C10.6193 12.5 9.5 11.3807 9.5 10L8.5 10C8.5 11.933 10.067 13.5 12 13.5L12 12.5ZM11.4183 17.274L14.9432 11.8947L14.1068 11.3467L10.5818 16.726L11.4183 17.274Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["number 9 square ", " svg"],
+    tags: ["number 9 square", "svg", "nine", "numeric", "digit", "count", "squared", "outlined", "geometric", "ui"],
     category: "Thin"
   },
   {
@@ -6492,7 +6492,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M18 12H6.00005" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division ", " svg"],
+    tags: ["sign", "division", "svg", "divide", "math", "operator", "calculation", "arithmetic", "plain", "minimal", "tool"],
     category: "Thin"
   },
   {
@@ -6505,7 +6505,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12H9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division circle ", " svg"],
+    tags: ["sign", "division circle", "svg", "divide", "math", "operator", "calculation", "arithmetic", "circular", "outlined", "tool"],
     category: "Thin"
   },
   {
@@ -6515,7 +6515,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 4L8 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division slash ", " svg"],
+    tags: ["sign", "division slash", "svg", "divide", "math", "operator", "calculation", "arithmetic", "forward slash", "minimal", "tool"],
     category: "Thin"
   },
   {
@@ -6528,7 +6528,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 12H9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  division square ", " svg"],
+    tags: ["sign", "division square", "svg", "divide", "math", "operator", "calculation", "arithmetic", "squared", "outlined", "tool"],
     category: "Thin"
   },
   {
@@ -6539,7 +6539,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 15H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  equal ", " svg"],
+    tags: ["sign", "equal", "svg", "equals", "math", "operator", "result", "comparison", "plain", "minimal", "tool"],
     category: "Thin"
   },
   {
@@ -6550,7 +6550,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.5227 4.49954L12 15.0001L12.4773 4.49954C12.4897 4.22743 12.2724 4.00006 12 4.00006C11.7276 4.00006 11.5103 4.22743 11.5227 4.49954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  factorial ", " svg"],
+    tags: ["sign", "factorial", "svg", "exclamation mark", "math", "operator", "calculation", "permutation", "plain", "minimal", "tool"],
     category: "Thin"
   },
   {
@@ -6561,7 +6561,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 8C8.20914 8 11 12 11 12C11 12 8.20914 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  lemniscate ", " svg"],
+    tags: ["sign", "lemniscate", "svg", "infinity", "loop", "endless", "limitless", "mathematics", "symbol", "abstract", "minimal", "ui"],
     category: "Thin"
   },
   {
@@ -6571,7 +6571,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 12H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  minus ", " svg"],
+    tags: ["sign", "minus", "svg", "decrease", "remove", "subtract", "negative", "reduction", "delete", "dash", "horizontal line", "minimal"],
     category: "Thin"
   },
   {
@@ -6582,7 +6582,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  minus circle ", " svg"],
+    tags: ["sign", "minus circle", "svg", "decrease", "remove", "subtract", "negative", "reduction", "delete", "circular", "round", "decline", "error"],
     category: "Thin"
   },
   {
@@ -6592,7 +6592,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12H15M4 4H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  minus square ", " svg"],
+    tags: ["sign", "minus square", "svg", "decrease", "remove", "subtract", "negative", "reduction", "delete", "square", "geometric", "decline", "error"],
     category: "Thin"
   },
   {
@@ -6604,7 +6604,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16 4L8 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  percent ", " svg"],
+    tags: ["sign", "percent", "svg", "percentage", "discount", "rate", "ratio", "statistics", "sale", "progress", "calculation", "finance"],
     category: "Thin"
   },
   {
@@ -6616,7 +6616,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 8L15 14.03C15 15.118 15.882 16 16.97 16L17 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  pi ", " svg"],
+    tags: ["sign", "pi", "svg", "math", "geometry", "constant", "mathematics", "calculation", "science", "symbol", "education", "minimal"],
     category: "Thin"
   },
   {
@@ -6627,7 +6627,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M6 12H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus ", " svg"],
+    tags: ["sign", "plus", "svg", "add", "increase", "create", "positive", "addition", "new", "cross", "vertical horizontal", "minimal"],
     category: "Thin"
   },
   {
@@ -6639,7 +6639,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 12H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus circle ", " svg"],
+    tags: ["sign", "plus circle", "svg", "add", "increase", "create", "positive", "addition", "new", "circular", "round", "growth", "success"],
     category: "Thin"
   },
   {
@@ -6652,7 +6652,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 17H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus minus ", " svg"],
+    tags: ["sign", "plus minus", "svg", "add subtract", "toggle", "expand collapse", "options", "settings", "math", "calculation", "mixed operations", "minimal"],
     category: "Thin"
   },
   {
@@ -6662,7 +6662,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 9V15M9 12H15M4 4H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  plus square ", " svg"],
+    tags: ["sign", "plus square", "svg", "add", "increase", "create", "positive", "addition", "new", "square", "geometric", "growth", "success"],
     category: "Thin"
   },
   {
@@ -6672,7 +6672,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 15L4.5 20L8 5H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  radical ", " svg"],
+    tags: ["sign", "radical", "svg", "square root", "math", "mathematics", "calculation", "algebra", "science", "symbol", "education", "minimal"],
     category: "Thin"
   },
   {
@@ -6683,7 +6683,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7.00003 7.00003L17 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  times ", " svg"],
+    tags: ["sign", "times", "svg", "multiply", "close", "delete", "remove", "cancel", "error", "cross", "multiplication", "minimal"],
     category: "Thin"
   },
   {
@@ -6695,7 +6695,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 9L15 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  times circle ", " svg"],
+    tags: ["sign", "times circle", "svg", "multiply", "close", "delete", "remove", "cancel", "error", "circular", "round", "alert", "failure"],
     category: "Thin"
   },
   {
@@ -6707,7 +6707,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M9 9L15 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  times square ", " svg"],
+    tags: ["sign", "times square", "svg", "multiply", "close", "delete", "remove", "cancel", "error", "square", "geometric", "alert", "failure"],
     category: "Thin"
   },
   {
@@ -6718,7 +6718,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M10.5 9H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  f ", " svg"],
+    tags: ["sign", "f", "svg", "letter f", "text", "alphabet", "initial", "typography", "minimal", "font", "first", "function"],
     category: "Thin"
   },
   {
@@ -6729,7 +6729,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 8L8.36839 8C9.36835 8 10.2825 8.56497 10.7297 9.45936L13.2703 14.5406C13.7175 15.435 14.6317 16 15.6316 16L16 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  x ", " svg"],
+    tags: ["sign", "x", "svg", "letter x", "text", "alphabet", "initial", "typography", "close", "delete", "cancel", "error", "multiplication"],
     category: "Thin"
   },
   {
@@ -6740,7 +6740,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 16L9.48666 9.29775C9.19393 8.51715 8.44769 8 7.614 8L7 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign ", "  y ", " svg"],
+    tags: ["sign", "y", "svg", "letter y", "text", "alphabet", "initial", "typography", "minimal", "font", "axis", "coordinate"],
     category: "Thin"
   },
   {
@@ -6751,7 +6751,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 17H21V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trend down ", " svg"],
+    tags: ["trend down", "svg", "decline", "decrease", "loss", "negative", "downward", "statistics", "chart", "performance", "finance", "arrow"],
     category: "Thin"
   },
   {
@@ -6762,7 +6762,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 7H21V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trend up ", " svg"],
+    tags: ["trend up", "svg", "growth", "increase", "gain", "positive", "upward", "statistics", "chart", "performance", "finance", "arrow"],
     category: "Thin"
   },
   {
@@ -6774,7 +6774,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 2L19 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["camera image ", " svg"],
+    tags: ["camera image", "svg", "photo", "picture", "photography", "gallery", "capture", "visual", "media", "snapshot", "device"],
     category: "Thin"
   },
   {
@@ -6785,7 +6785,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17 9L19.7575 8.31063C20.3886 8.15285 21 8.63021 21 9.28078V14.7192C21 15.3698 20.3886 15.8472 19.7575 15.6894L17 15V9Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["camera video ", " svg"],
+    tags: ["camera video", "svg", "record", "movie", "film", "videography", "capture", "motion", "media", "device", "streaming"],
     category: "Thin"
   },
   {
@@ -6797,7 +6797,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 15H21.5V14.5H21V15ZM18 15.5H21V14.5H18V15.5ZM20.5 15V19H21.5V15H20.5ZM17.5 19V16H16.5V19H17.5ZM19 20.5C18.1716 20.5 17.5 19.8284 17.5 19H16.5C16.5 20.3807 17.6193 21.5 19 21.5V20.5ZM20.5 19C20.5 19.8284 19.8284 20.5 19 20.5V21.5C20.3807 21.5 21.5 20.3807 21.5 19H20.5ZM18 14.5C17.1716 14.5 16.5 15.1716 16.5 16H17.5C17.5 15.7239 17.7239 15.5 18 15.5V14.5Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["headphone ", " svg"],
+    tags: ["headphone", "svg", "audio", "listen", "music", "sound", "earphones", "device", "entertainment", "communication", "minimal"],
     category: "Thin"
   },
   {
@@ -6809,7 +6809,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 18V21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["microphone ", " svg"],
+    tags: ["microphone", "svg", "audio input", "record", "voice", "speak", "sound", "device", "communication", "podcast", "minimal"],
     category: "Thin"
   },
   {
@@ -6820,7 +6820,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4.00012 4L20.0001 20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["microphone off ", " svg"],
+    tags: ["microphone off", "svg", "mute", "no audio", "silent", "voice off", "communication", "meeting", "privacy", "device", "crossed out"],
     category: "Thin"
   },
   {
@@ -6832,7 +6832,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 3L18 4V8L12 7V3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music 1 ", " svg"],
+    tags: ["music 1", "svg", "note", "audio", "song", "melody", "sound", "entertainment", "playlist", "minimal", "quaver"],
     category: "Thin"
   },
   {
@@ -6847,7 +6847,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 16V3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music 2 ", " svg"],
+    tags: ["music 2", "svg", "notes", "audio", "song", "melody", "sound", "entertainment", "playlist", "minimal", "beams"],
     category: "Thin"
   },
   {
@@ -6860,7 +6860,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 9V2L22 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music album ", " svg"],
+    tags: ["music album", "svg", "record", "vinyl", "audio", "collection", "library", "media", "entertainment", "flat", "minimal", "square"],
     category: "Thin"
   },
   {
@@ -6873,7 +6873,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 18V11L22 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music artist ", " svg"],
+    tags: ["music artist", "svg", "performer", "singer", "band", "microphone", "vocalist", "audio", "profile", "user", "flat", "minimal"],
     category: "Thin"
   },
   {
@@ -6884,7 +6884,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 12L11 13.7321L11 10.2679L14 12Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["play circle ", " svg"],
+    tags: ["play circle", "svg", "start", "video", "audio", "media control", "button", "circular", "arrow", "filled", "ui", "action"],
     category: "Thin"
   },
   {
@@ -6895,7 +6895,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M20 5V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  end ", " svg"],
+    tags: ["player", "end", "svg", "skip end", "fast forward", "next track", "media control", "arrow", "filled", "ui", "action", "navigation", "playback"],
     category: "Thin"
   },
   {
@@ -6906,7 +6906,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 10.2679C22.3333 11.0377 22.3333 12.9623 21 13.7321L12 18.9282C10.6667 19.698 9 18.7358 9 17.1962L9 6.80385C9 5.26425 10.6667 4.302 12 5.0718L21 10.2679Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  next ", " svg"],
+    tags: ["player", "next", "svg", "skip forward", "next song", "media control", "arrow", "filled", "ui", "action", "navigation", "playback"],
     category: "Thin"
   },
   {
@@ -6917,7 +6917,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 7C14 5.89543 14.8954 5 16 5H17C18.1046 5 19 5.89543 19 7V17C19 18.1046 18.1046 19 17 19H16C14.8954 19 14 18.1046 14 17V7Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  pause ", " svg"],
+    tags: ["player", "pause", "svg", "hold", "stop temporarily", "media control", "break", "ui", "action", "playback", "filled", "minimal", "system"],
     category: "Thin"
   },
   {
@@ -6927,7 +6927,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M19 10.2679C20.3333 11.0377 20.3333 12.9623 19 13.7321L10 18.9282C8.66667 19.698 7 18.7358 7 17.1962L7 6.80385C7 5.26425 8.66667 4.302 10 5.0718L19 10.2679Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  play ", " svg"],
+    tags: ["player", "play", "svg", "start", "resume", "media control", "arrow", "filled", "ui", "action", "playback", "minimal"],
     category: "Thin"
   },
   {
@@ -6938,7 +6938,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 13.7321C1.66667 12.9623 1.66667 11.0377 3 10.2679L12 5.0718C13.3333 4.302 15 5.26425 15 6.80385L15 17.1962C15 18.7358 13.3333 19.698 12 18.9282L3 13.7321Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  previous ", " svg"],
+    tags: ["player", "previous", "svg", "skip backward", "previous song", "media control", "arrow", "filled", "ui", "action", "navigation", "playback"],
     category: "Thin"
   },
   {
@@ -6949,7 +6949,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M4 19L4 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  start ", " svg"],
+    tags: ["player", "start", "svg", "skip beginning", "rewind", "first track", "media control", "arrow", "filled", "ui", "action", "navigation", "playback"],
     category: "Thin"
   },
   {
@@ -6959,7 +6959,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="5" y="5" width="14" height="14" rx="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["player ", "  stop ", " svg"],
+    tags: ["player", "stop", "svg", "end", "halt", "media control", "square", "filled", "ui", "action", "playback", "minimal", "system"],
     category: "Thin"
   },
   {
@@ -6972,7 +6972,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 13C21 15.2091 19.2091 17 17 17" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist ", "  repeat list ", " svg"],
+    tags: ["playlist", "repeat list", "svg", "loop all", "repeat all", "media control", "arrows", "circular", "ui", "action", "playback", "system", "minimal"],
     category: "Thin"
   },
   {
@@ -6986,7 +6986,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M21 13C21 15.2091 19.2091 17 17 17" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist ", "  repeat song ", " svg"],
+    tags: ["playlist", "repeat song", "svg", "loop one", "repeat one", "media control", "arrows", "number", "ui", "action", "playback", "system", "minimal"],
     category: "Thin"
   },
   {
@@ -6997,7 +6997,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2.99994 7H5.73518C6.82978 7 7.86186 7.44742 8.6063 8.2148M20.9999 17H16.2647C15.1701 17 14.138 16.5526 13.3936 15.7852M20.9999 17L18.9999 19M20.9999 17L18.9999 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist ", "  shuffle ", " svg"],
+    tags: ["playlist", "shuffle", "svg", "random", "mix", "media control", "arrows", "crossed", "ui", "action", "playback", "system", "minimal"],
     category: "Thin"
   },
   {
@@ -7010,7 +7010,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 18L21 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist ", " svg"],
+    tags: ["playlist", "svg", "queue", "list", "collection", "audio", "media", "music", "ui", "library", "flat", "minimal"],
     category: "Thin"
   },
   {
@@ -7021,7 +7021,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.8767 9C16.9583 9.9892 16.9999 10.9897 16.9999 12C16.9999 13.0103 16.9583 14.0108 16.8767 15" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["volume down ", " svg"],
+    tags: ["volume down", "svg", "decrease volume", "lower sound", "audio control", "speaker", "minus", "ui", "system", "filled", "minimal", "adjustment"],
     category: "Thin"
   },
   {
@@ -7032,7 +7032,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M17.0002 10L21.0002 14M17.0002 14L21.0002 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["volume off ", " svg"],
+    tags: ["volume off", "svg", "mute", "no sound", "audio control", "speaker", "slash", "ui", "system", "filled", "minimal", "disabled"],
     category: "Thin"
   },
   {
@@ -7044,7 +7044,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M16.8767 9C16.9583 9.9892 16.9999 10.9897 16.9999 12C16.9999 13.0103 16.9583 14.0108 16.8767 15" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["volume up ", " svg"],
+    tags: ["volume up", "svg", "increase volume", "raise sound", "audio control", "speaker", "plus", "ui", "system", "filled", "minimal", "adjustment"],
     category: "Thin"
   },
   {
@@ -7055,7 +7055,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="9" y="9" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["badge ", " svg"],
+    tags: ["badge", "svg", "award", "achievement", "honor", "label", "tag", "status", "ui", "identification", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -7067,7 +7067,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 12H12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["box ", " svg"],
+    tags: ["box", "svg", "package", "container", "delivery", "storage", "product", "shipping", "commerce", "ui", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -7078,7 +7078,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 8L11 11L10 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["certificate badge ", " svg"],
+    tags: ["certificate badge", "svg", "verified", "approved", "quality", "guarantee", "seal", "award", "security", "ui", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -7090,7 +7090,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 10L17 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["cheque ", " svg"],
+    tags: ["cheque", "svg", "check", "payment", "bank", "financial", "document", "money", "transaction", "commerce", "flat", "minimal"],
     category: "Thin"
   },
   {
@@ -7101,7 +7101,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M7 13H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["credit card ", " svg"],
+    tags: ["credit card", "svg", "debit card", "payment method", "bank card", "transaction", "finance", "commerce", "wallet", "ui", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -7111,7 +7111,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2 3V2.5C1.72386 2.5 1.5 2.72386 1.5 3H2ZM13 3H13.5C13.5 2.72386 13.2761 2.5 13 2.5V3ZM13 9V8.5C12.8674 8.5 12.7402 8.55268 12.6464 8.64645C12.5527 8.74021 12.5 8.86739 12.5 9H13ZM2 3.5H13V2.5H2V3.5ZM12.5 3V19H13.5V3H12.5ZM2.5 17V3H1.5V17H2.5ZM13 9.5H18V8.5H13V9.5ZM21.5 13V17H22.5V13H21.5ZM13.5 19L13.5 9H12.5L12.5 19H13.5ZM19.0607 20.0607C18.4749 20.6464 17.5251 20.6464 16.9393 20.0607L16.2322 20.7678C17.2085 21.7441 18.7915 21.7441 19.7678 20.7678L19.0607 20.0607ZM16.9393 17.9393C17.5251 17.3536 18.4749 17.3536 19.0607 17.9393L19.7678 17.2322C18.7915 16.2559 17.2085 16.2559 16.2322 17.2322L16.9393 17.9393ZM7.06066 20.0607C6.47487 20.6464 5.52513 20.6464 4.93934 20.0607L4.23223 20.7678C5.20854 21.7441 6.79146 21.7441 7.76777 20.7678L7.06066 20.0607ZM4.93934 17.9393C5.52513 17.3536 6.47487 17.3536 7.06066 17.9393L7.76777 17.2322C6.79146 16.2559 5.20854 16.2559 4.23223 17.2322L4.93934 17.9393ZM19.0607 17.9393C19.3537 18.2323 19.5 18.6153 19.5 19H20.5C20.5 18.361 20.2558 17.7203 19.7678 17.2322L19.0607 17.9393ZM19.5 19C19.5 19.3847 19.3537 19.7677 19.0607 20.0607L19.7678 20.7678C20.2558 20.2797 20.5 19.639 20.5 19H19.5ZM16 18.5H13V19.5H16V18.5ZM16.9393 20.0607C16.6463 19.7677 16.5 19.3847 16.5 19H15.5C15.5 19.639 15.7442 20.2797 16.2322 20.7678L16.9393 20.0607ZM16.5 19C16.5 18.6153 16.6463 18.2323 16.9393 17.9393L16.2322 17.2322C15.7442 17.7203 15.5 18.361 15.5 19H16.5ZM4.93934 20.0607C4.64635 19.7677 4.5 19.3847 4.5 19H3.5C3.5 19.639 3.74418 20.2797 4.23223 20.7678L4.93934 20.0607ZM4.5 19C4.5 18.6153 4.64635 18.2323 4.93934 17.9393L4.23223 17.2322C3.74418 17.7203 3.5 18.361 3.5 19H4.5ZM13 18.5H8V19.5H13V18.5ZM7.06066 17.9393C7.35365 18.2323 7.5 18.6153 7.5 19H8.5C8.5 18.361 8.25582 17.7203 7.76777 17.2322L7.06066 17.9393ZM7.5 19C7.5 19.3847 7.35365 19.7677 7.06066 20.0607L7.76777 20.7678C8.25582 20.2797 8.5 19.639 8.5 19H7.5ZM21.5 17C21.5 17.8284 20.8284 18.5 20 18.5V19.5C21.3807 19.5 22.5 18.3807 22.5 17H21.5ZM18 9.5C19.933 9.5 21.5 11.067 21.5 13H22.5C22.5 10.5147 20.4853 8.5 18 8.5V9.5ZM1.5 17C1.5 18.3807 2.61929 19.5 4 19.5V18.5C3.17157 18.5 2.5 17.8284 2.5 17H1.5Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["delivery ", " svg"],
+    tags: ["delivery", "svg", "shipping", "package", "truck", "logistics", "order", "transport", "commerce", "ui", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -7123,7 +7123,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M2 12H7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["delivery fast ", " svg"],
+    tags: ["delivery fast", "svg", "express shipping", "quick delivery", "speed", "package", "truck", "commerce", "transport", "ui", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -7135,7 +7135,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M11.5 4C11.5 3.44772 11.0523 3 10.5 3V3C8.84315 3 7.5 4.34315 7.5 6V7H8.5C10.1569 7 11.5 5.65685 11.5 4V4Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["delivery free ", " svg"],
+    tags: ["delivery free", "svg", "no cost shipping", "complimentary delivery", "discount", "package", "truck", "commerce", "transport", "ui", "filled", "minimal"],
     category: "Thin"
   },
   {
@@ -7148,7 +7148,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 9L9 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["discount ", " svg"],
+    tags: ["discount", "svg", "coupon", "sale", "offer", "promotion", "price cut", "deal", "commerce", "marketing", "tag", "label"],
     category: "Thin"
   },
   {
@@ -7161,7 +7161,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M15 15L11 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["invoice ", " svg"],
+    tags: ["invoice", "svg", "bill", "receipt", "document", "payment", "billing", "transaction", "financial", "paper", "statement", "accounting"],
     category: "Thin"
   },
   {
@@ -7172,7 +7172,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M8 11V8C8 5.79086 9.79086 4 12 4C14.2091 4 16 5.79086 16 8V11" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping bag ", " svg"],
+    tags: ["shopping bag", "svg", "purchase", "retail", "cart", "basket", "e-commerce", "checkout", "consumer", "bag", "buy", "store"],
     category: "Thin"
   },
   {
@@ -7184,7 +7184,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="17.5" y="20.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping card ", " svg"],
+    tags: ["shopping card", "svg", "cart", "basket", "e-commerce", "purchase", "checkout", "retail", "buy", "online shopping", "consumer", "add to cart"],
     category: "Thin"
   },
   {
@@ -7198,7 +7198,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="8.5" y="20.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping card add ", " svg"],
+    tags: ["shopping card add", "svg", "add item", "plus", "new item", "increase", "e-commerce", "checkout", "purchase", "retail", "buy", "online shopping"],
     category: "Thin"
   },
   {
@@ -7211,7 +7211,7 @@ export const iconamoonIcons: IconItem[] = [
 <rect x="8.5" y="20.5" width="0.01" height="0.01" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping card remove ", " svg"],
+    tags: ["shopping card remove", "svg", "delete item", "minus", "remove item", "decrease", "e-commerce", "checkout", "purchase", "retail", "buy", "online shopping"],
     category: "Thin"
   },
   {
@@ -7222,7 +7222,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M14 21V16C14 14.8954 13.1046 14 12 14V14C10.8954 14 10 14.8954 10 16V21" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["store ", " svg"],
+    tags: ["store", "svg", "shop", "retail", "marketplace", "boutique", "e-commerce", "business", "front", "building", "commerce", "market"],
     category: "Thin"
   },
   {
@@ -7232,7 +7232,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M3 10H2.5C2.5 10.2761 2.72386 10.5 3 10.5L3 10ZM3 14L3 13.5C2.72386 13.5 2.5 13.7239 2.5 14H3ZM21 10V10.5C21.2761 10.5 21.5 10.2761 21.5 10H21ZM21 14H21.5C21.5 13.7239 21.2761 13.5 21 13.5V14ZM5 5.5H10V4.5H5V5.5ZM10 5.5H19V4.5H10V5.5ZM19 18.5H10V19.5H19V18.5ZM10 18.5H5V19.5H10V18.5ZM9.5 5V19H10.5V5H9.5ZM4.06066 10.9393C4.64645 11.5251 4.64645 12.4749 4.06066 13.0607L4.76777 13.7678C5.74408 12.7915 5.74408 11.2085 4.76777 10.2322L4.06066 10.9393ZM19.9393 13.0607C19.3536 12.4749 19.3536 11.5251 19.9393 10.9393L19.2322 10.2322C18.2559 11.2085 18.2559 12.7915 19.2322 13.7678L19.9393 13.0607ZM3 10.5C3.38466 10.5 3.76767 10.6463 4.06066 10.9393L4.76777 10.2322C4.27971 9.74418 3.63903 9.5 3 9.5L3 10.5ZM3.5 10V7H2.5V10H3.5ZM3.5 17V14H2.5V17H3.5ZM4.06066 13.0607C3.76767 13.3537 3.38466 13.5 3 13.5L3 14.5C3.63903 14.5 4.27971 14.2558 4.76777 13.7678L4.06066 13.0607ZM19.9393 10.9393C20.2323 10.6463 20.6153 10.5 21 10.5V9.5C20.361 9.5 19.7203 9.74418 19.2322 10.2322L19.9393 10.9393ZM20.5 7V10H21.5V7H20.5ZM20.5 14C20.5 14.0015 20.5 14.0029 20.5 14.0044C20.5 14.0059 20.5 14.0073 20.5 14.0088C20.5 14.0103 20.5 14.0118 20.5 14.0132C20.5 14.0147 20.5 14.0162 20.5 14.0176C20.5 14.0191 20.5 14.0206 20.5 14.0221C20.5 14.0236 20.5 14.025 20.5 14.0265C20.5 14.028 20.5 14.0295 20.5 14.031C20.5 14.0325 20.5 14.0339 20.5 14.0354C20.5 14.0369 20.5 14.0384 20.5 14.0399C20.5 14.0414 20.5 14.0429 20.5 14.0444C20.5 14.0459 20.5 14.0474 20.5 14.0489C20.5 14.0504 20.5 14.0519 20.5 14.0534C20.5 14.0549 20.5 14.0564 20.5 14.0579C20.5 14.0594 20.5 14.0609 20.5 14.0624C20.5 14.0639 20.5 14.0654 20.5 14.0669C20.5 14.0684 20.5 14.0699 20.5 14.0714C20.5 14.0729 20.5 14.0744 20.5 14.0759C20.5 14.0775 20.5 14.079 20.5 14.0805C20.5 14.082 20.5 14.0835 20.5 14.085C20.5 14.0866 20.5 14.0881 20.5 14.0896C20.5 14.0911 20.5 14.0927 20.5 14.0942C20.5 14.0957 20.5 14.0972 20.5 14.0988C20.5 14.1003 20.5 14.1018 20.5 14.1033C20.5 14.1049 20.5 14.1064 20.5 14.1079C20.5 14.1095 20.5 14.111 20.5 14.1125C20.5 14.1141 20.5 14.1156 20.5 14.1171C20.5 14.1187 20.5 14.1202 20.5 14.1218C20.5 14.1233 20.5 14.1248 20.5 14.1264C20.5 14.1279 20.5 14.1295 20.5 14.131C20.5 14.1326 20.5 14.1341 20.5 14.1357C20.5 14.1372 20.5 14.1388 20.5 14.1403C20.5 14.1419 20.5 14.1434 20.5 14.145C20.5 14.1465 20.5 14.1481 20.5 14.1496C20.5 14.1512 20.5 14.1528 20.5 14.1543C20.5 14.1559 20.5 14.1574 20.5 14.159C20.5 14.1606 20.5 14.1621 20.5 14.1637C20.5 14.1653 20.5 14.1668 20.5 14.1684C20.5 14.17 20.5 14.1715 20.5 14.1731C20.5 14.1747 20.5 14.1762 20.5 14.1778C20.5 14.1794 20.5 14.181 20.5 14.1825C20.5 14.1841 20.5 14.1857 20.5 14.1873C20.5 14.1889 20.5 14.1904 20.5 14.192C20.5 14.1936 20.5 14.1952 20.5 14.1968C20.5 14.1983 20.5 14.1999 20.5 14.2015C20.5 14.2031 20.5 14.2047 20.5 14.2063C20.5 14.2079 20.5 14.2095 20.5 14.2111C20.5 14.2126 20.5 14.2142 20.5 14.2158C20.5 14.2174 20.5 14.219 20.5 14.2206C20.5 14.2222 20.5 14.2238 20.5 14.2254C20.5 14.227 20.5 14.2286 20.5 14.2302C20.5 14.2318 20.5 14.2334 20.5 14.235C20.5 14.2366 20.5 14.2382 20.5 14.2398C20.5 14.2415 20.5 14.2431 20.5 14.2447C20.5 14.2463 20.5 14.2479 20.5 14.2495C20.5 14.2511 20.5 14.2527 20.5 14.2543C20.5 14.256 20.5 14.2576 20.5 14.2592C20.5 14.2608 20.5 14.2624 20.5 14.264C20.5 14.2657 20.5 14.2673 20.5 14.2689C20.5 14.2705 20.5 14.2722 20.5 14.2738C20.5 14.2754 20.5 14.277 20.5 14.2787C20.5 14.2803 20.5 14.2819 20.5 14.2836C20.5 14.2852 20.5 14.2868 20.5 14.2884C20.5 14.2901 20.5 14.2917 20.5 14.2934C20.5 14.295 20.5 14.2966 20.5 14.2983C20.5 14.2999 20.5 14.3015 20.5 14.3032C20.5 14.3048 20.5 14.3065 20.5 14.3081C20.5 14.3097 20.5 14.3114 20.5 14.313C20.5 14.3147 20.5 14.3163 20.5 14.318C20.5 14.3196 20.5 14.3213 20.5 14.3229C20.5 14.3246 20.5 14.3262 20.5 14.3279C20.5 14.3295 20.5 14.3312 20.5 14.3328C20.5 14.3345 20.5 14.3362 20.5 14.3378C20.5 14.3395 20.5 14.3411 20.5 14.3428C20.5 14.3445 20.5 14.3461 20.5 14.3478C20.5 14.3494 20.5 14.3511 20.5 14.3528C20.5 14.3544 20.5 14.3561 20.5 14.3578C20.5 14.3594 20.5 14.3611 20.5 14.3628C20.5 14.3644 20.5 14.3661 20.5 14.3678C20.5 14.3695 20.5 14.3711 20.5 14.3728C20.5 14.3745 20.5 14.3762 20.5 14.3778C20.5 14.3795 20.5 14.3812 20.5 14.3829C20.5 14.3846 20.5 14.3862 20.5 14.3879C20.5 14.3896 20.5 14.3913 20.5 14.393C20.5 14.3947 20.5 14.3963 20.5 14.398C20.5 14.3997 20.5 14.4014 20.5 14.4031C20.5 14.4048 20.5 14.4065 20.5 14.4082C20.5 14.4099 20.5 14.4116 20.5 14.4133C20.5 14.4149 20.5 14.4166 20.5 14.4183C20.5 14.42 20.5 14.4217 20.5 14.4234C20.5 14.4251 20.5 14.4268 20.5 14.4285C20.5 14.4302 20.5 14.4319 20.5 14.4336C20.5 14.4353 20.5 14.4371 20.5 14.4388C20.5 14.4405 20.5 14.4422 20.5 14.4439C20.5 14.4456 20.5 14.4473 20.5 14.449C20.5 14.4507 20.5 14.4524 20.5 14.4541C20.5 14.4559 20.5 14.4576 20.5 14.4593C20.5 14.461 20.5 14.4627 20.5 14.4644C20.5 14.4662 20.5 14.4679 20.5 14.4696C20.5 14.4713 20.5 14.473 20.5 14.4748C20.5 14.4765 20.5 14.4782 20.5 14.4799C20.5 14.4817 20.5 14.4834 20.5 14.4851C20.5 14.4868 20.5 14.4886 20.5 14.4903C20.5 14.492 20.5 14.4938 20.5 14.4955C20.5 14.4972 20.5 14.499 20.5 14.5007C20.5 14.5024 20.5 14.5042 20.5 14.5059C20.5 14.5076 20.5 14.5094 20.5 14.5111C20.5 14.5128 20.5 14.5146 20.5 14.5163C20.5 14.5181 20.5 14.5198 20.5 14.5216C20.5 14.5233 20.5 14.525 20.5 14.5268C20.5 14.5285 20.5 14.5303 20.5 14.532C20.5 14.5338 20.5 14.5355 20.5 14.5373C20.5 14.539 20.5 14.5408 20.5 14.5425C20.5 14.5443 20.5 14.546 20.5 14.5478C20.5 14.5495 20.5 14.5513 20.5 14.5531C20.5 14.5548 20.5 14.5566 20.5 14.5583C20.5 14.5601 20.5 14.5619 20.5 14.5636C20.5 14.5654 20.5 14.5671 20.5 14.5689C20.5 14.5707 20.5 14.5724 20.5 14.5742C20.5 14.576 20.5 14.5777 20.5 14.5795C20.5 14.5813 20.5 14.583 20.5 14.5848C20.5 14.5866 20.5 14.5883 20.5 14.5901C20.5 14.5919 20.5 14.5937 20.5 14.5954C20.5 14.5972 20.5 14.599 20.5 14.6008C20.5 14.6025 20.5 14.6043 20.5 14.6061C20.5 14.6079 20.5 14.6097 20.5 14.6114C20.5 14.6132 20.5 14.615 20.5 14.6168C20.5 14.6186 20.5 14.6204 20.5 14.6221C20.5 14.6239 20.5 14.6257 20.5 14.6275C20.5 14.6293 20.5 14.6311 20.5 14.6329C20.5 14.6347 20.5 14.6364 20.5 14.6382C20.5 14.64 20.5 14.6418 20.5 14.6436C20.5 14.6454 20.5 14.6472 20.5 14.649C20.5 14.6508 20.5 14.6526 20.5 14.6544C20.5 14.6562 20.5 14.658 20.5 14.6598C20.5 14.6616 20.5 14.6634 20.5 14.6652C20.5 14.667 20.5 14.6688 20.5 14.6706C20.5 14.6724 20.5 14.6742 20.5 14.676C20.5 14.6778 20.5 14.6796 20.5 14.6814C20.5 14.6833 20.5 14.6851 20.5 14.6869C20.5 14.6887 20.5 14.6905 20.5 14.6923C20.5 14.6941 20.5 14.6959 20.5 14.6978C20.5 14.6996 20.5 14.7014 20.5 14.7032C20.5 14.705 20.5 14.7068 20.5 14.7087C20.5 14.7105 20.5 14.7123 20.5 14.7141C20.5 14.7159 20.5 14.7178 20.5 14.7196C20.5 14.7214 20.5 14.7232 20.5 14.7251C20.5 14.7269 20.5 14.7287 20.5 14.7305C20.5 14.7324 20.5 14.7342 20.5 14.736C20.5 14.7378 20.5 14.7397 20.5 14.7415C20.5 14.7433 20.5 14.7452 20.5 14.747C20.5 14.7488 20.5 14.7507 20.5 14.7525C20.5 14.7543 20.5 14.7562 20.5 14.758C20.5 14.7599 20.5 14.7617 20.5 14.7635C20.5 14.7654 20.5 14.7672 20.5 14.7691C20.5 14.7709 20.5 14.7727 20.5 14.7746C20.5 14.7764 20.5 14.7783 20.5 14.7801C20.5 14.782 20.5 14.7838 20.5 14.7857C20.5 14.7875 20.5 14.7894 20.5 14.7912C20.5 14.7931 20.5 14.7949 20.5 14.7968C20.5 14.7986 20.5 14.8005 20.5 14.8023C20.5 14.8042 20.5 14.806 20.5 14.8079C20.5 14.8097 20.5 14.8116 20.5 14.8134C20.5 14.8153 20.5 14.8172 20.5 14.819C20.5 14.8209 20.5 14.8227 20.5 14.8246C20.5 14.8265 20.5 14.8283 20.5 14.8302C20.5 14.8321 20.5 14.8339 20.5 14.8358C20.5 14.8376 20.5 14.8395 20.5 14.8414C20.5 14.8433 20.5 14.8451 20.5 14.847C20.5 14.8489 20.5 14.8507 20.5 14.8526C20.5 14.8545 20.5 14.8563 20.5 14.8582C20.5 14.8601 20.5 14.862 20.5 14.8638C20.5 14.8657 20.5 14.8676 20.5 14.8695C20.5 14.8713 20.5 14.8732 20.5 14.8751C20.5 14.877 20.5 14.8789 20.5 14.8807C20.5 14.8826 20.5 14.8845 20.5 14.8864C20.5 14.8883 20.5 14.8901 20.5 14.892C20.5 14.8939 20.5 14.8958 20.5 14.8977C20.5 14.8996 20.5 14.9015 20.5 14.9033C20.5 14.9052 20.5 14.9071 20.5 14.909C20.5 14.9109 20.5 14.9128 20.5 14.9147C20.5 14.9166 20.5 14.9185 20.5 14.9204C20.5 14.9223 20.5 14.9241 20.5 14.926C20.5 14.9279 20.5 14.9298 20.5 14.9317C20.5 14.9336 20.5 14.9355 20.5 14.9374C20.5 14.9393 20.5 14.9412 20.5 14.9431C20.5 14.945 20.5 14.9469 20.5 14.9488C20.5 14.9507 20.5 14.9526 20.5 14.9545C20.5 14.9564 20.5 14.9584 20.5 14.9603C20.5 14.9622 20.5 14.9641 20.5 14.966C20.5 14.9679 20.5 14.9698 20.5 14.9717C20.5 14.9736 20.5 14.9755 20.5 14.9774C20.5 14.9794 20.5 14.9813 20.5 14.9832C20.5 14.9851 20.5 14.987 20.5 14.9889C20.5 14.9908 20.5 14.9928 20.5 14.9947C20.5 14.9966 20.5 14.9985 20.5 15.0004C20.5 15.0023 20.5 15.0043 20.5 15.0062C20.5 15.0081 20.5 15.01 20.5 15.012C20.5 15.0139 20.5 15.0158 20.5 15.0177C20.5 15.0196 20.5 15.0216 20.5 15.0235C20.5 15.0254 20.5 15.0273 20.5 15.0293C20.5 15.0312 20.5 15.0331 20.5 15.0351C20.5 15.037 20.5 15.0389 20.5 15.0409C20.5 15.0428 20.5 15.0447 20.5 15.0466C20.5 15.0486 20.5 15.0505 20.5 15.0524C20.5 15.0544 20.5 15.0563 20.5 15.0583C20.5 15.0602 20.5 15.0621 20.5 15.0641C20.5 15.066 20.5 15.0679 20.5 15.0699C20.5 15.0718 20.5 15.0738 20.5 15.0757C20.5 15.0776 20.5 15.0796 20.5 15.0815C20.5 15.0835 20.5 15.0854 20.5 15.0874C20.5 15.0893 20.5 15.0913 20.5 15.0932C20.5 15.0951 20.5 15.0971 20.5 15.099C20.5 15.101 20.5 15.1029 20.5 15.1049C20.5 15.1068 20.5 15.1088 20.5 15.1107C20.5 15.1127 20.5 15.1146 20.5 15.1166C20.5 15.1185 20.5 15.1205 20.5 15.1225C20.5 15.1244 20.5 15.1264 20.5 15.1283C20.5 15.1303 20.5 15.1322 20.5 15.1342C20.5 15.1362 20.5 15.1381 20.5 15.1401C20.5 15.142 20.5 15.144 20.5 15.146C20.5 15.1479 20.5 15.1499 20.5 15.1518C20.5 15.1538 20.5 15.1558 20.5 15.1577C20.5 15.1597 20.5 15.1617 20.5 15.1636C20.5 15.1656 20.5 15.1676 20.5 15.1695C20.5 15.1715 20.5 15.1735 20.5 15.1754C20.5 15.1774 20.5 15.1794 20.5 15.1813C20.5 15.1833 20.5 15.1853 20.5 15.1873C20.5 15.1892 20.5 15.1912 20.5 15.1932C20.5 15.1952 20.5 15.1971 20.5 15.1991C20.5 15.2011 20.5 15.2031 20.5 15.205C20.5 15.207 20.5 15.209 20.5 15.211C20.5 15.2129 20.5 15.2149 20.5 15.2169C20.5 15.2189 20.5 15.2209 20.5 15.2228C20.5 15.2248 20.5 15.2268 20.5 15.2288C20.5 15.2308 20.5 15.2328 20.5 15.2347C20.5 15.2367 20.5 15.2387 20.5 15.2407C20.5 15.2427 20.5 15.2447 20.5 15.2467C20.5 15.2487 20.5 15.2506 20.5 15.2526C20.5 15.2546 20.5 15.2566 20.5 15.2586C20.5 15.2606 20.5 15.2626 20.5 15.2646C20.5 15.2666 20.5 15.2686 20.5 15.2706C20.5 15.2726 20.5 15.2745 20.5 15.2765C20.5 15.2785 20.5 15.2805 20.5 15.2825C20.5 15.2845 20.5 15.2865 20.5 15.2885C20.5 15.2905 20.5 15.2925 20.5 15.2945C20.5 15.2965 20.5 15.2985 20.5 15.3005C20.5 15.3025 20.5 15.3045 20.5 15.3065C20.5 15.3085 20.5 15.3105 20.5 15.3125C20.5 15.3145 20.5 15.3166 20.5 15.3186C20.5 15.3206 20.5 15.3226 20.5 15.3246C20.5 15.3266 20.5 15.3286 20.5 15.3306C20.5 15.3326 20.5 15.3346 20.5 15.3366C20.5 15.3386 20.5 15.3407 20.5 15.3427C20.5 15.3447 20.5 15.3467 20.5 15.3487C20.5 15.3507 20.5 15.3527 20.5 15.3547C20.5 15.3568 20.5 15.3588 20.5 15.3608C20.5 15.3628 20.5 15.3648 20.5 15.3668C20.5 15.3689 20.5 15.3709 20.5 15.3729C20.5 15.3749 20.5 15.3769 20.5 15.379C20.5 15.381 20.5 15.383 20.5 15.385C20.5 15.387 20.5 15.3891 20.5 15.3911C20.5 15.3931 20.5 15.3951 20.5 15.3972C20.5 15.3992 20.5 15.4012 20.5 15.4032C20.5 15.4053 20.5 15.4073 20.5 15.4093C20.5 15.4113 20.5 15.4134 20.5 15.4154C20.5 15.4174 20.5 15.4194 20.5 15.4215C20.5 15.4235 20.5 15.4255 20.5 15.4276C20.5 15.4296 20.5 15.4316 20.5 15.4337C20.5 15.4357 20.5 15.4377 20.5 15.4398C20.5 15.4418 20.5 15.4438 20.5 15.4459C20.5 15.4479 20.5 15.4499 20.5 15.452C20.5 15.454 20.5 15.456 20.5 15.4581C20.5 15.4601 20.5 15.4622 20.5 15.4642C20.5 15.4662 20.5 15.4683 20.5 15.4703C20.5 15.4724 20.5 15.4744 20.5 15.4764C20.5 15.4785 20.5 15.4805 20.5 15.4826C20.5 15.4846 20.5 15.4867 20.5 15.4887C20.5 15.4907 20.5 15.4928 20.5 15.4948C20.5 15.4969 20.5 15.4989 20.5 15.501C20.5 15.503 20.5 15.5051 20.5 15.5071C20.5 15.5092 20.5 15.5112 20.5 15.5133C20.5 15.5153 20.5 15.5174 20.5 15.5194C20.5 15.5215 20.5 15.5235 20.5 15.5256C20.5 15.5276 20.5 15.5297 20.5 15.5317C20.5 15.5338 20.5 15.5358 20.5 15.5379C20.5 15.5399 20.5 15.542 20.5 15.5441C20.5 15.5461 20.5 15.5482 20.5 15.5502C20.5 15.5523 20.5 15.5543 20.5 15.5564C20.5 15.5585 20.5 15.5605 20.5 15.5626C20.5 15.5646 20.5 15.5667 20.5 15.5688C20.5 15.5708 20.5 15.5729 20.5 15.5749C20.5 15.577 20.5 15.5791 20.5 15.5811C20.5 15.5832 20.5 15.5853 20.5 15.5873C20.5 15.5894 20.5 15.5915 20.5 15.5935C20.5 15.5956 20.5 15.5977 20.5 15.5997C20.5 15.6018 20.5 15.6039 20.5 15.6059C20.5 15.608 20.5 15.6101 20.5 15.6121C20.5 15.6142 20.5 15.6163 20.5 15.6183C20.5 15.6204 20.5 15.6225 20.5 15.6245C20.5 15.6266 20.5 15.6287 20.5 15.6308C20.5 15.6328 20.5 15.6349 20.5 15.637C20.5 15.6391 20.5 15.6411 20.5 15.6432C20.5 15.6453 20.5 15.6474 20.5 15.6494C20.5 15.6515 20.5 15.6536 20.5 15.6557C20.5 15.6577 20.5 15.6598 20.5 15.6619C20.5 15.664 20.5 15.6661 20.5 15.6681C20.5 15.6702 20.5 15.6723 20.5 15.6744C20.5 15.6765 20.5 15.6785 20.5 15.6806C20.5 15.6827 20.5 15.6848 20.5 15.6869C20.5 15.6889 20.5 15.691 20.5 15.6931C20.5 15.6952 20.5 15.6973 20.5 15.6994C20.5 15.7015 20.5 15.7035 20.5 15.7056C20.5 15.7077 20.5 15.7098 20.5 15.7119C20.5 15.714 20.5 15.7161 20.5 15.7182C20.5 15.7202 20.5 15.7223 20.5 15.7244C20.5 15.7265 20.5 15.7286 20.5 15.7307C20.5 15.7328 20.5 15.7349 20.5 15.737C20.5 15.7391 20.5 15.7411 20.5 15.7432C20.5 15.7453 20.5 15.7474 20.5 15.7495C20.5 15.7516 20.5 15.7537 20.5 15.7558C20.5 15.7579 20.5 15.76 20.5 15.7621C20.5 15.7642 20.5 15.7663 20.5 15.7684C20.5 15.7705 20.5 15.7726 20.5 15.7747C20.5 15.7768 20.5 15.7789 20.5 15.781C20.5 15.7831 20.5 15.7852 20.5 15.7873C20.5 15.7894 20.5 15.7915 20.5 15.7936C20.5 15.7957 20.5 15.7978 20.5 15.7999C20.5 15.802 20.5 15.8041 20.5 15.8062C20.5 15.8083 20.5 15.8104 20.5 15.8125C20.5 15.8146 20.5 15.8167 20.5 15.8188C20.5 15.8209 20.5 15.823 20.5 15.8251C20.5 15.8272 20.5 15.8293 20.5 15.8314C20.5 15.8335 20.5 15.8356 20.5 15.8378C20.5 15.8399 20.5 15.842 20.5 15.8441C20.5 15.8462 20.5 15.8483 20.5 15.8504C20.5 15.8525 20.5 15.8546 20.5 15.8567C20.5 15.8589 20.5 15.861 20.5 15.8631C20.5 15.8652 20.5 15.8673 20.5 15.8694C20.5 15.8715 20.5 15.8736 20.5 15.8758C20.5 15.8779 20.5 15.88 20.5 15.8821C20.5 15.8842 20.5 15.8863 20.5 15.8884C20.5 15.8906 20.5 15.8927 20.5 15.8948C20.5 15.8969 20.5 15.899 20.5 15.9011C20.5 15.9033 20.5 15.9054 20.5 15.9075C20.5 15.9096 20.5 15.9117 20.5 15.9138C20.5 15.916 20.5 15.9181 20.5 15.9202C20.5 15.9223 20.5 15.9244 20.5 15.9266C20.5 15.9287 20.5 15.9308 20.5 15.9329C20.5 15.9351 20.5 15.9372 20.5 15.9393C20.5 15.9414 20.5 15.9435 20.5 15.9457C20.5 15.9478 20.5 15.9499 20.5 15.952C20.5 15.9542 20.5 15.9563 20.5 15.9584C20.5 15.9605 20.5 15.9627 20.5 15.9648C20.5 15.9669 20.5 15.969 20.5 15.9712C20.5 15.9733 20.5 15.9754 20.5 15.9776C20.5 15.9797 20.5 15.9818 20.5 15.9839C20.5 15.9861 20.5 15.9882 20.5 15.9903C20.5 15.9925 20.5 15.9946 20.5 15.9967C20.5 15.9989 20.5 16.001 20.5 16.0031C20.5 16.0052 20.5 16.0074 20.5 16.0095C20.5 16.0116 20.5 16.0138 20.5 16.0159C20.5 16.018 20.5 16.0202 20.5 16.0223C20.5 16.0244 20.5 16.0266 20.5 16.0287C20.5 16.0308 20.5 16.033 20.5 16.0351C20.5 16.0372 20.5 16.0394 20.5 16.0415C20.5 16.0437 20.5 16.0458 20.5 16.0479C20.5 16.0501 20.5 16.0522 20.5 16.0543C20.5 16.0565 20.5 16.0586 20.5 16.0608C20.5 16.0629 20.5 16.065 20.5 16.0672C20.5 16.0693 20.5 16.0715 20.5 16.0736C20.5 16.0757 20.5 16.0779 20.5 16.08C20.5 16.0822 20.5 16.0843 20.5 16.0864C20.5 16.0886 20.5 16.0907 20.5 16.0929C20.5 16.095 20.5 16.0971 20.5 16.0993C20.5 16.1014 20.5 16.1036 20.5 16.1057C20.5 16.1079 20.5 16.11 20.5 16.1122C20.5 16.1143 20.5 16.1164 20.5 16.1186C20.5 16.1207 20.5 16.1229 20.5 16.125C20.5 16.1272 20.5 16.1293 20.5 16.1315C20.5 16.1336 20.5 16.1358 20.5 16.1379C20.5 16.1401 20.5 16.1422 20.5 16.1443C20.5 16.1465 20.5 16.1486 20.5 16.1508C20.5 16.1529 20.5 16.1551 20.5 16.1572C20.5 16.1594 20.5 16.1615 20.5 16.1637C20.5 16.1658 20.5 16.168 20.5 16.1701C20.5 16.1723 20.5 16.1744 20.5 16.1766C20.5 16.1787 20.5 16.1809 20.5 16.183C20.5 16.1852 20.5 16.1874 20.5 16.1895C20.5 16.1917 20.5 16.1938 20.5 16.196C20.5 16.1981 20.5 16.2003 20.5 16.2024C20.5 16.2046 20.5 16.2067 20.5 16.2089C20.5 16.211 20.5 16.2132 20.5 16.2154C20.5 16.2175 20.5 16.2197 20.5 16.2218C20.5 16.224 20.5 16.2261 20.5 16.2283C20.5 16.2304 20.5 16.2326 20.5 16.2348C20.5 16.2369 20.5 16.2391 20.5 16.2412C20.5 16.2434 20.5 16.2456 20.5 16.2477C20.5 16.2499 20.5 16.252 20.5 16.2542C20.5 16.2563 20.5 16.2585 20.5 16.2607C20.5 16.2628 20.5 16.265 20.5 16.2671C20.5 16.2693 20.5 16.2715 20.5 16.2736C20.5 16.2758 20.5 16.2779 20.5 16.2801C20.5 16.2823 20.5 16.2844 20.5 16.2866C20.5 16.2888 20.5 16.2909 20.5 16.2931C20.5 16.2952 20.5 16.2974 20.5 16.2996C20.5 16.3017 20.5 16.3039 20.5 16.3061C20.5 16.3082 20.5 16.3104 20.5 16.3126C20.5 16.3147 20.5 16.3169 20.5 16.319C20.5 16.3212 20.5 16.3234 20.5 16.3255C20.5 16.3277 20.5 16.3299 20.5 16.332C20.5 16.3342 20.5 16.3364 20.5 16.3385C20.5 16.3407 20.5 16.3429 20.5 16.345C20.5 16.3472 20.5 16.3494 20.5 16.3515C20.5 16.3537 20.5 16.3559 20.5 16.358C20.5 16.3602 20.5 16.3624 20.5 16.3645C20.5 16.3667 20.5 16.3689 20.5 16.371C20.5 16.3732 20.5 16.3754 20.5 16.3776C20.5 16.3797 20.5 16.3819 20.5 16.3841C20.5 16.3862 20.5 16.3884 20.5 16.3906C20.5 16.3927 20.5 16.3949 20.5 16.3971C20.5 16.3993 20.5 16.4014 20.5 16.4036C20.5 16.4058 20.5 16.4079 20.5 16.4101C20.5 16.4123 20.5 16.4145 20.5 16.4166C20.5 16.4188 20.5 16.421 20.5 16.4232C20.5 16.4253 20.5 16.4275 20.5 16.4297C20.5 16.4318 20.5 16.434 20.5 16.4362C20.5 16.4384 20.5 16.4405 20.5 16.4427C20.5 16.4449 20.5 16.4471 20.5 16.4492C20.5 16.4514 20.5 16.4536 20.5 16.4558C20.5 16.4579 20.5 16.4601 20.5 16.4623C20.5 16.4645 20.5 16.4666 20.5 16.4688C20.5 16.471 20.5 16.4732 20.5 16.4753C20.5 16.4775 20.5 16.4797 20.5 16.4819C20.5 16.484 20.5 16.4862 20.5 16.4884C20.5 16.4906 20.5 16.4927 20.5 16.4949C20.5 16.4971 20.5 16.4993 20.5 16.5015C20.5 16.5036 20.5 16.5058 20.5 16.508C20.5 16.5102 20.5 16.5123 20.5 16.5145C20.5 16.5167 20.5 16.5189 20.5 16.5211C20.5 16.5232 20.5 16.5254 20.5 16.5276C20.5 16.5298 20.5 16.532 20.5 16.5341C20.5 16.5363 20.5 16.5385 20.5 16.5407C20.5 16.5429 20.5 16.545 20.5 16.5472C20.5 16.5494 20.5 16.5516 20.5 16.5538C20.5 16.5559 20.5 16.5581 20.5 16.5603C20.5 16.5625 20.5 16.5647 20.5 16.5668C20.5 16.569 20.5 16.5712 20.5 16.5734C20.5 16.5756 20.5 16.5778 20.5 16.5799C20.5 16.5821 20.5 16.5843 20.5 16.5865C20.5 16.5887 20.5 16.5908 20.5 16.593C20.5 16.5952 20.5 16.5974 20.5 16.5996C20.5 16.6018 20.5 16.6039 20.5 16.6061C20.5 16.6083 20.5 16.6105 20.5 16.6127C20.5 16.6149 20.5 16.617 20.5 16.6192C20.5 16.6214 20.5 16.6236 20.5 16.6258C20.5 16.628 20.5 16.6301 20.5 16.6323C20.5 16.6345 20.5 16.6367 20.5 16.6389C20.5 16.6411 20.5 16.6432 20.5 16.6454C20.5 16.6476 20.5 16.6498 20.5 16.652C20.5 16.6542 20.5 16.6564 20.5 16.6585C20.5 16.6607 20.5 16.6629 20.5 16.6651C20.5 16.6673 20.5 16.6695 20.5 16.6717C20.5 16.6738 20.5 16.676 20.5 16.6782C20.5 16.6804 20.5 16.6826 20.5 16.6848C20.5 16.687 20.5 16.6891 20.5 16.6913C20.5 16.6935 20.5 16.6957 20.5 16.6979C20.5 16.7001 20.5 16.7023 20.5 16.7044C20.5 16.7066 20.5 16.7088 20.5 16.711C20.5 16.7132 20.5 16.7154 20.5 16.7176C20.5 16.7198 20.5 16.7219 20.5 16.7241C20.5 16.7263 20.5 16.7285 20.5 16.7307C20.5 16.7329 20.5 16.7351 20.5 16.7373C20.5 16.7394 20.5 16.7416 20.5 16.7438C20.5 16.746 20.5 16.7482 20.5 16.7504C20.5 16.7526 20.5 16.7548 20.5 16.7569C20.5 16.7591 20.5 16.7613 20.5 16.7635C20.5 16.7657 20.5 16.7679 20.5 16.7701C20.5 16.7723 20.5 16.7745 20.5 16.7766C20.5 16.7788 20.5 16.781 20.5 16.7832C20.5 16.7854 20.5 16.7876 20.5 16.7898C20.5 16.792 20.5 16.7942 20.5 16.7963C20.5 16.7985 20.5 16.8007 20.5 16.8029C20.5 16.8051 20.5 16.8073 20.5 16.8095C20.5 16.8117 20.5 16.8139 20.5 16.816C20.5 16.8182 20.5 16.8204 20.5 16.8226C20.5 16.8248 20.5 16.827 20.5 16.8292C20.5 16.8314 20.5 16.8336 20.5 16.8357C20.5 16.8379 20.5 16.8401 20.5 16.8423C20.5 16.8445 20.5 16.8467 20.5 16.8489C20.5 16.8511 20.5 16.8533 20.5 16.8555C20.5 16.8576 20.5 16.8598 20.5 16.862C20.5 16.8642 20.5 16.8664 20.5 16.8686C20.5 16.8708 20.5 16.873 20.5 16.8752C20.5 16.8774 20.5 16.8795 20.5 16.8817C20.5 16.8839 20.5 16.8861 20.5 16.8883C20.5 16.8905 20.5 16.8927 20.5 16.8949C20.5 16.8971 20.5 16.8993 20.5 16.9014C20.5 16.9036 20.5 16.9058 20.5 16.908C20.5 16.9102 20.5 16.9124 20.5 16.9146C20.5 16.9168 20.5 16.919 20.5 16.9212C20.5 16.9234 20.5 16.9255 20.5 16.9277C20.5 16.9299 20.5 16.9321 20.5 16.9343C20.5 16.9365 20.5 16.9387 20.5 16.9409C20.5 16.9431 20.5 16.9453 20.5 16.9474C20.5 16.9496 20.5 16.9518 20.5 16.954C20.5 16.9562 20.5 16.9584 20.5 16.9606C20.5 16.9628 20.5 16.965 20.5 16.9672C20.5 16.9693 20.5 16.9715 20.5 16.9737C20.5 16.9759 20.5 16.9781 20.5 16.9803C20.5 16.9825 20.5 16.9847 20.5 16.9869C20.5 16.9891 20.5 16.9912 20.5 16.9934C20.5 16.9956 20.5 16.9978 20.5 17H21.5C21.5 16.9978 21.5 16.9956 21.5 16.9934C21.5 16.9912 21.5 16.9891 21.5 16.9869C21.5 16.9847 21.5 16.9825 21.5 16.9803C21.5 16.9781 21.5 16.9759 21.5 16.9737C21.5 16.9715 21.5 16.9693 21.5 16.9672C21.5 16.965 21.5 16.9628 21.5 16.9606C21.5 16.9584 21.5 16.9562 21.5 16.954C21.5 16.9518 21.5 16.9496 21.5 16.9474C21.5 16.9453 21.5 16.9431 21.5 16.9409C21.5 16.9387 21.5 16.9365 21.5 16.9343C21.5 16.9321 21.5 16.9299 21.5 16.9277C21.5 16.9255 21.5 16.9234 21.5 16.9212C21.5 16.919 21.5 16.9168 21.5 16.9146C21.5 16.9124 21.5 16.9102 21.5 16.908C21.5 16.9058 21.5 16.9036 21.5 16.9014C21.5 16.8993 21.5 16.8971 21.5 16.8949C21.5 16.8927 21.5 16.8905 21.5 16.8883C21.5 16.8861 21.5 16.8839 21.5 16.8817C21.5 16.8795 21.5 16.8774 21.5 16.8752C21.5 16.873 21.5 16.8708 21.5 16.8686C21.5 16.8664 21.5 16.8642 21.5 16.862C21.5 16.8598 21.5 16.8576 21.5 16.8555C21.5 16.8533 21.5 16.8511 21.5 16.8489C21.5 16.8467 21.5 16.8445 21.5 16.8423C21.5 16.8401 21.5 16.8379 21.5 16.8357C21.5 16.8336 21.5 16.8314 21.5 16.8292C21.5 16.827 21.5 16.8248 21.5 16.8226C21.5 16.8204 21.5 16.8182 21.5 16.816C21.5 16.8139 21.5 16.8117 21.5 16.8095C21.5 16.8073 21.5 16.8051 21.5 16.8029C21.5 16.8007 21.5 16.7985 21.5 16.7963C21.5 16.7942 21.5 16.792 21.5 16.7898C21.5 16.7876 21.5 16.7854 21.5 16.7832C21.5 16.781 21.5 16.7788 21.5 16.7766C21.5 16.7745 21.5 16.7723 21.5 16.7701C21.5 16.7679 21.5 16.7657 21.5 16.7635C21.5 16.7613 21.5 16.7591 21.5 16.7569C21.5 16.7548 21.5 16.7526 21.5 16.7504C21.5 16.7482 21.5 16.746 21.5 16.7438C21.5 16.7416 21.5 16.7394 21.5 16.7373C21.5 16.7351 21.5 16.7329 21.5 16.7307C21.5 16.7285 21.5 16.7263 21.5 16.7241C21.5 16.7219 21.5 16.7198 21.5 16.7176C21.5 16.7154 21.5 16.7132 21.5 16.711C21.5 16.7088 21.5 16.7066 21.5 16.7044C21.5 16.7023 21.5 16.7001 21.5 16.6979C21.5 16.6957 21.5 16.6935 21.5 16.6913C21.5 16.6891 21.5 16.687 21.5 16.6848C21.5 16.6826 21.5 16.6804 21.5 16.6782C21.5 16.676 21.5 16.6738 21.5 16.6717C21.5 16.6695 21.5 16.6673 21.5 16.6651C21.5 16.6629 21.5 16.6607 21.5 16.6585C21.5 16.6564 21.5 16.6542 21.5 16.652C21.5 16.6498 21.5 16.6476 21.5 16.6454C21.5 16.6432 21.5 16.6411 21.5 16.6389C21.5 16.6367 21.5 16.6345 21.5 16.6323C21.5 16.6301 21.5 16.628 21.5 16.6258C21.5 16.6236 21.5 16.6214 21.5 16.6192C21.5 16.617 21.5 16.6149 21.5 16.6127C21.5 16.6105 21.5 16.6083 21.5 16.6061C21.5 16.6039 21.5 16.6018 21.5 16.5996C21.5 16.5974 21.5 16.5952 21.5 16.593C21.5 16.5908 21.5 16.5887 21.5 16.5865C21.5 16.5843 21.5 16.5821 21.5 16.5799C21.5 16.5778 21.5 16.5756 21.5 16.5734C21.5 16.5712 21.5 16.569 21.5 16.5668C21.5 16.5647 21.5 16.5625 21.5 16.5603C21.5 16.5581 21.5 16.5559 21.5 16.5538C21.5 16.5516 21.5 16.5494 21.5 16.5472C21.5 16.545 21.5 16.5429 21.5 16.5407C21.5 16.5385 21.5 16.5363 21.5 16.5341C21.5 16.532 21.5 16.5298 21.5 16.5276C21.5 16.5254 21.5 16.5232 21.5 16.5211C21.5 16.5189 21.5 16.5167 21.5 16.5145C21.5 16.5123 21.5 16.5102 21.5 16.508C21.5 16.5058 21.5 16.5036 21.5 16.5015C21.5 16.4993 21.5 16.4971 21.5 16.4949C21.5 16.4927 21.5 16.4906 21.5 16.4884C21.5 16.4862 21.5 16.484 21.5 16.4819C21.5 16.4797 21.5 16.4775 21.5 16.4753C21.5 16.4732 21.5 16.471 21.5 16.4688C21.5 16.4666 21.5 16.4645 21.5 16.4623C21.5 16.4601 21.5 16.4579 21.5 16.4558C21.5 16.4536 21.5 16.4514 21.5 16.4492C21.5 16.4471 21.5 16.4449 21.5 16.4427C21.5 16.4405 21.5 16.4384 21.5 16.4362C21.5 16.434 21.5 16.4318 21.5 16.4297C21.5 16.4275 21.5 16.4253 21.5 16.4232C21.5 16.421 21.5 16.4188 21.5 16.4166C21.5 16.4145 21.5 16.4123 21.5 16.4101C21.5 16.4079 21.5 16.4058 21.5 16.4036C21.5 16.4014 21.5 16.3993 21.5 16.3971C21.5 16.3949 21.5 16.3927 21.5 16.3906C21.5 16.3884 21.5 16.3862 21.5 16.3841C21.5 16.3819 21.5 16.3797 21.5 16.3776C21.5 16.3754 21.5 16.3732 21.5 16.371C21.5 16.3689 21.5 16.3667 21.5 16.3645C21.5 16.3624 21.5 16.3602 21.5 16.358C21.5 16.3559 21.5 16.3537 21.5 16.3515C21.5 16.3494 21.5 16.3472 21.5 16.345C21.5 16.3429 21.5 16.3407 21.5 16.3385C21.5 16.3364 21.5 16.3342 21.5 16.332C21.5 16.3299 21.5 16.3277 21.5 16.3255C21.5 16.3234 21.5 16.3212 21.5 16.319C21.5 16.3169 21.5 16.3147 21.5 16.3126C21.5 16.3104 21.5 16.3082 21.5 16.3061C21.5 16.3039 21.5 16.3017 21.5 16.2996C21.5 16.2974 21.5 16.2952 21.5 16.2931C21.5 16.2909 21.5 16.2888 21.5 16.2866C21.5 16.2844 21.5 16.2823 21.5 16.2801C21.5 16.2779 21.5 16.2758 21.5 16.2736C21.5 16.2715 21.5 16.2693 21.5 16.2671C21.5 16.265 21.5 16.2628 21.5 16.2607C21.5 16.2585 21.5 16.2563 21.5 16.2542C21.5 16.252 21.5 16.2499 21.5 16.2477C21.5 16.2456 21.5 16.2434 21.5 16.2412C21.5 16.2391 21.5 16.2369 21.5 16.2348C21.5 16.2326 21.5 16.2304 21.5 16.2283C21.5 16.2261 21.5 16.224 21.5 16.2218C21.5 16.2197 21.5 16.2175 21.5 16.2154C21.5 16.2132 21.5 16.211 21.5 16.2089C21.5 16.2067 21.5 16.2046 21.5 16.2024C21.5 16.2003 21.5 16.1981 21.5 16.196C21.5 16.1938 21.5 16.1917 21.5 16.1895C21.5 16.1874 21.5 16.1852 21.5 16.183C21.5 16.1809 21.5 16.1787 21.5 16.1766C21.5 16.1744 21.5 16.1723 21.5 16.1701C21.5 16.168 21.5 16.1658 21.5 16.1637C21.5 16.1615 21.5 16.1594 21.5 16.1572C21.5 16.1551 21.5 16.1529 21.5 16.1508C21.5 16.1486 21.5 16.1465 21.5 16.1443C21.5 16.1422 21.5 16.1401 21.5 16.1379C21.5 16.1358 21.5 16.1336 21.5 16.1315C21.5 16.1293 21.5 16.1272 21.5 16.125C21.5 16.1229 21.5 16.1207 21.5 16.1186C21.5 16.1164 21.5 16.1143 21.5 16.1122C21.5 16.11 21.5 16.1079 21.5 16.1057C21.5 16.1036 21.5 16.1014 21.5 16.0993C21.5 16.0971 21.5 16.095 21.5 16.0929C21.5 16.0907 21.5 16.0886 21.5 16.0864C21.5 16.0843 21.5 16.0822 21.5 16.08C21.5 16.0779 21.5 16.0757 21.5 16.0736C21.5 16.0715 21.5 16.0693 21.5 16.0672C21.5 16.065 21.5 16.0629 21.5 16.0608C21.5 16.0586 21.5 16.0565 21.5 16.0543C21.5 16.0522 21.5 16.0501 21.5 16.0479C21.5 16.0458 21.5 16.0437 21.5 16.0415C21.5 16.0394 21.5 16.0372 21.5 16.0351C21.5 16.033 21.5 16.0308 21.5 16.0287C21.5 16.0266 21.5 16.0244 21.5 16.0223C21.5 16.0202 21.5 16.018 21.5 16.0159C21.5 16.0138 21.5 16.0116 21.5 16.0095C21.5 16.0074 21.5 16.0052 21.5 16.0031C21.5 16.001 21.5 15.9989 21.5 15.9967C21.5 15.9946 21.5 15.9925 21.5 15.9903C21.5 15.9882 21.5 15.9861 21.5 15.9839C21.5 15.9818 21.5 15.9797 21.5 15.9776C21.5 15.9754 21.5 15.9733 21.5 15.9712C21.5 15.969 21.5 15.9669 21.5 15.9648C21.5 15.9627 21.5 15.9605 21.5 15.9584C21.5 15.9563 21.5 15.9542 21.5 15.952C21.5 15.9499 21.5 15.9478 21.5 15.9457C21.5 15.9435 21.5 15.9414 21.5 15.9393C21.5 15.9372 21.5 15.9351 21.5 15.9329C21.5 15.9308 21.5 15.9287 21.5 15.9266C21.5 15.9244 21.5 15.9223 21.5 15.9202C21.5 15.9181 21.5 15.916 21.5 15.9138C21.5 15.9117 21.5 15.9096 21.5 15.9075C21.5 15.9054 21.5 15.9033 21.5 15.9011C21.5 15.899 21.5 15.8969 21.5 15.8948C21.5 15.8927 21.5 15.8906 21.5 15.8884C21.5 15.8863 21.5 15.8842 21.5 15.8821C21.5 15.88 21.5 15.8779 21.5 15.8758C21.5 15.8736 21.5 15.8715 21.5 15.8694C21.5 15.8673 21.5 15.8652 21.5 15.8631C21.5 15.861 21.5 15.8589 21.5 15.8567C21.5 15.8546 21.5 15.8525 21.5 15.8504C21.5 15.8483 21.5 15.8462 21.5 15.8441C21.5 15.842 21.5 15.8399 21.5 15.8378C21.5 15.8356 21.5 15.8335 21.5 15.8314C21.5 15.8293 21.5 15.8272 21.5 15.8251C21.5 15.823 21.5 15.8209 21.5 15.8188C21.5 15.8167 21.5 15.8146 21.5 15.8125C21.5 15.8104 21.5 15.8083 21.5 15.8062C21.5 15.8041 21.5 15.802 21.5 15.7999C21.5 15.7978 21.5 15.7957 21.5 15.7936C21.5 15.7915 21.5 15.7894 21.5 15.7873C21.5 15.7852 21.5 15.7831 21.5 15.781C21.5 15.7789 21.5 15.7768 21.5 15.7747C21.5 15.7726 21.5 15.7705 21.5 15.7684C21.5 15.7663 21.5 15.7642 21.5 15.7621C21.5 15.76 21.5 15.7579 21.5 15.7558C21.5 15.7537 21.5 15.7516 21.5 15.7495C21.5 15.7474 21.5 15.7453 21.5 15.7432C21.5 15.7411 21.5 15.7391 21.5 15.737C21.5 15.7349 21.5 15.7328 21.5 15.7307C21.5 15.7286 21.5 15.7265 21.5 15.7244C21.5 15.7223 21.5 15.7202 21.5 15.7182C21.5 15.7161 21.5 15.714 21.5 15.7119C21.5 15.7098 21.5 15.7077 21.5 15.7056C21.5 15.7035 21.5 15.7015 21.5 15.6994C21.5 15.6973 21.5 15.6952 21.5 15.6931C21.5 15.691 21.5 15.6889 21.5 15.6869C21.5 15.6848 21.5 15.6827 21.5 15.6806C21.5 15.6785 21.5 15.6765 21.5 15.6744C21.5 15.6723 21.5 15.6702 21.5 15.6681C21.5 15.6661 21.5 15.664 21.5 15.6619C21.5 15.6598 21.5 15.6577 21.5 15.6557C21.5 15.6536 21.5 15.6515 21.5 15.6494C21.5 15.6474 21.5 15.6453 21.5 15.6432C21.5 15.6411 21.5 15.6391 21.5 15.637C21.5 15.6349 21.5 15.6328 21.5 15.6308C21.5 15.6287 21.5 15.6266 21.5 15.6245C21.5 15.6225 21.5 15.6204 21.5 15.6183C21.5 15.6163 21.5 15.6142 21.5 15.6121C21.5 15.6101 21.5 15.608 21.5 15.6059C21.5 15.6039 21.5 15.6018 21.5 15.5997C21.5 15.5977 21.5 15.5956 21.5 15.5935C21.5 15.5915 21.5 15.5894 21.5 15.5873C21.5 15.5853 21.5 15.5832 21.5 15.5811C21.5 15.5791 21.5 15.577 21.5 15.5749C21.5 15.5729 21.5 15.5708 21.5 15.5688C21.5 15.5667 21.5 15.5646 21.5 15.5626C21.5 15.5605 21.5 15.5585 21.5 15.5564C21.5 15.5543 21.5 15.5523 21.5 15.5502C21.5 15.5482 21.5 15.5461 21.5 15.5441C21.5 15.542 21.5 15.5399 21.5 15.5379C21.5 15.5358 21.5 15.5338 21.5 15.5317C21.5 15.5297 21.5 15.5276 21.5 15.5256C21.5 15.5235 21.5 15.5215 21.5 15.5194C21.5 15.5174 21.5 15.5153 21.5 15.5133C21.5 15.5112 21.5 15.5092 21.5 15.5071C21.5 15.5051 21.5 15.503 21.5 15.501C21.5 15.4989 21.5 15.4969 21.5 15.4948C21.5 15.4928 21.5 15.4907 21.5 15.4887C21.5 15.4867 21.5 15.4846 21.5 15.4826C21.5 15.4805 21.5 15.4785 21.5 15.4764C21.5 15.4744 21.5 15.4724 21.5 15.4703C21.5 15.4683 21.5 15.4662 21.5 15.4642C21.5 15.4622 21.5 15.4601 21.5 15.4581C21.5 15.456 21.5 15.454 21.5 15.452C21.5 15.4499 21.5 15.4479 21.5 15.4459C21.5 15.4438 21.5 15.4418 21.5 15.4398C21.5 15.4377 21.5 15.4357 21.5 15.4337C21.5 15.4316 21.5 15.4296 21.5 15.4276C21.5 15.4255 21.5 15.4235 21.5 15.4215C21.5 15.4194 21.5 15.4174 21.5 15.4154C21.5 15.4134 21.5 15.4113 21.5 15.4093C21.5 15.4073 21.5 15.4053 21.5 15.4032C21.5 15.4012 21.5 15.3992 21.5 15.3972C21.5 15.3951 21.5 15.3931 21.5 15.3911C21.5 15.3891 21.5 15.387 21.5 15.385C21.5 15.383 21.5 15.381 21.5 15.379C21.5 15.3769 21.5 15.3749 21.5 15.3729C21.5 15.3709 21.5 15.3689 21.5 15.3668C21.5 15.3648 21.5 15.3628 21.5 15.3608C21.5 15.3588 21.5 15.3568 21.5 15.3547C21.5 15.3527 21.5 15.3507 21.5 15.3487C21.5 15.3467 21.5 15.3447 21.5 15.3427C21.5 15.3407 21.5 15.3386 21.5 15.3366C21.5 15.3346 21.5 15.3326 21.5 15.3306C21.5 15.3286 21.5 15.3266 21.5 15.3246C21.5 15.3226 21.5 15.3206 21.5 15.3186C21.5 15.3166 21.5 15.3145 21.5 15.3125C21.5 15.3105 21.5 15.3085 21.5 15.3065C21.5 15.3045 21.5 15.3025 21.5 15.3005C21.5 15.2985 21.5 15.2965 21.5 15.2945C21.5 15.2925 21.5 15.2905 21.5 15.2885C21.5 15.2865 21.5 15.2845 21.5 15.2825C21.5 15.2805 21.5 15.2785 21.5 15.2765C21.5 15.2745 21.5 15.2726 21.5 15.2706C21.5 15.2686 21.5 15.2666 21.5 15.2646C21.5 15.2626 21.5 15.2606 21.5 15.2586C21.5 15.2566 21.5 15.2546 21.5 15.2526C21.5 15.2506 21.5 15.2487 21.5 15.2467C21.5 15.2447 21.5 15.2427 21.5 15.2407C21.5 15.2387 21.5 15.2367 21.5 15.2347C21.5 15.2328 21.5 15.2308 21.5 15.2288C21.5 15.2268 21.5 15.2248 21.5 15.2228C21.5 15.2209 21.5 15.2189 21.5 15.2169C21.5 15.2149 21.5 15.2129 21.5 15.211C21.5 15.209 21.5 15.207 21.5 15.205C21.5 15.2031 21.5 15.2011 21.5 15.1991C21.5 15.1971 21.5 15.1952 21.5 15.1932C21.5 15.1912 21.5 15.1892 21.5 15.1873C21.5 15.1853 21.5 15.1833 21.5 15.1813C21.5 15.1794 21.5 15.1774 21.5 15.1754C21.5 15.1735 21.5 15.1715 21.5 15.1695C21.5 15.1676 21.5 15.1656 21.5 15.1636C21.5 15.1617 21.5 15.1597 21.5 15.1577C21.5 15.1558 21.5 15.1538 21.5 15.1518C21.5 15.1499 21.5 15.1479 21.5 15.146C21.5 15.144 21.5 15.142 21.5 15.1401C21.5 15.1381 21.5 15.1362 21.5 15.1342C21.5 15.1322 21.5 15.1303 21.5 15.1283C21.5 15.1264 21.5 15.1244 21.5 15.1225C21.5 15.1205 21.5 15.1185 21.5 15.1166C21.5 15.1146 21.5 15.1127 21.5 15.1107C21.5 15.1088 21.5 15.1068 21.5 15.1049C21.5 15.1029 21.5 15.101 21.5 15.099C21.5 15.0971 21.5 15.0951 21.5 15.0932C21.5 15.0913 21.5 15.0893 21.5 15.0874C21.5 15.0854 21.5 15.0835 21.5 15.0815C21.5 15.0796 21.5 15.0776 21.5 15.0757C21.5 15.0738 21.5 15.0718 21.5 15.0699C21.5 15.0679 21.5 15.066 21.5 15.0641C21.5 15.0621 21.5 15.0602 21.5 15.0583C21.5 15.0563 21.5 15.0544 21.5 15.0524C21.5 15.0505 21.5 15.0486 21.5 15.0466C21.5 15.0447 21.5 15.0428 21.5 15.0409C21.5 15.0389 21.5 15.037 21.5 15.0351C21.5 15.0331 21.5 15.0312 21.5 15.0293C21.5 15.0273 21.5 15.0254 21.5 15.0235C21.5 15.0216 21.5 15.0196 21.5 15.0177C21.5 15.0158 21.5 15.0139 21.5 15.012C21.5 15.01 21.5 15.0081 21.5 15.0062C21.5 15.0043 21.5 15.0023 21.5 15.0004C21.5 14.9985 21.5 14.9966 21.5 14.9947C21.5 14.9928 21.5 14.9908 21.5 14.9889C21.5 14.987 21.5 14.9851 21.5 14.9832C21.5 14.9813 21.5 14.9794 21.5 14.9774C21.5 14.9755 21.5 14.9736 21.5 14.9717C21.5 14.9698 21.5 14.9679 21.5 14.966C21.5 14.9641 21.5 14.9622 21.5 14.9603C21.5 14.9584 21.5 14.9564 21.5 14.9545C21.5 14.9526 21.5 14.9507 21.5 14.9488C21.5 14.9469 21.5 14.945 21.5 14.9431C21.5 14.9412 21.5 14.9393 21.5 14.9374C21.5 14.9355 21.5 14.9336 21.5 14.9317C21.5 14.9298 21.5 14.9279 21.5 14.926C21.5 14.9241 21.5 14.9223 21.5 14.9204C21.5 14.9185 21.5 14.9166 21.5 14.9147C21.5 14.9128 21.5 14.9109 21.5 14.909C21.5 14.9071 21.5 14.9052 21.5 14.9033C21.5 14.9015 21.5 14.8996 21.5 14.8977C21.5 14.8958 21.5 14.8939 21.5 14.892C21.5 14.8901 21.5 14.8883 21.5 14.8864C21.5 14.8845 21.5 14.8826 21.5 14.8807C21.5 14.8789 21.5 14.877 21.5 14.8751C21.5 14.8732 21.5 14.8713 21.5 14.8695C21.5 14.8676 21.5 14.8657 21.5 14.8638C21.5 14.862 21.5 14.8601 21.5 14.8582C21.5 14.8563 21.5 14.8545 21.5 14.8526C21.5 14.8507 21.5 14.8489 21.5 14.847C21.5 14.8451 21.5 14.8433 21.5 14.8414C21.5 14.8395 21.5 14.8376 21.5 14.8358C21.5 14.8339 21.5 14.8321 21.5 14.8302C21.5 14.8283 21.5 14.8265 21.5 14.8246C21.5 14.8227 21.5 14.8209 21.5 14.819C21.5 14.8172 21.5 14.8153 21.5 14.8134C21.5 14.8116 21.5 14.8097 21.5 14.8079C21.5 14.806 21.5 14.8042 21.5 14.8023C21.5 14.8005 21.5 14.7986 21.5 14.7968C21.5 14.7949 21.5 14.7931 21.5 14.7912C21.5 14.7894 21.5 14.7875 21.5 14.7857C21.5 14.7838 21.5 14.782 21.5 14.7801C21.5 14.7783 21.5 14.7764 21.5 14.7746C21.5 14.7727 21.5 14.7709 21.5 14.7691C21.5 14.7672 21.5 14.7654 21.5 14.7635C21.5 14.7617 21.5 14.7599 21.5 14.758C21.5 14.7562 21.5 14.7543 21.5 14.7525C21.5 14.7507 21.5 14.7488 21.5 14.747C21.5 14.7452 21.5 14.7433 21.5 14.7415C21.5 14.7397 21.5 14.7378 21.5 14.736C21.5 14.7342 21.5 14.7324 21.5 14.7305C21.5 14.7287 21.5 14.7269 21.5 14.7251C21.5 14.7232 21.5 14.7214 21.5 14.7196C21.5 14.7178 21.5 14.7159 21.5 14.7141C21.5 14.7123 21.5 14.7105 21.5 14.7087C21.5 14.7068 21.5 14.705 21.5 14.7032C21.5 14.7014 21.5 14.6996 21.5 14.6978C21.5 14.6959 21.5 14.6941 21.5 14.6923C21.5 14.6905 21.5 14.6887 21.5 14.6869C21.5 14.6851 21.5 14.6833 21.5 14.6814C21.5 14.6796 21.5 14.6778 21.5 14.676C21.5 14.6742 21.5 14.6724 21.5 14.6706C21.5 14.6688 21.5 14.667 21.5 14.6652C21.5 14.6634 21.5 14.6616 21.5 14.6598C21.5 14.658 21.5 14.6562 21.5 14.6544C21.5 14.6526 21.5 14.6508 21.5 14.649C21.5 14.6472 21.5 14.6454 21.5 14.6436C21.5 14.6418 21.5 14.64 21.5 14.6382C21.5 14.6364 21.5 14.6347 21.5 14.6329C21.5 14.6311 21.5 14.6293 21.5 14.6275C21.5 14.6257 21.5 14.6239 21.5 14.6221C21.5 14.6204 21.5 14.6186 21.5 14.6168C21.5 14.615 21.5 14.6132 21.5 14.6114C21.5 14.6097 21.5 14.6079 21.5 14.6061C21.5 14.6043 21.5 14.6025 21.5 14.6008C21.5 14.599 21.5 14.5972 21.5 14.5954C21.5 14.5937 21.5 14.5919 21.5 14.5901C21.5 14.5883 21.5 14.5866 21.5 14.5848C21.5 14.583 21.5 14.5813 21.5 14.5795C21.5 14.5777 21.5 14.576 21.5 14.5742C21.5 14.5724 21.5 14.5707 21.5 14.5689C21.5 14.5671 21.5 14.5654 21.5 14.5636C21.5 14.5619 21.5 14.5601 21.5 14.5583C21.5 14.5566 21.5 14.5548 21.5 14.5531C21.5 14.5513 21.5 14.5495 21.5 14.5478C21.5 14.546 21.5 14.5443 21.5 14.5425C21.5 14.5408 21.5 14.539 21.5 14.5373C21.5 14.5355 21.5 14.5338 21.5 14.532C21.5 14.5303 21.5 14.5285 21.5 14.5268C21.5 14.525 21.5 14.5233 21.5 14.5216C21.5 14.5198 21.5 14.5181 21.5 14.5163C21.5 14.5146 21.5 14.5128 21.5 14.5111C21.5 14.5094 21.5 14.5076 21.5 14.5059C21.5 14.5042 21.5 14.5024 21.5 14.5007C21.5 14.499 21.5 14.4972 21.5 14.4955C21.5 14.4938 21.5 14.492 21.5 14.4903C21.5 14.4886 21.5 14.4868 21.5 14.4851C21.5 14.4834 21.5 14.4817 21.5 14.4799C21.5 14.4782 21.5 14.4765 21.5 14.4748C21.5 14.473 21.5 14.4713 21.5 14.4696C21.5 14.4679 21.5 14.4662 21.5 14.4644C21.5 14.4627 21.5 14.461 21.5 14.4593C21.5 14.4576 21.5 14.4559 21.5 14.4541C21.5 14.4524 21.5 14.4507 21.5 14.449C21.5 14.4473 21.5 14.4456 21.5 14.4439C21.5 14.4422 21.5 14.4405 21.5 14.4388C21.5 14.4371 21.5 14.4353 21.5 14.4336C21.5 14.4319 21.5 14.4302 21.5 14.4285C21.5 14.4268 21.5 14.4251 21.5 14.4234C21.5 14.4217 21.5 14.42 21.5 14.4183C21.5 14.4166 21.5 14.4149 21.5 14.4133C21.5 14.4116 21.5 14.4099 21.5 14.4082C21.5 14.4065 21.5 14.4048 21.5 14.4031C21.5 14.4014 21.5 14.3997 21.5 14.398C21.5 14.3963 21.5 14.3947 21.5 14.393C21.5 14.3913 21.5 14.3896 21.5 14.3879C21.5 14.3862 21.5 14.3846 21.5 14.3829C21.5 14.3812 21.5 14.3795 21.5 14.3778C21.5 14.3762 21.5 14.3745 21.5 14.3728C21.5 14.3711 21.5 14.3695 21.5 14.3678C21.5 14.3661 21.5 14.3644 21.5 14.3628C21.5 14.3611 21.5 14.3594 21.5 14.3578C21.5 14.3561 21.5 14.3544 21.5 14.3528C21.5 14.3511 21.5 14.3494 21.5 14.3478C21.5 14.3461 21.5 14.3445 21.5 14.3428C21.5 14.3411 21.5 14.3395 21.5 14.3378C21.5 14.3362 21.5 14.3345 21.5 14.3328C21.5 14.3312 21.5 14.3295 21.5 14.3279C21.5 14.3262 21.5 14.3246 21.5 14.3229C21.5 14.3213 21.5 14.3196 21.5 14.318C21.5 14.3163 21.5 14.3147 21.5 14.313C21.5 14.3114 21.5 14.3097 21.5 14.3081C21.5 14.3065 21.5 14.3048 21.5 14.3032C21.5 14.3015 21.5 14.2999 21.5 14.2983C21.5 14.2966 21.5 14.295 21.5 14.2934C21.5 14.2917 21.5 14.2901 21.5 14.2884C21.5 14.2868 21.5 14.2852 21.5 14.2836C21.5 14.2819 21.5 14.2803 21.5 14.2787C21.5 14.277 21.5 14.2754 21.5 14.2738C21.5 14.2722 21.5 14.2705 21.5 14.2689C21.5 14.2673 21.5 14.2657 21.5 14.264C21.5 14.2624 21.5 14.2608 21.5 14.2592C21.5 14.2576 21.5 14.256 21.5 14.2543C21.5 14.2527 21.5 14.2511 21.5 14.2495C21.5 14.2479 21.5 14.2463 21.5 14.2447C21.5 14.2431 21.5 14.2415 21.5 14.2398C21.5 14.2382 21.5 14.2366 21.5 14.235C21.5 14.2334 21.5 14.2318 21.5 14.2302C21.5 14.2286 21.5 14.227 21.5 14.2254C21.5 14.2238 21.5 14.2222 21.5 14.2206C21.5 14.219 21.5 14.2174 21.5 14.2158C21.5 14.2142 21.5 14.2126 21.5 14.2111C21.5 14.2095 21.5 14.2079 21.5 14.2063C21.5 14.2047 21.5 14.2031 21.5 14.2015C21.5 14.1999 21.5 14.1983 21.5 14.1968C21.5 14.1952 21.5 14.1936 21.5 14.192C21.5 14.1904 21.5 14.1889 21.5 14.1873C21.5 14.1857 21.5 14.1841 21.5 14.1825C21.5 14.181 21.5 14.1794 21.5 14.1778C21.5 14.1762 21.5 14.1747 21.5 14.1731C21.5 14.1715 21.5 14.17 21.5 14.1684C21.5 14.1668 21.5 14.1653 21.5 14.1637C21.5 14.1621 21.5 14.1606 21.5 14.159C21.5 14.1574 21.5 14.1559 21.5 14.1543C21.5 14.1528 21.5 14.1512 21.5 14.1496C21.5 14.1481 21.5 14.1465 21.5 14.145C21.5 14.1434 21.5 14.1419 21.5 14.1403C21.5 14.1388 21.5 14.1372 21.5 14.1357C21.5 14.1341 21.5 14.1326 21.5 14.131C21.5 14.1295 21.5 14.1279 21.5 14.1264C21.5 14.1248 21.5 14.1233 21.5 14.1218C21.5 14.1202 21.5 14.1187 21.5 14.1171C21.5 14.1156 21.5 14.1141 21.5 14.1125C21.5 14.111 21.5 14.1095 21.5 14.1079C21.5 14.1064 21.5 14.1049 21.5 14.1033C21.5 14.1018 21.5 14.1003 21.5 14.0988C21.5 14.0972 21.5 14.0957 21.5 14.0942C21.5 14.0927 21.5 14.0911 21.5 14.0896C21.5 14.0881 21.5 14.0866 21.5 14.085C21.5 14.0835 21.5 14.082 21.5 14.0805C21.5 14.079 21.5 14.0775 21.5 14.0759C21.5 14.0744 21.5 14.0729 21.5 14.0714C21.5 14.0699 21.5 14.0684 21.5 14.0669C21.5 14.0654 21.5 14.0639 21.5 14.0624C21.5 14.0609 21.5 14.0594 21.5 14.0579C21.5 14.0564 21.5 14.0549 21.5 14.0534C21.5 14.0519 21.5 14.0504 21.5 14.0489C21.5 14.0474 21.5 14.0459 21.5 14.0444C21.5 14.0429 21.5 14.0414 21.5 14.0399C21.5 14.0384 21.5 14.0369 21.5 14.0354C21.5 14.0339 21.5 14.0325 21.5 14.031C21.5 14.0295 21.5 14.028 21.5 14.0265C21.5 14.025 21.5 14.0236 21.5 14.0221C21.5 14.0206 21.5 14.0191 21.5 14.0176C21.5 14.0162 21.5 14.0147 21.5 14.0132C21.5 14.0118 21.5 14.0103 21.5 14.0088C21.5 14.0073 21.5 14.0059 21.5 14.0044C21.5 14.0029 21.5 14.0015 21.5 14H20.5ZM21 13.5C20.6153 13.5 20.2323 13.3537 19.9393 13.0607L19.2322 13.7678C19.7203 14.2558 20.361 14.5 21 14.5V13.5ZM5 18.5C4.17157 18.5 3.5 17.8284 3.5 17H2.5C2.5 18.3807 3.61929 19.5 5 19.5V18.5ZM19 19.5C20.3807 19.5 21.5 18.3807 21.5 17H20.5C20.5 17.8284 19.8284 18.5 19 18.5V19.5ZM19 5.5C19.8284 5.5 20.5 6.17157 20.5 7H21.5C21.5 5.61929 20.3807 4.5 19 4.5V5.5ZM5 4.5C3.61929 4.5 2.5 5.61929 2.5 7H3.5C3.5 6.17157 4.17157 5.5 5 5.5V4.5Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["ticket ", " svg"],
+    tags: ["ticket", "svg", "voucher", "coupon", "admission", "event", "pass", "booking", "travel", "entertainment", "receipt", "stub"],
     category: "Thin"
   }
 ];
