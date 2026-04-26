@@ -14,7 +14,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.0398 13.7599V8.04991C16.0398 7.78991 15.8698 7.55985 15.6198 7.48985C15.3698 7.41985 15.0998 7.51985 14.9598 7.73985C14.2398 8.89985 13.4598 10.2199 12.7798 11.3799C12.6698 11.5699 12.6698 11.8199 12.7798 12.0099C12.8898 12.1999 13.0998 12.3198 13.3298 12.3198H16.9998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["24", "support"],
+    tags: ["24", "support", "service", "help", "assistance", "customer", "call center", "always on", "availability", "contact", "friendly", "ui"],
     category: "twotone"
   },
   {
@@ -30,7 +30,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["3d", "cube", "scan"],
+    tags: ["3d", "cube", "scan", "augmented reality", "virtual reality", "scanning", "object", "technology", "digital", "geometric", "abstract", "data", "system"],
     category: "twotone"
   },
   {
@@ -44,7 +44,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 9C2 5.13 5.13 2 9 2L7.95001 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["3d", "rotate"],
+    tags: ["3d", "rotate", "orientation", "view", "perspective", "manipulation", "transform", "axis", "geometric", "control", "ui", "tool"],
     category: "twotone"
   },
   {
@@ -57,7 +57,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.7603 6.28986L7.56024 8.06986C6.84024 8.46986 6.24023 9.47985 6.24023 10.3099V13.6999C6.24023 14.5299 6.83024 15.5399 7.56024 15.9399L10.7603 17.7199C11.4403 18.0999 12.5602 18.0999 13.2502 17.7199L16.4503 15.9399C17.1703 15.5399 17.7702 14.5299 17.7702 13.6999V10.2999C17.7702 9.46986 17.1803 8.45985 16.4503 8.05985L13.2502 6.27985C12.5602 5.89985 11.4403 5.89986 10.7603 6.28986Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["3d", "square"],
+    tags: ["3d", "square", "depth", "perspective", "geometric", "box", "shape", "minimal", "abstract", "ui", "system", "object"],
     category: "twotone"
   },
   {
@@ -69,7 +69,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.3894 10.1302L14.3394 13.1602C13.5894 13.5402 13.1094 14.3102 13.1094 15.1502V20.8702C13.1094 21.7002 13.9794 22.2302 14.7194 21.8602L20.7694 18.8302C21.5194 18.4502 21.9994 17.6802 21.9994 16.8402V11.1202C21.9994 10.2902 21.1294 9.76017 20.3894 10.1302Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["3dcube"],
+    tags: ["3dcube", "box", "geometric", "shape", "depth", "perspective", "abstract", "object", "minimal", "ui", "system"],
     category: "twotone"
   },
   {
@@ -81,7 +81,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 4.62V9.37C22 11.25 21.25 12 19.37 12H14.62C12.75 12 12 11.25 12 9.37V4.62C12 2.75 12.75 2 14.62 2H19.37C21.25 2 22 2.75 22 4.62Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["3square"],
+    tags: ["3square", "grid", "layout", "sections", "geometric", "pattern", "minimal", "ui", "dashboard", "system", "organization"],
     category: "twotone"
   },
   {
@@ -92,7 +92,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.44" d="M7.33008 14.4898L9.71008 11.3998C10.0501 10.9598 10.6801 10.8798 11.1201 11.2198L12.9501 12.6598C13.3901 12.9998 14.0201 12.9198 14.3601 12.4898L16.6701 9.50977" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["activity"],
+    tags: ["activity", "pulse", "heartbeat", "health", "movement", "chart", "data", "progress", "energetic", "dynamic", "system"],
     category: "twotone"
   },
   {
@@ -106,7 +106,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["add", "circle"],
+    tags: ["add", "circle", "create", "new", "plus", "insert", "positive", "action", "cta", "rounded", "ui", "system"],
     category: "twotone"
   },
   {
@@ -120,7 +120,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["add", "square"],
+    tags: ["add", "square", "create", "new", "plus", "insert", "positive", "action", "cta", "geometric", "ui", "system"],
     category: "twotone"
   },
   {
@@ -131,7 +131,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 18V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["add"],
+    tags: ["add", "create", "new", "plus", "insert", "positive", "action", "cta", "minimal", "ui", "system"],
     category: "twotone"
   },
   {
@@ -146,7 +146,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["additem"],
+    tags: ["additem", "cart", "shopping", "purchase", "inventory", "stock", "ecommerce", "cta", "commerce", "ui", "product"],
     category: "twotone"
   },
   {
@@ -159,7 +159,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.2997 16.6598L8.85973 18.4498C7.71973 19.8798 8.72973 21.9898 10.5597 21.9898H13.4297C15.2597 21.9898 16.2797 19.8698 15.1297 18.4498L13.6897 16.6598C12.8297 15.5698 11.1697 15.5698 10.2997 16.6598Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["airdrop"],
+    tags: ["airdrop", "share", "transfer", "send", "wireless", "connectivity", "bluetooth", "device", "communication", "ui", "network"],
     category: "twotone"
   },
   {
@@ -170,7 +170,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["airplane", "square"],
+    tags: ["airplane", "square", "travel", "flight", "journey", "transportation", "vacation", "tourism", "geometric", "map", "navigation", "ui"],
     category: "twotone"
   },
   {
@@ -180,7 +180,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.03023 21.6898L11.3602 19.7298C11.7102 19.4298 12.2902 19.4298 12.6402 19.7298L14.9702 21.6898C15.5102 21.9598 16.1702 21.6898 16.3702 21.1098L16.8102 19.7798C16.9202 19.4598 16.8102 18.9898 16.5702 18.7498L14.3002 16.4698C14.1302 16.3098 14.0002 15.9898 14.0002 15.7598V12.9098C14.0002 12.4898 14.3102 12.2898 14.7002 12.4498L19.6102 14.5698C20.3802 14.8998 21.0102 14.4898 21.0102 13.6498V12.3598C21.0102 11.6898 20.5102 10.9198 19.8902 10.6598L14.3002 8.24977C14.1402 8.17977 14.0002 7.96977 14.0002 7.78977V4.78977C14.0002 3.84977 13.3102 2.73977 12.4702 2.30977C12.1702 2.15977 11.8202 2.15977 11.5202 2.30977C10.6802 2.73977 9.99023 3.85977 9.99023 4.79977V7.79977C9.99023 7.97977 9.85023 8.18977 9.69023 8.25977L4.11023 10.6698C3.49023 10.9198 2.99023 11.6898 2.99023 12.3598V13.6498C2.99023 14.4898 3.62023 14.8998 4.39023 14.5698L9.30023 12.4498C9.68023 12.2798 10.0002 12.4898 10.0002 12.9098V15.7598C10.0002 15.9898 9.87023 16.3098 9.71023 16.4698L7.44023 18.7498C7.20023 18.9898 7.09023 19.4498 7.20023 19.7798L7.64023 21.1098C7.82023 21.6898 8.48023 21.9698 9.03023 21.6898Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["airplane"],
+    tags: ["airplane", "travel", "flight", "journey", "transportation", "vacation", "tourism", "minimal", "map", "navigation", "ui"],
     category: "twotone"
   },
   {
@@ -195,7 +195,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["airpod"],
+    tags: ["airpod", "earbud", "headphone", "audio", "music", "wireless", "device", "technology", "personal", "media", "gadget"],
     category: "twotone"
   },
   {
@@ -210,7 +210,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.5 22V19" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["airpods"],
+    tags: ["airpods", "earbuds", "headphones", "audio", "music", "wireless", "device", "technology", "personal", "media", "gadget"],
     category: "twotone"
   },
   {
@@ -224,7 +224,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20 4L19 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["alarm"],
+    tags: ["alarm", "clock", "reminder", "alert", "time", "notification", "schedule", "wake up", "timer", "ui", "system"],
     category: "twotone"
   },
   {
@@ -236,7 +236,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 5H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["align", "bottom"],
+    tags: ["align", "bottom", "layout", "position", "arrangement", "design", "grid", "editor", "ui", "tool", "geometric", "system"],
     category: "twotone"
   },
   {
@@ -250,7 +250,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22.0005 12H19.3105" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["align", "horizontally"],
+    tags: ["align", "horizontally", "layout", "position", "arrangement", "design", "center", "editor", "ui", "tool", "geometric", "system"],
     category: "twotone"
   },
   {
@@ -262,7 +262,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5 1.99023V21.9902" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["align", "left"],
+    tags: ["align", "left", "layout", "position", "arrangement", "design", "text", "editor", "ui", "tool", "geometric", "system"],
     category: "twotone"
   },
   {
@@ -274,7 +274,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19 1.99023V21.9902" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["align", "right"],
+    tags: ["align", "right", "layout", "position", "arrangement", "design", "text", "editor", "ui", "tool", "geometric", "system"],
     category: "twotone"
   },
   {
@@ -288,7 +288,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 2V4.69" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["align", "vertically"],
+    tags: ["align", "vertically", "layout", "position", "arrangement", "design", "center", "editor", "ui", "tool", "geometric", "system"],
     category: "twotone"
   },
   {
@@ -300,7 +300,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15 19H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["aquarius"],
+    tags: ["aquarius", "zodiac", "astrology", "horoscope", "sign", "water bearer", "spiritual", "celestial", "symbol", "nature", "minimal"],
     category: "twotone"
   },
   {
@@ -312,7 +312,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M10.1797 14H13.8197" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["archive", "1"],
+    tags: ["archive", "1", "folder", "storage", "data", "backup", "organize", "documents", "file", "system", "ui", "box"],
     category: "twotone"
   },
   {
@@ -324,7 +324,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13.8197 14.75H10.1797C9.76969 14.75 9.42969 14.41 9.42969 14C9.42969 13.59 9.76969 13.25 10.1797 13.25H13.8197C14.2297 13.25 14.5697 13.59 14.5697 14C14.5697 14.41 14.2297 14.75 13.8197 14.75Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["archive", "2"],
+    tags: ["archive", "2", "folder", "storage", "data", "backup", "organize", "documents", "file", "system", "ui", "box"],
     category: "outline"
   },
   {
@@ -338,7 +338,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.8203 2H7.18031C5.05031 2 3.32031 3.74 3.32031 5.86V19.95C3.32031 21.75 4.61031 22.51 6.19031 21.64L11.0703 18.93C11.5903 18.64 12.4303 18.64 12.9403 18.93L17.8203 21.64C19.4003 22.52 20.6903 21.76 20.6903 19.95V5.86C20.6803 3.74 18.9503 2 16.8203 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["archive", "add"],
+    tags: ["archive", "add", "storage", "save", "plus", "new", "collection", "file management", "data", "filled"],
     category: "twotone"
   },
   {
@@ -351,7 +351,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 18H17.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["archive", "book"],
+    tags: ["archive", "book", "library", "education", "knowledge", "reading", "document", "learning", "filled", "study"],
     category: "twotone"
   },
   {
@@ -362,7 +362,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.8203 2H7.18031C5.05031 2 3.32031 3.74 3.32031 5.86V19.95C3.32031 21.75 4.61031 22.51 6.19031 21.64L11.0703 18.93C11.5903 18.64 12.4303 18.64 12.9403 18.93L17.8203 21.64C19.4003 22.52 20.6903 21.76 20.6903 19.95V5.86C20.6803 3.74 18.9503 2 16.8203 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["archive", "minus"],
+    tags: ["archive", "minus", "remove", "delete", "subtract", "storage", "collection", "file management", "data", "filled"],
     category: "twotone"
   },
   {
@@ -374,7 +374,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.32031 19.95V5.86C3.32031 3.74 5.05031 2 7.18031 2H16.8303C18.0403 2 19.1203 2.56 19.8303 3.44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["archive", "slash"],
+    tags: ["archive", "slash", "disabled", "unavailable", "blocked", "storage", "error", "file management", "data", "filled"],
     category: "twotone"
   },
   {
@@ -385,7 +385,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.58984 11L11.0898 12.5L15.0898 8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["archive", "tick"],
+    tags: ["archive", "tick", "success", "completed", "verified", "done", "storage", "file management", "data", "filled"],
     category: "twotone"
   },
   {
@@ -402,7 +402,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["archive"],
+    tags: ["archive", "storage", "folder", "box", "data", "collection", "file management", "filled", "minimal"],
     category: "twotone"
   },
   {
@@ -418,7 +418,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrange", "circle", "2"],
+    tags: ["arrange", "circle", "2", "sort", "order", "organize", "layout", "settings", "circular", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -434,7 +434,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrange", "circle"],
+    tags: ["arrange", "circle", "sort", "order", "organize", "layout", "settings", "circular", "outline", "ui"],
     category: "twotone"
   },
   {
@@ -450,7 +450,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["arrange", "square", "2"],
+    tags: ["arrange", "square", "2", "sort", "order", "organize", "layout", "settings", "geometric", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -466,7 +466,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["arrange", "square"],
+    tags: ["arrange", "square", "sort", "order", "organize", "layout", "settings", "geometric", "outline", "ui"],
     category: "twotone"
   },
   {
@@ -481,7 +481,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 17.27H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "2"],
+    tags: ["arrow", "2", "direction", "pointer", "navigation", "indicator", "next", "previous", "thin", "line"],
     category: "twotone"
   },
   {
@@ -496,7 +496,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.2695 3V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "3"],
+    tags: ["arrow", "3", "direction", "pointer", "navigation", "indicator", "next", "previous", "bold", "thick"],
     category: "twotone"
   },
   {
@@ -506,7 +506,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.0005 6H14.6705C17.9805 6 19.3405 8.35 17.6805 11.22L16.3405 13.53L15.0005 15.84C13.3405 18.71 10.6305 18.71 8.97054 15.84L7.63054 13.53L6.29054 11.22C4.66054 8.35 6.01054 6 9.33054 6H12.0005Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "bottom"],
+    tags: ["arrow", "bottom", "downward", "scroll", "collapse", "expand", "direction", "pointer", "navigation", "indicator"],
     category: "twotone"
   },
   {
@@ -517,7 +517,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.4707 10.7402L12.0007 14.2602L15.5307 10.7402" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "circle", "down"],
+    tags: ["arrow", "circle", "down", "download", "scroll", "collapse", "direction", "pointer", "circular", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -528,7 +528,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.2602 15.5302L9.74023 12.0002L13.2602 8.47021" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "circle", "left"],
+    tags: ["arrow", "circle", "left", "back", "previous", "return", "direction", "pointer", "circular", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -539,7 +539,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.7402 15.5302L14.2602 12.0002L10.7402 8.47021" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "circle", "right"],
+    tags: ["arrow", "circle", "right", "next", "forward", "proceed", "direction", "pointer", "circular", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -550,7 +550,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.5302 14.0099C15.3402 14.0099 15.1502 13.9399 15.0002 13.7899L12.0002 10.7899L9.00016 13.7899C8.71016 14.0799 8.23016 14.0799 7.94016 13.7899C7.65016 13.4999 7.65016 13.0199 7.94016 12.7299L11.4702 9.19992C11.7602 8.90992 12.2402 8.90992 12.5302 9.19992L16.0602 12.7299C16.3502 13.0199 16.3502 13.4999 16.0602 13.7899C15.9102 13.9399 15.7202 14.0099 15.5302 14.0099Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow", "circle", "up"],
+    tags: ["arrow", "circle", "up", "upload", "expand", "top", "direction", "pointer", "circular", "filled", "ui"],
     category: "outline"
   },
   {
@@ -561,7 +561,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 3.5V20.33" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "down", "1"],
+    tags: ["arrow", "down", "1", "download", "scroll", "collapse", "direction", "pointer", "navigation", "indicator", "chevron"],
     category: "twotone"
   },
   {
@@ -575,7 +575,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "down", "2"],
+    tags: ["arrow", "down", "2", "download", "scroll", "collapse", "direction", "pointer", "navigation", "indicator", "caret"],
     category: "twotone"
   },
   {
@@ -585,7 +585,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.9201 8.9502L13.4001 15.4702C12.6301 16.2402 11.3701 16.2402 10.6001 15.4702L4.08008 8.9502" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "down"],
+    tags: ["arrow", "down", "download", "scroll", "collapse", "direction", "pointer", "navigation", "indicator", "simple"],
     category: "twotone"
   },
   {
@@ -595,7 +595,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14.9998 19.9201L8.47984 13.4001C7.70984 12.6301 7.70984 11.3701 8.47984 10.6001L14.9998 4.08008" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "left", "1"],
+    tags: ["arrow", "left", "1", "back", "previous", "return", "direction", "pointer", "navigation", "indicator", "chevron"],
     category: "twotone"
   },
   {
@@ -609,7 +609,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "left", "2"],
+    tags: ["arrow", "left", "2", "back", "previous", "return", "direction", "pointer", "navigation", "indicator", "caret"],
     category: "twotone"
   },
   {
@@ -619,7 +619,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.0003 12.0001V14.6701C18.0003 17.9801 15.6503 19.3401 12.7803 17.6801L10.4703 16.3401L8.16031 15.0001C5.29031 13.3401 5.29031 10.6301 8.16031 8.97005L10.4703 7.63005L12.7803 6.29005C15.6503 4.66005 18.0003 6.01005 18.0003 9.33005V12.0001Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "left", "3"],
+    tags: ["arrow", "left", "3", "back", "previous", "return", "direction", "pointer", "navigation", "indicator", "thin"],
     category: "twotone"
   },
   {
@@ -630,7 +630,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.4999 12H3.66992" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "left"],
+    tags: ["arrow", "left", "back", "previous", "return", "direction", "pointer", "navigation", "indicator", "simple"],
     category: "twotone"
   },
   {
@@ -640,7 +640,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.91016 19.9201L15.4302 13.4001C16.2002 12.6301 16.2002 11.3701 15.4302 10.6001L8.91016 4.08008" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "right", "1"],
+    tags: ["arrow", "right", "1", "next", "forward", "proceed", "direction", "pointer", "navigation", "indicator", "chevron"],
     category: "twotone"
   },
   {
@@ -654,7 +654,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "right", "2"],
+    tags: ["arrow", "right", "2", "next", "forward", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -664,7 +664,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6 12.0002V9.33017C6 6.02017 8.35 4.66017 11.22 6.32017L13.53 7.66017L15.84 9.00017C18.71 10.6602 18.71 13.3702 15.84 15.0302L13.53 16.3702L11.22 17.7102C8.35 19.3402 6 17.9902 6 14.6702V12.0002Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "right", "3"],
+    tags: ["arrow", "right", "3", "next", "forward", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -675,7 +675,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3.5 12H20.33" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "right"],
+    tags: ["arrow", "right", "next", "forward", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -686,7 +686,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.4707 10.6401L12.0007 14.1601L15.5307 10.6401" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "square", "down"],
+    tags: ["arrow", "square", "down", "download", "collapse", "expand", "direction", "pointer", "ui", "interface", "geometric", "button"],
     category: "twotone"
   },
   {
@@ -697,7 +697,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.2602 15.5302L9.74023 12.0002L13.2602 8.47021" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "square", "left"],
+    tags: ["arrow", "square", "left", "previous", "back", "direction", "pointer", "navigation", "ui", "interface", "geometric", "button"],
     category: "twotone"
   },
   {
@@ -708,7 +708,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.7402 15.5302L14.2602 12.0002L10.7402 8.47021" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "square", "right"],
+    tags: ["arrow", "square", "right", "next", "forward", "direction", "pointer", "navigation", "ui", "interface", "geometric", "button"],
     category: "twotone"
   },
   {
@@ -719,7 +719,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.4707 13.4599L12.0007 9.93994L15.5307 13.4599" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "square", "up"],
+    tags: ["arrow", "square", "up", "upload", "expand", "direction", "pointer", "ui", "interface", "geometric", "button"],
     category: "twotone"
   },
   {
@@ -735,7 +735,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "square"],
+    tags: ["arrow", "square", "direction", "pointer", "navigation", "ui", "interface", "geometric", "button", "abstract", "minimal"],
     category: "twotone"
   },
   {
@@ -750,7 +750,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.5 9.00977H3.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "swap", "horizontal"],
+    tags: ["arrow", "swap", "horizontal", "exchange", "transfer", "reorder", "sort", "direction", "interface", "ui", "geometric", "line", "process"],
     category: "twotone"
   },
   {
@@ -763,7 +763,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14.9902 21.25C14.5802 21.25 14.2402 20.91 14.2402 20.5V3.5C14.2402 3.09 14.5802 2.75 14.9902 2.75C15.4002 2.75 15.7402 3.09 15.7402 3.5V20.5C15.7402 20.91 15.4102 21.25 14.9902 21.25Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow", "swap"],
+    tags: ["arrow", "swap", "exchange", "transfer", "reorder", "sort", "direction", "interface", "ui", "geometric", "line", "process"],
     category: "outline"
   },
   {
@@ -773,7 +773,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.9201 15.0501L13.4001 8.53014C12.6301 7.76014 11.3701 7.76014 10.6001 8.53014L4.08008 15.0501" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "up", "1"],
+    tags: ["arrow", "up", "1", "upload", "scroll", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -787,7 +787,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "up", "2"],
+    tags: ["arrow", "up", "2", "upload", "scroll", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -797,7 +797,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9997 17.9998H9.32968C6.01968 17.9998 4.65968 15.6498 6.31968 12.7798L7.65968 10.4698L8.99968 8.15982C10.6597 5.28982 13.3697 5.28982 15.0297 8.15982L16.3697 10.4698L17.7097 12.7798C19.3697 15.6498 18.0097 17.9998 14.6997 17.9998H11.9997Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "up", "3"],
+    tags: ["arrow", "up", "3", "upload", "scroll", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -808,7 +808,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 20.4999V3.66992" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow", "up"],
+    tags: ["arrow", "up", "upload", "scroll", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -823,7 +823,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20 2L22 4L20 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["arrow"],
+    tags: ["arrow", "direction", "pointer", "navigation", "cta", "interface", "minimal", "geometric", "line", "abstract", "indicator"],
     category: "twotone"
   },
   {
@@ -834,7 +834,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["attach", "circle"],
+    tags: ["attach", "circle", "clip", "link", "add file", "document", "email", "communication", "ui", "interface", "rounded", "connection"],
     category: "twotone"
   },
   {
@@ -845,7 +845,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["attach", "square"],
+    tags: ["attach", "square", "clip", "link", "add file", "document", "email", "communication", "ui", "interface", "geometric", "connection"],
     category: "twotone"
   },
   {
@@ -860,7 +860,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["audio", "square"],
+    tags: ["audio", "square", "sound", "music", "volume", "media player", "podcast", "ui", "interface", "geometric", "entertainment", "waveform"],
     category: "twotone"
   },
   {
@@ -874,7 +874,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["autobrightness"],
+    tags: ["autobrightness", "display", "screen", "settings", "light", "adaptive", "ui", "interface", "system", "control", "sun"],
     category: "twotone"
   },
   {
@@ -886,7 +886,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.6298 10.99L13.1998 11.88C13.2898 12.02 13.4898 12.16 13.6398 12.2L14.6598 12.46C15.2898 12.62 15.4598 13.16 15.0498 13.66L14.3798 14.47C14.2798 14.6 14.1998 14.83 14.2098 14.99L14.2698 16.04C14.3098 16.69 13.8498 17.02 13.2498 16.78L12.2698 16.39C12.1198 16.33 11.8698 16.33 11.7198 16.39L10.7398 16.78C10.1398 17.02 9.67978 16.68 9.71978 16.04L9.77978 14.99C9.78978 14.83 9.70978 14.59 9.60978 14.47L8.93978 13.66C8.52978 13.16 8.69978 12.62 9.32978 12.46L10.3498 12.2C10.5098 12.16 10.7098 12.01 10.7898 11.88L11.3598 10.99C11.7198 10.45 12.2798 10.45 12.6298 10.99Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["award"],
+    tags: ["award", "prize", "trophy", "achievement", "winner", "success", "recognition", "quality", "celebration", "honor", "badge"],
     category: "twotone"
   },
   {
@@ -900,7 +900,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["back", "square"],
+    tags: ["back", "square", "previous", "undo", "return", "direction", "navigation", "ui", "interface", "geometric", "button"],
     category: "twotone"
   },
   {
@@ -913,7 +913,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 10.5801C15.1 10.5801 16 11.4801 16 12.5801V13.9301C16 15.0301 15.1 15.9301 14 15.9301C12.9 15.9301 12 15.0301 12 13.9301V12.5801C12 11.4701 12.9 10.5801 14 10.5801Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["backward", "10", "seconds"],
+    tags: ["backward", "10", "seconds", "rewind", "skip back", "media player", "video", "audio", "time", "control", "ui", "interface", "playback"],
     category: "twotone"
   },
   {
@@ -926,7 +926,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4.90936 7.79974C3.79936 9.27974 3.10938 11.1097 3.10938 13.1097C3.10938 18.0197 7.08939 21.9998 11.9994 21.9998C16.9094 21.9998 20.8894 18.0197 20.8894 13.1097C20.8894 8.19974 16.9094 4.21973 11.9994 4.21973C11.3194 4.21973 10.6594 4.30978 10.0194 4.45978" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["backward", "15", "seconds"],
+    tags: ["backward", "15", "seconds", "rewind", "skip back", "media player", "video", "audio", "time", "control", "ui", "interface", "playback"],
     category: "twotone"
   },
   {
@@ -938,7 +938,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4.90939 7.79974C3.79939 9.27974 3.10938 11.1097 3.10938 13.1097C3.10938 18.0197 7.08939 21.9998 11.9994 21.9998C16.9094 21.9998 20.8894 18.0197 20.8894 13.1097C20.8894 8.19974 16.9094 4.21973 11.9994 4.21973C11.3194 4.21973 10.6594 4.30978 10.0194 4.45978" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["backward", "5", "seconds"],
+    tags: ["backward", "5", "seconds", "rewind", "skip back", "media player", "video", "audio", "time", "control", "ui", "interface", "playback"],
     category: "twotone"
   },
   {
@@ -950,7 +950,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17.3791 11.0001V13.6201C17.3791 16.3101 16.3091 17.3801 13.6191 17.3801H10.9991V16.1501C10.9991 13.9001 10.0991 13.0001 7.84914 13.0001H6.61914V10.3801C6.61914 7.69013 7.68914 6.62012 10.3791 6.62012H12.9991V7.85013C12.9991 10.1001 13.8991 11.0001 16.1491 11.0001H17.3791Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["backward", "item"],
+    tags: ["backward", "item", "previous track", "rewind", "media player", "skip", "control", "ui", "interface", "playback", "audio", "video"],
     category: "twotone"
   },
   {
@@ -961,7 +961,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.2391 8.33994V15.6599C12.2391 17.1599 10.6091 18.0999 9.30914 17.3499L6.13915 15.5299L2.96914 13.7C1.66914 12.95 1.66914 11.08 2.96914 10.32L6.13915 8.48993L9.30914 6.66996C10.6091 5.89996 12.2391 6.83994 12.2391 8.33994Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["backward"],
+    tags: ["backward", "previous", "rewind", "left", "arrow", "navigation", "media player", "undo", "return", "direction"],
     category: "twotone"
   },
   {
@@ -974,7 +974,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.49451 12H8.50349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag", "2"],
+    tags: ["bag", "2", "shopping", "cart", "ecommerce", "purchase", "store", "retail", "basket", "merchandise", "filled", "buy"],
     category: "twotone"
   },
   {
@@ -990,7 +990,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.5 7.67001V6.70001C7.5 4.45001 9.31 2.24001 11.56 2.03001C14.24 1.77001 16.5 3.88001 16.5 6.51001V7.89001" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag", "cross", "1"],
+    tags: ["bag", "cross", "1", "remove", "delete", "cancel", "error", "failed", "shopping", "ecommerce", "declined", "clear", "filled"],
     category: "twotone"
   },
   {
@@ -1007,7 +1007,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.5 10L4.91 18.64C5.23 20.58 6 22 8.86 22H14.89C18 22 18.46 20.64 18.82 18.76L20.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag", "cross"],
+    tags: ["bag", "cross", "remove", "delete", "cancel", "error", "failed", "shopping", "ecommerce", "declined", "clear", "outline"],
     category: "twotone"
   },
   {
@@ -1023,7 +1023,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.5 10L4.91 18.64C5.23 20.58 6 22 8.86 22H14.89C18 22 18.46 20.64 18.82 18.76L20.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag", "happy"],
+    tags: ["bag", "happy", "satisfied", "customer", "loyalty", "good experience", "shopping", "ecommerce", "positive", "feedback", "filled", "joy"],
     category: "twotone"
   },
   {
@@ -1036,7 +1036,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.5 7.67001V6.70001C7.5 4.45001 9.31 2.24001 11.56 2.03001C14.24 1.77001 16.5 3.88001 16.5 6.51001V7.89001" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag", "tick", "2"],
+    tags: ["bag", "tick", "2", "success", "completed", "checked", "approved", "shopping", "ecommerce", "confirmation", "purchase", "filled", "done"],
     category: "twotone"
   },
   {
@@ -1052,7 +1052,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.5 10L4.91 18.64C5.23 20.58 6 22 8.86 22H14.89C18 22 18.46 20.64 18.82 18.76L20.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag", "tick"],
+    tags: ["bag", "tick", "success", "completed", "checked", "approved", "shopping", "ecommerce", "confirmation", "purchase", "outline", "done"],
     category: "twotone"
   },
   {
@@ -1065,7 +1065,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.5 7.67001V6.70001C7.5 4.45001 9.31 2.24001 11.56 2.03001C14.24 1.77001 16.5 3.88001 16.5 6.51001V7.89001" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag", "timer"],
+    tags: ["bag", "timer", "delivery", "shipping", "pending", "waiting", "shopping", "ecommerce", "countdown", "schedule", "filled", "time"],
     category: "twotone"
   },
   {
@@ -1082,7 +1082,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.5 10L4.91 18.64C5.23 20.58 6 22 8.86 22H14.89C18 22 18.46 20.64 18.82 18.76L20.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bag"],
+    tags: ["bag", "shopping", "cart", "ecommerce", "purchase", "store", "retail", "basket", "merchandise", "outline", "buy"],
     category: "twotone"
   },
   {
@@ -1100,7 +1100,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 8.5C12.8284 8.5 13.5 7.82843 13.5 7C13.5 6.17157 12.8284 5.5 12 5.5C11.1716 5.5 10.5 6.17157 10.5 7C10.5 7.82843 11.1716 8.5 12 8.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bank"],
+    tags: ["bank", "finance", "money", "building", "institution", "savings", "investment", "loan", "architecture", "payment", "economy"],
     category: "twotone"
   },
   {
@@ -1117,7 +1117,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18 8V16" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["barcode"],
+    tags: ["barcode", "scan", "product", "identification", "inventory", "retail", "scanner", "code", "pricing", "checkout", "logistics"],
     category: "twotone"
   },
   {
@@ -1130,7 +1130,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13 19H7C3 19 2 18 2 14V10C2 6 3 5 7 5H13C17 5 18 6 18 10V14C18 18 17 19 13 19Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["battery", "3full"],
+    tags: ["battery", "3full", "power", "charge", "energy", "device", "status", "level", "indicator", "almost full", "filled", "mobile"],
     category: "twotone"
   },
   {
@@ -1143,7 +1143,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13 5C17 5 18 6 18 10V14C18 18 17 19 13 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["battery", "charging"],
+    tags: ["battery", "charging", "power", "charge", "energy", "device", "status", "plugged in", "indicator", "recharge", "lightning", "mobile"],
     category: "twotone"
   },
   {
@@ -1156,7 +1156,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M13 19.0001C17 19.0001 18 18.0001 18 14.0001V10.0001C18 6.61008 17.28 5.37008 14.63 5.08008" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["battery", "disable"],
+    tags: ["battery", "disable", "power", "off", "disabled", "device", "status", "inactive", "no power", "cut", "blocked", "mobile"],
     category: "twotone"
   },
   {
@@ -1168,7 +1168,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M6.38086 10C6.71086 11.31 6.71086 12.69 6.38086 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["battery", "empty", "1"],
+    tags: ["battery", "empty", "1", "power", "low", "energy", "device", "status", "critical", "indicator", "dead", "outline", "mobile"],
     category: "twotone"
   },
   {
@@ -1179,7 +1179,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M20.5 9.5C22 9.5 22 10 22 11V13C22 14 22 14.5 20.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["battery", "empty"],
+    tags: ["battery", "empty", "power", "low", "energy", "device", "status", "critical", "indicator", "dead", "outline", "mobile"],
     category: "twotone"
   },
   {
@@ -1193,7 +1193,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13 19H7C3 19 2 18 2 14V10C2 6 3 5 7 5H13C17 5 18 6 18 10V14C18 18 17 19 13 19Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["battery", "full"],
+    tags: ["battery", "full", "power", "charge", "energy", "device", "status", "level", "indicator", "charged", "filled", "mobile"],
     category: "twotone"
   },
   {
@@ -1211,7 +1211,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M5.03 15C5.01 14.83 5 14.67 5 14.5C5 11.51 6.63 8.92998 9 7.72998" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bezier"],
+    tags: ["bezier", "design", "vector", "curve", "graphic", "tool", "pen", "path", "drawing", "art", "edit"],
     category: "twotone"
   },
   {
@@ -1224,7 +1224,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 13H16" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bill"],
+    tags: ["bill", "invoice", "receipt", "payment", "document", "money", "expense", "financial", "statement", "paper", "transaction"],
     category: "twotone"
   },
   {
@@ -1245,7 +1245,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["bitcoin", "card"],
+    tags: ["bitcoin", "card", "crypto", "cryptocurrency", "wallet", "payment", "digital currency", "blockchain", "finance", "money", "credit card", "transaction"],
     category: "twotone"
   },
   {
@@ -1262,7 +1262,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.5002 8.66998C21.5002 12.08 18.7402 14.84 15.3302 14.84H14.8402C14.6102 11.81 12.1902 9.38997 9.16016 9.15997V8.66998C9.16016 5.25998 11.9202 2.5 15.3302 2.5C18.7402 2.5 21.5002 5.25998 21.5002 8.66998Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bitcoin", "convert"],
+    tags: ["bitcoin", "convert", "crypto", "exchange", "trade", "currency", "transaction", "blockchain", "finance", "money", "arrow", "transfer"],
     category: "twotone"
   },
   {
@@ -1281,7 +1281,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["bitcoin", "refresh"],
+    tags: ["bitcoin", "refresh", "crypto", "update", "sync", "reload", "currency", "blockchain", "finance", "money", "arrow", "circular"],
     category: "twotone"
   },
   {
@@ -1295,7 +1295,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.9707 16L9.9707 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["blend", "2"],
+    tags: ["blend", "2", "mix", "combine", "merge", "design", "tool", "gradient", "colors", "layers", "graphic", "filled"],
     category: "twotone"
   },
   {
@@ -1306,7 +1306,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13.9707 12C13.9707 13.77 13.2007 15.37 11.9707 16.46C10.9107 17.42 9.5107 18 7.9707 18C4.6607 18 1.9707 15.31 1.9707 12C1.9707 8.69 4.6607 6 7.9707 6C9.5107 6 10.9107 6.58 11.9707 7.54C13.2007 8.63 13.9707 10.23 13.9707 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["blend"],
+    tags: ["blend", "mix", "combine", "merge", "design", "tool", "gradient", "colors", "layers", "graphic", "outline"],
     category: "twotone"
   },
   {
@@ -1318,7 +1318,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bluetooth", "2"],
+    tags: ["bluetooth", "2", "wireless", "connection", "device", "pairing", "technology", "signal", "connectivity", "audio", "data", "filled"],
     category: "twotone"
   },
   {
@@ -1329,7 +1329,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bluetooth", "circle"],
+    tags: ["bluetooth", "circle", "connection", "wireless", "device", "pairing", "connectivity", "interface", "rounded", "system"],
     category: "twotone"
   },
   {
@@ -1340,7 +1340,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15 22H9C6 22 4 20 4 17V7C4 4 6 2 9 2H15C18 2 20 4 20 7V17C20 20 18 22 15 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bluetooth", "rectangle"],
+    tags: ["bluetooth", "rectangle", "connection", "wireless", "device", "pairing", "connectivity", "interface", "square", "system"],
     category: "twotone"
   },
   {
@@ -1350,7 +1350,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.63965 18.64L17.9896 7.31998C18.4996 6.84998 18.4896 6.09997 17.9496 5.64997L14.0996 2.43998C13.0996 1.60998 12.2796 1.98998 12.2796 3.28998V20.71C12.2796 22.01 13.0996 22.39 14.0996 21.56L17.9496 18.35C18.4896 17.9 18.4996 17.15 17.9896 16.68L5.63965 5.35996" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bluetooth"],
+    tags: ["bluetooth", "connection", "wireless", "device", "pairing", "connectivity", "interface", "signal", "system"],
     category: "twotone"
   },
   {
@@ -1366,7 +1366,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["blur"],
+    tags: ["blur", "effect", "filter", "soften", "unfocus", "visual", "privacy", "edit", "graphic"],
     category: "twotone"
   },
   {
@@ -1379,7 +1379,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.5 11.4902H5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["book", "1"],
+    tags: ["book", "1", "read", "knowledge", "education", "learning", "story", "document", "journal", "study"],
     category: "twotone"
   },
   {
@@ -1391,7 +1391,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19 2.78027V8.00024L17 6.67023L15 8.00024V3.92023C16.31 3.40023 17.77 2.98027 19 2.78027Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["book", "saved"],
+    tags: ["book", "saved", "read", "knowledge", "education", "learning", "story", "document", "favorite", "bookmark", "archive"],
     category: "twotone"
   },
   {
@@ -1405,7 +1405,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["book", "square"],
+    tags: ["book", "square", "read", "knowledge", "education", "learning", "story", "document", "journal"],
     category: "twotone"
   },
   {
@@ -1418,7 +1418,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 10.5H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["book"],
+    tags: ["book", "read", "knowledge", "education", "learning", "story", "document", "journal", "study"],
     category: "twotone"
   },
   {
@@ -1429,7 +1429,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.82 4.98996C3.41 5.55996 2 7.65996 2 11.9V14.93C2 19.98 4 22 9 22H15C20 22 22 19.98 22 14.93V11.9C22 7.58996 20.54 5.47996 17 4.95996" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bookmark", "2"],
+    tags: ["bookmark", "2", "save", "favorite", "reading list", "marker", "tag", "pin", "collection", "ui"],
     category: "twotone"
   },
   {
@@ -1441,7 +1441,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bookmark"],
+    tags: ["bookmark", "save", "favorite", "reading list", "marker", "tag", "pin", "collection", "ui"],
     category: "twotone"
   },
   {
@@ -1455,7 +1455,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.93062 2.47979L4.59063 5.43979C3.38063 6.10979 2.39062 7.78979 2.39062 9.16979V14.8198C2.39062 16.1998 3.38063 17.8798 4.59063 18.5498L9.93062 21.5198C11.0706 22.1498 12.9406 22.1498 14.0806 21.5198L19.4206 18.5498C20.6306 17.8798 21.6206 16.1998 21.6206 14.8198V9.16979C21.6206 7.78979 20.6306 6.10979 19.4206 5.43979L14.0806 2.46979C12.9306 1.83979 11.0706 1.83979 9.93062 2.47979Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["box", "1"],
+    tags: ["box", "1", "package", "container", "delivery", "storage", "product", "shipping", "parcel", "commerce"],
     category: "twotone"
   },
   {
@@ -1476,7 +1476,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["box", "2"],
+    tags: ["box", "2", "package", "container", "delivery", "storage", "product", "shipping", "parcel", "commerce"],
     category: "twotone"
   },
   {
@@ -1493,7 +1493,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["box", "add"],
+    tags: ["box", "add", "package", "container", "delivery", "storage", "product", "shipping", "create", "new", "commerce"],
     category: "twotone"
   },
   {
@@ -1510,7 +1510,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.0497 16.96L17.9297 19.0699" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["box", "remove"],
+    tags: ["box", "remove", "package", "container", "delivery", "storage", "product", "shipping", "delete", "cancel", "commerce"],
     category: "twotone"
   },
   {
@@ -1526,7 +1526,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["box", "search"],
+    tags: ["box", "search", "package", "container", "delivery", "storage", "product", "shipping", "find", "locate", "track", "commerce"],
     category: "twotone"
   },
   {
@@ -1542,7 +1542,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["box", "tick"],
+    tags: ["box", "tick", "package", "container", "delivery", "storage", "product", "shipping", "confirm", "complete", "checked", "commerce"],
     category: "twotone"
   },
   {
@@ -1558,7 +1558,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.25 16.75V18.25L18 19" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["box", "time"],
+    tags: ["box", "time", "package", "container", "delivery", "storage", "product", "shipping", "pending", "schedule", "delay", "commerce"],
     category: "twotone"
   },
   {
@@ -1573,7 +1573,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.9998 13.2401V9.58014L7.50977 4.1001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["box"],
+    tags: ["box", "package", "container", "delivery", "storage", "product", "shipping", "parcel", "commerce"],
     category: "twotone"
   },
   {
@@ -1589,7 +1589,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["briefcase"],
+    tags: ["briefcase", "work", "business", "job", "career", "portfolio", "documents", "professional", "finance"],
     category: "twotone"
   },
   {
@@ -1609,7 +1609,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["brifecase", "cross"],
+    tags: ["brifecase", "cross", "work", "business", "job", "career", "portfolio", "documents", "cancel", "decline", "finance"],
     category: "twotone"
   },
   {
@@ -1626,7 +1626,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["brifecase", "tick"],
+    tags: ["brifecase", "tick", "work", "business", "job", "career", "portfolio", "documents", "approved", "success", "finance"],
     category: "twotone"
   },
   {
@@ -1643,7 +1643,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["brifecase", "timer"],
+    tags: ["brifecase", "timer", "work", "business", "job", "career", "portfolio", "documents", "deadline", "pending", "finance"],
     category: "twotone"
   },
   {
@@ -1658,7 +1658,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.8691 15.25L18.5191 17.96" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["broom"],
+    tags: ["broom", "clean", "sweep", "tidy", "organize", "reset", "clear", "housekeeping", "tool"],
     category: "twotone"
   },
   {
@@ -1670,7 +1670,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.2398 14.4702C14.2398 11.8602 12.1198 9.74023 9.50977 9.74023" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["brush", "1"],
+    tags: ["brush", "1", "paint", "art", "draw", "design", "creative", "edit", "tool", "graphic"],
     category: "twotone"
   },
   {
@@ -1683,7 +1683,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.8193 11.9799C15.8193 9.88994 14.1293 8.18994 12.0293 8.18994" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["brush", "2"],
+    tags: ["brush", "2", "paint", "art", "draw", "design", "creative", "edit", "tool", "graphic"],
     category: "twotone"
   },
   {
@@ -1698,7 +1698,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["brush", "3"],
+    tags: ["brush", "3", "art", "paint", "design", "creative", "tool", "stroke", "minimal", "drawing"],
     category: "twotone"
   },
   {
@@ -1712,7 +1712,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.5 22H10.5C12 22 12 21 12 20.5V17.5C12 17 12 16 10.5 16H9.5C8 16 8 17 8 17.5V20.5C8 21 8 22 9.5 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["brush", "4"],
+    tags: ["brush", "4", "art", "paint", "design", "creative", "tool", "stroke", "minimal", "drawing"],
     category: "twotone"
   },
   {
@@ -1723,7 +1723,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4 8.31982V11.8798C4 12.9598 4.58003 13.9598 5.53003 14.4898L8.48999 16.1598C9.11999 16.5098 9.51001 17.1798 9.51001 17.8998V19.9998C9.51001 21.0998 10.41 21.9998 11.51 21.9998H12.51C13.61 21.9998 14.51 21.0998 14.51 19.9998V17.8998C14.51 17.1798 14.9 16.5098 15.53 16.1598L18.49 14.4898C19.43 13.9598 20.02 12.9598 20.02 11.8798V8.31982H4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["brush"],
+    tags: ["brush", "art", "paint", "design", "creative", "tool", "stroke", "minimal", "drawing"],
     category: "twotone"
   },
   {
@@ -1735,7 +1735,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.6205 21.9999C18.0344 21.9999 19.1805 20.8537 19.1805 19.4399C19.1805 18.026 18.0344 16.8799 16.6205 16.8799C15.2067 16.8799 14.0605 18.026 14.0605 19.4399C14.0605 20.8537 15.2067 21.9999 16.6205 21.9999Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["bubble"],
+    tags: ["bubble", "chat", "message", "speech", "dialogue", "comment", "communication", "talk", "ui"],
     category: "twotone"
   },
   {
@@ -1751,7 +1751,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bucket", "circle"],
+    tags: ["bucket", "circle", "paint", "fill", "color", "tool", "art", "design", "minimal", "rounded"],
     category: "twotone"
   },
   {
@@ -1767,7 +1767,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bucket", "square"],
+    tags: ["bucket", "square", "paint", "fill", "color", "tool", "art", "design", "minimal", "geometric"],
     category: "twotone"
   },
   {
@@ -1781,7 +1781,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.85 15C18.85 15 17 17.01 17 18.24C17 19.26 17.83 20.09 18.85 20.09C19.87 20.09 20.7 19.26 20.7 18.24C20.7 17.01 18.85 15 18.85 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bucket"],
+    tags: ["bucket", "paint", "fill", "color", "tool", "art", "design", "minimal"],
     category: "twotone"
   },
   {
@@ -1797,7 +1797,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 10.5C9.82843 10.5 10.5 9.82843 10.5 9C10.5 8.17157 9.82843 7.5 9 7.5C8.17157 7.5 7.5 8.17157 7.5 9C7.5 9.82843 8.17157 10.5 9 10.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["building", "3"],
+    tags: ["building", "3", "company", "office", "city", "architecture", "business", "urban", "corporate", "headquarters"],
     category: "twotone"
   },
   {
@@ -1813,7 +1813,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.25 22V18.25" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["building", "4"],
+    tags: ["building", "4", "company", "office", "city", "architecture", "business", "urban", "corporate", "headquarters"],
     category: "twotone"
   },
   {
@@ -1828,7 +1828,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.9597 14.8703C21.8997 16.0503 20.9197 17.0003 19.7197 17.0003C18.4797 17.0003 17.4697 15.9903 17.4697 14.7503V11.5303L19.4997 11.9803C20.8197 12.2703 21.8997 12.9503 21.9597 14.8703Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["building"],
+    tags: ["building", "company", "office", "city", "architecture", "business", "urban", "corporate", "headquarters"],
     category: "twotone"
   },
   {
@@ -1843,7 +1843,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22V19" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["buildings", "2"],
+    tags: ["buildings", "2", "cityscape", "skyline", "urban", "architecture", "metropolis", "company", "business", "district"],
     category: "twotone"
   },
   {
@@ -1859,7 +1859,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10 19V5C10 3 11 2 13 2H19C21 2 22 3 22 5V19C22 21 21 22 19 22H13C11 22 10 21 10 19Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["buildings"],
+    tags: ["buildings", "cityscape", "skyline", "urban", "architecture", "metropolis", "company", "business", "district"],
     category: "twotone"
   },
   {
@@ -1876,7 +1876,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 7.5H17" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["buliding"],
+    tags: ["buliding", "company", "office", "city", "architecture", "business", "urban", "corporate", "headquarters"],
     category: "twotone"
   },
   {
@@ -1890,7 +1890,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.4945 17.7002H15.5035" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["bus"],
+    tags: ["bus", "transportation", "travel", "public transport", "vehicle", "commute", "journey", "route", "passenger"],
     category: "twotone"
   },
   {
@@ -1902,7 +1902,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.62 14.62L8.5 13L9.38 14.62L11 15.5L9.38 16.38L8.5 18L7.62 16.38L6 15.5L7.62 14.62Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["buy", "crypto"],
+    tags: ["buy", "crypto", "cryptocurrency", "bitcoin", "ethereum", "trade", "invest", "digital currency", "blockchain", "finance", "purchase"],
     category: "twotone"
   },
   {
@@ -1918,7 +1918,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M12 5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cake"],
+    tags: ["cake", "dessert", "birthday", "celebration", "sweet", "bakery", "party", "food", "event"],
     category: "twotone"
   },
   {
@@ -1935,7 +1935,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.8549 17.5H15.8664" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calculator"],
+    tags: ["calculator", "math", "accounting", "finance", "tool", "calculation", "numbers", "education", "business"],
     category: "twotone"
   },
   {
@@ -1949,7 +1949,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 8.25C10.77 8.25 9.73 8.92 9.73 10.22C9.73 10.84 10.02 11.31 10.46 11.61C9.85 11.97 9.5 12.55 9.5 13.23C9.5 14.47 10.45 15.24 12 15.24C13.54 15.24 14.5 14.47 14.5 13.23C14.5 12.55 14.15 11.96 13.53 11.61C13.98 11.3 14.26 10.84 14.26 10.22C14.26 8.92 13.23 8.25 12 8.25ZM12 11.09C11.48 11.09 11.1 10.78 11.1 10.29C11.1 9.79 11.48 9.5 12 9.5C12.52 9.5 12.9 9.79 12.9 10.29C12.9 10.78 12.52 11.09 12 11.09ZM12 14C11.34 14 10.86 13.67 10.86 13.07C10.86 12.47 11.34 12.15 12 12.15C12.66 12.15 13.14 12.48 13.14 13.07C13.14 13.67 12.66 14 12 14Z" fill="currentColor"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "1"],
+    tags: ["calendar", "1", "date", "schedule", "event", "appointment", "time", "planner", "agenda", "booking"],
     category: "twotone"
   },
   {
@@ -1965,7 +1965,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.29492 16.7002H8.3039" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "2"],
+    tags: ["calendar", "2", "date", "schedule", "event", "appointment", "time", "planner", "agenda", "booking"],
     category: "twotone"
   },
   {
@@ -1984,7 +1984,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.29492 16.7002H8.3039" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "add"],
+    tags: ["calendar", "add", "new event", "schedule", "appointment", "add date", "create", "booking", "plus", "time"],
     category: "twotone"
   },
   {
@@ -2000,7 +2000,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "circle"],
+    tags: ["calendar", "circle", "date", "schedule", "event", "appointment", "time", "planner", "agenda", "rounded"],
     category: "twotone"
   },
   {
@@ -2018,7 +2018,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.29492 16.7002H8.3039" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "edit"],
+    tags: ["calendar", "edit", "edit event", "update schedule", "modify appointment", "change date", "pencil", "time", "planner"],
     category: "twotone"
   },
   {
@@ -2037,7 +2037,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.29492 16.7002H8.3039" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "remove"],
+    tags: ["calendar", "remove", "delete event", "cancel schedule", "remove appointment", "minus", "clear date", "time", "planner"],
     category: "twotone"
   },
   {
@@ -2055,7 +2055,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.29492 16.7002H8.3039" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "search"],
+    tags: ["calendar", "search", "find event", "search schedule", "lookup date", "magnifying glass", "time", "planner", "discovery"],
     category: "twotone"
   },
   {
@@ -2073,7 +2073,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.29492 16.7002H8.3039" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar", "tick"],
+    tags: ["calendar", "tick", "confirm event", "schedule complete", "approved date", "check mark", "done", "success", "time", "planner"],
     category: "twotone"
   },
   {
@@ -2092,7 +2092,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.29395 16.7002H8.30293" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["calendar"],
+    tags: ["calendar", "date", "schedule", "event", "appointment", "booking", "planner", "time", "monthly", "yearly", "agenda"],
     category: "twotone"
   },
   {
@@ -2106,7 +2106,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["call", "add"],
+    tags: ["call", "add", "phone", "contact", "new", "plus", "telephony", "communication", "invite", "dial", "mobile"],
     category: "twotone"
   },
   {
@@ -2118,7 +2118,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 9C22 5.13 18.87 2 15 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["call", "calling"],
+    tags: ["call", "calling", "phone", "active", "ringing", "in progress", "telephony", "communication", "dialing", "mobile", "vibrate"],
     category: "twotone"
   },
   {
@@ -2129,7 +2129,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.2002 7.8H21.0002M16.2002 7.8V3V7.8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["call", "incoming"],
+    tags: ["call", "incoming", "phone", "receive", "arrow", "telephony", "communication", "answer", "mobile", "direction"],
     category: "twotone"
   },
   {
@@ -2140,7 +2140,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.5 6H20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["call", "minus"],
+    tags: ["call", "minus", "phone", "remove", "subtract", "telephony", "communication", "delete", "mobile", "decline"],
     category: "twotone"
   },
   {
@@ -2151,7 +2151,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.0002 4H15.2002M20.0002 4V8.8V4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["call", "outgoing"],
+    tags: ["call", "outgoing", "phone", "send", "arrow", "telephony", "communication", "dialed", "mobile", "direction"],
     category: "twotone"
   },
   {
@@ -2162,7 +2162,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15 5.97021L17 7.97021L21 3.97021" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["call", "received"],
+    tags: ["call", "received", "phone", "incoming", "arrow", "telephony", "communication", "answer", "mobile", "direction"],
     category: "twotone"
   },
   {
@@ -2176,7 +2176,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["call", "remove"],
+    tags: ["call", "remove", "phone", "delete", "minus", "telephony", "communication", "hang up", "mobile", "end"],
     category: "twotone"
   },
   {
@@ -2188,7 +2188,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["call", "slash"],
+    tags: ["call", "slash", "phone", "mute", "disabled", "blocked", "no audio", "telephony", "communication", "forbidden", "off"],
     category: "twotone"
   },
   {
@@ -2198,7 +2198,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["call"],
+    tags: ["call", "phone", "contact", "telephony", "communication", "dial", "mobile", "talk", "receiver"],
     category: "twotone"
   },
   {
@@ -2212,7 +2212,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["camera", "slash"],
+    tags: ["camera", "slash", "photo", "video", "disabled", "off", "privacy", "no camera", "forbidden", "inactive"],
     category: "twotone"
   },
   {
@@ -2224,7 +2224,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 18C13.79 18 15.25 16.54 15.25 14.75C15.25 12.96 13.79 11.5 12 11.5C10.21 11.5 8.75 12.96 8.75 14.75C8.75 16.54 10.21 18 12 18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["camera"],
+    tags: ["camera", "photo", "video", "capture", "picture", "record", "lens", "photography", "image"],
     category: "twotone"
   },
   {
@@ -2239,7 +2239,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11 3.5H17C18.1 3.5 19 4 19 5.5V7.5C19 9 18.1 9.5 17 9.5H11C9.9 9.5 9 9 9 7.5V5.5C9 4 9.9 3.5 11 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["candle", "2"],
+    tags: ["candle", "2", "flame", "light", "wax", "fire", "decoration", "celebration", "memorial", "warmth", "glow"],
     category: "twotone"
   },
   {
@@ -2254,7 +2254,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.5 11V17C20.5 18.1 20 19 18.5 19H16.5C15 19 14.5 18.1 14.5 17V11C14.5 9.9 15 9 16.5 9H18.5C20 9 20.5 9.9 20.5 11Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["candle"],
+    tags: ["candle", "flame", "light", "wax", "fire", "decoration", "celebration", "memorial", "warmth", "glow"],
     category: "twotone"
   },
   {
@@ -2273,7 +2273,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15 15H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["car"],
+    tags: ["car", "automobile", "vehicle", "transportation", "drive", "travel", "ride", "auto", "rental", "delivery"],
     category: "twotone"
   },
   {
@@ -2290,7 +2290,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["card", "add"],
+    tags: ["card", "add", "credit card", "debit card", "payment", "new", "plus", "finance", "billing", "add account", "wallet"],
     category: "twotone"
   },
   {
@@ -2304,7 +2304,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.5 11C20.9853 11 23 8.98528 23 6.5C23 4.01472 20.9853 2 18.5 2C16.0147 2 14 4.01472 14 6.5C14 8.98528 16.0147 11 18.5 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["card", "coin"],
+    tags: ["card", "coin", "credit card", "debit card", "payment", "currency", "money", "finance", "transaction", "cashback", "loyalty"],
     category: "twotone"
   },
   {
@@ -2321,7 +2321,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["card", "edit"],
+    tags: ["card", "edit", "credit card", "debit card", "payment", "update", "modify", "finance", "settings", "details", "billing"],
     category: "twotone"
   },
   {
@@ -2335,7 +2335,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 21.9985H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["card", "pos"],
+    tags: ["card", "pos", "credit card", "debit card", "payment", "point of sale", "terminal", "finance", "transaction", "checkout", "retail"],
     category: "twotone"
   },
   {
@@ -2352,7 +2352,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["card", "receive"],
+    tags: ["card", "receive", "credit card", "debit card", "payment", "incoming", "deposit", "finance", "transfer", "receive money", "arrow"],
     category: "twotone"
   },
   {
@@ -2369,7 +2369,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["card", "remove", "1"],
+    tags: ["card", "remove", "1", "credit card", "debit card", "payment", "delete", "minus", "finance", "billing", "remove account", "wallet"],
     category: "twotone"
   },
   {
@@ -2386,7 +2386,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M5.90039 16.0298H9.90039" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["card", "remove"],
+    tags: ["card", "remove", "credit card", "debit card", "payment", "delete", "minus", "finance", "billing", "remove account", "wallet"],
     category: "twotone"
   },
   {
@@ -2403,7 +2403,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["card", "send"],
+    tags: ["card", "send", "credit card", "debit card", "payment", "outgoing", "withdraw", "finance", "transfer", "send money", "arrow"],
     category: "twotone"
   },
   {
@@ -2418,7 +2418,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["card", "slash"],
+    tags: ["card", "slash", "credit card", "debit card", "payment", "disabled", "blocked", "finance", "invalid", "forbidden", "no entry"],
     category: "twotone"
   },
   {
@@ -2432,7 +2432,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.5 6L18 7.5L22 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["card", "tick", "1"],
+    tags: ["card", "tick", "1", "credit card", "debit card", "payment", "approved", "verified", "finance", "success", "confirmation", "checked", "complete"],
     category: "twotone"
   },
   {
@@ -2446,7 +2446,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.4395 18L17.4294 18.99L19.5594 17.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["card", "tick"],
+    tags: ["card", "tick", "credit", "debit", "payment", "verified", "approved", "success", "purchase", "financial", "commerce", "transaction"],
     category: "twotone"
   },
   {
@@ -2461,7 +2461,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.44 3.50488H17.55C21.11 3.50488 22 4.38488 22 7.89488V16.1049C22 19.6149 21.11 20.4949 17.56 20.4949H6.44C2.89 20.5049 2 19.6249 2 16.1149V7.89488C2 4.38488 2.89 3.50488 6.44 3.50488Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["card"],
+    tags: ["card", "credit", "debit", "payment", "bank", "money", "wallet", "purchase", "financial", "commerce", "transaction"],
     category: "twotone"
   },
   {
@@ -2475,7 +2475,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.10938 17.8101H12.5494" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cards"],
+    tags: ["cards", "credit", "debit", "payment", "multiple", "stack", "wallet", "financial", "commerce", "transactions", "loyalty"],
     category: "twotone"
   },
   {
@@ -2488,7 +2488,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M18 22C20.2091 22 22 20.2091 22 18C22 15.7909 20.2091 14 18 14C15.7909 14 14 15.7909 14 18C14 20.2091 15.7909 22 18 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["category", "2"],
+    tags: ["category", "2", "menu", "hamburger", "grid", "options", "dashboard", "sections", "organization", "structure", "ui", "navigation"],
     category: "twotone"
   },
   {
@@ -2501,7 +2501,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5 22H7C9 22 10 21 10 19V17C10 15 9 14 7 14H5C3 14 2 15 2 17V19C2 21 3 22 5 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["category"],
+    tags: ["category", "menu", "hamburger", "grid", "options", "dashboard", "sections", "organization", "structure", "ui", "navigation"],
     category: "twotone"
   },
   {
@@ -2512,7 +2512,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11 13C12.1046 13 13 12.1046 13 11C13 9.89543 12.1046 9 11 9C9.89543 9 9 9.89543 9 11C9 12.1046 9.89543 13 11 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cd"],
+    tags: ["cd", "disc", "compact disc", "music", "data", "storage", "media", "entertainment", "retro", "audio", "record"],
     category: "twotone"
   },
   {
@@ -2527,7 +2527,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["chart", "1"],
+    tags: ["chart", "1", "graph", "analytics", "statistics", "data", "report", "growth", "decline", "progress", "business", "line graph"],
     category: "twotone"
   },
   {
@@ -2539,7 +2539,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.5 18.5C9.6 18.5 10.5 17.6 10.5 16.5V13C10.5 11.9 9.6 11 8.5 11C7.4 11 6.5 11.9 6.5 13V16.5C6.5 17.6 7.39 18.5 8.5 18.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["chart", "2"],
+    tags: ["chart", "2", "graph", "analytics", "statistics", "data", "report", "growth", "decline", "progress", "business", "bar graph"],
     category: "twotone"
   },
   {
@@ -2552,7 +2552,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17 15V22H21V15C21 13.9 20.6 13 19.4 13H18.6C17.4 13 17 13.9 17 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["chart", "21"],
+    tags: ["chart", "21", "graph", "analytics", "statistics", "data", "report", "growth", "decline", "progress", "business", "line graph"],
     category: "twotone"
   },
   {
@@ -2564,7 +2564,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M12 16C14.21 16 16 14.21 16 12C16 9.79 14.21 8 12 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["chart", "3"],
+    tags: ["chart", "3", "graph", "analytics", "statistics", "data", "report", "growth", "decline", "progress", "business", "pie chart"],
     category: "twotone"
   },
   {
@@ -2579,7 +2579,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13 22.75H9C3.57 22.75 1.25 20.43 1.25 15V9C1.25 3.57 3.57 1.25 9 1.25H15C20.43 1.25 22.75 3.57 22.75 9V13C22.75 13.41 22.41 13.75 22 13.75C21.59 13.75 21.25 13.41 21.25 13V9C21.25 4.39 19.61 2.75 15 2.75H9C4.39 2.75 2.75 4.39 2.75 9V15C2.75 19.61 4.39 21.25 9 21.25H13C13.41 21.25 13.75 21.59 13.75 22C13.75 22.41 13.41 22.75 13 22.75Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["chart", "fail"],
+    tags: ["chart", "fail", "graph", "analytics", "statistics", "data", "report", "decline", "failure", "negative", "loss", "error"],
     category: "outline"
   },
   {
@@ -2594,7 +2594,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["chart", "square"],
+    tags: ["chart", "square", "graph", "analytics", "statistics", "data", "report", "dashboard", "business", "performance", "metrics"],
     category: "twotone"
   },
   {
@@ -2610,7 +2610,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17 10.5V13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["chart", "success"],
+    tags: ["chart", "success", "graph", "analytics", "statistics", "data", "report", "growth", "positive", "gain", "achievement"],
     category: "twotone"
   },
   {
@@ -2623,7 +2623,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.0004 2H18.4004C17.8504 2 17.4004 2.45 17.4004 3V18C17.4004 18.55 17.8504 19 18.4004 19H20.0004C20.5504 19 21.0004 18.55 21.0004 18V3C21.0004 2.45 20.5504 2 20.0004 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["chart"],
+    tags: ["chart", "graph", "analytics", "statistics", "data", "report", "growth", "decline", "progress", "business", "line graph"],
     category: "twotone"
   },
   {
@@ -2636,7 +2636,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 8.5V15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["check"],
+    tags: ["check", "tick", "done", "complete", "verify", "confirm", "approve", "success", "correct", "yes", "submit"],
     category: "twotone"
   },
   {
@@ -2652,7 +2652,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["chrome"],
+    tags: ["chrome", "browser", "web", "internet", "google", "app", "application", "software", "system", "logo", "brand"],
     category: "twotone"
   },
   {
@@ -2667,7 +2667,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16 4.02002C19.33 4.20002 21 5.43002 21 10V16C21 20 20 22 15 22H9C4 22 3 20 3 16V10C3 5.44002 4.67 4.20002 8 4.02002" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["clipboard", "close"],
+    tags: ["clipboard", "close", "notes", "tasks", "list", "document", "delete", "remove", "cancel", "error", "failed", "clear"],
     category: "twotone"
   },
   {
@@ -2683,7 +2683,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["clipboard", "export"],
+    tags: ["clipboard", "export", "notes", "tasks", "list", "document", "share", "upload", "send", "output", "transfer", "data"],
     category: "twotone"
   },
   {
@@ -2699,7 +2699,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["clipboard", "import"],
+    tags: ["clipboard", "import", "notes", "tasks", "list", "document", "download", "receive", "input", "get", "transfer", "data"],
     category: "twotone"
   },
   {
@@ -2712,7 +2712,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16 4.02002C19.33 4.20002 21 5.43002 21 10V16C21 20 20 22 15 22H9C4 22 3 20 3 16V10C3 5.44002 4.67 4.20002 8 4.02002" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["clipboard", "text"],
+    tags: ["clipboard", "text", "notes", "tasks", "list", "document", "content", "writing", "edit", "memo", "report", "data"],
     category: "twotone"
   },
   {
@@ -2724,7 +2724,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16 4.02002C19.33 4.20002 21 5.43002 21 10V16C21 20 20 22 15 22H9C4 22 3 20 3 16V10C3 5.44002 4.67 4.20002 8 4.02002" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["clipboard", "tick"],
+    tags: ["clipboard", "tick", "notes", "tasks", "list", "document", "complete", "done", "verified", "approved", "success", "checked"],
     category: "twotone"
   },
   {
@@ -2736,7 +2736,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.24 8.98C9.20098 8.98 9.98 8.20098 9.98 7.24C9.98 6.27902 9.20098 5.5 8.24 5.5C7.27902 5.5 6.5 6.27902 6.5 7.24C6.5 8.20098 7.27902 8.98 8.24 8.98Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["clipboard"],
+    tags: ["clipboard", "notes", "tasks", "list", "document", "copy", "paste", "memo", "report", "data", "paper"],
     category: "twotone"
   },
   {
@@ -2749,7 +2749,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.03027 6.85H8.04027C9.14027 6 10.5103 5.5 12.0003 5.5C13.5103 5.5 14.8903 6.01 15.9903 6.87H16.0003L15.4903 4.4C15.0003 2.5 13.9003 2 12.5503 2H11.4603C10.1103 2 9.00027 2.5 8.52027 4.41L8.03027 6.85Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["clock", "1"],
+    tags: ["clock", "1", "time", "timer", "alarm", "schedule", "deadline", "history", "past", "present", "future", "circular"],
     category: "twotone"
   },
   {
@@ -2760,7 +2760,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.7099 15.1798L12.6099 13.3298C12.0699 13.0098 11.6299 12.2398 11.6299 11.6098V7.50977" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["clock"],
+    tags: ["clock", "time", "timer", "alarm", "schedule", "deadline", "history", "past", "present", "future", "circular"],
     category: "twotone"
   },
   {
@@ -2774,7 +2774,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["close", "circle"],
+    tags: ["close", "circle", "cancel", "delete", "remove", "error", "fail", "stop", "exit", "forbidden", "alert", "warning"],
     category: "twotone"
   },
   {
@@ -2788,7 +2788,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["close", "square"],
+    tags: ["close", "square", "exit", "cancel", "delete", "remove", "stop", "error", "alert", "warning", "geometric", "solid"],
     category: "twotone"
   },
   {
@@ -2803,7 +2803,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.4404 16.5298L11.4304 17.5198L13.5604 15.5498" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "add"],
+    tags: ["cloud", "add", "upload", "storage", "data", "backup", "sync", "create", "new", "server", "hosting", "outline"],
     category: "twotone"
   },
   {
@@ -2817,7 +2817,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "change"],
+    tags: ["cloud", "change", "update", "modify", "edit", "refresh", "transfer", "exchange", "sync", "data", "server", "outline"],
     category: "twotone"
   },
   {
@@ -2831,7 +2831,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10 21H6" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "connection"],
+    tags: ["cloud", "connection", "network", "link", "sync", "data", "server", "internet", "wifi", "online", "connected", "outline"],
     category: "twotone"
   },
   {
@@ -2847,7 +2847,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "cross"],
+    tags: ["cloud", "cross", "error", "failed", "cancel", "disconnect", "offline", "problem", "issue", "data", "server", "outline"],
     category: "twotone"
   },
   {
@@ -2863,7 +2863,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.9707 16L7.9707 18" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "drizzle"],
+    tags: ["cloud", "drizzle", "rain", "weather", "forecast", "precipitation", "light rain", "meteorology", "climate", "droplets", "outline"],
     category: "twotone"
   },
   {
@@ -2877,7 +2877,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 21.0298H15" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "fog"],
+    tags: ["cloud", "fog", "mist", "haze", "weather", "forecast", "obscured", "visibility", "meteorology", "climate", "outline"],
     category: "twotone"
   },
   {
@@ -2890,7 +2890,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.2291 19.1598H10.2291V21.4898C10.2291 21.8298 10.6591 21.9998 10.8791 21.7398L13.3291 18.9498C13.6291 18.6098 13.4991 18.3298 13.0491 18.3298H12.0491V15.9998C12.0491 15.6598 11.6191 15.4898 11.3991 15.7498L8.9491 18.5398C8.6491 18.8798 8.7791 19.1598 9.2291 19.1598Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "lightning"],
+    tags: ["cloud", "lightning", "storm", "thunder", "weather", "forecast", "electricity", "danger", "meteorology", "climate", "outline"],
     category: "twotone"
   },
   {
@@ -2903,7 +2903,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.8203 9.88998C16.3403 9.62998 16.9003 9.48998 17.4803 9.47998" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "minus"],
+    tags: ["cloud", "minus", "delete", "remove", "storage", "data", "backup", "server", "hosting", "decrease", "outline"],
     category: "twotone"
   },
   {
@@ -2915,7 +2915,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.9707 8.5C21.9707 9.6 21.4607 10.59 20.6507 11.23C20.0607 11.71 19.2907 12 18.4707 12C16.5407 12 14.9707 10.43 14.9707 8.5C14.9707 7.54 15.3607 6.67 16.0007 6.04V6.03C16.6307 5.39 17.5107 5 18.4707 5C20.4007 5 21.9707 6.57 21.9707 8.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "notif"],
+    tags: ["cloud", "notif", "alert", "message", "notification", "update", "reminder", "information", "data", "server", "outline"],
     category: "twotone"
   },
   {
@@ -2931,7 +2931,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "plus"],
+    tags: ["cloud", "plus", "upload", "storage", "data", "backup", "sync", "create", "new", "server", "hosting", "outline"],
     category: "twotone"
   },
   {
@@ -2947,7 +2947,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17 16.5298C17 17.2698 16.84 17.9698 16.54 18.5898C16.46 18.7698 16.37 18.9398 16.27 19.0998C15.41 20.5498 13.82 21.5298 12 21.5298C10.18 21.5298 8.59 20.5498 7.73 19.0998C7.63 18.9398 7.54 18.7698 7.46 18.5898C7.16 17.9698 7 17.2698 7 16.5298C7 13.7698 9.24 11.5298 12 11.5298C14.76 11.5298 17 13.7698 17 16.5298Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "remove"],
+    tags: ["cloud", "remove", "delete", "storage", "data", "backup", "server", "hosting", "erase", "clear", "outline"],
     category: "twotone"
   },
   {
@@ -2962,7 +2962,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.9955 21.5H11.0045" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "snow"],
+    tags: ["cloud", "snow", "winter", "weather", "forecast", "cold", "precipitation", "flakes", "meteorology", "climate", "outline"],
     category: "twotone"
   },
   {
@@ -2975,7 +2975,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.97 8.5C21.97 9.6 21.46 10.59 20.65 11.23C19.88 10.31 18.8 9.66 17.47 9.49C17.23 8.04 16.7 6.9 16 6.04V6.03C16.63 5.39 17.51 5 18.47 5C20.4 5 21.97 6.57 21.97 8.5Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud", "sunny"],
+    tags: ["cloud", "sunny", "partly cloudy", "weather", "forecast", "clear", "day", "meteorology", "climate", "sun", "outline"],
     category: "twotone"
   },
   {
@@ -2986,7 +2986,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.8496 9.91977C16.3696 9.65977 16.9396 9.51977 17.5196 9.50977" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cloud"],
+    tags: ["cloud", "weather", "storage", "data", "server", "internet", "hosting", "forecast", "sky", "outline"],
     category: "twotone"
   },
   {
@@ -2998,7 +2998,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["code", "1"],
+    tags: ["code", "1", "programming", "development", "brackets", "syntax", "script", "coding", "developer", "markup", "web", "outline"],
     category: "twotone"
   },
   {
@@ -3011,7 +3011,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13 9.66992L11 14.33" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["code", "circle"],
+    tags: ["code", "circle", "programming", "development", "brackets", "syntax", "script", "coding", "developer", "markup", "web", "circular"],
     category: "twotone"
   },
   {
@@ -3024,7 +3024,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.23047 8.01L21.4505 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["code"],
+    tags: ["code", "programming", "development", "brackets", "syntax", "script", "coding", "developer", "markup", "web", "outline"],
     category: "twotone"
   },
   {
@@ -3039,7 +3039,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M2 12H17.51" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["coffee"],
+    tags: ["coffee", "drink", "beverage", "cafe", "hot", "mug", "break", "energy", "morning", "food", "outline"],
     category: "twotone"
   },
   {
@@ -3055,7 +3055,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.9805 19.88C13.8805 21.15 15.3505 21.98 17.0305 21.98C19.7605 21.98 21.9805 19.76 21.9805 17.03C21.9805 15.37 21.1605 13.9 19.9105 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["coin", "1"],
+    tags: ["coin", "1", "money", "currency", "finance", "payment", "cash", "economy", "wealth", "dollar", "gold", "outline"],
     category: "twotone"
   },
   {
@@ -3067,7 +3067,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.5 7.65V12.65C18.5 15.77 15.59 18 12 18C8.41 18 5.5 15.77 5.5 12.65V7.65C5.5 4.53 8.41 2 12 2C13.8 2 15.42 2.63 16.6 3.65C17.77 4.68 18.5 6.09 18.5 7.65Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["coin"],
+    tags: ["coin", "money", "currency", "finance", "payment", "cash", "economy", "wealth", "dollar", "gold", "outline"],
     category: "twotone"
   },
   {
@@ -3081,7 +3081,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6 19C6.55228 19 7 18.5523 7 18C7 17.4477 6.55228 17 6 17C5.44772 17 5 17.4477 5 18C5 18.5523 5.44772 19 6 19Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["color", "swatch"],
+    tags: ["color", "swatch", "palette", "design", "art", "paint", "hue", "spectrum", "graphic", "creative", "tool", "outline"],
     category: "twotone"
   },
   {
@@ -3093,7 +3093,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 16C22 19.31 19.31 22 16 22C14.46 22 13.06 21.42 12 20.46C13.23 19.37 14 17.77 14 16C14 15.22 13.85 14.47 13.58 13.79C15.41 13.29 16.89 11.95 17.58 10.21C20.12 10.9 22 13.24 22 16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["colorfilter"],
+    tags: ["colorfilter", "filter", "adjust", "image", "photo", "edit", "effect", "graphic", "tool", "settings", "outline"],
     category: "twotone"
   },
   {
@@ -3108,7 +3108,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["colors", "square"],
+    tags: ["colors", "square", "palette", "design", "art", "paint", "hue", "spectrum", "graphic", "creative", "outline"],
     category: "twotone"
   },
   {
@@ -3125,7 +3125,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["command", "square"],
+    tags: ["command", "square", "control", "keyboard", "shortcut", "function", "developer", "terminal", "ui", "outline", "system"],
     category: "twotone"
   },
   {
@@ -3139,7 +3139,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19 22C20.65 22 22 20.65 22 19C22 17.35 20.65 16 19 16H16V19C16 20.65 17.35 22 19 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["command"],
+    tags: ["command", "terminal", "code", "prompt", "cli", "programming", "developer", "system", "coding", "console", "filled"],
     category: "twotone"
   },
   {
@@ -3149,7 +3149,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.9498 14.55L14.5598 20.94C13.1598 22.34 10.8598 22.34 9.44978 20.94L3.05977 14.55C1.65977 13.15 1.65977 10.85 3.05977 9.44001L9.44978 3.05C10.8498 1.65 13.1498 1.65 14.5598 3.05L20.9498 9.44001C22.3498 10.85 22.3498 13.15 20.9498 14.55Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["component"],
+    tags: ["component", "module", "block", "part", "element", "structure", "building block", "ui", "grid", "square", "geometric"],
     category: "twotone"
   },
   {
@@ -3165,7 +3165,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.5 7.5H5.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["computing"],
+    tags: ["computing", "processor", "chip", "server", "technology", "data center", "hardware", "microchip", "circuit", "system", "filled"],
     category: "twotone"
   },
   {
@@ -3182,7 +3182,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.39 13.21L2.99001 14.54C2.45001 14.84 2 15.5999 2 16.2199V18.76C2 19.38 2.44001 20.14 2.99001 20.44L5.39 21.77C5.9 22.06 6.73999 22.06 7.25999 21.77L9.66 20.44C10.2 20.14 10.65 19.38 10.65 18.76V16.2199C10.65 15.5999 10.21 14.84 9.66 14.54L7.25999 13.21C6.73999 12.93 5.9 12.93 5.39 13.21Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["convert", "3d", "cube"],
+    tags: ["convert", "3d", "cube", "transform", "change", "rotate", "dimension", "object", "design", "modeling", "geometric", "perspective", "filled"],
     category: "twotone"
   },
   {
@@ -3197,7 +3197,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 9C2 5.13 5.13 2 9 2L7.95001 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["convert", "card"],
+    tags: ["convert", "card", "payment", "credit card", "transaction", "exchange", "switch", "finance", "wallet", "money", "business", "filled"],
     category: "twotone"
   },
   {
@@ -3209,7 +3209,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17.8626 19.9786L9.69965 11.8057L9.67969 16.3362" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["convert"],
+    tags: ["convert", "exchange", "transform", "change", "switch", "transfer", "process", "arrow", "direction", "cycle", "outline"],
     category: "twotone"
   },
   {
@@ -3222,7 +3222,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.5 11C19.9853 11 22 8.98528 22 6.5C22 4.01472 19.9853 2 17.5 2C15.0147 2 13 4.01472 13 6.5C13 8.98528 15.0147 11 17.5 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["convertshape", "2"],
+    tags: ["convertshape", "2", "transform", "edit", "shape", "design", "tool", "vector", "graphic", "change", "geometric", "filled"],
     category: "twotone"
   },
   {
@@ -3235,7 +3235,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 9C2 5.13 5.13 2 9 2L7.95 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["convertshape"],
+    tags: ["convertshape", "transform", "edit", "shape", "design", "tool", "vector", "graphic", "change", "geometric", "outline"],
     category: "twotone"
   },
   {
@@ -3247,7 +3247,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.08008 14.9998L8.03008 16.9498L11.9201 13.0498" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["copy", "success"],
+    tags: ["copy", "success", "duplicate", "paste", "file", "document", "done", "check", "confirmation", "clipboard", "filled"],
     category: "twotone"
   },
   {
@@ -3258,7 +3258,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 6.9V11.1C22 14.6 20.6 16 17.1 16H16V12.9C16 9.4 14.6 8 11.1 8H8V6.9C8 3.4 9.4 2 12.9 2H17.1C20.6 2 22 3.4 22 6.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["copy"],
+    tags: ["copy", "duplicate", "paste", "file", "document", "clipboard", "clone", "replicate", "office", "filled", "outline"],
     category: "twotone"
   },
   {
@@ -3269,7 +3269,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.8802 15C14.1702 15.62 13.2502 16 12.2402 16C10.0302 16 8.24023 14.21 8.24023 12C8.24023 9.79 10.0302 8 12.2402 8C13.2502 8 14.1702 8.38 14.8802 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["copyright"],
+    tags: ["copyright", "legal", "rights", "trademark", "intellectual property", "license", "protection", "brand", "ownership", "circular", "filled"],
     category: "twotone"
   },
   {
@@ -3286,7 +3286,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.9902 12V22" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["courthouse"],
+    tags: ["courthouse", "justice", "law", "building", "government", "legal system", "court", "authority", "official", "architecture", "filled"],
     category: "twotone"
   },
   {
@@ -3310,7 +3310,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9997 9.7002L11.0597 11.3402C10.8497 11.7002 11.0197 12.0002 11.4397 12.0002H12.5597C12.9797 12.0002 13.1497 12.3002 12.9397 12.6602L11.9997 14.3002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cpu", "charge"],
+    tags: ["cpu", "charge", "processor", "power", "energy", "battery", "loading", "technology", "hardware", "chip", "system", "filled"],
     category: "twotone"
   },
   {
@@ -3331,7 +3331,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.4102 17.46V16.53C11.4102 15.98 11.8602 15.53 12.4102 15.53C13.3702 15.53 13.7602 14.85 13.2802 14.02C13.0002 13.54 13.1702 12.92 13.6502 12.65L14.5602 12.12C14.9802 11.87 15.5202 12.02 15.7702 12.44L15.8302 12.54C16.3102 13.37 17.0902 13.37 17.5702 12.54L17.6302 12.44C17.8802 12.02 18.4202 11.88 18.8402 12.12L19.7502 12.65C20.2302 12.93 20.4002 13.54 20.1202 14.02C19.6402 14.85 20.0302 15.53 20.9902 15.53C21.5402 15.53 21.9902 15.98 21.9902 16.53V17.46C21.9902 18.01 21.5402 18.46 20.9902 18.46C20.0302 18.46 19.6402 19.14 20.1202 19.97C20.4002 20.45 20.2302 21.07 19.7502 21.34L18.8402 21.87C18.4202 22.12 17.8802 21.97 17.6302 21.55L17.5702 21.45C17.0902 20.62 16.3102 20.62 15.8302 21.45L15.7702 21.55C15.5202 21.97 14.9802 22.11 14.5602 21.87L13.6502 21.34C13.1702 21.06 13.0002 20.45 13.2802 19.97C13.7602 19.14 13.3702 18.46 12.4102 18.46C11.8602 18.47 11.4102 18.02 11.4102 17.46Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cpu", "setting"],
+    tags: ["cpu", "setting", "processor", "configuration", "preferences", "gear", "control", "technology", "hardware", "chip", "system", "filled"],
     category: "twotone"
   },
   {
@@ -3354,7 +3354,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 16H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cpu"],
+    tags: ["cpu", "processor", "chip", "microchip", "hardware", "technology", "computing", "brain", "server", "system", "filled"],
     category: "twotone"
   },
   {
@@ -3366,7 +3366,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17.8792 14.1499C17.3692 14.5899 16.7091 14.8699 15.9891 14.8699C14.4091 14.8699 13.1191 13.5899 13.1191 11.9999C13.1191 10.4099 14.3991 9.12988 15.9891 9.12988C16.7191 9.12988 17.3792 9.39985 17.8792 9.84985" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["creative", "commons"],
+    tags: ["creative", "commons", "license", "open source", "sharing", "rights", "legal", "attribution", "community", "circular", "filled", "outline"],
     category: "twotone"
   },
   {
@@ -3380,7 +3380,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19 19H22" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["crop"],
+    tags: ["crop", "edit", "resize", "image", "photo", "cut", "trim", "tool", "editor", "square", "filled"],
     category: "twotone"
   },
   {
@@ -3392,7 +3392,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M9.5 14H14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["crown", "1"],
+    tags: ["crown", "1", "king", "queen", "royalty", "premium", "award", "leader", "success", "achievement", "luxury", "filled"],
     category: "twotone"
   },
   {
@@ -3402,7 +3402,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 15.29V5.71002C2 4.38002 2.77 4.06002 3.71 5.00002L6.3 7.59002C6.69 7.98002 7.33 7.98002 7.71 7.59002L11.29 4.00002C11.68 3.61002 12.32 3.61002 12.7 4.00002L16.29 7.59002C16.68 7.98002 17.32 7.98002 17.7 7.59002L20.29 5.00002C21.23 4.06002 22 4.38002 22 5.71002V15.3C22 18.3 20 20.3 17 20.3H7C4.24 20.29 2 18.05 2 15.29Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["crown"],
+    tags: ["crown", "king", "queen", "royalty", "premium", "award", "leader", "success", "achievement", "luxury", "outline"],
     category: "twotone"
   },
   {
@@ -3417,7 +3417,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M18.5293 11.6501C19.2793 11.4101 19.9393 10.9701 20.4593 10.4501C21.3593 9.4501 21.9593 8.2501 21.9593 6.8501C21.9593 5.4501 20.8593 4.3501 19.4593 4.3501H18.8093C19.0093 4.8101 19.1093 5.3201 19.1093 5.8501V8.8501C19.1093 9.8501 18.8993 10.7901 18.5293 11.6501Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["cup"],
+    tags: ["cup", "drink", "coffee", "tea", "beverage", "trophy", "award", "winner", "celebration", "filled", "outline"],
     category: "twotone"
   },
   {
@@ -3429,7 +3429,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M11.9941 17H12.0031" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["danger"],
+    tags: ["danger", "warning", "alert", "error", "hazard", "caution", "exclamation", "problem", "security", "triangle", "filled"],
     category: "twotone"
   },
   {
@@ -3448,7 +3448,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.8 22H17.2C16.54 22 16 21.46 16 20.8V19.2C16 18.54 16.54 18 17.2 18H20.8C21.46 18 22 18.54 22 19.2V20.8C22 21.46 21.46 22 20.8 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["data", "2"],
+    tags: ["data", "2", "information", "database", "storage", "analytics", "big data", "server", "network", "statistics", "filled", "geometric"],
     category: "twotone"
   },
   {
@@ -3465,7 +3465,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["data"],
+    tags: ["data", "information", "database", "storage", "analytics", "big data", "server", "network", "statistics", "outline", "geometric"],
     category: "twotone"
   },
   {
@@ -3483,7 +3483,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.1202 12.73L17.1602 15.68" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["designtools"],
+    tags: ["designtools", "creativity", "graphic design", "illustration", "art", "palette", "ruler", "pen", "drawing", "filled", "creative"],
     category: "twotone"
   },
   {
@@ -3501,7 +3501,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.8959 7.25H12.9049" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["device", "message"],
+    tags: ["device", "message", "chat", "sms", "mobile", "phone", "notification", "communication", "feedback", "conversation", "filled", "bubble"],
     category: "twotone"
   },
   {
@@ -3519,7 +3519,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.0095 13.48C16.0095 13.48 15.1895 12.66 15.1895 11.66C15.1895 10.66 16.0095 9.84009 17.0095 9.84009C18.0095 9.84009 18.8294 10.66 18.8294 11.66C18.8294 12.66 18.0095 13.48 17.0095 13.48ZM17.0095 11.3401C16.8295 11.3401 16.6895 11.48 16.6895 11.66C16.6895 11.84 16.8295 11.98 17.0095 11.98C17.1895 11.98 17.3294 11.84 17.3294 11.66C17.3294 11.48 17.1895 11.3401 17.0095 11.3401Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["devices", "1"],
+    tags: ["devices", "1", "multiple screens", "responsive", "cross-device", "tech", "gadgets", "electronics", "digital", "hardware", "screens"],
     category: "outline"
   },
   {
@@ -3539,7 +3539,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.0104 12.7298C17.6014 12.7298 18.0804 12.2507 18.0804 11.6598C18.0804 11.0688 17.6014 10.5898 17.0104 10.5898C16.4195 10.5898 15.9404 11.0688 15.9404 11.6598C15.9404 12.2507 16.4195 12.7298 17.0104 12.7298Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["devices"],
+    tags: ["devices", "multiple screens", "responsive", "cross-device", "tech", "gadgets", "electronics", "digital", "hardware", "screens"],
     category: "twotone"
   },
   {
@@ -3550,7 +3550,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M5 17L9.59 11.64C10.35 10.76 11.7 10.7 12.52 11.53L13.47 12.48C14.29 13.3 15.64 13.25 16.4 12.37L21 7" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["diagram"],
+    tags: ["diagram", "flowchart", "organization", "structure", "process", "workflow", "hierarchy", "infographic", "data visualization", "chart"],
     category: "twotone"
   },
   {
@@ -3561,7 +3561,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3.5 8H20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["diamonds"],
+    tags: ["diamonds", "gem", "jewel", "luxury", "precious", "wealth", "quality", "premium", "sparkle", "faceted"],
     category: "twotone"
   },
   {
@@ -3571,7 +3571,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.16931 19.2901L3.06931 7.70015C1.61931 4.95015 4.54931 1.96015 7.32931 3.35015L10.5693 4.97015C11.4693 5.42015 12.5293 5.42015 13.4293 4.97015L16.6693 3.35015C19.4493 1.96015 22.3693 4.95015 20.9293 7.70015L14.8293 19.2901C13.6293 21.5701 10.3693 21.5701 9.16931 19.2901Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "down"],
+    tags: ["direct", "down", "arrow", "south", "download", "collapse", "direction", "pointer", "indicator", "chevron", "move down"],
     category: "twotone"
   },
   {
@@ -3586,7 +3586,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7 4.12988C3.46 4.64988 2 6.72988 2 10.9999V14.9999C2 19.9999 4 21.9999 9 21.9999H15C20 21.9999 22 19.9999 22 14.9999V10.9999C22 6.72988 20.54 4.64988 17 4.12988" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "inbox"],
+    tags: ["direct", "inbox", "message", "mail", "receive", "incoming", "chat", "notification", "communication", "envelope", "new message"],
     category: "twotone"
   },
   {
@@ -3596,7 +3596,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4.71 9.1698L16.3 3.0698C19.05 1.6198 22.04 4.5498 20.65 7.3298L19.03 10.5698C18.58 11.4698 18.58 12.5298 19.03 13.4298L20.65 16.6698C22.04 19.4498 19.05 22.3698 16.3 20.9298L4.71 14.8298C2.43 13.6298 2.43 10.3698 4.71 9.1698Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "left"],
+    tags: ["direct", "left", "arrow", "west", "back", "previous", "direction", "pointer", "indicator", "chevron", "move left"],
     category: "twotone"
   },
   {
@@ -3607,7 +3607,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 13.0002H5.76C6.52 13.0002 7.21 13.4302 7.55 14.1102L8.44 15.9002C9 17.0002 10 17.0002 10.24 17.0002H13.77C14.53 17.0002 15.22 16.5702 15.56 15.8902L16.45 14.1002C16.79 13.4202 17.48 12.9902 18.24 12.9902H21.98" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "normal"],
+    tags: ["direct", "normal", "message", "mail", "chat", "communication", "envelope", "send", "receive", "text", "sms"],
     category: "twotone"
   },
   {
@@ -3619,7 +3619,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "notification"],
+    tags: ["direct", "notification", "message alert", "new mail", "chat notification", "unread message", "bell", "reminder", "communication alert", "envelope alert", "attention"],
     category: "twotone"
   },
   {
@@ -3629,7 +3629,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.2901 9.1698L7.70015 3.0698C4.95015 1.6198 1.96015 4.5498 3.35015 7.3298L4.97015 10.5698C5.42015 11.4698 5.42015 12.5298 4.97015 13.4298L3.35015 16.6698C1.96015 19.4498 4.95015 22.3698 7.70015 20.9298L19.2901 14.8298C21.5701 13.6298 21.5701 10.3698 19.2901 9.1698Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "right"],
+    tags: ["direct", "right", "arrow", "east", "next", "forward", "direction", "pointer", "indicator", "chevron", "move right"],
     category: "twotone"
   },
   {
@@ -3644,7 +3644,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7 5.12988C3.46 5.64988 2 7.72988 2 11.9999V14.9999C2 19.9999 4 21.9999 9 21.9999H15C20 21.9999 22 19.9999 22 14.9999V11.9999C22 7.72988 20.54 5.64988 17 5.12988" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "send"],
+    tags: ["direct", "send", "message", "mail", "outgoing", "chat", "share", "communication", "envelope", "submit"],
     category: "twotone"
   },
   {
@@ -3654,7 +3654,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.16931 4.71L3.06931 16.3C1.61931 19.05 4.54931 22.04 7.32931 20.65L10.5693 19.03C11.4693 18.58 12.5293 18.58 13.4293 19.03L16.6693 20.65C19.4493 22.04 22.3693 19.05 20.9293 16.3L14.8293 4.71C13.6293 2.43 10.3693 2.43 9.16931 4.71Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct", "up"],
+    tags: ["direct", "up", "arrow", "north", "upload", "expand", "direction", "pointer", "indicator", "chevron", "move up"],
     category: "twotone"
   },
   {
@@ -3667,7 +3667,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.5 10H14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["direct"],
+    tags: ["direct", "message", "mail", "chat", "communication", "envelope", "send", "receive", "text", "sms"],
     category: "twotone"
   },
   {
@@ -3678,7 +3678,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19 12V6C19 3.79 19 2 15 2H9C5 2 5 3.79 5 6V12" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["directbox", "default"],
+    tags: ["directbox", "default", "inbox", "mail", "messages", "communication", "email folder", "archive", "storage", "container", "mailbox"],
     category: "twotone"
   },
   {
@@ -3691,7 +3691,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.7207 6.22998H14.7207" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["directbox", "notif"],
+    tags: ["directbox", "notif", "inbox alert", "new mail", "message notification", "unread messages", "bell", "reminder", "email alert", "attention", "urgent"],
     category: "twotone"
   },
   {
@@ -3707,7 +3707,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19 12V8.00004C19 5.99004 19 4.33004 16 4.04004" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["directbox", "receive"],
+    tags: ["directbox", "receive", "inbox", "receive mail", "incoming messages", "download mail", "get mail", "communication", "email folder", "arrow down", "mailbox"],
     category: "twotone"
   },
   {
@@ -3723,7 +3723,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19 12V10C19 7.99004 19 6.33004 16 6.04004" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["directbox", "send"],
+    tags: ["directbox", "send", "outbox", "send mail", "outgoing messages", "upload mail", "post mail", "communication", "email folder", "arrow up", "mailbox"],
     category: "twotone"
   },
   {
@@ -3736,7 +3736,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.49451 9.5H9.50349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["discount", "circle"],
+    tags: ["discount", "circle", "sale", "offer", "coupon", "promotion", "deal", "price cut", "bargain", "percentage", "tag"],
     category: "twotone"
   },
   {
@@ -3749,7 +3749,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.49451 9.5H9.50349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["discount", "shape"],
+    tags: ["discount", "shape", "sale", "offer", "coupon", "promotion", "deal", "price cut", "bargain", "percentage", "tag"],
     category: "twotone"
   },
   {
@@ -3760,7 +3760,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 16.25C9.66 16.25 7.75 14.34 7.75 12C7.75 9.66 9.66 7.75 12 7.75C14.34 7.75 16.25 9.66 16.25 12C16.25 14.34 14.34 16.25 12 16.25ZM12 9.25C10.48 9.25 9.25 10.48 9.25 12C9.25 13.52 10.48 14.75 12 14.75C13.52 14.75 14.75 13.52 14.75 12C14.75 10.48 13.52 9.25 12 9.25Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["discover", "1"],
+    tags: ["discover", "1", "explore", "find", "search", "adventure", "journey", "uncover", "magnifying glass", "compass", "location"],
     category: "outline"
   },
   {
@@ -3771,7 +3771,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.5 8C10.47 8 8 10.48 8 13.5C8 14.87 9.12 16 10.5 16C13.52 16 16 13.52 16 10.5C16 9.13 14.87 8 13.5 8Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["discover"],
+    tags: ["discover", "explore", "find", "search", "adventure", "journey", "uncover", "magnifying glass", "compass", "location"],
     category: "twotone"
   },
   {
@@ -3782,7 +3782,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.6191 5.65V15.45C21.6191 16.85 21.0191 17.35 19.6191 17.35H18.6191C17.2191 17.35 16.6191 16.85 16.6191 15.45V5.65C16.6191 4.25 17.2191 3.75 18.6191 3.75H19.6191C21.0191 3.75 21.6191 4.25 21.6191 5.65Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["dislike"],
+    tags: ["dislike", "thumbs down", "negative", "unhappy", "bad", "feedback", "vote down", "rejection", "unlike", "disapprove"],
     category: "twotone"
   },
   {
@@ -3793,7 +3793,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "1"],
+    tags: ["document", "1", "file", "paper", "page", "text", "report", "contract", "note", "blank", "sheet"],
     category: "twotone"
   },
   {
@@ -3806,7 +3806,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.7605 18.2598C11.4105 18.4298 11.4105 21.8298 13.7605 21.9998H19.3205C19.9905 21.9998 20.6505 21.7498 21.1405 21.2998C22.7905 19.8598 21.9105 16.9798 19.7405 16.7098C18.9605 12.0198 12.1805 13.7998 13.7805 18.2698" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "cloud"],
+    tags: ["document", "cloud", "cloud storage", "sync", "upload", "download", "backup", "online file", "digital document", "data storage", "file transfer"],
     category: "twotone"
   },
   {
@@ -3819,7 +3819,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 17L9 19L7 21" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "code", "2"],
+    tags: ["document", "code", "2", "code file", "programming", "script", "development", "coding", "software", "markup", "source code", "developer"],
     category: "twotone"
   },
   {
@@ -3832,7 +3832,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 13L16 15L14 17" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "code"],
+    tags: ["document", "code", "programming", "development", "script", "coding", "file", "syntax", "backend", "frontend", "software"],
     category: "twotone"
   },
   {
@@ -3846,7 +3846,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 7H18C15.75 7 15 6.25 15 4V1L21 7Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "copy"],
+    tags: ["document", "copy", "duplicate", "clone", "replicate", "file", "new", "create", "content", "page"],
     category: "twotone"
   },
   {
@@ -3861,7 +3861,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "download"],
+    tags: ["document", "download", "save", "archive", "get", "retrieve", "file", "offline", "import", "arrow"],
     category: "twotone"
   },
   {
@@ -3873,7 +3873,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.61978 15.7299C6.28978 14.6999 6.67978 13.4299 7.74978 13.0799C8.31978 12.8999 9.01978 13.0499 9.40978 13.5999C9.77978 13.0299 10.5098 12.8999 11.0698 13.0799C12.1498 13.4299 12.5298 14.6999 12.2098 15.7299C11.6998 17.3599 9.90978 18.2099 9.40978 18.2099C8.91978 18.1999 7.14978 17.3699 6.61978 15.7299Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "favorite"],
+    tags: ["document", "favorite", "bookmark", "star", "important", "preferred", "file", "save", "wishlist", "highlight"],
     category: "twotone"
   },
   {
@@ -3886,7 +3886,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11 17H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "filter"],
+    tags: ["document", "filter", "sort", "organize", "refine", "search", "file", "options", "settings", "funnel"],
     category: "twotone"
   },
   {
@@ -3898,7 +3898,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "forward"],
+    tags: ["document", "forward", "next", "advance", "proceed", "file", "arrow", "move", "send", "share"],
     category: "twotone"
   },
   {
@@ -3910,7 +3910,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.47916 15.4901C7.14916 14.4601 7.53914 13.1901 8.60914 12.8401C9.17914 12.6601 9.87914 12.8101 10.2691 13.3601C10.6391 12.7901 11.3691 12.6601 11.9291 12.8401C13.0091 13.1901 13.3892 14.4601 13.0692 15.4901C12.5592 17.1201 10.7691 17.9701 10.2691 17.9701C9.77914 17.9601 8.00916 17.1301 7.47916 15.4901Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "like"],
+    tags: ["document", "like", "approve", "agree", "favorite", "positive", "file", "thumb", "feedback", "endorse"],
     category: "twotone"
   },
   {
@@ -3921,7 +3921,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15 22.7499H9C3.38 22.7499 2.25 20.1699 2.25 15.9999V9.99993C2.25 5.43993 3.9 3.48993 7.96 3.27993C8.37 3.25993 8.73 3.56993 8.75 3.98993C8.77 4.40993 8.45 4.74993 8.04 4.76993C5.2 4.92993 3.75 5.77993 3.75 9.99993V15.9999C3.75 19.6999 4.48 21.2499 9 21.2499H15C19.52 21.2499 20.25 19.6999 20.25 15.9999V9.99993C20.25 5.77993 18.8 4.92993 15.96 4.76993C15.55 4.74993 15.23 4.38993 15.25 3.97993C15.27 3.56993 15.63 3.24993 16.04 3.26993C20.1 3.48993 21.75 5.43993 21.75 9.98993V15.9899C21.75 20.1699 20.62 22.7499 15 22.7499Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["document", "normal"],
+    tags: ["document", "normal", "blank", "empty", "plain", "default", "file", "new", "standard", "basic"],
     category: "outline"
   },
   {
@@ -3936,7 +3936,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 10H18C15 10 14 9 14 6V2L18 6L22 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "previous"],
+    tags: ["document", "previous", "back", "return", "rewind", "file", "arrow", "history", "undo", "prior"],
     category: "twotone"
   },
   {
@@ -3948,7 +3948,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M7.31975 11H9.96975C10.2398 11 10.5798 11.18 10.7198 11.4L11.8498 13.1C12.0798 13.44 12.0298 13.95 11.7398 14.24L9.27975 16.7C8.92975 17.05 8.34975 17.05 7.99975 16.7L5.53975 14.24C5.24975 13.95 5.19975 13.44 5.42975 13.1L6.55975 11.4C6.71975 11.18 7.05975 11 7.31975 11Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "sketch"],
+    tags: ["document", "sketch", "draw", "design", "art", "creative", "file", "idea", "draft", "pencil", "illustrate"],
     category: "twotone"
   },
   {
@@ -3961,7 +3961,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 17H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "text", "1"],
+    tags: ["document", "text", "1", "article", "content", "report", "notes", "file", "paragraph", "writing", "invoice", "receipt"],
     category: "twotone"
   },
   {
@@ -3974,7 +3974,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 17H16" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "text"],
+    tags: ["document", "text", "article", "content", "report", "notes", "file", "paragraph", "writing", "invoice", "receipt"],
     category: "twotone"
   },
   {
@@ -3989,7 +3989,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document", "upload"],
+    tags: ["document", "upload", "send", "share", "publish", "post", "file", "cloud", "submit", "arrow"],
     category: "twotone"
   },
   {
@@ -4001,7 +4001,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.75 15H8.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["document"],
+    tags: ["document", "file", "page", "sheet", "report", "content", "paper", "record", "data"],
     category: "twotone"
   },
   {
@@ -4015,7 +4015,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["dollar", "circle"],
+    tags: ["dollar", "circle", "money", "currency", "finance", "payment", "cash", "price", "cost", "economy", "rounded"],
     category: "twotone"
   },
   {
@@ -4029,7 +4029,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15 22H9C4 22 2 20 2 15V9C2 4 4 2 9 2H15C20 2 22 4 22 9V15C22 20 20 22 15 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["dollar", "square"],
+    tags: ["dollar", "square", "money", "currency", "finance", "payment", "cash", "price", "cost", "economy"],
     category: "twotone"
   },
   {
@@ -4046,7 +4046,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["driver", "2"],
+    tags: ["driver", "2", "person", "user", "delivery", "transportation", "vehicle", "car", "logistics", "service"],
     category: "twotone"
   },
   {
@@ -4063,7 +4063,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.5604 20.33C21.0004 21.3 19.9504 21.95 18.7504 21.95C16.9604 21.95 15.8604 20.15 15.8604 20.15M15.9304 17.09C16.4904 16.11 17.5404 15.46 18.7504 15.46C20.9204 15.46 22.0004 17.26 22.0004 17.26M22.0004 15.25V17.25H20.0004M17.8604 20.14H15.8604V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["driver", "refresh"],
+    tags: ["driver", "refresh", "reload", "update", "person", "user", "delivery", "transportation", "vehicle", "car", "logistics", "service"],
     category: "twotone"
   },
   {
@@ -4080,7 +4080,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 18H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["driver"],
+    tags: ["driver", "person", "user", "delivery", "transportation", "vehicle", "car", "logistics", "service"],
     category: "twotone"
   },
   {
@@ -4099,7 +4099,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21 18L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["driving"],
+    tags: ["driving", "car", "road", "travel", "journey", "transportation", "vehicle", "route", "navigation"],
     category: "twotone"
   },
   {
@@ -4109,7 +4109,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.6103 2.21C12.2503 1.93 11.7503 1.93 11.3903 2.21C9.49029 3.66 3.88028 8.39 3.91028 13.9C3.91028 18.36 7.54028 22 12.0103 22C16.4803 22 20.1103 18.37 20.1103 13.91C20.1203 8.48 14.5003 3.67 12.6103 2.21Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["drop"],
+    tags: ["drop", "water", "liquid", "tear", "rain", "humidity", "fluid", "weather", "nature"],
     category: "twotone"
   },
   {
@@ -4121,7 +4121,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3 22H21" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["edit", "2"],
+    tags: ["edit", "2", "write", "compose", "modify", "update", "pencil", "pen", "create", "change", "minimal"],
     category: "twotone"
   },
   {
@@ -4133,7 +4133,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.9102 4.1499C15.5802 6.5399 17.4502 8.4099 19.8502 9.0899" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["edit"],
+    tags: ["edit", "write", "compose", "modify", "update", "pencil", "pen", "create", "change"],
     category: "twotone"
   },
   {
@@ -4146,7 +4146,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 22V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["electricity"],
+    tags: ["electricity", "power", "energy", "charge", "lightning", "bolt", "thunder", "shock", "current", "electric"],
     category: "twotone"
   },
   {
@@ -4158,7 +4158,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 19.77V15.73C22 14.14 21.36 13.5 19.77 13.5H15.73C14.14 13.5 13.5 14.14 13.5 15.73V19.77C13.5 21.36 14.14 22 15.73 22H19.77C21.36 22 22 21.36 22 19.77Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["element", "2"],
+    tags: ["element", "2", "grid", "layout", "dashboard", "menu", "blocks", "structure", "organize", "ui"],
     category: "twotone"
   },
   {
@@ -4171,7 +4171,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.5 19.77V15.73C10.5 14.14 9.86 13.5 8.27 13.5H4.23C2.64 13.5 2 14.14 2 15.73V19.77C2 21.36 2.64 22 4.23 22H8.27C9.86 22 10.5 21.36 10.5 19.77Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["element", "3"],
+    tags: ["element", "3", "grid", "layout", "blocks", "three", "dashboard", "ui", "geometric", "minimal"],
     category: "twotone"
   },
   {
@@ -4184,7 +4184,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.5 4.1V5.9C10.5 7.4 9.86 8 8.27 8H4.23C2.64 8 2 7.4 2 5.9V4.1C2 2.6 2.64 2 4.23 2H8.27C9.86 2 10.5 2.6 10.5 4.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["element", "4"],
+    tags: ["element", "4", "grid", "layout", "blocks", "four", "dashboard", "ui", "geometric", "minimal"],
     category: "twotone"
   },
   {
@@ -4198,7 +4198,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15 19.5H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["element", "equal"],
+    tags: ["element", "equal", "grid", "layout", "blocks", "comparison", "balance", "geometric", "minimal", "ui"],
     category: "twotone"
   },
   {
@@ -4214,7 +4214,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["element", "plus"],
+    tags: ["element", "plus", "grid", "layout", "blocks", "add", "create", "new", "geometric", "minimal", "ui"],
     category: "twotone"
   },
   {
@@ -4227,7 +4227,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.4 13.2998H15.6C16.1 13.2998 16.5 13.6998 16.5 14.1998C16.5 16.6898 14.49 18.6998 12 18.6998C9.51 18.6998 7.5 16.6898 7.5 14.1998C7.5 13.6998 7.9 13.2998 8.4 13.2998Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["emoji", "happy"],
+    tags: ["emoji", "happy", "smile", "joy", "positive", "feedback", "satisfied", "feeling", "mood", "friendly", "rounded"],
     category: "twotone"
   },
   {
@@ -4240,7 +4240,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M8.4 13H15.6C16.1 13 16.5 13.4 16.5 13.9C16.5 16.39 14.49 18.4 12 18.4C9.51 18.4 7.5 16.39 7.5 13.9C7.5 13.4 7.9 13 8.4 13Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["emoji", "normal"],
+    tags: ["emoji", "normal", "neutral", "indifferent", "meh", "feedback", "feeling", "mood", "friendly", "rounded"],
     category: "twotone"
   },
   {
@@ -4253,7 +4253,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M8.4 17.6998H15.6C16.1 17.6998 16.5 17.2998 16.5 16.7998C16.5 14.3098 14.49 12.2998 12 12.2998C9.51 12.2998 7.5 14.3098 7.5 16.7998C7.5 17.2998 7.9 17.6998 8.4 17.6998Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["emoji", "sad"],
+    tags: ["emoji", "sad", "frown", "unhappy", "negative", "feedback", "dissatisfied", "feeling", "mood", "friendly", "rounded"],
     category: "twotone"
   },
   {
@@ -4269,7 +4269,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5 17.52V20.51" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["empty", "wallet", "add"],
+    tags: ["empty", "wallet", "add", "money", "cash", "funds", "deposit", "top up", "payment", "finance", "currency"],
     category: "twotone"
   },
   {
@@ -4286,7 +4286,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.2807 23.75C8.0907 23.75 7.9007 23.68 7.7507 23.53C7.4607 23.24 7.4607 22.7599 7.7507 22.4699L8.44071 21.78L7.7507 21.09C7.4607 20.8 7.4607 20.32 7.7507 20.03C8.0407 19.74 8.5207 19.74 8.8107 20.03L10.0307 21.25C10.3207 21.54 10.3207 22.02 10.0307 22.31L8.8107 23.53C8.6707 23.68 8.4707 23.75 8.2807 23.75Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["empty", "wallet", "change"],
+    tags: ["empty", "wallet", "change", "money", "cash", "funds", "exchange", "transfer", "payment", "finance", "currency", "swap"],
     category: "outline"
   },
   {
@@ -4302,7 +4302,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.04969 17.96L3.92969 20.0699" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["empty", "wallet", "remove"],
+    tags: ["empty", "wallet", "remove", "money", "cash", "funds", "withdraw", "expense", "payment", "finance", "currency", "delete"],
     category: "twotone"
   },
   {
@@ -4317,7 +4317,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.43945 19L4.42944 19.99L6.55945 18.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["empty", "wallet", "tick"],
+    tags: ["empty", "wallet", "tick", "money", "cash", "funds", "approved", "paid", "payment", "finance", "currency", "confirm", "success"],
     category: "twotone"
   },
   {
@@ -4332,7 +4332,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.99988 20.75C3.74988 20.75 3.49988 20.62 3.35988 20.39C3.14988 20.03 3.25988 19.57 3.61988 19.36L4.50988 18.83V17.75C4.50988 17.34 4.84988 17 5.25988 17C5.66988 17 6.00988 17.34 6.00988 17.75V19.25C6.00988 19.51 5.86988 19.76 5.64988 19.89L4.39988 20.64C4.26988 20.72 4.12988 20.75 3.99988 20.75Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["empty", "wallet", "time"],
+    tags: ["empty", "wallet", "time", "money", "cash", "funds", "pending", "history", "payment", "finance", "currency", "due", "schedule"],
     category: "outline"
   },
   {
@@ -4345,7 +4345,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 12H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["empty", "wallet"],
+    tags: ["empty", "wallet", "money", "cash", "funds", "purse", "payment", "finance", "currency", "bank"],
     category: "twotone"
   },
   {
@@ -4361,7 +4361,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["eraser", "1"],
+    tags: ["eraser", "1", "delete", "clear", "remove", "correct", "edit", "tool", "education", "cleanup", "rounded"],
     category: "twotone"
   },
   {
@@ -4375,7 +4375,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["eraser"],
+    tags: ["eraser", "delete", "clear", "remove", "correct", "edit", "tool", "education", "cleanup", "rounded"],
     category: "twotone"
   },
   {
@@ -4389,7 +4389,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4 12C4 16.42 7 20 12 20C17 20 20 16.42 20 12" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["export", "1"],
+    tags: ["export", "1", "share", "upload", "send", "output", "data", "arrow", "navigation", "ui"],
     category: "twotone"
   },
   {
@@ -4403,7 +4403,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["export", "2"],
+    tags: ["export", "2", "share", "upload", "send", "output", "data", "arrow", "navigation", "ui"],
     category: "twotone"
   },
   {
@@ -4417,7 +4417,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["export", "3"],
+    tags: ["export", "3", "share", "upload", "send", "output", "data", "arrow", "navigation", "ui"],
     category: "twotone"
   },
   {
@@ -4431,7 +4431,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["export"],
+    tags: ["export", "share", "upload", "send", "output", "data", "arrow", "navigation", "ui"],
     category: "twotone"
   },
   {
@@ -4446,7 +4446,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.4945 18.25H16.5035" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["external", "drive"],
+    tags: ["external", "drive", "storage", "hard drive", "usb", "backup", "data", "device", "hardware", "memory"],
     category: "twotone"
   },
   {
@@ -4461,7 +4461,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.9993 2L14.5293 9.47" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["eye", "slash"],
+    tags: ["eye", "slash", "hide", "invisible", "private", "security", "password", "unseen", "toggle", "ui"],
     category: "twotone"
   },
   {
@@ -4472,7 +4472,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9998 20.2702C15.5298 20.2702 18.8198 18.1902 21.1098 14.5902C22.0098 13.1802 22.0098 10.8102 21.1098 9.40021C18.8198 5.80021 15.5298 3.72021 11.9998 3.72021C8.46984 3.72021 5.17984 5.80021 2.88984 9.40021C1.98984 10.8102 1.98984 13.1802 2.88984 14.5902C5.17984 18.1902 8.46984 20.2702 11.9998 20.2702Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["eye"],
+    tags: ["eye", "show", "visible", "view", "security", "password", "see", "toggle", "ui"],
     category: "twotone"
   },
   {
@@ -4483,7 +4483,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.9 2H4.1C2.6 2 2 2.64 2 4.23V8.27C2 9.86 2.6 10.5 4.1 10.5H12.9C14.4 10.5 15 9.86 15 8.27V4.23C15 2.64 14.4 2 12.9 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["fatrows"],
+    tags: ["fatrows", "menu", "hamburger", "list", "navigation", "options", "lines", "ui", "dashboard"],
     category: "twotone"
   },
   {
@@ -4495,7 +4495,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.4802 15.8199L19.7602 16.3899C19.9002 16.6699 20.2502 16.9299 20.5602 16.9899L20.9402 17.0499C22.0802 17.2399 22.3502 18.0799 21.5302 18.9099L21.1802 19.2599C20.9502 19.4999 20.8202 19.9599 20.8902 20.2799L20.9402 20.4899C21.2502 21.8699 20.5202 22.3999 19.3202 21.6799L19.0602 21.5299C18.7502 21.3499 18.2502 21.3499 17.9402 21.5299L17.6802 21.6799C16.4702 22.4099 15.7402 21.8699 16.0602 20.4899L16.1102 20.2799C16.1802 19.9599 16.0502 19.4999 15.8202 19.2599L15.4702 18.9099C14.6502 18.0799 14.9202 17.2399 16.0602 17.0499L16.4402 16.9899C16.7402 16.9399 17.1002 16.6699 17.2402 16.3899L17.5202 15.8199C18.0602 14.7299 18.9402 14.7299 19.4802 15.8199Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["favorite", "chart"],
+    tags: ["favorite", "chart", "star", "bookmark", "like", "preferred", "rating", "graph", "analytics", "data", "performance"],
     category: "twotone"
   },
   {
@@ -4508,7 +4508,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.6905 4.02002V6.23999C20.6905 7.04999 20.1805 8.06001 19.6805 8.57001L17.9205 10.12C17.5905 10.04 17.2405 10 16.8805 10C14.2605 10 12.1305 12.13 12.1305 14.75C12.1305 15.64 12.3805 16.48 12.8205 17.2C13.1905 17.82 13.7005 18.35 14.3205 18.73V19.07C14.3205 19.68 13.9205 20.49 13.4105 20.79L12.0005 21.7C10.6905 22.51 8.87054 21.6 8.87054 19.98V14.63C8.87054 13.92 8.46055 13.01 8.06055 12.51L4.22055 8.46997C3.72055 7.95997 3.31055 7.05001 3.31055 6.45001V4.12C3.31055 2.91 4.22055 2 5.33055 2H18.6705C19.7805 2 20.6905 2.91002 20.6905 4.02002Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["filter", "add"],
+    tags: ["filter", "add", "sort", "refine", "options", "customize", "plus", "search", "ui"],
     category: "twotone"
   },
   {
@@ -4520,7 +4520,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.5801 12.3901C16.8801 13.4701 17.72 14.3101 18.8 14.6101" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["filter", "edit"],
+    tags: ["filter", "edit", "adjust", "customize", "settings", "preferences", "modify", "tune", "control", "ui"],
     category: "twotone"
   },
   {
@@ -4533,7 +4533,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.6905 4.02002V6.23999C20.6905 7.04999 20.1805 8.06001 19.6805 8.57001L17.9205 10.12C17.5905 10.04 17.2405 10 16.8805 10C14.2605 10 12.1305 12.13 12.1305 14.75C12.1305 15.64 12.3805 16.48 12.8205 17.2C13.1905 17.82 13.7005 18.35 14.3205 18.73V19.07C14.3205 19.68 13.9205 20.49 13.4105 20.79L12.0005 21.7C10.6905 22.51 8.87055 21.6 8.87055 19.98V14.63C8.87055 13.92 8.46055 13.01 8.06055 12.51L4.22055 8.46997C3.72055 7.95997 3.31055 7.05001 3.31055 6.45001V4.12C3.31055 2.91 4.22055 2 5.33055 2H18.6705C19.7805 2 20.6905 2.91002 20.6905 4.02002Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["filter", "remove"],
+    tags: ["filter", "remove", "clear", "delete", "reset", "cancel", "undo", "exclude", "unselect", "ui"],
     category: "twotone"
   },
   {
@@ -4545,7 +4545,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.8691 17.1201L18.8691 16.1201" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["filter", "search"],
+    tags: ["filter", "search", "find", "locate", "explore", "discover", "magnify", "query", "investigate", "ui"],
     category: "twotone"
   },
   {
@@ -4556,7 +4556,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["filter", "square"],
+    tags: ["filter", "square", "selection", "options", "preferences", "settings", "box", "geometric", "ui"],
     category: "twotone"
   },
   {
@@ -4568,7 +4568,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.6906 4.01999V6.23999C20.6906 7.04999 20.1805 8.06001 19.6805 8.57001L17.9205 10.12C17.5905 10.04 17.2406 10 16.8806 10C14.2606 10 12.1306 12.13 12.1306 14.75C12.1306 15.64 12.3806 16.48 12.8206 17.2C13.1906 17.82 13.7006 18.35 14.3206 18.73V19.07C14.3206 19.68 13.9205 20.49 13.4105 20.79L12.0005 21.7C10.6905 22.51 8.87054 21.6 8.87054 19.98V14.63C8.87054 13.92 8.46055 13.01 8.06055 12.51L4.22052 8.47C3.72052 7.96 3.31055 7.05001 3.31055 6.45001V4.12C3.31055 2.91 4.22057 2 5.33057 2H18.6705C19.7805 2 20.6906 2.90999 20.6906 4.01999Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["filter", "tick"],
+    tags: ["filter", "tick", "apply", "confirm", "accept", "select", "approve", "done", "success", "ui"],
     category: "twotone"
   },
   {
@@ -4579,7 +4579,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.93 2.1001L6 10.0001" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["filter"],
+    tags: ["filter", "sort", "options", "preferences", "funnel", "refine", "organize", "settings", "ui"],
     category: "twotone"
   },
   {
@@ -4591,7 +4591,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.98 13.4702C16.78 16.0502 14.62 18.0702 12 18.0702C9.24 18.0702 7 15.8302 7 13.0702V10.9302C7 8.17018 9.24 5.93018 12 5.93018C14.59 5.93018 16.72 7.90017 16.97 10.4202" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["finger", "cricle"],
+    tags: ["finger", "cricle", "touch", "tap", "point", "gesture", "interaction", "circular", "ui", "hand"],
     category: "twotone"
   },
   {
@@ -4606,7 +4606,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 15V17C2 20 4 22 7 22H9" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["finger", "scan"],
+    tags: ["finger", "scan", "biometric", "authentication", "security", "identity", "access", "login", "privacy", "ui"],
     category: "twotone"
   },
   {
@@ -4620,7 +4620,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.5 8.43V5.57C9.5 4.45 9.05 4 7.92 4H5.07C3.95 4 3.5 4.45 3.5 5.57V8.42C3.5 9.55 3.95 10 5.07 10H7.92C9.05 10 9.5 9.55 9.5 8.43Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["firstline"],
+    tags: ["firstline", "text", "paragraph", "indent", "layout", "formatting", "document", "typography", "ui"],
     category: "twotone"
   },
   {
@@ -4631,7 +4631,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M6.94922 4L15.0492 7.5C18.3492 8.9 18.3492 11.3 15.2492 12.9L6.94922 17" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["flag", "2"],
+    tags: ["flag", "2", "report", "bookmark", "mark", "pin", "country", "nation", "goal", "ui"],
     category: "twotone"
   },
   {
@@ -4642,7 +4642,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M5.15039 4H16.3504C19.0504 4 19.6504 5.5 17.7504 7.4L16.5504 8.6C15.7504 9.4 15.7504 10.7 16.5504 11.4L17.7504 12.6C19.6504 14.5 18.9504 16 16.3504 16H5.15039" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["flag"],
+    tags: ["flag", "report", "bookmark", "mark", "pin", "country", "nation", "goal", "ui"],
     category: "twotone"
   },
   {
@@ -4652,7 +4652,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.08913 13.2799H9.17913V20.4799C9.17913 22.1599 10.0891 22.4999 11.1991 21.2399L18.7691 12.6399C19.6991 11.5899 19.3091 10.7199 17.8991 10.7199H14.8091V3.5199C14.8091 1.8399 13.8991 1.4999 12.7891 2.7599L5.21913 11.3599C4.29913 12.4199 4.68913 13.2799 6.08913 13.2799Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["flash", "1"],
+    tags: ["flash", "1", "lightning", "speed", "fast", "power", "energy", "alert", "warning", "weather"],
     category: "twotone"
   },
   {
@@ -4663,7 +4663,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9707 22C17.4936 22 21.9707 17.5228 21.9707 12C21.9707 6.47715 17.4936 2 11.9707 2C6.44786 2 1.9707 6.47715 1.9707 12C1.9707 17.5228 6.44786 22 11.9707 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["flash", "circle", "1"],
+    tags: ["flash", "circle", "1", "lightning", "speed", "fast", "power", "energy", "alert", "circular", "weather"],
     category: "twotone"
   },
   {
@@ -4674,7 +4674,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.67938 11.9098L10.3294 12.3198L9.37939 16.1599C9.15939 17.0599 9.59937 17.3598 10.3594 16.8298L15.5394 13.2398C16.1694 12.7998 16.0794 12.2898 15.3294 12.0998L13.6794 11.6898L14.6294 7.84981C14.8494 6.94981 14.4094 6.64983 13.6494 7.17983L8.46939 10.7699C7.83939 11.2099 7.92938 11.7198 8.67938 11.9098Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["flash", "circle"],
+    tags: ["flash", "circle", "lightning", "speed", "fast", "power", "energy", "alert", "circular", "weather"],
     category: "twotone"
   },
   {
@@ -4686,7 +4686,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["flash", "slash"],
+    tags: ["flash", "slash", "no flash", "disabled", "off", "power off", "no power", "lightning", "camera", "ui"],
     category: "twotone"
   },
   {
@@ -4699,7 +4699,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M4.5 12H1.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["flash"],
+    tags: ["flash", "lightning", "speed", "fast", "power", "energy", "alert", "warning", "weather"],
     category: "twotone"
   },
   {
@@ -4710,7 +4710,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 2H17C19 2 20 3 20 5V6.38" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "2"],
+    tags: ["folder", "2", "directory", "archive", "documents", "organize", "storage", "data", "files", "ui"],
     category: "twotone"
   },
   {
@@ -4724,7 +4724,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 11V17C22 21 21 22 17 22H7C3 22 2 21 2 17V7C2 3 3 2 7 2H8.5C10 2 10.33 2.44 10.9 3.2L12.4 5.2C12.78 5.7 13 6 14 6H17C21 6 22 7 22 11Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "add"],
+    tags: ["folder", "add", "new folder", "create", "add new", "upload", "plus", "directory", "organize", "ui"],
     category: "twotone"
   },
   {
@@ -4735,7 +4735,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.7605 18.3199C11.4105 18.4899 11.4105 21.8899 13.7605 22.0599H19.3205C19.9905 22.0599 20.6506 21.8099 21.1406 21.3599C22.7906 19.9199 21.9105 17.0399 19.7405 16.7699C18.9605 12.0799 12.1806 13.8599 13.7806 18.3299" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "cloud"],
+    tags: ["folder", "cloud", "cloud storage", "sync", "backup", "online", "remote", "upload", "data", "ui"],
     category: "twotone"
   },
   {
@@ -4749,7 +4749,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19 8.30005V12.5C19 15.3 18.3 16 15.5 16H8.5C5.7 16 5 15.3 5 12.5V5.5C5 2.7 5.7 2 8.5 2H9.54999C10.6 2 10.83 2.30997 11.23 2.83997L12.28 4.23999C12.55 4.58999 12.7 4.80005 13.4 4.80005H15.5C18.3 4.80005 19 5.50005 19 8.30005Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "connection"],
+    tags: ["folder", "connection", "network", "share", "link", "connected", "collaboration", "sync", "data", "ui"],
     category: "twotone"
   },
   {
@@ -4763,7 +4763,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 11V17C22 21 21 22 17 22H7C3 22 2 21 2 17V7C2 3 3 2 7 2H8.5C10 2 10.33 2.44 10.9 3.2L12.4 5.2C12.78 5.7 13 6 14 6H17C21 6 22 7 22 11Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "cross"],
+    tags: ["folder", "cross", "delete", "remove", "cancel", "error", "close", "exit", "clear", "ui"],
     category: "twotone"
   },
   {
@@ -4774,7 +4774,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 11V17C22 21 21 22 17 22H7C3 22 2 21 2 17V7C2 3 3 2 7 2H8.5C10 2 10.33 2.44 10.9 3.2L12.4 5.2C12.78 5.7 13 6 14 6H17C21 6 22 7 22 11Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "favorite"],
+    tags: ["folder", "favorite", "bookmark", "starred", "important", "saved", "liked", "heart", "priority", "ui"],
     category: "twotone"
   },
   {
@@ -4785,7 +4785,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 11V17C22 21 21 22 17 22H7C3 22 2 21 2 17V7C2 3 3 2 7 2H8.5C10 2 10.33 2.44 10.9 3.2L12.4 5.2C12.78 5.7 13 6 14 6H17C21 6 22 7 22 11Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "minus"],
+    tags: ["folder", "minus", "remove", "delete", "subtract", "reduce", "archive", "clear", "ui"],
     category: "twotone"
   },
   {
@@ -4797,7 +4797,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.42969 17H14.5697" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder", "open"],
+    tags: ["folder", "open", "view", "access", "browse", "explore", "unfold", "directory", "documents", "ui"],
     category: "twotone"
   },
   {
@@ -4807,7 +4807,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 11V17C22 21 21 22 17 22H7C3 22 2 21 2 17V7C2 3 3 2 7 2H8.5C10 2 10.33 2.44 10.9 3.2L12.4 5.2C12.78 5.7 13 6 14 6H17C21 6 22 7 22 11Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["folder"],
+    tags: ["folder", "directory", "archive", "documents", "organize", "storage", "data", "files", "ui"],
     category: "twotone"
   },
   {
@@ -4821,7 +4821,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["forbidden", "2"],
+    tags: ["forbidden", "2", "restricted", "access denied", "no entry", "stop", "warning", "alert", "error", "filled", "prohibited", "security"],
     category: "twotone"
   },
   {
@@ -4832,7 +4832,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M4.93945 19.0799L19.0795 4.93994" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["forbidden"],
+    tags: ["forbidden", "restricted", "access denied", "no entry", "stop", "warning", "alert", "error", "outlined", "prohibited", "security"],
     category: "twotone"
   },
   {
@@ -4846,7 +4846,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.5 12C21.5 13.6 21.11 15.09 20.41 16.41C19.93 16.03 19.32 15.8 18.65 15.8C17.07 15.8 15.8 17.07 15.8 18.65C15.8 19.32 16.03 19.92 16.41 20.41C15.09 21.11 13.6 21.5 12 21.5C10.41 21.5 8.91 21.11 7.59 20.41C7.97 19.93 8.2 19.32 8.2 18.65C8.2 17.07 6.93 15.8 5.35 15.8C4.68 15.8 4.08 16.03 3.59 16.41C2.89 15.09 2.5 13.6 2.5 12C2.5 10.41 2.89 8.91 3.59 7.59C4.08 7.97 4.68 8.2 5.35 8.2C6.93 8.2 8.2 6.93 8.2 5.35C8.2 4.68 7.97 4.08 7.59 3.59C8.91 2.89 10.41 2.5 12 2.5C13.6 2.5 15.09 2.89 16.41 3.59C16.03 4.07 15.8 4.68 15.8 5.35C15.8 6.93 17.07 8.2 18.65 8.2C19.32 8.2 19.92 7.97 20.41 7.59C21.11 8.91 21.5 10.41 21.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["format", "circle"],
+    tags: ["format", "circle", "layout", "structure", "design", "arrange", "style", "circular", "grid", "pattern", "ui", "settings"],
     category: "twotone"
   },
   {
@@ -4860,7 +4860,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 19.5C22 20.88 20.88 22 19.5 22C18.29 22 17.28 21.14 17.05 20C17.02 19.84 17 19.67 17 19.5C17 18.12 18.12 17 19.5 17C19.67 17 19.84 17.02 20 17.05C21.14 17.28 22 18.29 22 19.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["format", "square"],
+    tags: ["format", "square", "layout", "structure", "design", "arrange", "style", "geometric", "grid", "pattern", "ui"],
     category: "twotone"
   },
   {
@@ -4873,7 +4873,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 10.5801C15.1 10.5801 16 11.4801 16 12.5801V13.9301C16 15.0301 15.1 15.9301 14 15.9301C12.9 15.9301 12 15.0301 12 13.9301V12.5801C12 11.4701 12.9 10.5801 14 10.5801Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["forward", "10", "seconds"],
+    tags: ["forward", "10", "seconds", "skip", "jump", "fast forward", "media player", "video", "audio", "playback", "time", "arrow", "ui"],
     category: "twotone"
   },
   {
@@ -4886,7 +4886,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.0894 7.79974C20.1994 9.27974 20.8894 11.1097 20.8894 13.1097C20.8894 18.0197 16.9094 21.9998 11.9994 21.9998C7.08939 21.9998 3.10938 18.0197 3.10938 13.1097C3.10938 8.19974 7.08939 4.21973 11.9994 4.21973C12.6794 4.21973 13.3394 4.30978 13.9794 4.45978" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["forward", "15", "seconds"],
+    tags: ["forward", "15", "seconds", "skip", "jump", "fast forward", "media player", "video", "audio", "playback", "time", "arrow", "ui"],
     category: "twotone"
   },
   {
@@ -4898,7 +4898,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.9098 10.8301H10.8498L10.0898 13.1201H12.3798C13.2198 13.1201 13.9098 13.8001 13.9098 14.6501C13.9098 15.4901 13.2298 16.1801 12.3798 16.1801H10.0898" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["forward", "5", "seconds"],
+    tags: ["forward", "5", "seconds", "skip", "jump", "fast forward", "media player", "video", "audio", "playback", "time", "arrow", "ui"],
     category: "twotone"
   },
   {
@@ -4910,7 +4910,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 18.23V15C2 12.31 3.08 11.23 5.77 11.23H6.62V13.61C6.62 16.3 7.7 17.38 10.39 17.38H12.77V18.23C12.77 20.92 11.69 22 9 22H5.77C3.08 22 2 20.92 2 18.23Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["forward", "item"],
+    tags: ["forward", "item", "next", "skip", "advance", "move", "send", "share", "email", "message", "arrow", "navigation"],
     category: "twotone"
   },
   {
@@ -4924,7 +4924,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["forward", "square"],
+    tags: ["forward", "square", "next", "skip", "advance", "move", "send", "share", "geometric", "arrow", "navigation"],
     category: "twotone"
   },
   {
@@ -4935,7 +4935,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.7598 8.33994V15.6599C11.7598 17.1599 13.3898 18.0999 14.6898 17.3499L17.8597 15.5299L21.0298 13.7C22.3298 12.95 22.3298 11.08 21.0298 10.32L17.8597 8.48993L14.6898 6.66996C13.3898 5.89996 11.7598 6.83994 11.7598 8.33994Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["forward"],
+    tags: ["forward", "next", "skip", "advance", "move", "send", "share", "arrow", "navigation", "play"],
     category: "twotone"
   },
   {
@@ -4950,7 +4950,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["frame", "1"],
+    tags: ["frame", "1", "layout", "border", "window", "picture", "gallery", "image", "ui", "design", "geometric", "square"],
     category: "twotone"
   },
   {
@@ -4964,7 +4964,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["frame", "2"],
+    tags: ["frame", "2", "layout", "border", "window", "picture", "gallery", "image", "ui", "design", "geometric", "square"],
     category: "twotone"
   },
   {
@@ -4976,7 +4976,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 19H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["frame", "3"],
+    tags: ["frame", "3", "layout", "border", "window", "picture", "gallery", "image", "ui", "design", "geometric", "square"],
     category: "twotone"
   },
   {
@@ -4988,7 +4988,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.8203 2H7.18031C5.05031 2 3.32031 3.74 3.32031 5.86V19.95C3.32031 21.75 4.61031 22.51 6.19031 21.64L11.0703 18.93C11.5903 18.64 12.4303 18.64 12.9403 18.93L17.8203 21.64C19.4003 22.52 20.6903 21.76 20.6903 19.95V5.86C20.6803 3.74 18.9503 2 16.8203 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["frame", "4"],
+    tags: ["frame", "4", "layout", "border", "window", "picture", "gallery", "image", "ui", "design", "geometric", "square"],
     category: "twotone"
   },
   {
@@ -4999,7 +4999,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.4707 13.2602L12.0007 9.74023L15.5307 13.2602" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["frame"],
+    tags: ["frame", "layout", "border", "window", "picture", "gallery", "image", "ui", "design", "geometric", "square"],
     category: "twotone"
   },
   {
@@ -5015,7 +5015,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "add"],
+    tags: ["gallery", "add", "image", "photo", "picture", "album", "create", "new", "upload", "plus", "media", "ui"],
     category: "twotone"
   },
   {
@@ -5031,7 +5031,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "edit"],
+    tags: ["gallery", "edit", "image", "photo", "picture", "album", "modify", "change", "pencil", "media", "ui", "customize"],
     category: "twotone"
   },
   {
@@ -5047,7 +5047,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "export"],
+    tags: ["gallery", "export", "image", "photo", "picture", "album", "download", "share", "send", "arrow", "media", "ui"],
     category: "twotone"
   },
   {
@@ -5060,7 +5060,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "favorite"],
+    tags: ["gallery", "favorite", "image", "photo", "picture", "album", "like", "bookmark", "heart", "love", "media", "ui"],
     category: "twotone"
   },
   {
@@ -5076,7 +5076,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "import"],
+    tags: ["gallery", "import", "image", "photo", "picture", "album", "upload", "receive", "arrow", "media", "ui", "add"],
     category: "twotone"
   },
   {
@@ -5092,7 +5092,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "remove"],
+    tags: ["gallery", "remove", "image", "photo", "picture", "album", "delete", "minus", "erase", "media", "ui", "clear"],
     category: "twotone"
   },
   {
@@ -5108,7 +5108,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "slash"],
+    tags: ["gallery", "slash", "image", "photo", "picture", "album", "hide", "invisible", "disabled", "media", "ui", "privacy", "restricted"],
     category: "twotone"
   },
   {
@@ -5121,7 +5121,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery", "tick"],
+    tags: ["gallery", "tick", "image", "photo", "picture", "album", "select", "confirm", "done", "check", "media", "ui"],
     category: "twotone"
   },
   {
@@ -5133,7 +5133,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gallery"],
+    tags: ["gallery", "image", "photo", "picture", "album", "collection", "media", "ui", "photos", "visual"],
     category: "twotone"
   },
   {
@@ -5152,7 +5152,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13.0105 2L13.0005 3.01C12.9905 3.56 12.5505 4 12.0005 4H11.9705C11.4205 4 10.9805 4.45 10.9805 5C10.9805 5.55 11.4305 6 11.9805 6H12.9805" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["game"],
+    tags: ["game", "controller", "joystick", "play", "entertainment", "console", "fun", "hobby", "device", "ui", "gaming"],
     category: "twotone"
   },
   {
@@ -5167,7 +5167,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.4902 17.5V17.48" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gameboy"],
+    tags: ["gameboy", "console", "gaming", "retro", "entertainment", "play", "device", "childhood", "nostalgia"],
     category: "twotone"
   },
   {
@@ -5181,7 +5181,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.5 16.7599C17.09 16.7599 16.75 16.4299 16.75 16.0099C16.75 15.5999 17.08 15.2599 17.5 15.2599L21.25 15.2499V10.4599L19.66 9.66992C19.29 9.47992 19.14 9.02993 19.32 8.65993C19.51 8.28993 19.96 8.13993 20.33 8.31993L22.33 9.31993C22.58 9.44993 22.74 9.70993 22.74 9.98993V15.9899C22.74 16.3999 22.41 16.7399 21.99 16.7399L17.5 16.7599Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["gas", "station"],
+    tags: ["gas", "station", "fuel", "petrol", "car", "travel", "transportation", "refuel", "energy", "roadtrip"],
     category: "outline"
   },
   {
@@ -5196,7 +5196,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 20H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gemini", "2"],
+    tags: ["gemini", "2", "zodiac", "astrology", "horoscope", "twins", "constellation", "duality", "star sign"],
     category: "twotone"
   },
   {
@@ -5209,7 +5209,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.6703 20.41C15.8903 15.25 15.8403 9.03007 18.5703 3.82007L18.7003 3.58008" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gemini"],
+    tags: ["gemini", "zodiac", "astrology", "horoscope", "twins", "constellation", "duality", "star sign"],
     category: "twotone"
   },
   {
@@ -5221,7 +5221,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 11C13.1046 11 14 10.1046 14 9C14 7.89543 13.1046 7 12 7C10.8954 7 10 7.89543 10 9C10 10.1046 10.8954 11 12 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ghost"],
+    tags: ["ghost", "spirit", "halloween", "spooky", "paranormal", "haunted", "phantom", "supernatural", "friendly"],
     category: "twotone"
   },
   {
@@ -5235,7 +5235,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.93945 10V15.14C8.93945 15.94 9.81945 16.41 10.4895 15.98L11.4295 15.36C11.7695 15.14 12.1995 15.14 12.5295 15.36L13.4195 15.96C14.0795 16.4 14.9695 15.93 14.9695 15.13V10H8.93945Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gift"],
+    tags: ["gift", "present", "reward", "birthday", "celebration", "surprise", "holiday", "wrapped", "commerce"],
     category: "twotone"
   },
   {
@@ -5249,7 +5249,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 15.9099V19.1999C22 21.1999 21.2 21.9999 19.2 21.9999H16.8C14.8 21.9999 14 21.1999 14 19.1999V15.9099C14 13.9099 14.8 13.1099 16.8 13.1099H19.2C21.2 13.1099 22 13.9099 22 15.9099Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["glass", "1"],
+    tags: ["glass", "1", "drink", "beverage", "water", "cheers", "bar", "restaurant", "liquid", "minimal"],
     category: "twotone"
   },
   {
@@ -5260,7 +5260,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M5.93945 13.1199C5.93945 13.1199 8.99945 12.9999 11.9995 13.9999C14.9995 14.9999 17.8295 13.1099 17.8295 13.1099" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["glass"],
+    tags: ["glass", "drink", "beverage", "water", "cheers", "bar", "restaurant", "liquid", "minimal"],
     category: "twotone"
   },
   {
@@ -5278,7 +5278,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.6992 16.25C18.9992 17.33 19.8392 18.17 20.9192 18.47" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["global", "edit"],
+    tags: ["global", "edit", "world", "internet", "website", "modify", "update", "settings", "configuration", "map"],
     category: "twotone"
   },
   {
@@ -5297,7 +5297,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.0401 14.8003L18.5801 15.8603" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["global", "refresh"],
+    tags: ["global", "refresh", "world", "internet", "website", "reload", "update", "sync", "circular", "map"],
     category: "twotone"
   },
   {
@@ -5315,7 +5315,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 22L21 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["global", "search"],
+    tags: ["global", "search", "world", "internet", "website", "find", "explore", "discover", "magnifying glass", "map"],
     category: "twotone"
   },
   {
@@ -5331,7 +5331,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["global"],
+    tags: ["global", "world", "internet", "website", "international", "worldwide", "map", "network", "earth"],
     category: "twotone"
   },
   {
@@ -5350,7 +5350,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gps", "slash"],
+    tags: ["gps", "slash", "location", "navigation", "map", "disabled", "off", "unavailable", "pin", "route"],
     category: "twotone"
   },
   {
@@ -5365,7 +5365,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["gps"],
+    tags: ["gps", "location", "navigation", "map", "pin", "route", "tracking", "direction", "point"],
     category: "twotone"
   },
   {
@@ -5376,7 +5376,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.8399 16.0698C13.7199 18.0698 10.2799 18.0698 8.16992 16.0698" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["grammerly"],
+    tags: ["grammerly", "writing", "text", "editor", "correction", "language", "ai", "assistant", "tool"],
     category: "twotone"
   },
   {
@@ -5387,7 +5387,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.0004 14.6998C19.0704 19.3298 14.6304 22.6898 9.58042 21.8698C5.79042 21.2598 2.74042 18.2098 2.12042 14.4198C1.31042 9.38977 4.65042 4.94977 9.26042 4.00977" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["graph"],
+    tags: ["graph", "chart", "data", "analytics", "statistics", "report", "growth", "trend", "business"],
     category: "twotone"
   },
   {
@@ -5403,7 +5403,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "1"],
+    tags: ["grid", "1", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5417,7 +5417,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "2"],
+    tags: ["grid", "2", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5432,7 +5432,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "3"],
+    tags: ["grid", "3", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5443,7 +5443,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 2V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "4"],
+    tags: ["grid", "4", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5457,7 +5457,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "5"],
+    tags: ["grid", "5", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5472,7 +5472,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "6"],
+    tags: ["grid", "6", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5486,7 +5486,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "7"],
+    tags: ["grid", "7", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5503,7 +5503,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "8"],
+    tags: ["grid", "8", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5514,7 +5514,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 2V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "9"],
+    tags: ["grid", "9", "layout", "dashboard", "menu", "arrange", "view", "squares", "pattern", "minimal"],
     category: "twotone"
   },
   {
@@ -5532,7 +5532,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.1406 15.2598C18.4906 16.5198 19.4806 17.4997 20.7406 17.8597" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "edit"],
+    tags: ["grid", "edit", "layout", "design", "modify", "interface", "dashboard", "arrangement", "compose", "organize"],
     category: "twotone"
   },
   {
@@ -5550,7 +5550,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.6108 16.9L18.8008 19.7099L15.3008 16.2099L18.1108 13.39C18.6308 12.87 19.5008 12.87 20.0208 13.39L21.6008 14.98C22.1308 15.51 22.1308 16.38 21.6108 16.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "eraser"],
+    tags: ["grid", "eraser", "layout", "remove", "clear", "delete", "interface", "clean", "reset", "undo"],
     category: "twotone"
   },
   {
@@ -5568,7 +5568,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20 22.0002H16C14.4 22.0002 14 21.6002 14 20.0002V19.2002C14 17.6002 14.4 17.2002 16 17.2002H20C21.6 17.2002 22 17.6002 22 19.2002V20.0002C22 21.6002 21.6 22.0002 20 22.0002Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["grid", "lock"],
+    tags: ["grid", "lock", "layout", "security", "privacy", "secure", "protected", "interface", "access", "safety"],
     category: "twotone"
   },
   {
@@ -5579,7 +5579,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M7.21094 16C8.26094 17.51 10.0209 18.5 12.0009 18.5C13.9809 18.5 15.7309 17.51 16.7909 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["happyemoji"],
+    tags: ["happyemoji", "smile", "joy", "emotion", "feedback", "satisfaction", "mood", "positive", "contentment"],
     category: "twotone"
   },
   {
@@ -5594,7 +5594,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["hashtag", "1"],
+    tags: ["hashtag", "1", "tag", "social media", "trending", "topic", "categorize", "number", "popular", "symbol"],
     category: "twotone"
   },
   {
@@ -5614,7 +5614,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["hashtag", "down"],
+    tags: ["hashtag", "down", "tag", "social media", "trending", "decrease", "decline", "downward", "unpopular", "indicator"],
     category: "twotone"
   },
   {
@@ -5634,7 +5634,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["hashtag", "up"],
+    tags: ["hashtag", "up", "tag", "social media", "trending", "increase", "growth", "upward", "popular", "indicator"],
     category: "twotone"
   },
   {
@@ -5647,7 +5647,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2.5 15H20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["hashtag"],
+    tags: ["hashtag", "tag", "social media", "trending", "topic", "categorize", "symbol", "popular", "engagement"],
     category: "twotone"
   },
   {
@@ -5657,7 +5657,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.46005 18.4898V15.5698C5.46005 14.5998 6.22005 13.7298 7.30005 13.7298C8.27005 13.7298 9.14005 14.4898 9.14005 15.5698V18.3798C9.14005 20.3298 7.52005 21.9498 5.57005 21.9498C3.62005 21.9498 2.00005 20.3198 2.00005 18.3798V12.2198C1.89005 6.5998 6.33005 2.0498 11.95 2.0498C17.57 2.0498 22 6.5998 22 12.1098V18.2698C22 20.2198 20.38 21.8398 18.43 21.8398C16.48 21.8398 14.86 20.2198 14.86 18.2698V15.4598C14.86 14.4898 15.62 13.6198 16.7 13.6198C17.67 13.6198 18.54 14.3798 18.54 15.4598V18.4898" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["headphone"],
+    tags: ["headphone", "audio", "music", "listen", "sound", "entertainment", "device", "personal audio", "accessory"],
     category: "twotone"
   },
   {
@@ -5676,7 +5676,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["headphones"],
+    tags: ["headphones", "audio", "music", "listen", "sound", "entertainment", "device", "personal audio", "accessory"],
     category: "twotone"
   },
   {
@@ -5687,7 +5687,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M1.96973 12.7001L7.96973 12.6801C8.71973 12.6801 9.55973 13.2501 9.83973 13.9501L10.9797 16.8301C11.2397 17.4801 11.6497 17.4801 11.9097 16.8301L14.1997 11.0201C14.4197 10.4601 14.8297 10.4401 15.1097 10.9701L16.1497 12.9401C16.4597 13.5301 17.2597 14.0101 17.9197 14.0101H21.9797" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["health"],
+    tags: ["health", "medical", "wellness", "fitness", "care", "heartbeat", "pulse", "wellbeing", "clinic"],
     category: "twotone"
   },
   {
@@ -5700,7 +5700,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 8.69012C22 10.6601 21.49 12.4001 20.69 13.9101C19.81 12.9801 18.57 12.4001 17.2 12.4001C14.55 12.4001 12.4 14.5501 12.4 17.2001C12.4 18.4301 12.87 19.5501 13.63 20.4001C13.26 20.5701 12.92 20.7101 12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.69012C2 5.60012 4.49 3.1001 7.56 3.1001C9.37 3.1001 10.99 3.98014 12 5.33014C13.01 3.98014 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.60012 22 8.69012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart", "add"],
+    tags: ["heart", "add", "favorite", "like", "wishlist", "add to", "love", "positive", "bookmark", "engagement"],
     category: "twotone"
   },
   {
@@ -5711,7 +5711,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.3296 17.4501C12.1496 17.5101 11.8396 17.5101 11.6596 17.4501C10.0996 16.9201 6.59961 14.6901 6.59961 10.9101C6.59961 9.24013 7.93961 7.89014 9.59961 7.89014C10.5796 7.89014 11.4496 8.36013 11.9996 9.10013C12.5396 8.37013 13.4196 7.89014 14.3996 7.89014C16.0596 7.89014 17.3996 9.24013 17.3996 10.9101C17.3996 14.6901 13.8996 16.9201 12.3296 17.4501Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart", "circle"],
+    tags: ["heart", "circle", "favorite", "like", "love", "positive", "rounded", "engagement", "feedback", "symbol"],
     category: "twotone"
   },
   {
@@ -5723,7 +5723,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.6992 16.25C18.9992 17.33 19.8392 18.17 20.9192 18.47" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart", "edit"],
+    tags: ["heart", "edit", "favorite", "like", "modify", "customize", "love", "update", "personalize", "preferences"],
     category: "twotone"
   },
   {
@@ -5736,7 +5736,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 8.69012C22 10.6601 21.49 12.4001 20.69 13.9101C19.81 12.9801 18.57 12.4001 17.2 12.4001C14.55 12.4001 12.4 14.5501 12.4 17.2001C12.4 18.4301 12.87 19.5501 13.63 20.4001C13.26 20.5701 12.92 20.7101 12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.69012C2 5.60012 4.49 3.1001 7.56 3.1001C9.37 3.1001 10.99 3.98014 12 5.33014C13.01 3.98014 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.60012 22 8.69012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart", "remove"],
+    tags: ["heart", "remove", "favorite", "unlike", "delete", "dislike", "remove from", "negative", "unfollow", "cancel"],
     category: "twotone"
   },
   {
@@ -5748,7 +5748,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.5391 21.6001L20.5391 20.6001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart", "search"],
+    tags: ["heart", "search", "favorite", "find", "discover", "explore", "wishlist", "locate", "preferences", "interest"],
     category: "twotone"
   },
   {
@@ -5760,7 +5760,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart", "slash"],
+    tags: ["heart", "slash", "favorite", "unlike", "broken", "dislike", "unloved", "negative", "remove", "cancel"],
     category: "twotone"
   },
   {
@@ -5772,7 +5772,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 8.69012C22 10.6601 21.49 12.4001 20.69 13.9101C19.81 12.9801 18.57 12.4001 17.2 12.4001C14.55 12.4001 12.4 14.5501 12.4 17.2001C12.4 18.4301 12.87 19.5501 13.63 20.4001C13.26 20.5701 12.92 20.7101 12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.69012C2 5.60012 4.49 3.1001 7.56 3.1001C9.37 3.1001 10.99 3.98014 12 5.33014C13.01 3.98014 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.60012 22 8.69012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart", "tick"],
+    tags: ["heart", "tick", "favorite", "like", "confirmed", "approved", "love", "verified", "selected", "positive"],
     category: "twotone"
   },
   {
@@ -5782,7 +5782,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C8.48 19.8201 2 15.6901 2 8.6901C2 5.6001 4.49 3.1001 7.56 3.1001C9.38 3.1001 10.99 3.9801 12 5.3401C13.01 3.9801 14.63 3.1001 16.44 3.1001C19.51 3.1001 22 5.6001 22 8.6901C22 15.6901 15.52 19.8201 12.62 20.8101Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["heart"],
+    tags: ["heart", "favorite", "like", "love", "positive", "emotion", "wishlist", "bookmark", "engagement"],
     category: "twotone"
   },
   {
@@ -5798,7 +5798,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["hierarchy", "2"],
+    tags: ["hierarchy", "2", "organization", "structure", "team", "management", "flowchart", "levels", "relationship", "chart"],
     category: "twotone"
   },
   {
@@ -5811,7 +5811,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16 12H9C6.8 12 5 11 5 8V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["hierarchy", "3"],
+    tags: ["hierarchy", "3", "organization", "structure", "team", "management", "flowchart", "levels", "relationship", "chart"],
     category: "twotone"
   },
   {
@@ -5828,7 +5828,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["hierarchy", "square", "2"],
+    tags: ["hierarchy", "square", "2", "organization", "structure", "team", "management", "flowchart", "levels", "relationship", "chart", "geometric"],
     category: "twotone"
   },
   {
@@ -5845,7 +5845,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 2H15C20 2 22 4 22 9V15C22 20 20 22 15 22H9C4 22 2 20 2 15V9C2 4 4 2 9 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["hierarchy", "square", "3"],
+    tags: ["hierarchy", "square", "3", "organization", "structure", "team", "management", "flowchart", "levels", "relationship", "chart", "geometric"],
     category: "twotone"
   },
   {
@@ -5863,7 +5863,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["hierarchy", "square"],
+    tags: ["hierarchy", "square", "organization", "structure", "team", "management", "flowchart", "levels", "relationship", "chart", "geometric"],
     category: "twotone"
   },
   {
@@ -5879,7 +5879,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["hierarchy"],
+    tags: ["hierarchy", "organization", "structure", "team", "management", "flowchart", "levels", "relationship", "chart"],
     category: "twotone"
   },
   {
@@ -5890,7 +5890,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.0693 2.81985L3.13929 8.36985C2.35929 8.98985 1.85929 10.2998 2.02929 11.2798L3.35929 19.2398C3.59929 20.6598 4.95929 21.8098 6.39929 21.8098H17.5993C19.0293 21.8098 20.3993 20.6498 20.6393 19.2398L21.9693 11.2798C22.1293 10.2998 21.6293 8.98985 20.8593 8.36985L13.9293 2.82985C12.8593 1.96985 11.1293 1.96985 10.0693 2.81985Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["home", "1"],
+    tags: ["home", "1", "building", "residence", "shelter", "property", "estate", "house", "homepage", "dashboard", "address", "filled"],
     category: "twotone"
   },
   {
@@ -5901,7 +5901,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M12 17.9902V14.9902" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["home", "2"],
+    tags: ["home", "2", "building", "residence", "shelter", "property", "estate", "house", "homepage", "dashboard", "address", "outline"],
     category: "twotone"
   },
   {
@@ -5916,7 +5916,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["home", "hashtag"],
+    tags: ["home", "hashtag", "social", "trending", "popular", "community", "feed", "engagement", "tag", "marketing", "homepage", "filled"],
     category: "twotone"
   },
   {
@@ -5930,7 +5930,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["home", "trend", "down"],
+    tags: ["home", "trend", "down", "decline", "decrease", "recession", "loss", "downward", "analytics", "performance", "report", "negative", "filled"],
     category: "twotone"
   },
   {
@@ -5944,7 +5944,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["home", "trend", "up"],
+    tags: ["home", "trend", "up", "growth", "increase", "profit", "gain", "upward", "analytics", "performance", "report", "positive", "filled"],
     category: "twotone"
   },
   {
@@ -5957,7 +5957,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11.9955 16.5H12.0045" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["home", "wifi"],
+    tags: ["home", "wifi", "connectivity", "internet", "network", "smart home", "iot", "wireless", "connection", "router", "signal", "filled"],
     category: "twotone"
   },
   {
@@ -5968,7 +5968,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 15.5C13.3807 15.5 14.5 14.3807 14.5 13C14.5 11.6193 13.3807 10.5 12 10.5C10.6193 10.5 9.5 11.6193 9.5 13C9.5 14.3807 10.6193 15.5 12 15.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["home"],
+    tags: ["home", "building", "residence", "shelter", "property", "estate", "house", "homepage", "dashboard", "address", "outline"],
     category: "twotone"
   },
   {
@@ -5984,7 +5984,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["hospital"],
+    tags: ["hospital", "medical", "clinic", "healthcare", "emergency", "doctor", "facility", "treatment", "aid", "building", "health"],
     category: "twotone"
   },
   {
@@ -5998,7 +5998,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.5 7.5H13.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["house", "2"],
+    tags: ["house", "2", "building", "residence", "shelter", "property", "estate", "home", "homepage", "dashboard", "address", "filled"],
     category: "twotone"
   },
   {
@@ -6013,7 +6013,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.0003 7L18.9703 4H14.5703" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["house"],
+    tags: ["house", "building", "residence", "shelter", "property", "estate", "home", "homepage", "dashboard", "address", "outline"],
     category: "twotone"
   },
   {
@@ -6024,7 +6024,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.9707 8C8.62756 8 9.9707 6.65685 9.9707 5C9.9707 3.34315 8.62756 2 6.9707 2C5.31385 2 3.9707 3.34315 3.9707 5C3.9707 6.65685 5.31385 8 6.9707 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["image"],
+    tags: ["image", "picture", "photo", "gallery", "media", "visual", "snapshot", "graphic", "upload", "placeholder", "filled"],
     category: "twotone"
   },
   {
@@ -6038,7 +6038,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["import", "1"],
+    tags: ["import", "1", "download", "transfer", "upload", "data", "arrow", "entry", "receive", "move", "system", "filled"],
     category: "twotone"
   },
   {
@@ -6052,7 +6052,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20 12.1802C20 16.6002 17 20.1802 12 20.1802C7 20.1802 4 16.6002 4 12.1802" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["import", "2"],
+    tags: ["import", "2", "download", "transfer", "upload", "data", "arrow", "entry", "receive", "move", "system", "outline"],
     category: "twotone"
   },
   {
@@ -6063,7 +6063,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.6797 3.98828C12.6797 3.57828 12.3397 3.23828 11.9297 3.23828C11.5197 3.23828 11.1797 3.57828 11.1797 3.98828V9.88828H12.6797V3.98828Z" fill="currentColor"/>
 </svg>`,
     style: "bold",
-    tags: ["import", "3"],
+    tags: ["import", "3", "download", "transfer", "upload", "data", "arrow", "entry", "receive", "move", "system", "filled"],
     category: "bold"
   },
   {
@@ -6077,7 +6077,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["import"],
+    tags: ["import", "download", "transfer", "upload", "data", "arrow", "entry", "receive", "move", "system", "outline"],
     category: "twotone"
   },
   {
@@ -6089,7 +6089,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M11.9941 16H12.0031" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["info", "circle"],
+    tags: ["info", "circle", "information", "help", "faq", "details", "about", "support", "question", "alert", "notification", "ui"],
     category: "twotone"
   },
   {
@@ -6103,7 +6103,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["information"],
+    tags: ["information", "info", "help", "faq", "details", "about", "support", "question", "alert", "notification", "ui"],
     category: "twotone"
   },
   {
@@ -6115,7 +6115,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M17.6361 7H17.6477" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["instagram"],
+    tags: ["instagram", "social media", "photo sharing", "app", "network", "platform", "camera", "stories", "reels", "branding", "logo"],
     category: "twotone"
   },
   {
@@ -6128,7 +6128,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.56055 7.91992L13.6306 14.9899" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["judge"],
+    tags: ["judge", "justice", "law", "court", "legal", "authority", "judgment", "verdict", "gavel", "ethics", "security"],
     category: "twotone"
   },
   {
@@ -6139,7 +6139,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 12.9V4.1C22 2.6 21.36 2 19.77 2H15.73C14.14 2 13.5 2.6 13.5 4.1V12.9C13.5 14.4 14.14 15 15.73 15H19.77C21.36 15 22 14.4 22 12.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["kanban"],
+    tags: ["kanban", "board", "project management", "workflow", "tasks", "agile", "productivity", "organization", "status", "cards", "ui"],
     category: "twotone"
   },
   {
@@ -6154,7 +6154,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["key", "square"],
+    tags: ["key", "square", "access", "security", "password", "login", "authentication", "private", "unlock", "permission", "secret", "ui"],
     category: "twotone"
   },
   {
@@ -6166,7 +6166,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.5 11C15.3284 11 16 10.3284 16 9.5C16 8.67157 15.3284 8 14.5 8C13.6716 8 13 8.67157 13 9.5C13 10.3284 13.6716 11 14.5 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["key"],
+    tags: ["key", "access", "security", "password", "login", "authentication", "private", "unlock", "permission", "secret", "ui"],
     category: "twotone"
   },
   {
@@ -6181,7 +6181,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.4945 8.2998H10.5035" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["keyboard", "open"],
+    tags: ["keyboard", "open", "typing", "input", "device", "computer", "text", "interface", "hardware", "peripheral", "system"],
     category: "twotone"
   },
   {
@@ -6195,7 +6195,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.09412 10H7.1031" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["keyboard"],
+    tags: ["keyboard", "typing", "input", "device", "computer", "text", "interface", "hardware", "peripheral", "closed", "system"],
     category: "twotone"
   },
   {
@@ -6207,7 +6207,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.6496 18.5898C15.5196 20.4998 13.9296 21.9998 11.9996 21.9998C10.0696 21.9998 8.47961 20.4998 8.34961 18.5898H15.6496Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lamp", "1"],
+    tags: ["lamp", "1", "light", "idea", "bulb", "illumination", "solution", "creativity", "inspiration", "electricity", "lighting", "filled"],
     category: "twotone"
   },
   {
@@ -6219,7 +6219,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.5 22.0002C10.79 21.3502 13.21 21.3502 15.5 22.0002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lamp", "charge"],
+    tags: ["lamp", "charge", "idea", "innovation", "solution", "inspiration", "energy", "power", "bulb", "light", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -6230,7 +6230,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.5 22.0002C10.79 21.3502 13.21 21.3502 15.5 22.0002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lamp", "on"],
+    tags: ["lamp", "on", "idea", "innovation", "solution", "inspiration", "bulb", "light", "filled", "ui", "active", "toggle"],
     category: "twotone"
   },
   {
@@ -6243,7 +6243,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.5 22.0002C10.79 21.3502 13.21 21.3502 15.5 22.0002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lamp", "slash"],
+    tags: ["lamp", "slash", "idea", "innovation", "solution", "inspiration", "bulb", "light", "filled", "ui", "disabled", "off", "error"],
     category: "twotone"
   },
   {
@@ -6257,7 +6257,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["lamp"],
+    tags: ["lamp", "idea", "innovation", "solution", "inspiration", "bulb", "light", "filled", "ui", "outline", "concept"],
     category: "twotone"
   },
   {
@@ -6273,7 +6273,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["language", "circle"],
+    tags: ["language", "circle", "translate", "global", "world", "communication", "localization", "settings", "circular", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -6289,7 +6289,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["language", "square"],
+    tags: ["language", "square", "translate", "global", "world", "communication", "localization", "settings", "filled", "ui"],
     category: "twotone"
   },
   {
@@ -6301,7 +6301,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3 16C3 16.93 3.55 17.77 4.4 18.15L11.19 21.17C11.71 21.4 12.3 21.4 12.81 21.17L19.6 18.15C20.45 17.77 21 16.93 21 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["layer"],
+    tags: ["layer", "stack", "levels", "order", "design", "arrangement", "group", "filled", "ui", "outline", "structure"],
     category: "twotone"
   },
   {
@@ -6313,7 +6313,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 13.5C12.8284 13.5 13.5 12.8284 13.5 12C13.5 11.1716 12.8284 10.5 12 10.5C11.1716 10.5 10.5 11.1716 10.5 12C10.5 12.8284 11.1716 13.5 12 13.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["level"],
+    tags: ["level", "hierarchy", "rank", "tier", "progress", "achievement", "filled", "ui", "outline", "status", "indicator"],
     category: "twotone"
   },
   {
@@ -6328,7 +6328,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.0498 4.93018L15.5098 8.46018" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lifebuoy"],
+    tags: ["lifebuoy", "help", "support", "rescue", "safety", "assistance", "emergency", "circular", "filled", "ui", "outline"],
     category: "twotone"
   },
   {
@@ -6339,7 +6339,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2.38086 18.3499V8.5499C2.38086 7.1499 2.98086 6.6499 4.38086 6.6499H5.38086C6.78086 6.6499 7.38086 7.1499 7.38086 8.5499V18.3499C7.38086 19.7499 6.78086 20.2499 5.38086 20.2499H4.38086C2.98086 20.2499 2.38086 19.7499 2.38086 18.3499Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["like", "1"],
+    tags: ["like", "1", "heart", "favorite", "love", "social media", "reaction", "approval", "filled", "ui", "engagement", "feedback"],
     category: "twotone"
   },
   {
@@ -6354,7 +6354,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["like", "dislike"],
+    tags: ["like", "dislike", "vote", "feedback", "opinion", "agree", "disagree", "thumbs up", "thumbs down", "filled", "ui", "reaction"],
     category: "twotone"
   },
   {
@@ -6368,7 +6368,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["like", "shapes"],
+    tags: ["like", "shapes", "heart", "favorite", "love", "social media", "reaction", "approval", "filled", "ui", "engagement", "multiple", "group"],
     category: "twotone"
   },
   {
@@ -6382,7 +6382,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18 18.8597H17.24C16.44 18.8597 15.68 19.1697 15.12 19.7297L13.41 21.4198C12.63 22.1898 11.36 22.1898 10.58 21.4198L8.87 19.7297C8.31 19.1697 7.54 18.8597 6.75 18.8597H6C4.34 18.8597 3 17.5298 3 15.8898V4.97974C3 3.33974 4.34 2.00977 6 2.00977H18C19.66 2.00977 21 3.33974 21 4.97974V15.8898C21 17.5198 19.66 18.8597 18 18.8597Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["like", "tag"],
+    tags: ["like", "tag", "heart", "favorite", "love", "social media", "reaction", "approval", "filled", "ui", "bookmark", "save"],
     category: "twotone"
   },
   {
@@ -6393,7 +6393,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.28 14.96C12.13 15.01 11.88 15.01 11.72 14.96C10.42 14.51 7.5 12.66 7.5 9.51001C7.5 8.12001 8.62 7 10 7C10.82 7 11.54 7.39 12 8C12.46 7.39 13.18 7 14 7C15.38 7 16.5 8.12001 16.5 9.51001C16.49 12.66 13.58 14.51 12.28 14.96Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["like"],
+    tags: ["like", "heart", "favorite", "love", "social media", "reaction", "approval", "filled", "ui", "engagement", "feedback"],
     category: "twotone"
   },
   {
@@ -6405,7 +6405,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 12H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["link", "1"],
+    tags: ["link", "1", "url", "chain", "connection", "attach", "hyperlink", "web", "filled", "ui", "outline", "share"],
     category: "twotone"
   },
   {
@@ -6416,7 +6416,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10 12C10 8.69 12.69 6 16 6C19.31 6 22 8.69 22 12C22 15.31 19.31 18 16 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["link", "2"],
+    tags: ["link", "2", "url", "chain", "connection", "attach", "hyperlink", "web", "filled", "ui", "outline", "share"],
     category: "twotone"
   },
   {
@@ -6427,7 +6427,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.5909 13.4099C8.25094 11.0699 8.25094 7.26988 10.5909 4.91988C12.9309 2.56988 16.7309 2.57988 19.0809 4.91988C21.4309 7.25988 21.4209 11.0599 19.0809 13.4099" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["link", "21"],
+    tags: ["link", "21", "url", "chain", "connection", "attach", "hyperlink", "web", "filled", "ui", "outline", "share"],
     category: "twotone"
   },
   {
@@ -6439,7 +6439,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["link", "circle"],
+    tags: ["link", "circle", "url", "chain", "connection", "attach", "hyperlink", "web", "circular", "filled", "ui", "share"],
     category: "twotone"
   },
   {
@@ -6453,7 +6453,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["link", "square"],
+    tags: ["link", "square", "url", "chain", "connection", "attach", "hyperlink", "web", "filled", "ui", "share"],
     category: "twotone"
   },
   {
@@ -6464,7 +6464,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.73 12C21.52 12.95 22 14.17 22 15.5C22 18.52 19.53 21 16.5 21H11.5C8.48 21 6 18.52 6 15.5C6 12.48 8.47 10 11.5 10H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["link"],
+    tags: ["link", "url", "chain", "connection", "attach", "hyperlink", "web", "filled", "ui", "outline", "share"],
     category: "twotone"
   },
   {
@@ -6478,7 +6478,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.61971 8.49C5.58971 -0.169998 18.4197 -0.159997 20.3797 8.5C21.5297 13.58 18.3697 17.88 15.5997 20.54C13.5897 22.48 10.4097 22.48 8.38971 20.54C5.62971 17.88 2.46971 13.57 3.61971 8.49Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "twotone",
-    tags: ["location", "add"],
+    tags: ["location", "add", "pin", "map", "gps", "direction", "place", "add new", "create", "filled", "ui", "navigation"],
     category: "twotone"
   },
   {
@@ -6492,7 +6492,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["location", "cross"],
+    tags: ["location", "cross", "pin", "map", "gps", "direction", "place", "remove", "delete", "filled", "ui", "navigation"],
     category: "twotone"
   },
   {
@@ -6503,7 +6503,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.61971 8.49C5.58971 -0.169998 18.4197 -0.159997 20.3797 8.5C21.5297 13.58 18.3697 17.88 15.5997 20.54C13.5897 22.48 10.4097 22.48 8.38971 20.54C5.62971 17.88 2.46971 13.57 3.61971 8.49Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "twotone",
-    tags: ["location", "minus"],
+    tags: ["location", "minus", "pin", "map", "gps", "direction", "place", "remove", "delete", "filled", "ui", "navigation"],
     category: "twotone"
   },
   {
@@ -6516,7 +6516,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["location", "slash"],
+    tags: ["location", "slash", "pin", "map", "gps", "direction", "place", "disabled", "unavailable", "filled", "ui", "navigation", "off"],
     category: "twotone"
   },
   {
@@ -6527,7 +6527,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.25 11.5L10.75 13L14.75 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["location", "tick"],
+    tags: ["location", "tick", "pin", "map", "gps", "direction", "place", "confirm", "verified", "checked", "filled", "ui", "navigation"],
     category: "twotone"
   },
   {
@@ -6538,7 +6538,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.61971 8.49C5.58971 -0.169998 18.4197 -0.159997 20.3797 8.5C21.5297 13.58 18.3697 17.88 15.5997 20.54C13.5897 22.48 10.4097 22.48 8.38971 20.54C5.62971 17.88 2.46971 13.57 3.61971 8.49Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "twotone",
-    tags: ["location"],
+    tags: ["location", "pin", "marker", "gps", "address", "destination", "map", "navigation", "travel", "point"],
     category: "twotone"
   },
   {
@@ -6550,7 +6550,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17 22H7C3 22 2 21 2 17V15C2 11 3 10 7 10H17C21 10 22 11 22 15V17C22 21 21 22 17 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lock", "1"],
+    tags: ["lock", "1", "secure", "privacy", "password", "closed", "restricted", "security", "access", "filled", "bold"],
     category: "twotone"
   },
   {
@@ -6565,7 +6565,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lock", "circle"],
+    tags: ["lock", "circle", "secure", "privacy", "password", "closed", "restricted", "security", "access", "circular", "geometric"],
     category: "twotone"
   },
   {
@@ -6578,7 +6578,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lock", "slash"],
+    tags: ["lock", "slash", "unlock", "open", "unsecured", "privacy", "access", "disabled", "unlocked", "security", "restricted"],
     category: "twotone"
   },
   {
@@ -6592,7 +6592,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.99451 16H8.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lock"],
+    tags: ["lock", "secure", "privacy", "password", "closed", "restricted", "security", "access", "outline", "thin"],
     category: "twotone"
   },
   {
@@ -6606,7 +6606,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 4C16.42 4 20 7 20 12C20 17 16.42 20 12 20" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["login", "1"],
+    tags: ["login", "1", "signin", "enter", "arrow", "access", "account", "authentication", "onboarding", "filled", "bold"],
     category: "twotone"
   },
   {
@@ -6620,7 +6620,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["login"],
+    tags: ["login", "signin", "enter", "arrow", "access", "account", "authentication", "onboarding", "outline", "thin"],
     category: "twotone"
   },
   {
@@ -6634,7 +6634,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.7598 20C7.33977 20 3.75977 17 3.75977 12C3.75977 7 7.33977 4 11.7598 4" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["logout", "1"],
+    tags: ["logout", "1", "signout", "exit", "arrow", "account", "authentication", "filled", "bold", "leave"],
     category: "twotone"
   },
   {
@@ -6648,7 +6648,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["logout"],
+    tags: ["logout", "signout", "exit", "arrow", "account", "authentication", "outline", "thin", "leave"],
     category: "twotone"
   },
   {
@@ -6659,7 +6659,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22.0009 12.74C22.0009 17.42 17.6709 20.18 15.7309 20.84C15.5009 20.92 15.1308 20.92 14.9008 20.84C14.0708 20.56 12.8009 19.89 11.6309 18.86C10.0509 17.47 8.63086 15.42 8.63086 12.74C8.63086 10.67 10.2909 9 12.3409 9C13.5609 9 14.6409 9.58999 15.3209 10.49C15.9909 9.58999 17.0709 9 18.2909 9C18.8209 9 19.3209 9.11 19.7809 9.31C21.0909 9.89 22.0009 11.2 22.0009 12.74Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["lovely"],
+    tags: ["lovely", "heart", "love", "favorite", "like", "romantic", "emotion", "filled", "bold", "social"],
     category: "twotone"
   },
   {
@@ -6670,7 +6670,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.9108 22.0002L18.8809 18.9702" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["magic", "star"],
+    tags: ["magic", "star", "wish", "spell", "fantasy", "sparkle", "enchantment", "effect", "special", "filled", "bold"],
     category: "twotone"
   },
   {
@@ -6684,7 +6684,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.5 13.44L21 13L20.56 14.5L21 16L19.5 15.56L18 16L18.44 14.5L18 13L19.5 13.44Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["magicpen"],
+    tags: ["magicpen", "wand", "spell", "fantasy", "enchantment", "effect", "special", "tool", "design", "creative"],
     category: "twotone"
   },
   {
@@ -6698,7 +6698,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["main", "component"],
+    tags: ["main", "component", "element", "module", "structure", "building block", "ui", "design system", "layout", "geometric", "square"],
     category: "twotone"
   },
   {
@@ -6712,7 +6712,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["man"],
+    tags: ["man", "male", "person", "user", "avatar", "profile", "human", "figure", "people", "gender"],
     category: "twotone"
   },
   {
@@ -6724,7 +6724,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.7305 6.62012V20.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["map", "1"],
+    tags: ["map", "1", "location", "navigation", "travel", "route", "gps", "destination", "filled", "bold", "pin"],
     category: "twotone"
   },
   {
@@ -6738,7 +6738,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.09412 8.7002H9.1031" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["map"],
+    tags: ["map", "location", "navigation", "travel", "route", "gps", "destination", "outline", "thin", "pin"],
     category: "twotone"
   },
   {
@@ -6754,7 +6754,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["mask", "1"],
+    tags: ["mask", "1", "hide", "conceal", "anonymous", "privacy", "face", "incognito", "filled", "bold", "security"],
     category: "twotone"
   },
   {
@@ -6765,7 +6765,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11.9693 16.3902C11.9493 18.0402 10.7193 18.4402 9.5693 17.9802C7.1993 17.0302 5.5293 14.7102 5.5293 12.0002C5.5293 9.29024 7.1993 6.97024 9.5693 6.01024C10.7193 5.55024 11.9493 5.96024 11.9693 7.60024V16.3902Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mask", "2"],
+    tags: ["mask", "2", "hide", "conceal", "anonymous", "privacy", "face", "incognito", "geometric", "security", "filled"],
     category: "twotone"
   },
   {
@@ -6782,7 +6782,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["mask"],
+    tags: ["mask", "hide", "conceal", "anonymous", "privacy", "face", "incognito", "outline", "thin", "security"],
     category: "twotone"
   },
   {
@@ -6798,7 +6798,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.57883 22L2.29883 14.73" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["math"],
+    tags: ["math", "calculator", "equation", "algebra", "arithmetic", "education", "science", "tool", "numbers", "logic"],
     category: "twotone"
   },
   {
@@ -6813,7 +6813,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11 16.15V18.85C11 21.1 10.1 22 7.85 22H5.15C2.9 22 2 21.1 2 18.85V16.15C2 13.9 2.9 13 5.15 13H7.85C10.1 13 11 13.9 11 16.15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["maximize", "1"],
+    tags: ["maximize", "1", "fullscreen", "expand", "grow", "enlarge", "window", "ui", "arrows", "filled", "bold"],
     category: "twotone"
   },
   {
@@ -6830,7 +6830,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["maximize", "2"],
+    tags: ["maximize", "2", "fullscreen", "expand", "grow", "enlarge", "window", "ui", "arrows", "filled", "bold"],
     category: "twotone"
   },
   {
@@ -6843,7 +6843,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 22H6.5C4.01 22 2 19.99 2 17.5V15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["maximize", "21"],
+    tags: ["maximize", "21", "fullscreen", "expand", "grow", "enlarge", "window", "ui", "arrows", "outline", "thin"],
     category: "twotone"
   },
   {
@@ -6858,7 +6858,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["maximize", "3"],
+    tags: ["maximize", "3", "fullscreen", "expand", "grow", "enlarge", "window", "ui", "arrows", "outline", "thin"],
     category: "twotone"
   },
   {
@@ -6873,7 +6873,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.5 13.5L3 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["maximize", "4"],
+    tags: ["maximize", "4", "fullscreen", "expand", "grow", "enlarge", "window", "ui", "arrows", "outline", "thin"],
     category: "twotone"
   },
   {
@@ -6890,7 +6890,7 @@ export const iconsaxIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6535 9.26471C22.0597 9.18348 22.4548 9.44689 22.5361 9.85306C22.6753 10.5494 22.7506 11.2687 22.7506 12.0001C22.7506 17.9344 17.9348 22.7501 12.0006 22.7501C11.2603 22.7501 10.531 22.6751 9.83353 22.5356C9.42736 22.4543 9.16394 22.0592 9.24518 21.653C9.32641 21.2469 9.72153 20.9835 10.1277 21.0647C10.7302 21.1852 11.361 21.2501 12.0006 21.2501C17.1064 21.2501 21.2506 17.1059 21.2506 12.0001C21.2506 11.3716 21.1859 10.7509 21.0652 10.1472C20.984 9.74106 21.2474 9.34594 21.6535 9.26471Z" fill="currentColor"/>
 </svg>`,
     style: "twotone",
-    tags: ["maximize", "circle"],
+    tags: ["maximize", "circle", "expand", "fullscreen", "enlarge", "scale", "interface", "ui", "rounded"],
     category: "twotone"
   },
   {
@@ -6908,7 +6908,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["maximize"],
+    tags: ["maximize", "expand", "fullscreen", "enlarge", "scale", "interface", "ui", "square"],
     category: "twotone"
   },
   {
@@ -6920,7 +6920,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.58 5.98L13.17 7.15999C13.25 7.31999 13.46 7.48 13.65 7.51L14.72 7.68999C15.4 7.79999 15.56 8.3 15.07 8.79L14.24 9.61998C14.1 9.75998 14.02 10.03 14.07 10.23L14.31 11.26C14.5 12.07 14.07 12.39 13.35 11.96L12.35 11.37C12.17 11.26 11.87 11.26 11.69 11.37L10.69 11.96C9.96997 12.38 9.53997 12.07 9.72997 11.26L9.96997 10.23C10.01 10.04 9.93997 9.75998 9.79997 9.61998L8.96997 8.79C8.47997 8.3 8.63997 7.80999 9.31997 7.68999L10.39 7.51C10.57 7.48 10.78 7.31999 10.86 7.15999L11.45 5.98C11.74 5.34 12.26 5.34 12.58 5.98Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["medal", "star"],
+    tags: ["medal", "star", "award", "achievement", "trophy", "winner", "success", "honor", "quality", "badge"],
     category: "twotone"
   },
   {
@@ -6931,7 +6931,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.51974 13.5198L7.50977 20.8998C7.50977 21.7998 8.13977 22.2398 8.91977 21.8698L11.5998 20.5999C11.8198 20.4899 12.1898 20.4899 12.4098 20.5999L15.0998 21.8698C15.8698 22.2298 16.5098 21.7998 16.5098 20.8998V13.3398" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["medal"],
+    tags: ["medal", "award", "achievement", "trophy", "winner", "success", "honor", "quality", "badge"],
     category: "twotone"
   },
   {
@@ -6943,7 +6943,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3 17H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["menu", "1"],
+    tags: ["menu", "1", "hamburger", "navigation", "options", "list", "app bar", "mobile", "ui"],
     category: "twotone"
   },
   {
@@ -6958,7 +6958,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.69922 16H14.6992" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["menu", "board"],
+    tags: ["menu", "board", "dashboard", "overview", "admin", "settings", "control panel", "interface", "ui"],
     category: "twotone"
   },
   {
@@ -6971,7 +6971,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.46001 20.6099C7.81863 20.6099 8.92 19.5086 8.92 18.1499C8.92 16.7913 7.81863 15.6899 6.46001 15.6899C5.10139 15.6899 4 16.7913 4 18.1499C4 19.5086 5.10139 20.6099 6.46001 20.6099Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["menu"],
+    tags: ["menu", "hamburger", "navigation", "options", "list", "app bar", "mobile", "ui"],
     category: "twotone"
   },
   {
@@ -6982,7 +6982,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7 18.4302H11L15.45 21.3902C16.11 21.8302 17 21.3602 17 20.5602V18.4302C20 18.4302 22 16.4302 22 13.4302V7.43018C22 4.43018 20 2.43018 17 2.43018H7C4 2.43018 2 4.43018 2 7.43018V13.4302C2 16.4302 4 18.4302 7 18.4302Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "2"],
+    tags: ["message", "2", "chat", "speech bubble", "conversation", "feedback", "comment", "notification", "communication", "dialog"],
     category: "twotone"
   },
   {
@@ -6996,7 +6996,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["message", "add", "1"],
+    tags: ["message", "add", "1", "new message", "compose", "create chat", "add comment", "plus", "communication", "feedback"],
     category: "twotone"
   },
   {
@@ -7010,7 +7010,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.5 10.5H15.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "add"],
+    tags: ["message", "add", "new message", "compose", "create chat", "add comment", "plus", "communication", "feedback"],
     category: "twotone"
   },
   {
@@ -7021,7 +7021,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "circle"],
+    tags: ["message", "circle", "chat bubble", "speech", "conversation", "talk", "rounded", "feedback", "comment"],
     category: "twotone"
   },
   {
@@ -7035,7 +7035,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["message", "edit"],
+    tags: ["message", "edit", "edit message", "modify chat", "update comment", "pencil", "write", "communication", "compose"],
     category: "twotone"
   },
   {
@@ -7049,7 +7049,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.99451 11H8.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "favorite"],
+    tags: ["message", "favorite", "liked message", "favorite chat", "bookmark", "heart", "love", "important", "communication"],
     category: "twotone"
   },
   {
@@ -7060,7 +7060,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.5 12H15.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "minus"],
+    tags: ["message", "minus", "remove message", "delete chat", "subtract", "communication", "clear", "hide"],
     category: "twotone"
   },
   {
@@ -7074,7 +7074,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.99451 11H8.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "notif"],
+    tags: ["message", "notif", "notification", "alert", "unread message", "bell", "communication", "reminder"],
     category: "twotone"
   },
   {
@@ -7087,7 +7087,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13 8.37012L11 13.0302" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "programming"],
+    tags: ["message", "programming", "code chat", "developer message", "scripting", "coding", "communication", "terminal"],
     category: "twotone"
   },
   {
@@ -7099,7 +7099,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11.9955 13.75H12.0045" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "question"],
+    tags: ["message", "question", "help", "support", "query", "faq", "question mark", "communication", "inquiry"],
     category: "twotone"
   },
   {
@@ -7113,7 +7113,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.5 10.5H15.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "remove"],
+    tags: ["message", "remove", "delete message", "clear chat", "cancel", "close", "communication", "erase"],
     category: "twotone"
   },
   {
@@ -7130,7 +7130,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.99451 11H8.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "search"],
+    tags: ["message", "search", "find message", "search chat", "lookup", "magnifying glass", "communication", "discover"],
     category: "twotone"
   },
   {
@@ -7141,7 +7141,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "square"],
+    tags: ["message", "square", "chat bubble", "speech", "conversation", "talk", "feedback", "comment"],
     category: "twotone"
   },
   {
@@ -7153,7 +7153,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 13H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "text", "1"],
+    tags: ["message", "text", "1", "text message", "sms", "chat content", "dialogue", "lines", "communication", "typing"],
     category: "twotone"
   },
   {
@@ -7165,7 +7165,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 14.5H14" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "text"],
+    tags: ["message", "text", "text message", "sms", "chat content", "dialogue", "lines", "communication", "typing"],
     category: "twotone"
   },
   {
@@ -7178,7 +7178,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.5 10.5H15.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "tick"],
+    tags: ["message", "tick", "read message", "delivered", "sent", "check mark", "verified", "communication", "confirmed"],
     category: "twotone"
   },
   {
@@ -7191,7 +7191,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.5 10.5H15.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message", "time"],
+    tags: ["message", "time", "pending message", "scheduled", "history", "clock", "timer", "communication", "delayed"],
     category: "twotone"
   },
   {
@@ -7204,7 +7204,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.99451 11H8.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["message"],
+    tags: ["message", "chat", "speech bubble", "conversation", "feedback", "comment", "notification", "communication", "dialog"],
     category: "twotone"
   },
   {
@@ -7218,7 +7218,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.4955 13.25H6.5045" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["messages", "1"],
+    tags: ["messages", "1", "chat", "conversation", "speech bubble", "dialogue", "notification", "communication", "talk", "comment"],
     category: "twotone"
   },
   {
@@ -7229,7 +7229,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13 15.2298C13 16.4198 12.56 17.5198 11.82 18.3898C10.83 19.5898 9.26 20.3598 7.5 20.3598L4.89 21.9098C4.45 22.1798 3.89 21.8098 3.95 21.2998L4.2 19.3298C2.86 18.3998 2 16.9098 2 15.2298C2 13.4698 2.94 11.9198 4.38 10.9998C5.27 10.4198 6.34 10.0898 7.5 10.0898C10.54 10.0898 13 12.3898 13 15.2298Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["messages", "2"],
+    tags: ["messages", "2", "chat", "conversation", "speech bubble", "dialogue", "notification", "communication", "talk", "comment"],
     category: "twotone"
   },
   {
@@ -7240,7 +7240,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.59 12.4V16.47C15.59 16.83 15.55 17.17 15.46 17.48C15.09 18.95 13.87 19.87 12.19 19.87H9.47L6.45 21.88C6 22.19 5.39999 21.86 5.39999 21.32V19.87C4.37999 19.87 3.53 19.53 2.94 18.94C2.34 18.34 2 17.49 2 16.47V12.4C2 10.5 3.18 9.19002 5 9.02002C5.13 9.01002 5.25999 9 5.39999 9H12.19C14.23 9 15.59 10.36 15.59 12.4Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["messages", "3"],
+    tags: ["messages", "3", "chat", "conversation", "speech bubble", "dialogue", "notification", "communication", "talk", "comment"],
     category: "twotone"
   },
   {
@@ -7252,7 +7252,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 9H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["messages"],
+    tags: ["messages", "chat", "conversation", "speech bubble", "dialogue", "notification", "communication", "talk", "comment"],
     category: "twotone"
   },
   {
@@ -7268,7 +7268,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["microphone", "2"],
+    tags: ["microphone", "2", "audio", "voice", "record", "sound", "podcast", "input", "karaoke", "vocal"],
     category: "twotone"
   },
   {
@@ -7283,7 +7283,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.5 3.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["microphone", "slash", "1"],
+    tags: ["microphone", "slash", "1", "mute", "no audio", "silent", "off", "disabled", "voice off", "record off", "sound off"],
     category: "twotone"
   },
   {
@@ -7301,7 +7301,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["microphone", "slash"],
+    tags: ["microphone", "slash", "mute", "no audio", "silent", "off", "disabled", "voice off", "record off", "sound off"],
     category: "twotone"
   },
   {
@@ -7314,7 +7314,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.0293 10.4799C11.2293 10.1499 12.4993 10.1499 13.6993 10.4799" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["microphone"],
+    tags: ["microphone", "audio", "voice", "record", "sound", "podcast", "input", "karaoke", "vocal"],
     category: "twotone"
   },
   {
@@ -7328,7 +7328,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 12.2002L16.44 22.0002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["microscope"],
+    tags: ["microscope", "science", "research", "lab", "experiment", "magnify", "biology", "discovery", "medical"],
     category: "twotone"
   },
   {
@@ -7342,7 +7342,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14.5 5H9.5C8.67 5 8 4.32 8 3.5C8 2.68 8.67 2 9.5 2H14.5C15.33 2 16 2.68 16 3.5C16 4.32 15.33 5 14.5 5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["milk"],
+    tags: ["milk", "dairy", "drink", "beverage", "food", "nutrition", "bottle", "healthy", "breakfast"],
     category: "twotone"
   },
   {
@@ -7358,7 +7358,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["mini", "music", "sqaure"],
+    tags: ["mini", "music", "sqaure", "audio", "play", "song", "track", "album", "playlist", "entertainment", "note"],
     category: "twotone"
   },
   {
@@ -7369,7 +7369,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M7.91992 12H15.9199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["minus", "cirlce"],
+    tags: ["minus", "cirlce", "remove", "subtract", "delete", "decrease", "negative", "collapse", "cancel", "round"],
     category: "twotone"
   },
   {
@@ -7380,7 +7380,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["minus", "square"],
+    tags: ["minus", "square", "remove", "subtract", "delete", "decrease", "negative", "collapse", "cancel"],
     category: "twotone"
   },
   {
@@ -7390,7 +7390,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6 12H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["minus"],
+    tags: ["minus", "remove", "subtract", "delete", "decrease", "negative", "collapse", "cancel", "horizontal line"],
     category: "twotone"
   },
   {
@@ -7401,7 +7401,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6 22H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mirror"],
+    tags: ["mirror", "reflection", "vanity", "beauty", "self-care", "look", "glass", "oval", "dressing"],
     category: "twotone"
   },
   {
@@ -7414,7 +7414,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M1.98047 18.8599C3.67047 19.0799 4.92047 20.3199 5.14047 22.0199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mirroring", "screen"],
+    tags: ["mirroring", "screen", "display", "cast", "share screen", "projection", "duplicate", "streaming", "monitor", "wireless"],
     category: "twotone"
   },
   {
@@ -7427,7 +7427,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13 22H8C4.5 22 3 20 3 17V7C3 4 4.5 2 8 2H16C19.5 2 21 4 21 7V14" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mobile", "programming"],
+    tags: ["mobile", "programming", "development", "coding", "app", "software", "responsive", "frontend", "engineering", "device"],
     category: "twotone"
   },
   {
@@ -7439,7 +7439,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.0002 18.1C9.85624 18.1 10.5502 17.406 10.5502 16.55C10.5502 15.694 9.85624 15 9.0002 15C8.14415 15 7.4502 15.694 7.4502 16.55C7.4502 17.406 8.14415 18.1 9.0002 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mobile"],
+    tags: ["mobile", "phone", "smartphone", "cellphone", "device", "app", "responsive", "communication", "handheld"],
     category: "twotone"
   },
   {
@@ -7454,7 +7454,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 15H21C18 15 17 16 17 19V20" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "2"],
+    tags: ["money", "2", "currency", "cash", "finance", "payment", "wealth", "economy", "dollar", "banknote"],
     category: "twotone"
   },
   {
@@ -7467,7 +7467,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 17H5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "3"],
+    tags: ["money", "3", "currency", "cash", "finance", "payment", "wealth", "economy", "dollar", "banknote"],
     category: "twotone"
   },
   {
@@ -7482,7 +7482,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.5 18H17C18.38 18 19.5 16.88 19.5 15.5V14" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "4"],
+    tags: ["money", "4", "currency", "cash", "finance", "payment", "wealth", "economy", "dollar", "banknote"],
     category: "twotone"
   },
   {
@@ -7497,7 +7497,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 15.3V9C2 5.5 4 4 7 4H17C20 4 22 5.5 22 9V15C22 18.5 20 20 17 20H8.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "add"],
+    tags: ["money", "add", "deposit", "income", "earn", "increase", "fund", "investment", "plus", "gain"],
     category: "twotone"
   },
   {
@@ -7513,7 +7513,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.2793 22.0001L8.49927 20.7801L7.2793 19.5601" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "change"],
+    tags: ["money", "change", "exchange", "transfer", "transaction", "convert", "swap", "trade", "reimburse", "refund"],
     category: "twotone"
   },
   {
@@ -7527,7 +7527,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.75 15.25L2.25 20.75" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "forbidden"],
+    tags: ["money", "forbidden", "no money", "restricted", "blocked", "prohibited", "illegal", "fraud", "stop", "unavailable"],
     category: "twotone"
   },
   {
@@ -7543,7 +7543,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L17 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "recive"],
+    tags: ["money", "recive", "income", "payment received", "deposit", "incoming", "credit", "earnings", "receive", "transfer in"],
     category: "twotone"
   },
   {
@@ -7558,7 +7558,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.03967 16.96L3.92969 19.0699" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "remove"],
+    tags: ["money", "remove", "finance", "delete", "transaction", "payment", "decline", "negative", "expense", "cancel", "currency", "cash"],
     category: "twotone"
   },
   {
@@ -7574,7 +7574,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17 7L22 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "send"],
+    tags: ["money", "send", "finance", "transfer", "payment", "transaction", "outbound", "dispatch", "currency", "cash", "remit"],
     category: "twotone"
   },
   {
@@ -7588,7 +7588,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 15.3V9C2 5.5 4 4 7 4H17C20 4 22 5.5 22 9V15C22 18.5 20 20 17 20H8.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "tick"],
+    tags: ["money", "tick", "finance", "approved", "payment", "success", "transaction", "verified", "confirmed", "currency", "cash"],
     category: "twotone"
   },
   {
@@ -7602,7 +7602,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 15.2V9C2 5.5 4 4 7 4H17C20 4 22 5.5 22 9V15C22 18.5 20 20 17 20H8.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money", "time"],
+    tags: ["money", "time", "finance", "history", "schedule", "payment", "transaction", "pending", "delay", "currency", "cash"],
     category: "twotone"
   },
   {
@@ -7615,7 +7615,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.5 9.5V14.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["money"],
+    tags: ["money", "finance", "currency", "payment", "transaction", "cash", "wealth", "income", "savings", "economy"],
     category: "twotone"
   },
   {
@@ -7629,7 +7629,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.2207 8.2998V12.6998" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["moneys"],
+    tags: ["moneys", "finance", "currency", "payments", "transactions", "cash", "wealth", "income", "savings", "economy", "multiple"],
     category: "twotone"
   },
   {
@@ -7644,7 +7644,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17.2445 18.25H17.2535" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["monitor", "mobbile"],
+    tags: ["monitor", "mobbile", "device", "desktop", "responsive", "screen", "display", "web", "development", "ui", "programming", "mobile"],
     category: "twotone"
   },
   {
@@ -7659,7 +7659,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.9102 7.91998L19.7002 7.06998V4.30998L20.9102 3.45998C21.5102 3.04998 22.0002 3.29998 22.0002 4.02998V7.35998C22.0002 8.08998 21.5102 8.33998 20.9102 7.91998Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["monitor", "recorder"],
+    tags: ["monitor", "recorder", "device", "screen", "display", "record", "video", "capture", "streaming", "webinar", "presentation"],
     category: "twotone"
   },
   {
@@ -7672,7 +7672,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.5 22H16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["monitor"],
+    tags: ["monitor", "device", "desktop", "screen", "display", "computer", "web", "ui", "hardware", "workstation"],
     category: "twotone"
   },
   {
@@ -7682,7 +7682,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2.02911 12.42C2.38911 17.57 6.75911 21.76 11.9891 21.99C15.6791 22.15 18.9791 20.43 20.9591 17.72C21.7791 16.61 21.3391 15.87 19.9691 16.12C19.2991 16.24 18.6091 16.29 17.8891 16.26C12.9991 16.06 8.99911 11.97 8.97911 7.13996C8.96911 5.83996 9.23911 4.60996 9.72911 3.48996C10.2691 2.24996 9.61911 1.65996 8.36911 2.18996C4.40911 3.85996 1.69911 7.84996 2.02911 12.42Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["moon"],
+    tags: ["moon", "nature", "night", "dark mode", "celestial", "space", "astronomy", "sleep", "weather", "crescent"],
     category: "twotone"
   },
   {
@@ -7694,7 +7694,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.2098 19.0002C18.3998 19.0002 19.3698 18.0302 19.3698 16.8402C19.3698 15.6502 18.3998 14.6802 17.2098 14.6802C16.0198 14.6802 15.0498 15.6502 15.0498 16.8402C15.0498 18.0302 16.0198 19.0002 17.2098 19.0002Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["more", "2"],
+    tags: ["more", "2", "ui", "options", "menu", "overflow", "additional", "settings", "ellipsis", "kebab", "vertical"],
     category: "twotone"
   },
   {
@@ -7707,7 +7707,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M7.99451 12H8.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["more", "circle"],
+    tags: ["more", "circle", "ui", "options", "menu", "overflow", "additional", "settings", "ellipsis", "circular", "rounded"],
     category: "twotone"
   },
   {
@@ -7720,7 +7720,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M7.99451 12H8.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["more", "square"],
+    tags: ["more", "square", "ui", "options", "menu", "overflow", "additional", "settings", "ellipsis", "geometric"],
     category: "twotone"
   },
   {
@@ -7732,7 +7732,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "twotone",
-    tags: ["more"],
+    tags: ["more", "ui", "options", "menu", "overflow", "additional", "settings", "ellipsis", "horizontal", "dots"],
     category: "twotone"
   },
   {
@@ -7743,7 +7743,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mouse", "1"],
+    tags: ["mouse", "1", "device", "cursor", "click", "pointer", "input", "computer", "hardware", "peripheral", "scroll"],
     category: "twotone"
   },
   {
@@ -7754,7 +7754,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mouse", "circle"],
+    tags: ["mouse", "circle", "device", "cursor", "click", "pointer", "input", "computer", "hardware", "peripheral", "circular", "rounded"],
     category: "twotone"
   },
   {
@@ -7765,7 +7765,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.9597 17.84L19.3297 18.39C18.8797 18.54 18.5197 18.89 18.3697 19.35L17.8197 20.98C17.3497 22.39 15.3697 22.36 14.9297 20.95L13.0797 15C12.7197 13.82 13.8097 12.72 14.9797 13.09L20.9397 14.94C22.3397 15.38 22.3597 17.37 20.9597 17.84Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["mouse", "square"],
+    tags: ["mouse", "square", "device", "cursor", "click", "pointer", "input", "computer", "hardware", "peripheral", "geometric"],
     category: "twotone"
   },
   {
@@ -7779,7 +7779,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["mouse"],
+    tags: ["mouse", "device", "cursor", "click", "pointer", "input", "computer", "hardware", "peripheral", "scroll"],
     category: "twotone"
   },
   {
@@ -7799,7 +7799,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "circle"],
+    tags: ["music", "circle", "media", "audio", "sound", "note", "song", "playlist", "player", "entertainment", "circular", "rounded"],
     category: "twotone"
   },
   {
@@ -7816,7 +7816,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "dashboard"],
+    tags: ["music", "dashboard", "media", "audio", "sound", "analytics", "stats", "performance", "metrics", "reporting", "charts"],
     category: "twotone"
   },
   {
@@ -7835,7 +7835,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "filter"],
+    tags: ["music", "filter", "media", "audio", "sound", "equalizer", "settings", "preferences", "adjust", "mix", "control"],
     category: "twotone"
   },
   {
@@ -7853,7 +7853,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "library", "2"],
+    tags: ["music", "library", "2", "media", "audio", "sound", "collection", "archive", "songs", "albums", "storage", "catalog"],
     category: "twotone"
   },
   {
@@ -7864,7 +7864,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.53 9.11999H14.72C14.5 9.11999 14.29 9.25 14.19 9.44L13.44 10.94C13.33 11.16 13.02 11.16 12.91 10.94L11.07 7.27002C10.96 7.06002 10.66 7.05001 10.55 7.26001L9.70996 8.80999C9.60996 8.99999 9.40997 9.11999 9.18997 9.11999H8.45996" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["music", "play"],
+    tags: ["music", "play", "media", "audio", "sound", "start", "player", "entertainment", "stream", "listen", "playback"],
     category: "twotone"
   },
   {
@@ -7882,7 +7882,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "playlist"],
+    tags: ["music", "playlist", "media", "audio", "sound", "queue", "songs", "albums", "list", "collection", "player"],
     category: "twotone"
   },
   {
@@ -7903,7 +7903,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "square", "add"],
+    tags: ["music", "square", "add", "media", "audio", "sound", "new", "create", "upload", "add to playlist", "geometric"],
     category: "twotone"
   },
   {
@@ -7924,7 +7924,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "square", "remove"],
+    tags: ["music", "square", "remove", "audio", "song", "playlist", "delete", "minus", "filled", "ui", "player"],
     category: "twotone"
   },
   {
@@ -7942,7 +7942,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.7402 21.8799L20.7402 20.8799" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["music", "square", "search"],
+    tags: ["music", "square", "search", "audio", "song", "find", "locate", "magnify", "filled", "ui", "player"],
     category: "twotone"
   },
   {
@@ -7958,7 +7958,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music", "square"],
+    tags: ["music", "square", "audio", "song", "playlist", "melody", "filled", "ui", "player"],
     category: "twotone"
   },
   {
@@ -7973,7 +7973,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["music"],
+    tags: ["music", "audio", "song", "playlist", "melody", "note", "outline", "player", "entertainment"],
     category: "twotone"
   },
   {
@@ -7985,7 +7985,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14.6105 2.11L19.0305 3.58C20.1005 3.94 20.9805 5.15 20.9805 6.28V7.45C20.9805 8.98 19.8005 9.83 18.3505 9.35L13.9305 7.88C12.8605 7.52 11.9805 6.31 11.9805 5.18V4C11.9705 2.48 13.1605 1.62 14.6105 2.11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["musicnote"],
+    tags: ["musicnote", "audio", "song", "melody", "tune", "eighth note", "filled", "player", "entertainment"],
     category: "twotone"
   },
   {
@@ -7996,7 +7996,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.2402 18.1798V5.81982" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["next"],
+    tags: ["next", "forward", "skip", "arrow", "player", "navigation", "advance", "ui", "right"],
     category: "twotone"
   },
   {
@@ -8009,7 +8009,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 17H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note", "1"],
+    tags: ["note", "1", "document", "memo", "paper", "file", "outline", "text editor", "reminder", "report"],
     category: "twotone"
   },
   {
@@ -8022,7 +8022,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11.6602 12.3999L14.5602 13.1399" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note", "2"],
+    tags: ["note", "2", "document", "memo", "paper", "file", "outline", "text editor", "reminder", "report"],
     category: "twotone"
   },
   {
@@ -8036,7 +8036,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16 3.5C19.33 3.68 21 4.95 21 9.65V15.83C21 19.95 20 22.01 15 22.01H9C4 22.01 3 19.95 3 15.83V9.65C3 4.95 4.67 3.69 8 3.5H16Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note", "21"],
+    tags: ["note", "21", "document", "memo", "paper", "file", "outline", "text editor", "reminder", "report"],
     category: "twotone"
   },
   {
@@ -8052,7 +8052,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.8098 3.41992C19.1498 3.53992 20.8398 4.76992 20.9398 9.46992L21.0698 15.6399C21.1498 19.7599 20.1998 21.8299 15.1998 21.9399L9.19983 22.0599C4.19983 22.1599 3.15983 20.1199 3.07983 16.0099L2.93983 9.82992C2.83983 5.12992 4.48983 3.82992 7.80983 3.57992L15.8098 3.41992Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note", "add"],
+    tags: ["note", "add", "document", "memo", "create", "new", "plus", "outline", "text editor", "compose"],
     category: "twotone"
   },
   {
@@ -8068,7 +8068,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17.75 20.25C17.75 18.87 18.87 17.75 20.25 17.75C18.87 17.75 17.75 16.63 17.75 15.25C17.75 16.63 16.63 17.75 15.25 17.75C16.63 17.75 17.75 18.87 17.75 20.25Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note", "favorite"],
+    tags: ["note", "favorite", "document", "memo", "bookmark", "star", "important", "outline", "save", "highlight"],
     category: "twotone"
   },
   {
@@ -8086,7 +8086,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 16L15 22V19C15 17 16 16 18 16H21Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note", "remove"],
+    tags: ["note", "remove", "document", "memo", "delete", "minus", "clear", "outline", "text editor", "discard"],
     category: "twotone"
   },
   {
@@ -8101,7 +8101,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["note", "square"],
+    tags: ["note", "square", "document", "memo", "paper", "file", "filled", "text editor", "reminder", "report"],
     category: "twotone"
   },
   {
@@ -8115,7 +8115,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 16H12" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note", "text"],
+    tags: ["note", "text", "document", "memo", "paragraph", "content", "lines", "outline", "text editor", "writing"],
     category: "twotone"
   },
   {
@@ -8126,7 +8126,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.0603 19.3901C14.4403 19.8101 13.6603 20.1601 12.7103 20.4701L11.1303 20.9901C7.16034 22.2701 5.07034 21.2001 3.78034 17.2301L2.50034 13.2801C1.22034 9.3101 2.28034 7.2101 6.25034 5.9301L7.83034 5.4101C8.24034 5.2801 8.63034 5.1701 9.00034 5.1001C8.70034 5.7101 8.46034 6.4501 8.26034 7.3001L7.28034 11.4901C6.30034 15.6701 7.59034 17.7301 11.7603 18.7201L13.4403 19.1201C14.0203 19.2601 14.5603 19.3501 15.0603 19.3901Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["note"],
+    tags: ["note", "document", "memo", "paper", "file", "outline", "text editor", "reminder", "report"],
     category: "twotone"
   },
   {
@@ -8137,7 +8137,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["notification", "1"],
+    tags: ["notification", "1", "alert", "bell", "message", "reminder", "alarm", "system", "ui", "announcement"],
     category: "twotone"
   },
   {
@@ -8149,7 +8149,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.3299 18.8198C15.3299 20.6498 13.8299 22.1498 11.9999 22.1498C11.0899 22.1498 10.2499 21.7698 9.64992 21.1698C9.04992 20.5698 8.66992 19.7298 8.66992 18.8198" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["notification", "bing"],
+    tags: ["notification", "bing", "alert", "bell", "message", "reminder", "alarm", "system", "ui", "announcement", "sound"],
     category: "twotone"
   },
   {
@@ -8161,7 +8161,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.81046 14.9299C6.46046 13.8299 6.87046 12.4599 8.03046 12.0899C8.64046 11.8899 9.39046 12.0599 9.82046 12.6499C10.2205 12.0399 11.0005 11.8999 11.6005 12.0899C12.7605 12.4599 13.1705 13.8299 12.8205 14.9299C12.2705 16.6799 10.3505 17.5899 9.82046 17.5899C9.28046 17.5799 7.38046 16.6899 6.81046 14.9299Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["notification", "favorite"],
+    tags: ["notification", "favorite", "alert", "bell", "message", "important", "star", "bookmark", "system", "ui"],
     category: "twotone"
   },
   {
@@ -8174,7 +8174,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["notification", "status"],
+    tags: ["notification", "status", "alert", "bell", "message", "active", "dot", "system", "ui", "indicator"],
     category: "twotone"
   },
   {
@@ -8186,7 +8186,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.0195 19.0601C15.0195 20.7101 13.6695 22.0601 12.0195 22.0601C11.1995 22.0601 10.4395 21.7201 9.89953 21.1801C9.35953 20.6401 9.01953 19.8801 9.01953 19.0601" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
 </svg>`,
     style: "twotone",
-    tags: ["notification"],
+    tags: ["notification", "alert", "bell", "message", "reminder", "alarm", "system", "ui", "announcement"],
     category: "twotone"
   },
   {
@@ -8197,7 +8197,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17 16.5H13.9L15.52 14.71C16.32 13.82 16.76 12.69 16.76 11.53C16.76 10.33 16.26 9.18002 15.37 8.33002C14.48 7.48002 13.27 7 12 7C10.74 7 9.53 7.48002 8.63 8.33002C7.74 9.18002 7.23999 10.33 7.23999 11.53C7.23999 12.7 7.67998 13.83 8.47998 14.71L10.1 16.5H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["omega", "circle"],
+    tags: ["omega", "circle", "symbol", "math", "science", "physics", "last", "end", "circular", "outline"],
     category: "twotone"
   },
   {
@@ -8208,7 +8208,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17 16.75H13.9L15.52 14.96C16.32 14.07 16.76 12.94 16.76 11.78C16.76 10.58 16.26 9.43002 15.37 8.58002C14.48 7.73002 13.27 7.25 12 7.25C10.74 7.25 9.53 7.73002 8.63 8.58002C7.74 9.43002 7.23999 10.58 7.23999 11.78C7.23999 12.95 7.67998 14.08 8.47998 14.96L10.1 16.75H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["omega", "square"],
+    tags: ["omega", "square", "symbol", "math", "science", "physics", "last", "end", "geometric", "filled"],
     category: "twotone"
   },
   {
@@ -8220,7 +8220,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 12.2398C7.56 10.7298 13.42 10.6798 19 12.1098L19.5 12.2398" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["paintbucket"],
+    tags: ["paintbucket", "fill", "color", "design", "art", "tool", "editor", "palette", "creation"],
     category: "twotone"
   },
   {
@@ -8230,7 +8230,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.3297 12.1499L9.85969 14.6199C8.48969 15.9899 8.48969 18.1999 9.85969 19.5699C11.2297 20.9399 13.4397 20.9399 14.8097 19.5699L18.6997 15.6799C21.4297 12.9499 21.4297 8.50992 18.6997 5.77992C15.9697 3.04992 11.5297 3.04992 8.79969 5.77992L4.55969 10.0199C2.21969 12.3599 2.21969 16.1599 4.55969 18.5099" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["paperclip", "2"],
+    tags: ["paperclip", "2", "attachment", "link", "file", "connect", "document", "ui", "email", "clip"],
     category: "twotone"
   },
   {
@@ -8240,7 +8240,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9707 12V15.5C11.9707 17.43 13.5407 19 15.4707 19C17.4007 19 18.9707 17.43 18.9707 15.5V10C18.9707 6.13 15.8407 3 11.9707 3C8.1007 3 4.9707 6.13 4.9707 10V16C4.9707 19.31 7.6607 22 10.9707 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["paperclip"],
+    tags: ["paperclip", "attachment", "link", "file", "connect", "document", "ui", "email", "clip"],
     category: "twotone"
   },
   {
@@ -8254,7 +8254,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.09412 12H7.1031" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["password", "check"],
+    tags: ["password", "check", "security", "authentication", "login", "verified", "access", "success", "form", "ui"],
     category: "twotone"
   },
   {
@@ -8266,7 +8266,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.0098 2.66992V6.96992" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["path", "2"],
+    tags: ["path", "2", "route", "direction", "journey", "line", "geometric", "minimal", "map", "travel"],
     category: "twotone"
   },
   {
@@ -8281,7 +8281,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["path", "square"],
+    tags: ["path", "square", "route", "direction", "journey", "geometric", "map", "travel", "ui"],
     category: "twotone"
   },
   {
@@ -8293,7 +8293,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M4.60938 19.4199L7.63937 16.3799" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["path"],
+    tags: ["path", "route", "direction", "journey", "line", "geometric", "map", "travel", "minimal"],
     category: "twotone"
   },
   {
@@ -8305,7 +8305,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.9991 14.5298V9.4698C15.9991 8.9898 15.7991 8.7998 15.2891 8.7998H13.9991C13.4891 8.7998 13.2891 8.9898 13.2891 9.4698V14.5298C13.2891 15.0098 13.4891 15.1998 13.9991 15.1998H15.2891C15.7991 15.1998 15.9991 15.0098 15.9991 14.5298Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pause", "circle"],
+    tags: ["pause", "circle", "stop", "hold", "break", "media player", "control", "circular", "ui", "audio", "video"],
     category: "twotone"
   },
   {
@@ -8316,7 +8316,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.9996 19.11V4.89C20.9996 3.54 20.4296 3 18.9896 3H15.3596C13.9296 3 13.3496 3.54 13.3496 4.89V19.11C13.3496 20.46 13.9196 21 15.3596 21H18.9896C20.4296 21 20.9996 20.46 20.9996 19.11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pause"],
+    tags: ["pause", "stop", "hold", "break", "media player", "control", "ui", "audio", "video", "rectangular"],
     category: "twotone"
   },
   {
@@ -8334,7 +8334,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.16078 6.5H4.80078" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pen", "add"],
+    tags: ["pen", "add", "edit", "write", "create", "new entry", "document", "compose", "tool", "form", "plus"],
     category: "twotone"
   },
   {
@@ -8352,7 +8352,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.68077 5.31982L5.30078 7.69983" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pen", "close"],
+    tags: ["pen", "close", "edit", "write", "cancel", "clear", "remove", "document", "tool", "form", "x mark"],
     category: "twotone"
   },
   {
@@ -8369,7 +8369,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.1608 6.5H4.80078" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pen", "remove"],
+    tags: ["pen", "remove", "edit", "write", "delete", "subtract", "document", "tool", "form", "minus"],
     category: "twotone"
   },
   {
@@ -8388,7 +8388,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.2495 11.17C20.2495 7.25004 17.3095 4.03006 13.5195 3.56006" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pen", "tool", "2"],
+    tags: ["pen", "tool", "2", "design", "draw", "vector", "graphic", "bezier", "anchor", "illustrator", "creative"],
     category: "twotone"
   },
   {
@@ -8407,7 +8407,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.46094 10.0998L10.7609 4.7998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pen", "tool"],
+    tags: ["pen", "tool", "design", "draw", "vector", "graphic", "bezier", "anchor", "illustrator", "creative"],
     category: "twotone"
   },
   {
@@ -8422,7 +8422,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.0907 17.7804C7.6807 18.7204 7.6807 20.2603 9.0907 21.2003C10.6907 22.2703 13.3107 22.2703 14.9107 21.2003C16.3207 20.2603 16.3207 18.7204 14.9107 17.7804C13.3207 16.7204 10.6907 16.7204 9.0907 17.7804Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["people"],
+    tags: ["people", "users", "group", "community", "team", "social", "audience", "profile", "friends"],
     category: "twotone"
   },
   {
@@ -8435,7 +8435,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["percentage", "circle"],
+    tags: ["percentage", "circle", "discount", "rate", "ratio", "sale", "statistics", "circular", "finance", "data"],
     category: "twotone"
   },
   {
@@ -8448,7 +8448,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.269 16.0899C15.9484 16.0899 16.4991 15.5392 16.4991 14.8599C16.4991 14.1806 15.9484 13.6299 15.269 13.6299C14.5897 13.6299 14.0391 14.1806 14.0391 14.8599C14.0391 15.5392 14.5897 16.0899 15.269 16.0899Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["percentage", "square"],
+    tags: ["percentage", "square", "discount", "rate", "ratio", "sale", "statistics", "finance", "data"],
     category: "twotone"
   },
   {
@@ -8465,7 +8465,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["personalcard"],
+    tags: ["personalcard", "id", "profile", "contact", "identity", "user", "account", "business card", "information"],
     category: "twotone"
   },
   {
@@ -8479,7 +8479,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M3.9707 10.7002C5.07527 10.7002 5.9707 9.80476 5.9707 8.7002C5.9707 7.59563 5.07527 6.7002 3.9707 6.7002C2.86613 6.7002 1.9707 7.59563 1.9707 8.7002C1.9707 9.80476 2.86613 10.7002 3.9707 10.7002Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["pet"],
+    tags: ["pet", "animal", "dog", "cat", "paw", "vet", "friendly", "care", "nature"],
     category: "twotone"
   },
   {
@@ -8495,7 +8495,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["pharagraphspacing"],
+    tags: ["pharagraphspacing", "text", "typography", "line height", "layout", "document", "editor", "formatting", "ui"],
     category: "twotone"
   },
   {
@@ -8509,7 +8509,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["picture", "frame"],
+    tags: ["picture", "frame", "image", "gallery", "photo", "art", "display", "decorate", "media", "ui"],
     category: "twotone"
   },
   {
@@ -8525,7 +8525,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["play", "add"],
+    tags: ["play", "add", "media", "start", "new playlist", "create", "plus", "music", "video", "control"],
     category: "twotone"
   },
   {
@@ -8536,7 +8536,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.74023 12.2301V10.5601C8.74023 8.48012 10.2102 7.63012 12.0102 8.67012L13.4602 9.51012L14.9102 10.3501C16.7102 11.3901 16.7102 13.0901 14.9102 14.1301L13.4602 14.9701L12.0102 15.8101C10.2102 16.8501 8.74023 16.0001 8.74023 13.9201V12.2301Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["play", "circle"],
+    tags: ["play", "circle", "media", "start", "begin", "circular", "music", "video", "control", "ui"],
     category: "twotone"
   },
   {
@@ -8550,7 +8550,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.74023 12.0001V10.3302C8.74023 8.25016 10.2103 7.40014 12.0103 8.44014L13.4602 9.28017L14.9102 10.1201C16.7102 11.1601 16.7102 12.8602 14.9102 13.9002L13.4602 14.7401L12.0103 15.5802C10.2103 16.6202 8.74023 15.7701 8.74023 13.6901V12.0001Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["play", "cricle"],
+    tags: ["play", "cricle", "media", "start", "begin", "circular", "music", "video", "control", "ui"],
     category: "twotone"
   },
   {
@@ -8566,7 +8566,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["play", "remove"],
+    tags: ["play", "remove", "media", "delete", "subtract", "minus", "music", "video", "control", "ui"],
     category: "twotone"
   },
   {
@@ -8576,7 +8576,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4 11.9999V8.43989C4 4.01989 7.13 2.2099 10.96 4.4199L14.05 6.1999L17.14 7.9799C20.97 10.1899 20.97 13.8099 17.14 16.0199L14.05 17.7999L10.96 19.5799C7.13 21.7899 4 19.9799 4 15.5599V11.9999Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["play"],
+    tags: ["play", "media", "start", "begin", "triangle", "music", "video", "control", "ui"],
     category: "twotone"
   },
   {
@@ -8591,7 +8591,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.5 11L10.65 8.37C10.9 8.16 11.23 8.22 11.4 8.5L12.6 10.5C12.77 10.78 13.1 10.83 13.35 10.63L16.5 8" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["presention", "chart"],
+    tags: ["presention", "chart", "graph", "report", "analytics", "data", "statistics", "business", "growth", "dashboard"],
     category: "twotone"
   },
   {
@@ -8602,7 +8602,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3.75977 18.1798V5.81982" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["previous"],
+    tags: ["previous", "back", "rewind", "backward", "media control", "arrow", "navigation", "ui", "step"],
     category: "twotone"
   },
   {
@@ -8618,7 +8618,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["printer", "slash"],
+    tags: ["printer", "slash", "printing", "offline", "unavailable", "disabled", "error", "cancel", "blocked", "strikethrough", "device", "hardware"],
     category: "twotone"
   },
   {
@@ -8632,7 +8632,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 11H10" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["printer"],
+    tags: ["printer", "print", "document", "output", "copy", "machine", "hardware", "office", "device", "paper", "ink"],
     category: "twotone"
   },
   {
@@ -8645,7 +8645,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.3398 20C19.0598 19.85 19.7398 19.56 20.2998 19.13C21.8598 17.96 21.8598 16.03 20.2998 14.86C19.7498 14.44 19.0798 14.16 18.3698 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["profile", "2user"],
+    tags: ["profile", "2user", "users", "team", "group", "community", "collaboration", "friends", "audience", "multiple", "avatars", "social"],
     category: "twotone"
   },
   {
@@ -8660,7 +8660,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9891 21.8102C10.1691 21.8102 8.35906 21.3502 6.97906 20.4302C4.55906 18.8102 4.55906 16.1702 6.97906 14.5602C9.72906 12.7202 14.2391 12.7202 16.9891 14.5602" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["profile", "add"],
+    tags: ["profile", "add", "user", "new", "create", "invite", "plus", "onboarding", "register", "account", "member", "person"],
     category: "twotone"
   },
   {
@@ -8672,7 +8672,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["profile", "circle"],
+    tags: ["profile", "circle", "user", "account", "avatar", "person", "settings", "my profile", "rounded", "human", "login", "identity"],
     category: "twotone"
   },
   {
@@ -8687,7 +8687,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12.0008 21.8102C10.1808 21.8102 8.37078 21.3502 6.99078 20.4302C4.57078 18.8102 4.57078 16.1702 6.99078 14.5602C9.74078 12.7202 14.2508 12.7202 17.0008 14.5602" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["profile", "delete"],
+    tags: ["profile", "delete", "user", "remove", "erase", "cancel", "minus", "account management", "deactivate", "person", "delete account", "exit"],
     category: "twotone"
   },
   {
@@ -8699,7 +8699,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9891 21.8102C10.1691 21.8102 8.35906 21.3502 6.97906 20.4302C4.55906 18.8102 4.55906 16.1702 6.97906 14.5602C9.72906 12.7202 14.2391 12.7202 16.9891 14.5602" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["profile", "remove"],
+    tags: ["profile", "remove", "user", "delete", "minus", "account", "unfollow", "person", "deactivation", "management", "cancel", "exit"],
     category: "twotone"
   },
   {
@@ -8711,7 +8711,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.9891 21.8102C10.1691 21.8102 8.35906 21.3502 6.97906 20.4302C4.55906 18.8102 4.55906 16.1702 6.97906 14.5602C9.72906 12.7202 14.2391 12.7202 16.9891 14.5602" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["profile", "tick"],
+    tags: ["profile", "tick", "user", "verified", "approved", "checked", "completed", "success", "account", "onboarded", "person", "confirmation"],
     category: "twotone"
   },
   {
@@ -8728,7 +8728,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19 22C20.6569 22 22 20.6569 22 19C22 17.3431 20.6569 16 19 16C17.3431 16 16 17.3431 16 19C16 20.6569 17.3431 22 19 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["programming", "arrow"],
+    tags: ["programming", "arrow", "code", "development", "coding", "logic", "flow", "algorithm", "direction", "software", "engineering", "script"],
     category: "twotone"
   },
   {
@@ -8745,7 +8745,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5 8C6.65685 8 8 6.65685 8 5C8 3.34315 6.65685 2 5 2C3.34315 2 2 3.34315 2 5C2 6.65685 3.34315 8 5 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["programming", "arrows"],
+    tags: ["programming", "arrows", "code", "development", "coding", "logic", "flowchart", "algorithm", "software", "engineering", "script", "multiple"],
     category: "twotone"
   },
   {
@@ -8761,7 +8761,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["quote", "down", "circle"],
+    tags: ["quote", "down", "circle", "quotation", "citation", "testimonial", "speech", "text", "rounded", "message", "dialogue", "comment", "inverted commas"],
     category: "twotone"
   },
   {
@@ -8777,7 +8777,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["quote", "down", "square"],
+    tags: ["quote", "down", "square", "quotation", "citation", "testimonial", "speech", "text", "message", "dialogue", "comment", "inverted commas"],
     category: "twotone"
   },
   {
@@ -8792,7 +8792,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["quote", "down"],
+    tags: ["quote", "down", "quotation", "citation", "testimonial", "speech", "text", "message", "dialogue", "comment", "inverted commas", "start quote"],
     category: "twotone"
   },
   {
@@ -8808,7 +8808,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["quote", "up", "circle"],
+    tags: ["quote", "up", "circle", "quotation", "citation", "testimonial", "speech", "text", "rounded", "message", "dialogue", "comment", "inverted commas"],
     category: "twotone"
   },
   {
@@ -8824,7 +8824,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["quote", "up", "square"],
+    tags: ["quote", "up", "square", "quotation", "citation", "testimonial", "speech", "text", "message", "dialogue", "comment", "inverted commas"],
     category: "twotone"
   },
   {
@@ -8839,7 +8839,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13.6309 12.3502C13.6309 6.30022 14.7608 5.30027 18.1608 3.28027" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["quote", "up"],
+    tags: ["quote", "up", "quotation", "citation", "testimonial", "speech", "text", "message", "dialogue", "comment", "inverted commas", "end quote"],
     category: "twotone"
   },
   {
@@ -8853,7 +8853,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.20001 8.3999C6.45001 9.3999 6 10.6499 6 11.9999C6 13.3499 6.45001 14.5999 7.20001 15.5999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["radar", "1"],
+    tags: ["radar", "1", "scanner", "detection", "signal", "waves", "location", "tracking", "security", "circular", "ping", "search"],
     category: "twotone"
   },
   {
@@ -8864,7 +8864,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.82999 8.95999C6.29999 9.84999 6 10.89 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6C11.09 6 10.22 6.20001 9.45001 6.57001" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["radar", "2"],
+    tags: ["radar", "2", "scanner", "detection", "signal", "waves", "location", "tracking", "security", "circular", "ping", "search"],
     category: "twotone"
   },
   {
@@ -8874,7 +8874,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6 4C7.67 2.75 9.75 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 10.19 2.47999 8.48999 3.32999 7.01999L12 12" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["radar"],
+    tags: ["radar", "scanner", "detection", "signal", "waves", "location", "tracking", "security", "circular", "ping", "search"],
     category: "twotone"
   },
   {
@@ -8889,7 +8889,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18 15H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["radio"],
+    tags: ["radio", "music", "broadcast", "audio", "frequency", "channel", "entertainment", "device", "sound", "receiver", "media"],
     category: "twotone"
   },
   {
@@ -8903,7 +8903,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.9404 4.92004L14.9904 2.04004" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ram", "2"],
+    tags: ["ram", "2", "memory", "computer", "hardware", "chip", "storage", "technology", "processor", "electronic", "device", "component"],
     category: "twotone"
   },
   {
@@ -8915,7 +8915,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.9697 7.77979H7.96973" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ram"],
+    tags: ["ram", "memory", "computer", "hardware", "chip", "storage", "technology", "processor", "electronic", "device", "component"],
     category: "twotone"
   },
   {
@@ -8928,7 +8928,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.5202 2.06982L13.0502 3.12982C13.1202 3.27982 13.3102 3.41982 13.4702 3.43982L14.4302 3.59982C15.0402 3.69982 15.1902 4.1498 14.7502 4.5798L14.0002 5.3298C13.8702 5.4598 13.8002 5.69981 13.8402 5.86981L14.0502 6.78982C14.2202 7.51982 13.8302 7.79983 13.1902 7.41983L12.2902 6.88983C12.1302 6.78983 11.8602 6.78983 11.7002 6.88983L10.8002 7.41983C10.1602 7.79983 9.77023 7.51982 9.94023 6.78982L10.1502 5.86981C10.1902 5.69981 10.1202 5.4498 9.99023 5.3298L9.25023 4.58981C8.81023 4.14981 8.95023 3.7098 9.57023 3.6098L10.5302 3.44983C10.6902 3.41983 10.8802 3.27983 10.9502 3.13983L11.4802 2.0798C11.7702 1.4998 12.2302 1.49982 12.5202 2.06982Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ranking", "1"],
+    tags: ["ranking", "1", "leaderboard", "score", "achievement", "top", "award", "competition", "performance", "level", "chart", "success"],
     category: "twotone"
   },
   {
@@ -8941,7 +8941,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 4V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ranking"],
+    tags: ["ranking", "leaderboard", "score", "achievement", "top", "award", "competition", "performance", "level", "chart", "success"],
     category: "twotone"
   },
   {
@@ -8953,7 +8953,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 11H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "1"],
+    tags: ["receipt", "1", "invoice", "bill", "transaction", "purchase", "payment", "document", "finance", "shopping", "order", "paper"],
     category: "twotone"
   },
   {
@@ -8967,7 +8967,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.8984 7H16.3984" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "2", "1"],
+    tags: ["receipt", "2", "1", "invoice", "bill", "document", "payment", "transaction", "financial", "paper", "outline"],
     category: "twotone"
   },
   {
@@ -8979,7 +8979,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8 13.75H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "2"],
+    tags: ["receipt", "2", "invoice", "bill", "document", "payment", "transaction", "financial", "paper", "outline"],
     category: "twotone"
   },
   {
@@ -8994,7 +8994,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "add"],
+    tags: ["receipt", "add", "invoice", "bill", "new", "create", "payment", "transaction", "financial", "plus"],
     category: "twotone"
   },
   {
@@ -9008,7 +9008,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.19373 8.5H6.20271" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "discount"],
+    tags: ["receipt", "discount", "invoice", "bill", "sale", "coupon", "voucher", "offer", "price reduction", "shopping"],
     category: "twotone"
   },
   {
@@ -9021,7 +9021,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.99451 7.5H9.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "disscount"],
+    tags: ["receipt", "disscount", "invoice", "bill", "sale", "coupon", "voucher", "offer", "price reduction", "shopping"],
     category: "twotone"
   },
   {
@@ -9035,7 +9035,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.6992 15.2798C17.9992 16.3598 18.8392 17.1998 19.9192 17.4998" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "edit"],
+    tags: ["receipt", "edit", "invoice", "bill", "modify", "update", "change", "document", "financial", "management"],
     category: "twotone"
   },
   {
@@ -9050,7 +9050,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M5.99451 9H6.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "item"],
+    tags: ["receipt", "item", "invoice", "bill", "product", "service", "listing", "details", "financial", "document"],
     category: "twotone"
   },
   {
@@ -9062,7 +9062,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.25 10H11.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "minus"],
+    tags: ["receipt", "minus", "invoice", "bill", "remove", "delete", "cancel", "payment", "transaction", "financial"],
     category: "twotone"
   },
   {
@@ -9076,7 +9076,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 11H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "search"],
+    tags: ["receipt", "search", "invoice", "bill", "find", "lookup", "explore", "discover", "financial", "magnifying glass"],
     category: "twotone"
   },
   {
@@ -9087,7 +9087,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.90024 16.5299C9.38024 16.0099 10.1203 16.0499 10.5403 16.6199L11.1403 17.4199C11.6103 18.0499 12.3902 18.0499 12.8602 17.4199L13.4503 16.6299C13.8703 16.0699 14.6102 16.0299 15.0902 16.5399C16.1402 17.6599 16.9902 17.2899 16.9902 15.7199V9.08987C16.9902 6.71987 16.4302 6.12988 14.2102 6.12988H9.77023C7.55023 6.12988 6.99023 6.71987 6.99023 9.08987V15.7199C7.00023 17.2699 7.86024 17.6399 8.90024 16.5299Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "square"],
+    tags: ["receipt", "square", "invoice", "bill", "document", "payment", "transaction", "financial", "paper", "geometric"],
     category: "twotone"
   },
   {
@@ -9100,7 +9100,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.75 13H11.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt", "text"],
+    tags: ["receipt", "text", "invoice", "bill", "document", "content", "details", "financial", "paper", "information"],
     category: "twotone"
   },
   {
@@ -9111,7 +9111,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 7V21C2 21.83 2.93998 22.3 3.59998 21.8L5.31 20.52C5.71 20.22 6.27 20.26 6.63 20.62L8.28998 22.29C8.67998 22.68 9.32002 22.68 9.71002 22.29L11.39 20.61C11.74 20.26 12.3 20.22 12.69 20.52L14.4 21.8C15.06 22.29 16 21.82 16 21V4C16 2.9 16.9 2 18 2H7H6C3 2 2 3.79 2 6V7Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receipt"],
+    tags: ["receipt", "invoice", "bill", "document", "payment", "transaction", "financial", "paper", "outline"],
     category: "twotone"
   },
   {
@@ -9126,7 +9126,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6 16.5098C9.89 17.8098 14.11 17.8098 18 16.5098" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["receive", "square", "2"],
+    tags: ["receive", "square", "2", "download", "inbox", "incoming", "delivery", "arrow", "data transfer", "interface"],
     category: "twotone"
   },
   {
@@ -9141,7 +9141,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["receive", "square"],
+    tags: ["receive", "square", "download", "inbox", "incoming", "delivery", "arrow", "data transfer", "interface"],
     category: "twotone"
   },
   {
@@ -9153,7 +9153,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3.5 22H20.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["received"],
+    tags: ["received", "delivered", "confirmed", "accepted", "completed", "check", "success", "done", "status"],
     category: "twotone"
   },
   {
@@ -9164,7 +9164,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11.9995 16.23C14.3357 16.23 16.2295 14.3362 16.2295 12C16.2295 9.66386 14.3357 7.77002 11.9995 7.77002C9.66337 7.77002 7.76953 9.66386 7.76953 12C7.76953 14.3362 9.66337 16.23 11.9995 16.23Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["record", "circle"],
+    tags: ["record", "circle", "capture", "video", "audio", "start", "media", "circular", "dot", "button"],
     category: "twotone"
   },
   {
@@ -9174,7 +9174,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["record"],
+    tags: ["record", "capture", "video", "audio", "start", "media", "dot", "button", "live"],
     category: "twotone"
   },
   {
@@ -9187,7 +9187,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M1 8C1 4.13 4.13 1 8 1L6.95 2.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["recovery", "convert"],
+    tags: ["recovery", "convert", "restore", "data", "backup", "process", "exchange", "sync", "arrows", "system"],
     category: "twotone"
   },
   {
@@ -9198,7 +9198,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.5703 10.8099L20.1303 8.24994L17.5703 5.68994" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["redo"],
+    tags: ["redo", "forward", "repeat", "action", "arrow", "circular", "history", "undo", "interface"],
     category: "twotone"
   },
   {
@@ -9209,7 +9209,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.89 12C21.89 17.52 17.41 22 11.89 22C6.37 22 3 16.44 3 16.44M3 16.44H7.52M3 16.44V21.44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["refresh", "2"],
+    tags: ["refresh", "2", "reload", "update", "sync", "cycle", "arrow", "circular", "loop", "process"],
     category: "twotone"
   },
   {
@@ -9225,7 +9225,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["refresh", "circle"],
+    tags: ["refresh", "circle", "reload", "update", "sync", "cycle", "arrow", "circular", "loop", "process"],
     category: "twotone"
   },
   {
@@ -9240,7 +9240,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["refresh", "left", "square"],
+    tags: ["refresh", "left", "square", "reload", "update", "sync", "cycle", "arrow", "interface"],
     category: "twotone"
   },
   {
@@ -9255,7 +9255,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["refresh", "right", "square"],
+    tags: ["refresh", "right", "square", "reload", "update", "sync", "cycle", "arrow", "interface"],
     category: "twotone"
   },
   {
@@ -9266,7 +9266,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17.5 12C17.5 15.04 15.04 17.5 12 17.5C8.96 17.5 7.10999 14.44 7.10999 14.44M7.10999 14.44H9.59M7.10999 14.44V17.19M6.5 12C6.5 8.96 8.94 6.5 12 6.5C15.67 6.5 17.5 9.56 17.5 9.56M17.5 9.56V6.81M17.5 9.56H15.06" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["refresh", "square", "2"],
+    tags: ["refresh", "square", "2", "reload", "update", "sync", "cycle", "arrow", "loop", "interface"],
     category: "twotone"
   },
   {
@@ -9277,7 +9277,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 12C2 17.52 6.48 22 12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
 </svg>`,
     style: "twotone",
-    tags: ["refresh"],
+    tags: ["refresh", "reload", "update", "sync", "cycle", "arrow", "circular", "loop", "process"],
     category: "twotone"
   },
   {
@@ -9293,7 +9293,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["repeat", "circle"],
+    tags: ["repeat", "circle", "loop", "circular", "refresh", "sync", "continuous", "reload", "cycle", "arrow"],
     category: "twotone"
   },
   {
@@ -9308,7 +9308,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.2598 22.0002L20.4198 18.8402L17.2598 15.6802" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["repeat"],
+    tags: ["repeat", "loop", "refresh", "sync", "continuous", "reload", "cycle", "arrows", "bidirectional"],
     category: "twotone"
   },
   {
@@ -9320,7 +9320,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 12H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["repeate", "music"],
+    tags: ["repeate", "music", "loop", "audio", "playlist", "playback", "song", "player", "arrows", "entertainment"],
     category: "twotone"
   },
   {
@@ -9332,7 +9332,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.25 14.67V9.33008L10.75 11.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["repeate", "one"],
+    tags: ["repeate", "one", "loop", "single", "audio", "playlist", "playback", "song", "player", "arrows"],
     category: "twotone"
   },
   {
@@ -9345,7 +9345,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M15 11H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["reserve"],
+    tags: ["reserve", "booking", "appointment", "hold", "schedule", "calendar", "placeholder", "event", "planning"],
     category: "twotone"
   },
   {
@@ -9356,7 +9356,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 9C22 5.13 18.87 2 15 2L16.05 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["rotate", "left", "1"],
+    tags: ["rotate", "left", "1", "turn", "counter-clockwise", "undo", "orientation", "arrow", "circular", "direction", "reload"],
     category: "twotone"
   },
   {
@@ -9368,7 +9368,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.86914 5.31982L11.2391 7.77982" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["rotate", "left"],
+    tags: ["rotate", "left", "turn", "counter-clockwise", "undo", "orientation", "arrow", "circular", "direction", "reload"],
     category: "twotone"
   },
   {
@@ -9379,7 +9379,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 9C2 5.13 5.13 2 9 2L7.95 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["rotate", "right", "1"],
+    tags: ["rotate", "right", "1", "turn", "clockwise", "redo", "orientation", "arrow", "circular", "direction", "reload"],
     category: "twotone"
   },
   {
@@ -9391,7 +9391,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.1298 5.31982L12.7598 7.77982" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["rotate", "right"],
+    tags: ["rotate", "right", "turn", "clockwise", "redo", "orientation", "arrow", "circular", "direction", "reload"],
     category: "twotone"
   },
   {
@@ -9402,7 +9402,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["route", "square"],
+    tags: ["route", "square", "path", "direction", "navigation", "journey", "map", "destination", "travel", "location"],
     category: "twotone"
   },
   {
@@ -9416,7 +9416,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.4857 18.5H18.4973" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["routing", "2"],
+    tags: ["routing", "2", "path", "direction", "navigation", "journey", "map", "destination", "travel", "planning", "location"],
     category: "twotone"
   },
   {
@@ -9430,7 +9430,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.4857 17.5H18.4973" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["routing"],
+    tags: ["routing", "path", "direction", "navigation", "journey", "map", "destination", "travel", "planning", "location"],
     category: "twotone"
   },
   {
@@ -9441,7 +9441,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 19.9V4.1C22 2.6 21.36 2 19.77 2H15.73C14.14 2 13.5 2.6 13.5 4.1V19.9C13.5 21.4 14.14 22 15.73 22H19.77C21.36 22 22 21.4 22 19.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["row", "horizontal"],
+    tags: ["row", "horizontal", "layout", "table", "grid", "data", "structure", "arrangement", "display"],
     category: "twotone"
   },
   {
@@ -9452,7 +9452,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.9 2H4.1C2.6 2 2 2.64 2 4.23V8.27C2 9.86 2.6 10.5 4.1 10.5H19.9C21.4 10.5 22 9.86 22 8.27V4.23C22 2.64 21.4 2 19.9 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["row", "vertical"],
+    tags: ["row", "vertical", "layout", "table", "grid", "data", "structure", "arrangement", "display"],
     category: "twotone"
   },
   {
@@ -9468,7 +9468,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.4393 7H2.5293" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ruler&pen"],
+    tags: ["ruler&pen", "measure", "design", "draw", "tool", "education", "precision", "drafting", "art", "engineering"],
     category: "twotone"
   },
   {
@@ -9482,7 +9482,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 7V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ruler"],
+    tags: ["ruler", "measure", "design", "tool", "education", "precision", "drafting", "engineering", "length"],
     category: "twotone"
   },
   {
@@ -9493,7 +9493,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.9493 11.0103L20.5193 13.6003L19.5193 13.1902C18.8893 12.9402 18.1893 12.9402 17.5593 13.1902L14.7793 14.3302C14.3993 14.4902 14.0893 14.9503 14.0893 15.3703V17.5604C14.0893 18.8104 14.5493 20.0203 15.3393 21.0003H6.1793C4.8093 21.0003 3.51931 19.9104 3.28931 18.5604L2.0293 11.0103C1.8693 10.0803 2.33929 8.83028 3.07929 8.24028L9.65931 2.98027C10.6693 2.17027 12.3093 2.17028 13.3193 2.99028L19.8993 8.24028C20.6293 8.83028 21.1093 10.0803 20.9493 11.0103Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["safe", "home"],
+    tags: ["safe", "home", "security", "protection", "dwelling", "shelter", "privacy", "secure", "building", "comfort"],
     category: "twotone"
   },
   {
@@ -9505,7 +9505,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.59961 6.6001L17.3997 17.4001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sagittarius"],
+    tags: ["sagittarius", "zodiac", "astrology", "horoscope", "archer", "constellation", "symbol", "mythology"],
     category: "twotone"
   },
   {
@@ -9517,7 +9517,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 5.10999V16.47C22 17.92 20.96 18.53 19.69 17.83L16 15.77V8.98999C16 7.27999 14.6 5.88 12.89 5.88H8V5.10999C8 3.39999 9.39999 2 11.11 2H18.89C20.6 2 22 3.39999 22 5.10999Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["save", "2"],
+    tags: ["save", "2", "disk", "floppy", "storage", "backup", "archive", "document", "data", "file", "filled"],
     category: "twotone"
   },
   {
@@ -9532,7 +9532,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["save", "add"],
+    tags: ["save", "add", "disk", "floppy", "storage", "backup", "archive", "new", "create", "plus", "file"],
     category: "twotone"
   },
   {
@@ -9544,7 +9544,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7 12H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["save", "minus"],
+    tags: ["save", "minus", "disk", "floppy", "storage", "backup", "archive", "remove", "delete", "subtract", "file"],
     category: "twotone"
   },
   {
@@ -9559,7 +9559,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 5.10999V16.47C22 17.92 20.96 18.53 19.69 17.83L16 15.77V8.98999C16 7.27999 14.6 5.88 12.89 5.88H8V5.10999C8 3.39999 9.4 2 11.11 2H18.89C20.6 2 22 3.39999 22 5.10999Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["save", "remove"],
+    tags: ["save", "remove", "disk", "floppy", "storage", "backup", "archive", "delete", "clear", "cancel", "file"],
     category: "twotone"
   },
   {
@@ -9576,7 +9576,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.5 15V17C18.5 18 18 18.5 17 18.5H15C14 18.5 13.5 18 13.5 17V15C13.5 14 14 13.5 15 13.5H17C18 13.5 18.5 14 18.5 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["scan", "barcode"],
+    tags: ["scan", "barcode", "reader", "product", "checkout", "identification", "code", "inventory", "commerce", "digital"],
     category: "twotone"
   },
   {
@@ -9593,7 +9593,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["scan"],
+    tags: ["scan", "reader", "qr", "identification", "code", "digital", "camera", "security", "detection"],
     category: "twotone"
   },
   {
@@ -9605,7 +9605,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 12H22" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["scanner"],
+    tags: ["scanner", "reader", "document", "digitize", "copy", "device", "office", "imaging", "machine"],
     category: "twotone"
   },
   {
@@ -9622,7 +9622,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.5 18C16.8807 18 18 16.8807 18 15.5C18 14.1193 16.8807 13 15.5 13C14.1193 13 13 14.1193 13 15.5C13 16.8807 14.1193 18 15.5 18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["scanning"],
+    tags: ["scanning", "scan", "data", "processing", "analysis", "detection", "loading", "progress", "onboarding", "system", "outline"],
     category: "twotone"
   },
   {
@@ -9637,7 +9637,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["scissor", "1"],
+    tags: ["scissor", "1", "cut", "trim", "edit", "tool", "craft", "haircut", "snip", "sharp", "outline", "geometric"],
     category: "twotone"
   },
   {
@@ -9653,7 +9653,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["scissor"],
+    tags: ["scissor", "cut", "trim", "edit", "tool", "craft", "haircut", "snip", "sharp", "filled", "geometric"],
     category: "twotone"
   },
   {
@@ -9664,7 +9664,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.6 18.5H16.4C17.9 18.5 18.5 17.9 18.5 16.4V14.6C18.5 13.1 17.9 12.5 16.4 12.5H12.6C11.1 12.5 10.5 13.1 10.5 14.6V16.4C10.5 17.9 11.1 18.5 12.6 18.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["screenmirroring"],
+    tags: ["screenmirroring", "display", "cast", "share", "projection", "device", "wireless", "presentation", "ui", "connectivity", "outline"],
     category: "twotone"
   },
   {
@@ -9676,7 +9676,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.4004 8.97021L16.8904 11.4602C17.1804 11.7502 17.1804 12.2402 16.8904 12.5302L14.4004 15.0202" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["scroll"],
+    tags: ["scroll", "paper", "document", "ancient", "history", "reading", "parchment", "message", "old", "outline", "education"],
     category: "twotone"
   },
   {
@@ -9688,7 +9688,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.4999 6.13008C14.1499 5.03008 14.5599 3.66008 15.7199 3.29008C16.3299 3.09008 17.0799 3.26008 17.5099 3.85008C17.9099 3.24008 18.6899 3.10008 19.2899 3.29008C20.4499 3.66008 20.8599 5.03008 20.5099 6.13008C19.9599 7.88008 18.0399 8.79008 17.5099 8.79008C16.9699 8.79008 15.0699 7.90008 14.4999 6.13008Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "favorite", "1"],
+    tags: ["search", "favorite", "1", "find", "discover", "magnify", "wishlist", "bookmark", "interest", "explore", "ui", "outline", "heart"],
     category: "twotone"
   },
   {
@@ -9700,7 +9700,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.9304 20.6898C19.4604 22.2898 20.6704 22.4498 21.6004 21.0498C22.4504 19.7698 21.8904 18.7198 20.3504 18.7198C19.2104 18.7098 18.5704 19.5998 18.9304 20.6898Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "favorite"],
+    tags: ["search", "favorite", "find", "discover", "magnify", "wishlist", "bookmark", "interest", "explore", "ui", "filled", "heart"],
     category: "twotone"
   },
   {
@@ -9711,7 +9711,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 22L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "normal", "1"],
+    tags: ["search", "normal", "1", "find", "discover", "magnify", "explore", "lookup", "query", "ui", "minimal", "outline", "geometric"],
     category: "twotone"
   },
   {
@@ -9722,7 +9722,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.9304 20.6898C19.4604 22.2898 20.6704 22.4498 21.6004 21.0498C22.4504 19.7698 21.8904 18.7198 20.3504 18.7198C19.2104 18.7098 18.5704 19.5998 18.9304 20.6898Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "normal"],
+    tags: ["search", "normal", "find", "discover", "magnify", "explore", "lookup", "query", "ui", "minimal", "filled", "geometric"],
     category: "twotone"
   },
   {
@@ -9735,7 +9735,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 8H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "status", "1"],
+    tags: ["search", "status", "1", "find", "discover", "magnify", "progress", "loading", "analysis", "query", "ui", "outline", "system"],
     category: "twotone"
   },
   {
@@ -9748,7 +9748,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 22L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "status"],
+    tags: ["search", "status", "find", "discover", "magnify", "progress", "loading", "analysis", "query", "ui", "filled", "system"],
     category: "twotone"
   },
   {
@@ -9763,7 +9763,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.9304 20.6898C19.4604 22.2898 20.6704 22.4498 21.6004 21.0498C22.4504 19.7698 21.8904 18.7198 20.3504 18.7198C19.2104 18.7098 18.5704 19.5998 18.9304 20.6898Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "zoom", "in", "1"],
+    tags: ["search", "zoom", "in", "1", "find", "discover", "magnify", "enlarge", "detail", "focus", "plus", "ui", "outline", "geometric"],
     category: "twotone"
   },
   {
@@ -9778,7 +9778,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 22L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "zoom", "in"],
+    tags: ["search", "zoom", "in", "find", "discover", "magnify", "enlarge", "detail", "focus", "plus", "ui", "filled", "geometric"],
     category: "twotone"
   },
   {
@@ -9790,7 +9790,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 22L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "zoom", "out", "1"],
+    tags: ["search", "zoom", "out", "1", "find", "discover", "magnify", "shrink", "reduce", "minus", "overview", "ui", "outline", "geometric"],
     category: "twotone"
   },
   {
@@ -9802,7 +9802,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.9304 20.6898C19.4604 22.2898 20.6704 22.4498 21.6004 21.0498C22.4504 19.7698 21.8904 18.7198 20.3504 18.7198C19.2104 18.7098 18.5704 19.5998 18.9304 20.6898Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["search", "zoom", "out"],
+    tags: ["search", "zoom", "out", "find", "discover", "magnify", "shrink", "reduce", "minus", "overview", "ui", "filled", "geometric"],
     category: "twotone"
   },
   {
@@ -9816,7 +9816,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14.75 15.2598H18.02" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["security", "card"],
+    tags: ["security", "card", "protection", "access", "identity", "payment", "credit", "id", "verified", "data", "outline", "finance"],
     category: "twotone"
   },
   {
@@ -9830,7 +9830,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["security", "safe"],
+    tags: ["security", "safe", "protection", "vault", "storage", "privacy", "lock", "money", "treasure", "strongbox", "outline", "finance"],
     category: "twotone"
   },
   {
@@ -9842,7 +9842,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.25 10.25V11.18C12.25 11.53 12.07 11.86 11.76 12.04L11 12.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["security", "time"],
+    tags: ["security", "time", "protection", "schedule", "deadline", "timer", "clock", "monitoring", "access", "history", "outline"],
     category: "twotone"
   },
   {
@@ -9854,7 +9854,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.0091 13.7199C9.04906 14.3599 9.04906 15.4099 10.0091 16.0498C11.0991 16.7799 12.8891 16.7799 13.9791 16.0498C14.9391 15.4099 14.9391 14.3599 13.9791 13.7199C12.8991 12.9899 11.1091 12.9899 10.0091 13.7199Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["security", "user"],
+    tags: ["security", "user", "protection", "account", "profile", "access", "login", "authentication", "identity", "privacy", "outline", "ui"],
     category: "twotone"
   },
   {
@@ -9865,7 +9865,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.0399 2.38982C11.2899 1.87982 12.6999 1.87982 13.9499 2.38982L19.5198 4.66979C20.2798 4.97979 20.9099 5.90979 20.9099 6.72979V11.1198C20.9099 16.0098 17.3599 20.5898 12.5099 21.9298C12.1799 22.0198 11.8198 22.0198 11.4898 21.9298C6.63984 20.5898 3.08984 16.0098 3.08984 11.1198" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["security"],
+    tags: ["security", "protection", "shield", "privacy", "defense", "safety", "verified", "guard", "antivirus", "filled", "system"],
     category: "twotone"
   },
   {
@@ -9876,7 +9876,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M5.43945 12H10.8395" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["send", "1"],
+    tags: ["send", "1", "message", "email", "dispatch", "submit", "share", "paper airplane", "communication", "outline", "arrow", "navigation"],
     category: "twotone"
   },
   {
@@ -9887,7 +9887,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M10.1094 13.6501L13.6894 10.0601" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["send", "2"],
+    tags: ["send", "2", "message", "email", "dispatch", "submit", "share", "paper airplane", "communication", "outline", "arrow", "navigation"],
     category: "twotone"
   },
   {
@@ -9902,7 +9902,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6 16.5098C9.89 17.8098 14.11 17.8098 18 16.5098" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["send", "sqaure", "2"],
+    tags: ["send", "sqaure", "2", "message", "email", "dispatch", "submit", "share", "post", "communication", "outline", "geometric", "navigation"],
     category: "twotone"
   },
   {
@@ -9917,7 +9917,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6 16.5098C9.89 17.8098 14.11 17.8098 18 16.5098" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["send", "square"],
+    tags: ["send", "square", "message", "email", "dispatch", "submit", "share", "post", "communication", "filled", "geometric", "navigation"],
     category: "twotone"
   },
   {
@@ -9929,7 +9929,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5 13.77V3.5H15.27" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["send"],
+    tags: ["send", "message", "email", "dispatch", "submit", "share", "paper airplane", "communication", "filled", "arrow", "navigation"],
     category: "twotone"
   },
   {
@@ -9940,7 +9940,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 12.8799V11.1199C2 10.0799 2.85 9.21994 3.9 9.21994C5.71 9.21994 6.45 7.93994 5.54 6.36994C5.02 5.46994 5.33 4.29994 6.24 3.77994L7.97 2.78994C8.76 2.31994 9.78 2.59994 10.25 3.38994L10.36 3.57994C11.26 5.14994 12.74 5.14994 13.65 3.57994L13.76 3.38994C14.23 2.59994 15.25 2.31994 16.04 2.78994L17.77 3.77994C18.68 4.29994 18.99 5.46994 18.47 6.36994C17.56 7.93994 18.3 9.21994 20.11 9.21994C21.15 9.21994 22.01 10.0699 22.01 11.1199V12.8799C22.01 13.9199 21.16 14.7799 20.11 14.7799C18.3 14.7799 17.56 16.0599 18.47 17.6299C18.99 18.5399 18.68 19.6999 17.77 20.2199L16.04 21.2099C15.25 21.6799 14.23 21.3999 13.76 20.6099L13.65 20.4199C12.75 18.8499 11.27 18.8499 10.36 20.4199L10.25 20.6099C9.78 21.3999 8.76 21.6799 7.97 21.2099L6.24 20.2199C5.33 19.6999 5.02 18.5299 5.54 17.6299C6.45 16.0599 5.71 14.7799 3.9 14.7799C2.85 14.7799 2 13.9199 2 12.8799Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["setting", "2"],
+    tags: ["setting", "2", "gear", "cog", "preferences", "options", "configuration", "system", "control", "maintenance", "ui"],
     category: "twotone"
   },
   {
@@ -9958,7 +9958,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["setting", "3"],
+    tags: ["setting", "3", "gear", "cog", "preferences", "options", "configuration", "system", "control", "maintenance", "ui"],
     category: "twotone"
   },
   {
@@ -9977,7 +9977,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["setting", "4"],
+    tags: ["setting", "4", "gear", "cog", "preferences", "options", "configuration", "system", "control", "maintenance", "ui"],
     category: "twotone"
   },
   {
@@ -10001,7 +10001,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["setting", "5"],
+    tags: ["setting", "5", "gear", "cog", "preferences", "options", "configuration", "system", "control", "maintenance", "ui"],
     category: "twotone"
   },
   {
@@ -10012,7 +10012,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["setting"],
+    tags: ["setting", "gear", "cog", "preferences", "options", "configuration", "system", "control", "maintenance", "ui"],
     category: "twotone"
   },
   {
@@ -10024,7 +10024,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["settings"],
+    tags: ["settings", "gears", "cogs", "preferences", "options", "configuration", "system", "control", "maintenance", "ui"],
     category: "twotone"
   },
   {
@@ -10035,7 +10035,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.97 7.5C21.97 10.37 19.78 12.72 16.97 12.97V12.25C16.97 8.5 15.47 7 11.72 7H11C11.25 4.19 13.6 2 16.47 2C19.26 2 21.56 4.07 21.91 6.77C21.95 7 21.97 7.25 21.97 7.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shapes", "1"],
+    tags: ["shapes", "1", "geometric", "design", "abstract", "pattern", "form", "ui", "elements", "creative"],
     category: "twotone"
   },
   {
@@ -10046,7 +10046,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 15.5C22 19.09 19.09 22 15.5 22C11.91 22 9 19.09 9 15.5C9 15.33 9.01 15.17 9.02 15H13.43C15.25 15 16.41 13.05 15.53 11.45L14.25 9.12C14.65 9.04 15.07 9 15.5 9C19.09 9 22 11.91 22 15.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shapes"],
+    tags: ["shapes", "geometric", "design", "abstract", "pattern", "form", "ui", "elements", "creative"],
     category: "twotone"
   },
   {
@@ -10061,7 +10061,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.1706 19.9199C20.706 19.9199 21.9506 18.6752 21.9506 17.1399C21.9506 15.6045 20.706 14.3599 19.1706 14.3599C17.6353 14.3599 16.3906 15.6045 16.3906 17.1399C16.3906 18.6752 17.6353 19.9199 19.1706 19.9199Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["share"],
+    tags: ["share", "social", "network", "send", "distribute", "connect", "link", "export", "ui", "action"],
     category: "twotone"
   },
   {
@@ -10075,7 +10075,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["shield", "cross"],
+    tags: ["shield", "cross", "security", "protection", "defense", "block", "deny", "error", "warning", "antivirus", "safety"],
     category: "twotone"
   },
   {
@@ -10087,7 +10087,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.9955 21H21.0045" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shield", "search"],
+    tags: ["shield", "search", "security", "protection", "defense", "scan", "find", "investigate", "antivirus", "safety", "audit"],
     category: "twotone"
   },
   {
@@ -10101,7 +10101,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["shield", "security"],
+    tags: ["shield", "security", "protection", "defense", "secure", "safety", "privacy", "antivirus", "guarantee", "lock"],
     category: "twotone"
   },
   {
@@ -10113,7 +10113,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shield", "slash"],
+    tags: ["shield", "slash", "security", "protection", "defense", "disabled", "blocked", "unprotected", "vulnerable", "warning", "breach"],
     category: "twotone"
   },
   {
@@ -10124,7 +10124,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.05078 11.8702L10.6608 13.4802L14.9608 9.18018" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shield", "tick"],
+    tags: ["shield", "tick", "security", "protection", "defense", "verified", "safe", "approved", "secure", "antivirus", "guarantee", "safety"],
     category: "twotone"
   },
   {
@@ -10139,7 +10139,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["ship"],
+    tags: ["ship", "boat", "vessel", "transport", "ocean", "sea", "travel", "maritime", "cargo", "delivery"],
     category: "twotone"
   },
   {
@@ -10158,7 +10158,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["shop", "add"],
+    tags: ["shop", "add", "store", "retail", "ecommerce", "add to cart", "new product", "purchase", "buy", "commerce", "shopping"],
     category: "twotone"
   },
   {
@@ -10174,7 +10174,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M6.48975 18.98H3.50977" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shop", "remove"],
+    tags: ["shop", "remove", "store", "retail", "ecommerce", "remove item", "delete product", "out of stock", "commerce", "shopping"],
     category: "twotone"
   },
   {
@@ -10190,7 +10190,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["shop"],
+    tags: ["shop", "store", "retail", "ecommerce", "marketplace", "purchase", "buy", "commerce", "shopping"],
     category: "twotone"
   },
   {
@@ -10202,7 +10202,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.41 17.0298H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shopping", "bag"],
+    tags: ["shopping", "bag", "cart", "basket", "purchase", "ecommerce", "retail", "buy", "checkout", "commerce", "add to cart"],
     category: "twotone"
   },
   {
@@ -10215,7 +10215,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 8H21" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shopping", "cart"],
+    tags: ["shopping", "cart", "bag", "basket", "purchase", "ecommerce", "retail", "buy", "checkout", "commerce", "add to cart"],
     category: "twotone"
   },
   {
@@ -10231,7 +10231,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 6.02002L19 4.02002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shuffle"],
+    tags: ["shuffle", "random", "mix", "rearrange", "order", "playlist", "music", "media", "ui", "action"],
     category: "twotone"
   },
   {
@@ -10243,7 +10243,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.5595 8.5L11.9995 11.06L9.43945 8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sidebar", "bottom"],
+    tags: ["sidebar", "bottom", "layout", "panel", "ui", "interface", "dashboard", "web design", "footer", "component"],
     category: "twotone"
   },
   {
@@ -10255,7 +10255,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.9702 9.43994L12.4102 11.9999L14.9702 14.5599" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sidebar", "left"],
+    tags: ["sidebar", "left", "layout", "panel", "ui", "interface", "dashboard", "web design", "navigation", "component"],
     category: "twotone"
   },
   {
@@ -10267,7 +10267,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.9707 9.43994L10.5307 11.9999L7.9707 14.5599" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sidebar", "right"],
+    tags: ["sidebar", "right", "layout", "panel", "ui", "interface", "dashboard", "web design", "navigation", "component"],
     category: "twotone"
   },
   {
@@ -10279,7 +10279,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.5595 15.4999L11.9995 12.9399L9.43945 15.4999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sidebar", "top"],
+    tags: ["sidebar", "top", "layout", "panel", "ui", "interface", "dashboard", "web design", "header", "component"],
     category: "twotone"
   },
   {
@@ -10295,7 +10295,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["signpost"],
+    tags: ["signpost", "direction", "guide", "wayfinding", "navigation", "road", "travel", "point"],
     category: "twotone"
   },
   {
@@ -10310,7 +10310,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["simcard", "1"],
+    tags: ["simcard", "1", "chip", "mobile", "telecom", "connectivity", "data", "phone", "card", "electronic"],
     category: "twotone"
   },
   {
@@ -10321,7 +10321,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 8.25021V13.6402C22 15.9702 20.44 17.5302 18.11 17.5302H16V12.6902C16 11.6602 15.59 10.6702 14.86 9.94021L12.47 7.56021C11.74 6.83021 10.75 6.42021 9.72 6.42021H8V5.86021C8 3.53022 9.56 1.97021 11.89 1.97021H15.72C16.75 1.97021 17.74 2.38021 18.47 3.11021L20.86 5.50021C21.59 6.23021 22 7.22021 22 8.25021Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["simcard", "2"],
+    tags: ["simcard", "2", "chip", "mobile", "telecom", "connectivity", "data", "phone", "card", "electronic"],
     category: "twotone"
   },
   {
@@ -10335,7 +10335,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["simcard"],
+    tags: ["simcard", "chip", "mobile", "telecom", "connectivity", "data", "phone", "card", "electronic"],
     category: "twotone"
   },
   {
@@ -10346,7 +10346,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.9707 5.85V9.15C21.9707 11.9 20.8707 13 18.1207 13H16.9707V12.25C16.9707 8.5 15.4707 7 11.7207 7H10.9707V5.85C10.9707 3.1 12.0707 2 14.8207 2H18.1207C20.8707 2 21.9707 3.1 21.9707 5.85Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["size"],
+    tags: ["size", "dimensions", "measure", "scale", "resize", "enlarge", "shrink", "ruler", "zoom"],
     category: "twotone"
   },
   {
@@ -10357,7 +10357,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M18.9004 5L4.90039 19" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["slash"],
+    tags: ["slash", "divide", "separator", "forward slash", "path", "url", "code", "geometric", "line"],
     category: "twotone"
   },
   {
@@ -10369,7 +10369,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 19V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["slider", "horizontal", "1"],
+    tags: ["slider", "horizontal", "1", "adjust", "control", "settings", "range", "volume", "progress", "bar", "ui element"],
     category: "twotone"
   },
   {
@@ -10381,7 +10381,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22.0002 8.67008V15.3301C22.0002 18.0001 21.3302 18.6701 18.6702 18.6701H18.3302C18.1802 18.6701 18.0502 18.6701 17.9102 18.6601C17.9802 18.1701 18.0002 17.6201 18.0002 17.0001V7.00008C18.0002 6.38008 17.9802 5.83008 17.9102 5.34008C18.0502 5.33008 18.1802 5.33008 18.3302 5.33008H18.6702C21.3302 5.33008 22.0002 6.00008 22.0002 8.67008Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["slider", "horizontal"],
+    tags: ["slider", "horizontal", "adjust", "control", "settings", "range", "volume", "progress", "bar", "ui element"],
     category: "twotone"
   },
   {
@@ -10393,7 +10393,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M5 22H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["slider", "vertical", "1"],
+    tags: ["slider", "vertical", "1", "adjust", "control", "settings", "range", "volume", "progress", "bar", "ui element"],
     category: "twotone"
   },
   {
@@ -10405,7 +10405,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.67008 2H15.3301C18.0001 2 18.6701 2.67 18.6701 5.33V5.67C18.6701 5.82 18.6701 5.95 18.6601 6.09C18.1701 6.02 17.6201 6 17.0001 6H7.00008C6.38008 6 5.83008 6.02 5.34008 6.09C5.33008 5.95 5.33008 5.82 5.33008 5.67V5.33C5.33008 2.67 6.00008 2 8.67008 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["slider", "vertical"],
+    tags: ["slider", "vertical", "adjust", "control", "settings", "range", "volume", "progress", "bar", "ui element"],
     category: "twotone"
   },
   {
@@ -10418,7 +10418,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 4V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["slider"],
+    tags: ["slider", "adjust", "control", "settings", "range", "volume", "progress", "bar", "ui element"],
     category: "twotone"
   },
   {
@@ -10435,7 +10435,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["smallcaps"],
+    tags: ["smallcaps", "typography", "text", "font", "formatting", "uppercase", "lowercase", "edit", "style"],
     category: "twotone"
   },
   {
@@ -10452,7 +10452,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.8206 9.72998C22.2406 8.21998 21.9406 6.37002 20.8706 4.77002C19.8006 3.17002 18.2006 2.19 16.6406 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["smart", "car"],
+    tags: ["smart", "car", "automobile", "vehicle", "autonomous", "future", "transportation", "electric", "connected", "drive"],
     category: "twotone"
   },
   {
@@ -10465,7 +10465,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M1.9955 22H2.0045" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["smart", "home"],
+    tags: ["smart", "home", "automation", "iot", "connected", "technology", "residence", "building", "control", "security"],
     category: "twotone"
   },
   {
@@ -10482,7 +10482,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13.8408 16.1802H18.1608C18.4608 16.1802 18.7008 16.4201 18.7008 16.7201C18.7008 18.2101 17.4908 19.4202 16.0008 19.4202C14.5108 19.4202 13.3008 18.2101 13.3008 16.7201C13.3008 16.4201 13.5408 16.1802 13.8408 16.1802Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["smileys"],
+    tags: ["smileys", "emojis", "emotions", "happiness", "feedback", "reaction", "mood", "chat", "social"],
     category: "twotone"
   },
   {
@@ -10497,7 +10497,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["sms", "edit"],
+    tags: ["sms", "edit", "message", "text", "compose", "write", "communication", "mobile", "chat", "pencil"],
     category: "twotone"
   },
   {
@@ -10509,7 +10509,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.5 8C20.8807 8 22 6.88071 22 5.5C22 4.11929 20.8807 3 19.5 3C18.1193 3 17 4.11929 17 5.5C17 6.88071 18.1193 8 19.5 8Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sms", "notification"],
+    tags: ["sms", "notification", "message", "alert", "bell", "reminder", "communication", "mobile", "unread", "chat"],
     category: "twotone"
   },
   {
@@ -10524,7 +10524,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["sms", "search"],
+    tags: ["sms", "search", "message", "find", "magnifying glass", "lookup", "communication", "mobile", "chat", "inbox"],
     category: "twotone"
   },
   {
@@ -10536,7 +10536,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.4792 2.81994L19.7592 3.38993C19.8992 3.66993 20.2492 3.92994 20.5592 3.98994L20.9392 4.04994C22.0792 4.23994 22.3492 5.07994 21.5292 5.90994L21.1792 6.25993C20.9492 6.49993 20.8192 6.95993 20.8892 7.27993L20.9392 7.48994C21.2492 8.86994 20.5192 9.39993 19.3192 8.67993L19.0592 8.52993C18.7492 8.34993 18.2492 8.34993 17.9392 8.52993L17.6792 8.67993C16.4692 9.40993 15.7392 8.86994 16.0592 7.48994L16.1092 7.27993C16.1792 6.95993 16.0492 6.49993 15.8192 6.25993L15.4692 5.90994C14.6492 5.07994 14.9192 4.23994 16.0592 4.04994L16.4392 3.98994C16.7392 3.93994 17.0992 3.66993 17.2392 3.38993L17.5192 2.81994C18.0592 1.72994 18.9392 1.72994 19.4792 2.81994Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sms", "star"],
+    tags: ["sms", "star", "message", "favorite", "important", "bookmark", "communication", "mobile", "chat", "highlight"],
     category: "twotone"
   },
   {
@@ -10549,7 +10549,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M2 12.5H5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sms", "tracking"],
+    tags: ["sms", "tracking", "message", "delivery", "location", "logistics", "communication", "mobile", "chat", "pin"],
     category: "twotone"
   },
   {
@@ -10560,7 +10560,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sms"],
+    tags: ["sms", "message", "text", "communication", "mobile", "chat", "inbox", "envelope", "notification"],
     category: "twotone"
   },
   {
@@ -10572,7 +10572,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10 17H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sort"],
+    tags: ["sort", "order", "arrange", "filter", "organize", "list", "arrows", "ascending", "descending"],
     category: "twotone"
   },
   {
@@ -10586,7 +10586,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 8.25V15.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sound"],
+    tags: ["sound", "audio", "volume", "wave", "music", "speaker", "listen", "acoustic", "bars"],
     category: "twotone"
   },
   {
@@ -10598,7 +10598,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 9C12.8284 9 13.5 8.32843 13.5 7.5C13.5 6.67157 12.8284 6 12 6C11.1716 6 10.5 6.67157 10.5 7.5C10.5 8.32843 11.1716 9 12 9Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["speaker"],
+    tags: ["speaker", "audio", "music", "volume", "loudspeaker", "broadcast", "device", "sound system", "media"],
     category: "twotone"
   },
   {
@@ -10610,7 +10610,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.25 12H16C16.82 12 17.5 11.33 17.5 10.5C17.5 9.68 16.82 9 16 9C15.18 9 14.5 9.67 14.5 10.5V11.25C14.5 11.66 14.84 12 15.25 12Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["speedometer"],
+    tags: ["speedometer", "gauge", "dashboard", "performance", "velocity", "measure", "indicator", "car", "progress"],
     category: "twotone"
   },
   {
@@ -10620,7 +10620,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M13.7309 3.51014L15.4909 7.03014C15.7309 7.52014 16.3709 7.99014 16.9109 8.08014L20.1009 8.61014C22.1409 8.95014 22.6209 10.4301 21.1509 11.8901L18.6709 14.3701C18.2509 14.7901 18.0209 15.6001 18.1509 16.1801L18.8609 19.2501C19.4209 21.6801 18.1309 22.6201 15.9809 21.3501L12.9909 19.5801C12.4509 19.2601 11.5609 19.2601 11.0109 19.5801L8.02089 21.3501C5.88089 22.6201 4.58089 21.6701 5.14089 19.2501L5.85089 16.1801C5.98089 15.6001 5.75089 14.7901 5.33089 14.3701L2.85089 11.8901C1.39089 10.4301 1.86089 8.95014 3.90089 8.61014L7.09089 8.08014C7.62089 7.99014 8.26089 7.52014 8.50089 7.03014L10.2609 3.51014C11.2209 1.60014 12.7809 1.60014 13.7309 3.51014Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["star", "1"],
+    tags: ["star", "1", "favorite", "rating", "quality", "award", "achievement", "highlight", "outlined", "feedback", "success"],
     category: "twotone"
   },
   {
@@ -10632,7 +10632,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 2L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["star", "slash"],
+    tags: ["star", "slash", "unfavorite", "remove", "dislike", "cancel", "blocked", "disabled", "outlined", "negative", "exclusion"],
     category: "twotone"
   },
   {
@@ -10645,7 +10645,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3 12H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["star"],
+    tags: ["star", "favorite", "rating", "quality", "award", "achievement", "highlight", "filled", "feedback", "success"],
     category: "twotone"
   },
   {
@@ -10662,7 +10662,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["status", "up"],
+    tags: ["status", "up", "progress", "growth", "improvement", "analytics", "trend", "increase", "performance", "chart", "metric"],
     category: "twotone"
   },
   {
@@ -10674,7 +10674,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14.0098 21.8C17.5798 21.07 20.4498 18.45 21.5398 15.02" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["status"],
+    tags: ["status", "progress", "analytics", "dashboard", "performance", "metric", "overview", "report", "data", "information"],
     category: "twotone"
   },
   {
@@ -10685,7 +10685,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.8307 13.41C21.6907 13.9 21.4307 14.34 21.0607 14.71L14.6807 21.09C14.3107 21.46 13.8707 21.72 13.3807 21.86C12.5007 20.82 11.9707 19.47 11.9707 18C11.9707 14.69 14.6607 12 17.9707 12C19.4407 12 20.7907 12.53 21.8307 13.41Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sticker"],
+    tags: ["sticker", "emoji", "reaction", "fun", "decoration", "label", "badge", "playful", "expression", "graphic"],
     category: "twotone"
   },
   {
@@ -10700,7 +10700,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 16L15 22V19C15 17 16 16 18 16H21Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["stickynote"],
+    tags: ["stickynote", "note", "memo", "reminder", "to-do", "message", "post-it", "document", "task", "planning"],
     category: "twotone"
   },
   {
@@ -10711,7 +10711,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10.7295 16.23H13.2695C15.3895 16.23 16.2295 15.38 16.2295 13.27V10.73C16.2295 8.61002 15.3795 7.77002 13.2695 7.77002H10.7295C8.60953 7.77002 7.76953 8.62002 7.76953 10.73V13.27C7.76953 15.38 8.61953 16.23 10.7295 16.23Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["stop", "circle"],
+    tags: ["stop", "circle", "pause", "halt", "end", "block", "forbidden", "media control", "circular", "filled", "warning"],
     category: "twotone"
   },
   {
@@ -10721,7 +10721,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9.3 21H14.7C19.2 21 21 19.2 21 14.7V9.3C21 4.8 19.2 3 14.7 3H9.3C4.8 3 3 4.8 3 9.3V14.7C3 19.2 4.8 21 9.3 21Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["stop"],
+    tags: ["stop", "pause", "halt", "end", "block", "forbidden", "media control", "square", "filled", "warning"],
     category: "twotone"
   },
   {
@@ -10734,7 +10734,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.75 21.6399C17.75 20.8399 19.5 19.3899 20.66 17.3799C21.8 15.4099 22.18 13.2199 21.91 11.1299" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["story"],
+    tags: ["story", "social media", "feed", "moment", "highlight", "reel", "short video", "profile", "content", "update"],
     category: "twotone"
   },
   {
@@ -10751,7 +10751,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M7.19922 12H7.29922" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["strongbox", "2"],
+    tags: ["strongbox", "2", "vault", "safe", "security", "storage", "archive", "treasure", "protection", "finance", "locked"],
     category: "twotone"
   },
   {
@@ -10766,7 +10766,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["strongbox"],
+    tags: ["strongbox", "vault", "safe", "security", "storage", "archive", "treasure", "protection", "finance", "locked"],
     category: "twotone"
   },
   {
@@ -10780,7 +10780,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.27 13.3198H6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["subtitle"],
+    tags: ["subtitle", "caption", "text", "language", "translation", "accessibility", "video", "movie", "settings", "display"],
     category: "twotone"
   },
   {
@@ -10791,7 +10791,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.14 19.14L19.01 19.01M19.01 4.99L19.14 4.86L19.01 4.99ZM4.86 19.14L4.99 19.01L4.86 19.14ZM12 2.08V2V2.08ZM12 22V21.92V22ZM2.08 12H2H2.08ZM22 12H21.92H22ZM4.99 4.99L4.86 4.86L4.99 4.99Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sun", "1"],
+    tags: ["sun", "1", "day", "light mode", "weather", "brightness", "sunny", "summer", "nature", "outlined", "climate"],
     category: "twotone"
   },
   {
@@ -10805,7 +10805,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 21H15" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["sun", "fog"],
+    tags: ["sun", "fog", "haze", "mist", "cloudy", "weather", "uncertainty", "obscured", "climate", "nature", "morning"],
     category: "twotone"
   },
   {
@@ -10829,7 +10829,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["sun"],
+    tags: ["sun", "day", "light mode", "weather", "brightness", "sunny", "summer", "nature", "filled", "climate"],
     category: "twotone"
   },
   {
@@ -10841,7 +10841,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M13.2344 17.2266L17.2344 13.2266" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["tag", "2"],
+    tags: ["tag", "2", "label", "price", "discount", "category", "bookmark", "coupon", "ecommerce", "outlined", "identification"],
     category: "twotone"
   },
   {
@@ -10855,7 +10855,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["tag", "cross"],
+    tags: ["tag", "cross", "remove tag", "delete", "cancel", "filter", "clear", "unlabel", "ecommerce", "outlined", "negative"],
     category: "twotone"
   },
   {
@@ -10865,7 +10865,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4.21915 3.1001H15.6592C16.3392 3.1001 17.1892 3.5701 17.5492 4.1501L21.7292 10.8301C22.1292 11.4801 22.0892 12.5001 21.6292 13.1101L16.4492 20.0101C16.0792 20.5001 15.2792 20.9001 14.6692 20.9001H4.21915C2.46915 20.9001 1.4092 18.9801 2.3292 17.4901L5.09916 13.0601C5.46916 12.4701 5.46916 11.5101 5.09916 10.9201L2.3292 6.4901C1.4092 5.0201 2.47915 3.1001 4.21915 3.1001Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["tag", "right"],
+    tags: ["tag", "right", "label", "price", "discount", "category", "bookmark", "coupon", "ecommerce", "outlined", "identification"],
     category: "twotone"
   },
   {
@@ -10877,7 +10877,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.24945 11.96C7.91945 12.85 7.91945 14.3 9.24945 15.19C10.7595 16.2 13.2395 16.2 14.7495 15.19C16.0795 14.3 16.0795 12.85 14.7495 11.96C13.2395 10.96 10.7695 10.96 9.24945 11.96Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["tag", "user"],
+    tags: ["tag", "user", "mention", "profile", "social media", "identity", "person", "contact", "label", "ecommerce", "account"],
     category: "twotone"
   },
   {
@@ -10888,7 +10888,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["tag"],
+    tags: ["tag", "label", "price", "discount", "category", "bookmark", "coupon", "ecommerce", "filled", "identification"],
     category: "twotone"
   },
   {
@@ -10902,7 +10902,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["task", "square"],
+    tags: ["task", "square", "to-do", "checklist", "project management", "assignment", "completed", "workflow", "productivity", "outlined"],
     category: "twotone"
   },
   {
@@ -10917,7 +10917,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3 19.5L4 20.5L7 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["task"],
+    tags: ["task", "to-do", "checklist", "project management", "assignment", "completed", "workflow", "productivity", "outlined", "list"],
     category: "twotone"
   },
   {
@@ -10929,7 +10929,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.4004 15V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["teacher"],
+    tags: ["teacher", "education", "mentor", "professor", "learning", "guidance", "knowledge", "academic", "school", "person"],
     category: "twotone"
   },
   {
@@ -10943,7 +10943,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["text", "block"],
+    tags: ["text", "block", "paragraph", "content", "document", "editor", "layout", "article", "typography", "writing", "formatting"],
     category: "twotone"
   },
   {
@@ -10954,7 +10954,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4.88086 12H14.3809C17.0009 12 19.1309 14.13 19.1309 16.75C19.1309 19.37 17.0009 21.5 14.3809 21.5H6.88086C5.78086 21.5 4.88086 20.6 4.88086 19.5V12V12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["text", "bold"],
+    tags: ["text", "bold", "typography", "formatting", "editor", "emphasis", "thick", "weight", "ui", "document"],
     category: "twotone"
   },
   {
@@ -10966,7 +10966,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.25 3L9.75 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["text", "italic"],
+    tags: ["text", "italic", "typography", "formatting", "editor", "slant", "emphasis", "style", "ui", "document"],
     category: "twotone"
   },
   {
@@ -10977,7 +10977,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5 3V10C5 13.87 8.13 17 12 17C15.87 17 19 13.87 19 10V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["text", "underline"],
+    tags: ["text", "underline", "typography", "formatting", "editor", "highlight", "line", "emphasize", "ui", "document"],
     category: "twotone"
   },
   {
@@ -10989,7 +10989,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.06055 20.7202H15.9405" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["text"],
+    tags: ["text", "typography", "character", "font", "editor", "document", "paragraph", "ui", "content"],
     category: "twotone"
   },
   {
@@ -11002,7 +11002,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.25977 19.5H16.7398" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["textalign", "center"],
+    tags: ["textalign", "center", "alignment", "paragraph", "formatting", "editor", "layout", "middle", "ui", "document"],
     category: "twotone"
   },
   {
@@ -11015,7 +11015,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3 19.5H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["textalign", "justifycenter"],
+    tags: ["textalign", "justifycenter", "alignment", "paragraph", "formatting", "editor", "layout", "full", "ui", "document"],
     category: "twotone"
   },
   {
@@ -11028,7 +11028,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 19.5H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["textalign", "justifyleft"],
+    tags: ["textalign", "justifyleft", "alignment", "paragraph", "formatting", "editor", "layout", "full", "ui", "document"],
     category: "twotone"
   },
   {
@@ -11041,7 +11041,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3 19.5H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["textalign", "justifyright"],
+    tags: ["textalign", "justifyright", "alignment", "paragraph", "formatting", "editor", "layout", "full", "ui", "document"],
     category: "twotone"
   },
   {
@@ -11054,7 +11054,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3 19.5H12.47" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["textalign", "left"],
+    tags: ["textalign", "left", "alignment", "paragraph", "formatting", "editor", "layout", "start", "ui", "document"],
     category: "twotone"
   },
   {
@@ -11067,7 +11067,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.5293 19.5H20.9993" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["textalign", "right"],
+    tags: ["textalign", "right", "alignment", "paragraph", "formatting", "editor", "layout", "end", "ui", "document"],
     category: "twotone"
   },
   {
@@ -11078,7 +11078,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["tick", "circle"],
+    tags: ["tick", "circle", "check", "confirm", "done", "complete", "success", "approve", "validation", "status"],
     category: "twotone"
   },
   {
@@ -11089,7 +11089,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["tick", "square"],
+    tags: ["tick", "square", "check", "confirm", "done", "complete", "success", "approve", "validation", "status"],
     category: "twotone"
   },
   {
@@ -11101,7 +11101,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.87891 6.72266L9.87891 21.7227" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
 </svg>`,
     style: "twotone",
-    tags: ["ticket", "2"],
+    tags: ["ticket", "2", "coupon", "voucher", "event", "admit", "pass", "entry", "booking", "discount"],
     category: "twotone"
   },
   {
@@ -11114,7 +11114,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M8.99451 9.25H9.00349" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ticket", "discount"],
+    tags: ["ticket", "discount", "coupon", "voucher", "sale", "offer", "promotion", "deal", "price cut", "commerce"],
     category: "twotone"
   },
   {
@@ -11126,7 +11126,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.16219 19.8701H7.99219" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ticket", "expired"],
+    tags: ["ticket", "expired", "coupon", "voucher", "invalid", "old", "past due", "outdated", "commerce", "cancel"],
     category: "twotone"
   },
   {
@@ -11139,7 +11139,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.024 9.33016L15.644 10.5802C15.704 10.7002 15.824 10.7902 15.954 10.8102L17.334 11.0102C17.674 11.0602 17.814 11.4802 17.564 11.7202L16.564 12.6902C16.464 12.7802 16.424 12.9202 16.444 13.0602L16.684 14.4302C16.744 14.7702 16.384 15.0302 16.084 14.8702L14.854 14.2202C14.734 14.1602 14.584 14.1602 14.464 14.2202L13.234 14.8702C12.924 15.0302 12.574 14.7702 12.634 14.4302L12.874 13.0602C12.894 12.9202 12.854 12.7902 12.754 12.6902L11.764 11.7202C11.514 11.4802 11.654 11.0602 11.994 11.0102L13.374 10.8102C13.514 10.7902 13.624 10.7102 13.684 10.5802L14.294 9.33016C14.434 9.02016 14.874 9.02016 15.024 9.33016Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["ticket", "star"],
+    tags: ["ticket", "star", "coupon", "voucher", "premium", "vip", "favorite", "featured", "reward", "commerce"],
     category: "twotone"
   },
   {
@@ -11150,7 +11150,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10 4L10 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
 </svg>`,
     style: "twotone",
-    tags: ["ticket"],
+    tags: ["ticket", "coupon", "voucher", "event", "admit", "pass", "entry", "booking", "discount"],
     category: "twotone"
   },
   {
@@ -11162,7 +11162,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 2H15" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["timer", "1"],
+    tags: ["timer", "1", "countdown", "stopwatch", "alarm", "time limit", "duration", "clock", "deadline", "schedule"],
     category: "twotone"
   },
   {
@@ -11176,7 +11176,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16 17V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["timer", "pause"],
+    tags: ["timer", "pause", "countdown", "stopwatch", "hold", "suspend", "break", "clock", "interruption", "time"],
     category: "twotone"
   },
   {
@@ -11189,7 +11189,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14.9004 18.4998V17.3398C14.9004 15.9098 15.9204 15.3198 17.1604 16.0398L18.1604 16.6198L19.1604 17.1998C20.4004 17.9198 20.4004 19.0898 19.1604 19.8098L18.1604 20.3898L17.1604 20.9698C15.9204 21.6898 14.9004 21.0998 14.9004 19.6698V18.4998Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["timer", "start"],
+    tags: ["timer", "start", "countdown", "stopwatch", "begin", "initiate", "activate", "clock", "commence", "time"],
     category: "twotone"
   },
   {
@@ -11199,7 +11199,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.24 2H8.76004C5.00004 2 4.71004 5.38 6.74004 7.22L17.26 16.78C19.29 18.62 19 22 15.24 22H8.76004C5.00004 22 4.71004 18.62 6.74004 16.78L17.26 7.22C19.29 5.38 19 2 15.24 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["timer"],
+    tags: ["timer", "countdown", "stopwatch", "alarm", "time limit", "duration", "clock", "deadline", "schedule"],
     category: "twotone"
   },
   {
@@ -11210,7 +11210,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M10 16C12.2091 16 14 14.2091 14 12C14 9.79086 12.2091 8 10 8C7.79086 8 6 9.79086 6 12C6 14.2091 7.79086 16 10 16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["toggle", "off", "circle"],
+    tags: ["toggle", "off", "circle", "switch", "disable", "inactive", "setting", "option", "control", "ui", "button"],
     category: "twotone"
   },
   {
@@ -11221,7 +11221,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17 20H7C3 20 2 19 2 15V9C2 5 3 4 7 4H17C21 4 22 5 22 9V15C22 19 21 20 17 20Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["toggle", "off"],
+    tags: ["toggle", "off", "switch", "disable", "inactive", "setting", "option", "control", "ui", "button"],
     category: "twotone"
   },
   {
@@ -11232,7 +11232,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M14 16C16.2091 16 18 14.2091 18 12C18 9.79086 16.2091 8 14 8C11.7909 8 10 9.79086 10 12C10 14.2091 11.7909 16 14 16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["toggle", "on", "circle"],
+    tags: ["toggle", "on", "circle", "switch", "enable", "active", "setting", "option", "control", "ui", "button"],
     category: "twotone"
   },
   {
@@ -11243,7 +11243,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17 20H7C3 20 2 19 2 15V9C2 5 3 4 7 4H17C21 4 22 5 22 9V15C22 19 21 20 17 20Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["toggle", "on"],
+    tags: ["toggle", "on", "switch", "enable", "active", "setting", "option", "control", "ui", "button"],
     category: "twotone"
   },
   {
@@ -11256,7 +11256,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.4097 22.0003H20.9997C21.5497 22.0003 21.9997 21.5503 21.9997 21.0003V18.4103C21.9997 17.5203 20.9197 17.0703 20.2897 17.7003L17.6997 20.2903C17.0797 20.9203 17.5197 22.0003 18.4097 22.0003Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["trade"],
+    tags: ["trade", "exchange", "commerce", "finance", "business", "deal", "market", "currency", "transaction", "arrow", "growth"],
     category: "twotone"
   },
   {
@@ -11267,7 +11267,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.25 10H14.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["transaction", "minus"],
+    tags: ["transaction", "minus", "payment", "debit", "expense", "financial", "remove", "decrease", "subtraction", "money", "accounting", "banking"],
     category: "twotone"
   },
   {
@@ -11286,7 +11286,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 9C22 5.13 18.87 2 15 2L16.05 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["translate"],
+    tags: ["translate", "language", "localization", "communication", "speech", "text", "conversion", "global", "duolingo", "babel", "dictionary"],
     category: "twotone"
   },
   {
@@ -11300,7 +11300,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.34" d="M9.5 12.5H14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "recycle", "destroy", "clear", "waste", "junk", "can"],
     category: "twotone"
   },
   {
@@ -11312,7 +11312,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 22V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["tree"],
+    tags: ["tree", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "leaf", "green", "natural"],
     category: "twotone"
   },
   {
@@ -11326,7 +11326,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["trend", "down"],
+    tags: ["trend", "down", "decrease", "decline", "loss", "recession", "negative", "chart", "graph", "statistics", "arrow", "downward"],
     category: "twotone"
   },
   {
@@ -11340,7 +11340,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["trend", "up"],
+    tags: ["trend", "up", "increase", "growth", "profit", "positive", "chart", "graph", "statistics", "arrow", "upward", "success"],
     category: "twotone"
   },
   {
@@ -11354,7 +11354,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["triangle"],
+    tags: ["triangle", "shape", "geometric", "play", "warning", "delta", "pyramid", "minimal", "point", "arrow", "abstract"],
     category: "twotone"
   },
   {
@@ -11371,7 +11371,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 14H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["truck", "fast"],
+    tags: ["truck", "fast", "delivery", "shipping", "logistics", "transportation", "express", "speed", "cargo", "moving", "vehicle", "quick"],
     category: "twotone"
   },
   {
@@ -11388,7 +11388,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.93106 6.81992C3.74106 6.81992 3.55109 6.74989 3.40109 6.59989C3.11109 6.30989 3.11109 5.82989 3.40109 5.53989L5.51108 3.4299C5.80108 3.1399 6.28108 3.1399 6.57108 3.4299C6.86108 3.7199 6.86108 4.1999 6.57108 4.4899L4.46109 6.59989C4.31109 6.74989 4.12106 6.81992 3.93106 6.81992Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["truck", "remove"],
+    tags: ["truck", "remove", "delivery", "shipping", "logistics", "cancel", "delete", "transportation", "cargo", "order", "vehicle"],
     category: "outline"
   },
   {
@@ -11404,7 +11404,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3.43945 5.02979L4.44946 5.98975L6.53943 3.96973" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["truck", "tick"],
+    tags: ["truck", "tick", "delivery", "shipping", "logistics", "confirmed", "completed", "transportation", "cargo", "order", "vehicle", "success"],
     category: "twotone"
   },
   {
@@ -11420,7 +11420,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M3.99989 6.75C3.74989 6.75 3.49988 6.62001 3.35988 6.39001C3.14988 6.03001 3.25989 5.56999 3.61989 5.35999L4.5099 4.83002V3.75C4.5099 3.34 4.8499 3 5.2599 3C5.6699 3 6.0099 3.34 6.0099 3.75V5.25C6.0099 5.51 5.86992 5.76001 5.64992 5.89001L4.39992 6.64001C4.25992 6.72001 4.12989 6.75 3.99989 6.75Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["truck", "time"],
+    tags: ["truck", "time", "delivery", "shipping", "logistics", "schedule", "eta", "transportation", "cargo", "order", "vehicle", "clock"],
     category: "outline"
   },
   {
@@ -11434,7 +11434,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 12V14H19C18.45 14 18 13.55 18 13V10C18 9.45 18.45 9 19 9H20.29L22 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "cargo", "vehicle", "lorry", "commercial", "move", "haulage"],
     category: "twotone"
   },
   {
@@ -11449,7 +11449,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["trush", "square"],
+    tags: ["trush", "square", "delete", "remove", "bin", "garbage", "recycle", "destroy", "clear", "waste", "junk"],
     category: "twotone"
   },
   {
@@ -11460,7 +11460,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.42914 10.8099L3.86914 8.24994L6.42914 5.68994" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["undo"],
+    tags: ["undo", "back", "reverse", "reset", "return", "arrow", "history", "previous", "circular", "action", "revert"],
     category: "twotone"
   },
   {
@@ -11470,7 +11470,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.1802 9.32019C9.36024 8.19019 8.05025 7.4502 6.54025 7.4502C4.03025 7.4502 1.99023 9.49018 1.99023 12.0002C1.99023 14.5102 4.03025 16.5502 6.54025 16.5502C8.23025 16.5502 9.80026 15.6602 10.6703 14.2102L12.0002 12.0002L13.3203 9.79016C14.1903 8.34016 15.7603 7.4502 17.4503 7.4502C19.9603 7.4502 22.0002 9.49018 22.0002 12.0002C22.0002 14.5102 19.9603 16.5502 17.4503 16.5502C15.9503 16.5502 14.6402 15.8102 13.8102 14.6802" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["unlimited"],
+    tags: ["unlimited", "infinity", "endless", "forever", "boundless", "infinite", "limitless", "loop", "continuous", "eternal", "freedom"],
     category: "twotone"
   },
   {
@@ -11482,7 +11482,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 18.5C13.3807 18.5 14.5 17.3807 14.5 16C14.5 14.6193 13.3807 13.5 12 13.5C10.6193 13.5 9.5 14.6193 9.5 16C9.5 17.3807 10.6193 18.5 12 18.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["unlock"],
+    tags: ["unlock", "open", "access", "security", "permission", "safe", "freedom", "authentication", "privacy", "key", "password"],
     category: "twotone"
   },
   {
@@ -11496,7 +11496,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18 16.52V19.51" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "add"],
+    tags: ["user", "add", "new user", "invite", "friend", "account", "profile", "onboarding", "plus", "person", "member", "social"],
     category: "twotone"
   },
   {
@@ -11511,7 +11511,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19 3.52002V6.51001" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "cirlce", "add"],
+    tags: ["user", "cirlce", "add", "new user", "invite", "friend", "account", "profile", "onboarding", "plus", "person", "member", "social"],
     category: "twotone"
   },
   {
@@ -11524,7 +11524,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M3.41016 22C3.41016 18.13 7.26018 15 12.0002 15C13.0402 15 14.0402 15.15 14.9702 15.43" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "edit"],
+    tags: ["user", "edit", "profile", "settings", "update", "modify", "account", "pencil", "person", "customize", "change", "admin"],
     category: "twotone"
   },
   {
@@ -11537,7 +11537,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M19.4897 17.98H16.5098" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "minus"],
+    tags: ["user", "minus", "remove user", "unfriend", "delete", "account", "profile", "person", "block", "social", "revoke"],
     category: "twotone"
   },
   {
@@ -11549,7 +11549,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16 16.6599C16 14.8599 14.21 13.3999 12 13.3999C9.79 13.3999 8 14.8599 8 16.6599" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "octagon"],
+    tags: ["user", "octagon", "profile", "security", "admin", "account", "person", "warning", "alert", "protected", "shape", "shield"],
     category: "twotone"
   },
   {
@@ -11563,7 +11563,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.9395 16.96L19.0594 19.0699" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "remove"],
+    tags: ["user", "remove", "remove user", "unfriend", "delete", "account", "profile", "person", "minus", "block", "social", "revoke"],
     category: "twotone"
   },
   {
@@ -11576,7 +11576,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 22L21 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "search"],
+    tags: ["user", "search", "find user", "lookup", "discover", "profile", "account", "magnify", "person", "explore", "directory"],
     category: "twotone"
   },
   {
@@ -11588,7 +11588,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M15.5799 10.58C15.5799 12.56 13.9799 14.17 11.9999 14.17C10.0199 14.17 8.41992 12.56 8.41992 10.58C8.41992 8.60002 10.0199 7 11.9999 7C13.9799 7 15.5799 8.60002 15.5799 10.58Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "person", "avatar", "member", "admin", "identity", "social", "dashboard"],
     category: "twotone"
   },
   {
@@ -11600,7 +11600,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16 15.6599C16 13.8599 14.21 12.3999 12 12.3999C9.79 12.3999 8 13.8599 8 15.6599" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "tag"],
+    tags: ["user", "tag", "profile", "label", "identification", "categorize", "group", "badge", "identity", "account", "person", "metadata"],
     category: "twotone"
   },
   {
@@ -11613,7 +11613,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M16.4395 18L17.4294 18.99L19.5594 17.02" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user", "tick"],
+    tags: ["user", "tick", "verified", "approved", "confirmed", "authenticated", "success", "check", "onboarding", "profile", "account", "person"],
     category: "twotone"
   },
   {
@@ -11624,7 +11624,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M20.5901 22C20.5901 18.13 16.7402 15 12.0002 15C7.26015 15 3.41016 18.13 3.41016 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["user"],
+    tags: ["user", "profile", "account", "person", "avatar", "login", "member", "human", "individual", "contact", "silhouette"],
     category: "twotone"
   },
   {
@@ -11635,7 +11635,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.7509 2.44982C11.4409 1.85982 12.5709 1.85982 13.2709 2.44982L14.8509 3.80982C15.1509 4.06982 15.7109 4.27982 16.1109 4.27982H17.8109C18.8709 4.27982 19.7409 5.14982 19.7409 6.20982V7.90982C19.7409 8.29982 19.9509 8.86982 20.2109 9.16982L21.5709 10.7498C22.1609 11.4398 22.1609 12.5698 21.5709 13.2698L20.2109 14.8498C19.9509 15.1498 19.7409 15.7098 19.7409 16.1098V17.8098C19.7409 18.8698 18.8709 19.7398 17.8109 19.7398H16.1109C15.7209 19.7398 15.1509 19.9498 14.8509 20.2098L13.2709 21.5698C12.5809 22.1598 11.4509 22.1598 10.7509 21.5698L9.17086 20.2098C8.87086 19.9498 8.31086 19.7398 7.91086 19.7398H6.18086C5.12086 19.7398 4.25086 18.8698 4.25086 17.8098V16.0998C4.25086 15.7098 4.04086 15.1498 3.79086 14.8498L2.44086 13.2598C1.86086 12.5698 1.86086 11.4498 2.44086 10.7598L3.79086 9.16982C4.04086 8.86982 4.25086 8.30982 4.25086 7.91982V6.19982C4.25086 5.13982 5.12086 4.26982 6.18086 4.26982H7.91086C8.30086 4.26982 8.87086 4.05982 9.17086 3.79982L10.7509 2.44982Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["verify"],
+    tags: ["verify", "approved", "authentic", "certified", "confirm", "guarantee", "security", "trust", "validation", "quality", "assurance"],
     category: "twotone"
   },
   {
@@ -11655,7 +11655,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["video", "add"],
+    tags: ["video", "add", "upload", "create", "new", "record", "plus", "media", "content", "production", "camera", "editor"],
     category: "twotone"
   },
   {
@@ -11666,7 +11666,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video", "circle"],
+    tags: ["video", "circle", "media", "player", "record", "camera", "circular", "content", "movie", "film", "stream", "live"],
     category: "twotone"
   },
   {
@@ -11687,7 +11687,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["video", "horizontal"],
+    tags: ["video", "horizontal", "widescreen", "landscape", "media", "player", "content", "movie", "film", "stream", "record", "camera"],
     category: "twotone"
   },
   {
@@ -11698,7 +11698,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.75 11.9999V10.7999C9.75 9.25989 10.84 8.62993 12.17 9.39993L13.21 9.9999L14.25 10.5999C15.58 11.3699 15.58 12.6299 14.25 13.3999L13.21 13.9999L12.17 14.5999C10.84 15.3699 9.75 14.7399 9.75 13.1999V11.9999Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video", "octagon"],
+    tags: ["video", "octagon", "media", "player", "record", "camera", "geometric", "content", "movie", "film", "stream", "live"],
     category: "twotone"
   },
   {
@@ -11712,7 +11712,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.75 14.4501V13.2501C9.75 11.7101 10.84 11.0801 12.17 11.8501L13.21 12.4501L14.25 13.0501C15.58 13.8201 15.58 15.0801 14.25 15.8501L13.21 16.4501L12.17 17.0501C10.84 17.8201 9.75 17.1901 9.75 15.6501V14.4501V14.4501Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video", "play"],
+    tags: ["video", "play", "start", "movie", "film", "stream", "watch", "media", "player", "entertainment", "content", "button"],
     category: "twotone"
   },
   {
@@ -11732,7 +11732,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["video", "remove"],
+    tags: ["video", "remove", "delete", "cancel", "minus", "media", "content", "editor", "clear", "discard", "camera", "clip"],
     category: "twotone"
   },
   {
@@ -11745,7 +11745,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22.0195 2.18994L2.01953 22.1899" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video", "slash"],
+    tags: ["video", "slash", "off", "disabled", "private", "stop", "mute", "camera", "media", "blocked", "unavailable", "hidden"],
     category: "twotone"
   },
   {
@@ -11756,7 +11756,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.09961 12V10.52C9.09961 8.60999 10.4496 7.83999 12.0996 8.78999L13.3796 9.52999L14.6596 10.27C16.3096 11.22 16.3096 12.78 14.6596 13.73L13.3796 14.47L12.0996 15.21C10.4496 16.16 9.09961 15.38 9.09961 13.48V12Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video", "square"],
+    tags: ["video", "square", "media", "player", "record", "camera", "content", "movie", "film", "stream", "live", "geometric"],
     category: "twotone"
   },
   {
@@ -11773,7 +11773,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M16.75 18.5001L17.86 19.6101L20.26 17.3901" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video", "tick"],
+    tags: ["video", "tick", "recorded", "uploaded", "confirmed", "approved", "success", "check", "media", "content", "camera", "done"],
     category: "twotone"
   },
   {
@@ -11790,7 +11790,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18.7809 17.0898V18.7798L17.3809 19.6198" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video", "time"],
+    tags: ["video", "time", "duration", "history", "schedule", "pending", "rewind", "forward", "media", "content", "clock", "timer"],
     category: "twotone"
   },
   {
@@ -11811,7 +11811,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["video", "vertical"],
+    tags: ["video", "vertical", "portrait", "mobile", "media", "player", "content", "movie", "film", "stream", "record", "camera"],
     category: "twotone"
   },
   {
@@ -11823,7 +11823,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11.5 11C12.3284 11 13 10.3284 13 9.5C13 8.67157 12.3284 8 11.5 8C10.6716 8 10 8.67157 10 9.5C10 10.3284 10.6716 11 11.5 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["video"],
+    tags: ["video", "movie", "film", "stream", "camera", "media", "player", "content", "entertainment", "record", "multimedia"],
     category: "twotone"
   },
   {
@@ -11838,7 +11838,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["voice", "cricle"],
+    tags: ["voice", "cricle", "audio", "sound", "microphone", "record", "speak", "assistant", "circular", "input", "command", "speech"],
     category: "twotone"
   },
   {
@@ -11853,7 +11853,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["voice", "square"],
+    tags: ["voice", "square", "audio", "sound", "microphone", "record", "speak", "assistant", "geometric", "input", "command", "speech"],
     category: "twotone"
   },
   {
@@ -11867,7 +11867,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["volume", "cross"],
+    tags: ["volume", "cross", "mute", "silent", "off", "disabled", "audio", "sound", "speaker", "control", "blocked", "unavailable"],
     category: "twotone"
   },
   {
@@ -11879,7 +11879,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.8301 5.5C22.7201 9.35 22.7201 14.65 19.8301 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["volume", "high"],
+    tags: ["volume", "high", "loud", "max", "increase", "audio", "sound", "speaker", "control", "music", "playback", "full"],
     category: "twotone"
   },
   {
@@ -11890,7 +11890,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M19.3301 8C21.1101 10.37 21.1101 13.63 19.3301 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["volume", "low", "1"],
+    tags: ["volume", "low", "1", "quiet", "soft", "decrease", "audio", "sound", "speaker", "control", "music", "playback", "minimal"],
     category: "twotone"
   },
   {
@@ -11901,7 +11901,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M18 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["volume", "low"],
+    tags: ["volume", "low", "quiet", "soft", "decrease", "audio", "sound", "speaker", "control", "music", "playback", "minimal"],
     category: "twotone"
   },
   {
@@ -11911,7 +11911,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.5 9.99979V13.9998C5.5 15.9998 6.5 16.9998 8.5 16.9998H9.93C10.3 16.9998 10.67 17.1098 10.99 17.2998L13.91 19.1298C16.43 20.7098 18.5 19.5598 18.5 16.5898V7.40979C18.5 4.42979 16.43 3.28979 13.91 4.86979L10.99 6.69979C10.67 6.88979 10.3 6.99979 9.93 6.99979H8.5C6.5 6.99979 5.5 7.99979 5.5 9.99979Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "twotone",
-    tags: ["volume", "mute"],
+    tags: ["volume", "mute", "silent", "off", "disabled", "audio", "sound", "speaker", "control", "quiet", "no sound", "playback"],
     category: "twotone"
   },
   {
@@ -11925,7 +11925,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 1L1 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["volume", "slash"],
+    tags: ["volume", "slash", "off", "disabled", "silent", "mute", "audio", "sound", "speaker", "control", "blocked", "unavailable"],
     category: "twotone"
   },
   {
@@ -11939,7 +11939,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["volume", "up"],
+    tags: ["volume", "up", "increase", "loud", "audio", "sound", "speaker", "control", "music", "playback", "high", "level"],
     category: "twotone"
   },
   {
@@ -11953,7 +11953,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.5186 11.2677V14.1977C21.5186 11.9977 20.0586 10.1277 18.0586 9.52766C18.5786 8.22766 18.7286 7.20766 18.4786 6.35766C18.4586 6.26766 18.4286 6.17766 18.3886 6.09766C20.2486 7.05766 21.5186 9.02766 21.5186 11.2677Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "1"],
+    tags: ["wallet", "1", "finance", "payment", "cardholder", "cash", "money", "minimal", "rounded", "account", "currency"],
     category: "twotone"
   },
   {
@@ -11965,7 +11965,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.48 10.55C17.06 10.96 16.82 11.55 16.88 12.18C16.97 13.26 17.96 14.05 19.04 14.05H21V15.5C21 18.5 19 20.5 16 20.5H7C4 20.5 2 18.5 2 15.5V8.5C2 5.78 3.64 3.88 6.19 3.56C6.45 3.52 6.72 3.5 7 3.5H16C16.26 3.5 16.51 3.50999 16.75 3.54999C19.33 3.84999 21 5.76 21 8.5V9.95001H18.92C18.36 9.95001 17.85 10.17 17.48 10.55Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "2"],
+    tags: ["wallet", "2", "finance", "payment", "cardholder", "cash", "money", "minimal", "rounded", "account", "currency"],
     category: "twotone"
   },
   {
@@ -11978,7 +11978,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22.0002 12.6201V14.6801C22.0002 15.2401 21.5402 15.7001 20.9702 15.7001H19.0402C17.9602 15.7001 16.9702 14.9101 16.8802 13.8301C16.8202 13.2001 17.0602 12.6101 17.4802 12.2001C17.8502 11.8201 18.3602 11.6001 18.9202 11.6001H20.9702C21.5402 11.6001 22.0002 12.0601 22.0002 12.6201Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "3"],
+    tags: ["wallet", "3", "finance", "payment", "cardholder", "cash", "money", "minimal", "rounded", "account", "currency"],
     category: "twotone"
   },
   {
@@ -11996,7 +11996,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.5186 11.2677V14.1977C21.5186 11.9977 20.0586 10.1277 18.0586 9.52766C18.5786 8.22766 18.7286 7.20766 18.4786 6.35766C18.4586 6.26766 18.4286 6.17766 18.3886 6.09766C20.2486 7.05766 21.5186 9.02766 21.5186 11.2677Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "add", "1"],
+    tags: ["wallet", "add", "1", "finance", "payment", "deposit", "income", "add funds", "new account", "rounded", "plus", "money"],
     category: "twotone"
   },
   {
@@ -12014,7 +12014,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.5186 11.2677V14.1977C21.5186 11.9977 20.0586 10.1277 18.0586 9.52766C18.5786 8.22766 18.7286 7.20766 18.4786 6.35766C18.4586 6.26766 18.4286 6.17766 18.3886 6.09766C20.2486 7.05766 21.5186 9.02766 21.5186 11.2677Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "add"],
+    tags: ["wallet", "add", "finance", "payment", "deposit", "income", "add funds", "new account", "rounded", "plus", "money"],
     category: "twotone"
   },
   {
@@ -12028,7 +12028,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 12.5H19C17.9 12.5 17 13.4 17 14.5C17 15.6 17.9 16.5 19 16.5H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "check"],
+    tags: ["wallet", "check", "finance", "payment", "approved", "success", "transaction", "verified", "confirmation", "money", "done"],
     category: "twotone"
   },
   {
@@ -12043,7 +12043,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M21.5186 11.2677V14.1977C21.5186 11.9977 20.0586 10.1277 18.0586 9.52766C18.5786 8.22766 18.7286 7.20766 18.4786 6.35766C18.4586 6.26766 18.4286 6.17766 18.3886 6.09766C20.2486 7.05766 21.5186 9.02766 21.5186 11.2677Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "minus"],
+    tags: ["wallet", "minus", "finance", "payment", "withdrawal", "expense", "deduct", "remove funds", "rounded", "money", "subtract"],
     category: "twotone"
   },
   {
@@ -12059,7 +12059,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 10.5V8.5C2 5.78 3.64 3.88 6.19 3.56C6.45 3.52 6.72 3.5 7 3.5H16C16.26 3.5 16.51 3.50999 16.75 3.54999C19.33 3.84999 21 5.76 21 8.5V9.95001H18.92C18.36 9.95001 17.85 10.17 17.48 10.55C17.06 10.96 16.82 11.55 16.88 12.18C16.97 13.26 17.96 14.05 19.04 14.05H21V15.5C21 18.5 19 20.5 16 20.5H13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "money"],
+    tags: ["wallet", "money", "finance", "payment", "currency", "cash flow", "transaction", "earnings", "income", "bank", "wealth"],
     category: "twotone"
   },
   {
@@ -12074,7 +12074,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.03967 17.96L3.92969 20.0699" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "remove"],
+    tags: ["wallet", "remove", "finance", "payment", "withdrawal", "expense", "deduct", "remove funds", "rounded", "money", "delete"],
     category: "twotone"
   },
   {
@@ -12088,7 +12088,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 22L3 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "search"],
+    tags: ["wallet", "search", "finance", "payment", "find", "locate", "transaction history", "lookup", "discover", "money", "explore"],
     category: "twotone"
   },
   {
@@ -12100,7 +12100,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 12.5H19C17.9 12.5 17 13.4 17 14.5C17 15.6 17.9 16.5 19 16.5H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet"],
+    tags: ["wallet", "finance", "payment", "cardholder", "cash", "money", "minimal", "rounded", "account", "currency"],
     category: "twotone"
   },
   {
@@ -12112,7 +12112,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12 16.2002V16.3002" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["warning", "2"],
+    tags: ["warning", "2", "alert", "caution", "error", "danger", "exclamation", "problem", "notification", "triangle", "issue"],
     category: "twotone"
   },
   {
@@ -12127,7 +12127,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9 14V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["watch", "status"],
+    tags: ["watch", "status", "time", "device", "wearable", "activity", "progress", "tracking", "sync", "health", "smartwatch"],
     category: "twotone"
   },
   {
@@ -12140,7 +12140,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M11.5 9.5V12.5H14.5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["watch"],
+    tags: ["watch", "time", "device", "wearable", "smartwatch", "clock", "accessory", "gadget", "timer", "minimal"],
     category: "twotone"
   },
   {
@@ -12154,7 +12154,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M1.5 14.5V9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["weight", "1"],
+    tags: ["weight", "1", "measurement", "scale", "gym", "fitness", "heavy", "mass", "balance", "sport", "dumbbell"],
     category: "twotone"
   },
   {
@@ -12165,7 +12165,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M17.25 8.28992C14.26 5.62992 9.74 5.62992 6.75 8.28992L8.93 11.7899C10.68 10.2299 13.32 10.2299 15.07 11.7899L17.25 8.28992Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["weight"],
+    tags: ["weight", "measurement", "scale", "gym", "fitness", "heavy", "mass", "balance", "sport", "dumbbell"],
     category: "twotone"
   },
   {
@@ -12178,7 +12178,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wifi", "square"],
+    tags: ["wifi", "square", "internet", "network", "connection", "wireless", "signal", "hotspot", "connectivity", "online"],
     category: "twotone"
   },
   {
@@ -12191,7 +12191,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M9.40039 19.1499C10.9804 17.9299 13.0304 17.9299 14.6104 19.1499" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wifi"],
+    tags: ["wifi", "internet", "network", "connection", "wireless", "signal", "hotspot", "connectivity", "online", "broadcast"],
     category: "twotone"
   },
   {
@@ -12203,7 +12203,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 20.1002L4.5 18.6002C6.04 17.6802 7.96 17.6802 9.5 18.6002C11.04 19.5202 12.96 19.5202 14.5 18.6002C16.04 17.6802 17.96 17.6802 19.5 18.6002L22 20.1002" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wind", "2"],
+    tags: ["wind", "2", "weather", "air", "breeze", "climate", "forecast", "nature", "movement", "environment", "flow"],
     category: "twotone"
   },
   {
@@ -12215,7 +12215,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 9.00012H9.31C10.8 9.00012 12 7.79012 12 6.31012C12 4.82012 10.79 3.62012 9.31 3.62012C7.82 3.62012 6.62 4.83012 6.62 6.31012V6.69012" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wind"],
+    tags: ["wind", "weather", "air", "breeze", "climate", "forecast", "nature", "movement", "environment", "flow"],
     category: "twotone"
   },
   {
@@ -12229,7 +12229,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["woman"],
+    tags: ["woman", "female", "person", "user", "avatar", "profile", "gender", "human", "figure", "character"],
     category: "twotone"
   },
   {
@@ -12246,7 +12246,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 13V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["frame", "5"],
+    tags: ["frame", "5", "layout", "border", "gallery", "image", "picture", "container", "ui", "placeholder", "geometric"],
     category: "twotone"
   },
   {
@@ -12258,7 +12258,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.5902 7.12006C20.5902 5.89006 19.6502 4.53006 18.5002 4.10006L13.5102 2.23006C12.6802 1.92006 11.3202 1.92006 10.4902 2.23006L5.50016 4.11006C4.35016 4.54006 3.41016 5.90006 3.41016 7.12006V14.5501C3.41016 15.7301 4.19016 17.2801 5.14016 17.9901L9.44016 21.2001C10.8502 22.2601 13.1702 22.2601 14.5802 21.2001L18.8802 17.9901C19.8302 17.2801 20.6102 15.7301 20.6102 14.5501V11.0301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "broken",
-    tags: ["frame", "6"],
+    tags: ["frame", "6", "layout", "border", "gallery", "image", "picture", "container", "ui", "placeholder", "geometric"],
     category: "broken"
   },
   {
@@ -12268,7 +12268,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.5902 7.12006C20.5902 5.89006 19.6502 4.53006 18.5002 4.10006L13.5102 2.23006C12.6802 1.92006 11.3202 1.92006 10.4902 2.23006L5.50016 4.11006C4.35016 4.54006 3.41016 5.90006 3.41016 7.12006V14.5501C3.41016 15.7301 4.19016 17.2801 5.14016 17.9901L9.44016 21.2001C10.8502 22.2601 13.1702 22.2601 14.5802 21.2001L18.8802 17.9901C19.8302 17.2801 20.6102 15.7301 20.6102 14.5501V11.0301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "broken",
-    tags: ["frame", "7"],
+    tags: ["frame", "7", "layout", "border", "gallery", "image", "picture", "container", "ui", "placeholder", "geometric"],
     category: "broken"
   },
   {
@@ -12285,7 +12285,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.2793 23.0001L9.4993 21.7801L8.2793 20.5601" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["icon", "1"],
+    tags: ["icon", "1", "symbol", "graphic", "design", "element", "ui", "visual", "representation", "placeholder", "abstract"],
     category: "twotone"
   },
   {
@@ -12300,7 +12300,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.25 17.75V19.25L4 20" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["icon"],
+    tags: ["icon", "image", "picture", "graphic", "symbol", "logo", "visual", "ui", "design", "minimal"],
     category: "twotone"
   },
   {
@@ -12311,7 +12311,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M14.02 2.2C13.36 2.07 12.69 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 11.32 21.93 10.65 21.8 10.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["notification", "circle"],
+    tags: ["notification", "circle", "alert", "bell", "message", "reminder", "badge", "status", "warning", "inform", "system"],
     category: "twotone"
   },
   {
@@ -12323,7 +12323,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 19.9V18.1C22 16.6 21.36 16 19.77 16H15.73C14.14 16 13.5 16.6 13.5 18.1V19.9C13.5 21.4 14.14 22 15.73 22H19.77C21.36 22 22 21.4 22 19.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["element", "1"],
+    tags: ["element", "1", "component", "part", "block", "module", "abstract", "ui", "design", "structure", "geometric"],
     category: "twotone"
   },
   {
@@ -12338,7 +12338,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 9C2 5.13 5.13 2 9 2L7.95001 3.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "1"],
+    tags: ["group", "1", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12351,7 +12351,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group"],
+    tags: ["group", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12362,7 +12362,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.1607 14.56C4.7407 16.18 4.7407 18.82 7.1607 20.43C9.9107 22.27 14.4207 22.27 17.1707 20.43C19.5907 18.81 19.5907 16.17 17.1707 14.56C14.4307 12.73 9.9207 12.73 7.1607 14.56Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["profile"],
+    tags: ["profile", "user", "account", "person", "avatar", "settings", "identity", "human", "individual", "social"],
     category: "twotone"
   },
   {
@@ -12372,7 +12372,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M10.4902 2.23006L5.50016 4.11006C4.35016 4.54006 3.41016 5.90006 3.41016 7.12006V14.5501C3.41016 15.7301 4.19016 17.2801 5.14016 17.9901L9.44016 21.2001C10.8502 22.2601 13.1702 22.2601 14.5802 21.2001L18.8802 17.9901C19.8302 17.2801 20.6102 15.7301 20.6102 14.5501V7.12006C20.6102 5.89006 19.6702 4.53006 18.5202 4.10006L13.5302 2.23006C12.6802 1.92006 11.3202 1.92006 10.4902 2.23006Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["shield"],
+    tags: ["shield", "security", "protection", "safety", "guard", "privacy", "defense", "secure", "trust", "antivirus"],
     category: "twotone"
   },
   {
@@ -12384,7 +12384,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.38 11.0001V13.6201C17.38 16.3101 16.31 17.3801 13.62 17.3801H11V16.1501C11 13.9001 10.1 13.0001 7.85 13.0001H6.62V10.3801C6.62 7.69013 7.69 6.62012 10.38 6.62012H13V7.85013C13 10.1001 13.9 11.0001 16.15 11.0001H17.38Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["backward", "item", "1"],
+    tags: ["backward", "item", "1", "previous", "rewind", "left", "back", "history", "undo", "navigation", "media", "arrow"],
     category: "linear"
   },
   {
@@ -12402,7 +12402,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.03 15C5.01 14.83 5 14.67 5 14.5C5 11.51 6.63 8.92998 9 7.72998" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["bezier", "1"],
+    tags: ["bezier", "1", "curve", "path", "vector", "design", "graphic", "art", "tool", "illustrator", "line"],
     category: "linear"
   },
   {
@@ -12416,7 +12416,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 8.96001L17.03 6.51001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["blur", "1"],
+    tags: ["blur", "1", "unfocused", "hazy", "soften", "effect", "filter", "privacy", "obscure", "visual", "edit"],
     category: "linear"
   },
   {
@@ -12430,7 +12430,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["bucket", "circle", "1"],
+    tags: ["bucket", "circle", "1", "fill", "paint", "color", "palette", "design", "tool", "art", "circular", "edit"],
     category: "linear"
   },
   {
@@ -12444,7 +12444,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["bucket", "square", "1"],
+    tags: ["bucket", "square", "1", "fill", "paint", "color", "palette", "design", "tool", "art", "edit"],
     category: "linear"
   },
   {
@@ -12457,7 +12457,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["colors", "square", "1"],
+    tags: ["colors", "square", "1", "palette", "hue", "shade", "design", "art", "tool", "paint", "spectrum"],
     category: "linear"
   },
   {
@@ -12467,7 +12467,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.95 14.55L14.56 20.94C13.16 22.34 10.86 22.34 9.45002 20.94L3.06001 14.55C1.66001 13.15 1.66001 10.85 3.06001 9.44001L9.45002 3.05C10.85 1.65 13.15 1.65 14.56 3.05L20.95 9.44001C22.35 10.85 22.35 13.15 20.95 14.55Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["component", "1"],
+    tags: ["component", "1", "module", "block", "part", "element", "ui", "design", "structure", "development", "abstract"],
     category: "linear"
   },
   {
@@ -12481,7 +12481,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M6.34003 20.4901L12 14.8301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["eraser", "2"],
+    tags: ["eraser", "2", "delete", "remove", "clear", "undo", "edit", "tool", "clean", "correct", "design"],
     category: "linear"
   },
   {
@@ -12492,7 +12492,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.97 22C17.4928 22 21.97 17.5228 21.97 12C21.97 6.47715 17.4928 2 11.97 2C6.44712 2 1.96997 6.47715 1.96997 12C1.96997 17.5228 6.44712 22 11.97 22Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["flash", "circle", "2"],
+    tags: ["flash", "circle", "2", "lightning", "speed", "fast", "energy", "power", "alert", "charge", "circular", "weather"],
     category: "linear"
   },
   {
@@ -12504,7 +12504,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 18.23V15C2 12.31 3.08 11.23 5.77 11.23H6.62V13.61C6.62 16.3 7.7 17.38 10.39 17.38H12.77V18.23C12.77 20.92 11.69 22 9 22H5.77C3.08 22 2 20.92 2 18.23Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["forward", "item", "1"],
+    tags: ["forward", "item", "1", "next", "skip", "right", "advance", "redo", "navigation", "media", "arrow", "future"],
     category: "linear"
   },
   {
@@ -12515,7 +12515,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M12 15.5C13.3807 15.5 14.5 14.3807 14.5 13C14.5 11.6193 13.3807 10.5 12 10.5C10.6193 10.5 9.5 11.6193 9.5 13C9.5 14.3807 10.6193 15.5 12 15.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "10"],
+    tags: ["group", "10", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12529,7 +12529,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21 6.02002L19 4.02002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "11"],
+    tags: ["group", "11", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12543,7 +12543,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.85 15C18.85 15 17 17.01 17 18.24C17 19.26 17.83 20.09 18.85 20.09C19.87 20.09 20.7 19.26 20.7 18.24C20.7 17.01 18.85 15 18.85 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "2"],
+    tags: ["group", "2", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12554,7 +12554,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4 8.32007V11.8801C4 12.9601 4.58003 13.9601 5.53003 14.4901L8.48999 16.16C9.11999 16.51 9.51001 17.1801 9.51001 17.9001V20.0001C9.51001 21.1001 10.41 22.0001 11.51 22.0001H12.51C13.61 22.0001 14.51 21.1001 14.51 20.0001V17.9001C14.51 17.1801 14.9 16.51 15.53 16.16L18.49 14.4901C19.43 13.9601 20.02 12.9601 20.02 11.8801V8.32007H4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "3"],
+    tags: ["group", "3", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12568,7 +12568,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M18.85 15C18.85 15 17 17.01 17 18.24C17 19.26 17.83 20.09 18.85 20.09C19.87 20.09 20.7 19.26 20.7 18.24C20.7 17.01 18.85 15 18.85 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "4"],
+    tags: ["group", "4", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12579,7 +12579,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4 8.32007V11.8801C4 12.9601 4.58003 13.9601 5.53003 14.4901L8.48999 16.16C9.11999 16.51 9.51001 17.1801 9.51001 17.9001V20.0001C9.51001 21.1001 10.41 22.0001 11.51 22.0001H12.51C13.61 22.0001 14.51 21.1001 14.51 20.0001V17.9001C14.51 17.1801 14.9 16.51 15.53 16.16L18.49 14.4901C19.43 13.9601 20.02 12.9601 20.02 11.8801V8.32007H4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "5"],
+    tags: ["group", "5", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12593,7 +12593,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M22 12V14H19C18.45 14 18 13.55 18 13V10C18 9.45 18.45 9 19 9H20.29L22 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "6"],
+    tags: ["group", "6", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12610,7 +12610,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M2 14H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "7"],
+    tags: ["group", "7", "users", "team", "community", "collaboration", "people", "social", "profile", "multiple", "avatar"],
     category: "linear"
   },
   {
@@ -12621,7 +12621,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M4.93994 19.0799L19.0799 4.93994" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "8"],
+    tags: ["group", "8", "users", "team", "community", "collaboration", "profile", "social", "network", "people", "multiple", "avatars"],
     category: "linear"
   },
   {
@@ -12633,7 +12633,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M15.5 15.5L8.5 8.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["group", "9"],
+    tags: ["group", "9", "users", "team", "community", "collaboration", "profile", "social", "network", "people", "multiple", "avatars"],
     category: "linear"
   },
   {
@@ -12645,7 +12645,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.75 6.25L6.25 17.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["main", "component", "1"],
+    tags: ["main", "component", "1", "structure", "element", "building block", "ui", "design", "layout", "modular", "framework", "template", "part"],
     category: "linear"
   },
   {
@@ -12656,7 +12656,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M11.97 16.39C11.95 18.04 10.72 18.44 9.57 17.98C7.2 17.03 5.53 14.71 5.53 12C5.53 9.28999 7.2 6.97 9.57 6.01C10.72 5.55 11.95 5.95999 11.97 7.59999V16.39Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["mask", "3"],
+    tags: ["mask", "3", "hide", "conceal", "privacy", "anonymity", "security", "overlay", "filter", "secret", "incognito", "disguise"],
     category: "linear"
   },
   {
@@ -12667,7 +12667,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17 16.5H13.9L15.52 14.71C16.32 13.82 16.76 12.69 16.76 11.53C16.76 10.33 16.26 9.18002 15.37 8.33002C14.48 7.48002 13.27 7 12 7C10.74 7 9.53 7.48002 8.63 8.33002C7.74 9.18002 7.23999 10.33 7.23999 11.53C7.23999 12.7 7.67998 13.83 8.47998 14.71L10.1 16.5H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["omega", "circle", "1"],
+    tags: ["omega", "circle", "1", "math", "symbol", "science", "physics", "greek", "letter", "infinity", "circular", "final", "end"],
     category: "linear"
   },
   {
@@ -12678,7 +12678,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17 16.75H13.9L15.52 14.96C16.32 14.07 16.76 12.94 16.76 11.78C16.76 10.58 16.26 9.43002 15.37 8.58002C14.48 7.73002 13.27 7.25 12 7.25C10.74 7.25 9.53 7.73002 8.63 8.58002C7.74 9.43002 7.23999 10.58 7.23999 11.78C7.23999 12.95 7.67998 14.08 8.47998 14.96L10.1 16.75H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["omega", "square", "1"],
+    tags: ["omega", "square", "1", "math", "symbol", "science", "physics", "greek", "letter", "infinity", "final", "end"],
     category: "linear"
   },
   {
@@ -12694,7 +12694,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.16 6.5H4.8" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["pen", "add", "1"],
+    tags: ["pen", "add", "1", "write", "create", "new", "document", "edit", "compose", "plus", "draw", "entry", "note"],
     category: "linear"
   },
   {
@@ -12710,7 +12710,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M7.67999 5.32007L5.3 7.70007" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["pen", "close", "1"],
+    tags: ["pen", "close", "1", "write", "edit", "document", "cancel", "remove", "delete", "stop", "cross", "exit", "clear"],
     category: "linear"
   },
   {
@@ -12725,7 +12725,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.16 6.5H4.79999" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["pen", "remove", "1"],
+    tags: ["pen", "remove", "1", "write", "edit", "document", "delete", "subtract", "minus", "erase", "take away", "clear", "reduce"],
     category: "linear"
   },
   {
@@ -12742,7 +12742,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M5.46 10.1L10.76 4.80005" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["pen", "tool", "1"],
+    tags: ["pen", "tool", "1", "draw", "design", "vector", "bezier", "create", "edit", "path", "graphic", "illustrator", "anchor"],
     category: "linear"
   },
   {
@@ -12759,7 +12759,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M20.25 11.17C20.25 7.25004 17.31 4.03006 13.52 3.56006" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["pen", "tool", "2", "1"],
+    tags: ["pen", "tool", "2", "1", "draw", "design", "vector", "bezier", "create", "edit", "path", "graphic", "illustrator", "anchor"],
     category: "linear"
   },
   {
@@ -12773,7 +12773,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M17.4999 15.28L10.1599 9.79004" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["scissor", "2"],
+    tags: ["scissor", "2", "cut", "trim", "edit", "clip", "divide", "separate", "snip", "tool", "craft", "remove"],
     category: "linear"
   },
   {
@@ -12784,7 +12784,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M21.97 7.5C21.97 10.37 19.78 12.72 16.97 12.97V12.25C16.97 8.5 15.47 7 11.72 7H11C11.25 4.19 13.6 2 16.47 2C19.26 2 21.56 4.07 21.91 6.77C21.95 7 21.97 7.25 21.97 7.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "linear",
-    tags: ["shapes", "2"],
+    tags: ["shapes", "2", "geometric", "design", "form", "abstract", "pattern", "structure", "elements", "composition", "blocks", "variety"],
     category: "linear"
   },
   {
@@ -12794,7 +12794,7 @@ export const iconsaxIcons: IconItem[] = [
 <path d="M8.9 19.1498C8.27 19.1498 7.68 18.9998 7.16 18.6998C5.93 17.9898 5.25 16.5598 5.25 14.6798V9.3298C5.25 7.4498 5.93 6.0198 7.16 5.3098C8.39 4.5998 9.96 4.7298 11.6 5.6698L16.23 8.3398C17.86 9.2798 18.76 10.5798 18.76 11.9998C18.76 13.4198 17.86 14.7198 16.23 15.6598L11.6 18.3298C10.66 18.8798 9.74 19.1498 8.9 19.1498ZM8.9 6.3598C8.53 6.3598 8.19 6.4398 7.9 6.6098C7.16 7.0398 6.75 7.9998 6.75 9.3298V14.6698C6.75 15.9898 7.16 16.9598 7.91 17.3898C8.66 17.8198 9.7 17.6898 10.85 17.0298L15.48 14.3598C16.63 13.6998 17.26 12.8598 17.26 11.9998C17.26 11.1398 16.63 10.2998 15.48 9.6398L10.85 6.9698C10.14 6.5598 9.48 6.3598 8.9 6.3598Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["arrow", "right", "4"],
+    tags: ["arrow", "right", "4", "next", "forward", "direction", "pointer", "navigation", "go", "move", "indicator", "chevron", "progress"],
     category: "outline"
   },
   {
@@ -12810,7 +12810,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M5.25 3.75V5.25L4 6" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["icon", "2"],
+    tags: ["icon", "2", "placeholder", "symbol", "graphic", "ui", "element", "design", "abstract", "generic", "marker", "representation"],
     category: "twotone"
   },
   {
@@ -12829,7 +12829,7 @@ export const iconsaxIcons: IconItem[] = [
 </g>
 </svg>`,
     style: "twotone",
-    tags: ["icon", "3"],
+    tags: ["icon", "3", "placeholder", "symbol", "graphic", "ui", "element", "design", "abstract", "generic", "marker", "representation"],
     category: "twotone"
   },
   {
@@ -12847,7 +12847,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M12.2798 3.52009C12.4298 3.67009 12.4298 3.92009 12.2798 4.08009C12.1298 4.24009 11.8798 4.23009 11.7198 4.08009C11.5598 3.93009 11.5698 3.68009 11.7198 3.52009C11.8698 3.36009 12.1298 3.37009 12.2798 3.52009Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["volume"],
+    tags: ["volume", "sound", "audio", "speaker", "music", "mute", "control", "level", "media", "loud", "quiet"],
     category: "twotone"
   },
   {
@@ -12862,7 +12862,7 @@ export const iconsaxIcons: IconItem[] = [
 <path opacity="0.4" d="M22 12.5H19C17.9 12.5 17 13.4 17 14.5C17 15.6 17.9 16.5 19 16.5H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "twotone",
-    tags: ["wallet", "add", "2"],
+    tags: ["wallet", "add", "2", "money", "finance", "payment", "cash", "funds", "income", "deposit", "plus", "transaction", "account"],
     category: "twotone"
   }
 ];
