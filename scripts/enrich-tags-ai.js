@@ -266,8 +266,8 @@ function rewriteFile(filePath, src, icons, enrichedById) {
     if (/tags:\s*\[[^\]]*\]/.test(block)) {
       block = block.replace(/tags:\s*\[[^\]]*\]/, `tags: ${tagsArrayLiteral}`);
     } else {
-      // Insert before closing brace
-      block = block.replace(/\}$/, `,\n    tags: ${tagsArrayLiteral}\n  }`);
+      // Insert before closing brace, ensuring proper comma on previous line
+      block = block.replace(/\s*\}$/, `,\n    tags: ${tagsArrayLiteral}\n  }`);
     }
 
     // Replace or insert category (only if we have one)
@@ -275,7 +275,7 @@ function rewriteFile(filePath, src, icons, enrichedById) {
       if (/category:\s*"[^"]*"/.test(block)) {
         block = block.replace(/category:\s*"[^"]*"/, `category: ${JSON.stringify(newCategory)}`);
       } else {
-        block = block.replace(/\}$/, `,\n    category: ${JSON.stringify(newCategory)}\n  }`);
+        block = block.replace(/\s*\}$/, `,\n    category: ${JSON.stringify(newCategory)}\n  }`);
       }
     }
 
