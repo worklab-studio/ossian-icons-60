@@ -10232,7 +10232,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 18V22M10 22H7M10 22H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "solid",
-    tags: ["microphone", "warning"],
+    tags: ["microphone", "warning", "audio", "voice", "alert", "danger", "error", "notification", "recording", "sound", "caution", "problem"],
     category: "solid"
   },
   {
@@ -10244,7 +10244,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 18V22M12 22H9M12 22H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "solid",
-    tags: ["microphone"],
+    tags: ["microphone", "audio", "voice", "record", "sound", "input", "speech", "talk", "podcast", "karaoke", "filled"],
     category: "solid"
   },
   {
@@ -10259,7 +10259,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.75 16C10.75 13.9289 9.07107 12.25 7 12.25C4.92893 12.25 3.25 13.9289 3.25 16C3.25 18.0711 4.92893 19.75 7 19.75C9.07107 19.75 10.75 18.0711 10.75 16Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["microscope"],
+    tags: ["microscope", "science", "lab", "research", "study", "biology", "magnify", "experiment", "analysis", "medical", "discovery"],
     category: "solid"
   },
   {
@@ -10269,7 +10269,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM8 11.25C7.58579 11.25 7.25 11.5858 7.25 12C7.25 12.4142 7.58579 12.75 8 12.75H16C16.4142 12.75 16.75 12.4142 16.75 12C16.75 11.5858 16.4142 11.25 16 11.25H8Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["minus", "circle"],
+    tags: ["minus", "circle", "remove", "delete", "subtract", "decrease", "negative", "cancel", "decline", "outline", "control", "interface"],
     category: "solid"
   },
   {
@@ -10280,7 +10280,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.7 1.1732C11.8856 1.06603 12.1144 1.06603 12.3 1.17321L21.2263 6.3268C21.4119 6.43397 21.5263 6.63205 21.5263 6.84641V17.1536C21.5263 17.3679 21.4119 17.566 21.2263 17.6732L12.3 22.8268C12.1144 22.934 11.8856 22.934 11.7 22.8268L2.77372 17.6732C2.58808 17.566 2.47372 17.3679 2.47372 17.1536V6.84641C2.47372 6.63205 2.58808 6.43397 2.77372 6.32679L11.7 1.1732Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["minus", "hexagon"],
+    tags: ["minus", "hexagon", "remove", "delete", "subtract", "decrease", "negative", "geometric", "outline", "control", "interface", "shape"],
     category: "regular"
   },
   {
@@ -10298,7 +10298,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 20H20V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["minus", "square", "dashed"],
+    tags: ["minus", "square", "dashed", "remove", "delete", "subtract", "decrease", "negative", "outline", "control", "interface", "placeholder", "empty"],
     category: "regular"
   },
   {
@@ -10308,7 +10308,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM9 11.25C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H12H15C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H12H9Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["minus", "square"],
+    tags: ["minus", "square", "remove", "delete", "subtract", "decrease", "negative", "outline", "control", "interface", "button", "geometric"],
     category: "solid"
   },
   {
@@ -10318,7 +10318,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 12H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["minus"],
+    tags: ["minus", "remove", "delete", "subtract", "decrease", "negative", "horizontal", "line", "separator", "control", "interface"],
     category: "regular"
   },
   {
@@ -10330,7 +10330,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 9L12.5 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mirror"],
+    tags: ["mirror", "reflection", "beauty", "vanity", "glass", "selfie", "look", "appearance", "oval", "rounded", "bathroom"],
     category: "regular"
   },
   {
@@ -10344,7 +10344,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 8.5L5 12L8.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mobile", "dev", "mode"],
+    tags: ["mobile", "dev", "mode", "phone", "development", "coding", "debug", "programming", "smartphone", "responsive", "testing", "engineering", "settings"],
     category: "regular"
   },
   {
@@ -10357,7 +10357,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 5H3.6C3.26863 5 3 5.26863 3 5.6V20.4C3 20.7314 3.26863 21 3.6 21H12.4C12.7314 21 13 20.7314 13 20.4V16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mobile", "fingerprint"],
+    tags: ["mobile", "fingerprint", "phone", "security", "authentication", "biometric", "unlock", "privacy", "identity", "smartphone", "access", "scan"],
     category: "regular"
   },
   {
@@ -10373,7 +10373,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 4L19 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mobile", "voice"],
+    tags: ["mobile", "voice", "phone", "audio", "call", "talk", "speaker", "smartphone", "assistant", "command", "speech", "communication"],
     category: "regular"
   },
   {
@@ -10386,7 +10386,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["modern", "tv", "4k"],
+    tags: ["modern", "tv", "4k", "television", "display", "screen", "entertainment", "video", "streaming", "high definition", "ultra hd", "monitor", "media"],
     category: "regular"
   },
   {
@@ -10397,7 +10397,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["modern", "tv"],
+    tags: ["modern", "tv", "television", "display", "screen", "entertainment", "video", "streaming", "monitor", "media", "living room", "flat screen"],
     category: "regular"
   },
   {
@@ -10407,7 +10407,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85442 2.25 3.6V20.4C2.25 21.1456 2.85444 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85444 21.1456 2.25 20.4 2.25H3.6ZM12.75 5.5C12.75 5.08579 12.4142 4.75 12 4.75C11.5858 4.75 11.25 5.08579 11.25 5.5V6.60325C10.7348 6.6798 10.2303 6.85793 9.8025 7.18193C9.13016 7.69119 8.75 8.48349 8.75 9.50001C8.75 9.99538 8.86527 10.4357 9.09233 10.8161C9.31679 11.1921 9.62636 11.4694 9.95672 11.6796C10.5694 12.0695 11.3505 12.2823 11.9957 12.4581L12.0527 12.4736C12.772 12.6697 13.3375 12.831 13.738 13.0859C13.9232 13.2038 14.0434 13.3249 14.1197 13.4528C14.1934 13.5763 14.25 13.7454 14.25 14C14.25 14.6092 14.0047 14.9921 13.6458 15.2435C13.2567 15.516 12.681 15.665 12.0269 15.6415C11.0251 15.6055 10.0709 15.1779 9.6 14.55C9.35147 14.2186 8.88137 14.1515 8.55 14.4C8.21863 14.6485 8.15147 15.1186 8.4 15.45C9.06955 16.3427 10.1574 16.875 11.25 17.0647V18.5C11.25 18.9142 11.5858 19.25 12 19.25C12.4142 19.25 12.75 18.9142 12.75 18.5V17.109C13.3777 17.0337 13.9915 16.8327 14.5063 16.4721C15.2634 15.942 15.75 15.1018 15.75 14C15.75 13.5046 15.6347 13.0644 15.4077 12.684C15.1832 12.3079 14.8736 12.0306 14.5433 11.8204C13.9306 11.4305 13.1495 11.2177 12.5043 11.0419L12.5043 11.0419L12.4473 11.0264C11.728 10.8303 11.1625 10.669 10.762 10.4141C10.5768 10.2962 10.4566 10.1751 10.3803 10.0472C10.3066 9.92373 10.25 9.75463 10.25 9.50001C10.25 8.8865 10.4603 8.56541 10.7082 8.37765C10.9874 8.16615 11.4239 8.04349 11.9798 8.05845C12.9286 8.08398 13.9414 8.50209 14.4697 9.03033C14.7626 9.32323 15.2374 9.32322 15.5303 9.03033C15.8232 8.73743 15.8232 8.26256 15.5303 7.96967C14.8479 7.28726 13.7987 6.80659 12.75 6.63088V5.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["money", "square"],
+    tags: ["money", "square", "currency", "cash", "payment", "finance", "dollar", "income", "wealth", "bank", "investment", "transaction"],
     category: "solid"
   },
   {
@@ -10421,7 +10421,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 17C11.1046 17 12 16.1046 12 15C12 13.8954 11.1046 13 10 13C8.89543 13 8 13.8954 8 15C8 16.1046 8.89543 17 10 17Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["moon", "sat"],
+    tags: ["moon", "sat", "night", "space", "lunar", "celestial", "satellite", "astronomy", "dark mode", "sky", "crescent", "sleep"],
     category: "regular"
   },
   {
@@ -10434,7 +10434,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["more", "horiz", "circle"],
+    tags: ["more", "horiz", "circle", "options", "menu", "ellipsis", "actions", "settings", "horizontal", "dots", "overflow", "interface", "control"],
     category: "regular"
   },
   {
@@ -10446,7 +10446,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 12.5C4.27614 12.5 4.5 12.2761 4.5 12C4.5 11.7239 4.27614 11.5 4 11.5C3.72386 11.5 3.5 11.7239 3.5 12C3.5 12.2761 3.72386 12.5 4 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["more", "horiz"],
+    tags: ["more", "horiz", "options", "menu", "ellipsis", "actions", "settings", "horizontal", "dots", "overflow", "interface", "control"],
     category: "regular"
   },
   {
@@ -10459,7 +10459,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["more", "vert", "circle"],
+    tags: ["more", "vert", "circle", "options", "menu", "ellipsis", "actions", "settings", "vertical", "dots", "overflow", "interface", "control"],
     category: "regular"
   },
   {
@@ -10471,7 +10471,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 4.5C12.2761 4.5 12.5 4.27614 12.5 4C12.5 3.72386 12.2761 3.5 12 3.5C11.7239 3.5 11.5 3.72386 11.5 4C11.5 4.27614 11.7239 4.5 12 4.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["more", "vert"],
+    tags: ["more", "vert", "options", "menu", "ellipsis", "actions", "settings", "vertical", "dots", "overflow", "interface", "control"],
     category: "regular"
   },
   {
@@ -10486,7 +10486,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 19C21.2091 19 23 17.2091 23 15C23 12.7909 21.2091 11 19 11C16.7909 11 15 12.7909 15 15C15 17.2091 16.7909 19 19 19Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["motorcycle"],
+    tags: ["motorcycle", "bike", "transportation", "vehicle", "travel", "ride", "delivery", "speed", "road", "engine", "recreational"],
     category: "regular"
   },
   {
@@ -10497,7 +10497,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 2V8.4C12 8.73137 11.7314 9 11.4 9H4" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mouse", "button", "left"],
+    tags: ["mouse", "button", "left", "click", "pointer", "cursor", "input", "computer", "interface", "selection", "interaction", "desktop", "control"],
     category: "regular"
   },
   {
@@ -10508,7 +10508,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 2V8.4C12 8.73137 12.2686 9 12.6 9H20" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mouse", "button", "right"],
+    tags: ["mouse", "button", "right", "click", "pointer", "cursor", "input", "computer", "interface", "context menu", "interaction", "desktop", "control"],
     category: "regular"
   },
   {
@@ -10518,7 +10518,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 5L12.5303 4.46967C12.2374 4.17678 11.7626 4.17678 11.4697 4.46967L12 5ZM12 13L11.4697 13.5303C11.7626 13.8232 12.2374 13.8232 12.5303 13.5303L12 13ZM9.46967 6.46967C9.17678 6.76256 9.17678 7.23744 9.46967 7.53033C9.76256 7.82322 10.2374 7.82322 10.5303 7.53033L9.46967 6.46967ZM13.4697 7.53033C13.7626 7.82322 14.2374 7.82322 14.5303 7.53033C14.8232 7.23744 14.8232 6.76256 14.5303 6.46967L13.4697 7.53033ZM10.5303 10.4697C10.2374 10.1768 9.76256 10.1768 9.46967 10.4697C9.17678 10.7626 9.17678 11.2374 9.46967 11.5303L10.5303 10.4697ZM14.5303 11.5303C14.8232 11.2374 14.8232 10.7626 14.5303 10.4697C14.2374 10.1768 13.7626 10.1768 13.4697 10.4697L14.5303 11.5303ZM3.25 10V14H4.75V10H3.25ZM20.75 14V10H19.25V14H20.75ZM11.25 5V13H12.75V5H11.25ZM11.4697 4.46967L9.46967 6.46967L10.5303 7.53033L12.5303 5.53033L11.4697 4.46967ZM11.4697 5.53033L13.4697 7.53033L14.5303 6.46967L12.5303 4.46967L11.4697 5.53033ZM12.5303 12.4697L10.5303 10.4697L9.46967 11.5303L11.4697 13.5303L12.5303 12.4697ZM12.5303 13.5303L14.5303 11.5303L13.4697 10.4697L11.4697 12.4697L12.5303 13.5303ZM20.75 10C20.75 5.16751 16.8325 1.25 12 1.25V2.75C16.0041 2.75 19.25 5.99594 19.25 10H20.75ZM12 22.75C16.8325 22.75 20.75 18.8325 20.75 14H19.25C19.25 18.0041 16.0041 21.25 12 21.25V22.75ZM3.25 14C3.25 18.8325 7.16751 22.75 12 22.75V21.25C7.99594 21.25 4.75 18.0041 4.75 14H3.25ZM4.75 10C4.75 5.99594 7.99594 2.75 12 2.75V1.25C7.16751 1.25 3.25 5.16751 3.25 10H4.75Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["mouse", "scroll", "wheel"],
+    tags: ["mouse", "scroll", "wheel", "navigate", "zoom", "input", "computer", "interface", "up down", "interaction", "desktop", "control"],
     category: "regular"
   },
   {
@@ -10534,7 +10534,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 2H3.6C3.26863 2 3 2.26863 3 2.6V21.4C3 21.7314 3.26863 22 3.6 22H7M7 2V4M7 2H17M17 2H20.4C20.7314 2 21 2.26863 21 2.6V21.4C21 21.7314 20.7314 22 20.4 22H17M17 2V4M17 22V20M17 22H7M7 22V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["movie"],
+    tags: ["movie", "film", "cinema", "video", "entertainment", "reel", "play", "camera", "production", "director", "media"],
     category: "regular"
   },
   {
@@ -10550,7 +10550,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13.5 12H15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mpeg", "format"],
+    tags: ["mpeg", "format", "video", "filetype", "media", "document", "extension", "movie", "film"],
     category: "regular"
   },
   {
@@ -10561,7 +10561,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M22.7499 10C22.7499 5.16751 18.8325 1.25 13.9999 1.25C9.73442 1.25 5.90197 4.4993 5.33758 8.7588C5.33709 8.76059 5.33669 8.76183 5.33638 8.76263C5.33741 8.74858 5.33662 8.75058 5.33597 8.75509C5.33532 8.75961 5.33481 8.76664 5.33638 8.76263C5.33561 8.77306 5.33385 8.79231 5.33029 8.82591C5.32628 8.86551 5.32098 8.92185 5.3153 8.99325C5.31354 9.01533 5.31174 9.03885 5.30994 9.06378C6.00443 8.85957 6.73944 8.75 7.50004 8.75C11.7803 8.75 15.25 12.2198 15.25 16.5C15.25 17.2591 15.1409 17.9927 14.9375 18.6859C15.0164 18.6798 15.086 18.6736 15.1454 18.6678C15.2187 18.6607 15.2765 18.6542 15.3171 18.6493L15.365 18.6434L15.3789 18.6416L15.3832 18.641L15.3848 18.6408L15.3859 18.6406L15.4016 18.6383C16.3735 18.4817 17.2918 18.165 18.1285 17.7165L21.4627 18.3373C21.7057 18.3826 21.9555 18.3051 22.1303 18.1303C22.3051 17.9555 22.3825 17.7058 22.3373 17.4627L21.7165 14.1285C22.3761 12.8981 22.7499 11.4917 22.7499 10Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["multi", "bubble"],
+    tags: ["multi", "bubble", "chat", "conversation", "speech", "dialogue", "talk", "comments", "discussion", "message"],
     category: "solid"
   },
   {
@@ -10578,7 +10578,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 7.01L9.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["multi", "mac", "os", "window"],
+    tags: ["multi", "mac", "os", "window", "macos", "desktop", "application", "software", "interface", "display", "screen", "app"],
     category: "regular"
   },
   {
@@ -10591,7 +10591,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 7H6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["multi", "window"],
+    tags: ["multi", "window", "desktop", "application", "software", "interface", "display", "screen", "app", "browser"],
     category: "regular"
   },
   {
@@ -10603,7 +10603,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5V8.4C14 8.73137 14.2686 9 14.6 9H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["multiple", "pages", "empty"],
+    tags: ["multiple", "pages", "empty", "documents", "files", "blank", "new", "add", "create", "start", "null", "void"],
     category: "regular"
   },
   {
@@ -10616,7 +10616,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5V8.4C14 8.73137 14.2686 9 14.6 9H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["multiple", "pages", "minus"],
+    tags: ["multiple", "pages", "minus", "documents", "files", "remove", "delete", "subtract", "decrease", "reduce", "archive"],
     category: "regular"
   },
   {
@@ -10629,7 +10629,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5V8.4C14 8.73137 14.2686 9 14.6 9H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["multiple", "pages", "plus"],
+    tags: ["multiple", "pages", "plus", "documents", "files", "add", "create", "new", "increase", "duplicate", "copy"],
     category: "regular"
   },
   {
@@ -10642,7 +10642,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5V8.4C14 8.73137 14.2686 9 14.6 9H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["multiple", "pages", "xmark"],
+    tags: ["multiple", "pages", "xmark", "documents", "files", "cancel", "close", "delete", "remove", "error", "fail"],
     category: "regular"
   },
   {
@@ -10657,7 +10657,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5V8.4C14 8.73137 14.2686 9 14.6 9H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["multiple", "pages"],
+    tags: ["multiple", "pages", "documents", "files", "copy", "duplicate", "stack", "layers", "sheets"],
     category: "regular"
   },
   {
@@ -10671,7 +10671,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 21H4C5.10457 21 6 20.1046 6 19V16H3C1.89543 16 1 16.8954 1 18V19C1 20.1046 1.89543 21 3 21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music", "double", "note", "plus"],
+    tags: ["music", "double", "note", "plus", "audio", "song", "add", "create", "new", "sound", "melody", "playlist"],
     category: "regular"
   },
   {
@@ -10683,7 +10683,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 21H7C8.10457 21 9 20.1046 9 19V16H6C4.89543 16 4 16.8954 4 18V19C4 20.1046 4.89543 21 6 21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["music", "double", "note"],
+    tags: ["music", "double", "note", "audio", "song", "sound", "melody", "tune", "rhythm", "musical", "entertainment"],
     category: "regular"
   },
   {
@@ -10695,7 +10695,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 16V19C7 20.1046 6.10457 21 5 21H4C2.89543 21 2 20.1046 2 19V18C2 16.8954 2.89543 16 4 16H7ZM7 16V8M7 8V4L12 3V7L7 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "solid",
-    tags: ["music", "note", "plus"],
+    tags: ["music", "note", "plus", "audio", "song", "add", "create", "new", "sound", "melody", "playlist"],
     category: "solid"
   },
   {
@@ -10706,7 +10706,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 16V19C12 20.1046 11.1046 21 10 21H9C7.89543 21 7 20.1046 7 19V18C7 16.8954 7.89543 16 9 16H12ZM12 16V8M12 8V4L17 3V7L12 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "solid",
-    tags: ["music", "note"],
+    tags: ["music", "note", "audio", "song", "sound", "melody", "tune", "rhythm", "musical", "entertainment"],
     category: "solid"
   },
   {
@@ -10717,7 +10717,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 16V8L14 16L14 8" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["n", "square"],
+    tags: ["n", "square", "letter", "alphabet", "initial", "text", "typography", "branding", "label"],
     category: "regular"
   },
   {
@@ -10727,7 +10727,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.30711 8.71299C5.4232 8.43273 5.69668 8.25 6.00002 8.25H18C18.3034 8.25 18.5768 8.43273 18.6929 8.71299C18.809 8.99324 18.7449 9.31583 18.5304 9.53033L12.5304 15.5303C12.2375 15.8232 11.7626 15.8232 11.4697 15.5303L5.46969 9.53033C5.25519 9.31583 5.19103 8.99324 5.30711 8.71299Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["nav", "arrow", "down"],
+    tags: ["nav", "arrow", "down", "navigation", "scroll", "collapse", "expand", "menu", "direction", "south", "pointer"],
     category: "solid"
   },
   {
@@ -10737,7 +10737,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.287 18.6929C15.5673 18.5768 15.75 18.3033 15.75 18V5.99998C15.75 5.69663 15.5673 5.42315 15.287 5.30707C15.0068 5.19098 14.6842 5.25515 14.4697 5.46965L8.46967 11.4696C8.17678 11.7625 8.17678 12.2374 8.46967 12.5303L14.4697 18.5303C14.6842 18.7448 15.0068 18.809 15.287 18.6929Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["nav", "arrow", "left"],
+    tags: ["nav", "arrow", "left", "navigation", "back", "previous", "west", "direction", "pointer", "return", "undo"],
     category: "solid"
   },
   {
@@ -10747,7 +10747,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.71299 18.6929C8.43273 18.5768 8.25 18.3033 8.25 18V5.99998C8.25 5.69663 8.43273 5.42315 8.71299 5.30707C8.99324 5.19098 9.31583 5.25515 9.53033 5.46965L15.5303 11.4696C15.8232 11.7625 15.8232 12.2374 15.5303 12.5303L9.53033 18.5303C9.31583 18.7448 8.99324 18.809 8.71299 18.6929Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["nav", "arrow", "right"],
+    tags: ["nav", "arrow", "right", "navigation", "next", "forward", "east", "direction", "pointer", "go", "redo"],
     category: "solid"
   },
   {
@@ -10757,7 +10757,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.30711 15.287C5.4232 15.5673 5.69668 15.75 6.00002 15.75H18C18.3034 15.75 18.5768 15.5673 18.6929 15.287C18.809 15.0068 18.7449 14.6842 18.5304 14.4697L12.5304 8.46967C12.2375 8.17678 11.7626 8.17678 11.4697 8.46967L5.46969 14.4697C5.25519 14.6842 5.19103 15.0068 5.30711 15.287Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["nav", "arrow", "up"],
+    tags: ["nav", "arrow", "up", "navigation", "scroll", "expand", "north", "direction", "pointer", "top", "upload"],
     category: "solid"
   },
   {
@@ -10768,7 +10768,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9304 17.869C13.6084 18.7988 12.2931 18.798 11.9721 17.8678L10.3524 13.1739L5.78287 11.2307C4.87733 10.8456 4.96832 9.53344 5.91837 9.27705L16.1497 6.51591C16.9526 6.29922 17.6707 7.0693 17.3986 7.85518L13.9304 17.869Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["navigator", "alt"],
+    tags: ["navigator", "alt", "location", "gps", "map", "direction", "compass", "pin", "destination", "route"],
     category: "regular"
   },
   {
@@ -10779,7 +10779,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8733 15.4753C18.3338 16.345 17.4362 17.3064 16.537 16.9067L11.9994 14.89L7.46178 16.9067C6.56256 17.3064 5.66499 16.345 6.12541 15.4753L11.0838 6.1095C11.4729 5.37447 12.5259 5.37448 12.915 6.1095L17.8733 15.4753Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["navigator"],
+    tags: ["navigator", "location", "gps", "map", "direction", "compass", "pin", "destination", "route"],
     category: "regular"
   },
   {
@@ -10793,7 +10793,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 21V17.6C18 17.2686 17.7314 17 17.4 17L16 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["neighbourhood"],
+    tags: ["neighbourhood", "community", "housing", "buildings", "city", "urban", "district", "area", "residential"],
     category: "regular"
   },
   {
@@ -10807,7 +10807,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.5 12H17" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "solid",
-    tags: ["network", "left"],
+    tags: ["network", "left", "connection", "nodes", "data", "internet", "web", "server", "linked", "diagram"],
     category: "solid"
   },
   {
@@ -10821,7 +10821,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 11.5V7" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "solid",
-    tags: ["network", "reverse"],
+    tags: ["network", "reverse", "connection", "nodes", "data", "internet", "web", "server", "linked", "diagram", "flow"],
     category: "solid"
   },
   {
@@ -10835,7 +10835,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.5 12H7" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "solid",
-    tags: ["network", "right"],
+    tags: ["network", "right", "connection", "nodes", "data", "internet", "web", "server", "linked", "diagram"],
     category: "solid"
   },
   {
@@ -10849,7 +10849,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 12.5V17" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "solid",
-    tags: ["network"],
+    tags: ["network", "connection", "nodes", "data", "internet", "web", "server", "linked", "diagram", "flow"],
     category: "solid"
   },
   {
@@ -10861,7 +10861,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 14H12M15 14H12M12 14V11M12 14V17" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["new", "tab"],
+    tags: ["new", "tab", "browser", "external link", "open", "window", "interface", "ui", "arrow", "expand", "minimal", "line"],
     category: "regular"
   },
   {
@@ -10874,7 +10874,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M22 17V7C22 4.79086 20.2091 3 18 3H14.1C13.7686 3 13.5 3.26863 13.5 3.6V20.4C13.5 20.7314 13.7686 21 14.1 21H18C20.2091 21 22 19.2091 22 17Z" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["nintendo", "switch"],
+    tags: ["nintendo", "switch", "gaming", "console", "controller", "play", "entertainment", "device", "portable", "joystick", "electronics", "gamepad"],
     category: "regular"
   },
   {
@@ -10891,7 +10891,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["no", "smoking", "circle"],
+    tags: ["no", "smoking", "circle", "forbidden", "prohibited", "restriction", "health", "warning", "sign", "public space", "cigarette", "danger", "stop"],
     category: "regular"
   },
   {
@@ -10903,7 +10903,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 4L9 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["non", "binary"],
+    tags: ["non", "binary", "gender", "identity", "inclusive", "person", "human", "diversity", "equality", "symbol", "community", "social"],
     category: "regular"
   },
   {
@@ -10916,7 +10916,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 3H6C4.89543 3 4 3.89543 4 5V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V5C20 3.89543 19.1046 3 18 3H14.5M10 3V1M10 3V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["notes"],
+    tags: ["notes", "document", "memo", "paper", "write", "list", "task", "reminder", "journal", "text", "file"],
     category: "regular"
   },
   {
@@ -10928,7 +10928,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["npm", "square"],
+    tags: ["npm", "square", "javascript", "package manager", "code", "developer", "programming", "logo", "brand", "filled", "tool"],
     category: "regular"
   },
   {
@@ -10944,7 +10944,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.5 11V15" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["npm"],
+    tags: ["npm", "javascript", "package manager", "code", "developer", "programming", "logo", "brand", "text", "minimal", "tool"],
     category: "regular"
   },
   {
@@ -10954,7 +10954,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM10.25 10C10.25 9.30964 10.8096 8.75 11.5 8.75H12.5C13.1904 8.75 13.75 9.30964 13.75 10V14C13.75 14.6904 13.1904 15.25 12.5 15.25H11.5C10.8096 15.25 10.25 14.6904 10.25 14V10ZM11.5 7.25C9.98122 7.25 8.75 8.48122 8.75 10V14C8.75 15.5188 9.98122 16.75 11.5 16.75H12.5C14.0188 16.75 15.25 15.5188 15.25 14V10C15.25 8.48122 14.0188 7.25 12.5 7.25H11.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "0", "square"],
+    tags: ["number", "0", "square", "zero", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -10964,7 +10964,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM13.75 8C13.75 7.69665 13.5673 7.42318 13.287 7.30709C13.0068 7.191 12.6842 7.25517 12.4697 7.46967L9.46967 10.4697C9.17678 10.7626 9.17678 11.2374 9.46967 11.5303C9.76256 11.8232 10.2374 11.8232 10.5303 11.5303L12.25 9.81066V16C12.25 16.4142 12.5858 16.75 13 16.75C13.4142 16.75 13.75 16.4142 13.75 16V8Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "1", "square"],
+    tags: ["number", "1", "square", "one", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -10974,7 +10974,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM10.25 10.4C10.25 9.46073 10.9749 8.75 11.8077 8.75C12.6405 8.75 13.3654 9.46073 13.3654 10.4C13.3654 10.7213 13.2793 11.0178 13.1324 11.2683C12.67 12.057 11.6782 13.0782 10.7378 13.9441C10.2789 14.3665 9.85144 14.7348 9.53856 14.9976C9.3823 15.1289 9.2551 15.2334 9.16743 15.3047C9.12361 15.3404 9.0897 15.3677 9.06701 15.3859L9.04159 15.4063L9.0355 15.4111L9.03417 15.4122L9.034 15.4123L9.03394 15.4124C8.78395 15.6107 8.68678 15.9454 8.79175 16.2467C8.89672 16.5481 9.18089 16.75 9.5 16.75H14.5C14.9142 16.75 15.25 16.4142 15.25 16C15.25 15.5858 14.9142 15.25 14.5 15.25H11.5319C11.6048 15.1841 11.6789 15.1165 11.7537 15.0476C12.6904 14.1853 13.8383 13.0302 14.4265 12.027C14.7059 11.5504 14.8654 10.9926 14.8654 10.4C14.8654 8.6883 13.5239 7.25 11.8077 7.25C10.0915 7.25 8.75 8.6883 8.75 10.4V10.8C8.75 11.2142 9.08579 11.55 9.5 11.55C9.91421 11.55 10.25 11.2142 10.25 10.8V10.4Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "2", "square"],
+    tags: ["number", "2", "square", "two", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -10984,7 +10984,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM12 8.75C13.1313 8.75 13.75 9.45717 13.75 10C13.75 10.4191 13.6329 10.7217 13.4616 10.9111C13.3018 11.0877 13.0195 11.25 12.5 11.25C12.0858 11.25 11.75 11.5858 11.75 12C11.75 12.4142 12.0858 12.75 12.5 12.75C13.0195 12.75 13.3018 12.9123 13.4616 13.0889C13.6329 13.2783 13.75 13.5809 13.75 14C13.75 14.5428 13.1313 15.25 12 15.25C10.8687 15.25 10.25 14.5428 10.25 14C10.25 13.5858 9.91421 13.25 9.5 13.25C9.08579 13.25 8.75 13.5858 8.75 14C8.75 15.6663 10.3699 16.75 12 16.75C13.6301 16.75 15.25 15.6663 15.25 14C15.25 13.3145 15.0575 12.6171 14.574 12.0826C14.5484 12.0544 14.5223 12.0269 14.4955 12C14.5223 11.9732 14.5484 11.9456 14.574 11.9174C15.0575 11.3829 15.25 10.6855 15.25 10C15.25 8.33369 13.6301 7.25 12 7.25C10.3699 7.25 8.75 8.33369 8.75 10C8.75 10.4142 9.08579 10.75 9.5 10.75C9.91421 10.75 10.25 10.4142 10.25 10C10.25 9.45717 10.8687 8.75 12 8.75Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "3", "square"],
+    tags: ["number", "3", "square", "three", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -10994,7 +10994,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM14.25 8C14.25 7.683 14.0507 7.40023 13.7521 7.29365C13.4536 7.18708 13.1203 7.27972 12.9195 7.52507L8.41953 13.0251C8.23602 13.2494 8.19815 13.5593 8.32225 13.8212C8.44635 14.083 8.71021 14.25 9 14.25H12.75V16C12.75 16.4142 13.0858 16.75 13.5 16.75C13.9142 16.75 14.25 16.4142 14.25 16V14.25H15C15.4142 14.25 15.75 13.9142 15.75 13.5C15.75 13.0858 15.4142 12.75 15 12.75H14.25V8ZM12.75 10.1011V12.75H10.5827L12.75 10.1011Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "4", "square"],
+    tags: ["number", "4", "square", "four", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -11004,7 +11004,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM13.75 13.5C13.75 14.5623 12.9904 15.25 12 15.25C10.8687 15.25 10.25 14.5428 10.25 14C10.25 13.5858 9.91421 13.25 9.5 13.25C9.08579 13.25 8.75 13.5858 8.75 14C8.75 15.6663 10.3699 16.75 12 16.75C13.771 16.75 15.25 15.4377 15.25 13.5C15.25 12.6639 15.08 11.8552 14.6182 11.2381C14.1302 10.586 13.3931 10.25 12.5 10.25H10.3853L10.6353 8.75H14C14.4142 8.75 14.75 8.41421 14.75 8C14.75 7.58579 14.4142 7.25 14 7.25H10C9.63337 7.25 9.32048 7.51506 9.2602 7.8767L8.7602 10.8767C8.72396 11.0942 8.78523 11.3166 8.92773 11.4848C9.07024 11.653 9.27954 11.75 9.5 11.75H12.5C12.9876 11.75 13.2505 11.914 13.4173 12.1369C13.6103 12.3948 13.75 12.8361 13.75 13.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "5", "square"],
+    tags: ["number", "5", "square", "five", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -11014,7 +11014,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM13.3415 12.5546C13.5668 12.7102 13.75 12.9651 13.75 13.5C13.75 14.3615 13.5136 14.7365 13.2891 14.9226C13.036 15.1324 12.6238 15.25 12 15.25C11.3762 15.25 10.964 15.1324 10.7109 14.9226C10.4864 14.7365 10.25 14.3615 10.25 13.5C10.25 12.9651 10.4332 12.7102 10.6585 12.5546C10.9312 12.3662 11.3787 12.25 12 12.25C12.6213 12.25 13.0688 12.3662 13.3415 12.5546ZM14.194 11.3204C13.5619 10.8838 12.7594 10.75 12 10.75C11.4326 10.75 10.8412 10.8247 10.3147 11.0445C10.315 11.0427 10.3152 11.0409 10.3154 11.0391C10.3793 10.4851 10.4996 10.082 10.6934 9.78057C11.0407 9.24031 11.8186 8.75 14 8.75C14.4142 8.75 14.75 8.41421 14.75 8C14.75 7.58579 14.4142 7.25 14 7.25C11.6814 7.25 10.2093 7.75969 9.43162 8.96943C9.06291 9.54297 8.90195 10.2024 8.82526 10.8672C8.74998 11.5196 8.74999 12.2433 8.75 12.9721V13C8.75 13.0541 8.75572 13.1068 8.76658 13.1576C8.75557 13.2684 8.75 13.3826 8.75 13.5C8.75 14.6385 9.07325 15.5135 9.75361 16.0774C10.4053 16.6176 11.2431 16.75 12 16.75C12.7569 16.75 13.5947 16.6176 14.2464 16.0774C14.9267 15.5135 15.25 14.6385 15.25 13.5C15.25 12.5349 14.8736 11.7898 14.194 11.3204Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "6", "square"],
+    tags: ["number", "6", "square", "six", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -11024,7 +11024,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM9.5 7.25C9.08579 7.25 8.75 7.58579 8.75 8C8.75 8.41421 9.08579 8.75 9.5 8.75H12.8507C12.5496 9.12806 12.213 9.57843 11.876 10.084C10.8511 11.6213 9.75 13.7746 9.75 16C9.75 16.4142 10.0858 16.75 10.5 16.75C10.9142 16.75 11.25 16.4142 11.25 16C11.25 14.2254 12.1489 12.3787 13.124 10.916C13.6035 10.1969 14.084 9.59615 14.4444 9.17559C14.6243 8.96571 14.7735 8.80173 14.8764 8.69143C14.9279 8.6363 14.9677 8.59465 14.994 8.56746L15.0231 8.53767L15.0295 8.53114L15.0303 8.53033L15.0305 8.53012L15.0306 8.53007C15.2449 8.31557 15.3089 7.99313 15.1929 7.71299C15.0768 7.43273 14.8033 7.25 14.5 7.25H9.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "7", "square"],
+    tags: ["number", "7", "square", "seven", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -11034,7 +11034,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM13.3415 13.0546C13.5668 13.2102 13.75 13.4651 13.75 14C13.75 14.5349 13.5668 14.7898 13.3415 14.9454C13.0688 15.1338 12.6213 15.25 12 15.25C11.3787 15.25 10.9312 15.1338 10.6585 14.9454C10.4332 14.7898 10.25 14.5349 10.25 14C10.25 13.4651 10.4332 13.2102 10.6585 13.0546C10.9312 12.8662 11.3787 12.75 12 12.75C12.6213 12.75 13.0688 12.8662 13.3415 13.0546ZM9.57592 12C9.042 12.4706 8.75 13.15 8.75 14C8.75 14.9651 9.12642 15.7102 9.80598 16.1796C10.4381 16.6162 11.2406 16.75 12 16.75C12.7594 16.75 13.5619 16.6162 14.194 16.1796C14.8736 15.7102 15.25 14.9651 15.25 14C15.25 13.15 14.958 12.4706 14.4241 12C14.958 11.5294 15.25 10.85 15.25 10C15.25 9.03486 14.8736 8.28981 14.194 7.8204C13.5619 7.38377 12.7594 7.25 12 7.25C11.2406 7.25 10.4381 7.38377 9.80598 7.8204C9.12642 8.28981 8.75 9.03486 8.75 10C8.75 10.85 9.042 11.5294 9.57592 12ZM12 11.25C12.6213 11.25 13.0688 11.1338 13.3415 10.9454C13.5668 10.7898 13.75 10.5349 13.75 10C13.75 9.46514 13.5668 9.21019 13.3415 9.0546C13.0688 8.86623 12.6213 8.75 12 8.75C11.3787 8.75 10.9312 8.86623 10.6585 9.0546C10.4332 9.21019 10.25 9.46514 10.25 10C10.25 10.5349 10.4332 10.7898 10.6585 10.9454C10.9312 11.1338 11.3787 11.25 12 11.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "8", "square"],
+    tags: ["number", "8", "square", "eight", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -11044,7 +11044,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM10.6585 11.4454C10.4332 11.2898 10.25 11.0349 10.25 10.5C10.25 9.63851 10.4864 9.26348 10.7109 9.07743C10.964 8.8676 11.3762 8.75 12 8.75C12.6238 8.75 13.036 8.8676 13.2891 9.07743C13.5136 9.26348 13.75 9.63851 13.75 10.5C13.75 11.0349 13.5668 11.2898 13.3415 11.4454C13.0688 11.6338 12.6213 11.75 12 11.75C11.3787 11.75 10.9312 11.6338 10.6585 11.4454ZM9.80598 12.6796C10.4381 13.1162 11.2406 13.25 12 13.25C12.5674 13.25 13.1588 13.1753 13.6853 12.9555C13.685 12.9573 13.6848 12.9591 13.6846 12.9609C13.6207 13.5149 13.5004 13.918 13.3066 14.2194C12.9593 14.7597 12.1814 15.25 10 15.25C9.58579 15.25 9.25 15.5858 9.25 16C9.25 16.4142 9.58579 16.75 10 16.75C12.3186 16.75 13.7907 16.2403 14.5684 15.0306C14.9371 14.457 15.098 13.7976 15.1747 13.1328C15.25 12.4804 15.25 11.7567 15.25 11.0279V11C15.25 10.9459 15.2443 10.8932 15.2334 10.8424C15.2444 10.7316 15.25 10.6174 15.25 10.5C15.25 9.36149 14.9267 8.48652 14.2464 7.92257C13.5947 7.3824 12.7569 7.25 12 7.25C11.2431 7.25 10.4053 7.3824 9.75361 7.92257C9.07325 8.48652 8.75 9.36149 8.75 10.5C8.75 11.4651 9.12642 12.2102 9.80598 12.6796Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["number", "9", "square"],
+    tags: ["number", "9", "square", "nine", "digit", "count", "numeric", "quantity", "geometric", "ui", "input", "minimal"],
     category: "solid"
   },
   {
@@ -11060,7 +11060,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 19L21 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["numbered", "list", "left"],
+    tags: ["numbered", "list", "left", "order", "sequence", "bullet points", "text editor", "document", "format", "organize", "task list", "content", "ui"],
     category: "regular"
   },
   {
@@ -11076,7 +11076,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 19L15 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["numbered", "list", "right"],
+    tags: ["numbered", "list", "right", "order", "sequence", "bullet points", "text editor", "document", "format", "organize", "task list", "content", "ui"],
     category: "regular"
   },
   {
@@ -11087,7 +11087,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.2 8H11.8C10.8059 8 10 8.80589 10 9.8V14.2C10 15.1941 10.8059 16 11.8 16H12.2C13.1941 16 14 15.1941 14 14.2V9.8C14 8.80589 13.1941 8 12.2 8Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["o", "square"],
+    tags: ["o", "square", "letter", "alphabet", "initial", "text", "geometric", "ui", "input", "minimal", "character"],
     category: "regular"
   },
   {
@@ -11097,7 +11097,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.7704 1.09511C11.9174 1.03421 12.0826 1.03421 12.2296 1.09511L19.5486 4.12672C19.6956 4.18761 19.8124 4.30442 19.8733 4.45144L22.9049 11.7704C22.9658 11.9174 22.9658 12.0826 22.9049 12.2296L19.8733 19.5486C19.8124 19.6956 19.6956 19.8124 19.5486 19.8733L12.2296 22.9049C12.0826 22.9658 11.9174 22.9658 11.7704 22.9049L4.45144 19.8733C4.30442 19.8124 4.18761 19.6956 4.12672 19.5486L1.09511 12.2296C1.03421 12.0826 1.03421 11.9174 1.09511 11.7704L4.12672 4.45144C4.18761 4.30442 4.30442 4.18761 4.45144 4.12672L11.7704 1.09511Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["octagon"],
+    tags: ["octagon", "shape", "geometric", "stop sign", "warning", "frame", "border", "abstract", "minimal", "security", "alert"],
     category: "regular"
   },
   {
@@ -11112,7 +11112,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.0001 12H19.5715" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["off", "tag"],
+    tags: ["off", "tag", "discount", "sale", "promotion", "price", "deal", "commerce", "shopping", "label", "special offer"],
     category: "regular"
   },
   {
@@ -11125,7 +11125,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 10C21 4 17 4 17 4C17 4 21 4.5 21 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["oil", "industry"],
+    tags: ["oil", "industry", "energy", "petroleum", "gas", "factory", "production", "power", "fuel", "manufacturing", "industrial", "environment"],
     category: "regular"
   },
   {
@@ -11140,7 +11140,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 21.2426L18.1213 19.1213M18.1213 19.1213L20.2426 17M18.1213 19.1213L16 17M18.1213 19.1213L20.2426 21.2426" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["okrs"],
+    tags: ["okrs", "objectives", "key results", "goals", "strategy", "management", "business", "planning", "performance", "metrics", "success"],
     category: "regular"
   },
   {
@@ -11152,7 +11152,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 15V9L18 15V9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["on", "tag"],
+    tags: ["on", "tag", "discount", "sale", "promotion", "price", "deal", "commerce", "shopping", "label", "special offer"],
     category: "regular"
   },
   {
@@ -11166,7 +11166,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.5 10C10.5 10 10.5 8.61578 10.5 7.5C10.5 6.34156 10.5 4.68968 10.5 3.49899C10.5 2.67056 9.82843 2 9 2V2C8.17157 2 7.5 2.67157 7.5 3.5V12V15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["one", "finger", "select", "hand", "gesture"],
+    tags: ["one", "finger", "select", "hand", "gesture", "tap", "click", "touch", "interaction", "pointer", "cursor", "ui", "minimal"],
     category: "regular"
   },
   {
@@ -11179,7 +11179,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15.5 15.5L14.5 14.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["one", "point", "circle"],
+    tags: ["one", "point", "circle", "geometric", "shape", "dot", "center", "focus", "minimal", "abstract"],
     category: "regular"
   },
   {
@@ -11194,7 +11194,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 21C12 19.8954 11.1046 19 10 19" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["open", "book"],
+    tags: ["open", "book", "read", "study", "learn", "knowledge", "education", "library", "story", "literature", "school"],
     category: "regular"
   },
   {
@@ -11207,7 +11207,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3.5 20.5L12 12M12 12V16M12 12H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["open", "in", "browser"],
+    tags: ["open", "in", "browser", "external link", "new tab", "web", "internet", "redirect", "launch", "ui", "arrow"],
     category: "regular"
   },
   {
@@ -11218,7 +11218,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3.5 20.5L12 12M12 12V16M12 12H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["open", "in", "window"],
+    tags: ["open", "in", "window", "external link", "new window", "pop-up", "launch", "redirect", "ui", "arrow"],
     category: "regular"
   },
   {
@@ -11229,7 +11229,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H11" stroke="currentColor"  stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["open", "new", "window"],
+    tags: ["open", "new", "window", "add window", "create", "new instance", "pop-up", "ui", "plus", "system"],
     category: "regular"
   },
   {
@@ -11243,7 +11243,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 14.5714V3.5C8 2.67157 8.67157 2 9.5 2V2C10.3284 2 11 2.67056 11 3.49899C11 4.68968 11 6.34156 11 7.5C11 8.61578 11 10 11 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["open", "select", "hand", "gesture"],
+    tags: ["open", "select", "hand", "gesture", "grab", "hold", "touch", "interaction", "palm", "ui", "accessibility"],
     category: "regular"
   },
   {
@@ -11253,7 +11253,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.8351 15.2894L11.5726 15.426L10.8351 15.2894ZM10.4771 14.582L10.8583 13.9361L10.4771 14.582ZM10.2016 21.8286L10.3402 21.0915L10.2016 21.8286ZM9.75001 21.1507L10.4875 21.2872L9.75001 21.1507ZM16.8489 19.8141L17.586 19.6755L16.8489 19.8141ZM17.7212 20.1916L17.2912 19.5771L17.7212 20.1916ZM7.87166 15.9841L7.13459 15.8455L7.87166 15.9841ZM7.73203 15.4643L7.15066 15.9381L7.73203 15.4643ZM13.5232 14.582L13.9045 15.2279L13.5232 14.582ZM13.1652 15.2894L13.9027 15.1529L13.1652 15.2894ZM16.268 15.4643L15.6866 14.9905L16.268 15.4643ZM16.1283 15.9841L16.8654 15.8455L16.1283 15.9841ZM14.2501 21.1513L13.5126 21.2878L14.2501 21.1513ZM13.7972 21.8297L13.9347 22.567L13.7972 21.8297ZM6.27883 20.1916L5.84889 20.8061L6.27883 20.1916ZM2.75 12C2.75 6.89078 6.89078 2.75 12 2.75V1.25C6.06235 1.25 1.25 6.06235 1.25 12H2.75ZM6.70878 19.5771C4.3153 17.9025 2.75 15.1368 2.75 12H1.25C1.25 15.6498 3.07379 18.8646 5.84889 20.8061L6.70878 19.5771ZM7.13459 15.8455L6.41403 19.6755L7.88817 19.9528L8.60873 16.1228L7.13459 15.8455ZM5.75 12C5.75 13.4936 6.27575 14.8646 7.15066 15.9381L8.3134 14.9905C7.64834 14.1745 7.25 13.1354 7.25 12H5.75ZM12 5.75C8.54868 5.75 5.75 8.54868 5.75 12H7.25C7.25 9.3771 9.3771 7.25 12 7.25V5.75ZM18.25 12C18.25 8.54868 15.4513 5.75 12 5.75V7.25C14.6229 7.25 16.75 9.3771 16.75 12H18.25ZM16.8493 15.9381C17.7243 14.8646 18.25 13.4936 18.25 12H16.75C16.75 13.1354 16.3517 14.1745 15.6866 14.9905L16.8493 15.9381ZM17.586 19.6755L16.8654 15.8455L15.3913 16.1228L16.1118 19.9528L17.586 19.6755ZM21.25 12C21.25 15.1368 19.6847 17.9025 17.2912 19.5771L18.1511 20.8061C20.9262 18.8646 22.75 15.6498 22.75 12H21.25ZM12 2.75C17.1092 2.75 21.25 6.89078 21.25 12H22.75C22.75 6.06235 17.9377 1.25 12 1.25V2.75ZM15.7502 12C15.7502 9.92949 14.0706 8.24996 12.0002 8.24996V9.74996C13.2422 9.74996 14.2502 10.7579 14.2502 12H15.7502ZM13.9045 15.2279C15.0061 14.5777 15.7502 13.3768 15.7502 12H14.2502C14.2502 12.8229 13.8068 13.5437 13.142 13.9361L13.9045 15.2279ZM14.9876 21.0148L13.9027 15.1529L12.4277 15.4259L13.5126 21.2878L14.9876 21.0148ZM12.0002 22.75C12.6654 22.75 13.3108 22.6834 13.9347 22.567L13.6597 21.0925C13.118 21.1935 12.5649 21.25 12.0002 21.25V22.75ZM10.063 22.5657C10.688 22.6832 11.3343 22.75 12.0002 22.75V21.25C11.435 21.25 10.8817 21.1934 10.3402 21.0915L10.063 22.5657ZM10.0977 15.1529L9.01255 21.0141L10.4875 21.2872L11.5726 15.426L10.0977 15.1529ZM8.25018 12C8.25018 13.3767 8.99426 14.5776 10.0958 15.2279L10.8583 13.9361C10.1935 13.5437 9.75018 12.8229 9.75018 12H8.25018ZM12.0002 8.24996C9.92971 8.24996 8.25018 9.92949 8.25018 12H9.75018C9.75018 10.7579 10.7581 9.74996 12.0002 9.74996V8.24996ZM11.5726 15.426C11.6951 14.7643 11.3142 14.2052 10.8583 13.9361L10.0958 15.2279C10.1005 15.2306 10.1042 15.2337 10.1066 15.2361C10.1089 15.2386 10.1082 15.2386 10.1061 15.2346C10.1039 15.2304 10.0997 15.2209 10.0971 15.2059C10.0944 15.1902 10.0942 15.1718 10.0977 15.1529L11.5726 15.426ZM10.3402 21.0915C10.4587 21.1138 10.5 21.2197 10.4875 21.2872L9.01255 21.0141C8.88408 21.708 9.3184 22.4256 10.063 22.5657L10.3402 21.0915ZM16.1118 19.9528C16.2796 20.8445 17.3238 21.385 18.1511 20.8061L17.2912 19.5771C17.3508 19.5354 17.4317 19.533 17.4888 19.5582C17.5413 19.5813 17.577 19.6277 17.586 19.6755L16.1118 19.9528ZM8.60873 16.1228C8.6883 15.6999 8.55779 15.2903 8.3134 14.9905L7.15066 15.9381C7.14395 15.9299 7.12459 15.8987 7.13459 15.8455L8.60873 16.1228ZM13.142 13.9361C12.6861 14.2052 12.3053 14.7642 12.4277 15.4259L13.9027 15.1529C13.9062 15.1718 13.9059 15.1903 13.9032 15.2059C13.9006 15.2209 13.8964 15.2304 13.8942 15.2346C13.8921 15.2386 13.8914 15.2386 13.8938 15.2362C13.8961 15.2337 13.8998 15.2307 13.9045 15.2279L13.142 13.9361ZM15.6866 14.9905C15.4422 15.2903 15.3117 15.6999 15.3913 16.1228L16.8654 15.8455C16.8754 15.8987 16.8561 15.9299 16.8493 15.9381L15.6866 14.9905ZM13.5126 21.2878C13.5001 21.22 13.5417 21.1145 13.6597 21.0925L13.9347 22.567C14.68 22.428 15.1163 21.7101 14.9876 21.0148L13.5126 21.2878ZM5.84889 20.8061C6.67624 21.385 7.72041 20.8445 7.88817 19.9528L6.41403 19.6755C6.42302 19.6277 6.45865 19.5813 6.51117 19.5582C6.56834 19.533 6.64921 19.5354 6.70878 19.5771L5.84889 20.8061Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["open", "vpn"],
+    tags: ["open", "vpn", "security", "network", "private", "connection", "internet", "shield", "secure", "privacy"],
     category: "regular"
   },
   {
@@ -11263,7 +11263,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2M12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M12 22V12M12 2V12M12 12L17 17.5M12 12L17 7M12 12H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["orange", "half"],
+    tags: ["orange", "half", "fruit", "citrus", "juice", "healthy", "food", "fresh", "minimal", "nature"],
     category: "regular"
   },
   {
@@ -11273,7 +11273,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13.3895 10.1109L5.61133 2.33275C1.31556 6.62852 1.31556 13.5933 5.61133 17.8891C9.9071 22.1849 16.8719 22.1849 21.1677 17.8891L13.3895 10.1109ZM13.3895 10.1109L13.7431 18.2427M13.3895 10.1109H5.61133M13.3895 10.1109L8.0862 15.4142" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["orange", "slice", "alt"],
+    tags: ["orange", "slice", "alt", "fruit", "citrus", "juice", "healthy", "food", "fresh", "minimal", "nature"],
     category: "regular"
   },
   {
@@ -11283,7 +11283,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.6125 10.1109L18.3906 2.33275C22.6864 6.62852 22.6864 13.5933 18.3906 17.8891C14.0949 22.1849 7.13004 22.1849 2.83428 17.8891L10.6125 10.1109ZM10.6125 10.1109L10.2589 18.2427M10.6125 10.1109H18.3906M10.6125 10.1109L15.9158 15.4142" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["orange", "slice"],
+    tags: ["orange", "slice", "fruit", "citrus", "juice", "healthy", "food", "fresh", "minimal", "nature"],
     category: "regular"
   },
   {
@@ -11295,7 +11295,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["organic", "food", "square"],
+    tags: ["organic", "food", "square", "healthy", "natural", "eco", "diet", "produce", "leaf", "nutrition", "fresh"],
     category: "regular"
   },
   {
@@ -11307,7 +11307,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["organic", "food"],
+    tags: ["organic", "food", "healthy", "natural", "eco", "diet", "produce", "leaf", "nutrition", "fresh"],
     category: "regular"
   },
   {
@@ -11323,7 +11323,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.5 3V21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["orthogonal", "view"],
+    tags: ["orthogonal", "view", "3d", "design", "engineering", "architecture", "perspective", "measurement", "tool"],
     category: "regular"
   },
   {
@@ -11335,7 +11335,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21.1667 18.5H21.4C21.7314 18.5 22 18.7686 22 19.1V21.4C22 21.7314 21.7314 22 21.4 22H17.6C17.2686 22 17 21.7314 17 21.4V19.1C17 18.7686 17.2686 18.5 17.6 18.5H17.8333M21.1667 18.5V16.75C21.1667 16.1667 20.8333 15 19.5 15C18.1667 15 17.8333 16.1667 17.8333 16.75V18.5M21.1667 18.5H17.8333" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["package", "lock"],
+    tags: ["package", "lock", "delivery", "shipping", "secure", "private", "parcel", "security", "commerce", "box", "locked"],
     category: "regular"
   },
   {
@@ -11346,7 +11346,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 9V4" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["package"],
+    tags: ["package", "delivery", "shipping", "parcel", "box", "commerce", "product", "container", "logistics"],
     category: "regular"
   },
   {
@@ -11361,7 +11361,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 16V13" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["packages"],
+    tags: ["packages", "delivery", "shipping", "parcels", "boxes", "commerce", "products", "logistics", "multiple"],
     category: "regular"
   },
   {
@@ -11374,7 +11374,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 12C2 17.5228 6.47715 22 12 22C15.2712 22 18.1755 20.4293 20 18.001L12 12L20 5.99902C18.1755 3.57069 15.2712 2 12 2C6.47715 2 2 6.47715 2 12Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pacman"],
+    tags: ["pacman", "game", "arcade", "retro", "playful", "ghost", "eating", "fun", "entertainment"],
     category: "regular"
   },
   {
@@ -11384,7 +11384,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12C1.25 6.06294 6.06294 1.25 12 1.25ZM9.03033 10.4697C8.73744 10.1768 8.26256 10.1768 7.96967 10.4697C7.67678 10.7626 7.67678 11.2374 7.96967 11.5303L11.4697 15.0303C11.7626 15.3232 12.2374 15.3232 12.5303 15.0303L16.0303 11.5303C16.3232 11.2374 16.3232 10.7626 16.0303 10.4697C15.7374 10.1768 15.2626 10.1768 14.9697 10.4697L12 13.4393L9.03033 10.4697Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["page", "down"],
+    tags: ["page", "down", "scroll", "navigate", "document", "arrow", "ui", "move", "direction"],
     category: "solid"
   },
   {
@@ -11397,7 +11397,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 2V5.4C16 5.73137 16.2686 6 16.6 6H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "edit"],
+    tags: ["page", "edit", "document", "write", "compose", "update", "modify", "content", "file", "pencil"],
     category: "regular"
   },
   {
@@ -11410,7 +11410,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 15H8H12.4C12.7314 15 13.0031 15.2668 13.0298 15.5971C13.1526 17.1147 13.7812 21 17 21H8H6C4.34315 21 3 19.6569 3 18V17C3 15.8954 3.89543 15 5 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "flip"],
+    tags: ["page", "flip", "document", "turn", "read", "book", "next page", "ui", "transition", "animation"],
     category: "regular"
   },
   {
@@ -11420,7 +11420,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12C1.25 6.06294 6.06294 1.25 12 1.25ZM13.5303 9.03033C13.8232 8.73744 13.8232 8.26256 13.5303 7.96967C13.2374 7.67678 12.7626 7.67678 12.4697 7.96967L8.96967 11.4697C8.67678 11.7626 8.67678 12.2374 8.96967 12.5303L12.4697 16.0303C12.7626 16.3232 13.2374 16.3232 13.5303 16.0303C13.8232 15.7374 13.8232 15.2626 13.5303 14.9697L10.5607 12L13.5303 9.03033Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["page", "left"],
+    tags: ["page", "left", "scroll", "navigate", "document", "arrow", "ui", "move", "direction"],
     category: "solid"
   },
   {
@@ -11432,7 +11432,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 2V5.4C16 5.73137 16.2686 6 16.6 6H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "minus", "in"],
+    tags: ["page", "minus", "in", "document", "remove", "delete", "file", "subtract", "ui", "negative", "system"],
     category: "regular"
   },
   {
@@ -11444,7 +11444,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M1.99219 19H7.99219" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "minus"],
+    tags: ["page", "minus", "document", "remove", "delete", "file", "subtract", "ui", "negative", "system"],
     category: "regular"
   },
   {
@@ -11456,7 +11456,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 2V5.4C16 5.73137 16.2686 6 16.6 6H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "plus", "in"],
+    tags: ["page", "plus", "in", "document", "add", "create", "new file", "insert", "ui", "positive", "system"],
     category: "regular"
   },
   {
@@ -11468,7 +11468,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M1.99219 19H4.99219M7.99219 19H4.99219M4.99219 19V16M4.99219 19V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "plus"],
+    tags: ["page", "plus", "document", "add", "new", "create", "file", "outline", "filled", "creation", "interface", "button"],
     category: "regular"
   },
   {
@@ -11478,7 +11478,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12C1.25 6.06294 6.06294 1.25 12 1.25ZM11.5303 7.96967C11.2374 7.67678 10.7626 7.67678 10.4697 7.96967C10.1768 8.26256 10.1768 8.73744 10.4697 9.03033L13.4393 12L10.4697 14.9697C10.1768 15.2626 10.1768 15.7374 10.4697 16.0303C10.7626 16.3232 11.2374 16.3232 11.5303 16.0303L15.0303 12.5303C15.3232 12.2374 15.3232 11.7626 15.0303 11.4697L11.5303 7.96967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["page", "right"],
+    tags: ["page", "right", "document", "next", "forward", "arrow", "navigation", "file", "outline", "interface", "move", "turn"],
     category: "solid"
   },
   {
@@ -11492,7 +11492,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 2V5.4C16 5.73137 16.2686 6 16.6 6H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "search"],
+    tags: ["page", "search", "document", "find", "magnify", "lookup", "file", "outline", "interface", "discover", "explore", "searchbar"],
     category: "regular"
   },
   {
@@ -11505,7 +11505,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 2V5.4C16 5.73137 16.2686 6 16.6 6H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page", "star"],
+    tags: ["page", "star", "document", "favorite", "bookmark", "important", "file", "outline", "interface", "quality", "rating", "highlight"],
     category: "regular"
   },
   {
@@ -11515,7 +11515,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12C1.25 6.06294 6.06294 1.25 12 1.25ZM16.0303 12.4697L12.5303 8.96967C12.2374 8.67678 11.7626 8.67678 11.4697 8.96967L7.96967 12.4697C7.67678 12.7626 7.67678 13.2374 7.96967 13.5303C8.26256 13.8232 8.73744 13.8232 9.03033 13.5303L12 10.5607L14.9697 13.5303C15.2626 13.8232 15.7374 13.8232 16.0303 13.5303C16.3232 13.2374 16.3232 12.7626 16.0303 12.4697Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["page", "up"],
+    tags: ["page", "up", "document", "scroll", "top", "arrow", "navigation", "file", "outline", "interface", "move", "direction"],
     category: "solid"
   },
   {
@@ -11529,7 +11529,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 2V5.4C16 5.73137 16.2686 6 16.6 6H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["page"],
+    tags: ["page", "document", "file", "blank", "empty", "text", "outline", "interface", "content", "sheet", "template"],
     category: "regular"
   },
   {
@@ -11544,7 +11544,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 8.01L16.01 7.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["palette"],
+    tags: ["palette", "color", "art", "design", "paint", "artist", "creative", "interface", "hue", "swatch", "tool"],
     category: "regular"
   },
   {
@@ -11554,7 +11554,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 5C14.9952 5 19.2354 5.69203 20.5764 5.92472C20.8312 5.96893 21.0235 6.17124 21.056 6.42778C21.1866 7.45584 21.5 10.1194 21.5 12C21.5 13.8806 21.1866 16.5442 21.056 17.5722C21.0235 17.8288 20.8312 18.0311 20.5764 18.0753C19.2354 18.308 14.9952 19 12 19C9.00483 19 4.76463 18.308 3.4236 18.0753C3.16881 18.0311 2.97653 17.8288 2.94395 17.5722C2.81339 16.5442 2.5 13.8806 2.5 12C2.5 10.1194 2.81339 7.45584 2.94395 6.42778C2.97653 6.17124 3.16882 5.96892 3.42361 5.92472C4.76463 5.69203 9.00483 5 12 5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["panorama", "enlarge"],
+    tags: ["panorama", "enlarge", "image", "expand", "widescreen", "view", "photo", "outline", "interface", "zoom", "fullscreen", "aspect"],
     category: "regular"
   },
   {
@@ -11564,7 +11564,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 6.86208V17.1379C21 17.5558 20.5848 17.8501 20.1886 17.7171C18.5457 17.1656 14.7486 16 12 16C9.25138 16 5.45427 17.1656 3.81139 17.7171C3.41523 17.8501 3 17.5558 3 17.1379V6.86208C3 6.44418 3.41523 6.14988 3.81139 6.28288C5.45427 6.83441 9.25138 8 12 8C14.7486 8 18.5457 6.83441 20.1886 6.28288C20.5848 6.14988 21 6.44418 21 6.86208Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["panorama", "reduce"],
+    tags: ["panorama", "reduce", "image", "shrink", "narrow", "view", "photo", "outline", "interface", "zoom out", "minimize", "aspect"],
     category: "regular"
   },
   {
@@ -11576,7 +11576,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18.5 7.5H17.5C16.3954 7.5 15.5 6.60457 15.5 5.5V3" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["pants", "pockets"],
+    tags: ["pants", "pockets", "clothing", "fashion", "apparel", "trousers", "jeans", "storage", "outline", "casual", "wear", "garment"],
     category: "regular"
   },
   {
@@ -11586,7 +11586,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 19H16.4363C16.7532 19 17.0154 18.7536 17.0352 18.4374L17.9602 3.63743C17.9817 3.29201 17.7074 3 17.3613 3H6.63426C6.28981 3 6.01608 3.28936 6.03518 3.63328L6.96852 20.4333C6.98618 20.7512 7.24915 21 7.56759 21H11.4C11.7314 21 12 20.7314 12 20.4V8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pants"],
+    tags: ["pants", "clothing", "fashion", "apparel", "trousers", "jeans", "outline", "casual", "wear", "garment", "bottoms"],
     category: "regular"
   },
   {
@@ -11597,7 +11597,7 @@ export const iconoirIcons: IconItem[] = [
 <circle cx="12" cy="12" r="10" stroke="currentColor" />
 </svg>`,
     style: "outline",
-    tags: ["parking"],
+    tags: ["parking", "car", "auto", "vehicle", "sign", "transportation", "road", "outline", "area", "lot", "spot"],
     category: "regular"
   },
   {
@@ -11611,7 +11611,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 11.01L8.01 10.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["password", "check"],
+    tags: ["password", "check", "security", "authentication", "login", "verified", "access", "outline", "success", "approval", "safe", "correct"],
     category: "regular"
   },
   {
@@ -11625,7 +11625,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 11.01L8.01 10.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["password", "cursor"],
+    tags: ["password", "cursor", "security", "authentication", "login", "typing", "input", "outline", "text", "edit", "entry", "field"],
     category: "regular"
   },
   {
@@ -11639,7 +11639,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 11.01L8.01 10.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["password", "xmark"],
+    tags: ["password", "xmark", "security", "authentication", "login", "failed", "error", "outline", "incorrect", "denied", "wrong", "access"],
     category: "regular"
   },
   {
@@ -11650,7 +11650,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 6.4V4.5C8 4.22386 8.22386 4 8.5 4C8.77614 4 9.00422 3.77604 9.05152 3.50398C9.19968 2.65171 9.77399 1 12 1C14.226 1 14.8003 2.65171 14.9485 3.50398C14.9958 3.77604 15.2239 4 15.5 4C15.7761 4 16 4.22386 16 4.5V6.4C16 6.73137 15.7314 7 15.4 7H8.6C8.26863 7 8 6.73137 8 6.4Z" stroke="currentColor"  stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["paste", "clipboard"],
+    tags: ["paste", "clipboard", "copy", "document", "data", "transfer", "file", "outline", "interface", "move", "duplicate", "insert"],
     category: "regular"
   },
   {
@@ -11661,7 +11661,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 7.5C3.25 5.15279 5.15279 3.25 7.5 3.25C9.84721 3.25 11.75 5.15279 11.75 7.5V16.5C11.75 18.0188 12.9812 19.25 14.5 19.25C16.0188 19.25 17.25 18.0188 17.25 16.5C17.25 16.0858 17.5858 15.75 18 15.75C18.4142 15.75 18.75 16.0858 18.75 16.5C18.75 18.8472 16.8472 20.75 14.5 20.75C12.1528 20.75 10.25 18.8472 10.25 16.5V7.5C10.25 5.98121 9.01879 4.75 7.5 4.75C5.98121 4.75 4.75 5.98121 4.75 7.5V19.5C4.75 19.9142 4.41421 20.25 4 20.25C3.58579 20.25 3.25 19.9142 3.25 19.5V7.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["path", "arrow"],
+    tags: ["path", "arrow", "direction", "route", "journey", "navigation", "map", "outline", "interface", "guide", "way", "flow"],
     category: "solid"
   },
   {
@@ -11677,7 +11677,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11 5.01L11.01 4.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pause", "window"],
+    tags: ["pause", "window", "stop", "hold", "break", "suspend", "application", "outline", "interface", "control", "halt", "desktop"],
     category: "regular"
   },
   {
@@ -11688,7 +11688,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 18.4V5.6C14 5.26863 14.2686 5 14.6 5H17.4C17.7314 5 18 5.26863 18 5.6V18.4C18 18.7314 17.7314 19 17.4 19H14.6C14.2686 19 14 18.7314 14 18.4Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["pause"],
+    tags: ["pause", "stop", "hold", "break", "suspend", "media", "outline", "interface", "control", "halt", "player"],
     category: "solid"
   },
   {
@@ -11699,7 +11699,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6.80005 21L9.80005 6.5L16.8 6.5C22.8 6.5 22.8 15.5 16.8 15.5H12.5L11.3 21H6.80005Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["paypal"],
+    tags: ["paypal", "payment", "money", "finance", "transaction", "brand", "commerce", "online", "wallet", "currency", "logo"],
     category: "regular"
   },
   {
@@ -11711,7 +11711,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 10.5L11 12.5L15 8.5" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pc", "check"],
+    tags: ["pc", "check", "computer", "desktop", "system", "verified", "hardware", "outline", "success", "approval", "safe", "correct"],
     category: "regular"
   },
   {
@@ -11723,7 +11723,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.4851 6.12127L15.5455 6.88638C15.8126 6.95316 16.0011 7.19646 15.9937 7.47168C15.8176 13.9997 12 15 12 15C12 15 8.18239 13.9997 8.00629 7.47168C7.99886 7.19646 8.18738 6.95316 8.45448 6.88638L11.5149 6.12127C11.8334 6.04165 12.1666 6.04165 12.4851 6.12127Z" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pc", "firewall"],
+    tags: ["pc", "firewall", "computer", "desktop", "security", "protection", "network", "outline", "defense", "shield", "privacy", "system"],
     category: "regular"
   },
   {
@@ -11733,7 +11733,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 2V2C16.4183 2 20 5.58172 20 10V14C20 18.4183 16.4183 22 12 22V22C7.58172 22 4 18.4183 4 14V10C4 5.58172 7.58172 2 12 2V2ZM12 2V9" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pc", "mouse"],
+    tags: ["pc", "mouse", "computer", "desktop", "peripheral", "input", "device", "outline", "hardware", "cursor", "control", "accessory"],
     category: "regular"
   },
   {
@@ -11745,7 +11745,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14.8566 7.7C14.1306 6.95946 13.119 6.5 12 6.5C9.79086 6.5 8 8.29086 8 10.5C8 11.5902 8.43613 12.5785 9.14343 13.3M14.8566 7.7C15.5639 8.4215 16 9.40982 16 10.5C16 12.7091 14.2091 14.5 12 14.5C10.881 14.5 9.8694 14.0405 9.14343 13.3M14.8566 7.7L9.14343 13.3" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pc", "no", "entry"],
+    tags: ["pc", "no", "entry", "computer", "desktop", "restricted", "blocked", "access denied", "outline", "forbidden", "private", "security", "system"],
     category: "regular"
   },
   {
@@ -11758,7 +11758,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 14.01L12.01 13.9989" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pc", "warning"],
+    tags: ["pc", "warning", "computer", "desktop", "alert", "caution", "error", "outline", "issue", "problem", "system", "trouble"],
     category: "regular"
   },
   {
@@ -11772,7 +11772,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13.8566 17.6767L14.3487 16.6927C14.3976 16.5947 14.3461 16.4763 14.241 16.4454L10.6903 15.4011C9.97853 15.1918 9.51797 14.5038 9.59563 13.766V13.766C9.68372 12.9292 10.4284 12.3188 11.2662 12.3968L16.0542 12.8422C16.0542 12.8422 19.8632 13.4282 18.5447 17.2372C17.2262 21.0463 16.7867 22.3648 13.8566 22.3648C11.9521 22.3648 9.16855 22.3648 9.16855 22.3648H8.87555C6.52912 22.3648 4.62697 20.4627 4.62697 18.1163V18.1163L4.48047 9.91211" stroke="currentColor"  stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["peace", "hand"],
+    tags: ["peace", "hand", "v-sign", "victory", "two-fingers", "gesture", "human", "minimal", "friendly", "symbol", "solidarity"],
     category: "regular"
   },
   {
@@ -11782,7 +11782,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1297 21.75C18.5691 21.75 21.4586 19.1638 21.8384 15.7454L22.049 13.8497C22.1856 12.6204 22.1856 11.3796 22.049 10.1503L21.8384 8.25459C21.4586 4.83616 18.5691 2.25 15.1297 2.25H8.87018C5.43072 2.25 2.54129 4.83617 2.16147 8.25459L1.95084 10.1503C1.81424 11.3796 1.81424 12.6204 1.95084 13.8497L2.16147 15.7454C2.54129 19.1638 5.43072 21.75 8.87018 21.75H15.1297ZM8.24997 17C8.24997 17.4142 8.58576 17.75 8.99997 17.75C9.41419 17.75 9.74997 17.4142 9.74997 17V13.75H13C15.071 13.75 16.75 12.0711 16.75 10C16.75 7.92893 15.071 6.25 13 6.25L8.99997 6.25C8.80106 6.25 8.6103 6.32902 8.46964 6.46967C8.32899 6.61032 8.24997 6.80109 8.24997 7V17ZM13 12.25H9.74997V7.75L13 7.75C14.2426 7.75 15.25 8.75736 15.25 10C15.25 11.2426 14.2426 12.25 13 12.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["peerlist"],
+    tags: ["peerlist", "social media", "network", "platform", "connection", "community", "profile", "professional", "branding"],
     category: "solid"
   },
   {
@@ -11794,7 +11794,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 6.6L12 11.7L8.33333 15V3L12 6.3L5 11.4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pen", "connect", "bluetooth"],
+    tags: ["pen", "connect", "bluetooth", "stylus", "wireless", "pairing", "device", "drawing", "digital", "connectivity", "peripheral"],
     category: "regular"
   },
   {
@@ -11807,7 +11807,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.5 6.5L18.5 5.5C19.3284 4.67157 20.6716 4.67157 21.5 5.5V5.5C22.3284 6.32843 22.3284 7.67157 21.5 8.5L20.5 9.5M17.5 6.5L6.69591 17.3041C6.56775 17.4322 6.47684 17.5928 6.43288 17.7686L5.5 21.5L9.23128 20.5672C9.40711 20.5232 9.56769 20.4323 9.69585 20.3041L20.5 9.5M17.5 6.5L20.5 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pen", "connect", "wifi"],
+    tags: ["pen", "connect", "wifi", "stylus", "wireless", "internet", "device", "drawing", "digital", "connectivity", "network"],
     category: "regular"
   },
   {
@@ -11823,7 +11823,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M22 12C22 11.2469 21.3844 10.6364 20.625 10.6364C19.8656 10.6364 19.25 11.2469 19.25 12C19.25 12.7531 19.8656 13.3636 20.625 13.3636C21.3844 13.3636 22 12.7531 22 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pen", "tablet", "connect", "usb"],
+    tags: ["pen", "tablet", "connect", "usb", "stylus", "drawing pad", "wired", "connection", "digital art", "graphic design", "peripheral", "interface"],
     category: "regular"
   },
   {
@@ -11838,7 +11838,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 3V21" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["pen", "tablet", "connect", "wifi"],
+    tags: ["pen", "tablet", "connect", "wifi", "stylus", "drawing pad", "wireless", "internet", "digital art", "graphic design", "connectivity", "network"],
     category: "regular"
   },
   {
@@ -11852,7 +11852,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 10.01L17.01 9.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pen", "tablet"],
+    tags: ["pen", "tablet", "stylus", "drawing pad", "digital art", "graphic design", "input device", "creative", "illustration", "peripheral"],
     category: "regular"
   },
   {
@@ -11862,7 +11862,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.6473 2.25623C11.8576 2.10344 12.1424 2.10344 12.3527 2.25623L22.1089 9.34458C22.3192 9.49737 22.4072 9.76819 22.3269 10.0154L18.6003 21.4846C18.52 21.7318 18.2896 21.8992 18.0297 21.8992H5.97029C5.71035 21.8992 5.47998 21.7318 5.39965 21.4846L1.67309 10.0154C1.59276 9.76819 1.68076 9.49737 1.89105 9.34458L11.6473 2.25623Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pentagon"],
+    tags: ["pentagon", "shape", "geometric", "five-sided", "abstract", "minimal", "diagram", "math", "design element"],
     category: "regular"
   },
   {
@@ -11875,7 +11875,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15.5 10C15.2239 10 15 9.77614 15 9.5C15 9.22386 15.2239 9 15.5 9C15.7761 9 16 9.22386 16 9.5C16 9.77614 15.7761 10 15.5 10Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["people", "tag"],
+    tags: ["people", "tag", "users", "profile", "identification", "label", "group", "social", "community", "team", "contact"],
     category: "regular"
   },
   {
@@ -11891,7 +11891,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 9L9 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["percent", "rotate", "out"],
+    tags: ["percent", "rotate", "out", "discount", "growth", "change", "rate", "statistics", "movement", "exit", "conversion"],
     category: "regular"
   },
   {
@@ -11901,7 +11901,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM15.5 14.25C14.8096 14.25 14.25 14.8096 14.25 15.5C14.25 16.1904 14.8096 16.75 15.5 16.75C16.1904 16.75 16.75 16.1904 16.75 15.5C16.75 14.8096 16.1904 14.25 15.5 14.25ZM7.25 8.5C7.25 7.80964 7.80964 7.25 8.5 7.25C9.19036 7.25 9.75 7.80964 9.75 8.5C9.75 9.19036 9.19036 9.75 8.5 9.75C7.80964 9.75 7.25 9.19036 7.25 8.5ZM15.4697 7.46967C15.7626 7.17678 16.2374 7.17678 16.5303 7.46967C16.8232 7.76256 16.8232 8.23744 16.5303 8.53033L8.53033 16.5303C8.23744 16.8232 7.76256 16.8232 7.46967 16.5303C7.17678 16.2374 7.17678 15.7626 7.46967 15.4697L15.4697 7.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["percentage", "circle"],
+    tags: ["percentage", "circle", "rate", "discount", "statistics", "progress", "completion", "circular", "data", "metric"],
     category: "solid"
   },
   {
@@ -11911,7 +11911,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM15.5 14.25C14.8096 14.25 14.25 14.8096 14.25 15.5C14.25 16.1904 14.8096 16.75 15.5 16.75C16.1904 16.75 16.75 16.1904 16.75 15.5C16.75 14.8096 16.1904 14.25 15.5 14.25ZM7.25 8.5C7.25 7.80964 7.80964 7.25 8.5 7.25C9.19036 7.25 9.75 7.80964 9.75 8.5C9.75 9.19036 9.19036 9.75 8.5 9.75C7.80964 9.75 7.25 9.19036 7.25 8.5ZM15.4697 7.46967C15.7626 7.17678 16.2374 7.17678 16.5303 7.46967C16.8232 7.76256 16.8232 8.23744 16.5303 8.53033L8.53033 16.5303C8.23744 16.8232 7.76256 16.8232 7.46967 16.5303C7.17678 16.2374 7.17678 15.7626 7.46967 15.4697L15.4697 7.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["percentage", "square"],
+    tags: ["percentage", "square", "rate", "discount", "statistics", "progress", "completion", "data", "metric"],
     category: "solid"
   },
   {
@@ -11923,7 +11923,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 5L5 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["percentage"],
+    tags: ["percentage", "rate", "discount", "statistics", "progress", "completion", "value", "data", "metric"],
     category: "regular"
   },
   {
@@ -11939,7 +11939,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 3.5L17.5 20.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["perspective", "view"],
+    tags: ["perspective", "view", "3d", "depth", "angle", "spatial", "design", "architecture", "engineering", "isometric"],
     category: "regular"
   },
   {
@@ -11950,7 +11950,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pharmacy", "cross", "circle"],
+    tags: ["pharmacy", "cross", "circle", "medicine", "health", "medical", "first aid", "hospital", "drugstore", "wellness", "circular"],
     category: "regular"
   },
   {
@@ -11961,7 +11961,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13.9 18H10.1C9.76863 18 9.5 17.7314 9.5 17.4V15.1C9.5 14.7686 9.23137 14.5 8.9 14.5H6.6C6.26863 14.5 6 14.2314 6 13.9V10.1C6 9.76863 6.26863 9.5 6.6 9.5H8.9C9.23137 9.5 9.5 9.23137 9.5 8.9V6.6C9.5 6.26863 9.76863 6 10.1 6H13.9C14.2314 6 14.5 6.26863 14.5 6.6V8.9C14.5 9.23137 14.7686 9.5 15.1 9.5H17.4C17.7314 9.5 18 9.76863 18 10.1V13.9C18 14.2314 17.7314 14.5 17.4 14.5H15.1C14.7686 14.5 14.5 14.7686 14.5 15.1V17.4C14.5 17.7314 14.2314 18 13.9 18Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["pharmacy", "cross", "tag"],
+    tags: ["pharmacy", "cross", "tag", "medicine", "health", "medical", "first aid", "hospital", "drugstore", "wellness", "label"],
     category: "regular"
   },
   {
@@ -11972,7 +11972,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 3L3 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["phone", "disabled"],
+    tags: ["phone", "disabled", "call blocked", "no calls", "mute", "offline", "unavailable", "do not disturb", "communication", "cellular"],
     category: "regular"
   },
   {
@@ -11983,7 +11983,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06343 1.25L7.81435 1.25C8.12672 1.25 8.40638 1.44361 8.51634 1.73599L9.97178 5.60588C10.02 5.73398 10.0322 5.87281 10.0071 6.00735L9.2778 9.91931C10.1742 12.0273 11.6548 13.4439 14.1104 14.7146L17.9754 13.9657C18.1126 13.9391 18.2545 13.9514 18.3851 14.0012L22.2669 15.4804C22.5577 15.5912 22.7498 15.87 22.7498 16.1812L22.7498 19.7655C22.7498 21.391 21.3176 22.7101 19.6424 22.3456C16.5888 21.6811 10.9315 19.9923 6.9695 16.0303C3.17436 12.2352 1.90282 6.99252 1.47478 4.15869C1.23055 2.54172 2.52735 1.25 4.06343 1.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["phone", "income"],
+    tags: ["phone", "income", "incoming call", "receive", "answer", "communication", "arrow", "cellular", "contact", "support"],
     category: "solid"
   },
   {
@@ -11994,7 +11994,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06343 1.25L7.81435 1.25C8.12672 1.25 8.40638 1.44361 8.51634 1.73599L9.97178 5.60588C10.02 5.73398 10.0322 5.87281 10.0071 6.00735L9.2778 9.91931C10.1742 12.0273 11.6548 13.4439 14.1104 14.7146L17.9754 13.9657C18.1126 13.9391 18.2545 13.9514 18.3851 14.0012L22.2669 15.4804C22.5577 15.5912 22.7498 15.87 22.7498 16.1812L22.7498 19.7655C22.7498 21.391 21.3176 22.7101 19.6424 22.3456C16.5888 21.6811 10.9315 19.9923 6.9695 16.0303C3.17436 12.2352 1.90282 6.99252 1.47478 4.15869C1.23055 2.54172 2.52735 1.25 4.06343 1.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["phone", "minus"],
+    tags: ["phone", "minus", "remove contact", "decline", "end call", "communication", "subtract", "cellular", "delete", "cancel"],
     category: "solid"
   },
   {
@@ -12005,7 +12005,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06343 1.25L7.81435 1.25C8.12672 1.25 8.40638 1.44361 8.51634 1.73599L9.97178 5.60588C10.02 5.73398 10.0322 5.87281 10.0071 6.00735L9.2778 9.91931C10.1742 12.0273 11.6548 13.4439 14.1104 14.7146L17.9754 13.9657C18.1126 13.9391 18.2545 13.9514 18.3851 14.0012L22.2669 15.4804C22.5577 15.5912 22.7498 15.87 22.7498 16.1812L22.7498 19.7655C22.7498 21.391 21.3176 22.7101 19.6424 22.3456C16.5888 21.6811 10.9315 19.9923 6.9695 16.0303C3.17436 12.2352 1.90282 6.99252 1.47478 4.15869C1.23055 2.54172 2.52735 1.25 4.06343 1.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["phone", "outcome"],
+    tags: ["phone", "outcome", "outgoing call", "make call", "dial", "communication", "arrow", "cellular", "contact", "support"],
     category: "solid"
   },
   {
@@ -12017,7 +12017,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06343 1.25L7.81435 1.25C8.12672 1.25 8.40638 1.44361 8.51634 1.73599L9.97178 5.60588C10.02 5.73398 10.0322 5.87281 10.0071 6.00735L9.2778 9.91931C10.1742 12.0273 11.6548 13.4439 14.1104 14.7146L17.9754 13.9657C18.1126 13.9391 18.2545 13.9514 18.3851 14.0012L22.2669 15.4804C22.5577 15.5912 22.7498 15.87 22.7498 16.1812L22.7498 19.7655C22.7498 21.391 21.3176 22.7101 19.6424 22.3456C16.5888 21.6811 10.9315 19.9923 6.9695 16.0303C3.17436 12.2352 1.90282 6.99252 1.47478 4.15869C1.23055 2.54172 2.52735 1.25 4.06343 1.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["phone", "paused"],
+    tags: ["phone", "paused", "call hold", "on hold", "waiting", "communication", "break", "cellular", "interruption", "delay"],
     category: "solid"
   },
   {
@@ -12028,7 +12028,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06343 1.25L7.81435 1.25C8.12672 1.25 8.40638 1.44361 8.51634 1.73599L9.97178 5.60588C10.02 5.73398 10.0322 5.87281 10.0071 6.00735L9.2778 9.91931C10.1742 12.0273 11.6548 13.4439 14.1104 14.7146L17.9754 13.9657C18.1126 13.9391 18.2545 13.9514 18.3851 14.0012L22.2669 15.4804C22.5577 15.5912 22.7498 15.87 22.7498 16.1812L22.7498 19.7655C22.7498 21.391 21.3176 22.7101 19.6424 22.3456C16.5888 21.6811 10.9315 19.9923 6.9695 16.0303C3.17436 12.2352 1.90282 6.99252 1.47478 4.15869C1.23055 2.54172 2.52735 1.25 4.06343 1.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["phone", "plus"],
+    tags: ["phone", "plus", "add contact", "new call", "conference", "communication", "create", "cellular", "add", "invite"],
     category: "solid"
   },
   {
@@ -12046,7 +12046,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["phone", "xmark"],
+    tags: ["phone", "xmark", "end call", "decline", "hang up", "communication", "cancel", "cellular", "error", "reject"],
     category: "solid"
   },
   {
@@ -12056,7 +12056,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06343 1.25L7.81435 1.25C8.12672 1.25 8.40638 1.44361 8.51634 1.73599L9.97178 5.60588C10.02 5.73398 10.0322 5.87281 10.0071 6.00735L9.2778 9.91931C10.1742 12.0273 11.6548 13.4439 14.1104 14.7146L17.9754 13.9657C18.1126 13.9391 18.2545 13.9514 18.3851 14.0012L22.2669 15.4804C22.5577 15.5912 22.7498 15.87 22.7498 16.1812L22.7498 19.7655C22.7498 21.391 21.3176 22.7101 19.6424 22.3456C16.5888 21.6811 10.9315 19.9923 6.9695 16.0303C3.17436 12.2352 1.90282 6.99252 1.47478 4.15869C1.23055 2.54172 2.52735 1.25 4.06343 1.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["phone"],
+    tags: ["phone", "call", "contact", "mobile", "cellular", "communication", "device", "telephone", "support"],
     category: "solid"
   },
   {
@@ -12070,7 +12070,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.8008 7.75296C12.9298 7.38131 13 6.98136 13 6.56472C13 4.59598 11.433 3 9.5 3C7.567 3 6 4.59598 6 6.56472C6 7.50638 6.35849 8.36275 6.94404 9" stroke="currentColor"  stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["piggy", "bank"],
+    tags: ["piggy", "bank", "savings", "money", "finance", "investment", "budget", "economy", "cash", "fund"],
     category: "regular"
   },
   {
@@ -12082,7 +12082,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 15L3 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pillow"],
+    tags: ["pillow", "sleep", "bed", "rest", "comfort", "bedroom", "soft", "night", "relaxation"],
     category: "regular"
   },
   {
@@ -12095,7 +12095,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 3L21 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "solid",
-    tags: ["pin", "slash"],
+    tags: ["pin", "slash", "unpin", "detach", "remove", "cancel", "delete", "location", "marker", "deactivate"],
     category: "solid"
   },
   {
@@ -12106,7 +12106,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5.00007 9.48528L14.1925 18.6777L15.8895 16.9806L15.4974 13.1944L21.0065 8.5211L15.1568 2.67141L10.4834 8.18034L6.69713 7.78823L5.00007 9.48528Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["pin"],
+    tags: ["pin", "location", "marker", "attach", "fix", "bookmark", "map", "gps", "destination"],
     category: "solid"
   },
   {
@@ -12119,7 +12119,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22L12 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pine", "tree"],
+    tags: ["pine", "tree", "forest", "nature", "wood", "christmas", "evergreen", "conifer", "outdoor", "plant"],
     category: "regular"
   },
   {
@@ -12131,7 +12131,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pinterest"],
+    tags: ["pinterest", "social media", "share", "inspiration", "board", "network", "app", "platform", "visual"],
     category: "regular"
   },
   {
@@ -12146,7 +12146,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14.5 18L19.2188 13.2812" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pipe", "3d"],
+    tags: ["pipe", "3d", "plumbing", "connection", "industrial", "flow", "system", "engineering", "water", "tube"],
     category: "regular"
   },
   {
@@ -12160,7 +12160,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M22.198 8.42467C22.4324 7.48703 21.8623 6.5369 20.9247 6.30249C19.987 6.06808 19.0369 6.63816 18.8025 7.5758C18.4106 9.14318 16.9015 11.6241 14.5753 13.9503C12.2743 16.2513 9.42714 18.1442 6.60672 18.7951C5.66497 19.0124 5.07771 19.952 5.29504 20.8937C5.51236 21.8355 6.45198 22.4227 7.39373 22.2054C11.0734 21.3563 14.4762 18.9991 17.0502 16.4252C19.5989 13.8764 21.5898 10.8573 22.198 8.42467Z" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pizza", "slice"],
+    tags: ["pizza", "slice", "food", "fast food", "italian", "meal", "dinner", "restaurant", "snack", "delivery"],
     category: "regular"
   },
   {
@@ -12171,7 +12171,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19.812 12.9893C21.6252 14.5004 22.5667 15.8535 22.1738 16.6414C21.4428 18.1075 16.3687 17.0617 10.8406 14.3054C5.31236 11.5492 1.42346 8.12624 2.15445 6.6601C2.54636 5.87405 4.18666 5.81005 6.47602 6.34458" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["planet", "alt"],
+    tags: ["planet", "alt", "earth", "world", "globe", "space", "astronomy", "universe", "environment", "ecology"],
     category: "regular"
   },
   {
@@ -12183,7 +12183,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9.5 10.51L9.51 10.4989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["planet", "sat"],
+    tags: ["planet", "sat", "saturn", "space", "astronomy", "rings", "universe", "celestial", "exploration", "science"],
     category: "regular"
   },
   {
@@ -12202,7 +12202,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["planet"],
+    tags: ["planet", "earth", "world", "globe", "space", "astronomy", "universe", "environment", "ecology"],
     category: "solid"
   },
   {
@@ -12219,7 +12219,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["planimetry"],
+    tags: ["planimetry", "measurement", "area", "geometry", "map", "survey", "calculation", "diagram", "architectural"],
     category: "regular"
   },
   {
@@ -12229,7 +12229,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["play"],
+    tags: ["play", "start", "media", "video", "audio", "music", "button", "control", "forward"],
     category: "solid"
   },
   {
@@ -12242,7 +12242,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 17L14 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist", "play"],
+    tags: ["playlist", "play", "music", "queue", "audio", "media", "list", "playback", "songs", "entertainment"],
     category: "regular"
   },
   {
@@ -12255,7 +12255,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 5L20 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist", "plus"],
+    tags: ["playlist", "plus", "add to playlist", "new playlist", "create", "music", "queue", "audio", "media", "list"],
     category: "regular"
   },
   {
@@ -12268,7 +12268,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 18.5C20 19.3284 19.3284 20 18.5 20C17.6716 20 17 19.3284 17 18.5C17 17.6716 17.6716 17 18.5 17C19.3284 17 20 17.6716 20 18.5ZM20 18.5V10.6C20 10.2686 20.2686 10 20.6 10H22" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playlist"],
+    tags: ["playlist", "music", "queue", "audio", "media", "list", "songs", "collection", "entertainment"],
     category: "regular"
   },
   {
@@ -12281,7 +12281,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 16C17.1046 16 18 15.1046 18 14C18 12.8954 17.1046 12 16 12C14.8954 12 14 12.8954 14 14C14 15.1046 14.8954 16 16 16Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["playstation", "gamepad"],
+    tags: ["playstation", "gamepad", "gaming", "controller", "console", "video game", "entertainment", "joystick", "fun", "leisure"],
     category: "regular"
   },
   {
@@ -12293,7 +12293,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 10V14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["plug", "type", "a"],
+    tags: ["plug", "type", "a", "power", "electricity", "charger", "connector", "socket", "energy", "device", "us plug"],
     category: "regular"
   },
   {
@@ -12305,7 +12305,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 14C17.1046 14 18 13.1046 18 12C18 10.8954 17.1046 10 16 10C14.8954 10 14 10.8954 14 12C14 13.1046 14.8954 14 16 14Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["plug", "type", "c"],
+    tags: ["plug", "type", "c", "power", "electricity", "charger", "connector", "socket", "energy", "device", "eu plug"],
     category: "regular"
   },
   {
@@ -12318,7 +12318,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 14H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["plug", "type", "g"],
+    tags: ["plug", "type", "g", "power", "electricity", "charger", "connector", "socket", "energy", "device", "uk plug"],
     category: "regular"
   },
   {
@@ -12332,7 +12332,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 3H18.4C18.7314 3 19 3.26863 19 3.6V20.4C19 20.7314 18.7314 21 18.4 21H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["plug", "type", "l"],
+    tags: ["plug", "type", "l", "power", "electricity", "charger", "connector", "socket", "energy", "device", "italy plug"],
     category: "regular"
   },
   {
@@ -12342,7 +12342,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM12.75 8C12.75 7.58579 12.4142 7.25 12 7.25C11.5858 7.25 11.25 7.58579 11.25 8V11.25H8C7.58579 11.25 7.25 11.5858 7.25 12C7.25 12.4142 7.58579 12.75 8 12.75H11.25V16C11.25 16.4142 11.5858 16.75 12 16.75C12.4142 16.75 12.75 16.4142 12.75 16V12.75H16C16.4142 12.75 16.75 12.4142 16.75 12C16.75 11.5858 16.4142 11.25 16 11.25H12.75V8Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["plus", "circle"],
+    tags: ["plus", "circle", "add", "new", "create", "insert", "positive", "increase", "expand", "round"],
     category: "solid"
   },
   {
@@ -12360,7 +12360,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 20H20V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["plus", "square", "dashed"],
+    tags: ["plus", "square", "dashed", "add", "new", "create", "insert", "dashed border", "upload", "placeholder"],
     category: "regular"
   },
   {
@@ -12370,7 +12370,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM12.75 9C12.75 8.58579 12.4142 8.25 12 8.25C11.5858 8.25 11.25 8.58579 11.25 9V11.25H9C8.58579 11.25 8.25 11.5858 8.25 12C8.25 12.4142 8.58579 12.75 9 12.75H11.25V15C11.25 15.4142 11.5858 15.75 12 15.75C12.4142 15.75 12.75 15.4142 12.75 15V12.75H15C15.4142 12.75 15.75 12.4142 15.75 12C15.75 11.5858 15.4142 11.25 15 11.25H12.75V9Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["plus", "square"],
+    tags: ["plus", "square", "add", "new", "create", "insert", "positive", "increase", "expand"],
     category: "solid"
   },
   {
@@ -12380,7 +12380,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 12H12M18 12H12M12 12V6M12 12V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["plus"],
+    tags: ["plus", "add", "new", "create", "insert", "positive", "increase", "expand", "math"],
     category: "regular"
   },
   {
@@ -12394,7 +12394,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 18V20.4C4 20.7314 4.26863 21 4.6 21H19.4C19.7314 21 20 20.7314 20 20.4V18" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["png", "format"],
+    tags: ["png", "format", "image", "file type", "graphic", "document", "picture", "extension", "transparent", "web"],
     category: "regular"
   },
   {
@@ -12404,7 +12404,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20.75C17.3848 20.75 21.75 16.3848 21.75 11V6C21.75 4.48122 20.5188 3.25 19 3.25H5C3.48122 3.25 2.25 4.48122 2.25 6V11C2.25 16.3848 6.61522 20.75 12 20.75ZM8.53033 9.46967C8.23744 9.17678 7.76256 9.17678 7.46967 9.46967C7.17678 9.76256 7.17678 10.2374 7.46967 10.5303L11.4697 14.5303C11.7626 14.8232 12.2374 14.8232 12.5303 14.5303L16.5303 10.5303C16.8232 10.2374 16.8232 9.76256 16.5303 9.46967C16.2374 9.17678 15.7626 9.17678 15.4697 9.46967L12 12.9393L8.53033 9.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["pocket"],
+    tags: ["pocket", "storage", "container", "wallet", "bag", "clothing", "minimal", "ui"],
     category: "solid"
   },
   {
@@ -12418,7 +12418,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15.0776 21.4865C14.8566 22.8126 13.7093 23.7844 12.365 23.7844H11.7536C10.4093 23.7844 9.262 22.8126 9.041 21.4865L8.53213 18.4333C8.29232 16.9946 9.43086 15.8854 10.5339 15.15C11.9123 14.231 12.3864 14.3406 13.5847 15.1396C14.6421 15.8445 15.8263 16.9946 15.5865 18.4333L15.0776 21.4865Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["podcast"],
+    tags: ["podcast", "audio", "broadcast", "microphone", "recording", "media", "streaming", "communication", "listen"],
     category: "solid"
   },
   {
@@ -12431,7 +12431,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 12L22 12" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["pokeball"],
+    tags: ["pokeball", "game", "toy", "capture", "fantasy", "circular", "fun", "playful", "gaming"],
     category: "regular"
   },
   {
@@ -12444,7 +12444,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 3C18 4 19 8.38904 19 11.5C19 14.611 17.5 18.5 14 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["polar", "sh"],
+    tags: ["polar", "sh", "north", "south", "hemisphere", "geography", "location", "direction", "map", "travel"],
     category: "regular"
   },
   {
@@ -12470,7 +12470,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 4.01L8.01 3.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["position", "align"],
+    tags: ["position", "align", "layout", "arrangement", "grid", "design", "organize", "centered", "ui", "system"],
     category: "regular"
   },
   {
@@ -12484,7 +12484,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 12H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["position"],
+    tags: ["position", "location", "gps", "pin", "map", "navigation", "marker", "destination", "travel"],
     category: "regular"
   },
   {
@@ -12494,7 +12494,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.78415 1.35644C6.28844 1.0927 4.86213 2.09142 4.5984 3.58713L2.16732 17.3744C1.90359 18.8701 2.9023 20.2965 4.39801 20.5602L16.2157 22.644C17.7114 22.9077 19.1377 21.909 19.4015 20.4133L21.8325 6.62597C22.0963 5.13026 21.0976 3.70395 19.6018 3.44022L7.78415 1.35644ZM9.05919 5.64323C8.65127 5.5713 8.26228 5.84368 8.19035 6.2516C8.11842 6.65952 8.3908 7.04851 8.79872 7.12044L16.6772 8.50963C17.0851 8.58155 17.4741 8.30918 17.546 7.90126C17.618 7.49334 17.3456 7.10434 16.9377 7.03242L9.05919 5.64323ZM7.49577 10.1911C7.5677 9.78313 7.95669 9.51076 8.36461 9.58268L16.2431 10.9719C16.651 11.0438 16.9234 11.4328 16.8514 11.8407C16.7795 12.2486 16.3905 12.521 15.9826 12.4491L8.10414 11.0599C7.69622 10.988 7.42384 10.599 7.49577 10.1911ZM7.67003 13.5212C7.26211 13.4492 6.87312 13.7216 6.80119 14.1295C6.72926 14.5374 7.00164 14.9264 7.40956 14.9984L12.3336 15.8666C12.7415 15.9385 13.1305 15.6662 13.2024 15.2582C13.2744 14.8503 13.002 14.4613 12.5941 14.3894L7.67003 13.5212Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["post"],
+    tags: ["post", "article", "blog", "content", "document", "writing", "news", "publication", "feed"],
     category: "solid"
   },
   {
@@ -12507,7 +12507,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.6667 13L10 16H14L12.3333 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["potion"],
+    tags: ["potion", "magic", "elixir", "health", "fantasy", "bottle", "cure", "game", "drink"],
     category: "regular"
   },
   {
@@ -12519,7 +12519,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.3333 8.8C17.3333 6.14903 15.0947 4 12.3333 4C9.57189 4 7.33331 6.14903 7.33331 8.8C7.33331 11.451 9.57189 13.6 12.3333 13.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pound"],
+    tags: ["pound", "currency", "money", "gbp", "sterling", "finance", "payment", "economic", "uk"],
     category: "regular"
   },
   {
@@ -12533,7 +12533,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["precision", "tool"],
+    tags: ["precision", "tool", "accuracy", "measurement", "engineering", "technical", "craft", "fix", "repair", "instrument"],
     category: "regular"
   },
   {
@@ -12545,7 +12545,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4 18.75C22.1456 18.75 22.75 18.1456 22.75 17.4V4.6C22.75 3.85442 22.1456 3.25 21.4 3.25H2.6C1.85442 3.25 1.25 3.85441 1.25 4.6V17.4C1.25 18.1456 1.85442 18.75 2.6 18.75H21.4ZM9.75 12C9.75 11.5858 9.41421 11.25 9 11.25C8.58579 11.25 8.25 11.5858 8.25 12V14C8.25 14.4142 8.58579 14.75 9 14.75C9.41421 14.75 9.75 14.4142 9.75 14V12ZM12 9.25C12.4142 9.25 12.75 9.58579 12.75 10V14C12.75 14.4142 12.4142 14.75 12 14.75C11.5858 14.75 11.25 14.4142 11.25 14V10C11.25 9.58579 11.5858 9.25 12 9.25ZM15.75 8C15.75 7.58579 15.4142 7.25 15 7.25C14.5858 7.25 14.25 7.58579 14.25 8V14C14.25 14.4142 14.5858 14.75 15 14.75C15.4142 14.75 15.75 14.4142 15.75 14V8Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["presentation"],
+    tags: ["presentation", "slideshow", "report", "meeting", "conference", "speech", "projector", "education", "business"],
     category: "solid"
   },
   {
@@ -12556,7 +12556,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 17H17M6 10V3.6C6 3.26863 6.26863 3 6.6 3H17.4C17.7314 3 18 3.26863 18 3.6V10M21 20.4V14C21 11.7909 19.2091 10 17 10H7C4.79086 10 3 11.7909 3 14V20.4C3 20.7314 3.26863 21 3.6 21H20.4C20.7314 21 21 20.7314 21 20.4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["printer"],
+    tags: ["printer", "print", "document", "output", "device", "office", "paper", "system", "hardware"],
     category: "regular"
   },
   {
@@ -12569,7 +12569,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 10.01L17.01 9.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["printing", "page"],
+    tags: ["printing", "page", "print", "document", "output", "paper", "copy", "system", "file"],
     category: "regular"
   },
   {
@@ -12586,7 +12586,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["priority", "down"],
+    tags: ["priority", "down", "low", "importance", "task", "arrow", "status", "order", "management", "downward"],
     category: "solid"
   },
   {
@@ -12603,7 +12603,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["priority", "high"],
+    tags: ["priority", "high", "urgent", "critical", "important", "task", "arrow", "status", "management", "upward"],
     category: "solid"
   },
   {
@@ -12620,7 +12620,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["priority", "medium"],
+    tags: ["priority", "medium", "moderate", "average", "task", "status", "management", "neutral", "balanced", "middle"],
     category: "solid"
   },
   {
@@ -12637,7 +12637,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["priority", "up"],
+    tags: ["priority", "up", "high", "importance", "task", "arrow", "status", "order", "management", "upward"],
     category: "solid"
   },
   {
@@ -12650,7 +12650,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19.9923 15.125L22.5477 15.774C22.8137 15.8416 23.0013 16.0833 22.9931 16.3576C22.8214 22.1159 19.5 23 19.5 23C19.5 23 16.1786 22.1159 16.0069 16.3576C15.9987 16.0833 16.1863 15.8416 16.4523 15.774L19.0077 15.125C19.3308 15.043 19.6692 15.043 19.9923 15.125Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["privacy", "policy"],
+    tags: ["privacy", "policy", "security", "legal", "agreement", "document", "confidential", "rules", "terms", "protection"],
     category: "regular"
   },
   {
@@ -12664,7 +12664,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21.1667 18.5H21.4C21.7314 18.5 22 18.7686 22 19.1V21.4C22 21.7314 21.7314 22 21.4 22H17.6C17.2686 22 17 21.7314 17 21.4V19.1C17 18.7686 17.2686 18.5 17.6 18.5H17.8333M21.1667 18.5V16.75C21.1667 16.1667 20.8333 15 19.5 15C18.1667 15 17.8333 16.1667 17.8333 16.75V18.5M21.1667 18.5H17.8333" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["private", "wifi"],
+    tags: ["private", "wifi", "network", "internet", "security", "connection", "wireless", "locked", "secure", "system"],
     category: "regular"
   },
   {
@@ -12676,7 +12676,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 12C13.6569 12 15 10.6569 15 9C15 7.34315 13.6569 6 12 6C10.3431 6 9 7.34315 9 9C9 10.6569 10.3431 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["profile", "circle"],
+    tags: ["profile", "circle", "user", "account", "avatar", "person", "settings", "identity", "circular", "ui"],
     category: "regular"
   },
   {
@@ -12686,7 +12686,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19.1414 5C17.3265 3.14864 14.7974 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19M19.1414 5C20.9097 6.80375 22 9.27455 22 12C22 17.5228 17.5228 22 12 22C9.20261 22 6.67349 20.8514 4.85857 19M19.1414 5L4.85857 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["prohibition"],
+    tags: ["prohibition", "forbidden", "no entry", "stop", "restricted", "warning", "alert", "sign", "danger"],
     category: "regular"
   },
   {
@@ -12699,7 +12699,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.5 15.5L16.5 8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["project", "curve", "3d"],
+    tags: ["project", "curve", "3d", "design", "modeling", "engineering", "architecture", "development", "spatial", "geometric", "tool"],
     category: "regular"
   },
   {
@@ -12716,7 +12716,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["puzzle"],
+    tags: ["puzzle", "solution", "problem", "game", "logic", "challenge", "connection", "teamwork", "brainstorm"],
     category: "regular"
   },
   {
@@ -12745,7 +12745,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 15.6V20.4C9 20.7314 8.73137 21 8.4 21H3.6C3.26863 21 3 20.7314 3 20.4V15.6C3 15.2686 3.26863 15 3.6 15H8.4C8.73137 15 9 15.2686 9 15.6Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["qr", "code"],
+    tags: ["qr", "code", "scan", "barcode", "digital", "link", "payment", "information", "mobile", "system"],
     category: "regular"
   },
   {
@@ -12756,7 +12756,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 19.01L12.01 18.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["question", "mark"],
+    tags: ["question", "mark", "help", "inquiry", "support", "unknown", "faq", "query", "information", "confusion"],
     category: "regular"
   },
   {
@@ -12766,7 +12766,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 5C2.25 3.48122 3.48122 2.25 5 2.25H19C20.5188 2.25 21.75 3.48122 21.75 5V15C21.75 16.5188 20.5188 17.75 19 17.75H7.96125C7.58154 17.75 7.2224 17.9226 6.98516 18.2191L4.65418 21.1328C3.85702 22.1293 2.25 21.5657 2.25 20.2895V5ZM9.48099 10.75C9.42305 10.8439 9.35472 10.9437 9.275 11.05C8.93823 11.499 8.47947 11.9599 7.96967 12.4697C7.67678 12.7626 7.67678 13.2374 7.96967 13.5303C8.26256 13.8232 8.73744 13.8232 9.03033 13.5303L9.05192 13.5087C9.53637 13.0243 10.0678 12.4929 10.475 11.95C10.8823 11.4069 11.25 10.7447 11.25 10V8C11.25 7.03352 10.4665 6.25 9.5 6.25H8.5C7.53351 6.25 6.75 7.03351 6.75 8V9C6.75 9.96649 7.53351 10.75 8.5 10.75H9.48099ZM15.275 11.05C15.3547 10.9437 15.4231 10.8439 15.481 10.75H14.5C13.5335 10.75 12.75 9.96648 12.75 9V8C12.75 7.03352 13.5335 6.25 14.5 6.25H15.5C16.4665 6.25 17.25 7.03352 17.25 8V10C17.25 10.7447 16.8823 11.4069 16.475 11.95C16.0678 12.4929 15.5364 13.0243 15.0519 13.5087L15.0303 13.5303C14.7374 13.8232 14.2626 13.8232 13.9697 13.5303C13.6768 13.2374 13.6768 12.7626 13.9697 12.4697C14.4795 11.9599 14.9382 11.499 15.275 11.05Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["quote", "message"],
+    tags: ["quote", "message", "chat", "dialogue", "speech", "comment", "testimonial", "bubble", "communication", "text", "conversation"],
     category: "solid"
   },
   {
@@ -12777,7 +12777,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2125 12.75C19.1294 13.5242 18.9054 14.1421 18.5147 14.6891C17.9918 15.4211 17.1157 16.1036 15.6646 16.8292C15.2941 17.0144 15.1439 17.4649 15.3292 17.8354C15.5144 18.2059 15.9649 18.3561 16.3354 18.1708C17.8843 17.3964 19.0082 16.5789 19.7353 15.5609C20.4761 14.5238 20.75 13.3571 20.75 12V7.5C20.75 6.53352 19.9665 5.75 19 5.75H15C14.0335 5.75 13.25 6.53352 13.25 7.5V11C13.25 11.9665 14.0335 12.75 15 12.75H19.2125Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["quote"],
+    tags: ["quote", "citation", "text", "saying", "excerpt", "dialogue", "typographic", "punctuation", "speech", "minimal"],
     category: "solid"
   },
   {
@@ -12797,7 +12797,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["radiation"],
+    tags: ["radiation", "danger", "hazard", "warning", "nuclear", "toxic", "energy", "science", "alert", "safety"],
     category: "solid"
   },
   {
@@ -12807,7 +12807,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M22.75 12C22.75 6.06294 17.9371 1.25 12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12ZM15.4697 15.5303C15.7626 15.8232 16.2374 15.8232 16.5303 15.5303L19.5303 12.5303C19.8232 12.2374 19.8232 11.7626 19.5303 11.4697L16.5303 8.46967C16.2374 8.17678 15.7626 8.17678 15.4697 8.46967C15.1768 8.76256 15.1768 9.23744 15.4697 9.53033L17.1893 11.25H13.5816C13.3007 10.6588 12.6981 10.25 12 10.25C11.0335 10.25 10.25 11.0335 10.25 12C10.25 12.9665 11.0335 13.75 12 13.75C12.6981 13.75 13.3007 13.3412 13.5816 12.75H17.1893L15.4697 14.4697C15.1768 14.7626 15.1768 15.2374 15.4697 15.5303Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["radius"],
+    tags: ["radius", "circle", "geometry", "measurement", "math", "dimension", "arc", "circular", "technical", "precision"],
     category: "solid"
   },
   {
@@ -12821,7 +12821,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rain"],
+    tags: ["rain", "weather", "storm", "drops", "drizzle", "precipitation", "cloudy", "nature", "wet", "forecast"],
     category: "regular"
   },
   {
@@ -12836,7 +12836,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4.5 12H6V12C6.82843 12 7.5 12.6716 7.5 13.5L7.5 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["raw", "format"],
+    tags: ["raw", "format", "file", "image", "photo", "data", "unprocessed", "photography", "editing", "document", "digital"],
     category: "regular"
   },
   {
@@ -12847,7 +12847,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 12H13M13 12L16.84 8M13 12L16.84 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["receive", "dollars"],
+    tags: ["receive", "dollars", "income", "payment", "money", "earnings", "transaction", "financial", "currency", "deposit", "cash"],
     category: "regular"
   },
   {
@@ -12860,7 +12860,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 13H9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["receive", "euros"],
+    tags: ["receive", "euros", "income", "payment", "money", "earnings", "transaction", "financial", "currency", "deposit", "cash"],
     category: "regular"
   },
   {
@@ -12873,7 +12873,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11 10C11 8.34315 9.65685 7 8 7C6.34315 7 5 8.34315 5 10C5 11.6569 6.34315 13 8 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["receive", "pounds"],
+    tags: ["receive", "pounds", "income", "payment", "money", "earnings", "transaction", "financial", "currency", "deposit", "cash"],
     category: "regular"
   },
   {
@@ -12886,7 +12886,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 15H11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["receive", "yens"],
+    tags: ["receive", "yens", "income", "payment", "money", "earnings", "transaction", "financial", "currency", "deposit", "cash"],
     category: "regular"
   },
   {
@@ -12898,7 +12898,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.5 11.5C13.8668 10.1332 14.6332 9.36683 16 8C14.6332 6.63317 13.8668 5.86683 12.5 4.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["redo", "action"],
+    tags: ["redo", "action", "forward", "repeat", "restore", "undo", "history", "arrow", "circular", "command", "interface"],
     category: "regular"
   },
   {
@@ -12908,7 +12908,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM17.5714 11.1108C17.5555 11.1295 17.5385 11.1476 17.5206 11.1649L14.0206 14.5399C13.7224 14.8274 13.2476 14.8188 12.9601 14.5206C12.6726 14.2224 12.6812 13.7476 12.9794 13.4601L15.1417 11.375H15.0749H14.8124H14.6774H14.5403H14.4012H14.2602H14.1175H13.9733H13.8278H13.6811H13.5334H13.3849H13.3104H13.2357H13.0861H12.9362H12.7861H12.7674H12.7486H12.7299H12.7111H12.6924H12.6736H12.6361H12.4863H12.4115H12.3369H12.188H12.0399H11.8927H11.8195H11.7829H11.7465H11.6016H11.5297H11.4581H11.3162H11.1761H11.0379H10.9018H10.7679H10.6366H10.5078H10.3818H10.2589H10.0225H9.80106L9.80048 11.375L9.78854 11.3753C9.77611 11.3757 9.75507 11.3767 9.72666 11.3788C9.66959 11.383 9.58438 11.3919 9.4808 11.4103C9.27035 11.4477 9.00279 11.521 8.74424 11.6603C8.48981 11.7973 8.25034 11.9944 8.07162 12.2842C7.89406 12.5722 7.75 12.9945 7.75 13.625C7.75 15.0632 8.31725 15.6572 8.77853 15.9366C9.03345 16.091 9.29503 16.1712 9.49834 16.2118C9.59868 16.2319 9.68075 16.2415 9.73492 16.246C9.76186 16.2483 9.78149 16.2493 9.79254 16.2497L9.80222 16.25H9.80236H9.80356H9.80476H9.80597H9.80719H9.80842H9.80966H9.81091H9.81217H9.81343H9.81471H9.81599H9.81728H9.81858H9.81989H9.82121H9.82253H9.82387H9.82521H9.82656H9.82792H9.82928H9.83066H9.83204H9.83343H9.83483H9.83624H9.83765H9.83908H9.84051H9.84194H9.84339H9.84484H9.8463H9.84777H9.84925H9.85073H9.85222H9.85372H9.85523H9.85674H9.85826H9.85979H9.86133H9.86287H9.86442H9.86597H9.86754H9.86911H9.87068H9.87227H9.87386H9.87546H9.87706H9.87867H9.88029H9.88191H9.88354H9.88518H9.88683H9.88848H9.89013H9.8918H9.89347H9.89514H9.89682H9.89851H9.90021H9.90191H9.90361H9.90532H9.90704H9.90877H9.9105H9.91223H9.91397H9.91572H9.91747H9.91923H9.921H9.92277H9.92454H9.92632H9.92811H9.9299H9.93169H9.9335H9.9353H9.93712H9.93893H9.94076H9.94258H9.94442H9.94625H9.9481H9.94994H9.9518H9.95365H9.95551H9.95738H9.95925H9.96113H9.96301H9.96489H9.96678H9.96867H9.97057H9.97247H9.97438H9.97629H9.9782H9.98012H9.98205H9.98397H9.9859H9.98784H9.98978H9.99172H9.99367H9.99562H9.99757H9.99953H10.0015H10.0035H10.0054H10.0074H10.0094H10.0114H10.0133H10.0153H10.0173H10.0193H10.0213H10.0233H10.0253H10.0273H10.0293H10.0313H10.0333H10.0354H10.0374H10.0394H10.0414H10.0435H10.0455H10.0475H10.0496H10.0516H10.0536H10.0557H10.0577H10.0598H10.0618H10.0639H10.0659H10.068H10.07H10.0721H10.0742H10.0762H10.0783H10.0804H10.0824H10.0845H10.0866H10.0887H10.0907H10.0928H10.0949H10.097H10.0991H10.1012H10.1032H10.1053H10.1074H10.1095H10.1116H10.1137H10.1158H10.1179H10.12H10.1221H10.1242H10.1263H10.1284H10.1305H10.1326H10.1347H10.1368H10.1389H10.141H10.1431H10.1452H10.1473H10.1494H10.1516H10.1537H10.1558H10.1579H10.16H10.1621H10.1642H10.1663H10.1684H10.1705H10.1726H10.1747H10.1769H10.179H10.1811H10.1832H10.1853H10.1874H10.1895H10.1916H10.1937H10.1958H10.1979H10.2H10.2021H10.2042H10.2063H10.2084H10.2105H10.2126H10.2147H10.2168H10.2189H10.221H10.2231H10.2252H10.2273H10.2294H10.2315H10.2336H10.2357H10.2378H10.2398H10.2419H10.244H10.2461H10.2482H10.2502H10.2523H10.2544H10.2565H10.2585H10.2606H10.2627H10.2647H10.2668H10.2688H10.2709H10.2729H10.275H10.2771H10.2791H10.2811H10.2832H10.2852H10.2873H10.2893H10.2913H10.2934H10.2954H10.2974H10.2994H10.3015H10.3035H10.3055H10.3075H10.3095H10.3115H10.3135H10.3155H10.3175H10.3195H10.3215H10.3235H10.3254H10.3274H10.3294H10.3314H10.3333H10.3353H10.3373H10.3392H10.3412H10.3431H10.3451H10.347H10.3489H10.3509H10.3528H10.3547H10.3566H10.3586H10.3605H10.3624H10.3643H10.3662H10.3681H10.37H10.3719H10.3737H10.3756H10.3775H10.3794H10.3812H10.3831H10.3849H10.3868H10.3886H10.3905H10.3923H10.3941H10.396H10.3978H10.3996H10.4014H10.4032H10.405H10.4068H10.4086H10.4104H10.4122H10.4139H10.4157H10.4175H10.4192H10.421H10.4227H10.4245H10.4262H10.4279H10.4296H10.4314H10.4331H10.4348H10.4365H10.4382H10.4398H10.4415H10.4432H10.4449H10.4465H10.4482H10.4498H10.4515H10.4531H10.4547H10.4564H10.458H10.4596H10.4612H10.4628H10.4644H10.4659H10.4675H10.4691H10.4706H10.4722H10.4738H10.4753H10.4768H10.4783H10.4799H10.4814H10.4829H10.4844H10.4859H10.4873H10.4888H10.4903H10.4917H10.4932H10.4946H10.4961H10.4975H10.4989H10.5003H10.5017H10.5031H10.5045H10.5059H10.5073H10.5086H10.51H10.5113H10.5127H10.514H10.5153H10.5166H10.5179H10.5192H10.5205H10.5218H10.5231H10.5243H10.5256H10.5268H10.5281H10.5293H10.5305H10.5317H10.5329H10.5341H10.5353H10.5365H10.5376H10.5388H10.5399H10.5411H10.5422H10.5433H10.5444H10.5455H10.5466H10.5477H10.5488H10.5498H10.5509H10.5519H10.5529H10.554H10.555H10.556H10.557H10.5579H10.5589H10.5599H10.5608H10.5618H10.5627H10.5636H10.5645H10.5654H10.5663H10.5672H10.5681H10.5689H10.5698H10.5706H10.5714H10.5722H10.573H10.5738H10.5746H10.5754H10.5761H10.5769H10.5776H10.5784H10.5791H10.5798H10.5805H10.5812H10.5818H10.5825H10.5831H10.5838H10.5844H10.585H10.5856H10.5862H10.5868H10.5873H10.5879H10.5884H10.589H10.5895H10.59H10.5905H10.591H10.5914H10.5919H10.5924H10.5928H10.5932H10.5936H10.594H10.5944H10.5948H10.5951H10.5955H10.5958H10.5961H10.5965H10.5968H10.597H10.5973H10.5976H10.5978H10.5981H10.5983H10.5985H10.5987H10.5989H10.599H10.5992H10.5993H10.5994H10.5996H10.5997H10.5998H10.5998H10.5999H10.5999H10.6H10.6C11.0142 16.25 11.35 16.5858 11.35 17C11.35 17.4142 11.0142 17.75 10.6 17.75H10.6H10.5999H10.5999H10.5998H10.5998H10.5997H10.5996H10.5994H10.5993H10.5992H10.599H10.5989H10.5987H10.5985H10.5983H10.5981H10.5978H10.5976H10.5973H10.597H10.5968H10.5965H10.5961H10.5958H10.5955H10.5951H10.5948H10.5944H10.594H10.5936H10.5932H10.5928H10.5924H10.5919H10.5914H10.591H10.5905H10.59H10.5895H10.589H10.5884H10.5879H10.5873H10.5868H10.5862H10.5856H10.585H10.5844H10.5838H10.5831H10.5825H10.5818H10.5812H10.5805H10.5798H10.5791H10.5784H10.5776H10.5769H10.5761H10.5754H10.5746H10.5738H10.573H10.5722H10.5714H10.5706H10.5698H10.5689H10.5681H10.5672H10.5663H10.5654H10.5645H10.5636H10.5627H10.5618H10.5608H10.5599H10.5589H10.5579H10.557H10.556H10.555H10.554H10.5529H10.5519H10.5509H10.5498H10.5488H10.5477H10.5466H10.5455H10.5444H10.5433H10.5422H10.5411H10.5399H10.5388H10.5376H10.5365H10.5353H10.5341H10.5329H10.5317H10.5305H10.5293H10.5281H10.5268H10.5256H10.5243H10.5231H10.5218H10.5205H10.5192H10.5179H10.5166H10.5153H10.514H10.5127H10.5113H10.51H10.5086H10.5073H10.5059H10.5045H10.5031H10.5017H10.5003H10.4989H10.4975H10.4961H10.4946H10.4932H10.4917H10.4903H10.4888H10.4873H10.4859H10.4844H10.4829H10.4814H10.4799H10.4783H10.4768H10.4753H10.4738H10.4722H10.4706H10.4691H10.4675H10.4659H10.4644H10.4628H10.4612H10.4596H10.458H10.4564H10.4547H10.4531H10.4515H10.4498H10.4482H10.4465H10.4449H10.4432H10.4415H10.4398H10.4382H10.4365H10.4348H10.4331H10.4314H10.4296H10.4279H10.4262H10.4245H10.4227H10.421H10.4192H10.4175H10.4157H10.4139H10.4122H10.4104H10.4086H10.4068H10.405H10.4032H10.4014H10.3996H10.3978H10.396H10.3941H10.3923H10.3905H10.3886H10.3868H10.3849H10.3831H10.3812H10.3794H10.3775H10.3756H10.3737H10.3719H10.37H10.3681H10.3662H10.3643H10.3624H10.3605H10.3586H10.3566H10.3547H10.3528H10.3509H10.3489H10.347H10.3451H10.3431H10.3412H10.3392H10.3373H10.3353H10.3333H10.3314H10.3294H10.3274H10.3254H10.3235H10.3215H10.3195H10.3175H10.3155H10.3135H10.3115H10.3095H10.3075H10.3055H10.3035H10.3015H10.2994H10.2974H10.2954H10.2934H10.2913H10.2893H10.2873H10.2852H10.2832H10.2811H10.2791H10.2771H10.275H10.2729H10.2709H10.2688H10.2668H10.2647H10.2627H10.2606H10.2585H10.2565H10.2544H10.2523H10.2502H10.2482H10.2461H10.244H10.2419H10.2398H10.2378H10.2357H10.2336H10.2315H10.2294H10.2273H10.2252H10.2231H10.221H10.2189H10.2168H10.2147H10.2126H10.2105H10.2084H10.2063H10.2042H10.2021H10.2H10.1979H10.1958H10.1937H10.1916H10.1895H10.1874H10.1853H10.1832H10.1811H10.179H10.1769H10.1747H10.1726H10.1705H10.1684H10.1663H10.1642H10.1621H10.16H10.1579H10.1558H10.1537H10.1516H10.1494H10.1473H10.1452H10.1431H10.141H10.1389H10.1368H10.1347H10.1326H10.1305H10.1284H10.1263H10.1242H10.1221H10.12H10.1179H10.1158H10.1137H10.1116H10.1095H10.1074H10.1053H10.1032H10.1012H10.0991H10.097H10.0949H10.0928H10.0907H10.0887H10.0866H10.0845H10.0824H10.0804H10.0783H10.0762H10.0742H10.0721H10.07H10.068H10.0659H10.0639H10.0618H10.0598H10.0577H10.0557H10.0536H10.0516H10.0496H10.0475H10.0455H10.0435H10.0414H10.0394H10.0374H10.0354H10.0333H10.0313H10.0293H10.0273H10.0253H10.0233H10.0213H10.0193H10.0173H10.0153H10.0133H10.0114H10.0094H10.0074H10.0054H10.0035H10.0015H9.99953H9.99757H9.99562H9.99367H9.99172H9.98978H9.98784H9.9859H9.98397H9.98205H9.98012H9.9782H9.97629H9.97438H9.97247H9.97057H9.96867H9.96678H9.96489H9.96301H9.96113H9.95925H9.95738H9.95551H9.95365H9.9518H9.94994H9.9481H9.94625H9.94442H9.94258H9.94076H9.93893H9.93712H9.9353H9.9335H9.93169H9.9299H9.92811H9.92632H9.92454H9.92277H9.921H9.91923H9.91747H9.91572H9.91397H9.91223H9.9105H9.90877H9.90704H9.90532H9.90361H9.90191H9.90021H9.89851H9.89682H9.89514H9.89347H9.8918H9.89013H9.88848H9.88683H9.88518H9.88354H9.88191H9.88029H9.87867H9.87706H9.87546H9.87386H9.87227H9.87068H9.86911H9.86754H9.86597H9.86442H9.86287H9.86133H9.85979H9.85826H9.85674H9.85523H9.85372H9.85222H9.85073H9.84925H9.84777H9.8463H9.84484H9.84339H9.84194H9.84051H9.83908H9.83765H9.83624H9.83483H9.83343H9.83204H9.83066H9.82928H9.82792H9.82656H9.82521H9.82387H9.82253H9.82121H9.81989H9.81858H9.81728H9.81599H9.81471H9.81343H9.81217H9.81091H9.80966H9.80842H9.80719H9.80597H9.80476H9.80356H9.80236H9.80118H9.8C9.73787 17.75 8.87293 17.7473 8.00155 17.2197C7.06947 16.6552 6.25 15.5618 6.25 13.625C6.25 12.7555 6.45214 12.0528 6.79481 11.497C7.13633 10.9431 7.59115 10.5776 8.03291 10.3397C8.89392 9.87591 9.74443 9.875 9.8 9.875H10.0225H10.2589H10.3818H10.5078H10.6366H10.7679H10.9018H11.0379H11.1761H11.3162H11.4581H11.5297H11.6016H11.7465H11.7829H11.8195H11.8927H12.0399H12.188H12.3369H12.4115H12.4863H12.6361H12.6736H12.6924H12.7111H12.7299H12.7486H12.7674H12.7861H12.9362H13.0861H13.2357H13.3104H13.3849H13.5334H13.6811H13.8278H13.9733H14.1175H14.2602H14.4012H14.5403H14.6774H14.8124H15.0749H15.2333L12.9604 7.52095C12.6727 7.22296 12.6811 6.74816 12.9791 6.46045C13.277 6.17274 13.7518 6.18107 14.0396 6.47905L17.538 10.1024C17.6692 10.2375 17.75 10.4218 17.75 10.625C17.75 10.8103 17.6828 10.9799 17.5714 11.1108Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["redo", "circle"],
+    tags: ["redo", "circle", "forward", "repeat", "restore", "undo", "history", "arrow", "circular", "command", "interface", "rounded"],
     category: "solid"
   },
   {
@@ -12919,7 +12919,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.5 11.5C17.8668 10.1332 18.6332 9.36683 20 8C18.6332 6.63317 17.8668 5.86683 16.5 4.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["redo"],
+    tags: ["redo", "forward", "repeat", "restore", "undo", "history", "arrow", "command", "interface", "direction"],
     category: "regular"
   },
   {
@@ -12930,7 +12930,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 4L15 9M15 9V5M15 9H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reduce"],
+    tags: ["reduce", "shrink", "decrease", "minimize", "contract", "less", "scale", "transform", "size", "compress"],
     category: "regular"
   },
   {
@@ -12940,7 +12940,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM11.9877 7.75C9.70121 7.75 7.9471 9.28219 7.74541 11.0835C7.69932 11.4951 7.32825 11.7914 6.91661 11.7453C6.50497 11.6992 6.20863 11.3282 6.25472 10.9165C6.556 8.22597 9.07599 6.25 11.9877 6.25C13.6578 6.25 15.1863 6.8937 16.2503 7.94689V7.5C16.2503 7.08579 16.5861 6.75 17.0003 6.75C17.4145 6.75 17.7503 7.08579 17.7503 7.5V9.12222C17.7503 9.86781 17.1459 10.4722 16.4003 10.4722H14.4941C14.0799 10.4722 13.7441 10.1364 13.7441 9.72222C13.7441 9.30801 14.0799 8.97222 14.4941 8.97222H15.1523C14.3818 8.23175 13.2617 7.75 11.9877 7.75ZM12.0123 16.25C14.158 16.25 16.03 14.4222 16.2529 11.9331C16.2899 11.5205 16.6543 11.216 17.0669 11.253C17.4794 11.2899 17.7839 11.6544 17.747 12.0669C17.467 15.1926 15.0648 17.75 12.0123 17.75C10.3037 17.75 8.79345 16.943 7.74967 15.6877V16.4004C7.74967 16.8146 7.41389 17.1504 6.99967 17.1504C6.58546 17.1504 6.24967 16.8146 6.24967 16.4004V14.2226C6.24967 13.477 6.85409 12.8726 7.59967 12.8726H9.50586C9.92007 12.8726 10.2559 13.2084 10.2559 13.6226C10.2559 14.0368 9.92007 14.3726 9.50586 14.3726H8.63282C9.42384 15.5314 10.6601 16.25 12.0123 16.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["refresh", "circle"],
+    tags: ["refresh", "circle", "reload", "update", "sync", "renew", "cycle", "circular", "arrow", "process", "loading", "rounded"],
     category: "solid"
   },
   {
@@ -12953,7 +12953,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.04932 16H2.64932C2.31795 16 2.04932 16.2686 2.04932 16.6V21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["refresh", "double"],
+    tags: ["refresh", "double", "reload", "update", "sync", "renew", "cycle", "arrows", "process", "loading", "repeat"],
     category: "regular"
   },
   {
@@ -12964,7 +12964,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 8H21.4C21.7314 8 22 7.73137 22 7.4V3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["refresh"],
+    tags: ["refresh", "reload", "update", "sync", "renew", "cycle", "arrow", "process", "loading", "circular"],
     category: "regular"
   },
   {
@@ -12982,7 +12982,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.005 19.2277H14.6001C14.2687 19.2277 14.0001 19.4964 14.0001 19.8277V21.45" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reload", "window"],
+    tags: ["reload", "window", "browser", "page", "refresh", "update", "web", "interface", "desktop", "software", "application"],
     category: "regular"
   },
   {
@@ -12996,7 +12996,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.5625 6.5H19.625C20.5 6.5 21 6.07843 21 5.25C21 4.42157 20.5 4 19.625 4H17.5625H14.4375H12.25C11.5596 4 11 4.55964 11 5.25V5.5C11 6.05228 11.4477 6.5 12 6.5V6.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["reminder", "hand", "gesture"],
+    tags: ["reminder", "hand", "gesture", "alert", "notification", "attention", "memo", "note", "pointing", "human", "callout"],
     category: "regular"
   },
   {
@@ -13009,7 +13009,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 8V5V3L2 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repeat", "once"],
+    tags: ["repeat", "once", "loop", "playback", "music", "audio", "single", "circular", "arrow", "media", "control"],
     category: "regular"
   },
   {
@@ -13020,7 +13020,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14.5 14.5L17 17L14.5 19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repeat"],
+    tags: ["repeat", "loop", "playback", "music", "audio", "circular", "arrow", "media", "control", "cycle"],
     category: "regular"
   },
   {
@@ -13032,7 +13032,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13 17.1111H19.3C22.9 17.1111 22.9 22 19.3 22M13 17.1111L16.15 14M13 17.1111L16.15 20.2222" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reply", "to", "message"],
+    tags: ["reply", "to", "message", "respond", "answer", "chat", "email", "communication", "arrow", "bubble", "dialogue", "text"],
     category: "regular"
   },
   {
@@ -13042,7 +13042,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 10C2 10 13 10 16 10C24 10 24 21 16 21M2 10L9 3M2 10L9 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reply"],
+    tags: ["reply", "respond", "answer", "back", "return", "arrow", "communication", "email", "message", "direction"],
     category: "regular"
   },
   {
@@ -13055,7 +13055,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 20.4V11.6C3 11.2686 3.26863 11 3.6 11H9.4C9.73137 11 10 11.2686 10 11.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["report", "columns"],
+    tags: ["report", "columns", "data", "analytics", "statistics", "chart", "graph", "document", "business", "information", "dashboard"],
     category: "regular"
   },
   {
@@ -13067,7 +13067,7 @@ export const iconoirIcons: IconItem[] = [
 <rect x="3" y="16" width="5" height="5" rx="2" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["reports"],
+    tags: ["reports", "data", "analytics", "statistics", "document", "business", "information", "dashboard", "analysis", "summary"],
     category: "solid"
   },
   {
@@ -13080,7 +13080,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 17C4.89543 17 4 17.8954 4 19C4 20.1046 4.89543 21 6 21H11.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repository"],
+    tags: ["repository", "folder", "archive", "storage", "data", "codebase", "project", "system", "document", "filled"],
     category: "regular"
   },
   {
@@ -13092,7 +13092,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22.01L12.01 21.9989" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restart"],
+    tags: ["restart", "reload", "refresh", "loop", "circular", "arrow", "process", "reset", "system", "ui", "outline"],
     category: "regular"
   },
   {
@@ -13103,7 +13103,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.0441 5.70436C10.4402 5.41246 11 5.69531 11 6.1874V17.8126C11 18.3047 10.4402 18.5875 10.0441 18.2956L2.15555 12.483C1.8301 12.2432 1.8301 11.7568 2.15555 11.517L10.0441 5.70436Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["rewind"],
+    tags: ["rewind", "backward", "previous", "media", "player", "control", "double arrow", "left", "outline", "audio", "video"],
     category: "solid"
   },
   {
@@ -13120,7 +13120,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["rhombus", "arrow", "right"],
+    tags: ["rhombus", "arrow", "right", "diamond", "direction", "next", "forward", "navigation", "geometric", "pointer", "outline", "ui"],
     category: "solid"
   },
   {
@@ -13130,7 +13130,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.5757 1.42426C11.81 1.18995 12.1899 1.18995 12.4243 1.42426L22.5757 11.5757C22.81 11.81 22.8101 12.1899 22.5757 12.4243L12.4243 22.5757C12.19 22.81 11.8101 22.8101 11.5757 22.5757L1.42426 12.4243C1.18995 12.19 1.18995 11.8101 1.42426 11.5757L11.5757 1.42426Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rhombus"],
+    tags: ["rhombus", "diamond", "shape", "geometric", "minimal", "abstract", "outline", "design", "ui"],
     category: "regular"
   },
   {
@@ -13141,7 +13141,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 8C12.6863 8 10 10.6863 10 14C10 17.3137 12.6863 20 16 20C19.3137 20 22 17.3137 22 14C22 10.6863 19.3137 8 16 8ZM16 8V3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rings"],
+    tags: ["rings", "olympics", "sport", "connection", "interlocked", "circles", "union", "outline", "abstract", "achievement"],
     category: "regular"
   },
   {
@@ -13155,7 +13155,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 11C10.8954 11 10 10.1046 10 9C10 7.89543 10.8954 7 12 7C13.1046 7 14 7.89543 14 9C14 10.1046 13.1046 11 12 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rocket"],
+    tags: ["rocket", "launch", "startup", "boost", "speed", "space", "travel", "ambition", "progress", "filled", "science"],
     category: "regular"
   },
   {
@@ -13170,7 +13170,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.901 21L6.099 21C5.6243 21 5.3318 20.4737 5.57763 20.0676C6.7923 18.061 9.5 13.3271 9.5 11V9.59965C9.5 9.26828 9.76863 9 10.1 9H13.9C14.2314 9 14.5 9.26828 14.5 9.59965V11C14.5 13.3271 17.2077 18.061 18.4224 20.0676C18.6682 20.4737 18.3757 21 17.901 21Z" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rook"],
+    tags: ["rook", "chess", "game", "strategy", "tower", "piece", "board game", "playful", "outline", "castle"],
     category: "regular"
   },
   {
@@ -13183,7 +13183,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "camera", "left"],
+    tags: ["rotate", "camera", "left", "flip", "turn", "selfie", "photo", "video", "direction", "ui", "arrow", "outline"],
     category: "regular"
   },
   {
@@ -13196,7 +13196,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2.05078 21V16.503C2.05078 16.2252 2.27596 16 2.55374 16V16C2.75366 16 2.93357 16.119 3.01963 16.2994C4.62737 19.6705 8.06703 22 12.0508 22C17.2361 22 21.4997 18.0533 22.0014 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "camera", "right"],
+    tags: ["rotate", "camera", "right", "flip", "turn", "selfie", "photo", "video", "direction", "ui", "arrow", "outline"],
     category: "regular"
   },
   {
@@ -13209,7 +13209,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5117 1.44156C11.8196 1.71865 11.8446 2.19287 11.5675 2.50075L11.5575 2.51186C11.2804 2.81975 10.8062 2.84471 10.4983 2.56761C10.1904 2.29052 10.1654 1.8163 10.4425 1.50842L10.4525 1.49731C10.7296 1.18942 11.2038 1.16447 11.5117 1.44156Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["round", "flask"],
+    tags: ["round", "flask", "science", "experiment", "chemistry", "laboratory", "beaker", "liquid", "education", "outline", "research"],
     category: "solid"
   },
   {
@@ -13221,7 +13221,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 7L11.5 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rounded", "mirror"],
+    tags: ["rounded", "mirror", "reflection", "vanity", "beauty", "circular", "oval", "glass", "outline", "self-care", "ui"],
     category: "regular"
   },
   {
@@ -13231,7 +13231,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21.75C19.1756 21.75 21.75 19.1756 21.75 16V8C21.75 4.82436 19.1756 2.25 16 2.25H8C4.82436 2.25 2.25 4.82436 2.25 8V16C2.25 19.1756 4.82436 21.75 8 21.75H16ZM11.25 17C11.25 15.6704 10.8101 14.6207 10.0947 13.9053C9.37925 13.1899 8.32956 12.75 7 12.75C6.58579 12.75 6.25 12.4142 6.25 12C6.25 11.5858 6.58579 11.25 7 11.25C8.67044 11.25 10.1207 11.8101 11.1553 12.8447C12.1899 13.8793 12.75 15.3296 12.75 17C12.75 17.4142 12.4142 17.75 12 17.75C11.5858 17.75 11.25 17.4142 11.25 17ZM13.7197 10.2803C15.3101 11.8707 16.25 14.1704 16.25 17C16.25 17.4142 16.5858 17.75 17 17.75C17.4142 17.75 17.75 17.4142 17.75 17C17.75 13.8296 16.6899 11.1292 14.7803 9.21967C12.8707 7.31008 10.1704 6.25 7 6.25C6.58579 6.25 6.25 6.58579 6.25 7C6.25 7.41421 6.58579 7.75 7 7.75C9.82956 7.75 12.1293 8.68991 13.7197 10.2803ZM7.56748 17.5008C7.84457 17.1929 7.81961 16.7187 7.51173 16.4416C7.20385 16.1645 6.72963 16.1894 6.45254 16.4973L6.44254 16.5084C6.16544 16.8163 6.1904 17.2905 6.49828 17.5676C6.80616 17.8447 7.28038 17.8197 7.55748 17.5119L7.56748 17.5008Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["rss", "feed", "tag"],
+    tags: ["rss", "feed", "tag", "subscribe", "news", "blog", "syndication", "content", "web", "label", "outline", "communication"],
     category: "solid"
   },
   {
@@ -13243,7 +13243,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 19.01L5.01 18.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rss", "feed"],
+    tags: ["rss", "feed", "subscribe", "news", "blog", "syndication", "content", "web", "outline", "communication", "internet"],
     category: "regular"
   },
   {
@@ -13257,7 +13257,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 3V21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rubik", "cube"],
+    tags: ["rubik", "cube", "puzzle", "game", "toy", "logic", "problem solving", "3d", "geometric", "playful", "outline", "education"],
     category: "regular"
   },
   {
@@ -13271,7 +13271,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M1 12L3 10M1 12L3 14M1 12H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ruler", "arrows"],
+    tags: ["ruler", "arrows", "measure", "dimension", "scale", "length", "size", "tool", "design", "outline", "engineering"],
     category: "regular"
   },
   {
@@ -13285,7 +13285,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 10H7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ruler", "combine"],
+    tags: ["ruler", "combine", "measure", "dimension", "scale", "tool", "merge", "join", "design", "outline", "engineering"],
     category: "regular"
   },
   {
@@ -13296,7 +13296,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11 7V2.6C11 2.26863 10.7314 2 10.4 2H3.6C3.26863 2 3 2.26863 3 2.6V21.4C3 21.7314 3.26863 22 3.6 22H10.4C10.7314 22 11 21.7314 11 21.4V17M11 7H8M11 7V12M11 12H8M11 12V17M11 17H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ruler", "minus"],
+    tags: ["ruler", "minus", "measure", "dimension", "scale", "subtract", "remove", "tool", "design", "outline", "engineering"],
     category: "regular"
   },
   {
@@ -13307,7 +13307,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11 7V2.6C11 2.26863 10.7314 2 10.4 2H3.6C3.26863 2 3 2.26863 3 2.6V21.4C3 21.7314 3.26863 22 3.6 22H10.4C10.7314 22 11 21.7314 11 21.4V17M11 7H8M11 7V12M11 12H8M11 12V17M11 17H8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ruler", "plus"],
+    tags: ["ruler", "plus", "measure", "dimension", "scale", "add", "create", "tool", "design", "outline", "engineering"],
     category: "regular"
   },
   {
@@ -13317,7 +13317,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 7V2.6C16 2.26863 15.7314 2 15.4 2H8.6C8.26863 2 8 2.26863 8 2.6V21.4C8 21.7314 8.26863 22 8.6 22H15.4C15.7314 22 16 21.7314 16 21.4V17M16 7H13M16 7V12M16 12H13M16 12V17M16 17H13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ruler"],
+    tags: ["ruler", "measure", "dimension", "scale", "tool", "length", "design", "outline", "engineering", "education"],
     category: "regular"
   },
   {
@@ -13330,7 +13330,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.89152 15.7103L7.65095 16.5374H4.34277" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["running"],
+    tags: ["running", "exercise", "sport", "fitness", "jogging", "marathon", "activity", "health", "person", "outline", "movement"],
     category: "regular"
   },
   {
@@ -13347,7 +13347,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.2427 16.2427L16.9498 16.9498" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safari"],
+    tags: ["safari", "browser", "internet", "web", "apple", "compass", "navigation", "app", "filled", "ui"],
     category: "regular"
   },
   {
@@ -13368,7 +13368,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M22 12H15M15 12L18.5 8.5M15 12L18.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safe", "arrow", "left"],
+    tags: ["safe", "arrow", "left", "vault", "security", "protection", "bank", "direction", "back", "outline", "finance", "storage"],
     category: "regular"
   },
   {
@@ -13389,7 +13389,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 12H22M22 12L18.5 8.5M22 12L18.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safe", "arrow", "right"],
+    tags: ["safe", "arrow", "right", "vault", "security", "protection", "bank", "direction", "forward", "outline", "finance", "storage"],
     category: "regular"
   },
   {
@@ -13410,7 +13410,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 18H2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safe", "open"],
+    tags: ["safe", "open", "vault", "security", "protection", "bank", "unlocked", "access", "outline", "finance", "storage"],
     category: "regular"
   },
   {
@@ -13430,7 +13430,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 18H2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safe"],
+    tags: ["safe", "vault", "security", "storage", "money", "lock", "finance", "protection", "filled"],
     category: "regular"
   },
   {
@@ -13441,7 +13441,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.0001 7C10.0001 7 10.5001 3 6.00007 3C1.5 3 2.00007 7 2.00007 7M10.0001 7H2.00007M10.0001 7L9.78579 10M2.00007 7L2.21436 10M9.78579 10L9.19909 18.2137C9.08695 19.7837 7.78063 21 6.20671 21H5.79343C4.21951 21 2.91319 19.7837 2.80105 18.2137L2.21436 10M9.78579 10H2.21436" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sandals"],
+    tags: ["sandals", "shoes", "footwear", "summer", "beach", "fashion", "clothing", "casual"],
     category: "regular"
   },
   {
@@ -13459,7 +13459,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11 10H14V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scale", "frame", "enlarge"],
+    tags: ["scale", "frame", "enlarge", "zoom in", "expand", "fullscreen", "grow", "maximize", "interface", "control"],
     category: "regular"
   },
   {
@@ -13473,7 +13473,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 11H13V8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scale", "frame", "reduce"],
+    tags: ["scale", "frame", "reduce", "zoom out", "shrink", "minimize", "contract", "interface", "control"],
     category: "regular"
   },
   {
@@ -13497,7 +13497,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 21H21V18" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scan", "barcode"],
+    tags: ["scan", "barcode", "product", "retail", "checkout", "identification", "data", "linear", "commerce"],
     category: "regular"
   },
   {
@@ -13523,7 +13523,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 21H3V18" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scan", "qr", "code"],
+    tags: ["scan", "qr", "code", "quick response", "mobile", "link", "website", "payment", "square", "digital"],
     category: "regular"
   },
   {
@@ -13541,7 +13541,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 21H21V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scanning"],
+    tags: ["scanning", "progress", "loading", "detection", "analysis", "processing", "active", "system"],
     category: "regular"
   },
   {
@@ -13554,7 +13554,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 7H3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scarf"],
+    tags: ["scarf", "clothing", "fashion", "winter", "accessory", "warmth", "fabric"],
     category: "regular"
   },
   {
@@ -13565,7 +13565,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.2361 16C10.7111 16.5308 11 17.2316 11 18C11 19.6569 9.65685 21 8 21C6.34315 21 5 19.6569 5 18C5 16.3431 6.34315 15 8 15C8.8885 15 9.68679 15.3863 10.2361 16ZM10.2361 16L20 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scissor", "alt"],
+    tags: ["scissor", "alt", "cut", "trim", "edit", "tool", "craft", "haircut", "sharp"],
     category: "regular"
   },
   {
@@ -13576,7 +13576,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.23611 17C7.71115 17.5308 8 18.2316 8 19C8 20.6569 6.65685 22 5 22C3.34315 22 2 20.6569 2 19C2 17.3431 3.34315 16 5 16C5.8885 16 6.68679 16.3863 7.23611 17ZM7.23611 17L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scissor"],
+    tags: ["scissor", "cut", "trim", "edit", "tool", "craft", "haircut", "sharp"],
     category: "regular"
   },
   {
@@ -13593,7 +13593,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 10V8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screenshot"],
+    tags: ["screenshot", "capture", "screen", "image", "monitor", "picture", "camera", "desktop"],
     category: "regular"
   },
   {
@@ -13605,7 +13605,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sea", "and", "sun"],
+    tags: ["sea", "and", "sun", "beach", "ocean", "vacation", "holiday", "nature", "summer", "travel", "weather"],
     category: "regular"
   },
   {
@@ -13616,7 +13616,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 17C5.48276 17 7.34483 14 7.34483 14C7.34483 14 9.2069 17 11.6897 17C14.1724 17 16.6552 14 16.6552 14C16.6552 14 19.1379 17 21 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sea", "waves"],
+    tags: ["sea", "waves", "ocean", "water", "beach", "nature", "fluid", "movement", "calm", "weather"],
     category: "regular"
   },
   {
@@ -13627,7 +13627,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13.8562 13.8497C14.4747 13.2295 14.8571 12.3737 14.8571 11.4286C14.8571 9.53502 13.3221 8 11.4286 8C9.53502 8 8 9.53502 8 11.4286C8 13.3221 9.53502 14.8571 11.4286 14.8571C12.377 14.8571 13.2355 14.4721 13.8562 13.8497ZM13.8562 13.8497L16 16" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "engine"],
+    tags: ["search", "engine", "browser", "web", "internet", "discover", "find", "magnifying glass", "seo"],
     category: "regular"
   },
   {
@@ -13642,7 +13642,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.1241 20.1185C20.6654 19.5758 21 18.827 21 18C21 16.3431 19.6569 15 18 15C16.3431 15 15 16.3431 15 18C15 19.6569 16.3431 21 18 21C18.8299 21 19.581 20.663 20.1241 20.1185ZM20.1241 20.1185L22 22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "window"],
+    tags: ["search", "window", "find", "discover", "application", "interface", "magnifying glass", "desktop"],
     category: "regular"
   },
   {
@@ -13653,7 +13653,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search"],
+    tags: ["search", "find", "discover", "magnify", "explore", "magnifying glass", "lookup", "query"],
     category: "regular"
   },
   {
@@ -13668,7 +13668,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18.9923 14.125L21.5477 14.774C21.8137 14.8416 22.0013 15.0833 21.9931 15.3576C21.8214 21.1159 18.5 22 18.5 22C18.5 22 15.1786 21.1159 15.0069 15.3576C14.9987 15.0833 15.1863 14.8416 15.4523 14.774L18.0077 14.125C18.3308 14.043 18.6692 14.043 18.9923 14.125Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["secure", "window"],
+    tags: ["secure", "window", "privacy", "protection", "locked", "private", "desktop", "interface", "safe"],
     category: "regular"
   },
   {
@@ -13679,7 +13679,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C12.9473 4 13.8561 4.16464 14.6994 4.46686" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "pass"],
+    tags: ["security", "pass", "access", "id", "identification", "badge", "authorization", "entry", "permission"],
     category: "regular"
   },
   {
@@ -13691,7 +13691,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.5 11V21C12.5 21.2761 12.2761 21.5 12 21.5C11.7239 21.5 11.5 21.2761 11.5 21V11C11.5 10.7239 11.7239 10.5 12 10.5C12.2761 10.5 12.5 10.7239 12.5 11Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["select", "edge", "3d"],
+    tags: ["select", "edge", "3d", "3d model", "design", "modeling", "geometry", "tool", "highlight", "cad"],
     category: "regular"
   },
   {
@@ -13704,7 +13704,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.6914 11.8285L3.89139 7.49521C3.49147 7.27304 3 7.56222 3 8.01971V16.647C3 16.8649 3.11813 17.0656 3.30861 17.1715L11.1086 21.5048C11.5085 21.727 12 21.4378 12 20.9803V12.353C12 12.1351 11.8819 11.9344 11.6914 11.8285Z" fill="currentColor" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["select", "face", "3d"],
+    tags: ["select", "face", "3d", "3d model", "design", "modeling", "geometry", "tool", "highlight", "cad"],
     category: "regular"
   },
   {
@@ -13715,7 +13715,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 7.35304L21 16.647C21 16.8649 20.8819 17.0656 20.6914 17.1715L12.2914 21.8381C12.1102 21.9388 11.8898 21.9388 11.7086 21.8381L3.30861 17.1715C3.11814 17.0656 3 16.8649 3 16.647L2.99998 7.35304C2.99998 7.13514 3.11812 6.93437 3.3086 6.82855L11.7086 2.16188C11.8898 2.06121 12.1102 2.06121 12.2914 2.16188L20.6914 6.82855C20.8818 6.93437 21 7.13514 21 7.35304Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["select", "point", "3d"],
+    tags: ["select", "point", "3d", "3d model", "design", "modeling", "geometry", "tool", "highlight", "vertex", "cad"],
     category: "regular"
   },
   {
@@ -13730,7 +13730,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0822 18.3651C22.576 18.6689 22.5457 19.4082 22.0371 19.4658L19.4705 19.7568L18.3193 22.0691C18.0911 22.5273 17.386 22.3029 17.2695 21.735L16.0142 15.619C15.9157 15.139 16.3471 14.837 16.7644 15.0937L22.0822 18.3651Z" stroke="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["select", "window"],
+    tags: ["select", "window", "choose", "pick", "interface", "application", "desktop", "target"],
     category: "regular"
   },
   {
@@ -13741,7 +13741,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["selective", "tool"],
+    tags: ["selective", "tool", "selection", "choose", "target", "edit", "design", "cursor", "pointer"],
     category: "regular"
   },
   {
@@ -13758,7 +13758,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["send", "diagonal"],
+    tags: ["send", "diagonal", "message", "email", "share", "submit", "dispatch", "paper plane", "communication"],
     category: "solid"
   },
   {
@@ -13769,7 +13769,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13 12H21M21 12L17.16 8M21 12L17.16 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send", "dollars"],
+    tags: ["send", "dollars", "money transfer", "payment", "transaction", "finance", "currency", "cash", "remittance"],
     category: "regular"
   },
   {
@@ -13782,7 +13782,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 13H9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send", "euros"],
+    tags: ["send", "euros", "money", "currency", "payment", "transfer", "finance", "transaction", "euro", "cash", "exchange"],
     category: "regular"
   },
   {
@@ -13794,7 +13794,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.75 10.5C5.75 10.9142 5.41421 11.25 5 11.25H1C0.585786 11.25 0.25 10.9142 0.25 10.5C0.25 10.0858 0.585786 9.75 1 9.75H5C5.41421 9.75 5.75 10.0858 5.75 10.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["send", "mail"],
+    tags: ["send", "mail", "email", "message", "dispatch", "correspondence", "communication", "letter", "envelope", "forward", "compose"],
     category: "solid"
   },
   {
@@ -13807,7 +13807,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11 10C11 8.34315 9.65685 7 8 7C6.34315 7 5 8.34315 5 10C5 11.6569 6.34315 13 8 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send", "pounds"],
+    tags: ["send", "pounds", "money", "currency", "payment", "transfer", "finance", "transaction", "pound", "cash", "exchange"],
     category: "regular"
   },
   {
@@ -13820,7 +13820,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 15H11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send", "yens"],
+    tags: ["send", "yens", "money", "currency", "payment", "transfer", "finance", "transaction", "yen", "cash", "exchange"],
     category: "regular"
   },
   {
@@ -13830,7 +13830,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.29106 3.3088C3.00745 3.18938 2.67967 3.25533 2.4643 3.47514C2.24894 3.69495 2.1897 4.02401 2.31488 4.30512L5.40752 11.25H13C13.4142 11.25 13.75 11.5858 13.75 12C13.75 12.4142 13.4142 12.75 13 12.75H5.40754L2.31488 19.6949C2.1897 19.976 2.24894 20.3051 2.4643 20.5249C2.67967 20.7447 3.00745 20.8107 3.29106 20.6912L22.2911 12.6913C22.5692 12.5742 22.75 12.3018 22.75 12C22.75 11.6983 22.5692 11.4259 22.2911 11.3088L3.29106 3.3088Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["send"],
+    tags: ["send", "dispatch", "submit", "forward", "message", "share", "arrow", "paper airplane", "plane", "deliver"],
     category: "solid"
   },
   {
@@ -13840,7 +13840,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 5C5.25 4.58579 5.58579 4.25 6 4.25H18C18.4142 4.25 18.75 4.58579 18.75 5V13C18.75 13.4142 18.4142 13.75 18 13.75H12.75V18.25H21C21.4142 18.25 21.75 18.5858 21.75 19C21.75 19.4142 21.4142 19.75 21 19.75H3C2.58579 19.75 2.25 19.4142 2.25 19C2.25 18.5858 2.58579 18.25 3 18.25H11.25V13.75H6C5.58579 13.75 5.25 13.4142 5.25 13V5ZM9.51173 8.44156C9.81961 8.71865 9.84457 9.19287 9.56748 9.50075L9.55748 9.51186C9.28038 9.81975 8.80616 9.84471 8.49828 9.56761C8.1904 9.29052 8.16544 8.8163 8.44254 8.50842L8.45254 8.49731C8.72963 8.18942 9.20385 8.16447 9.51173 8.44156ZM12.5675 9.50075C12.8446 9.19287 12.8196 8.71865 12.5117 8.44156C12.2038 8.16447 11.7296 8.18942 11.4525 8.49731L11.4425 8.50842C11.1654 8.8163 11.1904 9.29052 11.4983 9.56761C11.8062 9.84471 12.2804 9.81975 12.5575 9.51186L12.5675 9.50075Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["server", "connection"],
+    tags: ["server", "connection", "network", "database", "hosting", "data center", "linked", "connected", "system", "internet", "cloud"],
     category: "solid"
   },
   {
@@ -13851,7 +13851,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.6 1.25C1.85442 1.25 1.25 1.85441 1.25 2.6V9.4C1.25 10.1456 1.85442 10.75 2.6 10.75H21.4C22.1456 10.75 22.75 10.1456 22.75 9.4V2.6C22.75 1.85442 22.1456 1.25 21.4 1.25H2.6ZM6.56748 6.50075C6.84457 6.19287 6.81961 5.71865 6.51173 5.44156C6.20385 5.16447 5.72963 5.18942 5.45254 5.49731L5.44254 5.50842C5.16544 5.8163 5.1904 6.29052 5.49828 6.56761C5.80616 6.84471 6.28038 6.81975 6.55748 6.51186L6.56748 6.50075Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["server"],
+    tags: ["server", "database", "network", "hosting", "data center", "system", "storage", "hardware", "computer", "cloud"],
     category: "solid"
   },
   {
@@ -13862,7 +13862,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 13L11 15L16 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "profiles"],
+    tags: ["settings", "profiles", "user", "account", "preferences", "configuration", "management", "gear", "cog", "multiple", "group"],
     category: "regular"
   },
   {
@@ -13873,7 +13873,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["settings"],
+    tags: ["settings", "preferences", "options", "configuration", "gear", "cog", "adjust", "control", "management", "tools"],
     category: "regular"
   },
   {
@@ -13887,7 +13887,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 13.5L15.5 17.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "solid",
-    tags: ["share", "android"],
+    tags: ["share", "android", "social", "distribute", "link", "network", "mobile", "platform", "android os", "connection", "forward"],
     category: "solid"
   },
   {
@@ -13898,7 +13898,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 15V3M12 3L8.5 6.5M12 3L15.5 6.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "ios"],
+    tags: ["share", "ios", "social", "distribute", "link", "network", "mobile", "platform", "apple", "connection", "forward"],
     category: "regular"
   },
   {
@@ -13910,7 +13910,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "alert"],
+    tags: ["shield", "alert", "warning", "danger", "caution", "security", "protection", "error", "risk", "threat", "exclamation"],
     category: "regular"
   },
   {
@@ -13920,7 +13920,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3.57143 8C3.39038 6.73263 3.23403 5.63823 3.13088 4.91614C3.05698 4.39885 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.943 4.39885 20.8691 4.91614C20.766 5.63823 20.6096 6.73263 20.4286 8M3.57143 8H20.4286M3.57143 8C3.87997 10.1598 4.26028 12.822 4.57143 15M20.4286 8C20.12 10.1598 19.7397 12.822 19.4286 15M19.4286 15C19.2567 16.2032 19.1059 17.2586 19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18C4.89409 17.2586 4.74331 16.2032 4.57143 15M19.4286 15H4.57143" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "alt"],
+    tags: ["shield", "alt", "security", "protection", "defense", "guard", "privacy", "safety", "secure", "protected", "safe"],
     category: "regular"
   },
   {
@@ -13931,7 +13931,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "broken"],
+    tags: ["shield", "broken", "compromised", "breach", "vulnerable", "insecure", "failure", "damaged", "risk", "exposed", "cracked"],
     category: "regular"
   },
   {
@@ -13942,7 +13942,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "check"],
+    tags: ["shield", "check", "verified", "secure", "protected", "approved", "safety", "confirmation", "success", "validated", "guaranteed"],
     category: "regular"
   },
   {
@@ -13953,7 +13953,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "download"],
+    tags: ["shield", "download", "security", "protection", "save", "receive", "incoming", "transfer", "data", "secure download", "guard"],
     category: "regular"
   },
   {
@@ -13965,7 +13965,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "eye"],
+    tags: ["shield", "eye", "privacy", "visibility", "monitoring", "surveillance", "watch", "security", "protection", "observation", "secure view"],
     category: "regular"
   },
   {
@@ -13978,7 +13978,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "loading"],
+    tags: ["shield", "loading", "security", "protection", "progress", "processing", "updating", "buffering", "waiting", "syncing", "scanning"],
     category: "regular"
   },
   {
@@ -13989,7 +13989,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "minus"],
+    tags: ["shield", "minus", "remove", "revoke", "decrease", "subtract", "security", "protection", "unprotected", "reduce", "delete"],
     category: "regular"
   },
   {
@@ -14000,7 +14000,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "plus", "in"],
+    tags: ["shield", "plus", "in", "add", "increase", "enhance", "security", "protection", "new", "create", "insert", "upgrade"],
     category: "regular"
   },
   {
@@ -14012,7 +14012,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "question"],
+    tags: ["shield", "question", "help", "unknown", "inquiry", "support", "security", "protection", "uncertain", "query", "information"],
     category: "regular"
   },
   {
@@ -14024,7 +14024,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "search"],
+    tags: ["shield", "search", "find", "scan", "discover", "investigate", "security", "protection", "audit", "explore", "detect"],
     category: "regular"
   },
   {
@@ -14035,7 +14035,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "upload"],
+    tags: ["shield", "upload", "security", "protection", "send", "transfer", "backup", "store", "data", "secure upload", "guard"],
     category: "regular"
   },
   {
@@ -14046,7 +14046,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "xmark"],
+    tags: ["shield", "xmark", "deny", "block", "cancel", "failure", "security", "protection", "error", "invalid", "rejected"],
     category: "regular"
   },
   {
@@ -14056,7 +14056,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 18L3.13036 4.91253C3.05646 4.39524 3.39389 3.91247 3.90398 3.79912L11.5661 2.09641C11.8519 2.03291 12.1481 2.03291 12.4339 2.09641L20.096 3.79912C20.6061 3.91247 20.9435 4.39524 20.8696 4.91252L19 18C18.9293 18.495 18.5 21.5 12 21.5C5.5 21.5 5.07071 18.495 5 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield"],
+    tags: ["shield", "protection", "defense", "guard", "privacy", "safety", "secure", "protected", "safe", "security"],
     category: "regular"
   },
   {
@@ -14068,7 +14068,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.5 6.00002V3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shirt", "tank", "top"],
+    tags: ["shirt", "tank", "top", "clothing", "apparel", "sleeveless", "fashion", "garment", "casual", "summer", "outline", "minimal"],
     category: "regular"
   },
   {
@@ -14080,7 +14080,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5.99993 4L1.55701 5.77717C1.24934 5.90023 1.09969 6.24942 1.22276 6.55709L2.84906 10.6228C2.94018 10.8506 3.1608 11 3.40615 11H5.99993" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shirt"],
+    tags: ["shirt", "clothing", "apparel", "t-shirt", "fashion", "garment", "casual", "outline", "minimal"],
     category: "regular"
   },
   {
@@ -14094,7 +14094,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.49331 3H3.50158C3.20828 3 2.95797 3.21205 2.90975 3.50136L2.2052 7.72862C2.17649 7.90091 2.22432 8.07782 2.35502 8.1937C2.68294 8.48445 3.41626 9 4.49329 9C5.99329 9 6.99331 8 6.99331 8L7.49331 3Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shop", "four", "tiles", "window"],
+    tags: ["shop", "four", "tiles", "window", "storefront", "retail", "commerce", "building", "business", "marketplace", "display", "facade", "outline"],
     category: "regular"
   },
   {
@@ -14109,7 +14109,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14.8333 21V15C14.8333 13.8954 13.9379 13 12.8333 13H10.8333C9.72874 13 8.83331 13.8954 8.83331 15V21" stroke="currentColor" stroke-miterlimit="16"/>
 </svg>`,
     style: "outline",
-    tags: ["shop", "four", "tiles"],
+    tags: ["shop", "four", "tiles", "storefront", "retail", "commerce", "building", "business", "marketplace", "display", "facade", "outline"],
     category: "regular"
   },
   {
@@ -14122,7 +14122,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shop", "window"],
+    tags: ["shop", "window", "storefront", "retail", "commerce", "building", "business", "marketplace", "display", "facade", "outline"],
     category: "regular"
   },
   {
@@ -14136,7 +14136,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3.87567 3.43517L2.18166 9.36418C2.08431 9.7049 2.3018 10.0526 2.6535 10.0958C3.49916 10.1998 4.98424 10.3125 6 10C6.59477 9.81699 7.35751 9.38698 7.74678 9.15495C7.90767 9.05904 8.00913 8.89043 8.02469 8.70377L8.5 3H4.45258C4.18469 3 3.94926 3.17759 3.87567 3.43517Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shop"],
+    tags: ["shop", "storefront", "retail", "commerce", "building", "business", "marketplace", "facade", "outline"],
     category: "regular"
   },
   {
@@ -14148,7 +14148,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "arrow", "down"],
+    tags: ["shopping", "bag", "arrow", "down", "purchase", "checkout", "download", "receive", "order", "delivery", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14160,7 +14160,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "arrow", "up"],
+    tags: ["shopping", "bag", "arrow", "up", "purchase", "checkout", "upload", "send", "order", "return", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14172,7 +14172,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "check"],
+    tags: ["shopping", "bag", "check", "purchase", "checkout", "success", "confirmed", "completed", "verified", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14184,7 +14184,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.99219 15H14.9922" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "minus"],
+    tags: ["shopping", "bag", "minus", "purchase", "checkout", "remove", "delete", "decrease", "subtract", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14196,7 +14196,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.99219 15H11.9922M14.9922 15H11.9922M11.9922 15V12M11.9922 15V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "plus"],
+    tags: ["shopping", "bag", "plus", "purchase", "checkout", "add", "increase", "new item", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14209,7 +14209,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "pocket"],
+    tags: ["shopping", "bag", "pocket", "purchase", "checkout", "storage", "carry", "contain", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14222,7 +14222,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "warning"],
+    tags: ["shopping", "bag", "warning", "purchase", "checkout", "alert", "error", "caution", "problem", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14233,7 +14233,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag"],
+    tags: ["shopping", "bag", "purchase", "checkout", "e-commerce", "cart", "basket", "retail", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14253,7 +14253,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 19L17 21L21 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "code", "check"],
+    tags: ["shopping", "code", "check", "coupon", "discount", "voucher", "promo", "verified", "success", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14273,7 +14273,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.1213 21.364L18.2427 19.2427M18.2427 19.2427L20.364 17.1213M18.2427 19.2427L16.1213 17.1213M18.2427 19.2427L20.364 21.364" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "code", "xmark"],
+    tags: ["shopping", "code", "xmark", "coupon", "discount", "voucher", "promo", "invalid", "error", "e-commerce", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14294,7 +14294,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 9V16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "code"],
+    tags: ["shopping", "code", "coupon", "discount", "voucher", "promo", "e-commerce", "barcode", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14306,7 +14306,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.5 9.5H18.5C17.3954 9.5 16.5 8.60457 16.5 7.5V5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["short", "pants", "pockets"],
+    tags: ["short", "pants", "pockets", "clothing", "apparel", "shorts", "trousers", "garment", "casual", "summer", "outline", "minimal"],
     category: "regular"
   },
   {
@@ -14316,7 +14316,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 16.8H18.9662C19.2706 16.8 19.5267 16.5721 19.5621 16.2698L20.9215 4.66983C20.9633 4.31323 20.6846 4 20.3256 4H3.65888C3.30539 4 3.02851 4.30406 3.0615 4.65601L4.449 19.456C4.47791 19.7643 4.73671 20 5.04638 20H11.4C11.7314 20 12 19.7314 12 19.4V12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["short", "pants"],
+    tags: ["short", "pants", "clothing", "apparel", "shorts", "trousers", "garment", "casual", "summer", "outline", "minimal"],
     category: "regular"
   },
   {
@@ -14326,7 +14326,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85442 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85444 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85444 21.75 2.25 21.1456 2.25 20.4V3.6ZM15.5793 7.52029C15.564 7.50344 15.5478 7.48728 15.531 7.47189C15.4667 7.41301 15.3946 7.36736 15.3183 7.33495C15.2282 7.29661 15.129 7.27539 15.0249 7.27539H15.0246H10.0752C9.66098 7.27539 9.3252 7.61118 9.3252 8.02539C9.3252 8.4396 9.66098 8.77539 10.0752 8.77539H13.2142L10.9591 11.0306C10.2475 11.7421 9.85804 12.4904 9.70986 13.2313C9.56278 13.9667 9.66365 14.6426 9.84979 15.201C10.0349 15.7563 10.3088 16.21 10.5311 16.5212C10.7276 16.7964 10.8911 16.9711 10.9435 17.0252C11.2326 17.32 11.7233 17.3374 12.0197 17.041C12.3124 16.7483 12.313 16.2742 12.0206 15.9813C11.9228 15.8778 11.8344 15.7652 11.7517 15.6494C11.5872 15.4192 11.3971 15.0995 11.2728 14.7267C11.1496 14.357 11.0958 13.9502 11.1807 13.5255C11.2646 13.1063 11.4938 12.6172 12.0197 12.0913L14.2749 9.83606V12.9752C14.2749 13.3894 14.6107 13.7252 15.0249 13.7252C15.4391 13.7252 15.7749 13.3894 15.7749 12.9752V8.02539C15.7749 7.91803 15.7523 7.81593 15.7117 7.72359C15.6797 7.65075 15.6356 7.58196 15.5793 7.52029Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["shortcut", "square"],
+    tags: ["shortcut", "square", "link", "jump", "quick access", "external", "launch", "ui", "outline", "system"],
     category: "solid"
   },
   {
@@ -14339,7 +14339,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 20C20 20 21.219 18.781 22 18C21.219 17.219 20 16 20 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shuffle"],
+    tags: ["shuffle", "random", "mix", "rearrange", "disorder", "playlist", "music", "media player", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14351,7 +14351,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9.5 21V3" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "collapse"],
+    tags: ["sidebar", "collapse", "panel", "menu", "hide", "minimize", "navigation", "ui", "layout", "outline", "system"],
     category: "regular"
   },
   {
@@ -14363,7 +14363,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5.5 10L7.25 12L5.5 14" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "expand"],
+    tags: ["sidebar", "expand", "panel", "menu", "show", "maximize", "navigation", "ui", "layout", "outline", "system"],
     category: "regular"
   },
   {
@@ -14375,7 +14375,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 20L12 12L4 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sigma", "function"],
+    tags: ["sigma", "function", "summation", "math", "calculation", "total", "statistics", "equation", "outline", "education"],
     category: "regular"
   },
   {
@@ -14387,7 +14387,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 19.5C17 20.3284 16.3284 21 15.5 21C14.6716 21 14 20.3284 14 19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["simple", "cart"],
+    tags: ["simple", "cart", "shopping", "basket", "e-commerce", "purchase", "checkout", "retail", "outline", "ui"],
     category: "regular"
   },
   {
@@ -14401,7 +14401,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.5 12H8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sine", "wave"],
+    tags: ["sine", "wave", "frequency", "sound", "audio", "oscillation", "signal", "vibration", "chart", "graph", "line", "geometric"],
     category: "regular"
   },
   {
@@ -14412,7 +14412,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 7.28995C5.49623 5.03879 8.51707 3.5 12 3.5C15.4829 3.5 18.5038 5.03879 20 7.28995" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["single", "tap", "gesture"],
+    tags: ["single", "tap", "gesture", "touch", "click", "interaction", "pointer", "finger", "ui", "tutorial", "onboarding", "hand", "cursor"],
     category: "regular"
   },
   {
@@ -14424,7 +14424,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.5 16C18.3284 16 19 15.3284 19 14.5C19 13.6716 18.3284 13 17.5 13C16.6716 13 16 13.6716 16 14.5C16 15.3284 16.6716 16 17.5 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["skateboard"],
+    tags: ["skateboard", "skate", "sport", "extreme", "board", "recreation", "transport", "hobby", "youth", "activity"],
     category: "regular"
   },
   {
@@ -14440,7 +14440,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 6C18.1046 6 19 5.10457 19 4C19 2.89543 18.1046 2 17 2C15.8954 2 15 2.89543 15 4C15 5.10457 15.8954 6 17 6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["skateboarding"],
+    tags: ["skateboarding", "skate", "sport", "extreme", "action", "person", "recreation", "hobby", "youth", "activity"],
     category: "regular"
   },
   {
@@ -14451,7 +14451,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6.97179 5.2672C6.57832 4.95657 6 5.23682 6 5.73813V18.2619C6 18.7632 6.57832 19.0434 6.97179 18.7328L14.9035 12.4709C15.2078 12.2307 15.2078 11.7693 14.9035 11.5291L6.97179 5.2672Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["skip", "next"],
+    tags: ["skip", "next", "forward", "next track", "media control", "player", "arrow", "ui", "button", "navigation", "music", "video"],
     category: "solid"
   },
   {
@@ -14462,7 +14462,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.0282 5.2672C17.4217 4.95657 18 5.23682 18 5.73813V18.2619C18 18.7632 17.4217 19.0434 17.0282 18.7328L9.09651 12.4709C8.79223 12.2307 8.79223 11.7693 9.09651 11.5291L17.0282 5.2672Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["skip", "prev"],
+    tags: ["skip", "prev", "backward", "previous track", "media control", "player", "arrow", "ui", "button", "navigation", "music", "video"],
     category: "solid"
   },
   {
@@ -14473,7 +14473,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 16L14 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slash", "square"],
+    tags: ["slash", "square", "divide", "math", "fraction", "separator", "diagonal", "code", "path", "geometric", "line"],
     category: "regular"
   },
   {
@@ -14483,7 +14483,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 4L8 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slash"],
+    tags: ["slash", "divide", "math", "fraction", "separator", "diagonal", "code", "path", "line", "geometric"],
     category: "regular"
   },
   {
@@ -14496,7 +14496,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 18L20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sleeper", "chair"],
+    tags: ["sleeper", "chair", "furniture", "bed", "rest", "relax", "home", "hotel", "comfort", "interior", "living"],
     category: "regular"
   },
   {
@@ -14506,7 +14506,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M1 4.6C1 4.26863 1.26863 4 1.6 4H22.4C22.7314 4 23 4.26863 23 4.6V8.51175C23 8.79612 22.8011 9.04191 22.5243 9.10697C21.4716 9.35435 18.8886 10.0207 17 11C13.5564 12.7856 13.0695 17.6549 13.0068 19.3822C12.9945 19.7209 12.7194 20 12.3805 20H11.6195C11.2806 20 11.0055 19.7209 10.9932 19.3822C10.9305 17.6549 10.4436 12.7856 7 11C5.11136 10.0207 2.52843 9.35435 1.47571 9.10697C1.19887 9.04191 1 8.79612 1 8.51175V4.6Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["slips"],
+    tags: ["slips", "footwear", "shoes", "slippers", "comfort", "home", "clothing", "fashion", "casual", "pair"],
     category: "regular"
   },
   {
@@ -14518,7 +14518,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 21H16M12 15L12 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["small", "lamp", "alt"],
+    tags: ["small", "lamp", "alt", "light", "bulb", "idea", "illumination", "electricity", "energy", "home", "desk", "minimal", "rounded"],
     category: "regular"
   },
   {
@@ -14530,7 +14530,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.6 21H15.4C15.7314 21 15.9949 20.7315 15.9423 20.4043C15.763 19.2896 15.0263 17 12 17C8.97369 17 8.23702 19.2896 8.0577 20.4043C8.00506 20.7315 8.26863 21 8.6 21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["small", "lamp"],
+    tags: ["small", "lamp", "light", "bulb", "idea", "illumination", "electricity", "energy", "home", "desk", "minimal", "rounded"],
     category: "regular"
   },
   {
@@ -14541,7 +14541,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 19.4V4.6C7 4.26863 7.26863 4 7.6 4H16.4C16.7314 4 17 4.26863 17 4.6V19.4C17 19.7314 16.7314 20 16.4 20H7.6C7.26863 20 7 19.7314 7 19.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["smartphone", "device"],
+    tags: ["smartphone", "device", "mobile", "phone", "cellphone", "communication", "app", "screen", "technology", "gadget", "electronics"],
     category: "regular"
   },
   {
@@ -14555,7 +14555,7 @@ export const iconoirIcons: IconItem[] = [
 <rect x="2" y="19" width="12" height="3" rx="0.6" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["smoking"],
+    tags: ["smoking", "cigarette", "tobacco", "addiction", "health risk", "habit", "warning", "no smoking", "forbidden", "smoke", "danger"],
     category: "regular"
   },
   {
@@ -14565,7 +14565,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6553 3.15717C17.9372 4.43908 18.75 6.32533 18.75 8.75004V9.50003L19.6277 9.50002C20.941 9.50001 21.4811 11.1852 20.4124 11.9486L18.8967 13.0312C19.3773 14.1619 20.5856 15.923 22.706 16.5289C22.9363 16.5947 23.1213 16.7665 23.204 16.9912C23.2866 17.216 23.2569 17.4668 23.124 17.666C22.911 17.9855 22.5247 18.4273 22.0137 18.7958C21.5937 19.0987 21.0509 19.3793 20.4216 19.4697L19.774 20.4411L19.7377 20.4956L19.7336 20.5017L19.7112 20.5353L19.7034 20.547L19.693 20.5625L19.6921 20.564L19.6911 20.5655L19.6901 20.5669L19.6836 20.5766L19.6828 20.578L19.6819 20.5793L19.6801 20.5819L19.6793 20.5832L19.6776 20.5857L19.6768 20.5869L19.676 20.5882L19.6751 20.5894L19.6743 20.5906L19.6735 20.5918L19.6728 20.5929L19.672 20.5941L19.6705 20.5964L19.6668 20.6019L19.6661 20.603L19.6647 20.6051L19.662 20.6092L19.6613 20.6101L19.6594 20.613L19.6587 20.614L19.6569 20.6167L19.6563 20.6176L19.6557 20.6185L19.6551 20.6194L19.654 20.6211L19.6534 20.6219L19.6523 20.6236L19.6502 20.6268L19.6492 20.6283L19.6482 20.6298L19.6472 20.6312L19.6463 20.6327L19.6454 20.634L19.6445 20.6354L19.6436 20.6367L19.6428 20.6379L19.642 20.6391L19.6412 20.6403L19.6404 20.6415L19.6397 20.6426L19.6389 20.6437L19.6382 20.6447L19.6376 20.6457L19.6369 20.6467L19.6363 20.6477L19.6357 20.6486L19.6351 20.6495L19.6345 20.6503L19.6337 20.6516L19.6329 20.6527L19.6322 20.6538L19.6315 20.6549L19.6308 20.6558L19.6302 20.6567L19.6297 20.6576L19.6289 20.6587L19.6283 20.6596L19.6277 20.6605L19.6271 20.6615L19.6265 20.6624L19.6259 20.6632L19.6253 20.6642L19.6247 20.665L19.6242 20.6658C19.4556 20.9187 19.1509 21.045 18.8529 20.9854L16.6863 20.5521C16.2282 20.8905 15.5868 21.3084 14.877 21.6688C14.0233 22.1021 12.9787 22.5 12 22.5C11.0213 22.5 9.97666 22.1021 9.12303 21.6688C8.41319 21.3084 7.77179 20.8905 7.31369 20.5521L5.14709 20.9854C4.84907 21.045 4.54455 20.9189 4.37597 20.666L3.57842 19.4697C2.94907 19.3793 2.40627 19.0987 1.98631 18.7958C1.47533 18.4273 1.08898 17.9855 0.875966 17.666C0.743121 17.4668 0.713428 17.216 0.796054 16.9912C0.878679 16.7665 1.06369 16.5947 1.29396 16.5289C3.4144 15.923 4.62269 14.1619 5.10327 13.0312L3.58764 11.9486C2.51893 11.1852 3.05898 9.50001 4.37232 9.50002L5.25 9.50003V8.75004C5.25 6.32534 6.06277 4.4391 7.34467 3.15719C8.61952 1.88233 10.3145 1.25 12 1.25C13.6855 1.25 15.3805 1.88232 16.6553 3.15717Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["snapchat"],
+    tags: ["snapchat", "social media", "app", "ghost", "chat", "messaging", "platform", "network", "communication", "logo"],
     category: "solid"
   },
   {
@@ -14575,7 +14575,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 7L6.5 9M21 17L17.5 15M12 12L6.5 9M12 12L6.5 15M12 12V5M12 12V18.5M12 12L17.5 15M12 12L17.5 9M12 2V5M12 22V18.5M21 7L17.5 9M3 17L6.5 15M6.5 9L3 10M6.5 9L6 5.5M6.5 15L3 14M6.5 15L6 18.5M12 5L9.5 4M12 5L14.5 4M12 18.5L14.5 20M12 18.5L9.5 20M17.5 15L18 18.5M17.5 15L21 14M17.5 9L21 10M17.5 9L18 5.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["snow", "flake"],
+    tags: ["snow", "flake", "winter", "cold", "ice", "christmas", "weather", "decoration", "crystal", "nature", "frozen", "pattern"],
     category: "regular"
   },
   {
@@ -14586,7 +14586,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["snow"],
+    tags: ["snow", "winter", "cold", "ice", "weather", "precipitation", "nature", "frozen", "cloud", "flurry"],
     category: "regular"
   },
   {
@@ -14598,7 +14598,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 7V3M12 3H9M12 3H13" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soap"],
+    tags: ["soap", "hygiene", "clean", "wash", "bathroom", "lather", "sanitizer", "personal care", "product", "bubble"],
     category: "regular"
   },
   {
@@ -14608,7 +14608,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 8L15.8043 10.7639M12 8L8.1958 10.7639M12 8V5M15.8043 10.7639L14.3512 15.2361M15.8043 10.7639L18.5 9.5M14.3512 15.2361H9.64889M14.3512 15.2361L16 17.5M9.64889 15.2361L8.1958 10.7639M9.64889 15.2361L8 17.5M8.1958 10.7639L5.5 9.5M5.5 9.5L2.04938 13M5.5 9.5L4.5 5.38544M18.5 9.5L21.9506 13M18.5 9.5L19.5 5.38544M12 5L8.62434 2.58409M12 5L15.3757 2.58409M8 17.5L3.33782 17M8 17.5L10.5 21.8883M16 17.5L20.6622 17M16 17.5L13.5 21.8883M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soccer", "ball"],
+    tags: ["soccer", "ball", "football", "sport", "game", "play", "team", "kick", "athletic", "activity", "championship", "match"],
     category: "regular"
   },
   {
@@ -14621,7 +14621,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M22 16L22 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sofa"],
+    tags: ["sofa", "couch", "furniture", "living room", "comfort", "relax", "home", "interior", "seating", "lounge"],
     category: "regular"
   },
   {
@@ -14641,7 +14641,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.1857 2.24133L16.5601 6.13059C16.8031 8.65364 14.9114 10.9001 12.3883 11.143C9.91266 11.3814 7.67 9.57185 7.43162 7.0962C7.19324 4.62055 9.00691 2.4204 11.4826 2.18203L15.6293 1.78274C15.9096 1.75575 16.1587 1.96107 16.1857 2.24133Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soil", "alt"],
+    tags: ["soil", "alt", "earth", "ground", "dirt", "garden", "agriculture", "nature", "plant", "growth", "environment", "texture"],
     category: "regular"
   },
   {
@@ -14665,7 +14665,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 16.01L21.01 15.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soil"],
+    tags: ["soil", "earth", "ground", "dirt", "garden", "agriculture", "nature", "plant", "growth", "environment", "texture"],
     category: "regular"
   },
   {
@@ -14679,7 +14679,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 10V20M19 20L22 17M19 20L16 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sort", "down"],
+    tags: ["sort", "down", "order", "descending", "filter", "arrow", "data", "list", "ui", "arrangement", "direction", "dropdown"],
     category: "regular"
   },
   {
@@ -14693,7 +14693,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 14V4M19 4L22 7M19 4L16 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sort", "up"],
+    tags: ["sort", "up", "order", "ascending", "filter", "arrow", "data", "list", "ui", "arrangement", "direction", "dropdown"],
     category: "regular"
   },
   {
@@ -14707,7 +14707,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 20V4M19 20L22 17M19 20L16 17M19 4L22 7M19 4L16 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sort"],
+    tags: ["sort", "order", "filter", "arrange", "data", "list", "ui", "menu", "reorder", "options", "settings"],
     category: "regular"
   },
   {
@@ -14719,7 +14719,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0367 3.3964C13.2002 2.62923 14.75 3.46373 14.75 4.85741V19.1431C14.75 20.5368 13.2002 21.3713 12.0367 20.6041L6.03762 16.6487C5.99677 16.6218 5.94892 16.6074 5.9 16.6074H3C1.48122 16.6074 0.25 15.3762 0.25 13.8574V10.1431C0.25 8.62434 1.48122 7.39313 3 7.39313H5.9C5.94892 7.39313 5.99677 7.37877 6.03762 7.35184L12.0367 3.3964Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["sound", "high"],
+    tags: ["sound", "high", "volume", "audio", "loud", "music", "speaker", "control", "system", "filled", "interface"],
     category: "solid"
   },
   {
@@ -14730,7 +14730,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0367 3.3964C14.2002 2.62923 15.75 3.46373 15.75 4.85741V19.1431C15.75 20.5368 14.2002 21.3713 13.0367 20.6041L7.03762 16.6487C6.99677 16.6218 6.94892 16.6074 6.9 16.6074H4C2.48122 16.6074 1.25 15.3762 1.25 13.8574V10.1431C1.25 8.62434 2.48122 7.39313 4 7.39313H6.9C6.94892 7.39313 6.99677 7.37877 7.03762 7.35184L13.0367 3.3964Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["sound", "low"],
+    tags: ["sound", "low", "volume", "audio", "quiet", "music", "speaker", "control", "system", "filled", "interface"],
     category: "solid"
   },
   {
@@ -14741,7 +14741,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 8.25C20.9142 8.25 21.25 8.58579 21.25 9L21.25 15C21.25 15.4142 20.9142 15.75 20.5 15.75C20.0858 15.75 19.75 15.4142 19.75 15L19.75 9C19.75 8.58579 20.0858 8.25 20.5 8.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["sound", "min"],
+    tags: ["sound", "min", "volume", "audio", "mute", "silent", "music", "speaker", "control", "system", "filled", "interface"],
     category: "solid"
   },
   {
@@ -14759,7 +14759,7 @@ export const iconoirIcons: IconItem[] = [
 </defs>
 </svg>`,
     style: "solid",
-    tags: ["sound", "off"],
+    tags: ["sound", "off", "volume", "audio", "mute", "silent", "music", "speaker", "control", "system", "filled", "interface"],
     category: "solid"
   },
   {
@@ -14770,7 +14770,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.4706 15.4926L8.47059 21.1176C8.25743 21.5173 8.54705 22 9 22H15C15.453 22 15.7426 21.5173 15.5294 21.1176L12.5294 15.4926C12.3035 15.0691 11.6965 15.0691 11.4706 15.4926Z" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spades"],
+    tags: ["spades", "card", "playing", "game", "casino", "gambling", "suit", "heart", "club", "diamond", "entertainment"],
     category: "regular"
   },
   {
@@ -14780,7 +14780,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 12C9.26752 12 12 9.36306 12 3C12 9.36306 14.7134 12 21 12C14.7134 12 12 14.7134 12 21C12 14.7134 9.26752 12 3 12Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["spark"],
+    tags: ["spark", "magic", "glitter", "shine", "light", "new", "idea", "star", "energy", "celebration", "minimal"],
     category: "solid"
   },
   {
@@ -14791,7 +14791,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 6.5C5.13376 6.5 6.5 5.18153 6.5 2C6.5 5.18153 7.85669 6.5 11 6.5C7.85669 6.5 6.5 7.85669 6.5 11C6.5 7.85669 5.13376 6.5 2 6.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["sparks"],
+    tags: ["sparks", "magic", "glitter", "shine", "light", "new", "idea", "star", "energy", "celebration", "minimal"],
     category: "solid"
   },
   {
@@ -14802,7 +14802,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C8.68629 22 6 17.5228 6 12C6 6.47715 8.68629 2 12 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sphere"],
+    tags: ["sphere", "globe", "ball", "circle", "3d", "geometric", "round", "planet", "minimal", "abstract"],
     category: "regular"
   },
   {
@@ -14818,7 +14818,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.5 20C20.5 18.65 19.5 18 19.5 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spiral"],
+    tags: ["spiral", "helix", "coil", "swirl", "abstract", "geometric", "pattern", "growth", "hypnosis", "minimal"],
     category: "regular"
   },
   {
@@ -14832,7 +14832,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 4H20V7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["split", "area"],
+    tags: ["split", "area", "divide", "layout", "sections", "columns", "rows", "grid", "interface", "organize", "system", "minimal"],
     category: "regular"
   },
   {
@@ -14848,7 +14848,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 20H20V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["split", "square", "dashed"],
+    tags: ["split", "square", "dashed", "divide", "layout", "sections", "columns", "rows", "grid", "interface", "organize", "system", "placeholder"],
     category: "regular"
   },
   {
@@ -14861,7 +14861,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 12.5L18 7.5L18.2475 6.01515C18.3869 5.17836 17.8216 4.38694 16.9848 4.24747V4.24747C16.16 4.11 15.3767 4.65763 15.2226 5.47955L14 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spock", "hand", "gesture"],
+    tags: ["spock", "hand", "gesture", "vulcan", "live long and prosper", "star trek", "greeting", "peace", "salute", "hand sign", "culture", "fandom", "friendly"],
     category: "regular"
   },
   {
@@ -14874,7 +14874,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spotify"],
+    tags: ["spotify", "music", "streaming", "audio", "app", "playlist", "podcast", "social media", "brand", "entertainment"],
     category: "regular"
   },
   {
@@ -14886,7 +14886,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 22C21.5523 22 22 21.5523 22 21C22 20.4477 21.5523 20 21 20C20.4477 20 20 20.4477 20 21C20 21.5523 20.4477 22 21 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "3d", "corner", "to", "corner"],
+    tags: ["square", "3d", "corner", "to", "box", "cube", "geometric", "perspective", "depth", "design", "abstract", "minimal", "interface"],
     category: "regular"
   },
   {
@@ -14897,7 +14897,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "3d", "from", "center"],
+    tags: ["square", "3d", "from", "center", "box", "cube", "geometric", "perspective", "depth", "design", "abstract", "minimal", "interface"],
     category: "regular"
   },
   {
@@ -14915,7 +14915,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 4C21.5523 4 22 3.55228 22 3C22 2.44772 21.5523 2 21 2C20.4477 2 20 2.44772 20 3C20 3.55228 20.4477 4 21 4Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "3d", "three", "points"],
+    tags: ["square", "3d", "three", "points", "box", "cube", "geometric", "perspective", "depth", "design", "abstract", "minimal", "interface"],
     category: "regular"
   },
   {
@@ -14926,7 +14926,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.879 16.9176C21.373 17.2216 21.342 17.9606 20.834 18.0186L18.267 18.3096L17.116 20.6216C16.888 21.0806 16.183 20.8556 16.066 20.2876L14.811 14.1716C14.712 13.6916 15.144 13.3896 15.561 13.6466L20.879 16.9176Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["square", "cursor"],
+    tags: ["square", "cursor", "pointer", "mouse", "selection", "click", "input", "interface", "control", "system", "tool", "minimal"],
     category: "solid"
   },
   {
@@ -14943,7 +14943,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 20H20V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "dashed"],
+    tags: ["square", "dashed", "box", "outline", "placeholder", "border", "selection", "area", "geometric", "minimal", "ui"],
     category: "regular"
   },
   {
@@ -14955,7 +14955,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 12H9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "wave"],
+    tags: ["square", "wave", "audio", "sound", "frequency", "waveform", "signal", "music", "equalizer", "tech", "system", "minimal"],
     category: "regular"
   },
   {
@@ -14965,7 +14965,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square"],
+    tags: ["square", "box", "geometric", "shape", "minimal", "basic", "frame", "ui", "container", "filled"],
     category: "regular"
   },
   {
@@ -14980,7 +14980,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.0338 8.80409L15.1085 2.5" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stackoverflow"],
+    tags: ["stackoverflow", "development", "programming", "code", "community", "qa", "tech", "social media", "brand", "education"],
     category: "regular"
   },
   {
@@ -14999,7 +14999,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 8.4666L8.58737 8.23591L9.39062 6.61792" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "dashed"],
+    tags: ["star", "dashed", "favorite", "rating", "wishlist", "quality", "achievement", "award", "outline", "placeholder", "minimal"],
     category: "regular"
   },
   {
@@ -15015,7 +15015,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15.4126 8.23597L12.8151 3.00376C12.6484 2.66792 12.3242 2.5 12 2.5V18.678L17.1945 21.3941C17.8614 21.7428 18.6409 21.1798 18.5135 20.4414L17.5217 14.6918L21.7243 10.6219C22.2638 10.0994 21.9668 9.18848 21.2215 9.08017L15.4126 8.23597Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "half", "dashed"],
+    tags: ["star", "half", "dashed", "favorite", "rating", "wishlist", "quality", "achievement", "award", "outline", "placeholder", "half filled", "minimal"],
     category: "regular"
   },
   {
@@ -15025,7 +15025,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.58737 8.23597L11.1849 3.00376C11.5183 2.33208 12.4817 2.33208 12.8151 3.00376L15.4126 8.23597L21.2215 9.08017C21.9668 9.18848 22.2638 10.0994 21.7243 10.6219L17.5217 14.6918L18.5135 20.4414C18.6409 21.1798 17.8614 21.7428 17.1945 21.3941L12 18.678L6.80547 21.3941C6.1386 21.7428 5.35909 21.1798 5.48645 20.4414L6.47825 14.6918L2.27575 10.6219C1.73617 10.0994 2.03322 9.18848 2.77852 9.08017L8.58737 8.23597Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["star"],
+    tags: ["star", "favorite", "rating", "wishlist", "quality", "achievement", "award", "filled", "minimal", "important", "highlight"],
     category: "solid"
   },
   {
@@ -15036,7 +15036,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 4V12M16 12L19 9M16 12L13 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stat", "down"],
+    tags: ["stat", "down", "statistics", "chart", "graph", "decline", "decrease", "loss", "trend", "analytics", "business", "finance"],
     category: "regular"
   },
   {
@@ -15047,7 +15047,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 14L12 6L15 9L20 4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stat", "up"],
+    tags: ["stat", "up", "chart", "graph", "increase", "growth", "performance", "analytics", "trend", "line", "arrow"],
     category: "regular"
   },
   {
@@ -15057,7 +15057,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM8.75 8C8.75 7.58579 8.41421 7.25 8 7.25C7.58579 7.25 7.25 7.58579 7.25 8V16C7.25 16.4142 7.58579 16.75 8 16.75C8.41421 16.75 8.75 16.4142 8.75 16V8ZM12 10.25C12.4142 10.25 12.75 10.5858 12.75 11V16C12.75 16.4142 12.4142 16.75 12 16.75C11.5858 16.75 11.25 16.4142 11.25 16V11C11.25 10.5858 11.5858 10.25 12 10.25ZM16.75 13C16.75 12.5858 16.4142 12.25 16 12.25C15.5858 12.25 15.25 12.5858 15.25 13V16C15.25 16.4142 15.5858 16.75 16 16.75C16.4142 16.75 16.75 16.4142 16.75 16V13Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["stats", "down", "square"],
+    tags: ["stats", "down", "square", "chart", "graph", "decrease", "decline", "loss", "analytics", "trend", "geometric", "arrow"],
     category: "solid"
   },
   {
@@ -15071,7 +15071,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["stats", "report"],
+    tags: ["stats", "report", "chart", "graph", "document", "analysis", "data", "business", "presentation", "paper", "filled"],
     category: "regular"
   },
   {
@@ -15081,7 +15081,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM16.75 8C16.75 7.58579 16.4142 7.25 16 7.25C15.5858 7.25 15.25 7.58579 15.25 8V16C15.25 16.4142 15.5858 16.75 16 16.75C16.4142 16.75 16.75 16.4142 16.75 16V8ZM12 10.25C12.4142 10.25 12.75 10.5858 12.75 11V16C12.75 16.4142 12.4142 16.75 12 16.75C11.5858 16.75 11.25 16.4142 11.25 16V11C11.25 10.5858 11.5858 10.25 12 10.25ZM8.75 13C8.75 12.5858 8.41421 12.25 8 12.25C7.58579 12.25 7.25 12.5858 7.25 13V16C7.25 16.4142 7.58579 16.75 8 16.75C8.41421 16.75 8.75 16.4142 8.75 16V13Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["stats", "up", "square"],
+    tags: ["stats", "up", "square", "chart", "graph", "increase", "growth", "performance", "analytics", "trend", "geometric", "arrow"],
     category: "solid"
   },
   {
@@ -15094,7 +15094,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 20.2426L18.1213 18.1213M18.1213 18.1213L20.2426 16M18.1213 18.1213L16 16M18.1213 18.1213L20.2426 20.2426" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["strategy"],
+    tags: ["strategy", "plan", "direction", "goal", "target", "solution", "chess", "pawn", "planning", "business"],
     category: "regular"
   },
   {
@@ -15106,7 +15106,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14.8181 15.2857H16.9999V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stretching"],
+    tags: ["stretching", "exercise", "yoga", "flexibility", "warmup", "fitness", "body", "health", "person", "movement"],
     category: "regular"
   },
   {
@@ -15117,7 +15117,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.2857 3L10.068 3C7.82129 3 6 4.82129 6 7.06797C6 8.81895 7.12044 10.3735 8.78157 10.9272L12 12M6 21H13.932C16.1787 21 18 19.1787 18 16.932C18 16.2409 17.8255 15.5804 17.512 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["strikethrough"],
+    tags: ["strikethrough", "text", "edit", "format", "cancel", "delete", "typography", "line", "ui", "editor"],
     category: "regular"
   },
   {
@@ -15132,7 +15132,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3.5 12H19.5" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stroller"],
+    tags: ["stroller", "baby", "pram", "child", "transport", "parenting", "infant", "care", "wheeled"],
     category: "regular"
   },
   {
@@ -15143,7 +15143,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 5H8C6.34315 5 5 6.34315 5 8V16C5 17.6569 6.34315 19 8 19H16C17.6569 19 19 17.6569 19 16V8C19 6.34315 17.6569 5 16 5Z" fill="currentColor" stroke-miterlimit="1.5"/>
 </svg>`,
     style: "solid",
-    tags: ["style", "border"],
+    tags: ["style", "border", "design", "layout", "frame", "outline", "ui", "editor", "box", "geometric", "square"],
     category: "solid"
   },
   {
@@ -15155,7 +15155,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 19H22M22 19L19 16M22 19L19 22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["submit", "document"],
+    tags: ["submit", "document", "upload", "send", "form", "application", "file", "paper", "arrow", "filled", "report"],
     category: "regular"
   },
   {
@@ -15171,7 +15171,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.5 9H9.6C9.26863 9 9 9.26863 9 9.6V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["substract"],
+    tags: ["substract", "minus", "remove", "decrease", "math", "operation", "calculation", "line", "ui", "minimal"],
     category: "regular"
   },
   {
@@ -15182,7 +15182,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 7L13.4254 9.57457L16 11L13.4254 12.4254L12 15L10.5746 12.4254L8 11L10.5746 9.57457L12 7Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["suggestion"],
+    tags: ["suggestion", "idea", "lightbulb", "hint", "solution", "feedback", "innovation", "creative", "thought", "bulb"],
     category: "regular"
   },
   {
@@ -15192,7 +15192,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 7H4C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7H16M8 7V3.6C8 3.26863 8.26863 3 8.6 3H15.4C15.7314 3 16 3.26863 16 3.6V7M8 7H16" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["suitcase"],
+    tags: ["suitcase", "luggage", "travel", "bag", "briefcase", "business", "vacation", "trip", "journey", "box"],
     category: "regular"
   },
   {
@@ -15210,7 +15210,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M1 12L2 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "light"],
+    tags: ["sun", "light", "weather", "day", "bright", "shine", "summer", "nature", "warm", "circle", "rays"],
     category: "regular"
   },
   {
@@ -15224,7 +15224,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 18V20.4C4 20.7314 4.26863 21 4.6 21H19.4C19.7314 21 20 20.7314 20 20.4V18" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["svg", "format"],
+    tags: ["svg", "format", "file", "image", "vector", "graphic", "code", "document", "programming", "markup", "web"],
     category: "regular"
   },
   {
@@ -15239,7 +15239,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15.5 21L21.5 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sweep", "3d"],
+    tags: ["sweep", "3d", "design", "modeling", "three-dimensional", "tool", "software", "geometric", "perspective", "engineering"],
     category: "regular"
   },
   {
@@ -15252,7 +15252,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.5 8C17.8807 8 19 6.88071 19 5.5C19 4.11929 17.8807 3 16.5 3C15.1193 3 14 4.11929 14 5.5C14 6.88071 15.1193 8 16.5 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swimming"],
+    tags: ["swimming", "sport", "pool", "water", "exercise", "fitness", "person", "activity", "health", "recreation"],
     category: "regular"
   },
   {
@@ -15262,7 +15262,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 14C15.3137 14 18 11.3137 18 8C18 4.68629 15.3137 2 12 2C8.68629 2 6 4.68629 6 8C6 11.3137 8.68629 14 12 14ZM12 14V22M12 22L9 19M12 22L15 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "gesture"],
+    tags: ["swipe", "down", "gesture", "touch", "mobile", "scroll", "ui", "interaction", "finger", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15272,7 +15272,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 12C10 15.3137 12.6863 18 16 18C19.3137 18 22 15.3137 22 12C22 8.68629 19.3137 6 16 6C12.6863 6 10 8.68629 10 12ZM10 12H2M2 12L5 9M2 12L5 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "gesture"],
+    tags: ["swipe", "left", "gesture", "touch", "mobile", "navigate", "ui", "interaction", "finger", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15282,7 +15282,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 12C14 15.3137 11.3137 18 8 18C4.68629 18 2 15.3137 2 12C2 8.68629 4.68629 6 8 6C11.3137 6 14 8.68629 14 12ZM14 12H22M22 12L19 9M22 12L19 15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "gesture"],
+    tags: ["swipe", "right", "gesture", "touch", "mobile", "navigate", "ui", "interaction", "finger", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15293,7 +15293,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.5 12C15.567 12 14 10.433 14 8.5C14 6.567 15.567 5 17.5 5C19.433 5 21 6.567 21 8.5C21 10.433 19.433 12 17.5 12ZM17.5 12V19M17.5 19L20 16.6M17.5 19L15 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "two", "fingers", "down", "gesture"],
+    tags: ["swipe", "two", "fingers", "down", "gesture", "touch", "mobile", "scroll", "ui", "interaction", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15304,7 +15304,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 6.5C12 8.433 13.567 10 15.5 10C17.433 10 19 8.433 19 6.5C19 4.567 17.433 3 15.5 3C13.567 3 12 4.567 12 6.5ZM12 6.5H5M5 6.5L7.4 4M5 6.5L7.4 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "two", "fingers", "left", "gesture"],
+    tags: ["swipe", "two", "fingers", "left", "gesture", "touch", "mobile", "navigate", "ui", "interaction", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15315,7 +15315,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 6.5C12 8.433 10.433 10 8.5 10C6.567 10 5 8.433 5 6.5C5 4.567 6.567 3 8.5 3C10.433 3 12 4.567 12 6.5ZM12 6.5H19M19 6.5L16.6 4M19 6.5L16.6 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "two", "fingers", "right", "gesture"],
+    tags: ["swipe", "two", "fingers", "right", "gesture", "touch", "mobile", "navigate", "ui", "interaction", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15326,7 +15326,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.5 12C15.567 12 14 13.567 14 15.5C14 17.433 15.567 19 17.5 19C19.433 19 21 17.433 21 15.5C21 13.567 19.433 12 17.5 12ZM17.5 12V5M17.5 5L20 7.4M17.5 5L15 7.4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "two", "fingers", "up", "gesture"],
+    tags: ["swipe", "two", "fingers", "up", "gesture", "touch", "mobile", "scroll", "ui", "interaction", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15336,7 +15336,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 10C8.68629 10 6 12.6863 6 16C6 19.3137 8.68629 22 12 22C15.3137 22 18 19.3137 18 16C18 12.6863 15.3137 10 12 10ZM12 10V2M12 2L15 5M12 2L9 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "up", "gesture"],
+    tags: ["swipe", "up", "gesture", "touch", "mobile", "scroll", "ui", "interaction", "finger", "arrow", "hand"],
     category: "regular"
   },
   {
@@ -15347,7 +15347,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 17H7C4.23858 17 2 14.7614 2 12C2 9.23858 4.23858 7 7 7H17C19.7614 7 22 9.23858 22 12C22 14.7614 19.7614 17 17 17Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["switch", "off"],
+    tags: ["switch", "off", "toggle", "inactive", "disabled", "control", "setting", "ui", "button", "minimal"],
     category: "regular"
   },
   {
@@ -15358,7 +15358,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 17H7C4.23858 17 2 14.7614 2 12C2 9.23858 4.23858 7 7 7H17C19.7614 7 22 9.23858 22 12C22 14.7614 19.7614 17 17 17Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["switch", "on"],
+    tags: ["switch", "on", "toggle", "active", "enabled", "control", "setting", "ui", "button", "minimal"],
     category: "regular"
   },
   {
@@ -15375,7 +15375,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.75732 16.2427L4.9289 19.0711" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["system", "restart"],
+    tags: ["system", "restart", "reboot", "refresh", "power", "reload", "process", "circular", "arrow", "device"],
     category: "regular"
   },
   {
@@ -15386,7 +15386,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["system", "shut"],
+    tags: ["system", "shut", "power", "off", "shutdown", "logout", "control", "device", "button", "minimal"],
     category: "regular"
   },
   {
@@ -15400,7 +15400,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 21V3" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["table", "2", "columns"],
+    tags: ["table", "2", "columns", "grid", "data", "layout", "spreadsheet", "database", "structure", "minimal", "ui"],
     category: "regular"
   },
   {
@@ -15410,7 +15410,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 12H7.5H12H16.5H21M3 12V16.5M3 12V7.5M21 12V16.5M21 12V7.5M3 16.5V20.4C3 20.7314 3.26863 21 3.6 21H7.5H12H16.5H20.4C20.7314 21 21 20.7314 21 20.4V16.5M3 16.5H7.5H12H16.5H21M21 7.5V3.6C21 3.26863 20.7314 3 20.4 3H16.5H12H7.5H3.6C3.26863 3 3 3.26863 3 3.6V7.5M21 7.5H16.5H12H7.5H3" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["table", "rows"],
+    tags: ["table", "rows", "grid", "data", "layout", "spreadsheet", "database", "structure", "minimal", "ui"],
     category: "regular"
   },
   {
@@ -15426,7 +15426,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.5 3V21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["table"],
+    tags: ["table", "grid", "data", "layout", "spreadsheet", "database", "structure", "minimal", "ui"],
     category: "regular"
   },
   {
@@ -15441,7 +15441,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 18L20 18" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "list"],
+    tags: ["task", "list", "todo", "checklist", "project", "management", "workflow", "productivity", "document", "ui"],
     category: "regular"
   },
   {
@@ -15452,7 +15452,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["telegram", "circle"],
+    tags: ["telegram", "circle", "social media", "chat", "messaging", "app", "communication", "brand", "logo", "rounded"],
     category: "regular"
   },
   {
@@ -15462,7 +15462,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 5L2 12.5L9 13.5M21 5L18.5 20L9 13.5M21 5L9 13.5M9 13.5V19L12.2488 15.7229" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["telegram"],
+    tags: ["telegram", "social media", "chat", "messaging", "app", "communication", "brand", "logo", "paper plane"],
     category: "regular"
   },
   {
@@ -15478,7 +15478,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 6V18M19 18L21.5 15.5M19 18L16.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["temperature", "down"],
+    tags: ["temperature", "down", "cold", "weather", "climate", "thermometer", "decrease", "gauge", "arrow", "measurement"],
     category: "regular"
   },
   {
@@ -15494,7 +15494,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 14C7.89543 14 7 14.8954 7 16C7 17.1046 7.89543 18 9 18C10.1046 18 11 17.1046 11 16C11 14.8954 10.1046 14 9 14ZM9 14V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["temperature", "high"],
+    tags: ["temperature", "high", "hot", "weather", "climate", "thermometer", "increase", "gauge", "measurement", "warning"],
     category: "regular"
   },
   {
@@ -15510,7 +15510,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 14C7.89543 14 7 14.8954 7 16C7 17.1046 7.89543 18 9 18C10.1046 18 11 17.1046 11 16C11 14.8954 10.1046 14 9 14ZM9 14V11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["temperature", "low"],
+    tags: ["temperature", "low", "cold", "weather", "climate", "thermometer", "decrease", "gauge", "measurement", "arrow"],
     category: "regular"
   },
   {
@@ -15526,7 +15526,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 18V6M19 6L21.5 8.5M19 6L16.5 8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["temperature", "up"],
+    tags: ["temperature", "up", "hot", "weather", "climate", "thermometer", "increase", "gauge", "arrow", "measurement"],
     category: "regular"
   },
   {
@@ -15538,7 +15538,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.0776 21.8136C9.71062 15.8444 7.11402 11.3472 2.53992 8.75793" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tennis", "ball", "alt"],
+    tags: ["tennis", "ball", "alt", "sport", "game", "play", "equipment", "activity", "circular", "striped", "recreation"],
     category: "regular"
   },
   {
@@ -15550,7 +15550,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5.42834 4.46234C8.09501 8.99175 8.09513 14.1847 5.42834 19.5377" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tennis", "ball"],
+    tags: ["tennis", "ball", "sport", "game", "play", "equipment", "activity", "circular", "striped", "recreation"],
     category: "regular"
   },
   {
@@ -15562,7 +15562,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 18V6C2 4.89543 2.89543 4 4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["terminal", "tag"],
+    tags: ["terminal", "tag", "code", "programming", "console", "cli", "development", "command", "label", "coding"],
     category: "regular"
   },
   {
@@ -15573,7 +15573,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 7L10 12L5 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["terminal"],
+    tags: ["terminal", "code", "programming", "console", "cli", "development", "command", "coding", "monitor"],
     category: "regular"
   },
   {
@@ -15584,7 +15584,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5583 1.99371C13.7959 1.65441 14.2636 1.57195 14.6029 1.80953L21.1561 6.39814C21.369 6.54723 21.4895 6.79594 21.4747 7.05545C21.4598 7.31496 21.3116 7.54825 21.083 7.67202L19.2724 8.65245L12.0739 18.933C11.5304 19.7091 10.7201 20.6462 9.6421 21.1331C8.49558 21.6509 7.14555 21.6137 5.71157 20.6097C4.27759 19.6056 3.78098 18.3497 3.8754 17.0952C3.96418 15.9157 4.56765 14.8337 5.11109 14.0576L13.5583 1.99371ZM14.3569 3.46844L9.5327 10.358C12 10.85 12.9 9.5 16.2932 10.292L18.1452 7.64705C18.212 7.55167 18.3001 7.47315 18.4025 7.41771L19.3016 6.93082L14.3569 3.46844Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["test", "tube"],
+    tags: ["test", "tube", "science", "experiment", "laboratory", "chemistry", "research", "medical", "analysis", "tool"],
     category: "solid"
   },
   {
@@ -15596,7 +15596,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 7V5L3 5L3 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "arrows", "up", "down"],
+    tags: ["text", "arrows", "up", "down", "typography", "font", "sizing", "adjust", "vertical", "direction", "editor", "ui"],
     category: "regular"
   },
   {
@@ -15609,7 +15609,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M1.5 13.5V10.5H4.5V13.5H1.5Z" stroke="currentColor" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "box"],
+    tags: ["text", "box", "input", "field", "editor", "document", "form", "content", "square", "ui"],
     category: "regular"
   },
   {
@@ -15622,7 +15622,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 7V5L3 5L3 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "magnifying", "glass"],
+    tags: ["text", "magnifying", "glass", "search", "find", "zoom", "read", "document", "content", "loupe", "ui"],
     category: "regular"
   },
   {
@@ -15635,7 +15635,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 12V19M17 19H15.5M17 19H18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "size"],
+    tags: ["text", "size", "typography", "font", "scale", "adjust", "editor", "accessibility", "ui", "measurement"],
     category: "regular"
   },
   {
@@ -15645,7 +15645,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM6.25 7C6.25 6.58579 6.58579 6.25 7 6.25H12H17C17.1989 6.25 17.3897 6.32902 17.5303 6.46967C17.671 6.61032 17.75 6.80109 17.75 7V9C17.75 9.41421 17.4142 9.75 17 9.75C16.5858 9.75 16.25 9.41421 16.25 9V7.75H12.75V16.25H14C14.4142 16.25 14.75 16.5858 14.75 17C14.75 17.4142 14.4142 17.75 14 17.75H12H10C9.58579 17.75 9.25 17.4142 9.25 17C9.25 16.5858 9.58579 16.25 10 16.25H11.25V7.75H7.75V9C7.75 9.41421 7.41421 9.75 7 9.75C6.58579 9.75 6.25 9.41421 6.25 9V7Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["text", "square"],
+    tags: ["text", "square", "input", "field", "editor", "document", "form", "content", "box", "ui"],
     category: "solid"
   },
   {
@@ -15656,7 +15656,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 5L12 19M12 19H10M12 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text"],
+    tags: ["text", "document", "content", "paragraph", "writing", "editor", "article", "minimal", "ui"],
     category: "regular"
   },
   {
@@ -15666,7 +15666,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9.9141 8.12803C12.4185 6.11437 16.0241 7.18759 16.45 10.5C16.9018 14.014 16 16.8 12.5 16.8C9.24997 16.8 9.34997 14 9.34997 14C9.34997 11 14.5 10.6 17.5 12.1C23 15.6 19 22 13 22C8.02941 22 3.99997 19.5 3.99997 12C3.99997 4.5 8.02941 2 13 2C16.5079 2 19.6715 3.80695 20.8348 7.42085" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["threads"],
+    tags: ["threads", "social media", "app", "logo", "messaging", "connection", "communication", "network", "platform"],
     category: "regular"
   },
   {
@@ -15683,7 +15683,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 19H13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "points", "circle"],
+    tags: ["three", "points", "circle", "menu", "options", "more", "ellipsis", "context", "geometric", "circular", "overflow", "ui"],
     category: "regular"
   },
   {
@@ -15695,7 +15695,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.6349 5.41515L11.674 3.21211C11.8073 2.9293 12.1927 2.9293 12.326 3.21211L13.3651 5.41515L15.6886 5.7706C15.9867 5.8162 16.1055 6.19974 15.8897 6.41976L14.2087 8.13337L14.6054 10.5543C14.6564 10.8652 14.3446 11.1022 14.0778 10.9554L12 9.81178L9.92219 10.9554C9.65544 11.1022 9.34363 10.8652 9.39458 10.5543L9.7913 8.13337L8.1103 6.41976C7.89447 6.19974 8.01329 5.8162 8.31141 5.7706L10.6349 5.41515Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["three", "stars"],
+    tags: ["three", "stars", "rating", "review", "quality", "feedback", "achievement", "award", "favorite", "ranking", "success"],
     category: "solid"
   },
   {
@@ -15706,7 +15706,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 14.5L7 3.5" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "down"],
+    tags: ["thumbs", "down", "dislike", "disapprove", "negative", "feedback", "vote", "rejection", "unhappy", "social reaction"],
     category: "regular"
   },
   {
@@ -15717,7 +15717,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 20L7 9" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "up"],
+    tags: ["thumbs", "up", "like", "approve", "positive", "feedback", "vote", "acceptance", "happy", "social reaction"],
     category: "regular"
   },
   {
@@ -15728,7 +15728,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thunderstorm"],
+    tags: ["thunderstorm", "weather", "storm", "lightning", "rain", "forecast", "climate", "danger", "severe"],
     category: "regular"
   },
   {
@@ -15743,7 +15743,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 18V20.4C4 20.7314 4.26863 21 4.6 21H19.4C19.7314 21 20 20.7314 20 20.4V18" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tif", "format"],
+    tags: ["tif", "format", "file type", "document", "image", "graphic", "extension", "data", "storage"],
     category: "regular"
   },
   {
@@ -15760,7 +15760,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 15L9 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tiff", "format"],
+    tags: ["tiff", "format", "file type", "document", "image", "graphic", "extension", "data", "storage"],
     category: "regular"
   },
   {
@@ -15770,7 +15770,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21.75C19.1756 21.75 21.75 19.1756 21.75 16V8C21.75 4.82436 19.1756 2.25 16 2.25H8C4.82436 2.25 2.25 4.82436 2.25 8V16C2.25 19.1756 4.82436 21.75 8 21.75H16ZM13.7115 5.7629C13.5952 5.41393 13.243 5.20083 12.8799 5.25975C12.5168 5.31867 12.25 5.63223 12.25 6.00007V15.0001C12.25 16.2427 11.2426 17.2501 10 17.2501C8.75736 17.2501 7.75 16.2427 7.75 15.0001C7.75 13.7574 8.75736 12.7501 10 12.7501C10.4142 12.7501 10.75 12.4143 10.75 12.0001C10.75 11.5859 10.4142 11.2501 10 11.2501C7.92893 11.2501 6.25 12.929 6.25 15.0001C6.25 17.0711 7.92893 18.7501 10 18.7501C12.0711 18.7501 13.75 17.0711 13.75 15.0001V8.45786C14.5169 9.17047 15.5973 9.75007 17 9.75007C17.4142 9.75007 17.75 9.41428 17.75 9.00007C17.75 8.58585 17.4142 8.25007 17 8.25007C16.0281 8.25007 15.2888 7.85087 14.7414 7.33115C14.1812 6.79933 13.8434 6.15846 13.7115 5.7629Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["tiktok"],
+    tags: ["tiktok", "social media", "video", "app", "logo", "entertainment", "short-form", "platform", "music"],
     category: "solid"
   },
   {
@@ -15786,7 +15786,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19 23C21.2091 23 23 21.2091 23 19C23 16.7909 21.2091 15 19 15C16.7909 15 15 16.7909 15 19C15 21.2091 16.7909 23 19 23Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "zone"],
+    tags: ["time", "zone", "world clock", "global", "travel", "scheduling", "international", "location", "map", "earth"],
     category: "regular"
   },
   {
@@ -15799,7 +15799,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6.1905 8.5C4.83275 9.93366 4 11.8696 4 14C4 18.4183 7.58172 22 12 22C14.0049 22 15.8375 21.2625 17.2413 20.044M19.4185 17C19.7935 16.0736 20 15.0609 20 14C20 9.58172 16.4183 6 12 6C11.0187 6 10.0786 6.17669 9.20988 6.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["timer", "off"],
+    tags: ["timer", "off", "stopwatch", "disabled", "inactive", "countdown", "pause", "end", "cancel", "time management"],
     category: "regular"
   },
   {
@@ -15810,7 +15810,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8.25 2C8.25 1.58579 8.58579 1.25 9 1.25L15 1.25C15.4142 1.25 15.75 1.58579 15.75 2C15.75 2.41421 15.4142 2.75 15 2.75L9 2.75C8.58579 2.75 8.25 2.41421 8.25 2Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["timer"],
+    tags: ["timer", "stopwatch", "countdown", "time management", "duration", "event", "schedule", "alarm", "clock"],
     category: "solid"
   },
   {
@@ -15823,7 +15823,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.0503 10.6066C9.2065 8.45359 9.37147 5.62861 11.111 3.8891C12.8505 2.14958 16.0607 1.76778 17.8285 2.82844L14.7878 5.86911L14.5052 8.98015L17.6162 8.69754L20.6569 5.65686C21.7176 7.42463 21.3358 10.6349 19.5963 12.3744C17.8567 14.1139 15.0318 14.2789 12.8788 13.435" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tools"],
+    tags: ["tools", "settings", "options", "maintenance", "repair", "utility", "kit", "mechanic", "wrench", "screwdriver"],
     category: "regular"
   },
   {
@@ -15836,7 +15836,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 15L8.00001 15L8.00001 21H3" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tournament"],
+    tags: ["tournament", "competition", "bracket", "championship", "sport", "game", "event", "challenge", "ranking", "contest"],
     category: "regular"
   },
   {
@@ -15847,7 +15847,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 22H7C5.89543 22 5 21.1046 5 20V11.1817C5 11.0632 4.96494 10.9474 4.89923 10.8488L3.10077 8.15115C3.03506 8.05259 3 7.93679 3 7.81833V2.6C3 2.26863 3.26863 2 3.6 2H5.4C5.73137 2 6 2.26863 6 2.6V4.4C6 4.73137 6.26863 5 6.6 5H9.4C9.73137 5 10 4.73137 10 4.4V2.6C10 2.26863 10.2686 2 10.6 2H13.4C13.7314 2 14 2.26863 14 2.6V4.4C14 4.73137 14.2686 5 14.6 5H17.4C17.7314 5 18 4.73137 18 4.4V2.6C18 2.26863 18.2686 2 18.6 2H20.4C20.7314 2 21 2.26863 21 2.6V7.81833C21 7.93679 20.9649 8.05259 20.8992 8.15115L19.1008 10.8488C19.0351 10.9474 19 11.0632 19 11.1817V13.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tower", "check"],
+    tags: ["tower", "check", "telecom", "signal", "network", "connection", "verified", "approved", "success", "communication", "cell"],
     category: "regular"
   },
   {
@@ -15858,7 +15858,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 22H7C5.89543 22 5 21.1046 5 20V11.1817C5 11.0632 4.96494 10.9474 4.89923 10.8488L3.10077 8.15115C3.03506 8.05259 3 7.93679 3 7.81833V2.6C3 2.26863 3.26863 2 3.6 2H5.4C5.73137 2 6 2.26863 6 2.6V4.4C6 4.73137 6.26863 5 6.6 5H9.4C9.73137 5 10 4.73137 10 4.4V2.6C10 2.26863 10.2686 2 10.6 2H13.4C13.7314 2 14 2.26863 14 2.6V4.4C14 4.73137 14.2686 5 14.6 5H17.4C17.7314 5 18 4.73137 18 4.4V2.6C18 2.26863 18.2686 2 18.6 2H20.4C20.7314 2 21 2.26863 21 2.6V7.81833C21 7.93679 20.9649 8.05259 20.8992 8.15115L20 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tower", "no", "access"],
+    tags: ["tower", "no", "access", "telecom", "signal", "network", "connection", "restricted", "blocked", "forbidden", "communication", "cell", "denied"],
     category: "regular"
   },
   {
@@ -15870,7 +15870,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 22H7C5.89543 22 5 21.1046 5 20V11.1817C5 11.0632 4.96494 10.9474 4.89923 10.8488L3.10077 8.15115C3.03506 8.05259 3 7.93679 3 7.81833V2.6C3 2.26863 3.26863 2 3.6 2H5.4C5.73137 2 6 2.26863 6 2.6V4.4C6 4.73137 6.26863 5 6.6 5H9.4C9.73137 5 10 4.73137 10 4.4V2.6C10 2.26863 10.2686 2 10.6 2H13.4C13.7314 2 14 2.26863 14 2.6V4.4C14 4.73137 14.2686 5 14.6 5H17.4C17.7314 5 18 4.73137 18 4.4V2.6C18 2.26863 18.2686 2 18.6 2H20.4C20.7314 2 21 2.26863 21 2.6V7.81833C21 7.93679 20.9649 8.05259 20.8992 8.15115L19.1008 10.8488C19.0351 10.9474 19 11.0632 19 11.1817V20C19 21.1046 18.1046 22 17 22Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tower", "warning"],
+    tags: ["tower", "warning", "telecom", "signal", "network", "connection", "alert", "caution", "problem", "error", "communication", "cell"],
     category: "regular"
   },
   {
@@ -15880,7 +15880,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 22H7C5.89543 22 5 21.1046 5 20V11.1817C5 11.0632 4.96494 10.9474 4.89923 10.8488L3.10077 8.15115C3.03506 8.05259 3 7.93679 3 7.81833V2.6C3 2.26863 3.26863 2 3.6 2H5.4C5.73137 2 6 2.26863 6 2.6V4.4C6 4.73137 6.26863 5 6.6 5H9.4C9.73137 5 10 4.73137 10 4.4V2.6C10 2.26863 10.2686 2 10.6 2H13.4C13.7314 2 14 2.26863 14 2.6V4.4C14 4.73137 14.2686 5 14.6 5H17.4C17.7314 5 18 4.73137 18 4.4V2.6C18 2.26863 18.2686 2 18.6 2H20.4C20.7314 2 21 2.26863 21 2.6V7.81833C21 7.93679 20.9649 8.05259 20.8992 8.15115L19.1008 10.8488C19.0351 10.9474 19 11.0632 19 11.1817V20C19 21.1046 18.1046 22 17 22Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tower"],
+    tags: ["tower", "telecom", "signal", "network", "connection", "communication", "broadcast", "antenna", "cell"],
     category: "regular"
   },
   {
@@ -15891,7 +15891,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trademark"],
+    tags: ["trademark", "registered", "copyright", "intellectual property", "brand", "legal", "symbol", "identity", "ownership"],
     category: "regular"
   },
   {
@@ -15908,7 +15908,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.5 19L5.5 21.5" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["train"],
+    tags: ["train", "transportation", "railway", "travel", "public transport", "locomotive", "journey", "station", "commute"],
     category: "regular"
   },
   {
@@ -15925,7 +15925,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9.6087 9H14.3913C15.832 9 17 10.168 17 11.6087C17 11.8248 16.8248 12 16.6087 12H7.3913C7.17519 12 7 11.8248 7 11.6087C7 10.168 8.16795 9 9.6087 9Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tram"],
+    tags: ["tram", "transportation", "streetcar", "public transport", "city", "urban", "travel", "commute", "rail"],
     category: "regular"
   },
   {
@@ -15937,7 +15937,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 9.25C12.4142 9.25 12.75 9.58579 12.75 10V16.1893L14.4697 14.4697C14.7626 14.1768 15.2374 14.1768 15.5303 14.4697C15.8232 14.7626 15.8232 15.2374 15.5303 15.5303L12.5303 18.5303C12.2374 18.8232 11.7626 18.8232 11.4697 18.5303L8.46967 15.5303C8.17678 15.2374 8.17678 14.7626 8.46967 14.4697C8.76256 14.1768 9.23744 14.1768 9.53033 14.4697L11.25 16.1893V10C11.25 9.58579 11.5858 9.25 12 9.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["transition", "down"],
+    tags: ["transition", "down", "animation", "move", "scroll", "direction", "arrow", "downward", "flow", "change", "ui"],
     category: "solid"
   },
   {
@@ -15949,7 +15949,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53033 8.46967C9.82322 8.76256 9.82322 9.23744 9.53033 9.53033L7.81066 11.25H14C14.4142 11.25 14.75 11.5858 14.75 12C14.75 12.4142 14.4142 12.75 14 12.75H7.81066L9.53033 14.4697C9.82322 14.7626 9.82322 15.2374 9.53033 15.5303C9.23744 15.8232 8.76256 15.8232 8.46967 15.5303L5.46967 12.5303C5.17678 12.2374 5.17678 11.7626 5.46967 11.4697L8.46967 8.46967C8.76256 8.17678 9.23744 8.17678 9.53033 8.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["transition", "left"],
+    tags: ["transition", "left", "animation", "move", "direction", "arrow", "leftward", "flow", "change", "previous", "ui"],
     category: "solid"
   },
   {
@@ -15961,7 +15961,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M14.4697 8.46967C14.7626 8.17678 15.2374 8.17678 15.5303 8.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L15.5303 15.5303C15.2374 15.8232 14.7626 15.8232 14.4697 15.5303C14.1768 15.2374 14.1768 14.7626 14.4697 14.4697L16.1893 12.75H10C9.58579 12.75 9.25 12.4142 9.25 12C9.25 11.5858 9.58579 11.25 10 11.25H16.1893L14.4697 9.53033C14.1768 9.23744 14.1768 8.76256 14.4697 8.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["transition", "right"],
+    tags: ["transition", "right", "animation", "move", "direction", "arrow", "rightward", "flow", "change", "next", "ui"],
     category: "solid"
   },
   {
@@ -15973,7 +15973,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4697 5.46967C11.7626 5.17678 12.2374 5.17678 12.5303 5.46967L15.5303 8.46967C15.8232 8.76256 15.8232 9.23744 15.5303 9.53033C15.2374 9.82322 14.7626 9.82322 14.4697 9.53033L12.75 7.81066V14C12.75 14.4142 12.4142 14.75 12 14.75C11.5858 14.75 11.25 14.4142 11.25 14V7.81066L9.53033 9.53033C9.23744 9.82322 8.76256 9.82322 8.46967 9.53033C8.17678 9.23744 8.17678 8.76256 8.46967 8.46967L11.4697 5.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["transition", "up"],
+    tags: ["transition", "up", "animation", "move", "scroll", "direction", "arrow", "upward", "flow", "change", "ui"],
     category: "solid"
   },
   {
@@ -15984,7 +15984,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13.5 21L14.6429 18M21.5 21L20.3571 18M14.6429 18L17.5 10.5L20.3571 18M14.6429 18H20.3571" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["translate"],
+    tags: ["translate", "language", "conversion", "communication", "global", "localization", "speech bubble", "intercultural", "exchange"],
     category: "regular"
   },
   {
@@ -15996,7 +15996,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 6H15.375M3 6H8.625M8.625 6V4C8.625 2.89543 9.52043 2 10.625 2H13.375C14.4796 2 15.375 2.89543 15.375 4V6M8.625 6H15.375" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "solid",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "waste", "junk", "clear", "discard", "outline"],
     category: "solid"
   },
   {
@@ -16012,7 +16012,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.8914 21.7103L18.6509 19.5374" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["treadmill"],
+    tags: ["treadmill", "exercise", "fitness", "workout", "gym", "running", "cardio", "health", "machine"],
     category: "regular"
   },
   {
@@ -16025,7 +16025,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 18H16.5C19.5376 18 22 15.5376 22 12.5C22 9.63102 19.8033 7.27508 17 7.02246" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree"],
+    tags: ["tree", "nature", "plant", "forest", "wood", "environment", "growth", "life", "eco"],
     category: "regular"
   },
   {
@@ -16039,7 +16039,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 6.5C13.1046 6.5 14 5.60457 14 4.5C14 3.39543 13.1046 2.5 12 2.5C10.8954 2.5 10 3.39543 10 4.5C10 5.60457 10.8954 6.5 12 6.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trekking"],
+    tags: ["trekking", "hiking", "adventure", "mountain", "outdoors", "explore", "journey", "walking", "sport"],
     category: "regular"
   },
   {
@@ -16051,7 +16051,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.4 6H13.6C13.2686 6 13 6.26863 13 6.6V13.4C13 13.7314 13.2686 14 13.6 14H17.4C17.7314 14 18 13.7314 18 13.4V6.6C18 6.26863 17.7314 6 17.4 6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trello"],
+    tags: ["trello", "project management", "kanban", "workflow", "collaboration", "task", "board", "productivity", "app"],
     category: "regular"
   },
   {
@@ -16061,7 +16061,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 21.5V15.5M9 15.5V6.99654C9 6.5444 9.48113 6.25472 9.88073 6.46627L16.5505 9.99731C16.9654 10.217 16.9787 10.8067 16.5739 11.0447L9 15.5ZM22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle", "flag", "circle"],
+    tags: ["triangle", "flag", "circle", "goal", "finish line", "destination", "achievement", "marker", "location", "race", "rounded"],
     category: "regular"
   },
   {
@@ -16072,7 +16072,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 11.0001L14.5 6.52393" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle", "flag", "two", "stripes"],
+    tags: ["triangle", "flag", "two", "stripes", "goal", "finish line", "destination", "achievement", "marker", "race", "striped", "pennant"],
     category: "regular"
   },
   {
@@ -16082,7 +16082,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 21L8 16M8 16V3.57709C8 3.10699 8.5161 2.81949 8.91581 3.06693L17.7061 8.50854C18.0775 8.73848 18.0866 9.2756 17.7231 9.51793L8 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle", "flag"],
+    tags: ["triangle", "flag", "goal", "finish line", "destination", "achievement", "marker", "race", "pennant", "outline"],
     category: "regular"
   },
   {
@@ -16092,7 +16092,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.4752 2.94682C11.7037 2.53464 12.2963 2.53464 12.5248 2.94682L21.8985 19.8591C22.1202 20.259 21.831 20.75 21.3738 20.75H2.62625C2.16902 20.75 1.87981 20.259 2.10146 19.8591L11.4752 2.94682Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle"],
+    tags: ["triangle", "geometric", "shape", "delta", "warning", "alert", "minimal", "abstract", "outline"],
     category: "regular"
   },
   {
@@ -16105,7 +16105,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.50662 20C8.50662 18.1714 12.0292 17.2571 12.0292 17.2571C12.0292 17.2571 15.5519 18.1714 15.5519 20H8.50662Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trophy"],
+    tags: ["trophy", "award", "prize", "winner", "achievement", "success", "victory", "competition", "celebration"],
     category: "regular"
   },
   {
@@ -16120,7 +16120,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19.8022 21.4245L19.6677 21.4372C17.9758 21.5961 16.469 20.3541 16.3021 18.663C16.1353 16.9719 17.3715 15.4721 19.0634 15.3131L22.049 15.0326C22.2406 15.0146 22.4111 15.1552 22.43 15.3466L22.6847 17.9276C22.8589 19.6929 21.5683 21.2586 19.8022 21.4245Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["truck", "green"],
+    tags: ["truck", "green", "delivery", "logistics", "transportation", "shipping", "cargo", "vehicle", "eco", "filled"],
     category: "regular"
   },
   {
@@ -16136,7 +16136,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 20H20.75M3 20L4.75 21.75M3 20L4.75 18.25M20.75 20L19 21.75M20.75 20L19 18.25" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["truck", "length"],
+    tags: ["truck", "length", "delivery", "logistics", "transportation", "shipping", "cargo", "vehicle", "measurement", "dimensions"],
     category: "regular"
   },
   {
@@ -16151,7 +16151,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 17H15" stroke="currentColor"   stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "logistics", "transportation", "shipping", "cargo", "vehicle", "lorry", "outline"],
     category: "regular"
   },
   {
@@ -16165,7 +16165,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 21H21V12C21 9.61305 20.0518 7.32387 18.364 5.63604C16.6761 3.94821 14.3869 3 12 3C9.61305 3 7.32387 3.94821 5.63604 5.63604C3.94821 7.32387 3 9.61305 3 12V21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tunnel"],
+    tags: ["tunnel", "underground", "passage", "road", "path", "transportation", "dark", "abstract", "entrance"],
     category: "regular"
   },
   {
@@ -16179,7 +16179,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 2.5L12 6L15.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv", "fix"],
+    tags: ["tv", "fix", "television", "repair", "maintenance", "service", "screen", "broken", "electronics", "support"],
     category: "regular"
   },
   {
@@ -16192,7 +16192,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 2.5L12 6L15.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv", "warning"],
+    tags: ["tv", "warning", "television", "alert", "error", "caution", "screen", "problem", "electronics", "notification"],
     category: "regular"
   },
   {
@@ -16203,7 +16203,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 2.5L12 6L15.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv"],
+    tags: ["tv", "television", "screen", "display", "entertainment", "media", "electronics", "monitor", "broadcast"],
     category: "regular"
   },
   {
@@ -16213,7 +16213,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["twitter"],
+    tags: ["twitter", "social media", "x", "microblogging", "network", "bird", "app", "platform", "communication"],
     category: "regular"
   },
   {
@@ -16230,7 +16230,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6.5 6.5L5 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "points", "circle"],
+    tags: ["two", "points", "circle", "connection", "relationship", "link", "nodes", "network", "circular", "geometric", "abstract"],
     category: "regular"
   },
   {
@@ -16244,7 +16244,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M22 16L22 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "seater", "sofa"],
+    tags: ["two", "seater", "sofa", "furniture", "couch", "living room", "home", "comfort", "seating", "interior", "minimal"],
     category: "regular"
   },
   {
@@ -16255,7 +16255,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9.5 11.5L10 10.4M14.5 11.5L14 10.4M14 10.4L12 6L10 10.4M14 10.4H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["type"],
+    tags: ["type", "text", "font", "typography", "writing", "editor", "content", "alphabet", "design"],
     category: "regular"
   },
   {
@@ -16266,7 +16266,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 11C10.4379 12.5621 9.5621 13.4379 8 15C6.4379 13.4379 5.5621 12.5621 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["u", "turn", "arrow", "left"],
+    tags: ["u", "turn", "arrow", "left", "direction", "navigation", "reverse", "turn back", "road", "path", "loop"],
     category: "regular"
   },
   {
@@ -16277,7 +16277,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 11C13.5621 12.5621 14.4379 13.4379 16 15C17.5621 13.4379 18.4379 12.5621 20 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["u", "turn", "arrow", "right"],
+    tags: ["u", "turn", "arrow", "right", "direction", "navigation", "reverse", "turn back", "road", "path", "loop"],
     category: "regular"
   },
   {
@@ -16288,7 +16288,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 12C12 12 12 16.0948 12 20C12 24 6 24 6 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["umbrella"],
+    tags: ["umbrella", "rain", "weather", "protection", "shelter", "accessory", "storm", "cover", "outline"],
     category: "regular"
   },
   {
@@ -16298,7 +16298,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM8 5.25C8.41421 5.25 8.75 5.58579 8.75 6V10C8.75 11.7949 10.2051 13.25 12 13.25C13.7949 13.25 15.25 11.7949 15.25 10V6C15.25 5.58579 15.5858 5.25 16 5.25C16.4142 5.25 16.75 5.58579 16.75 6V10C16.75 12.6234 14.6234 14.75 12 14.75C9.37665 14.75 7.25 12.6234 7.25 10V6C7.25 5.58579 7.58579 5.25 8 5.25ZM6 17.25C5.58579 17.25 5.25 17.5858 5.25 18C5.25 18.4142 5.58579 18.75 6 18.75L18 18.75C18.4142 18.75 18.75 18.4142 18.75 18C18.75 17.5858 18.4142 17.25 18 17.25L6 17.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["underline", "square"],
+    tags: ["underline", "square", "text formatting", "editor", "typography", "document", "style", "highlight", "box", "geometric"],
     category: "solid"
   },
   {
@@ -16309,7 +16309,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 19L18 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["underline"],
+    tags: ["underline", "text formatting", "editor", "typography", "document", "style", "highlight", "line"],
     category: "regular"
   },
   {
@@ -16321,7 +16321,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11.5 11.5C10.1332 10.1332 9.36683 9.36683 8 8C9.36683 6.63317 10.1332 5.86683 11.5 4.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["undo", "action"],
+    tags: ["undo", "action", "reverse", "back", "history", "edit", "arrow", "circular", "reset", "control"],
     category: "regular"
   },
   {
@@ -16331,7 +16331,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM8.85826 11.375L11.0206 13.4601C11.3188 13.7476 11.3274 14.2224 11.0399 14.5206C10.7524 14.8188 10.2776 14.8274 9.9794 14.5399L6.48037 11.1658C6.33837 11.0294 6.25 10.8375 6.25 10.625C6.25 10.4223 6.33044 10.2383 6.46114 10.1033L9.96045 6.47905C10.2482 6.18107 10.723 6.17274 11.0209 6.46045C11.3189 6.74816 11.3273 7.22296 11.0396 7.52095L8.76667 9.875H14.2V10.625C14.2 9.875 14.2004 9.875 14.2008 9.875L14.2017 9.875L14.2037 9.87501L14.2084 9.87504L14.221 9.8752C14.2307 9.87537 14.2432 9.87567 14.2582 9.87621C14.2882 9.87728 14.3285 9.87929 14.3775 9.88305C14.4755 9.89054 14.61 9.90511 14.7693 9.93355C15.0847 9.98986 15.5153 10.1038 15.9542 10.3389C16.3969 10.5761 16.8548 10.9407 17.1993 11.4944C17.5452 12.0503 17.75 12.7539 17.75 13.625C17.75 15.565 16.9211 16.6576 15.9871 17.2205C15.5443 17.4873 15.1075 17.6178 14.7852 17.6826C14.6227 17.7152 14.4852 17.732 14.3846 17.7406C14.3342 17.745 14.2927 17.7473 14.2616 17.7486C14.246 17.7492 14.2329 17.7496 14.2226 17.7498L14.2092 17.75L14.2041 17.75L14.2019 17.75L14.2009 17.75C14.2005 17.75 14.2 17.75 14.2 17V17.75H13.4C12.9858 17.75 12.65 17.4142 12.65 17C12.65 16.5858 12.9858 16.25 13.4 16.25H14.1946L14.2013 16.2498C14.2112 16.2494 14.2298 16.2484 14.256 16.2462C14.3085 16.2416 14.3898 16.2321 14.4898 16.212C14.6925 16.1712 14.9557 16.0908 15.2129 15.9358C15.6789 15.6549 16.25 15.06 16.25 13.625C16.25 12.9961 16.1048 12.5747 15.9257 12.2869C15.7452 11.9968 15.5031 11.7989 15.2458 11.6611C14.9847 11.5212 14.7153 11.4476 14.5057 11.4102C14.4025 11.3918 14.3183 11.3829 14.2631 11.3787C14.2356 11.3766 14.2157 11.3756 14.2047 11.3753L14.1958 11.375H8.85826Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["undo", "circle"],
+    tags: ["undo", "circle", "reverse", "back", "history", "edit", "arrow", "circular", "reset", "control"],
     category: "solid"
   },
   {
@@ -16342,7 +16342,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.5 11.5C6.13317 10.1332 5.36683 9.36683 4 8C5.36683 6.63317 6.13317 5.86683 7.5 4.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["undo"],
+    tags: ["undo", "reverse", "back", "history", "edit", "arrow", "reset", "control"],
     category: "regular"
   },
   {
@@ -16353,7 +16353,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 16C18.866 16 22 12.866 22 9C22 5.13401 18.866 2 15 2C11.134 2 8 5.13401 8 9C8 12.866 11.134 16 15 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["union", "alt"],
+    tags: ["union", "alt", "combine", "merge", "overlap", "geometric", "shapes", "design", "boolean operation"],
     category: "regular"
   },
   {
@@ -16364,7 +16364,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 19C19.866 19 23 15.866 23 12C23 8.13401 19.866 5 16 5C12.134 5 9 8.13401 9 12C9 15.866 12.134 19 16 19Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["union", "horiz", "alt"],
+    tags: ["union", "horiz", "alt", "combine", "merge", "overlap", "geometric", "shapes", "design", "boolean operation", "horizontal"],
     category: "regular"
   },
   {
@@ -16375,7 +16375,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 9V3.6C15 3.26863 14.7314 3 14.4 3H3.6C3.26863 3 3 3.26863 3 3.6V14.4C3 14.7314 3.26863 15 3.6 15H9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["union"],
+    tags: ["union", "combine", "merge", "overlap", "geometric", "shapes", "design", "boolean operation"],
     category: "regular"
   },
   {
@@ -16386,7 +16386,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14.5 6H10L9.5 11C10.0187 10.1033 10.9882 9.5 12.0987 9.5C13.7555 9.5 15.0987 10.8431 15.0987 12.5C15.0987 13.327 14.764 14.0758 14.2228 14.6185C13.6797 15.163 12.9285 15.5 12.0987 15.5C10.9882 15.5 10.0187 14.8967 9.5 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unity", "5"],
+    tags: ["unity", "5", "game engine", "development", "software", "platform", "3d", "creative", "gaming"],
     category: "regular"
   },
   {
@@ -16397,7 +16397,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4 13L13.5 13M4 13L8 17.5M4 13L8 8.5M13.5 13L18.5 4M13.5 13L18.5 20M18.5 4L12.5 5M18.5 4L20 9.5M18.5 20L20 14.5M18.5 20L12.5 19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unity"],
+    tags: ["unity", "game engine", "development", "software", "platform", "3d", "creative", "gaming"],
     category: "regular"
   },
   {
@@ -16409,7 +16409,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2.76777 2.76788H6.3033M2.76777 2.76788V6.30341M2.76777 2.76788L6.60657 6.60693" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unjoin", "3d"],
+    tags: ["unjoin", "3d", "separate", "disconnect", "split", "break apart", "geometric", "modeling", "design", "3d object"],
     category: "regular"
   },
   {
@@ -16424,7 +16424,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19.5 22V16M19.5 16L17 18.5M19.5 16L22 18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "data", "window"],
+    tags: ["upload", "data", "window", "transfer", "send", "cloud", "server", "file management", "interface", "arrow", "document"],
     category: "regular"
   },
   {
@@ -16434,7 +16434,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM5.25 18C5.25 17.5858 5.58579 17.25 6 17.25L18 17.25C18.4142 17.25 18.75 17.5858 18.75 18C18.75 18.4142 18.4142 18.75 18 18.75L6 18.75C5.58579 18.75 5.25 18.4142 5.25 18ZM12.5303 5.46967C12.2374 5.17678 11.7626 5.17678 11.4697 5.46967L7.96967 8.96967C7.67678 9.26256 7.67678 9.73744 7.96967 10.0303C8.26256 10.3232 8.73744 10.3232 9.03033 10.0303L11.25 7.81066V14C11.25 14.4142 11.5858 14.75 12 14.75C12.4142 14.75 12.75 14.4142 12.75 14V7.81066L14.9697 10.0303C15.2626 10.3232 15.7374 10.3232 16.0303 10.0303C16.3232 9.73744 16.3232 9.26256 16.0303 8.96967L12.5303 5.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["upload", "square"],
+    tags: ["upload", "square", "transfer", "send", "cloud", "server", "file management", "arrow", "box", "geometric"],
     category: "solid"
   },
   {
@@ -16445,7 +16445,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 16V4M12 4L15.5 7.5M12 4L8.5 7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload"],
+    tags: ["upload", "transfer", "send", "cloud", "server", "file management", "arrow"],
     category: "regular"
   },
   {
@@ -16461,7 +16461,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 11C8.10457 11 9 10.1046 9 9C9 7.89543 8.10457 7 7 7C5.89543 7 5 7.89543 5 9C5 10.1046 5.89543 11 7 11Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["usb"],
+    tags: ["usb", "connector", "port", "device", "cable", "peripheral", "data transfer", "charging"],
     category: "solid"
   },
   {
@@ -16474,7 +16474,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 12C11.2091 12 13 10.2091 13 8C13 5.79086 11.2091 4 9 4C6.79086 4 5 5.79086 5 8C5 10.2091 6.79086 12 9 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "badge", "check"],
+    tags: ["user", "badge", "check", "verified", "authenticated", "profile", "account", "security", "identity", "approved", "member"],
     category: "regular"
   },
   {
@@ -16487,7 +16487,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 13H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "bag"],
+    tags: ["user", "bag", "shopping", "customer", "e-commerce", "retail", "profile", "account", "purchase", "buyer"],
     category: "regular"
   },
   {
@@ -16501,7 +16501,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M2 18C2 14.134 5.13401 11 9 11C10.635 11 12.1391 11.5606 13.3306 12.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "cart"],
+    tags: ["user", "cart", "shopping", "customer", "e-commerce", "retail", "profile", "account", "purchase", "buyer"],
     category: "regular"
   },
   {
@@ -16513,7 +16513,7 @@ export const iconoirIcons: IconItem[] = [
 <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "circle"],
+    tags: ["user", "circle", "profile", "account", "person", "avatar", "login", "member", "circular"],
     category: "regular"
   },
   {
@@ -16525,7 +16525,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 22L22 16L18.5 17.8L17 16L15.5 17.8L12 16L13 22H21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "crown"],
+    tags: ["user", "crown", "admin", "premium", "vip", "leader", "authority", "profile", "account", "special"],
     category: "regular"
   },
   {
@@ -16537,7 +16537,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 20V19C5 15.134 8.13401 12 12 12C13.0736 12 14.0907 12.2417 15 12.6736" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "love"],
+    tags: ["user", "love", "favorite", "like", "follower", "dating", "relationship", "profile", "account", "heart"],
     category: "regular"
   },
   {
@@ -16549,7 +16549,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "plus"],
+    tags: ["user", "plus", "add user", "new account", "invite", "friend request", "onboarding", "profile", "member"],
     category: "regular"
   },
   {
@@ -16564,7 +16564,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 21H21V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "scan"],
+    tags: ["user", "scan", "authentication", "biometric", "identity", "security", "login", "profile", "account", "scanner"],
     category: "regular"
   },
   {
@@ -16576,7 +16576,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "person", "avatar", "login", "member", "geometric", "box"],
     category: "regular"
   },
   {
@@ -16588,7 +16588,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.6349 16.4151L17.674 14.2121C17.8073 13.9293 18.1927 13.9293 18.326 14.2121L19.3651 16.4151L21.6886 16.7706C21.9867 16.8162 22.1055 17.1997 21.8897 17.4198L20.2087 19.1334L20.6054 21.5543C20.6564 21.8652 20.3446 22.1022 20.0778 21.9554L18 20.8118L15.9222 21.9554C15.6554 22.1022 15.3436 21.8652 15.3946 21.5543L15.7913 19.1334L14.1103 17.4198C13.8945 17.1997 14.0133 16.8162 14.3114 16.7706L16.6349 16.4151Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "star"],
+    tags: ["user", "star", "favorite", "premium", "vip", "rating", "review", "profile", "account", "highlight"],
     category: "regular"
   },
   {
@@ -16600,7 +16600,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "xmark"],
+    tags: ["user", "xmark", "remove", "delete", "account", "profile", "access denied", "unauthorized", "error", "management", "outline", "cancel"],
     category: "regular"
   },
   {
@@ -16611,7 +16611,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user"],
+    tags: ["user", "account", "profile", "person", "avatar", "login", "contact", "human", "outline", "individual"],
     category: "regular"
   },
   {
@@ -16623,7 +16623,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vegan", "circle"],
+    tags: ["vegan", "circle", "plant-based", "vegetarian", "diet", "food", "healthy", "eco-friendly", "circular", "outline", "leaf", "nature"],
     category: "regular"
   },
   {
@@ -16635,7 +16635,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18.0155 6.73006L18.3121 9.81003C18.5045 11.8081 17.0064 13.5871 15.0083 13.7795C13.0478 13.9683 11.2718 12.5352 11.083 10.5747C10.8942 8.61421 12.3305 6.87187 14.291 6.68309L17.5749 6.36689C17.7969 6.34552 17.9941 6.50812 18.0155 6.73006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vegan", "square"],
+    tags: ["vegan", "square", "plant-based", "vegetarian", "diet", "food", "healthy", "eco-friendly", "outline", "leaf", "nature"],
     category: "regular"
   },
   {
@@ -16646,7 +16646,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.4962 5.57712L20.9222 10.001C21.1985 12.8709 19.0467 15.4261 16.1769 15.7025C13.3609 15.9736 10.81 13.9153 10.5388 11.0994C10.2677 8.28339 12.3306 5.7808 15.1466 5.50966L19.8634 5.05548C20.1822 5.02478 20.4655 5.25833 20.4962 5.57712Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vegan"],
+    tags: ["vegan", "plant-based", "vegetarian", "diet", "food", "healthy", "eco-friendly", "leaf", "outline", "nature"],
     category: "regular"
   },
   {
@@ -16662,7 +16662,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M19.8022 21.4245L19.6677 21.4372C17.9758 21.5961 16.469 20.3541 16.3021 18.663C16.1353 16.9719 17.3715 15.4721 19.0634 15.3131L22.049 15.0326C22.2406 15.0146 22.4111 15.1552 22.43 15.3466L22.6847 17.9276C22.8589 19.6929 21.5683 21.2586 19.8022 21.4245Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vehicle", "green"],
+    tags: ["vehicle", "green", "car", "electric", "eco", "transportation", "sustainable", "automobile", "environment", "outline", "eco-friendly"],
     category: "regular"
   },
   {
@@ -16675,7 +16675,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 10L21 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vertical", "merge"],
+    tags: ["vertical", "merge", "combine", "join", "union", "data", "layout", "arrows", "design", "interface", "outline"],
     category: "regular"
   },
   {
@@ -16688,7 +16688,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 10L21 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vertical", "split"],
+    tags: ["vertical", "split", "divide", "separate", "layout", "data", "arrows", "design", "interface", "outline"],
     category: "regular"
   },
   {
@@ -16700,7 +16700,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M19.75 3C19.75 2.58579 19.4142 2.25 19 2.25H15C14.5858 2.25 14.25 2.58579 14.25 3V16C14.25 17.5188 15.4812 18.75 17 18.75C18.5188 18.75 19.75 17.5188 19.75 16V3ZM18.25 3.75V11.25H15.75V3.75H18.25Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["vials"],
+    tags: ["vials", "test tubes", "laboratory", "science", "experiment", "chemistry", "medical", "research", "outline", "pharmacy"],
     category: "solid"
   },
   {
@@ -16711,7 +16711,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 3L21 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "camera", "off"],
+    tags: ["video", "camera", "off", "camera off", "disabled", "mute", "no video", "webcam", "meeting", "call", "privacy", "outline", "unavailable"],
     category: "regular"
   },
   {
@@ -16721,7 +16721,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 12V16.4C15 16.7314 14.7314 17 14.4 17H3.6C3.26863 17 3 16.7314 3 16.4V7.6C3 7.26863 3.26863 7 3.6 7H14.4C14.7314 7 15 7.26863 15 7.6V12ZM15 12L20.0159 7.82009C20.4067 7.49443 21 7.77232 21 8.28103V15.719C21 16.2277 20.4067 16.5056 20.0159 16.1799L15 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "camera"],
+    tags: ["video", "camera", "webcam", "record", "meeting", "call", "streaming", "capture", "outline", "film"],
     category: "regular"
   },
   {
@@ -16740,7 +16740,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 14C18.1046 14 19 13.1046 19 12C19 10.8954 18.1046 10 17 10C15.8954 10 15 10.8954 15 12C15 13.1046 15.8954 14 17 14Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "projector"],
+    tags: ["video", "projector", "presentation", "screen", "display", "movie", "cinema", "education", "outline", "conference"],
     category: "regular"
   },
   {
@@ -16753,7 +16753,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 8.5V7C17 5.89543 17.8954 5 19 5H19.5C20.6046 5 21.5 5.89543 21.5 7V8.5V10C21.5 11.1046 20.6046 12 19.5 12H19C17.8954 12 17 11.1046 17 10V8.5Z" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "360"],
+    tags: ["view", "360", "panorama", "virtual reality", "vr", "perspective", "rotate", "interactive", "outline", "circular", "experience"],
     category: "regular"
   },
   {
@@ -16763,7 +16763,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 3H20.4C20.7314 3 21 3.26863 21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H12M12 3H3.6C3.26863 3 3 3.26863 3 3.6V20.4C3 20.7314 3.26863 21 3.6 21H12M12 3V21" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "columns", "2"],
+    tags: ["view", "columns", "2", "layout", "grid", "split", "dashboard", "interface", "two columns", "outline", "arrangement"],
     category: "regular"
   },
   {
@@ -16773,7 +16773,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 3H3.6C3.26863 3 3 3.26863 3 3.6V20.4C3 20.7314 3.26863 21 3.6 21H9M9 3V21M9 3H15M9 21H15M15 3H20.4C20.7314 3 21 3.26863 21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H15M15 3V21" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "columns", "3"],
+    tags: ["view", "columns", "3", "layout", "grid", "split", "dashboard", "interface", "three columns", "outline", "arrangement"],
     category: "regular"
   },
   {
@@ -16786,7 +16786,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "grid"],
+    tags: ["view", "grid", "layout", "gallery", "thumbnails", "dashboard", "interface", "squares", "outline", "arrangement"],
     category: "regular"
   },
   {
@@ -16798,7 +16798,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "structure", "down"],
+    tags: ["view", "structure", "down", "hierarchy", "organization", "tree", "flowchart", "downward", "outline", "data", "architecture"],
     category: "regular"
   },
   {
@@ -16810,7 +16810,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "structure", "up"],
+    tags: ["view", "structure", "up", "hierarchy", "organization", "tree", "flowchart", "upward", "outline", "data", "architecture"],
     category: "regular"
   },
   {
@@ -16825,7 +16825,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15.5 19.5L17.5 21.5L22.5 16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["voice", "check"],
+    tags: ["voice", "check", "voice command", "speech recognition", "verified", "approved", "confirmation", "audio", "assistant", "outline", "success"],
     category: "regular"
   },
   {
@@ -16840,7 +16840,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["voice", "circle"],
+    tags: ["voice", "circle", "audio", "microphone", "sound", "speech", "recording", "assistant", "circular", "outline", "input"],
     category: "regular"
   },
   {
@@ -16856,7 +16856,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21.1667 18.5H21.4C21.7314 18.5 22 18.7686 22 19.1V21.4C22 21.7314 21.7314 22 21.4 22H17.6C17.2686 22 17 21.7314 17 21.4V19.1C17 18.7686 17.2686 18.5 17.6 18.5H17.8333M21.1667 18.5V16.75C21.1667 16.1667 20.8333 15 19.5 15C18.1667 15 17.8333 16.1667 17.8333 16.75V18.5M21.1667 18.5H17.8333" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["voice", "lock", "circle"],
+    tags: ["voice", "lock", "circle", "voice security", "biometrics", "authentication", "speech lock", "privacy", "secure", "circular", "outline", "access"],
     category: "regular"
   },
   {
@@ -16874,7 +16874,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 21H21V18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["voice", "scan"],
+    tags: ["voice", "scan", "voice biometrics", "speech recognition", "authentication", "scanning", "security", "audio analysis", "outline", "identity"],
     category: "regular"
   },
   {
@@ -16889,7 +16889,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 7L15 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["voice", "square"],
+    tags: ["voice", "square", "audio", "microphone", "sound", "speech", "recording", "assistant", "outline", "input"],
     category: "regular"
   },
   {
@@ -16904,7 +16904,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.1213 21.364L18.2427 19.2427M18.2427 19.2427L20.364 17.1213M18.2427 19.2427L16.1213 17.1213M18.2427 19.2427L20.364 21.364" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["voice", "xmark"],
+    tags: ["voice", "xmark", "voice off", "mute", "speech disabled", "audio off", "no sound", "error", "cancel", "outline", "unavailable"],
     category: "regular"
   },
   {
@@ -16918,7 +16918,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 7L16 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["voice"],
+    tags: ["voice", "audio", "microphone", "sound", "speech", "recording", "assistant", "outline", "input"],
     category: "regular"
   },
   {
@@ -16930,7 +16930,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M11 8.5L8 15.5L5 8.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vr", "tag"],
+    tags: ["vr", "tag", "virtual reality", "augmented reality", "metaverse", "gaming", "experience", "label", "identification", "future", "technology"],
     category: "regular"
   },
   {
@@ -16941,7 +16941,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18.5 4H14.5L12 7.5L9.5 4H5.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vue", "js"],
+    tags: ["vue", "js", "javascript", "framework", "frontend", "development", "coding", "programming", "web dev", "library", "tool"],
     category: "regular"
   },
   {
@@ -16954,7 +16954,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M4.68335 16.6035C4.68335 16.6035 10.4 17.7143 12 20C13.6 17.7143 19.3165 16.6035 19.3165 16.6035" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["waist"],
+    tags: ["waist", "body", "human", "anatomy", "figure", "measurement", "health", "fitness", "fashion", "clothing"],
     category: "regular"
   },
   {
@@ -16967,7 +16967,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M13 7C14.1046 7 15 6.10457 15 5C15 3.89543 14.1046 3 13 3C11.8954 3 11 3.89543 11 5C11 6.10457 11.8954 7 13 7Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["walking"],
+    tags: ["walking", "person", "stroll", "movement", "exercise", "pedestrian", "activity", "journey", "travel", "fitness"],
     category: "regular"
   },
   {
@@ -16978,7 +16978,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16.4847 3.06862C17.7544 2.73004 19 3.68703 19 5.00109H9L16.4847 3.06862Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["wallet"],
+    tags: ["wallet", "money", "cash", "finance", "payment", "purse", "cards", "currency", "banking", "economy"],
     category: "solid"
   },
   {
@@ -16988,7 +16988,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12ZM12 6.25C12.4142 6.25 12.75 6.58579 12.75 7V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V7C11.25 6.58579 11.5858 6.25 12 6.25ZM12.5675 17.5008C12.8446 17.1929 12.8196 16.7187 12.5117 16.4416C12.2038 16.1645 11.7296 16.1894 11.4525 16.4973L11.4425 16.5084C11.1654 16.8163 11.1904 17.2905 11.4983 17.5676C11.8062 17.8447 12.2804 17.8197 12.5575 17.5119L12.5675 17.5008Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["warning", "circle"],
+    tags: ["warning", "circle", "alert", "danger", "caution", "error", "problem", "notification", "security", "exclamation", "attention"],
     category: "solid"
   },
   {
@@ -17000,7 +17000,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 16.01L12.01 15.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["warning", "hexagon"],
+    tags: ["warning", "hexagon", "alert", "danger", "caution", "error", "problem", "notification", "security", "exclamation", "attention"],
     category: "regular"
   },
   {
@@ -17010,7 +17010,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 3.6C2.25 2.85441 2.85442 2.25 3.6 2.25H20.4C21.1456 2.25 21.75 2.85442 21.75 3.6V20.4C21.75 21.1456 21.1456 21.75 20.4 21.75H3.6C2.85441 21.75 2.25 21.1456 2.25 20.4V3.6ZM12 6.25C12.4142 6.25 12.75 6.58579 12.75 7V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V7C11.25 6.58579 11.5858 6.25 12 6.25ZM12.5675 17.5008C12.8446 17.1929 12.8196 16.7187 12.5117 16.4416C12.2038 16.1645 11.7296 16.1894 11.4525 16.4973L11.4425 16.5084C11.1654 16.8163 11.1904 17.2905 11.4983 17.5676C11.8062 17.8447 12.2804 17.8197 12.5575 17.5119L12.5675 17.5008Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["warning", "square"],
+    tags: ["warning", "square", "alert", "danger", "caution", "error", "problem", "notification", "security", "exclamation", "attention"],
     category: "solid"
   },
   {
@@ -17020,7 +17020,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.61617 3.6419C10.6736 1.80296 13.3268 1.80296 14.3841 3.6419L22.4271 17.6296C23.4813 19.463 22.1579 21.7504 20.0431 21.7504H3.95721C1.84242 21.7504 0.519055 19.463 1.57322 17.6296L9.61617 3.6419ZM12 8.25C12.4142 8.25 12.75 8.58579 12.75 9V13C12.75 13.4142 12.4142 13.75 12 13.75C11.5858 13.75 11.25 13.4142 11.25 13V9C11.25 8.58579 11.5858 8.25 12 8.25ZM12.5675 17.5008C12.8446 17.1929 12.8196 16.7187 12.5117 16.4416C12.2038 16.1645 11.7296 16.1894 11.4525 16.4973L11.4425 16.5084C11.1654 16.8163 11.1904 17.2905 11.4983 17.5676C11.8062 17.8447 12.2804 17.8197 12.5575 17.5119L12.5675 17.5008Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["warning", "triangle"],
+    tags: ["warning", "triangle", "alert", "danger", "caution", "error", "problem", "notification", "security", "exclamation", "attention"],
     category: "solid"
   },
   {
@@ -17036,7 +17036,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 22.01L21.01 21.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["warning", "window"],
+    tags: ["warning", "window", "alert", "danger", "caution", "error", "problem", "notification", "security", "exclamation", "attention", "dialog"],
     category: "regular"
   },
   {
@@ -17047,7 +17047,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21 11C19 11 16.5 8 16.5 8C16.5 8 14.3513 11 12 11C9.64873 11 7.5 8 7.5 8C7.5 8 5 11 3 11" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wash"],
+    tags: ["wash", "laundry", "cleaning", "hygiene", "clothing care", "refresh", "sanitation", "instruction", "symbol", "textile"],
     category: "regular"
   },
   {
@@ -17060,7 +17060,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 16C10.3431 16 9 14.6569 9 13" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["washing", "machine"],
+    tags: ["washing", "machine", "laundry", "appliance", "household", "cleaning", "chore", "home", "utility", "domestic"],
     category: "regular"
   },
   {
@@ -17078,7 +17078,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.3962 3.39622L15.5 6.49999C17.433 8.43299 17.433 11.567 15.5 13.5C13.567 15.433 10.433 15.433 8.50001 13.5C6.56701 11.567 6.56701 8.43299 8.50001 6.49999L11.6038 3.39621C11.8226 3.17738 12.1774 3.17738 12.3962 3.39622Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["watering", "soil"],
+    tags: ["watering", "soil", "garden", "plant care", "agriculture", "growth", "nature", "hydration", "cultivation", "farming", "ecology"],
     category: "regular"
   },
   {
@@ -17088,7 +17088,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 6.28571C1.25 4.62919 2.56093 3.25 4.22222 3.25H19.7778C21.4391 3.25 22.75 4.6292 22.75 6.28571V17.7143C22.75 19.3708 21.4391 20.75 19.7778 20.75H4.22222C2.56094 20.75 1.25 19.3708 1.25 17.7143V6.28571ZM4.25 7C4.25 6.58579 4.58579 6.25 5 6.25H6C6.41421 6.25 6.75 6.58579 6.75 7C6.75 7.41421 6.41421 7.75 6 7.75H5C4.58579 7.75 4.25 7.41421 4.25 7ZM12.3223 9.36437C12.5235 9.00229 12.393 8.54568 12.0309 8.34452C11.6689 8.14336 11.2122 8.27381 11.0111 8.6359L9.34439 11.6359C9.21533 11.8682 9.21883 12.1514 9.3536 12.3805C9.48836 12.6095 9.73426 12.7501 10 12.7501H12.7254L11.6777 14.6359C11.4765 14.998 11.607 15.4546 11.9691 15.6558C12.3311 15.8569 12.7878 15.7265 12.9889 15.3644L14.6556 12.3644C14.7847 12.1321 14.7812 11.8488 14.6464 11.6198C14.5116 11.3908 14.2657 11.2501 14 11.2501H11.2746L12.3223 9.36437Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["web", "window", "energy", "consumption"],
+    tags: ["web", "window", "energy", "consumption", "browser", "internet", "website", "power", "electricity", "sustainability", "environment", "efficiency", "carbon footprint"],
     category: "solid"
   },
   {
@@ -17098,7 +17098,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.25 6.28571C1.25 4.62919 2.56093 3.25 4.22222 3.25H19.7778C21.4391 3.25 22.75 4.6292 22.75 6.28571V17.7143C22.75 19.3708 21.4391 20.75 19.7778 20.75H4.22222C2.56094 20.75 1.25 19.3708 1.25 17.7143V6.28571ZM4.25 7C4.25 6.58579 4.58579 6.25 5 6.25H6C6.41421 6.25 6.75 6.58579 6.75 7C6.75 7.41421 6.41421 7.75 6 7.75H5C4.58579 7.75 4.25 7.41421 4.25 7ZM10.5303 9.46967C10.2374 9.17678 9.76256 9.17678 9.46967 9.46967C9.17678 9.76256 9.17678 10.2374 9.46967 10.5303L10.9393 12L9.46967 13.4697C9.17678 13.7626 9.17678 14.2374 9.46967 14.5303C9.76256 14.8232 10.2374 14.8232 10.5303 14.5303L12 13.0607L13.4697 14.5303C13.7626 14.8232 14.2374 14.8232 14.5303 14.5303C14.8232 14.2374 14.8232 13.7626 14.5303 13.4697L13.0607 12L14.5303 10.5303C14.8232 10.2374 14.8232 9.76256 14.5303 9.46967C14.2374 9.17678 13.7626 9.17678 13.4697 9.46967L12 10.9393L10.5303 9.46967Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["web", "window", "xmark"],
+    tags: ["web", "window", "xmark", "browser", "internet", "website", "close", "cancel", "exit", "remove", "delete", "error", "failure"],
     category: "solid"
   },
   {
@@ -17108,7 +17108,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.22222 3.25C2.56093 3.25 1.25 4.62919 1.25 6.28571V17.7143C1.25 19.3708 2.56094 20.75 4.22222 20.75H19.7778C21.4391 20.75 22.75 19.3708 22.75 17.7143V6.28571C22.75 4.6292 21.4391 3.25 19.7778 3.25H4.22222ZM5 6.25C4.58579 6.25 4.25 6.58579 4.25 7C4.25 7.41421 4.58579 7.75 5 7.75H6C6.41421 7.75 6.75 7.41421 6.75 7C6.75 6.58579 6.41421 6.25 6 6.25H5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["web", "window"],
+    tags: ["web", "window", "browser", "internet", "website", "online", "interface", "application", "screen", "display", "desktop"],
     category: "solid"
   },
   {
@@ -17125,7 +17125,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7.5 12H9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["webp", "format"],
+    tags: ["webp", "format", "image", "file type", "picture", "graphic", "compression", "digital", "media", "extension"],
     category: "regular"
   },
   {
@@ -17138,7 +17138,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M7 17L17 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["weight", "alt"],
+    tags: ["weight", "alt", "scale", "mass", "measurement", "balance", "heavy", "light", "fitness", "health", "gym"],
     category: "regular"
   },
   {
@@ -17150,7 +17150,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 8L11 5.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["weight"],
+    tags: ["weight", "scale", "mass", "measurement", "balance", "heavy", "light", "fitness", "health", "gym"],
     category: "regular"
   },
   {
@@ -17160,7 +17160,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C10.1409 22.75 8.39016 22.2775 6.86335 21.4455L2.12395 22.2397C1.88692 22.2794 1.6452 22.2031 1.47391 22.0345C1.30261 21.8659 1.2225 21.6255 1.25845 21.3878L2.05878 16.0977C1.53735 14.8339 1.25001 13.4496 1.25001 12C1.25001 6.06294 6.06295 1.25 12 1.25ZM7.94309 6.7002C7.20774 6.7002 6.599 7.32056 6.71374 8.08595C6.929 9.52188 7.56749 12.1676 9.46536 14.0799C11.4494 16.0789 14.2876 16.9343 15.8259 17.2715C16.6211 17.4459 17.3 16.8158 17.3 16.0387V14.2151C17.3 14.0909 17.2235 13.9796 17.1076 13.935L15.1475 13.1825C15.0949 13.1623 15.0377 13.1573 14.9824 13.1681L13.0048 13.5542C11.7304 12.894 10.958 12.1532 10.4942 11.0387L10.867 9.02365C10.8769 8.97021 10.8721 8.91508 10.8531 8.86416L10.1182 6.89529C10.0744 6.77797 9.96233 6.7002 9.83711 6.7002H7.94309Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["whatsapp"],
+    tags: ["whatsapp", "chat", "messaging", "social media", "communication", "app", "messenger", "text", "call", "network"],
     category: "solid"
   },
   {
@@ -17171,7 +17171,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M5 15L5.95039 4.54568C5.97849 4.23663 6.23761 4 6.54793 4H20.343C20.6958 4 20.9725 4.30295 20.9405 4.65432L20.0496 14.4543C20.0215 14.7634 19.7624 15 19.4521 15H5ZM5 15L4.4 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "solid",
-    tags: ["white", "flag"],
+    tags: ["white", "flag", "surrender", "peace", "truce", "negotiation", "signal", "end", "agreement", "ceasefire", "neutrality"],
     category: "solid"
   },
   {
@@ -17185,7 +17185,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 15.5C10.7504 14.1 13.2498 14.0996 15.5001 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wifi", "off"],
+    tags: ["wifi", "off", "internet", "connection", "network", "disconnected", "offline", "no signal", "wireless", "unavailable", "trouble"],
     category: "regular"
   },
   {
@@ -17195,7 +17195,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.75585 6.93924C4.94824 4.4957 8.36778 3.25 11.9994 3.25C15.631 3.25 19.0505 4.49571 22.2429 6.93926L22.2569 6.94997L22.2704 6.96133C22.8219 7.42615 22.9227 8.24336 22.4448 8.80815L12.99 19.9812C12.9435 20.0361 12.8926 20.0871 12.8377 20.1335C12.2905 20.5965 11.4717 20.5283 11.0087 19.9812L1.54257 8.79463L1.53183 8.78065C1.09232 8.20881 1.16834 7.38893 1.75585 6.93924Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["wifi", "signal", "none"],
+    tags: ["wifi", "signal", "none", "internet", "connection", "network", "disconnected", "offline", "no signal", "wireless", "unavailable", "trouble"],
     category: "solid"
   },
   {
@@ -17205,7 +17205,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8 2.25C4.27208 2.25 1.25 5.27208 1.25 9V15C1.25 18.7279 4.27208 21.75 8 21.75H16C19.7279 21.75 22.75 18.7279 22.75 15V9C22.75 5.27208 19.7279 2.25 16 2.25H8ZM12.5675 15.2508C12.8446 14.9429 12.8196 14.4687 12.5117 14.1916C12.2038 13.9145 11.7296 13.9394 11.4525 14.2473L11.4425 14.2584C11.1654 14.5663 11.1904 15.0405 11.4983 15.3176C11.8062 15.5947 12.2804 15.5697 12.5575 15.2619L12.5675 15.2508ZM16.4239 11.7302C14.2237 9.08996 9.77633 9.08997 7.57618 11.7301C7.311 12.0483 6.83807 12.0913 6.51987 11.8261C6.20167 11.5609 6.15868 11.088 6.42386 10.7698C9.22371 7.41007 14.7763 7.41005 17.5762 10.7699C17.8414 11.0881 17.7984 11.561 17.4802 11.8262C17.1619 12.0914 16.689 12.0484 16.4239 11.7302ZM9.60005 13.7C10.8 12.1 13.2 12.1 14.4 13.7C14.6486 14.0314 15.1187 14.0986 15.45 13.85C15.7814 13.6015 15.8486 13.1314 15.6 12.8C13.8 10.4 10.2 10.4 8.40004 12.8C8.15152 13.1314 8.21868 13.6015 8.55005 13.85C8.88142 14.0986 9.35152 14.0314 9.60005 13.7Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["wifi", "tag"],
+    tags: ["wifi", "tag", "internet", "connection", "network", "wireless", "hotspot", "label", "identification", "access", "technology"],
     category: "solid"
   },
   {
@@ -17215,7 +17215,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.75585 6.93924C4.94824 4.4957 8.36778 3.25 11.9994 3.25C15.631 3.25 19.0505 4.49571 22.2429 6.93926L22.2569 6.94997L22.2704 6.96133C22.8219 7.42615 22.9227 8.24336 22.4448 8.80815L12.99 19.9812C12.9435 20.0361 12.8926 20.0871 12.8377 20.1335C12.2905 20.5965 11.4717 20.5283 11.0087 19.9812L1.54257 8.79463L1.53183 8.78065C1.09232 8.20881 1.16834 7.38893 1.75585 6.93924ZM12 7.25C12.4142 7.25 12.75 7.58579 12.75 8V10C12.75 10.4142 12.4142 10.75 12 10.75C11.5858 10.75 11.25 10.4142 11.25 10V8C11.25 7.58579 11.5858 7.25 12 7.25ZM12.5675 14.5008C12.8446 14.1929 12.8196 13.7187 12.5117 13.4416C12.2038 13.1645 11.7296 13.1894 11.4525 13.4973L11.4425 13.5084C11.1654 13.8163 11.1904 14.2905 11.4983 14.5676C11.8062 14.8447 12.2804 14.8197 12.5575 14.5119L12.5675 14.5008Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["wifi", "warning"],
+    tags: ["wifi", "warning", "internet", "connection", "network", "problem", "alert", "caution", "error", "trouble", "unstable"],
     category: "solid"
   },
   {
@@ -17229,7 +17229,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17.1213 21.364L19.2426 19.2427M21.364 17.1214L19.2426 19.2427M19.2426 19.2427L17.1213 17.1214M19.2426 19.2427L21.364 21.364" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wifi", "xmark"],
+    tags: ["wifi", "xmark", "no internet", "disconnected", "connection error", "network issue", "signal", "offline", "alert", "system", "error"],
     category: "regular"
   },
   {
@@ -17242,7 +17242,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8.5 15.5C10.7504 14.1 13.2498 14.0996 15.5001 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wifi"],
+    tags: ["wifi", "internet", "connection", "network", "signal", "online", "wireless", "connectivity", "system", "indicator"],
     category: "regular"
   },
   {
@@ -17254,7 +17254,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.4118 4C11.8412 4 13 5.11929 13 6.5C13 7.88071 11.8412 9 10.4118 9H3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wind"],
+    tags: ["wind", "air", "breeze", "weather", "forecast", "nature", "climate", "outdoor", "environmental", "movement"],
     category: "regular"
   },
   {
@@ -17269,7 +17269,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M16 20L18 22L22 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["window", "check"],
+    tags: ["window", "check", "task complete", "success", "verified", "approved", "done", "application", "browser", "interface", "system", "ui"],
     category: "regular"
   },
   {
@@ -17284,7 +17284,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M21.1667 18.5H21.4C21.7314 18.5 22 18.7686 22 19.1V21.4C22 21.7314 21.7314 22 21.4 22H17.6C17.2686 22 17 21.7314 17 21.4V19.1C17 18.7686 17.2686 18.5 17.6 18.5H17.8333M21.1667 18.5V16.75C21.1667 16.1667 20.8333 15 19.5 15C18.1667 15 17.8333 16.1667 17.8333 16.75V18.5M21.1667 18.5H17.8333" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["window", "lock"],
+    tags: ["window", "lock", "secure", "private", "restricted", "access control", "login", "application", "browser", "interface", "security", "ui"],
     category: "regular"
   },
   {
@@ -17299,7 +17299,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20.9995 16.05C20.3643 15.402 19.4791 15 18.5 15C16.567 15 15 16.567 15 18.5C15 19.4539 15.3816 20.3187 16.0005 20.95M20.9995 16.05C21.6184 16.6813 22 17.5461 22 18.5C22 20.433 20.433 22 18.5 22C17.5209 22 16.6357 21.598 16.0005 20.95M20.9995 16.05L16.0005 20.95" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["window", "no", "access"],
+    tags: ["window", "no", "access", "forbidden", "restricted", "permission denied", "blocked", "unauthorized", "application", "browser", "interface", "security", "ui"],
     category: "regular"
   },
   {
@@ -17309,7 +17309,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M4.22222 3.25C2.56093 3.25 1.25 4.62919 1.25 6.28571V17.7143C1.25 19.3708 2.56094 20.75 4.22222 20.75H19.7778C21.4391 20.75 22.75 19.3708 22.75 17.7143V6.28571C22.75 4.6292 21.4391 3.25 19.7778 3.25H4.22222ZM9.75 5.5C9.75 5.08579 9.41421 4.75 9 4.75C8.58579 4.75 8.25 5.08579 8.25 5.5V8C8.25 8.41421 8.58579 8.75 9 8.75H20.25C20.6642 8.75 21 8.41421 21 8C21 7.58579 20.6642 7.25 20.25 7.25H16.25V5.5C16.25 5.08579 15.9142 4.75 15.5 4.75C15.0858 4.75 14.75 5.08579 14.75 5.5V7.25H9.75V5.5Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["window", "tabs"],
+    tags: ["window", "tabs", "browser", "multiple pages", "navigation", "multitasking", "interface", "application", "ui", "layout", "organize"],
     category: "solid"
   },
   {
@@ -17324,7 +17324,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M18 22.2426L20.1213 20.1213M20.1213 20.1213L22.2426 18M20.1213 20.1213L18 18M20.1213 20.1213L22.2426 22.2426" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["window", "xmark"],
+    tags: ["window", "xmark", "close", "cancel", "exit", "remove", "error", "application", "browser", "interface", "system", "ui"],
     category: "regular"
   },
   {
@@ -17336,7 +17336,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.5 5.5V18.5" stroke="currentColor" />
 </svg>`,
     style: "outline",
-    tags: ["windows"],
+    tags: ["windows", "microsoft", "operating system", "software", "platform", "computer", "desktop", "brand", "logo", "system"],
     category: "regular"
   },
   {
@@ -17346,7 +17346,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9463 1.59905C19.7411 1.27486 19.3244 1.15775 18.9804 1.32762C18.346 1.64091 17.3056 2.37972 16.4755 2.99465C16.0485 3.31089 15.6577 3.60914 15.3739 3.82819L15.3143 3.87417C15.128 3.77341 14.8928 3.65452 14.6218 3.53557C13.9471 3.23941 12.9931 2.91677 12 2.91677C11.0069 2.91677 10.0529 3.23941 9.37823 3.53557C9.1077 3.65432 8.87275 3.773 8.68662 3.87366L8.63018 3.82977C8.3491 3.61133 7.9635 3.31397 7.54606 2.99878C6.73113 2.38346 5.73398 1.65332 5.1806 1.34495C4.8381 1.15409 4.40638 1.25926 4.19003 1.58626C2.61279 3.97014 2.55039 5.87414 3.00077 7.23562C3.21973 7.8975 3.54828 8.39461 3.82405 8.72806C3.84973 8.75912 3.875 8.78881 3.89975 8.81715C3.11813 10.4241 2.25 12.7782 2.25 15.3334C2.25 15.7476 2.58579 16.0834 3 16.0834C4.25484 16.0834 5.25805 16.4548 5.94897 16.827C6.29433 17.0131 6.55888 17.1979 6.7337 17.3331C6.77007 17.3612 6.80247 17.3871 6.83081 17.4103L6.83144 17.4126C6.87212 17.5615 6.93347 17.771 7.01789 18.0212C7.18586 18.5189 7.44942 19.19 7.83068 19.8678C8.57056 21.1831 9.89029 22.7501 12 22.7501C14.1097 22.7501 15.4294 21.1831 16.1693 19.8678C16.5506 19.19 16.8141 18.5189 16.9821 18.0212C17.0665 17.771 17.1279 17.5615 17.1686 17.4126L17.1692 17.4103C17.1975 17.3871 17.2299 17.3612 17.2663 17.3331C17.4411 17.1979 17.7057 17.0131 18.051 16.827C18.7419 16.4548 19.7452 16.0834 21 16.0834C21.4142 16.0834 21.75 15.7476 21.75 15.3334C21.75 12.7788 20.8823 10.4252 20.1008 8.81827C20.1254 8.79035 20.1504 8.76112 20.1759 8.73056C20.4529 8.39853 20.7847 7.90372 21.0121 7.24488C21.4796 5.89083 21.458 3.98802 19.9463 1.59905ZM11 17.25C10.5858 17.25 10.25 17.5858 10.25 18C10.25 18.4142 10.5858 18.75 11 18.75H11.25V19C11.25 19.4142 11.5858 19.75 12 19.75C12.4142 19.75 12.75 19.4142 12.75 19V18.75H13C13.4142 18.75 13.75 18.4142 13.75 18C13.75 17.5858 13.4142 17.25 13 17.25H11ZM7.96967 11.9697C8.26256 11.6768 8.73744 11.6768 9.03033 11.9697L10.5303 13.4697C10.8232 13.7626 10.8232 14.2374 10.5303 14.5303C10.2374 14.8232 9.76256 14.8232 9.46967 14.5303L7.96967 13.0303C7.67678 12.7374 7.67678 12.2626 7.96967 11.9697ZM16.0303 13.0303C16.3232 12.7374 16.3232 12.2626 16.0303 11.9697C15.7374 11.6768 15.2626 11.6768 14.9697 11.9697L13.4697 13.4697C13.1768 13.7626 13.1768 14.2374 13.4697 14.5303C13.7626 14.8232 14.2374 14.8232 14.5303 14.5303L16.0303 13.0303Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["wolf"],
+    tags: ["wolf", "animal", "wildlife", "nature", "canine", "predator", "mammal", "forest", "spirit animal", "strength"],
     category: "solid"
   },
   {
@@ -17359,7 +17359,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M15 15.5L12.5 17L15 18.5V15.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wrap", "text"],
+    tags: ["wrap", "text", "text editor", "formatting", "layout", "document", "word processing", "paragraph", "content", "ui", "tool"],
     category: "regular"
   },
   {
@@ -17370,7 +17370,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10.0502 10.6066C9.20638 8.45358 9.37134 5.6286 11.1109 3.88909C12.8504 2.14957 16.0606 1.76777 17.8284 2.82843L14.7877 5.8691L14.5051 8.98014L17.6161 8.69753L20.6568 5.65685C21.7175 7.42462 21.3357 10.6349 19.5961 12.3744C17.8566 14.1139 15.0316 14.2789 12.8786 13.435" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wrench"],
+    tags: ["wrench", "tool", "settings", "configuration", "maintenance", "repair", "fix", "mechanic", "engineering", "utility"],
     category: "regular"
   },
   {
@@ -17383,7 +17383,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 12H12V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["wristwatch"],
+    tags: ["wristwatch", "watch", "time", "clock", "accessory", "wearable", "schedule", "appointment", "fashion", "device"],
     category: "regular"
   },
   {
@@ -17401,7 +17401,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M17 10L18.5 15L20 10L21.5 15L23 10" stroke="currentColor"   stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["www"],
+    tags: ["www", "internet", "website", "global", "world wide web", "browser", "online", "network", "link", "url"],
     category: "regular"
   },
   {
@@ -17413,7 +17413,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 8L10 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["x", "square"],
+    tags: ["x", "square", "close", "cancel", "delete", "remove", "error", "exit", "stop", "ui", "button"],
     category: "regular"
   },
   {
@@ -17424,7 +17424,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M20 3L4 21" stroke="currentColor" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["x"],
+    tags: ["x", "close", "cancel", "delete", "remove", "error", "exit", "stop", "multiply", "ui", "cross"],
     category: "regular"
   },
   {
@@ -17436,7 +17436,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 14L10 14" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["xbox", "a"],
+    tags: ["xbox", "a", "gaming", "controller", "console", "microsoft", "gamepad", "button", "play", "entertainment", "device"],
     category: "regular"
   },
   {
@@ -17447,7 +17447,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12.5986 11.8261C15.1338 11.8261 15.1338 16 12.5986 16C11.1685 16 9.5 16 9.5 16V11.8261M12.5986 11.8261C11.1685 11.8261 9.5 11.8261 9.5 11.8261M12.5986 11.8261C15.1338 11.8261 15.1338 8 12.5986 8C11.4718 8 9.5 8 9.5 8V11.8261" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["xbox", "b"],
+    tags: ["xbox", "b", "gaming", "controller", "console", "microsoft", "gamepad", "button", "play", "entertainment", "device"],
     category: "regular"
   },
   {
@@ -17459,7 +17459,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9 16L15 8" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["xbox", "x"],
+    tags: ["xbox", "x", "gaming", "controller", "console", "microsoft", "gamepad", "button", "play", "entertainment", "device"],
     category: "regular"
   },
   {
@@ -17471,7 +17471,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 16V13L15 8" stroke="currentColor"  stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["xbox", "y"],
+    tags: ["xbox", "y", "gaming", "controller", "console", "microsoft", "gamepad", "button", "play", "entertainment", "device"],
     category: "regular"
   },
   {
@@ -17481,7 +17481,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM9.70164 8.64124C9.40875 8.34835 8.93388 8.34835 8.64098 8.64124C8.34809 8.93414 8.34809 9.40901 8.64098 9.7019L10.9391 12L8.64098 14.2981C8.34809 14.591 8.34809 15.0659 8.64098 15.3588C8.93388 15.6517 9.40875 15.6517 9.70164 15.3588L11.9997 13.0607L14.2978 15.3588C14.5907 15.6517 15.0656 15.6517 15.3585 15.3588C15.6514 15.0659 15.6514 14.591 15.3585 14.2981L13.0604 12L15.3585 9.7019C15.6514 9.40901 15.6514 8.93414 15.3585 8.64124C15.0656 8.34835 14.5907 8.34835 14.2978 8.64124L11.9997 10.9393L9.70164 8.64124Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["xmark", "circle"],
+    tags: ["xmark", "circle", "close", "cancel", "delete", "remove", "error", "exit", "stop", "alert", "ui", "round"],
     category: "solid"
   },
   {
@@ -17491,7 +17491,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85441 2.25 3.6V20.4C2.25 21.1456 2.85441 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85442 21.1456 2.25 20.4 2.25H3.6ZM10.409 9.34835C10.1161 9.05546 9.64121 9.05546 9.34831 9.34835C9.05542 9.64124 9.05542 10.1161 9.34831 10.409L10.9393 12L9.34831 13.591C9.05542 13.8839 9.05542 14.3588 9.34831 14.6517C9.64121 14.9445 10.1161 14.9445 10.409 14.6517L12 13.0607L13.591 14.6517C13.8838 14.9445 14.3587 14.9445 14.6516 14.6517C14.9445 14.3588 14.9445 13.8839 14.6516 13.591L13.0606 12L14.6516 10.409C14.9445 10.1161 14.9445 9.64124 14.6516 9.34835C14.3587 9.05546 13.8838 9.05546 13.591 9.34835L12 10.9393L10.409 9.34835Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["xmark", "square"],
+    tags: ["xmark", "square", "close", "cancel", "delete", "remove", "error", "exit", "stop", "alert", "ui"],
     category: "solid"
   },
   {
@@ -17501,7 +17501,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["xmark"],
+    tags: ["xmark", "close", "cancel", "delete", "remove", "error", "exit", "stop", "multiply", "ui", "cross"],
     category: "regular"
   },
   {
@@ -17514,7 +17514,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 21L12 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["xray", "view"],
+    tags: ["xray", "view", "medical", "health", "scan", "diagnostic", "bone", "radiology", "hospital", "science", "body"],
     category: "regular"
   },
   {
@@ -17526,7 +17526,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M14 8L12 12V16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["y", "square"],
+    tags: ["y", "square", "question", "why", "unknown", "option", "choice", "ui", "placeholder", "letter"],
     category: "regular"
   },
   {
@@ -17540,7 +17540,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M9.5 14L5.36833 11.9342C4.96939 11.7347 4.5 12.0248 4.5 12.4708V15.1138C4.5 15.5383 4.92872 15.8285 5.32283 15.6709L9.5 14Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["yelp"],
+    tags: ["yelp", "reviews", "local business", "food", "restaurant", "rating", "service", "discovery", "social media", "app", "platform"],
     category: "regular"
   },
   {
@@ -17550,7 +17550,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 2.25C2.85442 2.25 2.25 2.85442 2.25 3.6V20.4C2.25 21.1456 2.85444 21.75 3.6 21.75H20.4C21.1456 21.75 21.75 21.1456 21.75 20.4V3.6C21.75 2.85444 21.1456 2.25 20.4 2.25H3.6ZM8 12.25C7.58579 12.25 7.25 12.5858 7.25 13C7.25 13.4142 7.58579 13.75 8 13.75H11.25V14.25H8C7.58579 14.25 7.25 14.5858 7.25 15C7.25 15.4142 7.58579 15.75 8 15.75H11.25V18C11.25 18.4142 11.5858 18.75 12 18.75C12.4142 18.75 12.75 18.4142 12.75 18V15.75H16C16.4142 15.75 16.75 15.4142 16.75 15C16.75 14.5858 16.4142 14.25 16 14.25H12.75V13.75H16C16.4142 13.75 16.75 13.4142 16.75 13C16.75 12.5858 16.4142 12.25 16 12.25H13.1092L16.6066 7.44113C16.8502 7.10614 16.7761 6.63708 16.4411 6.39345C16.1061 6.14982 15.6371 6.22388 15.3934 6.55887L12 11.2249L8.60655 6.55887C8.36292 6.22388 7.89386 6.14982 7.55887 6.39345C7.22388 6.63708 7.14982 7.10614 7.39345 7.44113L10.8908 12.25H8Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["yen", "square"],
+    tags: ["yen", "square", "currency", "money", "japan", "japanese", "finance", "payment", "economy", "investment", "bank"],
     category: "solid"
   },
   {
@@ -17562,7 +17562,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M6 16H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["yen"],
+    tags: ["yen", "currency", "money", "japan", "japanese", "finance", "payment", "economy", "investment", "bank", "circular"],
     category: "regular"
   },
   {
@@ -17575,7 +17575,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M12 7C13.1046 7 14 6.10457 14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5C10 6.10457 10.8954 7 12 7Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["yoga"],
+    tags: ["yoga", "meditation", "wellness", "exercise", "fitness", "health", "mindfulness", "relaxation", "sport", "pose", "activity"],
     category: "regular"
   },
   {
@@ -17585,7 +17585,7 @@ export const iconoirIcons: IconItem[] = [
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4.15039C10.8087 4.15039 9.42076 4.17798 8.06649 4.21628L8.01146 4.21784C6.63265 4.25681 5.52112 4.28823 4.64461 4.43318C3.73199 4.58411 2.97386 4.87211 2.36772 5.49563C1.75996 6.12082 1.49451 6.89404 1.3699 7.81907C1.24996 8.70944 1.24998 9.83697 1.25 11.2382V11.2382V12.7627V12.7627C1.24998 14.1639 1.24996 15.2914 1.3699 16.1818C1.4945 17.1068 1.75996 17.88 2.36771 18.5052C2.97384 19.1287 3.73195 19.4167 4.64456 19.5676C5.52106 19.7126 6.63258 19.744 8.01137 19.783H8.0114L8.06639 19.7846C9.42068 19.8229 10.8087 19.8505 12 19.8505C13.1913 19.8505 14.5793 19.8229 15.9336 19.7846L15.9886 19.783H15.9886C17.3674 19.744 18.4789 19.7126 19.3554 19.5676C20.2681 19.4167 21.0262 19.1287 21.6323 18.5052C22.24 17.88 22.5055 17.1068 22.6301 16.1818C22.75 15.2914 22.75 14.1639 22.75 12.7627V11.2381C22.75 9.83696 22.75 8.70944 22.6301 7.81907C22.5055 6.89404 22.24 6.12082 21.6323 5.49563C21.0261 4.87211 20.268 4.58411 19.3554 4.43318C18.4789 4.28823 17.3674 4.25681 15.9885 4.21784L15.9335 4.21628C14.5792 4.17798 13.1913 4.15039 12 4.15039ZM10.8721 14.6512C10.64 14.7838 10.3548 14.7829 10.1236 14.6487C9.89232 14.5145 9.75 14.2674 9.75 14V10C9.75 9.73265 9.89232 9.48551 10.1236 9.35132C10.3548 9.21713 10.64 9.21617 10.8721 9.34882L14.3721 11.3488C14.6058 11.4823 14.75 11.7309 14.75 12C14.75 12.2691 14.6058 12.5177 14.3721 12.6512L10.8721 14.6512Z" fill="currentColor"/>
 </svg>`,
     style: "solid",
-    tags: ["youtube"],
+    tags: ["youtube", "video", "streaming", "social media", "platform", "entertainment", "media", "content", "channel", "play", "app"],
     category: "solid"
   },
   {
@@ -17596,7 +17596,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M10 8H14L10 16H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["z", "square"],
+    tags: ["z", "square", "letter", "alphabet", "initial", "text", "typography", "geometric", "label", "marker", "symbol"],
     category: "regular"
   },
   {
@@ -17608,7 +17608,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["zoom", "in"],
+    tags: ["zoom", "in", "magnify", "enlarge", "plus", "search", "detail", "focus", "view", "interface", "control", "loupe"],
     category: "regular"
   },
   {
@@ -17620,7 +17620,7 @@ export const iconoirIcons: IconItem[] = [
 <path d="M8 11L14 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["zoom", "out"],
+    tags: ["zoom", "out", "minify", "shrink", "minus", "search", "overview", "view", "interface", "control", "loupe", "compress"],
     category: "regular"
   }
 ];
