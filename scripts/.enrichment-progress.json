@@ -10594,7 +10594,32 @@
       "carbon-mp3",
       "carbon-mp4",
       "carbon-mpeg",
-      "carbon-mpg2"
+      "carbon-mpg2",
+      "carbon-pdf--reference",
+      "carbon-pdf",
+      "carbon-png",
+      "carbon-ppt",
+      "carbon-h",
+      "carbon-s--alt",
+      "carbon-s",
+      "carbon-t--alt",
+      "carbon-t",
+      "carbon-u1",
+      "carbon-u2",
+      "carbon-u3",
+      "carbon-x",
+      "carbon-y",
+      "carbon-z",
+      "carbon-barrier",
+      "carbon-bloch-sphere",
+      "carbon-cu1",
+      "carbon-cu3",
+      "carbon-cy",
+      "carbon-cz",
+      "carbon-ccx",
+      "carbon-circuit-composer",
+      "carbon-composer-edit",
+      "carbon-hinton-plot"
     ]
   }
 }
