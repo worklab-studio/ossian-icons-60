@@ -813,7 +813,32 @@
       "pixelart-dice",
       "pixelart-dollar",
       "pixelart-downasaur",
-      "pixelart-download"
+      "pixelart-download",
+      "pixelart-draft",
+      "pixelart-drag-and-drop",
+      "pixelart-drop-area",
+      "pixelart-drop-full",
+      "pixelart-drop-half",
+      "pixelart-drop",
+      "pixelart-duplicate-alt",
+      "pixelart-duplicate",
+      "pixelart-edit-box",
+      "pixelart-edit",
+      "pixelart-euro",
+      "pixelart-expand",
+      "pixelart-external-link",
+      "pixelart-eye-closed",
+      "pixelart-eye",
+      "pixelart-file-alt",
+      "pixelart-file-delete",
+      "pixelart-file-flash",
+      "pixelart-file-minus",
+      "pixelart-file-multiple",
+      "pixelart-file-off",
+      "pixelart-file-plus",
+      "pixelart-file",
+      "pixelart-fill-half",
+      "pixelart-fill"
     ]
   }
 }
