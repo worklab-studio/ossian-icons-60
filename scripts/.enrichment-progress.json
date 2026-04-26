@@ -12544,7 +12544,32 @@
       "carbon-task",
       "carbon-taste",
       "carbon-taxi",
-      "carbon-tcp-ip-service"
+      "carbon-tcp-ip-service",
+      "carbon-temperature--celsius--alt",
+      "carbon-temperature--celsius",
+      "carbon-temperature--fahrenheit--alt",
+      "carbon-temperature--fahrenheit",
+      "carbon-temperature--feels-like",
+      "carbon-temperature--frigid",
+      "carbon-temperature--hot",
+      "carbon-temperature--inversion",
+      "carbon-temperature--max",
+      "carbon-temperature--min",
+      "carbon-temperature--water",
+      "carbon-temperature",
+      "carbon-template",
+      "carbon-tennis-ball",
+      "carbon-tennis",
+      "carbon-term--reference",
+      "carbon-term",
+      "carbon-terminal--3270",
+      "carbon-terminal",
+      "carbon-test-tool",
+      "carbon-text--align--center",
+      "carbon-text--align--justify",
+      "carbon-text--align--left",
+      "carbon-text--align--mixed",
+      "carbon-text--align--right"
     ]
   }
 }
