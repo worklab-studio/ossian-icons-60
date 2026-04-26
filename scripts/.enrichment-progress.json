@@ -10644,7 +10644,32 @@
       "carbon-xml",
       "carbon-zip--reference",
       "carbon-zip",
-      "carbon-accept-action--usage"
+      "carbon-accept-action--usage",
+      "carbon-accessibility--alt",
+      "carbon-accessibility--color--filled",
+      "carbon-accessibility--color",
+      "carbon-accessibility",
+      "carbon-account",
+      "carbon-accumulation--ice",
+      "carbon-accumulation--precipitation",
+      "carbon-accumulation--rain",
+      "carbon-accumulation--snow",
+      "carbon-action--definition",
+      "carbon-action--usage",
+      "carbon-activity",
+      "carbon-add--alt",
+      "carbon-add--child-node",
+      "carbon-add--filled",
+      "carbon-add--large",
+      "carbon-add--parent-node",
+      "carbon-add-comment",
+      "carbon-add",
+      "carbon-aggregator--count-rows",
+      "carbon-aggregator--recalculation",
+      "carbon-agriculture-analytics",
+      "carbon-ai-business-impact-assessment",
+      "carbon-ai-financial-sustainability-check",
+      "carbon-ai-generate"
     ]
   }
 }
