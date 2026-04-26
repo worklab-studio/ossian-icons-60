@@ -3030,5 +3030,34 @@
       "heroicons-x-circle-solid",
       "heroicons-x-mark-solid"
     ]
+  },
+  "majesticon": {
+    "doneIds": [
+      "majesticon-add-column-line",
+      "majesticon-add-row-line",
+      "majesticon-airplane-flight-2-line",
+      "majesticon-airplane-line",
+      "majesticon-alert-circle-line",
+      "majesticon-align-bottom-line",
+      "majesticon-align-horizontal-center-line",
+      "majesticon-align-left-line",
+      "majesticon-align-right-line",
+      "majesticon-align-top-line",
+      "majesticon-align-vertical-center-line",
+      "majesticon-analytics-delete-line",
+      "majesticon-analytics-line",
+      "majesticon-analytics-plus-line",
+      "majesticon-analytics-restricted-line",
+      "majesticon-arrow-down-circle-line",
+      "majesticon-arrow-down-line",
+      "majesticon-arrow-left-circle-line",
+      "majesticon-arrow-left-line",
+      "majesticon-arrow-right-circle-line",
+      "majesticon-arrow-right-line",
+      "majesticon-arrow-up-circle-line",
+      "majesticon-arrow-up-line",
+      "majesticon-arrows-collapse-full-line",
+      "majesticon-arrows-expand-full-line"
+    ]
   }
 }
