@@ -131,7 +131,7 @@ For each icon below (which represents a company, product, framework, or technolo
 - "category": one of: language, framework, database, cloud, devtool, design, payments, social, messaging, media, productivity, ecommerce, ai, analytics, security, gaming, finance, hardware, browser, os, other.
 
 Return ONLY a JSON array. No prose. No markdown.
-Schema: [{"id": string, "tags": string[], "category": string}]
+Schema: {"results": [{"id": string, "tags": string[], "category": string}]}
 
 Input icons:
 ${JSON.stringify(minimal)}`;
@@ -150,7 +150,7 @@ Skip the obvious — the icon's literal name is already indexed. No duplicates o
 Also pick ONE "category" from: navigation, communication, system, media, commerce, file, weather, transport, social, device, ui, arrow, finance, health, education, security, time, nature, food, sport, tool, other.
 
 Return ONLY a JSON array. No prose. No markdown.
-Schema: [{"id": string, "tags": string[], "category": string}]
+Schema: {"results": [{"id": string, "tags": string[], "category": string}]}
 
 Input icons:
 ${JSON.stringify(minimal)}`;
