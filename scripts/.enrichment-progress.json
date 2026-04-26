@@ -6774,5 +6774,34 @@
       "iconoir-zoom-in",
       "iconoir-zoom-out"
     ]
+  },
+  "lucide": {
+    "doneIds": [
+      "lucide-a-arrow-down",
+      "lucide-a-arrow-up",
+      "lucide-a-large-small",
+      "lucide-accessibility",
+      "lucide-activity",
+      "lucide-air-vent",
+      "lucide-airplay",
+      "lucide-alarm-clock-check",
+      "lucide-alarm-clock-minus",
+      "lucide-alarm-clock-off",
+      "lucide-alarm-clock-plus",
+      "lucide-alarm-clock",
+      "lucide-alarm-smoke",
+      "lucide-album",
+      "lucide-align-center-horizontal",
+      "lucide-align-center-vertical",
+      "lucide-align-end-horizontal",
+      "lucide-align-end-vertical",
+      "lucide-align-horizontal-distribute-center",
+      "lucide-align-horizontal-distribute-end",
+      "lucide-align-horizontal-distribute-start",
+      "lucide-align-horizontal-justify-center",
+      "lucide-align-horizontal-justify-end",
+      "lucide-align-horizontal-justify-start",
+      "lucide-align-horizontal-space-around"
+    ]
   }
 }
