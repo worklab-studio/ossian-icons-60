@@ -4,7 +4,7 @@
 
 import { type IconItem } from '@/types/icon';
 
-export const simpleIcons: IconItem[] = [
+export const simpleIcons = [
   {
     id: "simple-1001tracklists",
     name: "1001Tracklists",
