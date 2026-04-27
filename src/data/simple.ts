@@ -24770,4 +24770,4 @@ export const simpleIcons: IconItem[] = ([
     tags: ["zyte", "scraping", "web scraping", "data extraction", "proxy", "crawling", "spider"],
     category: "devtool"
   }
-];
+] as unknown) as IconItem[];
