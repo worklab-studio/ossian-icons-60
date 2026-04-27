@@ -4,7 +4,7 @@
 
 import { type IconItem } from '@/types/icon';
 
-const _simpleIcons: any[] = [
+const _simpleIcons = [
   {
     id: "simple-1001tracklists",
     name: "1001Tracklists",
