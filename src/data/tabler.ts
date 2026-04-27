@@ -9204,7 +9204,7 @@ unicode: "fd7b"
     name: "Circle Plus",
     svg: `<!--
 category: Shapes
-tags: [add, create, new]
+tags: ["add", "create", "new", "positive", "insert", "more", "control", "button", "ui", "rounded"]
 version: "1.0"
 unicode: "ea69"
 -->
@@ -9231,7 +9231,7 @@ unicode: "ea69"
     id: "tabler-circle-rectangle",
     name: "Circle Rectangle",
     svg: `<!--
-tags: [shape, geometric, geometry, figure]
+tags: ["shape", "geometric", "abstract", "frame", "overlap", "minimal", "combination", "ui", "rounded"]
 version: "1.54"
 unicode: "f010"
 category: Shapes
@@ -9259,7 +9259,7 @@ category: Shapes
     name: "Circle X",
     svg: `<!--
 category: Shapes
-tags: [cancel, "no"]
+tags: ["no", "close", "delete", "remove", "cancel", "error", "failure", "stop", "negative", "alert", "rounded"]
 version: "1.0"
 unicode: "ea6a"
 -->
@@ -9286,7 +9286,7 @@ unicode: "ea6a"
     name: "Circle",
     svg: `<!--
 category: Shapes
-tags: [off, zero]
+tags: ["shape", "round", "dot", "geometric", "minimal", "focus", "selection", "button", "ui", "empty state"]
 version: "1.0"
 unicode: "ea6b"
 -->
@@ -9311,7 +9311,7 @@ unicode: "ea6b"
     id: "tabler-circles",
     name: "Circles",
     svg: `<!--
-tags: [shape, marbles, balls, juggle, spots]
+tags: ["shapes", "overlapping", "geometric", "group", "connection", "community", "abstract", "minimal", "ui", "rounded"]
 category: Shapes
 version: "1.21"
 unicode: "ece5"
@@ -9340,7 +9340,7 @@ unicode: "ece5"
     name: "Clipboard Check",
     svg: `<!--
 category: Document
-tags: [copy, "yes"]
+tags: ["yes", "task", "done", "complete", "verified", "success", "approve", "agreement", "checklist", "productivity", "document"]
 version: "1.0"
 unicode: "ea6c"
 -->
@@ -9367,7 +9367,7 @@ unicode: "ea6c"
     id: "tabler-clipboard-data",
     name: "Clipboard Data",
     svg: `<!--
-tags: [document, report, file, list, analytics]
+tags: ["analytics", "report", "statistics", "chart", "metrics", "information", "business", "document", "dashboard", "productivity"]
 category: Document
 unicode: "f563"
 version: "1.106"
@@ -9399,7 +9399,7 @@ version: "1.106"
     name: "Clipboard List",
     svg: `<!--
 category: Document
-tags: [copy, items]
+tags: ["tasks", "todo", "checklist", "notes", "organize", "planning", "management", "document", "productivity", "onboarding"]
 version: "1.0"
 unicode: "ea6d"
 -->
@@ -9430,7 +9430,7 @@ unicode: "ea6d"
     name: "Clipboard Plus",
     svg: `<!--
 category: Document
-tags: [document, file, add, new]
+tags: ["add", "new", "create", "task", "note", "insert", "more", "document", "productivity", "ui"]
 version: "1.49"
 unicode: "efb2"
 -->
@@ -9458,7 +9458,7 @@ unicode: "efb2"
     id: "tabler-clipboard-smile",
     name: "Clipboard Smile",
     svg: `<!--
-tags: [happy, joy, delight, cheer, fun, pleasure, mirth, laughter, glee, content]
+tags: ["feedback", "survey", "happy", "positive", "review", "satisfaction", "customer service", "mood", "friendly", "document"]
 category: Document
 version: "2.47"
 unicode: "fd9a"
@@ -9488,7 +9488,7 @@ unicode: "fd9a"
     id: "tabler-clipboard-text",
     name: "Clipboard Text",
     svg: `<!--
-tags: [document, file, report, page, note]
+tags: ["notes", "document", "content", "information", "memo", "report", "writing", "article", "productivity", "ui"]
 category: Document
 version: "1.60"
 unicode: "f089"
@@ -9517,7 +9517,7 @@ unicode: "f089"
     id: "tabler-clipboard-typography",
     name: "Clipboard Typography",
     svg: `<!--
-tags: [document, list, raport, paper]
+tags: ["font", "text", "style", "design", "writing", "content", "editing", "document", "creative", "ui"]
 category: Document
 unicode: "f34f"
 version: "1.88"
@@ -9548,7 +9548,7 @@ version: "1.88"
     name: "Clipboard X",
     svg: `<!--
 category: Document
-tags: [copy, "no"]
+tags: ["no", "cancel", "delete", "remove", "error", "failure", "task", "negative", "stop", "document", "alert"]
 version: "1.0"
 unicode: "ea6e"
 -->
@@ -9576,7 +9576,7 @@ unicode: "ea6e"
     name: "Clipboard",
     svg: `<!--
 category: Document
-tags: [copy, clipboard, paste, document, file, paper, note, text, page, sheet, blank]
+tags: ["notes", "tasks", "document", "report", "memo", "list", "organize", "productivity", "ui", "empty state"]
 version: "1.0"
 unicode: "ea6f"
 -->
@@ -9602,7 +9602,7 @@ unicode: "ea6f"
     id: "tabler-clock-hour-1",
     name: "Clock Hour 1",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "one o'clock", "minimal", "analog", "event", "deadline", "past"]
 category: System
 version: "1.85"
 unicode: "f313"
@@ -9630,7 +9630,7 @@ unicode: "f313"
     id: "tabler-clock-hour-10",
     name: "Clock Hour 10",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "ten o'clock", "minimal", "analog", "event", "deadline", "future"]
 category: System
 version: "1.85"
 unicode: "f314"
@@ -9658,7 +9658,7 @@ unicode: "f314"
     id: "tabler-clock-hour-11",
     name: "Clock Hour 11",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "eleven o'clock", "minimal", "analog", "event", "deadline", "future"]
 category: System
 version: "1.85"
 unicode: "f315"
@@ -9686,7 +9686,7 @@ unicode: "f315"
     id: "tabler-clock-hour-12",
     name: "Clock Hour 12",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "twelve o'clock", "minimal", "analog", "event", "deadline", "midnight"]
 category: System
 version: "1.85"
 unicode: "f316"
@@ -9713,7 +9713,7 @@ unicode: "f316"
     id: "tabler-clock-hour-2",
     name: "Clock Hour 2",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "two o'clock", "minimal", "analog", "event", "deadline", "past"]
 category: System
 version: "1.85"
 unicode: "f317"
@@ -9741,7 +9741,7 @@ unicode: "f317"
     id: "tabler-clock-hour-3",
     name: "Clock Hour 3",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "three o'clock", "minimal", "analog", "event", "deadline", "afternoon"]
 category: System
 version: "1.85"
 unicode: "f318"
@@ -9769,7 +9769,7 @@ unicode: "f318"
     id: "tabler-clock-hour-4",
     name: "Clock Hour 4",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "four o'clock", "minimal", "analog", "event", "deadline", "afternoon"]
 category: System
 version: "1.85"
 unicode: "f319"
@@ -9797,7 +9797,7 @@ unicode: "f319"
     id: "tabler-clock-hour-5",
     name: "Clock Hour 5",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "five o'clock", "minimal", "analog", "event", "deadline", "evening"]
 category: System
 version: "1.85"
 unicode: "f31a"
@@ -9825,7 +9825,7 @@ unicode: "f31a"
     id: "tabler-clock-hour-6",
     name: "Clock Hour 6",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "six o'clock", "minimal", "analog", "event", "deadline", "evening"]
 category: System
 version: "1.85"
 unicode: "f31b"
@@ -9853,7 +9853,7 @@ unicode: "f31b"
     id: "tabler-clock-hour-7",
     name: "Clock Hour 7",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "seven o'clock", "minimal", "analog", "event", "deadline", "evening"]
 category: System
 version: "1.85"
 unicode: "f31c"
@@ -9881,7 +9881,7 @@ unicode: "f31c"
     id: "tabler-clock-hour-8",
     name: "Clock Hour 8",
     svg: `<!--
-tags: [time, watch, timer, alarm, minutes, seconds]
+tags: ["time", "hour", "schedule", "appointment", "eight o'clock", "minimal", "analog", "event", "deadline", "night"]
 category: System
 version: "1.85"
 unicode: "f31d"
@@ -93343,7 +93343,7 @@ unicode: "fcc9"
     id: "tabler-letter-c",
     name: "Letter C",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric"]
 category: Letters
 version: "1.12"
 unicode: "ec52"
@@ -93369,7 +93369,7 @@ unicode: "ec52"
     id: "tabler-letter-case-lower",
     name: "Letter Case Lower",
     svg: `<!--
-tags: [typography, font, text, style, content]
+tags: ["text", "typography", "lowercase", "a-z", "format", "editing", "minimal", "ui"]
 category: Text
 version: "1.39"
 unicode: "eea2"
@@ -93398,7 +93398,7 @@ unicode: "eea2"
     id: "tabler-letter-case-toggle",
     name: "Letter Case Toggle",
     svg: `<!--
-tags: [typography, font, text, style, content]
+tags: ["text", "typography", "case change", "format", "editing", "switch", "minimal", "ui"]
 category: Text
 version: "1.39"
 unicode: "eea3"
@@ -93427,7 +93427,7 @@ unicode: "eea3"
     id: "tabler-letter-case-upper",
     name: "Letter Case Upper",
     svg: `<!--
-tags: [typography, font, text, style, content]
+tags: ["text", "typography", "uppercase", "a-z", "format", "editing", "minimal", "ui"]
 category: Text
 version: "1.39"
 unicode: "eea4"
@@ -93456,7 +93456,7 @@ unicode: "eea4"
     id: "tabler-letter-case",
     name: "Letter Case",
     svg: `<!--
-tags: [typography, font, text, style, content]
+tags: ["text", "typography", "case", "format", "editing", "minimal", "ui"]
 category: Text
 version: "1.39"
 unicode: "eea5"
@@ -93485,7 +93485,7 @@ unicode: "eea5"
     id: "tabler-letter-d-small",
     name: "Letter D Small",
     svg: `<!--
-tags: [d, delta, fourth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fcca"
@@ -93511,7 +93511,7 @@ unicode: "fcca"
     id: "tabler-letter-d",
     name: "Letter D",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec53"
@@ -93537,7 +93537,7 @@ unicode: "ec53"
     id: "tabler-letter-e-small",
     name: "Letter E Small",
     svg: `<!--
-tags: [e, echo, fifth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fccb"
@@ -93564,7 +93564,7 @@ unicode: "fccb"
     id: "tabler-letter-e",
     name: "Letter E",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec54"
@@ -93591,7 +93591,7 @@ unicode: "ec54"
     id: "tabler-letter-f-small",
     name: "Letter F Small",
     svg: `<!--
-tags: [f, foxtrot, sixth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fccc"
@@ -93618,7 +93618,7 @@ unicode: "fccc"
     id: "tabler-letter-f",
     name: "Letter F",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec55"
@@ -93645,7 +93645,7 @@ unicode: "ec55"
     id: "tabler-letter-g-small",
     name: "Letter G Small",
     svg: `<!--
-tags: [g, golf, seventh, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fccd"
@@ -93671,7 +93671,7 @@ unicode: "fccd"
     id: "tabler-letter-g",
     name: "Letter G",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec56"
@@ -93697,7 +93697,7 @@ unicode: "ec56"
     id: "tabler-letter-h-small",
     name: "Letter H Small",
     svg: `<!--
-tags: [h, hotel, eighth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fcce"
@@ -93725,7 +93725,7 @@ unicode: "fcce"
     id: "tabler-letter-h",
     name: "Letter H",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec57"
@@ -93753,7 +93753,7 @@ unicode: "ec57"
     id: "tabler-letter-i-small",
     name: "Letter I Small",
     svg: `<!--
-tags: [i, india, ninth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fccf"
@@ -93779,7 +93779,7 @@ unicode: "fccf"
     id: "tabler-letter-i",
     name: "Letter I",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec58"
@@ -93805,7 +93805,7 @@ unicode: "ec58"
     id: "tabler-letter-j-small",
     name: "Letter J Small",
     svg: `<!--
-tags: [j, juliett, tenth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fcd0"
@@ -93831,7 +93831,7 @@ unicode: "fcd0"
     id: "tabler-letter-j",
     name: "Letter J",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec59"
@@ -93857,7 +93857,7 @@ unicode: "ec59"
     id: "tabler-letter-k-small",
     name: "Letter K Small",
     svg: `<!--
-tags: [k, kilo, eleventh, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fcd1"
@@ -93885,7 +93885,7 @@ unicode: "fcd1"
     id: "tabler-letter-k",
     name: "Letter K",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec5a"
@@ -93913,7 +93913,7 @@ unicode: "ec5a"
     id: "tabler-letter-l-small",
     name: "Letter L Small",
     svg: `<!--
-tags: [l, lima, twelfth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fcd2"
@@ -93939,7 +93939,7 @@ unicode: "fcd2"
     id: "tabler-letter-l",
     name: "Letter L",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec5b"
@@ -93965,7 +93965,7 @@ unicode: "ec5b"
     id: "tabler-letter-m-small",
     name: "Letter M Small",
     svg: `<!--
-tags: [m, mike, thirteenth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "lowercase"]
 category: Letters
 version: "2.38"
 unicode: "fcd3"
@@ -93991,7 +93991,7 @@ unicode: "fcd3"
     id: "tabler-letter-m",
     name: "Letter M",
     svg: `<!--
-tags: [alphabet, symbol, text, code]
+tags: ["alphabet", "character", "typography", "text", "initial", "minimal", "geometric", "uppercase"]
 category: Letters
 version: "1.12"
 unicode: "ec5c"
@@ -110510,7 +110510,7 @@ version: "3.14"
     id: "tabler-number-72-small",
     name: "Number 72 Small",
     svg: `<!--
-tags: [seventy-two, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-two", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffda"
 version: "3.14"
@@ -110537,7 +110537,7 @@ version: "3.14"
     id: "tabler-number-73-small",
     name: "Number 73 Small",
     svg: `<!--
-tags: [seventy-three, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-three", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd9"
 version: "3.14"
@@ -110564,7 +110564,7 @@ version: "3.14"
     id: "tabler-number-74-small",
     name: "Number 74 Small",
     svg: `<!--
-tags: [seventy-four, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-four", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd8"
 version: "3.14"
@@ -110592,7 +110592,7 @@ version: "3.14"
     id: "tabler-number-75-small",
     name: "Number 75 Small",
     svg: `<!--
-tags: [seventy-five, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-five", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd7"
 version: "3.14"
@@ -110619,7 +110619,7 @@ version: "3.14"
     id: "tabler-number-76-small",
     name: "Number 76 Small",
     svg: `<!--
-tags: [seventy-six, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-six", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd6"
 version: "3.14"
@@ -110646,7 +110646,7 @@ version: "3.14"
     id: "tabler-number-77-small",
     name: "Number 77 Small",
     svg: `<!--
-tags: [seventy-seven, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-seven", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd5"
 version: "3.14"
@@ -110673,7 +110673,7 @@ version: "3.14"
     id: "tabler-number-78-small",
     name: "Number 78 Small",
     svg: `<!--
-tags: [seventy-eight, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-eight", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd4"
 version: "3.14"
@@ -110700,7 +110700,7 @@ version: "3.14"
     id: "tabler-number-79-small",
     name: "Number 79 Small",
     svg: `<!--
-tags: [seventy-nine, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["seventy-nine", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd3"
 version: "3.14"
@@ -110727,7 +110727,7 @@ version: "3.14"
     id: "tabler-number-8-small",
     name: "Number 8 Small",
     svg: `<!--
-tags: [eight, octet, octuple, octad, eightfold, octenary, oct, octuplet, eighth, octa]
+tags: ["eight", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 version: "2.38"
 unicode: "fcfd"
@@ -110753,7 +110753,7 @@ unicode: "fcfd"
     id: "tabler-number-8",
     name: "Number 8",
     svg: `<!--
-tags: [eight, maths, value, quantity, calculate, calculation, total, amount, sum, order, digit]
+tags: ["eight", "count", "quantity", "large", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 version: "1.38"
 unicode: "edf8"
@@ -110780,7 +110780,7 @@ unicode: "edf8"
     id: "tabler-number-80-small",
     name: "Number 80 Small",
     svg: `<!--
-tags: [eighty, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd2"
 version: "3.14"
@@ -110807,7 +110807,7 @@ version: "3.14"
     id: "tabler-number-81-small",
     name: "Number 81 Small",
     svg: `<!--
-tags: [eighty-one, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-one", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd1"
 version: "3.14"
@@ -110834,7 +110834,7 @@ version: "3.14"
     id: "tabler-number-82-small",
     name: "Number 82 Small",
     svg: `<!--
-tags: [eighty-two, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-two", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffd0"
 version: "3.14"
@@ -110861,7 +110861,7 @@ version: "3.14"
     id: "tabler-number-83-small",
     name: "Number 83 Small",
     svg: `<!--
-tags: [eighty-three, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-three", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffcf"
 version: "3.14"
@@ -110888,7 +110888,7 @@ version: "3.14"
     id: "tabler-number-84-small",
     name: "Number 84 Small",
     svg: `<!--
-tags: [eighty-four, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-four", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffce"
 version: "3.14"
@@ -110916,7 +110916,7 @@ version: "3.14"
     id: "tabler-number-85-small",
     name: "Number 85 Small",
     svg: `<!--
-tags: [eighty-five, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-five", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffcd"
 version: "3.14"
@@ -110943,7 +110943,7 @@ version: "3.14"
     id: "tabler-number-86-small",
     name: "Number 86 Small",
     svg: `<!--
-tags: [eighty-six, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-six", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffcc"
 version: "3.14"
@@ -110970,7 +110970,7 @@ version: "3.14"
     id: "tabler-number-87-small",
     name: "Number 87 Small",
     svg: `<!--
-tags: [eighty-seven, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-seven", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffcb"
 version: "3.14"
@@ -110997,7 +110997,7 @@ version: "3.14"
     id: "tabler-number-88-small",
     name: "Number 88 Small",
     svg: `<!--
-tags: [eighty-eight, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-eight", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffca"
 version: "3.14"
@@ -111024,7 +111024,7 @@ version: "3.14"
     id: "tabler-number-89-small",
     name: "Number 89 Small",
     svg: `<!--
-tags: [eighty-nine, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["eighty-nine", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffc9"
 version: "3.14"
@@ -111051,7 +111051,7 @@ version: "3.14"
     id: "tabler-number-9-small",
     name: "Number 9 Small",
     svg: `<!--
-tags: [nine, nonet, nonuple, ennead, ninefold, novenary, non, nonuplet, ninth, ennea]
+tags: ["nine", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 version: "2.38"
 unicode: "fcfe"
@@ -111077,7 +111077,7 @@ unicode: "fcfe"
     id: "tabler-number-9",
     name: "Number 9",
     svg: `<!--
-tags: [nine, maths, value, quantity, calculate, calculation, total, amount, sum, order, digit]
+tags: ["nine", "count", "quantity", "large", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 version: "1.38"
 unicode: "edf9"
@@ -111104,7 +111104,7 @@ unicode: "edf9"
     id: "tabler-number-90-small",
     name: "Number 90 Small",
     svg: `<!--
-tags: [ninety, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["ninety", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffc8"
 version: "3.14"
@@ -111131,7 +111131,7 @@ version: "3.14"
     id: "tabler-number-91-small",
     name: "Number 91 Small",
     svg: `<!--
-tags: [ninety-one, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["ninety-one", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffc7"
 version: "3.14"
@@ -111158,7 +111158,7 @@ version: "3.14"
     id: "tabler-number-92-small",
     name: "Number 92 Small",
     svg: `<!--
-tags: [ninety-two, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: ["ninety-two", "count", "quantity", "small", "minimal", "outlined", "badge", "label", "ui", "input"]
 category: Numbers
 unicode: "ffc6"
 version: "3.14"
@@ -121275,7 +121275,7 @@ unicode: "fac7"
     id: "tabler-rewind-forward-50",
     name: "Rewind Forward 50",
     svg: `<!--
-tags: [forward, advance, fast-forward, rewind, skip, jump, next, move-50, fast, ahead]
+tags: ["playback", "video", "audio", "skip", "fast forward", "media player", "timeline", "control", "50 seconds", "speed"]
 category: Media
 version: "2.21"
 unicode: "fac8"
@@ -121304,7 +121304,7 @@ unicode: "fac8"
     id: "tabler-rewind-forward-60",
     name: "Rewind Forward 60",
     svg: `<!--
-tags: [forward, advance, fast-forward, rewind, skip, jump, next, move-60, fast, ahead]
+tags: ["playback", "video", "audio", "skip", "fast forward", "media player", "timeline", "control", "60 seconds", "speed"]
 category: Media
 version: "2.21"
 unicode: "fac9"
@@ -121333,7 +121333,7 @@ unicode: "fac9"
     id: "tabler-ribbon-health",
     name: "Ribbon Health",
     svg: `<!--
-tags: [medical, care, heatlh, medic, healthcare]
+tags: ["awareness", "support", "medical", "charity", "campaign", "prevention", "solidarity", "healthcare", "wellness", "cause"]
 category: Symbols
 unicode: "f58e"
 version: "1.109"
@@ -121359,7 +121359,7 @@ version: "1.109"
     id: "tabler-rings",
     name: "Rings",
     svg: `<!--
-tags: [circle, loop, hoop, round, band, circular, cycle, ringlet, orb, wedding]
+tags: ["wedding", "marriage", "jewelry", "engagement", "commitment", "love", "relationship", "circles", "connected", "union"]
 category: Sport
 version: "2.17"
 unicode: "fa6a"
@@ -121390,7 +121390,7 @@ unicode: "fa6a"
     name: "Ripple Off",
     svg: `<!--
 category: Nature
-tags: [wave, water, breeze, ocean, sea]
+tags: ["disabled", "inactive", "sound off", "vibration off", "no effect", "silent", "calm", "still", "muted", "deactivated"]
 version: "1.66"
 unicode: "f190"
 -->
@@ -121418,7 +121418,7 @@ unicode: "f190"
     id: "tabler-ripple",
     name: "Ripple",
     svg: `<!--
-tags: [wave, water, breeze, ocean, sea]
+tags: ["sound", "vibration", "effect", "wave", "impact", "concentric", "water", "audio", "motion", "pulse"]
 version: "1.33"
 unicode: "ed82"
 category: Nature
@@ -121447,7 +121447,7 @@ category: Nature
     name: "Road Off",
     svg: `<!--
 category: Map
-tags: [car, travel, journey, traffic, highway, route, racing]
+tags: ["no access", "closed", "detour", "blocked", "unavailable", "route off", "path blocked", "navigation off", "restricted", "forbidden"]
 version: "1.66"
 unicode: "f191"
 -->
@@ -121477,7 +121477,7 @@ unicode: "f191"
     id: "tabler-road-sign",
     name: "Road Sign",
     svg: `<!--
-tags: [telltale, prohibitive, indicative, cautionary, codex, restrictions]
+tags: ["direction", "information", "guidance", "travel", "highway", "street", "junction", "wayfinding", "signpost", "traffic"]
 category: Map
 version: "1.20"
 unicode: "ecdd"
@@ -121505,7 +121505,7 @@ unicode: "ecdd"
     id: "tabler-road",
     name: "Road",
     svg: `<!--
-tags: [car, travel, journey, traffic, highway, route, racing]
+tags: ["path", "route", "journey", "travel", "highway", "street", "destination", "guidance", "way", "transportation"]
 category: Map
 version: "1.54"
 unicode: "f018"
@@ -121535,7 +121535,7 @@ unicode: "f018"
     id: "tabler-robot-face",
     name: "Robot Face",
     svg: `<!--
-tags: [bot, android, ai, machine, cyborg, automaton, head, gizmo, mech]
+tags: ["ai", "artificial intelligence", "android", "machine", "automation", "technology", "futuristic", "bot", "head", "face"]
 version: "2.37"
 unicode: "fcbe"
 -->
@@ -121565,7 +121565,7 @@ unicode: "fcbe"
     id: "tabler-robot-off",
     name: "Robot Off",
     svg: `<!--
-tags: [technology, ai, machine, bot, android]
+tags: ["ai off", "disabled", "inactive", "automation off", "machine off", "bot off", "deactivated", "no ai", "manual", "human control"]
 version: "1.66"
 unicode: "f192"
 -->
@@ -121598,7 +121598,7 @@ unicode: "f192"
     name: "Robot",
     svg: `<!--
 category: Games
-tags: [technology, ai, machine, bot, android]
+tags: ["ai", "artificial intelligence", "android", "machine", "automation", "technology", "futuristic", "bot", "chatbot", "assistant"]
 version: "1.53"
 unicode: "f00b"
 -->
@@ -121632,7 +121632,7 @@ unicode: "f00b"
     name: "Rocket Off",
     svg: `<!--
 category: Map
-tags: [universe, galaxy, space, journey, discover, extraterrestrial, spaceship]
+tags: ["launch failed", "no launch", "disabled", "inactive", "space travel off", "aborted", "grounded", "cancelled", "stopped", "failed mission"]
 version: "1.66"
 unicode: "f193"
 -->
@@ -121661,7 +121661,7 @@ unicode: "f193"
     name: "Rocket",
     svg: `<!--
 category: Map
-tags: [universe, galaxy, space, journey, discover, extraterrestrial, spaceship]
+tags: ["launch", "space", "startup", "boost", "speed", "ambition", "innovation", "progress", "mission", "fast"]
 version: "1.11"
 unicode: "ec45"
 -->
@@ -121688,7 +121688,7 @@ unicode: "ec45"
     id: "tabler-roller-skating",
     name: "Roller Skating",
     svg: `<!--
-tags: [sport, hobby, fitness]
+tags: ["sport", "activity", "recreation", "skates", "leisure", "exercise", "fun", "movement", "hobby", "wheels"]
 category: Sport
 version: "1.50"
 unicode: "efd1"
@@ -121717,7 +121717,7 @@ unicode: "efd1"
     name: "Rollercoaster Off",
     svg: `<!--
 category: Vehicles
-tags: [adrenaline, height, speed, funfair, fun, attraction, extreme]
+tags: ["amusement park closed", "ride disabled", "no fun", "park off", "excitement off", "thrill off", "closed attraction", "deactivated", "maintenance", "out of order"]
 unicode: "f423"
 version: "1.94"
 -->
@@ -121750,7 +121750,7 @@ version: "1.94"
     name: "Rosette Discount Check Off",
     svg: `<!--
 category: E-commerce
-tags: [reduction, price, cost, money, shopping, bargain, tick, done, verified, certificate, valid, official, success]
+tags: ["coupon invalid", "discount expired", "offer denied", "promotion failed", "no deal", "voucher off", "reward invalid", "sale off", "badge off", "certificate invalid"]
 unicode: "ff10"
 version: "3.7"
 -->
@@ -121778,7 +121778,7 @@ version: "3.7"
     name: "Rosette Discount Off",
     svg: `<!--
 category: E-commerce
-tags: [sale, reduction, price, cost, money, shopping, bargain]
+tags: ["coupon invalid", "discount expired", "offer denied", "promotion failed", "no deal", "voucher off", "reward invalid", "sale off", "badge off", "certificate invalid"]
 unicode: "f3e6"
 version: "1.94"
 -->
@@ -121807,7 +121807,7 @@ version: "1.94"
     id: "tabler-rosette-number-0",
     name: "Rosette Number 0",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "zero", "rank", "achievement", "certification", "quality", "guarantee", "empty", "number"]
 category: Numbers
 unicode: "f58f"
 version: "1.109"
@@ -121834,7 +121834,7 @@ version: "1.109"
     id: "tabler-rosette-number-1",
     name: "Rosette Number 1",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "first place", "rank", "achievement", "certification", "quality", "guarantee", "number one", "winner"]
 category: Numbers
 unicode: "f590"
 version: "1.109"
@@ -121861,7 +121861,7 @@ version: "1.109"
     id: "tabler-rosette-number-2",
     name: "Rosette Number 2",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "second place", "rank", "achievement", "certification", "quality", "guarantee", "number two", "runner up"]
 category: Numbers
 unicode: "f591"
 version: "1.109"
@@ -121888,7 +121888,7 @@ version: "1.109"
     id: "tabler-rosette-number-3",
     name: "Rosette Number 3",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "third place", "rank", "achievement", "certification", "quality", "guarantee", "number three", "bronze"]
 category: Numbers
 unicode: "f592"
 version: "1.109"
@@ -121915,7 +121915,7 @@ version: "1.109"
     id: "tabler-rosette-number-4",
     name: "Rosette Number 4",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "fourth place", "rank", "achievement", "certification", "quality", "guarantee", "number four", "competition"]
 category: Numbers
 unicode: "f593"
 version: "1.109"
@@ -121943,7 +121943,7 @@ version: "1.109"
     id: "tabler-rosette-number-5",
     name: "Rosette Number 5",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "fifth place", "rank", "achievement", "certification", "quality", "guarantee", "number five", "competition"]
 category: Numbers
 unicode: "f594"
 version: "1.109"
@@ -121970,7 +121970,7 @@ version: "1.109"
     id: "tabler-rosette-number-6",
     name: "Rosette Number 6",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "sixth place", "rank", "achievement", "certification", "quality", "guarantee", "number six", "competition"]
 category: Numbers
 unicode: "f595"
 version: "1.109"
@@ -121997,7 +121997,7 @@ version: "1.109"
     id: "tabler-rosette-number-7",
     name: "Rosette Number 7",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "achievement", "ranking", "prize", "winner", "seventh", "honor", "celebration", "ui"]
 category: Numbers
 unicode: "f596"
 version: "1.109"
@@ -122024,7 +122024,7 @@ version: "1.109"
     id: "tabler-rosette-number-8",
     name: "Rosette Number 8",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "achievement", "ranking", "prize", "winner", "eighth", "honor", "celebration", "ui"]
 category: Numbers
 unicode: "f597"
 version: "1.109"
@@ -122051,7 +122051,7 @@ version: "1.109"
     id: "tabler-rosette-number-9",
     name: "Rosette Number 9",
     svg: `<!--
-tags: [shape, number, digit]
+tags: ["award", "badge", "achievement", "ranking", "prize", "winner", "ninth", "honor", "celebration", "ui"]
 category: Numbers
 unicode: "f598"
 version: "1.109"
@@ -122079,7 +122079,7 @@ version: "1.109"
     name: "Rotate 2",
     svg: `<!--
 category: Arrows
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows]
+tags: ["refresh", "reload", "circular", "arrow", "sync", "update", "turn", "direction", "loop", "ui"]
 version: "1.4"
 unicode: "ebb4"
 -->
@@ -122109,7 +122109,7 @@ unicode: "ebb4"
     id: "tabler-rotate-360",
     name: "Rotate 360",
     svg: `<!--
-tags: [degree, circle, camera, spin, rotation]
+tags: ["full rotation", "circular", "arrow", "refresh", "reload", "sync", "update", "turn", "direction", "ui"]
 category: Arrows
 version: "1.46"
 unicode: "ef85"
@@ -122136,7 +122136,7 @@ unicode: "ef85"
     id: "tabler-rotate-3d",
     name: "Rotate 3D",
     svg: `<!--
-tags: [rotation, geometry, 3d, modeling]
+tags: ["3d view", "perspective", "transformation", "axis", "design", "modeling", "turn", "dimension", "ui", "editor"]
 version: "1.55"
 unicode: "f020"
 -->
@@ -122166,7 +122166,7 @@ unicode: "f020"
     name: "Rotate Clockwise 2",
     svg: `<!--
 category: Arrows
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows]
+tags: ["clockwise", "turn right", "refresh", "reload", "circular", "arrow", "sync", "update", "direction", "ui"]
 version: "1.4"
 unicode: "ebb5"
 -->
@@ -122196,7 +122196,7 @@ unicode: "ebb5"
     id: "tabler-rotate-clockwise",
     name: "Rotate Clockwise",
     svg: `<!--
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows]
+tags: ["clockwise", "turn right", "refresh", "reload", "circular", "arrow", "sync", "update", "direction", "ui"]
 category: Arrows
 version: "1.0"
 unicode: "eb15"
@@ -122223,7 +122223,7 @@ unicode: "eb15"
     name: "Rotate Dot",
     svg: `<!--
 category: Arrows
-tags: [direction, degree, circle, camera, spin, rotation]
+tags: ["pivot", "center point", "origin", "spin", "turn", "axis", "circular", "arrow", "design", "ui"]
 version: "1.51"
 unicode: "efe5"
 -->
@@ -122249,7 +122249,7 @@ unicode: "efe5"
     id: "tabler-rotate-rectangle",
     name: "Rotate Rectangle",
     svg: `<!--
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows]
+tags: ["object rotation", "transform", "image editor", "design tool", "turn", "orientation", "rectangular", "ui", "edit", "layout"]
 category: Arrows
 version: "1.8"
 unicode: "ec15"
@@ -122276,7 +122276,7 @@ unicode: "ec15"
     id: "tabler-rotate",
     name: "Rotate",
     svg: `<!--
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows]
+tags: ["refresh", "reload", "circular", "arrow", "sync", "update", "turn", "direction", "loop", "ui"]
 category: Arrows
 version: "1.0"
 unicode: "eb16"
@@ -122303,7 +122303,7 @@ unicode: "eb16"
     name: "Route 2",
     svg: `<!--
 category: Map
-tags: [path, journey, direction, trail, navigate, travel, way, road, route-two, 2-direction]
+tags: ["path", "journey", "navigation", "direction", "travel", "map", "destination", "waypoint", "gps", "transport"]
 unicode: "f4b6"
 version: "1.97"
 -->
@@ -122330,7 +122330,7 @@ version: "1.97"
     id: "tabler-route-alt-left",
     name: "Route Alt Left",
     svg: `<!--
-tags: [alternate-left, alternate-route, left-path, alternate-way, left-trail, alt-left-road, leftward-route, shift-left, change-left, left-road]
+tags: ["alternate path", "detour", "left turn", "navigation", "direction", "travel", "map", "waypoint", "gps", "transport"]
 category: Map
 version: "2.36"
 unicode: "fca9"
@@ -122361,7 +122361,7 @@ unicode: "fca9"
     id: "tabler-route-alt-right",
     name: "Route Alt Right",
     svg: `<!--
-tags: [alternate-right, alternate-route, right-path, alternate-way, right-trail, alt-right-road, rightward-route, shift-right, change-right, right-road]
+tags: ["alternate path", "detour", "right turn", "navigation", "direction", "travel", "map", "waypoint", "gps", "transport"]
 category: Map
 version: "2.36"
 unicode: "fcaa"
@@ -122393,7 +122393,7 @@ unicode: "fcaa"
     name: "Route Off",
     svg: `<!--
 category: Map
-tags: [path, journey, direction, trail, navigate, travel, way, road, travel-route, route-way]
+tags: ["route disabled", "no path", "navigation off", "blocked", "unavailable", "error", "map", "travel", "gps", "transport"]
 version: "1.66"
 unicode: "f194"
 -->
@@ -122421,7 +122421,7 @@ unicode: "f194"
     id: "tabler-route-scan",
     name: "Route Scan",
     svg: `<!--
-tags: [path, direction, track, find, gps, map, navigate, explore, trace, survey]
+tags: ["route planning", "scanning", "discovery", "navigation", "map", "travel", "search", "gps", "explore", "transport"]
 version: "2.37"
 unicode: "fcbf"
 -->
@@ -122454,7 +122454,7 @@ unicode: "fcbf"
     name: "Route Square 2",
     svg: `<!--
 category: Map
-tags: [square-route, route-square, path, journey, direction, trail, navigate, travel, way, square-direction]
+tags: ["path", "journey", "navigation", "direction", "travel", "map", "destination", "waypoint", "gps", "transport"]
 version: "2.36"
 unicode: "fcab"
 -->
@@ -122481,7 +122481,7 @@ unicode: "fcab"
     id: "tabler-route-square",
     name: "Route Square",
     svg: `<!--
-tags: [path, journey, direction, trail, navigate, travel, way, square, geometric-route, square-path]
+tags: ["path", "journey", "navigation", "direction", "travel", "map", "destination", "waypoint", "gps", "transport"]
 category: Map
 version: "2.36"
 unicode: "fcac"
@@ -122510,7 +122510,7 @@ unicode: "fcac"
     name: "Route X 2",
     svg: `<!--
 category: Map
-tags: [x-route, route-x, path, journey, direction, trail, navigate, travel, way, crossing]
+tags: ["route cancelled", "invalid path", "blocked", "error", "navigation", "travel", "map", "no entry", "forbidden", "transport"]
 version: "2.36"
 unicode: "fcad"
 -->
@@ -122540,7 +122540,7 @@ unicode: "fcad"
     name: "Route X",
     svg: `<!--
 category: Map
-tags: [path, journey, direction, trail, navigate, travel, way, cross, x-cross, cross-path]
+tags: ["route cancelled", "invalid path", "blocked", "error", "navigation", "travel", "map", "no entry", "forbidden", "transport"]
 version: "2.36"
 unicode: "fcae"
 -->
@@ -122569,7 +122569,7 @@ unicode: "fcae"
     id: "tabler-route",
     name: "Route",
     svg: `<!--
-tags: [path, journey, direction, trail, navigate, travel, way, road, travel-route, route-way]
+tags: ["path", "journey", "navigation", "direction", "travel", "map", "destination", "waypoint", "gps", "transport"]
 category: Map
 version: "1.0"
 unicode: "eb17"
@@ -122598,7 +122598,7 @@ unicode: "eb17"
     name: "Router Off",
     svg: `<!--
 category: Devices
-tags: [wifi, device, wireless, signal, station, cast]
+tags: ["wifi off", "network disconnected", "internet down", "no signal", "offline", "modem", "wireless", "connection issue", "device", "system"]
 unicode: "f424"
 version: "1.94"
 -->
@@ -122629,7 +122629,7 @@ version: "1.94"
     name: "Router",
     svg: `<!--
 category: Devices
-tags: [wifi, device, wireless, signal, station, cast]
+tags: ["wifi", "network", "internet", "connection", "modem", "wireless", "access point", "device", "system", "connectivity"]
 version: "1.0"
 unicode: "eb18"
 -->
@@ -122659,7 +122659,7 @@ unicode: "eb18"
     id: "tabler-row-insert-bottom",
     name: "Row Insert Bottom",
     svg: `<!--
-tags: [table, layout, add, below, macro, excel]
+tags: ["add row", "table", "spreadsheet", "data entry", "insert below", "editor", "grid", "database", "ui", "document"]
 category: Database
 version: "1.39"
 unicode: "eed0"
@@ -122687,7 +122687,7 @@ unicode: "eed0"
     id: "tabler-row-insert-top",
     name: "Row Insert Top",
     svg: `<!--
-tags: [table, layout, add, below, macro, excel]
+tags: ["add row", "table", "spreadsheet", "data entry", "insert above", "editor", "grid", "database", "ui", "document"]
 category: Database
 version: "1.39"
 unicode: "eed1"
@@ -122715,7 +122715,7 @@ unicode: "eed1"
     id: "tabler-row-remove",
     name: "Row Remove",
     svg: `<!--
-tags: [delete, remove, erase, clear, subtract, eliminate, minus, cancel, discard, drop]
+tags: ["table", "delete", "minus", "data", "spreadsheet", "entry", "record", "remove row", "ui", "management"]
 category: Database
 version: "2.24"
 unicode: "fafe"
@@ -122743,7 +122743,7 @@ unicode: "fafe"
     id: "tabler-rss",
     name: "Rss",
     svg: `<!--
-tags: [feed, subscribe]
+tags: ["feed", "subscribe", "news", "blog", "updates", "syndication", "content", "web feed"]
 version: "1.0"
 unicode: "eb19"
 -->
@@ -122771,7 +122771,7 @@ unicode: "eb19"
     name: "Rubber Stamp Off",
     svg: `<!--
 category: Document
-tags: [rubber, stamp, seal, letter, mail, document, signature]
+tags: ["disabled", "inactive", "cancelled", "void", "approval", "official", "seal", "document", "stamping", "office"]
 unicode: "f5aa"
 version: "1.110"
 -->
@@ -122799,7 +122799,7 @@ version: "1.110"
     id: "tabler-rubber-stamp",
     name: "Rubber Stamp",
     svg: `<!--
-tags: [rubber, stamp, seal, letter, mail, document, signature]
+tags: ["approval", "official", "seal", "document", "stamping", "office", "authority", "verified", "authentic"]
 category: Document
 unicode: "f5ab"
 version: "1.110"
@@ -122827,7 +122827,7 @@ version: "1.110"
     name: "Ruler 2 Off",
     svg: `<!--
 category: Design
-tags: [maths, dimensions, size, width, length, geometry, measure, technical]
+tags: ["disabled", "inactive", "measurement", "scale", "length", "tool", "design", "drafting", "metric", "engineering"]
 version: "1.66"
 unicode: "f195"
 -->
@@ -122857,7 +122857,7 @@ unicode: "f195"
     name: "Ruler 2",
     svg: `<!--
 category: Design
-tags: [maths, dimensions, size, width, length, geometry, measure, technical]
+tags: ["measurement", "scale", "length", "tool", "design", "drafting", "metric", "engineering", "straightedge"]
 version: "1.39"
 unicode: "eed2"
 -->
@@ -122887,7 +122887,7 @@ unicode: "eed2"
     name: "Ruler 3",
     svg: `<!--
 category: Design
-tags: [maths, dimensions, size, width, length, geometry, measure, technical]
+tags: ["measurement", "scale", "length", "tool", "design", "drafting", "metric", "engineering", "straightedge"]
 version: "1.78"
 unicode: "f290"
 -->
@@ -122918,7 +122918,7 @@ unicode: "f290"
     name: "Ruler Measure 2",
     svg: `<!--
 category: Design
-tags: [maths, dimensions, size, width, length, geometry, measure, technical, distance]
+tags: ["measurement", "scale", "length", "tool", "design", "drafting", "metric", "engineering", "dimensions", "accuracy"]
 unicode: "ff0f"
 version: "3.7"
 -->
@@ -122951,7 +122951,7 @@ version: "3.7"
     id: "tabler-ruler-measure",
     name: "Ruler Measure",
     svg: `<!--
-tags: [maths, dimensions, size, width, length, geometry, measure, technical, distance]
+tags: ["measurement", "scale", "length", "tool", "design", "drafting", "metric", "engineering", "dimensions", "accuracy"]
 version: "1.78"
 unicode: "f291"
 category: Design
@@ -122986,7 +122986,7 @@ category: Design
     name: "Ruler Off",
     svg: `<!--
 category: Design
-tags: [maths, dimensions, size, width, length, geometry, measure, technical]
+tags: ["disabled", "inactive", "measurement", "scale", "length", "tool", "design", "drafting", "metric", "engineering"]
 version: "1.66"
 unicode: "f196"
 -->
@@ -123017,7 +123017,7 @@ unicode: "f196"
     id: "tabler-ruler",
     name: "Ruler",
     svg: `<!--
-tags: [maths, dimensions, size, width, length, geometry, measure, technical]
+tags: ["measurement", "scale", "length", "tool", "design", "drafting", "metric", "engineering", "straightedge"]
 version: "1.1"
 unicode: "eb1a"
 category: Design
@@ -123049,7 +123049,7 @@ category: Design
     id: "tabler-run",
     name: "Run",
     svg: `<!--
-tags: [jog, dislocating, movement, motion, sprint]
+tags: ["person", "athlete", "jog", "sprint", "exercise", "fitness", "movement", "activity", "sport", "figure"]
 category: Sport
 version: "1.14"
 unicode: "ec82"
@@ -123078,7 +123078,7 @@ unicode: "ec82"
     id: "tabler-rv-truck",
     name: "Rv Truck",
     svg: `<!--
-tags: [vehicle, transport, drive, trailer, auto, motorhome, camper, caravan, hauler]
+tags: ["recreational vehicle", "camper", "motorhome", "travel", "holiday", "road trip", "camping", "vehicle", "transportation"]
 version: "2.37"
 unicode: "fcc0"
 -->
@@ -123109,7 +123109,7 @@ unicode: "fcc0"
     id: "tabler-s-turn-down",
     name: "S Turn Down",
     svg: `<!--
-tags: [arrow, direction, bottom, south]
+tags: ["road", "direction", "curve", "bend", "navigation", "route", "downward", "arrow", "sign"]
 category: Arrows
 version: "1.102"
 unicode: "f516"
@@ -123137,7 +123137,7 @@ unicode: "f516"
     id: "tabler-s-turn-left",
     name: "S Turn Left",
     svg: `<!--
-tags: [arrow, direction, west]
+tags: ["road", "direction", "curve", "bend", "navigation", "route", "leftward", "arrow", "sign"]
 category: Arrows
 version: "1.102"
 unicode: "f517"
@@ -123165,7 +123165,7 @@ unicode: "f517"
     id: "tabler-s-turn-right",
     name: "S Turn Right",
     svg: `<!--
-tags: [arrow, direction, east]
+tags: ["road", "direction", "curve", "bend", "navigation", "route", "rightward", "arrow", "sign"]
 category: Arrows
 version: "1.102"
 unicode: "f518"
@@ -123193,7 +123193,7 @@ unicode: "f518"
     id: "tabler-s-turn-up",
     name: "S Turn Up",
     svg: `<!--
-tags: [arrow, direction, top, north]
+tags: ["road", "direction", "curve", "bend", "navigation", "route", "upward", "arrow", "sign"]
 category: Arrows
 version: "1.102"
 unicode: "f519"
@@ -123222,7 +123222,7 @@ unicode: "f519"
     name: "Sailboat 2",
     svg: `<!--
 category: Vehicles
-tags: [sailor, journey, sea, lake, ocean, river]
+tags: ["boat", "yacht", "sailing", "sea", "ocean", "water", "travel", "leisure", "transport", "marine"]
 unicode: "f5f7"
 version: "1.113"
 -->
@@ -123252,7 +123252,7 @@ version: "1.113"
     name: "Sailboat Off",
     svg: `<!--
 category: Vehicles
-tags: [sailor, journey, sea, lake, ocean, river]
+tags: ["disabled", "inactive", "boat", "yacht", "sailing", "sea", "ocean", "water", "travel", "leisure", "marine"]
 unicode: "f425"
 version: "1.94"
 -->
@@ -123281,7 +123281,7 @@ version: "1.94"
     id: "tabler-sailboat",
     name: "Sailboat",
     svg: `<!--
-tags: [sailor, journey, sea, lake, ocean, river]
+tags: ["boat", "yacht", "sailing", "sea", "ocean", "water", "travel", "leisure", "transport", "marine"]
 category: Vehicles
 version: "1.14"
 unicode: "ec83"
@@ -123310,7 +123310,7 @@ unicode: "ec83"
     id: "tabler-salt",
     name: "Salt",
     svg: `<!--
-tags: [food, cooking, kitchen, spice, salty]
+tags: ["seasoning", "food", "cooking", "flavor", "kitchen", "ingredient", "condiment", "sodium", "crystal"]
 category: Food
 version: "1.40"
 unicode: "ef16"
@@ -123340,7 +123340,7 @@ unicode: "ef16"
     id: "tabler-sandbox",
     name: "Sandbox",
     svg: `<!--
-tags: [play, construct, test, experiment, game, create, box, soil, sandpit, mock]
+tags: ["test", "experiment", "play", "development", "environment", "childhood", "testing", "isolated", "playground"]
 category: System
 version: "2.44"
 unicode: "fd6c"
@@ -123371,7 +123371,7 @@ unicode: "fd6c"
     name: "Satellite Off",
     svg: `<!--
 category: Map
-tags: [orbit, space, moon, earth, planet, communication, information, celestial]
+tags: ["disabled", "inactive", "space", "communication", "dish", "antenna", "broadcast", "orbit", "technology", "signal"]
 version: "1.66"
 unicode: "f197"
 -->
@@ -123403,7 +123403,7 @@ unicode: "f197"
     name: "Satellite",
     svg: `<!--
 category: Map
-tags: [orbit, space, moon, earth, planet, communication, information, celestial]
+tags: ["space", "communication", "dish", "antenna", "broadcast", "orbit", "technology", "signal", "global", "network"]
 version: "1.39"
 unicode: "eed3"
 -->
@@ -123433,7 +123433,7 @@ unicode: "eed3"
     id: "tabler-sausage",
     name: "Sausage",
     svg: `<!--
-tags: [food, grill, bonfire, campfire, meat, hot-dog]
+tags: ["food", "meat", "grill", "bbq", "breakfast", "cooking", "cuisine", "hot dog", "pork"]
 category: Food
 version: "1.40"
 unicode: "ef17"
@@ -123461,7 +123461,7 @@ unicode: "ef17"
     id: "tabler-scale-off",
     name: "Scale Off",
     svg: `<!--
-tags: [weigh, balance, amount, heavy, light, libra]
+tags: ["justice off", "balance off", "imbalance", "inequality", "fairness disabled", "unjust", "legal", "measurement", "disabled"]
 version: "1.66"
 unicode: "f198"
 -->
@@ -123491,7 +123491,7 @@ unicode: "f198"
     id: "tabler-scale-outline-off",
     name: "Scale Outline Off",
     svg: `<!--
-tags: [weight, weigh, diet, healthy, measurement]
+tags: ["justice off", "balance off", "imbalance", "inequality", "fairness disabled", "unjust", "legal", "measurement", "disabled"]
 version: "1.66"
 unicode: "f199"
 -->
@@ -123518,7 +123518,7 @@ unicode: "f199"
     id: "tabler-scale-outline",
     name: "Scale Outline",
     svg: `<!--
-tags: [weight, weigh, diet, healthy, measurement]
+tags: ["justice", "balance", "equality", "fairness", "legal", "measurement", "judgment", "law"]
 version: "1.43"
 unicode: "ef53"
 -->
@@ -123544,7 +123544,7 @@ unicode: "ef53"
     id: "tabler-scale",
     name: "Scale",
     svg: `<!--
-tags: [weigh, balance, amount, heavy, light, libra]
+tags: ["justice", "balance", "equality", "fairness", "legal", "measurement", "judgment", "law", "filled"]
 version: "1.1"
 unicode: "ebc2"
 -->
@@ -123574,7 +123574,7 @@ unicode: "ebc2"
     name: "Scan Eye",
     svg: `<!--
 category: System
-tags: [technology, security, safety, safe, secure]
+tags: ["biometric", "retina scan", "security", "authentication", "identification", "iris", "vision", "access"]
 version: "1.70"
 unicode: "f1ff"
 -->
@@ -123606,7 +123606,7 @@ unicode: "f1ff"
     name: "Scan Position",
     svg: `<!--
 category: System
-tags: [detect, check, track, view, analyze, spot, explore, locate, inspect, survey]
+tags: ["qr code", "barcode", "locate", "target", "positioning", "focus", "detection", "scanner"]
 unicode: "fdac"
 version: "3.0"
 -->
@@ -123636,7 +123636,7 @@ version: "3.0"
     name: "Scan",
     svg: `<!--
 category: System
-tags: [code, barcode, qr code, app, scanner, document]
+tags: ["qr code", "barcode", "scanner", "reader", "detection", "identify", "camera", "capture"]
 version: "1.5"
 unicode: "ebc8"
 -->
@@ -123666,7 +123666,7 @@ unicode: "ebc8"
     name: "Schema Off",
     svg: `<!--
 category: Database
-tags: [graph, data, infography]
+tags: ["diagram disabled", "flowchart off", "structure disabled", "database off", "workflow broken", "architecture", "disabled"]
 unicode: "f426"
 version: "1.94"
 -->
@@ -123698,7 +123698,7 @@ version: "1.94"
     id: "tabler-schema",
     name: "Schema",
     svg: `<!--
-tags: [graph, data, infography]
+tags: ["diagram", "flowchart", "structure", "database", "workflow", "architecture", "organization", "process"]
 version: "1.70"
 category: Database
 unicode: "f200"
@@ -123730,7 +123730,7 @@ unicode: "f200"
     id: "tabler-school-bell",
     name: "School Bell",
     svg: `<!--
-tags: [break, lesson, alarm, ring]
+tags: ["education", "academy", "learning", "class", "university", "alarm", "notification", "campus"]
 unicode: "f64a"
 version: "1.118"
 -->
@@ -123758,7 +123758,7 @@ version: "1.118"
     name: "School Off",
     svg: `<!--
 category: Map
-tags: [students, class, teachers, professors, doctors, hall, classroom, subject, science, break, lesson]
+tags: ["education disabled", "academy off", "learning disabled", "class cancelled", "university closed", "campus off", "disabled"]
 version: "1.66"
 unicode: "f19a"
 -->
@@ -123786,7 +123786,7 @@ unicode: "f19a"
     name: "School",
     svg: `<!--
 category: Map
-tags: [students, class, teachers, professors, doctors, hall, classroom, subject, science, break, lesson]
+tags: ["education", "academy", "learning", "class", "university", "campus", "college", "institution"]
 version: "1.22"
 unicode: "ecf7"
 -->
@@ -123813,7 +123813,7 @@ unicode: "ecf7"
     name: "Scissors Off",
     svg: `<!--
 category: Design
-tags: [cut, paper, file, document, hairdresser, blade, sharp]
+tags: ["cut off", "trim disabled", "edit off", "snip disabled", "disable", "cancel", "disabled"]
 version: "1.66"
 unicode: "f19b"
 -->
@@ -123842,7 +123842,7 @@ unicode: "f19b"
     name: "Scissors",
     svg: `<!--
 category: Design
-tags: [cut, paper, file, document, hairdresser, blade, sharp]
+tags: ["cut", "trim", "edit", "snip", "craft", "divide", "tool", "modify"]
 version: "1.1"
 unicode: "eb1b"
 -->
@@ -123870,7 +123870,7 @@ unicode: "eb1b"
     id: "tabler-scooter-electric",
     name: "Scooter Electric",
     svg: `<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip]
+tags: ["e-scooter", "electric vehicle", "micro-mobility", "transportation", "rental", "urban", "eco-friendly"]
 category: Vehicles
 version: "1.12"
 unicode: "ecc1"
@@ -123899,7 +123899,7 @@ unicode: "ecc1"
     id: "tabler-scooter",
     name: "Scooter",
     svg: `<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip]
+tags: ["kick scooter", "micro-mobility", "transportation", "urban", "playful", "ride", "travel"]
 category: Vehicles
 version: "1.12"
 unicode: "ec6c"
@@ -123927,7 +123927,7 @@ unicode: "ec6c"
     id: "tabler-scoreboard",
     name: "Scoreboard",
     svg: `<!--
-tags: [score, display, game, match, points, results, ranking, tally, totals]
+tags: ["sports", "game", "points", "results", "competition", "display", "score", "match"]
 category: Sport
 version: "2.17"
 unicode: "fa6b"
@@ -123962,7 +123962,7 @@ unicode: "fa6b"
     name: "Screen Share Off",
     svg: `<!--
 category: Devices
-tags: [monitor, stream, tv, mirroring, cast, online]
+tags: ["screenshare disabled", "present off", "webinar off", "meeting off", "collaboration disabled", "sharing cancelled", "disabled"]
 version: "1.24"
 unicode: "ed17"
 -->
@@ -123992,7 +123992,7 @@ unicode: "ed17"
     name: "Screen Share",
     svg: `<!--
 category: Devices
-tags: [monitor, stream, tv, mirroring, cast, online]
+tags: ["screenshare", "present", "webinar", "meeting", "collaboration", "sharing", "broadcast", "display"]
 version: "1.24"
 unicode: "ed18"
 -->
@@ -124022,7 +124022,7 @@ unicode: "ed18"
     id: "tabler-screenshot",
     name: "Screenshot",
     svg: `<!--
-tags: [image, capture, photo]
+tags: ["capture", "screen grab", "snapshot", "image", "picture", "ui", "camera", "monitor"]
 version: "1.70"
 unicode: "f201"
 -->
@@ -124056,7 +124056,7 @@ unicode: "f201"
     name: "Scribble Off",
     svg: `<!--
 category: Text
-tags: [kid, doodle, draw, drawing]
+tags: ["doodle off", "draw disabled", "sketch off", "handwriting disabled", "cancel", "disabled", "erase"]
 unicode: "f427"
 version: "1.94"
 -->
@@ -124083,7 +124083,7 @@ version: "1.94"
     name: "Scribble",
     svg: `<!--
 category: Text
-tags: [kid, doodle, draw, drawing]
+tags: ["doodle", "draw", "sketch", "handwriting", "note", "creative", "art", "freehand"]
 version: "1.61"
 unicode: "f0a3"
 -->
@@ -124109,7 +124109,7 @@ unicode: "f0a3"
     name: "Script Minus",
     svg: `<!--
 category: Document
-tags: [code, programming, coding, remove, delete]
+tags: ["code remove", "programming delete", "file minus", "document remove", "subtract", "reduce", "developer"]
 version: "1.82"
 unicode: "f2d7"
 -->
@@ -124136,7 +124136,7 @@ unicode: "f2d7"
     name: "Script Plus",
     svg: `<!--
 category: Document
-tags: [code, programming, coding, add, new]
+tags: ["code add", "programming create", "file plus", "document add", "new script", "developer", "increase"]
 version: "1.82"
 unicode: "f2d8"
 -->
@@ -124164,7 +124164,7 @@ unicode: "f2d8"
     name: "Script X",
     svg: `<!--
 category: Document
-tags: [code, programming, coding, remove, delete]
+tags: ["code error", "programming fail", "file close", "document cancel", "delete", "remove", "developer", "invalid"]
 version: "1.82"
 unicode: "f2d9"
 -->
@@ -124190,7 +124190,7 @@ unicode: "f2d9"
     id: "tabler-script",
     name: "Script",
     svg: `<!--
-tags: [code, programming, coding, document, development]
+tags: ["code", "programming", "automation", "development", "document", "file", "text", "command", "console", "coding"]
 category: Document
 version: "1.82"
 unicode: "f2da"
@@ -124216,7 +124216,7 @@ unicode: "f2da"
     id: "tabler-scuba-diving",
     name: "Scuba Diving",
     svg: `<!--
-tags: [dive, diving, water, open water, underwater]
+tags: ["ocean", "water", "adventure", "sport", "underwater", "leisure", "travel", "hobby", "vacation", "sea"]
 category: Sport
 version: "2.42"
 unicode: "fd4e"
@@ -124245,7 +124245,7 @@ unicode: "fd4e"
     name: "Scuba Mask Off",
     svg: `<!--
 category: Sport
-tags: [dive, diving, water, holiday, underwater, snorkeling, equipment]
+tags: ["ocean", "water", "adventure", "sport", "underwater", "leisure", "travel", "hobby", "vacation", "sea"]
 unicode: "f428"
 version: "1.94"
 -->
@@ -124272,7 +124272,7 @@ version: "1.94"
     id: "tabler-scuba-mask",
     name: "Scuba Mask",
     svg: `<!--
-tags: [dive, diving, water, holiday, underwater, snorkeling, equipment]
+tags: ["ocean", "water", "adventure", "sport", "underwater", "leisure", "travel", "hobby", "vacation", "sea"]
 category: Sport
 version: "1.39"
 unicode: "eed4"
@@ -124299,7 +124299,7 @@ unicode: "eed4"
     id: "tabler-sdk",
     name: "Sdk",
     svg: `<!--
-tags: [development, programming, programmer, web, app]
+tags: ["development", "code", "programming", "api", "toolkit", "software", "platform", "integration", "developer", "coding"]
 version: "1.93"
 unicode: "f3af"
 category: Development
@@ -124329,7 +124329,7 @@ category: Development
     id: "tabler-search-off",
     name: "Search Off",
     svg: `<!--
-tags: [find, magnifier, magnifying glass]
+tags: ["find", "magnify", "disabled", "unavailable", "cancel", "error", "filter", "lookup", "explore", "magnifying glass"]
 version: "1.66"
 unicode: "f19c"
 -->
@@ -124355,7 +124355,7 @@ unicode: "f19c"
     id: "tabler-search",
     name: "Search",
     svg: `<!--
-tags: [find, magnifier, magnifying glass]
+tags: ["find", "magnify", "explore", "filter", "lookup", "discover", "investigate", "magnifying glass", "query", "input"]
 version: "1.0"
 unicode: "eb1c"
 -->
@@ -124382,7 +124382,7 @@ unicode: "eb1c"
     name: "Section Sign",
     svg: `<!--
 category: Text
-tags: [legal, paragraph, law]
+tags: ["legal", "paragraph", "document", "text", "law", "chapter", "rule", "policy", "terms", "agreement"]
 version: "1.54"
 unicode: "f019"
 -->
@@ -124410,7 +124410,7 @@ unicode: "f019"
     name: "Seedling Off",
     svg: `<!--
 category: Nature
-tags: [nature, greenery, grow, soil, harvest, plant, flower, tree, leaf]
+tags: ["plant", "growth", "nature", "ecology", "disabled", "unavailable", "cancel", "error", "environment", "sprout"]
 version: "1.66"
 unicode: "f19d"
 -->
@@ -124438,7 +124438,7 @@ unicode: "f19d"
     id: "tabler-select-all",
     name: "Select All",
     svg: `<!--
-tags: [highlight, choose, pick, elect, mark, set, check, complete, fill, total]
+tags: ["choose", "check", "multiple", "options", "form", "ui", "selection", "toggle", "list", "group"]
 version: "2.11"
 unicode: "f9f7"
 -->
@@ -124479,7 +124479,7 @@ unicode: "f9f7"
     id: "tabler-select",
     name: "Select",
     svg: `<!--
-tags: [arrows, select, dropdown, chevron, down, south, bottom, direction, input]
+tags: ["choose", "check", "option", "form", "ui", "selection", "toggle", "dropdown", "pick", "input"]
 version: "1.16"
 unicode: "ec9e"
 category: Arrows
@@ -124506,7 +124506,7 @@ category: Arrows
     id: "tabler-selector",
     name: "Selector",
     svg: `<!--
-tags: [arrows, select, dropdown, chevron, down, south, bottom, direction, input]
+tags: ["dropdown", "choose", "options", "sort", "filter", "ui", "list", "menu", "arrow", "selection"]
 version: "1.0"
 unicode: "eb1d"
 category: Arrows
@@ -124534,7 +124534,7 @@ category: Arrows
     name: "Send 2",
     svg: `<!--
 category: Communication
-tags: [transmit, dispatch, forward, deliver, message, communication, send-out, send-away, transfer, send-off]
+tags: ["message", "email", "share", "submit", "plane", "paper airplane", "communication", "dispatch", "forward", "mail"]
 version: "2.43"
 unicode: "fd5d"
 -->
@@ -124561,7 +124561,7 @@ unicode: "fd5d"
     name: "Send Off",
     svg: `<!--
 category: Communication
-tags: [message, mail, email, gmail, paper, airplane, aeroplane]
+tags: ["message", "email", "share", "submit", "disabled", "unavailable", "cancel", "error", "communication", "dispatch"]
 unicode: "f429"
 version: "1.94"
 -->
@@ -124589,7 +124589,7 @@ version: "1.94"
     name: "Send",
     svg: `<!--
 category: Communication
-tags: [message, mail, email, gmail, paper, airplane, aeroplane]
+tags: ["message", "email", "share", "submit", "plane", "paper airplane", "communication", "dispatch", "forward", "mail"]
 version: "1.0"
 unicode: "eb1e"
 -->
@@ -124615,7 +124615,7 @@ unicode: "eb1e"
     id: "tabler-seo",
     name: "Seo",
     svg: `<!--
-tags: [www, web, browser, search, result]
+tags: ["marketing", "optimization", "website", "analytics", "growth", "search engine", "digital", "rank", "performance", "strategy"]
 version: "1.76"
 unicode: "f26b"
 category: Development
@@ -124644,7 +124644,7 @@ category: Development
     id: "tabler-separator-horizontal",
     name: "Separator Horizontal",
     svg: `<!--
-tags: [divider, space, separate, set apart, flat-lying]
+tags: ["divide", "line", "section", "break", "ui", "layout", "divider", "rule", "split", "horizontal"]
 category: Text
 version: "1.13"
 unicode: "ec79"
@@ -124672,7 +124672,7 @@ unicode: "ec79"
     id: "tabler-separator-vertical",
     name: "Separator Vertical",
     svg: `<!--
-tags: [divider, space, separate, set apart, upright]
+tags: ["divide", "line", "section", "break", "ui", "layout", "divider", "rule", "split", "vertical"]
 category: Text
 version: "1.13"
 unicode: "ec7a"
@@ -124701,7 +124701,7 @@ unicode: "ec7a"
     name: "Separator",
     svg: `<!--
 category: Text
-tags: [divider, space, separate, set apart]
+tags: ["divide", "line", "section", "break", "ui", "layout", "divider", "rule", "split", "horizontal"]
 version: "1.6"
 unicode: "ebda"
 -->
@@ -124729,7 +124729,7 @@ unicode: "ebda"
     name: "Server 2",
     svg: `<!--
 category: Devices
-tags: [storage, hosting, www]
+tags: ["data", "hosting", "network", "database", "cloud", "storage", "backend", "hardware", "system", "computing"]
 version: "1.59"
 unicode: "f07c"
 -->
@@ -124760,7 +124760,7 @@ unicode: "f07c"
     name: "Server Bolt",
     svg: `<!--
 category: Devices
-tags: [data, database, storage, lighting, power, energy]
+tags: ["data", "hosting", "network", "database", "cloud", "storage", "backend", "hardware", "system", "computing", "power", "energy"]
 version: "1.85"
 unicode: "f320"
 -->
@@ -124790,7 +124790,7 @@ unicode: "f320"
     name: "Server Cog",
     svg: `<!--
 category: Devices
-tags: [settings, storage, data, database]
+tags: ["data", "hosting", "network", "database", "cloud", "storage", "backend", "hardware", "system", "computing", "settings", "configuration"]
 version: "1.85"
 unicode: "f321"
 -->
@@ -124826,7 +124826,7 @@ unicode: "f321"
     name: "Server Off",
     svg: `<!--
 category: Devices
-tags: [storage, hosting, www]
+tags: ["data", "hosting", "network", "database", "cloud", "storage", "backend", "hardware", "system", "computing", "disabled", "unavailable", "offline"]
 version: "1.66"
 unicode: "f19e"
 -->
@@ -124855,7 +124855,7 @@ unicode: "f19e"
     id: "tabler-server-spark",
     name: "Server Spark",
     svg: `<!--
-tags: [storage, hosting, www]
+tags: ["data", "hosting", "network", "database", "cloud", "storage", "backend", "hardware", "system", "computing", "power", "energy", "active"]
 category: Devices
 unicode: "ffaf"
 version: "3.13"
@@ -124886,7 +124886,7 @@ version: "3.13"
     name: "Server",
     svg: `<!--
 category: Devices
-tags: [storage, hosting, www]
+tags: ["data", "hosting", "network", "database", "cloud", "storage", "backend", "hardware", "system", "computing"]
 version: "1.0"
 unicode: "eb1f"
 -->
@@ -124914,7 +124914,7 @@ unicode: "eb1f"
     id: "tabler-servicemark",
     name: "Servicemark",
     svg: `<!--
-tags: [trademark, sign, symbol, registration]
+tags: ["trademark", "brand", "identity", "legal", "copyright", "registration", "commerce", "business"]
 version: "1.8"
 category: Symbols
 unicode: "ec09"
@@ -124942,7 +124942,7 @@ unicode: "ec09"
     name: "Settings 2",
     svg: `<!--
 category: System
-tags: [cog, edit, gear, preferences, tools]
+tags: ["gear", "options", "preferences", "configuration", "control", "system", "ui", "tool"]
 unicode: "f5ac"
 version: "1.110"
 -->
@@ -124969,7 +124969,7 @@ version: "1.110"
     name: "Settings Automation",
     svg: `<!--
 category: System
-tags: [system, technology, automate, configure, device, program]
+tags: ["gear", "robot", "automatic", "process", "workflow", "machine", "efficiency", "control"]
 version: "1.39"
 unicode: "eed6"
 -->
@@ -124996,7 +124996,7 @@ unicode: "eed6"
     name: "Settings Bolt",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, power, energy, mechanics, wrench, tool]
+tags: ["gear", "power", "energy", "performance", "speed", "electric", "fast", "system"]
 version: "2.10"
 unicode: "f9ad"
 -->
@@ -125024,7 +125024,7 @@ unicode: "f9ad"
     name: "Settings Cancel",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, stop, abort, terminate, cease, halt]
+tags: ["gear", "remove", "close", "error", "decline", "stop", "failure", "system"]
 version: "2.10"
 unicode: "f9ae"
 -->
@@ -125053,7 +125053,7 @@ unicode: "f9ae"
     name: "Settings Check",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, verify, confirm, validate, approve, tick]
+tags: ["gear", "confirm", "validate", "success", "approve", "done", "complete", "system"]
 version: "2.10"
 unicode: "f9af"
 -->
@@ -125081,7 +125081,7 @@ unicode: "f9af"
     name: "Settings Code",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, script, program, developer, compile, syntax]
+tags: ["gear", "developer", "programming", "script", "backend", "coding", "development", "system"]
 version: "2.10"
 unicode: "f9b0"
 -->
@@ -125110,7 +125110,7 @@ unicode: "f9b0"
     name: "Settings Cog",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, wheel, mechanism, tooth, gadget, machinery]
+tags: ["gear", "options", "preferences", "configuration", "control", "system", "ui", "tool"]
 version: "2.10"
 unicode: "f9b1"
 -->
@@ -125144,7 +125144,7 @@ unicode: "f9b1"
     name: "Settings Dollar",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, currency, finance, money, cost, economics]
+tags: ["gear", "money", "currency", "payment", "finance", "cost", "budget", "commerce"]
 version: "2.10"
 unicode: "f9b2"
 -->
@@ -125173,7 +125173,7 @@ unicode: "f9b2"
     name: "Settings Down",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, decrease, lower, minimize, descend, reduce]
+tags: ["gear", "collapse", "minimize", "download", "decrease", "arrow", "system", "ui"]
 version: "2.10"
 unicode: "f9b3"
 -->
@@ -125202,7 +125202,7 @@ unicode: "f9b3"
     name: "Settings Exclamation",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, alert, warn, notice, signal, caution]
+tags: ["gear", "warning", "alert", "issue", "attention", "problem", "caution", "system"]
 version: "2.10"
 unicode: "f9b4"
 -->
@@ -125231,7 +125231,7 @@ unicode: "f9b4"
     name: "Settings Heart",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, love, favorite, care, like, passion]
+tags: ["gear", "favorite", "wishlist", "like", "health", "care", "preference", "system"]
 version: "2.10"
 unicode: "f9b5"
 -->
@@ -125259,7 +125259,7 @@ unicode: "f9b5"
     name: "Settings Minus",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, decrease, reduce, subtract, deduct, less]
+tags: ["gear", "remove", "subtract", "decrease", "delete", "shrink", "system", "ui"]
 version: "2.10"
 unicode: "f9b6"
 -->
@@ -125287,7 +125287,7 @@ unicode: "f9b6"
     name: "Settings Off",
     svg: `<!--
 category: System
-tags: [cog, edit, gear, preferences, tools]
+tags: ["gear", "disabled", "inactive", "unavailable", "power off", "broken", "system"]
 version: "1.66"
 unicode: "f19f"
 -->
@@ -125315,7 +125315,7 @@ unicode: "f19f"
     name: "Settings Pause",
     svg: `<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, stop, halt, break, intermission, suspend]
+tags: ["gear", "hold", "stop", "break", "suspend", "interruption", "system", "ui"]
 version: "2.10"
 unicode: "f9b7"
 -->
@@ -125344,7 +125344,7 @@ unicode: "f9b7"
     name: "Settings Pin",
     svg: `<!--
 category: System
-tags: [configuration, pinning, setup, preferences, tools, attachment, location, organize, widget, management]
+tags: ["gear", "location", "marker", "address", "map", "gps", "fixed", "system"]
 version: "2.10"
 unicode: "f9b8"
 -->
@@ -125373,7 +125373,7 @@ unicode: "f9b8"
     name: "Settings Plus",
     svg: `<!--
 category: System
-tags: [configuration, addition, add, preferences, increase, setup, tools, extension, enhance, upgrade]
+tags: ["gear", "add", "new", "create", "increase", "expand", "system", "ui"]
 version: "2.10"
 unicode: "f9b9"
 -->
@@ -125402,7 +125402,7 @@ unicode: "f9b9"
     name: "Settings Question",
     svg: `<!--
 category: System
-tags: [configuration, inquiry, query, help, preferences, setup, tools, assistance, support, guide]
+tags: ["gear", "help", "support", "faq", "query", "information", "system", "ui"]
 version: "2.10"
 unicode: "f9ba"
 -->
@@ -125431,7 +125431,7 @@ unicode: "f9ba"
     name: "Settings Search",
     svg: `<!--
 category: System
-tags: [configuration, lookup, find, preferences, browse, explore, locate, search, detect, scrutinize]
+tags: ["gear", "find", "explore", "magnify", "discover", "lookup", "system", "ui"]
 version: "2.10"
 unicode: "f9bb"
 -->
@@ -125460,7 +125460,7 @@ unicode: "f9bb"
     name: "Settings Share",
     svg: `<!--
 category: System
-tags: [configuration, distribute, preferences, tools, connect, social, share, spread, broadcast, network]
+tags: ["gear", "social", "network", "distribute", "connect", "export", "system", "communication"]
 version: "2.10"
 unicode: "f9bc"
 -->
@@ -125488,7 +125488,7 @@ unicode: "f9bc"
     id: "tabler-settings-spark",
     name: "Settings Spark",
     svg: `<!--
-tags: [cog, edit, gear, preferences, tools]
+tags: ["gear", "magic", "enhance", "feature", "ai", "innovation", "system", "ui"]
 category: System
 unicode: "ffae"
 version: "3.13"
@@ -125517,7 +125517,7 @@ version: "3.13"
     name: "Settings Star",
     svg: `<!--
 category: System
-tags: [configuration, preferences, favorite, highlight, excellent, tools, premium, priority, mark, honor]
+tags: ["gear", "favorite", "rating", "bookmark", "quality", "premium", "system", "ui"]
 version: "2.10"
 unicode: "f9bd"
 -->
@@ -125545,7 +125545,7 @@ unicode: "f9bd"
     name: "Settings Up",
     svg: `<!--
 category: System
-tags: [configuration, preferences, increase, elevate, ascend, rise, boost, improvement, upgrade, advance]
+tags: ["gear", "upload", "increase", "expand", "arrow", "elevate", "system", "ui"]
 version: "2.10"
 unicode: "f9be"
 -->
@@ -125574,7 +125574,7 @@ unicode: "f9be"
     name: "Settings X",
     svg: `<!--
 category: System
-tags: [configuration, closure, cancel, preferences, terminate, end, exit, remove, delete, tools]
+tags: ["gear", "cancel", "close", "error", "decline", "stop", "failure", "system"]
 version: "2.10"
 unicode: "f9bf"
 -->
@@ -125603,7 +125603,7 @@ unicode: "f9bf"
     name: "Shadow Off",
     svg: `<!--
 category: Photography
-tags: [dark, sun, area, covered, dim, light, css, effect]
+tags: ["light", "no shadow", "flat", "disabled", "effect", "style", "visibility", "ui"]
 version: "1.39"
 unicode: "eed7"
 -->
@@ -125635,7 +125635,7 @@ unicode: "eed7"
     name: "Shadow",
     svg: `<!--
 category: Photography
-tags: [dark, sun, area, covered, dim, light, css, effect]
+tags: ["depth", "effect", "visual", "overlay", "darkness", "contrast", "minimal", "ui", "subtle"]
 version: "1.39"
 unicode: "eed8"
 -->
@@ -125666,7 +125666,7 @@ unicode: "eed8"
     name: "Shape 2",
     svg: `<!--
 category: Design
-tags: [draw, square, form, create, outline]
+tags: ["geometry", "abstract", "form", "design", "pattern", "minimal", "creative", "ui", "square", "circle"]
 version: "1.39"
 unicode: "eed9"
 -->
@@ -125696,7 +125696,7 @@ unicode: "eed9"
     name: "Shape 3",
     svg: `<!--
 category: Design
-tags: [draw, square, form, create, outline]
+tags: ["geometry", "abstract", "form", "design", "pattern", "minimal", "creative", "ui", "triangle", "circle"]
 version: "1.39"
 unicode: "eeda"
 -->
@@ -125726,7 +125726,7 @@ unicode: "eeda"
     name: "Shape Off",
     svg: `<!--
 category: Design
-tags: [draw, square, form, create, outline]
+tags: ["geometry", "abstract", "form", "design", "disabled", "error", "cancel", "blocked", "ui", "broken"]
 version: "1.66"
 unicode: "f1a0"
 -->
@@ -125760,7 +125760,7 @@ unicode: "f1a0"
     name: "Shape",
     svg: `<!--
 category: Design
-tags: [draw, square, form, create, outline]
+tags: ["geometry", "abstract", "form", "design", "pattern", "minimal", "creative", "ui", "square", "circle", "triangle"]
 version: "1.3"
 unicode: "eb9c"
 -->
@@ -125792,7 +125792,7 @@ unicode: "eb9c"
     id: "tabler-share-2",
     name: "Share 2",
     svg: `<!--
-tags: [network, link, connection]
+tags: ["social", "connect", "network", "distribute", "send", "link", "cta", "communication", "arrow", "rounded"]
 version: "2.5"
 unicode: "f799"
 category: Arrows
@@ -125820,7 +125820,7 @@ category: Arrows
     id: "tabler-share-3",
     name: "Share 3",
     svg: `<!--
-tags: [network, link, connection]
+tags: ["social", "connect", "network", "distribute", "send", "link", "cta", "communication", "arrow", "rounded"]
 category: Arrows
 version: "2.7"
 unicode: "f7bd"
@@ -125846,7 +125846,7 @@ unicode: "f7bd"
     id: "tabler-share-off",
     name: "Share Off",
     svg: `<!--
-tags: [network, link, connection]
+tags: ["social", "connect", "network", "distribute", "send", "disabled", "cancel", "blocked", "communication", "broken"]
 version: "1.66"
 unicode: "f1a1"
 -->
@@ -125876,7 +125876,7 @@ unicode: "f1a1"
     id: "tabler-share",
     name: "Share",
     svg: `<!--
-tags: [network, link, connection]
+tags: ["social", "connect", "network", "distribute", "send", "link", "cta", "communication", "arrow", "rounded"]
 version: "1.0"
 unicode: "eb21"
 -->
@@ -125905,7 +125905,7 @@ unicode: "eb21"
     id: "tabler-shareplay",
     name: "Shareplay",
     svg: `<!--
-tags: [stream, connect, broadcast, entertain, socialize, network, share, multimedia, interact, join]
+tags: ["collaboration", "streaming", "co-watch", "remote", "entertainment", "connect", "social", "media", "play", "sync"]
 category: Media
 unicode: "fea5"
 version: "3.1"
@@ -125933,7 +125933,7 @@ version: "3.1"
     name: "Shield Bolt",
     svg: `<!--
 category: System
-tags: [protection, defense, electric, charge, security, guard, safety, bolt, power, impact]
+tags: ["security", "protection", "power", "energy", "electric", "defense", "antivirus", "warning", "system", "alert"]
 version: "2.10"
 unicode: "f9c0"
 -->
@@ -125960,7 +125960,7 @@ unicode: "f9c0"
     name: "Shield Cancel",
     svg: `<!--
 category: System
-tags: [protection, defense, terminate, block, security, guard, safety, remove, end, deny]
+tags: ["security", "protection", "error", "blocked", "denied", "failure", "defense", "antivirus", "system", "alert"]
 version: "2.10"
 unicode: "f9c1"
 -->
@@ -125987,7 +125987,7 @@ unicode: "f9c1"
     id: "tabler-shield-chevron",
     name: "Shield Chevron",
     svg: `<!--
-tags: [knight, guard, defence, protect]
+tags: ["security", "protection", "rank", "military", "defense", "antivirus", "system", "badge", "up", "down"]
 category: System
 version: "1.47"
 unicode: "ef9b"
@@ -126015,7 +126015,7 @@ unicode: "ef9b"
     name: "Shield Code",
     svg: `<!--
 category: System
-tags: [protection, defense, program, security, guard, script, encrypt, encode, programming]
+tags: ["security", "protection", "developer", "programming", "coding", "defense", "antivirus", "system", "code", "software"]
 version: "2.10"
 unicode: "f9c2"
 -->
@@ -126043,7 +126043,7 @@ unicode: "f9c2"
     name: "Shield Cog",
     svg: `<!--
 category: System
-tags: [protection, defense, mechanism, gear, security, guard, tool, adjust, system]
+tags: ["security", "protection", "settings", "configuration", "management", "defense", "antivirus", "system", "gear", "options"]
 version: "2.10"
 unicode: "f9c3"
 -->
@@ -126076,7 +126076,7 @@ unicode: "f9c3"
     name: "Shield Dollar",
     svg: `<!--
 category: System
-tags: [protection, finance, currency, money, security, guard, wealth, cost, economy, budget]
+tags: ["security", "protection", "finance", "money", "payment", "defense", "antivirus", "system", "currency", "economy"]
 version: "2.10"
 unicode: "f9c4"
 -->
@@ -126104,7 +126104,7 @@ unicode: "f9c4"
     name: "Shield Down",
     svg: `<!--
 category: System
-tags: [protection, defense, decrease, lower, security, guard, fall, reduce, descend, diminish]
+tags: ["security", "protection", "download", "save", "defense", "antivirus", "system", "arrow", "install", "update"]
 version: "2.10"
 unicode: "f9c5"
 -->
@@ -126132,7 +126132,7 @@ unicode: "f9c5"
     name: "Shield Exclamation",
     svg: `<!--
 category: System
-tags: [protection, alert, warning, notice, security, guard, caution, important, attention, notify]
+tags: ["security", "protection", "warning", "alert", "danger", "defense", "antivirus", "system", "caution", "problem"]
 version: "2.10"
 unicode: "f9c6"
 -->
@@ -126160,7 +126160,7 @@ unicode: "f9c6"
     name: "Shield Heart",
     svg: `<!--
 category: System
-tags: [protection, love, care, affection, security, guard, compassion, protect, defense, preserve]
+tags: ["security", "protection", "health", "love", "care", "defense", "antivirus", "system", "favorite", "wellness"]
 version: "2.10"
 unicode: "f9c7"
 -->
@@ -126187,7 +126187,7 @@ unicode: "f9c7"
     name: "Shield Minus",
     svg: `<!--
 category: System
-tags: [protection, reduce, decrease, lessen, security, guard, subtract, remove, withdraw, diminish]
+tags: ["security", "protection", "remove", "delete", "subtract", "defense", "antivirus", "system", "decrease", "reduce"]
 version: "2.10"
 unicode: "f9c8"
 -->
@@ -126214,7 +126214,7 @@ unicode: "f9c8"
     name: "Shield Off",
     svg: `<!--
 category: System
-tags: [safety, protect, protection]
+tags: ["security", "protection", "disabled", "cancel", "blocked", "defense", "antivirus", "system", "broken", "inactive"]
 version: "1.22"
 unicode: "ecf8"
 -->
@@ -126241,7 +126241,7 @@ unicode: "ecf8"
     name: "Shield Pause",
     svg: `<!--
 category: System
-tags: [protection, halt, stop, break, security, guard, interrupt, pause, wait, delay]
+tags: ["security", "protection", "pause", "hold", "stop", "defense", "antivirus", "system", "break", "suspend"]
 version: "2.10"
 unicode: "f9c9"
 -->
@@ -126269,7 +126269,7 @@ unicode: "f9c9"
     name: "Shield Pin",
     svg: `<!--
 category: System
-tags: [protection, locate, attach, security, guard, position, fix, mark, secure, anchor]
+tags: ["security", "protection", "location", "map", "marker", "defense", "antivirus", "system", "address", "gps"]
 version: "2.10"
 unicode: "f9ca"
 -->
@@ -126297,7 +126297,7 @@ unicode: "f9ca"
     name: "Shield Plus",
     svg: `<!--
 category: System
-tags: [protection, addition, increase, add, security, guard, extend, boost, grow, expand]
+tags: ["security", "protection", "add", "new", "increase", "defense", "antivirus", "system", "create", "extra"]
 version: "2.10"
 unicode: "f9cb"
 -->
@@ -126325,7 +126325,7 @@ unicode: "f9cb"
     name: "Shield Question",
     svg: `<!--
 category: System
-tags: [protection, inquiry, query, ask, security, guard, wonder, doubt, interrogate, puzzle]
+tags: ["security", "protection", "help", "info", "query", "defense", "antivirus", "system", "faq", "support"]
 version: "2.10"
 unicode: "f9cc"
 -->
@@ -126353,7 +126353,7 @@ unicode: "f9cc"
     name: "Shield Search",
     svg: `<!--
 category: System
-tags: [protection, explore, find, locate, security, guard, scout, detect, scan, seek]
+tags: ["security", "find", "investigate", "protection", "scan", "magnifying glass", "audit", "discovery"]
 version: "2.10"
 unicode: "f9cd"
 -->
@@ -126381,7 +126381,7 @@ unicode: "f9cd"
     name: "Shield Share",
     svg: `<!--
 category: System
-tags: [protection, connect, distribute, socialize, security, guard, share, spread, network, disperse]
+tags: ["security", "protection", "distribute", "social", "network", "privacy", "collaboration", "export"]
 version: "2.10"
 unicode: "f9ce"
 -->
@@ -126409,7 +126409,7 @@ unicode: "f9ce"
     name: "Shield Star",
     svg: `<!--
 category: System
-tags: [protection, highlight, excellent, security, guard, favorite, elite, premium, focus, top]
+tags: ["security", "favorite", "premium", "protection", "quality", "award", "highlight", "vip"]
 version: "2.10"
 unicode: "f9cf"
 -->
@@ -126436,7 +126436,7 @@ unicode: "f9cf"
     name: "Shield Up",
     svg: `<!--
 category: System
-tags: [protection, elevate, increase, ascend, security, guard, rise, boost, advance, improve]
+tags: ["security", "protection", "increase", "elevate", "improve", "upload", "boost", "arrow"]
 version: "2.10"
 unicode: "f9d0"
 -->
@@ -126464,7 +126464,7 @@ unicode: "f9d0"
     name: "Shield X",
     svg: `<!--
 category: System
-tags: [unprotected, protection, cancel, "no"]
+tags: ["no", "security", "error", "cancel", "protection", "remove", "decline", "close", "failure"]
 version: "1.0"
 unicode: "eb23"
 -->
@@ -126492,7 +126492,7 @@ unicode: "eb23"
     name: "Ship Off",
     svg: `<!--
 category: Vehicles
-tags: [sail, sail across, ocean, river, lake, sea, sailor, journey, transit, manufactures, containers]
+tags: ["transport", "disabled", "unavailable", "broken", "cancel", "boat", "cruise", "maritime"]
 unicode: "f42a"
 version: "1.94"
 -->
@@ -126520,7 +126520,7 @@ version: "1.94"
     id: "tabler-ship",
     name: "Ship",
     svg: `<!--
-tags: [sail, sail across, ocean, river, lake, sea, sailor, journey, transit, manufactures, containers]
+tags: ["transport", "boat", "cruise", "maritime", "travel", "ocean", "journey", "delivery"]
 category: Vehicles
 version: "1.14"
 unicode: "ec84"
@@ -126550,7 +126550,7 @@ unicode: "ec84"
     name: "Shirt Off",
     svg: `<!--
 category: E-commerce
-tags: [gear, outfit, mocker]
+tags: ["apparel", "clothing", "disabled", "unavailable", "fashion", "garment", "remove", "no clothes"]
 version: "1.66"
 unicode: "f1a2"
 -->
@@ -126577,7 +126577,7 @@ unicode: "f1a2"
     name: "Shirt Sport",
     svg: `<!--
 category: E-commerce
-tags: [basketball, soccer, football, player, clothes, game]
+tags: ["apparel", "clothing", "athletic", "jersey", "fashion", "garment", "activewear", "team"]
 version: "1.76"
 unicode: "f26c"
 -->
@@ -126604,7 +126604,7 @@ unicode: "f26c"
     name: "Shoe Off",
     svg: `<!--
 category: E-commerce
-tags: [sport, boots, boot, footwear, sneaker, nike, adidas]
+tags: ["footwear", "disabled", "unavailable", "broken", "fashion", "remove", "no shoes", "sneaker"]
 version: "1.67"
 unicode: "f1a4"
 -->
@@ -126633,7 +126633,7 @@ unicode: "f1a4"
     name: "Shoe",
     svg: `<!--
 category: E-commerce
-tags: [sport, boots, boot, footwear, sneaker, nike, adidas]
+tags: ["footwear", "sneaker", "fashion", "apparel", "clothing", "buy", "store", "foot"]
 version: "1.50"
 unicode: "efd2"
 -->
@@ -126662,7 +126662,7 @@ unicode: "efd2"
     name: "Shopping Bag Check",
     svg: `<!--
 category: E-commerce
-tags: [purchase, buy, verify, approve, store, bag, confirm, secure, validate, acquire]
+tags: ["commerce", "success", "completed", "purchased", "verified", "cart", "order", "done"]
 version: "2.29"
 unicode: "fc16"
 -->
@@ -126689,7 +126689,7 @@ unicode: "fc16"
     id: "tabler-shopping-bag-discount",
     name: "Shopping Bag Discount",
     svg: `<!--
-tags: [purchase, buy, sale, store, offer, reduce, save, bargain, deal, cut]
+tags: ["commerce", "sale", "offer", "coupon", "promotion", "price cut", "bargain", "deal"]
 category: E-commerce
 version: "2.29"
 unicode: "fc17"
@@ -126720,7 +126720,7 @@ unicode: "fc17"
     name: "Shopping Bag Edit",
     svg: `<!--
 category: E-commerce
-tags: [purchase, modify, change, store, adjust, update, alter, revise, customize, adapt]
+tags: ["commerce", "modify", "update", "manage", "customize", "cart", "pencil", "adjust"]
 version: "2.29"
 unicode: "fc18"
 -->
@@ -126748,7 +126748,7 @@ unicode: "fc18"
     name: "Shopping Bag Exclamation",
     svg: `<!--
 category: E-commerce
-tags: [purchase, buy, alert, notice, store, warning, attention, caution, highlight]
+tags: ["commerce", "alert", "warning", "issue", "problem", "cart", "attention", "error"]
 version: "2.29"
 unicode: "fc19"
 -->
@@ -126777,7 +126777,7 @@ unicode: "fc19"
     name: "Shopping Bag Heart",
     svg: `<!--
 category: E-commerce
-tags: [love, affection, favorites, wishlist, adore, cherish, romance, passion, emotion, valentine]
+tags: ["commerce", "favorite", "wishlist", "love", "liked", "save", "cart", "desire"]
 version: "2.47"
 unicode: "fda2"
 -->
@@ -126805,7 +126805,7 @@ unicode: "fda2"
     name: "Shopping Bag Minus",
     svg: `<!--
 category: E-commerce
-tags: [subtract, remove, decrease, reduce, deduct, lessen, diminish, minimize, shorten, withdraw]
+tags: ["commerce", "remove", "subtract", "decrease", "delete", "cart", "take out", "reduce"]
 version: "2.29"
 unicode: "fc1a"
 -->
@@ -126833,7 +126833,7 @@ unicode: "fc1a"
     name: "Shopping Bag Plus",
     svg: `<!--
 category: E-commerce
-tags: [add, increase, enhance, boost, augment, expand, amplify, grow, supplement, upgrade]
+tags: ["commerce", "add", "increase", "new item", "cart", "purchase", "insert", "more"]
 version: "2.29"
 unicode: "fc1b"
 -->
@@ -126862,7 +126862,7 @@ unicode: "fc1b"
     name: "Shopping Bag Search",
     svg: `<!--
 category: E-commerce
-tags: [find, locate, discover, explore, investigate, browse, inquire, inspect, seek, look]
+tags: ["commerce", "find", "discover", "explore", "locate", "cart", "magnifying glass", "browse"]
 version: "2.29"
 unicode: "fc1c"
 -->
@@ -126891,7 +126891,7 @@ unicode: "fc1c"
     name: "Shopping Bag X",
     svg: `<!--
 category: E-commerce
-tags: [delete, remove, cancel, terminate, exclude, annul, erase, cut, negate, obliterate]
+tags: ["commerce", "cancel", "remove", "error", "clear", "cart", "delete", "decline"]
 version: "2.29"
 unicode: "fc1d"
 -->
@@ -126919,7 +126919,7 @@ unicode: "fc1d"
     id: "tabler-shopping-bag",
     name: "Shopping Bag",
     svg: `<!--
-tags: [shop, store, ecommerce, buy]
+tags: ["commerce", "cart", "purchase", "buy", "store", "e-commerce", "retail", "checkout"]
 category: E-commerce
 unicode: "f5f8"
 version: "1.113"
@@ -126947,7 +126947,7 @@ version: "1.113"
     name: "Shopping Cart Bolt",
     svg: `<!--
 category: E-commerce
-tags: [power, electric, shock, energy, charge, lightning, spark, voltage, current, thunder]
+tags: ["commerce", "fast", "quick", "express", "speedy", "flash", "energy", "rapid"]
 version: "2.28"
 unicode: "fb57"
 -->
@@ -126976,7 +126976,7 @@ unicode: "fb57"
     name: "Shopping Cart Cancel",
     svg: `<!--
 category: E-commerce
-tags: [revoke, void, abort, stop, halt, annul, discontinue, suspend, cease, terminate]
+tags: ["commerce", "remove", "clear", "stop", "abort", "decline", "error", "undo"]
 version: "2.28"
 unicode: "fb58"
 -->
@@ -127006,7 +127006,7 @@ unicode: "fb58"
     name: "Shopping Cart Check",
     svg: `<!--
 category: E-commerce
-tags: [confirm, verify, validate, approve, authenticate, review, certify, ratify, endorse, sanction]
+tags: ["commerce", "success", "completed", "purchased", "verified", "order", "done", "confirm"]
 version: "2.28"
 unicode: "fb59"
 -->
@@ -127035,7 +127035,7 @@ unicode: "fb59"
     name: "Shopping Cart Code",
     svg: `<!--
 category: E-commerce
-tags: [program, script, syntax, develop, software, coding, algorithm, markup, debug, compile]
+tags: ["commerce", "developer", "programming", "api", "discount", "coupon", "checkout", "coding"]
 version: "2.28"
 unicode: "fb5a"
 -->
@@ -127065,7 +127065,7 @@ unicode: "fb5a"
     name: "Shopping Cart Cog",
     svg: `<!--
 category: E-commerce
-tags: [settings, gear, control, adjust, configure, tune, calibrate, manage, preference, customize]
+tags: ["settings", "preferences", "configuration", "ecommerce", "management", "gear", "options", "lined"]
 version: "2.28"
 unicode: "fb5b"
 -->
@@ -127099,7 +127099,7 @@ unicode: "fb5b"
     id: "tabler-shopping-cart-copy",
     name: "Shopping Cart Copy",
     svg: `<!--
-tags: [duplicate, replicate, clone, reproduce, imitate, mimic, backup, mirror, carbon]
+tags: ["duplicate", "clone", "reorder", "ecommerce", "multiple", "lined", "order management"]
 version: "2.28"
 unicode: "fb5c"
 -->
@@ -127127,7 +127127,7 @@ unicode: "fb5c"
     id: "tabler-shopping-cart-discount",
     name: "Shopping Cart Discount",
     svg: `<!--
-tags: [sale, offer, deal, bargain, promotion, markdown, rebate, savings, cut, attraction]
+tags: ["sale", "coupon", "offer", "promotion", "price cut", "ecommerce", "lined"]
 version: "2.28"
 unicode: "fb5d"
 -->
@@ -127158,7 +127158,7 @@ unicode: "fb5d"
     name: "Shopping Cart Dollar",
     svg: `<!--
 category: E-commerce
-tags: [money, currency, cash, finance, fund, price, value, cost, economy, wealth]
+tags: ["price", "cost", "payment", "currency", "money", "ecommerce", "lined"]
 version: "2.28"
 unicode: "fb5e"
 -->
@@ -127188,7 +127188,7 @@ unicode: "fb5e"
     name: "Shopping Cart Down",
     svg: `<!--
 category: E-commerce
-tags: [decrease, lower, descend, drop, reduce, fall, diminish, lessen, sink, decline]
+tags: ["decrease", "reduce", "lower", "ecommerce", "arrow", "lined", "quantity"]
 version: "2.28"
 unicode: "fb5f"
 -->
@@ -127218,7 +127218,7 @@ unicode: "fb5f"
     name: "Shopping Cart Exclamation",
     svg: `<!--
 category: E-commerce
-tags: [alert, warn, notify, caution, attention, alarm, emphasize, highlight, underscore, flag]
+tags: ["warning", "alert", "error", "problem", "issue", "ecommerce", "lined"]
 version: "2.28"
 unicode: "fb60"
 -->
@@ -127248,7 +127248,7 @@ unicode: "fb60"
     name: "Shopping Cart Heart",
     svg: `<!--
 category: E-commerce
-tags: [favorites, love, cherish, adore, affection, passion, emotion, fondness, devotion]
+tags: ["wishlist", "favorite", "love", "liked", "ecommerce", "lined", "loyalty"]
 version: "2.28"
 unicode: "fb61"
 -->
@@ -127277,7 +127277,7 @@ unicode: "fb61"
     name: "Shopping Cart Minus",
     svg: `<!--
 category: E-commerce
-tags: [deduct, reduce, decrease, subtract, diminish, remove, shorten, cut, downsize, minimize]
+tags: ["remove", "subtract", "delete", "decrease", "ecommerce", "lined", "quantity"]
 version: "2.28"
 unicode: "fb62"
 -->
@@ -127306,7 +127306,7 @@ unicode: "fb62"
     name: "Shopping Cart Off",
     svg: `<!--
 category: E-commerce
-tags: [shop, store, buy, purchase, product, bag, trolley, supermarket, grocery]
+tags: ["disabled", "unavailable", "empty", "blocked", "ecommerce", "lined", "cancel"]
 version: "1.39"
 unicode: "eedc"
 -->
@@ -127336,7 +127336,7 @@ unicode: "eedc"
     name: "Shopping Cart Pause",
     svg: `<!--
 category: E-commerce
-tags: [halt, stop, delay, suspend, break, interrupt, cease, intermission, freeze, postpone]
+tags: ["hold", "stop", "delay", "ecommerce", "lined", "pending", "interrupted"]
 version: "2.28"
 unicode: "fb63"
 -->
@@ -127366,7 +127366,7 @@ unicode: "fb63"
     name: "Shopping Cart Pin",
     svg: `<!--
 category: E-commerce
-tags: [attach, fix, anchor, stick, fasten, secure, tack, adhere, bind, nail]
+tags: ["location", "address", "delivery", "ecommerce", "lined", "map", "destination"]
 version: "2.28"
 unicode: "fb64"
 -->
@@ -127396,7 +127396,7 @@ unicode: "fb64"
     name: "Shopping Cart Plus",
     svg: `<!--
 category: E-commerce
-tags: [increase, add, boost, enhance, supplement, grow, amplify, expand, augment, elevate]
+tags: ["add to cart", "new item", "increase", "ecommerce", "lined", "quantity", "purchase"]
 version: "2.28"
 unicode: "fb65"
 -->
@@ -127426,7 +127426,7 @@ unicode: "fb65"
     name: "Shopping Cart Question",
     svg: `<!--
 category: E-commerce
-tags: [ask, inquire, query, investigate, curiosity, explore, probe, interrogate, wonder, doubt]
+tags: ["help", "inquiry", "support", "unknown", "ecommerce", "lined", "faq"]
 version: "2.28"
 unicode: "fb66"
 -->
@@ -127456,7 +127456,7 @@ unicode: "fb66"
     name: "Shopping Cart Search",
     svg: `<!--
 category: E-commerce
-tags: [locate, find, discover, explore, seek, investigate, inspect, look, browse, hunt]
+tags: ["find", "locate", "discover", "ecommerce", "lined", "browse", "magnifying glass"]
 version: "2.28"
 unicode: "fb67"
 -->
@@ -127486,7 +127486,7 @@ unicode: "fb67"
     name: "Shopping Cart Share",
     svg: `<!--
 category: E-commerce
-tags: [distribute, post, spread, publish, broadcast, divide, announce, impart, circulate, pass]
+tags: ["social", "send", "distribute", "ecommerce", "lined", "referral", "network"]
 version: "2.28"
 unicode: "fb68"
 -->
@@ -127516,7 +127516,7 @@ unicode: "fb68"
     name: "Shopping Cart Star",
     svg: `<!--
 category: E-commerce
-tags: [favorites, best, top, highlight, rating, celebrate, mark, prominent, outstanding, feature]
+tags: ["favorite", "top rated", "premium", "ecommerce", "lined", "wishlist", "highlight"]
 version: "2.28"
 unicode: "fb69"
 -->
@@ -127545,7 +127545,7 @@ unicode: "fb69"
     name: "Shopping Cart Up",
     svg: `<!--
 category: E-commerce
-tags: [increase, ascend, rise, elevate, boost, grow, amplify, escalate, climb]
+tags: ["increase", "add", "upload", "ecommerce", "lined", "arrow", "quantity"]
 version: "2.28"
 unicode: "fb6a"
 -->
@@ -127575,7 +127575,7 @@ unicode: "fb6a"
     name: "Shopping Cart X",
     svg: `<!--
 category: E-commerce
-tags: [remove, delete, cancel, erase, terminate, cut, eliminate, strip, dismiss, scrub]
+tags: ["cancel", "remove", "delete", "clear", "ecommerce", "lined", "error"]
 version: "2.28"
 unicode: "fb6b"
 -->
@@ -127604,7 +127604,7 @@ unicode: "fb6b"
     id: "tabler-shovel-pitchforks",
     name: "Shovel Pitchforks",
     svg: `<!--
-tags: [shovel, pitchfork, digging-tool, gardening, agriculture, farm-tool, manual-labor, soil, gardening-implement, dig]
+tags: ["farming", "gardening", "agriculture", "tools", "digging", "lined", "equipment", "rural"]
 version: "2.41"
 unicode: "fd3a"
 -->
@@ -127633,7 +127633,7 @@ unicode: "fd3a"
     id: "tabler-shovel",
     name: "Shovel",
     svg: `<!--
-tags: [garden, tool, digging, farm, dirt, gardening]
+tags: ["digging", "gardening", "tool", "construction", "excavate", "lined", "earthwork"]
 version: "1.68"
 unicode: "f1d9"
 -->
@@ -127660,7 +127660,7 @@ unicode: "f1d9"
     id: "tabler-shredder",
     name: "Shredder",
     svg: `<!--
-tags: [paper, document, destroy, device, office, confidential]
+tags: ["destroy", "document", "paperwork", "security", "office", "lined", "dispose", "confidential"]
 category: Devices
 version: "1.39"
 unicode: "eedf"
@@ -127687,7 +127687,7 @@ unicode: "eedf"
     id: "tabler-signal-2g",
     name: "Signal 2G",
     svg: `<!--
-tags: [mobile, network, phone, wifi, connection]
+tags: ["network", "connectivity", "mobile", "cellular", "telecom", "lined", "weak signal"]
 version: "2.5"
 unicode: "f79a"
 category: Devices
@@ -127714,7 +127714,7 @@ category: Devices
     id: "tabler-signal-3g",
     name: "Signal 3G",
     svg: `<!--
-tags: [mobile, network, connetion, wi-fi, wireless, smartphone, technology]
+tags: ["network", "connectivity", "mobile", "cellular", "telecom", "lined", "data", "internet"]
 category: Devices
 version: "1.69"
 unicode: "f1ee"
@@ -127742,7 +127742,7 @@ unicode: "f1ee"
     name: "Signal 4G Plus",
     svg: `<!--
 category: Devices
-tags: [mobile, network, connetion, wi-fi, wireless, smartphone, technology]
+tags: ["network", "connectivity", "mobile", "cellular", "telecom", "lined", "fast", "enhanced", "internet"]
 version: "1.75"
 unicode: "f259"
 -->
@@ -127771,7 +127771,7 @@ unicode: "f259"
     id: "tabler-signal-4g",
     name: "Signal 4G",
     svg: `<!--
-tags: [mobile, network, connetion, wi-fi, wireless, smartphone, technology]
+tags: ["network", "connectivity", "mobile", "cellular", "telecom", "lined", "data", "internet"]
 category: Devices
 version: "1.69"
 unicode: "f1ef"
@@ -127799,7 +127799,7 @@ unicode: "f1ef"
     id: "tabler-signal-5g",
     name: "Signal 5G",
     svg: `<!--
-tags: [mobile, network, connetion, wi-fi, wireless, smartphone, technology]
+tags: ["connectivity", "network", "mobile", "internet", "speed", "wireless", "telecom", "cellular", "performance", "modern"]
 category: Devices
 version: "1.69"
 unicode: "f1f0"
@@ -127826,7 +127826,7 @@ unicode: "f1f0"
     id: "tabler-signal-6g",
     name: "Signal 6G",
     svg: `<!--
-tags: [network, wireless, connectivity, speed, bandwidth, telecom, cellular, latency, data, technology]
+tags: ["future", "nextgen", "connectivity", "network", "mobile", "internet", "speed", "wireless", "telecom", "cellular"]
 version: "2.11"
 unicode: "f9f8"
 category: Devices
@@ -127853,7 +127853,7 @@ category: Devices
     id: "tabler-signal-e",
     name: "Signal E",
     svg: `<!--
-tags: [edge, network, wireless, mobile, connectivity, cellular, internet, communication, data, coverage]
+tags: ["edge", "connectivity", "network", "mobile", "internet", "slow", "basic", "wireless", "telecom", "cellular"]
 version: "2.11"
 unicode: "f9f9"
 category: Devices
@@ -127880,7 +127880,7 @@ category: Devices
     id: "tabler-signal-g",
     name: "Signal G",
     svg: `<!--
-tags: [wireless, network, connectivity, telecom, mobile, cellular, communication, coverage, signal, data]
+tags: ["gprs", "connectivity", "network", "mobile", "internet", "slow", "basic", "wireless", "telecom", "cellular"]
 version: "2.11"
 unicode: "f9fa"
 category: Devices
@@ -127907,7 +127907,7 @@ category: Devices
     name: "Signal H Plus",
     svg: `<!--
 category: Devices
-tags: [mobile, network, wireless, connectivity, telecommunication, bandwidth, speed, service, highspeed, coverage]
+tags: ["hspa+", "connectivity", "network", "mobile", "internet", "3g", "wireless", "telecom", "cellular", "speed"]
 version: "2.11"
 unicode: "f9fb"
 -->
@@ -127936,7 +127936,7 @@ unicode: "f9fb"
     id: "tabler-signal-h",
     name: "Signal H",
     svg: `<!--
-tags: [network, connectivity, bars, communication, reception, antenna, transmission, coverage, signal-strength, wireless]
+tags: ["hspa", "connectivity", "network", "mobile", "internet", "3g", "wireless", "telecom", "cellular", "speed"]
 version: "2.11"
 unicode: "f9fc"
 category: Devices
@@ -127964,7 +127964,7 @@ category: Devices
     id: "tabler-signal-lte",
     name: "Signal Lte",
     svg: `<!--
-tags: [4g, mobile, network, speed, connectivity, data, wireless, cellular, broadband, internet]
+tags: ["4g", "connectivity", "network", "mobile", "internet", "speed", "wireless", "telecom", "cellular", "performance"]
 version: "2.11"
 unicode: "f9fd"
 category: Devices
@@ -127995,7 +127995,7 @@ category: Devices
     name: "Signature Off",
     svg: `<!--
 category: Text
-tags: [name, certficate, sign, edit, write, document, writing]
+tags: ["disabled", "blocked", "cancel", "signing", "autograph", "contract", "document", "approval", "denied", "forbidden"]
 version: "1.67"
 unicode: "f1a5"
 -->
@@ -128022,7 +128022,7 @@ unicode: "f1a5"
     name: "Signature",
     svg: `<!--
 category: Text
-tags: [name, certficate, sign, edit, write, document, writing]
+tags: ["sign", "autograph", "contract", "document", "approval", "identity", "legal", "handwritten", "agreement", "authorization"]
 version: "1.39"
 unicode: "eee0"
 -->
@@ -128048,7 +128048,7 @@ unicode: "eee0"
     name: "Sitemap Off",
     svg: `<!--
 category: Development
-tags: [page, webpage, website, list, roadmap, index]
+tags: ["disabled", "blocked", "cancel", "hierarchy", "organization", "structure", "flowchart", "navigation", "denied", "forbidden"]
 version: "1.67"
 unicode: "f1a6"
 -->
@@ -128078,7 +128078,7 @@ unicode: "f1a6"
     name: "Skateboard Off",
     svg: `<!--
 category: Vehicles
-tags: [toy, vehicle, electrical]
+tags: ["disabled", "blocked", "cancel", "skateboarding", "sport", "recreation", "hobby", "youth", "denied", "forbidden"]
 unicode: "f42b"
 version: "1.94"
 -->
@@ -128106,7 +128106,7 @@ version: "1.94"
     id: "tabler-skateboard",
     name: "Skateboard",
     svg: `<!--
-tags: [toy, vehicle, electrical]
+tags: ["skate", "sport", "recreation", "hobby", "youth", "urban", "extreme", "board", "fun", "activity"]
 category: Vehicles
 version: "1.18"
 unicode: "ecc2"
@@ -128134,7 +128134,7 @@ unicode: "ecc2"
     id: "tabler-skateboarding",
     name: "Skateboarding",
     svg: `<!--
-tags: [sport, board, extreme, street, trick, deck, riding, wheels, skater, action]
+tags: ["skater", "sport", "recreation", "hobby", "youth", "urban", "extreme", "board", "fun", "activity"]
 category: Sport
 version: "2.21"
 unicode: "faca"
@@ -128166,7 +128166,7 @@ unicode: "faca"
     id: "tabler-skew-x",
     name: "Skew X",
     svg: `<!--
-tags: [skew-horizontal, tilt-x, slant-x, distort-horizontal, angled, slanted, tilted, diagonal, oblique, slope-x]
+tags: ["transform", "rotate", "angle", "design", "graphic", "edit", "distort", "slant", "perspective", "axis"]
 version: "2.41"
 unicode: "fd3b"
 -->
@@ -128191,7 +128191,7 @@ unicode: "fd3b"
     id: "tabler-skew-y",
     name: "Skew Y",
     svg: `<!--
-tags: [skew-vertical, tilt-y, slant-y, distort-vertical, angled, slanted, tilted, diagonal, oblique, slope-y]
+tags: ["transform", "rotate", "angle", "design", "graphic", "edit", "distort", "slant", "perspective", "axis"]
 version: "2.41"
 unicode: "fd3c"
 -->
@@ -128216,7 +128216,7 @@ unicode: "fd3c"
     id: "tabler-ski-jumping",
     name: "Ski Jumping",
     svg: `<!--
-tags: [sport, winter, snow, jump, hill, competition, flight, aerial, athlete, extreme]
+tags: ["winter sport", "olympics", "athlete", "snow", "jump", "extreme", "competition", "activity", "mountains", "speed"]
 category: Sport
 version: "2.17"
 unicode: "fa6c"
@@ -128247,7 +128247,7 @@ unicode: "fa6c"
     id: "tabler-skull",
     name: "Skull",
     svg: `<!--
-tags: [halloween, skeleton, dead, pirate, danger, horror]
+tags: ["death", "danger", "pirate", "halloween", "poison", "warning", "anatomy", "head", "bone", "morbid"]
 version: "1.78"
 unicode: "f292"
 category: Health
@@ -128277,7 +128277,7 @@ category: Health
     id: "tabler-slash",
     name: "Slash",
     svg: `<!--
-tags: [sign, divide, dash]
+tags: ["divide", "separator", "forward slash", "path", "url", "break", "cancel", "delete", "diagonal", "line"]
 category: Math
 unicode: "f4f9"
 version: "1.100"
@@ -128303,7 +128303,7 @@ version: "1.100"
     id: "tabler-slashes",
     name: "Slashes",
     svg: `<!--
-tags: [sign, key, button, dash, divide]
+tags: ["divide", "separator", "double slash", "path", "url", "break", "cancel", "delete", "diagonal", "lines"]
 unicode: "f588"
 version: "1.108"
 -->
@@ -128329,7 +128329,7 @@ version: "1.108"
     id: "tabler-sleigh",
     name: "Sleigh",
     svg: `<!--
-tags: [winter, christmas, snow, santa, transport, sledge]
+tags: ["christmas", "santa", "winter", "snow", "transport", "holiday", "festive", "reindeer", "gift", "sled"]
 category: Vehicles
 version: "1.47"
 unicode: "ef9c"
@@ -128359,7 +128359,7 @@ unicode: "ef9c"
     name: "Slice",
     svg: `<!--
 category: Design
-tags: [knife, cut, chop, portion, kitchen, tool]
+tags: ["cut", "divide", "portion", "segment", "pizza", "pie", "food", "split", "sharp", "knife"]
 version: "1.6"
 unicode: "ebdb"
 -->
@@ -128384,7 +128384,7 @@ unicode: "ebdb"
     id: "tabler-slideshow",
     name: "Slideshow",
     svg: `<!--
-tags: [photo, picture, video, presentation, camera, display, ad]
+tags: ["presentation", "gallery", "images", "display", "projector", "media", "photos", "sequence", "show", "visuals"]
 category: Text
 version: "1.5"
 unicode: "ebc9"
@@ -128417,7 +128417,7 @@ unicode: "ebc9"
     name: "Smart Home Off",
     svg: `<!--
 category: Buildings
-tags: [apple, devices, connection, link, wifi, bluetooth]
+tags: ["disabled", "blocked", "cancel", "automation", "iot", "connected", "house", "security", "denied", "forbidden"]
 version: "1.67"
 unicode: "f1a7"
 -->
@@ -128445,7 +128445,7 @@ unicode: "f1a7"
     name: "Smart Home",
     svg: `<!--
 category: Buildings
-tags: [apple, devices, connection, link, wifi, bluetooth]
+tags: ["automation", "iot", "connected", "house", "security", "control", "residence", "building", "technology", "modern"]
 version: "1.20"
 unicode: "ecde"
 -->
@@ -128471,7 +128471,7 @@ unicode: "ecde"
     id: "tabler-smoking-no",
     name: "Smoking No",
     svg: `<!--
-tags: [ban, prohibition, cigarette, public place]
+tags: ["no smoking", "forbidden", "health", "prohibited", "warning", "public space", "cigarette", "ban", "restricted", "clean air"]
 version: "1.18"
 category: Health
 unicode: "ecc3"
@@ -128500,7 +128500,7 @@ unicode: "ecc3"
     id: "tabler-smoking",
     name: "Smoking",
     svg: `<!--
-tags: [cigarette, public place]
+tags: ["cigarette", "addiction", "health risk", "no smoking", "forbidden", "habit", "vice", "prohibited", "warning"]
 version: "1.18"
 category: Health
 unicode: "ecc4"
@@ -128528,7 +128528,7 @@ unicode: "ecc4"
     id: "tabler-snowboarding",
     name: "Snowboarding",
     svg: `<!--
-tags: [sport, winter, snow, board, riding, slope, extreme, mountain, action, freestyle]
+tags: ["winter sport", "extreme sport", "mountain", "recreation", "adventure", "skiing", "boarder", "leisure", "activity"]
 version: "2.42"
 unicode: "fd4f"
 -->
@@ -128558,7 +128558,7 @@ unicode: "fd4f"
     name: "Snowflake Off",
     svg: `<!--
 category: Weather
-tags: [winter, weather, cold, frost]
+tags: ["no snow", "no winter", "disabled", "off", "cancel", "weather", "climate", "temperature", "cold"]
 version: "1.67"
 unicode: "f1a8"
 -->
@@ -128596,7 +128596,7 @@ unicode: "f1a8"
     name: "Snowflake",
     svg: `<!--
 category: Weather
-tags: [winter, weather, cold, frost]
+tags: ["winter", "ice", "cold", "christmas", "decoration", "weather", "frozen", "crystal", "seasonal"]
 version: "1.8"
 unicode: "ec0b"
 -->
@@ -128632,7 +128632,7 @@ unicode: "ec0b"
     id: "tabler-snowman",
     name: "Snowman",
     svg: `<!--
-tags: [winter, christmas, snow, cold, frosty]
+tags: ["winter", "christmas", "holiday", "cold", "decoration", "festive", "seasonal", "figure", "character"]
 version: "1.76"
 unicode: "f26d"
 -->
@@ -128661,7 +128661,7 @@ unicode: "f26d"
     id: "tabler-soccer-field",
     name: "Soccer Field",
     svg: `<!--
-tags: [football, pitch, player, vall, goal, goalkeeper, kick, ball, score, sport, sportsman]
+tags: ["football pitch", "stadium", "sport venue", "game", "team", "arena", "play", "recreation", "goal"]
 category: Sport
 version: "1.34"
 unicode: "ed92"
@@ -128691,7 +128691,7 @@ unicode: "ed92"
     id: "tabler-social-off",
     name: "Social Off",
     svg: `<!--
-tags: [society, community, collectivity]
+tags: ["no network", "disconnected", "private", "offline", "anti-social", "disabled", "cancel", "community", "media"]
 version: "1.67"
 unicode: "f1a9"
 -->
@@ -128723,7 +128723,7 @@ unicode: "f1a9"
     id: "tabler-social",
     name: "Social",
     svg: `<!--
-tags: [society, community, collectivity]
+tags: ["network", "community", "friends", "connection", "sharing", "media", "interaction", "group", "online"]
 version: "1.7"
 unicode: "ebec"
 -->
@@ -128755,7 +128755,7 @@ unicode: "ebec"
     name: "Sock",
     svg: `<!--
 category: E-commerce
-tags: [clothing, clothes, foot, feet, leg, knit, wool, cotton, ankle]
+tags: ["apparel", "clothing", "footwear", "fashion", "garment", "textile", "accessory", "pair", "comfort"]
 version: "1.39"
 unicode: "eee1"
 -->
@@ -128781,7 +128781,7 @@ unicode: "eee1"
     id: "tabler-sofa-off",
     name: "Sofa Off",
     svg: `<!--
-tags: [chair, seat, home, furniture, couch]
+tags: ["no furniture", "unavailable", "disabled", "cancel", "living room", "couch", "seating", "home", "decor"]
 unicode: "f42c"
 version: "1.94"
 -->
@@ -128809,7 +128809,7 @@ version: "1.94"
     id: "tabler-sofa",
     name: "Sofa",
     svg: `<!--
-tags: [chair, seat, home, furniture, couch]
+tags: ["couch", "furniture", "living room", "seating", "home", "comfort", "relax", "interior", "decor"]
 version: "1.48"
 unicode: "efaf"
 -->
@@ -128836,7 +128836,7 @@ unicode: "efaf"
     id: "tabler-solar-electricity",
     name: "Solar Electricity",
     svg: `<!--
-tags: [power, energy, renewable, panel, sunlight, green, sustainable, generation, technology, efficiency]
+tags: ["renewable energy", "green energy", "sun power", "sustainable", "eco-friendly", "alternative energy", "clean energy", "photovoltaic", "environment"]
 version: "2.37"
 unicode: "fcc1"
 -->
@@ -128864,7 +128864,7 @@ unicode: "fcc1"
     id: "tabler-solar-panel-2",
     name: "Solar Panel 2",
     svg: `<!--
-tags: [energy, sun, power, ecology, electricity]
+tags: ["photovoltaic", "renewable energy", "green energy", "sun power", "sustainable", "eco-friendly", "alternative energy", "clean energy", "environment"]
 version: "2.7"
 unicode: "f7be"
 -->
@@ -128898,7 +128898,7 @@ unicode: "f7be"
     id: "tabler-solar-panel",
     name: "Solar Panel",
     svg: `<!--
-tags: [energy, sun, power, ecology, electricity]
+tags: ["photovoltaic", "renewable energy", "green energy", "sun power", "sustainable", "eco-friendly", "alternative energy", "clean energy", "environment"]
 version: "2.7"
 unicode: "f7bf"
 -->
@@ -128928,7 +128928,7 @@ unicode: "f7bf"
     id: "tabler-sort-0-9",
     name: "Sort 0 9",
     svg: `<!--
-tags: [numbers, one, two, three, four, five, numerical]
+tags: ["order", "arrange", "filter", "list", "ascending", "numerical", "data", "interface", "reorder"]
 category: Text
 version: "1.105"
 unicode: "f54d"
@@ -128956,7 +128956,7 @@ unicode: "f54d"
     id: "tabler-sort-9-0",
     name: "Sort 9 0",
     svg: `<!--
-tags: [numbers, one, two, three, four, five, numerical]
+tags: ["order", "arrange", "filter", "list", "descending", "numerical", "data", "interface", "reorder"]
 category: Text
 version: "1.105"
 unicode: "f54e"
@@ -128984,7 +128984,7 @@ unicode: "f54e"
     id: "tabler-sort-a-z",
     name: "Sort A Z",
     svg: `<!--
-tags: [alphabet, letters, alphabetical]
+tags: ["order", "arrange", "filter", "list", "alphabetical", "text", "data", "interface", "reorder"]
 category: Text
 version: "1.105"
 unicode: "f54f"
@@ -129014,7 +129014,7 @@ unicode: "f54f"
     name: "Sort Ascending Letters",
     svg: `<!--
 category: Text
-tags: [filter, classify, arrange, order]
+tags: ["order", "arrange", "filter", "list", "alphabetical", "text", "data", "interface", "reorder"]
 version: "1.40"
 unicode: "ef18"
 -->
@@ -129043,7 +129043,7 @@ unicode: "ef18"
     name: "Sort Ascending Numbers",
     svg: `<!--
 category: Text
-tags: [filter, classify, arrange, order]
+tags: ["order", "arrange", "filter", "list", "numerical", "data", "interface", "reorder"]
 version: "1.40"
 unicode: "ef19"
 -->
@@ -129072,7 +129072,7 @@ unicode: "ef19"
     id: "tabler-sort-ascending-small-big",
     name: "Sort Ascending Small Big",
     svg: `<!--
-tags: [order, sequence, increase, arrange, scale, size, growth, progress, upward, magnitude]
+tags: ["order", "arrange", "filter", "list", "size", "magnitude", "data", "interface", "reorder"]
 version: "2.46"
 unicode: "fd95"
 -->
@@ -129101,7 +129101,7 @@ unicode: "fd95"
     name: "Sort Ascending",
     svg: `<!--
 category: Text
-tags: [filter, classify, arrange, order]
+tags: ["order", "arrange", "filter", "list", "up", "data", "interface", "reorder", "arrow"]
 version: "1.0"
 unicode: "eb26"
 -->
@@ -129131,7 +129131,7 @@ unicode: "eb26"
     name: "Sort Descending Letters",
     svg: `<!--
 category: Text
-tags: [filter, classify, arrange, order]
+tags: ["order", "arrange", "filter", "list", "alphabetical", "text", "data", "interface", "reorder"]
 version: "1.40"
 unicode: "ef1a"
 -->
@@ -129160,7 +129160,7 @@ unicode: "ef1a"
     name: "Sort Descending Numbers",
     svg: `<!--
 category: Text
-tags: [filter, classify, arrange, order]
+tags: ["order", "arrange", "filter", "list", "numerical", "data", "interface", "reorder"]
 version: "1.40"
 unicode: "ef1b"
 -->
@@ -129189,7 +129189,7 @@ unicode: "ef1b"
     id: "tabler-sort-descending-small-big",
     name: "Sort Descending Small Big",
     svg: `<!--
-tags: [order, sequence, decrease, arrange, scale, size, diminish, reduction, magnitude, shrink]
+tags: ["order", "arrange", "filter", "list", "size", "magnitude", "data", "interface", "reorder"]
 version: "2.46"
 unicode: "fd96"
 -->
@@ -129218,7 +129218,7 @@ unicode: "fd96"
     name: "Sort Descending",
     svg: `<!--
 category: Text
-tags: [filter, classify, arrange, order]
+tags: ["order", "arrange", "filter", "list", "down", "data", "interface", "reorder", "arrow"]
 version: "1.0"
 unicode: "eb27"
 -->
@@ -129247,7 +129247,7 @@ unicode: "eb27"
     id: "tabler-sort-z-a",
     name: "Sort Z A",
     svg: `<!--
-tags: [alphabet, letters, alphabetical]
+tags: ["alphabetical", "descending", "order", "rearrange", "filter", "list", "data", "ui", "organize"]
 category: Text
 version: "1.105"
 unicode: "f550"
@@ -129276,7 +129276,7 @@ unicode: "f550"
     id: "tabler-sos",
     name: "Sos",
     svg: `<!--
-tags: [help, emergency, signal, message, alert]
+tags: ["emergency", "help", "distress", "alert", "danger", "rescue", "urgent", "warning", "signal"]
 version: "1.74"
 unicode: "f24a"
 -->
@@ -129304,7 +129304,7 @@ unicode: "f24a"
     name: "Soup Off",
     svg: `<!--
 category: Food
-tags: [food, cooking, restaurant, bowl, hot, kitchen]
+tags: ["no food", "unavailable", "empty", "prohibited", "diet", "allergy", "meal", "kitchen", "removed"]
 unicode: "f42d"
 version: "1.94"
 -->
@@ -129334,7 +129334,7 @@ version: "1.94"
     name: "Source Code",
     svg: `<!--
 category: Development
-tags: [programming, coding, html, development]
+tags: ["development", "programming", "coding", "developer", "script", "markup", "backend", "engineering", "syntax"]
 unicode: "f4a2"
 version: "1.96"
 -->
@@ -129362,7 +129362,7 @@ version: "1.96"
     name: "Space Off",
     svg: `<!--
 category: Text
-tags: [keyboard, type, gap]
+tags: ["no room", "full", "unavailable", "prohibited", "disabled", "cancel", "removed", "void", "empty"]
 version: "1.67"
 unicode: "f1aa"
 -->
@@ -129389,7 +129389,7 @@ unicode: "f1aa"
     name: "Space",
     svg: `<!--
 category: Text
-tags: [keyboard, type, gap]
+tags: ["universe", "galaxy", "cosmos", "astronomy", "stars", "planet", "exploration", "science", "celestial"]
 version: "1.8"
 unicode: "ec0c"
 -->
@@ -129414,7 +129414,7 @@ unicode: "ec0c"
     id: "tabler-spaces",
     name: "Spaces",
     svg: `<!--
-tags: [gap, interval, distance, void, separation, area, margin, expanse, breach, emptiness]
+tags: ["multiple", "rooms", "workspaces", "collaboration", "layout", "organization", "group", "sections", "areas"]
 unicode: "fea4"
 version: "3.1"
 -->
@@ -129441,7 +129441,7 @@ version: "3.1"
     id: "tabler-spacing-horizontal",
     name: "Spacing Horizontal",
     svg: `<!--
-tags: [align, between, text, gap]
+tags: ["layout", "alignment", "padding", "margin", "design", "width", "adjust", "ui", "horizontal"]
 version: "1.43"
 unicode: "ef54"
 category: Document
@@ -129469,7 +129469,7 @@ category: Document
     id: "tabler-spacing-vertical",
     name: "Spacing Vertical",
     svg: `<!--
-tags: [align, between, text, gap]
+tags: ["layout", "alignment", "padding", "margin", "design", "height", "adjust", "ui", "vertical"]
 version: "1.43"
 unicode: "ef55"
 category: Document
@@ -129497,7 +129497,7 @@ category: Document
     id: "tabler-sparkles",
     name: "Sparkles",
     svg: `<!--
-tags: [star, light, fire, shine]
+tags: ["magic", "glitter", "shine", "enchantment", "celebration", "new", "highlight", "festive", "effect"]
 version: "2.1"
 unicode: "f6d7"
 -->
@@ -129522,7 +129522,7 @@ unicode: "f6d7"
     id: "tabler-speakerphone",
     name: "Speakerphone",
     svg: `<!--
-tags: [voice, loud, microphone, loudspeaker, event, protest, speaker, shout, listen]
+tags: ["announcement", "broadcast", "megaphone", "communication", "marketing", "publicity", "alert", "news", "loudspeaker"]
 category: Media
 version: "1.31"
 unicode: "ed61"
@@ -129551,7 +129551,7 @@ unicode: "ed61"
     name: "Sphere Off",
     svg: `<!--
 category: Shapes
-tags: [3d, pattern, abstract, geometric, shape]
+tags: ["no 3d", "disabled", "unavailable", "prohibited", "cancel", "removed", "globe", "circle", "geometric"]
 version: "2.20"
 unicode: "fab6"
 -->
@@ -129579,7 +129579,7 @@ unicode: "fab6"
     name: "Sphere Plus",
     svg: `<!--
 category: Shapes
-tags: [3d, pattern, abstract, geometric, shape]
+tags: ["add 3d", "new object", "create", "globe", "add planet", "geometric", "round", "circular", "positive"]
 version: "2.20"
 unicode: "fab7"
 -->
@@ -129608,7 +129608,7 @@ unicode: "fab7"
     name: "Sphere",
     svg: `<!--
 category: Shapes
-tags: [3d, pattern, abstract, geometric, shape]
+tags: ["3d object", "globe", "planet", "ball", "geometric", "round", "circular", "world", "shape"]
 version: "2.20"
 unicode: "fab8"
 -->
@@ -129634,7 +129634,7 @@ unicode: "fab8"
     id: "tabler-spiral-off",
     name: "Spiral Off",
     svg: `<!--
-tags: [hypnosis, rotation, growth]
+tags: ["no spiral", "disabled", "unavailable", "prohibited", "cancel", "removed", "coil", "curve", "pattern"]
 unicode: "f42e"
 version: "1.94"
 -->
@@ -129660,7 +129660,7 @@ version: "1.94"
     id: "tabler-spiral",
     name: "Spiral",
     svg: `<!--
-tags: [hypnosis, rotation, growth]
+tags: ["coil", "curve", "pattern", "vortex", "swirl", "abstract", "motion", "growth", "circular"]
 version: "1.78"
 unicode: "f294"
 -->
@@ -129685,7 +129685,7 @@ unicode: "f294"
     id: "tabler-sport-billard",
     name: "Sport Billard",
     svg: `<!--
-tags: [pool, game, ball, pub, entertainment]
+tags: ["pool", "billiards", "game", "leisure", "recreation", "cue", "ball", "hobby", "entertainment"]
 version: "1.39"
 category: Sport
 unicode: "eee4"
@@ -129713,7 +129713,7 @@ unicode: "eee4"
     id: "tabler-spray",
     name: "Spray",
     svg: `<!--
-tags: [paint, clean, hygiene, graffiti]
+tags: ["paint", "aerosol", "can", "graffiti", "art", "cleaner", "disinfectant", "mist", "liquid"]
 unicode: "f50b"
 version: "1.101"
 -->
@@ -129746,7 +129746,7 @@ version: "1.101"
     id: "tabler-spy-off",
     name: "Spy Off",
     svg: `<!--
-tags: [security, incognito, privacy, browser, web]
+tags: ["no surveillance", "private", "hidden", "disabled", "prohibited", "cancel", "removed", "secret", "invisible"]
 unicode: "f42f"
 version: "1.94"
 -->
@@ -129776,7 +129776,7 @@ version: "1.94"
     id: "tabler-spy",
     name: "Spy",
     svg: `<!--
-tags: [security, incognito, privacy, browser, web]
+tags: ["surveillance", "secret", "investigation", "detective", "hidden", "incognito", "agent", "privacy", "clandestine"]
 version: "1.72"
 unicode: "f227"
 -->
@@ -129805,7 +129805,7 @@ unicode: "f227"
     id: "tabler-sql",
     name: "Sql",
     svg: `<!--
-tags: [file, document, type, format, extencion]
+tags: ["database", "query", "data", "programming", "code", "backend", "development", "server", "language"]
 category: Extensions
 version: "2.7"
 unicode: "f7c0"
@@ -129834,7 +129834,7 @@ unicode: "f7c0"
     id: "tabler-square-dashed",
     name: "Square Dashed",
     svg: `<!--
-tags: [box, line, shape, geometry, pattern, design, frame, border, outline, graphic]
+tags: ["outline", "border", "frame", "placeholder", "selection", "area", "geometric", "dotted", "shape"]
 unicode: "100bb"
 version: "3.24"
 -->
@@ -129859,7 +129859,7 @@ version: "3.24"
     id: "tabler-square-forbid-2",
     name: "Square Forbid 2",
     svg: `<!--
-tags: [box, disabled, off, block]
+tags: ["no entry", "restricted", "prohibited", "stop", "block", "forbidden", "warning", "alert", "cancel"]
 version: "1.30"
 unicode: "ed5a"
 -->
@@ -129885,7 +129885,7 @@ unicode: "ed5a"
     id: "tabler-square-forbid",
     name: "Square Forbid",
     svg: `<!--
-tags: [box, disabled, off, block]
+tags: ["no entry", "restricted", "prohibited", "stop", "block", "forbidden", "warning", "alert", "cancel"]
 version: "1.30"
 unicode: "ed5b"
 -->
@@ -129911,7 +129911,7 @@ unicode: "ed5b"
     id: "tabler-square-half",
     name: "Square Half",
     svg: `<!--
-tags: [shapes, pattern, geometric, highlight, geometry]
+tags: ["split", "divide", "part", "section", "half filled", "progress", "geometric", "shape", "ui"]
 category: Design
 version: "1.52"
 unicode: "effb"
@@ -129942,7 +129942,7 @@ unicode: "effb"
     id: "tabler-square-key",
     name: "Square Key",
     svg: `<!--
-tags: [shape, lock, door, acsses]
+tags: ["security", "access", "password", "login", "authentication", "private", "geometric", "filled"]
 unicode: "f638"
 version: "1.117"
 -->
@@ -129971,7 +129971,7 @@ version: "1.117"
     name: "Square Off",
     svg: `<!--
 category: Shapes
-tags: [checkbox, box, shape]
+tags: ["disabled", "inactive", "unavailable", "remove", "delete", "geometric", "outline", "crossed out"]
 version: "1.39"
 unicode: "eeef"
 -->
@@ -129997,7 +129997,7 @@ unicode: "eeef"
     id: "tabler-square-percentage",
     name: "Square Percentage",
     svg: `<!--
-tags: [geometry, fraction, ratio, calculate, evaluate, determine, measure, symbol, statistic, proportion]
+tags: ["discount", "sale", "rate", "offer", "statistics", "finance", "geometric", "outline"]
 version: "2.45"
 unicode: "fd83"
 -->
@@ -130026,7 +130026,7 @@ unicode: "fd83"
     name: "Square Plus 2",
     svg: `<!--
 category: Shapes
-tags: [geometry, addition, math, symbol, calculate, increase, sum, count, augment, enlarge]
+tags: ["add", "create", "new", "insert", "positive", "geometric", "outline", "cta"]
 version: "2.35"
 unicode: "fc96"
 -->
@@ -130054,7 +130054,7 @@ unicode: "fc96"
     name: "Square Plus",
     svg: `<!--
 category: Shapes
-tags: [add, create, new]
+tags: ["add", "create", "new", "insert", "positive", "geometric", "outline", "cta"]
 version: "1.0"
 unicode: "eb2a"
 -->
@@ -130082,7 +130082,7 @@ unicode: "eb2a"
     name: "Square Root 2",
     svg: `<!--
 category: Math
-tags: [mathematics, maths, science, calculate, calculator, algebra]
+tags: ["math", "calculation", "equation", "algebra", "scientific", "geometric", "outline"]
 version: "1.39"
 unicode: "eef0"
 -->
@@ -130109,7 +130109,7 @@ unicode: "eef0"
     id: "tabler-square-root",
     name: "Square Root",
     svg: `<!--
-tags: [mathematics, maths, science, calculate, calculator, algebra]
+tags: ["math", "calculation", "equation", "algebra", "scientific", "geometric", "outline"]
 category: Math
 version: "1.39"
 unicode: "eef1"
@@ -130135,7 +130135,7 @@ unicode: "eef1"
     id: "tabler-square-rotated-forbid-2",
     name: "Square Rotated Forbid 2",
     svg: `<!--
-tags: [shape, geometry, rhombus, ban, restricted]
+tags: ["forbidden", "restricted", "no entry", "prohibited", "stop", "geometric", "diagonal", "alert"]
 version: "1.54"
 unicode: "f01b"
 -->
@@ -130161,7 +130161,7 @@ unicode: "f01b"
     id: "tabler-square-rotated-forbid",
     name: "Square Rotated Forbid",
     svg: `<!--
-tags: [shape, geometry, rhombus, ban, restricted]
+tags: ["forbidden", "restricted", "no entry", "prohibited", "stop", "geometric", "diagonal", "alert"]
 version: "1.54"
 unicode: "f01c"
 -->
@@ -130188,7 +130188,7 @@ unicode: "f01c"
     name: "Square Rotated Off",
     svg: `<!--
 category: Shapes
-tags: [shape, sign, geometry, geometric, quadrilateral, rhombus]
+tags: ["disabled", "inactive", "unavailable", "remove", "delete", "geometric", "outline", "crossed out", "rotated"]
 version: "1.39"
 unicode: "eef2"
 -->
@@ -130215,7 +130215,7 @@ unicode: "eef2"
     name: "Square Rounded Minus 2",
     svg: `<!--
 category: Shapes
-tags: [geometry, subtraction, math, decrease, symbol, calculate, reduce, deduct, minimize, subtract]
+tags: ["remove", "delete", "subtract", "negative", "decrease", "rounded", "geometric", "outline"]
 version: "2.35"
 unicode: "fc97"
 -->
@@ -130241,7 +130241,7 @@ unicode: "fc97"
     id: "tabler-square-rounded-percentage",
     name: "Square Rounded Percentage",
     svg: `<!--
-tags: [geometry, fraction, ratio, calculate, evaluate, determine, proportion, symbol, percentage, statistic]
+tags: ["discount", "sale", "rate", "offer", "statistics", "finance", "rounded", "geometric", "outline"]
 version: "2.45"
 unicode: "fd84"
 -->
@@ -130270,7 +130270,7 @@ unicode: "fd84"
     name: "Square Rounded Plus 2",
     svg: `<!--
 category: Shapes
-tags: [geometry, addition, math, symbol, calculate, increase, sum, augment, enlarge, advance]
+tags: ["add", "create", "new", "insert", "positive", "rounded", "geometric", "outline", "cta"]
 version: "2.35"
 unicode: "fc98"
 -->
@@ -130297,7 +130297,7 @@ unicode: "fc98"
     id: "tabler-square-toggle-horizontal",
     name: "Square Toggle Horizontal",
     svg: `<!--
-tags: [box, clone, move]
+tags: ["switch", "on off", "setting", "option", "control", "horizontal", "geometric", "ui"]
 category: Design
 version: "1.39"
 unicode: "eef3"
@@ -130327,7 +130327,7 @@ unicode: "eef3"
     id: "tabler-square-toggle",
     name: "Square Toggle",
     svg: `<!--
-tags: [box, clone, move]
+tags: ["switch", "on off", "setting", "option", "control", "geometric", "ui"]
 category: Design
 version: "1.39"
 unicode: "eef4"
@@ -130357,7 +130357,7 @@ unicode: "eef4"
     id: "tabler-squares-diagonal",
     name: "Squares Diagonal",
     svg: `<!--
-tags: [boxes, layers]
+tags: ["grid", "layout", "pattern", "tiles", "geometric", "abstract", "design", "arrangement"]
 category: Design
 version: "1.39"
 unicode: "eef5"
@@ -130385,7 +130385,7 @@ unicode: "eef5"
     id: "tabler-squares-selected",
     name: "Squares Selected",
     svg: `<!--
-tags: [checkbox, chosen, highlight, marked, pick, selected, choice, option, choose, preference]
+tags: ["selection", "choose", "highlight", "focus", "grid", "layout", "geometric", "ui"]
 unicode: "fea3"
 version: "3.1"
 -->
@@ -130414,7 +130414,7 @@ version: "3.1"
     id: "tabler-stack-back",
     name: "Stack Back",
     svg: `<!--
-tags: [layers, depth, background, arrangement, structure, order, position, sequence, arrange, layout]
+tags: ["layers", "order", "arrange", "depth", "behind", "ui", "geometric", "card"]
 version: "2.40"
 unicode: "fd26"
 -->
@@ -130441,7 +130441,7 @@ unicode: "fd26"
     id: "tabler-stack-backward",
     name: "Stack Backward",
     svg: `<!--
-tags: [layers, depth, background, arrangement, reorder, reverse, underneath, position, sequence, arrange]
+tags: ["layers", "order", "arrange", "depth", "behind", "ui", "geometric", "card", "send to back"]
 version: "2.40"
 unicode: "fd27"
 -->
@@ -130467,7 +130467,7 @@ unicode: "fd27"
     id: "tabler-stack-forward",
     name: "Stack Forward",
     svg: `<!--
-tags: [layers, depth, foreground, arrangement, advance, position, sequence, structure, order, arrange]
+tags: ["layers", "order", "arrange", "depth", "front", "ui", "geometric", "card", "bring to front"]
 version: "2.40"
 unicode: "fd28"
 -->
@@ -130493,7 +130493,7 @@ unicode: "fd28"
     id: "tabler-stack-front",
     name: "Stack Front",
     svg: `<!--
-tags: [layers, depth, foreground, arrangement, position, sequence, structure, priority, place, front]
+tags: ["layers", "order", "arrange", "depth", "front", "ui", "geometric", "card"]
 version: "2.40"
 unicode: "fd29"
 -->
@@ -130520,7 +130520,7 @@ unicode: "fd29"
     id: "tabler-stack-middle",
     name: "Stack Middle",
     svg: `<!--
-tags: [layers, depth, center, arrangement, position, sequence, structure, order, layout, median]
+tags: ["layers", "order", "arrange", "depth", "center", "ui", "geometric", "card"]
 version: "2.40"
 unicode: "fd2a"
 -->
@@ -130547,7 +130547,7 @@ unicode: "fd2a"
     id: "tabler-stack-pop",
     name: "Stack Pop",
     svg: `<!--
-tags: [data, level, layout, arrow, out]
+tags: ["layers", "remove", "delete", "undo", "ui", "geometric", "card", "take out"]
 category: Design
 version: "1.73"
 unicode: "f234"
@@ -130576,7 +130576,7 @@ unicode: "f234"
     id: "tabler-stack-push",
     name: "Stack Push",
     svg: `<!--
-tags: [arrange, data, level, layout, arrow]
+tags: ["layers", "add", "create", "new", "insert", "ui", "geometric", "card", "put in"]
 category: Design
 version: "1.73"
 unicode: "f235"
@@ -130606,7 +130606,7 @@ unicode: "f235"
     name: "Stairs Down",
     svg: `<!--
 category: Map
-tags: [building, step, floor, staircase, clamber]
+tags: ["steps", "descend", "downward", "level", "floor", "architecture", "arrow"]
 version: "1.17"
 unicode: "eca4"
 -->
@@ -130634,7 +130634,7 @@ unicode: "eca4"
     name: "Stairs Up",
     svg: `<!--
 category: Map
-tags: [building, step, floor, staircase, entryway]
+tags: ["level up", "elevation", "ascent", "progress", "upward", "floor", "building", "architecture", "minimal"]
 version: "1.17"
 unicode: "eca5"
 -->
@@ -130662,7 +130662,7 @@ unicode: "eca5"
     name: "Stairs",
     svg: `<!--
 category: Map
-tags: [building, step, floor, staircase]
+tags: ["steps", "levels", "floor", "building", "architecture", "up down", "minimal", "path"]
 version: "1.17"
 unicode: "eca6"
 -->
@@ -130688,7 +130688,7 @@ unicode: "eca6"
     name: "Star Off",
     svg: `<!--
 category: System
-tags: [favorite, like, mark, bookmark, grade]
+tags: ["unfavorite", "unrate", "remove", "deactivate", "wishlist", "cancel", "disabled", "feedback", "outline"]
 version: "1.31"
 unicode: "ed62"
 -->
@@ -130715,7 +130715,7 @@ unicode: "ed62"
     name: "Stars Off",
     svg: `<!--
 category: System
-tags: [favorite, like, mark, grade, bookmark, space, universe, extraterrestrial, galaxy]
+tags: ["unrated", "no rating", "unfavorite", "remove", "deactivate", "cancel", "disabled", "feedback", "outline"]
 unicode: "f430"
 version: "1.94"
 -->
@@ -130743,7 +130743,7 @@ version: "1.94"
     id: "tabler-status-change",
     name: "Status Change",
     svg: `<!--
-tags: [available, unavailable, switch]
+tags: ["update", "progress", "workflow", "transition", "activity", "task", "process", "arrow", "system"]
 version: "1.93"
 unicode: "f3b0"
 -->
@@ -130771,7 +130771,7 @@ unicode: "f3b0"
     id: "tabler-steam",
     name: "Steam",
     svg: `<!--
-tags: [app, social, games, platform, software]
+tags: ["gaming", "platform", "social media", "app", "logo", "brand", "computer", "entertainment"]
 version: "1.74"
 unicode: "f24b"
 -->
@@ -130804,7 +130804,7 @@ unicode: "f24b"
     name: "Steering Wheel Off",
     svg: `<!--
 category: Vehicles
-tags: [drive, vehicle, direction, turn, holding, racing]
+tags: ["no driving", "disabled", "autopilot off", "manual control", "vehicle", "transportation", "warning", "car", "outline"]
 unicode: "f431"
 version: "1.94"
 -->
@@ -130834,7 +130834,7 @@ version: "1.94"
     id: "tabler-step-into",
     name: "Step Into",
     svg: `<!--
-tags: [vector, placement, among, within]
+tags: ["debug", "code", "programming", "next", "forward", "enter", "action", "arrow", "system"]
 category: Arrows
 version: "1.20"
 unicode: "ece0"
@@ -130863,7 +130863,7 @@ unicode: "ece0"
     id: "tabler-step-out",
     name: "Step Out",
     svg: `<!--
-tags: [vector, placement, outside, except]
+tags: ["debug", "code", "programming", "exit", "back", "return", "action", "arrow", "system"]
 category: Arrows
 version: "1.20"
 unicode: "ece1"
@@ -130892,7 +130892,7 @@ unicode: "ece1"
     id: "tabler-stereo-glasses",
     name: "Stereo Glasses",
     svg: `<!--
-tags: [cinema, 3d, eyewear, film, movie]
+tags: ["3d", "virtual reality", "movie", "entertainment", "vision", "view", "cinema", "device"]
 unicode: "f4cb"
 version: "1.98"
 -->
@@ -130922,7 +130922,7 @@ version: "1.98"
     name: "Stethoscope Off",
     svg: `<!--
 category: Health
-tags: [doctor, medical, physician, test, examination, health, illness, sickness, scrutiny, hospital]
+tags: ["no checkup", "medical off", "disabled", "healthcare", "doctor", "hospital", "cancel", "outline"]
 unicode: "f432"
 version: "1.94"
 -->
@@ -130951,7 +130951,7 @@ version: "1.94"
     id: "tabler-stethoscope",
     name: "Stethoscope",
     svg: `<!--
-tags: [doctor, medical, physician, test, examination, health, illness, sickness, scrutiny, hospital]
+tags: ["doctor", "medical", "healthcare", "checkup", "hospital", "diagnosis", "heartbeat", "emergency"]
 version: "1.33"
 category: Health
 unicode: "edbe"
@@ -130981,7 +130981,7 @@ unicode: "edbe"
     id: "tabler-sticker-2",
     name: "Sticker 2",
     svg: `<!--
-tags: [label-2, adhesive, decorative-label, tag-2, sticky-note, decal, post-it, sticker-label, paper-sticker, 2nd-sticker]
+tags: ["label", "badge", "tag", "decoration", "product", "design", "emoji", "geometric", "ui"]
 version: "2.41"
 unicode: "fd3d"
 -->
@@ -131007,7 +131007,7 @@ unicode: "fd3d"
     id: "tabler-sticker",
     name: "Sticker",
     svg: `<!--
-tags: [label, stamp, adhesive]
+tags: ["label", "badge", "tag", "decoration", "product", "design", "emoji", "rounded", "ui"]
 version: "1.0"
 unicode: "eb2f"
 -->
@@ -131033,7 +131033,7 @@ unicode: "eb2f"
     id: "tabler-stopwatch",
     name: "Stopwatch",
     svg: `<!--
-tags: [timer, time, watch, clock, run, race]
+tags: ["timer", "countdown", "race", "speed", "measurement", "event", "sport", "time", "ui"]
 category: System
 unicode: "ff9b"
 version: "3.12"
@@ -131063,7 +131063,7 @@ version: "3.12"
     name: "Storm Off",
     svg: `<!--
 category: Weather
-tags: [weather, cloud, lighting, rain, wind, tornado]
+tags: ["no storm", "clear weather", "calm", "disabled", "forecast", "cancel", "outline", "nature"]
 unicode: "f433"
 version: "1.94"
 -->
@@ -131092,7 +131092,7 @@ version: "1.94"
     id: "tabler-storm",
     name: "Storm",
     svg: `<!--
-tags: [weather, cloud, lighting, rain, wind, tornado]
+tags: ["thunderstorm", "bad weather", "lightning", "rain", "forecast", "warning", "nature", "climate"]
 version: "1.74"
 unicode: "f24c"
 category: Weather
@@ -131122,7 +131122,7 @@ category: Weather
     name: "Stretching 2",
     svg: `<!--
 category: Sport
-tags: [exercise, flexibility, warmup, movement, fitness, routine, posture, action, lengthen, muscle]
+tags: ["exercise", "warm up", "yoga", "fitness", "health", "flexibility", "body", "sport", "person"]
 version: "2.17"
 unicode: "fa6d"
 -->
@@ -131150,7 +131150,7 @@ unicode: "fa6d"
     id: "tabler-stretching",
     name: "Stretching",
     svg: `<!--
-tags: [exercise, yoga, workout, fitness, gym, body]
+tags: ["exercise", "warm up", "yoga", "fitness", "health", "flexibility", "body", "sport", "person"]
 category: Sport
 version: "1.82"
 unicode: "f2db"
@@ -131178,7 +131178,7 @@ unicode: "f2db"
     id: "tabler-strikethrough",
     name: "Strikethrough",
     svg: `<!--
-tags: [typography, horizontal, deleted, removed, unimportant]
+tags: ["text format", "delete", "remove", "cancel", "edit", "typography", "word processor", "ui"]
 category: Text
 version: "1.3"
 unicode: "eb9e"
@@ -131205,7 +131205,7 @@ unicode: "eb9e"
     id: "tabler-submarine",
     name: "Submarine",
     svg: `<!--
-tags: [sea, ocean, underwater, shipwater, war]
+tags: ["underwater", "vehicle", "ocean", "sea", "exploration", "transport", "military", "travel"]
 category: Vehicles
 version: "1.34"
 unicode: "ed94"
@@ -131233,7 +131233,7 @@ unicode: "ed94"
     id: "tabler-subscript",
     name: "Subscript",
     svg: `<!--
-tags: [typography, below, formula, maths, fraction]
+tags: ["text format", "formula", "equation", "math", "science", "edit", "typography", "word processor", "ui"]
 category: Text
 version: "1.3"
 unicode: "eb9f"
@@ -131260,7 +131260,7 @@ unicode: "eb9f"
     id: "tabler-subtask",
     name: "Subtask",
     svg: `<!--
-tags: [management, break down, work]
+tags: ["nested task", "hierarchy", "project management", "workflow", "todo", "organization", "list", "system"]
 version: "1.16"
 unicode: "ec9f"
 -->
@@ -131290,7 +131290,7 @@ unicode: "ec9f"
     name: "Sum Off",
     svg: `<!--
 category: Math
-tags: [equation, add, plus, amount, total]
+tags: ["no sum", "calculation off", "disabled", "math", "sigma", "total", "cancel", "outline"]
 version: "1.67"
 unicode: "f1ab"
 -->
@@ -131317,7 +131317,7 @@ unicode: "f1ab"
     name: "Sum",
     svg: `<!--
 category: Math
-tags: [equation, add, plus, amount, total]
+tags: ["total", "calculation", "add", "math", "sigma", "finance", "analytics", "statistics"]
 version: "1.2"
 unicode: "eb73"
 -->
@@ -131342,7 +131342,7 @@ unicode: "eb73"
     id: "tabler-sun-electricity",
     name: "Sun Electricity",
     svg: `<!--
-tags: [solar, energy, renewable, sunlight, power, generate, convert, green, sustainable, eco-friendly]
+tags: ["solar", "energy", "power", "renewable", "eco", "green", "sustainable", "light", "climate"]
 version: "2.37"
 unicode: "fcc2"
 -->
@@ -131373,7 +131373,7 @@ unicode: "fcc2"
     id: "tabler-sun-moon",
     name: "Sun Moon",
     svg: `<!--
-tags: [weather, day, night, hot, cold]
+tags: ["day night", "dark mode", "theme toggle", "celestial", "time", "contrast", "duality", "light dark"]
 category: Weather
 unicode: "f4a3"
 version: "1.96"
@@ -131405,7 +131405,7 @@ version: "1.96"
     name: "Sun Off",
     svg: `<!--
 category: Weather
-tags: [weather, light, mode, brightness]
+tags: ["no sun", "cloudy", "disabled", "inactive", "blocked", "unavailable", "weather", "light off"]
 version: "1.31"
 unicode: "ed63"
 -->
@@ -131432,7 +131432,7 @@ unicode: "ed63"
     id: "tabler-sun-wind",
     name: "Sun Wind",
     svg: `<!--
-tags: [temperature, wheater, thermometer, forecast, windy]
+tags: ["weather forecast", "breeze", "climate", "environment", "natural", "outdoor", "air", "windy"]
 category: Weather
 version: "1.73"
 unicode: "f238"
@@ -131466,7 +131466,7 @@ unicode: "f238"
     id: "tabler-superscript",
     name: "Superscript",
     svg: `<!--
-tags: [typography, above, maths, fraction, trademark, footer]
+tags: ["text format", "typography", "math", "equation", "exponent", "footnote", "reference", "editor"]
 category: Text
 version: "1.3"
 unicode: "eba0"
@@ -131494,7 +131494,7 @@ unicode: "eba0"
     name: "Svg",
     svg: `<!--
 category: Extensions
-tags: [file, format, extension, graphic, filetype]
+tags: ["vector graphic", "image format", "code", "development", "web design", "markup", "scalable", "programming"]
 version: "1.75"
 unicode: "f25a"
 -->
@@ -131521,7 +131521,7 @@ unicode: "f25a"
     id: "tabler-swimming",
     name: "Swimming",
     svg: `<!--
-tags: [sport, water, pool, style, athletics, competitive]
+tags: ["pool", "sport", "exercise", "activity", "water", "leisure", "fitness", "recreation"]
 category: Sport
 version: "1.14"
 unicode: "ec92"
@@ -131549,7 +131549,7 @@ unicode: "ec92"
     id: "tabler-swipe",
     name: "Swipe",
     svg: `<!--
-tags: [right, left, gesture, scroll]
+tags: ["gesture", "touch", "mobile", "interaction", "scroll", "slide", "ui control", "finger"]
 version: "1.105"
 unicode: "f551"
 -->
@@ -131576,7 +131576,7 @@ unicode: "f551"
     name: "Switch 2",
     svg: `<!--
 category: Arrows
-tags: [arrows, direction, music, spotify, change]
+tags: ["toggle", "on off", "control", "setting", "option", "action", "ui element", "slider"]
 version: "1.35"
 unicode: "edbf"
 -->
@@ -131605,7 +131605,7 @@ unicode: "edbf"
     name: "Switch 3",
     svg: `<!--
 category: Arrows
-tags: [arrows, direction, music, spotify, change]
+tags: ["toggle", "on off", "control", "setting", "option", "action", "ui element", "slider"]
 version: "1.35"
 unicode: "edc0"
 -->
@@ -131633,7 +131633,7 @@ unicode: "edc0"
     id: "tabler-switch-horizontal",
     name: "Switch Horizontal",
     svg: `<!--
-tags: [toggle, left, right, arrows]
+tags: ["toggle", "on off", "control", "setting", "option", "action", "ui element", "slider", "horizontal"]
 category: Arrows
 version: "1.0"
 unicode: "eb31"
@@ -131662,7 +131662,7 @@ unicode: "eb31"
     id: "tabler-switch-vertical",
     name: "Switch Vertical",
     svg: `<!--
-tags: [toggle, up, down, arrows]
+tags: ["toggle", "on off", "control", "setting", "option", "action", "ui element", "slider", "vertical"]
 category: Arrows
 version: "1.0"
 unicode: "eb32"
@@ -131691,7 +131691,7 @@ unicode: "eb32"
     id: "tabler-switch",
     name: "Switch",
     svg: `<!--
-tags: [toggle, arrows]
+tags: ["toggle", "on off", "control", "setting", "option", "action", "ui element", "slider"]
 category: Arrows
 version: "1.0"
 unicode: "eb33"
@@ -131722,7 +131722,7 @@ unicode: "eb33"
     name: "Sword Off",
     svg: `<!--
 category: Games
-tags: [weapon, knight, blade, war, minecraft, warrior]
+tags: ["no weapon", "peace", "disabled", "inactive", "blocked", "unavailable", "no combat", "safety"]
 unicode: "f434"
 version: "1.94"
 -->
@@ -131750,7 +131750,7 @@ version: "1.94"
     name: "Sword",
     svg: `<!--
 category: Games
-tags: [weapon, knight, blade, war, minecraft, warrior]
+tags: ["weapon", "combat", "battle", "fight", "rpg", "game", "knight", "fantasy"]
 version: "1.55"
 unicode: "f030"
 -->
@@ -131777,7 +131777,7 @@ unicode: "f030"
     name: "Swords",
     svg: `<!--
 category: Games
-tags: [weapon, knight, blade, war, minecraft, warrior]
+tags: ["weapons", "combat", "battle", "fight", "rpg", "game", "conflict", "duel"]
 version: "1.65"
 unicode: "f132"
 -->
@@ -131805,7 +131805,7 @@ unicode: "f132"
     id: "tabler-table-alias",
     name: "Table Alias",
     svg: `<!--
-tags: [data, database, chart]
+tags: ["database", "data", "spreadsheet", "grid", "alias", "reference", "link", "connection"]
 category: Database
 version: "1.75"
 unicode: "f25b"
@@ -131834,7 +131834,7 @@ unicode: "f25b"
     id: "tabler-table-column",
     name: "Table Column",
     svg: `<!--
-tags: [table, column, data-table, spreadsheet, table-structure, columnar, information, grid, table-columnar, dataset]
+tags: ["database", "data", "spreadsheet", "grid", "column", "structure", "layout", "organize"]
 category: Database
 version: "2.24"
 unicode: "faff"
@@ -131866,7 +131866,7 @@ unicode: "faff"
     id: "tabler-table-dashed",
     name: "Table Dashed",
     svg: `<!--
-tags: [grid, rows, columns, cells, chart, matrix, dotted, frame, layout, pattern]
+tags: ["database", "data", "spreadsheet", "grid", "dashed", "empty", "placeholder", "outline"]
 unicode: "100ba"
 version: "3.24"
 -->
@@ -131894,7 +131894,7 @@ version: "3.24"
     name: "Table Down",
     svg: `<!--
 category: Database
-tags: [table, down, arrow-down, table-arrow, descending, sort-down, data-table, directional, arrange-down, table-order]
+tags: ["database", "data", "spreadsheet", "grid", "move down", "reorder", "sort", "arrow"]
 version: "2.13"
 unicode: "fa1c"
 -->
@@ -131923,7 +131923,7 @@ unicode: "fa1c"
     id: "tabler-table-export",
     name: "Table Export",
     svg: `<!--
-tags: [spreadsheet, layout, grid, arrange, row, column, cells, sheet, arrow]
+tags: ["database", "data", "spreadsheet", "grid", "download", "share", "output", "send"]
 category: Database
 version: "1.39"
 unicode: "eef8"
@@ -131954,7 +131954,7 @@ unicode: "eef8"
     name: "Table Heart",
     svg: `<!--
 category: Database
-tags: [table, heart, like, favorite, love, data-table, table-icon, heart-symbol, table-like, table-favorite]
+tags: ["database", "data", "spreadsheet", "grid", "favorite", "liked", "preferred", "bookmark"]
 version: "2.13"
 unicode: "fa1d"
 -->
@@ -131982,7 +131982,7 @@ unicode: "fa1d"
     id: "tabler-table-import",
     name: "Table Import",
     svg: `<!--
-tags: [spreadsheet, layout, grid, arrange, row, column, cells, sheet, arrow]
+tags: ["database", "data", "spreadsheet", "grid", "upload", "receive", "input", "add"]
 category: Database
 version: "1.39"
 unicode: "eef9"
@@ -132013,7 +132013,7 @@ unicode: "eef9"
     name: "Table Minus",
     svg: `<!--
 category: Database
-tags: [table, minus, remove, subtract, delete, data-table, table-operation, table-remove, subtract-from-table, exclude]
+tags: ["database", "data", "spreadsheet", "grid", "remove", "delete", "subtract", "reduce"]
 version: "2.13"
 unicode: "fa1e"
 -->
@@ -132042,7 +132042,7 @@ unicode: "fa1e"
     name: "Table Off",
     svg: `<!--
 category: Database
-tags: [spreadsheet, layout, grid, arrange, row, column]
+tags: ["database", "data", "spreadsheet", "grid", "disabled", "inactive", "blocked", "unavailable", "no table"]
 version: "1.39"
 unicode: "eefa"
 -->
@@ -132070,7 +132070,7 @@ unicode: "eefa"
     id: "tabler-table-options",
     name: "Table Options",
     svg: `<!--
-tags: [edit, chart, customization, repair, settings]
+tags: ["settings", "configuration", "data management", "preferences", "controls", "gear", "cog", "ui"]
 category: Database
 version: "1.75"
 unicode: "f25c"
@@ -132106,7 +132106,7 @@ unicode: "f25c"
     name: "Table Plus",
     svg: `<!--
 category: Database
-tags: [table, plus, add, insert, include, data-table, table-operation, table-add, add-to-table, include-in-table]
+tags: ["add row", "new entry", "data entry", "create", "insert", "add", "ui"]
 version: "2.13"
 unicode: "fa1f"
 -->
@@ -132135,7 +132135,7 @@ unicode: "fa1f"
     id: "tabler-table-row",
     name: "Table Row",
     svg: `<!--
-tags: [table, row, data-table, spreadsheet, table-structure, row-wise, information, grid, table-row-wise, dataset]
+tags: ["data row", "spreadsheet", "line item", "record", "entry", "ui"]
 category: Database
 version: "2.24"
 unicode: "fb00"
@@ -132168,7 +132168,7 @@ unicode: "fb00"
     name: "Table Share",
     svg: `<!--
 category: Database
-tags: [table, share, share-table, data-sharing, collaboration, data-table, table-collaboration, table-cooperation, share-data, spreadsheet]
+tags: ["export", "distribute", "collaborate", "send data", "network", "ui"]
 version: "2.13"
 unicode: "fa20"
 -->
@@ -132197,7 +132197,7 @@ unicode: "fa20"
     id: "tabler-table-shortcut",
     name: "Table Shortcut",
     svg: `<!--
-tags: [data, database, chart, network, server]
+tags: ["quick access", "link", "fast track", "bookmark", "favorite", "ui"]
 category: Database
 version: "1.75"
 unicode: "f25d"
@@ -132227,7 +132227,7 @@ unicode: "f25d"
     id: "tabler-table-spark",
     name: "Table Spark",
     svg: `<!--
-tags: [spreadsheet, layout, grid, arrange, row, column]
+tags: ["data analysis", "insights", "trends", "performance", "chart", "graph", "ui"]
 category: Database
 unicode: "ffad"
 version: "3.13"
@@ -132257,7 +132257,7 @@ version: "3.13"
     name: "Tag Minus",
     svg: `<!--
 category: E-commerce
-tags: [label, price]
+tags: ["remove tag", "untag", "delete label", "categorization", "ui"]
 version: "1.0"
 unicode: "eb34"
 -->
@@ -132285,7 +132285,7 @@ unicode: "eb34"
     name: "Tag Off",
     svg: `<!--
 category: E-commerce
-tags: [label, price]
+tags: ["tag disabled", "no tag", "label off", "categorization", "ui"]
 version: "1.49"
 unicode: "efc0"
 -->
@@ -132313,7 +132313,7 @@ unicode: "efc0"
     name: "Tag Plus",
     svg: `<!--
 category: E-commerce
-tags: [label, price]
+tags: ["add tag", "new label", "categorize", "mark", "ui"]
 unicode: "10097"
 version: "3.22"
 -->
@@ -132341,7 +132341,7 @@ version: "3.22"
     id: "tabler-tag-starred",
     name: "Tag Starred",
     svg: `<!--
-tags: [tag, starred, star, favorite, label, tagging, tagged-star, marked, tag-star, highlighted]
+tags: ["favorite tag", "important label", "bookmark", "highlight", "priority", "ui"]
 category: E-commerce
 version: "2.35"
 unicode: "fc99"
@@ -132370,7 +132370,7 @@ unicode: "fc99"
     name: "Tags Off",
     svg: `<!--
 category: E-commerce
-tags: [label, price, shopping, promotion]
+tags: ["no tags", "tags disabled", "labels off", "uncategorized", "ui"]
 version: "1.49"
 unicode: "efc1"
 -->
@@ -132400,7 +132400,7 @@ unicode: "efc1"
     id: "tabler-tallymark-1",
     name: "Tallymark 1",
     svg: `<!--
-tags: [sign, symbol, numerical, consistent, system, counting]
+tags: ["count one", "single mark", "score", "vote", "ui"]
 category: Math
 version: "1.11"
 unicode: "ec46"
@@ -132426,7 +132426,7 @@ unicode: "ec46"
     id: "tabler-tallymark-2",
     name: "Tallymark 2",
     svg: `<!--
-tags: [sign, symbol, numerical, consistent, system, counting]
+tags: ["count two", "double mark", "score", "vote", "ui"]
 category: Math
 version: "1.11"
 unicode: "ec47"
@@ -132453,7 +132453,7 @@ unicode: "ec47"
     id: "tabler-tallymark-3",
     name: "Tallymark 3",
     svg: `<!--
-tags: [sign, symbol, numerical, consistent, system, counting]
+tags: ["count three", "triple mark", "score", "vote", "ui"]
 category: Math
 version: "1.11"
 unicode: "ec48"
@@ -132481,7 +132481,7 @@ unicode: "ec48"
     id: "tabler-tallymark-4",
     name: "Tallymark 4",
     svg: `<!--
-tags: [sign, symbol, numerical, consistent, system, counting]
+tags: ["count four", "quadruple mark", "score", "vote", "ui"]
 category: Math
 version: "1.11"
 unicode: "ec49"
@@ -132510,7 +132510,7 @@ unicode: "ec49"
     id: "tabler-tallymarks",
     name: "Tallymarks",
     svg: `<!--
-tags: [sign, symbol, numerical, consistent, system, counting]
+tags: ["counting", "scorecard", "voting", "enumeration", "statistics", "ui"]
 category: Math
 version: "1.11"
 unicode: "ec4a"
@@ -132540,7 +132540,7 @@ unicode: "ec4a"
     id: "tabler-tank",
     name: "Tank",
     svg: `<!--
-tags: [war, military, armour, vehicle, gun, attack, shoot, battle, battlefield]
+tags: ["military", "warfare", "armor", "vehicle", "heavy", "combat", "transport"]
 category: Vehicles
 version: "1.34"
 unicode: "ed95"
@@ -132568,7 +132568,7 @@ unicode: "ed95"
     id: "tabler-target-arrow",
     name: "Target Arrow",
     svg: `<!--
-tags: [goal, aim, archery, archer]
+tags: ["goal achieved", "accuracy", "precision", "hit", "success", "aim", "ui"]
 version: "1.102"
 unicode: "f51a"
 category: Sport
@@ -132599,7 +132599,7 @@ category: Sport
     name: "Target Off",
     svg: `<!--
 category: Map
-tags: [focus, bullseye, aim]
+tags: ["no target", "missed goal", "disabled aim", "off course", "ui"]
 version: "1.67"
 unicode: "f1ad"
 -->
@@ -132628,7 +132628,7 @@ unicode: "f1ad"
     name: "Target",
     svg: `<!--
 category: Map
-tags: [focus, bullseye, aim]
+tags: ["goal", "aim", "objective", "focus", "bullseye", "ui"]
 version: "1.0"
 unicode: "eb35"
 -->
@@ -132655,7 +132655,7 @@ unicode: "eb35"
     id: "tabler-tax-euro",
     name: "Tax Euro",
     svg: `<!--
-tags: [finance, charge, duty, levy, value, monetary, currency, europe, assessment, payment]
+tags: ["vat", "european tax", "fiscal", "finance", "money", "currency"]
 unicode: "fef0"
 version: "3.5"
 -->
@@ -132683,7 +132683,7 @@ version: "3.5"
     id: "tabler-tax-pound",
     name: "Tax Pound",
     svg: `<!--
-tags: [finance, charge, duty, levy, value, monetary, currency, britain, assessment, payment]
+tags: ["vat", "british tax", "fiscal", "finance", "money", "currency"]
 unicode: "feef"
 version: "3.5"
 -->
@@ -132711,7 +132711,7 @@ version: "3.5"
     id: "tabler-tax",
     name: "Tax",
     svg: `<!--
-tags: [finance, charge, duty, levy, value, government, revenue, fee, assessment, payment]
+tags: ["vat", "fiscal", "finance", "money", "invoice", "payment"]
 unicode: "feee"
 version: "3.5"
 -->
@@ -132741,7 +132741,7 @@ version: "3.5"
     name: "Teapot",
     svg: `<!--
 category: Food
-tags: [kettle, kitchen, hot, coffee, kitchenware]
+tags: ["tea time", "beverage", "drink", "kitchenware", "hot drink", "food"]
 version: "1.105"
 unicode: "f552"
 -->
@@ -132768,7 +132768,7 @@ unicode: "f552"
     id: "tabler-telescope-off",
     name: "Telescope Off",
     svg: `<!--
-tags: [astronomy, moon, observation, vision, space, astrology]
+tags: ["no observation", "disabled view", "exploration off", "science", "astronomy", "device"]
 version: "1.67"
 unicode: "f1ae"
 -->
@@ -132797,7 +132797,7 @@ unicode: "f1ae"
     id: "tabler-telescope",
     name: "Telescope",
     svg: `<!--
-tags: [astronomy, moon, observation, vision, space, astrology]
+tags: ["astronomy", "observatory", "space", "exploration", "discovery", "science", "research", "viewing", "celestial", "optical"]
 version: "1.59"
 unicode: "f07d"
 -->
@@ -132825,7 +132825,7 @@ unicode: "f07d"
     id: "tabler-temperature-celsius",
     name: "Temperature Celsius",
     svg: `<!--
-tags: [weather, celcius, fahrenheit, cold, hot]
+tags: ["weather", "climate", "celsius", "degree", "measurement", "metric", "thermometer", "forecast", "environment", "temperature"]
 category: Weather
 version: "1.1"
 unicode: "eb36"
@@ -132852,7 +132852,7 @@ unicode: "eb36"
     id: "tabler-temperature-fahrenheit",
     name: "Temperature Fahrenheit",
     svg: `<!--
-tags: [weather, celcius, fahrenheit, cold, hot]
+tags: ["weather", "climate", "fahrenheit", "degree", "measurement", "imperial", "thermometer", "forecast", "environment", "temperature"]
 category: Weather
 version: "1.1"
 unicode: "eb37"
@@ -132881,7 +132881,7 @@ unicode: "eb37"
     name: "Temperature Off",
     svg: `<!--
 category: Weather
-tags: [weather, celcius, fahrenheit, cold, hot]
+tags: ["weather", "climate", "disabled", "inactive", "thermometer", "measurement", "error", "unavailable", "forecast", "temperature"]
 version: "1.67"
 unicode: "f1af"
 -->
@@ -132908,7 +132908,7 @@ unicode: "f1af"
     id: "tabler-temperature-snow",
     name: "Temperature Snow",
     svg: `<!--
-tags: [cold, winter, climate, chills, freeze, degree, weather, forecast, frost, ice]
+tags: ["weather", "cold", "winter", "snowfall", "thermometer", "forecast", "freezing", "climate", "measurement", "temperature"]
 version: "2.47"
 unicode: "fda3"
 -->
@@ -132941,7 +132941,7 @@ unicode: "fda3"
     id: "tabler-temperature-sun",
     name: "Temperature Sun",
     svg: `<!--
-tags: [heat, warm, climate, summer, degree, weather, forecast, sun, shine, hot]
+tags: ["weather", "hot", "summer", "sunny", "thermometer", "forecast", "warm", "climate", "measurement", "temperature"]
 version: "2.47"
 unicode: "fda4"
 -->
@@ -132974,7 +132974,7 @@ unicode: "fda4"
     name: "Temperature",
     svg: `<!--
 category: Weather
-tags: [weather, celcius, fahrenheit, cold, hot]
+tags: ["weather", "climate", "thermometer", "measurement", "degree", "forecast", "environment", "heat", "cold", "temperature"]
 version: "1.1"
 unicode: "eb38"
 -->
@@ -133001,7 +133001,7 @@ unicode: "eb38"
     name: "Template Off",
     svg: `<!--
 category: Design
-tags: [grid, columns, masonry, collage]
+tags: ["design", "layout", "disabled", "inactive", "error", "unavailable", "structure", "blueprint", "mockup", "template"]
 version: "1.67"
 unicode: "f1b0"
 -->
@@ -133032,7 +133032,7 @@ unicode: "f1b0"
     name: "Tent Off",
     svg: `<!--
 category: Map
-tags: [camping, holiday, vacation, outdoor, survival, travel, adventure]
+tags: ["camping", "outdoor", "disabled", "inactive", "error", "unavailable", "shelter", "adventure", "travel", "tent"]
 unicode: "f435"
 version: "1.94"
 -->
@@ -133058,7 +133058,7 @@ version: "1.94"
     id: "tabler-tent",
     name: "Tent",
     svg: `<!--
-tags: [camping, holiday, vacation, outdoor, survival, travel, adventure]
+tags: ["camping", "outdoor", "shelter", "adventure", "travel", "nature", "glamping", "recreation", "exploration", "tent"]
 version: "1.39"
 category: Map
 unicode: "eefb"
@@ -133085,7 +133085,7 @@ unicode: "eefb"
     name: "Terminal 2",
     svg: `<!--
 category: Development
-tags: [console, command, git, command line, command prompt]
+tags: ["code", "programming", "console", "command line", "developer", "coding", "interface", "cli", "scripting", "terminal"]
 version: "1.7"
 unicode: "ebef"
 -->
@@ -133112,7 +133112,7 @@ unicode: "ebef"
     id: "tabler-terminal",
     name: "Terminal",
     svg: `<!--
-tags: [console, command, git, command line, command prompt]
+tags: ["code", "programming", "console", "command line", "developer", "coding", "interface", "cli", "scripting", "terminal"]
 version: "1.6"
 unicode: "ebdc"
 -->
@@ -133138,7 +133138,7 @@ unicode: "ebdc"
     id: "tabler-test-pipe-off",
     name: "Test Pipe Off",
     svg: `<!--
-tags: [sample, color, flask, liquid, container, glass, chemistry, test, laboratory, experimental, beta]
+tags: ["science", "experiment", "disabled", "inactive", "error", "unavailable", "laboratory", "chemistry", "research", "test tube"]
 version: "1.67"
 unicode: "f1b1"
 -->
@@ -133167,7 +133167,7 @@ unicode: "f1b1"
     id: "tabler-test-pipe",
     name: "Test Pipe",
     svg: `<!--
-tags: [sample, color, flask, liquid, container, glass, chemistry, test, laboratory, experimental, beta]
+tags: ["science", "experiment", "laboratory", "chemistry", "research", "analysis", "beaker", "medical", "education", "test tube"]
 version: "1.0"
 unicode: "eb3a"
 -->
@@ -133195,7 +133195,7 @@ unicode: "eb3a"
     id: "tabler-tex",
     name: "Tex",
     svg: `<!--
-tags: [file, document, type, format, filetype]
+tags: ["mathematics", "latex", "formula", "equation", "document", "typesetting", "science", "academic", "writing", "tex"]
 category: Text
 unicode: "f4e0"
 version: "1.99"
@@ -133226,7 +133226,7 @@ version: "1.99"
     id: "tabler-text-caption",
     name: "Text Caption",
     svg: `<!--
-tags: [document, file, lettering, image, picture]
+tags: ["typography", "subtitle", "description", "label", "annotation", "content", "editing", "ui", "information", "text"]
 category: Text
 unicode: "f4a4"
 version: "1.96"
@@ -133254,7 +133254,7 @@ version: "1.96"
     id: "tabler-text-color",
     name: "Text Color",
     svg: `<!--
-tags: [format, document, file, edit]
+tags: ["typography", "design", "palette", "styling", "formatting", "editing", "ui", "paint", "font", "text"]
 category: Text
 version: "1.82"
 unicode: "f2dc"
@@ -133282,7 +133282,7 @@ unicode: "f2dc"
     id: "tabler-text-decrease",
     name: "Text Decrease",
     svg: `<!--
-tags: [indent, minimalize, smaller, editor, size, edit]
+tags: ["typography", "font size", "zoom out", "shrink", "readability", "editing", "ui", "accessibility", "minus", "text"]
 category: Text
 version: "1.70"
 unicode: "f202"
@@ -133310,7 +133310,7 @@ unicode: "f202"
     id: "tabler-text-direction-ltr",
     name: "Text Direction Ltr",
     svg: `<!--
-tags: [left, right, bidi]
+tags: ["typography", "layout", "reading", "left to right", "writing", "formatting", "ui", "language", "direction", "text"]
 category: Text
 version: "1.39"
 unicode: "eefc"
@@ -133340,7 +133340,7 @@ unicode: "eefc"
     id: "tabler-text-direction-rtl",
     name: "Text Direction Rtl",
     svg: `<!--
-tags: [left, right, bidi]
+tags: ["typography", "layout", "reading", "right to left", "writing", "formatting", "ui", "language", "direction", "text"]
 category: Text
 version: "1.39"
 unicode: "eefd"
@@ -133370,7 +133370,7 @@ unicode: "eefd"
     id: "tabler-text-grammar",
     name: "Text Grammar",
     svg: `<!--
-tags: [language, syntax, structure, writing, rules, edit, correct, composition, linguistics, sentence]
+tags: ["writing", "editing", "proofreading", "language", "spell check", "correction", "content", "education", "quality", "text"]
 Category: Text
 version: "2.44"
 unicode: "fd6d"
@@ -133402,7 +133402,7 @@ unicode: "fd6d"
     id: "tabler-text-increase",
     name: "Text Increase",
     svg: `<!--
-tags: [expand, margin, size, editor, edit]
+tags: ["typography", "font size", "zoom in", "enlarge", "readability", "editing", "ui", "accessibility", "plus", "text"]
 category: Text
 version: "1.70"
 unicode: "f203"
@@ -133431,7 +133431,7 @@ unicode: "f203"
     id: "tabler-text-orientation",
     name: "Text Orientation",
     svg: `<!--
-tags: [aglinment, file, document, edit, right]
+tags: ["typography", "layout", "rotation", "alignment", "formatting", "editing", "ui", "design", "direction", "text"]
 category: Text
 version: "1.79"
 unicode: "f2a4"
@@ -133461,7 +133461,7 @@ unicode: "f2a4"
     id: "tabler-text-plus",
     name: "Text Plus",
     svg: `<!--
-tags: [add, new, document, file, edit]
+tags: ["typography", "add", "new", "create", "insert", "editing", "ui", "content", "addition", "text"]
 category: Text
 version: "1.79"
 unicode: "f2a5"
@@ -133492,7 +133492,7 @@ unicode: "f2a5"
     id: "tabler-text-recognition",
     name: "Text Recognition",
     svg: `<!--
-tags: [language, processing, detection]
+tags: ["ocr", "scan", "document", "digitize", "ai", "machine learning", "automation", "data", "extraction", "text"]
 category: Text
 version: "1.70"
 unicode: "f204"
@@ -133523,7 +133523,7 @@ unicode: "f204"
     id: "tabler-text-resize",
     name: "Text Resize",
     svg: `<!--
-tags: [edit, editor, scale, font, bigger, smaller]
+tags: ["typography", "font", "scale", "magnify", "adjust", "editor", "ui", "arrow", "interface"]
 category: Design
 version: "1.46"
 unicode: "ef87"
@@ -133559,7 +133559,7 @@ unicode: "ef87"
     name: "Text Scan 2",
     svg: `<!--
 category: System
-tags: [ocr, reading, text, scan, image, camera, recognition, document, capture, digital]
+tags: ["ocr", "document", "read", "extract", "digitalize", "ai", "recognition", "camera", "input"]
 version: "2.37"
 unicode: "fcc3"
 -->
@@ -133590,7 +133590,7 @@ unicode: "fcc3"
     id: "tabler-text-size",
     name: "Text Size",
     svg: `<!--
-tags: [font, edit, document, type, letter]
+tags: ["typography", "font", "scale", "magnify", "adjust", "editor", "ui", "interface", "formatting"]
 category: Text
 version: "1.80"
 unicode: "f2b1"
@@ -133621,7 +133621,7 @@ unicode: "f2b1"
     id: "tabler-text-spellcheck",
     name: "Text Spellcheck",
     svg: `<!--
-tags: [grammar, spelling, ortography]
+tags: ["grammar", "proofread", "correct", "editor", "language", "writing", "validation", "document", "ui"]
 category: Text
 version: "1.79"
 unicode: "f2a6"
@@ -133650,7 +133650,7 @@ unicode: "f2a6"
     name: "Text Wrap Column",
     svg: `<!--
 category: Text
-tags: [wrap, column, text, typography, writing]
+tags: ["layout", "paragraph", "formatting", "editor", "document", "content", "flow", "ui", "arrangement"]
 unicode: "feb2"
 version: "3.2"
 -->
@@ -133678,7 +133678,7 @@ version: "3.2"
     id: "tabler-text-wrap-disabled",
     name: "Text Wrap Disabled",
     svg: `<!--
-tags: [text, alignment, position]
+tags: ["nowrap", "layout", "paragraph", "formatting", "editor", "document", "content", "off", "ui"]
 category: Text
 version: "1.17"
 unicode: "eca7"
@@ -133706,7 +133706,7 @@ unicode: "eca7"
     id: "tabler-text-wrap",
     name: "Text Wrap",
     svg: `<!--
-tags: [wrap, column, text, typography, writing]
+tags: ["layout", "paragraph", "formatting", "editor", "document", "content", "flow", "ui", "arrangement"]
 category: Text
 version: "1.6"
 unicode: "ebdd"
@@ -133734,7 +133734,7 @@ unicode: "ebdd"
     id: "tabler-texture",
     name: "Texture",
     svg: `<!--
-tags: [pattern, abstract, decoration, background, fashion]
+tags: ["pattern", "surface", "background", "design", "material", "effect", "graphic", "abstract", "art"]
 version: "1.102"
 unicode: "f51b"
 -->
@@ -133765,7 +133765,7 @@ unicode: "f51b"
     id: "tabler-theater",
     name: "Theater",
     svg: `<!--
-tags: [movie, film, show, mask, entertainment]
+tags: ["stage", "performance", "show", "drama", "entertainment", "culture", "art", "cinema", "event"]
 version: "2.5"
 unicode: "f79b"
 category: Map
@@ -133792,7 +133792,7 @@ category: Map
     id: "tabler-thermometer",
     name: "Thermometer",
     svg: `<!--
-tags: [temperature, hot, cold, weather, medical, fever, celsius]
+tags: ["temperature", "heat", "cold", "fever", "weather", "gauge", "measurement", "health", "climate"]
 category: Health
 version: "1.44"
 unicode: "ef67"
@@ -133823,7 +133823,7 @@ unicode: "ef67"
     name: "Thumb Down Off",
     svg: `<!--
 category: System
-tags: [dislike, bad, emotion]
+tags: ["dislike", "disapprove", "negative", "feedback", "vote", "social", "disabled", "inactive", "off"]
 unicode: "f436"
 version: "1.94"
 -->
@@ -133850,7 +133850,7 @@ version: "1.94"
     name: "Thumb Up Off",
     svg: `<!--
 category: System
-tags: [like, emotion, good, love]
+tags: ["like", "approve", "positive", "feedback", "vote", "social", "disabled", "inactive", "off"]
 unicode: "f437"
 version: "1.94"
 -->
@@ -133876,7 +133876,7 @@ version: "1.94"
     id: "tabler-tic-tac",
     name: "Tic Tac",
     svg: `<!--
-tags: [toe, game, strategy, cross, circle]
+tags: ["game", "play", "boardgame", "fun", "strategy", "entertainment", "childhood", "puzzle"]
 version: "1.102"
 unicode: "f51c"
 category: Sport
@@ -133909,7 +133909,7 @@ category: Sport
     id: "tabler-ticket-off",
     name: "Ticket Off",
     svg: `<!--
-tags: [cinema, event, theatre, entry, fine, coupon, pass]
+tags: ["coupon", "voucher", "pass", "entry", "event", "booking", "disabled", "inactive", "off"]
 version: "1.67"
 unicode: "f1b2"
 -->
@@ -133937,7 +133937,7 @@ unicode: "f1b2"
     id: "tabler-ticket",
     name: "Ticket",
     svg: `<!--
-tags: [cinema, event, theatre, entry, fine, coupon, pass]
+tags: ["coupon", "voucher", "pass", "entry", "event", "booking", "admission", "show"]
 version: "1.0"
 unicode: "eb3d"
 -->
@@ -133966,7 +133966,7 @@ unicode: "eb3d"
     name: "Tie",
     svg: `<!--
 category: E-commerce
-tags: [suit, buisness, fashion, clothes, accessory, clothing]
+tags: ["necktie", "formal", "business", "suit", "clothing", "fashion", "gentleman", "professional"]
 version: "1.59"
 unicode: "f07e"
 -->
@@ -133992,7 +133992,7 @@ unicode: "f07e"
     id: "tabler-tilde",
     name: "Tilde",
     svg: `<!--
-tags: [key, sign, about, rounding, math]
+tags: ["accent", "symbol", "math", "approximately", "character", "typography", "editor", "notation"]
 unicode: "f4a5"
 version: "1.96"
 -->
@@ -134018,7 +134018,7 @@ version: "1.96"
     name: "Tilt Shift Off",
     svg: `<!--
 category: Photography
-tags: [filter, shift, photography, photo]
+tags: ["photography", "effect", "focus", "blur", "miniature", "camera", "disabled", "inactive", "off"]
 version: "1.67"
 unicode: "f1b3"
 -->
@@ -134052,7 +134052,7 @@ unicode: "f1b3"
     id: "tabler-time-duration-0",
     name: "Time Duration 0",
     svg: `<!--
-tags: [start, zero, time, clock, reset, begin, initial, nop, default, none]
+tags: ["timer", "stopwatch", "countdown", "zero", "duration", "period", "schedule", "empty", "reset"]
 category: System
 version: "2.22"
 unicode: "fad4"
@@ -134090,7 +134090,7 @@ unicode: "fad4"
     id: "tabler-time-duration-10",
     name: "Time Duration 10",
     svg: `<!--
-tags: [ten, minutes, interval, timer, period, span, duration, short, brief, quick]
+tags: ["timer", "stopwatch", "countdown", "ten", "duration", "period", "schedule", "minutes", "seconds"]
 category: System
 version: "2.22"
 unicode: "fad5"
@@ -134127,7 +134127,7 @@ unicode: "fad5"
     id: "tabler-time-duration-15",
     name: "Time Duration 15",
     svg: `<!--
-tags: [quarter, fifteen, minutes, interval, timer, duration, span, moderate, clock, time]
+tags: ["timer", "stopwatch", "countdown", "fifteen", "duration", "period", "schedule", "minutes", "seconds"]
 category: System
 version: "2.22"
 unicode: "fad6"
@@ -134163,7 +134163,7 @@ unicode: "fad6"
     id: "tabler-time-duration-30",
     name: "Time Duration 30",
     svg: `<!--
-tags: [half-hour, thirty, minutes, interval, timer, duration, medium, span, time, clock]
+tags: ["timer", "stopwatch", "countdown", "thirty", "duration", "period", "schedule", "minutes", "seconds"]
 category: System
 version: "2.22"
 unicode: "fad7"
@@ -134196,7 +134196,7 @@ unicode: "fad7"
     id: "tabler-time-duration-45",
     name: "Time Duration 45",
     svg: `<!--
-tags: [three-quarters, forty-five, minutes, interval, timer, duration, span, extended, clock, time]
+tags: ["timer", "stopwatch", "countdown", "forty-five", "duration", "period", "schedule", "minutes", "seconds"]
 category: System
 version: "2.22"
 unicode: "fad8"
@@ -134227,7 +134227,7 @@ unicode: "fad8"
     id: "tabler-time-duration-5",
     name: "Time Duration 5",
     svg: `<!--
-tags: [five, minutes, interval, timer, duration, short, quick, brief, span, clock]
+tags: ["timer", "stopwatch", "countdown", "five", "duration", "period", "schedule", "minutes", "seconds"]
 category: System
 version: "2.22"
 unicode: "fad9"
@@ -134264,7 +134264,7 @@ unicode: "fad9"
     id: "tabler-time-duration-60",
     name: "Time Duration 60",
     svg: `<!--
-tags: [hour, sixty, minutes, interval, timer, duration, full, span, clock, time]
+tags: ["timer", "stopwatch", "countdown", "sixty", "duration", "period", "schedule", "hour", "minutes"]
 category: System
 version: "2.22"
 unicode: "fada"
@@ -134292,7 +134292,7 @@ unicode: "fada"
     id: "tabler-time-duration-90",
     name: "Time Duration 90",
     svg: `<!--
-tags: [ninety, minutes, interval, timer, duration, long, extended, span, clock, time]
+tags: ["timer", "ninety", "countdown", "period", "schedule", "duration", "time limit", "ninety minutes"]
 category: System
 version: "2.22"
 unicode: "fadb"
@@ -134320,7 +134320,7 @@ unicode: "fadb"
     id: "tabler-time-duration-off",
     name: "Time Duration Off",
     svg: `<!--
-tags: [off, timer, zero, disable, inactive, silent, pause, stop, time, clock]
+tags: ["timer", "disabled", "off", "cancel", "no time", "period", "schedule", "duration"]
 category: System
 version: "2.22"
 unicode: "fadc"
@@ -134352,7 +134352,7 @@ unicode: "fadc"
     name: "Timeline Event Exclamation",
     svg: `<!--
 category: Development
-tags: [calendar, schedule, date, error, warring]
+tags: ["history", "milestone", "warning", "alert", "important", "schedule", "event", "notification"]
 unicode: "f662"
 version: "1.119"
 -->
@@ -134383,7 +134383,7 @@ version: "1.119"
     name: "Timeline Event Minus",
     svg: `<!--
 category: Development
-tags: [calendar, schedule, date, delete, remove]
+tags: ["history", "milestone", "remove", "delete", "subtract", "schedule", "event", "decrease"]
 unicode: "f663"
 version: "1.119"
 -->
@@ -134413,7 +134413,7 @@ version: "1.119"
     name: "Timeline Event Plus",
     svg: `<!--
 category: Development
-tags: [calendar, schedule, date, add, new]
+tags: ["history", "milestone", "add", "create", "new", "schedule", "event", "increase"]
 unicode: "f664"
 version: "1.119"
 -->
@@ -134443,7 +134443,7 @@ version: "1.119"
     id: "tabler-timeline-event-text",
     name: "Timeline Event Text",
     svg: `<!--
-tags: [calendar, schedule, date, message, chat]
+tags: ["history", "milestone", "notes", "description", "details", "schedule", "event", "information"]
 unicode: "f665"
 version: "1.119"
 category: Development
@@ -134475,7 +134475,7 @@ category: Development
     name: "Timeline Event X",
     svg: `<!--
 category: Development
-tags: [calendar, schedule, date, remove, cross, delete]
+tags: ["history", "milestone", "cancel", "error", "close", "schedule", "event", "remove"]
 unicode: "f666"
 version: "1.119"
 -->
@@ -134505,7 +134505,7 @@ version: "1.119"
     id: "tabler-timeline",
     name: "Timeline",
     svg: `<!--
-tags: [process, plan, planning, diagram, chart, roadmap]
+tags: ["history", "progress", "milestones", "chronology", "schedule", "journey", "roadmap", "events"]
 version: "1.55"
 unicode: "f031"
 -->
@@ -134534,7 +134534,7 @@ unicode: "f031"
     id: "tabler-timezone",
     name: "Timezone",
     svg: `<!--
-tags: [zone, utc, offset, region, location, local, difference, standard, time, clock]
+tags: ["world clock", "globe", "time difference", "international", "travel", "settings", "location", "earth"]
 unicode: "feed"
 version: "3.5"
 -->
@@ -134565,7 +134565,7 @@ version: "3.5"
     id: "tabler-tip-jar-euro",
     name: "Tip Jar Euro",
     svg: `<!--
-tags: [donate, contribution, money, euro, charity, fund, gift, jar, support, currency]
+tags: ["donation", "money", "currency", "payment", "fundraising", "gratuity", "euro", "contribution"]
 unicode: "feec"
 version: "3.5"
 -->
@@ -134593,7 +134593,7 @@ version: "3.5"
     id: "tabler-tip-jar-pound",
     name: "Tip Jar Pound",
     svg: `<!--
-tags: [donate, contribution, money, pound, charity, fund, gift, jar, support, currency]
+tags: ["donation", "money", "currency", "payment", "fundraising", "gratuity", "pound sterling", "contribution"]
 unicode: "feeb"
 version: "3.5"
 -->
@@ -134621,7 +134621,7 @@ version: "3.5"
     id: "tabler-tip-jar",
     name: "Tip Jar",
     svg: `<!--
-tags: [donate, contribution, money, charity, fund, gift, jar, support, currency, help]
+tags: ["donation", "money", "currency", "payment", "fundraising", "gratuity", "contribution", "piggy bank"]
 unicode: "feea"
 version: "3.5"
 -->
@@ -134650,7 +134650,7 @@ version: "3.5"
     id: "tabler-tir",
     name: "Tir",
     svg: `<!--
-tags: [delivery, transportation, transport, logistics, vehicle, goods]
+tags: ["truck", "lorry", "transportation", "cargo", "delivery", "shipping", "vehicle", "road"]
 category: Vehicles
 version: "1.7"
 unicode: "ebf0"
@@ -134680,7 +134680,7 @@ unicode: "ebf0"
     id: "tabler-toilet-paper-off",
     name: "Toilet Paper Off",
     svg: `<!--
-tags: [bathroom, hygiene, wc, cleaning, rubbing]
+tags: ["bathroom", "restroom", "hygiene", "unavailable", "out of stock", "disabled", "no paper", "facilities"]
 version: "1.67"
 unicode: "f1b4"
 -->
@@ -134710,7 +134710,7 @@ unicode: "f1b4"
     id: "tabler-toilet-paper",
     name: "Toilet Paper",
     svg: `<!--
-tags: [bathroom, hygiene, wc, cleaning, rubbing]
+tags: ["bathroom", "restroom", "hygiene", "facilities", "paper roll", "tissue", "convenience", "washroom"]
 version: "1.50"
 unicode: "efd3"
 -->
@@ -134739,7 +134739,7 @@ unicode: "efd3"
     id: "tabler-toml",
     name: "Toml",
     svg: `<!--
-tags: [config, format, markup, file, language, data, syntax, text, document, structured]
+tags: ["file type", "document", "code", "programming", "configuration", "data format", "text file", "developer"]
 category: Extensions
 version: "2.16"
 unicode: "fa5d"
@@ -134769,7 +134769,7 @@ unicode: "fa5d"
     id: "tabler-tool",
     name: "Tool",
     svg: `<!--
-tags: [preferences, edit, settings]
+tags: ["wrench", "settings", "repair", "fix", "maintenance", "utility", "instrument", "gear"]
 version: "1.0"
 category: System
 unicode: "eb40"
@@ -134796,7 +134796,7 @@ unicode: "eb40"
     name: "Tools Kitchen 2 Off",
     svg: `<!--
 category: Map
-tags: [knife, fork, spoon, cutlery, eat, restaurant, menu, cafe, cook, cut, soup, dinner, breakfast, dining, plate, dish]
+tags: ["cooking", "utensils", "cutlery", "disabled", "unavailable", "no kitchen", "food preparation", "culinary"]
 version: "1.67"
 unicode: "f1b5"
 -->
@@ -134826,7 +134826,7 @@ unicode: "f1b5"
     name: "Tools Kitchen 2",
     svg: `<!--
 category: Food
-tags: [knife, fork, spoon, cutlery, eat, restaurant, menu, cafe, cook, cut, soup, dinner, breakfast, dining, plate, dish]
+tags: ["cooking", "utensils", "cutlery", "food preparation", "culinary", "chef", "kitchenware", "restaurant"]
 version: "1.39"
 unicode: "eeff"
 -->
@@ -134852,7 +134852,7 @@ unicode: "eeff"
     name: "Tools Kitchen 3",
     svg: `<!--
 category: Food
-tags: [cooking, utensils, home, equipment, cook, culinary, appliances, kitchen, food, cutlery]
+tags: ["cooking", "utensils", "cutlery", "food preparation", "culinary", "chef", "kitchenware", "restaurant"]
 version: "2.40"
 unicode: "fd2b"
 -->
@@ -134880,7 +134880,7 @@ unicode: "fd2b"
     name: "Tools Kitchen Off",
     svg: `<!--
 category: Map
-tags: [knife, fork, spoon, cutlery, eat, restaurant, menu, cafe, cook, cut, soup, dinner, breakfast, dining, plate, dish]
+tags: ["cooking", "utensils", "cutlery", "disabled", "unavailable", "no kitchen", "food preparation", "culinary"]
 version: "1.67"
 unicode: "f1b6"
 -->
@@ -134911,7 +134911,7 @@ unicode: "f1b6"
     name: "Tools Kitchen",
     svg: `<!--
 category: Food
-tags: [knife, fork, spoon, cutlery, eat, restaurant, menu, cafe, cook, cut, soup, dinner, breakfast, dining, plate, dish]
+tags: ["cooking", "utensils", "cutlery", "food preparation", "culinary", "chef", "kitchenware", "restaurant"]
 version: "1.31"
 unicode: "ed64"
 -->
@@ -134941,7 +134941,7 @@ unicode: "ed64"
     name: "Tools Off",
     svg: `<!--
 category: Design
-tags: [preferences, edit, settings]
+tags: ["wrench", "settings", "repair", "disabled", "unavailable", "no tools", "maintenance", "utility"]
 version: "1.67"
 unicode: "f1b7"
 -->
@@ -134973,7 +134973,7 @@ unicode: "f1b7"
     name: "Tools",
     svg: `<!--
 category: Design
-tags: [preferences, edit, settings]
+tags: ["wrench", "settings", "repair", "fix", "maintenance", "utility", "instruments", "gear"]
 version: "1.5"
 unicode: "ebca"
 -->
@@ -135003,7 +135003,7 @@ unicode: "ebca"
     id: "tabler-tooltip",
     name: "Tooltip",
     svg: `<!--
-tags: [info, help, information, advise]
+tags: ["info", "help", "message", "hint", "pop up", "explanation", "ui element", "information"]
 category: System
 version: "1.82"
 unicode: "f2dd"
@@ -135030,7 +135030,7 @@ unicode: "f2dd"
     id: "tabler-topology-bus",
     name: "Topology Bus",
     svg: `<!--
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "bus network", "linear", "system", "structure"]
 category: Computers
 unicode: "f5d9"
 version: "1.112"
@@ -135062,7 +135062,7 @@ version: "1.112"
     id: "tabler-topology-complex",
     name: "Topology Complex",
     svg: `<!--
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "complex network", "interconnected", "system", "structure"]
 category: Computers
 unicode: "f5da"
 version: "1.112"
@@ -135097,7 +135097,7 @@ version: "1.112"
     id: "tabler-topology-full-hierarchy",
     name: "Topology Full Hierarchy",
     svg: `<!--
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "hierarchy", "tree", "organizational chart", "system", "structure"]
 category: Computers
 unicode: "f5db"
 version: "1.112"
@@ -135135,7 +135135,7 @@ version: "1.112"
     id: "tabler-topology-full",
     name: "Topology Full",
     svg: `<!--
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "full mesh", "interconnected", "system", "structure"]
 category: Computers
 unicode: "f5dc"
 version: "1.112"
@@ -135171,7 +135171,7 @@ version: "1.112"
     name: "Topology Ring 2",
     svg: `<!--
 category: Computers
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "ring network", "circular", "loop", "system", "structure"]
 unicode: "f5dd"
 version: "1.112"
 -->
@@ -135202,7 +135202,7 @@ version: "1.112"
     name: "Topology Ring 3",
     svg: `<!--
 category: Computers
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "ring network", "circular", "loop", "system", "structure"]
 unicode: "f5de"
 version: "1.112"
 -->
@@ -135234,7 +135234,7 @@ version: "1.112"
     id: "tabler-topology-ring",
     name: "Topology Ring",
     svg: `<!--
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "ring network", "circular", "loop", "system", "structure"]
 category: Computers
 unicode: "f5df"
 version: "1.112"
@@ -135268,7 +135268,7 @@ version: "1.112"
     name: "Topology Star 2",
     svg: `<!--
 category: Computers
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "star network", "central hub", "system", "structure"]
 unicode: "f5e0"
 version: "1.112"
 -->
@@ -135302,7 +135302,7 @@ version: "1.112"
     name: "Topology Star 3",
     svg: `<!--
 category: Computers
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "star network", "central hub", "system", "structure"]
 unicode: "f5e1"
 version: "1.112"
 -->
@@ -135340,7 +135340,7 @@ version: "1.112"
     name: "Topology Star Ring 2",
     svg: `<!--
 category: Computers
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "star ring network", "hybrid", "system", "structure"]
 unicode: "f5e2"
 version: "1.112"
 -->
@@ -135378,7 +135378,7 @@ version: "1.112"
     name: "Topology Star Ring 3",
     svg: `<!--
 category: Computers
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "star ring network", "hybrid", "system", "structure"]
 unicode: "f5e3"
 version: "1.112"
 -->
@@ -135421,7 +135421,7 @@ version: "1.112"
     id: "tabler-topology-star-ring",
     name: "Topology Star Ring",
     svg: `<!--
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "star ring network", "hybrid", "system", "structure"]
 category: Computers
 unicode: "f5e4"
 version: "1.112"
@@ -135459,7 +135459,7 @@ version: "1.112"
     id: "tabler-topology-star",
     name: "Topology Star",
     svg: `<!--
-tags: [hierarchy, network, structure, connection]
+tags: ["network", "connection", "data flow", "architecture", "diagram", "star network", "central hub", "system", "structure"]
 category: Computers
 unicode: "f5e5"
 version: "1.112"
@@ -135493,7 +135493,7 @@ version: "1.112"
     id: "tabler-torii",
     name: "Torii",
     svg: `<!--
-tags: [japan, gate, asia, building, monument]
+tags: ["japan", "shinto", "gate", "culture", "landmark", "spiritual", "travel", "asian", "traditional"]
 category: Symbols
 unicode: "f59b"
 version: "1.109"
@@ -135523,7 +135523,7 @@ version: "1.109"
     id: "tabler-tornado",
     name: "Tornado",
     svg: `<!--
-tags: [wind, rotate, storm, spin, spinning, air, catastrophe, vortex]
+tags: ["weather", "storm", "disaster", "wind", "cyclone", "natural phenomenon", "danger", "climate", "emergency"]
 category: Weather
 version: "1.20"
 unicode: "ece2"
@@ -135553,7 +135553,7 @@ unicode: "ece2"
     id: "tabler-tournament",
     name: "Tournament",
     svg: `<!--
-tags: [competition, competitor, sport, game, play, champion]
+tags: ["competition", "bracket", "championship", "sports", "event", "gaming", "challenge", "match", "winner"]
 version: "1.19"
 unicode: "ecd0"
 category: Sport
@@ -135586,7 +135586,7 @@ category: Sport
     name: "Tower Off",
     svg: `<!--
 category: Buildings
-tags: [building, castle, fortress, palace]
+tags: ["disabled", "offline", "out of service", "signal loss", "communication", "cell tower", "network", "broken", "unavailable"]
 version: "1.81"
 unicode: "f2ca"
 -->
@@ -135613,7 +135613,7 @@ unicode: "f2ca"
     id: "tabler-tower",
     name: "Tower",
     svg: `<!--
-tags: [building, castle, fortress, palace]
+tags: ["communication", "signal", "cell tower", "antenna", "network", "broadcasting", "telecom", "infrastructure", "transmission"]
 category: Buildings
 version: "1.81"
 unicode: "f2cb"
@@ -135640,7 +135640,7 @@ unicode: "f2cb"
     id: "tabler-track",
     name: "Track",
     svg: `<!--
-tags: [trail, path, route, train, railway, railroad]
+tags: ["racetrack", "running", "athletics", "sport", "path", "route", "progress", "speed", "competition"]
 category: Vehicles
 version: "1.39"
 unicode: "ef00"
@@ -135666,7 +135666,7 @@ unicode: "ef00"
     id: "tabler-tractor",
     name: "Tractor",
     svg: `<!--
-tags: [countryside, vehicle, harvest, machine, motor, farm, trailer]
+tags: ["agriculture", "farm", "vehicle", "machinery", "rural", "harvest", "farming", "countryside", "heavy equipment"]
 category: Vehicles
 version: "1.8"
 unicode: "ec0d"
@@ -135697,7 +135697,7 @@ unicode: "ec0d"
     id: "tabler-trademark",
     name: "Trademark",
     svg: `<!--
-tags: [legal, product, company, own, ownership, brand, law, right, certificate]
+tags: ["registered", "brand", "copyright", "intellectual property", "legal", "company", "identity", "protection", "symbol"]
 version: "1.8"
 category: Symbols
 unicode: "ec0e"
@@ -135725,7 +135725,7 @@ unicode: "ec0e"
     name: "Traffic Cone Off",
     svg: `<!--
 category: Map
-tags: [street, road, vehicle, repair, warning, lane, drive]
+tags: ["disabled", "removed", "clear", "no obstruction", "roadwork", "safety", "construction", "barrier", "warning"]
 version: "1.67"
 unicode: "f1b8"
 -->
@@ -135756,7 +135756,7 @@ unicode: "f1b8"
     name: "Traffic Cone",
     svg: `<!--
 category: Map
-tags: [street, road, vehicle, repair, warning, lane, drive]
+tags: ["roadwork", "safety", "construction", "barrier", "warning", "hazard", "orange", "road", "blockade"]
 version: "1.8"
 unicode: "ec0f"
 -->
@@ -135785,7 +135785,7 @@ unicode: "ec0f"
     name: "Traffic Lights Off",
     svg: `<!--
 category: Map
-tags: [street, road, green, red, yellow, vehicle, stop, drive, crossing, pedestrian, crossroads, junction, intersection]
+tags: ["disabled", "broken", "out of order", "no signal", "intersection", "road", "control", "malfunction", "stoplight"]
 version: "1.67"
 unicode: "f1b9"
 -->
@@ -135815,7 +135815,7 @@ unicode: "f1b9"
     name: "Traffic Lights",
     svg: `<!--
 category: Map
-tags: [street, road, green, red, yellow, vehicle, stop, drive, crossing, pedestrian, crossroads, junction, intersection]
+tags: ["intersection", "road", "control", "signal", "stoplight", "go", "wait", "transportation", "urban"]
 version: "1.27"
 unicode: "ed39"
 -->
@@ -135843,7 +135843,7 @@ unicode: "ed39"
     id: "tabler-transaction-bitcoin",
     name: "Transaction Bitcoin",
     svg: `<!--
-tags: [crypto, currency, exchange, trade, payment, blockchain, digital, bitcoin, decentralized, transfer]
+tags: ["cryptocurrency", "crypto", "blockchain", "digital currency", "payment", "exchange", "finance", "currency", "money"]
 Category: E-commerce
 version: "2.44"
 unicode: "fd6e"
@@ -135877,7 +135877,7 @@ unicode: "fd6e"
     id: "tabler-transaction-dollar",
     name: "Transaction Dollar",
     svg: `<!--
-tags: [usd, currency, exchange, trade, payment, cash, money, dollar, finance, transfer]
+tags: ["usd", "money", "payment", "exchange", "currency", "cash", "bank", "investment", "commerce"]
 category: E-commerce
 version: "2.44"
 unicode: "fd6f"
@@ -135908,7 +135908,7 @@ unicode: "fd6f"
     id: "tabler-transaction-euro",
     name: "Transaction Euro",
     svg: `<!--
-tags: [currency, exchange, trade, payment, cash, money, euro, finance, transfer, bank]
+tags: ["eur", "money", "payment", "exchange", "currency", "cash", "bank", "investment", "commerce"]
 category: E-commerce
 version: "2.44"
 unicode: "fd70"
@@ -135939,7 +135939,7 @@ unicode: "fd70"
     id: "tabler-transaction-pound",
     name: "Transaction Pound",
     svg: `<!--
-tags: [currency, exchange, trade, payment, cash, money, pound, finance, transfer, bank]
+tags: ["gbp", "money", "payment", "exchange", "currency", "cash", "bank", "investment", "commerce"]
 category: E-commerce
 version: "2.44"
 unicode: "fd71"
@@ -135970,7 +135970,7 @@ unicode: "fd71"
     id: "tabler-transaction-rupee",
     name: "Transaction Rupee",
     svg: `<!--
-tags: [currency, exchange, trade, payment, cash, money, rupee, finance, transfer, india]
+tags: ["inr", "money", "payment", "exchange", "currency", "cash", "bank", "investment", "commerce"]
 version: "2.45"
 unicode: "fd85"
 -->
@@ -136000,7 +136000,7 @@ unicode: "fd85"
     id: "tabler-transaction-yen",
     name: "Transaction Yen",
     svg: `<!--
-tags: [japan, currency, exchange, trade, payment, cash, money, yen, finance, transfer]
+tags: ["jpy", "money", "payment", "exchange", "currency", "cash", "bank", "investment", "commerce"]
 category: E-commerce
 version: "2.44"
 unicode: "fd72"
@@ -136033,7 +136033,7 @@ unicode: "fd72"
     id: "tabler-transaction-yuan",
     name: "Transaction Yuan",
     svg: `<!--
-tags: [china, currency, exchange, trade, payment, cash, money, yuan, finance, transfer]
+tags: ["cny", "money", "payment", "exchange", "currency", "cash", "bank", "investment", "commerce"]
 category: E-commerce
 version: "2.44"
 unicode: "fd73"
@@ -136065,7 +136065,7 @@ unicode: "fd73"
     id: "tabler-transfer-in",
     name: "Transfer In",
     svg: `<!--
-tags: [input, insert, import, send]
+tags: ["import", "receive", "incoming", "deposit", "arrow", "move", "data", "finance", "delivery"]
 category: E-commerce
 version: "1.41"
 unicode: "ef2f"
@@ -136093,7 +136093,7 @@ unicode: "ef2f"
     id: "tabler-transfer-out",
     name: "Transfer Out",
     svg: `<!--
-tags: [output, export, send]
+tags: ["export", "send", "outgoing", "withdraw", "arrow", "move", "data", "finance", "delivery"]
 category: E-commerce
 version: "1.41"
 unicode: "ef30"
@@ -136121,7 +136121,7 @@ unicode: "ef30"
     id: "tabler-transfer-vertical",
     name: "Transfer Vertical",
     svg: `<!--
-tags: [move, up, down, shift, exchange, switch, vertical, navigate, change, direction]
+tags: ["exchange", "swap", "move", "up down", "reorder", "sort", "arrow", "data", "sync"]
 version: "2.29"
 unicode: "fc1e"
 -->
@@ -136147,7 +136147,7 @@ unicode: "fc1e"
     id: "tabler-transfer",
     name: "Transfer",
     svg: `<!--
-tags: [move, exchange, send, transfer, switch, change, shift, swap, share, flow]
+tags: ["exchange", "swap", "move", "left right", "reorder", "sort", "arrow", "data", "sync"]
 version: "2.29"
 unicode: "fc1f"
 -->
@@ -136173,7 +136173,7 @@ unicode: "fc1f"
     id: "tabler-transform-point-bottom-left",
     name: "Transform Point Bottom Left",
     svg: `<!--
-tags: [reshape, edit, adjust, modify, transform, left, bottom, point, corner, design]
+tags: ["resize", "scale", "corner", "anchor", "manipulate", "edit", "ui", "geometric", "square"]
 version: "2.47"
 unicode: "fda5"
 -->
@@ -136205,7 +136205,7 @@ unicode: "fda5"
     id: "tabler-transform-point-bottom-right",
     name: "Transform Point Bottom Right",
     svg: `<!--
-tags: [reshape, edit, adjust, modify, transform, right, bottom, point, corner, design]
+tags: ["resize", "scale", "corner", "anchor", "manipulate", "edit", "ui", "geometric", "square"]
 version: "2.47"
 unicode: "fda6"
 -->
@@ -136237,7 +136237,7 @@ unicode: "fda6"
     id: "tabler-transform-point-top-left",
     name: "Transform Point Top Left",
     svg: `<!--
-tags: [reshape, edit, adjust, modify, transform, left, top, point, corner, design]
+tags: ["resize", "scale", "corner", "anchor", "manipulate", "edit", "ui", "geometric", "square"]
 version: "2.47"
 unicode: "fda7"
 -->
@@ -136269,7 +136269,7 @@ unicode: "fda7"
     id: "tabler-transform-point-top-right",
     name: "Transform Point Top Right",
     svg: `<!--
-tags: [reshape, edit, adjust, modify, transform, right, top, point, corner, design]
+tags: ["resize", "scale", "corner", "anchor", "manipulate", "edit", "ui", "geometric", "square"]
 version: "2.47"
 unicode: "fda8"
 -->
@@ -136301,7 +136301,7 @@ unicode: "fda8"
     id: "tabler-transform-point",
     name: "Transform Point",
     svg: `<!--
-tags: [reshape, edit, adjust, modify, transform, center, point, change, design, move]
+tags: ["resize", "scale", "anchor", "manipulate", "edit", "ui", "geometric", "square", "point", "control"]
 version: "2.47"
 unicode: "fda9"
 -->
@@ -136334,7 +136334,7 @@ unicode: "fda9"
     name: "Trash Off",
     svg: `<!--
 category: System
-tags: [garbage, delete, remove, bin, ash-bin, uninstall, dustbin]
+tags: ["delete", "remove", "cancel", "disabled", "forbidden", "cleanup", "system", "ui", "waste"]
 version: "1.31"
 unicode: "ed65"
 -->
@@ -136365,7 +136365,7 @@ unicode: "ed65"
     id: "tabler-treadmill",
     name: "Treadmill",
     svg: `<!--
-tags: [exercise, workout, fitness, running, cardio, machine, gym, aerobic, health, training]
+tags: ["exercise", "running", "fitness", "gym", "workout", "cardio", "health", "sport", "machine"]
 category: Sport
 version: "2.17"
 unicode: "fa6e"
@@ -136396,7 +136396,7 @@ unicode: "fa6e"
     id: "tabler-tree",
     name: "Tree",
     svg: `<!--
-tags: [nature, greenery, park, leaf, trunk, stem, root, forest, garden]
+tags: ["nature", "plant", "forest", "wood", "ecology", "environment", "growth", "outdoor", "leaf"]
 category: Map
 version: "1.39"
 unicode: "ef01"
@@ -136425,7 +136425,7 @@ unicode: "ef01"
     id: "tabler-trees",
     name: "Trees",
     svg: `<!--
-tags: [nature, greenery, park, leaf, trunk, stem, root, forest, garden]
+tags: ["forest", "woods", "nature", "ecology", "environment", "park", "outdoor", "plants", "landscape"]
 category: Map
 version: "1.35"
 unicode: "ec10"
@@ -136456,7 +136456,7 @@ unicode: "ec10"
     id: "tabler-trekking",
     name: "Trekking",
     svg: `<!--
-tags: [adventure, travel, walking, hiking, activity]
+tags: ["hiking", "walking", "adventure", "outdoor", "explore", "journey", "sport", "nature", "travel"]
 category: Sport
 unicode: "f5ad"
 version: "1.110"
@@ -136488,7 +136488,7 @@ version: "1.110"
     name: "Trending Down 2",
     svg: `<!--
 category: Arrows
-tags: [arrow, decrease, fall, progress]
+tags: ["decline", "loss", "decrease", "negative", "downward", "chart", "graph", "finance", "arrow"]
 version: "1.35"
 unicode: "edc1"
 -->
@@ -136515,7 +136515,7 @@ unicode: "edc1"
     name: "Trending Down 3",
     svg: `<!--
 category: Arrows
-tags: [arrow, decrease, fall, progress]
+tags: ["decline", "loss", "decrease", "negative", "downward", "chart", "graph", "finance", "arrow"]
 version: "1.35"
 unicode: "edc2"
 -->
@@ -136541,7 +136541,7 @@ unicode: "edc2"
     id: "tabler-trending-down",
     name: "Trending Down",
     svg: `<!--
-tags: [arrow, decrease, fall, progress]
+tags: ["decline", "loss", "decrease", "negative", "downward", "chart", "graph", "finance", "arrow"]
 category: Arrows
 version: "1.0"
 unicode: "eb42"
@@ -136569,7 +136569,7 @@ unicode: "eb42"
     name: "Trending Up 2",
     svg: `<!--
 category: Arrows
-tags: [arrow, grow, increase, progress]
+tags: ["growth", "gain", "increase", "positive", "upward", "chart", "graph", "finance", "arrow"]
 version: "1.35"
 unicode: "edc3"
 -->
@@ -136596,7 +136596,7 @@ unicode: "edc3"
     name: "Trending Up 3",
     svg: `<!--
 category: Arrows
-tags: [arrow, grow, increase, progress]
+tags: ["growth", "increase", "progress", "chart", "arrow", "line", "statistics", "analytics", "performance", "success"]
 version: "1.35"
 unicode: "edc4"
 -->
@@ -136622,7 +136622,7 @@ unicode: "edc4"
     id: "tabler-trending-up",
     name: "Trending Up",
     svg: `<!--
-tags: [arrow, grow, increase, progress]
+tags: ["growth", "increase", "progress", "chart", "arrow", "line", "statistics", "analytics", "performance", "success"]
 category: Arrows
 version: "1.0"
 unicode: "eb43"
@@ -136650,7 +136650,7 @@ unicode: "eb43"
     name: "Triangle Minus 2",
     svg: `<!--
 category: Shapes
-tags: [subtract, reduce, lower, decrease, less, truncate, minimize, cut, deduct, diminish]
+tags: ["geometric", "shape", "remove", "decrease", "subtract", "alert", "warning", "minimal", "outline", "math"]
 version: "2.35"
 unicode: "fc9a"
 -->
@@ -136677,7 +136677,7 @@ unicode: "fc9a"
     name: "Triangle Minus",
     svg: `<!--
 category: Shapes
-tags: [subtract, reduce, lower, decrease, less, truncate, minimize, cut, deduct, diminish]
+tags: ["geometric", "shape", "remove", "decrease", "subtract", "alert", "warning", "minimal", "outline", "math"]
 version: "2.35"
 unicode: "fc9b"
 -->
@@ -136704,7 +136704,7 @@ unicode: "fc9b"
     name: "Triangle Off",
     svg: `<!--
 category: Shapes
-tags: [delta, shape]
+tags: ["geometric", "shape", "disabled", "broken", "invalid", "error", "outline", "alert", "warning", "minimal"]
 version: "1.39"
 unicode: "ef02"
 -->
@@ -136731,7 +136731,7 @@ unicode: "ef02"
     name: "Triangle Plus 2",
     svg: `<!--
 category: Shapes
-tags: [add, increase, expand, raise, more, enlarge, boost, augment, enhance, amplify]
+tags: ["geometric", "shape", "add", "increase", "create", "math", "outline", "minimal", "positive", "new"]
 version: "2.35"
 unicode: "fc9c"
 -->
@@ -136759,7 +136759,7 @@ unicode: "fc9c"
     name: "Triangle Plus",
     svg: `<!--
 category: Shapes
-tags: [add, increase, expand, raise, more, enlarge, boost, augment, enhance, amplify]
+tags: ["geometric", "shape", "add", "increase", "create", "math", "outline", "minimal", "positive", "new"]
 version: "2.35"
 unicode: "fc9d"
 -->
@@ -136786,7 +136786,7 @@ unicode: "fc9d"
     id: "tabler-triangles",
     name: "Triangles",
     svg: `<!--
-tags: [shapes, figure, geometry, geometric, pyramid, design]
+tags: ["geometric", "shapes", "pattern", "abstract", "design", "minimal", "outline", "multiple", "overlapping", "composition"]
 category: Shapes
 version: "1.61"
 unicode: "f0a5"
@@ -136813,7 +136813,7 @@ unicode: "f0a5"
     id: "tabler-trident",
     name: "Trident",
     svg: `<!--
-tags: [three, spear, weapon, sharp, tool]
+tags: ["mythology", "poseidon", "neptune", "sea", "ocean", "weapon", "fork", "power", "ancient", "symbol"]
 version: "1.18"
 unicode: "ecc5"
 -->
@@ -136839,7 +136839,7 @@ unicode: "ecc5"
     id: "tabler-trophy-off",
     name: "Trophy Off",
     svg: `<!--
-tags: [success, win, prize, winner]
+tags: ["award", "prize", "achievement", "disabled", "failed", "no win", "broken", "outline", "competition", "sport"]
 unicode: "f438"
 version: "1.94"
 -->
@@ -136870,7 +136870,7 @@ version: "1.94"
     id: "tabler-trowel",
     name: "Trowel",
     svg: `<!--
-tags: [tool, garden, equipment, mason, cement]
+tags: ["tool", "gardening", "construction", "digging", "planting", "masonry", "craft", "repair", "equipment", "work"]
 unicode: "f368"
 version: "1.89"
 -->
@@ -136897,7 +136897,7 @@ version: "1.89"
     id: "tabler-truck-delivery",
     name: "Truck Delivery",
     svg: `<!--
-tags: [order, purchase, online, shop, store, e-commerce, lorry]
+tags: ["shipping", "logistics", "transport", "package", "order", "courier", "delivery", "commerce", "vehicle", "moving"]
 category: E-commerce
 version: "1.11"
 unicode: "ec4b"
@@ -136926,7 +136926,7 @@ unicode: "ec4b"
     id: "tabler-truck-loading",
     name: "Truck Loading",
     svg: `<!--
-tags: [transport, delivery, logistics, vehicle]
+tags: ["shipping", "logistics", "transport", "package", "cargo", "inventory", "warehouse", "commerce", "vehicle", "moving"]
 category: E-commerce
 version: "1.68"
 unicode: "f1da"
@@ -136956,7 +136956,7 @@ unicode: "f1da"
     name: "Truck Off",
     svg: `<!--
 category: Vehicles
-tags: [transport, vahicle, van, lorry, cargo, delivery]
+tags: ["shipping", "logistics", "transport", "disabled", "unavailable", "broken", "no delivery", "vehicle", "error", "outline"]
 version: "1.39"
 unicode: "ef03"
 -->
@@ -136984,7 +136984,7 @@ unicode: "ef03"
     id: "tabler-truck-return",
     name: "Truck Return",
     svg: `<!--
-tags: [order, purchase, online, shop, store, e-commerce, lorry]
+tags: ["shipping", "logistics", "transport", "package", "returns", "reverse logistics", "commerce", "vehicle", "arrow", "exchange"]
 category: E-commerce
 version: "1.11"
 unicode: "ec4c"
@@ -137015,7 +137015,7 @@ unicode: "ec4c"
     name: "Txt",
     svg: `<!--
 category: Extensions
-tags: [file, format, type, document, filetype]
+tags: ["file type", "document", "text file", "plain text", "code", "programming", "format", "extension", "data", "file"]
 version: "1.93"
 unicode: "f3b1"
 -->
@@ -137045,7 +137045,7 @@ unicode: "f3b1"
     id: "tabler-typeface",
     name: "Typeface",
     svg: `<!--
-tags: [font, text, lettering, typography, style, design, print, glyph, format, character]
+tags: ["font", "text", "typography", "lettering", "design", "writing", "editor", "style", "alphabet", "graphic"]
 unicode: "fdab"
 version: "3.0"
 -->
@@ -137074,7 +137074,7 @@ version: "3.0"
     name: "Typography Off",
     svg: `<!--
 category: Text
-tags: [type, display, typeface, point size, line length, line-spacing, letter-spacing, font]
+tags: ["font", "text", "typography", "disabled", "broken", "no text", "error", "editor", "style", "outline"]
 version: "1.67"
 unicode: "f1ba"
 -->
@@ -137106,7 +137106,7 @@ unicode: "f1ba"
     name: "Typography",
     svg: `<!--
 category: Text
-tags: [type, display, typeface, point size, line length, line-spacing, letter-spacing, font]
+tags: ["font", "text", "lettering", "design", "writing", "editor", "style", "alphabet", "graphic", "formatting"]
 version: "1.5"
 unicode: "ebc5"
 -->
@@ -137135,7 +137135,7 @@ unicode: "ebc5"
     id: "tabler-u-turn-left",
     name: "U Turn Left",
     svg: `<!--
-tags: [reverse, change, flip, rotate, revert, backward, loop, swerve, return, redirect]
+tags: ["navigation", "direction", "road", "arrow", "turn", "route", "map", "traffic", "reversal", "left"]
 category: Arrows
 unicode: "fea2"
 version: "3.1"
@@ -137162,7 +137162,7 @@ version: "3.1"
     id: "tabler-u-turn-right",
     name: "U Turn Right",
     svg: `<!--
-tags: [reverse, change, flip, rotate, revert, backward, loop, swerve, return, redirect]
+tags: ["navigation", "direction", "road", "arrow", "turn", "route", "map", "traffic", "reversal", "right"]
 category: Arrows
 unicode: "fea1"
 version: "3.1"
@@ -137189,7 +137189,7 @@ version: "3.1"
     id: "tabler-ufo-off",
     name: "Ufo Off",
     svg: `<!--
-tags: [alien, space, astronomy, spaceship, galaxy]
+tags: ["alien", "spaceship", "extraterrestrial", "disabled", "broken", "no sighting", "sci-fi", "mystery", "outline", "fantasy"]
 version: "1.76"
 unicode: "f26e"
 -->
@@ -137221,7 +137221,7 @@ unicode: "f26e"
     id: "tabler-uhd",
     name: "Uhd",
     svg: `<!--
-tags: [ultra, high, definition, resolution, crystal, clear, sharp, detail, vivid, brilliant]
+tags: ["resolution", "video", "display", "quality", "ultra hd", "4k", "screen", "media", "television", "high definition"]
 unicode: "100aa"
 version: "3.23"
 -->
@@ -137250,7 +137250,7 @@ version: "3.23"
     id: "tabler-umbrella-2",
     name: "Umbrella 2",
     svg: `<!--
-tags: [rain, weather, storm, wet, autumn, fall]
+tags: ["weather", "rain", "protection", "shelter", "accessory", "open", "storm", "safety", "minimal", "outline"]
 unicode: "ff0e"
 version: "3.7"
 -->
@@ -137276,7 +137276,7 @@ version: "3.7"
     id: "tabler-umbrella-closed-2",
     name: "Umbrella Closed 2",
     svg: `<!--
-tags: [rain, protection, shield, cover, shelter, dry, compact, portable, folded, defense]
+tags: ["weather", "rain", "protection", "shelter", "accessory", "folded", "storage", "compact", "minimal", "outline"]
 unicode: "ff0d"
 version: "3.7"
 -->
@@ -137302,7 +137302,7 @@ version: "3.7"
     id: "tabler-umbrella-closed",
     name: "Umbrella Closed",
     svg: `<!--
-tags: [rain, weather, storm, wet, autumn, fall]
+tags: ["rain", "weather protection", "folded", "compact", "storage", "seasonal", "accessory", "travel", "minimal"]
 unicode: "ff0c"
 version: "3.7"
 -->
@@ -137328,7 +137328,7 @@ version: "3.7"
     id: "tabler-umbrella-off",
     name: "Umbrella Off",
     svg: `<!--
-tags: [rain, weather, storm, wet, autumn, fall]
+tags: ["no rain", "weather warning", "disabled", "unavailable", "protection off", "blocked", "alert", "error", "strikethrough"]
 version: "1.67"
 unicode: "f1bb"
 -->
@@ -137355,7 +137355,7 @@ unicode: "f1bb"
     id: "tabler-underline",
     name: "Underline",
     svg: `<!--
-tags: [underscore, emphasis, horizontal, typography]
+tags: ["text format", "emphasis", "highlight", "edit", "typography", "document", "editor", "style", "ui"]
 category: Text
 version: "1.1"
 unicode: "eba2"
@@ -137382,7 +137382,7 @@ unicode: "eba2"
     id: "tabler-universe",
     name: "Universe",
     svg: `<!--
-tags: [cosmos, galaxy, space, astronomy, stars, planets, infinite, vast, beyond, expanse]
+tags: ["galaxy", "cosmos", "space", "astronomy", "stars", "planets", "exploration", "science", "celestial", "infinite"]
 version: "2.37"
 unicode: "fcc4"
 -->
@@ -137411,7 +137411,7 @@ unicode: "fcc4"
     id: "tabler-unlink",
     name: "Unlink",
     svg: `<!--
-tags: [chain, url, address, remove, broke, unconnect]
+tags: ["break link", "disconnect", "unattach", "remove connection", "broken chain", "sever", "unpair", "ui", "action"]
 category: Text
 version: "1.0"
 unicode: "eb46"
@@ -137444,7 +137444,7 @@ unicode: "eb46"
     name: "Upload",
     svg: `<!--
 category: Arrows
-tags: [file, arrow]
+tags: ["send file", "transfer", "cloud storage", "data transfer", "arrow up", "publish", "submit", "action", "ui", "save"]
 version: "1.0"
 unicode: "eb47"
 -->
@@ -137471,7 +137471,7 @@ unicode: "eb47"
     id: "tabler-urgent",
     name: "Urgent",
     svg: `<!--
-tags: [alert, important]
+tags: ["priority", "important", "alert", "warning", "critical", "emergency", "attention", "time sensitive", "notification", "exclamation"]
 version: "1.0"
 unicode: "eb48"
 -->
@@ -137498,7 +137498,7 @@ unicode: "eb48"
     id: "tabler-usb",
     name: "Usb",
     svg: `<!--
-tags: [drive, cable, plug, device, technology, connect]
+tags: ["connector", "port", "device", "peripheral", "cable", "data transfer", "charging", "electronics", "hardware"]
 version: "1.53"
 unicode: "f00c"
 -->
@@ -137529,7 +137529,7 @@ unicode: "f00c"
     id: "tabler-user-bitcoin",
     name: "User Bitcoin",
     svg: `<!--
-tags: [cryptocurrency, blockchain, investment, wallet, digital, finance, trade, currency, virtual, peer-to-peer]
+tags: ["crypto user", "blockchain", "digital currency", "investor", "financial profile", "cryptocurrency", "wallet", "account", "finance", "profile"]
 unicode: "ff30"
 version: "3.9"
 -->
@@ -137557,7 +137557,7 @@ version: "3.9"
     name: "User Bolt",
     svg: `<!--
 category: System
-tags: [fast, quick, speed, power, lightning, energy, electric, charge, dynamic, swift]
+tags: ["power user", "admin", "fast user", "energy", "active user", "performance", "speed", "electric", "profile", "system"]
 version: "2.10"
 unicode: "f9d1"
 -->
@@ -137585,7 +137585,7 @@ unicode: "f9d1"
     name: "User Cancel",
     svg: `<!--
 category: System
-tags: [abort, stop, end, terminate, halt, void, dismiss, close, exit]
+tags: ["user removed", "account deleted", "blocked user", "decline", "deny access", "strikethrough", "error", "profile", "action"]
 version: "2.10"
 unicode: "f9d2"
 -->
@@ -137614,7 +137614,7 @@ unicode: "f9d2"
     name: "User Check",
     svg: `<!--
 category: System
-tags: [tick, person, account, role]
+tags: ["user verified", "account confirmed", "approved", "onboarded", "success", "completed", "profile", "confirmation", "security"]
 version: "1.0"
 unicode: "eb49"
 -->
@@ -137641,7 +137641,7 @@ unicode: "eb49"
     id: "tabler-user-circle",
     name: "User Circle",
     svg: `<!--
-tags: [account, avatar, profile, role]
+tags: ["avatar", "profile icon", "account", "person", "member", "login", "placeholder", "ui", "rounded", "geometric"]
 version: "1.44"
 unicode: "ef68"
 category: System
@@ -137670,7 +137670,7 @@ category: System
     name: "User Code",
     svg: `<!--
 category: System
-tags: [developer, programmer, software, technology, script, program, logic, syntax, coding, engineer]
+tags: ["developer", "programmer", "coding", "engineer", "scripting", "tech profile", "hacker", "software", "profile", "tool"]
 version: "2.10"
 unicode: "f9d3"
 -->
@@ -137699,7 +137699,7 @@ unicode: "f9d3"
     name: "User Cog",
     svg: `<!--
 category: System
-tags: [settings, preferences, configure, gear, tool, customize, options, adjust, control, manage]
+tags: ["user settings", "preferences", "account management", "admin user", "configuration", "profile setup", "gear", "control", "ui"]
 version: "2.10"
 unicode: "f9d4"
 -->
@@ -137733,7 +137733,7 @@ unicode: "f9d4"
     name: "User Dollar",
     svg: `<!--
 category: System
-tags: [currency, money, finance, economy, cash, wealth, bank, trade, investment, payment]
+tags: ["paid user", "customer", "financial account", "earnings", "investor", "money", "income", "profile", "commerce", "finance"]
 version: "2.10"
 unicode: "f9d5"
 -->
@@ -137762,7 +137762,7 @@ unicode: "f9d5"
     name: "User Down",
     svg: `<!--
 category: System
-tags: [descend, lower, below, drop, fall, decrease, diminish, sink, deflate]
+tags: ["demote user", "decrease rank", "user activity down", "arrow down", "decline", "profile", "status", "ui"]
 version: "2.10"
 unicode: "f9d6"
 -->
@@ -137791,7 +137791,7 @@ unicode: "f9d6"
     name: "User Edit",
     svg: `<!--
 category: System
-tags: [modify, change, update, revise, correct, alter, adjust, compose, rewrite, amend]
+tags: ["edit profile", "update account", "modify user", "personalize", "pencil", "settings", "customize", "ui", "action"]
 version: "2.8"
 unicode: "f7cc"
 -->
@@ -137819,7 +137819,7 @@ unicode: "f7cc"
     name: "User Exclamation",
     svg: `<!--
 category: System
-tags: [user, account, note, excitement, admiration, mark]
+tags: ["user warning", "alert", "problem user", "attention", "notification", "issue", "profile", "error", "system"]
 version: "1.8"
 unicode: "ec12"
 -->
@@ -137848,7 +137848,7 @@ unicode: "ec12"
     name: "User Heart",
     svg: `<!--
 category: System
-tags: [love, affection, emotion, romance, caring, kindness, passion, devotion, feeling, compassion]
+tags: ["favorite user", "loved one", "supporter", "care", "health profile", "patient", "medical", "social", "profile", "community"]
 version: "2.8"
 unicode: "f7cd"
 -->
@@ -137875,7 +137875,7 @@ unicode: "f7cd"
     id: "tabler-user-hexagon",
     name: "User Hexagon",
     svg: `<!--
-tags: [shape, geometry, six, polygon, structure, design, pattern, angles, form, figure]
+tags: ["secure user", "admin profile", "protected account", "geometric", "shape", "profile", "security", "ui"]
 version: "2.31"
 unicode: "fc4e"
 -->
@@ -137903,7 +137903,7 @@ unicode: "fc4e"
     name: "User Minus",
     svg: `<!--
 category: System
-tags: [remove, cancel, person, account, unsubscribe, role]
+tags: ["remove user", "delete account", "unfollow", "subtract user", "profile", "action", "ui", "deactivate"]
 version: "1.0"
 unicode: "eb4a"
 -->
@@ -137931,7 +137931,7 @@ unicode: "eb4a"
     name: "User Off",
     svg: `<!--
 category: System
-tags: [person, account]
+tags: ["user unavailable", "offline", "disabled account", "blocked", "strikethrough", "invisible", "profile", "status", "ui"]
 version: "1.22"
 unicode: "ecf9"
 -->
@@ -137959,7 +137959,7 @@ unicode: "ecf9"
     name: "User Pause",
     svg: `<!--
 category: System
-tags: [break, stop, halt, wait, freeze, cease, intermission, delay, suspend, breather]
+tags: ["user on hold", "inactive", "suspended account", "break", "pending", "profile", "status", "ui", "temporary"]
 version: "2.10"
 unicode: "f9d7"
 -->
@@ -137987,7 +137987,7 @@ unicode: "f9d7"
     id: "tabler-user-pentagon",
     name: "User Pentagon",
     svg: `<!--
-tags: [shape, geometry, five, polygon, structure, design, pattern, angles, form, figure]
+tags: ["secure user", "admin profile", "protected account", "geometric", "shape", "profile", "security", "ui"]
 version: "2.31"
 unicode: "fc4f"
 -->
@@ -138015,7 +138015,7 @@ unicode: "fc4f"
     name: "User Pin",
     svg: `<!--
 category: System
-tags: [location, map, marker, point, spot, tag, place, position, site, locator]
+tags: ["location", "profile", "contact", "address", "map", "marker", "geolocation", "directory"]
 version: "2.8"
 unicode: "f7ce"
 -->
@@ -138044,7 +138044,7 @@ unicode: "f7ce"
     name: "User Plus",
     svg: `<!--
 category: System
-tags: [add, create, new, person, people, follow, subscribe, role]
+tags: ["add", "invite", "new user", "onboarding", "signup", "account creation", "friend request", "join"]
 version: "1.0"
 unicode: "eb4b"
 -->
@@ -138073,7 +138073,7 @@ unicode: "eb4b"
     name: "User Question",
     svg: `<!--
 category: System
-tags: [inquiry, ask, query, doubt, wonder, puzzle, investigation, seek, probe, interrogate]
+tags: ["help", "support", "unknown", "query", "faq", "customer service", "mystery", "assistance"]
 version: "2.8"
 unicode: "f7cf"
 -->
@@ -138101,7 +138101,7 @@ unicode: "f7cf"
     id: "tabler-user-scan",
     name: "User Scan",
     svg: `<!--
-tags: [identity, biometric, authentication, recognition, profile, verification, user-data, user-profile, scan-identity, identity-verification]
+tags: ["verification", "authentication", "biometric", "identity", "security", "scan", "face id", "recognition"]
 category: System
 version: "2.36"
 unicode: "fcaf"
@@ -138132,7 +138132,7 @@ unicode: "fcaf"
     id: "tabler-user-screen",
     name: "User Screen",
     svg: `<!--
-tags: [display, monitor, view, digital, interface, technology, projector, visualize, image, show]
+tags: ["remote work", "presentation", "sharing", "online meeting", "webinar", "desktop", "collaboration", "virtual"]
 category: Media
 unicode: "fea0"
 version: "3.1"
@@ -138161,7 +138161,7 @@ version: "3.1"
     name: "User Search",
     svg: `<!--
 category: System
-tags: [find, account, profile, magnifier]
+tags: ["find", "locate", "discover", "lookup", "directory", "explore", "magnify", "investigate"]
 version: "1.46"
 unicode: "ef89"
 -->
@@ -138190,7 +138190,7 @@ unicode: "ef89"
     name: "User Share",
     svg: `<!--
 category: System
-tags: [distribute, communicate, connect, link, exchange, send, transmit, relay, broadcast, disseminate]
+tags: ["send", "distribute", "social media", "referral", "invite", "network", "forward", "promotion"]
 version: "2.10"
 unicode: "f9d8"
 -->
@@ -138219,7 +138219,7 @@ unicode: "f9d8"
     name: "User Shield",
     svg: `<!--
 category: System
-tags: [protection, security, defend, safeguard, guard, armor, cover, shield, safety, fortify]
+tags: ["protection", "privacy", "admin", "moderator", "secure", "verified", "defense", "guardian"]
 version: "2.8"
 unicode: "f7d0"
 -->
@@ -138246,7 +138246,7 @@ unicode: "f7d0"
     id: "tabler-user-square-rounded",
     name: "User Square Rounded",
     svg: `<!--
-tags: [border, frame, rectangle, shape, geometry, design, pattern, corners, form, angular]
+tags: ["profile", "account", "settings", "avatar", "rounded corners", "geometric", "minimal", "interface"]
 version: "2.31"
 unicode: "fc50"
 -->
@@ -138273,7 +138273,7 @@ unicode: "fc50"
     id: "tabler-user-square",
     name: "User Square",
     svg: `<!--
-tags: [border, frame, rectangle, shape, geometry, design, pattern, corners, form, angular]
+tags: ["profile", "account", "settings", "avatar", "geometric", "minimal", "interface", "square"]
 version: "2.31"
 unicode: "fc51"
 -->
@@ -138301,7 +138301,7 @@ unicode: "fc51"
     name: "User Star",
     svg: `<!--
 category: System
-tags: [favorite, highlight, shine, glow, stellar, bright, famous, prominent, recognize, feature]
+tags: ["favorite", "vip", "premium", "bookmark", "highlight", "important", "rating", "featured"]
 version: "2.8"
 unicode: "f7d1"
 -->
@@ -138329,7 +138329,7 @@ unicode: "f7d1"
     name: "User Up",
     svg: `<!--
 category: System
-tags: [elevate, ascend, rise, promote, advance, uplift, boost, levelup, upward, enhance]
+tags: ["promote", "elevate", "increase", "upgrade", "rank", "status", "arrow", "direction"]
 version: "2.8"
 unicode: "f7d2"
 -->
@@ -138358,7 +138358,7 @@ unicode: "f7d2"
     name: "User X",
     svg: `<!--
 category: System
-tags: [cancel, remove, person, account, unsubscribe]
+tags: ["remove", "delete", "block", "cancel", "unfollow", "error", "decline", "close"]
 version: "1.0"
 unicode: "eb4c"
 -->
@@ -138386,7 +138386,7 @@ unicode: "eb4c"
     id: "tabler-users-group",
     name: "Users Group",
     svg: `<!--
-tags: [community, team, cluster, society, gathering, crowd, network, collective, assembly, fellowship]
+tags: ["team", "community", "organization", "meeting", "collaboration", "social", "network", "audience"]
 version: "2.13"
 unicode: "fa21"
 category: System
@@ -138418,7 +138418,7 @@ category: System
     name: "Users Minus",
     svg: `<!--
 category: System
-tags: [remove, subtract, reduce, decrease, diminish, deduct, lessen, takeaway, withdraw, deplete]
+tags: ["remove members", "decrease", "unfollow", "group management", "subtract", "exit group", "reduce"]
 version: "2.12"
 unicode: "fa0e"
 -->
@@ -138447,7 +138447,7 @@ unicode: "fa0e"
     name: "Users Plus",
     svg: `<!--
 category: System
-tags: [add, increase, expand, grow, enlarge, amplify, supplement, augment, boost, enhance]
+tags: ["add members", "increase", "invite", "new group", "expand", "grow", "team building"]
 version: "2.12"
 unicode: "fa0f"
 -->
@@ -138476,7 +138476,7 @@ unicode: "fa0f"
     id: "tabler-users",
     name: "Users",
     svg: `<!--
-tags: [people, persons, accounts]
+tags: ["people", "team", "community", "group", "audience", "social", "members", "profile"]
 version: "1.7"
 unicode: "ebf2"
 category: System
@@ -138505,7 +138505,7 @@ category: System
     id: "tabler-uv-index",
     name: "Uv Index",
     svg: `<!--
-tags: [sun, ultraviolet, radiation]
+tags: ["sun", "radiation", "weather", "forecast", "health", "protection", "meter", "indicator"]
 category: Weather
 version: "1.93"
 unicode: "f3b2"
@@ -138534,7 +138534,7 @@ unicode: "f3b2"
     id: "tabler-ux-circle",
     name: "Ux Circle",
     svg: `<!--
-tags: [user, experience]
+tags: ["user experience", "design", "interface", "development", "process", "journey", "research", "evaluation"]
 category: Design
 unicode: "f369"
 version: "1.89"
@@ -138564,7 +138564,7 @@ version: "1.89"
     name: "Vaccine Bottle Off",
     svg: `<!--
 category: Health
-tags: [medical, medicine, pharmacy, covid, virus, drug]
+tags: ["no vaccine", "unavailable", "cancelled", "empty", "medical", "health", "pharmacy", "disabled"]
 unicode: "f439"
 version: "1.94"
 -->
@@ -138594,7 +138594,7 @@ version: "1.94"
     id: "tabler-vaccine-bottle",
     name: "Vaccine Bottle",
     svg: `<!--
-tags: [medical, medicine, pharmacy, covid, virus, drug]
+tags: ["medicine", "immunization", "health", "medical", "pharmacy", "drug", "vial", "treatment"]
 category: Health
 version: "1.44"
 unicode: "ef69"
@@ -138625,7 +138625,7 @@ unicode: "ef69"
     name: "Vaccine Off",
     svg: `<!--
 category: Health
-tags: [illness, sickness, disease, injection, medicine, medical, doctor, nurse]
+tags: ["no vaccine", "unavailable", "cancelled", "medical", "health", "disabled", "syringe", "injection"]
 version: "1.67"
 unicode: "f1bc"
 -->
@@ -138657,7 +138657,7 @@ unicode: "f1bc"
     name: "Vaccine",
     svg: `<!--
 category: Health
-tags: [illness, sickness, disease, injection, medicine, medical, doctor, nurse]
+tags: ["medicine", "immunization", "health", "medical", "syringe", "injection", "treatment", "prevention"]
 version: "1.39"
 unicode: "ef04"
 -->
@@ -138688,7 +138688,7 @@ unicode: "ef04"
     id: "tabler-vacuum-cleaner",
     name: "Vacuum Cleaner",
     svg: `<!--
-tags: [robot, clean, hoover, home, electronics]
+tags: ["cleaning", "household", "appliance", "dust", "tidy", "maintenance", "housework", "domestic"]
 unicode: "f5e6"
 version: "1.112"
 -->
@@ -138716,7 +138716,7 @@ version: "1.112"
     name: "Variable Minus",
     svg: `<!--
 category: Math
-tags: [off, delete, maths, mathematics, science, calculate, function]
+tags: ["math", "equation", "decrease", "subtract", "algebra", "programming", "calculation", "formula"]
 unicode: "f36a"
 version: "1.89"
 -->
@@ -138745,7 +138745,7 @@ version: "1.89"
     name: "Variable Off",
     svg: `<!--
 category: Math
-tags: [maths, mathematics, science, calculate, function]
+tags: ["math", "algebra", "equation", "disabled", "cancel", "remove", "calculation", "science", "geometric", "line"]
 version: "1.67"
 unicode: "f1bd"
 -->
@@ -138775,7 +138775,7 @@ unicode: "f1bd"
     name: "Variable Plus",
     svg: `<!--
 category: Math
-tags: [add, new, maths, mathematics, science, calculate, function]
+tags: ["math", "algebra", "equation", "add", "create", "new", "calculation", "science", "geometric", "line"]
 unicode: "f36b"
 version: "1.89"
 -->
@@ -138804,7 +138804,7 @@ version: "1.89"
     name: "Variable",
     svg: `<!--
 category: Math
-tags: [maths, mathematics, science, calculate, function]
+tags: ["math", "algebra", "equation", "calculation", "science", "parameter", "geometric", "line", "logic"]
 version: "1.39"
 unicode: "ef05"
 -->
@@ -138831,7 +138831,7 @@ unicode: "ef05"
     name: "Vector Bezier 2",
     svg: `<!--
 category: Design
-tags: [curve, parametric, design, vector graphics, representation]
+tags: ["design", "graphic", "curve", "path", "drawing", "edit", "tool", "geometric", "line", "art"]
 version: "1.27"
 unicode: "f1a3"
 -->
@@ -138862,7 +138862,7 @@ unicode: "f1a3"
     id: "tabler-vector-bezier-arc",
     name: "Vector Bezier Arc",
     svg: `<!--
-tags: [curve, drafting, reshape, shape]
+tags: ["design", "graphic", "curve", "path", "drawing", "edit", "tool", "geometric", "line", "art"]
 category: Design
 unicode: "f4cd"
 version: "1.98"
@@ -138894,7 +138894,7 @@ version: "1.98"
     id: "tabler-vector-bezier-circle",
     name: "Vector Bezier Circle",
     svg: `<!--
-tags: [curve, drafting, reshape, shape]
+tags: ["design", "graphic", "curve", "path", "drawing", "edit", "tool", "geometric", "line", "art", "shape"]
 category: Design
 unicode: "f4ce"
 version: "1.98"
@@ -138927,7 +138927,7 @@ version: "1.98"
     id: "tabler-vector-bezier",
     name: "Vector Bezier",
     svg: `<!--
-tags: [curve, parametric, design, vector graphics, representation]
+tags: ["design", "graphic", "curve", "path", "drawing", "edit", "tool", "geometric", "line", "art"]
 category: Design
 version: "1.27"
 unicode: "ef1d"
@@ -138962,7 +138962,7 @@ unicode: "ef1d"
     name: "Vector Off",
     svg: `<!--
 category: Design
-tags: [curve, parametric, design, vector graphics, placement]
+tags: ["design", "graphic", "disabled", "cancel", "remove", "path", "drawing", "geometric", "line"]
 version: "1.67"
 unicode: "f1be"
 -->
@@ -138995,7 +138995,7 @@ unicode: "f1be"
     id: "tabler-vector-spline",
     name: "Vector Spline",
     svg: `<!--
-tags: [math, line, curve, geometry]
+tags: ["design", "graphic", "curve", "path", "drawing", "edit", "tool", "geometric", "line", "art"]
 category: Design
 unicode: "f565"
 version: "1.106"
@@ -139024,7 +139024,7 @@ version: "1.106"
     name: "Vector Triangle Off",
     svg: `<!--
 category: Design
-tags: [curve, parametric, design, vector graphics, placement]
+tags: ["design", "graphic", "shape", "disabled", "cancel", "remove", "geometric", "line", "path"]
 version: "1.67"
 unicode: "f1bf"
 -->
@@ -139056,7 +139056,7 @@ unicode: "f1bf"
     name: "Vector Triangle",
     svg: `<!--
 category: Design
-tags: [curve, parametric, design, vector graphics, placement]
+tags: ["design", "graphic", "shape", "geometric", "line", "path", "drawing", "tool", "art"]
 version: "1.17"
 unicode: "eca8"
 -->
@@ -139087,7 +139087,7 @@ unicode: "eca8"
     name: "Vector",
     svg: `<!--
 category: Design
-tags: [curve, parametric, design, vector graphics, placement]
+tags: ["design", "graphic", "path", "drawing", "edit", "tool", "geometric", "line", "art"]
 version: "1.17"
 unicode: "eca9"
 -->
@@ -139119,7 +139119,7 @@ unicode: "eca9"
     id: "tabler-venus",
     name: "Venus",
     svg: `<!--
-tags: [female]
+tags: ["female", "gender", "woman", "sex", "astrology", "planet", "symbol", "round", "minimal"]
 category: Symbols
 version: "1.14"
 unicode: "ec86"
@@ -139148,7 +139148,7 @@ unicode: "ec86"
     name: "Versions Off",
     svg: `<!--
 category: Development
-tags: [app, variation, different, variant, alternative]
+tags: ["history", "disabled", "cancel", "remove", "code", "development", "document", "file", "management", "geometric"]
 version: "1.67"
 unicode: "f1c0"
 -->
@@ -139177,7 +139177,7 @@ unicode: "f1c0"
     name: "Video Minus",
     svg: `<!--
 category: Media
-tags: [film, shoot, recording, taping, camera, remotion]
+tags: ["movie", "camera", "record", "remove", "delete", "subtract", "streaming", "entertainment", "media", "square"]
 version: "1.25"
 unicode: "ed1f"
 -->
@@ -139205,7 +139205,7 @@ unicode: "ed1f"
     name: "Video Off",
     svg: `<!--
 category: Media
-tags: [film, shoot, recording, taping, camera]
+tags: ["movie", "camera", "record", "disabled", "mute", "stop", "streaming", "entertainment", "media", "square"]
 version: "1.25"
 unicode: "ed20"
 -->
@@ -139233,7 +139233,7 @@ unicode: "ed20"
     name: "Video Plus",
     svg: `<!--
 category: Media
-tags: [film, shoot, recording, taping, camera, closeup]
+tags: ["movie", "camera", "record", "add", "create", "new", "streaming", "entertainment", "media", "square"]
 version: "1.25"
 unicode: "ed21"
 -->
@@ -139261,7 +139261,7 @@ unicode: "ed21"
     id: "tabler-view-360-arrow",
     name: "View 360 Arrow",
     svg: `<!--
-tags: [rotate, view, degree, virtual, vr]
+tags: ["panorama", "rotate", "vr", "virtual reality", "perspective", "circular", "arrow", "tour", "experience", "ui"]
 unicode: "f62f"
 version: "1.117"
 -->
@@ -139287,7 +139287,7 @@ version: "1.117"
     id: "tabler-view-360-number",
     name: "View 360 Number",
     svg: `<!--
-tags: [degree, rotation, reality, camera]
+tags: ["panorama", "rotate", "vr", "virtual reality", "perspective", "circular", "number", "tour", "experience", "ui"]
 unicode: "f566"
 version: "1.107"
 -->
@@ -139315,7 +139315,7 @@ version: "1.107"
     id: "tabler-view-360-off",
     name: "View 360 Off",
     svg: `<!--
-tags: [panoramic, degrees, image, around]
+tags: ["panorama", "rotate", "vr", "disabled", "cancel", "remove", "perspective", "circular", "ui"]
 version: "1.67"
 unicode: "f1c1"
 -->
@@ -139343,7 +139343,7 @@ unicode: "f1c1"
     id: "tabler-view-360",
     name: "View 360",
     svg: `<!--
-tags: [panoramic, degrees, image, around]
+tags: ["panorama", "rotate", "vr", "virtual reality", "perspective", "circular", "tour", "experience", "ui", "immersive"]
 version: "1.33"
 unicode: "ed84"
 -->
@@ -139371,7 +139371,7 @@ unicode: "ed84"
     name: "Viewfinder Off",
     svg: `<!--
 category: Map
-tags: [target, aim, focus]
+tags: ["camera", "photo", "focus", "disabled", "cancel", "remove", "photography", "square", "target", "crosshair"]
 version: "1.67"
 unicode: "f1c2"
 -->
@@ -139403,7 +139403,7 @@ unicode: "f1c2"
     name: "Viewfinder",
     svg: `<!--
 category: Map
-tags: [target, aim, focus]
+tags: ["camera", "photo", "focus", "photography", "square", "target", "crosshair", "aim", "shoot"]
 version: "1.0"
 unicode: "eb4e"
 -->
@@ -139433,7 +139433,7 @@ unicode: "eb4e"
     id: "tabler-viewport-narrow",
     name: "Viewport Narrow",
     svg: `<!--
-tags: [data, account, excel, tight]
+tags: ["screen", "display", "window", "resize", "minimize", "ui", "layout", "responsive", "geometric", "rectangle"]
 category: Devices
 version: "1.7"
 unicode: "ebf3"
@@ -139464,7 +139464,7 @@ unicode: "ebf3"
     id: "tabler-viewport-short",
     name: "Viewport Short",
     svg: `<!--
-tags: [compact, narrow, shrink, condensed, brief, concise, mini, reduced, trim, tight]
+tags: ["screen", "display", "window", "resize", "minimize", "ui", "layout", "responsive", "geometric", "rectangle"]
 unicode: "fee9"
 version: "3.5"
 -->
@@ -139494,7 +139494,7 @@ version: "3.5"
     id: "tabler-viewport-tall",
     name: "Viewport Tall",
     svg: `<!--
-tags: [elongate, extend, stretch, high, lofty, elevated, lengthy, prolong, tower, vertical]
+tags: ["mobile view", "vertical", "screen", "display", "responsive", "layout", "device", "phone", "tall"]
 unicode: "fee8"
 version: "3.5"
 -->
@@ -139524,7 +139524,7 @@ version: "3.5"
     id: "tabler-viewport-wide",
     name: "Viewport Wide",
     svg: `<!--
-tags: [data, account, broad, excel]
+tags: ["desktop view", "horizontal", "screen", "display", "responsive", "layout", "monitor", "wide", "landscape"]
 category: Devices
 version: "1.7"
 unicode: "ebf4"
@@ -139555,7 +139555,7 @@ unicode: "ebf4"
     id: "tabler-vinyl",
     name: "Vinyl",
     svg: `<!--
-tags: [music, audio, dj, sound, retro, musical]
+tags: ["record", "music", "audio", "disc", "retro", "vintage", "entertainment", "dj", "album"]
 version: "1.53"
 category: Devices
 unicode: "f00d"
@@ -139584,7 +139584,7 @@ unicode: "f00d"
     id: "tabler-vip-off",
     name: "Vip Off",
     svg: `<!--
-tags: [premium, exclusive, staff, expensive]
+tags: ["exclusive", "access denied", "premium", "restricted", "membership", "no entry", "blocked", "unavailable"]
 unicode: "f43a"
 version: "1.94"
 -->
@@ -139614,7 +139614,7 @@ version: "1.94"
     id: "tabler-vip",
     name: "Vip",
     svg: `<!--
-tags: [premium, exclusive, staff, expensive]
+tags: ["exclusive", "premium", "membership", "special access", "privilege", "elite", "priority", "star"]
 version: "1.93"
 unicode: "f3b3"
 -->
@@ -139644,7 +139644,7 @@ unicode: "f3b3"
     name: "Virus Off",
     svg: `<!--
 category: Health
-tags: [infection, illness, cell, infectious, health]
+tags: ["antivirus", "clean", "safe", "immune", "protection", "health", "disabled", "no infection"]
 version: "1.31"
 unicode: "ed66"
 -->
@@ -139686,7 +139686,7 @@ unicode: "ed66"
     name: "Virus Search",
     svg: `<!--
 category: Health
-tags: [covid, coronavirus, biology, infection, infected, cell, viral, infectious, disease]
+tags: ["scan", "antivirus", "detection", "malware", "security check", "health scan", "epidemic", "research"]
 version: "1.31"
 unicode: "ed67"
 -->
@@ -139728,7 +139728,7 @@ unicode: "ed67"
     name: "Virus",
     svg: `<!--
 category: Health
-tags: [infection, illness, cell, infectious, health]
+tags: ["infection", "malware", "disease", "epidemic", "germ", "bacteria", "contagion", "health risk"]
 version: "1.2"
 unicode: "eb74"
 -->
@@ -139770,7 +139770,7 @@ unicode: "eb74"
     name: "Vocabulary Off",
     svg: `<!--
 category: Text
-tags: [language, traffic, text, book, study, dictionary]
+tags: ["language barrier", "no words", "mute", "speechless", "disabled", "communication", "learning", "dictionary"]
 unicode: "f43b"
 version: "1.94"
 -->
@@ -139800,7 +139800,7 @@ version: "1.94"
     id: "tabler-vocabulary",
     name: "Vocabulary",
     svg: `<!--
-tags: [language, traffic, text, book, study, dictionary]
+tags: ["language", "dictionary", "words", "learning", "education", "glossary", "lexicon", "communication"]
 category: Text
 version: "1.40"
 unicode: "ef1e"
@@ -139832,7 +139832,7 @@ unicode: "ef1e"
     id: "tabler-volcano",
     name: "Volcano",
     svg: `<!--
-tags: [erumption, lava, nature, danger, explosion]
+tags: ["mountain", "eruption", "nature", "disaster", "lava", "geology", "danger", "fire"]
 version: "2.5"
 unicode: "f79c"
 category: Map
@@ -139863,7 +139863,7 @@ category: Map
     name: "Volume 2",
     svg: `<!--
 category: Media
-tags: [music, sound, speaker]
+tags: ["sound", "audio", "speaker", "medium volume", "music", "control", "playback", "ui"]
 version: "1.0"
 unicode: "eb4f"
 -->
@@ -139890,7 +139890,7 @@ unicode: "eb4f"
     name: "Volume 3",
     svg: `<!--
 category: Media
-tags: [mute, music, sound, off, speaker]
+tags: ["sound", "audio", "speaker", "high volume", "loud", "music", "control", "playback", "ui"]
 version: "1.0"
 unicode: "eb50"
 -->
@@ -139917,7 +139917,7 @@ unicode: "eb50"
     name: "Volume Off",
     svg: `<!--
 category: Media
-tags: [music, sound, speaker]
+tags: ["mute", "no sound", "silent", "audio off", "speaker off", "music off", "disabled", "ui"]
 version: "1.67"
 unicode: "f1c3"
 -->
@@ -139946,7 +139946,7 @@ unicode: "f1c3"
     name: "Volume",
     svg: `<!--
 category: Media
-tags: [music, sound, speaker]
+tags: ["sound", "audio", "speaker", "low volume", "music", "control", "playback", "ui"]
 version: "1.0"
 unicode: "eb51"
 -->
@@ -139973,7 +139973,7 @@ unicode: "eb51"
     id: "tabler-vs",
     name: "Vs",
     svg: `<!--
-tags: [compare, against, contrast, compete, rival, match, versus, contest, challenge, battle]
+tags: ["versus", "competition", "battle", "compare", "against", "challenge", "rivalry", "confrontation"]
 version: "2.31"
 unicode: "fc52"
 -->
@@ -140000,7 +140000,7 @@ unicode: "fc52"
     id: "tabler-walk",
     name: "Walk",
     svg: `<!--
-tags: [ambulation, dislocating, movement, motion, destination]
+tags: ["pedestrian", "walking", "movement", "stroll", "exercise", "person", "human", "gait", "activity"]
 category: Sport
 version: "1.14"
 unicode: "ec87"
@@ -140030,7 +140030,7 @@ unicode: "ec87"
     name: "Wall Off",
     svg: `<!--
 category: Buildings
-tags: [brick, security, firewall, building, renovation, construction]
+tags: ["no barrier", "open", "access", "demolished", "broken", "construction", "security", "disabled"]
 unicode: "f43c"
 version: "1.94"
 -->
@@ -140064,7 +140064,7 @@ version: "1.94"
     name: "Wall",
     svg: `<!--
 category: Buildings
-tags: [brick, security, firewall, building, renovation, construction]
+tags: ["barrier", "boundary", "protection", "structure", "construction", "security", "defense", "building"]
 version: "1.45"
 unicode: "ef7a"
 -->
@@ -140097,7 +140097,7 @@ unicode: "ef7a"
     id: "tabler-wallet-off",
     name: "Wallet Off",
     svg: `<!--
-tags: [money, pay, banknote, coin, payment, bank]
+tags: ["no money", "empty", "finance", "payment", "disabled", "budget", "cash", "spending"]
 version: "1.67"
 unicode: "f1c4"
 -->
@@ -140125,7 +140125,7 @@ unicode: "f1c4"
     id: "tabler-wallet",
     name: "Wallet",
     svg: `<!--
-tags: [money, pay, banknote, coin, payment, bank]
+tags: ["money", "finance", "payment", "cash", "budget", "currency", "purse", "spending", "account"]
 version: "1.2"
 unicode: "eb75"
 -->
@@ -140151,7 +140151,7 @@ unicode: "eb75"
     id: "tabler-wallpaper-off",
     name: "Wallpaper Off",
     svg: `<!--
-tags: [picture, image, photo, decoration, house, room, decor]
+tags: ["background", "desktop", "image", "display", "disabled", "no image", "settings", "ui"]
 version: "1.67"
 unicode: "f1c5"
 -->
@@ -140179,7 +140179,7 @@ unicode: "f1c5"
     id: "tabler-wallpaper",
     name: "Wallpaper",
     svg: `<!--
-tags: [picture, image, photo, decoration, house, room, decor]
+tags: ["background", "desktop", "image", "display", "personalize", "settings", "ui", "pattern"]
 version: "1.43"
 unicode: "ef56"
 -->
@@ -140206,7 +140206,7 @@ unicode: "ef56"
     id: "tabler-wand-off",
     name: "Wand Off",
     svg: `<!--
-tags: [magic, tool, color, pixel, design]
+tags: ["magic off", "no spell", "disabled", "fantasy", "tool", "creation", "wizard", "inactive"]
 version: "1.67"
 unicode: "f1c6"
 -->
@@ -140235,7 +140235,7 @@ unicode: "f1c6"
     id: "tabler-wand",
     name: "Wand",
     svg: `<!--
-tags: [magic, tool, color, pixel, design]
+tags: ["magic", "spell", "fantasy", "tool", "creation", "wizard", "enchantment", "fairy"]
 version: "1.5"
 unicode: "ebcb"
 -->
@@ -140263,7 +140263,7 @@ unicode: "ebcb"
     id: "tabler-wash-dry-1",
     name: "Wash Dry 1",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f2fa"
 version: "1.84"
@@ -140292,7 +140292,7 @@ version: "1.84"
     name: "Wash Dry 2",
     svg: `<!--
 category: Laundry
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 unicode: "f2fb"
 version: "1.84"
 -->
@@ -140321,7 +140321,7 @@ version: "1.84"
     name: "Wash Dry 3",
     svg: `<!--
 category: Laundry
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 unicode: "f2fc"
 version: "1.84"
 -->
@@ -140350,7 +140350,7 @@ version: "1.84"
     id: "tabler-wash-dry-a",
     name: "Wash Dry A",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f2fd"
 version: "1.84"
@@ -140378,7 +140378,7 @@ version: "1.84"
     id: "tabler-wash-dry-dip",
     name: "Wash Dry Dip",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f2fe"
 version: "1.84"
@@ -140407,7 +140407,7 @@ version: "1.84"
     id: "tabler-wash-dry-f",
     name: "Wash Dry F",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f2ff"
 version: "1.84"
@@ -140435,7 +140435,7 @@ version: "1.84"
     id: "tabler-wash-dry-flat",
     name: "Wash Dry Flat",
     svg: `<!--
-tags: [laundry, care, gentle, flatlay, drying, placement, smooth, even, textile, organize]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 version: "2.18"
 unicode: "fa7f"
@@ -140462,7 +140462,7 @@ unicode: "fa7f"
     id: "tabler-wash-dry-hang",
     name: "Wash Dry Hang",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f300"
 version: "1.84"
@@ -140490,7 +140490,7 @@ version: "1.84"
     name: "Wash Dry Off",
     svg: `<!--
 category: Laundry
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line", "prohibited", "forbidden"]
 unicode: "f301"
 version: "1.84"
 -->
@@ -140516,7 +140516,7 @@ version: "1.84"
     id: "tabler-wash-dry-p",
     name: "Wash Dry P",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f302"
 version: "1.84"
@@ -140543,7 +140543,7 @@ version: "1.84"
     id: "tabler-wash-dry-shade",
     name: "Wash Dry Shade",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f303"
 version: "1.84"
@@ -140571,7 +140571,7 @@ version: "1.84"
     id: "tabler-wash-dry-w",
     name: "Wash Dry W",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 version: "1.85"
 unicode: "f322"
@@ -140598,7 +140598,7 @@ unicode: "f322"
     id: "tabler-wash-dry",
     name: "Wash Dry",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "drying", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f304"
 version: "1.84"
@@ -140625,7 +140625,7 @@ version: "1.84"
     name: "Wash Dryclean Off",
     svg: `<!--
 category: Laundry
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "cleaning", "garment", "clothing", "instruction", "symbol", "minimal", "line", "prohibited", "forbidden"]
 version: "1.85"
 unicode: "f323"
 -->
@@ -140651,7 +140651,7 @@ unicode: "f323"
     id: "tabler-wash-dryclean",
     name: "Wash Dryclean",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "care", "textile", "cleaning", "garment", "clothing", "instruction", "symbol", "minimal", "line"]
 category: Laundry
 unicode: "f305"
 version: "1.84"
@@ -140678,7 +140678,7 @@ version: "1.84"
     name: "Wash Eco",
     svg: `<!--
 category: Laundry
-tags: [green, sustainable, eco-friendly, conserve, planet, environment, economical, preserve, resource, efficiency]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "environment", "sustainable"]
 version: "2.18"
 unicode: "fa80"
 -->
@@ -140706,7 +140706,7 @@ unicode: "fa80"
     id: "tabler-wash-gentle",
     name: "Wash Gentle",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, machine, delicate]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "delicate"]
 category: Laundry
 unicode: "f306"
 version: "1.84"
@@ -140736,7 +140736,7 @@ version: "1.84"
     name: "Wash Hand",
     svg: `<!--
 category: Laundry
-tags: [manual, delicate, handcare, gentlewash, personal, attention, careful, scrub, rinse, launder]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "manual"]
 version: "2.18"
 unicode: "fa81"
 -->
@@ -140764,7 +140764,7 @@ unicode: "fa81"
     id: "tabler-wash-machine",
     name: "Wash Machine",
     svg: `<!--
-tags: [bathroom, clean, cleaning, laundry, machine, clothes]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "automatic"]
 category: Devices
 version: "1.75"
 unicode: "f25e"
@@ -140796,7 +140796,7 @@ unicode: "f25e"
     name: "Wash Off",
     svg: `<!--
 category: Laundry
-tags: [clean, cleaning, hygiene, laundry, clothes]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "prohibited", "forbidden"]
 unicode: "f307"
 version: "1.84"
 -->
@@ -140823,7 +140823,7 @@ version: "1.84"
     id: "tabler-wash-press",
     name: "Wash Press",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, machine, permanent]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "ironing"]
 category: Laundry
 unicode: "f308"
 version: "1.84"
@@ -140851,7 +140851,7 @@ version: "1.84"
     id: "tabler-wash-temperature-1",
     name: "Wash Temperature 1",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, low, cold]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "cold", "degree"]
 category: Laundry
 unicode: "f309"
 version: "1.84"
@@ -140879,7 +140879,7 @@ version: "1.84"
     id: "tabler-wash-temperature-2",
     name: "Wash Temperature 2",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, low, cold]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "warm", "degree"]
 category: Laundry
 unicode: "f30a"
 version: "1.84"
@@ -140908,7 +140908,7 @@ version: "1.84"
     id: "tabler-wash-temperature-3",
     name: "Wash Temperature 3",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, medium]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "hot", "degree"]
 category: Laundry
 unicode: "f30b"
 version: "1.84"
@@ -140938,7 +140938,7 @@ version: "1.84"
     id: "tabler-wash-temperature-4",
     name: "Wash Temperature 4",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, high, hot]
+tags: ["laundry", "care", "textile", "washing", "garment", "clothing", "instruction", "symbol", "minimal", "line", "very hot", "degree"]
 category: Laundry
 unicode: "f30c"
 version: "1.84"
@@ -140969,7 +140969,7 @@ version: "1.84"
     id: "tabler-wash-temperature-5",
     name: "Wash Temperature 5",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, high, hot]
+tags: ["laundry", "clothing care", "textile", "delicate", "temperature", "washing instruction", "garment", "symbol"]
 category: Laundry
 unicode: "f30d"
 version: "1.84"
@@ -141001,7 +141001,7 @@ version: "1.84"
     id: "tabler-wash-temperature-6",
     name: "Wash Temperature 6",
     svg: `<!--
-tags: [laundry, clean, clear, clothes, high, hot]
+tags: ["laundry", "clothing care", "textile", "temperature", "washing instruction", "garment", "symbol", "hot water"]
 category: Laundry
 unicode: "f30e"
 version: "1.84"
@@ -141034,7 +141034,7 @@ version: "1.84"
     id: "tabler-wash-tumble-dry",
     name: "Wash Tumble Dry",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "clothing care", "textile", "drying", "washing instruction", "garment", "symbol", "dryer"]
 category: Laundry
 unicode: "f30f"
 version: "1.84"
@@ -141061,7 +141061,7 @@ version: "1.84"
     id: "tabler-wash-tumble-off",
     name: "Wash Tumble Off",
     svg: `<!--
-tags: [laundry, clean, clear, clothes]
+tags: ["laundry", "clothing care", "textile", "no drying", "washing instruction", "garment", "symbol", "do not tumble dry", "crossed out"]
 category: Laundry
 unicode: "f310"
 version: "1.84"
@@ -141089,7 +141089,7 @@ version: "1.84"
     id: "tabler-wash",
     name: "Wash",
     svg: `<!--
-tags: [clean, cleaning, hygiene, laundry, clothes]
+tags: ["laundry", "clothing care", "textile", "washing instruction", "garment", "symbol", "basin", "hand wash"]
 category: Laundry
 unicode: "f311"
 version: "1.84"
@@ -141116,7 +141116,7 @@ version: "1.84"
     id: "tabler-waterpolo",
     name: "Waterpolo",
     svg: `<!--
-tags: [aquatic, sport, pool, game, ball, team, watergame, swimming, athletic, match]
+tags: ["sport", "swimming", "ball", "aquatic", "team sport", "game", "pool", "recreation"]
 category: Sport
 version: "2.17"
 unicode: "fa6f"
@@ -141146,7 +141146,7 @@ unicode: "fa6f"
     id: "tabler-wave-saw-tool",
     name: "Wave Saw Tool",
     svg: `<!--
-tags: [pulse, signal, ratio, rate, volume]
+tags: ["audio", "sound", "waveform", "music", "frequency", "signal", "engineering", "sawtooth"]
 version: "1.19"
 unicode: "ecd3"
 -->
@@ -141171,7 +141171,7 @@ unicode: "ecd3"
     id: "tabler-wave-sine",
     name: "Wave Sine",
     svg: `<!--
-tags: [pulse, signal, ratio, rate, volume]
+tags: ["audio", "sound", "waveform", "music", "frequency", "signal", "engineering", "smooth wave"]
 version: "1.19"
 unicode: "ecd4"
 -->
@@ -141196,7 +141196,7 @@ unicode: "ecd4"
     id: "tabler-wave-square",
     name: "Wave Square",
     svg: `<!--
-tags: [pulse, signal, ratio, rate, volume]
+tags: ["audio", "sound", "waveform", "music", "frequency", "signal", "engineering", "square wave"]
 version: "1.19"
 unicode: "ecd5"
 -->
@@ -141221,7 +141221,7 @@ unicode: "ecd5"
     id: "tabler-waves-electricity",
     name: "Waves Electricity",
     svg: `<!--
-tags: [energy, power, currents, flow, dynamics, surge, oscillation, movement, charge, frequency]
+tags: ["energy", "power", "current", "electric", "renewable", "hydro", "ocean", "generator"]
 version: "2.37"
 unicode: "fcc5"
 -->
@@ -141250,7 +141250,7 @@ unicode: "fcc5"
     name: "Webhook Off",
     svg: `<!--
 category: Development
-tags: [communication, interaction, comunity, browser]
+tags: ["api", "integration", "data flow", "automation", "connection", "disabled", "disconnected", "programming"]
 unicode: "f43d"
 version: "1.94"
 -->
@@ -141278,7 +141278,7 @@ version: "1.94"
     id: "tabler-webhook",
     name: "Webhook",
     svg: `<!--
-tags: [communication, interaction, comunity, browser]
+tags: ["api", "integration", "data flow", "automation", "connection", "programming", "development", "event"]
 version: "1.54"
 unicode: "f01e"
 category: Development
@@ -141306,7 +141306,7 @@ category: Development
     id: "tabler-weight",
     name: "Weight",
     svg: `<!--
-tags: [gym, fitness, balance, exercise, sport]
+tags: ["scale", "mass", "measurement", "gym", "fitness", "dumbbell", "heavy", "balance"]
 unicode: "f589"
 version: "1.108"
 -->
@@ -141333,7 +141333,7 @@ version: "1.108"
     name: "Wheat Off",
     svg: `<!--
 category: Food
-tags: [food, nature, greenary, grow, soil, harvest, plant, leaf, tree, flower]
+tags: ["grain", "agriculture", "food", "harvest", "allergy", "gluten-free", "crop", "disabled", "crossed out"]
 unicode: "100a9"
 version: "3.23"
 -->
@@ -141366,7 +141366,7 @@ version: "3.23"
     name: "Wheat",
     svg: `<!--
 category: Food
-tags: [food, nature, greenary, grow, soil, harvest, plant, leaf, tree, flower]
+tags: ["grain", "agriculture", "food", "harvest", "crop", "farm", "bread", "cereal"]
 unicode: "100a8"
 version: "3.23"
 -->
@@ -141394,7 +141394,7 @@ version: "3.23"
     id: "tabler-wheel",
     name: "Wheel",
     svg: `<!--
-tags: [circular, round, spin, rotation, revolve, hub, axle, turn, motion, vehicle]
+tags: ["tire", "car", "transport", "vehicle", "motion", "circular", "automotive", "rim"]
 version: "2.32"
 unicode: "fc64"
 -->
@@ -141427,7 +141427,7 @@ unicode: "fc64"
     name: "Wheelchair Off",
     svg: `<!--
 category: Vehicles
-tags: [disabled, disability, patient, medical, handicapped]
+tags: ["accessibility", "disability", "mobility", "medical", "hospital", "disabled", "no access", "crossed out"]
 unicode: "f43e"
 version: "1.94"
 -->
@@ -141458,7 +141458,7 @@ version: "1.94"
     id: "tabler-wheelchair",
     name: "Wheelchair",
     svg: `<!--
-tags: [disabled, disability, patient, medical, handicapped]
+tags: ["accessibility", "disability", "mobility", "medical", "hospital", "ramp", "support", "aid"]
 category: Vehicles
 version: "1.68"
 unicode: "f1db"
@@ -141489,7 +141489,7 @@ unicode: "f1db"
     id: "tabler-whirl",
     name: "Whirl",
     svg: `<!--
-tags: [cosmos, galaxy, space, spin, spiral, hypnosis]
+tags: ["spin", "rotate", "motion", "vortex", "swirl", "abstract", "dynamic", "circular"]
 version: "1.102"
 unicode: "f51d"
 category: Weather
@@ -141520,7 +141520,7 @@ category: Weather
     name: "Wifi 0",
     svg: `<!--
 category: Devices
-tags: [online, connection, signal, wireless]
+tags: ["wireless", "internet", "network", "connection", "signal strength", "no signal", "disconnected", "offline"]
 version: "1.3"
 unicode: "eba3"
 -->
@@ -141546,7 +141546,7 @@ unicode: "eba3"
     name: "Wifi 1",
     svg: `<!--
 category: Devices
-tags: [online, connection, signal, wireless]
+tags: ["wireless", "internet", "network", "connection", "signal strength", "weak signal", "low connection", "device"]
 version: "1.3"
 unicode: "eba4"
 -->
@@ -141573,7 +141573,7 @@ unicode: "eba4"
     name: "Wifi 2",
     svg: `<!--
 category: Devices
-tags: [online, connection, signal, wireless]
+tags: ["wireless", "internet", "network", "connection", "signal strength", "medium signal", "good connection", "device"]
 version: "1.3"
 unicode: "eba5"
 -->
@@ -141601,7 +141601,7 @@ unicode: "eba5"
     name: "Wifi Off",
     svg: `<!--
 category: Devices
-tags: [online, connection, signal, wireless]
+tags: ["wireless", "internet", "network", "connection", "signal", "disconnected", "offline", "no wifi", "crossed out"]
 version: "1.22"
 unicode: "ecfa"
 -->
@@ -141631,7 +141631,7 @@ unicode: "ecfa"
     name: "Wifi",
     svg: `<!--
 category: Devices
-tags: [online, connection, signal, wireless]
+tags: ["wireless", "internet", "network", "connection", "signal", "online", "hotspot", "device"]
 version: "1.0"
 unicode: "eb52"
 -->
@@ -141659,7 +141659,7 @@ unicode: "eb52"
     id: "tabler-wind-electricity",
     name: "Wind Electricity",
     svg: `<!--
-tags: [turbine, renewable, sustainable, breeze, airflow, power, energy, green, clean, kinetic]
+tags: ["energy", "power", "renewable", "wind turbine", "eco-friendly", "generator", "clean energy", "environment"]
 version: "2.37"
 unicode: "fcc6"
 -->
@@ -141688,7 +141688,7 @@ unicode: "fcc6"
     name: "Wind Off",
     svg: `<!--
 category: Weather
-tags: [weather, breeze, tornado, typhoon, cyclone, hurricane]
+tags: ["no wind", "calm", "still", "weather", "disabled", "inactive", "breeze", "air", "off", "cancel"]
 version: "1.67"
 unicode: "f1c7"
 -->
@@ -141718,7 +141718,7 @@ unicode: "f1c7"
     name: "Wind",
     svg: `<!--
 category: Weather
-tags: [weather, breeze, tornado, typhoon, cyclone, hurricane]
+tags: ["breeze", "air", "weather", "movement", "flow", "current", "nature", "forecast", "airflow", "atmospheric"]
 version: "1.10"
 unicode: "ec34"
 -->
@@ -141746,7 +141746,7 @@ unicode: "ec34"
     name: "Windmill Off",
     svg: `<!--
 category: Map
-tags: [generate, power, blade, energy, electricity]
+tags: ["no power", "stopped", "broken", "energy", "disabled", "inactive", "farm", "turbine", "off", "cancel"]
 version: "1.67"
 unicode: "f1c8"
 -->
@@ -141775,7 +141775,7 @@ unicode: "f1c8"
     id: "tabler-window-maximize",
     name: "Window Maximize",
     svg: `<!--
-tags: [fullscreen, browser, size, full, resize]
+tags: ["fullscreen", "expand", "enlarge", "ui", "layout", "interface", "desktop", "app", "program", "size"]
 category: System
 version: "1.69"
 unicode: "f1f1"
@@ -141804,7 +141804,7 @@ unicode: "f1f1"
     id: "tabler-window-minimize",
     name: "Window Minimize",
     svg: `<!--
-tags: [screen, browser, size, resize, minimum]
+tags: ["collapse", "shrink", "hide", "ui", "layout", "interface", "desktop", "app", "program", "size"]
 category: System
 version: "1.69"
 unicode: "f1f2"
@@ -141834,7 +141834,7 @@ unicode: "f1f2"
     name: "Window Off",
     svg: `<!--
 category: Buildings
-tags: [house, view, glass, apartment, vehicle, light, frame, home, building]
+tags: ["closed", "disabled", "inactive", "ui", "app", "program", "desktop", "cancel", "off", "broken"]
 version: "1.67"
 unicode: "f1c9"
 -->
@@ -141863,7 +141863,7 @@ unicode: "f1c9"
     name: "Window",
     svg: `<!--
 category: Buildings
-tags: [house, view, glass, apartment, vehicle, light, frame, home, building]
+tags: ["ui", "desktop", "application", "program", "interface", "frame", "view", "pane", "layout", "app"]
 version: "1.39"
 unicode: "ef06"
 -->
@@ -141890,7 +141890,7 @@ unicode: "ef06"
     id: "tabler-wiper-wash",
     name: "Wiper Wash",
     svg: `<!--
-tags: [car, pane, vehicle, sprinkler, scour]
+tags: ["car", "vehicle", "clean", "auto", "windshield", "maintenance", "driving", "transport", "fluid", "spray"]
 category: Vehicles
 version: "1.17"
 unicode: "ecaa"
@@ -141924,7 +141924,7 @@ unicode: "ecaa"
     id: "tabler-wiper",
     name: "Wiper",
     svg: `<!--
-tags: [car, pane, vehicle, sprinkler, scour]
+tags: ["car", "vehicle", "auto", "windshield", "driving", "transport", "rain", "clean", "maintenance", "blade"]
 category: Vehicles
 version: "1.17"
 unicode: "ecab"
@@ -141952,7 +141952,7 @@ unicode: "ecab"
     id: "tabler-wood",
     name: "Wood",
     svg: `<!--
-tags: [tree, forest, natural, timber, log]
+tags: ["material", "nature", "forest", "tree", "lumber", "construction", "craft", "texture", "timber", "resource"]
 unicode: "f359"
 version: "1.88"
 -->
@@ -141981,7 +141981,7 @@ version: "1.88"
     name: "World Bolt",
     svg: `<!--
 category: Map
-tags: [fast, instant, speed, global, electric, impact, energy, strike, lightning, flash]
+tags: ["global", "energy", "power", "speed", "impact", "electricity", "network", "internet", "worldwide", "fast"]
 version: "2.10"
 unicode: "f9d9"
 -->
@@ -142012,7 +142012,7 @@ unicode: "f9d9"
     name: "World Cancel",
     svg: `<!--
 category: Map
-tags: [stop, halt, terminate, void, invalidate, abort, end, cease, prevent, reject]
+tags: ["global", "error", "failure", "disabled", "blocked", "network", "internet", "worldwide", "stop", "restricted"]
 version: "2.10"
 unicode: "f9da"
 -->
@@ -142044,7 +142044,7 @@ unicode: "f9da"
     name: "World Check",
     svg: `<!--
 category: Map
-tags: [verify, approve, confirm, validate, correct, ensure, certify, global, accept]
+tags: ["global", "verified", "success", "approved", "network", "internet", "worldwide", "complete", "secure", "confirmed"]
 version: "2.10"
 unicode: "f9db"
 -->
@@ -142075,7 +142075,7 @@ unicode: "f9db"
     name: "World Code",
     svg: `<!--
 category: Map
-tags: [programming, software, development, script, internet, technology, digital, encrypt, global, computer]
+tags: ["global", "development", "programming", "coding", "network", "internet", "worldwide", "web", "software", "api"]
 version: "2.10"
 unicode: "f9dc"
 -->
@@ -142107,7 +142107,7 @@ unicode: "f9dc"
     name: "World Cog",
     svg: `<!--
 category: Map
-tags: [settings, configure, gear, adjust, mechanism, system, control, customize, global, engine]
+tags: ["global", "settings", "configuration", "management", "network", "internet", "worldwide", "control", "system", "preferences"]
 version: "2.10"
 unicode: "f9dd"
 -->
@@ -142144,7 +142144,7 @@ unicode: "f9dd"
     name: "World Dollar",
     svg: `<!--
 category: Map
-tags: [finance, currency, economics, global, money, trade, wealth, business, budget, fiscal]
+tags: ["global", "finance", "economy", "money", "currency", "commerce", "network", "internet", "worldwide", "business"]
 version: "2.10"
 unicode: "f9de"
 -->
@@ -142176,7 +142176,7 @@ unicode: "f9de"
     name: "World Down",
     svg: `<!--
 category: Map
-tags: [lower, descend, decrease, sink, drop, global, reduce, fall, diminish, decline]
+tags: ["global", "download", "data", "transfer", "network", "internet", "worldwide", "arrow", "receive", "import"]
 version: "2.10"
 unicode: "f9df"
 -->
@@ -142207,7 +142207,7 @@ unicode: "f9df"
     id: "tabler-world-download",
     name: "World Download",
     svg: `<!--
-tags: [global, down, globe, arrow, earth]
+tags: ["global", "data", "transfer", "network", "internet", "worldwide", "arrow", "receive", "import", "cloud"]
 category: Map
 version: "1.46"
 unicode: "ef8a"
@@ -142239,7 +142239,7 @@ unicode: "ef8a"
     name: "World Exclamation",
     svg: `<!--
 category: Map
-tags: [alert, important, notice, attention, caution, warning, global, highlight, urgent, remark]
+tags: ["global", "warning", "alert", "issue", "network", "internet", "worldwide", "danger", "problem", "caution"]
 version: "2.10"
 unicode: "f9e0"
 -->
@@ -142271,7 +142271,7 @@ unicode: "f9e0"
     name: "World Heart",
     svg: `<!--
 category: Map
-tags: [love, care, affection, emotion, compassion, global, humanity, bond, connection, empathy]
+tags: ["global", "love", "care", "health", "community", "network", "internet", "worldwide", "charity", "support"]
 version: "2.10"
 unicode: "f9e1"
 -->
@@ -142302,7 +142302,7 @@ unicode: "f9e1"
     name: "World Latitude",
     svg: `<!--
 category: Map
-tags: [earth, globe, global, language, union]
+tags: ["global", "location", "map", "coordinates", "geography", "network", "internet", "worldwide", "gps", "position"]
 version: "1.26"
 unicode: "ed2e"
 -->
@@ -142331,7 +142331,7 @@ unicode: "ed2e"
     name: "World Longitude",
     svg: `<!--
 category: Map
-tags: [earth, globe, global, language, union]
+tags: ["global", "location", "map", "coordinates", "geography", "network", "internet", "worldwide", "gps", "position"]
 version: "1.26"
 unicode: "ed2f"
 -->
@@ -142360,7 +142360,7 @@ unicode: "ed2f"
     name: "World Minus",
     svg: `<!--
 category: Map
-tags: [reduce, subtract, decrease, delete, remove, diminish, global, lessen, deduct, deplete]
+tags: ["global", "remove", "delete", "subtract", "network", "internet", "worldwide", "exclude", "less", "reduce"]
 version: "2.10"
 unicode: "f9e2"
 -->
@@ -142391,7 +142391,7 @@ unicode: "f9e2"
     name: "World Off",
     svg: `<!--
 category: Map
-tags: [earth, globe, global, language, union]
+tags: ["global", "offline", "disconnected", "disabled", "network", "internet", "worldwide", "unavailable", "broken", "cancel"]
 version: "1.67"
 unicode: "f1ca"
 -->
@@ -142422,7 +142422,7 @@ unicode: "f1ca"
     name: "World Pause",
     svg: `<!--
 category: Map
-tags: [halt, rest, stop, freeze, break, suspend, global, interval, wait, intermission]
+tags: ["global", "hold", "stop", "delay", "network", "internet", "worldwide", "break", "inactive", "suspend"]
 version: "2.10"
 unicode: "f9e3"
 -->
@@ -142454,7 +142454,7 @@ unicode: "f9e3"
     name: "World Pin",
     svg: `<!--
 category: Map
-tags: [location, marker, spot, global, place, position, site, point, navigate, enzyme]
+tags: ["location", "map", "destination", "travel", "global", "marker", "navigation", "point", "spot", "place"]
 version: "2.10"
 unicode: "f9e4"
 -->
@@ -142486,7 +142486,7 @@ unicode: "f9e4"
     name: "World Plus",
     svg: `<!--
 category: Map
-tags: [add, increase, expand, global, grow, enlarge, supplement, augment, boost, amplify]
+tags: ["add", "create", "new", "global", "expand", "growth", "international", "connection", "inclusion", "positive"]
 version: "2.10"
 unicode: "f9e5"
 -->
@@ -142518,7 +142518,7 @@ unicode: "f9e5"
     name: "World Question",
     svg: `<!--
 category: Map
-tags: [inquire, ask, wonder, curiosity, global, puzzle, query, doubt, uncertainty, probe]
+tags: ["help", "support", "query", "unknown", "mystery", "global", "faq", "information", "confusion", "doubt"]
 version: "2.10"
 unicode: "f9e6"
 -->
@@ -142550,7 +142550,7 @@ unicode: "f9e6"
     name: "World Search",
     svg: `<!--
 category: Map
-tags: [explore, find, seek, lookup, inspect, scan, global, hunt, pursue, discover]
+tags: ["find", "explore", "discover", "global", "locate", "investigate", "research", "international", "magnify", "query"]
 version: "2.10"
 unicode: "f9e7"
 -->
@@ -142582,7 +142582,7 @@ unicode: "f9e7"
     name: "World Share",
     svg: `<!--
 category: Map
-tags: [distribute, broadcast, communicate, transfer, global, convey, transmit, spread, disseminate, exchange]
+tags: ["social", "network", "distribute", "global", "connect", "spread", "broadcast", "community", "link", "export"]
 version: "2.10"
 unicode: "f9e8"
 -->
@@ -142614,7 +142614,7 @@ unicode: "f9e8"
     name: "World Star",
     svg: `<!--
 category: Map
-tags: [globe, stellar, earth, universe, cosmos, planet, celestial, galaxy, shine, astronomy]
+tags: ["favorite", "bookmark", "rate", "global", "premium", "quality", "best", "highlight", "achievement", "success"]
 version: "2.10"
 unicode: "f9e9"
 -->
@@ -142645,7 +142645,7 @@ unicode: "f9e9"
     name: "World Up",
     svg: `<!--
 category: Map
-tags: [ascend, rise, elevate, uplift, skyward, summit, advance, climb, soar, progress]
+tags: ["upload", "increase", "growth", "global", "elevate", "progress", "advance", "improvement", "positive", "arrow"]
 version: "2.10"
 unicode: "f9ea"
 -->
@@ -142676,7 +142676,7 @@ unicode: "f9ea"
     id: "tabler-world-upload",
     name: "World Upload",
     svg: `<!--
-tags: [earth, global, up, globe, arrow, internet]
+tags: ["send", "transfer", "publish", "global", "data", "internet", "cloud", "export", "distribute", "arrow"]
 category: Map
 version: "1.46"
 unicode: "ef8b"
@@ -142707,7 +142707,7 @@ unicode: "ef8b"
     id: "tabler-world-www",
     name: "World Www",
     svg: `<!--
-tags: [internet, online, web, website, browser]
+tags: ["internet", "website", "web", "global", "browser", "online", "network", "url", "domain", "connection"]
 category: Map
 unicode: "f38f"
 version: "1.91"
@@ -142742,7 +142742,7 @@ version: "1.91"
     name: "World X",
     svg: `<!--
 category: Map
-tags: [cancel, reject, deny, cross, exclude, ban, prohibit, halt, terminate, remove]
+tags: ["cancel", "close", "remove", "global", "error", "delete", "failure", "block", "restrict", "negative"]
 version: "2.10"
 unicode: "f9eb"
 -->
@@ -142774,7 +142774,7 @@ unicode: "f9eb"
     name: "World",
     svg: `<!--
 category: Map
-tags: [earth, globe, global, language, union]
+tags: ["globe", "global", "internet", "earth", "international", "planet", "network", "map", "geography", "travel"]
 version: "1.0"
 unicode: "eb54"
 -->
@@ -142803,7 +142803,7 @@ unicode: "eb54"
     id: "tabler-wrecking-ball",
     name: "Wrecking Ball",
     svg: `<!--
-tags: [demolish, building, wrecker, metal, swing, knock, down]
+tags: ["demolition", "destroy", "construction", "destruction", "crane", "heavy machinery", "impact", "break", "site", "building"]
 category: Vehicles
 version: "1.34"
 unicode: "ed97"
@@ -142837,7 +142837,7 @@ unicode: "ed97"
     name: "Writing Off",
     svg: `<!--
 category: Text
-tags: [name, certficate, sign, edit, write, document, pen, drawing, contract, signature]
+tags: ["disabled", "inactive", "cancel", "blocked", "stop", "prohibit", "unavailable", "forbidden", "crossed out", "no entry"]
 version: "1.67"
 unicode: "f1cb"
 -->
@@ -142866,7 +142866,7 @@ unicode: "f1cb"
     name: "Writing Sign Off",
     svg: `<!--
 category: Text
-tags: [name, certficate, sign, edit, write, document, writing, pen]
+tags: ["disabled", "inactive", "cancel", "blocked", "stop", "prohibit", "unavailable", "forbidden", "crossed out", "no entry"]
 version: "1.67"
 unicode: "f1cc"
 -->
@@ -142895,7 +142895,7 @@ unicode: "f1cc"
     name: "Writing Sign",
     svg: `<!--
 category: Text
-tags: [name, certficate, sign, edit, write, document, writing, pen]
+tags: ["signature", "autograph", "contract", "document", "agreement", "approve", "legal", "pen", "form", "identity"]
 version: "1.39"
 unicode: "ef07"
 -->
@@ -142923,7 +142923,7 @@ unicode: "ef07"
     name: "Writing",
     svg: `<!--
 category: Text
-tags: [name, certficate, sign, edit, write, document, pen, drawing, contract, signature]
+tags: ["pen", "document", "signature", "create", "edit", "note", "compose", "journal", "education", "form"]
 version: "1.39"
 unicode: "ef08"
 -->
@@ -142950,7 +142950,7 @@ unicode: "ef08"
     id: "tabler-x-power-y",
     name: "X Power Y",
     svg: `<!--
-tags: [math, expression, equation, power, raised]
+tags: ["math", "formula", "equation", "exponent", "power", "calculation", "algebra", "science", "function", "variable"]
 category: Math
 unicode: "10072"
 version: "3.20"
@@ -142979,7 +142979,7 @@ version: "3.20"
     id: "tabler-x",
     name: "X",
     svg: `<!--
-tags: [cancel, remove, delete, empty, close]
+tags: ["close", "cancel", "delete", "error", "remove", "multiply", "cross", "stop", "incorrect", "clear"]
 version: "1.0"
 unicode: "eb55"
 -->
@@ -143005,7 +143005,7 @@ unicode: "eb55"
     id: "tabler-xd",
     name: "Xd",
     svg: `<!--
-tags: [emotion, funny, smile, giggle, playful, humor, joy, laugh, happy, amusement]
+tags: ["laughing", "emoji", "emoticon", "funny", "joy", "happy", "expression", "meme", "chat", "reaction"]
 version: "2.14"
 unicode: "fa33"
 -->
@@ -143032,7 +143032,7 @@ unicode: "fa33"
     id: "tabler-xxx",
     name: "Xxx",
     svg: `<!--
-tags: [private, secret, restricted, forbidden, exclusive, classified, intimate, veiled, covert, unspoken]
+tags: ["adult", "explicit", "mature", "restricted", "warning", "forbidden", "content", "censored", "danger", "prohibited"]
 version: "2.29"
 unicode: "fc20"
 -->
@@ -143062,7 +143062,7 @@ unicode: "fc20"
     id: "tabler-yoga",
     name: "Yoga",
     svg: `<!--
-tags: [pose, sport, meditation, fitness]
+tags: ["meditation", "wellness", "health", "exercise", "mindfulness", "relax", "stretch", "fitness", "spiritual", "pose"]
 version: "1.54"
 unicode: "f01f"
 category: Sport
@@ -143092,7 +143092,7 @@ category: Sport
     name: "Zeppelin Off",
     svg: `<!--
 category: Vehicles
-tags: [airship, transport, ballon, flying, travel]
+tags: ["disabled", "inactive", "cancel", "blocked", "stop", "prohibit", "unavailable", "forbidden", "crossed out", "no entry"]
 unicode: "f43f"
 version: "1.94"
 -->
@@ -143120,7 +143120,7 @@ version: "1.94"
     name: "Zip",
     svg: `<!--
 category: Extensions
-tags: [file, document, folder, compress, archive, filetype]
+tags: ["archive", "compress", "file", "folder", "package", "data", "storage", "download", "upload", "bundle"]
 version: "1.93"
 unicode: "f3b4"
 -->
@@ -143147,7 +143147,7 @@ unicode: "f3b4"
     id: "tabler-zodiac-aquarius",
     name: "Zodiac Aquarius",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "horoscope", "star sign", "zodiac", "constellation", "birth sign", "future", "spirituality", "symbol", "water bearer"]
 category: Zodiac
 version: "1.17"
 unicode: "ecac"
@@ -143174,7 +143174,7 @@ unicode: "ecac"
     id: "tabler-zodiac-aries",
     name: "Zodiac Aries",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "horoscope", "star sign", "zodiac", "constellation", "birth sign", "future", "spirituality", "symbol", "ram"]
 category: Zodiac
 version: "1.17"
 unicode: "ecad"
@@ -143202,7 +143202,7 @@ unicode: "ecad"
     id: "tabler-zodiac-cancer",
     name: "Zodiac Cancer",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "crab", "horoscope", "constellation", "celestial", "symbol", "minimal", "rounded"]
 category: Zodiac
 version: "1.17"
 unicode: "ecae"
@@ -143231,7 +143231,7 @@ unicode: "ecae"
     id: "tabler-zodiac-capricorn",
     name: "Zodiac Capricorn",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "goat", "horoscope", "constellation", "celestial", "symbol", "minimal", "geometric"]
 category: Zodiac
 version: "1.17"
 unicode: "ecaf"
@@ -143259,7 +143259,7 @@ unicode: "ecaf"
     id: "tabler-zodiac-gemini",
     name: "Zodiac Gemini",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "twins", "horoscope", "constellation", "celestial", "symbol", "minimal", "geometric"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb0"
@@ -143288,7 +143288,7 @@ unicode: "ecb0"
     id: "tabler-zodiac-leo",
     name: "Zodiac Leo",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "lion", "horoscope", "constellation", "celestial", "symbol", "minimal", "rounded"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb1"
@@ -143318,7 +143318,7 @@ unicode: "ecb1"
     id: "tabler-zodiac-libra",
     name: "Zodiac Libra",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "scales", "horoscope", "constellation", "celestial", "symbol", "minimal", "geometric"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb2"
@@ -143345,7 +143345,7 @@ unicode: "ecb2"
     id: "tabler-zodiac-pisces",
     name: "Zodiac Pisces",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "fish", "horoscope", "constellation", "celestial", "symbol", "minimal", "rounded"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb3"
@@ -143373,7 +143373,7 @@ unicode: "ecb3"
     id: "tabler-zodiac-sagittarius",
     name: "Zodiac Sagittarius",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "archer", "horoscope", "constellation", "celestial", "symbol", "minimal", "geometric"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb4"
@@ -143401,7 +143401,7 @@ unicode: "ecb4"
     id: "tabler-zodiac-scorpio",
     name: "Zodiac Scorpio",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "scorpion", "horoscope", "constellation", "celestial", "symbol", "minimal", "geometric"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb5"
@@ -143429,7 +143429,7 @@ unicode: "ecb5"
     id: "tabler-zodiac-taurus",
     name: "Zodiac Taurus",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "bull", "horoscope", "constellation", "celestial", "symbol", "minimal", "rounded"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb6"
@@ -143456,7 +143456,7 @@ unicode: "ecb6"
     id: "tabler-zodiac-virgo",
     name: "Zodiac Virgo",
     svg: `<!--
-tags: [sign, horoscope, constellation, stars]
+tags: ["astrology", "maiden", "horoscope", "constellation", "celestial", "symbol", "minimal", "geometric"]
 category: Zodiac
 version: "1.17"
 unicode: "ecb7"
@@ -143485,7 +143485,7 @@ unicode: "ecb7"
     id: "tabler-zoom-replace",
     name: "Zoom Replace",
     svg: `<!--
-tags: [find, change, switch, swap]
+tags: ["magnify", "search", "find", "substitute", "swap", "change", "ui", "tool"]
 category: Map
 version: "1.79"
 unicode: "f2a7"
@@ -143515,7 +143515,7 @@ unicode: "f2a7"
     id: "tabler-zoom-reset",
     name: "Zoom Reset",
     svg: `<!--
-tags: [refresh, default, settings, vision]
+tags: ["magnify", "search", "default", "restore", "original", "revert", "ui", "tool"]
 category: Map
 version: "1.78"
 unicode: "f295"
@@ -143543,7 +143543,7 @@ unicode: "f295"
     id: "tabler-zzz-off",
     name: "Zzz Off",
     svg: `<!--
-tags: [sleep, sleeping, bed, dream, snooze, rest]
+tags: ["sleep", "awake", "alert", "disabled", "inactive", "no sleep", "rest", "ui"]
 unicode: "f440"
 version: "1.94"
 -->
@@ -143570,7 +143570,7 @@ version: "1.94"
     id: "tabler-zzz",
     name: "Zzz",
     svg: `<!--
-tags: [sleep, sleeping, bed, dream, snooze, rest]
+tags: ["sleep", "dream", "rest", "tired", "inactive", "slumber", "ui", "mood"]
 version: "1.72"
 unicode: "f228"
 -->
