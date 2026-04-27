@@ -610,7 +610,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Forward 2 Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="nonzero"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M17.954 11.677A7.5 7.5 0 0 0 4 15.5a1 1 0 1 1-2 0 9.5 9.5 0 0 1 17.22-5.537l.537-3.045a1 1 0 1 1 1.97.347l-1.042 5.909a1 1 0 0 1-.412.645 1.1 1.1 0 0 1-.975.125l-5.68-1.001a1 1 0 1 1 .347-1.97l3.989.704Z"/></g></svg>`,
     style: "outline",
-    tags: ["forward", "2", "line", "next", "skip", "play", "media control", "navigation", "direction", "thin", "outline"],
+    tags: ["forward", "2", "line", "next", "skip", "play", "media control", "navigation", "direction", "thin", "outline", "media player", "progress", "next track", "point right"],
     category: "arrow"
   },
   {
@@ -618,7 +618,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Forward Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M21.386 5.426A1.5 1.5 0 0 0 20 4.5H10a7.5 7.5 0 1 0 0 15h9a1.5 1.5 0 0 0 0-3h-9a4.5 4.5 0 1 1 0-9h6.379l-.94.94a1.5 1.5 0 0 0 2.122 2.12l3.5-3.5a1.5 1.5 0 0 0 .325-1.634Z"/></g></svg>`,
     style: "filled",
-    tags: ["forward", "fill", "next", "skip", "play", "media control", "navigation", "direction", "solid", "bold"],
+    tags: ["forward", "fill", "next", "skip", "play", "media control", "navigation", "direction", "solid", "bold", "media player", "progress", "next track", "point right", "arrow"],
     category: "arrow"
   },
   {
@@ -626,7 +626,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Forward Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M20.924 5.617A1 1 0 0 0 20 5H10a7 7 0 0 0 0 14h9a1 1 0 1 0 0-2h-9a5 5 0 0 1 0-10h7.586l-1.793 1.793a1 1 0 1 0 1.414 1.414l3.5-3.5a1 1 0 0 0 .217-1.09Z"/></g></svg>`,
     style: "outline",
-    tags: ["forward", "line", "next", "skip", "play", "media control", "navigation", "direction", "thin", "outline"],
+    tags: ["forward", "line", "next", "skip", "play", "media control", "navigation", "direction", "thin", "outline", "media player", "progress", "next track", "point right", "arrow"],
     category: "arrow"
   },
   {
@@ -634,7 +634,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Fullscreen 2 Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="nonzero"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M8.94 12.94a1.5 1.5 0 0 1 2.224 2.007l-.103.114L7.12 19H8.5a1.5 1.5 0 0 1 .144 2.993L8.5 22h-5a1.5 1.5 0 0 1-1.493-1.356L2 20.5v-5a1.5 1.5 0 0 1 2.993-.144L5 15.5v1.379l3.94-3.94ZM20.5 2a1.5 1.5 0 0 1 1.493 1.356L22 3.5v5a1.5 1.5 0 0 1-2.993.144L19 8.5V7.121l-3.94 3.94a1.5 1.5 0 0 1-2.224-2.008l.103-.114L16.88 5H15.5a1.5 1.5 0 0 1-.144-2.993L15.5 2h5Z"/></g></svg>`,
     style: "filled",
-    tags: ["fullscreen", "2", "fill", "expand", "maximize", "view", "presentation", "video", "solid", "ui", "interface"],
+    tags: ["fullscreen", "2", "fill", "expand", "maximize", "view", "presentation", "video", "solid", "ui", "interface", "enlarge", "cinema mode", "display", "app"],
     category: "arrow"
   },
   {
@@ -642,7 +642,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Fullscreen 2 Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="nonzero"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M9.793 12.793a1 1 0 0 1 1.497 1.32l-.083.094L6.414 19H9a1 1 0 0 1 .117 1.993L9 21H4a1 1 0 0 1-.993-.883L3 20v-5a1 1 0 0 1 1.993-.117L5 15v2.586l4.793-4.793ZM20 3a1 1 0 0 1 .993.883L21 4v5a1 1 0 0 1-1.993.117L19 9V6.414l-4.793 4.793a1 1 0 0 1-1.497-1.32l.083-.094L17.586 5H15a1 1 0 0 1-.117-1.993L15 3h5Z"/></g></svg>`,
     style: "outline",
-    tags: ["fullscreen", "2", "line", "expand", "maximize", "view", "presentation", "video", "outline", "ui", "interface"],
+    tags: ["fullscreen", "2", "line", "expand", "maximize", "view", "presentation", "video", "outline", "ui", "interface", "enlarge", "cinema mode", "display", "app"],
     category: "arrow"
   },
   {
@@ -650,7 +650,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Fullscreen Exit 2 Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="nonzero"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M10.5 12a1.5 1.5 0 0 1 1.493 1.356L12 13.5v5a1.5 1.5 0 0 1-2.993.144L9 18.5v-1.379l-3.94 3.94a1.5 1.5 0 0 1-2.224-2.008l.103-.114L6.88 15H5.5a1.5 1.5 0 0 1-.144-2.993L5.5 12h5Zm8.44-9.06a1.5 1.5 0 0 1 2.224 2.007l-.103.114L17.12 9H18.5a1.5 1.5 0 0 1 .144 2.993L18.5 12h-5a1.5 1.5 0 0 1-1.493-1.356L12 10.5v-5a1.5 1.5 0 0 1 2.993-.144L15 5.5v1.379l3.94-3.94Z"/></g></svg>`,
     style: "filled",
-    tags: ["fullscreen", "exit", "2", "fill", "minimize", "contract", "shrink", "close", "view", "solid", "ui"],
+    tags: ["fullscreen", "exit", "2", "fill", "minimize", "contract", "shrink", "close", "view", "solid", "ui", "restore down", "window", "interface", "app"],
     category: "arrow"
   },
   {
@@ -658,7 +658,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Fullscreen Exit 2 Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="nonzero"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M11 12a1 1 0 0 1 .993.883L12 13v5a1 1 0 0 1-1.993.117L10 18v-2.586l-5.293 5.293a1 1 0 0 1-1.497-1.32l.083-.094L8.586 14H6a1 1 0 0 1-.117-1.993L6 12h5Zm8.293-8.707a1 1 0 0 1 1.497 1.32l-.083.094L15.414 10H18a1 1 0 0 1 .117 1.993L18 12h-5a1 1 0 0 1-.993-.883L12 11V6a1 1 0 0 1 1.993-.117L14 6v2.586l5.293-5.293Z"/></g></svg>`,
     style: "outline",
-    tags: ["fullscreen", "exit", "2", "line", "minimize", "contract", "shrink", "close", "view", "outline", "ui"],
+    tags: ["fullscreen", "exit", "2", "line", "minimize", "contract", "shrink", "close", "view", "outline", "ui", "restore down", "window", "interface", "app"],
     category: "arrow"
   },
   {
@@ -666,7 +666,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Down Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M4.488 14.902C3.417 13.831 4.175 12 5.69 12H8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v8h2.31c1.515 0 2.273 1.831 1.202 2.902l-6.451 6.453a1.5 1.5 0 0 1-2.122 0l-6.451-6.453Z"/></g></svg>`,
     style: "filled",
-    tags: ["large", "arrow", "down", "fill", "scroll", "collapse", "dropdown", "indicator", "chevron", "thick", "solid"],
+    tags: ["large", "arrow", "down", "fill", "scroll", "collapse", "dropdown", "indicator", "chevron", "thick", "solid", "download", "more info", "pointer", "heavy"],
     category: "arrow"
   },
   {
@@ -674,7 +674,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Down Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M6.414 14 12 19.587 17.586 14H15c-.545 0-1-.455-1-1V4h-4v9a1 1 0 0 1-1 1H6.414Zm-1.926.902C3.417 13.831 4.175 12 5.69 12H8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v8h2.31c1.515 0 2.273 1.831 1.202 2.902l-6.451 6.453a1.5 1.5 0 0 1-2.122 0l-6.451-6.453Z"/></g></svg>`,
     style: "outline",
-    tags: ["large", "arrow", "down", "line", "scroll", "collapse", "dropdown", "indicator", "chevron", "thick", "outline"],
+    tags: ["large", "arrow", "down", "line", "scroll", "collapse", "dropdown", "indicator", "chevron", "thick", "outline", "download", "more info", "pointer", "heavy"],
     category: "arrow"
   },
   {
@@ -682,7 +682,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Left Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M9.098 4.488C10.168 3.417 12 4.175 12 5.69V8h8a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-8v2.31c0 1.515-1.831 2.273-2.902 1.202l-6.453-6.451a1.5 1.5 0 0 1 0-2.122l6.453-6.451Z"/></g></svg>`,
     style: "filled",
-    tags: ["large", "arrow", "left", "fill", "previous", "back", "indicator", "chevron", "thick", "solid", "navigation"],
+    tags: ["large", "arrow", "left", "fill", "previous", "back", "indicator", "chevron", "thick", "solid", "navigation", "backward", "return", "pointer", "heavy"],
     category: "arrow"
   },
   {
@@ -690,7 +690,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Left Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M10 6.414 4.413 12 10 17.586V15c0-.545.455-1 1-1h9v-4h-9a1 1 0 0 1-1-1V6.414Zm-.902-1.926C10.168 3.417 12 4.175 12 5.69V8h8a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-8v2.31c0 1.515-1.831 2.273-2.902 1.202l-6.453-6.451a1.5 1.5 0 0 1 0-2.122l6.453-6.451Z"/></g></svg>`,
     style: "outline",
-    tags: ["large", "arrow", "left", "line", "previous", "back", "indicator", "chevron", "thick", "outline", "navigation"],
+    tags: ["large", "arrow", "left", "line", "previous", "back", "indicator", "chevron", "thick", "outline", "navigation", "backward", "return", "pointer", "heavy"],
     category: "arrow"
   },
   {
@@ -698,7 +698,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Right Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M14.902 19.512C13.831 20.583 12 19.825 12 18.31V16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h8V5.69c0-1.515 1.831-2.273 2.902-1.202l6.453 6.451a1.5 1.5 0 0 1 0 2.121l-6.453 6.452Z"/></g></svg>`,
     style: "filled",
-    tags: ["large", "arrow", "right", "fill", "next", "forward", "indicator", "chevron", "thick", "solid", "navigation"],
+    tags: ["large", "arrow", "right", "fill", "next", "forward", "indicator", "chevron", "thick", "solid", "navigation", "proceed", "pointer", "heavy", "point right"],
     category: "arrow"
   },
   {
@@ -706,7 +706,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Right Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M14 17.586 19.587 12 14 6.414V9c0 .545-.455 1-1 1H4v4h9a1 1 0 0 1 1 1v2.586Zm.902 1.926C13.831 20.583 12 19.825 12 18.31V16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h8V5.69c0-1.515 1.831-2.273 2.902-1.202l6.453 6.451a1.5 1.5 0 0 1 0 2.121l-6.453 6.452Z"/></g></svg>`,
     style: "outline",
-    tags: ["large", "arrow", "right", "line", "next", "forward", "indicator", "chevron", "thick", "outline", "navigation"],
+    tags: ["large", "arrow", "right", "line", "next", "forward", "indicator", "chevron", "thick", "outline", "navigation", "proceed", "pointer", "heavy", "point right"],
     category: "arrow"
   },
   {
@@ -714,7 +714,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Up Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M19.512 9.098C20.583 10.169 19.825 12 18.31 12H16v8a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-8H5.69c-1.515 0-2.273-1.831-1.202-2.902l6.451-6.452a1.5 1.5 0 0 1 2.121 0l6.452 6.452Z"/></g></svg>`,
     style: "filled",
-    tags: ["large", "arrow", "up", "fill", "scroll", "expand", "indicator", "chevron", "thick", "solid", "top"],
+    tags: ["large", "arrow", "up", "fill", "scroll", "expand", "indicator", "chevron", "thick", "solid", "top", "upload", "scroll up", "pointer", "heavy"],
     category: "arrow"
   },
   {
@@ -722,7 +722,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Large Arrow Up Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M17.586 10 12 4.413 6.414 10H9c.545 0 1 .455 1 1v9h4v-9a1 1 0 0 1 1-1h2.586Zm1.926-.902c1.071 1.07.313 2.902-1.202 2.902H16v8a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-8H5.69c-1.515 0-2.273-1.831-1.202-2.902l6.451-6.453a1.5 1.5 0 0 1 2.121 0l6.452 6.453Z"/></g></svg>`,
     style: "outline",
-    tags: ["large", "arrow", "up", "line", "scroll", "expand", "indicator", "chevron", "thick", "outline", "top"],
+    tags: ["large", "arrow", "up", "line", "scroll", "expand", "indicator", "chevron", "thick", "outline", "top", "upload", "scroll up", "pointer", "heavy"],
     category: "arrow"
   },
   {
@@ -730,7 +730,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Left Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M7.94 13.06a1.5 1.5 0 0 1 0-2.12l5.656-5.658a1.5 1.5 0 1 1 2.121 2.122L11.122 12l4.596 4.596a1.5 1.5 0 1 1-2.12 2.122L7.938 13.06Z"/></g></svg>`,
     style: "filled",
-    tags: ["left", "fill", "previous", "back", "direction", "navigation", "solid", "arrowhead"],
+    tags: ["left", "fill", "previous", "back", "direction", "navigation", "solid", "arrowhead", "previous page", "go back", "undo", "point left", "simple", "pointer", "bold"],
     category: "arrow"
   },
   {
@@ -738,7 +738,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Left Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M8.293 12.707a1 1 0 0 1 0-1.414l5.657-5.657a1 1 0 1 1 1.414 1.414L10.414 12l4.95 4.95a1 1 0 0 1-1.414 1.414l-5.657-5.657Z"/></g></svg>`,
     style: "outline",
-    tags: ["left", "line", "previous", "back", "direction", "navigation", "outline", "arrowhead"],
+    tags: ["left", "line", "previous", "back", "direction", "navigation", "outline", "arrowhead", "previous page", "go back", "undo", "point left", "simple", "pointer", "minimal"],
     category: "arrow"
   },
   {
@@ -746,7 +746,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Left Small Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M9.464 12.707a1 1 0 0 1 0-1.414l2.829-2.829A1 1 0 0 1 14 9.172v5.656a1 1 0 0 1-1.707.708l-2.829-2.829Z"/></g></svg>`,
     style: "filled",
-    tags: ["left", "small", "fill", "previous", "back", "direction", "navigation", "solid", "chevron", "compact"],
+    tags: ["left", "small", "fill", "previous", "back", "direction", "navigation", "solid", "chevron", "compact", "previous item", "back button", "point left", "indicator", "bold"],
     category: "arrow"
   },
   {
@@ -754,7 +754,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Left Small Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M13.707 8.465a1 1 0 0 1 0 1.414L11.586 12l2.121 2.121a1 1 0 0 1-1.414 1.415l-2.828-2.829a1 1 0 0 1 0-1.414l2.828-2.828a1 1 0 0 1 1.414 0Z"/></g></svg>`,
     style: "outline",
-    tags: ["left", "small", "line", "previous", "back", "direction", "navigation", "outline", "chevron", "compact"],
+    tags: ["left", "small", "line", "previous", "back", "direction", "navigation", "outline", "chevron", "compact", "previous item", "back button", "point left", "indicator", "minimal"],
     category: "arrow"
   },
   {
@@ -762,7 +762,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Move Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="nonzero"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M8.11 7.06a1.5 1.5 0 0 1 0-2.12l2.758-2.758a1.6 1.6 0 0 1 2.263 0l2.758 2.757a1.5 1.5 0 1 1-2.121 2.122l-.268-.268V10.5h3.707l-.268-.268a1.5 1.5 0 0 1 2.122-2.121l2.757 2.758a1.6 1.6 0 0 1 0 2.262l-2.757 2.758a1.5 1.5 0 0 1-2.122-2.121l.268-.268H13.5v3.707l.268-.268a1.5 1.5 0 0 1 2.121 2.122l-2.758 2.757a1.6 1.6 0 0 1-2.263 0l-2.757-2.757a1.5 1.5 0 0 1 2.121-2.122l.268.268V13.5H6.793l.268.268a1.5 1.5 0 1 1-2.122 2.121l-2.757-2.758a1.6 1.6 0 0 1 0-2.262L4.939 8.11a1.5 1.5 0 1 1 2.122 2.121l-.268.268H10.5V6.793l-.268.268a1.5 1.5 0 0 1-2.121 0Z"/></g></svg>`,
     style: "filled",
-    tags: ["move", "fill", "drag", "reorder", "position", "arrows", "direction", "solid", "ui"],
+    tags: ["move", "fill", "drag", "reorder", "position", "arrows", "direction", "solid", "ui", "drag handle", "reposition", "crosshairs", "directional", "interface", "bold"],
     category: "arrow"
   },
   {
@@ -770,7 +770,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Move Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="nonzero"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M8.464 6.707a1 1 0 0 1 0-1.414l2.758-2.758a1.1 1.1 0 0 1 1.556 0l2.757 2.758a1 1 0 1 1-1.414 1.414L13 5.586V11h5.414l-1.121-1.121a1 1 0 0 1 1.414-1.415l2.758 2.758a1.1 1.1 0 0 1 0 1.556l-2.758 2.758a1 1 0 0 1-1.414-1.415L18.414 13H13v5.414l1.121-1.121a1 1 0 0 1 1.414 1.414l-2.757 2.758a1.1 1.1 0 0 1-1.556 0l-2.758-2.758a1 1 0 1 1 1.415-1.414l1.12 1.121V13H5.587l1.121 1.121a1 1 0 1 1-1.414 1.415l-2.758-2.758a1.1 1.1 0 0 1 0-1.556l2.758-2.758A1 1 0 0 1 6.707 9.88l-1.121 1.12H11V5.587L9.879 6.707a1 1 0 0 1-1.415 0Z"/></g></svg>`,
     style: "outline",
-    tags: ["move", "line", "drag", "reorder", "position", "arrows", "direction", "outline", "ui"],
+    tags: ["move", "line", "drag", "reorder", "position", "arrows", "direction", "outline", "ui", "drag handle", "reposition", "crosshairs", "directional", "interface", "minimal"],
     category: "arrow"
   },
   {
@@ -778,7 +778,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Right Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M16.06 10.94a1.5 1.5 0 0 1 0 2.12l-5.656 5.658a1.5 1.5 0 1 1-2.121-2.122L12.879 12 8.283 7.404a1.5 1.5 0 0 1 2.12-2.122l5.658 5.657Z"/></g></svg>`,
     style: "filled",
-    tags: ["right", "fill", "next", "forward", "direction", "navigation", "solid", "arrowhead"],
+    tags: ["right", "fill", "next", "forward", "direction", "navigation", "solid", "arrowhead", "next page", "go forward", "redo", "point right", "simple", "pointer", "bold"],
     category: "arrow"
   },
   {
@@ -786,7 +786,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Right Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002-.071.035-.02.004-.014-.004-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113-.013.002-.185.093-.01.01-.003.011.018.43.005.012.008.007.201.093c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.004-.011.017-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M15.707 11.293a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 1 1-1.414-1.414l4.95-4.95-4.95-4.95a1 1 0 0 1 1.414-1.414l5.657 5.657Z"/></g></svg>`,
     style: "outline",
-    tags: ["right", "line", "next", "forward", "direction", "navigation", "outline", "arrowhead"],
+    tags: ["right", "line", "next", "forward", "direction", "navigation", "outline", "arrowhead", "next page", "go forward", "redo", "point right", "simple", "pointer", "minimal"],
     category: "arrow"
   },
   {
@@ -794,7 +794,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Right Small Fill",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M14.536 12.707a1 1 0 0 0 0-1.414l-2.829-2.829A1 1 0 0 0 10 9.172v5.656a1 1 0 0 0 1.707.708l2.829-2.829Z"/></g></svg>`,
     style: "filled",
-    tags: ["right", "small", "fill", "next", "forward", "direction", "navigation", "solid", "chevron", "compact"],
+    tags: ["right", "small", "fill", "next", "forward", "direction", "navigation", "solid", "chevron", "compact", "next item", "forward button", "point right", "indicator", "bold"],
     category: "arrow"
   },
   {
@@ -802,7 +802,7 @@ export const mingcuteIcons: IconItem[] = [
     name: "Right Small Line",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.594 23.258l-.012.002-.071.035-.02.004-.014-.004-.071-.036c-.01-.003-.019 0-.024.006l-.004.01-.017.428.005.02.01.013.104.074.015.004.012-.004.104-.074.012-.016.004-.017-.017-.427c-.002-.01-.009-.017-.016-.018Zm.264-.113-.014.002-.184.093-.01.01-.003.011.018.43.005.012.008.008.201.092c.012.004.023 0 .029-.008l.004-.014-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014-.034.614c0 .012.007.02.017.024l.015-.002.201-.093.01-.008.003-.011.018-.43-.003-.012-.01-.01-.184-.092Z"/><path fill="currentColor" d="M10.293 8.465a1 1 0 0 0 0 1.414L12.414 12l-2.121 2.121a1 1 0 0 0 1.414 1.415l2.829-2.829a1 1 0 0 0 0-1.414l-2.829-2.828a1 1 0 0 0-1.414 0Z"/></g></svg>`,
     style: "outline",
-    tags: ["right", "small", "line", "next", "forward", "direction", "navigation", "outline", "chevron", "compact"],
+    tags: ["right", "small", "line", "next", "forward", "direction", "navigation", "outline", "chevron", "compact", "next item", "forward button", "point right", "indicator", "minimal"],
     category: "arrow"
   },
   {

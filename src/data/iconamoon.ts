@@ -1653,7 +1653,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M12 21C16.9706 21 21 16.9706 21 12C21 11.9156 20.9988 11.8316 20.9965 11.7477C19.8634 12.5371 18.4857 13 17 13C13.134 13 10 9.86601 10 6.00002C10 4.96731 10.2236 3.98683 10.6251 3.10437C6.30715 3.76627 3 7.49693 3 12C3 16.9706 7.02944 21 12 21Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mode ", "  dark"],
+    tags: ["mode", "dark", "night", "contrast", "interface", "display", "theme", "settings", "preferences", "moon", "crescent"],
     category: "Light"
   },
   {
@@ -1671,7 +1671,7 @@ export const iconamoonIcons: IconItem[] = [
 <path d="M18.364 5.63605L17.6568 6.34315" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["mode ", "  light"],
+    tags: ["mode", "light", "day", "brightness", "interface", "display", "theme", "settings", "preferences", "sun", "sunny"],
     category: "Light"
   },
   {
