@@ -64010,7 +64010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tea Bag Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,136V72h19.47a16.09,16.09,0,0,1,13.72,7.77L165.72,114a16.06,16.06,0,0,1,2.28,8.24V216a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V122.22A16.06,16.06,0,0,1,42.28,114L62.81,79.77A16.09,16.09,0,0,1,76.53,72H96v64a8,8,0,0,0,16,0Zm112,24a16,16,0,0,1-16-16V64A56,56,0,0,0,96,64v8h16V64a40,40,0,0,1,80,0v80a32,32,0,0,0,32,32,8,8,0,0,0,0-16Z"/></svg>`,
     style: "fill",
-    tags: ["tea", "bag"],
+    tags: ["tea", "bag", "drink", "hot beverage", "infusion", "sachet", "kitchen", "comfort", "filled", "solid", "foodie"],
     category: "fill"
   },
   {
@@ -64018,7 +64018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tea Bag Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,162a18,18,0,0,1-18-18V64A54,54,0,0,0,98,64V74H76.53a14.07,14.07,0,0,0-12,6.8L44,115a14,14,0,0,0-2,7.21V216a14,14,0,0,0,14,14h96a14,14,0,0,0,14-14V122.22a14,14,0,0,0-2-7.21L143.48,80.8a14.07,14.07,0,0,0-12-6.8H110V64a42,42,0,0,1,84,0v80a30,30,0,0,0,30,30,6,6,0,0,0,0-12ZM131.47,86a2,2,0,0,1,1.72,1l20.53,34.22a2,2,0,0,1,.28,1V216a2,2,0,0,1-2,2H56a2,2,0,0,1-2-2V122.22a2,2,0,0,1,.29-1L74.81,87a2,2,0,0,1,1.72-1H98v50a6,6,0,0,0,12,0V86Z"/></svg>`,
     style: "light",
-    tags: ["tea", "bag"],
+    tags: ["tea", "bag", "drink", "hot beverage", "infusion", "sachet", "kitchen", "comfort", "outline", "thin", "foodie"],
     category: "light"
   },
   {
@@ -64026,7 +64026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tea Bag Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,164a20,20,0,0,1-20-20V64a52,52,0,0,0-104,0V76H76.53a12.06,12.06,0,0,0-10.29,5.83L45.71,116A12,12,0,0,0,44,122.22V216a12,12,0,0,0,12,12h96a12,12,0,0,0,12-12V122.22a12,12,0,0,0-1.71-6.18L141.76,81.83A12.06,12.06,0,0,0,131.47,76H108V64a44,44,0,0,1,88,0v80a28,28,0,0,0,28,28,4,4,0,0,0,0-8ZM131.47,84a4,4,0,0,1,3.43,1.94l20.53,34.22a4,4,0,0,1,.57,2.06V216a4,4,0,0,1-4,4H56a4,4,0,0,1-4-4V122.22a4,4,0,0,1,.57-2.06L73.1,85.94A4,4,0,0,1,76.53,84H100v52a4,4,0,0,0,8,0V84Z"/></svg>`,
     style: "thin",
-    tags: ["tea", "bag"],
+    tags: ["tea", "bag", "drink", "hot beverage", "infusion", "sachet", "kitchen", "comfort", "outline", "minimal", "foodie"],
     category: "thin"
   },
   {
@@ -64034,7 +64034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tea Bag Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,160a16,16,0,0,1-16-16V64A56,56,0,0,0,96,64v8H76.53a16.09,16.09,0,0,0-13.72,7.77L42.28,114A16.06,16.06,0,0,0,40,122.22V216a16,16,0,0,0,16,16h96a16,16,0,0,0,16-16V122.22a16.06,16.06,0,0,0-2.28-8.24L145.19,79.77A16.09,16.09,0,0,0,131.47,72H112V64a40,40,0,0,1,80,0v80a32,32,0,0,0,32,32,8,8,0,0,0,0-16ZM131.47,88,152,122.22V216H56V122.22L76.53,88H96v48a8,8,0,0,0,16,0V88Z"/></svg>`,
     style: "regular",
-    tags: ["tea", "bag"],
+    tags: ["tea", "bag", "drink", "hot beverage", "infusion", "sachet", "kitchen", "comfort", "outline", "foodie"],
     category: "regular"
   },
   {
@@ -64042,7 +64042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Telegram Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M231.49,23.16a13,13,0,0,0-13.23-2.26L15.6,100.21a18.22,18.22,0,0,0,3.12,34.86L68,144.74V200a20,20,0,0,0,34.4,13.88l22.67-23.51L162.35,223a20,20,0,0,0,32.7-10.54L235.67,35.91A13,13,0,0,0,231.49,23.16ZM139.41,77.52,77.22,122.09l-34.43-6.75ZM92,190.06V161.35l15,13.15Zm81.16,10.52L99.28,135.81,205.59,59.63Z"/></svg>`,
     style: "bold",
-    tags: ["telegram", "logo"],
+    tags: ["telegram", "logo", "social media", "app", "chat", "messaging", "communication", "platform", "bold", "filled", "network"],
     category: "bold"
   },
   {
@@ -64050,7 +64050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Telegram Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M223.41,32.09,80,134.87,21,123.3A6.23,6.23,0,0,1,20,111.38L222.63,32.07A1,1,0,0,1,223.41,32.09ZM80,200a8,8,0,0,0,13.76,5.56l30.61-31.76L80,134.87Z" opacity="0.2"/><path d="M228.88,26.19a9,9,0,0,0-9.16-1.57L17.06,103.93a14.22,14.22,0,0,0,2.43,27.21L72,141.45V200a15.92,15.92,0,0,0,10,14.83,15.91,15.91,0,0,0,17.51-3.73l25.32-26.26L165,220a15.88,15.88,0,0,0,10.51,4,16.3,16.3,0,0,0,5-.79,15.85,15.85,0,0,0,10.67-11.63L231.77,35A9,9,0,0,0,228.88,26.19ZM78.15,126.35l-49.61-9.73,139.2-54.48ZM88,200V152.52l24.79,21.74Zm87.53,8L92.85,135.5l119-85.29Z"/></svg>`,
     style: "duotone",
-    tags: ["telegram", "logo"],
+    tags: ["telegram", "logo", "social media", "app", "chat", "messaging", "communication", "platform", "duotone", "network"],
     category: "duotone"
   },
   {
@@ -64058,7 +64058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Telegram Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.88,26.19a9,9,0,0,0-9.16-1.57L17.06,103.93a14.22,14.22,0,0,0,2.43,27.21L72,141.45V200a15.92,15.92,0,0,0,10,14.83,15.91,15.91,0,0,0,17.51-3.73l25.32-26.26L165,220a15.88,15.88,0,0,0,10.51,4,16.3,16.3,0,0,0,5-.79,15.85,15.85,0,0,0,10.67-11.63L231.77,35A9,9,0,0,0,228.88,26.19ZM175.53,208,92.85,135.5l119-85.29Z"/></svg>`,
     style: "fill",
-    tags: ["telegram", "logo"],
+    tags: ["telegram", "logo", "social media", "app", "chat", "messaging", "communication", "platform", "filled", "solid", "network"],
     category: "fill"
   },
   {
@@ -64066,7 +64066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Telegram Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M227.57,27.7a7,7,0,0,0-7.13-1.22L17.78,105.79a12.23,12.23,0,0,0,2.1,23.39L74,139.81V200a14,14,0,0,0,24.08,9.71l26.64-27.63,41.58,36.45a13.9,13.9,0,0,0,9.2,3.49,14.33,14.33,0,0,0,4.36-.69,13.86,13.86,0,0,0,9.34-10.17L229.82,34.57A7,7,0,0,0,227.57,27.7ZM22.05,117.37h0a.46.46,0,0,1,0-.32.51.51,0,0,1,.15-.08L181.91,54.45l-103.3,74L22.2,117.41Zm67.39,84A2,2,0,0,1,86,200V148.11l29.69,26Zm88.07,7.08a1.93,1.93,0,0,1-1.34,1.44,2,2,0,0,1-2-.4L89.64,135.34,215,45.5Z"/></svg>`,
     style: "light",
-    tags: ["telegram", "logo"],
+    tags: ["telegram", "logo", "social media", "app", "chat", "messaging", "communication", "platform", "outline", "light", "network"],
     category: "light"
   },
   {
@@ -64074,7 +64074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Telegram Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M226.27,29.22a5,5,0,0,0-5.1-.87L18.51,107.66a10.22,10.22,0,0,0,1.75,19.56L76,138.16V200a12,12,0,0,0,7.51,11.13A12.1,12.1,0,0,0,88,212a12,12,0,0,0,8.62-3.68l28-29,43,37.71a12,12,0,0,0,7.89,3,12.47,12.47,0,0,0,3.74-.59,11.87,11.87,0,0,0,8-8.72L227.87,34.12A5,5,0,0,0,226.27,29.22ZM20,117.38a2.13,2.13,0,0,1,1.42-2.27L196.07,46.76l-117,83.85L21.81,119.37A2.12,2.12,0,0,1,20,117.38Zm70.87,85.38A4,4,0,0,1,84,200V143.7L118.58,174Zm88.58,6.14a4,4,0,0,1-6.57,2.09L86.43,135.18,218.13,40.8Z"/></svg>`,
     style: "thin",
-    tags: ["telegram", "logo"],
+    tags: ["telegram", "logo", "social media", "app", "chat", "messaging", "communication", "platform", "outline", "minimal", "network"],
     category: "thin"
   },
   {
@@ -64082,7 +64082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Telegram Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.88,26.19a9,9,0,0,0-9.16-1.57L17.06,103.93a14.22,14.22,0,0,0,2.43,27.21L72,141.45V200a15.92,15.92,0,0,0,10,14.83,15.91,15.91,0,0,0,17.51-3.73l25.32-26.26L165,220a15.88,15.88,0,0,0,10.51,4,16.3,16.3,0,0,0,5-.79,15.85,15.85,0,0,0,10.67-11.63L231.77,35A9,9,0,0,0,228.88,26.19Zm-61.14,36L78.15,126.35l-49.6-9.73ZM88,200V152.52l24.79,21.74Zm87.53,8L92.85,135.5l119-85.29Z"/></svg>`,
     style: "regular",
-    tags: ["telegram", "logo"],
+    tags: ["telegram", "logo", "social media", "app", "chat", "messaging", "communication", "platform", "outline", "network"],
     category: "regular"
   },
   {
@@ -64090,7 +64090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,60H157l27.52-27.52a12,12,0,0,0-17-17L128,55,88.49,15.51a12,12,0,0,0-17,17L99,60H40A20,20,0,0,0,20,80V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V80A20,20,0,0,0,216,60ZM44,84h84V196H44ZM212,196H152V84h60Zm-44-80a16,16,0,1,1,16,16A16,16,0,0,1,168,116Zm32,48a16,16,0,1,1-16-16A16,16,0,0,1,200,164Z"/></svg>`,
     style: "bold",
-    tags: ["television"],
+    tags: ["television", "tv", "screen", "entertainment", "media", "display", "broadcast", "bold", "device", "video"],
     category: "bold"
   },
   {
@@ -64098,7 +64098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,72V208H40a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8Z" opacity="0.2"/><path d="M216,64H147.31l34.35-34.34a8,8,0,1,0-11.32-11.32L128,60.69,85.66,18.34A8,8,0,0,0,74.34,29.66L108.69,64H40A16,16,0,0,0,24,80V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64ZM40,80H144V200H40ZM216,200H160V80h56V200Zm-16-84a12,12,0,1,1-12-12A12,12,0,0,1,200,116Zm0,48a12,12,0,1,1-12-12A12,12,0,0,1,200,164Z"/></svg>`,
     style: "duotone",
-    tags: ["television"],
+    tags: ["television", "tv", "screen", "entertainment", "media", "display", "broadcast", "duotone", "device", "video"],
     category: "duotone"
   },
   {
@@ -64106,7 +64106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64H147.31l34.35-34.34a8,8,0,1,0-11.32-11.32L128,60.69,85.66,18.34A8,8,0,0,0,74.34,29.66L108.69,64H40A16,16,0,0,0,24,80V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64Zm0,136H160V80h56V200Zm-16-84a12,12,0,1,1-12-12A12,12,0,0,1,200,116Zm0,48a12,12,0,1,1-12-12A12,12,0,0,1,200,164Z"/></svg>`,
     style: "fill",
-    tags: ["television"],
+    tags: ["television", "tv", "screen", "entertainment", "media", "display", "broadcast", "filled", "solid", "device", "video"],
     category: "fill"
   },
   {
@@ -64114,7 +64114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,66H142.48l37.76-37.76a6,6,0,0,0-8.48-8.48L128,63.51,84.24,19.76a6,6,0,1,0-8.48,8.48L113.52,66H40A14,14,0,0,0,26,80V200a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V80A14,14,0,0,0,216,66ZM38,200V80a2,2,0,0,1,2-2H146V202H40A2,2,0,0,1,38,200Zm180,0a2,2,0,0,1-2,2H158V78h58a2,2,0,0,1,2,2Zm-20-84a10,10,0,1,1-10-10A10,10,0,0,1,198,116Zm0,48a10,10,0,1,1-10-10A10,10,0,0,1,198,164Z"/></svg>`,
     style: "light",
-    tags: ["television"],
+    tags: ["television", "tv", "screen", "entertainment", "media", "display", "broadcast", "outline", "light", "device", "video"],
     category: "light"
   },
   {
@@ -64122,7 +64122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Simple Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,60H157l27.52-27.52a12,12,0,0,0-17-17L128,55,88.49,15.51a12,12,0,0,0-17,17L99,60H40A20,20,0,0,0,20,80V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V80A20,20,0,0,0,216,60Zm-4,136H44V84H212Z"/></svg>`,
     style: "bold",
-    tags: ["television", "simple"],
+    tags: ["television", "simple", "tv", "screen", "entertainment", "media", "display", "broadcast", "bold", "device", "video", "minimal"],
     category: "bold"
   },
   {
@@ -64130,7 +64130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Simple Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,80V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H216A8,8,0,0,1,224,80Z" opacity="0.2"/><path d="M216,64H147.31l34.35-34.34a8,8,0,1,0-11.32-11.32L128,60.69,85.66,18.34A8,8,0,0,0,74.34,29.66L108.69,64H40A16,16,0,0,0,24,80V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64Zm0,136H40V80H216V200Z"/></svg>`,
     style: "duotone",
-    tags: ["television", "simple"],
+    tags: ["television", "simple", "tv", "screen", "entertainment", "media", "display", "broadcast", "duotone", "device", "video", "minimal"],
     category: "duotone"
   },
   {
@@ -64138,7 +64138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Simple Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64H147.31l34.35-34.34a8,8,0,1,0-11.32-11.32L128,60.69,85.66,18.34A8,8,0,0,0,74.34,29.66L108.69,64H40A16,16,0,0,0,24,80V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64Zm0,136H40V80H216V200ZM200,100v80a4,4,0,0,1-4,4H60a4,4,0,0,1-4-4V100a4,4,0,0,1,4-4H196A4,4,0,0,1,200,100Z"/></svg>`,
     style: "fill",
-    tags: ["television", "simple"],
+    tags: ["television", "simple", "tv", "screen", "entertainment", "media", "display", "broadcast", "filled", "solid", "device", "video", "minimal"],
     category: "fill"
   },
   {
@@ -64146,7 +64146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Simple Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,66H142.48l37.76-37.76a6,6,0,0,0-8.48-8.48L128,63.51,84.24,19.76a6,6,0,1,0-8.48,8.48L113.52,66H40A14,14,0,0,0,26,80V200a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V80A14,14,0,0,0,216,66Zm2,134a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V80a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2Z"/></svg>`,
     style: "light",
-    tags: ["television", "simple"],
+    tags: ["television", "simple", "tv", "screen", "entertainment", "media", "display", "broadcast", "outline", "light", "device", "video", "minimal"],
     category: "light"
   },
   {
@@ -64154,7 +64154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Simple Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,68H137.66l41.17-41.17a4,4,0,1,0-5.66-5.66L128,66.34,82.83,21.17a4,4,0,0,0-5.66,5.66L118.34,68H40A12,12,0,0,0,28,80V200a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V80A12,12,0,0,0,216,68Zm4,132a4,4,0,0,1-4,4H40a4,4,0,0,1-4-4V80a4,4,0,0,1,4-4H216a4,4,0,0,1,4,4Z"/></svg>`,
     style: "thin",
-    tags: ["television", "simple"],
+    tags: ["television", "simple", "tv", "screen", "entertainment", "media", "display", "broadcast", "outline", "minimal", "device", "video"],
     category: "thin"
   },
   {
@@ -64162,7 +64162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Simple Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64H147.31l34.35-34.34a8,8,0,1,0-11.32-11.32L128,60.69,85.66,18.34A8,8,0,0,0,74.34,29.66L108.69,64H40A16,16,0,0,0,24,80V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64Zm0,136H40V80H216V200Z"/></svg>`,
     style: "regular",
-    tags: ["television", "simple"],
+    tags: ["television", "simple", "tv", "screen", "entertainment", "media", "display", "broadcast", "outline", "device", "video", "minimal"],
     category: "regular"
   },
   {
@@ -64170,7 +64170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,68H137.66l41.17-41.17a4,4,0,1,0-5.66-5.66L128,66.34,82.83,21.17a4,4,0,0,0-5.66,5.66L118.34,68H40A12,12,0,0,0,28,80V200a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V80A12,12,0,0,0,216,68ZM36,200V80a4,4,0,0,1,4-4H148V204H40A4,4,0,0,1,36,200Zm184,0a4,4,0,0,1-4,4H156V76h60a4,4,0,0,1,4,4Zm-24-84a8,8,0,1,1-8-8A8,8,0,0,1,196,116Zm0,48a8,8,0,1,1-8-8A8,8,0,0,1,196,164Z"/></svg>`,
     style: "thin",
-    tags: ["television"],
+    tags: ["television", "tv", "screen", "entertainment", "media", "display", "broadcast", "outline", "minimal", "device", "video"],
     category: "thin"
   },
   {
@@ -64178,7 +64178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Television Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64H147.31l34.35-34.34a8,8,0,1,0-11.32-11.32L128,60.69,85.66,18.34A8,8,0,0,0,74.34,29.66L108.69,64H40A16,16,0,0,0,24,80V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64ZM40,80H144V200H40ZM216,200H160V80h56V200Zm-16-84a12,12,0,1,1-12-12A12,12,0,0,1,200,116Zm0,48a12,12,0,1,1-12-12A12,12,0,0,1,200,164Z"/></svg>`,
     style: "regular",
-    tags: ["television"],
+    tags: ["television", "tv", "screen", "entertainment", "media", "display", "broadcast", "outline", "device", "video"],
     category: "regular"
   },
   {
@@ -64186,7 +64186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tennis Ball Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204.4,51.6a108,108,0,1,0,0,152.8A108.16,108.16,0,0,0,204.4,51.6Zm-135.82,17a83.47,83.47,0,0,1,46.2-23.52,84.09,84.09,0,0,1-69.72,69.72A83.47,83.47,0,0,1,68.58,68.58ZM44.74,139.07a107.27,107.27,0,0,0,63.45-30.88,107.27,107.27,0,0,0,30.88-63.45,83.84,83.84,0,0,1,72.19,72.19,108.11,108.11,0,0,0-94.33,94.32,83.82,83.82,0,0,1-72.19-72.18Zm142.68,48.35a83.53,83.53,0,0,1-46.2,23.52,84.09,84.09,0,0,1,69.72-69.72A83.47,83.47,0,0,1,187.42,187.42Z"/></svg>`,
     style: "bold",
-    tags: ["tennis", "ball"],
+    tags: ["tennis", "ball", "sport", "game", "equipment", "play", "recreation", "athletic", "bold", "filled", "circular"],
     category: "bold"
   },
   {
@@ -64194,7 +64194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tennis Ball Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M60.12,60.09A95.74,95.74,0,0,1,127.83,32h0A95.94,95.94,0,0,1,32,127.75,95.64,95.64,0,0,1,60.12,60.09ZM32,127.92v-.17h0Zm124.28,28.26a95.54,95.54,0,0,0-28.11,67.65A96,96,0,0,0,224,128.08h0A95.79,95.79,0,0,0,156.28,156.18ZM128.17,224v-.17h0Z" opacity="0.2"/><path d="M201.57,54.46a104,104,0,1,0,0,147.08A103.4,103.4,0,0,0,201.57,54.46ZM65.75,65.77a87.63,87.63,0,0,1,53.66-25.31A87.31,87.31,0,0,1,94,94.06a87.42,87.42,0,0,1-53.62,25.35A87.58,87.58,0,0,1,65.75,65.77ZM40.33,135.48a103.29,103.29,0,0,0,65-30.11,103.24,103.24,0,0,0,30.13-65,87.78,87.78,0,0,1,80.18,80.14,104,104,0,0,0-95.16,95.1,87.78,87.78,0,0,1-80.18-80.14Zm149.92,54.75a87.69,87.69,0,0,1-53.66,25.31,88,88,0,0,1,79-78.95A87.58,87.58,0,0,1,190.25,190.23Z"/></svg>`,
     style: "duotone",
-    tags: ["tennis", "ball"],
+    tags: ["tennis", "ball", "sport", "game", "equipment", "play", "recreation", "athletic", "duotone", "circular"],
     category: "duotone"
   },
   {
@@ -64202,7 +64202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tennis Ball Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M24.81,115.41a103.9,103.9,0,0,1,90.6-90.65,4,4,0,0,1,4.47,3.79,87.82,87.82,0,0,1-91.27,91.33A4,4,0,0,1,24.81,115.41Zm202.54,20.7c-1.12,0-2.23-.07-3.35-.07a87.84,87.84,0,0,0-87.88,91.41,4,4,0,0,0,4.47,3.79,103.9,103.9,0,0,0,90.6-90.66A4,4,0,0,0,227.35,136.11Zm-76.89,14.35A103.33,103.33,0,0,1,224,120c1,0,2.06,0,3.09,0a4,4,0,0,0,4.12-4.43,103.91,103.91,0,0,0-90.88-90.89,4,4,0,0,0-4.43,4.12,103.72,103.72,0,0,1-30.36,76.7A103.33,103.33,0,0,1,32,136c-1,0-2.06,0-3.09,0a4,4,0,0,0-4.12,4.43,103.91,103.91,0,0,0,90.88,90.89,4,4,0,0,0,4.43-4.12A103.72,103.72,0,0,1,150.46,150.46Z"/></svg>`,
     style: "fill",
-    tags: ["tennis", "ball"],
+    tags: ["tennis", "ball", "sport", "game", "equipment", "play", "recreation", "athletic", "filled", "solid", "circular"],
     category: "fill"
   },
   {
@@ -64210,7 +64210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tennis Ball Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200.16,55.88a102,102,0,1,0,0,144.24A101.4,101.4,0,0,0,200.16,55.88ZM64.33,64.36a89.62,89.62,0,0,1,57.25-26.07A89.32,89.32,0,0,1,95.46,95.47a89.38,89.38,0,0,1-57.21,26.11A89.61,89.61,0,0,1,64.33,64.36ZM38.2,133.63A101.36,101.36,0,0,0,104,104a101.24,101.24,0,0,0,29.68-65.72,89.76,89.76,0,0,1,84.17,84.13,102,102,0,0,0-95.43,95.39A89.76,89.76,0,0,1,38.2,133.63Zm153.47,58a89.63,89.63,0,0,1-57.25,26.06,89.94,89.94,0,0,1,83.33-83.28A89.61,89.61,0,0,1,191.67,191.64Z"/></svg>`,
     style: "light",
-    tags: ["tennis", "ball"],
+    tags: ["tennis", "ball", "sport", "game", "play", "racket", "court", "circular", "minimal", "outline"],
     category: "light"
   },
   {
@@ -64218,7 +64218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tennis Ball Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M198.74,57.29A99.39,99.39,0,0,0,128,28h-.19a100,100,0,1,0,70.93,29.29ZM62.92,63a91.38,91.38,0,0,1,60.8-26.85A91.31,91.31,0,0,1,96.87,96.89,91.44,91.44,0,0,1,36.1,123.73,91.61,91.61,0,0,1,62.92,63ZM36.09,131.74a99.36,99.36,0,0,0,66.44-29.2,99.25,99.25,0,0,0,29.21-66.45,91.9,91.9,0,0,1,88.17,88.17,100,100,0,0,0-95.65,95.65,91.9,91.9,0,0,1-88.17-88.17Zm157,61.31a91.38,91.38,0,0,1-60.8,26.85,92,92,0,0,1,87.62-87.63A91.61,91.61,0,0,1,193.08,193.05Z"/></svg>`,
     style: "thin",
-    tags: ["tennis", "ball"],
+    tags: ["tennis", "ball", "sport", "game", "play", "racket", "court", "circular", "minimal", "outline"],
     category: "thin"
   },
   {
@@ -64226,7 +64226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tennis Ball Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M201.57,54.46a104,104,0,1,0,0,147.08A103.4,103.4,0,0,0,201.57,54.46ZM65.75,65.77a87.63,87.63,0,0,1,53.66-25.31A87.31,87.31,0,0,1,94,94.06a87.42,87.42,0,0,1-53.62,25.35A87.58,87.58,0,0,1,65.75,65.77ZM40.33,135.48a103.29,103.29,0,0,0,65-30.11,103.24,103.24,0,0,0,30.13-65,87.78,87.78,0,0,1,80.18,80.14,104,104,0,0,0-95.16,95.1,87.78,87.78,0,0,1-80.18-80.14Zm149.92,54.75a87.69,87.69,0,0,1-53.66,25.31,88,88,0,0,1,79-78.95A87.58,87.58,0,0,1,190.25,190.23Z"/></svg>`,
     style: "regular",
-    tags: ["tennis", "ball"],
+    tags: ["tennis", "ball", "sport", "game", "play", "racket", "court", "circular", "minimal", "outline"],
     category: "regular"
   },
   {
@@ -64234,7 +64234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tent Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255,187.13l-64-144A12,12,0,0,0,180,36H76a12,12,0,0,0-10.85,6.9,2.42,2.42,0,0,0-.12.23L65,43.3a.08.08,0,0,0,0,0L1,187.13A12,12,0,0,0,12,204H244a12,12,0,0,0,11-16.87ZM64,104.55V180H30.46ZM88,180V104.55L121.54,180Zm59.8,0L94.47,60H172.2l53.34,120Z"/></svg>`,
     style: "bold",
-    tags: ["tent"],
+    tags: ["tent", "camping", "outdoors", "shelter", "adventure", "travel", "geometric", "bold", "filled"],
     category: "bold"
   },
   {
@@ -64242,7 +64242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tent Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,192H8L72,48Z" opacity="0.2"/><path d="M255.31,188.75l-64-144A8,8,0,0,0,184,40H72a8,8,0,0,0-7.27,4.69.21.21,0,0,0,0,.06l0,.12,0,0L.69,188.75A8,8,0,0,0,8,200H248a8,8,0,0,0,7.31-11.25ZM64,184H20.31L64,85.7Zm16,0V85.7L123.69,184Zm61.2,0L84.31,56H178.8l56.89,128Z"/></svg>`,
     style: "duotone",
-    tags: ["tent"],
+    tags: ["tent", "camping", "outdoors", "shelter", "adventure", "travel", "geometric", "duotone", "layered"],
     category: "duotone"
   },
   {
@@ -64250,7 +64250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tent Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255.31,188.75l-64-144A8,8,0,0,0,184,40H72a8,8,0,0,0-7.31,4.75h0l0,.12v0L.69,188.75A8,8,0,0,0,8,200H248a8,8,0,0,0,7.31-11.25ZM64,184H20.31L64,85.7Zm16,0V85.7L123.69,184Z"/></svg>`,
     style: "fill",
-    tags: ["tent"],
+    tags: ["tent", "camping", "outdoors", "shelter", "adventure", "travel", "geometric", "filled", "solid"],
     category: "fill"
   },
   {
@@ -64258,7 +64258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tent Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M253.48,189.56l-64-144A6,6,0,0,0,184,42H72a6,6,0,0,0-5.45,3.51l0,.05,0,.09v0L2.52,189.56A6,6,0,0,0,8,198H248a6,6,0,0,0,5.48-8.44ZM66,76.27V186H17.23ZM78,186V76.27L126.77,186Zm61.9,0L81.23,54H180.1l58.67,132Z"/></svg>`,
     style: "light",
-    tags: ["tent"],
+    tags: ["tent", "camping", "outdoors", "shelter", "adventure", "travel", "geometric", "minimal", "outline"],
     category: "light"
   },
   {
@@ -64266,7 +64266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tent Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M251.66,190.38l-64-144A4,4,0,0,0,184,44H72a4,4,0,0,0-3.63,2.35s0,0,0,0l0,.06h0l-64,143.93A4,4,0,0,0,8,196H248a4,4,0,0,0,3.66-5.62ZM68,66.85V188H14.16ZM76,188V66.85L129.84,188Zm62.6,0L78.16,52H181.4l60.44,136Z"/></svg>`,
     style: "thin",
-    tags: ["tent"],
+    tags: ["tent", "camping", "outdoors", "shelter", "adventure", "travel", "geometric", "minimal", "outline"],
     category: "thin"
   },
   {
@@ -64274,7 +64274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tent Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255.31,188.75l-64-144A8,8,0,0,0,184,40H72a8,8,0,0,0-7.27,4.69.21.21,0,0,0,0,.06l0,.12,0,0L.69,188.75A8,8,0,0,0,8,200H248a8,8,0,0,0,7.31-11.25ZM64,184H20.31L64,85.7Zm16,0V85.7L123.69,184Zm61.2,0L84.31,56H178.8l56.89,128Z"/></svg>`,
     style: "regular",
-    tags: ["tent"],
+    tags: ["tent", "camping", "outdoors", "shelter", "adventure", "travel", "geometric", "minimal", "outline"],
     category: "regular"
   },
   {
@@ -64282,7 +64282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,137,48,201A12,12,0,1,1,32,183l61.91-55L32,73A12,12,0,1,1,48,55l72,64A12,12,0,0,1,120,137Zm96,43H120a12,12,0,0,0,0,24h96a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["terminal"],
+    tags: ["terminal", "code", "programming", "console", "command line", "developer", "coding", "bold", "filled"],
     category: "bold"
   },
   {
@@ -64290,7 +64290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,80V192H40V64H200A16,16,0,0,1,216,80Z" opacity="0.2"/><path d="M117.31,134l-72,64a8,8,0,1,1-10.63-12L100,128,34.69,70A8,8,0,1,1,45.32,58l72,64a8,8,0,0,1,0,12ZM216,184H120a8,8,0,0,0,0,16h96a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["terminal"],
+    tags: ["terminal", "code", "programming", "console", "command line", "developer", "coding", "duotone", "layered"],
     category: "duotone"
   },
   {
@@ -64298,7 +64298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM77.66,173.66a8,8,0,0,1-11.32-11.32L100.69,128,66.34,93.66A8,8,0,0,1,77.66,82.34l40,40a8,8,0,0,1,0,11.32ZM192,176H128a8,8,0,0,1,0-16h64a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["terminal"],
+    tags: ["terminal", "code", "programming", "console", "command line", "developer", "coding", "filled", "solid"],
     category: "fill"
   },
   {
@@ -64306,7 +64306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M116,132.48l-72,64a6,6,0,0,1-8-9L103,128,36,68.49a6,6,0,0,1,8-9l72,64a6,6,0,0,1,0,9ZM216,186H120a6,6,0,0,0,0,12h96a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["terminal"],
+    tags: ["terminal", "code", "programming", "console", "command line", "developer", "coding", "minimal", "outline"],
     category: "light"
   },
   {
@@ -64314,7 +64314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M116,128a4,4,0,0,1-1.34,3l-72,64a4,4,0,1,1-5.32-6L106,128,37.34,67a4,4,0,0,1,5.32-6l72,64A4,4,0,0,1,116,128Zm100,60H120a4,4,0,0,0,0,8h96a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["terminal"],
+    tags: ["terminal", "code", "programming", "console", "command line", "developer", "coding", "minimal", "outline"],
     category: "thin"
   },
   {
@@ -64322,7 +64322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Window Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M72.5,150.63,100.79,128,72.5,105.37a12,12,0,1,1,15-18.74l40,32a12,12,0,0,1,0,18.74l-40,32a12,12,0,0,1-15-18.74ZM144,172h32a12,12,0,0,0,0-24H144a12,12,0,0,0,0,24ZM236,56V200a20,20,0,0,1-20,20H40a20,20,0,0,1-20-20V56A20,20,0,0,1,40,36H216A20,20,0,0,1,236,56Zm-24,4H44V196H212Z"/></svg>`,
     style: "bold",
-    tags: ["terminal", "window"],
+    tags: ["terminal", "window", "code", "programming", "console", "command line", "developer", "coding", "interface", "bold", "filled"],
     category: "bold"
   },
   {
@@ -64330,7 +64330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Window Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,56V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216A8,8,0,0,1,224,56Z" opacity="0.2"/><path d="M128,128a8,8,0,0,1-3,6.25l-40,32a8,8,0,1,1-10-12.5L107.19,128,75,102.25a8,8,0,1,1,10-12.5l40,32A8,8,0,0,1,128,128Zm48,24H136a8,8,0,0,0,0,16h40a8,8,0,0,0,0-16Zm56-96V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56ZM216,200V56H40V200H216Z"/></svg>`,
     style: "duotone",
-    tags: ["terminal", "window"],
+    tags: ["terminal", "window", "code", "programming", "console", "command line", "developer", "coding", "interface", "duotone", "layered"],
     category: "duotone"
   },
   {
@@ -64338,7 +64338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Window Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-91,94.25-40,32a8,8,0,1,1-10-12.5L107.19,128,75,102.25a8,8,0,1,1,10-12.5l40,32a8,8,0,0,1,0,12.5ZM176,168H136a8,8,0,0,1,0-16h40a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["terminal", "window"],
+    tags: ["terminal", "window", "code", "programming", "console", "command line", "developer", "coding", "interface", "filled", "solid"],
     category: "fill"
   },
   {
@@ -64346,7 +64346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Window Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M126,128a6,6,0,0,1-2.25,4.69l-40,32a6,6,0,0,1-7.5-9.38L110.4,128,76.25,100.69a6,6,0,1,1,7.5-9.38l40,32A6,6,0,0,1,126,128Zm50,26H136a6,6,0,0,0,0,12h40a6,6,0,0,0,0-12Zm54-98V200a14,14,0,0,1-14,14H40a14,14,0,0,1-14-14V56A14,14,0,0,1,40,42H216A14,14,0,0,1,230,56Zm-12,0a2,2,0,0,0-2-2H40a2,2,0,0,0-2,2V200a2,2,0,0,0,2,2H216a2,2,0,0,0,2-2Z"/></svg>`,
     style: "light",
-    tags: ["terminal", "window"],
+    tags: ["terminal", "window", "code", "programming", "console", "command line", "developer", "coding", "interface", "minimal", "outline"],
     category: "light"
   },
   {
@@ -64354,7 +64354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Window Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M122.5,124.88a4,4,0,0,1,0,6.24l-40,32a4,4,0,0,1-5-6.24L113.6,128,77.5,99.12a4,4,0,0,1,5-6.24ZM176,156H136a4,4,0,0,0,0,8h40a4,4,0,0,0,0-8ZM228,56V200a12,12,0,0,1-12,12H40a12,12,0,0,1-12-12V56A12,12,0,0,1,40,44H216A12,12,0,0,1,228,56Zm-8,0a4,4,0,0,0-4-4H40a4,4,0,0,0-4,4V200a4,4,0,0,0,4,4H216a4,4,0,0,0,4-4Z"/></svg>`,
     style: "thin",
-    tags: ["terminal", "window"],
+    tags: ["terminal", "window", "code", "programming", "console", "command line", "developer", "coding", "interface", "minimal", "outline"],
     category: "thin"
   },
   {
@@ -64362,7 +64362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Window Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,128a8,8,0,0,1-3,6.25l-40,32a8,8,0,1,1-10-12.5L107.19,128,75,102.25a8,8,0,1,1,10-12.5l40,32A8,8,0,0,1,128,128Zm48,24H136a8,8,0,0,0,0,16h40a8,8,0,0,0,0-16Zm56-96V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56ZM216,200V56H40V200H216Z"/></svg>`,
     style: "regular",
-    tags: ["terminal", "window"],
+    tags: ["terminal", "window", "code", "programming", "console", "command line", "developer", "coding", "interface", "minimal", "outline"],
     category: "regular"
   },
   {
@@ -64370,7 +64370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Terminal Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M117.31,134l-72,64a8,8,0,1,1-10.63-12L100,128,34.69,70A8,8,0,1,1,45.32,58l72,64a8,8,0,0,1,0,12ZM216,184H120a8,8,0,0,0,0,16h96a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["terminal"],
+    tags: ["terminal", "code", "programming", "console", "command line", "developer", "coding", "minimal", "outline"],
     category: "regular"
   },
   {
@@ -64378,7 +64378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Test Tube Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.49,83.51l-60-60a12,12,0,0,0-17,0L34.28,152.75a48.77,48.77,0,0,0,69,69L214.48,110.49l21.31-7.11a12,12,0,0,0,4.7-19.87ZM86.28,204.75a24.77,24.77,0,0,1-35-35l28.13-28.13c7.73-2.41,19.58-3,35.06,5a83.94,83.94,0,0,0,21.95,8ZM204.2,88.62a12.15,12.15,0,0,0-4.69,2.89l-38.89,38.9c-7.73,2.41-19.58,3-35.06-5a83.94,83.94,0,0,0-21.94-8L172,49l37.79,37.79Z"/></svg>`,
     style: "bold",
-    tags: ["test", "tube"],
+    tags: ["test", "tube", "science", "experiment", "laboratory", "chemistry", "research", "medical", "bold", "filled"],
     category: "bold"
   },
   {
@@ -64386,7 +64386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Test Tube Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M167.18,140.82,94.77,213.23a36.77,36.77,0,0,1-52,0h0a36.77,36.77,0,0,1,0-52l30-30c9.37-3.65,25.78-6.36,47.18,4.82S157.81,144.47,167.18,140.82Z" opacity="0.2"/><path d="M237.66,86.34l-60-60a8,8,0,0,0-11.32,0L37.11,155.57a44.77,44.77,0,0,0,63.32,63.32L212.32,107l22.21-7.4a8,8,0,0,0,3.13-13.25ZM89.11,207.57a28.77,28.77,0,0,1-40.68-40.68l28.8-28.8c8.47-2.9,21.75-4,39.07,5,10.6,5.54,20.18,8,28.56,8.73ZM205.47,92.41a8,8,0,0,0-3.13,1.93l-39.57,39.57c-8.47,2.9-21.75,4-39.07-5-10.6-5.54-20.18-8-28.56-8.73L172,43.31,217.19,88.5Z"/></svg>`,
     style: "duotone",
-    tags: ["test", "tube"],
+    tags: ["test", "tube", "science", "experiment", "laboratory", "chemistry", "research", "medical", "duotone", "layered"],
     category: "duotone"
   },
   {
@@ -64394,7 +64394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Test Tube Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.66,86.34l-60-60a8,8,0,0,0-11.32,0L37.11,155.57a44.77,44.77,0,0,0,63.32,63.32L212.32,107l22.21-7.4a8,8,0,0,0,3.13-13.25Zm-32.19,6.07a8,8,0,0,0-3.13,1.93l-39.57,39.57c-8.47,2.9-21.75,4-39.07-5-10.6-5.54-20.18-8-28.56-8.73L172,43.31,217.19,88.5Z"/></svg>`,
     style: "fill",
-    tags: ["test", "tube"],
+    tags: ["test", "tube", "science", "experiment", "laboratory", "chemistry", "research", "medical", "filled", "solid"],
     category: "fill"
   },
   {
@@ -64402,7 +64402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Test Tube Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.24,87.76l-60-60a6,6,0,0,0-8.48,0L38.53,157A42.77,42.77,0,1,0,99,217.47L211.24,105.24l22.66-7.55a6,6,0,0,0,2.34-9.93ZM90.53,209A30.77,30.77,0,1,1,47,165.47l29.13-29.12c8.84-3.14,22.84-4.56,41.08,5,12.28,6.41,23.13,8.66,32.27,8.71ZM206.1,94.31a6,6,0,0,0-2.34,1.45l-39.9,39.89c-8.84,3.14-22.84,4.56-41.08-5C110.5,124.27,99.65,122,90.51,122L172,40.49l48.89,48.89Z"/></svg>`,
     style: "light",
-    tags: ["test", "tube"],
+    tags: ["test", "tube", "science", "experiment", "laboratory", "chemistry", "research", "medical", "minimal", "outline"],
     category: "light"
   },
   {
@@ -64410,7 +64410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Test Tube Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234.83,89.18l-60-60a4,4,0,0,0-5.66,0L39.94,158.41A40.78,40.78,0,0,0,97.6,216.08L210.16,103.5l23.1-7.7a4,4,0,0,0,1.57-6.62ZM91.94,210.42A32.77,32.77,0,1,1,45.6,164.07L75,134.63c9.2-3.38,23.94-5.08,43.11,4.93,12.09,6.31,22.74,8.48,31.66,8.48,1.64,0,3.2-.09,4.73-.22ZM206.74,96.21a4.06,4.06,0,0,0-1.57,1L165,137.39c-9.2,3.38-23.94,5.08-43.11-4.93-14.3-7.47-26.58-9.13-36.38-8.27L172,37.66l52.6,52.6Z"/></svg>`,
     style: "thin",
-    tags: ["test", "tube"],
+    tags: ["test", "tube", "chemistry", "experiment", "science", "laboratory", "research", "analysis", "medical", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -64418,7 +64418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Test Tube Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.66,86.34l-60-60a8,8,0,0,0-11.32,0L37.11,155.57a44.77,44.77,0,0,0,63.32,63.32L212.32,107l22.21-7.4a8,8,0,0,0,3.13-13.25ZM89.11,207.57a28.77,28.77,0,0,1-40.68-40.68l28.8-28.8c8.47-2.9,21.75-4,39.07,5,10.6,5.54,20.18,8,28.56,8.73ZM205.47,92.41a8,8,0,0,0-3.13,1.93l-39.57,39.57c-8.47,2.9-21.75,4-39.07-5-10.6-5.54-20.18-8-28.56-8.73L172,43.31,217.19,88.5Z"/></svg>`,
     style: "regular",
-    tags: ["test", "tube"],
+    tags: ["test", "tube", "chemistry", "experiment", "science", "laboratory", "research", "analysis", "medical", "regular", "solid"],
     category: "regular"
   },
   {
@@ -64426,7 +64426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text A Underline Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M58.89,178.86a12,12,0,0,0,16-5.75L90.44,140h75.12l15.58,33.11a12,12,0,0,0,21.72-10.22l-64-136a12,12,0,0,0-21.72,0l-64,136A12,12,0,0,0,58.89,178.86ZM128,60.18,154.27,116H101.73ZM228,216a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,216Z"/></svg>`,
     style: "bold",
-    tags: ["text", "a", "underline"],
+    tags: ["text", "a", "underline", "typography", "formatting", "editor", "document", "emphasis", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -64434,7 +64434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text A Underline Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M173.18,128H82.82L128,32Z" opacity="0.2"/><path d="M60.59,175.24a8,8,0,0,0,10.65-3.83L87.9,136h80.2l16.66,35.41a8,8,0,1,0,14.48-6.82l-64-136a8,8,0,0,0-14.48,0l-64,136A8,8,0,0,0,60.59,175.24ZM128,50.79,160.57,120H95.43ZM224,216a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,216Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "a", "underline"],
+    tags: ["text", "a", "underline", "typography", "formatting", "editor", "document", "emphasis", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -64442,7 +64442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text A Underline Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M148.73,120H107.27L128,75.09ZM216,32V224a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V32a8,8,0,0,1,8-8H208A8,8,0,0,1,216,32ZM76.65,167.26a8,8,0,0,0,10.61-3.91L99.89,136h56.22l12.63,27.35a8,8,0,0,0,14.52-6.7l-48-104a8,8,0,0,0-14.52,0l-48,104A8,8,0,0,0,76.65,167.26ZM200,192a8,8,0,0,0-8-8H64a8,8,0,0,0,0,16H192A8,8,0,0,0,200,192Z"/></svg>`,
     style: "fill",
-    tags: ["text", "a", "underline"],
+    tags: ["text", "a", "underline", "typography", "formatting", "editor", "document", "emphasis", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -64450,7 +64450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text A Underline Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M61.45,173.43a6,6,0,0,0,8-2.88L86.63,134h82.74l17.2,36.55A6,6,0,0,0,192,174a5.92,5.92,0,0,0,2.55-.57,6,6,0,0,0,2.88-8l-64-136a6,6,0,0,0-10.86,0l-64,136A6,6,0,0,0,61.45,173.43ZM128,46.09,163.72,122H92.28ZM222,216a6,6,0,0,1-6,6H40a6,6,0,0,1,0-12H216A6,6,0,0,1,222,216Z"/></svg>`,
     style: "light",
-    tags: ["text", "a", "underline"],
+    tags: ["text", "a", "underline", "typography", "formatting", "editor", "document", "emphasis", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -64458,7 +64458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text A Underline Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M62.3,171.62a4,4,0,0,0,5.32-1.92L85.36,132h85.28l17.74,37.7a4,4,0,1,0,7.24-3.4l-64-136a4,4,0,0,0-7.24,0l-64,136A4,4,0,0,0,62.3,171.62ZM128,41.39,166.87,124H89.13ZM220,216a4,4,0,0,1-4,4H40a4,4,0,0,1,0-8H216A4,4,0,0,1,220,216Z"/></svg>`,
     style: "thin",
-    tags: ["text", "a", "underline"],
+    tags: ["text", "a", "underline", "typography", "formatting", "editor", "document", "emphasis", "thin", "minimal", "ui"],
     category: "thin"
   },
   {
@@ -64466,7 +64466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text A Underline Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M60.59,175.24a8,8,0,0,0,10.65-3.83L87.9,136h80.2l16.66,35.41a8,8,0,1,0,14.48-6.82l-64-136a8,8,0,0,0-14.48,0l-64,136A8,8,0,0,0,60.59,175.24ZM128,50.79,160.57,120H95.43ZM224,216a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,216Z"/></svg>`,
     style: "regular",
-    tags: ["text", "a", "underline"],
+    tags: ["text", "a", "underline", "typography", "formatting", "editor", "document", "emphasis", "regular", "standard", "ui"],
     category: "regular"
   },
   {
@@ -64474,7 +64474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Aa Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M90.86,50.89a12,12,0,0,0-21.72,0l-64,136a12,12,0,0,0,21.71,10.22L42.44,164h75.12l15.58,33.11a12,12,0,0,0,21.72-10.22ZM53.74,140,80,84.18,106.27,140ZM200,84c-13.85,0-24.77,3.86-32.45,11.48a12,12,0,1,0,16.9,17c3-3,8.26-4.52,15.55-4.52,11,0,20,7.18,20,16v4.39A47.28,47.28,0,0,0,200,124c-24.26,0-44,17.94-44,40s19.74,40,44,40a47.18,47.18,0,0,0,22-5.38A12,12,0,0,0,244,192V124C244,101.94,224.26,84,200,84Zm0,96c-11,0-20-7.18-20-16s9-16,20-16,20,7.18,20,16S211,180,200,180Z"/></svg>`,
     style: "bold",
-    tags: ["text", "aa"],
+    tags: ["text", "aa", "typography", "font size", "editor", "document", "accessibility", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -64482,7 +64482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Aa Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,164c0,15.46-14.33,28-32,28s-32-12.54-32-28,14.33-28,32-28S232,148.54,232,164ZM34.82,152h90.36L80,56Z" opacity="0.2"/><path d="M87.24,52.59a8,8,0,0,0-14.48,0l-64,136a8,8,0,1,0,14.48,6.81L39.9,160h80.2l16.66,35.4a8,8,0,1,0,14.48-6.81ZM47.43,144,80,74.79,112.57,144ZM200,96c-12.76,0-22.73,3.47-29.63,10.32a8,8,0,0,0,11.26,11.36c3.8-3.77,10-5.68,18.37-5.68,13.23,0,24,9,24,20v3.22A42.76,42.76,0,0,0,200,128c-22.06,0-40,16.15-40,36s17.94,36,40,36a42.73,42.73,0,0,0,24-7.25,8,8,0,0,0,16-.75V132C240,112.15,222.06,96,200,96Zm0,88c-13.23,0-24-9-24-20s10.77-20,24-20,24,9,24,20S213.23,184,200,184Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "aa"],
+    tags: ["text", "aa", "typography", "font size", "editor", "document", "accessibility", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -64490,7 +64490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Aa Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,156c0,6.5-7.33,12-16,12s-16-5.5-16-12,7.33-12,16-12S200,149.5,200,156ZM232,56V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56ZM143.37,172.88l-44-104a8,8,0,0,0-14.74,0l-44,104a8,8,0,0,0,14.74,6.24L66.84,152h50.32l11.47,27.12a8,8,0,0,0,14.74-6.24ZM216,124c0-15.44-14.36-28-32-28a34.86,34.86,0,0,0-20.78,6.68,8,8,0,0,0,9.56,12.83A18.84,18.84,0,0,1,184,112c8.56,0,15.8,5.36,16,11.76v8A35.24,35.24,0,0,0,184,128c-17.64,0-32,12.56-32,28s14.36,28,32,28a35.13,35.13,0,0,0,16.93-4.26A8,8,0,0,0,216,176ZM73.61,136h36.78L92,92.53Z"/></svg>`,
     style: "fill",
-    tags: ["text", "aa"],
+    tags: ["text", "aa", "typography", "font size", "editor", "document", "accessibility", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -64498,7 +64498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Aa Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M85.43,53.45a6,6,0,0,0-10.86,0l-64,136a6,6,0,1,0,10.86,5.11L38.63,158h82.74l17.2,36.55a6,6,0,1,0,10.86-5.11ZM44.28,146,80,70.09,115.72,146ZM200,98c-12.21,0-21.71,3.28-28.23,9.74a6,6,0,0,0,8.46,8.52c4.18-4.15,10.84-6.26,19.77-6.26,14.34,0,26,9.87,26,22v7.24A40.36,40.36,0,0,0,200,130c-20.95,0-38,15.25-38,34s17.05,34,38,34a40.36,40.36,0,0,0,26-9.24V192a6,6,0,0,0,12,0V132C238,113.25,221,98,200,98Zm0,88c-14.34,0-26-9.87-26-22s11.66-22,26-22,26,9.87,26,22S214.34,186,200,186Z"/></svg>`,
     style: "light",
-    tags: ["text", "aa"],
+    tags: ["text", "aa", "typography", "font size", "editor", "document", "accessibility", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -64506,7 +64506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Aa Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M83.62,54.3a4,4,0,0,0-7.24,0l-64,136a4,4,0,0,0,7.24,3.4L37.36,156h85.28l17.74,37.7a4,4,0,1,0,7.24-3.4ZM41.13,148,80,65.39,118.87,148ZM200,100c-11.67,0-20.69,3.08-26.82,9.16a4,4,0,1,0,5.64,5.68c4.57-4.54,11.7-6.84,21.18-6.84,15.44,0,28,10.77,28,24v11.92A37.78,37.78,0,0,0,200,132c-19.85,0-36,14.35-36,32s16.15,32,36,32a37.78,37.78,0,0,0,28-11.92V192a4,4,0,0,0,8,0V132C236,114.36,219.85,100,200,100Zm0,88c-15.44,0-28-10.77-28-24s12.56-24,28-24,28,10.77,28,24S215.44,188,200,188Z"/></svg>`,
     style: "thin",
-    tags: ["text", "aa"],
+    tags: ["text", "aa", "typography", "font size", "editor", "document", "accessibility", "thin", "minimal", "ui"],
     category: "thin"
   },
   {
@@ -64514,7 +64514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Aa Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M87.24,52.59a8,8,0,0,0-14.48,0l-64,136a8,8,0,1,0,14.48,6.81L39.9,160h80.2l16.66,35.4a8,8,0,1,0,14.48-6.81ZM47.43,144,80,74.79,112.57,144ZM200,96c-12.76,0-22.73,3.47-29.63,10.32a8,8,0,0,0,11.26,11.36c3.8-3.77,10-5.68,18.37-5.68,13.23,0,24,9,24,20v3.22A42.76,42.76,0,0,0,200,128c-22.06,0-40,16.15-40,36s17.94,36,40,36a42.73,42.73,0,0,0,24-7.25,8,8,0,0,0,16-.75V132C240,112.15,222.06,96,200,96Zm0,88c-13.23,0-24-9-24-20s10.77-20,24-20,24,9,24,20S213.23,184,200,184Z"/></svg>`,
     style: "regular",
-    tags: ["text", "aa"],
+    tags: ["text", "aa", "typography", "font size", "editor", "document", "accessibility", "regular", "standard", "ui"],
     category: "regular"
   },
   {
@@ -64522,7 +64522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Center Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M28,64A12,12,0,0,1,40,52H216a12,12,0,0,1,0,24H40A12,12,0,0,1,28,64ZM64,92a12,12,0,0,0,0,24H192a12,12,0,0,0,0-24Zm152,40H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Zm-24,40H64a12,12,0,0,0,0,24H192a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["text", "align", "center"],
+    tags: ["text", "align", "center", "typography", "formatting", "editor", "document", "layout", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -64530,7 +64530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Center Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64V168a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V64Z" opacity="0.2"/><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM64,96a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Zm152,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm-24,40H64a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "align", "center"],
+    tags: ["text", "align", "center", "typography", "formatting", "editor", "document", "layout", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -64538,7 +64538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Center Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM176,184H80a8,8,0,0,1,0-16h96a8,8,0,0,1,0,16Zm16-32H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16ZM72,112a8,8,0,0,1,8-8h96a8,8,0,0,1,0,16H80A8,8,0,0,1,72,112ZM192,88H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "align", "center"],
+    tags: ["text", "align", "center", "typography", "formatting", "editor", "document", "layout", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -64546,7 +64546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Center Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M34,64a6,6,0,0,1,6-6H216a6,6,0,0,1,0,12H40A6,6,0,0,1,34,64ZM64,98a6,6,0,0,0,0,12H192a6,6,0,0,0,0-12Zm152,40H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Zm-24,40H64a6,6,0,0,0,0,12H192a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["text", "align", "center"],
+    tags: ["text", "align", "center", "typography", "formatting", "editor", "document", "layout", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -64554,7 +64554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Center Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M36,64a4,4,0,0,1,4-4H216a4,4,0,0,1,0,8H40A4,4,0,0,1,36,64Zm28,36a4,4,0,0,0,0,8H192a4,4,0,0,0,0-8Zm152,40H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Zm-24,40H64a4,4,0,0,0,0,8H192a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["text", "align", "center"],
+    tags: ["text", "align", "center", "typography", "formatting", "editor", "document", "layout", "thin", "minimal", "ui"],
     category: "thin"
   },
   {
@@ -64562,7 +64562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Center Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM64,96a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Zm152,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm-24,40H64a8,8,0,0,0,0,16H192a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["text", "align", "center"],
+    tags: ["text", "align", "center", "typography", "formatting", "editor", "document", "layout", "regular", "standard", "ui"],
     category: "regular"
   },
   {
@@ -64570,7 +64570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Justify Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M28,64A12,12,0,0,1,40,52H216a12,12,0,0,1,0,24H40A12,12,0,0,1,28,64ZM216,92H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Zm0,40H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Zm0,40H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["text", "align", "justify"],
+    tags: ["text", "align", "justify", "typography", "formatting", "editor", "document", "layout", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -64578,7 +64578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Justify Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64V184H40V64Z" opacity="0.2"/><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM216,96H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "align", "justify"],
+    tags: ["text", "align", "justify", "typography", "formatting", "editor", "document", "layout", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -64586,7 +64586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Justify Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM192,184H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Zm0-32H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Zm0-32H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Zm0-32H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "align", "justify"],
+    tags: ["text", "align", "justify", "typography", "formatting", "editor", "document", "layout", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -64594,7 +64594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Justify Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M34,64a6,6,0,0,1,6-6H216a6,6,0,0,1,0,12H40A6,6,0,0,1,34,64ZM216,98H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Zm0,40H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Zm0,40H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["text", "align", "justify"],
+    tags: ["text", "align", "justify", "typography", "formatting", "editor", "document", "layout", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -64602,7 +64602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Justify Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M36,64a4,4,0,0,1,4-4H216a4,4,0,0,1,0,8H40A4,4,0,0,1,36,64Zm180,36H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Zm0,40H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Zm0,40H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["text", "align", "justify"],
+    tags: ["text", "align", "justify", "typography", "formatting", "editor", "document", "layout", "thin", "minimal", "ui"],
     category: "thin"
   },
   {
@@ -64610,7 +64610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Justify Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM216,96H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["text", "align", "justify"],
+    tags: ["text", "align", "justify", "editor", "format", "paragraph", "document", "balanced", "layout", "ui", "writing", "content"],
     category: "regular"
   },
   {
@@ -64618,7 +64618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Left Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M28,64A12,12,0,0,1,40,52H216a12,12,0,0,1,0,24H40A12,12,0,0,1,28,64Zm12,52H168a12,12,0,0,0,0-24H40a12,12,0,0,0,0,24Zm176,16H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Zm-48,40H40a12,12,0,0,0,0,24H168a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["text", "align", "left"],
+    tags: ["text", "align", "left", "editor", "format", "paragraph", "document", "flush left", "layout", "ui", "writing", "content", "bold"],
     category: "bold"
   },
   {
@@ -64626,7 +64626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Left Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64V168a16,16,0,0,1-16,16H40V64Z" opacity="0.2"/><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64Zm8,48H168a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16Zm176,24H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm-48,40H40a8,8,0,0,0,0,16H168a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "align", "left"],
+    tags: ["text", "align", "left", "editor", "format", "paragraph", "document", "flush left", "layout", "ui", "writing", "content", "duotone"],
     category: "duotone"
   },
   {
@@ -64634,7 +64634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Left Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM160,184H64a8,8,0,0,1,0-16h96a8,8,0,0,1,0,16Zm32-32H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16ZM56,112a8,8,0,0,1,8-8h96a8,8,0,0,1,0,16H64A8,8,0,0,1,56,112ZM192,88H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "align", "left"],
+    tags: ["text", "align", "left", "editor", "format", "paragraph", "document", "flush left", "layout", "ui", "writing", "content", "filled"],
     category: "fill"
   },
   {
@@ -64642,7 +64642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Left Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M34,64a6,6,0,0,1,6-6H216a6,6,0,0,1,0,12H40A6,6,0,0,1,34,64Zm6,46H168a6,6,0,0,0,0-12H40a6,6,0,0,0,0,12Zm176,28H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Zm-48,40H40a6,6,0,0,0,0,12H168a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["text", "align", "left"],
+    tags: ["text", "align", "left", "editor", "format", "paragraph", "document", "flush left", "layout", "ui", "writing", "content", "light"],
     category: "light"
   },
   {
@@ -64650,7 +64650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Left Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M36,64a4,4,0,0,1,4-4H216a4,4,0,0,1,0,8H40A4,4,0,0,1,36,64Zm4,44H168a4,4,0,0,0,0-8H40a4,4,0,0,0,0,8Zm176,32H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Zm-48,40H40a4,4,0,0,0,0,8H168a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["text", "align", "left"],
+    tags: ["text", "align", "left", "editor", "format", "paragraph", "document", "flush left", "layout", "ui", "writing", "content", "thin"],
     category: "thin"
   },
   {
@@ -64658,7 +64658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Left Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64Zm8,48H168a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16Zm176,24H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm-48,40H40a8,8,0,0,0,0,16H168a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["text", "align", "left"],
+    tags: ["text", "align", "left", "editor", "format", "paragraph", "document", "flush left", "layout", "ui", "writing", "content", "regular"],
     category: "regular"
   },
   {
@@ -64666,7 +64666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Right Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M28,64A12,12,0,0,1,40,52H216a12,12,0,0,1,0,24H40A12,12,0,0,1,28,64ZM216,92H88a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Zm0,40H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Zm0,40H88a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["text", "align", "right"],
+    tags: ["text", "align", "right", "editor", "format", "paragraph", "document", "flush right", "layout", "ui", "writing", "content", "bold"],
     category: "bold"
   },
   {
@@ -64674,7 +64674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Right Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64V184H56a16,16,0,0,1-16-16V64Z" opacity="0.2"/><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM216,96H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "align", "right"],
+    tags: ["text", "align", "right", "editor", "format", "paragraph", "document", "flush right", "layout", "ui", "writing", "content", "duotone"],
     category: "duotone"
   },
   {
@@ -64682,7 +64682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Right Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM192,184H96a8,8,0,0,1,0-16h96a8,8,0,0,1,0,16Zm0-32H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Zm0-32H96a8,8,0,0,1,0-16h96a8,8,0,0,1,0,16Zm0-32H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "align", "right"],
+    tags: ["text", "align", "right", "editor", "format", "paragraph", "document", "flush right", "layout", "ui", "writing", "content", "filled"],
     category: "fill"
   },
   {
@@ -64690,7 +64690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Right Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M34,64a6,6,0,0,1,6-6H216a6,6,0,0,1,0,12H40A6,6,0,0,1,34,64ZM216,98H88a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Zm0,40H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Zm0,40H88a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["text", "align", "right"],
+    tags: ["text", "align", "right", "editor", "format", "paragraph", "document", "flush right", "layout", "ui", "writing", "content", "light"],
     category: "light"
   },
   {
@@ -64698,7 +64698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Right Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M36,64a4,4,0,0,1,4-4H216a4,4,0,0,1,0,8H40A4,4,0,0,1,36,64Zm180,36H88a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Zm0,40H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Zm0,40H88a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["text", "align", "right"],
+    tags: ["text", "align", "right", "editor", "format", "paragraph", "document", "flush right", "layout", "ui", "writing", "content", "thin"],
     category: "thin"
   },
   {
@@ -64706,7 +64706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Align Right Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M32,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H40A8,8,0,0,1,32,64ZM216,96H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,40H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["text", "align", "right"],
+    tags: ["text", "align", "right", "editor", "format", "paragraph", "document", "flush right", "layout", "ui", "writing", "content", "regular"],
     category: "regular"
   },
   {
@@ -64714,7 +64714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text B Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M185.08,114.46A48,48,0,0,0,148,36H80A12,12,0,0,0,68,48V200a12,12,0,0,0,12,12h80a52,52,0,0,0,25.08-97.54ZM92,60h56a24,24,0,0,1,0,48H92Zm68,128H92V132h68a28,28,0,0,1,0,56Z"/></svg>`,
     style: "bold",
-    tags: ["text", "b"],
+    tags: ["text", "b", "editor", "format", "strong", "emphasis", "typography", "font", "ui", "writing", "content", "bold"],
     category: "bold"
   },
   {
@@ -64722,7 +64722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text B Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,160a40,40,0,0,1-40,40H80V48h68a36,36,0,0,1,0,72h12A40,40,0,0,1,200,160Z" opacity="0.2"/><path d="M178.48,115.7A44,44,0,0,0,148,40H80a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8h80a48,48,0,0,0,18.48-92.3ZM88,56h60a28,28,0,0,1,0,56H88Zm72,136H88V128h72a32,32,0,0,1,0,64Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "b"],
+    tags: ["text", "b", "editor", "format", "strong", "emphasis", "typography", "font", "ui", "writing", "content", "duotone"],
     category: "duotone"
   },
   {
@@ -64730,7 +64730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text B Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,156a20,20,0,0,1-20,20H96V136h52A20,20,0,0,1,168,156ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM184,156a36,36,0,0,0-18-31.15A36,36,0,0,0,140,64H88a8,8,0,0,0-8,8V184a8,8,0,0,0,8,8h60A36,36,0,0,0,184,156Zm-24-56a20,20,0,0,0-20-20H96v40h44A20,20,0,0,0,160,100Z"/></svg>`,
     style: "fill",
-    tags: ["text", "b"],
+    tags: ["text", "b", "editor", "format", "strong", "emphasis", "typography", "font", "ui", "writing", "content", "filled"],
     category: "fill"
   },
   {
@@ -64738,7 +64738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text B Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M174.69,116.41A42,42,0,0,0,148,42H80a6,6,0,0,0-6,6V200a6,6,0,0,0,6,6h80a46,46,0,0,0,14.69-89.59ZM86,54h62a30,30,0,0,1,0,60H86Zm74,140H86V126h74a34,34,0,0,1,0,68Z"/></svg>`,
     style: "light",
-    tags: ["text", "b"],
+    tags: ["text", "b", "editor", "format", "strong", "emphasis", "typography", "font", "ui", "writing", "content", "light"],
     category: "light"
   },
   {
@@ -64746,7 +64746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text B Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M170.27,117.21A40,40,0,0,0,148,44H80a4,4,0,0,0-4,4V200a4,4,0,0,0,4,4h80a44,44,0,0,0,10.27-86.79ZM84,52h64a32,32,0,0,1,0,64H84Zm76,144H84V124h76a36,36,0,0,1,0,72Z"/></svg>`,
     style: "thin",
-    tags: ["text", "b"],
+    tags: ["text", "b", "editor", "format", "strong", "emphasis", "typography", "font", "ui", "writing", "content", "thin"],
     category: "thin"
   },
   {
@@ -64754,7 +64754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text B Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M178.48,115.7A44,44,0,0,0,148,40H80a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8h80a48,48,0,0,0,18.48-92.3ZM88,56h60a28,28,0,0,1,0,56H88Zm72,136H88V128h72a32,32,0,0,1,0,64Z"/></svg>`,
     style: "regular",
-    tags: ["text", "b"],
+    tags: ["text", "b", "editor", "format", "strong", "emphasis", "typography", "font", "ui", "writing", "content", "regular"],
     category: "regular"
   },
   {
@@ -64762,7 +64762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Columns Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,64a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24h68A12,12,0,0,1,120,64ZM108,92H40a12,12,0,0,0,0,24h68a12,12,0,0,0,0-24Zm0,40H40a12,12,0,0,0,0,24h68a12,12,0,0,0,0-24Zm0,40H40a12,12,0,0,0,0,24h68a12,12,0,0,0,0-24Zm40-96h68a12,12,0,0,0,0-24H148a12,12,0,0,0,0,24Zm68,16H148a12,12,0,0,0,0,24h68a12,12,0,0,0,0-24Zm0,40H148a12,12,0,0,0,0,24h68a12,12,0,0,0,0-24Zm0,40H148a12,12,0,0,0,0,24h68a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["text", "columns"],
+    tags: ["text", "columns", "editor", "layout", "format", "document", "newspaper", "grid", "ui", "writing", "content", "bold"],
     category: "bold"
   },
   {
@@ -64770,7 +64770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Columns Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64V184H40V64Z" opacity="0.2"/><path d="M120,64a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16h72A8,8,0,0,1,120,64Zm-8,32H40a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16ZM144,72h72a8,8,0,0,0,0-16H144a8,8,0,0,0,0,16Zm72,24H144a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H144a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H144a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "columns"],
+    tags: ["text", "columns", "editor", "layout", "format", "document", "newspaper", "grid", "ui", "writing", "content", "duotone"],
     category: "duotone"
   },
   {
@@ -64778,7 +64778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Columns Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM112,184H56a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H56a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H56a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H56a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm88,96H144a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Zm0-32H144a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "columns"],
+    tags: ["text", "columns", "editor", "layout", "format", "document", "newspaper", "grid", "ui", "writing", "content", "filled"],
     category: "fill"
   },
   {
@@ -64786,7 +64786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Columns Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M118,64a6,6,0,0,1-6,6H40a6,6,0,0,1,0-12h72A6,6,0,0,1,118,64Zm-6,34H40a6,6,0,0,0,0,12h72a6,6,0,0,0,0-12Zm0,40H40a6,6,0,0,0,0,12h72a6,6,0,0,0,0-12Zm0,40H40a6,6,0,0,0,0,12h72a6,6,0,0,0,0-12ZM144,70h72a6,6,0,0,0,0-12H144a6,6,0,0,0,0,12Zm72,28H144a6,6,0,0,0,0,12h72a6,6,0,0,0,0-12Zm0,40H144a6,6,0,0,0,0,12h72a6,6,0,0,0,0-12Zm0,40H144a6,6,0,0,0,0,12h72a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["text", "columns"],
+    tags: ["text", "columns", "editor", "layout", "format", "document", "newspaper", "grid", "ui", "writing", "content", "light"],
     category: "light"
   },
   {
@@ -64794,7 +64794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Columns Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M116,64a4,4,0,0,1-4,4H40a4,4,0,0,1,0-8h72A4,4,0,0,1,116,64Zm-4,36H40a4,4,0,0,0,0,8h72a4,4,0,0,0,0-8Zm0,40H40a4,4,0,0,0,0,8h72a4,4,0,0,0,0-8Zm0,40H40a4,4,0,0,0,0,8h72a4,4,0,0,0,0-8ZM144,68h72a4,4,0,0,0,0-8H144a4,4,0,0,0,0,8Zm72,32H144a4,4,0,0,0,0,8h72a4,4,0,0,0,0-8Zm0,40H144a4,4,0,0,0,0,8h72a4,4,0,0,0,0-8Zm0,40H144a4,4,0,0,0,0,8h72a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["text", "columns"],
+    tags: ["text", "columns", "editor", "layout", "format", "document", "newspaper", "grid", "ui", "writing", "content", "thin"],
     category: "thin"
   },
   {
@@ -64802,7 +64802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Columns Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,64a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16h72A8,8,0,0,1,120,64Zm-8,32H40a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H40a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16ZM144,72h72a8,8,0,0,0,0-16H144a8,8,0,0,0,0,16Zm72,24H144a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H144a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Zm0,40H144a8,8,0,0,0,0,16h72a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["text", "columns"],
+    tags: ["text", "columns", "editor", "layout", "format", "document", "newspaper", "grid", "ui", "writing", "content", "regular"],
     category: "regular"
   },
   {
@@ -64810,7 +64810,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,56V200a12,12,0,0,1-24,0V140H68v60a12,12,0,0,1-24,0V56a12,12,0,0,1,24,0v60H188V56a12,12,0,0,1,24,0Z"/></svg>`,
     style: "bold",
-    tags: ["text", "h"],
+    tags: ["text", "h", "heading", "header", "typography", "bold", "title", "editor", "ui", "formatting", "thick"],
     category: "bold"
   },
   {
@@ -64818,7 +64818,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,56V200H56V56Z" opacity="0.2"/><path d="M208,56V200a8,8,0,0,1-16,0V136H64v64a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v64H192V56a8,8,0,0,1,16,0Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "h"],
+    tags: ["text", "h", "heading", "header", "typography", "duotone", "title", "editor", "ui", "formatting", "two-tone"],
     category: "duotone"
   },
   {
@@ -64826,7 +64826,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM184,176a8,8,0,0,1-16,0V136H88v40a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0v40h80V80a8,8,0,0,1,16,0Z"/></svg>`,
     style: "fill",
-    tags: ["text", "h"],
+    tags: ["text", "h", "heading", "header", "typography", "filled", "title", "editor", "ui", "formatting", "solid"],
     category: "fill"
   },
   {
@@ -64834,7 +64834,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Five Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252,180a40,40,0,0,1-40,40,39.53,39.53,0,0,1-28.57-11.6,12,12,0,1,1,17.14-16.8A15.54,15.54,0,0,0,212,196a16,16,0,0,0,0-32,15.54,15.54,0,0,0-11.43,4.4A12,12,0,0,1,180.16,158l8-48A12,12,0,0,1,200,100h40a12,12,0,0,1,0,24H210.17l-2.71,16.23A45.39,45.39,0,0,1,212,140,40,40,0,0,1,252,180ZM144,44a12,12,0,0,0-12,12v48H52V56a12,12,0,0,0-24,0V176a12,12,0,0,0,24,0V128h80v48a12,12,0,0,0,24,0V56A12,12,0,0,0,144,44Z"/></svg>`,
     style: "bold",
-    tags: ["text", "h", "five"],
+    tags: ["text", "h", "five", "heading", "header", "typography", "bold", "title", "editor", "ui", "formatting", "h5", "thick"],
     category: "bold"
   },
   {
@@ -64842,7 +64842,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Five Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,72V192a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56H224A16,16,0,0,1,240,72Z" opacity="0.2"/><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm60,88a38.8,38.8,0,0,0-9.41,1.14L206.78,120H240a8,8,0,0,0,0-16H200a8,8,0,0,0-7.89,6.68l-8,48a8,8,0,0,0,13.6,6.92A19.73,19.73,0,0,1,212,160a20,20,0,0,1,0,40,19.73,19.73,0,0,1-14.29-5.6,8,8,0,1,0-11.42,11.2A35.54,35.54,0,0,0,212,216a36,36,0,0,0,0-72Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "h", "five"],
+    tags: ["text", "h", "five", "heading", "header", "typography", "duotone", "title", "editor", "ui", "formatting", "h5", "two-tone"],
     category: "duotone"
   },
   {
@@ -64850,7 +64850,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Five Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM128,160a8,8,0,0,1-16,0V128H72v32a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0v32h40V80a8,8,0,0,1,16,0Zm40-40a32,32,0,1,1-21.34,55.85,8,8,0,0,1,10.67-11.92,16,16,0,1,0,0-24,8,8,0,0,1-13.17-7.61l8-38A8,8,0,0,1,160,88h32a8,8,0,0,1,0,16H166.49L163,120.37A34.08,34.08,0,0,1,168,120Z"/></svg>`,
     style: "fill",
-    tags: ["text", "h", "five"],
+    tags: ["text", "h", "five", "heading", "header", "typography", "filled", "title", "editor", "ui", "formatting", "h5", "solid"],
     category: "fill"
   },
   {
@@ -64858,7 +64858,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Five Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M246,180a34,34,0,0,1-34,34,33.6,33.6,0,0,1-24.29-9.8,6,6,0,0,1,8.58-8.4A21.65,21.65,0,0,0,212,202a22,22,0,0,0,0-44,21.65,21.65,0,0,0-15.71,6.2A6,6,0,0,1,186.08,159l8-48a6,6,0,0,1,5.92-5h40a6,6,0,0,1,0,12H205.08l-5,30A36,36,0,0,1,212,146,34,34,0,0,1,246,180ZM144,50a6,6,0,0,0-6,6v54H46V56a6,6,0,0,0-12,0V176a6,6,0,0,0,12,0V122h92v54a6,6,0,0,0,12,0V56A6,6,0,0,0,144,50Z"/></svg>`,
     style: "light",
-    tags: ["text", "h", "five"],
+    tags: ["text", "h", "five", "heading", "header", "typography", "light", "title", "editor", "ui", "formatting", "h5", "thin"],
     category: "light"
   },
   {
@@ -64866,7 +64866,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Five Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,180a32,32,0,0,1-32,32,31.62,31.62,0,0,1-22.86-9.2,4,4,0,0,1,5.72-5.6A23.67,23.67,0,0,0,212,204a24,24,0,0,0,0-48,23.67,23.67,0,0,0-17.14,6.8,4,4,0,0,1-6.81-3.46l8-48A4,4,0,0,1,200,108h40a4,4,0,0,1,0,8H203.39l-5.87,35.21A33.26,33.26,0,0,1,212,148,32,32,0,0,1,244,180ZM144,52a4,4,0,0,0-4,4v56H44V56a4,4,0,0,0-8,0V176a4,4,0,0,0,8,0V120h96v56a4,4,0,0,0,8,0V56A4,4,0,0,0,144,52Z"/></svg>`,
     style: "thin",
-    tags: ["text", "h", "five"],
+    tags: ["text", "h", "five", "heading", "header", "typography", "thin", "title", "editor", "ui", "formatting", "h5", "delicate"],
     category: "thin"
   },
   {
@@ -64874,7 +64874,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Five Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm60,88a38.8,38.8,0,0,0-9.41,1.14L206.78,120H240a8,8,0,0,0,0-16H200a8,8,0,0,0-7.89,6.68l-8,48a8,8,0,0,0,13.6,6.92A19.73,19.73,0,0,1,212,160a20,20,0,0,1,0,40,19.73,19.73,0,0,1-14.29-5.6,8,8,0,1,0-11.42,11.2A35.54,35.54,0,0,0,212,216a36,36,0,0,0,0-72Z"/></svg>`,
     style: "regular",
-    tags: ["text", "h", "five"],
+    tags: ["text", "h", "five", "heading", "header", "typography", "regular", "title", "editor", "ui", "formatting", "h5", "medium"],
     category: "regular"
   },
   {
@@ -64882,7 +64882,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Four Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M156,56V176a12,12,0,0,1-24,0V128H52v48a12,12,0,0,1-24,0V56a12,12,0,0,1,24,0v48h80V56a12,12,0,0,1,24,0ZM256,184a12,12,0,0,1-12,12v12a12,12,0,0,1-24,0V196H180a12,12,0,0,1-9.73-19l52-72A12,12,0,0,1,244,112v60A12,12,0,0,1,256,184Zm-36-34.89L203.47,172H220Z"/></svg>`,
     style: "bold",
-    tags: ["text", "h", "four"],
+    tags: ["text", "h", "four", "heading", "header", "typography", "bold", "title", "editor", "ui", "formatting", "h4", "thick"],
     category: "bold"
   },
   {
@@ -64890,7 +64890,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Four Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,72V192a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56H232A16,16,0,0,1,248,72Z" opacity="0.2"/><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0ZM256,184a8,8,0,0,1-8,8h-8v16a8,8,0,0,1-16,0V192H176a8,8,0,0,1-6.31-12.91l56-72A8,8,0,0,1,240,112v64h8A8,8,0,0,1,256,184Zm-32-48.68L192.36,176H224Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "h", "four"],
+    tags: ["text", "h", "four", "heading", "header", "typography", "duotone", "title", "editor", "ui", "formatting", "h4", "two-tone"],
     category: "duotone"
   },
   {
@@ -64898,7 +64898,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Four Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164.46,144,184,119.13V144ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM128,80a8,8,0,0,0-16,0v32H72V80a8,8,0,0,0-16,0v80a8,8,0,0,0,16,0V128h40v32a8,8,0,0,0,16,0Zm84,72a8,8,0,0,0-8-8h-4V96a8,8,0,0,0-14.29-4.94l-44,56A8,8,0,0,0,148,160h36v16a8,8,0,0,0,16,0V160h4A8,8,0,0,0,212,152Z"/></svg>`,
     style: "fill",
-    tags: ["text", "h", "four"],
+    tags: ["text", "h", "four", "heading", "header", "typography", "filled", "title", "editor", "ui", "formatting", "h4", "solid"],
     category: "fill"
   },
   {
@@ -64906,7 +64906,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Four Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M150,56V176a6,6,0,0,1-12,0V122H46v54a6,6,0,0,1-12,0V56a6,6,0,0,1,12,0v54h92V56a6,6,0,0,1,12,0ZM254,184a6,6,0,0,1-6,6H238v18a6,6,0,0,1-12,0V190H176a6,6,0,0,1-4.74-9.68l56-72A6,6,0,0,1,238,112v66h10A6,6,0,0,1,254,184Zm-28-54.51L188.27,178H226Z"/></svg>`,
     style: "light",
-    tags: ["text", "h", "four"],
+    tags: ["text", "h", "four", "heading", "header", "typography", "light", "title", "editor", "ui", "formatting", "h4", "thin"],
     category: "light"
   },
   {
@@ -64914,7 +64914,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Four Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M148,56V176a4,4,0,0,1-8,0V120H44v56a4,4,0,0,1-8,0V56a4,4,0,0,1,8,0v56h96V56a4,4,0,0,1,8,0ZM252,184a4,4,0,0,1-4,4H236v20a4,4,0,0,1-8,0V188H176a4,4,0,0,1-3.16-6.46l56-72A4,4,0,0,1,236,112v68h12A4,4,0,0,1,252,184Zm-24-60.34L184.18,180H228Z"/></svg>`,
     style: "thin",
-    tags: ["text", "h", "four"],
+    tags: ["text", "h", "four", "heading", "header", "typography", "thin", "title", "editor", "ui", "formatting", "h4", "delicate"],
     category: "thin"
   },
   {
@@ -64922,7 +64922,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Four Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0ZM256,184a8,8,0,0,1-8,8h-8v16a8,8,0,0,1-16,0V192H176a8,8,0,0,1-6.31-12.91l56-72A8,8,0,0,1,240,112v64h8A8,8,0,0,1,256,184Zm-32-48.68L192.36,176H224Z"/></svg>`,
     style: "regular",
-    tags: ["text", "h", "four"],
+    tags: ["text", "h", "four", "heading", "header", "typography", "regular", "title", "editor", "ui", "formatting", "h4", "medium"],
     category: "regular"
   },
   {
@@ -64930,7 +64930,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M206,56V200a6,6,0,0,1-12,0V134H62v66a6,6,0,0,1-12,0V56a6,6,0,0,1,12,0v66H194V56a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["text", "h"],
+    tags: ["text", "h", "heading", "header", "typography", "light", "title", "editor", "ui", "formatting", "thin"],
     category: "light"
   },
   {
@@ -64938,7 +64938,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H One Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,112v96a12,12,0,0,1-24,0V134.42L206.66,138a12,12,0,0,1-13.32-20l24-16A12,12,0,0,1,236,112ZM144,44a12,12,0,0,0-12,12v48H52V56a12,12,0,0,0-24,0V176a12,12,0,0,0,24,0V128h80v48a12,12,0,0,0,24,0V56A12,12,0,0,0,144,44Z"/></svg>`,
     style: "bold",
-    tags: ["text", "h", "one"],
+    tags: ["text", "h", "one", "heading", "header", "typography", "bold", "title", "editor", "ui", "formatting", "h1", "thick"],
     category: "bold"
   },
   {
@@ -64946,7 +64946,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H One Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,72V208H56a16,16,0,0,1-16-16V56H208A16,16,0,0,1,224,72Z" opacity="0.2"/><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm75.77,49a8,8,0,0,0-8.21.39l-24,16a8,8,0,1,0,8.88,13.32L216,127V208a8,8,0,0,0,16,0V112A8,8,0,0,0,227.77,105Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "h", "one"],
+    tags: ["text", "h", "one", "heading", "header", "typography", "duotone", "title", "editor", "ui", "formatting", "h1", "two-tone"],
     category: "duotone"
   },
   {
@@ -64954,7 +64954,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H One Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM144,160a8,8,0,0,1-16,0V128H72v32a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0v32h56V80a8,8,0,0,1,16,0Zm56,16a8,8,0,0,1-16,0V111l-11.56,7.71a8,8,0,1,1-8.88-13.32l24-16A8,8,0,0,1,200,96Z"/></svg>`,
     style: "fill",
-    tags: ["text", "h", "one"],
+    tags: ["text", "h", "one", "heading", "header", "typography", "filled", "title", "editor", "ui", "formatting", "h1", "solid"],
     category: "fill"
   },
   {
@@ -64962,7 +64962,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H One Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M230,112v96a6,6,0,0,1-12,0V123.21L203.33,133a6,6,0,0,1-6.66-10l24-16a6,6,0,0,1,9.33,5ZM144,50a6,6,0,0,0-6,6v54H46V56a6,6,0,0,0-12,0V176a6,6,0,0,0,12,0V122h92v54a6,6,0,0,0,12,0V56A6,6,0,0,0,144,50Z"/></svg>`,
     style: "light",
-    tags: ["text", "h", "one"],
+    tags: ["text", "h", "one", "heading", "header", "typography", "light", "title", "editor", "ui", "formatting", "h1", "thin"],
     category: "light"
   },
   {
@@ -64970,7 +64970,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H One Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,112v96a4,4,0,0,1-8,0V119.47l-17.78,11.86a4,4,0,1,1-4.44-6.66l24-16A4,4,0,0,1,228,112ZM144,52a4,4,0,0,0-4,4v56H44V56a4,4,0,0,0-8,0V176a4,4,0,0,0,8,0V120h96v56a4,4,0,0,0,8,0V56A4,4,0,0,0,144,52Z"/></svg>`,
     style: "thin",
-    tags: ["text", "h", "one"],
+    tags: ["text", "h", "one", "heading", "header", "typography", "thin", "title", "editor", "ui", "formatting", "h1", "delicate"],
     category: "thin"
   },
   {
@@ -64978,7 +64978,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H One Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm75.77,49a8,8,0,0,0-8.21.39l-24,16a8,8,0,1,0,8.88,13.32L216,127V208a8,8,0,0,0,16,0V112A8,8,0,0,0,227.77,105Z"/></svg>`,
     style: "regular",
-    tags: ["text", "h", "one"],
+    tags: ["text", "h", "one", "heading", "header", "typography", "regular", "title", "editor", "ui", "formatting", "h1", "medium"],
     category: "regular"
   },
   {
@@ -64986,7 +64986,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Six Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M217.06,140.33l13.24-22.18a12,12,0,1,0-20.6-12.3l-32.25,54c-.09.15-.17.31-.25.47a40,40,0,1,0,39.86-20ZM212,196a16,16,0,1,1,16-16A16,16,0,0,1,212,196ZM156,56V176a12,12,0,0,1-24,0V128H52v48a12,12,0,0,1-24,0V56a12,12,0,0,1,24,0v48h80V56a12,12,0,0,1,24,0Z"/></svg>`,
     style: "bold",
-    tags: ["text", "h", "six"],
+    tags: ["text", "h", "six", "heading", "header", "typography", "bold", "title", "editor", "ui", "formatting", "h6", "thick"],
     category: "bold"
   },
   {
@@ -64994,7 +64994,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Six Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,72V192a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56H224A16,16,0,0,1,240,72Z" opacity="0.2"/><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm96,124a36,36,0,1,1-67.34-17.68c.07-.14.14-.28.22-.42l32.25-54a8,8,0,0,1,13.74,8.2l-16.69,28c.6,0,1.21-.05,1.82-.05A36,36,0,0,1,248,180Zm-16,0a20,20,0,1,0-20,20A20,20,0,0,0,232,180Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "h", "six"],
+    tags: ["text", "h", "six", "heading", "header", "typography", "duotone", "title", "editor", "ui", "formatting", "h6", "two-tone"],
     category: "duotone"
   },
   {
@@ -65002,7 +65002,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Six Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,152a16,16,0,1,1-16-16A16,16,0,0,1,192,152ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM128,80a8,8,0,0,0-16,0v32H72V80a8,8,0,0,0-16,0v80a8,8,0,0,0,16,0V128h40v32a8,8,0,0,0,16,0Zm80,72a32,32,0,0,0-32-32l11.55-20a8,8,0,0,0-13.86-8l-25.4,44-.14.27A32,32,0,1,0,208,152Z"/></svg>`,
     style: "fill",
-    tags: ["text", "h", "six"],
+    tags: ["text", "h", "six", "heading", "header", "typography", "filled", "title", "editor", "ui", "formatting", "h6", "solid"],
     category: "fill"
   },
   {
@@ -65010,7 +65010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Six Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,146a34.5,34.5,0,0,0-5.6.47l18.75-31.39a6,6,0,0,0-10.3-6.16l-32.25,54-.22.41A34,34,0,1,0,212,146Zm0,56a22,22,0,1,1,22-22A22,22,0,0,1,212,202ZM150,56V176a6,6,0,0,1-12,0V122H46v54a6,6,0,0,1-12,0V56a6,6,0,0,1,12,0v54h92V56a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["text", "h", "six"],
+    tags: ["text", "h", "six", "heading", "header", "typography", "editor", "light", "thin", "minimal", "title", "subtitle"],
     category: "light"
   },
   {
@@ -65018,7 +65018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Six Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,148a32.08,32.08,0,0,0-9.75,1.52l21.18-35.47a4,4,0,0,0-6.86-4.1l-32.25,54a.89.89,0,0,0-.08.17A32,32,0,1,0,212,148Zm0,56a24,24,0,1,1,24-24A24,24,0,0,1,212,204ZM148,56V176a4,4,0,0,1-8,0V120H44v56a4,4,0,0,1-8,0V56a4,4,0,0,1,8,0v56h96V56a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["text", "h", "six"],
+    tags: ["text", "h", "six", "heading", "header", "typography", "editor", "light", "minimal", "title", "subtitle"],
     category: "thin"
   },
   {
@@ -65026,7 +65026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Six Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm96,124a36,36,0,1,1-67.34-17.68c.07-.14.14-.28.22-.42l32.25-54a8,8,0,0,1,13.74,8.2l-16.69,28c.6,0,1.21-.05,1.82-.05A36,36,0,0,1,248,180Zm-16,0a20,20,0,1,0-20,20A20,20,0,0,0,232,180Z"/></svg>`,
     style: "regular",
-    tags: ["text", "h", "six"],
+    tags: ["text", "h", "six", "heading", "header", "typography", "editor", "normal", "title", "subtitle"],
     category: "regular"
   },
   {
@@ -65034,7 +65034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204,56V200a4,4,0,0,1-8,0V132H60v68a4,4,0,0,1-8,0V56a4,4,0,0,1,8,0v68H196V56a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["text", "h"],
+    tags: ["text", "h", "heading", "header", "typography", "editor", "light", "minimal", "title", "subtitle"],
     category: "thin"
   },
   {
@@ -65042,7 +65042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Three Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252,180a40,40,0,0,1-68.57,28,12,12,0,1,1,17.14-16.79A16,16,0,1,0,212,164a12,12,0,0,1-9.83-18.88L217,124H192a12,12,0,0,1,0-24h48a12,12,0,0,1,9.83,18.88l-18.34,26.2A40,40,0,0,1,252,180ZM144,44a12,12,0,0,0-12,12v48H52V56a12,12,0,0,0-24,0V176a12,12,0,0,0,24,0V128h80v48a12,12,0,0,0,24,0V56A12,12,0,0,0,144,44Z"/></svg>`,
     style: "bold",
-    tags: ["text", "h", "three"],
+    tags: ["text", "h", "three", "heading", "header", "typography", "editor", "bold", "thick", "strong", "title", "subtitle"],
     category: "bold"
   },
   {
@@ -65050,7 +65050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Three Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,72V192a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56H224A16,16,0,0,1,240,72Z" opacity="0.2"/><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm73.52,90.63,21-30A8,8,0,0,0,240,104H192a8,8,0,0,0,0,16h32.63l-19.18,27.41A8,8,0,0,0,212,160a20,20,0,1,1-14.29,34,8,8,0,1,0-11.42,11.19A36,36,0,0,0,248,180,36.07,36.07,0,0,0,225.52,146.63Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "h", "three"],
+    tags: ["text", "h", "three", "heading", "header", "typography", "editor", "duotone", "layered", "title", "subtitle"],
     category: "duotone"
   },
   {
@@ -65058,7 +65058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Three Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM128,160a8,8,0,0,1-16,0V128H72v32a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0v32h40V80a8,8,0,0,1,16,0Zm40,24a32,32,0,0,1-21.34-8.15,8,8,0,1,1,10.68-11.92A16,16,0,1,0,168,136a8,8,0,0,1-6.4-12.8L176,104H152a8,8,0,0,1,0-16h40a8,8,0,0,1,6.4,12.8l-16.71,22.28A32,32,0,0,1,168,184Z"/></svg>`,
     style: "fill",
-    tags: ["text", "h", "three"],
+    tags: ["text", "h", "three", "heading", "header", "typography", "editor", "filled", "solid", "title", "subtitle"],
     category: "fill"
   },
   {
@@ -65066,7 +65066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Three Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M246,180a34,34,0,0,1-58.29,23.79,6,6,0,0,1,8.58-8.39A22,22,0,1,0,212,158a6,6,0,0,1-4.92-9.44L228.48,118H192a6,6,0,0,1,0-12h48a6,6,0,0,1,4.91,9.44l-22.52,32.18A34.06,34.06,0,0,1,246,180ZM144,50a6,6,0,0,0-6,6v54H46V56a6,6,0,0,0-12,0V176a6,6,0,0,0,12,0V122h92v54a6,6,0,0,0,12,0V56A6,6,0,0,0,144,50Z"/></svg>`,
     style: "light",
-    tags: ["text", "h", "three"],
+    tags: ["text", "h", "three", "heading", "header", "typography", "editor", "light", "thin", "minimal", "title", "subtitle"],
     category: "light"
   },
   {
@@ -65074,7 +65074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Three Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,180a32,32,0,0,1-54.86,22.4,4,4,0,0,1,5.72-5.6A24,24,0,1,0,212,156a4,4,0,0,1-3.28-6.29L232.32,116H192a4,4,0,0,1,0-8h48a4,4,0,0,1,3.28,6.29L219.12,148.8A32.06,32.06,0,0,1,244,180ZM144,52a4,4,0,0,0-4,4v56H44V56a4,4,0,0,0-8,0V176a4,4,0,0,0,8,0V120h96v56a4,4,0,0,0,8,0V56A4,4,0,0,0,144,52Z"/></svg>`,
     style: "thin",
-    tags: ["text", "h", "three"],
+    tags: ["text", "h", "three", "heading", "header", "typography", "editor", "light", "minimal", "title", "subtitle"],
     category: "thin"
   },
   {
@@ -65082,7 +65082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Three Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm73.52,90.63,21-30A8,8,0,0,0,240,104H192a8,8,0,0,0,0,16h32.63l-19.18,27.41A8,8,0,0,0,212,160a20,20,0,1,1-14.29,34,8,8,0,1,0-11.42,11.19A36,36,0,0,0,248,180,36.07,36.07,0,0,0,225.52,146.63Z"/></svg>`,
     style: "regular",
-    tags: ["text", "h", "three"],
+    tags: ["text", "h", "three", "heading", "header", "typography", "editor", "normal", "title", "subtitle"],
     category: "regular"
   },
   {
@@ -65090,7 +65090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Two Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M156,56V176a12,12,0,0,1-24,0V128H52v48a12,12,0,0,1-24,0V56a12,12,0,0,1,24,0v48h80V56a12,12,0,0,1,24,0Zm84,140H216l28.74-38.33A36,36,0,1,0,182.05,124a12,12,0,0,0,22.63,8,11.67,11.67,0,0,1,1.73-3.22,12,12,0,1,1,19.15,14.46L182.4,200.8A12,12,0,0,0,192,220h48a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["text", "h", "two"],
+    tags: ["text", "h", "two", "heading", "header", "typography", "editor", "bold", "thick", "strong", "title", "subtitle"],
     category: "bold"
   },
   {
@@ -65098,7 +65098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Two Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,72V208H56a16,16,0,0,1-16-16V56H224A16,16,0,0,1,240,72Z" opacity="0.2"/><path d="M248,208a8,8,0,0,1-8,8H192a8,8,0,0,1-6.4-12.8l43.16-57.56a16,16,0,1,0-25.54-19.27,16.28,16.28,0,0,0-2.32,4.3,8,8,0,1,1-15.08-5.34,32,32,0,1,1,55.73,29.93L208,200h32A8,8,0,0,1,248,208ZM144,48a8,8,0,0,0-8,8v52H48V56a8,8,0,0,0-16,0V176a8,8,0,0,0,16,0V124h88v52a8,8,0,0,0,16,0V56A8,8,0,0,0,144,48Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "h", "two"],
+    tags: ["text", "h", "two", "heading", "header", "typography", "editor", "duotone", "layered", "title", "subtitle"],
     category: "duotone"
   },
   {
@@ -65106,7 +65106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Two Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM128,160a8,8,0,0,1-16,0V128H72v32a8,8,0,0,1-16,0V80a8,8,0,0,1,16,0v32h40V80a8,8,0,0,1,16,0Zm64,24H152a8,8,0,0,1-6.4-12.8l36-48a12,12,0,1,0-19.15-14.46,13.06,13.06,0,0,0-2.58,4.81,8,8,0,1,1-15.68-3.18,28.17,28.17,0,1,1,50.2,22.44L168,168h24a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "h", "two"],
+    tags: ["text", "h", "two", "heading", "header", "typography", "editor", "filled", "solid", "title", "subtitle"],
     category: "fill"
   },
   {
@@ -65114,7 +65114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Two Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M150,56V176a6,6,0,0,1-12,0V122H46v54a6,6,0,0,1-12,0V56a6,6,0,0,1,12,0v54h92V56a6,6,0,0,1,12,0Zm90,146H204L240,154.05A30,30,0,1,0,187.71,126,6,6,0,1,0,199,130a18,18,0,0,1,14.47-11.82,18,18,0,0,1,16.87,28.66L187.2,204.4A6,6,0,0,0,192,214h48a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["text", "h", "two"],
+    tags: ["text", "h", "two", "heading", "header", "typography", "editor", "light", "thin", "minimal", "title", "subtitle"],
     category: "light"
   },
   {
@@ -65122,7 +65122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Two Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M148,56V176a4,4,0,0,1-8,0V120H44v56a4,4,0,0,1-8,0V56a4,4,0,0,1,8,0v56h96V56a4,4,0,0,1,8,0Zm92,148H200l38.36-51.15a28,28,0,1,0-48.77-26.18,4,4,0,1,0,7.54,2.66A20.36,20.36,0,0,1,200,124,20,20,0,0,1,232,148L188.8,205.6A4,4,0,0,0,192,212h48a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["text", "h", "two"],
+    tags: ["text", "h", "two", "heading", "header", "typography", "editor", "light", "minimal", "title", "subtitle"],
     category: "thin"
   },
   {
@@ -65130,7 +65130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Two Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,56V176a8,8,0,0,1-16,0V124H48v52a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v52h88V56a8,8,0,0,1,16,0Zm88,144H208l33.55-44.74a32,32,0,1,0-55.73-29.93,8,8,0,1,0,15.08,5.34,16.28,16.28,0,0,1,2.32-4.3,16,16,0,1,1,25.54,19.27L185.6,203.2A8,8,0,0,0,192,216h48a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["text", "h", "two"],
+    tags: ["text", "h", "two", "heading", "header", "typography", "editor", "normal", "title", "subtitle"],
     category: "regular"
   },
   {
@@ -65138,7 +65138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text H Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,56V200a8,8,0,0,1-16,0V136H64v64a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v64H192V56a8,8,0,0,1,16,0Z"/></svg>`,
     style: "regular",
-    tags: ["text", "h"],
+    tags: ["text", "h", "heading", "header", "typography", "editor", "normal", "title", "subtitle"],
     category: "regular"
   },
   {
@@ -65146,7 +65146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Indent Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,128a12,12,0,0,1-12,12H120a12,12,0,0,1,0-24h96A12,12,0,0,1,228,128ZM120,76h96a12,12,0,0,0,0-24H120a12,12,0,0,0,0,24Zm96,104H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24ZM31.51,144.49a12,12,0,0,0,17,0l40-40a12,12,0,0,0,0-17l-40-40a12,12,0,0,0-17,17L63,96,31.51,127.51A12,12,0,0,0,31.51,144.49Z"/></svg>`,
     style: "bold",
-    tags: ["text", "indent"],
+    tags: ["text", "indent", "paragraph", "alignment", "editor", "formatting", "spacing", "bold", "thick", "strong", "layout"],
     category: "bold"
   },
   {
@@ -65154,7 +65154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Indent Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64V192H40V64Z" opacity="0.2"/><path d="M224,128a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM112,72H216a8,8,0,0,0,0-16H112a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM34.34,141.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0,0-11.32l-40-40A8,8,0,0,0,34.34,61.66L68.69,96,34.34,130.34A8,8,0,0,0,34.34,141.66Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "indent"],
+    tags: ["text", "indent", "paragraph", "alignment", "editor", "formatting", "spacing", "duotone", "layered", "layout"],
     category: "duotone"
   },
   {
@@ -65162,7 +65162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Indent Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM112,72H216a8,8,0,0,0,0-16H112a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM36.94,143.39a8,8,0,0,0,8.72-1.73l40-40a8,8,0,0,0,0-11.32l-40-40A8,8,0,0,0,32,56v80A8,8,0,0,0,36.94,143.39Z"/></svg>`,
     style: "fill",
-    tags: ["text", "indent"],
+    tags: ["text", "indent", "paragraph", "alignment", "editor", "formatting", "spacing", "filled", "solid", "layout"],
     category: "fill"
   },
   {
@@ -65170,7 +65170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Indent Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222,128a6,6,0,0,1-6,6H112a6,6,0,0,1,0-12H216A6,6,0,0,1,222,128ZM112,70H216a6,6,0,0,0,0-12H112a6,6,0,0,0,0,12ZM216,186H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12ZM35.76,140.24a6,6,0,0,0,8.48,0l40-40a6,6,0,0,0,0-8.48l-40-40a6,6,0,0,0-8.48,8.48L71.51,96,35.76,131.76A6,6,0,0,0,35.76,140.24Z"/></svg>`,
     style: "light",
-    tags: ["text", "indent"],
+    tags: ["text", "indent", "paragraph", "alignment", "editor", "formatting", "spacing", "light", "thin", "minimal", "layout"],
     category: "light"
   },
   {
@@ -65178,7 +65178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Indent Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220,128a4,4,0,0,1-4,4H112a4,4,0,0,1,0-8H216A4,4,0,0,1,220,128ZM112,68H216a4,4,0,0,0,0-8H112a4,4,0,0,0,0,8ZM216,188H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8ZM37.17,138.83a4,4,0,0,0,5.66,0l40-40a4,4,0,0,0,0-5.66l-40-40a4,4,0,0,0-5.66,5.66L74.34,96,37.17,133.17A4,4,0,0,0,37.17,138.83Z"/></svg>`,
     style: "thin",
-    tags: ["text", "indent"],
+    tags: ["text", "indent", "paragraph", "alignment", "editor", "formatting", "spacing", "light", "minimal", "layout"],
     category: "thin"
   },
   {
@@ -65186,7 +65186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Indent Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM112,72H216a8,8,0,0,0,0-16H112a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM34.34,141.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0,0-11.32l-40-40A8,8,0,0,0,34.34,61.66L68.69,96,34.34,130.34A8,8,0,0,0,34.34,141.66Z"/></svg>`,
     style: "regular",
-    tags: ["text", "indent"],
+    tags: ["text", "indent", "paragraph", "alignment", "editor", "formatting", "spacing", "normal", "layout"],
     category: "regular"
   },
   {
@@ -65194,7 +65194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Italic Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204,56a12,12,0,0,1-12,12H160.65l-40,120H144a12,12,0,0,1,0,24H64a12,12,0,0,1,0-24H95.35l40-120H112a12,12,0,0,1,0-24h80A12,12,0,0,1,204,56Z"/></svg>`,
     style: "bold",
-    tags: ["text", "italic"],
+    tags: ["text", "italic", "font", "style", "editor", "formatting", "emphasis", "bold", "thick", "strong"],
     category: "bold"
   },
   {
@@ -65202,7 +65202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Italic Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,56,144,200H64L112,56Z" opacity="0.2"/><path d="M200,56a8,8,0,0,1-8,8H157.77L115.1,192H144a8,8,0,0,1,0,16H64a8,8,0,0,1,0-16H98.23L140.9,64H112a8,8,0,0,1,0-16h80A8,8,0,0,1,200,56Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "italic"],
+    tags: ["text", "italic", "font", "style", "editor", "formatting", "emphasis", "duotone", "layered"],
     category: "duotone"
   },
   {
@@ -65210,7 +65210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Italic Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM176,80H153.64l-34.29,96H136a8,8,0,0,1,0,16H80a8,8,0,0,1,0-16h22.36l34.29-96H120a8,8,0,0,1,0-16h56a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "italic"],
+    tags: ["text", "italic", "formatting", "typography", "editor", "style", "document", "filled", "bold", "emphasis"],
     category: "fill"
   },
   {
@@ -65218,7 +65218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Italic Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M198,56a6,6,0,0,1-6,6H156.32l-44,132H144a6,6,0,0,1,0,12H64a6,6,0,0,1,0-12H99.68l44-132H112a6,6,0,0,1,0-12h80A6,6,0,0,1,198,56Z"/></svg>`,
     style: "light",
-    tags: ["text", "italic"],
+    tags: ["text", "italic", "formatting", "typography", "editor", "style", "document", "light", "thin", "emphasis"],
     category: "light"
   },
   {
@@ -65226,7 +65226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Italic Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M196,56a4,4,0,0,1-4,4H154.88L109.55,196H144a4,4,0,0,1,0,8H64a4,4,0,0,1,0-8h37.12L146.45,60H112a4,4,0,0,1,0-8h80A4,4,0,0,1,196,56Z"/></svg>`,
     style: "thin",
-    tags: ["text", "italic"],
+    tags: ["text", "italic", "formatting", "typography", "editor", "style", "document", "thin", "light", "emphasis"],
     category: "thin"
   },
   {
@@ -65234,7 +65234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Italic Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,56a8,8,0,0,1-8,8H157.77L115.1,192H144a8,8,0,0,1,0,16H64a8,8,0,0,1,0-16H98.23L140.9,64H112a8,8,0,0,1,0-16h80A8,8,0,0,1,200,56Z"/></svg>`,
     style: "regular",
-    tags: ["text", "italic"],
+    tags: ["text", "italic", "formatting", "typography", "editor", "style", "document", "standard", "emphasis"],
     category: "regular"
   },
   {
@@ -65242,7 +65242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Outdent Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,128a12,12,0,0,1-12,12H120a12,12,0,0,1,0-24h96A12,12,0,0,1,228,128ZM120,76h96a12,12,0,0,0,0-24H120a12,12,0,0,0,0,24Zm96,104H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24ZM72,148a12,12,0,0,0,8.49-20.49L49,96,80.49,64.48a12,12,0,0,0-17-17l-40,40a12,12,0,0,0,0,17l40,40A12,12,0,0,0,72,148Z"/></svg>`,
     style: "bold",
-    tags: ["text", "outdent"],
+    tags: ["text", "outdent", "formatting", "editor", "indentation", "paragraph", "document", "bold", "alignment"],
     category: "bold"
   },
   {
@@ -65250,7 +65250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Outdent Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64V192H40V88L64,64Z" opacity="0.2"/><path d="M224,128a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM112,72H216a8,8,0,0,0,0-16H112a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM72,144a8,8,0,0,0,5.66-13.66L43.31,96,77.66,61.66A8,8,0,0,0,66.34,50.34l-40,40a8,8,0,0,0,0,11.32l40,40A8,8,0,0,0,72,144Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "outdent"],
+    tags: ["text", "outdent", "formatting", "editor", "indentation", "paragraph", "document", "duotone", "alignment"],
     category: "duotone"
   },
   {
@@ -65258,7 +65258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Outdent Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM112,72H216a8,8,0,0,0,0-16H112a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM72,144a8,8,0,0,0,8-8V56a8,8,0,0,0-13.66-5.66l-40,40a8,8,0,0,0,0,11.32l40,40A8,8,0,0,0,72,144Z"/></svg>`,
     style: "fill",
-    tags: ["text", "outdent"],
+    tags: ["text", "outdent", "formatting", "editor", "indentation", "paragraph", "document", "filled", "bold", "alignment"],
     category: "fill"
   },
   {
@@ -65266,7 +65266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Outdent Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222,128a6,6,0,0,1-6,6H112a6,6,0,0,1,0-12H216A6,6,0,0,1,222,128ZM112,70H216a6,6,0,0,0,0-12H112a6,6,0,0,0,0,12ZM216,186H40a6,6,0,0,0,0,12H216a6,6,0,0,0,0-12ZM72,142a6,6,0,0,0,4.24-10.24L40.49,96,76.24,60.24a6,6,0,0,0-8.48-8.48l-40,40a6,6,0,0,0,0,8.48l40,40A6,6,0,0,0,72,142Z"/></svg>`,
     style: "light",
-    tags: ["text", "outdent"],
+    tags: ["text", "outdent", "formatting", "editor", "indentation", "paragraph", "document", "light", "thin", "alignment"],
     category: "light"
   },
   {
@@ -65274,7 +65274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Outdent Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220,128a4,4,0,0,1-4,4H112a4,4,0,0,1,0-8H216A4,4,0,0,1,220,128ZM112,68H216a4,4,0,0,0,0-8H112a4,4,0,0,0,0,8ZM216,188H40a4,4,0,0,0,0,8H216a4,4,0,0,0,0-8ZM72,140a4,4,0,0,0,2.83-6.83L37.66,96,74.83,58.83a4,4,0,0,0-5.66-5.66l-40,40a4,4,0,0,0,0,5.66l40,40A4,4,0,0,0,72,140Z"/></svg>`,
     style: "thin",
-    tags: ["text", "outdent"],
+    tags: ["text", "outdent", "formatting", "editor", "indentation", "paragraph", "document", "thin", "light", "alignment"],
     category: "thin"
   },
   {
@@ -65282,7 +65282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Outdent Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM112,72H216a8,8,0,0,0,0-16H112a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM72,144a8,8,0,0,0,5.66-13.66L43.31,96,77.66,61.66A8,8,0,0,0,66.34,50.34l-40,40a8,8,0,0,0,0,11.32l40,40A8,8,0,0,0,72,144Z"/></svg>`,
     style: "regular",
-    tags: ["text", "outdent"],
+    tags: ["text", "outdent", "formatting", "editor", "indentation", "paragraph", "document", "standard", "alignment"],
     category: "regular"
   },
   {
@@ -65290,7 +65290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Strikethrough Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,128a12,12,0,0,1-12,12H185.86A41.48,41.48,0,0,1,196,168c0,14.45-7.81,28.32-21.43,38.05C162,215.05,145.44,220,128,220s-34-4.95-46.57-13.95C67.81,196.32,60,182.45,60,168a12,12,0,0,1,24,0c0,15.18,20.15,28,44,28s44-12.82,44-28c0-12.76-9.3-20.18-35.35-28H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,128ZM75.11,100a12,12,0,0,0,12-12c0-16,17.58-28,40.89-28,17.36,0,31.37,6.65,37.48,17.78a12,12,0,0,0,21-11.56C176.13,47.3,154.25,36,128,36,91,36,63.11,58.35,63.11,88A12,12,0,0,0,75.11,100Z"/></svg>`,
     style: "bold",
-    tags: ["text", "strikethrough"],
+    tags: ["text", "strikethrough", "formatting", "editor", "delete", "remove", "correction", "document", "bold", "line"],
     category: "bold"
   },
   {
@@ -65298,7 +65298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Strikethrough Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,72l-55.31,51.05c-24-6.7-45.58-14.26-45.58-35,0-22.09,22-40,52.89-40C151.2,48,168.37,57.64,176,72Zm-55.31,51.05L72,168c0,22.09,25.07,40,56,40s56-17.91,56-40C184,138.43,150.52,131.4,120.69,123.05Z" opacity="0.2"/><path d="M224,128a8,8,0,0,1-8,8H175.93c9.19,7.11,16.07,17.2,16.07,32,0,13.34-7,25.7-19.75,34.79C160.33,211.31,144.61,216,128,216s-32.33-4.69-44.25-13.21C71,193.7,64,181.34,64,168a8,8,0,0,1,16,0c0,17.35,22,32,48,32s48-14.65,48-32c0-14.85-10.54-23.58-38.77-32H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM76.33,104a8,8,0,0,0,7.61-10.49A17.3,17.3,0,0,1,83.11,88c0-18.24,19.3-32,44.89-32,18.84,0,34.16,7.42,41,19.85a8,8,0,0,0,14-7.7C173.33,50.52,152.77,40,128,40,93.29,40,67.11,60.63,67.11,88a33.73,33.73,0,0,0,1.62,10.49A8,8,0,0,0,76.33,104Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "strikethrough"],
+    tags: ["text", "strikethrough", "formatting", "editor", "delete", "remove", "correction", "document", "duotone", "line"],
     category: "duotone"
   },
   {
@@ -65306,7 +65306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Strikethrough Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM82.71,94.58C86,76.57,104.58,64,128,64c18.2,0,33.59,7.41,41.18,19.83a8,8,0,1,1-13.66,8.34C150.94,84.66,140.39,80,128,80c-15.3,0-27.73,7.33-29.55,17.42A8,8,0,0,1,90.59,104a7.76,7.76,0,0,1-1.43-.13A8,8,0,0,1,82.71,94.58ZM192,136H168.29A28.45,28.45,0,0,1,176,156c0,20.19-21.08,36-48,36-23.89,0-43.83-12.78-47.43-30.4a8,8,0,1,1,15.67-3.2c2,9.87,16,17.6,31.76,17.6,17.35,0,32-9.16,32-20,0-9.14-6.76-14.43-25.72-20H64a8,8,0,0,1,0-16H192a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "strikethrough"],
+    tags: ["text", "strikethrough", "formatting", "editor", "delete", "remove", "correction", "document", "filled", "bold", "line"],
     category: "fill"
   },
   {
@@ -65314,7 +65314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Strikethrough Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222,128a6,6,0,0,1-6,6H169.45c11.28,6.92,20.55,17.38,20.55,34,0,25.36-27.81,46-62,46s-62-20.64-62-46a6,6,0,0,1,12,0c0,18.75,22.43,34,50,34s50-15.25,50-34c0-18.23-15.46-26.59-40.47-34H40a6,6,0,0,1,0-12H216A6,6,0,0,1,222,128ZM76.33,102a6.2,6.2,0,0,0,1.88-.3A6,6,0,0,0,82,94.13,19.74,19.74,0,0,1,81.11,88c0-19.38,20.16-34,46.89-34,19.58,0,35.56,7.81,42.74,20.89a6,6,0,0,0,10.52-5.78C171.94,52.13,152,42,128,42,94.43,42,69.11,61.77,69.11,88a31.62,31.62,0,0,0,1.52,9.87A6,6,0,0,0,76.33,102Z"/></svg>`,
     style: "light",
-    tags: ["text", "strikethrough"],
+    tags: ["text", "strikethrough", "formatting", "editor", "delete", "remove", "correction", "document", "light", "thin", "line"],
     category: "light"
   },
   {
@@ -65322,7 +65322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Strikethrough Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220,128a4,4,0,0,1-4,4H161.16c15.45,7.24,26.84,17.8,26.84,36,0,24.26-26.92,44-60,44s-60-19.74-60-44a4,4,0,0,1,8,0c0,19.85,23.33,36,52,36s52-16.15,52-36c0-19.54-16.13-28.3-42.18-36H40a4,4,0,0,1,0-8H216A4,4,0,0,1,220,128ZM76.33,100a3.85,3.85,0,0,0,1.25-.2,4,4,0,0,0,2.55-5,21.9,21.9,0,0,1-1-6.75c0-20.52,21-36,48.89-36,20.32,0,37,8.2,44.49,21.92a4,4,0,0,0,7-3.85C170.54,53.75,151.29,44,128,44,95.57,44,71.11,62.92,71.11,88a29.76,29.76,0,0,0,1.42,9.25A4,4,0,0,0,76.33,100Z"/></svg>`,
     style: "thin",
-    tags: ["text", "strikethrough"],
+    tags: ["text", "strikethrough", "formatting", "editor", "delete", "remove", "correction", "document", "thin", "light", "line"],
     category: "thin"
   },
   {
@@ -65330,7 +65330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Strikethrough Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H175.93c9.19,7.11,16.07,17.2,16.07,32,0,13.34-7,25.7-19.75,34.79C160.33,211.31,144.61,216,128,216s-32.33-4.69-44.25-13.21C71,193.7,64,181.34,64,168a8,8,0,0,1,16,0c0,17.35,22,32,48,32s48-14.65,48-32c0-14.85-10.54-23.58-38.77-32H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM76.33,104a8,8,0,0,0,7.61-10.49A17.3,17.3,0,0,1,83.11,88c0-18.24,19.3-32,44.89-32,18.84,0,34.16,7.42,41,19.85a8,8,0,0,0,14-7.7C173.33,50.52,152.77,40,128,40,93.29,40,67.11,60.63,67.11,88a33.73,33.73,0,0,0,1.62,10.49A8,8,0,0,0,76.33,104Z"/></svg>`,
     style: "regular",
-    tags: ["text", "strikethrough"],
+    tags: ["text", "strikethrough", "formatting", "editor", "delete", "remove", "correction", "document", "standard", "line"],
     category: "regular"
   },
   {
@@ -65338,7 +65338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Subscript Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252,208a12,12,0,0,1-12,12H192a12,12,0,0,1-9.6-19.2l43.17-57.56a12,12,0,0,0-2.35-16.82A12,12,0,0,0,204.68,132a12,12,0,0,1-22.63-8,36.3,36.3,0,0,1,5.2-9.67,36,36,0,0,1,57.5,43.34L216,196h24A12,12,0,0,1,252,208ZM151.86,46.93a12,12,0,0,0-16.93,1.21L92,97.68,49.07,48.14A12,12,0,0,0,30.93,63.86L76.12,116,30.93,168.14a12,12,0,0,0,18.14,15.72L92,134.32l42.93,49.54a12,12,0,1,0,18.14-15.72L107.88,116l45.19-52.14A12,12,0,0,0,151.86,46.93Z"/></svg>`,
     style: "bold",
-    tags: ["text", "subscript"],
+    tags: ["text", "subscript", "formatting", "editor", "typography", "math", "chemical", "document", "bold", "equation"],
     category: "bold"
   },
   {
@@ -65346,7 +65346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Subscript Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,72V208H56a16,16,0,0,1-16-16V56H224A16,16,0,0,1,240,72Z" opacity="0.2"/><path d="M248,208a8,8,0,0,1-8,8H192a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32.18,32.18,0,0,1,4.63-8.59,32,32,0,0,1,51.11,38.52L208,200h32A8,8,0,0,1,248,208ZM149.24,50a8,8,0,0,0-11.29.81L92,103.78l-45.95-53A8,8,0,0,0,34,61.24L81.41,116,34,170.76a8,8,0,0,0,12.1,10.48l46-53,45.95,53a8,8,0,1,0,12.1-10.48L102.59,116l47.46-54.76A8,8,0,0,0,149.24,50Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "subscript"],
+    tags: ["text", "subscript", "formatting", "editor", "typography", "math", "chemical", "document", "duotone", "equation"],
     category: "duotone"
   },
   {
@@ -65354,7 +65354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Subscript Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM126.55,147.41a8,8,0,1,1-13.1,9.18L92,126,70.55,156.59a8,8,0,1,1-13.1-9.18L82.23,112,57.45,76.59a8,8,0,0,1,13.1-9.18L92,98.05l21.45-30.64a8,8,0,0,1,13.1,9.18L101.77,112ZM192,192H152a8,8,0,0,1-6.4-12.8l36-48a12,12,0,1,0-19.15-14.46,13.06,13.06,0,0,0-2.58,4.81,8,8,0,1,1-15.68-3.18,28.17,28.17,0,1,1,50.2,22.44L168,176h24a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "subscript"],
+    tags: ["text", "subscript", "formatting", "editor", "typography", "math", "chemical", "document", "filled", "bold", "equation"],
     category: "fill"
   },
   {
@@ -65362,7 +65362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Subscript Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M246,208a6,6,0,0,1-6,6H192a6,6,0,0,1-4.8-9.6l43.17-57.56A18,18,0,1,0,199,130a6,6,0,1,1-11.31-4A30,30,0,1,1,240,154.06L204,202h36A6,6,0,0,1,246,208ZM147.93,51.47a6,6,0,0,0-8.46.6L92,106.84,44.53,52.07a6,6,0,1,0-9.06,7.86L84.06,116,35.47,172.07a6,6,0,1,0,9.06,7.86L92,125.16l47.47,54.77a6,6,0,0,0,9.06-7.86L99.94,116l48.59-56.07A6,6,0,0,0,147.93,51.47Z"/></svg>`,
     style: "light",
-    tags: ["text", "subscript"],
+    tags: ["text", "subscript", "formatting", "editor", "typography", "math", "chemical", "document", "light", "thin", "equation"],
     category: "light"
   },
   {
@@ -65370,7 +65370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Subscript Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,208a4,4,0,0,1-4,4H192a4,4,0,0,1-3.2-6.4L232,148A20,20,0,0,0,228,120,20,20,0,0,0,200,124a20.23,20.23,0,0,0-2.89,5.37,4,4,0,0,1-7.55-2.66,28.34,28.34,0,0,1,4-7.52,28,28,0,0,1,44.72,33.7L200,204h40A4,4,0,0,1,244,208ZM146.62,53a4,4,0,0,0-5.64.4L92,109.89,43,53.38a4,4,0,1,0-6,5.24L86.71,116,37,173.38a4,4,0,1,0,6,5.24l49-56.51,49,56.51a4,4,0,0,0,6-5.24L97.29,116,147,58.62A4,4,0,0,0,146.62,53Z"/></svg>`,
     style: "thin",
-    tags: ["text", "subscript"],
+    tags: ["text", "subscript", "formatting", "editor", "typography", "math", "chemical", "document", "thin", "light", "equation"],
     category: "thin"
   },
   {
@@ -65378,7 +65378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Subscript Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,208a8,8,0,0,1-8,8H192a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32.18,32.18,0,0,1,4.63-8.59,32,32,0,0,1,51.11,38.52L208,200h32A8,8,0,0,1,248,208ZM149.24,50a8,8,0,0,0-11.29.81L92,103.78l-45.95-53A8,8,0,0,0,34,61.24L81.41,116,34,170.76a8,8,0,0,0,12.1,10.48l46-53,45.95,53a8,8,0,1,0,12.1-10.48L102.59,116l47.46-54.76A8,8,0,0,0,149.24,50Z"/></svg>`,
     style: "regular",
-    tags: ["text", "subscript"],
+    tags: ["text", "subscript", "formatting", "editor", "typography", "math", "chemical", "document", "standard", "equation"],
     category: "regular"
   },
   {
@@ -65386,7 +65386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Superscript Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252,144a12,12,0,0,1-12,12H192a12,12,0,0,1-9.6-19.2l43.17-57.55A12,12,0,1,0,204.68,68a12,12,0,0,1-22.63-8,36.24,36.24,0,0,1,5.2-9.66,36,36,0,0,1,57.5,43.33L216,132h24A12,12,0,0,1,252,144ZM151.86,70.94a12,12,0,0,0-16.93,1.2L92,121.68,49.07,72.14A12,12,0,0,0,30.93,87.86L76.12,140,30.93,192.14a12,12,0,0,0,18.14,15.72L92,158.32l42.93,49.54a12,12,0,1,0,18.14-15.72L107.88,140l45.19-52.14A12,12,0,0,0,151.86,70.94Z"/></svg>`,
     style: "bold",
-    tags: ["text", "superscript"],
+    tags: ["text", "superscript", "formatting", "editor", "typography", "math", "exponent", "document", "bold", "equation"],
     category: "bold"
   },
   {
@@ -65394,7 +65394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Superscript Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,64V184a16,16,0,0,1-16,16H40V64A16,16,0,0,1,56,48H224A16,16,0,0,1,240,64Z" opacity="0.2"/><path d="M248,144a8,8,0,0,1-8,8H192a8,8,0,0,1-6.4-12.8l43.17-57.55a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.33,32,32,0,1,1,55.74,29.92L208,136h32A8,8,0,0,1,248,144ZM149.24,74a8,8,0,0,0-11.29.8L92,127.79l-45.95-53A8,8,0,0,0,34,85.24L81.41,140,34,194.76a8,8,0,0,0,12.1,10.48l46-53,45.95,53a8,8,0,1,0,12.1-10.48L102.59,140l47.46-54.76A8,8,0,0,0,149.24,74Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "superscript"],
+    tags: ["text", "superscript", "formatting", "editor", "typography", "math", "exponent", "document", "duotone", "equation"],
     category: "duotone"
   },
   {
@@ -65402,7 +65402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Superscript Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM126.55,179.41a8,8,0,1,1-13.1,9.18L92,158,70.55,188.59a8,8,0,1,1-13.1-9.18L82.23,144,57.45,108.59a8,8,0,1,1,13.1-9.18L92,130.05l21.45-30.64a8,8,0,0,1,13.1,9.18L101.77,144ZM192,160H152a8,8,0,0,1-6.4-12.8l36-48a12,12,0,1,0-19.15-14.46,13.06,13.06,0,0,0-2.58,4.81,8,8,0,1,1-15.68-3.18,28.17,28.17,0,1,1,50.2,22.44L168,144h24a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "superscript"],
+    tags: ["text", "superscript", "formatting", "editor", "typography", "math", "exponent", "document", "filled", "bold", "equation"],
     category: "fill"
   },
   {
@@ -65410,7 +65410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Superscript Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M246,144a6,6,0,0,1-6,6H192a6,6,0,0,1-4.8-9.6l43.17-57.55A18,18,0,1,0,199,66a6,6,0,0,1-11.31-4A30.12,30.12,0,0,1,192,54,30,30,0,0,1,240,90.06L204,138h36A6,6,0,0,1,246,144ZM147.93,75.47a6,6,0,0,0-8.46.6L92,130.84,44.53,76.07a6,6,0,1,0-9.06,7.86L84.06,140,35.47,196.07a6,6,0,1,0,9.06,7.86L92,149.16l47.47,54.77a6,6,0,0,0,9.06-7.86L99.94,140l48.59-56.07A6,6,0,0,0,147.93,75.47Z"/></svg>`,
     style: "light",
-    tags: ["text", "superscript"],
+    tags: ["text", "superscript", "formatting", "typography", "editor", "math", "exponent", "ui", "light", "minimal"],
     category: "light"
   },
   {
@@ -65418,7 +65418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Superscript Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,144a4,4,0,0,1-4,4H192a4,4,0,0,1-3.2-6.4L232,84.05A20,20,0,0,0,213.22,52.2a20,20,0,0,0-16.08,13.14,4,4,0,1,1-7.55-2.67,28.34,28.34,0,0,1,4-7.52,28,28,0,1,1,44.72,33.7L200,140h40A4,4,0,0,1,244,144ZM146.62,77a4,4,0,0,0-5.64.4L92,133.89,43,77.38a4,4,0,0,0-6,5.24L86.71,140,37,197.38a4,4,0,1,0,6,5.24l49-56.51,49,56.51a4,4,0,0,0,6-5.24L97.29,140,147,82.62A4,4,0,0,0,146.62,77Z"/></svg>`,
     style: "thin",
-    tags: ["text", "superscript"],
+    tags: ["text", "superscript", "formatting", "typography", "editor", "math", "exponent", "ui", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -65426,7 +65426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Superscript Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,144a8,8,0,0,1-8,8H192a8,8,0,0,1-6.4-12.8l43.17-57.55a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.33,32,32,0,1,1,55.74,29.92L208,136h32A8,8,0,0,1,248,144ZM149.24,74a8,8,0,0,0-11.29.8L92,127.79l-45.95-53A8,8,0,0,0,34,85.24L81.41,140,34,194.76a8,8,0,0,0,12.1,10.48l46-53,45.95,53a8,8,0,1,0,12.1-10.48L102.59,140l47.46-54.76A8,8,0,0,0,149.24,74Z"/></svg>`,
     style: "regular",
-    tags: ["text", "superscript"],
+    tags: ["text", "superscript", "formatting", "typography", "editor", "math", "exponent", "ui", "normal", "standard"],
     category: "regular"
   },
   {
@@ -65434,7 +65434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,56V88a12,12,0,0,1-24,0V68H140V188h20a12,12,0,0,1,0,24H96a12,12,0,0,1,0-24h20V68H68V88a12,12,0,0,1-24,0V56A12,12,0,0,1,56,44H200A12,12,0,0,1,212,56Z"/></svg>`,
     style: "bold",
-    tags: ["text", "t"],
+    tags: ["text", "t", "letter", "alphabet", "typography", "font", "editor", "bold", "heavy", "strong"],
     category: "bold"
   },
   {
@@ -65442,7 +65442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,56V184a16,16,0,0,1-16,16H72a16,16,0,0,1-16-16V56Z" opacity="0.2"/><path d="M208,56V88a8,8,0,0,1-16,0V64H136V192h24a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16h24V64H64V88a8,8,0,0,1-16,0V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "t"],
+    tags: ["text", "t", "letter", "alphabet", "typography", "font", "editor", "duotone", "two-tone", "shaded"],
     category: "duotone"
   },
   {
@@ -65450,7 +65450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM184,96a8,8,0,0,1-16,0V88H136v88h12a8,8,0,0,1,0,16H108a8,8,0,0,1,0-16h12V88H88v8a8,8,0,0,1-16,0V80a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z"/></svg>`,
     style: "fill",
-    tags: ["text", "t"],
+    tags: ["text", "t", "letter", "alphabet", "typography", "font", "editor", "filled", "solid", "complete"],
     category: "fill"
   },
   {
@@ -65458,7 +65458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M206,56V88a6,6,0,0,1-12,0V62H134V194h26a6,6,0,0,1,0,12H96a6,6,0,0,1,0-12h26V62H62V88a6,6,0,0,1-12,0V56a6,6,0,0,1,6-6H200A6,6,0,0,1,206,56Z"/></svg>`,
     style: "light",
-    tags: ["text", "t"],
+    tags: ["text", "t", "letter", "alphabet", "typography", "font", "editor", "light", "thin", "delicate"],
     category: "light"
   },
   {
@@ -65466,7 +65466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Slash Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.07,224.88a12,12,0,0,1-16.95-.81L140,159v29h20a12,12,0,0,1,0,24H96a12,12,0,0,1,0-24h20V132.64L68,79.84V88a12,12,0,0,1-24,0V56a11.75,11.75,0,0,1,.23-2.31l-5.11-5.62A12,12,0,1,1,56.88,31.93l160,176A12,12,0,0,1,216.07,224.88ZM116,68v.57a12,12,0,1,0,24,0V68h48V88a12,12,0,0,0,24,0V56a12,12,0,0,0-12-12H116.6a12,12,0,0,0-.6,24Z"/></svg>`,
     style: "bold",
-    tags: ["text", "t", "slash"],
+    tags: ["text", "t", "slash", "letter", "alphabet", "typography", "font", "editor", "strikethrough", "disabled", "removed", "bold"],
     category: "bold"
   },
   {
@@ -65474,7 +65474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Slash Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,56V200H72a16,16,0,0,1-16-16V56Z" opacity="0.2"/><path d="M213.38,221.92a8,8,0,0,1-11.3-.54L136,148.69V192h24a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16h24V131.09L64,69.49V88a8,8,0,0,1-16,0V56a8,8,0,0,1,.72-3.31l-6.64-7.31A8,8,0,1,1,53.92,34.62l160,176A8,8,0,0,1,213.38,221.92ZM105.79,64H120V80.43a8,8,0,0,0,16,0V64h56V88a8,8,0,0,0,16,0V56a8,8,0,0,0-8-8H105.79a8,8,0,0,0,0,16Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "t", "slash"],
+    tags: ["text", "t", "slash", "letter", "alphabet", "typography", "font", "editor", "strikethrough", "disabled", "removed", "duotone"],
     category: "duotone"
   },
   {
@@ -65482,7 +65482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Slash Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM128,72h48a8,8,0,0,1,8,8V96a8,8,0,0,1-16,0V88H128a8,8,0,0,1,0-16Zm61.27,126a8,8,0,0,1-11.29-.75l-42-48V176h12a8,8,0,0,1,0,16H108a8,8,0,0,1,0-16h12V131L88,94.43V96a8,8,0,0,1-16,0V80a8.13,8.13,0,0,1,.63-3.13L66,69.27A8,8,0,0,1,78,58.73l112,128A8,8,0,0,1,189.27,198Z"/></svg>`,
     style: "fill",
-    tags: ["text", "t", "slash"],
+    tags: ["text", "t", "slash", "letter", "alphabet", "typography", "font", "editor", "strikethrough", "disabled", "removed", "filled"],
     category: "fill"
   },
   {
@@ -65490,7 +65490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Slash Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,220.44a6,6,0,0,1-8.48-.4L134,143.52V194h26a6,6,0,0,1,0,12H96a6,6,0,0,1,0-12h26V130.32l-60-66V88a6,6,0,0,1-12,0V56a6,6,0,0,1,1.19-3.57L43.56,44A6,6,0,0,1,52.44,36l160,176A6,6,0,0,1,212,220.44ZM105.79,62H122V80.43a6,6,0,0,0,12,0V62h60V88a6,6,0,0,0,12,0V56a6,6,0,0,0-6-6H105.79a6,6,0,0,0,0,12Z"/></svg>`,
     style: "light",
-    tags: ["text", "t", "slash"],
+    tags: ["text", "t", "slash", "letter", "alphabet", "typography", "font", "editor", "strikethrough", "disabled", "removed", "light"],
     category: "light"
   },
   {
@@ -65498,7 +65498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Slash Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M210.69,219a4,4,0,0,1-5.65-.27l-73-80.34V196h28a4,4,0,0,1,0,8H96a4,4,0,0,1,0-8h28V129.55L60.78,60H60V88a4,4,0,0,1-8,0V56a4,4,0,0,1,2-3.45l-9-9.86A4,4,0,0,1,51,37.31l160,176A4,4,0,0,1,210.69,219ZM105.79,60H124V80.43a4,4,0,0,0,8,0V60h64V88a4,4,0,0,0,8,0V56a4,4,0,0,0-4-4H105.79a4,4,0,0,0,0,8Z"/></svg>`,
     style: "thin",
-    tags: ["text", "t", "slash"],
+    tags: ["text", "t", "slash", "letter", "alphabet", "typography", "font", "editor", "strikethrough", "disabled", "removed", "thin"],
     category: "thin"
   },
   {
@@ -65506,7 +65506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Slash Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M213.38,221.92a8,8,0,0,1-11.3-.54L136,148.69V192h24a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16h24V131.09L64,69.49V88a8,8,0,0,1-16,0V56a8,8,0,0,1,.72-3.31l-6.64-7.31A8,8,0,1,1,53.92,34.62l160,176A8,8,0,0,1,213.38,221.92ZM105.79,64H120V80.43a8,8,0,0,0,16,0V64h56V88a8,8,0,0,0,16,0V56a8,8,0,0,0-8-8H105.79a8,8,0,0,0,0,16Z"/></svg>`,
     style: "regular",
-    tags: ["text", "t", "slash"],
+    tags: ["text", "t", "slash", "letter", "alphabet", "typography", "font", "editor", "strikethrough", "disabled", "removed", "normal"],
     category: "regular"
   },
   {
@@ -65514,7 +65514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204,56V88a4,4,0,0,1-8,0V60H132V196h28a4,4,0,0,1,0,8H96a4,4,0,0,1,0-8h28V60H60V88a4,4,0,0,1-8,0V56a4,4,0,0,1,4-4H200A4,4,0,0,1,204,56Z"/></svg>`,
     style: "thin",
-    tags: ["text", "t"],
+    tags: ["text", "t", "letter", "alphabet", "typography", "font", "editor", "thin", "light", "delicate"],
     category: "thin"
   },
   {
@@ -65522,7 +65522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text T Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,56V88a8,8,0,0,1-16,0V64H136V192h24a8,8,0,0,1,0,16H96a8,8,0,0,1,0-16h24V64H64V88a8,8,0,0,1-16,0V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z"/></svg>`,
     style: "regular",
-    tags: ["text", "t"],
+    tags: ["text", "t", "letter", "alphabet", "typography", "font", "editor", "normal", "standard", "default"],
     category: "regular"
   },
   {
@@ -65530,7 +65530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Underline Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204,224a12,12,0,0,1-12,12H64a12,12,0,0,1,0-24H192A12,12,0,0,1,204,224Zm-76-28a68.07,68.07,0,0,0,68-68V56a12,12,0,0,0-24,0v72a44,44,0,0,1-88,0V56a12,12,0,0,0-24,0v72A68.07,68.07,0,0,0,128,196Z"/></svg>`,
     style: "bold",
-    tags: ["text", "underline"],
+    tags: ["text", "underline", "formatting", "typography", "editor", "emphasis", "highlight", "bold", "heavy"],
     category: "bold"
   },
   {
@@ -65538,7 +65538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Underline Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,56v80a56,56,0,0,1-112,0V56Z" opacity="0.2"/><path d="M200,224a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H192A8,8,0,0,1,200,224Zm-72-24a64.07,64.07,0,0,0,64-64V56a8,8,0,0,0-16,0v80a48,48,0,0,1-96,0V56a8,8,0,0,0-16,0v80A64.07,64.07,0,0,0,128,200Z"/></svg>`,
     style: "duotone",
-    tags: ["text", "underline"],
+    tags: ["text", "underline", "formatting", "typography", "editor", "emphasis", "highlight", "duotone", "two-tone"],
     category: "duotone"
   },
   {
@@ -65546,7 +65546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Underline Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM80,72a8,8,0,0,1,16,0v48a32,32,0,0,0,64,0V72a8,8,0,0,1,16,0v48a48,48,0,0,1-96,0Zm96,128H80a8,8,0,0,1,0-16h96a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["text", "underline"],
+    tags: ["text", "underline", "formatting", "typography", "editor", "emphasis", "highlight", "filled", "solid"],
     category: "fill"
   },
   {
@@ -65554,7 +65554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Underline Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M198,224a6,6,0,0,1-6,6H64a6,6,0,0,1,0-12H192A6,6,0,0,1,198,224Zm-70-26a62.07,62.07,0,0,0,62-62V56a6,6,0,0,0-12,0v80a50,50,0,0,1-100,0V56a6,6,0,0,0-12,0v80A62.07,62.07,0,0,0,128,198Z"/></svg>`,
     style: "light",
-    tags: ["text", "underline"],
+    tags: ["text", "underline", "formatting", "typography", "editor", "emphasis", "highlight", "light", "minimal"],
     category: "light"
   },
   {
@@ -65562,7 +65562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Underline Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M196,224a4,4,0,0,1-4,4H64a4,4,0,0,1,0-8H192A4,4,0,0,1,196,224Zm-68-28a60.07,60.07,0,0,0,60-60V56a4,4,0,0,0-8,0v80a52,52,0,0,1-104,0V56a4,4,0,0,0-8,0v80A60.07,60.07,0,0,0,128,196Z"/></svg>`,
     style: "thin",
-    tags: ["text", "underline"],
+    tags: ["text", "underline", "formatting", "typography", "editor", "emphasis", "highlight", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -65570,7 +65570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Text Underline Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,224a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H192A8,8,0,0,1,200,224Zm-72-24a64.07,64.07,0,0,0,64-64V56a8,8,0,0,0-16,0v80a48,48,0,0,1-96,0V56a8,8,0,0,0-16,0v80A64.07,64.07,0,0,0,128,200Z"/></svg>`,
     style: "regular",
-    tags: ["text", "underline"],
+    tags: ["text", "underline", "formatting", "typography", "editor", "emphasis", "highlight", "normal", "standard"],
     category: "regular"
   },
   {
@@ -65578,7 +65578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Textbox Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,36a12,12,0,0,0-12,12V60H24A20,20,0,0,0,4,80v96a20,20,0,0,0,20,20h76v12a12,12,0,0,0,24,0V48A12,12,0,0,0,112,36ZM28,172V84h72v88ZM252,80v96a20,20,0,0,1-20,20H152a12,12,0,0,1,0-24h76V84H152a12,12,0,0,1,0-24h80A20,20,0,0,1,252,80ZM88,112a12,12,0,0,1-12,12v20a12,12,0,0,1-24,0V124a12,12,0,0,1,0-24H76A12,12,0,0,1,88,112Z"/></svg>`,
     style: "bold",
-    tags: ["textbox"],
+    tags: ["textbox", "input", "field", "form", "editor", "ui", "bold", "heavy", "container"],
     category: "bold"
   },
   {
@@ -65586,7 +65586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Textbox Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,80v96a8,8,0,0,1-8,8H24a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H232A8,8,0,0,1,240,80Z" opacity="0.2"/><path d="M112,40a8,8,0,0,0-8,8V64H24A16,16,0,0,0,8,80v96a16,16,0,0,0,16,16h80v16a8,8,0,0,0,16,0V48A8,8,0,0,0,112,40ZM24,176V80h80v96ZM248,80v96a16,16,0,0,1-16,16H144a8,8,0,0,1,0-16h88V80H144a8,8,0,0,1,0-16h88A16,16,0,0,1,248,80ZM88,112a8,8,0,0,1-8,8H72v24a8,8,0,0,1-16,0V120H48a8,8,0,0,1,0-16H80A8,8,0,0,1,88,112Z"/></svg>`,
     style: "duotone",
-    tags: ["textbox"],
+    tags: ["textbox", "input", "field", "form", "editor", "ui", "duotone", "two-tone", "container"],
     category: "duotone"
   },
   {
@@ -65594,7 +65594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Textbox Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,80v96a16,16,0,0,1-16,16H140a4,4,0,0,1-4-4V68a4,4,0,0,1,4-4h92A16,16,0,0,1,248,80ZM120,48V208a8,8,0,0,1-16,0V192H24A16,16,0,0,1,8,176V80A16,16,0,0,1,24,64h80V48a8,8,0,0,1,16,0ZM88,112a8,8,0,0,0-8-8H48a8,8,0,0,0,0,16h8v24a8,8,0,0,0,16,0V120h8A8,8,0,0,0,88,112Z"/></svg>`,
     style: "fill",
-    tags: ["textbox"],
+    tags: ["textbox", "input", "field", "form", "editor", "ui", "filled", "solid", "container"],
     category: "fill"
   },
   {
@@ -65602,7 +65602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Textbox Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,42a6,6,0,0,0-6,6V66H24A14,14,0,0,0,10,80v96a14,14,0,0,0,14,14h82v18a6,6,0,0,0,12,0V48A6,6,0,0,0,112,42ZM24,178a2,2,0,0,1-2-2V80a2,2,0,0,1,2-2h82V178ZM246,80v96a14,14,0,0,1-14,14H144a6,6,0,0,1,0-12h88a2,2,0,0,0,2-2V80a2,2,0,0,0-2-2H144a6,6,0,0,1,0-12h88A14,14,0,0,1,246,80ZM86,112a6,6,0,0,1-6,6H70v26a6,6,0,0,1-12,0V118H48a6,6,0,0,1,0-12H80A6,6,0,0,1,86,112Z"/></svg>`,
     style: "light",
-    tags: ["textbox"],
+    tags: ["textbox", "input", "field", "form", "editor", "ui", "light", "minimal", "container"],
     category: "light"
   },
   {
@@ -65610,7 +65610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Textbox Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,44a4,4,0,0,0-4,4V68H24A12,12,0,0,0,12,80v96a12,12,0,0,0,12,12h84v20a4,4,0,0,0,8,0V48A4,4,0,0,0,112,44ZM24,180a4,4,0,0,1-4-4V80a4,4,0,0,1,4-4h84V180ZM244,80v96a12,12,0,0,1-12,12H144a4,4,0,0,1,0-8h88a4,4,0,0,0,4-4V80a4,4,0,0,0-4-4H144a4,4,0,0,1,0-8h88A12,12,0,0,1,244,80ZM84,112a4,4,0,0,1-4,4H68v28a4,4,0,0,1-8,0V116H48a4,4,0,0,1,0-8H80A4,4,0,0,1,84,112Z"/></svg>`,
     style: "thin",
-    tags: ["textbox"],
+    tags: ["textbox", "input", "text", "form", "ui", "editor", "minimal", "thin", "outline", "empty state"],
     category: "thin"
   },
   {
@@ -65618,7 +65618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Textbox Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,40a8,8,0,0,0-8,8V64H24A16,16,0,0,0,8,80v96a16,16,0,0,0,16,16h80v16a8,8,0,0,0,16,0V48A8,8,0,0,0,112,40ZM24,176V80h80v96ZM248,80v96a16,16,0,0,1-16,16H144a8,8,0,0,1,0-16h88V80H144a8,8,0,0,1,0-16h88A16,16,0,0,1,248,80ZM88,112a8,8,0,0,1-8,8H72v24a8,8,0,0,1-16,0V120H48a8,8,0,0,1,0-16H80A8,8,0,0,1,88,112Z"/></svg>`,
     style: "regular",
-    tags: ["textbox"],
+    tags: ["textbox", "input", "text", "form", "ui", "editor", "outline", "regular", "empty state"],
     category: "regular"
   },
   {
@@ -65626,7 +65626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,52a32,32,0,1,0,32,32A32,32,0,0,0,212,52Zm0,40a8,8,0,1,1,8-8A8,8,0,0,1,212,92ZM160,56A52,52,0,0,0,56,56v94.69a64,64,0,1,0,104,0ZM108,228a40,40,0,0,1-30.91-65.39A12,12,0,0,0,80,154.78V56a28,28,0,0,1,56,0v98.77a12,12,0,0,0,2.77,7.68A40,40,0,0,1,108,228Zm24-40a24,24,0,1,1-36-20.78V92a12,12,0,0,1,24,0v75.22A24,24,0,0,1,132,188Z"/></svg>`,
     style: "bold",
-    tags: ["thermometer"],
+    tags: ["thermometer", "temperature", "weather", "health", "gauge", "measurement", "bold", "filled", "climate"],
     category: "bold"
   },
   {
@@ -65634,7 +65634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Cold Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,56A52,52,0,0,0,56,56v94.69a64,64,0,1,0,104,0ZM108,228a40,40,0,0,1-30.91-65.39A12,12,0,0,0,80,154.78V56a28,28,0,0,1,56,0v98.77a12,12,0,0,0,2.77,7.68A40,40,0,0,1,108,228ZM246.14,81.52l-14.72,4.79,9.1,12.52a12,12,0,1,1-19.42,14.11L212,100.42l-9.1,12.52a12,12,0,1,1-19.42-14.11l9.1-12.52-14.72-4.79a12,12,0,1,1,7.41-22.82L200,63.48V48a12,12,0,0,1,24,0V63.48l14.73-4.78a12,12,0,1,1,7.41,22.82ZM132,188a24,24,0,1,1-36-20.78V132a12,12,0,0,1,24,0v35.22A24,24,0,0,1,132,188Z"/></svg>`,
     style: "bold",
-    tags: ["thermometer", "cold"],
+    tags: ["thermometer", "cold", "temperature", "weather", "health", "gauge", "measurement", "bold", "filled", "winter", "ice", "climate"],
     category: "bold"
   },
   {
@@ -65642,7 +65642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Cold Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,138V48a32,32,0,0,0-64,0v90a56,56,0,1,0,64,0Zm-32,70a24,24,0,1,1,24-24A24,24,0,0,1,120,208Z" opacity="0.2"/><path d="M248.91,77.72l-20,6.49,12.34,17a8,8,0,1,1-12.94,9.4L216,93.61l-12.34,17a8,8,0,0,1-12.94-9.4l12.34-17-20-6.49A8,8,0,0,1,188,62.5L208,69V48a8,8,0,0,1,16,0V69l20-6.49a8,8,0,0,1,4.95,15.22ZM152,184a32,32,0,1,1-40-31V120a8,8,0,0,1,16,0v33A32.06,32.06,0,0,1,152,184Zm-16,0a16,16,0,1,0-16,16A16,16,0,0,0,136,184Zm48,0A64,64,0,1,1,80,134V48a40,40,0,0,1,80,0v86A64.08,64.08,0,0,1,184,184Zm-16,0a48.08,48.08,0,0,0-20.58-39.4A8,8,0,0,1,144,138V48a24,24,0,0,0-48,0v90a8,8,0,0,1-3.42,6.56A48,48,0,1,0,168,184Z"/></svg>`,
     style: "duotone",
-    tags: ["thermometer", "cold"],
+    tags: ["thermometer", "cold", "temperature", "weather", "health", "gauge", "measurement", "duotone", "winter", "ice", "climate"],
     category: "duotone"
   },
   {
@@ -65650,7 +65650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Cold Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248.91,77.72l-20,6.49,12.34,17a8,8,0,1,1-12.94,9.4L216,93.61l-12.34,17a8,8,0,0,1-12.94-9.4l12.34-17-20-6.49A8,8,0,0,1,188,62.5L208,69V48a8,8,0,0,1,16,0V69l20-6.49a8,8,0,0,1,4.95,15.22ZM176,192a56,56,0,1,1-88-46V40a32,32,0,0,1,64,0V146A56.23,56.23,0,0,1,176,192Zm-95.18-8h78.36A40.16,40.16,0,0,0,140,157.35a8,8,0,0,1-4-6.93V40a16,16,0,0,0-32,0V150.42a8,8,0,0,1-4,6.93A40.16,40.16,0,0,0,80.82,184Z"/></svg>`,
     style: "fill",
-    tags: ["thermometer", "cold"],
+    tags: ["thermometer", "cold", "temperature", "weather", "health", "gauge", "measurement", "filled", "winter", "ice", "climate"],
     category: "fill"
   },
   {
@@ -65658,7 +65658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Cold Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248.29,75.82l-22.58,7.33,13.95,19.21a6,6,0,1,1-9.7,7.06L216,90.21l-14,19.21a6,6,0,1,1-9.7-7.06l13.95-19.21-22.58-7.33a6,6,0,1,1,3.71-11.41L210,71.74V48a6,6,0,0,1,12,0V71.74l22.58-7.33a6,6,0,0,1,3.71,11.41ZM150,184a30,30,0,1,1-36-29.4V120a6,6,0,0,1,12,0v34.6A30.05,30.05,0,0,1,150,184Zm-12,0a18,18,0,1,0-18,18A18,18,0,0,0,138,184Zm44,0A62,62,0,1,1,82,135V48a38,38,0,0,1,76,0v87A62.06,62.06,0,0,1,182,184Zm-12,0a50.07,50.07,0,0,0-21.43-41A6,6,0,0,1,146,138V48a26,26,0,0,0-52,0v90A6,6,0,0,1,91.43,143,50,50,0,1,0,170,184Z"/></svg>`,
     style: "light",
-    tags: ["thermometer", "cold"],
+    tags: ["thermometer", "cold", "temperature", "weather", "health", "gauge", "measurement", "light", "outline", "winter", "ice", "climate"],
     category: "light"
   },
   {
@@ -65666,7 +65666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Cold Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.67,73.92l-25.2,8.18L238,103.54a4,4,0,1,1-6.47,4.7L216,86.81l-15.57,21.43a4,4,0,0,1-3.24,1.65,4,4,0,0,1-3.23-6.35L209.53,82.1l-25.2-8.18a4,4,0,1,1,2.47-7.61L212,74.49V48a4,4,0,0,1,8,0V74.49l25.2-8.18a4,4,0,1,1,2.47,7.61ZM148,184a28,28,0,1,1-32-27.71V120a4,4,0,0,1,8,0v36.29A28,28,0,0,1,148,184Zm-8,0a20,20,0,1,0-20,20A20,20,0,0,0,140,184Zm40,0a60,60,0,1,1-96-48V48a36,36,0,0,1,72,0v88A60.06,60.06,0,0,1,180,184Zm-8,0a52.06,52.06,0,0,0-22.29-42.68A4,4,0,0,1,148,138V48a28,28,0,0,0-56,0v90a4,4,0,0,1-1.71,3.28A52,52,0,1,0,172,184Z"/></svg>`,
     style: "thin",
-    tags: ["thermometer", "cold"],
+    tags: ["thermometer", "cold", "temperature", "weather", "health", "gauge", "measurement", "thin", "outline", "winter", "ice", "climate"],
     category: "thin"
   },
   {
@@ -65674,7 +65674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Cold Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248.91,77.72l-20,6.49,12.34,17a8,8,0,1,1-12.94,9.4L216,93.61l-12.34,17a8,8,0,0,1-12.94-9.4l12.34-17-20-6.49A8,8,0,0,1,188,62.5L208,69V48a8,8,0,0,1,16,0V69l20-6.49a8,8,0,0,1,4.95,15.22ZM152,184a32,32,0,1,1-40-31V120a8,8,0,0,1,16,0v33A32.06,32.06,0,0,1,152,184Zm-16,0a16,16,0,1,0-16,16A16,16,0,0,0,136,184Zm48,0A64,64,0,1,1,80,134V48a40,40,0,0,1,80,0v86A64.08,64.08,0,0,1,184,184Zm-16,0a48.08,48.08,0,0,0-20.58-39.4A8,8,0,0,1,144,138V48a24,24,0,0,0-48,0v90a8,8,0,0,1-3.42,6.56A48,48,0,1,0,168,184Z"/></svg>`,
     style: "regular",
-    tags: ["thermometer", "cold"],
+    tags: ["thermometer", "cold", "temperature", "weather", "health", "gauge", "measurement", "regular", "outline", "winter", "ice", "climate"],
     category: "regular"
   },
   {
@@ -65682,7 +65682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,138V48a32,32,0,0,0-64,0v90a56,56,0,1,0,64,0Zm-32,70a24,24,0,1,1,24-24A24,24,0,0,1,120,208Z" opacity="0.2"/><path d="M212,56a28,28,0,1,0,28,28A28,28,0,0,0,212,56Zm0,40a12,12,0,1,1,12-12A12,12,0,0,1,212,96Zm-84,57V88a8,8,0,0,0-16,0v65a32,32,0,1,0,16,0Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,120,200Zm40-66V48a40,40,0,0,0-80,0v86a64,64,0,1,0,80,0Zm-40,98a48,48,0,0,1-27.42-87.4A8,8,0,0,0,96,138V48a24,24,0,0,1,48,0v90a8,8,0,0,0,3.42,6.56A48,48,0,0,1,120,232Z"/></svg>`,
     style: "duotone",
-    tags: ["thermometer"],
+    tags: ["thermometer", "temperature", "weather", "health", "gauge", "measurement", "duotone", "climate"],
     category: "duotone"
   },
   {
@@ -65690,7 +65690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,56a28,28,0,1,0,28,28A28,28,0,0,0,212,56Zm0,40a12,12,0,1,1,12-12A12,12,0,0,1,212,96Zm-60,50.08V40a32,32,0,0,0-64,0V146.08a56,56,0,1,0,64,0ZM136,104H104V40a16,16,0,0,1,32,0Z"/></svg>`,
     style: "fill",
-    tags: ["thermometer"],
+    tags: ["thermometer", "temperature", "weather", "health", "gauge", "measurement", "filled", "climate"],
     category: "fill"
   },
   {
@@ -65698,7 +65698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Hot Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,56A52,52,0,0,0,56,56v94.69a64,64,0,1,0,104,0ZM108,228a40,40,0,0,1-30.91-65.39A12,12,0,0,0,80,154.78V56a28,28,0,0,1,56,0v98.77a12,12,0,0,0,2.77,7.68A40,40,0,0,1,108,228Zm24-40a24,24,0,1,1-36-20.78V56a12,12,0,0,1,24,0V167.22A24,24,0,0,1,132,188ZM173.94,83a12,12,0,0,1,3.51-16.6c16.82-11,30.32-5.2,39.26-1.39,8.09,3.46,10.93,4.37,16.74.58a12,12,0,0,1,13.1,20.11C239.28,90.38,232.64,92,226.71,92c-7.79,0-14.34-2.8-19.42-5-8.09-3.46-10.93-4.37-16.74-.58A12,12,0,0,1,173.94,83Zm76.11,26.1a12,12,0,0,1-3.5,16.6c-7.27,4.73-13.91,6.35-19.84,6.35-7.79,0-14.34-2.8-19.42-5-8.09-3.46-10.93-4.37-16.74-.58a12,12,0,1,1-13.1-20.11c16.82-11,30.32-5.2,39.26-1.39,8.09,3.46,10.93,4.37,16.74.58A12,12,0,0,1,250.05,109.05Z"/></svg>`,
     style: "bold",
-    tags: ["thermometer", "hot"],
+    tags: ["thermometer", "hot", "temperature", "weather", "health", "gauge", "measurement", "bold", "filled", "summer", "fire", "climate"],
     category: "bold"
   },
   {
@@ -65706,7 +65706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Hot Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,138V48a32,32,0,0,0-64,0v90a56,56,0,1,0,64,0Zm-32,70a24,24,0,1,1,24-24A24,24,0,0,1,120,208Z" opacity="0.2"/><path d="M128,153V48a8,8,0,0,0-16,0V153a32,32,0,1,0,16,0Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,120,200Zm40-66V48a40,40,0,0,0-80,0v86a64,64,0,1,0,80,0Zm-40,98a48,48,0,0,1-27.42-87.4A8,8,0,0,0,96,138V48a24,24,0,0,1,48,0v90a8,8,0,0,0,3.42,6.56A48,48,0,0,1,120,232ZM177.3,80.77a8,8,0,0,1,2.33-11.07c15-9.79,26.87-4.75,35.51-1.06C223,72,227.76,74,235.63,68.89a8,8,0,0,1,8.74,13.41C237.88,86.53,232,88,226.69,88c-7,0-12.92-2.54-17.83-4.63C201,80,196.24,78,188.37,83.11A8,8,0,0,1,177.3,80.77Zm69.4,22.46a8,8,0,0,1-2.33,11.07C237.88,118.53,232,120,226.69,120c-7,0-12.92-2.54-17.83-4.63-7.87-3.36-12.62-5.38-20.49-.25a8,8,0,0,1-8.74-13.41c15-9.79,26.87-4.75,35.51-1.06,7.87,3.36,12.62,5.39,20.49.25A8,8,0,0,1,246.7,103.23Z"/></svg>`,
     style: "duotone",
-    tags: ["thermometer", "hot"],
+    tags: ["thermometer", "hot", "temperature", "weather", "health", "gauge", "measurement", "duotone", "summer", "fire", "climate"],
     category: "duotone"
   },
   {
@@ -65714,7 +65714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Hot Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,146.08V40a32,32,0,0,0-64,0V146.08a56,56,0,1,0,64,0ZM136,56H104V40a16,16,0,0,1,32,0Zm41.3,24.77a8,8,0,0,1,2.33-11.07c15-9.79,26.87-4.75,35.51-1.06C223,72,227.76,74,235.63,68.89a8,8,0,0,1,8.74,13.41C237.88,86.53,232,88,226.69,88c-7,0-12.92-2.54-17.83-4.63C201,80,196.24,78,188.37,83.11A8,8,0,0,1,177.3,80.77Zm69.4,22.46a8,8,0,0,1-2.33,11.07C237.88,118.53,232,120,226.69,120c-7,0-12.92-2.54-17.83-4.63-7.87-3.36-12.62-5.38-20.49-.25a8,8,0,0,1-8.74-13.41c15-9.79,26.87-4.75,35.51-1.06,7.87,3.36,12.62,5.39,20.49.25A8,8,0,0,1,246.7,103.23Z"/></svg>`,
     style: "fill",
-    tags: ["thermometer", "hot"],
+    tags: ["thermometer", "hot", "temperature", "weather", "health", "gauge", "measurement", "filled", "summer", "fire", "climate"],
     category: "fill"
   },
   {
@@ -65722,7 +65722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Hot Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M126,154.6V48a6,6,0,0,0-12,0V154.6a30,30,0,1,0,12,0ZM120,202a18,18,0,1,1,18-18A18,18,0,0,1,120,202Zm38-67V48a38,38,0,0,0-76,0v87a62,62,0,1,0,76,0Zm-38,99a50,50,0,0,1-28.57-91A6,6,0,0,0,94,138V48a26,26,0,0,1,52,0v90a6,6,0,0,0,2.57,4.92A50,50,0,0,1,120,234ZM179,79.68a6,6,0,0,1,1.75-8.3c14.14-9.21,24.95-4.61,33.63-.9,7.9,3.37,13.6,5.8,22.37.09a6,6,0,1,1,6.55,10.05c-6.12,4-11.62,5.39-16.59,5.39-6.51,0-12.11-2.39-17-4.49-7.89-3.37-13.59-5.8-22.37-.09A6,6,0,0,1,179,79.68ZM245,104.32a6,6,0,0,1-1.76,8.3c-6.12,4-11.62,5.39-16.59,5.39-6.51,0-12.11-2.39-17-4.49-7.89-3.37-13.59-5.8-22.37-.09a6,6,0,0,1-6.55-10.05c14.14-9.21,24.95-4.6,33.63-.9,7.9,3.37,13.6,5.8,22.37.09A6,6,0,0,1,245,104.32Z"/></svg>`,
     style: "light",
-    tags: ["thermometer", "hot"],
+    tags: ["thermometer", "hot", "temperature", "weather", "health", "gauge", "measurement", "light", "outline", "summer", "fire", "climate"],
     category: "light"
   },
   {
@@ -65730,7 +65730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Hot Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M124,156.29V48a4,4,0,0,0-8,0V156.29a28,28,0,1,0,8,0ZM120,204a20,20,0,1,1,20-20A20,20,0,0,1,120,204Zm36-68V48a36,36,0,0,0-72,0v88a60,60,0,1,0,72,0ZM120,236a52,52,0,0,1-29.71-94.68A4,4,0,0,0,92,138V48a28,28,0,0,1,56,0v90a4,4,0,0,0,1.71,3.28A52,52,0,0,1,120,236ZM180.65,78.59a4,4,0,0,1,1.17-5.54c13.24-8.63,23.07-4.43,31.75-.73,8.15,3.48,14.58,6.22,24.25-.07a4,4,0,1,1,4.36,6.7C236.43,82.7,231.32,84,226.67,84c-6.06,0-11.33-2.25-16.24-4.34-8.15-3.47-14.58-6.22-24.25.07A4,4,0,0,1,180.65,78.59Zm62.7,26.82a4,4,0,0,1-1.17,5.54c-5.75,3.75-10.86,5.07-15.51,5.07-6.06,0-11.33-2.25-16.24-4.34-8.15-3.47-14.58-6.22-24.25.07a4,4,0,1,1-4.36-6.7c13.24-8.63,23.07-4.43,31.75-.73,8.15,3.48,14.58,6.22,24.25-.07A4,4,0,0,1,243.35,105.41Z"/></svg>`,
     style: "thin",
-    tags: ["thermometer", "hot"],
+    tags: ["thermometer", "hot", "temperature", "weather", "health", "gauge", "measurement", "thin", "outline", "summer", "fire", "climate"],
     category: "thin"
   },
   {
@@ -65738,7 +65738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Hot Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,153V48a8,8,0,0,0-16,0V153a32,32,0,1,0,16,0Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,120,200Zm40-66V48a40,40,0,0,0-80,0v86a64,64,0,1,0,80,0Zm-40,98a48,48,0,0,1-27.42-87.4A8,8,0,0,0,96,138V48a24,24,0,0,1,48,0v90a8,8,0,0,0,3.42,6.56A48,48,0,0,1,120,232ZM177.3,80.77a8,8,0,0,1,2.33-11.07c15-9.79,26.87-4.75,35.51-1.06C223,72,227.76,74,235.63,68.89a8,8,0,0,1,8.74,13.41C237.88,86.53,232,88,226.69,88c-7,0-12.92-2.54-17.83-4.63C201,80,196.24,78,188.37,83.11A8,8,0,0,1,177.3,80.77Zm69.4,22.46a8,8,0,0,1-2.33,11.07C237.88,118.53,232,120,226.69,120c-7,0-12.92-2.54-17.83-4.63-7.87-3.36-12.62-5.38-20.49-.25a8,8,0,0,1-8.74-13.41c15-9.79,26.87-4.75,35.51-1.06,7.87,3.36,12.62,5.39,20.49.25A8,8,0,0,1,246.7,103.23Z"/></svg>`,
     style: "regular",
-    tags: ["thermometer", "hot"],
+    tags: ["thermometer", "hot", "temperature", "weather", "health", "gauge", "measurement", "regular", "outline", "summer", "fire", "climate"],
     category: "regular"
   },
   {
@@ -65746,7 +65746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,58a26,26,0,1,0,26,26A26,26,0,0,0,212,58Zm0,40a14,14,0,1,1,14-14A14,14,0,0,1,212,98Zm-86,56.6V88a6,6,0,0,0-12,0v66.6a30,30,0,1,0,12,0ZM120,202a18,18,0,1,1,18-18A18,18,0,0,1,120,202Zm38-67V48a38,38,0,0,0-76,0v87a62,62,0,1,0,76,0Zm-38,99a50,50,0,0,1-28.57-91A6,6,0,0,0,94,138V48a26,26,0,0,1,52,0v90a6,6,0,0,0,2.57,4.92A50,50,0,0,1,120,234Z"/></svg>`,
     style: "light",
-    tags: ["thermometer"],
+    tags: ["thermometer", "temperature", "weather", "health", "gauge", "measurement", "light", "outline", "climate"],
     category: "light"
   },
   {
@@ -65754,7 +65754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Simple Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M180,150.69V56A52,52,0,0,0,76,56v94.69a64,64,0,1,0,104,0ZM128,228a40,40,0,0,1-30.91-65.39,12,12,0,0,0,2.91-7.83V56a28,28,0,0,1,56,0v98.77a12,12,0,0,0,2.77,7.68A40,40,0,0,1,128,228Zm24-40a24,24,0,1,1-36-20.78V92a12,12,0,0,1,24,0v75.22A24,24,0,0,1,152,188Z"/></svg>`,
     style: "bold",
-    tags: ["thermometer", "simple"],
+    tags: ["thermometer", "simple", "temperature", "weather", "health", "gauge", "measurement", "bold", "filled", "minimal", "climate"],
     category: "bold"
   },
   {
@@ -65762,7 +65762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Simple Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,138V48a32,32,0,0,0-64,0v90a56,56,0,1,0,64,0Zm-32,70a24,24,0,1,1,24-24A24,24,0,0,1,128,208Z" opacity="0.2"/><path d="M136,153V88a8,8,0,0,0-16,0v65a32,32,0,1,0,16,0Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,128,200Zm40-66V48a40,40,0,0,0-80,0v86a64,64,0,1,0,80,0Zm-40,98a48,48,0,0,1-27.42-87.4A8,8,0,0,0,104,138V48a24,24,0,0,1,48,0v90a8,8,0,0,0,3.42,6.56A48,48,0,0,1,128,232Z"/></svg>`,
     style: "duotone",
-    tags: ["thermometer", "simple"],
+    tags: ["thermometer", "simple", "temperature", "weather", "health", "gauge", "measurement", "duotone", "minimal", "climate"],
     category: "duotone"
   },
   {
@@ -65770,7 +65770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Simple Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,146.08V40a32,32,0,0,0-64,0V146.08a56,56,0,1,0,64,0ZM128,24a16,16,0,0,1,16,16v64H112V40A16,16,0,0,1,128,24Z"/></svg>`,
     style: "fill",
-    tags: ["thermometer", "simple"],
+    tags: ["thermometer", "simple", "temperature", "weather", "health", "gauge", "measurement", "filled", "minimal", "climate"],
     category: "fill"
   },
   {
@@ -65778,7 +65778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Simple Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M134,154.6V88a6,6,0,0,0-12,0v66.6a30,30,0,1,0,12,0ZM128,202a18,18,0,1,1,18-18A18,18,0,0,1,128,202Zm38-67V48a38,38,0,0,0-76,0v87a62,62,0,1,0,76,0Zm-38,99a50,50,0,0,1-28.57-91A6,6,0,0,0,102,138V48a26,26,0,0,1,52,0v90a6,6,0,0,0,2.57,4.92A50,50,0,0,1,128,234Z"/></svg>`,
     style: "light",
-    tags: ["thermometer", "simple"],
+    tags: ["thermometer", "simple", "temperature", "weather", "health", "gauge", "measurement", "light", "outline", "minimal", "climate"],
     category: "light"
   },
   {
@@ -65786,7 +65786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Simple Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M132,156.29V88a4,4,0,0,0-8,0v68.29a28,28,0,1,0,8,0ZM128,204a20,20,0,1,1,20-20A20,20,0,0,1,128,204Zm36-68V48a36,36,0,0,0-72,0v88a60,60,0,1,0,72,0ZM128,236a52,52,0,0,1-29.71-94.68A4,4,0,0,0,100,138V48a28,28,0,0,1,56,0v90a4,4,0,0,0,1.71,3.28A52,52,0,0,1,128,236Z"/></svg>`,
     style: "thin",
-    tags: ["thermometer", "simple"],
+    tags: ["thermometer", "simple", "temperature", "weather", "health", "gauge", "measurement", "thin", "outline", "minimal", "climate"],
     category: "thin"
   },
   {
@@ -65794,7 +65794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Simple Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,153V88a8,8,0,0,0-16,0v65a32,32,0,1,0,16,0Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,128,200Zm40-66V48a40,40,0,0,0-80,0v86a64,64,0,1,0,80,0Zm-40,98a48,48,0,0,1-27.42-87.4A8,8,0,0,0,104,138V48a24,24,0,0,1,48,0v90a8,8,0,0,0,3.42,6.56A48,48,0,0,1,128,232Z"/></svg>`,
     style: "regular",
-    tags: ["thermometer", "simple"],
+    tags: ["thermometer", "simple", "temperature", "weather", "health", "gauge", "measurement", "regular", "outline", "minimal", "climate"],
     category: "regular"
   },
   {
@@ -65802,7 +65802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,60a24,24,0,1,0,24,24A24,24,0,0,0,212,60Zm0,40a16,16,0,1,1,16-16A16,16,0,0,1,212,100Zm-88,56.29V88a4,4,0,0,0-8,0v68.29a28,28,0,1,0,8,0ZM120,204a20,20,0,1,1,20-20A20,20,0,0,1,120,204Zm36-68V48a36,36,0,0,0-72,0v88a60,60,0,1,0,72,0ZM120,236a52,52,0,0,1-29.71-94.68A4,4,0,0,0,92,138V48a28,28,0,0,1,56,0v90a4,4,0,0,0,1.71,3.28A52,52,0,0,1,120,236Z"/></svg>`,
     style: "thin",
-    tags: ["thermometer"],
+    tags: ["thermometer", "temperature", "weather", "health", "gauge", "measurement", "thin", "outline", "climate"],
     category: "thin"
   },
   {
@@ -65810,7 +65810,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thermometer Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,56a28,28,0,1,0,28,28A28,28,0,0,0,212,56Zm0,40a12,12,0,1,1,12-12A12,12,0,0,1,212,96Zm-84,57V88a8,8,0,0,0-16,0v65a32,32,0,1,0,16,0Zm-8,47a16,16,0,1,1,16-16A16,16,0,0,1,120,200Zm40-66V48a40,40,0,0,0-80,0v86a64,64,0,1,0,80,0Zm-40,98a48,48,0,0,1-27.42-87.4A8,8,0,0,0,96,138V48a24,24,0,0,1,48,0v90a8,8,0,0,0,3.42,6.56A48,48,0,0,1,120,232Z"/></svg>`,
     style: "regular",
-    tags: ["thermometer"],
+    tags: ["thermometer", "temperature", "weather", "climate", "fever", "medical", "health", "measurement", "gauge", "indicator", "minimal"],
     category: "regular"
   },
   {
@@ -65818,7 +65818,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Threads Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M188.84,120.46a68.14,68.14,0,0,0-10-6.23c-3.72-21.68-16.41-37.41-35.52-43.2C121.94,64.55,97.29,72.42,86,89.34a12,12,0,0,0,20,13.32c5.47-8.2,19.11-12.08,30.41-8.66a24.72,24.72,0,0,1,14.88,12.24,86.73,86.73,0,0,0-8.86-.45C108.56,105.79,84,125.22,84,152c0,22.9,17.54,39.52,41.71,39.52a52,52,0,0,0,37.23-16c6-6.23,12.88-16.46,15.72-32.07,6.2,6.42,9.34,14.67,9.34,24.59,0,17.74-19.07,44-60,44-45.76,0-68-27.48-68-84s22.24-84,68-84c31.08,0,51,12.42,60.8,38a12,12,0,0,0,22.4-8.62C197.77,38.44,169,20,128,20,68.67,20,36,58.35,36,128s32.67,108,92,108c31.36,0,51.08-12.05,62.11-22.15C203.81,201.28,212,184.14,212,168,212,148.36,204,131.92,188.84,120.46Zm-43.2,38.39a27.9,27.9,0,0,1-19.93,8.67c-8.17,0-17.71-4.06-17.71-15.52,0-15.26,17.84-22.21,34.41-22.21a60.23,60.23,0,0,1,13.51,1.52C155.36,142.93,151.84,152.41,145.64,158.85Z"/></svg>`,
     style: "bold",
-    tags: ["threads", "logo"],
+    tags: ["threads", "logo", "social media", "app icon", "bold", "branding", "text", "meta", "communication", "modern"],
     category: "bold"
   },
   {
@@ -65826,7 +65826,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Threads Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,128c0,48-16,96-80,96s-80-48-80-96,16-96,80-96S208,80,208,128Z" opacity="0.2"/><path d="M186.42,123.65a63.81,63.81,0,0,0-11.13-6.72c-4-29.89-24-39.31-33.1-42.07-19.78-6-42.51,1.19-52.85,16.7a8,8,0,0,0,13.32,8.88c6.37-9.56,22-14.16,34.89-10.27,9.95,3,16.82,10.3,20.15,21a81.05,81.05,0,0,0-15.29-1.43c-13.92,0-26.95,3.59-36.67,10.1C94.3,127.57,88,139,88,152c0,20.58,15.86,35.52,37.71,35.52a48,48,0,0,0,34.35-14.81c6.44-6.7,14-18.36,15.61-37.1.38.26.74.53,1.1.8C186.88,144.05,192,154.68,192,168c0,19.36-20.34,48-64,48-26.73,0-45.48-8.65-57.34-26.44C60.93,175,56,154.26,56,128s4.93-47,14.66-61.56C82.52,48.65,101.27,40,128,40c32.93,0,54,13.25,64.53,40.52a8,8,0,1,0,14.93-5.75C194.68,41.56,167.2,24,128,24,96,24,72.19,35.29,57.34,57.56,45.83,74.83,40,98.52,40,128s5.83,53.17,17.34,70.44C72.19,220.71,96,232,128,232c30.07,0,48.9-11.48,59.4-21.1C200.3,199.08,208,183,208,168,208,149.66,200.54,134.32,186.42,123.65Zm-37.89,38a31.94,31.94,0,0,1-22.82,9.9c-10.81,0-21.71-6-21.71-19.52,0-12.63,12-26.21,38.41-26.21A63.88,63.88,0,0,1,160,128.24C160,142.32,156,153.86,148.53,161.62Z"/></svg>`,
     style: "duotone",
-    tags: ["threads", "logo"],
+    tags: ["threads", "logo", "social media", "app icon", "duotone", "branding", "text", "meta", "communication", "modern"],
     category: "duotone"
   },
   {
@@ -65834,7 +65834,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Threads Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M138.62,128a53.54,53.54,0,0,1,13.1,1.63c-.57,8.21-3.34,15-8.11,19.61A23.89,23.89,0,0,1,127,156c-11.87,0-15-7.58-15-12.07C112,133,125.8,128,138.62,128ZM224,128c0,65.12-35.89,104-96,104S32,193.12,32,128,67.89,24,128,24,224,62.88,224,128ZM72,128c0-43.07,18.32-64,56-64,26.34,0,43,10.08,50.81,30.83a8,8,0,0,0,15-5.66C180.9,55.14,150.9,48,128,48c-26.1,0-45.52,8.7-57.72,25.86C60.8,87.19,56,105.4,56,128s4.8,40.81,14.28,54.14C82.48,199.3,101.9,208,128,208c24.45,0,39.82-8.8,48.41-16.18,10.76-9.25,17.19-21.89,17.19-33.82,0-14.3-6.59-26.79-18.56-35.17a54.16,54.16,0,0,0-7.77-4.5c-2.09-14.65-10-25.75-22.34-31.07C130.43,81,112,83.93,101.21,94.19a8,8,0,0,0,11,11.62c5.43-5.14,16.79-8,26.4-3.85a20.05,20.05,0,0,1,10.77,10.92,68.89,68.89,0,0,0-10.76-.85C113.53,112,96,125.15,96,143.93c0,16.27,13,28.07,31,28.07a40,40,0,0,0,27.75-11.29c4.7-4.59,10.11-12.2,12.17-24A25.55,25.55,0,0,1,177.6,158c0,13.71-15.76,34-49.6,34C90.32,192,72,171.07,72,128Z"/></svg>`,
     style: "fill",
-    tags: ["threads", "logo"],
+    tags: ["threads", "logo", "social media", "app icon", "filled", "branding", "text", "meta", "communication", "modern"],
     category: "fill"
   },
   {
@@ -65842,7 +65842,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Threads Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M185.22,125.25a62,62,0,0,0-11.78-7c-3.53-29.6-23-38.82-31.83-41.5-19-5.74-40.73,1.09-50.6,15.9a6,6,0,1,0,10,6.66c6.94-10.41,23.25-15.28,37.14-11.07,7.22,2.18,18.39,8.34,22.39,25.61a78.74,78.74,0,0,0-18.11-2.08c-13.53,0-26.16,3.46-35.55,9.77C96,128.85,90,139.66,90,152c0,22,18,33.52,35.71,33.52a46,46,0,0,0,32.91-14.19c6.58-6.85,14.35-19.11,15.29-39.26a44.59,44.59,0,0,1,4.07,2.75c10.48,7.92,16,19.4,16,33.18,0,20.16-21,50-66,50-27.07,0-46.92-9.19-59-27.33C59,175.75,54,154.66,54,128s5-47.75,15-62.67C81.08,47.19,100.93,38,128,38c33.85,0,55.57,13.67,66.4,41.8a6,6,0,1,0,11.2-4.31C193,42.65,166.85,26,128,26,96.67,26,73.46,37,59,58.67,47.72,75.6,42,98.93,42,128s5.72,52.4,17,69.33C73.46,219,96.67,230,128,230c29.43,0,47.81-11.19,58.05-20.58C198.54,198,206,182.49,206,168,206,150.31,198.81,135.52,185.22,125.25ZM150,163a33.94,33.94,0,0,1-24.26,10.51C109.33,173.52,102,162.71,102,152c0-13.59,12.64-28.21,40.41-28.21a65.33,65.33,0,0,1,19.58,3c0,.41,0,.82,0,1.24C162,142.72,157.84,154.82,150,163Z"/></svg>`,
     style: "light",
-    tags: ["threads", "logo"],
+    tags: ["threads", "logo", "social media", "app icon", "light", "branding", "text", "meta", "communication", "modern"],
     category: "light"
   },
   {
@@ -65850,7 +65850,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Threads Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,126.84a59.8,59.8,0,0,0-12.42-7.16c-3-29.38-22-38.4-30.56-41-18.16-5.5-39,1-48.36,15.09a4,4,0,0,0,6.66,4.44c7.4-11.1,24.7-16.32,39.38-11.87,8.12,2.45,20.95,9.6,24.41,30.32a75.83,75.83,0,0,0-20.71-2.88c-13.14,0-25.37,3.34-34.44,9.43-10.45,7-16,17-16,28.78,0,20.7,17,31.52,33.71,31.52a44,44,0,0,0,31.47-13.58c9.56-9.94,14.68-24.19,14.82-41.23a50.18,50.18,0,0,1,7.19,4.51c11,8.32,16.81,20.34,16.81,34.78,0,11.73-6.25,24.46-16.7,34.05C170.36,210.24,154.21,220,128,220c-50.43,0-76-30.95-76-92s25.57-92,76-92c34.29,0,57.26,14.5,68.27,43.08a4,4,0,1,0,7.46-2.87C191.42,44.22,165.94,28,128,28,73.05,28,44,62.58,44,128s29.05,100,84,100c28.79,0,46.72-10.9,56.7-20.05,12.09-11.08,19.3-26,19.3-39.95C204,151,197.09,136.73,184,126.84Zm-32.6,37.55a35.92,35.92,0,0,1-25.7,11.13c-12.38,0-25.71-7.36-25.71-23.52,0-20.76,22-30.21,42.41-30.21A67.08,67.08,0,0,1,164,125.3c0,.88.05,1.78.05,2.7C164,143.25,159.65,155.83,151.41,164.39Z"/></svg>`,
     style: "thin",
-    tags: ["threads", "logo"],
+    tags: ["threads", "logo", "social media", "app icon", "thin", "branding", "text", "meta", "communication", "modern"],
     category: "thin"
   },
   {
@@ -65858,7 +65858,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Threads Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M186.42,123.65a63.81,63.81,0,0,0-11.13-6.72c-4-29.89-24-39.31-33.1-42.07-19.78-6-42.51,1.19-52.85,16.7a8,8,0,0,0,13.32,8.88c6.37-9.56,22-14.16,34.89-10.27,9.95,3,16.82,10.3,20.15,21a81.05,81.05,0,0,0-15.29-1.43c-13.92,0-26.95,3.59-36.67,10.1C94.3,127.57,88,139,88,152c0,20.58,15.86,35.52,37.71,35.52a48,48,0,0,0,34.35-14.81c6.44-6.7,14-18.36,15.61-37.1.38.26.74.53,1.1.8C186.88,144.05,192,154.68,192,168c0,19.36-20.34,48-64,48-26.73,0-45.48-8.65-57.34-26.44C60.93,175,56,154.26,56,128s4.93-47,14.66-61.56C82.52,48.65,101.27,40,128,40c32.93,0,54,13.25,64.53,40.52a8,8,0,1,0,14.93-5.75C194.68,41.56,167.2,24,128,24,96,24,72.19,35.29,57.34,57.56,45.83,74.83,40,98.52,40,128s5.83,53.17,17.34,70.44C72.19,220.71,96,232,128,232c30.07,0,48.9-11.48,59.4-21.1C200.3,199.08,208,183,208,168,208,149.66,200.54,134.32,186.42,123.65Zm-37.89,38a31.94,31.94,0,0,1-22.82,9.9c-10.81,0-21.71-6-21.71-19.52,0-12.63,12-26.21,38.41-26.21A63.88,63.88,0,0,1,160,128.24C160,142.32,156,153.86,148.53,161.62Z"/></svg>`,
     style: "regular",
-    tags: ["threads", "logo"],
+    tags: ["threads", "logo", "social media", "app icon", "branding", "text", "meta", "communication", "modern"],
     category: "regular"
   },
   {
@@ -65866,7 +65866,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Three D Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M88,148a16,16,0,0,0-16-16,12,12,0,0,1-9.83-18.88L77,92H52a12,12,0,0,1,0-24h48a12,12,0,0,1,9.83,18.88l-18.34,26.2A40,40,0,1,1,43.43,176,12,12,0,1,1,60.57,159.2,16,16,0,0,0,88,148Zm76-80a60,60,0,0,1,0,120H140a12,12,0,0,1-12-12V80a12,12,0,0,1,12-12Zm0,24H152v72h12a36,36,0,0,0,0-72ZM32,56H224a12,12,0,0,0,0-24H32a12,12,0,0,0,0,24ZM224,200H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["three", "d"],
+    tags: ["three", "d", "3d", "dimension", "modeling", "design", "bold", "geometric", "perspective", "ui"],
     category: "bold"
   },
   {
@@ -65874,7 +65874,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Three D Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48V208H32V48Z" opacity="0.2"/><path d="M96,148a20,20,0,0,0-20-20,8,8,0,0,1-6.55-12.59L88.63,88H56a8,8,0,0,1,0-16h48a8,8,0,0,1,6.55,12.59l-21,30A36,36,0,0,1,76,184a35.71,35.71,0,0,1-25.71-10.81A8,8,0,1,1,61.71,162,20,20,0,0,0,96,148Zm64-76a56,56,0,0,1,0,112H136a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8Zm0,16H144v80h16a40,40,0,0,0,0-80ZM32,56H224a8,8,0,0,0,0-16H32a8,8,0,0,0,0,16ZM224,200H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["three", "d"],
+    tags: ["three", "d", "3d", "dimension", "modeling", "design", "duotone", "geometric", "perspective", "ui"],
     category: "duotone"
   },
   {
@@ -65882,7 +65882,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Three D Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,128a32,32,0,0,1-32,32h-8V96h8A32,32,0,0,1,184,128Zm48-72V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56ZM112,144a32,32,0,0,0-18.31-28.92L110.4,92.8A8,8,0,0,0,104,80H64a8,8,0,0,0,0,16H88L73.6,115.2A8,8,0,0,0,80,128a16,16,0,1,1-10.66,27.93,8,8,0,1,0-10.68,11.92A32,32,0,0,0,112,144Zm88-16a48.05,48.05,0,0,0-48-48H136a8,8,0,0,0-8,8v80a8,8,0,0,0,8,8h16A48.05,48.05,0,0,0,200,128Z"/></svg>`,
     style: "fill",
-    tags: ["three", "d"],
+    tags: ["three", "d", "3d", "dimension", "modeling", "design", "filled", "geometric", "perspective", "ui"],
     category: "fill"
   },
   {
@@ -65890,7 +65890,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Three D Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M98,148a22,22,0,0,0-22-22,6,6,0,0,1-4.92-9.44L92.48,86H56a6,6,0,0,1,0-12h48a6,6,0,0,1,4.92,9.44L86.39,115.62a34,34,0,1,1-34.68,56.17,6,6,0,0,1,8.58-8.39A22,22,0,0,0,98,148Zm62-74a54,54,0,0,1,0,108H136a6,6,0,0,1-6-6V80a6,6,0,0,1,6-6Zm0,12H142v84h18a42,42,0,0,0,0-84ZM32,54H224a6,6,0,0,0,0-12H32a6,6,0,0,0,0,12ZM224,202H32a6,6,0,0,0,0,12H224a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["three", "d"],
+    tags: ["three", "d", "3d", "dimension", "modeling", "design", "light", "geometric", "perspective", "ui"],
     category: "light"
   },
   {
@@ -65898,7 +65898,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Three D Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M100,148a24,24,0,0,0-24-24,4,4,0,0,1-3.28-6.29L96.32,84H56a4,4,0,0,1,0-8h48a4,4,0,0,1,3.28,6.29L83.12,116.8a32,32,0,1,1-30,53.6,4,4,0,1,1,5.72-5.6A24,24,0,0,0,100,148Zm60-72a52,52,0,0,1,0,104H136a4,4,0,0,1-4-4V80a4,4,0,0,1,4-4Zm0,8H140v88h20a44,44,0,0,0,0-88ZM32,52H224a4,4,0,0,0,0-8H32a4,4,0,0,0,0,8ZM224,204H32a4,4,0,0,0,0,8H224a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["three", "d"],
+    tags: ["three", "d", "3d", "dimension", "modeling", "design", "thin", "geometric", "perspective", "ui"],
     category: "thin"
   },
   {
@@ -65906,7 +65906,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Three D Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M96,148a20,20,0,0,0-20-20,8,8,0,0,1-6.55-12.59L88.63,88H56a8,8,0,0,1,0-16h48a8,8,0,0,1,6.55,12.59l-21,30A36,36,0,0,1,76,184a35.71,35.71,0,0,1-25.71-10.81A8,8,0,1,1,61.71,162,20,20,0,0,0,96,148Zm64-76a56,56,0,0,1,0,112H136a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8Zm0,16H144v80h16a40,40,0,0,0,0-80ZM32,56H224a8,8,0,0,0,0-16H32a8,8,0,0,0,0,16ZM224,200H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["three", "d"],
+    tags: ["three", "d", "3d", "dimension", "modeling", "design", "geometric", "perspective", "ui"],
     category: "regular"
   },
   {
@@ -65914,7 +65914,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Down Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.78,156.53l-12-96A28,28,0,0,0,204,36H32A20,20,0,0,0,12,56v88a20,20,0,0,0,20,20H72.58l36.69,73.37A12,12,0,0,0,120,244a44.05,44.05,0,0,0,44-44V188h52a28,28,0,0,0,27.78-31.47ZM68,140H36V60H68Zm151,22.65a4,4,0,0,1-3,1.35H152a12,12,0,0,0-12,12v24a20,20,0,0,1-13.18,18.8L92,149.17V60H204a4,4,0,0,1,4,3.5l12,96A4,4,0,0,1,219,162.65Z"/></svg>`,
     style: "bold",
-    tags: ["thumbs", "down"],
+    tags: ["thumbs", "down", "dislike", "disapprove", "negative", "feedback", "vote", "social", "bold", "hand gesture", "disagreement"],
     category: "bold"
   },
   {
@@ -65922,7 +65922,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Down Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M80,48V152H32a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8Z" opacity="0.2"/><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"/></svg>`,
     style: "duotone",
-    tags: ["thumbs", "down"],
+    tags: ["thumbs", "down", "dislike", "disapprove", "negative", "feedback", "vote", "social", "duotone", "hand gesture", "disagreement"],
     category: "duotone"
   },
   {
@@ -65930,7 +65930,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Down Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Z"/></svg>`,
     style: "fill",
-    tags: ["thumbs", "down"],
+    tags: ["thumbs", "down", "dislike", "disapprove", "negative", "feedback", "vote", "social", "filled", "hand gesture", "disagreement"],
     category: "fill"
   },
   {
@@ -65938,7 +65938,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Down Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.83,157.27l-12-96A22,22,0,0,0,204,42H32A14,14,0,0,0,18,56v88a14,14,0,0,0,14,14H76.29l38.34,76.68A6,6,0,0,0,120,238a38,38,0,0,0,38-38V182h58a22,22,0,0,0,21.83-24.73ZM74,146H32a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H74Zm149.5,20.62A9.89,9.89,0,0,1,216,170H152a6,6,0,0,0-6,6v24a26,26,0,0,1-22.42,25.75L86,150.58V54H204a10,10,0,0,1,9.92,8.76l12,96A9.89,9.89,0,0,1,223.5,166.62Z"/></svg>`,
     style: "light",
-    tags: ["thumbs", "down"],
+    tags: ["thumbs", "down", "dislike", "disapprove", "negative", "feedback", "vote", "social", "light", "hand gesture", "disagreement"],
     category: "light"
   },
   {
@@ -65946,7 +65946,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Down Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.85,157.52l-12-96A20,20,0,0,0,204,44H32A12,12,0,0,0,20,56v88a12,12,0,0,0,12,12H77.53l38.89,77.79A4,4,0,0,0,120,236a36,36,0,0,0,36-36V180h60a20,20,0,0,0,19.85-22.48ZM76,148H32a4,4,0,0,1-4-4V56a4,4,0,0,1,4-4H76Zm149,19.94a12,12,0,0,1-9,4.06H152a4,4,0,0,0-4,4v24a28,28,0,0,1-25.58,27.9L84,151.06V52H204a12,12,0,0,1,11.91,10.51l12,96A12,12,0,0,1,225,167.94Z"/></svg>`,
     style: "thin",
-    tags: ["thumbs", "down"],
+    tags: ["thumbs", "down", "dislike", "disapprove", "negative", "feedback", "vote", "social", "thin", "hand gesture", "disagreement"],
     category: "thin"
   },
   {
@@ -65954,7 +65954,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Down Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"/></svg>`,
     style: "regular",
-    tags: ["thumbs", "down"],
+    tags: ["thumbs", "down", "dislike", "disapprove", "negative", "feedback", "vote", "social", "hand gesture", "disagreement"],
     category: "regular"
   },
   {
@@ -65962,7 +65962,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Up Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237,77.47A28,28,0,0,0,216,68H164V56a44.05,44.05,0,0,0-44-44,12,12,0,0,0-10.73,6.63L72.58,92H32a20,20,0,0,0-20,20v88a20,20,0,0,0,20,20H204a28,28,0,0,0,27.78-24.53l12-96A28,28,0,0,0,237,77.47ZM36,116H68v80H36ZM220,96.5l-12,96a4,4,0,0,1-4,3.5H92V106.83L126.82,37.2A20,20,0,0,1,140,56V80a12,12,0,0,0,12,12h64a4,4,0,0,1,4,4.5Z"/></svg>`,
     style: "bold",
-    tags: ["thumbs", "up"],
+    tags: ["thumbs", "up", "like", "approve", "positive", "feedback", "vote", "social", "bold", "hand gesture", "agreement"],
     category: "bold"
   },
   {
@@ -65970,7 +65970,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Up Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M80,104V208H32a8,8,0,0,1-8-8V112a8,8,0,0,1,8-8Z" opacity="0.2"/><path d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"/></svg>`,
     style: "duotone",
-    tags: ["thumbs", "up"],
+    tags: ["thumbs", "up", "like", "approve", "positive", "feedback", "vote", "social", "duotone", "hand gesture", "agreement"],
     category: "duotone"
   },
   {
@@ -65978,7 +65978,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Up Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32Z"/></svg>`,
     style: "fill",
-    tags: ["thumbs", "up"],
+    tags: ["thumbs", "up", "like", "approve", "positive", "feedback", "vote", "social", "filled", "hand gesture", "agreement"],
     category: "fill"
   },
   {
@@ -65986,7 +65986,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Up Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232.49,81.44A22,22,0,0,0,216,74H158V56a38,38,0,0,0-38-38,6,6,0,0,0-5.37,3.32L76.29,98H32a14,14,0,0,0-14,14v88a14,14,0,0,0,14,14H204a22,22,0,0,0,21.83-19.27l12-96A22,22,0,0,0,232.49,81.44ZM30,200V112a2,2,0,0,1,2-2H74v92H32A2,2,0,0,1,30,200ZM225.92,97.24l-12,96A10,10,0,0,1,204,202H86V105.42l37.58-75.17A26,26,0,0,1,146,56V80a6,6,0,0,0,6,6h64a10,10,0,0,1,9.92,11.24Z"/></svg>`,
     style: "light",
-    tags: ["thumbs", "up"],
+    tags: ["thumbs", "up", "like", "approve", "positive", "feedback", "vote", "social", "light", "hand gesture", "agreement"],
     category: "light"
   },
   {
@@ -65994,7 +65994,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Up Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M231,82.76A20,20,0,0,0,216,76H156V56a36,36,0,0,0-36-36,4,4,0,0,0-3.58,2.21L77.53,100H32a12,12,0,0,0-12,12v88a12,12,0,0,0,12,12H204a20,20,0,0,0,19.85-17.52l12-96A20,20,0,0,0,231,82.76ZM76,204H32a4,4,0,0,1-4-4V112a4,4,0,0,1,4-4H76ZM227.91,97.49l-12,96A12,12,0,0,1,204,204H84V104.94L122.42,28.1A28,28,0,0,1,148,56V80a4,4,0,0,0,4,4h64a12,12,0,0,1,11.91,13.49Z"/></svg>`,
     style: "thin",
-    tags: ["thumbs", "up"],
+    tags: ["thumbs", "up", "like", "approve", "positive", "feedback", "vote", "social", "thin", "hand gesture", "agreement"],
     category: "thin"
   },
   {
@@ -66002,7 +66002,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Thumbs Up Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"/></svg>`,
     style: "regular",
-    tags: ["thumbs", "up"],
+    tags: ["thumbs", "up", "like", "approve", "positive", "feedback", "vote", "social", "hand gesture", "agreement"],
     category: "regular"
   },
   {
@@ -66010,7 +66010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Ticket Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,108a12,12,0,0,0,12-12V64a20,20,0,0,0-20-20H32A20,20,0,0,0,12,64V96a12,12,0,0,0,12,12,20,20,0,0,1,0,40,12,12,0,0,0-12,12v32a20,20,0,0,0,20,20H224a20,20,0,0,0,20-20V160a12,12,0,0,0-12-12,20,20,0,0,1,0-40ZM36,170.34a44,44,0,0,0,0-84.68V68H88V188H36Zm184,0V188H112V68H220V85.66a44,44,0,0,0,0,84.68Z"/></svg>`,
     style: "bold",
-    tags: ["ticket"],
+    tags: ["ticket", "voucher", "coupon", "event", "admission", "pass", "booking", "bold", "filled"],
     category: "bold"
   },
   {
@@ -66018,7 +66018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Ticket Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,128a32,32,0,0,0,32,32v32a8,8,0,0,1-8,8H96V56H224a8,8,0,0,1,8,8V96A32,32,0,0,0,200,128Z" opacity="0.2"/><path d="M232,104a8,8,0,0,0,8-8V64a16,16,0,0,0-16-16H32A16,16,0,0,0,16,64V96a8,8,0,0,0,8,8,24,24,0,0,1,0,48,8,8,0,0,0-8,8v32a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V160a8,8,0,0,0-8-8,24,24,0,0,1,0-48ZM32,167.2a40,40,0,0,0,0-78.4V64H88V192H32Zm192,0V192H104V64H224V88.8a40,40,0,0,0,0,78.4Z"/></svg>`,
     style: "duotone",
-    tags: ["ticket"],
+    tags: ["ticket", "voucher", "coupon", "event", "admission", "pass", "booking", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -66026,7 +66026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Ticket Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,104a8,8,0,0,0,8-8V64a16,16,0,0,0-16-16H32A16,16,0,0,0,16,64V96a8,8,0,0,0,8,8,24,24,0,0,1,0,48,8,8,0,0,0-8,8v32a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V160a8,8,0,0,0-8-8,24,24,0,0,1,0-48ZM32,167.2a40,40,0,0,0,0-78.4V64H88V192H32Z"/></svg>`,
     style: "fill",
-    tags: ["ticket"],
+    tags: ["ticket", "voucher", "coupon", "event", "admission", "pass", "booking", "filled", "solid"],
     category: "fill"
   },
   {
@@ -66034,7 +66034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Ticket Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,102a6,6,0,0,0,6-6V64a14,14,0,0,0-14-14H32A14,14,0,0,0,18,64V96a6,6,0,0,0,6,6,26,26,0,0,1,0,52,6,6,0,0,0-6,6v32a14,14,0,0,0,14,14H224a14,14,0,0,0,14-14V160a6,6,0,0,0-6-6,26,26,0,0,1,0-52ZM30,192V165.53a38,38,0,0,0,0-75.06V64a2,2,0,0,1,2-2H90V194H32A2,2,0,0,1,30,192Zm196-26.47V192a2,2,0,0,1-2,2H102V62H224a2,2,0,0,1,2,2V90.47a38,38,0,0,0,0,75.06Z"/></svg>`,
     style: "light",
-    tags: ["ticket"],
+    tags: ["ticket", "voucher", "coupon", "event", "admission", "pass", "booking", "light", "thin"],
     category: "light"
   },
   {
@@ -66042,7 +66042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Ticket Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,100a4,4,0,0,0,4-4V64a12,12,0,0,0-12-12H32A12,12,0,0,0,20,64V96a4,4,0,0,0,4,4,28,28,0,0,1,0,56,4,4,0,0,0-4,4v32a12,12,0,0,0,12,12H224a12,12,0,0,0,12-12V160a4,4,0,0,0-4-4,28,28,0,0,1,0-56ZM28,192V163.78a36,36,0,0,0,0-71.56V64a4,4,0,0,1,4-4H92V196H32A4,4,0,0,1,28,192Zm168-64a36.06,36.06,0,0,0,32,35.78V192a4,4,0,0,1-4,4H100V60H224a4,4,0,0,1,4,4V92.22A36.06,36.06,0,0,0,196,128Z"/></svg>`,
     style: "thin",
-    tags: ["ticket"],
+    tags: ["ticket", "voucher", "coupon", "event", "admission", "pass", "booking", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -66050,7 +66050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Ticket Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,104a8,8,0,0,0,8-8V64a16,16,0,0,0-16-16H32A16,16,0,0,0,16,64V96a8,8,0,0,0,8,8,24,24,0,0,1,0,48,8,8,0,0,0-8,8v32a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V160a8,8,0,0,0-8-8,24,24,0,0,1,0-48ZM32,167.2a40,40,0,0,0,0-78.4V64H88V192H32Zm192,0V192H104V64H224V88.8a40,40,0,0,0,0,78.4Z"/></svg>`,
     style: "regular",
-    tags: ["ticket"],
+    tags: ["ticket", "voucher", "coupon", "event", "admission", "pass", "booking", "outline", "standard"],
     category: "regular"
   },
   {
@@ -66058,7 +66058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tidal Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252.49,87.51l-38-38a12,12,0,0,0-17,0L168,79,136.49,47.51a12,12,0,0,0-17,0L88,79,58.49,49.51a12,12,0,0,0-17,0l-38,38a12,12,0,0,0,0,17l38,38a12,12,0,0,0,17,0L88,113l23,23L79.51,167.51a12,12,0,0,0,0,17l40,40a12,12,0,0,0,17,0l40-40a12,12,0,0,0,0-17L145,136l23-23,29.51,29.52a12,12,0,0,0,17,0l38-38A12,12,0,0,0,252.49,87.51ZM50,117,29,96,50,75,71,96Zm78,82-23-23,23-23,23,23Zm0-80L105,96l23-23,23,23Zm78-2L185,96l21-21,21,21Z"/></svg>`,
     style: "bold",
-    tags: ["tidal", "logo"],
+    tags: ["tidal", "logo", "music", "streaming", "audio", "platform", "social", "app", "bold", "filled"],
     category: "bold"
   },
   {
@@ -66066,7 +66066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tidal Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M48,56,88,96,48,136,8,96ZM88,96l40,40,40-40L128,56Zm40,120,40-40-40-40L88,176ZM208,56,168,96l40,40,40-40Z" opacity="0.2"/><path d="M253.66,90.34l-40-40a8,8,0,0,0-11.32,0L168,84.69,133.66,50.34a8,8,0,0,0-11.32,0L88,84.69,53.66,50.34a8,8,0,0,0-11.32,0l-40,40a8,8,0,0,0,0,11.32l40,40a8,8,0,0,0,11.32,0L88,107.31,116.69,136,82.34,170.34a8,8,0,0,0,0,11.32l40,40a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0,0-11.32L139.31,136,168,107.31l34.34,34.35a8,8,0,0,0,11.32,0l40-40A8,8,0,0,0,253.66,90.34ZM48,124.69,19.31,96,48,67.31,76.69,96Zm80,80L99.31,176,128,147.31,156.69,176Zm0-80L99.31,96,128,67.31,156.69,96Zm80,0L179.31,96,208,67.31,236.69,96Z"/></svg>`,
     style: "duotone",
-    tags: ["tidal", "logo"],
+    tags: ["tidal", "logo", "music", "streaming", "audio", "platform", "social", "app", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -66074,7 +66074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tidal Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M253.66,101.66l-36,36a8,8,0,0,1-11.32,0l-36-36-.34-.38-.34.38L135.31,136l34.35,34.34a8,8,0,0,1,0,11.32l-36,36a8,8,0,0,1-11.32,0l-36-36a8,8,0,0,1,0-11.32L120.69,136,86.34,101.66l-.34-.38-.34.38-36,36a8,8,0,0,1-11.32,0l-36-36a8,8,0,0,1,0-11.32l36-36a8,8,0,0,1,11.32,0l36,36,.34.38.34-.38,36-36a8,8,0,0,1,11.32,0l36,36,.34.38.34-.38,36-36a8,8,0,0,1,11.32,0l36,36A8,8,0,0,1,253.66,101.66Z"/></svg>`,
     style: "fill",
-    tags: ["tidal", "logo"],
+    tags: ["tidal", "logo", "music", "streaming", "audio", "platform", "social", "app", "filled", "solid"],
     category: "fill"
   },
   {
@@ -66082,7 +66082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tidal Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252.24,91.76l-40-40a6,6,0,0,0-8.48,0L168,87.52,132.24,51.76a6,6,0,0,0-8.48,0L88,87.52,52.24,51.76a6,6,0,0,0-8.48,0l-40,40a6,6,0,0,0,0,8.48l40,40a6,6,0,0,0,8.48,0L88,104.48,119.52,136,83.76,171.76a6,6,0,0,0,0,8.48l40,40a6,6,0,0,0,8.48,0l40-40a6,6,0,0,0,0-8.48L136.48,136,168,104.48l35.76,35.76a6,6,0,0,0,8.48,0l40-40A6,6,0,0,0,252.24,91.76ZM48,127.51,16.49,96,48,64.49,79.51,96Zm80,80L96.49,176,128,144.49,159.51,176Zm0-80L96.49,96,128,64.49,159.51,96Zm80,0L176.49,96,208,64.49,239.51,96Z"/></svg>`,
     style: "light",
-    tags: ["tidal", "logo"],
+    tags: ["tidal", "logo", "music", "streaming", "audio", "platform", "social", "app", "light", "thin"],
     category: "light"
   },
   {
@@ -66090,7 +66090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tidal Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M250.83,93.17l-40-40a4,4,0,0,0-5.66,0L168,90.34,130.83,53.17a4,4,0,0,0-5.66,0L88,90.34,50.83,53.17a4,4,0,0,0-5.66,0l-40,40a4,4,0,0,0,0,5.66l40,40a4,4,0,0,0,5.66,0L88,101.66,122.34,136,85.17,173.17a4,4,0,0,0,0,5.66l40,40a4,4,0,0,0,5.66,0l40-40a4,4,0,0,0,0-5.66L133.66,136,168,101.66l37.17,37.17a4,4,0,0,0,5.66,0l40-40A4,4,0,0,0,250.83,93.17ZM48,130.34,13.66,96,48,61.66,82.34,96Zm80,80L93.66,176,128,141.66,162.34,176Zm0-80L93.66,96,128,61.66,162.34,96Zm80,0L173.66,96,208,61.66,242.34,96Z"/></svg>`,
     style: "thin",
-    tags: ["tidal", "logo"],
+    tags: ["tidal", "logo", "music", "streaming", "audio", "platform", "social", "app", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -66098,7 +66098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tidal Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M253.66,90.34l-40-40a8,8,0,0,0-11.32,0L168,84.69,133.66,50.34a8,8,0,0,0-11.32,0L88,84.69,53.66,50.34a8,8,0,0,0-11.32,0l-40,40a8,8,0,0,0,0,11.32l40,40a8,8,0,0,0,11.32,0L88,107.31,116.69,136,82.34,170.34a8,8,0,0,0,0,11.32l40,40a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0,0-11.32L139.31,136,168,107.31l34.34,34.35a8,8,0,0,0,11.32,0l40-40A8,8,0,0,0,253.66,90.34ZM48,124.69,19.31,96,48,67.31,76.69,96Zm80,80L99.31,176,128,147.31,156.69,176Zm0-80L99.31,96,128,67.31,156.69,96Zm80,0L179.31,96,208,67.31,236.69,96Z"/></svg>`,
     style: "regular",
-    tags: ["tidal", "logo"],
+    tags: ["tidal", "logo", "music", "streaming", "audio", "platform", "social", "app", "outline", "standard"],
     category: "regular"
   },
   {
@@ -66106,7 +66106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tiktok Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,68a44.05,44.05,0,0,1-44-44,12,12,0,0,0-12-12H128a12,12,0,0,0-12,12V156a16,16,0,1,1-22.85-14.47A12,12,0,0,0,100,130.69V88A12,12,0,0,0,85.9,76.19a79.35,79.35,0,0,0-47.08,27.74A81.84,81.84,0,0,0,20,156a80,80,0,0,0,160,0V122.67A107.47,107.47,0,0,0,224,132a12,12,0,0,0,12-12V80A12,12,0,0,0,224,68Zm-12,39.15a83.05,83.05,0,0,1-37-14.91A12,12,0,0,0,156,102v54a56,56,0,0,1-112,0,57.86,57.86,0,0,1,32-51.56V124a40,40,0,1,0,64,32V36h17.06A68.21,68.21,0,0,0,212,90.94Z"/></svg>`,
     style: "bold",
-    tags: ["tiktok", "logo"],
+    tags: ["tiktok", "logo", "social media", "video", "app", "platform", "entertainment", "bold", "filled"],
     category: "bold"
   },
   {
@@ -66114,7 +66114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tiktok Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,120a95.55,95.55,0,0,1-56-18v54a68,68,0,0,1-136,0c0-33.46,24.17-62.33,56-68v42.69A28,28,0,1,0,128,156V24h40a56,56,0,0,0,56,56Z" opacity="0.2"/><path d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"/></svg>`,
     style: "duotone",
-    tags: ["tiktok", "logo"],
+    tags: ["tiktok", "logo", "social media", "video", "app", "platform", "entertainment", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -66122,7 +66122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tiktok Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,80v40a8,8,0,0,1-8,8,103.25,103.25,0,0,1-48-11.71V156a76,76,0,0,1-152,0c0-36.9,26.91-69.52,62.6-75.88A8,8,0,0,1,96,88v42.69a8,8,0,0,1-4.57,7.23A20,20,0,1,0,120,156V24a8,8,0,0,1,8-8h40a8,8,0,0,1,8,8,48.05,48.05,0,0,0,48,48A8,8,0,0,1,232,80Z"/></svg>`,
     style: "fill",
-    tags: ["tiktok", "logo"],
+    tags: ["tiktok", "logo", "social media", "video", "app", "platform", "entertainment", "filled", "solid"],
     category: "fill"
   },
   {
@@ -66130,7 +66130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tiktok Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,74a50.06,50.06,0,0,1-50-50,6,6,0,0,0-6-6H128a6,6,0,0,0-6,6V156a22,22,0,1,1-31.43-19.89A6,6,0,0,0,94,130.69V88a6,6,0,0,0-7-5.91C52.2,88.28,26,120.05,26,156a74,74,0,0,0,148,0V112.93A101.28,101.28,0,0,0,224,126a6,6,0,0,0,6-6V80A6,6,0,0,0,224,74Zm-6,39.8a89.13,89.13,0,0,1-46.5-16.69A6,6,0,0,0,162,102v54a62,62,0,0,1-124,0c0-27.72,18.47-52.48,44-60.38v31.53A34,34,0,1,0,134,156V30h28.29A62.09,62.09,0,0,0,218,85.71Z"/></svg>`,
     style: "light",
-    tags: ["tiktok", "logo"],
+    tags: ["tiktok", "logo", "social media", "video", "app", "platform", "entertainment", "light", "thin"],
     category: "light"
   },
   {
@@ -66138,7 +66138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tiktok Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,76a52.06,52.06,0,0,1-52-52,4,4,0,0,0-4-4H128a4,4,0,0,0-4,4V156a24,24,0,1,1-34.28-21.69A4,4,0,0,0,92,130.69V88a4,4,0,0,0-4.7-3.94C53.49,90.08,28,121,28,156a72,72,0,0,0,144,0V109.44A99.26,99.26,0,0,0,224,124a4,4,0,0,0,4-4V80A4,4,0,0,0,224,76Zm-4,39.92a91.32,91.32,0,0,1-49.66-17.18A4,4,0,0,0,164,102v54a64,64,0,0,1-128,0c0-29.52,20.32-55.79,48-63v35.31A32,32,0,1,0,132,156V28h32.13A60.11,60.11,0,0,0,220,83.87Z"/></svg>`,
     style: "thin",
-    tags: ["tiktok", "logo"],
+    tags: ["tiktok", "logo", "social media", "video", "app", "platform", "entertainment", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -66146,7 +66146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tiktok Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,72a48.05,48.05,0,0,1-48-48,8,8,0,0,0-8-8H128a8,8,0,0,0-8,8V156a20,20,0,1,1-28.57-18.08A8,8,0,0,0,96,130.69V88a8,8,0,0,0-9.4-7.88C50.91,86.48,24,119.1,24,156a76,76,0,0,0,152,0V116.29A103.25,103.25,0,0,0,224,128a8,8,0,0,0,8-8V80A8,8,0,0,0,224,72Zm-8,39.64a87.19,87.19,0,0,1-43.33-16.15A8,8,0,0,0,160,102v54a60,60,0,0,1-120,0c0-25.9,16.64-49.13,40-57.6v27.67A36,36,0,1,0,136,156V32h24.5A64.14,64.14,0,0,0,216,87.5Z"/></svg>`,
     style: "regular",
-    tags: ["tiktok", "logo"],
+    tags: ["tiktok", "logo", "social media", "video", "app", "platform", "entertainment", "outline", "standard"],
     category: "regular"
   },
   {
@@ -66154,7 +66154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tilde Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M225.35,133.1c-15.22,18.93-30.43,29-46.5,30.65A46.71,46.71,0,0,1,174,164c-20.81,0-38.16-14.13-53.59-26.7-14.24-11.6-27.68-22.54-40.75-21.18-9.26,1-19.46,8.32-30.32,21.82a12,12,0,0,1-18.7-15C45.87,104,61.08,94,77.15,92.25c23-2.42,41.82,12.92,58.43,26.45,14.24,11.6,27.68,22.54,40.75,21.18,9.26-1,19.46-8.32,30.32-21.82a12,12,0,1,1,18.7,15Z"/></svg>`,
     style: "bold",
-    tags: ["tilde"],
+    tags: ["tilde", "approximately", "about", "math", "symbol", "accent", "bold", "typographic"],
     category: "bold"
   },
   {
@@ -66162,7 +66162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tilde Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,56V200a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56A16,16,0,0,1,56,40H200A16,16,0,0,1,216,56Z" opacity="0.2"/><path d="M222.23,130.59c-14.51,18-28.84,27.6-43.8,29.17a43,43,0,0,1-4.5.24c-19.3,0-35.39-13.1-51-25.8-14.91-12.14-29-23.61-43.7-22-10.51,1.1-21.31,8.72-33,23.28a8,8,0,0,1-12.46-10c14.51-18,28.84-27.6,43.8-29.17,21.32-2.25,38.69,11.89,55.48,25.56,14.91,12.14,29,23.62,43.7,22,10.51-1.1,21.31-8.72,33-23.28a8,8,0,1,1,12.46,10Z"/></svg>`,
     style: "duotone",
-    tags: ["tilde"],
+    tags: ["tilde", "approximately", "about", "math", "symbol", "accent", "duotone", "typographic"],
     category: "duotone"
   },
   {
@@ -66170,7 +66170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tilde Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm-10,99.66c-13.19,15-25.34,20.29-36.37,20.29-14.94,0-27.81-9.61-38.43-17.54-19.2-14.34-31.89-23.81-53.2.48a8,8,0,1,1-12-10.55c31.05-35.41,56.34-16.53,74.8-2.75,19.2,14.34,31.89,23.81,53.2-.48a8,8,0,1,1,12,10.55Z"/></svg>`,
     style: "fill",
-    tags: ["tilde"],
+    tags: ["tilde", "approximately", "about", "math", "symbol", "accent", "filled", "typographic"],
     category: "fill"
   },
   {
@@ -66178,7 +66178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tilde Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220.68,129.34c-14.17,17.62-28.06,26.92-42.46,28.44A40.75,40.75,0,0,1,174,158c-18.64,0-34.44-12.87-49.76-25.35S94.57,108.51,79,110.16c-11.06,1.16-22.3,9-34.36,24a6,6,0,1,1-9.36-7.52c14.17-17.61,28.06-26.92,42.46-28.43,20.52-2.18,37.54,11.7,54,25.12C147,135.76,161.42,147.48,177,145.84c11.06-1.16,22.3-9,34.36-24a6,6,0,0,1,9.36,7.52Z"/></svg>`,
     style: "light",
-    tags: ["tilde"],
+    tags: ["tilde", "approximately", "about", "math", "symbol", "accent", "light", "typographic"],
     category: "light"
   },
   {
@@ -66186,7 +66186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tilde Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M219.12,128.09c-13.82,17.18-27.26,26.24-41.11,27.7a38.9,38.9,0,0,1-4,.21c-18,0-33.48-12.64-48.53-24.9-15.57-12.68-30.29-24.66-46.64-22.93-11.62,1.22-23.3,9.32-35.71,24.76a4,4,0,0,1-6.24-5C50.7,110.73,64.14,101.67,78,100.21c19.67-2.08,36.38,11.53,52.54,24.69,15.57,12.68,30.29,24.66,46.64,22.93,11.62-1.22,23.3-9.32,35.71-24.76a4,4,0,1,1,6.24,5Z"/></svg>`,
     style: "thin",
-    tags: ["tilde"],
+    tags: ["tilde", "approximately", "about", "math", "symbol", "accent", "thin", "typographic"],
     category: "thin"
   },
   {
@@ -66194,7 +66194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tilde Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222.23,130.59c-14.51,18-28.84,27.6-43.8,29.17a43,43,0,0,1-4.5.24c-19.3,0-35.39-13.1-51-25.8-14.91-12.14-29-23.61-43.7-22-10.51,1.1-21.31,8.72-33,23.28a8,8,0,0,1-12.46-10c14.51-18,28.84-27.6,43.8-29.17,21.32-2.25,38.69,11.89,55.48,25.56,14.91,12.14,29,23.62,43.7,22,10.51-1.1,21.31-8.72,33-23.28a8,8,0,1,1,12.46,10Z"/></svg>`,
     style: "regular",
-    tags: ["tilde"],
+    tags: ["tilde", "approximately", "about", "math", "symbol", "accent", "outline", "typographic"],
     category: "regular"
   },
   {
@@ -66202,7 +66202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Timer Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,44a96,96,0,1,0,96,96A96.11,96.11,0,0,0,128,44Zm0,168a72,72,0,1,1,72-72A72.08,72.08,0,0,1,128,212ZM164.49,99.51a12,12,0,0,1,0,17l-28,28a12,12,0,0,1-17-17l28-28A12,12,0,0,1,164.49,99.51ZM92,16A12,12,0,0,1,104,4h48a12,12,0,0,1,0,24H104A12,12,0,0,1,92,16Z"/></svg>`,
     style: "bold",
-    tags: ["timer"],
+    tags: ["timer", "countdown", "stopwatch", "clock", "duration", "deadline", "bold", "filled", "measurement"],
     category: "bold"
   },
   {
@@ -66210,7 +66210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Timer Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,136a88,88,0,1,1-88-88A88,88,0,0,1,216,136Z" opacity="0.2"/><path d="M128,40a96,96,0,1,0,96,96A96.11,96.11,0,0,0,128,40Zm0,176a80,80,0,1,1,80-80A80.09,80.09,0,0,1,128,216ZM173.66,90.34a8,8,0,0,1,0,11.32l-40,40a8,8,0,0,1-11.32-11.32l40-40A8,8,0,0,1,173.66,90.34ZM96,16a8,8,0,0,1,8-8h48a8,8,0,0,1,0,16H104A8,8,0,0,1,96,16Z"/></svg>`,
     style: "duotone",
-    tags: ["timer"],
+    tags: ["timer", "stopwatch", "countdown", "deadline", "productivity", "time management", "duotone", "circular", "clock"],
     category: "duotone"
   },
   {
@@ -66218,7 +66218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Timer Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,40a96,96,0,1,0,96,96A96.11,96.11,0,0,0,128,40Zm45.66,61.66-40,40a8,8,0,0,1-11.32-11.32l40-40a8,8,0,0,1,11.32,11.32ZM96,16a8,8,0,0,1,8-8h48a8,8,0,0,1,0,16H104A8,8,0,0,1,96,16Z"/></svg>`,
     style: "fill",
-    tags: ["timer"],
+    tags: ["timer", "stopwatch", "countdown", "deadline", "productivity", "time management", "filled", "circular", "clock"],
     category: "fill"
   },
   {
@@ -66226,7 +66226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Timer Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,42a94,94,0,1,0,94,94A94.11,94.11,0,0,0,128,42Zm0,176a82,82,0,1,1,82-82A82.1,82.1,0,0,1,128,218ZM172.24,91.76a6,6,0,0,1,0,8.48l-40,40a6,6,0,1,1-8.48-8.48l40-40A6,6,0,0,1,172.24,91.76ZM98,16a6,6,0,0,1,6-6h48a6,6,0,0,1,0,12H104A6,6,0,0,1,98,16Z"/></svg>`,
     style: "light",
-    tags: ["timer"],
+    tags: ["timer", "stopwatch", "countdown", "deadline", "productivity", "time management", "light", "circular", "clock"],
     category: "light"
   },
   {
@@ -66234,7 +66234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Timer Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,44a92,92,0,1,0,92,92A92.1,92.1,0,0,0,128,44Zm0,176a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,220ZM170.83,93.17a4,4,0,0,1,0,5.66l-40,40a4,4,0,1,1-5.66-5.66l40-40A4,4,0,0,1,170.83,93.17ZM100,16a4,4,0,0,1,4-4h48a4,4,0,0,1,0,8H104A4,4,0,0,1,100,16Z"/></svg>`,
     style: "thin",
-    tags: ["timer"],
+    tags: ["timer", "stopwatch", "countdown", "deadline", "productivity", "time management", "thin", "circular", "clock"],
     category: "thin"
   },
   {
@@ -66242,7 +66242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Timer Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,40a96,96,0,1,0,96,96A96.11,96.11,0,0,0,128,40Zm0,176a80,80,0,1,1,80-80A80.09,80.09,0,0,1,128,216ZM173.66,90.34a8,8,0,0,1,0,11.32l-40,40a8,8,0,0,1-11.32-11.32l40-40A8,8,0,0,1,173.66,90.34ZM96,16a8,8,0,0,1,8-8h48a8,8,0,0,1,0,16H104A8,8,0,0,1,96,16Z"/></svg>`,
     style: "regular",
-    tags: ["timer"],
+    tags: ["timer", "stopwatch", "countdown", "deadline", "productivity", "time management", "regular", "circular", "clock"],
     category: "regular"
   },
   {
@@ -66250,7 +66250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tip Jar Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M188,49.68V32a20,20,0,0,0-20-20H88A20,20,0,0,0,68,32V49.68A44.06,44.06,0,0,0,36,92V200a44.05,44.05,0,0,0,44,44h96a44.05,44.05,0,0,0,44-44V92A44.06,44.06,0,0,0,188,49.68ZM164,48H140V36h24ZM116,36V48H92V36Zm80,164a20,20,0,0,1-20,20H80a20,20,0,0,1-20-20V92A20,20,0,0,1,80,72h96a20,20,0,0,1,20,20Zm-28-38a30,30,0,0,1-28,29.93V196a12,12,0,0,1-24,0v-4h-8a12,12,0,0,1,0-24h30a6,6,0,0,0,0-12H118a30,30,0,0,1-2-59.93V96a12,12,0,0,1,24,0h8a12,12,0,0,1,0,24H118a6,6,0,0,0,0,12h20A30,30,0,0,1,168,162Z"/></svg>`,
     style: "bold",
-    tags: ["tip", "jar"],
+    tags: ["tip", "jar", "donation", "money", "gratitude", "payment", "fundraising", "bold", "container", "financial"],
     category: "bold"
   },
   {
@@ -66258,7 +66258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tip Jar Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,88V200a32,32,0,0,1-32,32H80a32,32,0,0,1-32-32V88A32,32,0,0,1,80,56h96A32,32,0,0,1,208,88Z" opacity="0.2"/><path d="M184,48.81V32a16,16,0,0,0-16-16H88A16,16,0,0,0,72,32V48.81A40.05,40.05,0,0,0,40,88V200a40,40,0,0,0,40,40h96a40,40,0,0,0,40-40V88A40.05,40.05,0,0,0,184,48.81ZM168,48H152V32h16Zm-48,0V32h16V48ZM104,32V48H88V32Zm96,168a24,24,0,0,1-24,24H80a24,24,0,0,1-24-24V88A24,24,0,0,1,80,64h96a24,24,0,0,1,24,24Zm-40-40a24,24,0,0,1-24,24v8a8,8,0,0,1-16,0v-8h-8a8,8,0,0,1,0-16h24a8,8,0,0,0,0-16H120a24,24,0,0,1,0-48V96a8,8,0,0,1,16,0v8h8a8,8,0,0,1,0,16H120a8,8,0,0,0,0,16h16A24,24,0,0,1,160,160Z"/></svg>`,
     style: "duotone",
-    tags: ["tip", "jar"],
+    tags: ["tip", "jar", "donation", "money", "gratitude", "payment", "fundraising", "duotone", "container", "financial"],
     category: "duotone"
   },
   {
@@ -66266,7 +66266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tip Jar Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,48.81V32a16,16,0,0,0-16-16H88A16,16,0,0,0,72,32V48.81A40.05,40.05,0,0,0,40,88V200a40,40,0,0,0,40,40h96a40,40,0,0,0,40-40V88A40.05,40.05,0,0,0,184,48.81ZM120,32h16V48H120ZM88,32h16V48H88Zm48,152v8a8,8,0,0,1-16,0v-8h-8a8,8,0,0,1,0-16h24a8,8,0,0,0,0-16H120a24,24,0,0,1,0-48V96a8,8,0,0,1,16,0v8h8a8,8,0,0,1,0,16H120a8,8,0,0,0,0,16h16a24,24,0,0,1,0,48ZM168,48H152V32h16Z"/></svg>`,
     style: "fill",
-    tags: ["tip", "jar"],
+    tags: ["tip", "jar", "donation", "money", "gratitude", "payment", "fundraising", "filled", "container", "financial"],
     category: "fill"
   },
   {
@@ -66274,7 +66274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tip Jar Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M182,50.48V32a14,14,0,0,0-14-14H88A14,14,0,0,0,74,32V50.48A38.05,38.05,0,0,0,42,88V200a38,38,0,0,0,38,38h96a38,38,0,0,0,38-38V88A38.05,38.05,0,0,0,182,50.48ZM170,32V50H150V30h18A2,2,0,0,1,170,32ZM118,50V30h20V50ZM88,30h18V50H86V32A2,2,0,0,1,88,30ZM202,200a26,26,0,0,1-26,26H80a26,26,0,0,1-26-26V88A26,26,0,0,1,80,62h96a26,26,0,0,1,26,26Zm-44-40a22,22,0,0,1-22,22h-2v10a6,6,0,0,1-12,0V182H112a6,6,0,0,1,0-12h24a10,10,0,0,0,0-20H120a22,22,0,0,1,0-44h2V96a6,6,0,0,1,12,0v10h10a6,6,0,0,1,0,12H120a10,10,0,0,0,0,20h16A22,22,0,0,1,158,160Z"/></svg>`,
     style: "light",
-    tags: ["tip", "jar"],
+    tags: ["tip", "jar", "donation", "money", "gratitude", "payment", "fundraising", "light", "container", "financial"],
     category: "light"
   },
   {
@@ -66282,7 +66282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tip Jar Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M180,52.23V32a12,12,0,0,0-12-12H88A12,12,0,0,0,76,32V52.23A36,36,0,0,0,44,88V200a36,36,0,0,0,36,36h96a36,36,0,0,0,36-36V88A36,36,0,0,0,180,52.23ZM148,28h20a4,4,0,0,1,4,4V52H148Zm-32,0h24V52H116ZM84,32a4,4,0,0,1,4-4h20V52H84ZM204,200a28,28,0,0,1-28,28H80a28,28,0,0,1-28-28V88A28,28,0,0,1,80,60h96a28,28,0,0,1,28,28Zm-48-40a20,20,0,0,1-20,20h-4v12a4,4,0,0,1-8,0V180H112a4,4,0,0,1,0-8h24a12,12,0,0,0,0-24H120a20,20,0,0,1,0-40h4V96a4,4,0,0,1,8,0v12h12a4,4,0,0,1,0,8H120a12,12,0,0,0,0,24h16A20,20,0,0,1,156,160Z"/></svg>`,
     style: "thin",
-    tags: ["tip", "jar"],
+    tags: ["tip", "jar", "donation", "money", "gratitude", "payment", "fundraising", "thin", "container", "financial"],
     category: "thin"
   },
   {
@@ -66290,7 +66290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tip Jar Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,48.81V32a16,16,0,0,0-16-16H88A16,16,0,0,0,72,32V48.81A40.05,40.05,0,0,0,40,88V200a40,40,0,0,0,40,40h96a40,40,0,0,0,40-40V88A40.05,40.05,0,0,0,184,48.81ZM168,48H152V32h16Zm-48,0V32h16V48ZM104,32V48H88V32Zm96,168a24,24,0,0,1-24,24H80a24,24,0,0,1-24-24V88A24,24,0,0,1,80,64h96a24,24,0,0,1,24,24Zm-40-40a24,24,0,0,1-24,24v8a8,8,0,0,1-16,0v-8h-8a8,8,0,0,1,0-16h24a8,8,0,0,0,0-16H120a24,24,0,0,1,0-48V96a8,8,0,0,1,16,0v8h8a8,8,0,0,1,0,16H120a8,8,0,0,0,0,16h16A24,24,0,0,1,160,160Z"/></svg>`,
     style: "regular",
-    tags: ["tip", "jar"],
+    tags: ["tip", "jar", "donation", "money", "gratitude", "payment", "fundraising", "regular", "container", "financial"],
     category: "regular"
   },
   {
@@ -66298,7 +66298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tipi Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M242.11,209.53l-99.86-156,19.86-31A12,12,0,1,0,141.89,9.53L128,31.24,114.11,9.53A12,12,0,0,0,93.89,22.47l19.86,31-99.86,156A12,12,0,0,0,24,228H232a12,12,0,0,0,10.11-18.47ZM96.17,204,128,154.26,159.83,204Zm92.16,0-50.22-78.47a12,12,0,0,0-20.22,0L67.67,204H45.93L128,75.76,210.07,204Z"/></svg>`,
     style: "bold",
-    tags: ["tipi"],
+    tags: ["tipi", "tent", "shelter", "camping", "native american", "outdoors", "bold", "dwelling", "geometric"],
     category: "bold"
   },
   {
@@ -66306,7 +66306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tipi Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184.32,216H71.68L128,128Z" opacity="0.2"/><path d="M238.74,211.69,137.5,53.5l21.24-33.19a8,8,0,0,0-13.48-8.62L128,38.66l-17.26-27a8,8,0,1,0-13.48,8.62L118.5,53.5,17.26,211.69A8,8,0,0,0,24,224H232a8,8,0,0,0,6.74-12.31ZM86.3,208,128,142.84,169.7,208Zm102.4,0-54-84.31a8,8,0,0,0-13.48,0L67.3,208H38.62L128,68.34,217.38,208Z"/></svg>`,
     style: "duotone",
-    tags: ["tipi"],
+    tags: ["tipi", "tent", "shelter", "camping", "native american", "outdoors", "duotone", "dwelling", "geometric"],
     category: "duotone"
   },
   {
@@ -66314,7 +66314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tipi Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238.74,211.69,137.5,53.5l21.24-33.19a8,8,0,0,0-13.48-8.62L128,38.66l-17.26-27a8,8,0,1,0-13.48,8.62L118.5,53.5,17.26,211.69A8,8,0,0,0,24,224H232a8,8,0,0,0,6.74-12.31Zm-50-3.69-54-84.31a8,8,0,0,0-13.48,0L67.3,208H38.62L128,68.34,217.38,208Z"/></svg>`,
     style: "fill",
-    tags: ["tipi"],
+    tags: ["tipi", "tent", "shelter", "camping", "native american", "outdoors", "filled", "dwelling", "geometric"],
     category: "fill"
   },
   {
@@ -66322,7 +66322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tipi Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.05,212.77,135.12,53.5l21.93-34.26A6,6,0,1,0,147,12.77L128,42.37l-19-29.6A6,6,0,1,0,99,19.24L120.88,53.5,19,212.77A6,6,0,0,0,24,222H232a6,6,0,0,0,5.05-9.23ZM82.64,210,128,139.13,173.36,210Zm105,0-54.55-85.23a6,6,0,0,0-10.1,0L68.4,210H35L128,64.63,221,210Z"/></svg>`,
     style: "light",
-    tags: ["tipi"],
+    tags: ["tipi", "tent", "shelter", "camping", "native american", "outdoors", "light", "dwelling", "geometric"],
     category: "light"
   },
   {
@@ -66330,7 +66330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tipi Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.37,213.84,132.75,53.5l22.62-35.34a4,4,0,1,0-6.74-4.32L128,46.08,107.37,13.84a4,4,0,0,0-6.74,4.32L123.25,53.5,20.63,213.84A4,4,0,0,0,24,220H232a4,4,0,0,0,3.37-6.16ZM79,212l49-76.58L177,212Zm107.52,0-55.14-86.16a4,4,0,0,0-6.74,0L69.49,212H31.31L128,60.92,224.69,212Z"/></svg>`,
     style: "thin",
-    tags: ["tipi"],
+    tags: ["tipi", "tent", "shelter", "camping", "native american", "outdoors", "thin", "dwelling", "geometric"],
     category: "thin"
   },
   {
@@ -66338,7 +66338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tipi Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238.74,211.69,137.5,53.5l21.24-33.19a8,8,0,0,0-13.48-8.62L128,38.66l-17.26-27a8,8,0,1,0-13.48,8.62L118.5,53.5,17.26,211.69A8,8,0,0,0,24,224H232a8,8,0,0,0,6.74-12.31ZM86.3,208,128,142.84,169.7,208Zm102.4,0-54-84.31a8,8,0,0,0-13.48,0L67.3,208H38.62L128,68.34,217.38,208Z"/></svg>`,
     style: "regular",
-    tags: ["tipi"],
+    tags: ["tipi", "tent", "shelter", "camping", "native american", "outdoors", "regular", "dwelling", "geometric"],
     category: "regular"
   },
   {
@@ -66346,7 +66346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tire Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,128c0-22.09,7.16-40,16-40s16,17.91,16,40-7.16,40-16,40S152,150.09,152,128Zm92,96a12,12,0,0,1-12,12H92c-18.5,0-35.3-12.22-47.32-34.4C33.92,181.74,28,155.6,28,128s5.92-53.74,16.68-73.6C56.7,32.22,73.5,20,92,20h72c18.5,0,35.3,12.22,47.32,34.4C222.08,74.26,228,100.4,228,128s-5.92,53.74-16.68,73.6a95.07,95.07,0,0,1-6.51,10.4H232A12,12,0,0,1,244,224ZM164,44c-18.92,0-40,34.5-40,84s21.08,84,40,84,40-34.5,40-84S182.92,44,164,44ZM54.33,155.59,73,142.24a12,12,0,0,1,13.94,0l14.66,10.46A186.77,186.77,0,0,1,100,128c0-3.61.11-7.2.31-10.75L80,102.75,52.09,122.68C52,124.44,52,126.21,52,128A160.1,160.1,0,0,0,54.33,155.59ZM56.54,90,73,78.24a12,12,0,0,1,13.94,0l16.91,12.07a134.79,134.79,0,0,1,12.8-35.91A95.07,95.07,0,0,1,123.19,44H92C78.44,44,63.77,61.73,56.54,90ZM92,212h31.19a95.07,95.07,0,0,1-6.51-10.4,115.79,115.79,0,0,1-6-12.91L80,166.75,61.14,180.22C69,200.08,80.88,212,92,212Z"/></svg>`,
     style: "bold",
-    tags: ["tire"],
+    tags: ["tire", "wheel", "car", "vehicle", "automotive", "transportation", "bold", "circular", "rubber"],
     category: "bold"
   },
   {
@@ -66354,7 +66354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tire Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164,224H92c-28.72,0-52-43-52-96S63.28,32,92,32h72c-28.72,0-52,43-52,96S135.28,224,164,224Zm4-136c-8.84,0-16,17.91-16,40s7.16,40,16,40,16-17.91,16-40S176.84,88,168,88Z" opacity="0.2"/><path d="M149.26,159.26C155.09,173.82,163.5,176,168,176s12.91-2.18,18.74-16.74c3.39-8.48,5.26-19.58,5.26-31.26s-1.87-22.78-5.26-31.26C180.91,82.18,172.5,80,168,80s-12.91,2.18-18.74,16.74C145.87,105.22,144,116.32,144,128S145.87,150.78,149.26,159.26ZM168,96.2c2.62,2.06,8,13,8,31.8s-5.38,29.74-8,31.8c-2.62-2.06-8-13-8-31.8S165.38,98.26,168,96.2ZM232,216H196.41C213.12,197.73,224,165.47,224,128c0-58.32-26.35-104-60-104H92C58.35,24,32,69.68,32,128S58.35,232,92,232H232a8,8,0,0,0,0-16ZM193.74,63.93C202.93,80.91,208,103.67,208,128s-5.07,47.09-14.26,64.07C185.38,207.5,174.82,216,164,216s-21.38-8.5-29.74-23.93C125.07,175.09,120,152.33,120,128s5.07-47.09,14.26-64.07C142.62,48.5,153.18,40,164,40S185.38,48.5,193.74,63.93ZM48,128c0-2.5.07-5,.17-7.44L80,97.83l24.43,17.45c-.28,4.16-.43,8.41-.43,12.72a179.89,179.89,0,0,0,3.07,33.5l-22.42-16a8,8,0,0,0-9.3,0l-23.74,17A161,161,0,0,1,48,128ZM62.26,63.93C70.62,48.5,81.18,40,92,40h39.59c-11.9,13-20.84,33.12-25,57.16L84.65,81.49a8,8,0,0,0-9.3,0L50.49,99.25C52.85,86,56.83,74,62.26,63.93Zm0,128.14a100.08,100.08,0,0,1-5.94-13.32L80,161.83l33.94,24.24c4.6,12,10.6,22.22,17.65,29.93H92C81.18,216,70.62,207.5,62.26,192.07Z"/></svg>`,
     style: "duotone",
-    tags: ["tire"],
+    tags: ["tire", "wheel", "car", "vehicle", "automotive", "transportation", "duotone", "circular", "rubber"],
     category: "duotone"
   },
   {
@@ -66362,7 +66362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tire Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,128c0,22.09-7.16,40-16,40s-16-17.91-16-40,7.16-40,16-40S184,105.91,184,128Zm56,96a8,8,0,0,1-8,8H92c-33.64,0-60-45.68-60-104S58.36,24,92,24h72c33.64,0,60,45.68,60,104,0,37.47-10.88,69.73-27.59,88H232A8,8,0,0,1,240,224ZM57.87,111.81a7.93,7.93,0,0,0,4.64-1.49L80,97.83l13.28,9.49a8,8,0,0,0,9.3-13L84.65,81.49a8,8,0,0,0-9.3,0L53.21,97.3a8,8,0,0,0,4.66,14.51Zm46.67,47.89L84.65,145.49a8,8,0,0,0-9.3,0L56,159.29a8,8,0,1,0,9.3,13L80,161.83l15.24,10.88a8,8,0,1,0,9.3-13Zm89.2,32.37c9.19-17,14.26-39.74,14.26-64.07s-5.07-47.09-14.26-64.07C185.38,48.5,174.82,40,164,40s-21.38,8.5-29.74,23.93C125.07,80.91,120,103.67,120,128s5.07,47.09,14.26,64.07C142.62,207.5,153.18,216,164,216S185.38,207.5,193.74,192.07Z"/></svg>`,
     style: "fill",
-    tags: ["tire"],
+    tags: ["tire", "wheel", "car", "vehicle", "automotive", "transportation", "filled", "circular", "rubber"],
     category: "fill"
   },
   {
@@ -66370,7 +66370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tire Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,174c14.44,0,22-23.14,22-46s-7.56-46-22-46-22,23.14-22,46S153.56,174,168,174Zm0-80c2.57,0,10,11.69,10,34s-7.43,34-10,34-10-11.69-10-34S165.43,94,168,94Zm64,124H191.71C209.89,201,222,167.43,222,128c0-57.2-25.48-102-58-102H92C59.48,26,34,70.8,34,128S59.48,230,92,230H232a6,6,0,0,0,0-12Zm-22-90c0,48.79-21.07,90-46,90s-46-41.21-46-90,21.07-90,46-90S210,79.21,210,128ZM46,128c0-2.86.08-5.69.22-8.5L80,95.37l26.5,18.93c-.33,4.47-.5,9-.5,13.7a175.72,175.72,0,0,0,4,38.08l-26.55-19a6,6,0,0,0-7,0l-26.1,18.64A160.24,160.24,0,0,1,46,128ZM92,38h44.29C122.49,50.92,112.2,73.35,108,100.65L83.49,83.12a6,6,0,0,0-7,0L47.79,103.63C53.37,66.24,71.36,38,92,38Zm0,180C76.42,218,62.36,201.92,54,178l26-18.58,35.53,25.39c5.22,13.92,12.34,25.35,20.76,33.24Z"/></svg>`,
     style: "light",
-    tags: ["tire"],
+    tags: ["tire", "wheel", "car", "vehicle", "automotive", "transportation", "light", "circular", "rubber"],
     category: "light"
   },
   {
@@ -66378,7 +66378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tire Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,172c13,0,20-22.67,20-44s-7-44-20-44-20,22.67-20,44S155,172,168,172Zm0-80c4.89,0,12,14,12,36s-7.11,36-12,36-12-14-12-36S163.11,92,168,92Zm64,128H186.23c6.72-5.11,12.85-12.59,18.06-22.21C214.42,179.08,220,154.3,220,128s-5.58-51.08-15.71-69.79C193.73,38.73,179.43,28,164,28H92C76.57,28,62.27,38.73,51.71,58.21,41.58,76.92,36,101.7,36,128s5.58,51.08,15.71,69.79C62.27,217.27,76.57,228,92,228H232a4,4,0,0,0,0-8ZM197.25,62C206.76,79.58,212,103,212,128s-5.24,48.42-14.75,66c-9.09,16.78-20.9,26-33.25,26s-24.16-9.24-33.25-26C121.24,176.42,116,153,116,128s5.24-48.42,14.75-66c9.09-16.78,20.9-26,33.25-26S188.16,45.24,197.25,62ZM58.75,62C67.84,45.24,79.65,36,92,36h49.77c-6.72,5.11-12.85,12.59-18.06,22.21-7,12.93-11.83,28.77-14.14,46L82.33,84.75a4,4,0,0,0-4.66,0L45.17,108C47.19,90.66,51.84,74.78,58.75,62ZM44.26,118.44,80,92.92l28.59,20.42c-.39,4.81-.59,9.71-.59,14.66a169.72,169.72,0,0,0,5.32,42.89l-31-22.14a4,4,0,0,0-4.66,0L49.13,169.13A161.44,161.44,0,0,1,44,128Q44,123.19,44.26,118.44ZM92,220c-12.35,0-24.16-9.24-33.25-26a106.61,106.61,0,0,1-7.19-16.75L80,156.92l37.32,26.65a111.32,111.32,0,0,0,6.39,14.22c5.21,9.62,11.34,17.1,18.06,22.21Z"/></svg>`,
     style: "thin",
-    tags: ["tire"],
+    tags: ["tire", "wheel", "car", "vehicle", "automotive", "transportation", "thin", "circular", "rubber"],
     category: "thin"
   },
   {
@@ -66386,7 +66386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tire Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M149.26,159.26C155.09,173.82,163.5,176,168,176s12.91-2.18,18.74-16.74c3.39-8.48,5.26-19.58,5.26-31.26s-1.87-22.78-5.26-31.26C180.91,82.18,172.5,80,168,80s-12.91,2.18-18.74,16.74C145.87,105.22,144,116.32,144,128S145.87,150.78,149.26,159.26ZM168,96.2c2.62,2.06,8,13,8,31.8s-5.38,29.74-8,31.8c-2.62-2.06-8-13-8-31.8S165.38,98.26,168,96.2ZM232,216H196.41C213.12,197.73,224,165.47,224,128c0-58.32-26.35-104-60-104H92C58.35,24,32,69.68,32,128S58.35,232,92,232H232a8,8,0,0,0,0-16ZM193.74,63.93C202.93,80.91,208,103.67,208,128s-5.07,47.09-14.26,64.07C185.38,207.5,174.82,216,164,216s-21.38-8.5-29.74-23.93C125.07,175.09,120,152.33,120,128s5.07-47.09,14.26-64.07C142.62,48.5,153.18,40,164,40S185.38,48.5,193.74,63.93ZM48,128c0-2.5.07-5,.17-7.44L80,97.83l24.43,17.45c-.28,4.16-.43,8.41-.43,12.72a179.89,179.89,0,0,0,3.07,33.5l-22.42-16a8,8,0,0,0-9.3,0l-23.74,17A161,161,0,0,1,48,128ZM62.26,63.93C70.62,48.5,81.18,40,92,40h39.59c-11.9,13-20.84,33.12-25,57.16L84.65,81.49a8,8,0,0,0-9.3,0L50.49,99.25C52.85,86,56.83,74,62.26,63.93Zm0,128.14a100.08,100.08,0,0,1-5.94-13.32L80,161.83l33.94,24.24c4.6,12,10.6,22.22,17.65,29.93H92C81.18,216,70.62,207.5,62.26,192.07Z"/></svg>`,
     style: "regular",
-    tags: ["tire"],
+    tags: ["tire", "wheel", "car", "vehicle", "automotive", "transportation", "regular", "circular", "rubber"],
     category: "regular"
   },
   {
@@ -66394,7 +66394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Left Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,52H80a76,76,0,0,0,0,152h96a76,76,0,0,0,0-152Zm0,128H80A52,52,0,0,1,80,76h96a52,52,0,0,1,0,104ZM80,88a40,40,0,1,0,40,40A40,40,0,0,0,80,88Zm0,56a16,16,0,1,1,16-16A16,16,0,0,1,80,144Z"/></svg>`,
     style: "bold",
-    tags: ["toggle", "left"],
+    tags: ["toggle", "left", "switch", "on off", "setting", "control", "preference", "bold", "ui element", "slider"],
     category: "bold"
   },
   {
@@ -66402,7 +66402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Left Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,128A32,32,0,1,1,80,96,32,32,0,0,1,112,128Z" opacity="0.2"/><path d="M176,56H80a72,72,0,0,0,0,144h96a72,72,0,0,0,0-144Zm0,128H80A56,56,0,0,1,80,72h96a56,56,0,0,1,0,112ZM80,88a40,40,0,1,0,40,40A40,40,0,0,0,80,88Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,80,152Z"/></svg>`,
     style: "duotone",
-    tags: ["toggle", "left"],
+    tags: ["toggle", "left", "switch", "on off", "setting", "control", "preference", "duotone", "ui element", "slider"],
     category: "duotone"
   },
   {
@@ -66410,7 +66410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Left Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,56H80a72,72,0,0,0,0,144h96a72,72,0,0,0,0-144ZM80,168a40,40,0,1,1,40-40A40,40,0,0,1,80,168Z"/></svg>`,
     style: "fill",
-    tags: ["toggle", "left"],
+    tags: ["toggle", "left", "switch", "on/off", "setting", "option", "control", "ui element", "filled", "active", "inactive"],
     category: "fill"
   },
   {
@@ -66418,7 +66418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Left Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,58H80a70,70,0,0,0,0,140h96a70,70,0,0,0,0-140Zm0,128H80A58,58,0,0,1,80,70h96a58,58,0,0,1,0,116ZM80,90a38,38,0,1,0,38,38A38,38,0,0,0,80,90Zm0,64a26,26,0,1,1,26-26A26,26,0,0,1,80,154Z"/></svg>`,
     style: "light",
-    tags: ["toggle", "left"],
+    tags: ["toggle", "left", "switch", "on/off", "setting", "option", "control", "ui element", "light", "thin", "active", "inactive"],
     category: "light"
   },
   {
@@ -66426,7 +66426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Left Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,60H80a68,68,0,0,0,0,136h96a68,68,0,0,0,0-136Zm0,128H80A60,60,0,0,1,80,68h96a60,60,0,0,1,0,120ZM80,92a36,36,0,1,0,36,36A36,36,0,0,0,80,92Zm0,64a28,28,0,1,1,28-28A28,28,0,0,1,80,156Z"/></svg>`,
     style: "thin",
-    tags: ["toggle", "left"],
+    tags: ["toggle", "left", "switch", "on/off", "setting", "option", "control", "ui element", "thin", "minimal", "active", "inactive"],
     category: "thin"
   },
   {
@@ -66434,7 +66434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Left Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,56H80a72,72,0,0,0,0,144h96a72,72,0,0,0,0-144Zm0,128H80A56,56,0,0,1,80,72h96a56,56,0,0,1,0,112ZM80,88a40,40,0,1,0,40,40A40,40,0,0,0,80,88Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,80,152Z"/></svg>`,
     style: "regular",
-    tags: ["toggle", "left"],
+    tags: ["toggle", "left", "switch", "on/off", "setting", "option", "control", "ui element", "default", "active", "inactive"],
     category: "regular"
   },
   {
@@ -66442,7 +66442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Right Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,52H80a76,76,0,0,0,0,152h96a76,76,0,0,0,0-152Zm0,128H80A52,52,0,0,1,80,76h96a52,52,0,0,1,0,104Zm0-92a40,40,0,1,0,40,40A40,40,0,0,0,176,88Zm0,56a16,16,0,1,1,16-16A16,16,0,0,1,176,144Z"/></svg>`,
     style: "bold",
-    tags: ["toggle", "right"],
+    tags: ["toggle", "right", "switch", "on/off", "setting", "option", "control", "ui element", "bold", "active", "inactive"],
     category: "bold"
   },
   {
@@ -66450,7 +66450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Right Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,128a32,32,0,1,1-32-32A32,32,0,0,1,208,128Z" opacity="0.2"/><path d="M176,56H80a72,72,0,0,0,0,144h96a72,72,0,0,0,0-144Zm0,128H80A56,56,0,0,1,80,72h96a56,56,0,0,1,0,112Zm0-96a40,40,0,1,0,40,40A40,40,0,0,0,176,88Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,176,152Z"/></svg>`,
     style: "duotone",
-    tags: ["toggle", "right"],
+    tags: ["toggle", "right", "switch", "on/off", "setting", "option", "control", "ui element", "duotone", "active", "inactive"],
     category: "duotone"
   },
   {
@@ -66458,7 +66458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Right Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,56H80a72,72,0,0,0,0,144h96a72,72,0,0,0,0-144Zm0,112a40,40,0,1,1,40-40A40,40,0,0,1,176,168Z"/></svg>`,
     style: "fill",
-    tags: ["toggle", "right"],
+    tags: ["toggle", "right", "switch", "on/off", "setting", "option", "control", "ui element", "filled", "active", "inactive"],
     category: "fill"
   },
   {
@@ -66466,7 +66466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Right Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,58H80a70,70,0,0,0,0,140h96a70,70,0,0,0,0-140Zm0,128H80A58,58,0,0,1,80,70h96a58,58,0,0,1,0,116Zm0-96a38,38,0,1,0,38,38A38,38,0,0,0,176,90Zm0,64a26,26,0,1,1,26-26A26,26,0,0,1,176,154Z"/></svg>`,
     style: "light",
-    tags: ["toggle", "right"],
+    tags: ["toggle", "right", "switch", "on/off", "setting", "option", "control", "ui element", "light", "thin", "active", "inactive"],
     category: "light"
   },
   {
@@ -66474,7 +66474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Right Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,60H80a68,68,0,0,0,0,136h96a68,68,0,0,0,0-136Zm0,128H80A60,60,0,0,1,80,68h96a60,60,0,0,1,0,120Zm0-96a36,36,0,1,0,36,36A36,36,0,0,0,176,92Zm0,64a28,28,0,1,1,28-28A28,28,0,0,1,176,156Z"/></svg>`,
     style: "thin",
-    tags: ["toggle", "right"],
+    tags: ["toggle", "right", "switch", "on/off", "setting", "option", "control", "ui element", "thin", "minimal", "active", "inactive"],
     category: "thin"
   },
   {
@@ -66482,7 +66482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toggle Right Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,56H80a72,72,0,0,0,0,144h96a72,72,0,0,0,0-144Zm0,128H80A56,56,0,0,1,80,72h96a56,56,0,0,1,0,112Zm0-96a40,40,0,1,0,40,40A40,40,0,0,0,176,88Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,176,152Z"/></svg>`,
     style: "regular",
-    tags: ["toggle", "right"],
+    tags: ["toggle", "right", "switch", "on/off", "setting", "option", "control", "ui element", "default", "active", "inactive"],
     category: "regular"
   },
   {
@@ -66490,7 +66490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,68a12,12,0,0,1-12,12H100a12,12,0,0,1,0-24h16A12,12,0,0,1,128,68Zm48.15,127.62,3.65,25.55A20,20,0,0,1,160,244H96a20,20,0,0,1-19.8-22.83l3.65-25.55A100.08,100.08,0,0,1,28,108,12,12,0,0,1,40,96H52V40A20,20,0,0,1,72,20H184a20,20,0,0,1,20,20V96h12a12,12,0,0,1,12,12A100.08,100.08,0,0,1,176.15,195.62ZM76,96H180V44H76Zm77.21,108.78a100.3,100.3,0,0,1-50.42,0L100.61,220h54.78ZM203.05,120H53a76,76,0,0,0,150.1,0Z"/></svg>`,
     style: "bold",
-    tags: ["toilet"],
+    tags: ["toilet", "restroom", "bathroom", "wc", "public facility", "bold", "plumbing", "hygiene"],
     category: "bold"
   },
   {
@@ -66498,7 +66498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M167.92,222.87A8,8,0,0,1,160,232H96a8,8,0,0,1-7.92-9.13l4.34-30.36h0a88.21,88.21,0,0,0,71.14,0h0ZM184,32H72a8,8,0,0,0-8,8v72H192V40A8,8,0,0,0,184,32Z" opacity="0.2"/><path d="M120,64a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h16A8,8,0,0,1,120,64Zm52.32,133.14,3.52,24.6A16,16,0,0,1,160,240H96a16,16,0,0,1-15.84-18.26l3.52-24.6A96.09,96.09,0,0,1,32,112a8,8,0,0,1,8-8H56V40A16,16,0,0,1,72,24H184a16,16,0,0,1,16,16v64h16a8,8,0,0,1,8,8A96.09,96.09,0,0,1,172.32,197.14ZM72,104H184V40H72Zm85.07,99.5a96.15,96.15,0,0,1-58.14,0L96,224h64ZM207.6,120H48.4a80,80,0,0,0,159.2,0Z"/></svg>`,
     style: "duotone",
-    tags: ["toilet"],
+    tags: ["toilet", "restroom", "bathroom", "wc", "public facility", "duotone", "plumbing", "hygiene"],
     category: "duotone"
   },
   {
@@ -66506,7 +66506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M60,88H196a4,4,0,0,0,4-4V40a16,16,0,0,0-16-16H72A16,16,0,0,0,56,40V84A4,4,0,0,0,60,88ZM88,48h15.73A8.18,8.18,0,0,1,112,55.47,8,8,0,0,1,104,64H88.27A8.18,8.18,0,0,1,80,56.53,8,8,0,0,1,88,48Zm136,64.06a8,8,0,0,0-8-8.06H40a8,8,0,0,0-8,8.06,96.1,96.1,0,0,0,51.68,85.08l-3.47,24.27a16.43,16.43,0,0,0,1.63,10A16,16,0,0,0,96,240h63.66a16.52,16.52,0,0,0,9.72-3,16,16,0,0,0,6.46-15.23l-3.52-24.6A96.1,96.1,0,0,0,224,112.06ZM96,224l2.93-20.5a96.15,96.15,0,0,0,58.14,0L160,224Z"/></svg>`,
     style: "fill",
-    tags: ["toilet"],
+    tags: ["toilet", "restroom", "bathroom", "wc", "public facility", "filled", "plumbing", "hygiene"],
     category: "fill"
   },
   {
@@ -66514,7 +66514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M118,64a6,6,0,0,1-6,6H96a6,6,0,0,1,0-12h16A6,6,0,0,1,118,64Zm52.14,132,3.72,26A14,14,0,0,1,160,238H96a14,14,0,0,1-13.86-16l3.72-26A94.1,94.1,0,0,1,34,112a6,6,0,0,1,6-6H58V40A14,14,0,0,1,72,26H184a14,14,0,0,1,14,14v66h18a6,6,0,0,1,6,6A94.1,94.1,0,0,1,170.14,196ZM70,106H186V40a2,2,0,0,0-2-2H72a2,2,0,0,0-2,2Zm88.71,94.84a94,94,0,0,1-61.42,0L94,223.72a2,2,0,0,0,.47,1.59A2,2,0,0,0,96,226h64a2,2,0,0,0,1.51-.69,2,2,0,0,0,.47-1.59ZM209.78,118H46.22a82,82,0,0,0,163.56,0Z"/></svg>`,
     style: "light",
-    tags: ["toilet"],
+    tags: ["toilet", "restroom", "bathroom", "wc", "public facility", "light", "thin", "plumbing", "hygiene"],
     category: "light"
   },
   {
@@ -66522,7 +66522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Paper Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M80,120a16,16,0,1,1-16-16A16,16,0,0,1,80,120Zm164,0v88a20,20,0,0,1-20,20H112a20,20,0,0,1-20-20v-9.61C84,207.07,74.46,212,64,212c-29.65,0-52-39.55-52-92S34.35,28,64,28H192C221.65,28,244,67.55,244,120ZM92,120c0-19.26-3.81-37.92-10.45-51.2C76.29,58.28,69.73,52,64,52S51.71,58.28,46.45,68.8C39.81,82.08,36,100.74,36,120s3.81,37.92,10.45,51.2C51.71,181.72,58.27,188,64,188s12.29-6.28,17.55-16.8C88.19,157.92,92,139.26,92,120Zm128,84V132h-8a12,12,0,0,1,0-24h7.5c-1.23-14.85-4.7-28.71-9.95-39.2S197.73,52,192,52H99.74c8.61,14.11,14.35,33.56,15.86,56H124a12,12,0,0,1,0,24h-8v72Zm-48-96h-8a12,12,0,0,0,0,24h8a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["toilet", "paper"],
+    tags: ["toilet", "paper", "tissue", "bathroom", "restroom", "hygiene", "bold", "roll", "supply"],
     category: "bold"
   },
   {
@@ -66530,7 +66530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Paper Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M104,120c0,44.18-17.91,80-40,80s-40-35.82-40-80S41.91,40,64,40,104,75.82,104,120Z" opacity="0.2"/><path d="M76,120a12,12,0,1,1-12-12A12,12,0,0,1,76,120Zm164,0v88a16,16,0,0,1-16,16H112a16,16,0,0,1-16-16V186.35C87.37,200.37,76.18,208,64,208c-13.87,0-26.46-9.89-35.44-27.85C20.46,164,16,142.59,16,120s4.46-43.95,12.56-60.15C37.54,41.89,50.13,32,64,32H192c13.87,0,26.46,9.89,35.44,27.85C235.54,76.05,240,97.41,240,120ZM96,120c0-42.43-16.86-72-32-72S32,77.57,32,120s16.86,72,32,72S96,162.43,96,120Zm128,88V128H208a8,8,0,0,1,0-16h15.79C221.84,73.9,206.16,48,192,48H92.12a73.6,73.6,0,0,1,7.32,11.85c7.14,14.28,11.44,32.56,12.37,52.15H128a8,8,0,0,1,0,16H112v80Zm-48-96H160a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["toilet", "paper"],
+    tags: ["toilet", "paper", "tissue", "bathroom", "restroom", "hygiene", "duotone", "roll", "supply"],
     category: "duotone"
   },
   {
@@ -66538,7 +66538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Paper Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,120a8,8,0,0,1-8,8H160a8,8,0,0,1,0-16h16A8,8,0,0,1,184,120Zm56,0v88a16,16,0,0,1-16,16H112a16,16,0,0,1-16-16V186.35C87.37,200.37,76.18,208,64,208c-13.87,0-26.46-9.89-35.44-27.85C20.46,164,16,142.59,16,120s4.46-43.95,12.56-60.15C37.54,41.89,50.13,32,64,32H192c13.87,0,26.46,9.89,35.44,27.85C235.54,76.05,240,97.41,240,120ZM76,120a12,12,0,1,0-12,12A12,12,0,0,0,76,120Zm148,8H208a8,8,0,0,1,0-16h15.79C221.84,73.9,206.16,48,192,48H92.12a73.6,73.6,0,0,1,7.32,11.85c7.14,14.28,11.44,32.56,12.37,52.15H128a8,8,0,0,1,0,16H112v80H224Z"/></svg>`,
     style: "fill",
-    tags: ["toilet", "paper"],
+    tags: ["toilet", "paper", "tissue", "bathroom", "restroom", "hygiene", "filled", "roll", "supply"],
     category: "fill"
   },
   {
@@ -66546,7 +66546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Paper Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M74,120a10,10,0,1,1-10-10A10,10,0,0,1,74,120Zm164,0v88a14,14,0,0,1-14,14H112a14,14,0,0,1-14-14V178.48C89.65,195.49,77.6,206,64,206c-25.79,0-46-37.78-46-86S38.21,34,64,34H192C217.79,34,238,71.78,238,120ZM98,120c0-44.26-17.58-74-34-74S30,75.74,30,120s17.58,74,34,74S98,164.27,98,120Zm128,88V126H208a6,6,0,0,1,0-12h17.88C224.37,73.08,207.67,46,192,46H87.76c12.57,13.92,21.09,38.74,22.12,68H128a6,6,0,0,1,0,12H110v82a2,2,0,0,0,2,2H224A2,2,0,0,0,226,208Zm-50-94H160a6,6,0,0,0,0,12h16a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["toilet", "paper"],
+    tags: ["toilet", "paper", "tissue", "bathroom", "restroom", "hygiene", "light", "thin", "roll", "supply"],
     category: "light"
   },
   {
@@ -66554,7 +66554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Paper Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M72,120a8,8,0,1,1-8-8A8,8,0,0,1,72,120Zm164,0v88a12,12,0,0,1-12,12H112a12,12,0,0,1-12-12V168.86c-7.9,21.4-21,35.14-36,35.14-24.67,0-44-36.9-44-84S39.33,36,64,36H192C216.67,36,236,72.9,236,120Zm-136,0c0-41.2-16.49-76-36-76S28,78.8,28,120s16.49,76,36,76S100,161.2,100,120Zm128,88V124H208a4,4,0,0,1,0-8H228c-1-39.42-17.07-72-35.95-72H83.05c14.29,12.8,24.14,39.76,24.9,72h20a4,4,0,0,1,0,8H108v84a4,4,0,0,0,4,4H224A4,4,0,0,0,228,208Zm-52-92H160a4,4,0,0,0,0,8h16a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["toilet", "paper"],
+    tags: ["toilet", "paper", "tissue", "bathroom", "restroom", "hygiene", "thin", "minimal", "roll", "supply"],
     category: "thin"
   },
   {
@@ -66562,7 +66562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Paper Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M76,120a12,12,0,1,1-12-12A12,12,0,0,1,76,120Zm164,0v88a16,16,0,0,1-16,16H112a16,16,0,0,1-16-16V186.35C87.37,200.37,76.18,208,64,208c-13.87,0-26.46-9.89-35.44-27.85C20.46,164,16,142.59,16,120s4.46-43.95,12.56-60.15C37.54,41.89,50.13,32,64,32H192c13.87,0,26.46,9.89,35.44,27.85C235.54,76.05,240,97.41,240,120ZM96,120c0-42.43-16.86-72-32-72S32,77.57,32,120s16.86,72,32,72S96,162.43,96,120Zm128,88V128H208a8,8,0,0,1,0-16h15.79C221.84,73.9,206.16,48,192,48H92.12a73.6,73.6,0,0,1,7.32,11.85c7.14,14.28,11.44,32.56,12.37,52.15H128a8,8,0,0,1,0,16H112v80Zm-48-96H160a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["toilet", "paper"],
+    tags: ["toilet", "paper", "tissue", "bathroom", "restroom", "hygiene", "default", "roll", "supply"],
     category: "regular"
   },
   {
@@ -66570,7 +66570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M116,64a4,4,0,0,1-4,4H96a4,4,0,0,1,0-8h16A4,4,0,0,1,116,64Zm52,130.86,3.92,27.44A12,12,0,0,1,160,236H96a12,12,0,0,1-11.88-13.7L88,194.86A92.11,92.11,0,0,1,36,112a4,4,0,0,1,4-4H60V40A12,12,0,0,1,72,28H184a12,12,0,0,1,12,12v68h20a4,4,0,0,1,4,4A92.11,92.11,0,0,1,168,194.86ZM68,108H188V40a4,4,0,0,0-4-4H72a4,4,0,0,0-4,4Zm92.34,90.13a92,92,0,0,1-64.68,0L92,223.43a4,4,0,0,0,.94,3.19A3.93,3.93,0,0,0,96,228h64a3.93,3.93,0,0,0,3-1.38,4,4,0,0,0,.94-3.19ZM211.91,116H44.09a84,84,0,0,0,167.82,0Z"/></svg>`,
     style: "thin",
-    tags: ["toilet"],
+    tags: ["toilet", "restroom", "bathroom", "wc", "public facility", "thin", "minimal", "plumbing", "hygiene"],
     category: "thin"
   },
   {
@@ -66578,7 +66578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toilet Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,64a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h16A8,8,0,0,1,120,64Zm52.32,133.14,3.52,24.6A16,16,0,0,1,160,240H96a16,16,0,0,1-15.84-18.26l3.52-24.6A96.09,96.09,0,0,1,32,112a8,8,0,0,1,8-8H56V40A16,16,0,0,1,72,24H184a16,16,0,0,1,16,16v64h16a8,8,0,0,1,8,8A96.09,96.09,0,0,1,172.32,197.14ZM72,104H184V40H72Zm85.07,99.5a96.15,96.15,0,0,1-58.14,0L96,224h64ZM207.6,120H48.4a80,80,0,0,0,159.2,0Z"/></svg>`,
     style: "regular",
-    tags: ["toilet"],
+    tags: ["toilet", "restroom", "bathroom", "wc", "public facility", "default", "plumbing", "hygiene"],
     category: "regular"
   },
   {
@@ -66586,7 +66586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toolbox Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,64H180V56a28,28,0,0,0-28-28H104A28,28,0,0,0,76,56v8H32A20,20,0,0,0,12,84V192a20,20,0,0,0,20,20H224a20,20,0,0,0,20-20V84A20,20,0,0,0,224,64ZM100,56a4,4,0,0,1,4-4h48a4,4,0,0,1,4,4v8H100ZM220,88v32H196v-4a12,12,0,0,0-24,0v4H84v-4a12,12,0,0,0-24,0v4H36V88ZM36,188V144H60v4a12,12,0,0,0,24,0v-4h88v4a12,12,0,0,0,24,0v-4h24v44Z"/></svg>`,
     style: "bold",
-    tags: ["toolbox"],
+    tags: ["toolbox", "tools", "repair", "maintenance", "settings", "kit", "bold", "utility", "fix"],
     category: "bold"
   },
   {
@@ -66594,7 +66594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toolbox Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,120v72a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V120Z" opacity="0.2"/><path d="M224,64H176V56a24,24,0,0,0-24-24H104A24,24,0,0,0,80,56v8H32A16,16,0,0,0,16,80V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V80A16,16,0,0,0,224,64ZM96,56a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM32,80H224v32H192v-8a8,8,0,0,0-16,0v8H80v-8a8,8,0,0,0-16,0v8H32ZM224,192H32V128H64v8a8,8,0,0,0,16,0v-8h96v8a8,8,0,0,0,16,0v-8h32v64Z"/></svg>`,
     style: "duotone",
-    tags: ["toolbox"],
+    tags: ["toolbox", "tools", "repair", "maintenance", "settings", "kit", "duotone", "utility", "fix"],
     category: "duotone"
   },
   {
@@ -66602,7 +66602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toolbox Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,64H176V56a24,24,0,0,0-24-24H104A24,24,0,0,0,80,56v8H32A16,16,0,0,0,16,80v28a4,4,0,0,0,4,4H64V96.27A8.17,8.17,0,0,1,71.47,88,8,8,0,0,1,80,96v16h96V96.27A8.17,8.17,0,0,1,183.47,88,8,8,0,0,1,192,96v16h44a4,4,0,0,0,4-4V80A16,16,0,0,0,224,64Zm-64,0H96V56a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8Zm80,68v60a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V132a4,4,0,0,1,4-4H64v16a8,8,0,0,0,8.53,8A8.17,8.17,0,0,0,80,143.73V128h96v16a8,8,0,0,0,8.53,8,8.17,8.17,0,0,0,7.47-8.25V128h44A4,4,0,0,1,240,132Z"/></svg>`,
     style: "fill",
-    tags: ["toolbox"],
+    tags: ["toolbox", "tools", "repair", "maintenance", "settings", "kit", "filled", "utility", "fix"],
     category: "fill"
   },
   {
@@ -66610,7 +66610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toolbox Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,66H174V56a22,22,0,0,0-22-22H104A22,22,0,0,0,82,56V66H32A14,14,0,0,0,18,80V192a14,14,0,0,0,14,14H224a14,14,0,0,0,14-14V80A14,14,0,0,0,224,66ZM94,56a10,10,0,0,1,10-10h48a10,10,0,0,1,10,10V66H94ZM32,78H224a2,2,0,0,1,2,2v34H190V104a6,6,0,0,0-12,0v10H78V104a6,6,0,0,0-12,0v10H30V80A2,2,0,0,1,32,78ZM224,194H32a2,2,0,0,1-2-2V126H66v10a6,6,0,0,0,12,0V126H178v10a6,6,0,0,0,12,0V126h36v66A2,2,0,0,1,224,194Z"/></svg>`,
     style: "light",
-    tags: ["toolbox"],
+    tags: ["toolbox", "tools", "kit", "repair", "maintenance", "settings", "utility", "light", "outline", "hardware", "craft"],
     category: "light"
   },
   {
@@ -66618,7 +66618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toolbox Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,68H172V56a20,20,0,0,0-20-20H104A20,20,0,0,0,84,56V68H32A12,12,0,0,0,20,80V192a12,12,0,0,0,12,12H224a12,12,0,0,0,12-12V80A12,12,0,0,0,224,68ZM92,56a12,12,0,0,1,12-12h48a12,12,0,0,1,12,12V68H92ZM32,76H224a4,4,0,0,1,4,4v36H188V104a4,4,0,0,0-8,0v12H76V104a4,4,0,0,0-8,0v12H28V80A4,4,0,0,1,32,76ZM224,196H32a4,4,0,0,1-4-4V124H68v12a4,4,0,0,0,8,0V124H180v12a4,4,0,0,0,8,0V124h40v68A4,4,0,0,1,224,196Z"/></svg>`,
     style: "thin",
-    tags: ["toolbox"],
+    tags: ["toolbox", "tools", "kit", "repair", "maintenance", "settings", "utility", "thin", "outline", "hardware", "craft"],
     category: "thin"
   },
   {
@@ -66626,7 +66626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Toolbox Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,64H176V56a24,24,0,0,0-24-24H104A24,24,0,0,0,80,56v8H32A16,16,0,0,0,16,80V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V80A16,16,0,0,0,224,64ZM96,56a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM224,80v32H192v-8a8,8,0,0,0-16,0v8H80v-8a8,8,0,0,0-16,0v8H32V80Zm0,112H32V128H64v8a8,8,0,0,0,16,0v-8h96v8a8,8,0,0,0,16,0v-8h32v64Z"/></svg>`,
     style: "regular",
-    tags: ["toolbox"],
+    tags: ["toolbox", "tools", "kit", "repair", "maintenance", "settings", "utility", "regular", "outline", "hardware", "craft"],
     category: "regular"
   },
   {
@@ -66634,7 +66634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tooth Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M172.46,83.15,160.31,88l12.15,4.85a12,12,0,1,1-8.92,22.29L128,100.93,92.46,115.15a12,12,0,0,1-8.92-22.29L95.69,88,83.54,83.15a12,12,0,0,1,8.92-22.29L128,75.08l35.54-14.22a12,12,0,0,1,8.92,22.29ZM228,79.75c.08,76.45-25.2,135.68-49,152.59a20,20,0,0,1-31.44-14.92c-.67-9.06-2.33-22-6.46-32.23C135.76,172,129.92,172,128,172c-7.76,0-11.77,9.92-13.08,13.18-4.13,10.22-5.79,23.17-6.46,32.23A20,20,0,0,1,88.51,236,19.86,19.86,0,0,1,77,232.34C53.2,215.43,27.92,156.2,28,79.75A60,60,0,0,1,88,20h80A60,60,0,0,1,228,79.75Zm-24,0A36,36,0,0,0,168,44H88A36,36,0,0,0,52,79.78c-.06,61.09,17.83,109.52,33.3,127.66C91.24,156,114.32,148,128,148s36.76,8,42.7,59.43C186.17,189.31,204.06,140.88,204,79.78Z"/></svg>`,
     style: "bold",
-    tags: ["tooth"],
+    tags: ["tooth", "dental", "dentist", "oral", "health", "medical", "care", "bold", "solid", "hygiene", "molar"],
     category: "bold"
   },
   {
@@ -66642,7 +66642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tooth Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,79.76c.07,71.42-23.48,128.23-44,142.78a8,8,0,0,1-12.52-6C158,196.31,152,160,128,160s-30,36.31-31.51,56.53a8,8,0,0,1-12.52,6C63.48,208,39.93,151.18,40,79.76A47.94,47.94,0,0,1,88,32h80A47.94,47.94,0,0,1,216,79.76Z" opacity="0.2"/><path d="M171,71.42,149.54,80,171,88.57A8,8,0,1,1,165,103.42L128,88.61,91,103.42A8,8,0,1,1,85,88.57L106.46,80,85,71.42A8,8,0,1,1,91,56.57l37,14.81,37-14.81A8,8,0,1,1,171,71.42Zm53,8.33c0,42.72-8,75.4-14.7,95.28-8.72,25.8-20.62,45.49-32.64,54a15.69,15.69,0,0,1-15.95,1.41,16.09,16.09,0,0,1-9.18-13.36C150.68,205.58,146.48,168,128,168s-22.68,37.59-23.53,49.11a16.09,16.09,0,0,1-16,14.9,15.67,15.67,0,0,1-9.13-2.95c-12-8.53-23.92-28.22-32.64-54C40,155.15,32,122.47,32,79.75A56,56,0,0,1,88,24h80A56,56,0,0,1,224,79.75Zm-16,0A40,40,0,0,0,168,40H88A40,40,0,0,0,48,79.76c0,40.55,7.51,71.4,13.85,90.14,11.05,32.66,23,43.37,26.61,46C91.57,174.67,105.59,152,128,152s36.45,22.71,39.49,63.94h0c3.6-2.59,15.57-13.26,26.66-46C200.49,151.16,208,120.31,208,79.76Z"/></svg>`,
     style: "duotone",
-    tags: ["tooth"],
+    tags: ["tooth", "dental", "dentist", "oral", "health", "medical", "care", "duotone", "layered", "hygiene", "molar"],
     category: "duotone"
   },
   {
@@ -66650,7 +66650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tooth Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,24H88A56,56,0,0,0,32,79.75c0,42.72,8,75.4,14.7,95.28,8.72,25.8,20.62,45.49,32.64,54A15.67,15.67,0,0,0,88.47,232a16.09,16.09,0,0,0,16-14.9c.85-11.52,5-49.11,23.53-49.11s22.68,37.59,23.53,49.11a16.09,16.09,0,0,0,9.18,13.36,15.69,15.69,0,0,0,15.95-1.41c12-8.53,23.92-28.22,32.64-54C216,155.15,224,122.47,224,79.75A56,56,0,0,0,168,24Zm3,56.57A8,8,0,1,1,165,95.42L128,80.61,91,95.42A8,8,0,1,1,85,80.57L106.46,72,85,63.42A8,8,0,1,1,91,48.57l37,14.81,37-14.81A8,8,0,1,1,171,63.42L149.54,72Z"/></svg>`,
     style: "fill",
-    tags: ["tooth"],
+    tags: ["tooth", "dental", "dentist", "oral", "health", "medical", "care", "filled", "solid", "hygiene", "molar"],
     category: "fill"
   },
   {
@@ -66658,7 +66658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tooth Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M170.23,69.57,144.16,80l26.07,10.43a6,6,0,1,1-4.46,11.14L128,86.46,90.23,101.57a6,6,0,0,1-7.8-3.35,6,6,0,0,1,3.34-7.79L111.84,80,85.77,69.57a6,6,0,0,1,4.46-11.14L128,73.53l37.77-15.1a6,6,0,1,1,4.46,11.14ZM222,79.75c0,42.45-7.91,74.9-14.59,94.64-8.59,25.41-20.22,44.74-31.91,53a13.7,13.7,0,0,1-13.94,1.23,14.1,14.1,0,0,1-8-11.69c-1.13-15.33-5.87-51-25.52-51s-24.39,35.64-25.52,51a14.1,14.1,0,0,1-14,13,13.69,13.69,0,0,1-8-2.58c-11.69-8.29-23.32-27.62-31.91-53C41.91,154.65,34,122.2,34,79.75A54,54,0,0,1,88,26h80A54,54,0,0,1,222,79.75Zm-12,0A42,42,0,0,0,168,38H88A42,42,0,0,0,46,79.76c-.07,73.93,24.69,126,41.44,137.88a1.77,1.77,0,0,0,1.88.15,2,2,0,0,0,1.19-1.71C93.46,176,106.77,154,128,154s34.54,22,37.49,62.09a2,2,0,0,0,1.19,1.71,1.77,1.77,0,0,0,1.88-.15C185.31,205.74,210.07,153.69,210,79.76Z"/></svg>`,
     style: "light",
-    tags: ["tooth"],
+    tags: ["tooth", "dental", "dentist", "oral", "health", "medical", "care", "light", "outline", "hygiene", "molar"],
     category: "light"
   },
   {
@@ -66666,7 +66666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tooth Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M169.49,67.71,138.77,80l30.72,12.28A4,4,0,0,1,168,100a3.91,3.91,0,0,1-1.49-.29L128,84.31,89.49,99.71A3.91,3.91,0,0,1,88,100a4,4,0,0,1-1.49-7.72L117.23,80,86.51,67.71a4,4,0,0,1,3-7.43L128,75.69l38.51-15.41a4,4,0,0,1,3,7.43Zm50.51,12c.07,71.08-23.16,130.07-45.65,146.05a11.74,11.74,0,0,1-11.93,1,11.91,11.91,0,0,1-6.9-10C154.35,200.93,149.33,164,128,164s-26.35,36.94-27.52,52.82a12.11,12.11,0,0,1-12,11.19,11.77,11.77,0,0,1-6.83-2.2c-22.49-16-45.72-75-45.65-146A52,52,0,0,1,88,28h80A52,52,0,0,1,220,79.75Zm-8,0A44,44,0,0,0,168,36H88A44,44,0,0,0,44,79.76c-.07,67.58,21.9,125,42.29,139.51a3.77,3.77,0,0,0,3.89.33,4,4,0,0,0,2.32-3.37C95.36,177.39,108,156,128,156s32.64,21.4,35.5,60.24a4,4,0,0,0,2.32,3.37,3.77,3.77,0,0,0,3.89-.33C190.1,204.8,212.07,147.34,212,79.76Z"/></svg>`,
     style: "thin",
-    tags: ["tooth"],
+    tags: ["tooth", "dental", "dentist", "oral", "health", "medical", "care", "thin", "outline", "hygiene", "molar"],
     category: "thin"
   },
   {
@@ -66674,7 +66674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tooth Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M171,71.42,149.54,80,171,88.57A8,8,0,1,1,165,103.42L128,88.61,91,103.42A8,8,0,1,1,85,88.57L106.46,80,85,71.42A8,8,0,1,1,91,56.57l37,14.81,37-14.81A8,8,0,1,1,171,71.42Zm53,8.33c0,42.72-8,75.4-14.69,95.28-8.73,25.8-20.63,45.49-32.65,54a15.69,15.69,0,0,1-15.95,1.41,16.09,16.09,0,0,1-9.18-13.36C150.68,205.58,146.48,168,128,168s-22.68,37.59-23.53,49.11a16.09,16.09,0,0,1-16,14.9,15.67,15.67,0,0,1-9.13-2.95c-12-8.53-23.92-28.22-32.65-54C40,155.15,32,122.47,32,79.75A56,56,0,0,1,88,24h80A56,56,0,0,1,224,79.75Zm-16,0A40,40,0,0,0,168,40H88A40,40,0,0,0,48,79.76c0,40.55,7.51,71.4,13.85,90.14,11.05,32.66,23,43.37,26.61,46C91.57,174.67,105.59,152,128,152s36.45,22.71,39.49,63.94h0c3.6-2.59,15.57-13.26,26.66-46C200.49,151.16,208,120.31,208,79.76Z"/></svg>`,
     style: "regular",
-    tags: ["tooth"],
+    tags: ["tooth", "dental", "dentist", "oral", "health", "medical", "care", "regular", "outline", "hygiene", "molar"],
     category: "regular"
   },
   {
@@ -66682,7 +66682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tornado Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,44a12,12,0,0,1-12,12H60a12,12,0,0,1,0-24H220A12,12,0,0,1,232,44ZM176,88a12,12,0,0,0-12-12H44a12,12,0,0,0,0,24H164A12,12,0,0,0,176,88Zm0,44a12,12,0,0,0-12-12H76a12,12,0,0,0,0,24h88A12,12,0,0,0,176,132Zm-4,32H132a12,12,0,0,0,0,24h40a12,12,0,0,0,0-24Zm-32,44H124a12,12,0,0,0,0,24h16a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["tornado"],
+    tags: ["tornado", "storm", "weather", "wind", "disaster", "cyclone", "vortex", "bold", "filled", "danger", "climate"],
     category: "bold"
   },
   {
@@ -66690,7 +66690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tornado Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40V216a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V40A16,16,0,0,1,56,24H200A16,16,0,0,1,216,40Z" opacity="0.2"/><path d="M232,40a8,8,0,0,1-8,8H56a8,8,0,0,1,0-16H224A8,8,0,0,1,232,40ZM184,72a8,8,0,0,0-8-8H32a8,8,0,0,0,0,16H176A8,8,0,0,0,184,72Zm-16,32a8,8,0,0,0-8-8H56a8,8,0,0,0,0,16H160A8,8,0,0,0,168,104Zm16,32a8,8,0,0,0-8-8H88a8,8,0,0,0,0,16h88A8,8,0,0,0,184,136Zm0,24H120a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm-24,32H128a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Zm-32,32H112a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["tornado"],
+    tags: ["tornado", "storm", "weather", "wind", "disaster", "cyclone", "vortex", "duotone", "layered", "danger", "climate"],
     category: "duotone"
   },
   {
@@ -66698,7 +66698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tornado Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,228a12,12,0,0,1-12,12H116a12,12,0,0,1,0-24h16A12,12,0,0,1,144,228ZM220,32H60a12,12,0,0,0,0,24,12,12,0,0,1,0,24H44a12,12,0,0,0,0,24H76a12,12,0,0,1,0,24,12,12,0,0,0,0,24h48a12,12,0,0,1,0,24,12,12,0,0,0,0,24h48a12,12,0,0,0,0-24,12,12,0,0,1,0-24h16a12,12,0,0,0,0-24H164a12,12,0,0,1,0-24,12,12,0,0,0,0-24,12,12,0,0,1,0-24h56a12,12,0,0,0,0-24Z"/></svg>`,
     style: "fill",
-    tags: ["tornado"],
+    tags: ["tornado", "storm", "weather", "wind", "disaster", "cyclone", "vortex", "filled", "solid", "danger", "climate"],
     category: "fill"
   },
   {
@@ -66706,7 +66706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tornado Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M230,40a6,6,0,0,1-6,6H56a6,6,0,0,1,0-12H224A6,6,0,0,1,230,40ZM182,72a6,6,0,0,0-6-6H32a6,6,0,0,0,0,12H176A6,6,0,0,0,182,72Zm-16,32a6,6,0,0,0-6-6H56a6,6,0,0,0,0,12H160A6,6,0,0,0,166,104Zm16,32a6,6,0,0,0-6-6H88a6,6,0,0,0,0,12h88A6,6,0,0,0,182,136Zm2,26H120a6,6,0,0,0,0,12h64a6,6,0,0,0,0-12Zm-24,32H128a6,6,0,0,0,0,12h32a6,6,0,0,0,0-12Zm-32,32H112a6,6,0,0,0,0,12h16a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["tornado"],
+    tags: ["tornado", "storm", "weather", "wind", "disaster", "cyclone", "vortex", "light", "outline", "danger", "climate"],
     category: "light"
   },
   {
@@ -66714,7 +66714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tornado Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,40a4,4,0,0,1-4,4H56a4,4,0,0,1,0-8H224A4,4,0,0,1,228,40ZM180,72a4,4,0,0,0-4-4H32a4,4,0,0,0,0,8H176A4,4,0,0,0,180,72Zm-16,32a4,4,0,0,0-4-4H56a4,4,0,0,0,0,8H160A4,4,0,0,0,164,104Zm16,32a4,4,0,0,0-4-4H88a4,4,0,0,0,0,8h88A4,4,0,0,0,180,136Zm4,28H120a4,4,0,0,0,0,8h64a4,4,0,0,0,0-8Zm-24,32H128a4,4,0,0,0,0,8h32a4,4,0,0,0,0-8Zm-32,32H112a4,4,0,0,0,0,8h16a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["tornado"],
+    tags: ["tornado", "storm", "weather", "wind", "disaster", "cyclone", "vortex", "thin", "outline", "danger", "climate"],
     category: "thin"
   },
   {
@@ -66722,7 +66722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tornado Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,40a8,8,0,0,1-8,8H56a8,8,0,0,1,0-16H224A8,8,0,0,1,232,40ZM184,72a8,8,0,0,0-8-8H32a8,8,0,0,0,0,16H176A8,8,0,0,0,184,72Zm-16,32a8,8,0,0,0-8-8H56a8,8,0,0,0,0,16H160A8,8,0,0,0,168,104Zm16,32a8,8,0,0,0-8-8H88a8,8,0,0,0,0,16h88A8,8,0,0,0,184,136Zm0,24H120a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm-24,32H128a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Zm-32,32H112a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["tornado"],
+    tags: ["tornado", "storm", "weather", "wind", "disaster", "cyclone", "vortex", "regular", "outline", "danger", "climate"],
     category: "regular"
   },
   {
@@ -66730,7 +66730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M239,66.75a20.12,20.12,0,0,0-15-6.75H179.83A52,52,0,0,0,76.17,60H32.08A20,20,0,0,0,12.14,82.35l14.25,120A20.06,20.06,0,0,0,46.33,220H209.67a20.06,20.06,0,0,0,19.94-17.65l14.25-120A20,20,0,0,0,239,66.75ZM128,36a28,28,0,0,1,27.71,24H100.29A28,28,0,0,1,128,36Zm78.19,160H49.81L36.5,84H76v20a12,12,0,0,0,24,0V84h56v20a12,12,0,0,0,24,0V84h39.5Z"/></svg>`,
     style: "bold",
-    tags: ["tote"],
+    tags: ["tote", "bag", "shopping", "carry", "purse", "fashion", "commerce", "bold", "filled", "container", "accessory"],
     category: "bold"
   },
   {
@@ -66738,7 +66738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M231.94,80.93l-14.25,120a8.06,8.06,0,0,1-8,7.07H46.33a8.06,8.06,0,0,1-8-7.07l-14.25-120a8,8,0,0,1,8-8.93H223.92A8,8,0,0,1,231.94,80.93Z" opacity="0.2"/><path d="M236,69.4A16.13,16.13,0,0,0,223.92,64H176a48,48,0,0,0-96,0H32.08a16.13,16.13,0,0,0-12,5.4,16,16,0,0,0-3.92,12.48l14.26,120a16,16,0,0,0,16,14.12H209.67a16,16,0,0,0,16-14.12l14.26-120A16,16,0,0,0,236,69.4ZM128,32a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm81.76,168a.13.13,0,0,1-.09,0H46.25L32.08,80H80v24a8,8,0,0,0,16,0V80h64v24a8,8,0,0,0,16,0V80h48Z"/></svg>`,
     style: "duotone",
-    tags: ["tote"],
+    tags: ["tote", "bag", "shopping", "carry", "purse", "fashion", "commerce", "duotone", "layered", "container", "accessory"],
     category: "duotone"
   },
   {
@@ -66746,7 +66746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,69.4A16.13,16.13,0,0,0,223.92,64H176a48,48,0,0,0-96,0H32.08a16.13,16.13,0,0,0-12,5.4,16,16,0,0,0-3.92,12.48l14.26,120a16,16,0,0,0,16,14.12H209.67a16,16,0,0,0,16-14.12l14.26-120A16,16,0,0,0,236,69.4ZM96,104a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Zm32-72a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm48,72a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"/></svg>`,
     style: "fill",
-    tags: ["tote"],
+    tags: ["tote", "bag", "shopping", "carry", "purse", "fashion", "commerce", "filled", "solid", "container", "accessory"],
     category: "fill"
   },
   {
@@ -66754,7 +66754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234.47,70.73A14.09,14.09,0,0,0,223.92,66H174V64a46,46,0,0,0-92,0v2H32.08a14,14,0,0,0-14,15.64l14.25,120a14.06,14.06,0,0,0,14,12.36H209.67a14.06,14.06,0,0,0,14-12.36l14.25-120A14,14,0,0,0,234.47,70.73ZM94,64a34,34,0,0,1,68,0v2H94ZM211.73,200.23a2,2,0,0,1-2.06,1.77H46.33a2,2,0,0,1-2.06-1.77L30,80.23a1.92,1.92,0,0,1,.49-1.53,2.07,2.07,0,0,1,1.58-.7H82v26a6,6,0,0,0,12,0V78h68v26a6,6,0,0,0,12,0V78h49.92a2.07,2.07,0,0,1,1.58.7,1.92,1.92,0,0,1,.49,1.53Z"/></svg>`,
     style: "light",
-    tags: ["tote"],
+    tags: ["tote", "bag", "shopping", "carry", "purse", "fashion", "commerce", "light", "outline", "container", "accessory"],
     category: "light"
   },
   {
@@ -66762,7 +66762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Simple Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M239,66.75a20.12,20.12,0,0,0-15-6.75H179.83A52,52,0,0,0,76.17,60H32.08A20,20,0,0,0,12.14,82.35l14.25,120A20.06,20.06,0,0,0,46.33,220H209.67a20.06,20.06,0,0,0,19.94-17.65l14.25-120A20,20,0,0,0,239,66.75ZM128,36a28,28,0,0,1,27.71,24H100.29A28,28,0,0,1,128,36Zm78.19,160H49.81L36.5,84h183Z"/></svg>`,
     style: "bold",
-    tags: ["tote", "simple"],
+    tags: ["tote", "simple", "bag", "shopping", "carry", "purse", "fashion", "commerce", "bold", "filled", "container", "accessory", "minimal"],
     category: "bold"
   },
   {
@@ -66770,7 +66770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Simple Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M231.94,80.93l-14.25,120a8.06,8.06,0,0,1-8,7.07H46.33a8.06,8.06,0,0,1-8-7.07l-14.25-120a8,8,0,0,1,8-8.93H223.92A8,8,0,0,1,231.94,80.93Z" opacity="0.2"/><path d="M236,69.4A16.13,16.13,0,0,0,223.92,64H176a48,48,0,0,0-96,0H32.08a16.13,16.13,0,0,0-12,5.4,16,16,0,0,0-3.92,12.48l14.26,120a16,16,0,0,0,16,14.12H209.67a16,16,0,0,0,16-14.12l14.26-120A16,16,0,0,0,236,69.4ZM128,32a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm81.76,168a.13.13,0,0,1-.09,0H46.25L32.08,80H224Z"/></svg>`,
     style: "duotone",
-    tags: ["tote", "simple"],
+    tags: ["tote", "simple", "bag", "shopping", "carry", "purse", "fashion", "commerce", "duotone", "layered", "container", "accessory", "minimal"],
     category: "duotone"
   },
   {
@@ -66778,7 +66778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Simple Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,69.4A16.13,16.13,0,0,0,223.92,64H176a48,48,0,0,0-96,0H32.08a16.13,16.13,0,0,0-12,5.4,16,16,0,0,0-3.92,12.48l14.26,120a16,16,0,0,0,16,14.12H209.67a16,16,0,0,0,16-14.12l14.26-120A16,16,0,0,0,236,69.4ZM128,32a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Z"/></svg>`,
     style: "fill",
-    tags: ["tote", "simple"],
+    tags: ["tote", "simple", "bag", "shopping", "carry", "purse", "fashion", "commerce", "filled", "solid", "container", "accessory", "minimal"],
     category: "fill"
   },
   {
@@ -66786,7 +66786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Simple Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234.47,70.73A14.09,14.09,0,0,0,223.92,66H174V64a46,46,0,0,0-92,0v2H32.08a14,14,0,0,0-14,15.64l14.25,120a14.06,14.06,0,0,0,14,12.36H209.67a14.06,14.06,0,0,0,14-12.36l14.25-120A14,14,0,0,0,234.47,70.73ZM94,64a34,34,0,0,1,68,0v2H94ZM211.73,200.23a2,2,0,0,1-2.06,1.77H46.33a2,2,0,0,1-2.06-1.77L30,80.23a1.92,1.92,0,0,1,.49-1.53,2.07,2.07,0,0,1,1.58-.7H223.92a2.07,2.07,0,0,1,1.58.7,1.92,1.92,0,0,1,.49,1.53Z"/></svg>`,
     style: "light",
-    tags: ["tote", "simple"],
+    tags: ["tote", "simple", "bag", "shopping", "carry", "purse", "fashion", "commerce", "light", "outline", "container", "accessory", "minimal"],
     category: "light"
   },
   {
@@ -66794,7 +66794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Simple Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M233,72.06A12.11,12.11,0,0,0,223.92,68H172V64a44,44,0,0,0-88,0v4H32.08A12.11,12.11,0,0,0,23,72.06a12,12,0,0,0-2.94,9.35l14.26,120a12,12,0,0,0,12,10.59H209.67a12,12,0,0,0,12-10.59l14.26-120A12,12,0,0,0,233,72.06ZM92,64a36,36,0,0,1,72,0v4H92ZM228,80.46l-14.25,120a4,4,0,0,1-4.05,3.54H46.33a4,4,0,0,1-4-3.54L28,80.46a3.9,3.9,0,0,1,1-3.09A4.08,4.08,0,0,1,32.08,76H223.92A4.08,4.08,0,0,1,227,77.37,3.9,3.9,0,0,1,228,80.46Z"/></svg>`,
     style: "thin",
-    tags: ["tote", "simple"],
+    tags: ["tote", "simple", "bag", "shopping", "carry", "purse", "fashion", "commerce", "thin", "outline", "container", "accessory", "minimal"],
     category: "thin"
   },
   {
@@ -66802,7 +66802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Simple Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,69.4A16.13,16.13,0,0,0,223.92,64H176a48,48,0,0,0-96,0H32.08a16.13,16.13,0,0,0-12,5.4,16,16,0,0,0-3.92,12.48l14.26,120a16,16,0,0,0,16,14.12H209.67a16,16,0,0,0,16-14.12l14.26-120A16,16,0,0,0,236,69.4ZM128,32a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm81.76,168a.13.13,0,0,1-.09,0H46.25L32.08,80H224Z"/></svg>`,
     style: "regular",
-    tags: ["tote", "simple"],
+    tags: ["tote", "simple", "bag", "shopping", "carry", "purse", "fashion", "commerce", "regular", "outline", "container", "accessory", "minimal"],
     category: "regular"
   },
   {
@@ -66810,7 +66810,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M233,72.06A12.11,12.11,0,0,0,223.92,68H172V64a44,44,0,0,0-88,0v4H32.08A12.11,12.11,0,0,0,23,72.06a12,12,0,0,0-2.94,9.35l14.26,120a12,12,0,0,0,12,10.59H209.67a12,12,0,0,0,12-10.59l14.26-120A12,12,0,0,0,233,72.06ZM92,64a36,36,0,0,1,72,0v4H92ZM228,80.46l-14.25,120a4,4,0,0,1-4.05,3.54H46.33a4,4,0,0,1-4-3.54L28,80.46a3.9,3.9,0,0,1,1-3.09A4.08,4.08,0,0,1,32.08,76H84v28a4,4,0,0,0,8,0V76h72v28a4,4,0,0,0,8,0V76h51.92A4.08,4.08,0,0,1,227,77.37,3.9,3.9,0,0,1,228,80.46Z"/></svg>`,
     style: "thin",
-    tags: ["tote"],
+    tags: ["tote", "bag", "shopping", "carry", "container", "thin", "outline", "commerce", "fashion"],
     category: "thin"
   },
   {
@@ -66818,7 +66818,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tote Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,69.4A16.13,16.13,0,0,0,223.92,64H176a48,48,0,0,0-96,0H32.08a16.13,16.13,0,0,0-12,5.4,16,16,0,0,0-3.92,12.48l14.26,120a16,16,0,0,0,16,14.12H209.67a16,16,0,0,0,16-14.12l14.26-120A16,16,0,0,0,236,69.4ZM128,32a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm81.76,168a.13.13,0,0,1-.09,0H46.25L32.08,80H80v24a8,8,0,0,0,16,0V80h64v24a8,8,0,0,0,16,0V80h48Z"/></svg>`,
     style: "regular",
-    tags: ["tote"],
+    tags: ["tote", "bag", "shopping", "carry", "container", "regular", "outline", "commerce", "fashion"],
     category: "regular"
   },
   {
@@ -66826,7 +66826,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Towel Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M197.16,20c-.47,0-.93,0-1.39,0H72A28,28,0,0,0,44,48V216a20,20,0,0,0,20,20H168a20,20,0,0,0,20-20V52A8,8,0,0,1,196,44h.35a8.33,8.33,0,0,1,7.7,8.48V148a12,12,0,0,0,24,0V52.48A32.13,32.13,0,0,0,197.16,20ZM72,44h93a32.24,32.24,0,0,0-1,8V172H68V48A4,4,0,0,1,72,44ZM68,212V196h96v16Z"/></svg>`,
     style: "bold",
-    tags: ["towel"],
+    tags: ["towel", "bath", "spa", "clean", "hygiene", "fabric", "bold", "thick", "bathroom"],
     category: "bold"
   },
   {
@@ -66834,7 +66834,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Towel Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,192v24a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V192Z" opacity="0.2"/><path d="M200,24H72A24,24,0,0,0,48,48V216a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V48a8,8,0,0,1,16,0V152a8,8,0,0,0,16,0V48A24,24,0,0,0,200,24ZM72,40H177.37A23.84,23.84,0,0,0,176,48V184H64V48A8,8,0,0,1,72,40ZM64,216V200H176v16Z"/></svg>`,
     style: "duotone",
-    tags: ["towel"],
+    tags: ["towel", "bath", "spa", "clean", "hygiene", "fabric", "duotone", "shaded", "bathroom"],
     category: "duotone"
   },
   {
@@ -66842,7 +66842,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Towel Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48V152a8,8,0,0,1-8.53,8,8.17,8.17,0,0,1-7.47-8.25V48a8,8,0,0,0-8.55-8A8.19,8.19,0,0,0,192,48.28V180a4,4,0,0,1-4,4H52a4,4,0,0,1-4-4V48A24,24,0,0,1,72,24H200A24,24,0,0,1,224,48ZM188,200H52a4,4,0,0,0-4,4v12a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V204A4,4,0,0,0,188,200Z"/></svg>`,
     style: "fill",
-    tags: ["towel"],
+    tags: ["towel", "bath", "spa", "clean", "hygiene", "fabric", "filled", "solid", "bathroom"],
     category: "fill"
   },
   {
@@ -66850,7 +66850,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Towel Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,26H72A22,22,0,0,0,50,48V216a14,14,0,0,0,14,14H176a14,14,0,0,0,14-14V48a10,10,0,0,1,20,0V152a6,6,0,0,0,12,0V48A22,22,0,0,0,200,26ZM72,38H180.41A21.84,21.84,0,0,0,178,48V186H62V48A10,10,0,0,1,72,38ZM176,218H64a2,2,0,0,1-2-2V198H178v18A2,2,0,0,1,176,218Z"/></svg>`,
     style: "light",
-    tags: ["towel"],
+    tags: ["towel", "bath", "spa", "clean", "hygiene", "fabric", "light", "outline", "bathroom"],
     category: "light"
   },
   {
@@ -66858,7 +66858,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Towel Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,28H72A20,20,0,0,0,52,48V216a12,12,0,0,0,12,12H176a12,12,0,0,0,12-12V48a12,12,0,0,1,24,0V152a4,4,0,0,0,8,0V48A20,20,0,0,0,200,28ZM72,36H184a19.86,19.86,0,0,0-4,12V188H60V48A12,12,0,0,1,72,36ZM176,220H64a4,4,0,0,1-4-4V196H180v20A4,4,0,0,1,176,220Z"/></svg>`,
     style: "thin",
-    tags: ["towel"],
+    tags: ["towel", "bath", "spa", "clean", "hygiene", "fabric", "thin", "outline", "bathroom"],
     category: "thin"
   },
   {
@@ -66866,7 +66866,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Towel Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,24H72A24,24,0,0,0,48,48V216a16,16,0,0,0,16,16H176a16,16,0,0,0,16-16V48a8,8,0,0,1,16,0V152a8,8,0,0,0,16,0V48A24,24,0,0,0,200,24ZM72,40H177.37A23.84,23.84,0,0,0,176,48V184H64V48A8,8,0,0,1,72,40ZM64,216V200H176v16Z"/></svg>`,
     style: "regular",
-    tags: ["towel"],
+    tags: ["towel", "bath", "spa", "clean", "hygiene", "fabric", "regular", "outline", "bathroom"],
     category: "regular"
   },
   {
@@ -66874,7 +66874,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tractor Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,164V134a19.87,19.87,0,0,0-14.25-19.15l-.31-.09L196,105.65V76a12,12,0,0,0-24,0V99.15l-16-4.33V60h4a12,12,0,0,0,0-24H40a12,12,0,0,0,0,24h4V84H40a12,12,0,0,0,0,24H68a64.07,64.07,0,0,1,64,64v12a12,12,0,0,0,12,12h28.8A40,40,0,1,0,244,164ZM132,111.67A87.75,87.75,0,0,0,68,84V60h64ZM175.35,172H156V119.68L220,137V148.8a40.57,40.57,0,0,0-8-.8A40.06,40.06,0,0,0,175.35,172ZM212,204a16,16,0,1,1,16-16A16,16,0,0,1,212,204ZM64,124a52,52,0,1,0,52,52A52.06,52.06,0,0,0,64,124Zm0,80a28,28,0,1,1,28-28A28,28,0,0,1,64,204Zm16-28a16,16,0,1,1-16-16A16,16,0,0,1,80,176Z"/></svg>`,
     style: "bold",
-    tags: ["tractor"],
+    tags: ["tractor", "farm", "agriculture", "vehicle", "machinery", "rural", "bold", "thick", "harvest"],
     category: "bold"
   },
   {
@@ -66882,7 +66882,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tractor Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,188a28,28,0,1,1-28-28A28,28,0,0,1,240,188ZM68,128a44,44,0,1,0,44,44A44,44,0,0,0,68,128Z" opacity="0.2"/><path d="M240,165.41V134a15.89,15.89,0,0,0-11.4-15.32l-.21-.06L192,108.71V72a8,8,0,0,0-16,0v32.38l-24-6.5V56h8a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16h8V88H40a8,8,0,0,0,0,16H68a68.07,68.07,0,0,1,68,68v12a8,8,0,0,0,8,8h32.23A36,36,0,1,0,240,165.41ZM68,88H64V56h72v66.77A83.92,83.92,0,0,0,68,88Zm84,26.45L224,134v20.1A36,36,0,0,0,178.06,176H152ZM212,208a20,20,0,1,1,20-20A20,20,0,0,1,212,208ZM68,120a52,52,0,1,0,52,52A52.06,52.06,0,0,0,68,120Zm0,88a36,36,0,1,1,36-36A36,36,0,0,1,68,208Zm12-36a12,12,0,1,1-12-12A12,12,0,0,1,80,172Z"/></svg>`,
     style: "duotone",
-    tags: ["tractor"],
+    tags: ["tractor", "farm", "agriculture", "vehicle", "machinery", "rural", "duotone", "shaded", "harvest"],
     category: "duotone"
   },
   {
@@ -66890,7 +66890,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tractor Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M80,172a12,12,0,1,1-12-12A12,12,0,0,1,80,172Zm40,0a52,52,0,1,1-52-52A52.06,52.06,0,0,1,120,172Zm-24,0a28,28,0,1,0-28,28A28,28,0,0,0,96,172Zm152,16a36,36,0,0,1-71.77,4H144a8,8,0,0,1-8-8V172a68.07,68.07,0,0,0-68-68H40a8,8,0,0,1,0-16h8V56H40a8,8,0,0,1,0-16H160a8,8,0,0,1,0,16h-8V97.88l24,6.5V72a8,8,0,0,1,16,0v36.71l36.39,9.86.21.06A15.89,15.89,0,0,1,240,134v31.46A35.8,35.8,0,0,1,248,188Zm-20,0a16,16,0,1,0-16,16A16,16,0,0,0,228,188Z"/></svg>`,
     style: "fill",
-    tags: ["tractor"],
+    tags: ["tractor", "farm", "agriculture", "vehicle", "machinery", "rural", "filled", "solid", "harvest"],
     category: "fill"
   },
   {
@@ -66898,7 +66898,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tractor Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238,166.12V134a13.91,13.91,0,0,0-10-13.41l-.15,0L190,110.24V72a6,6,0,0,0-12,0v35l-28-7.58V54h10a6,6,0,0,0,0-12H40a6,6,0,0,0,0,12H50V90H40a6,6,0,0,0,0,12H68a70.08,70.08,0,0,1,70,70v12a6,6,0,0,0,6,6h34.06A34,34,0,1,0,238,166.12ZM68,90H62V54h76v75.34A82,82,0,0,0,68,90Zm82,82V111.84l74.63,20.21A2,2,0,0,1,226,134V157a34,34,0,0,0-46.5,21H150Zm62,38a22,22,0,1,1,22-22A22,22,0,0,1,212,210ZM68,122a50,50,0,1,0,50,50A50.06,50.06,0,0,0,68,122Zm0,88a38,38,0,1,1,38-38A38,38,0,0,1,68,210Zm10-38a10,10,0,1,1-10-10A10,10,0,0,1,78,172Z"/></svg>`,
     style: "light",
-    tags: ["tractor"],
+    tags: ["tractor", "farm", "agriculture", "vehicle", "machinery", "rural", "light", "outline", "harvest"],
     category: "light"
   },
   {
@@ -66906,7 +66906,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tractor Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,166.87V134a11.92,11.92,0,0,0-8.55-11.49l-.11,0L188,111.77V72a4,4,0,0,0-8,0v37.61l-32-8.67V52h12a4,4,0,0,0,0-8H40a4,4,0,0,0,0,8H52V92H40a4,4,0,0,0,0,8H68a72.08,72.08,0,0,1,72,72v12a4,4,0,0,0,4,4h36a32,32,0,1,0,56-21.13ZM68,92H60V52h80v85.15A80.1,80.1,0,0,0,68,92Zm80,88V109.23l77.19,20.9A4,4,0,0,1,228,134v26.36A31.71,31.71,0,0,0,212,156a32.06,32.06,0,0,0-31,24Zm64,32a24,24,0,1,1,24-24A24,24,0,0,1,212,212ZM68,124a48,48,0,1,0,48,48A48.05,48.05,0,0,0,68,124Zm0,88a40,40,0,1,1,40-40A40,40,0,0,1,68,212Zm8-40a8,8,0,1,1-8-8A8,8,0,0,1,76,172Z"/></svg>`,
     style: "thin",
-    tags: ["tractor"],
+    tags: ["tractor", "farm", "agriculture", "vehicle", "machinery", "rural", "thin", "outline", "harvest"],
     category: "thin"
   },
   {
@@ -66914,7 +66914,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tractor Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,165.41V134a15.89,15.89,0,0,0-11.4-15.32l-.21-.06L192,108.71V72a8,8,0,0,0-16,0v32.38l-24-6.5V56h8a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16h8V88H40a8,8,0,0,0,0,16H68a68.07,68.07,0,0,1,68,68v12a8,8,0,0,0,8,8h32.23A36,36,0,1,0,240,165.41ZM68,88H64V56h72v66.77A83.92,83.92,0,0,0,68,88Zm84,26.45L224,134v20.1A36,36,0,0,0,178.06,176H152ZM212,208a20,20,0,1,1,20-20A20,20,0,0,1,212,208ZM68,120a52,52,0,1,0,52,52A52.06,52.06,0,0,0,68,120Zm0,88a36,36,0,1,1,36-36A36,36,0,0,1,68,208Zm12-36a12,12,0,1,1-12-12A12,12,0,0,1,80,172Z"/></svg>`,
     style: "regular",
-    tags: ["tractor"],
+    tags: ["tractor", "farm", "agriculture", "vehicle", "machinery", "rural", "regular", "outline", "harvest"],
     category: "regular"
   },
   {
@@ -66922,7 +66922,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm64-104v40a12,12,0,0,1-24,0V134.09l-8.19,7a12,12,0,0,1-15.62,0l-8.19-7V148a12,12,0,0,1-24,0V120H100v28a12,12,0,0,1-24,0V120H72a12,12,0,0,1,0-24h52a12,12,0,0,1,7.81,2.89L152,116.2l20.19-17.31A12,12,0,0,1,192,108Z"/></svg>`,
     style: "bold",
-    tags: ["trademark"],
+    tags: ["trademark", "brand", "copyright", "intellectual property", "legal", "identity", "bold", "thick", "commerce"],
     category: "bold"
   },
   {
@@ -66930,7 +66930,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"/><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM112,104a8,8,0,0,1-8,8H96v40a8,8,0,0,1-16,0V112H72a8,8,0,0,1,0-16h32A8,8,0,0,1,112,104Zm80,0v48a8,8,0,0,1-16,0V125.29l-14,16a8,8,0,0,1-12,0l-14-16V152a8,8,0,0,1-16,0V104a8,8,0,0,1,14-5.27l22,25.12,22-25.12A8,8,0,0,1,192,104Z"/></svg>`,
     style: "duotone",
-    tags: ["trademark"],
+    tags: ["trademark", "brand", "copyright", "intellectual property", "legal", "identity", "duotone", "shaded", "commerce"],
     category: "duotone"
   },
   {
@@ -66938,7 +66938,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-24,88H96v40a8,8,0,0,1-16,0V112H72a8,8,0,0,1,0-16h32a8,8,0,0,1,0,16Zm88,40a8,8,0,0,1-16,0V125.29l-14,16a8,8,0,0,1-12,0l-14-16V152a8,8,0,0,1-16,0V104a8,8,0,0,1,14-5.27l22,25.12,22-25.12A8,8,0,0,1,192,104Z"/></svg>`,
     style: "fill",
-    tags: ["trademark"],
+    tags: ["trademark", "brand", "copyright", "intellectual property", "legal", "identity", "filled", "solid", "commerce"],
     category: "fill"
   },
   {
@@ -66946,7 +66946,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm0,192a90,90,0,1,1,90-90A90.1,90.1,0,0,1,128,218ZM110,104a6,6,0,0,1-6,6H94v42a6,6,0,0,1-12,0V110H72a6,6,0,0,1,0-12h32A6,6,0,0,1,110,104Zm80,0v48a6,6,0,0,1-12,0V120l-17.48,20a6,6,0,0,1-9,0L134,120v32a6,6,0,0,1-12,0V104a6,6,0,0,1,10.52-4L156,126.89l23.48-26.84A6,6,0,0,1,190,104Z"/></svg>`,
     style: "light",
-    tags: ["trademark"],
+    tags: ["trademark", "brand", "copyright", "intellectual property", "legal", "identity", "light", "outline", "commerce"],
     category: "light"
   },
   {
@@ -66954,7 +66954,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Registered Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm28.7-70.58A36,36,0,0,0,136,76H104A12,12,0,0,0,92,88v80a12,12,0,0,0,24,0V148h16.24L150,174.66a12,12,0,0,0,20-13.32ZM116,100h20a12,12,0,0,1,0,24H116Z"/></svg>`,
     style: "bold",
-    tags: ["trademark", "registered"],
+    tags: ["trademark", "registered", "brand", "copyright", "intellectual property", "legal", "identity", "bold", "thick", "commerce", "r symbol"],
     category: "bold"
   },
   {
@@ -66962,7 +66962,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Registered Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"/><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm23.09-75.79A32,32,0,0,0,136,80H104a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V144h22.39l19,28.44a8,8,0,0,0,13.32-8.88ZM112,96h24a16,16,0,0,1,0,32H112Z"/></svg>`,
     style: "duotone",
-    tags: ["trademark", "registered"],
+    tags: ["trademark", "registered", "brand", "copyright", "intellectual property", "legal", "identity", "duotone", "shaded", "commerce", "r symbol"],
     category: "duotone"
   },
   {
@@ -66970,7 +66970,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Registered Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,112a16,16,0,0,1-16,16H112V96h24A16,16,0,0,1,152,112Zm80,16A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Zm-16,0a72,72,0,1,1-72-72A72.08,72.08,0,0,1,200,128Zm-33.34,35.56-15.57-23.35A32,32,0,0,0,136,80H104a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V144h22.39l19,28.44a8,8,0,0,0,13.32-8.88Z"/></svg>`,
     style: "fill",
-    tags: ["trademark", "registered"],
+    tags: ["trademark", "registered", "brand", "copyright", "intellectual property", "legal", "identity", "filled", "solid", "commerce", "r symbol"],
     category: "fill"
   },
   {
@@ -66978,7 +66978,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Registered Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm0,192a90,90,0,1,1,90-90A90.1,90.1,0,0,1,128,218Zm20.16-78.58A30,30,0,0,0,136,82H104a6,6,0,0,0-6,6v80a6,6,0,0,0,12,0V142h25.46L155,171.33a6,6,0,1,0,10-6.66ZM110,94h26a18,18,0,0,1,0,36H110Z"/></svg>`,
     style: "light",
-    tags: ["trademark", "registered"],
+    tags: ["trademark", "registered", "brand", "copyright", "intellectual property", "legal", "identity", "light", "outline", "commerce", "r symbol"],
     category: "light"
   },
   {
@@ -66986,7 +66986,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Registered Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm0,192a92,92,0,1,1,92-92A92.1,92.1,0,0,1,128,220Zm17.12-81.53A28,28,0,0,0,136,84H104a4,4,0,0,0-4,4v80a4,4,0,0,0,8,0V140h28.52l20.15,30.23a4,4,0,0,0,6.66-4.44ZM108,92h28a20,20,0,0,1,0,40H108Z"/></svg>`,
     style: "thin",
-    tags: ["trademark", "registered"],
+    tags: ["trademark", "registered", "brand", "copyright", "intellectual property", "legal", "identity", "thin", "outline", "commerce", "r symbol"],
     category: "thin"
   },
   {
@@ -66994,7 +66994,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Registered Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm23.09-75.79A32,32,0,0,0,136,80H104a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V144h22.39l19,28.44a8,8,0,0,0,13.32-8.88ZM112,96h24a16,16,0,0,1,0,32H112Z"/></svg>`,
     style: "regular",
-    tags: ["trademark", "registered"],
+    tags: ["trademark", "registered", "brand", "copyright", "intellectual property", "legal", "identity", "regular", "outline", "commerce", "r symbol"],
     category: "regular"
   },
   {
@@ -67002,7 +67002,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm0,192a92,92,0,1,1,92-92A92.1,92.1,0,0,1,128,220ZM108,104a4,4,0,0,1-4,4H92v44a4,4,0,0,1-8,0V108H72a4,4,0,0,1,0-8h32A4,4,0,0,1,108,104Zm80,0v48a4,4,0,0,1-8,0V114.65l-21,24a4,4,0,0,1-6,0l-21-24V152a4,4,0,0,1-8,0V104a4,4,0,0,1,7-2.63l25,28.56,25-28.56a4,4,0,0,1,7,2.63Z"/></svg>`,
     style: "thin",
-    tags: ["trademark"],
+    tags: ["trademark", "brand", "copyright", "intellectual property", "legal", "identity", "thin", "outline", "commerce"],
     category: "thin"
   },
   {
@@ -67010,7 +67010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trademark Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM112,104a8,8,0,0,1-8,8H96v40a8,8,0,0,1-16,0V112H72a8,8,0,0,1,0-16h32A8,8,0,0,1,112,104Zm80,0v48a8,8,0,0,1-16,0V125.29l-14,16a8,8,0,0,1-12,0l-14-16V152a8,8,0,0,1-16,0V104a8,8,0,0,1,14-5.27l22,25.12,22-25.12A8,8,0,0,1,192,104Z"/></svg>`,
     style: "regular",
-    tags: ["trademark"],
+    tags: ["trademark", "brand", "copyright", "registered", "intellectual property", "legal", "identity", "mark", "ownership", "business"],
     category: "regular"
   },
   {
@@ -67018,7 +67018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Cone Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,204H216.53L157.2,33.43A20,20,0,0,0,138.31,20H117.69A20,20,0,0,0,98.8,33.43L39.47,204H24a12,12,0,0,0,0,24H232a12,12,0,0,0,0-24ZM98.27,108h59.46l13.91,40H84.36Zm22.26-64h14.94l13.91,40H106.62ZM76,172H180l11.13,32H64.88Z"/></svg>`,
     style: "bold",
-    tags: ["traffic", "cone"],
+    tags: ["traffic", "cone", "construction", "roadwork", "warning", "hazard", "safety", "barrier", "pylon", "bold", "alert"],
     category: "bold"
   },
   {
@@ -67026,7 +67026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Cone Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M188.52,160h-121L89.74,96h76.52Z" opacity="0.2"/><path d="M232,208H213.69L153.42,34.75A16,16,0,0,0,138.31,24H117.69a16,16,0,0,0-15.11,10.74L42.31,208H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM117.69,40h20.62L155,88H101ZM95.43,104h65.14l16.7,48H78.73ZM59.25,208l13.92-40H182.83l13.92,40Z"/></svg>`,
     style: "duotone",
-    tags: ["traffic", "cone"],
+    tags: ["traffic", "cone", "construction", "roadwork", "warning", "hazard", "safety", "barrier", "pylon", "duotone", "alert"],
     category: "duotone"
   },
   {
@@ -67034,7 +67034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Cone Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,208H213.69L153.42,34.75A16,16,0,0,0,138.31,24H117.69a16,16,0,0,0-15.11,10.74L42.31,208H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM95.43,104h65.14l16.7,48H78.73Z"/></svg>`,
     style: "fill",
-    tags: ["traffic", "cone"],
+    tags: ["traffic", "cone", "construction", "roadwork", "warning", "hazard", "safety", "barrier", "pylon", "filled", "alert"],
     category: "fill"
   },
   {
@@ -67042,7 +67042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Cone Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,210H212.27L151.54,35.4A14,14,0,0,0,138.31,26H117.69a14,14,0,0,0-13.23,9.4L43.73,210H24a6,6,0,0,0,0,12H232a6,6,0,0,0,0-12ZM94,102h68l18.08,52H75.92Zm21.8-62.66A2,2,0,0,1,117.69,38h20.62a2,2,0,0,1,1.89,1.34L157.82,90H98.18ZM71.74,166H184.26l15.3,44H56.44Z"/></svg>`,
     style: "light",
-    tags: ["traffic", "cone"],
+    tags: ["traffic", "cone", "construction", "roadwork", "warning", "hazard", "safety", "barrier", "pylon", "light", "alert"],
     category: "light"
   },
   {
@@ -67050,7 +67050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Cone Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,212H210.84L149.65,36.06A12,12,0,0,0,138.31,28H117.69a12,12,0,0,0-11.34,8.06L45.16,212H24a4,4,0,0,0,0,8H232a4,4,0,0,0,0-8ZM92.58,100h70.84l19.47,56H73.11Zm21.33-61.31A4,4,0,0,1,117.69,36h20.62a4,4,0,0,1,3.78,2.69L160.63,92H95.37ZM70.32,164H185.68l16.69,48H53.63Z"/></svg>`,
     style: "thin",
-    tags: ["traffic", "cone"],
+    tags: ["traffic", "cone", "construction", "roadwork", "warning", "hazard", "safety", "barrier", "pylon", "thin", "alert"],
     category: "thin"
   },
   {
@@ -67058,7 +67058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Cone Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,208H213.69L153.42,34.75A16,16,0,0,0,138.31,24H117.69a16,16,0,0,0-15.11,10.74L42.31,208H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM95.43,104h65.14l16.7,48H78.73Zm22.26-64h20.62L155,88H101ZM73.17,168H182.83l13.92,40H59.25Z"/></svg>`,
     style: "regular",
-    tags: ["traffic", "cone"],
+    tags: ["traffic", "cone", "construction", "roadwork", "warning", "hazard", "safety", "barrier", "pylon", "regular", "alert"],
     category: "regular"
   },
   {
@@ -67066,7 +67066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Sign Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M246,113.46,142.54,10a20.57,20.57,0,0,0-29.08,0L10,113.46a20.57,20.57,0,0,0,0,29.08L113.46,246h0a20.57,20.57,0,0,0,29.08,0L246,142.54a20.57,20.57,0,0,0,0-29.08ZM128,226.57,29.43,128,128,29.43,226.57,128Zm7.51-122.08a12,12,0,0,1,17-17l24,24a12,12,0,0,1,0,17l-24,24a12,12,0,0,1-17-17L139,132H112a12,12,0,0,0-12,12v4a12,12,0,0,1-24,0v-4a36,36,0,0,1,36-36h27Z"/></svg>`,
     style: "bold",
-    tags: ["traffic", "sign"],
+    tags: ["traffic", "sign", "road", "direction", "information", "warning", "guidance", "street", "highway", "bold", "navigation"],
     category: "bold"
   },
   {
@@ -67074,7 +67074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Sign Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.49,134.05,134.05,237.49a8.54,8.54,0,0,1-12.1,0L18.51,134.05a8.54,8.54,0,0,1,0-12.1L122,18.51a8.54,8.54,0,0,1,12.1,0L237.49,122A8.54,8.54,0,0,1,237.49,134.05Z" opacity="0.2"/><path d="M243.15,116.29,139.71,12.85a16.56,16.56,0,0,0-23.42,0L12.85,116.29a16.56,16.56,0,0,0,0,23.42L116.29,243.15h0a16.56,16.56,0,0,0,23.42,0L243.15,139.71a16.56,16.56,0,0,0,0-23.42Zm-11.31,12.1L128.39,231.84a.56.56,0,0,1-.78,0h0L24.16,128.39a.56.56,0,0,1,0-.78L127.61,24.16A.52.52,0,0,1,128,24a.58.58,0,0,1,.4.16L231.84,127.61a.56.56,0,0,1,0,.78Zm-58.18-14a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32-11.32L148.69,128H112a16,16,0,0,0-16,16v8a8,8,0,0,1-16,0v-8a32,32,0,0,1,32-32h36.69l-10.35-10.34a8,8,0,0,1,11.32-11.32Z"/></svg>`,
     style: "duotone",
-    tags: ["traffic", "sign"],
+    tags: ["traffic", "sign", "road", "direction", "information", "warning", "guidance", "street", "highway", "duotone", "navigation"],
     category: "duotone"
   },
   {
@@ -67082,7 +67082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Sign Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.15,116.29,139.71,12.85a16.56,16.56,0,0,0-23.42,0L12.85,116.29a16.56,16.56,0,0,0,0,23.42L116.29,243.15h0a16.56,16.56,0,0,0,23.42,0L243.15,139.71a16.56,16.56,0,0,0,0-23.42Zm-69.49,9.37-24,24a8,8,0,0,1-11.32-11.32L148.69,128H112a16,16,0,0,0-16,16v8a8,8,0,0,1-16,0v-8a32,32,0,0,1,32-32h36.69l-10.35-10.34a8,8,0,0,1,11.32-11.32l24,24A8,8,0,0,1,173.66,125.66Z"/></svg>`,
     style: "fill",
-    tags: ["traffic", "sign"],
+    tags: ["traffic", "sign", "road", "direction", "information", "warning", "guidance", "street", "highway", "filled", "navigation"],
     category: "fill"
   },
   {
@@ -67090,7 +67090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Sign Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M241.74,117.71,138.29,14.26a14.56,14.56,0,0,0-20.58,0L14.26,117.71a14.56,14.56,0,0,0,0,20.58L117.71,241.74h0a14.56,14.56,0,0,0,20.58,0L241.74,138.29a14.56,14.56,0,0,0,0-20.58Zm-8.49,12.1L129.81,233.25a2.56,2.56,0,0,1-3.62,0h0L22.75,129.81a2.56,2.56,0,0,1,0-3.62L126.19,22.75a2.56,2.56,0,0,1,3.62,0L233.25,126.19a2.56,2.56,0,0,1,0,3.62Zm-61-14a6,6,0,0,1,0,8.48l-24,24a6,6,0,0,1-8.48-8.48L153.51,126H112a18,18,0,0,0-18,18v8a6,6,0,0,1-12,0v-8a30,30,0,0,1,30-30h41.51l-13.75-13.76a6,6,0,0,1,8.48-8.48Z"/></svg>`,
     style: "light",
-    tags: ["traffic", "sign"],
+    tags: ["traffic", "sign", "road", "direction", "information", "warning", "guidance", "street", "highway", "light", "navigation"],
     category: "light"
   },
   {
@@ -67098,7 +67098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Sign Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.32,119.12,136.88,15.68a12.55,12.55,0,0,0-17.76,0L15.68,119.12a12.55,12.55,0,0,0,0,17.76L119.12,240.32h0a12.55,12.55,0,0,0,17.76,0L240.32,136.88a12.55,12.55,0,0,0,0-17.76Zm-5.66,12.1L131.22,234.67a4.56,4.56,0,0,1-6.44,0h0L21.33,131.22a4.55,4.55,0,0,1,0-6.44L124.78,21.33a4.56,4.56,0,0,1,6.44,0L234.67,124.78a4.55,4.55,0,0,1,0,6.44Zm-63.83-14a4,4,0,0,1,0,5.66l-24,24a4,4,0,0,1-5.66-5.66L158.34,124H112a20,20,0,0,0-20,20v8a4,4,0,0,1-8,0v-8a28,28,0,0,1,28-28h46.34L141.17,98.83a4,4,0,0,1,5.66-5.66Z"/></svg>`,
     style: "thin",
-    tags: ["traffic", "sign"],
+    tags: ["traffic", "sign", "road", "direction", "information", "warning", "guidance", "street", "highway", "thin", "navigation"],
     category: "thin"
   },
   {
@@ -67106,7 +67106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Sign Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.15,116.29,139.71,12.85a16.56,16.56,0,0,0-23.42,0L12.85,116.29a16.56,16.56,0,0,0,0,23.42L116.29,243.15h0a16.56,16.56,0,0,0,23.42,0L243.15,139.71a16.56,16.56,0,0,0,0-23.42Zm-11.31,12.1L128.4,231.84a.58.58,0,0,1-.8,0h0L24.16,128.39a.56.56,0,0,1,0-.78L127.6,24.16a.58.58,0,0,1,.8,0L231.84,127.61a.56.56,0,0,1,0,.78Zm-58.18-14a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32-11.32L148.69,128H112a16,16,0,0,0-16,16v8a8,8,0,0,1-16,0v-8a32,32,0,0,1,32-32h36.69l-10.35-10.34a8,8,0,0,1,11.32-11.32Z"/></svg>`,
     style: "regular",
-    tags: ["traffic", "sign"],
+    tags: ["traffic", "sign", "road", "direction", "information", "warning", "guidance", "street", "highway", "regular", "navigation"],
     category: "regular"
   },
   {
@@ -67114,7 +67114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Signal Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,140H204V84h12a12,12,0,0,0,0-24H204V40a20,20,0,0,0-20-20H72A20,20,0,0,0,52,40V60H40a12,12,0,0,0,0,24H52v56H40a12,12,0,0,0,0,24H52v52a20,20,0,0,0,20,20H184a20,20,0,0,0,20-20V164h12a12,12,0,0,0,0-24Zm-36,72H76V44H180Zm-52-92A32,32,0,1,0,96,88,32,32,0,0,0,128,120Zm0-40a8,8,0,1,1-8,8A8,8,0,0,1,128,80Zm0,120a32,32,0,1,0-32-32A32,32,0,0,0,128,200Zm0-40a8,8,0,1,1-8,8A8,8,0,0,1,128,160Z"/></svg>`,
     style: "bold",
-    tags: ["traffic", "signal"],
+    tags: ["traffic", "signal", "stoplight", "intersection", "road", "control", "guidance", "crosswalk", "bold", "urban", "city"],
     category: "bold"
   },
   {
@@ -67122,7 +67122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Signal Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,32H72a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H184a8,8,0,0,0,8-8V40A8,8,0,0,0,184,32ZM128,192a24,24,0,1,1,24-24A24,24,0,0,1,128,192Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,128,112Z" opacity="0.2"/><path d="M128,56a32,32,0,1,0,32,32A32,32,0,0,0,128,56Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,104Zm0,32a32,32,0,1,0,32,32A32,32,0,0,0,128,136Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,184Zm88-40H200V80h16a8,8,0,0,0,0-16H200V40a16,16,0,0,0-16-16H72A16,16,0,0,0,56,40V64H40a8,8,0,0,0,0,16H56v64H40a8,8,0,0,0,0,16H56v56a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V160h16a8,8,0,0,0,0-16Zm-32,72H72V40H184V216Z"/></svg>`,
     style: "duotone",
-    tags: ["traffic", "signal"],
+    tags: ["traffic", "signal", "stoplight", "intersection", "road", "control", "guidance", "crosswalk", "duotone", "urban", "city"],
     category: "duotone"
   },
   {
@@ -67130,7 +67130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Signal Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,144H200V80h16a8,8,0,0,0,0-16H200V40a16,16,0,0,0-16-16H72A16,16,0,0,0,56,40V64H40a8,8,0,0,0,0,16H56v64H40a8,8,0,0,0,0,16H56v56a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V160h16a8,8,0,0,0,0-16Zm-88-28a28,28,0,1,1,28-28A28,28,0,0,1,128,116Zm0,24a28,28,0,1,1-28,28A28,28,0,0,1,128,140Z"/></svg>`,
     style: "fill",
-    tags: ["traffic", "signal"],
+    tags: ["traffic", "signal", "stoplight", "intersection", "road", "control", "guidance", "crosswalk", "filled", "urban", "city"],
     category: "fill"
   },
   {
@@ -67138,7 +67138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Signal Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,58a30,30,0,1,0,30,30A30,30,0,0,0,128,58Zm0,48a18,18,0,1,1,18-18A18,18,0,0,1,128,106Zm0,32a30,30,0,1,0,30,30A30,30,0,0,0,128,138Zm0,48a18,18,0,1,1,18-18A18,18,0,0,1,128,186Zm88-40H198V78h18a6,6,0,0,0,0-12H198V40a14,14,0,0,0-14-14H72A14,14,0,0,0,58,40V66H40a6,6,0,0,0,0,12H58v68H40a6,6,0,0,0,0,12H58v58a14,14,0,0,0,14,14H184a14,14,0,0,0,14-14V158h18a6,6,0,0,0,0-12Zm-30,70a2,2,0,0,1-2,2H72a2,2,0,0,1-2-2V40a2,2,0,0,1,2-2H184a2,2,0,0,1,2,2Z"/></svg>`,
     style: "light",
-    tags: ["traffic", "signal"],
+    tags: ["traffic", "signal", "stoplight", "intersection", "road", "control", "guidance", "crosswalk", "light", "urban", "city"],
     category: "light"
   },
   {
@@ -67146,7 +67146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Signal Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,60a28,28,0,1,0,28,28A28,28,0,0,0,128,60Zm0,48a20,20,0,1,1,20-20A20,20,0,0,1,128,108Zm0,32a28,28,0,1,0,28,28A28,28,0,0,0,128,140Zm0,48a20,20,0,1,1,20-20A20,20,0,0,1,128,188Zm88-40H196V76h20a4,4,0,0,0,0-8H196V40a12,12,0,0,0-12-12H72A12,12,0,0,0,60,40V68H40a4,4,0,0,0,0,8H60v72H40a4,4,0,0,0,0,8H60v60a12,12,0,0,0,12,12H184a12,12,0,0,0,12-12V156h20a4,4,0,0,0,0-8Zm-28,68a4,4,0,0,1-4,4H72a4,4,0,0,1-4-4V40a4,4,0,0,1,4-4H184a4,4,0,0,1,4,4Z"/></svg>`,
     style: "thin",
-    tags: ["traffic", "signal"],
+    tags: ["traffic", "signal", "stoplight", "intersection", "road", "control", "guidance", "crosswalk", "thin", "urban", "city"],
     category: "thin"
   },
   {
@@ -67154,7 +67154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Traffic Signal Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,56a32,32,0,1,0,32,32A32,32,0,0,0,128,56Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,104Zm0,32a32,32,0,1,0,32,32A32,32,0,0,0,128,136Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,128,184Zm88-40H200V80h16a8,8,0,0,0,0-16H200V40a16,16,0,0,0-16-16H72A16,16,0,0,0,56,40V64H40a8,8,0,0,0,0,16H56v64H40a8,8,0,0,0,0,16H56v56a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V160h16a8,8,0,0,0,0-16Zm-32,72H72V40H184V216Z"/></svg>`,
     style: "regular",
-    tags: ["traffic", "signal"],
+    tags: ["traffic", "signal", "stoplight", "intersection", "road", "control", "guidance", "crosswalk", "regular", "urban", "city"],
     category: "regular"
   },
   {
@@ -67162,7 +67162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,20H72A36,36,0,0,0,36,56V184a36,36,0,0,0,36,36h0l-9.6,12.8a12,12,0,1,0,19.2,14.4L102,220h52l20.4,27.2a12,12,0,0,0,19.2-14.4L184,220h0a36,36,0,0,0,36-36V56A36,36,0,0,0,184,20ZM60,116V84h56v32Zm80-32h56v32H140ZM72,44H184a12,12,0,0,1,12,12v4H60V56A12,12,0,0,1,72,44ZM184,196H72a12,12,0,0,1-12-12V140H196v44A12,12,0,0,1,184,196Zm-80-28a16,16,0,1,1-16-16A16,16,0,0,1,104,168Zm80,0a16,16,0,1,1-16-16A16,16,0,0,1,184,168Z"/></svg>`,
     style: "bold",
-    tags: ["train"],
+    tags: ["train", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "bold", "journey", "rail"],
     category: "bold"
   },
   {
@@ -67170,7 +67170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,72v56H48V72Z" opacity="0.2"/><path d="M184,24H72A32,32,0,0,0,40,56V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V56A32,32,0,0,0,184,24ZM56,120V80h64v40Zm80-40h64v40H136ZM72,40H184a16,16,0,0,1,16,16v8H56V56A16,16,0,0,1,72,40ZM184,200H72a16,16,0,0,1-16-16V136H200v48A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "duotone",
-    tags: ["train"],
+    tags: ["train", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "duotone", "journey", "rail"],
     category: "duotone"
   },
   {
@@ -67178,7 +67178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,24H72A32,32,0,0,0,40,56V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V56A32,32,0,0,0,184,24ZM84,184a12,12,0,1,1,12-12A12,12,0,0,1,84,184Zm36-64H56V80h64Zm52,64a12,12,0,1,1,12-12A12,12,0,0,1,172,184Zm28-64H136V80h64Z"/></svg>`,
     style: "fill",
-    tags: ["train"],
+    tags: ["train", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "filled", "journey", "rail"],
     category: "fill"
   },
   {
@@ -67186,7 +67186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,26H72A30,30,0,0,0,42,56V184a30,30,0,0,0,30,30H84L67.2,236.4a6,6,0,1,0,9.6,7.2L99,214h58l22.2,29.6a6,6,0,0,0,9.6-7.2L172,214h12a30,30,0,0,0,30-30V56A30,30,0,0,0,184,26ZM54,122V78h68v44Zm80-44h68v44H134ZM72,38H184a18,18,0,0,1,18,18V66H54V56A18,18,0,0,1,72,38ZM184,202H72a18,18,0,0,1-18-18V134H202v50A18,18,0,0,1,184,202Zm-2-30a10,10,0,1,1-10-10A10,10,0,0,1,182,172Zm-88,0a10,10,0,1,1-10-10A10,10,0,0,1,94,172Z"/></svg>`,
     style: "light",
-    tags: ["train"],
+    tags: ["train", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "light", "journey", "rail"],
     category: "light"
   },
   {
@@ -67194,7 +67194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Regional Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M227.58,116.84l-22.4-82.1A20,20,0,0,0,185.89,20H70.11A20,20,0,0,0,50.82,34.74l-22.4,82.1a12.1,12.1,0,0,0,0,6.32l22.4,82.1A20,20,0,0,0,70.11,220H72l-9.6,12.8a12,12,0,1,0,19.2,14.4L102,220h52l20.4,27.2a12,12,0,0,0,19.2-14.4L184,220h1.89a20,20,0,0,0,19.29-14.74l22.4-82.1A12.1,12.1,0,0,0,227.58,116.84ZM73.17,44H182.83L201,110.53,128,123.8,55,110.53ZM56.59,135.21,116,146v50H73.17ZM182.83,196H140V146l59.41-10.8ZM84,88A12,12,0,0,1,96,76h64a12,12,0,0,1,0,24H96A12,12,0,0,1,84,88Z"/></svg>`,
     style: "bold",
-    tags: ["train", "regional"],
+    tags: ["train", "regional", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "bold", "suburban", "rail", "intercity"],
     category: "bold"
   },
   {
@@ -67202,7 +67202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Regional Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,120l-22.39,82.1a8,8,0,0,1-7.72,5.9H70.11a8,8,0,0,1-7.72-5.9L40,120l88,16Z" opacity="0.2"/><path d="M223.72,117.9,201.33,35.79A16,16,0,0,0,185.89,24H70.11A16,16,0,0,0,54.67,35.79L32.28,117.9a8.08,8.08,0,0,0,0,4.2l22.39,82.11A16,16,0,0,0,70.11,216H80L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h9.89a16,16,0,0,0,15.44-11.79l22.39-82.11A8.08,8.08,0,0,0,223.72,117.9ZM70.11,40H185.89L206,113.69l-78,14.18L50,113.69Zm-19,90.14L120,142.68V200H70.11ZM185.89,200H136V142.68l68.94-12.54ZM88,88a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H96A8,8,0,0,1,88,88Z"/></svg>`,
     style: "duotone",
-    tags: ["train", "regional"],
+    tags: ["train", "regional", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "duotone", "suburban", "rail", "intercity"],
     category: "duotone"
   },
   {
@@ -67210,7 +67210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Regional Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,88a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,88Zm55.72,34.1-22.39,82.11A16,16,0,0,1,185.89,216H176l14.4,19.2a8,8,0,1,1-12.8,9.6L156,216H100L78.4,244.8a8,8,0,1,1-12.8-9.6L80,216H70.11a16,16,0,0,1-15.44-11.79L32.28,122.1a8.08,8.08,0,0,1,0-4.2L54.67,35.79A16,16,0,0,1,70.11,24H185.89a16,16,0,0,1,15.44,11.79l22.39,82.11A8.08,8.08,0,0,1,223.72,122.1ZM136,152a8,8,0,0,0-16,0v40a8,8,0,0,0,16,0Zm70-38.31L185.89,40H70.11L50,113.69l78,14.18Z"/></svg>`,
     style: "fill",
-    tags: ["train", "regional"],
+    tags: ["train", "regional", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "filled", "bold"],
     category: "fill"
   },
   {
@@ -67218,7 +67218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Regional Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.79,118.42,199.4,36.32A14,14,0,0,0,185.89,26H70.11A14,14,0,0,0,56.6,36.32l-22.39,82.1a6,6,0,0,0,0,3.16l22.39,82.1A14,14,0,0,0,70.11,214H84L67.2,236.4a6,6,0,1,0,9.6,7.2L99,214h58l22.2,29.6a6,6,0,0,0,9.6-7.2L172,214h13.89a14,14,0,0,0,13.51-10.32l22.39-82.1A6,6,0,0,0,221.79,118.42ZM68.18,39.47A2,2,0,0,1,70.11,38H185.89a2,2,0,0,1,1.93,1.47l20.67,75.8L128,129.9,47.51,115.27Zm0,161.06L48.29,127.61,122,141v61H70.11A2,2,0,0,1,68.18,200.53Zm119.64,0a2,2,0,0,1-1.93,1.47H134V141l73.71-13.4ZM90,88a6,6,0,0,1,6-6h64a6,6,0,0,1,0,12H96A6,6,0,0,1,90,88Z"/></svg>`,
     style: "light",
-    tags: ["train", "regional"],
+    tags: ["train", "regional", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined", "minimal"],
     category: "light"
   },
   {
@@ -67226,7 +67226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Regional Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M219.86,119,197.47,36.84A12,12,0,0,0,185.89,28H70.11a12,12,0,0,0-11.58,8.84L36.14,119a3.94,3.94,0,0,0,0,2.1l22.39,82.11A12,12,0,0,0,70.11,212H88L68.8,237.6a4,4,0,1,0,6.4,4.8L98,212h60l22.8,30.4a4,4,0,0,0,6.4-4.8L168,212h17.89a12,12,0,0,0,11.58-8.84l22.39-82.11A3.94,3.94,0,0,0,219.86,119ZM66.25,39a4,4,0,0,1,3.86-3H185.89a4,4,0,0,1,3.86,3L211,116.84l-83,15.09L45,116.84Zm0,162.1-20.72-76L124,139.34V204H70.11A4,4,0,0,1,66.25,201.05Zm123.5,0a4,4,0,0,1-3.86,2.95H132V139.34l78.47-14.27ZM92,88a4,4,0,0,1,4-4h64a4,4,0,0,1,0,8H96A4,4,0,0,1,92,88Z"/></svg>`,
     style: "thin",
-    tags: ["train", "regional"],
+    tags: ["train", "regional", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined", "delicate", "minimal"],
     category: "thin"
   },
   {
@@ -67234,7 +67234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Regional Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M223.72,117.9,201.33,35.79A16,16,0,0,0,185.89,24H70.11A16,16,0,0,0,54.67,35.79L32.28,117.9a8.08,8.08,0,0,0,0,4.2l22.39,82.11A16,16,0,0,0,70.11,216H80L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h9.89a16,16,0,0,0,15.44-11.79l22.39-82.11A8.08,8.08,0,0,0,223.72,117.9ZM70.11,40H185.89L206,113.69l-78,14.18L50,113.69Zm-19,90.14L120,142.68V200H70.11ZM185.89,200H136V142.68l68.94-12.54ZM88,88a8,8,0,0,1,8-8h64a8,8,0,0,1,0,16H96A8,8,0,0,1,88,88Z"/></svg>`,
     style: "regular",
-    tags: ["train", "regional"],
+    tags: ["train", "regional", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined"],
     category: "regular"
   },
   {
@@ -67242,7 +67242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Simple Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,20H72A36,36,0,0,0,36,56V184a36,36,0,0,0,36,36h0l-9.6,12.8a12,12,0,1,0,19.2,14.4L102,220h52l20.4,27.2a12,12,0,0,0,19.2-14.4L184,220h0a36,36,0,0,0,36-36V56A36,36,0,0,0,184,20ZM72,44H184a12,12,0,0,1,12,12v60H60V56A12,12,0,0,1,72,44ZM184,196H72a12,12,0,0,1-12-12V140H196v44A12,12,0,0,1,184,196Zm-80-28a16,16,0,1,1-16-16A16,16,0,0,1,104,168Zm80,0a16,16,0,1,1-16-16A16,16,0,0,1,184,168Z"/></svg>`,
     style: "bold",
-    tags: ["train", "simple"],
+    tags: ["train", "simple", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "filled", "bold"],
     category: "bold"
   },
   {
@@ -67250,7 +67250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Simple Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,56v72H48V56A24,24,0,0,1,72,32H184A24,24,0,0,1,208,56Z" opacity="0.2"/><path d="M184,24H72A32,32,0,0,0,40,56V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V56A32,32,0,0,0,184,24ZM72,40H184a16,16,0,0,1,16,16v64H56V56A16,16,0,0,1,72,40ZM184,200H72a16,16,0,0,1-16-16V136H200v48A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "duotone",
-    tags: ["train", "simple"],
+    tags: ["train", "simple", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "two-tone", "layered"],
     category: "duotone"
   },
   {
@@ -67258,7 +67258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Simple Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,24H72A32,32,0,0,0,40,56V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V56A32,32,0,0,0,184,24Zm0,176H72a16,16,0,0,1-16-16V136H200v48A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "fill",
-    tags: ["train", "simple"],
+    tags: ["train", "simple", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "filled", "bold"],
     category: "fill"
   },
   {
@@ -67266,7 +67266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Simple Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,26H72A30,30,0,0,0,42,56V184a30,30,0,0,0,30,30H84L67.2,236.4a6,6,0,1,0,9.6,7.2L99,214h58l22.2,29.6a6,6,0,0,0,9.6-7.2L172,214h12a30,30,0,0,0,30-30V56A30,30,0,0,0,184,26ZM72,38H184a18,18,0,0,1,18,18v66H54V56A18,18,0,0,1,72,38ZM184,202H72a18,18,0,0,1-18-18V134H202v50A18,18,0,0,1,184,202Zm-2-30a10,10,0,1,1-10-10A10,10,0,0,1,182,172Zm-88,0a10,10,0,1,1-10-10A10,10,0,0,1,94,172Z"/></svg>`,
     style: "light",
-    tags: ["train", "simple"],
+    tags: ["train", "simple", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined", "minimal"],
     category: "light"
   },
   {
@@ -67274,7 +67274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Simple Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,28H72A28,28,0,0,0,44,56V184a28,28,0,0,0,28,28H88L68.8,237.6a4,4,0,1,0,6.4,4.8L98,212h60l22.8,30.4a4,4,0,0,0,6.4-4.8L168,212h16a28,28,0,0,0,28-28V56A28,28,0,0,0,184,28ZM72,36H184a20,20,0,0,1,20,20v68H52V56A20,20,0,0,1,72,36ZM184,204H72a20,20,0,0,1-20-20V132H204v52A20,20,0,0,1,184,204ZM92,172a8,8,0,1,1-8-8A8,8,0,0,1,92,172Zm88,0a8,8,0,1,1-8-8A8,8,0,0,1,180,172Z"/></svg>`,
     style: "thin",
-    tags: ["train", "simple"],
+    tags: ["train", "simple", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined", "delicate", "minimal"],
     category: "thin"
   },
   {
@@ -67282,7 +67282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Simple Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,24H72A32,32,0,0,0,40,56V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V56A32,32,0,0,0,184,24ZM72,40H184a16,16,0,0,1,16,16v64H56V56A16,16,0,0,1,72,40ZM184,200H72a16,16,0,0,1-16-16V136H200v48A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "regular",
-    tags: ["train", "simple"],
+    tags: ["train", "simple", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined"],
     category: "regular"
   },
   {
@@ -67290,7 +67290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,28H72A28,28,0,0,0,44,56V184a28,28,0,0,0,28,28H88L68.8,237.6a4,4,0,1,0,6.4,4.8L98,212h60l22.8,30.4a4,4,0,0,0,6.4-4.8L168,212h16a28,28,0,0,0,28-28V56A28,28,0,0,0,184,28ZM52,124V76h72v48Zm80-48h72v48H132ZM72,36H184a20,20,0,0,1,20,20V68H52V56A20,20,0,0,1,72,36ZM184,204H72a20,20,0,0,1-20-20V132H204v52A20,20,0,0,1,184,204ZM92,172a8,8,0,1,1-8-8A8,8,0,0,1,92,172Zm88,0a8,8,0,1,1-8-8A8,8,0,0,1,180,172Z"/></svg>`,
     style: "thin",
-    tags: ["train"],
+    tags: ["train", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined", "delicate", "minimal"],
     category: "thin"
   },
   {
@@ -67298,7 +67298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Train Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,24H72A32,32,0,0,0,40,56V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V56A32,32,0,0,0,184,24ZM56,120V80h64v40Zm80-40h64v40H136ZM72,40H184a16,16,0,0,1,16,16v8H56V56A16,16,0,0,1,72,40ZM184,200H72a16,16,0,0,1-16-16V136H200v48A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "regular",
-    tags: ["train"],
+    tags: ["train", "locomotive", "railway", "transportation", "travel", "commute", "public transport", "outlined"],
     category: "regular"
   },
   {
@@ -67306,7 +67306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tram Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,44H140V28h28a12,12,0,0,0,0-24H88a12,12,0,0,0,0,24h28V44H72A36,36,0,0,0,36,80V184a36,36,0,0,0,36,36l-9.6,12.8a12,12,0,1,0,19.2,14.4L102,220h52l20.4,27.2a12,12,0,0,0,19.2-14.4L184,220a36,36,0,0,0,36-36V80A36,36,0,0,0,184,44ZM72,68H184a12,12,0,0,1,12,12v36H60V80A12,12,0,0,1,72,68ZM184,196H72a12,12,0,0,1-12-12V140H196v44A12,12,0,0,1,184,196Zm-80-28a16,16,0,1,1-16-16A16,16,0,0,1,104,168Zm80,0a16,16,0,1,1-16-16A16,16,0,0,1,184,168Z"/></svg>`,
     style: "bold",
-    tags: ["tram"],
+    tags: ["tram", "streetcar", "trolley", "public transport", "city", "urban", "transportation", "filled", "bold"],
     category: "bold"
   },
   {
@@ -67314,7 +67314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tram Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,80v48H48V80A24,24,0,0,1,72,56H184A24,24,0,0,1,208,80Z" opacity="0.2"/><path d="M184,48H136V24h32a8,8,0,0,0,0-16H88a8,8,0,0,0,0,16h32V48H72A32,32,0,0,0,40,80V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V80A32,32,0,0,0,184,48ZM72,64H184a16,16,0,0,1,16,16v40H56V80A16,16,0,0,1,72,64ZM184,200H72a16,16,0,0,1-16-16V136H200v48A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "duotone",
-    tags: ["tram"],
+    tags: ["tram", "streetcar", "trolley", "public transport", "city", "urban", "transportation", "two-tone", "layered"],
     category: "duotone"
   },
   {
@@ -67322,7 +67322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tram Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,48H136V24h32a8,8,0,0,0,0-16H88a8,8,0,0,0,0,16h32V48H72A32,32,0,0,0,40,80V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V80A32,32,0,0,0,184,48Zm0,152H72a16,16,0,0,1-16-16V128H200v56A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "fill",
-    tags: ["tram"],
+    tags: ["tram", "streetcar", "trolley", "public transport", "city", "urban", "transportation", "filled", "bold"],
     category: "fill"
   },
   {
@@ -67330,7 +67330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tram Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,50H134V22h34a6,6,0,0,0,0-12H88a6,6,0,0,0,0,12h34V50H72A30,30,0,0,0,42,80V184a30,30,0,0,0,30,30H84L67.2,236.4a6,6,0,1,0,9.6,7.2L99,214h58l22.2,29.6a6,6,0,0,0,9.6-7.2L172,214h12a30,30,0,0,0,30-30V80A30,30,0,0,0,184,50ZM72,62H184a18,18,0,0,1,18,18v42H54V80A18,18,0,0,1,72,62ZM184,202H72a18,18,0,0,1-18-18V134H202v50A18,18,0,0,1,184,202ZM94,172a10,10,0,1,1-10-10A10,10,0,0,1,94,172Zm88,0a10,10,0,1,1-10-10A10,10,0,0,1,182,172Z"/></svg>`,
     style: "light",
-    tags: ["tram"],
+    tags: ["tram", "streetcar", "trolley", "public transport", "city", "urban", "transportation", "outlined", "minimal"],
     category: "light"
   },
   {
@@ -67338,7 +67338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tram Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,52H132V20h36a4,4,0,0,0,0-8H88a4,4,0,0,0,0,8h36V52H72A28,28,0,0,0,44,80V184a28,28,0,0,0,28,28H88L68.8,237.6a4,4,0,1,0,6.4,4.8L98,212h60l22.8,30.4a4,4,0,0,0,6.4-4.8L168,212h16a28,28,0,0,0,28-28V80A28,28,0,0,0,184,52ZM72,60H184a20,20,0,0,1,20,20v44H52V80A20,20,0,0,1,72,60ZM184,204H72a20,20,0,0,1-20-20V132H204v52A20,20,0,0,1,184,204ZM92,172a8,8,0,1,1-8-8A8,8,0,0,1,92,172Zm88,0a8,8,0,1,1-8-8A8,8,0,0,1,180,172Z"/></svg>`,
     style: "thin",
-    tags: ["tram"],
+    tags: ["tram", "streetcar", "trolley", "public transport", "city", "urban", "transportation", "outlined", "delicate", "minimal"],
     category: "thin"
   },
   {
@@ -67346,7 +67346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tram Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,48H136V24h32a8,8,0,0,0,0-16H88a8,8,0,0,0,0,16h32V48H72A32,32,0,0,0,40,80V184a32,32,0,0,0,32,32h8L65.6,235.2a8,8,0,1,0,12.8,9.6L100,216h56l21.6,28.8a8,8,0,1,0,12.8-9.6L176,216h8a32,32,0,0,0,32-32V80A32,32,0,0,0,184,48ZM72,64H184a16,16,0,0,1,16,16v40H56V80A16,16,0,0,1,72,64ZM184,200H72a16,16,0,0,1-16-16V136H200v48A16,16,0,0,1,184,200ZM96,172a12,12,0,1,1-12-12A12,12,0,0,1,96,172Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,184,172Z"/></svg>`,
     style: "regular",
-    tags: ["tram"],
+    tags: ["tram", "streetcar", "trolley", "public transport", "city", "urban", "transportation", "outlined"],
     category: "regular"
   },
   {
@@ -67354,7 +67354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Translate Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M250.73,210.63l-56-112a12,12,0,0,0-21.46,0l-20.52,41A84.2,84.2,0,0,1,114,126.22,107.48,107.48,0,0,0,139.33,68H160a12,12,0,0,0,0-24H108V32a12,12,0,0,0-24,0V44H32a12,12,0,0,0,0,24h83.13A83.69,83.69,0,0,1,96,110.35,84,84,0,0,1,83.6,91a12,12,0,1,0-21.81,10A107.55,107.55,0,0,0,78,126.24,83.54,83.54,0,0,1,32,140a12,12,0,0,0,0,24,107.47,107.47,0,0,0,64-21.07,108.4,108.4,0,0,0,45.39,19.44l-24.13,48.26a12,12,0,1,0,21.46,10.73L151.41,196h65.17l12.68,25.36a12,12,0,1,0,21.47-10.73ZM163.41,172,184,130.83,204.58,172Z"/></svg>`,
     style: "bold",
-    tags: ["translate"],
+    tags: ["translate", "language", "conversion", "localization", "multilingual", "speech bubble", "global", "filled", "bold"],
     category: "bold"
   },
   {
@@ -67362,7 +67362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Translate Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,184H144l40-80ZM96,127.56h0A95.78,95.78,0,0,0,128,56H64A95.78,95.78,0,0,0,96,127.56Z" opacity="0.2"/><path d="M247.15,212.42l-56-112a8,8,0,0,0-14.31,0l-21.71,43.43A88,88,0,0,1,108,126.93,103.65,103.65,0,0,0,135.69,64H160a8,8,0,0,0,0-16H104V32a8,8,0,0,0-16,0V48H32a8,8,0,0,0,0,16h87.63A87.7,87.7,0,0,1,96,116.35a87.74,87.74,0,0,1-19-31,8,8,0,1,0-15.08,5.34A103.63,103.63,0,0,0,84,127a87.55,87.55,0,0,1-52,17,8,8,0,0,0,0,16,103.46,103.46,0,0,0,64-22.08,104.18,104.18,0,0,0,51.44,21.31l-26.6,53.19a8,8,0,0,0,14.31,7.16L148.94,192h70.11l13.79,27.58A8,8,0,0,0,240,224a8,8,0,0,0,7.15-11.58ZM156.94,176,184,121.89,211.05,176Z"/></svg>`,
     style: "duotone",
-    tags: ["translate"],
+    tags: ["translate", "language", "conversion", "localization", "multilingual", "speech bubble", "global", "two-tone", "layered"],
     category: "duotone"
   },
   {
@@ -67370,7 +67370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Translate Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,129.89,175.06,160H144.94l6.36-12.7v0ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM207.16,188.42l-40-80a8,8,0,0,0-14.32,0L139.66,134.8a62.31,62.31,0,0,1-23.61-10A79.61,79.61,0,0,0,135.6,80H152a8,8,0,0,0,0-16H112V56a8,8,0,0,0-16,0v8H56a8,8,0,0,0,0,16h63.48a63.73,63.73,0,0,1-15.3,34.05,65.93,65.93,0,0,1-9-13.61,8,8,0,0,0-14.32,7.12,81.75,81.75,0,0,0,11.4,17.15A63.62,63.62,0,0,1,56,136a8,8,0,0,0,0,16,79.56,79.56,0,0,0,48.11-16.13,78.33,78.33,0,0,0,28.18,13.66l-19.45,38.89a8,8,0,0,0,14.32,7.16L136.94,176h46.12l9.78,19.58a8,8,0,1,0,14.32-7.16Z"/></svg>`,
     style: "fill",
-    tags: ["translate"],
+    tags: ["translate", "language", "conversion", "localization", "multilingual", "speech bubble", "global", "filled", "bold"],
     category: "fill"
   },
   {
@@ -67378,7 +67378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Translate Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M245.37,213.32l-56-112a6,6,0,0,0-10.74,0l-22.3,44.6A90,90,0,0,1,105,127.19,101.73,101.73,0,0,0,133.82,62H160a6,6,0,0,0,0-12H102V32a6,6,0,0,0-12,0V50H32a6,6,0,0,0,0,12h89.79A89.71,89.71,0,0,1,96,119.23,89.81,89.81,0,0,1,75.11,86,6,6,0,1,0,63.8,90,101.66,101.66,0,0,0,87,127.2,89.56,89.56,0,0,1,32,146a6,6,0,0,0,0,12,101.55,101.55,0,0,0,64-22.63,102.11,102.11,0,0,0,54.53,22.17l-27.89,55.78a6,6,0,0,0,10.74,5.36L147.71,190h72.58l14.34,28.68A6,6,0,0,0,240,222a5.87,5.87,0,0,0,2.68-.64A6,6,0,0,0,245.37,213.32ZM153.71,178,184,117.42,214.29,178Z"/></svg>`,
     style: "light",
-    tags: ["translate"],
+    tags: ["translate", "language", "conversion", "localization", "multilingual", "speech bubble", "global", "outlined", "minimal"],
     category: "light"
   },
   {
@@ -67386,7 +67386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Translate Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.58,214.21l-56-112a4,4,0,0,0-7.16,0L157.55,148A92.05,92.05,0,0,1,102,127.36,99.68,99.68,0,0,0,131.91,60H160a4,4,0,0,0,0-8H100V32a4,4,0,0,0-8,0V52H32a4,4,0,0,0,0,8h91.91A91.8,91.8,0,0,1,96,122.05,92,92,0,0,1,73.23,86.67a4,4,0,1,0-7.54,2.66,99.59,99.59,0,0,0,24.3,38A91.59,91.59,0,0,1,32,148a4,4,0,0,0,0,8,99.54,99.54,0,0,0,64-23.21,100.09,100.09,0,0,0,57.66,23l-29.22,58.43a4,4,0,1,0,7.16,3.58L146.47,188h75.06l14.89,29.79A4,4,0,0,0,240,220a4.12,4.12,0,0,0,1.79-.42A4,4,0,0,0,243.58,214.21ZM150.47,180,184,112.94,217.53,180Z"/></svg>`,
     style: "thin",
-    tags: ["translate"],
+    tags: ["translate", "language", "conversion", "localization", "multilingual", "speech bubble", "global", "outlined", "delicate", "minimal"],
     category: "thin"
   },
   {
@@ -67394,7 +67394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Translate Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.15,212.42l-56-112a8,8,0,0,0-14.31,0l-21.71,43.43A88,88,0,0,1,108,126.93,103.65,103.65,0,0,0,135.69,64H160a8,8,0,0,0,0-16H104V32a8,8,0,0,0-16,0V48H32a8,8,0,0,0,0,16h87.63A87.76,87.76,0,0,1,96,116.35a87.74,87.74,0,0,1-19-31,8,8,0,1,0-15.08,5.34A103.63,103.63,0,0,0,84,127a87.55,87.55,0,0,1-52,17,8,8,0,0,0,0,16,103.46,103.46,0,0,0,64-22.08,104.18,104.18,0,0,0,51.44,21.31l-26.6,53.19a8,8,0,0,0,14.31,7.16L148.94,192h70.11l13.79,27.58A8,8,0,0,0,240,224a8,8,0,0,0,7.15-11.58ZM156.94,176,184,121.89,211.05,176Z"/></svg>`,
     style: "regular",
-    tags: ["translate"],
+    tags: ["translate", "language", "conversion", "localization", "multilingual", "speech bubble", "global", "outlined"],
     category: "regular"
   },
   {
@@ -67402,7 +67402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H180V36A28,28,0,0,0,152,8H104A28,28,0,0,0,76,36V48H40a12,12,0,0,0,0,24h4V208a20,20,0,0,0,20,20H192a20,20,0,0,0,20-20V72h4a12,12,0,0,0,0-24ZM100,36a4,4,0,0,1,4-4h48a4,4,0,0,1,4,4V48H100Zm88,168H68V72H188ZM116,104v64a12,12,0,0,1-24,0V104a12,12,0,0,1,24,0Zm48,0v64a12,12,0,0,1-24,0V104a12,12,0,0,1,24,0Z"/></svg>`,
     style: "bold",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "recycle", "junk", "filled", "bold"],
     category: "bold"
   },
   {
@@ -67410,7 +67410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,56V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V56Z" opacity="0.2"/><path d="M216,48H176V40a24,24,0,0,0-24-24H104A24,24,0,0,0,80,40v8H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM96,40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm96,168H64V64H192ZM112,104v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm48,0v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z"/></svg>`,
     style: "duotone",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "outline", "duo-tone", "system", "ui"],
     category: "duotone"
   },
   {
@@ -67418,7 +67418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H176V40a24,24,0,0,0-24-24H104A24,24,0,0,0,80,40v8H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM112,168a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm48,0a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm0-120H96V40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8Z"/></svg>`,
     style: "fill",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "filled", "solid", "system", "ui"],
     category: "fill"
   },
   {
@@ -67426,7 +67426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,50H174V40a22,22,0,0,0-22-22H104A22,22,0,0,0,82,40V50H40a6,6,0,0,0,0,12H50V208a14,14,0,0,0,14,14H192a14,14,0,0,0,14-14V62h10a6,6,0,0,0,0-12ZM94,40a10,10,0,0,1,10-10h48a10,10,0,0,1,10,10V50H94ZM194,208a2,2,0,0,1-2,2H64a2,2,0,0,1-2-2V62H194ZM110,104v64a6,6,0,0,1-12,0V104a6,6,0,0,1,12,0Zm48,0v64a6,6,0,0,1-12,0V104a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "thin", "minimal", "system", "ui"],
     category: "light"
   },
   {
@@ -67434,7 +67434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Simple Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H40a12,12,0,0,0,0,24h4V208a20,20,0,0,0,20,20H192a20,20,0,0,0,20-20V72h4a12,12,0,0,0,0-24ZM188,204H68V72H188ZM76,20A12,12,0,0,1,88,8h80a12,12,0,0,1,0,24H88A12,12,0,0,1,76,20Z"/></svg>`,
     style: "bold",
-    tags: ["trash", "simple"],
+    tags: ["trash", "simple", "delete", "remove", "bin", "garbage", "thick", "heavy", "system", "ui"],
     category: "bold"
   },
   {
@@ -67442,7 +67442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Simple Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,56V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V56Z" opacity="0.2"/><path d="M216,48H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM192,208H64V64H192ZM80,24a8,8,0,0,1,8-8h80a8,8,0,0,1,0,16H88A8,8,0,0,1,80,24Z"/></svg>`,
     style: "duotone",
-    tags: ["trash", "simple"],
+    tags: ["trash", "simple", "delete", "remove", "bin", "garbage", "outline", "duo-tone", "system", "ui"],
     category: "duotone"
   },
   {
@@ -67450,7 +67450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Simple Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,56a8,8,0,0,1-8,8h-8V208a16,16,0,0,1-16,16H64a16,16,0,0,1-16-16V64H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,56ZM88,32h80a8,8,0,0,0,0-16H88a8,8,0,0,0,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["trash", "simple"],
+    tags: ["trash", "simple", "delete", "remove", "bin", "garbage", "filled", "solid", "system", "ui"],
     category: "fill"
   },
   {
@@ -67458,7 +67458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Simple Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,50H40a6,6,0,0,0,0,12H50V208a14,14,0,0,0,14,14H192a14,14,0,0,0,14-14V62h10a6,6,0,0,0,0-12ZM194,208a2,2,0,0,1-2,2H64a2,2,0,0,1-2-2V62H194ZM82,24a6,6,0,0,1,6-6h80a6,6,0,0,1,0,12H88A6,6,0,0,1,82,24Z"/></svg>`,
     style: "light",
-    tags: ["trash", "simple"],
+    tags: ["trash", "simple", "delete", "remove", "bin", "garbage", "thin", "minimal", "system", "ui"],
     category: "light"
   },
   {
@@ -67466,7 +67466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Simple Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,52H40a4,4,0,0,0,0,8H52V208a12,12,0,0,0,12,12H192a12,12,0,0,0,12-12V60h12a4,4,0,0,0,0-8ZM196,208a4,4,0,0,1-4,4H64a4,4,0,0,1-4-4V60H196ZM84,24a4,4,0,0,1,4-4h80a4,4,0,0,1,0,8H88A4,4,0,0,1,84,24Z"/></svg>`,
     style: "thin",
-    tags: ["trash", "simple"],
+    tags: ["trash", "simple", "delete", "remove", "bin", "garbage", "lightweight", "delicate", "system", "ui"],
     category: "thin"
   },
   {
@@ -67474,7 +67474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Simple Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM192,208H64V64H192ZM80,24a8,8,0,0,1,8-8h80a8,8,0,0,1,0,16H88A8,8,0,0,1,80,24Z"/></svg>`,
     style: "regular",
-    tags: ["trash", "simple"],
+    tags: ["trash", "simple", "delete", "remove", "bin", "garbage", "outline", "standard", "system", "ui"],
     category: "regular"
   },
   {
@@ -67482,7 +67482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,52H172V40a20,20,0,0,0-20-20H104A20,20,0,0,0,84,40V52H40a4,4,0,0,0,0,8H52V208a12,12,0,0,0,12,12H192a12,12,0,0,0,12-12V60h12a4,4,0,0,0,0-8ZM92,40a12,12,0,0,1,12-12h48a12,12,0,0,1,12,12V52H92ZM196,208a4,4,0,0,1-4,4H64a4,4,0,0,1-4-4V60H196ZM108,104v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Zm48,0v64a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "lightweight", "delicate", "system", "ui"],
     category: "thin"
   },
   {
@@ -67490,7 +67490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trash Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H176V40a24,24,0,0,0-24-24H104A24,24,0,0,0,80,40v8H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM96,40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm96,168H64V64H192ZM112,104v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm48,0v64a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z"/></svg>`,
     style: "regular",
-    tags: ["trash"],
+    tags: ["trash", "delete", "remove", "bin", "garbage", "outline", "standard", "system", "ui"],
     category: "regular"
   },
   {
@@ -67498,7 +67498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Down Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,24v92H179.31a19.86,19.86,0,0,0-14.14,5.86L147,168H109L90.83,149.86A19.86,19.86,0,0,0,76.69,144H52V52ZM52,204V168H75l18.14,18.14A19.86,19.86,0,0,0,107.31,192h41.38a19.86,19.86,0,0,0,14.14-5.86L181,168h23v36Zm35.51-87.51a12,12,0,0,1,17-17L116,111V76a12,12,0,0,1,24,0v35l11.51-11.52a12,12,0,0,1,17,17l-32,32a12,12,0,0,1-17,0Z"/></svg>`,
     style: "bold",
-    tags: ["tray", "arrow", "down"],
+    tags: ["tray", "arrow", "down", "download", "import", "receive", "inbox", "thick", "heavy", "system", "ui"],
     category: "bold"
   },
   {
@@ -67506,7 +67506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Down Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48V160H179.31a8,8,0,0,0-5.66,2.34l-19.31,19.32a8,8,0,0,1-5.66,2.34H107.31a8,8,0,0,1-5.66-2.34L82.34,162.34A8,8,0,0,0,76.68,160H40V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2"/><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,16V152h-28.7A15.86,15.86,0,0,0,168,156.69L148.69,176H107.31L88,156.68A15.89,15.89,0,0,0,76.69,152H48V48Zm0,160H48V168H76.69L96,187.32A15.89,15.89,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40ZM90.34,125.66a8,8,0,0,1,11.32-11.32L120,132.69V72a8,8,0,0,1,16,0v60.69l18.34-18.35a8,8,0,0,1,11.32,11.32l-32,32a8,8,0,0,1-11.32,0Z"/></svg>`,
     style: "duotone",
-    tags: ["tray", "arrow", "down"],
+    tags: ["tray", "arrow", "down", "download", "import", "receive", "inbox", "outline", "duo-tone", "system", "ui"],
     category: "duotone"
   },
   {
@@ -67514,7 +67514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Down Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM90.34,114.34a8,8,0,0,1,11.32,0L120,132.69V72a8,8,0,0,1,16,0v60.69l18.34-18.35a8,8,0,0,1,11.32,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32A8,8,0,0,1,90.34,114.34ZM208,208H48V168H76.69L96,187.32A15.89,15.89,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40Z"/></svg>`,
     style: "fill",
-    tags: ["tray", "arrow", "down"],
+    tags: ["tray", "arrow", "down", "download", "import", "receive", "inbox", "filled", "solid", "system", "ui"],
     category: "fill"
   },
   {
@@ -67522,7 +67522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Down Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,34H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V48A14,14,0,0,0,208,34ZM48,46H208a2,2,0,0,1,2,2V154H179.31a13.94,13.94,0,0,0-9.9,4.1L150.1,177.41a2,2,0,0,1-1.41.59H107.31a2,2,0,0,1-1.41-.58L86.59,158.1a13.94,13.94,0,0,0-9.9-4.1H46V48A2,2,0,0,1,48,46ZM208,210H48a2,2,0,0,1-2-2V166H76.69a2,2,0,0,1,1.41.58L97.41,185.9a13.94,13.94,0,0,0,9.9,4.1h41.38a13.94,13.94,0,0,0,9.9-4.1l19.31-19.31a2,2,0,0,1,1.41-.59H210v42A2,2,0,0,1,208,210ZM91.76,124.24a6,6,0,0,1,8.48-8.48L122,137.51V72a6,6,0,0,1,12,0v65.51l21.76-21.75a6,6,0,0,1,8.48,8.48l-32,32a6,6,0,0,1-8.48,0Z"/></svg>`,
     style: "light",
-    tags: ["tray", "arrow", "down"],
+    tags: ["tray", "arrow", "down", "download", "import", "receive", "inbox", "thin", "minimal", "system", "ui"],
     category: "light"
   },
   {
@@ -67530,7 +67530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Down Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,36H48A12,12,0,0,0,36,48V208a12,12,0,0,0,12,12H208a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM48,44H208a4,4,0,0,1,4,4V156H179.31a12,12,0,0,0-8.48,3.51l-19.32,19.32a4,4,0,0,1-2.82,1.17H107.31a4,4,0,0,1-2.82-1.17L85.17,159.51A12,12,0,0,0,76.69,156H44V48A4,4,0,0,1,48,44ZM208,212H48a4,4,0,0,1-4-4V164H76.69a4,4,0,0,1,2.82,1.17l19.32,19.32a12,12,0,0,0,8.48,3.51h41.38a12,12,0,0,0,8.48-3.51l19.32-19.32a4,4,0,0,1,2.82-1.17H212v44A4,4,0,0,1,208,212ZM93.17,122.83a4,4,0,0,1,5.66-5.66L124,142.34V72a4,4,0,0,1,8,0v70.34l25.17-25.17a4,4,0,1,1,5.66,5.66l-32,32a4,4,0,0,1-5.66,0Z"/></svg>`,
     style: "thin",
-    tags: ["tray", "arrow", "down"],
+    tags: ["tray", "arrow", "down", "download", "import", "receive", "inbox", "lightweight", "delicate", "system", "ui"],
     category: "thin"
   },
   {
@@ -67538,7 +67538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Down Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,16V152h-28.7A15.86,15.86,0,0,0,168,156.69L148.69,176H107.31L88,156.69A15.86,15.86,0,0,0,76.69,152H48V48Zm0,160H48V168H76.69L96,187.31A15.86,15.86,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40ZM90.34,125.66a8,8,0,0,1,11.32-11.32L120,132.69V72a8,8,0,0,1,16,0v60.69l18.34-18.35a8,8,0,0,1,11.32,11.32l-32,32a8,8,0,0,1-11.32,0Z"/></svg>`,
     style: "regular",
-    tags: ["tray", "arrow", "down"],
+    tags: ["tray", "arrow", "down", "download", "import", "receive", "inbox", "outline", "standard", "system", "ui"],
     category: "regular"
   },
   {
@@ -67546,7 +67546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Up Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,24v92H179.31a19.86,19.86,0,0,0-14.14,5.86L147,168H109L90.83,149.86A19.86,19.86,0,0,0,76.69,144H52V52ZM52,204V168H75l18.14,18.14A19.86,19.86,0,0,0,107.31,192h41.38a19.86,19.86,0,0,0,14.14-5.86L181,168h23v36Zm35.51-87.51a12,12,0,0,1,0-17l32-32a12,12,0,0,1,17,0l32,32a12,12,0,0,1-17,17L140,105v35a12,12,0,0,1-24,0V105l-11.51,11.52A12,12,0,0,1,87.51,116.49Z"/></svg>`,
     style: "bold",
-    tags: ["tray", "arrow", "up"],
+    tags: ["tray", "arrow", "up", "upload", "export", "send", "outbox", "thick", "heavy", "system", "ui"],
     category: "bold"
   },
   {
@@ -67554,7 +67554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Up Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48V160H179.31a8,8,0,0,0-5.66,2.34l-19.31,19.32a8,8,0,0,1-5.66,2.34H107.31a8,8,0,0,1-5.66-2.34L82.34,162.34A8,8,0,0,0,76.68,160H40V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2"/><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,16V152h-28.7A15.86,15.86,0,0,0,168,156.69L148.69,176H107.31L88,156.69A15.86,15.86,0,0,0,76.69,152H48V48Zm0,160H48V168H76.69L96,187.31A15.86,15.86,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40ZM90.34,109.66a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L136,91.31V152a8,8,0,0,1-16,0V91.31l-18.34,18.35A8,8,0,0,1,90.34,109.66Z"/></svg>`,
     style: "duotone",
-    tags: ["tray", "arrow", "up"],
+    tags: ["tray", "arrow", "up", "upload", "export", "send", "outbox", "outline", "duo-tone", "system", "ui"],
     category: "duotone"
   },
   {
@@ -67562,7 +67562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Up Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM90.34,98.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L136,91.31V152a8,8,0,0,1-16,0V91.31l-18.34,18.35A8,8,0,0,1,90.34,98.34ZM208,208H48V168H76.69L96,187.31A15.86,15.86,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40Z"/></svg>`,
     style: "fill",
-    tags: ["tray", "arrow", "up"],
+    tags: ["tray", "arrow", "up", "upload", "export", "send", "outbox", "filled", "solid", "system", "ui"],
     category: "fill"
   },
   {
@@ -67570,7 +67570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Up Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,34H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V48A14,14,0,0,0,208,34ZM48,46H208a2,2,0,0,1,2,2V154H179.31a13.9,13.9,0,0,0-9.89,4.1L150.1,177.41a2,2,0,0,1-1.41.59H107.31a2,2,0,0,1-1.41-.59L86.59,158.1a13.94,13.94,0,0,0-9.9-4.1H46V48A2,2,0,0,1,48,46ZM208,210H48a2,2,0,0,1-2-2V166H76.69a2,2,0,0,1,1.41.59L97.41,185.9a13.94,13.94,0,0,0,9.9,4.1h41.38a13.9,13.9,0,0,0,9.89-4.1l19.32-19.31a2,2,0,0,1,1.41-.59H210v42A2,2,0,0,1,208,210ZM91.76,108.24a6,6,0,0,1,0-8.48l32-32a6,6,0,0,1,8.48,0l32,32a6,6,0,1,1-8.48,8.48L134,86.49V152a6,6,0,0,1-12,0V86.49l-21.76,21.75A6,6,0,0,1,91.76,108.24Z"/></svg>`,
     style: "light",
-    tags: ["tray", "arrow", "up"],
+    tags: ["tray", "arrow", "up", "upload", "export", "send", "outbox", "thin", "minimal", "system", "ui"],
     category: "light"
   },
   {
@@ -67578,7 +67578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Up Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,36H48A12,12,0,0,0,36,48V208a12,12,0,0,0,12,12H208a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM48,44H208a4,4,0,0,1,4,4V156H179.31a11.93,11.93,0,0,0-8.48,3.51l-19.32,19.32a4,4,0,0,1-2.82,1.17H107.31a4,4,0,0,1-2.82-1.17L85.17,159.52A11.9,11.9,0,0,0,76.69,156H44V48A4,4,0,0,1,48,44ZM208,212H48a4,4,0,0,1-4-4V164H76.69a4,4,0,0,1,2.82,1.17l19.32,19.31a11.9,11.9,0,0,0,8.48,3.52h41.38a11.93,11.93,0,0,0,8.48-3.51l19.32-19.32a4,4,0,0,1,2.82-1.17H212v44A4,4,0,0,1,208,212ZM93.17,106.83a4,4,0,0,1,0-5.66l32-32a4,4,0,0,1,5.66,0l32,32a4,4,0,0,1-5.66,5.66L132,81.66V152a4,4,0,0,1-8,0V81.66L98.83,106.83A4,4,0,0,1,93.17,106.83Z"/></svg>`,
     style: "thin",
-    tags: ["tray", "arrow", "up"],
+    tags: ["tray", "arrow", "up", "upload", "export", "send", "outbox", "lightweight", "delicate", "system", "ui"],
     category: "thin"
   },
   {
@@ -67586,7 +67586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Arrow Up Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,16V152h-28.7A15.86,15.86,0,0,0,168,156.69L148.69,176H107.31L88,156.69A15.86,15.86,0,0,0,76.69,152H48V48Zm0,160H48V168H76.69L96,187.31A15.86,15.86,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40ZM90.34,109.66a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L136,91.31V152a8,8,0,0,1-16,0V91.31l-18.34,18.35A8,8,0,0,1,90.34,109.66Z"/></svg>`,
     style: "regular",
-    tags: ["tray", "arrow", "up"],
+    tags: ["tray", "arrow", "up", "upload", "export", "send", "outbox", "outline", "standard", "system", "ui"],
     category: "regular"
   },
   {
@@ -67594,7 +67594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,24v92H179.31a19.86,19.86,0,0,0-14.14,5.86L147,168H109L90.83,149.86A19.86,19.86,0,0,0,76.69,144H52V52ZM52,204V168H75l18.14,18.14A19.86,19.86,0,0,0,107.31,192h41.38a19.86,19.86,0,0,0,14.14-5.86L181,168h23v36Z"/></svg>`,
     style: "bold",
-    tags: ["tray"],
+    tags: ["tray", "inbox", "outbox", "storage", "container", "thick", "heavy", "system", "ui"],
     category: "bold"
   },
   {
@@ -67602,7 +67602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48V160H179.31a8,8,0,0,0-5.66,2.34l-19.31,19.32a8,8,0,0,1-5.66,2.34H107.31a8,8,0,0,1-5.66-2.34L82.34,162.34A8,8,0,0,0,76.68,160H40V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2"/><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,16V152h-28.7A15.86,15.86,0,0,0,168,156.69L148.69,176H107.31L88,156.68A15.89,15.89,0,0,0,76.69,152H48V48Zm0,160H48V168H76.69L96,187.32A15.89,15.89,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40Z"/></svg>`,
     style: "duotone",
-    tags: ["tray"],
+    tags: ["tray", "inbox", "outbox", "storage", "container", "outline", "duo-tone", "system", "ui"],
     category: "duotone"
   },
   {
@@ -67610,7 +67610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V168H76.69L96,187.32A15.89,15.89,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40Z"/></svg>`,
     style: "fill",
-    tags: ["tray"],
+    tags: ["tray", "inbox", "outbox", "mail", "storage", "archive", "filled", "solid", "container", "box"],
     category: "fill"
   },
   {
@@ -67618,7 +67618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,34H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V48A14,14,0,0,0,208,34ZM48,46H208a2,2,0,0,1,2,2V154H179.31a13.94,13.94,0,0,0-9.9,4.1L150.1,177.41a2,2,0,0,1-1.41.59H107.31a2,2,0,0,1-1.41-.58L86.59,158.1a13.94,13.94,0,0,0-9.9-4.1H46V48A2,2,0,0,1,48,46ZM208,210H48a2,2,0,0,1-2-2V166H76.69a2,2,0,0,1,1.41.58L97.41,185.9a13.94,13.94,0,0,0,9.9,4.1h41.38a13.94,13.94,0,0,0,9.9-4.1l19.31-19.31a2,2,0,0,1,1.41-.59H210v42A2,2,0,0,1,208,210Z"/></svg>`,
     style: "light",
-    tags: ["tray"],
+    tags: ["tray", "inbox", "outbox", "mail", "storage", "archive", "thin", "outline", "container", "box"],
     category: "light"
   },
   {
@@ -67626,7 +67626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,36H48A12,12,0,0,0,36,48V208a12,12,0,0,0,12,12H208a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM48,44H208a4,4,0,0,1,4,4V156H179.31a12,12,0,0,0-8.48,3.51l-19.32,19.32a4,4,0,0,1-2.82,1.17H107.31a4,4,0,0,1-2.82-1.17L85.17,159.51A12,12,0,0,0,76.69,156H44V48A4,4,0,0,1,48,44ZM208,212H48a4,4,0,0,1-4-4V164H76.69a4,4,0,0,1,2.82,1.17l19.32,19.32a12,12,0,0,0,8.48,3.51h41.38a12,12,0,0,0,8.48-3.51l19.32-19.32a4,4,0,0,1,2.82-1.17H212v44A4,4,0,0,1,208,212Z"/></svg>`,
     style: "thin",
-    tags: ["tray"],
+    tags: ["tray", "inbox", "outbox", "mail", "storage", "archive", "minimal", "outline", "container", "box"],
     category: "thin"
   },
   {
@@ -67634,7 +67634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tray Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,16V152h-28.7A15.86,15.86,0,0,0,168,156.69L148.69,176H107.31L88,156.69A15.86,15.86,0,0,0,76.69,152H48V48Zm0,160H48V168H76.69L96,187.31A15.86,15.86,0,0,0,107.31,192h41.38A15.86,15.86,0,0,0,160,187.31L179.31,168H208v40Z"/></svg>`,
     style: "regular",
-    tags: ["tray"],
+    tags: ["tray", "inbox", "outbox", "mail", "storage", "archive", "outline", "container", "box"],
     category: "regular"
   },
   {
@@ -67642,7 +67642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Treasure Chest Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,36H72A60.07,60.07,0,0,0,12,96v96a20,20,0,0,0,20,20H224a20,20,0,0,0,20-20V96A60.07,60.07,0,0,0,184,36Zm36,60v4H192V60.91A36.05,36.05,0,0,1,220,96Zm-92,60a12,12,0,0,0,12-12V124h28v64H88V124h28v20A12,12,0,0,0,128,156Zm12-56V96a12,12,0,0,0-24,0v4H88V60h80v40ZM64,60.91V100H36V96A36.05,36.05,0,0,1,64,60.91ZM36,124H64v64H36Zm156,64V124h28v64Z"/></svg>`,
     style: "bold",
-    tags: ["treasure", "chest"],
+    tags: ["treasure", "chest", "gold", "money", "reward", "prize", "wealth", "adventure", "pirate", "bold", "filled"],
     category: "bold"
   },
   {
@@ -67650,7 +67650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Treasure Chest Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,112v80a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V112h88v32h32V112Z" opacity="0.2"/><path d="M184,40H72A56.06,56.06,0,0,0,16,96v96a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V96A56.06,56.06,0,0,0,184,40Zm40,56v8H192V56.8A40.07,40.07,0,0,1,224,96Zm-88,40H120V104h16Zm-24,16h32a8,8,0,0,0,8-8V120h24v72H80V120h24v24A8,8,0,0,0,112,152Zm40-48V96a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v8H80V56h96v48ZM64,56.8V104H32V96A40.07,40.07,0,0,1,64,56.8ZM32,120H64v72H32Zm192,72H192V120h32v72Z"/></svg>`,
     style: "duotone",
-    tags: ["treasure", "chest"],
+    tags: ["treasure", "chest", "gold", "money", "reward", "prize", "wealth", "adventure", "pirate", "shaded", "two-tone"],
     category: "duotone"
   },
   {
@@ -67658,7 +67658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Treasure Chest Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,124v68a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V124a4,4,0,0,1,4-4H56v64a8,8,0,0,0,8.53,8A8.17,8.17,0,0,0,72,183.73V120h40v20a4,4,0,0,0,4,4h24a4,4,0,0,0,4-4V120h40v64a8,8,0,0,0,8.53,8,8.17,8.17,0,0,0,7.47-8.25V120h36A4,4,0,0,1,240,124ZM184,40H72A56,56,0,0,0,16,96v4a4,4,0,0,0,4,4H56V64.27A8.17,8.17,0,0,1,63.47,56,8,8,0,0,1,72,64v40h40V92a4,4,0,0,1,4-4h24a4,4,0,0,1,4,4v12h40V64.27A8.17,8.17,0,0,1,191.47,56,8,8,0,0,1,200,64v40h36a4,4,0,0,0,4-4V96A56,56,0,0,0,184,40Z"/></svg>`,
     style: "fill",
-    tags: ["treasure", "chest"],
+    tags: ["treasure", "chest", "gold", "money", "reward", "prize", "wealth", "adventure", "pirate", "filled", "solid"],
     category: "fill"
   },
   {
@@ -67666,7 +67666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Treasure Chest Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,42H72A54.06,54.06,0,0,0,18,96v96a14,14,0,0,0,14,14H224a14,14,0,0,0,14-14V96A54.06,54.06,0,0,0,184,42Zm42,54v10H190V54.44A42.05,42.05,0,0,1,226,96Zm-88,42H118V102h20Zm-26,12h32a6,6,0,0,0,6-6V118h28v76H78V118h28v26A6,6,0,0,0,112,150Zm38-44V96a6,6,0,0,0-6-6H112a6,6,0,0,0-6,6v10H78V54H178v52ZM66,54.44V106H30V96A42.05,42.05,0,0,1,66,54.44ZM30,192V118H66v76H32A2,2,0,0,1,30,192Zm194,2H190V118h36v74A2,2,0,0,1,224,194Z"/></svg>`,
     style: "light",
-    tags: ["treasure", "chest"],
+    tags: ["treasure", "chest", "gold", "money", "reward", "prize", "wealth", "adventure", "pirate", "thin", "outline"],
     category: "light"
   },
   {
@@ -67674,7 +67674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Treasure Chest Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,44H72A52.06,52.06,0,0,0,20,96v96a12,12,0,0,0,12,12H224a12,12,0,0,0,12-12V96A52.06,52.06,0,0,0,184,44Zm44,52v12H188V52.19A44.06,44.06,0,0,1,228,96Zm-88,44H116V100h24Zm-28,8h32a4,4,0,0,0,4-4V116h32v80H76V116h32v28A4,4,0,0,0,112,148Zm36-40V96a4,4,0,0,0-4-4H112a4,4,0,0,0-4,4v12H76V52H180v56ZM68,52.19V108H28V96A44.06,44.06,0,0,1,68,52.19ZM28,192V116H68v80H32A4,4,0,0,1,28,192Zm196,4H188V116h40v76A4,4,0,0,1,224,196Z"/></svg>`,
     style: "thin",
-    tags: ["treasure", "chest"],
+    tags: ["treasure", "chest", "gold", "money", "reward", "prize", "wealth", "adventure", "pirate", "minimal", "outline"],
     category: "thin"
   },
   {
@@ -67682,7 +67682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Treasure Chest Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,40H72A56.06,56.06,0,0,0,16,96v96a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V96A56.06,56.06,0,0,0,184,40Zm40,56v8H192V56.8A40.07,40.07,0,0,1,224,96Zm-88,40H120V104h16Zm-24,16h32a8,8,0,0,0,8-8V120h24v72H80V120h24v24A8,8,0,0,0,112,152Zm40-48V96a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v8H80V56h96v48ZM64,56.8V104H32V96A40.07,40.07,0,0,1,64,56.8ZM32,120H64v72H32Zm192,72H192V120h32v72Z"/></svg>`,
     style: "regular",
-    tags: ["treasure", "chest"],
+    tags: ["treasure", "chest", "gold", "money", "reward", "prize", "wealth", "adventure", "pirate", "outline"],
     category: "regular"
   },
   {
@@ -67690,7 +67690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M201.17,59.62a80,80,0,0,0-146.34,0,76,76,0,0,0,61.17,139V232a12,12,0,0,0,24,0V198.64A76.26,76.26,0,0,0,168,204l1.92,0A76,76,0,0,0,201.17,59.62ZM169.35,180A52,52,0,0,1,140,171.79V135.42l41.37-20.69a12,12,0,1,0-10.74-21.46L140,108.58V88a12,12,0,0,0-24,0v44.58L85.37,117.27a12,12,0,0,0-10.74,21.46L116,159.42v12.37A52.24,52.24,0,0,1,86.65,180c-27.53-.69-50.72-24.56-50.65-52.13a51.81,51.81,0,0,1,32.61-48.1,12,12,0,0,0,6.78-7,56,56,0,0,1,105.22,0,12,12,0,0,0,6.78,7A51.81,51.81,0,0,1,220,127.85C220.08,155.41,196.88,179.29,169.35,180Z"/></svg>`,
     style: "bold",
-    tags: ["tree"],
+    tags: ["tree", "nature", "plant", "forest", "environment", "growth", "bold", "solid", "park"],
     category: "bold"
   },
   {
@@ -67698,7 +67698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,127.82c.09,33.94-28.41,63.3-62.34,64.16a63.72,63.72,0,0,1-41.66-14,63.71,63.71,0,0,1-41.65,14c-33.93-.86-62.44-30.22-62.35-64.16a64,64,0,0,1,40.13-59.2,68,68,0,0,1,127.74,0A64,64,0,0,1,232,127.82Z" opacity="0.2"/><path d="M198.1,62.59a76,76,0,0,0-140.2,0A71.71,71.71,0,0,0,16,127.8C15.9,166,48,199,86.14,200A72.22,72.22,0,0,0,120,192.47V232a8,8,0,0,0,16,0V192.47A72.17,72.17,0,0,0,168,200l1.82,0C208,199,240.11,166,240,127.8A71.71,71.71,0,0,0,198.1,62.59ZM169.45,184a56.08,56.08,0,0,1-33.45-10v-41l43.58-21.78a8,8,0,1,0-7.16-14.32L136,115.06V88a8,8,0,0,0-16,0v51.06L83.58,120.84a8,8,0,1,0-7.16,14.32L120,156.94v17a56,56,0,0,1-33.45,10C56.9,183.23,31.92,157.52,32,127.84A55.79,55.79,0,0,1,67.11,76a8,8,0,0,0,4.53-4.67,60,60,0,0,1,112.72,0A8,8,0,0,0,188.89,76,55.79,55.79,0,0,1,224,127.84C224.08,157.52,199.1,183.23,169.45,184Z"/></svg>`,
     style: "duotone",
-    tags: ["tree"],
+    tags: ["tree", "nature", "plant", "forest", "environment", "growth", "shaded", "two-tone", "park"],
     category: "duotone"
   },
   {
@@ -67706,7 +67706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Evergreen Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M233.47,184.63,192.54,132H208a12,12,0,0,0,9.51-19.32l-80-104a12,12,0,0,0-19,0l-80,104A12,12,0,0,0,48,132H63.46L22.53,184.63A12,12,0,0,0,32,204h84v36a12,12,0,0,0,24,0V204h84a12,12,0,0,0,9.47-19.37ZM56.54,180l40.93-52.63A12,12,0,0,0,88,108H72.37L128,35.68,183.63,108H168a12,12,0,0,0-9.47,19.37L199.46,180Z"/></svg>`,
     style: "bold",
-    tags: ["tree", "evergreen"],
+    tags: ["tree", "evergreen", "pine", "conifer", "christmas", "winter", "nature", "bold", "solid", "forest"],
     category: "bold"
   },
   {
@@ -67714,7 +67714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Evergreen Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M32,192l56-72H48L128,16l80,104H168l56,72Z" opacity="0.2"/><path d="M230.31,187.09,184.36,128H208a8,8,0,0,0,6.34-12.88l-80-104a8,8,0,0,0-12.68,0l-80,104A8,8,0,0,0,48,128H71.64L25.69,187.09A8,8,0,0,0,32,200h88v40a8,8,0,0,0,16,0V200h88a8,8,0,0,0,6.31-12.91ZM48.36,184l46-59.09A8,8,0,0,0,88,112H64.25L128,29.12,191.75,112H168a8,8,0,0,0-6.31,12.91L207.64,184Z"/></svg>`,
     style: "duotone",
-    tags: ["tree", "evergreen"],
+    tags: ["tree", "evergreen", "pine", "conifer", "christmas", "winter", "nature", "shaded", "two-tone", "forest"],
     category: "duotone"
   },
   {
@@ -67722,7 +67722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Evergreen Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M231.19,195.51A8,8,0,0,1,224,200H136v40a8,8,0,0,1-16,0V200H32a8,8,0,0,1-6.31-12.91l46-59.09H48a8,8,0,0,1-6.34-12.88l80-104a8,8,0,0,1,12.68,0l80,104A8,8,0,0,1,208,128H184.36l45.95,59.09A8,8,0,0,1,231.19,195.51Z"/></svg>`,
     style: "fill",
-    tags: ["tree", "evergreen"],
+    tags: ["tree", "evergreen", "pine", "conifer", "christmas", "winter", "nature", "filled", "solid", "forest"],
     category: "fill"
   },
   {
@@ -67730,7 +67730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Evergreen Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.74,188.32,180.27,126H208a6,6,0,0,0,4.76-9.66l-80-104a6,6,0,0,0-9.52,0l-80,104A6,6,0,0,0,48,126H75.73L27.26,188.32A6,6,0,0,0,32,198h90v42a6,6,0,0,0,12,0V198h90a6,6,0,0,0,4.74-9.68ZM44.27,186l48.47-62.32A6,6,0,0,0,88,114H60.19L128,25.84,195.81,114H168a6,6,0,0,0-4.74,9.68L211.73,186Z"/></svg>`,
     style: "light",
-    tags: ["tree", "evergreen"],
+    tags: ["tree", "evergreen", "pine", "conifer", "christmas", "winter", "nature", "thin", "outline", "forest"],
     category: "light"
   },
   {
@@ -67738,7 +67738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Evergreen Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M227.16,189.54l-51-65.54H208a4,4,0,0,0,3.17-6.44l-80-104a4,4,0,0,0-6.34,0l-80,104A4,4,0,0,0,48,124H79.82l-51,65.54A4,4,0,0,0,32,196h92v44a4,4,0,0,0,8,0V196h92a4,4,0,0,0,3.16-6.46ZM40.18,188l51-65.54A4,4,0,0,0,88,116H56.12L128,22.56,199.88,116H168a4,4,0,0,0-3.16,6.46l51,65.54Z"/></svg>`,
     style: "thin",
-    tags: ["tree", "evergreen"],
+    tags: ["tree", "evergreen", "pine", "conifer", "christmas", "winter", "nature", "minimal", "outline", "forest"],
     category: "thin"
   },
   {
@@ -67746,7 +67746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Evergreen Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M230.32,187.09l-46-59.09H208a8,8,0,0,0,6.34-12.88l-80-104a8,8,0,0,0-12.68,0l-80,104A8,8,0,0,0,48,128H71.64l-46,59.09A8,8,0,0,0,32,200h88v40a8,8,0,0,0,16,0V200h88a8,8,0,0,0,6.32-12.91ZM48.36,184l46-59.09A8,8,0,0,0,88,112H64.25L128,29.12,191.75,112H168a8,8,0,0,0-6.31,12.91L207.64,184Z"/></svg>`,
     style: "regular",
-    tags: ["tree", "evergreen"],
+    tags: ["tree", "evergreen", "pine", "conifer", "christmas", "winter", "nature", "outline", "forest"],
     category: "regular"
   },
   {
@@ -67754,7 +67754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,187.85a72.44,72.44,0,0,0,8,4.62V232a8,8,0,0,1-16,0V192.47A72.44,72.44,0,0,0,128,187.85ZM198.1,62.59a76,76,0,0,0-140.2,0A71.71,71.71,0,0,0,16,127.8C15.9,166,48,199,86.14,200A72.22,72.22,0,0,0,120,192.47V156.94L76.42,135.16a8,8,0,1,1,7.16-14.32L120,139.06V88a8,8,0,0,1,16,0v27.06l36.42-18.22a8,8,0,1,1,7.16,14.32L136,132.94v59.53A72.17,72.17,0,0,0,168,200l1.82,0C208,199,240.11,166,240,127.8A71.71,71.71,0,0,0,198.1,62.59Z"/></svg>`,
     style: "fill",
-    tags: ["tree"],
+    tags: ["tree", "nature", "plant", "forest", "environment", "growth", "filled", "solid", "park"],
     category: "fill"
   },
   {
@@ -67762,7 +67762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M196.55,64.09a74,74,0,0,0-137.1,0A69.71,69.71,0,0,0,18,127.8C17.9,164.91,49.13,197,86.19,198A70.32,70.32,0,0,0,122,189.16V232a6,6,0,0,0,12,0V189.16A70.1,70.1,0,0,0,168,198l1.77,0C206.87,197,238.1,164.9,238,127.8A69.71,69.71,0,0,0,196.55,64.09ZM169.5,186A57.88,57.88,0,0,1,134,175V131.71l44.68-22.34a6,6,0,1,0-5.36-10.74L134,118.29V88a6,6,0,0,0-12,0v54.29L82.68,122.63a6,6,0,0,0-5.36,10.74L122,155.71V175a58.09,58.09,0,0,1-35.5,11c-30.71-.77-56.58-27.4-56.5-58.14A57.78,57.78,0,0,1,66.37,74.19a6,6,0,0,0,3.39-3.51,62,62,0,0,1,116.48,0,6,6,0,0,0,3.39,3.51A57.77,57.77,0,0,1,226,127.83C226.08,158.58,200.21,185.2,169.5,186Z"/></svg>`,
     style: "light",
-    tags: ["tree"],
+    tags: ["tree", "nature", "plant", "forest", "environment", "growth", "thin", "outline", "park"],
     category: "light"
   },
   {
@@ -67770,7 +67770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Palm Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.69,50.47a70.87,70.87,0,0,0-103.54,0A76.58,76.58,0,0,0,128,62.19a76.58,76.58,0,0,0-9.15-11.72,70.87,70.87,0,0,0-103.54,0,12,12,0,0,0,3.9,19.28L66,90.12a75.45,75.45,0,0,0-43.43,89,12,12,0,0,0,18.85,6.41L116,128.75V224a12,12,0,0,0,24,0V128.75l74.54,56.79a12,12,0,0,0,18.85-6.41,75.45,75.45,0,0,0-43.43-89l46.83-20.37a12,12,0,0,0,3.9-19.28ZM67.08,52a47.16,47.16,0,0,1,34.38,15A52.41,52.41,0,0,1,112.3,84.08L48,56.1A46.28,46.28,0,0,1,67.08,52ZM44.39,153.15a51.72,51.72,0,0,1,38.14-43.38A52.83,52.83,0,0,1,96.09,108a50.4,50.4,0,0,1,7,.47ZM205,133.81a51.14,51.14,0,0,1,6.57,19.34L153,108.46a52.21,52.21,0,0,1,20.51,1.31A51.61,51.61,0,0,1,205,133.81ZM143.7,84.08A52.41,52.41,0,0,1,154.54,67a47.16,47.16,0,0,1,34.38-15A46.28,46.28,0,0,1,208,56.1Z"/></svg>`,
     style: "bold",
-    tags: ["tree", "palm"],
+    tags: ["tree", "palm", "tropical", "beach", "island", "vacation", "summer", "bold", "solid", "nature"],
     category: "bold"
   },
   {
@@ -67778,7 +67778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Palm Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,58.75,128,104a65.47,65.47,0,0,1,17.84-45.25,58.87,58.87,0,0,1,86.16,0ZM176.56,98.18A64.2,64.2,0,0,0,128,104.52L221.81,176a63,63,0,0,0-6.39-48.22A63.73,63.73,0,0,0,176.56,98.18Zm-66.4-39.43a58.87,58.87,0,0,0-86.16,0L128,104A65.47,65.47,0,0,0,110.16,58.75ZM79.44,98.18a63.73,63.73,0,0,0-38.86,29.6A63,63,0,0,0,34.19,176L128,104.52A64.2,64.2,0,0,0,79.44,98.18Z" opacity="0.2"/><path d="M237.79,53.23a66.86,66.86,0,0,0-97.74,0,72.21,72.21,0,0,0-12.05,17,72.21,72.21,0,0,0-12-17,66.86,66.86,0,0,0-97.74,0,8,8,0,0,0,2.6,12.85L77,90.55a71.42,71.42,0,0,0-43.36,33.21,70.64,70.64,0,0,0-7.2,54.32A8,8,0,0,0,39,182.36l81-61.68V224a8,8,0,0,0,16,0V120.68l81,61.68a8,8,0,0,0,12.57-4.28,70.64,70.64,0,0,0-7.2-54.32A71.42,71.42,0,0,0,179,90.55l56.22-24.47a8,8,0,0,0,2.6-12.85ZM67.08,48a51.13,51.13,0,0,1,37.28,16.26,56.53,56.53,0,0,1,14.26,26.93L39,56.53A50.5,50.5,0,0,1,67.08,48ZM40,161.5a54.82,54.82,0,0,1,7.47-29.7,55.55,55.55,0,0,1,34-25.89A56.52,56.52,0,0,1,96.1,104a55.82,55.82,0,0,1,16.23,2.41ZM208.5,131.8A54.82,54.82,0,0,1,216,161.5l-72.3-55.1a56.3,56.3,0,0,1,64.83,25.4ZM137.38,91.19a56.53,56.53,0,0,1,14.26-26.93A51.13,51.13,0,0,1,188.92,48,50.5,50.5,0,0,1,217,56.53Z"/></svg>`,
     style: "duotone",
-    tags: ["tree", "palm"],
+    tags: ["tree", "palm", "tropical", "beach", "island", "vacation", "summer", "shaded", "two-tone", "nature"],
     category: "duotone"
   },
   {
@@ -67786,7 +67786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Palm Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M239.84,60.33a8,8,0,0,1-4.65,5.75L179,90.55a71.42,71.42,0,0,1,43.36,33.21,70.64,70.64,0,0,1,7.2,54.32A8,8,0,0,1,217,182.36l-81-61.68V224a8,8,0,0,1-16,0V120.68L39,182.36a8,8,0,0,1-12.57-4.28,70.64,70.64,0,0,1,7.2-54.32A71.42,71.42,0,0,1,77,90.55L20.81,66.08a8,8,0,0,1-2.6-12.85,66.86,66.86,0,0,1,97.74,0,72.21,72.21,0,0,1,12,17,72.21,72.21,0,0,1,12.05-17,66.86,66.86,0,0,1,97.74,0A8,8,0,0,1,239.84,60.33Z"/></svg>`,
     style: "fill",
-    tags: ["tree", "palm"],
+    tags: ["tree", "palm", "tropical", "beach", "island", "vacation", "summer", "filled", "solid", "nature"],
     category: "fill"
   },
   {
@@ -67794,7 +67794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Palm Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.35,54.61a64.87,64.87,0,0,0-94.85,0A70,70,0,0,0,128,75a70,70,0,0,0-13.5-20.37,64.87,64.87,0,0,0-94.85,0,6,6,0,0,0,2,9.64l61.83,26.9c-1.85.34-3.7.74-5.54,1.23a69.42,69.42,0,0,0-42.5,32.39,68.65,68.65,0,0,0-7,52.79,6,6,0,0,0,3.86,4.12,6.1,6.1,0,0,0,1.93.32,6,6,0,0,0,3.64-1.23L122,116.64V224a6,6,0,0,0,12,0V116.64l84.17,64.13a6,6,0,0,0,3.64,1.23,6.1,6.1,0,0,0,1.93-.32,6,6,0,0,0,3.86-4.12,68.65,68.65,0,0,0-7-52.79,69.42,69.42,0,0,0-42.5-32.39c-1.84-.49-3.69-.89-5.54-1.23l61.83-26.9a6,6,0,0,0,2-9.64ZM67.08,46a53.16,53.16,0,0,1,38.73,16.88,58.77,58.77,0,0,1,15.47,31.65L34.93,57A52.59,52.59,0,0,1,67.08,46ZM38.29,165.33a56.77,56.77,0,0,1,7.48-34.53A57.58,57.58,0,0,1,81,104a58.79,58.79,0,0,1,15.12-2,57.67,57.67,0,0,1,20.43,3.73ZM210.23,130.8a56.77,56.77,0,0,1,7.48,34.53l-78.24-59.61a58.24,58.24,0,0,1,70.76,25.08ZM134.72,94.53a58.77,58.77,0,0,1,15.47-31.65A53.16,53.16,0,0,1,188.92,46a52.59,52.59,0,0,1,32.15,11Z"/></svg>`,
     style: "light",
-    tags: ["tree", "palm"],
+    tags: ["tree", "palm", "tropical", "beach", "island", "vacation", "summer", "thin", "outline", "nature"],
     category: "light"
   },
   {
@@ -67802,7 +67802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Palm Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234.9,56a62.86,62.86,0,0,0-92,0A68.16,68.16,0,0,0,128,80.44a68.16,68.16,0,0,0-15-24.45A62.86,62.86,0,0,0,21.1,56a4,4,0,0,0,1.3,6.42L90.86,92.2a68.66,68.66,0,0,0-12.45,2.11,67.49,67.49,0,0,0-41.28,31.46A66.72,66.72,0,0,0,30.33,177a4,4,0,0,0,2.57,2.75,4.1,4.1,0,0,0,1.29.21,4,4,0,0,0,2.43-.82L124,112.6V224a4,4,0,0,0,8,0V112.6l87.38,66.58a4,4,0,0,0,2.43.82,4.1,4.1,0,0,0,1.29-.21,4,4,0,0,0,2.57-2.75,66.72,66.72,0,0,0-6.8-51.27,67.49,67.49,0,0,0-41.28-31.46,68.66,68.66,0,0,0-12.45-2.11L233.6,62.41A4,4,0,0,0,234.9,56ZM67.08,44a55.13,55.13,0,0,1,40.18,17.5A60.86,60.86,0,0,1,123.7,97.77L31.12,57.48A54.75,54.75,0,0,1,67.08,44ZM36.77,169A58.72,58.72,0,0,1,44,129.79,59.57,59.57,0,0,1,80.47,102,61,61,0,0,1,96.1,100a59.71,59.71,0,0,1,24.41,5.22ZM212,129.79A58.72,58.72,0,0,1,219.23,169L135.49,105.2A60.24,60.24,0,0,1,212,129.79Zm-79.66-32A60.86,60.86,0,0,1,148.74,61.5a54.8,54.8,0,0,1,76.14-4Z"/></svg>`,
     style: "thin",
-    tags: ["tree", "palm"],
+    tags: ["tree", "palm", "tropical", "beach", "island", "vacation", "summer", "minimal", "outline", "nature"],
     category: "thin"
   },
   {
@@ -67810,7 +67810,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Palm Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.79,53.23a66.86,66.86,0,0,0-97.74,0,72.21,72.21,0,0,0-12.05,17,72.21,72.21,0,0,0-12-17,66.86,66.86,0,0,0-97.74,0,8,8,0,0,0,2.6,12.85L77,90.55a71.42,71.42,0,0,0-43.36,33.21,70.64,70.64,0,0,0-7.2,54.32A8,8,0,0,0,39,182.36l81-61.68V224a8,8,0,0,0,16,0V120.68l81,61.68a8,8,0,0,0,12.57-4.28,70.64,70.64,0,0,0-7.2-54.32A71.42,71.42,0,0,0,179,90.55l56.22-24.47a8,8,0,0,0,2.6-12.85ZM67.08,48a51.13,51.13,0,0,1,37.28,16.26,56.53,56.53,0,0,1,14.26,26.93L39,56.53A50.5,50.5,0,0,1,67.08,48ZM40,161.5a54.82,54.82,0,0,1,7.47-29.7,55.55,55.55,0,0,1,34-25.89A56.52,56.52,0,0,1,96.1,104a55.82,55.82,0,0,1,16.23,2.41ZM208.5,131.8A54.82,54.82,0,0,1,216,161.5l-72.3-55.1a56.3,56.3,0,0,1,64.83,25.4ZM137.38,91.19a56.53,56.53,0,0,1,14.26-26.93A51.13,51.13,0,0,1,188.92,48,50.5,50.5,0,0,1,217,56.53Z"/></svg>`,
     style: "regular",
-    tags: ["tree", "palm"],
+    tags: ["tree", "palm", "tropical", "beach", "island", "vacation", "nature", "plant", "summer", "minimal", "outline"],
     category: "regular"
   },
   {
@@ -67818,7 +67818,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Structure Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,116h48a20,20,0,0,0,20-20V48a20,20,0,0,0-20-20H160a20,20,0,0,0-20,20V60H128a28,28,0,0,0-28,28v28H76v-4A20,20,0,0,0,56,92H24A20,20,0,0,0,4,112v32a20,20,0,0,0,20,20H56a20,20,0,0,0,20-20v-4h24v28a28,28,0,0,0,28,28h12v12a20,20,0,0,0,20,20h48a20,20,0,0,0,20-20V160a20,20,0,0,0-20-20H160a20,20,0,0,0-20,20v12H128a4,4,0,0,1-4-4V88a4,4,0,0,1,4-4h12V96A20,20,0,0,0,160,116ZM52,140H28V116H52Zm112,24h40v40H164Zm0-112h40V92H164Z"/></svg>`,
     style: "bold",
-    tags: ["tree", "structure"],
+    tags: ["tree", "structure", "hierarchy", "organization", "data", "network", "diagram", "bold", "thick", "system", "flowchart"],
     category: "bold"
   },
   {
@@ -67826,7 +67826,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Structure Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M64,112v32a8,8,0,0,1-8,8H24a8,8,0,0,1-8-8V112a8,8,0,0,1,8-8H56A8,8,0,0,1,64,112ZM208,40H160a8,8,0,0,0-8,8V96a8,8,0,0,0,8,8h48a8,8,0,0,0,8-8V48A8,8,0,0,0,208,40Zm0,112H160a8,8,0,0,0-8,8v48a8,8,0,0,0,8,8h48a8,8,0,0,0,8-8V160A8,8,0,0,0,208,152Z" opacity="0.2"/><path d="M160,112h48a16,16,0,0,0,16-16V48a16,16,0,0,0-16-16H160a16,16,0,0,0-16,16V64H128a24,24,0,0,0-24,24v32H72v-8A16,16,0,0,0,56,96H24A16,16,0,0,0,8,112v32a16,16,0,0,0,16,16H56a16,16,0,0,0,16-16v-8h32v32a24,24,0,0,0,24,24h16v16a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V160a16,16,0,0,0-16-16H160a16,16,0,0,0-16,16v16H128a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8h16V96A16,16,0,0,0,160,112ZM56,144H24V112H56v32Zm104,16h48v48H160Zm0-112h48V96H160Z"/></svg>`,
     style: "duotone",
-    tags: ["tree", "structure"],
+    tags: ["tree", "structure", "hierarchy", "organization", "data", "network", "diagram", "two-tone", "layered", "system", "flowchart"],
     category: "duotone"
   },
   {
@@ -67834,7 +67834,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Structure Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,96V80H128a8,8,0,0,0-8,8v80a8,8,0,0,0,8,8h16V160a16,16,0,0,1,16-16h48a16,16,0,0,1,16,16v48a16,16,0,0,1-16,16H160a16,16,0,0,1-16-16V192H128a24,24,0,0,1-24-24V136H72v8a16,16,0,0,1-16,16H24A16,16,0,0,1,8,144V112A16,16,0,0,1,24,96H56a16,16,0,0,1,16,16v8h32V88a24,24,0,0,1,24-24h16V48a16,16,0,0,1,16-16h48a16,16,0,0,1,16,16V96a16,16,0,0,1-16,16H160A16,16,0,0,1,144,96Z"/></svg>`,
     style: "fill",
-    tags: ["tree", "structure"],
+    tags: ["tree", "structure", "hierarchy", "organization", "data", "network", "diagram", "filled", "solid", "system", "flowchart"],
     category: "fill"
   },
   {
@@ -67842,7 +67842,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Structure Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,110h48a14,14,0,0,0,14-14V48a14,14,0,0,0-14-14H160a14,14,0,0,0-14,14V66H128a22,22,0,0,0-22,22v34H70V112A14,14,0,0,0,56,98H24a14,14,0,0,0-14,14v32a14,14,0,0,0,14,14H56a14,14,0,0,0,14-14V134h36v34a22,22,0,0,0,22,22h18v18a14,14,0,0,0,14,14h48a14,14,0,0,0,14-14V160a14,14,0,0,0-14-14H160a14,14,0,0,0-14,14v18H128a10,10,0,0,1-10-10V88a10,10,0,0,1,10-10h18V96A14,14,0,0,0,160,110ZM58,144a2,2,0,0,1-2,2H24a2,2,0,0,1-2-2V112a2,2,0,0,1,2-2H56a2,2,0,0,1,2,2Zm100,16a2,2,0,0,1,2-2h48a2,2,0,0,1,2,2v48a2,2,0,0,1-2,2H160a2,2,0,0,1-2-2Zm0-112a2,2,0,0,1,2-2h48a2,2,0,0,1,2,2V96a2,2,0,0,1-2,2H160a2,2,0,0,1-2-2Z"/></svg>`,
     style: "light",
-    tags: ["tree", "structure"],
+    tags: ["tree", "structure", "hierarchy", "organization", "data", "network", "diagram", "thin", "delicate", "system", "flowchart"],
     category: "light"
   },
   {
@@ -67850,7 +67850,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Structure Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,108h48a12,12,0,0,0,12-12V48a12,12,0,0,0-12-12H160a12,12,0,0,0-12,12V68H128a20,20,0,0,0-20,20v36H68V112a12,12,0,0,0-12-12H24a12,12,0,0,0-12,12v32a12,12,0,0,0,12,12H56a12,12,0,0,0,12-12V132h40v36a20,20,0,0,0,20,20h20v20a12,12,0,0,0,12,12h48a12,12,0,0,0,12-12V160a12,12,0,0,0-12-12H160a12,12,0,0,0-12,12v20H128a12,12,0,0,1-12-12V88a12,12,0,0,1,12-12h20V96A12,12,0,0,0,160,108ZM60,144a4,4,0,0,1-4,4H24a4,4,0,0,1-4-4V112a4,4,0,0,1,4-4H56a4,4,0,0,1,4,4Zm96,16a4,4,0,0,1,4-4h48a4,4,0,0,1,4,4v48a4,4,0,0,1-4,4H160a4,4,0,0,1-4-4Zm0-112a4,4,0,0,1,4-4h48a4,4,0,0,1,4,4V96a4,4,0,0,1-4,4H160a4,4,0,0,1-4-4Z"/></svg>`,
     style: "thin",
-    tags: ["tree", "structure"],
+    tags: ["tree", "structure", "hierarchy", "organization", "data", "network", "diagram", "lightweight", "minimal", "system", "flowchart"],
     category: "thin"
   },
   {
@@ -67858,7 +67858,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Structure Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,112h48a16,16,0,0,0,16-16V48a16,16,0,0,0-16-16H160a16,16,0,0,0-16,16V64H128a24,24,0,0,0-24,24v32H72v-8A16,16,0,0,0,56,96H24A16,16,0,0,0,8,112v32a16,16,0,0,0,16,16H56a16,16,0,0,0,16-16v-8h32v32a24,24,0,0,0,24,24h16v16a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V160a16,16,0,0,0-16-16H160a16,16,0,0,0-16,16v16H128a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8h16V96A16,16,0,0,0,160,112ZM56,144H24V112H56v32Zm104,16h48v48H160Zm0-112h48V96H160Z"/></svg>`,
     style: "regular",
-    tags: ["tree", "structure"],
+    tags: ["tree", "structure", "hierarchy", "organization", "data", "network", "diagram", "outline", "standard", "system", "flowchart"],
     category: "regular"
   },
   {
@@ -67866,7 +67866,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M195,65.59a72,72,0,0,0-134,0,67.72,67.72,0,0,0-41,62.22c-.1,36,30.24,67.26,66.25,68.17A68.24,68.24,0,0,0,124,185.66V232a4,4,0,0,0,8,0V185.67A68.09,68.09,0,0,0,168,196l1.72,0c36-.91,66.34-32.13,66.24-68.17A67.73,67.73,0,0,0,195,65.59ZM169.55,188A60.15,60.15,0,0,1,132,176v-45.5l45.79-22.89a4,4,0,1,0-3.58-7.16L132,121.53V88a4,4,0,0,0-8,0v57.53L81.79,124.42a4,4,0,1,0-3.58,7.16L124,154.47V176a60,60,0,0,1-37.55,12c-31.77-.8-58.54-28.35-58.45-60.15a59.77,59.77,0,0,1,37.62-55.5A4,4,0,0,0,67.88,70a64,64,0,0,1,120.24,0,4,4,0,0,0,2.26,2.33A59.79,59.79,0,0,1,228,127.83C228.09,159.63,201.32,187.18,169.55,188Z"/></svg>`,
     style: "thin",
-    tags: ["tree"],
+    tags: ["tree", "plant", "nature", "forest", "growth", "environment", "thin", "delicate", "minimal", "outline"],
     category: "thin"
   },
   {
@@ -67874,7 +67874,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree View Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,156h32a20,20,0,0,0,20-20V104a20,20,0,0,0-20-20H176a20,20,0,0,0-20,20v4H92V84h4a20,20,0,0,0,20-20V32A20,20,0,0,0,96,12H64A20,20,0,0,0,44,32V64A20,20,0,0,0,64,84h4V192a28,28,0,0,0,28,28h60v4a20,20,0,0,0,20,20h32a20,20,0,0,0,20-20V192a20,20,0,0,0-20-20H176a20,20,0,0,0-20,20v4H96a4,4,0,0,1-4-4V132h64v4A20,20,0,0,0,176,156ZM68,36H92V60H68ZM180,196h24v24H180Zm0-88h24v24H180Z"/></svg>`,
     style: "bold",
-    tags: ["tree", "view"],
+    tags: ["tree", "view", "hierarchy", "data", "folder", "file system", "navigation", "bold", "thick", "structure", "outline"],
     category: "bold"
   },
   {
@@ -67882,7 +67882,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree View Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M104,32V64a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V32a8,8,0,0,1,8-8H96A8,8,0,0,1,104,32ZM208,96H176a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h32a8,8,0,0,0,8-8V104A8,8,0,0,0,208,96Zm0,88H176a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h32a8,8,0,0,0,8-8V192A8,8,0,0,0,208,184Z" opacity="0.2"/><path d="M176,152h32a16,16,0,0,0,16-16V104a16,16,0,0,0-16-16H176a16,16,0,0,0-16,16v8H88V80h8a16,16,0,0,0,16-16V32A16,16,0,0,0,96,16H64A16,16,0,0,0,48,32V64A16,16,0,0,0,64,80h8V192a24,24,0,0,0,24,24h64v8a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V192a16,16,0,0,0-16-16H176a16,16,0,0,0-16,16v8H96a8,8,0,0,1-8-8V128h72v8A16,16,0,0,0,176,152ZM64,32H96V64H64ZM176,192h32v32H176Zm0-88h32v32H176Z"/></svg>`,
     style: "duotone",
-    tags: ["tree", "view"],
+    tags: ["tree", "view", "hierarchy", "data", "folder", "file system", "navigation", "two-tone", "layered", "structure", "outline"],
     category: "duotone"
   },
   {
@@ -67890,7 +67890,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree View Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,136v-8H88v64a8,8,0,0,0,8,8h64v-8a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16v32a16,16,0,0,1-16,16H176a16,16,0,0,1-16-16v-8H96a24,24,0,0,1-24-24V80H64A16,16,0,0,1,48,64V32A16,16,0,0,1,64,16H96a16,16,0,0,1,16,16V64A16,16,0,0,1,96,80H88v32h72v-8a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16v32a16,16,0,0,1-16,16H176A16,16,0,0,1,160,136Z"/></svg>`,
     style: "fill",
-    tags: ["tree", "view"],
+    tags: ["tree", "view", "hierarchy", "data", "folder", "file system", "navigation", "filled", "solid", "structure", "outline"],
     category: "fill"
   },
   {
@@ -67898,7 +67898,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree View Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,150h32a14,14,0,0,0,14-14V104a14,14,0,0,0-14-14H176a14,14,0,0,0-14,14v10H86V78H96a14,14,0,0,0,14-14V32A14,14,0,0,0,96,18H64A14,14,0,0,0,50,32V64A14,14,0,0,0,64,78H74V192a22,22,0,0,0,22,22h66v10a14,14,0,0,0,14,14h32a14,14,0,0,0,14-14V192a14,14,0,0,0-14-14H176a14,14,0,0,0-14,14v10H96a10,10,0,0,1-10-10V126h76v10A14,14,0,0,0,176,150ZM62,64V32a2,2,0,0,1,2-2H96a2,2,0,0,1,2,2V64a2,2,0,0,1-2,2H64A2,2,0,0,1,62,64ZM174,192a2,2,0,0,1,2-2h32a2,2,0,0,1,2,2v32a2,2,0,0,1-2,2H176a2,2,0,0,1-2-2Zm0-88a2,2,0,0,1,2-2h32a2,2,0,0,1,2,2v32a2,2,0,0,1-2,2H176a2,2,0,0,1-2-2Z"/></svg>`,
     style: "light",
-    tags: ["tree", "view"],
+    tags: ["tree", "view", "hierarchy", "data", "folder", "file system", "navigation", "thin", "delicate", "structure", "outline"],
     category: "light"
   },
   {
@@ -67906,7 +67906,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree View Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,148h32a12,12,0,0,0,12-12V104a12,12,0,0,0-12-12H176a12,12,0,0,0-12,12v12H84V76H96a12,12,0,0,0,12-12V32A12,12,0,0,0,96,20H64A12,12,0,0,0,52,32V64A12,12,0,0,0,64,76H76V192a20,20,0,0,0,20,20h68v12a12,12,0,0,0,12,12h32a12,12,0,0,0,12-12V192a12,12,0,0,0-12-12H176a12,12,0,0,0-12,12v12H96a12,12,0,0,1-12-12V124h80v12A12,12,0,0,0,176,148ZM60,64V32a4,4,0,0,1,4-4H96a4,4,0,0,1,4,4V64a4,4,0,0,1-4,4H64A4,4,0,0,1,60,64ZM172,192a4,4,0,0,1,4-4h32a4,4,0,0,1,4,4v32a4,4,0,0,1-4,4H176a4,4,0,0,1-4-4Zm0-88a4,4,0,0,1,4-4h32a4,4,0,0,1,4,4v32a4,4,0,0,1-4,4H176a4,4,0,0,1-4-4Z"/></svg>`,
     style: "thin",
-    tags: ["tree", "view"],
+    tags: ["tree", "view", "hierarchy", "data", "folder", "file system", "navigation", "lightweight", "minimal", "structure", "outline"],
     category: "thin"
   },
   {
@@ -67914,7 +67914,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree View Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,152h32a16,16,0,0,0,16-16V104a16,16,0,0,0-16-16H176a16,16,0,0,0-16,16v8H88V80h8a16,16,0,0,0,16-16V32A16,16,0,0,0,96,16H64A16,16,0,0,0,48,32V64A16,16,0,0,0,64,80h8V192a24,24,0,0,0,24,24h64v8a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V192a16,16,0,0,0-16-16H176a16,16,0,0,0-16,16v8H96a8,8,0,0,1-8-8V128h72v8A16,16,0,0,0,176,152ZM64,32H96V64H64ZM176,192h32v32H176Zm0-88h32v32H176Z"/></svg>`,
     style: "regular",
-    tags: ["tree", "view"],
+    tags: ["tree", "view", "hierarchy", "data", "folder", "file system", "navigation", "outline", "standard", "structure", "interface"],
     category: "regular"
   },
   {
@@ -67922,7 +67922,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tree Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M198.1,62.59a76,76,0,0,0-140.2,0A71.71,71.71,0,0,0,16,127.8C15.9,166,48,199,86.14,200A72.09,72.09,0,0,0,120,192.47V232a8,8,0,0,0,16,0V192.47A72.17,72.17,0,0,0,168,200l1.82,0C208,199,240.11,166,240,127.8A71.71,71.71,0,0,0,198.1,62.59ZM169.45,184a56.08,56.08,0,0,1-33.45-10v-41l43.58-21.78a8,8,0,1,0-7.16-14.32L136,115.06V88a8,8,0,0,0-16,0v51.06L83.58,120.84a8,8,0,1,0-7.16,14.32L120,156.94v17a56,56,0,0,1-33.45,10C56.9,183.23,31.92,157.52,32,127.84A55.77,55.77,0,0,1,67.11,76a8,8,0,0,0,4.53-4.67,60,60,0,0,1,112.72,0A8,8,0,0,0,188.89,76,55.79,55.79,0,0,1,224,127.84C224.08,157.52,199.1,183.23,169.45,184Z"/></svg>`,
     style: "regular",
-    tags: ["tree"],
+    tags: ["tree", "plant", "nature", "forest", "growth", "environment", "outline", "standard", "minimal", "friendly"],
     category: "regular"
   },
   {
@@ -67930,7 +67930,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Down Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,128v64a12,12,0,0,1-12,12H168a12,12,0,0,1,0-24h35l-67-67-31.51,31.52a12,12,0,0,1-17,0l-72-72a12,12,0,0,1,17-17L96,119l31.51-31.52a12,12,0,0,1,17,0L220,163V128a12,12,0,0,1,24,0Z"/></svg>`,
     style: "bold",
-    tags: ["trend", "down"],
+    tags: ["trend", "down", "decrease", "loss", "decline", "negative", "chart", "graph", "bold", "thick", "arrow"],
     category: "bold"
   },
   {
@@ -67938,7 +67938,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Down Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,128v64H168Z" opacity="0.2"/><path d="M235.06,120.61a8,8,0,0,0-8.72,1.73L200,148.69,141.66,90.34a8,8,0,0,0-11.32,0L96,124.69,29.66,58.34A8,8,0,0,0,18.34,69.66l72,72a8,8,0,0,0,11.32,0L136,107.31,188.69,160l-26.35,26.34A8,8,0,0,0,168,200h64a8,8,0,0,0,8-8V128A8,8,0,0,0,235.06,120.61ZM224,184H187.31L224,147.31Z"/></svg>`,
     style: "duotone",
-    tags: ["trend", "down"],
+    tags: ["trend", "down", "decrease", "loss", "decline", "negative", "chart", "graph", "two-tone", "layered", "arrow"],
     category: "duotone"
   },
   {
@@ -67946,7 +67946,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Down Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,128v64a8,8,0,0,1-8,8H168a8,8,0,0,1-5.66-13.66L188.69,160,136,107.31l-34.34,34.35a8,8,0,0,1-11.32,0l-72-72A8,8,0,0,1,29.66,58.34L96,124.69l34.34-34.35a8,8,0,0,1,11.32,0L200,148.69l26.34-26.35A8,8,0,0,1,240,128Z"/></svg>`,
     style: "fill",
-    tags: ["trend", "down"],
+    tags: ["trend", "down", "decrease", "loss", "decline", "negative", "chart", "graph", "filled", "solid", "arrow"],
     category: "fill"
   },
   {
@@ -67954,7 +67954,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Down Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238,128v64a6,6,0,0,1-6,6H168a6,6,0,0,1,0-12h49.52L136,104.49l-35.76,35.75a6,6,0,0,1-8.48,0l-72-72a6,6,0,0,1,8.48-8.48L96,127.51l35.76-35.75a6,6,0,0,1,8.48,0L226,177.52V128a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["trend", "down"],
+    tags: ["trend", "down", "decrease", "loss", "decline", "negative", "chart", "graph", "thin", "delicate", "arrow"],
     category: "light"
   },
   {
@@ -67962,7 +67962,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Down Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,128v64a4,4,0,0,1-4,4H168a4,4,0,0,1,0-8h54.34L136,101.66,98.83,138.83a4,4,0,0,1-5.66,0l-72-72a4,4,0,0,1,5.66-5.66L96,130.34l37.17-37.17a4,4,0,0,1,5.66,0L228,182.34V128a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["trend", "down"],
+    tags: ["trend", "down", "decrease", "loss", "decline", "negative", "chart", "graph", "lightweight", "minimal", "arrow"],
     category: "thin"
   },
   {
@@ -67970,7 +67970,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Down Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,128v64a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h44.69L136,107.31l-34.34,34.35a8,8,0,0,1-11.32,0l-72-72A8,8,0,0,1,29.66,58.34L96,124.69l34.34-34.35a8,8,0,0,1,11.32,0L224,172.69V128a8,8,0,0,1,16,0Z"/></svg>`,
     style: "regular",
-    tags: ["trend", "down"],
+    tags: ["trend", "down", "decrease", "loss", "decline", "negative", "chart", "graph", "outline", "standard", "arrow"],
     category: "regular"
   },
   {
@@ -67978,7 +67978,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Up Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,56v64a12,12,0,0,1-24,0V85l-75.51,75.52a12,12,0,0,1-17,0L96,129,32.49,192.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0L136,135l67-67H168a12,12,0,0,1,0-24h64A12,12,0,0,1,244,56Z"/></svg>`,
     style: "bold",
-    tags: ["trend", "up"],
+    tags: ["trend", "up", "increase", "gain", "growth", "positive", "chart", "graph", "bold", "thick", "arrow"],
     category: "bold"
   },
   {
@@ -67986,7 +67986,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Up Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,56v64L168,56Z" opacity="0.2"/><path d="M232,48H168a8,8,0,0,0-5.66,13.66L188.69,88,136,140.69l-34.34-34.35a8,8,0,0,0-11.32,0l-72,72a8,8,0,0,0,11.32,11.32L96,123.31l34.34,34.35a8,8,0,0,0,11.32,0L200,99.31l26.34,26.35A8,8,0,0,0,240,120V56A8,8,0,0,0,232,48Zm-8,52.69L187.31,64H224Z"/></svg>`,
     style: "duotone",
-    tags: ["trend", "up"],
+    tags: ["trend", "up", "increase", "gain", "growth", "positive", "chart", "graph", "two-tone", "layered", "arrow"],
     category: "duotone"
   },
   {
@@ -67994,7 +67994,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Up Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,56v64a8,8,0,0,1-13.66,5.66L200,99.31l-58.34,58.35a8,8,0,0,1-11.32,0L96,123.31,29.66,189.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0L136,140.69,188.69,88,162.34,61.66A8,8,0,0,1,168,48h64A8,8,0,0,1,240,56Z"/></svg>`,
     style: "fill",
-    tags: ["trend", "up"],
+    tags: ["trend", "up", "increase", "gain", "growth", "positive", "chart", "graph", "filled", "solid", "arrow"],
     category: "fill"
   },
   {
@@ -68002,7 +68002,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Up Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238,56v64a6,6,0,0,1-12,0V70.48l-85.76,85.76a6,6,0,0,1-8.48,0L96,120.49,28.24,188.24a6,6,0,0,1-8.48-8.48l72-72a6,6,0,0,1,8.48,0L136,143.51,217.52,62H168a6,6,0,0,1,0-12h64A6,6,0,0,1,238,56Z"/></svg>`,
     style: "light",
-    tags: ["trend", "up"],
+    tags: ["trend", "up", "increase", "gain", "growth", "positive", "chart", "graph", "thin", "delicate", "arrow"],
     category: "light"
   },
   {
@@ -68010,7 +68010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Up Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,56v64a4,4,0,0,1-8,0V65.66l-89.17,89.17a4,4,0,0,1-5.66,0L96,117.66,26.83,186.83a4,4,0,0,1-5.66-5.66l72-72a4,4,0,0,1,5.66,0L136,146.34,222.34,60H168a4,4,0,0,1,0-8h64A4,4,0,0,1,236,56Z"/></svg>`,
     style: "thin",
-    tags: ["trend", "up"],
+    tags: ["trend", "up", "growth", "increase", "progress", "chart", "analytics", "thin", "line", "minimal", "arrow"],
     category: "thin"
   },
   {
@@ -68018,7 +68018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trend Up Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,56v64a8,8,0,0,1-16,0V75.31l-82.34,82.35a8,8,0,0,1-11.32,0L96,123.31,29.66,189.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0L136,140.69,212.69,64H168a8,8,0,0,1,0-16h64A8,8,0,0,1,240,56Z"/></svg>`,
     style: "regular",
-    tags: ["trend", "up"],
+    tags: ["trend", "up", "growth", "increase", "progress", "chart", "analytics", "line", "arrow", "data", "performance"],
     category: "regular"
   },
   {
@@ -68026,7 +68026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.26,186.1,152.81,34.23h0a28.74,28.74,0,0,0-49.62,0L15.74,186.1a27.45,27.45,0,0,0,0,27.71A28.31,28.31,0,0,0,40.55,228h174.9a28.31,28.31,0,0,0,24.79-14.19A27.45,27.45,0,0,0,240.26,186.1Zm-20.8,15.7a4.46,4.46,0,0,1-4,2.2H40.55a4.46,4.46,0,0,1-4-2.2,3.56,3.56,0,0,1,0-3.73L124,46.2a4.75,4.75,0,0,1,8,0l87.45,151.87A3.56,3.56,0,0,1,219.46,201.8Z"/></svg>`,
     style: "bold",
-    tags: ["triangle"],
+    tags: ["triangle", "geometric", "shape", "warning", "play", "pointer", "bold", "filled", "solid", "minimal"],
     category: "bold"
   },
   {
@@ -68034,7 +68034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Dashed Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164,216a12,12,0,0,1-12,12H104a12,12,0,0,1,0-24h48A12,12,0,0,1,164,216Zm76.26-29.9L235.6,178a12,12,0,1,0-20.79,12l4.65,8.08a3.56,3.56,0,0,1,0,3.73,4.46,4.46,0,0,1-4,2.2H192a12,12,0,0,0,0,24h23.46a28.31,28.31,0,0,0,24.79-14.19A27.47,27.47,0,0,0,240.26,186.1ZM64,204H40.55a4.46,4.46,0,0,1-4-2.2,3.56,3.56,0,0,1,0-3.73L41.19,190A12,12,0,1,0,20.4,178l-4.66,8.09a27.47,27.47,0,0,0,0,27.71A28.31,28.31,0,0,0,40.55,228H64a12,12,0,0,0,0-24Zm138.17-48a12,12,0,0,0,10.39-18l-23-40a12,12,0,0,0-20.8,12l23,40A12,12,0,0,0,202.18,156ZM166.5,58,152.81,34.23a28.74,28.74,0,0,0-49.62,0L89.5,58a12,12,0,1,0,20.79,12L124,46.2a4.75,4.75,0,0,1,8,0L145.71,70a12,12,0,0,0,10.41,6,11.87,11.87,0,0,0,6-1.6A12,12,0,0,0,166.5,58ZM82.85,93.6A12,12,0,0,0,66.46,98l-23,40a12,12,0,0,0,20.8,12l23-40A12,12,0,0,0,82.85,93.6Z"/></svg>`,
     style: "bold",
-    tags: ["triangle", "dashed"],
+    tags: ["triangle", "dashed", "geometric", "shape", "outline", "dashed line", "abstract", "bold", "empty", "minimal"],
     category: "bold"
   },
   {
@@ -68042,7 +68042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Dashed Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M215.46,216H40.54C27.92,216,20,202.79,26.13,192.09L113.59,40.22c6.3-11,22.52-11,28.82,0l87.46,151.87C236,202.79,228.08,216,215.46,216Z" opacity="0.2"/><path d="M160,216a8,8,0,0,1-8,8H104a8,8,0,0,1,0-16h48A8,8,0,0,1,160,216Zm76.8-27.91L232.14,180a8,8,0,0,0-13.86,8l4.65,8.09a7.59,7.59,0,0,1,0,7.72,8.5,8.5,0,0,1-7.48,4.2H192a8,8,0,0,0,0,16h23.45a24.34,24.34,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM64,208H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L37.72,188a8,8,0,1,0-13.86-8l-4.66,8.08a23.51,23.51,0,0,0,0,23.72A24.34,24.34,0,0,0,40.55,224H64a8,8,0,0,0,0-16Zm138.18-56a8,8,0,0,0,6.93-12l-23-40a8,8,0,0,0-13.86,8l23,40A8,8,0,0,0,202.18,152ZM149.35,36.22a24.76,24.76,0,0,0-42.7,0L93,60a8,8,0,1,0,13.86,8l13.7-23.78a8.75,8.75,0,0,1,15,0L149.18,68a8,8,0,0,0,6.94,4,7.91,7.91,0,0,0,4-1.07A8,8,0,0,0,163,60ZM80.85,97.07A8,8,0,0,0,69.93,100l-23,40a8,8,0,0,0,13.87,8l23-40A8,8,0,0,0,80.85,97.07Z"/></svg>`,
     style: "duotone",
-    tags: ["triangle", "dashed"],
+    tags: ["triangle", "dashed", "geometric", "shape", "outline", "dashed line", "abstract", "duotone", "empty", "minimal"],
     category: "duotone"
   },
   {
@@ -68050,7 +68050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Dashed Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.8,188.09,149.35,36.22a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.34,24.34,0,0,0,40.55,224h174.9a24.34,24.34,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM108,200H60.79A12,12,0,0,1,50.4,182l24.18-42a8,8,0,0,1,13.87,8L67.71,184H108a8,8,0,0,1,0,16Zm-1.12-84A8,8,0,0,1,93,108l24.59-42.7a12,12,0,0,1,20.8,0L163,108a8,8,0,0,1-13.87,8L128,79.31Zm98.72,78a12.05,12.05,0,0,1-10.39,6H148a8,8,0,0,1,0-16h40.29l-20.74-36a8,8,0,0,1,13.87-8l24.18,42A12,12,0,0,1,205.6,194Z"/></svg>`,
     style: "fill",
-    tags: ["triangle", "dashed"],
+    tags: ["triangle", "dashed", "geometric", "shape", "outline", "dashed line", "abstract", "filled", "solid", "minimal"],
     category: "fill"
   },
   {
@@ -68058,7 +68058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Dashed Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M158,216a6,6,0,0,1-6,6H104a6,6,0,0,1,0-12h48A6,6,0,0,1,158,216Zm77.07-26.91L230.41,181a6,6,0,1,0-10.4,6l4.66,8.09a9.49,9.49,0,0,1,0,9.72,10.46,10.46,0,0,1-9.21,5.2H192a6,6,0,0,0,0,12h23.45a22.37,22.37,0,0,0,19.6-11.19A21.53,21.53,0,0,0,235.07,189.09ZM64,210H40.55a10.46,10.46,0,0,1-9.21-5.2,9.49,9.49,0,0,1,0-9.72L36,187a6,6,0,0,0-10.4-6l-4.66,8.08a21.53,21.53,0,0,0,0,21.72A22.37,22.37,0,0,0,40.55,222H64a6,6,0,0,0,0-12Zm138.18-60a6,6,0,0,0,5.2-9l-23-40a6,6,0,1,0-10.4,6l23,40A6,6,0,0,0,202.18,150ZM147.61,37.22a22.75,22.75,0,0,0-39.22,0L94.69,61a6,6,0,1,0,10.4,6l13.7-23.78a10.75,10.75,0,0,1,18.42,0L150.91,67a6,6,0,0,0,10.4-6ZM79.85,98.8A6,6,0,0,0,71.66,101l-23,40A6,6,0,1,0,59,147l23-40A6,6,0,0,0,79.85,98.8Z"/></svg>`,
     style: "light",
-    tags: ["triangle", "dashed"],
+    tags: ["triangle", "dashed", "geometric", "shape", "outline", "dashed line", "abstract", "light", "empty", "minimal"],
     category: "light"
   },
   {
@@ -68066,7 +68066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Dashed Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M156,216a4,4,0,0,1-4,4H104a4,4,0,0,1,0-8h48A4,4,0,0,1,156,216Zm77.34-25.91L228.68,182a4,4,0,1,0-6.93,4l4.65,8.08a11.45,11.45,0,0,1,0,11.72,12.47,12.47,0,0,1-10.94,6.2H192a4,4,0,0,0,0,8h23.46a20.36,20.36,0,0,0,17.86-10.2A19.52,19.52,0,0,0,233.34,190.09ZM64,212H40.54a12.47,12.47,0,0,1-10.94-6.2,11.45,11.45,0,0,1,0-11.72L34.25,186a4,4,0,1,0-6.93-4l-4.66,8.09a19.52,19.52,0,0,0,0,19.71A20.36,20.36,0,0,0,40.54,220H64a4,4,0,0,0,0-8Zm138.18-64a4,4,0,0,0,3.47-6l-23-40a4,4,0,1,0-6.93,4l23,40A4,4,0,0,0,202.18,148ZM145.88,38.22a20.75,20.75,0,0,0-35.76,0L96.42,62a4,4,0,1,0,6.94,4l13.69-23.79a12.76,12.76,0,0,1,21.9,0L152.64,66a4,4,0,0,0,6.94-4Zm-67,62.31A4,4,0,0,0,73.39,102l-23,40a4,4,0,0,0,6.94,4l23-40A4,4,0,0,0,78.85,100.53Z"/></svg>`,
     style: "thin",
-    tags: ["triangle", "dashed"],
+    tags: ["triangle", "dashed", "geometric", "shape", "outline", "dashed line", "abstract", "thin", "empty", "minimal"],
     category: "thin"
   },
   {
@@ -68074,7 +68074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Dashed Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,216a8,8,0,0,1-8,8H104a8,8,0,0,1,0-16h48A8,8,0,0,1,160,216Zm76.8-27.91L232.14,180a8,8,0,0,0-13.86,8l4.65,8.09a7.59,7.59,0,0,1,0,7.72,8.5,8.5,0,0,1-7.48,4.2H192a8,8,0,0,0,0,16h23.45a24.34,24.34,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM64,208H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L37.72,188a8,8,0,1,0-13.86-8l-4.66,8.08a23.51,23.51,0,0,0,0,23.72A24.34,24.34,0,0,0,40.55,224H64a8,8,0,0,0,0-16Zm138.18-56a8,8,0,0,0,6.93-12l-23-40a8,8,0,0,0-13.86,8l23,40A8,8,0,0,0,202.18,152ZM149.35,36.22a24.76,24.76,0,0,0-42.7,0L93,60a8,8,0,1,0,13.86,8l13.7-23.78a8.75,8.75,0,0,1,15,0L149.18,68a8,8,0,0,0,6.94,4,7.91,7.91,0,0,0,4-1.07A8,8,0,0,0,163,60ZM80.85,97.07A8,8,0,0,0,69.93,100l-23,40a8,8,0,0,0,13.87,8l23-40A8,8,0,0,0,80.85,97.07Z"/></svg>`,
     style: "regular",
-    tags: ["triangle", "dashed"],
+    tags: ["triangle", "dashed", "geometric", "shape", "outline", "dashed line", "abstract", "empty", "minimal", "regular"],
     category: "regular"
   },
   {
@@ -68082,7 +68082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M215.46,216H40.54C27.92,216,20,202.79,26.13,192.09L113.59,40.22c6.3-11,22.52-11,28.82,0l87.46,151.87C236,202.79,228.08,216,215.46,216Z" opacity="0.2"/><path d="M236.8,188.09,149.35,36.22a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.34,24.34,0,0,0,40.55,224h174.9a24.34,24.34,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8Z"/></svg>`,
     style: "duotone",
-    tags: ["triangle"],
+    tags: ["triangle", "geometric", "shape", "warning", "play", "pointer", "duotone", "filled", "solid", "minimal"],
     category: "duotone"
   },
   {
@@ -68090,7 +68090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.78,211.81A24.34,24.34,0,0,1,215.45,224H40.55a24.34,24.34,0,0,1-21.33-12.19,23.51,23.51,0,0,1,0-23.72L106.65,36.22a24.76,24.76,0,0,1,42.7,0L236.8,188.09A23.51,23.51,0,0,1,236.78,211.81Z"/></svg>`,
     style: "fill",
-    tags: ["triangle"],
+    tags: ["triangle", "geometric", "shape", "warning", "play", "pointer", "filled", "solid", "minimal", "arrow"],
     category: "fill"
   },
   {
@@ -68098,7 +68098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.07,189.09,147.61,37.22a22.75,22.75,0,0,0-39.22,0L20.93,189.09a21.53,21.53,0,0,0,0,21.72A22.35,22.35,0,0,0,40.55,222h174.9a22.35,22.35,0,0,0,19.6-11.19A21.53,21.53,0,0,0,235.07,189.09ZM224.66,204.8a10.46,10.46,0,0,1-9.21,5.2H40.55a10.46,10.46,0,0,1-9.21-5.2,9.49,9.49,0,0,1,0-9.72L118.79,43.21a10.75,10.75,0,0,1,18.42,0l87.46,151.87A9.49,9.49,0,0,1,224.66,204.8Z"/></svg>`,
     style: "light",
-    tags: ["triangle"],
+    tags: ["triangle", "geometric", "shape", "warning", "play", "pointer", "light", "filled", "solid", "minimal"],
     category: "light"
   },
   {
@@ -68106,7 +68106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M233.34,190.09,145.88,38.22a20.75,20.75,0,0,0-35.76,0L22.66,190.09a19.52,19.52,0,0,0,0,19.71A20.36,20.36,0,0,0,40.54,220H215.46a20.36,20.36,0,0,0,17.86-10.2A19.52,19.52,0,0,0,233.34,190.09ZM226.4,205.8a12.47,12.47,0,0,1-10.94,6.2H40.54a12.47,12.47,0,0,1-10.94-6.2,11.45,11.45,0,0,1,0-11.72L117.05,42.21a12.76,12.76,0,0,1,21.9,0L226.4,194.08A11.45,11.45,0,0,1,226.4,205.8Z"/></svg>`,
     style: "thin",
-    tags: ["triangle"],
+    tags: ["triangle", "geometric", "shape", "warning", "play", "pointer", "thin", "filled", "solid", "minimal"],
     category: "thin"
   },
   {
@@ -68114,7 +68114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Triangle Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.8,188.09,149.35,36.22a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.34,24.34,0,0,0,40.55,224h174.9a24.34,24.34,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8Z"/></svg>`,
     style: "regular",
-    tags: ["triangle"],
+    tags: ["triangle", "geometric", "shape", "warning", "play", "pointer", "filled", "solid", "minimal", "regular"],
     category: "regular"
   },
   {
@@ -68122,7 +68122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M92,224a20,20,0,1,1-20-20A20,20,0,0,1,92,224Zm124-20a20,20,0,1,0,20,20A20,20,0,0,0,216,204Zm24-36H60V75.31a19.86,19.86,0,0,0-5.86-14.14L32.49,39.51a12,12,0,0,0-17,17L36,77v91H32a12,12,0,0,0,0,24H240a12,12,0,0,0,0-24Z"/></svg>`,
     style: "bold",
-    tags: ["trolley"],
+    tags: ["trolley", "shopping cart", "basket", "ecommerce", "checkout", "purchase", "bold", "filled", "commerce"],
     category: "bold"
   },
   {
@@ -68130,7 +68130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,88v96H48V72H224A16,16,0,0,1,240,88Z" opacity="0.2"/><path d="M88,224a16,16,0,1,1-16-16A16,16,0,0,1,88,224Zm128-16a16,16,0,1,0,16,16A16,16,0,0,0,216,208Zm24-32H56V75.31A15.86,15.86,0,0,0,51.31,64L29.66,42.34A8,8,0,0,0,18.34,53.66L40,75.31V176H32a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["trolley"],
+    tags: ["trolley", "shopping cart", "basket", "ecommerce", "checkout", "purchase", "duotone", "filled", "commerce"],
     category: "duotone"
   },
   {
@@ -68138,7 +68138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M88,224a16,16,0,1,1-16-16A16,16,0,0,1,88,224Zm128-16a16,16,0,1,0,16,16A16,16,0,0,0,216,208Zm24-32H56V75.31A15.86,15.86,0,0,0,51.31,64L29.66,42.34A8,8,0,0,0,18.34,53.66L40,75.31V176H32a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM88,160H216a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H88A16,16,0,0,0,72,80v64A16,16,0,0,0,88,160Z"/></svg>`,
     style: "fill",
-    tags: ["trolley"],
+    tags: ["trolley", "shopping cart", "basket", "ecommerce", "checkout", "purchase", "filled", "solid", "commerce"],
     category: "fill"
   },
   {
@@ -68146,7 +68146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M86,224a14,14,0,1,1-14-14A14,14,0,0,1,86,224Zm130-14a14,14,0,1,0,14,14A14,14,0,0,0,216,210Zm24-32H54V75.31a13.94,13.94,0,0,0-4.1-9.9L28.24,43.76a6,6,0,1,0-8.48,8.48L41.41,73.9A2,2,0,0,1,42,75.31V178H32a6,6,0,0,0,0,12H240a6,6,0,0,0,0-12Z"/></svg>`,
     style: "light",
-    tags: ["trolley"],
+    tags: ["trolley", "shopping cart", "basket", "ecommerce", "checkout", "purchase", "light", "filled", "commerce"],
     category: "light"
   },
   {
@@ -68154,7 +68154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Suitcase Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M96,156H216a20,20,0,0,0,20-20V76a20,20,0,0,0-20-20H192V40a20,20,0,0,0-20-20H140a20,20,0,0,0-20,20V56H96A20,20,0,0,0,76,76v60A20,20,0,0,0,96,156ZM144,44h24V56H144ZM100,80H212v52H100ZM92,224a20,20,0,1,1-20-20A20,20,0,0,1,92,224Zm144,0a20,20,0,1,1-20-20A20,20,0,0,1,236,224Zm16-44a12,12,0,0,1-12,12H32a12,12,0,0,1,0-24h4V77L15.51,56.49a12,12,0,0,1,17-17L54.14,61.17A19.86,19.86,0,0,1,60,75.31V168H240A12,12,0,0,1,252,180Z"/></svg>`,
     style: "bold",
-    tags: ["trolley", "suitcase"],
+    tags: ["trolley", "suitcase", "luggage", "travel", "baggage", "vacation", "journey", "bold", "filled", "transport"],
     category: "bold"
   },
   {
@@ -68162,7 +68162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Suitcase Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,72v72a8,8,0,0,1-8,8H88a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8H216A8,8,0,0,1,224,72Z" opacity="0.2"/><path d="M88,224a16,16,0,1,1-16-16A16,16,0,0,1,88,224Zm128-16a16,16,0,1,0,16,16A16,16,0,0,0,216,208Zm24-32H56V75.31A15.86,15.86,0,0,0,51.31,64L29.66,42.34A8,8,0,0,0,18.34,53.66L40,75.31V176H32a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM72,144V72A16,16,0,0,1,88,56h32V40a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V56h32a16,16,0,0,1,16,16v72a16,16,0,0,1-16,16H88A16,16,0,0,1,72,144Zm64-88h32V40H136ZM88,144H216V72H88Z"/></svg>`,
     style: "duotone",
-    tags: ["trolley", "suitcase"],
+    tags: ["trolley", "suitcase", "luggage", "travel", "baggage", "vacation", "journey", "duotone", "filled", "transport"],
     category: "duotone"
   },
   {
@@ -68170,7 +68170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Suitcase Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M88,224a16,16,0,1,1-16-16A16,16,0,0,1,88,224Zm128-16a16,16,0,1,0,16,16A16,16,0,0,0,216,208Zm24-32H56V75.31A15.86,15.86,0,0,0,51.31,64L29.66,42.34A8,8,0,0,0,18.34,53.66L40,75.31V176H32a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM72,144V72A16,16,0,0,1,88,56h32V40a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V56h32a16,16,0,0,1,16,16v72a16,16,0,0,1-16,16H88A16,16,0,0,1,72,144Zm64-88h32V40H136Z"/></svg>`,
     style: "fill",
-    tags: ["trolley", "suitcase"],
+    tags: ["trolley", "suitcase", "luggage", "travel", "baggage", "vacation", "journey", "filled", "solid", "transport"],
     category: "fill"
   },
   {
@@ -68178,7 +68178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Suitcase Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M88,158H216a14,14,0,0,0,14-14V72a14,14,0,0,0-14-14H182V40a14,14,0,0,0-14-14H136a14,14,0,0,0-14,14V58H88A14,14,0,0,0,74,72v72A14,14,0,0,0,88,158ZM134,40a2,2,0,0,1,2-2h32a2,2,0,0,1,2,2V58H134ZM86,72a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2v72a2,2,0,0,1-2,2H88a2,2,0,0,1-2-2Zm0,152a14,14,0,1,1-14-14A14,14,0,0,1,86,224Zm144,0a14,14,0,1,1-14-14A14,14,0,0,1,230,224Zm16-40a6,6,0,0,1-6,6H32a6,6,0,0,1,0-12H42V75.31a2,2,0,0,0-.59-1.41L19.76,52.24a6,6,0,1,1,8.48-8.48L49.9,65.41a13.94,13.94,0,0,1,4.1,9.9V178H240A6,6,0,0,1,246,184Z"/></svg>`,
     style: "light",
-    tags: ["trolley", "suitcase"],
+    tags: ["trolley", "suitcase", "luggage", "travel", "baggage", "vacation", "journey", "light", "filled", "transport"],
     category: "light"
   },
   {
@@ -68186,7 +68186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Suitcase Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M88,156H216a12,12,0,0,0,12-12V72a12,12,0,0,0-12-12H180V40a12,12,0,0,0-12-12H136a12,12,0,0,0-12,12V60H88A12,12,0,0,0,76,72v72A12,12,0,0,0,88,156ZM132,40a4,4,0,0,1,4-4h32a4,4,0,0,1,4,4V60H132ZM84,72a4,4,0,0,1,4-4H216a4,4,0,0,1,4,4v72a4,4,0,0,1-4,4H88a4,4,0,0,1-4-4Zm0,152a12,12,0,1,1-12-12A12,12,0,0,1,84,224Zm144,0a12,12,0,1,1-12-12A12,12,0,0,1,228,224Zm16-40a4,4,0,0,1-4,4H32a4,4,0,0,1,0-8H44V75.31a4,4,0,0,0-1.17-2.83L21.17,50.83a4,4,0,0,1,5.66-5.66L48.49,66.83A12,12,0,0,1,52,75.31V180H240A4,4,0,0,1,244,184Z"/></svg>`,
     style: "thin",
-    tags: ["trolley", "suitcase"],
+    tags: ["trolley", "suitcase", "luggage", "travel", "baggage", "vacation", "journey", "thin", "line", "minimal", "transport"],
     category: "thin"
   },
   {
@@ -68194,7 +68194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Suitcase Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M88,224a16,16,0,1,1-16-16A16,16,0,0,1,88,224Zm128-16a16,16,0,1,0,16,16A16,16,0,0,0,216,208Zm24-32H56V75.31A15.86,15.86,0,0,0,51.31,64L29.66,42.34A8,8,0,0,0,18.34,53.66L40,75.31V176H32a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM72,144V72A16,16,0,0,1,88,56h32V40a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V56h32a16,16,0,0,1,16,16v72a16,16,0,0,1-16,16H88A16,16,0,0,1,72,144Zm64-88h32V40H136ZM88,144H216V72H88Z"/></svg>`,
     style: "regular",
-    tags: ["trolley", "suitcase"],
+    tags: ["trolley", "suitcase", "luggage", "travel", "baggage", "vacation", "journey", "regular", "filled", "transport"],
     category: "regular"
   },
   {
@@ -68202,7 +68202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M84,224a12,12,0,1,1-12-12A12,12,0,0,1,84,224Zm132-12a12,12,0,1,0,12,12A12,12,0,0,0,216,212Zm24-32H52V75.31a12,12,0,0,0-3.51-8.48L26.83,45.17a4,4,0,0,0-5.66,5.66L42.83,72.48A4,4,0,0,1,44,75.31V180H32a4,4,0,0,0,0,8H240a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["trolley"],
+    tags: ["trolley", "shopping cart", "basket", "ecommerce", "checkout", "purchase", "thin", "line", "minimal", "commerce"],
     category: "thin"
   },
   {
@@ -68210,7 +68210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trolley Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M88,224a16,16,0,1,1-16-16A16,16,0,0,1,88,224Zm128-16a16,16,0,1,0,16,16A16,16,0,0,0,216,208Zm24-32H56V75.31A15.86,15.86,0,0,0,51.31,64L29.66,42.34A8,8,0,0,0,18.34,53.66L40,75.31V176H32a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["trolley"],
+    tags: ["trolley", "shopping cart", "basket", "ecommerce", "retail", "buy", "purchase", "add to cart", "store", "consumer", "outlined"],
     category: "regular"
   },
   {
@@ -68218,7 +68218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trophy Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,60H212V48a12,12,0,0,0-12-12H56A12,12,0,0,0,44,48V60H24A20,20,0,0,0,4,80V96a44.05,44.05,0,0,0,44,44h.77A84.18,84.18,0,0,0,116,195.15V212H96a12,12,0,0,0,0,24h64a12,12,0,0,0,0-24H140V195.11c30.94-4.51,56.53-26.2,67-55.11h1a44.05,44.05,0,0,0,44-44V80A20,20,0,0,0,232,60ZM28,96V84H44v28c0,1.21,0,2.41.09,3.61A20,20,0,0,1,28,96Zm160,15.1c0,33.33-26.71,60.65-59.54,60.9A60,60,0,0,1,68,112V60H188ZM228,96a20,20,0,0,1-16.12,19.62c.08-1.5.12-3,.12-4.52V84h16Z"/></svg>`,
     style: "bold",
-    tags: ["trophy"],
+    tags: ["trophy", "award", "prize", "winner", "achievement", "success", "competition", "celebration", "reward", "cup", "filled"],
     category: "bold"
   },
   {
@@ -68226,7 +68226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trophy Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,48v63.1c0,39.7-31.75,72.6-71.45,72.9A72,72,0,0,1,56,112V48Z" opacity="0.2"/><path d="M232,64H208V48a8,8,0,0,0-8-8H56a8,8,0,0,0-8,8V64H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8Zm144-8.9c0,35.52-29,64.64-64,64.9a64,64,0,0,1-64-64V56H192ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"/></svg>`,
     style: "duotone",
-    tags: ["trophy"],
+    tags: ["trophy", "award", "prize", "winner", "achievement", "success", "competition", "celebration", "reward", "cup", "two-tone"],
     category: "duotone"
   },
   {
@@ -68234,7 +68234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trophy Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,64H208V48a8,8,0,0,0-8-8H56a8,8,0,0,0-8,8V64H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"/></svg>`,
     style: "fill",
-    tags: ["trophy"],
+    tags: ["trophy", "award", "prize", "winner", "achievement", "success", "competition", "celebration", "reward", "cup", "filled"],
     category: "fill"
   },
   {
@@ -68242,7 +68242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trophy Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,66H206V48a6,6,0,0,0-6-6H56a6,6,0,0,0-6,6V66H24A14,14,0,0,0,10,80V96a38,38,0,0,0,38,38h5.14A78,78,0,0,0,122,189.75V218H96a6,6,0,0,0,0,12h64a6,6,0,0,0,0-12H134V189.75c32.44-2.52,59.43-25.3,68.62-55.75H208a38,38,0,0,0,38-38V80A14,14,0,0,0,232,66ZM48,122A26,26,0,0,1,22,96V80a2,2,0,0,1,2-2H50v34a80.87,80.87,0,0,0,.65,10Zm146-10.9c0,36.62-29.38,66.63-65.5,66.9A66,66,0,0,1,62,112V54H194ZM234,96a26,26,0,0,1-26,26h-2.77a78.45,78.45,0,0,0,.77-10.9V78h26a2,2,0,0,1,2,2Z"/></svg>`,
     style: "light",
-    tags: ["trophy"],
+    tags: ["trophy", "award", "prize", "winner", "achievement", "success", "competition", "celebration", "reward", "cup", "thin"],
     category: "light"
   },
   {
@@ -68250,7 +68250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trophy Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,68H204V48a4,4,0,0,0-4-4H56a4,4,0,0,0-4,4V68H24A12,12,0,0,0,12,80V96a36,36,0,0,0,36,36h6.66A76,76,0,0,0,124,187.89V220H96a4,4,0,0,0,0,8h64a4,4,0,0,0,0-8H132V187.88c32.93-1.74,60.41-24.91,69.11-55.88H208a36,36,0,0,0,36-36V80A12,12,0,0,0,232,68ZM48,124A28,28,0,0,1,20,96V80a4,4,0,0,1,4-4H52v36a77,77,0,0,0,1,12Zm148-12.9c0,37.71-30.79,68.62-68,68.9a68,68,0,0,1-68-68V52H196ZM236,96a28,28,0,0,1-28,28h-5.1a77.35,77.35,0,0,0,1.1-12.9V76h28a4,4,0,0,1,4,4Z"/></svg>`,
     style: "thin",
-    tags: ["trophy"],
+    tags: ["trophy", "award", "prize", "winner", "achievement", "success", "competition", "celebration", "reward", "cup", "light"],
     category: "thin"
   },
   {
@@ -68258,7 +68258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Trophy Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,64H208V48a8,8,0,0,0-8-8H56a8,8,0,0,0-8,8V64H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8Zm144-8.9c0,35.52-29,64.64-64,64.9a64,64,0,0,1-64-64V56H192ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"/></svg>`,
     style: "regular",
-    tags: ["trophy"],
+    tags: ["trophy", "award", "prize", "winner", "achievement", "success", "competition", "celebration", "reward", "cup", "outlined"],
     category: "regular"
   },
   {
@@ -68266,7 +68266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255.14,115.54l-14-35A19.89,19.89,0,0,0,222.58,68H196V64a12,12,0,0,0-12-12H32A20,20,0,0,0,12,72V184a20,20,0,0,0,20,20H46.06a36,36,0,0,0,67.88,0h44.12a36,36,0,0,0,67.88,0H236a20,20,0,0,0,20-20V120A21.7,21.7,0,0,0,255.14,115.54ZM196,92h23.88l6.4,16H196ZM80,204a12,12,0,1,1,12-12A12,12,0,0,1,80,204Zm92-41.92A36.32,36.32,0,0,0,158.06,180H113.94a36,36,0,0,0-67.88,0H36V140H172ZM172,116H36V76H172Zm20,88a12,12,0,1,1,12-12A12,12,0,0,1,192,204Zm40-24h-6.06A36.09,36.09,0,0,0,196,156.23V132h36Z"/></svg>`,
     style: "bold",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "lorry", "filled", "heavy"],
     category: "bold"
   },
   {
@@ -68274,7 +68274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,120v64a8,8,0,0,1-8,8H216a24,24,0,0,0-48,0H104a24,24,0,0,0-48,0H32a8,8,0,0,1-8-8V144H184V120Z" opacity="0.2"/><path d="M255.42,117l-14-35A15.93,15.93,0,0,0,226.58,72H192V64a8,8,0,0,0-8-8H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V120A7.94,7.94,0,0,0,255.42,117ZM192,88h34.58l9.6,24H192ZM32,72H176v64H32ZM80,208a16,16,0,1,1,16-16A16,16,0,0,1,80,208Zm81-24H111a32,32,0,0,0-62,0H32V152H176v12.31A32.11,32.11,0,0,0,161,184Zm31,24a16,16,0,1,1,16-16A16,16,0,0,1,192,208Zm48-24H223a32.06,32.06,0,0,0-31-24V128h48Z"/></svg>`,
     style: "duotone",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "lorry", "two-tone", "heavy"],
     category: "duotone"
   },
   {
@@ -68282,7 +68282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255.43,117l-14-35A15.93,15.93,0,0,0,226.58,72H192V64a8,8,0,0,0-8-8H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V120A8.13,8.13,0,0,0,255.43,117ZM80,208a16,16,0,1,1,16-16A16,16,0,0,1,80,208ZM32,136V72H176v64Zm160,72a16,16,0,1,1,16-16A16,16,0,0,1,192,208Zm0-96V88h34.58l9.6,24Z"/></svg>`,
     style: "fill",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "lorry", "filled", "heavy"],
     category: "fill"
   },
   {
@@ -68290,7 +68290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M253.57,117.78l-14-35a13.93,13.93,0,0,0-13-8.8H190V64a6,6,0,0,0-6-6H32A14,14,0,0,0,18,72V184a14,14,0,0,0,14,14H50.6a30,30,0,0,0,58.8,0h53.2a30,30,0,0,0,58.8,0H240a14,14,0,0,0,14-14V120A6,6,0,0,0,253.57,117.78ZM190,86h36.58a2,2,0,0,1,1.86,1.26L239.14,114H190ZM30,72a2,2,0,0,1,2-2H178v68H30ZM80,210a18,18,0,1,1,18-18A18,18,0,0,1,80,210Zm82.6-24H109.4a30,30,0,0,0-58.8,0H32a2,2,0,0,1-2-2V150H178v15.48A30.1,30.1,0,0,0,162.6,186ZM192,210a18,18,0,1,1,18-18A18,18,0,0,1,192,210Zm50-26a2,2,0,0,1-2,2H221.4A30.05,30.05,0,0,0,192,162c-.67,0-1.34,0-2,.07V126h52Z"/></svg>`,
     style: "light",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "lorry", "thin", "heavy"],
     category: "light"
   },
   {
@@ -68298,7 +68298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M251.71,118.52l-14-35A12,12,0,0,0,226.58,76H188V64a4,4,0,0,0-4-4H32A12,12,0,0,0,20,72V184a12,12,0,0,0,12,12H52.29a28,28,0,0,0,55.42,0h56.58a28,28,0,0,0,55.42,0H240a12,12,0,0,0,12-12V120A4,4,0,0,0,251.71,118.52ZM188,84h38.58a4,4,0,0,1,3.72,2.51L242.09,116H188ZM28,72a4,4,0,0,1,4-4H180v72H28ZM80,212a20,20,0,1,1,20-20A20,20,0,0,1,80,212Zm84.29-24H107.71a28,28,0,0,0-55.42,0H32a4,4,0,0,1-4-4V148H180v18.71A28.05,28.05,0,0,0,164.29,188ZM192,212a20,20,0,1,1,20-20A20,20,0,0,1,192,212Zm52-28a4,4,0,0,1-4,4H219.71A28,28,0,0,0,188,164.29V124h56Z"/></svg>`,
     style: "thin",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "lorry", "light", "heavy"],
     category: "thin"
   },
   {
@@ -68306,7 +68306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Trailer Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,93.65A60.08,60.08,0,0,0,164,36a20,20,0,0,0-20,20V172H128V72a12,12,0,0,0-12-12H20A20,20,0,0,0,0,80V184a36,36,0,0,0,60,26.8A36,36,0,0,0,117.94,196h68.12A36,36,0,0,0,256,184V136A44.08,44.08,0,0,0,224,93.65ZM168,60.22A36.06,36.06,0,0,1,200,96v8a12,12,0,0,0,12,12,20,20,0,0,1,20,20v14.06A36,36,0,0,0,186.06,172H168ZM104,84v70.08a35.92,35.92,0,0,0-44,3.12,35.93,35.93,0,0,0-36-7.14V84ZM36,196a12,12,0,1,1,12-12A12,12,0,0,1,36,196Zm48,0a12,12,0,1,1,12-12A12,12,0,0,1,84,196Zm136,0a12,12,0,1,1,12-12A12,12,0,0,1,220,196Z"/></svg>`,
     style: "bold",
-    tags: ["truck", "trailer"],
+    tags: ["truck", "trailer", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "articulated", "filled", "heavy"],
     category: "bold"
   },
   {
@@ -68314,7 +68314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Trailer Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M16,72H120V184H104a24,24,0,0,0-48,0,24,24,0,0,0-48,0V80A8,8,0,0,1,16,72Zm200,32V96a48,48,0,0,0-48-48h-8a8,8,0,0,0-8,8V184h48a24,24,0,0,1,48,0V136A32,32,0,0,0,216,104Z" opacity="0.2"/><path d="M224,96.8V96a56.06,56.06,0,0,0-56-56h-8a16,16,0,0,0-16,16V176H128V72a8,8,0,0,0-8-8H16A16,16,0,0,0,0,80V184a32,32,0,0,0,56,21.13A32,32,0,0,0,111,192h82a32,32,0,0,0,63-8V136A40.07,40.07,0,0,0,224,96.8ZM160,56h8a40,40,0,0,1,40,40v8a8,8,0,0,0,8,8,24,24,0,0,1,24,24v20.31A31.71,31.71,0,0,0,224,152a32.06,32.06,0,0,0-31,24H160ZM112,80v96h-1a32,32,0,0,0-55-13.13,31.9,31.9,0,0,0-40-6.56V80ZM32,200a16,16,0,1,1,16-16A16,16,0,0,1,32,200Zm48,0a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm144,0a16,16,0,1,1,16-16A16,16,0,0,1,224,200Z"/></svg>`,
     style: "duotone",
-    tags: ["truck", "trailer"],
+    tags: ["truck", "trailer", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "articulated", "two-tone", "heavy"],
     category: "duotone"
   },
   {
@@ -68322,7 +68322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Trailer Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,96.8V96a56.06,56.06,0,0,0-56-56h-8a16,16,0,0,0-16,16V176H128V72a8,8,0,0,0-8-8H16A16,16,0,0,0,0,80V184a32,32,0,0,0,56,21.13A32,32,0,0,0,111,192h82a32,32,0,0,0,63-8V136A40.07,40.07,0,0,0,224,96.8ZM32,200a16,16,0,1,1,16-16A16,16,0,0,1,32,200Zm48,0a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm144,0a16,16,0,1,1,16-16A16,16,0,0,1,224,200Z"/></svg>`,
     style: "fill",
-    tags: ["truck", "trailer"],
+    tags: ["truck", "trailer", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "articulated", "filled", "heavy"],
     category: "fill"
   },
   {
@@ -68330,7 +68330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Trailer Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222,98.47V96a54.06,54.06,0,0,0-54-54h-8a14,14,0,0,0-14,14V178H126V72a6,6,0,0,0-6-6H16A14,14,0,0,0,2,80V184a30,30,0,0,0,54,18,30,30,0,0,0,53.4-12h85.2a30,30,0,0,0,59.4-6V136A38.07,38.07,0,0,0,222,98.47ZM158,56a2,2,0,0,1,2-2h8a42,42,0,0,1,42,42v8a6,6,0,0,0,6,6,26,26,0,0,1,26,26v24a30,30,0,0,0-47.4,18H158ZM16,78h98V178h-4.6A30,30,0,0,0,56,166a30,30,0,0,0-42-6V80A2,2,0,0,1,16,78ZM32,202a18,18,0,1,1,18-18A18,18,0,0,1,32,202Zm48,0a18,18,0,1,1,18-18A18,18,0,0,1,80,202Zm144,0a18,18,0,1,1,18-18A18,18,0,0,1,224,202Z"/></svg>`,
     style: "light",
-    tags: ["truck", "trailer"],
+    tags: ["truck", "trailer", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "articulated", "thin", "heavy"],
     category: "light"
   },
   {
@@ -68338,7 +68338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Trailer Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220,100.22V96a52.06,52.06,0,0,0-52-52h-8a12,12,0,0,0-12,12V180H124V72a4,4,0,0,0-4-4H16A12,12,0,0,0,4,80V184a28,28,0,0,0,52,14.41A28,28,0,0,0,107.71,188h88.58A28,28,0,0,0,252,184V136A36.06,36.06,0,0,0,220,100.22ZM12,80a4,4,0,0,1,4-4H116V180h-8.29A28,28,0,0,0,56,169.59a28,28,0,0,0-44-5.16ZM32,204a20,20,0,1,1,20-20A20,20,0,0,1,32,204Zm48,0a20,20,0,1,1,20-20A20,20,0,0,1,80,204Zm144,0a20,20,0,1,1,20-20A20,20,0,0,1,224,204Zm0-48a28,28,0,0,0-27.71,24H156V56a4,4,0,0,1,4-4h8a44.05,44.05,0,0,1,44,44v8a4,4,0,0,0,4,4,28,28,0,0,1,28,28v28.43A27.9,27.9,0,0,0,224,156Z"/></svg>`,
     style: "thin",
-    tags: ["truck", "trailer"],
+    tags: ["truck", "trailer", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "articulated", "light", "heavy"],
     category: "thin"
   },
   {
@@ -68346,7 +68346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Trailer Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,96.8V96a56.06,56.06,0,0,0-56-56h-8a16,16,0,0,0-16,16V176H128V72a8,8,0,0,0-8-8H16A16,16,0,0,0,0,80V184a32,32,0,0,0,56,21.13A32,32,0,0,0,111,192h82a32,32,0,0,0,63-8V136A40.07,40.07,0,0,0,224,96.8ZM160,56h8a40,40,0,0,1,40,40v8a8,8,0,0,0,8,8,24,24,0,0,1,24,24v20.31A31.71,31.71,0,0,0,224,152a32.06,32.06,0,0,0-31,24H160ZM112,80v96h-1a32,32,0,0,0-55-13.13,31.9,31.9,0,0,0-40-6.56V80ZM32,200a16,16,0,1,1,16-16A16,16,0,0,1,32,200Zm48,0a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm144,0a16,16,0,1,1,16-16A16,16,0,0,1,224,200Z"/></svg>`,
     style: "regular",
-    tags: ["truck", "trailer"],
+    tags: ["truck", "trailer", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "articulated", "outlined", "heavy"],
     category: "regular"
   },
   {
@@ -68354,7 +68354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Truck Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255.42,117l-14-35A15.93,15.93,0,0,0,226.58,72H192V64a8,8,0,0,0-8-8H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V120A7.94,7.94,0,0,0,255.42,117ZM192,88h34.58l9.6,24H192ZM32,72H176v64H32ZM80,208a16,16,0,1,1,16-16A16,16,0,0,1,80,208Zm81-24H111a32,32,0,0,0-62,0H32V152H176v12.31A32.11,32.11,0,0,0,161,184Zm31,24a16,16,0,1,1,16-16A16,16,0,0,1,192,208Zm48-24H223a32.06,32.06,0,0,0-31-24V128h48Z"/></svg>`,
     style: "regular",
-    tags: ["truck"],
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "vehicle", "cargo", "freight", "lorry", "outlined", "heavy"],
     category: "regular"
   },
   {
@@ -68362,7 +68362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tumblr Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,124a12,12,0,0,0,12-12V72a12,12,0,0,0-12-12H156V24a12,12,0,0,0-12-12H112a12,12,0,0,0-12,12A36,36,0,0,1,64,60,12,12,0,0,0,52,72v40a12,12,0,0,0,12,12H84v52a68.07,68.07,0,0,0,68,68h40a12,12,0,0,0,12-12V184a12,12,0,0,0-12-12H160a4,4,0,0,1-4-4V124Zm-32,72h20v24H152a44.05,44.05,0,0,1-44-44V112a12,12,0,0,0-12-12H76V82.79A60.18,60.18,0,0,0,122.79,36H132V72a12,12,0,0,0,12,12h36v16H144a12,12,0,0,0-12,12v56A28,28,0,0,0,160,196Z"/></svg>`,
     style: "bold",
-    tags: ["tumblr", "logo"],
+    tags: ["tumblr", "logo", "social media", "blogging", "platform", "network", "app", "brand", "filled", "bold"],
     category: "bold"
   },
   {
@@ -68370,7 +68370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tumblr Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,112v56a16,16,0,0,0,16,16h32v48H152a56,56,0,0,1-56-56V112H64V72h0a48,48,0,0,0,48-48h32V72h48v40Z" opacity="0.2"/><path d="M192,120a8,8,0,0,0,8-8V72a8,8,0,0,0-8-8H152V24a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8A40,40,0,0,1,64,64a8,8,0,0,0-8,8v40a8,8,0,0,0,8,8H88v56a64.07,64.07,0,0,0,64,64h40a8,8,0,0,0,8-8V184a8,8,0,0,0-8-8H160a8,8,0,0,1-8-8V120Zm-32,72h24v32H152a48.05,48.05,0,0,1-48-48V112a8,8,0,0,0-8-8H72V79.43A56.13,56.13,0,0,0,119.43,32H136V72a8,8,0,0,0,8,8h40v24H144a8,8,0,0,0-8,8v56A24,24,0,0,0,160,192Z"/></svg>`,
     style: "duotone",
-    tags: ["tumblr", "logo"],
+    tags: ["tumblr", "logo", "social media", "blogging", "platform", "network", "app", "brand", "two-tone"],
     category: "duotone"
   },
   {
@@ -68378,7 +68378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tumblr Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,120v48a8,8,0,0,0,8,8h32a8,8,0,0,1,8,8v48a8,8,0,0,1-8,8H152a64.07,64.07,0,0,1-64-64V120H64a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8,40,40,0,0,0,40-40,8,8,0,0,1,8-8h32a8,8,0,0,1,8,8V64h40a8,8,0,0,1,8,8v40a8,8,0,0,1-8,8Z"/></svg>`,
     style: "fill",
-    tags: ["tumblr", "logo"],
+    tags: ["tumblr", "logo", "social media", "blogging", "platform", "network", "app", "brand", "filled"],
     category: "fill"
   },
   {
@@ -68386,7 +68386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tumblr Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,118a6,6,0,0,0,6-6V72a6,6,0,0,0-6-6H150V24a6,6,0,0,0-6-6H112a6,6,0,0,0-6,6A42,42,0,0,1,64,66a6,6,0,0,0-6,6v40a6,6,0,0,0,6,6H90v58a62.07,62.07,0,0,0,62,62h40a6,6,0,0,0,6-6V184a6,6,0,0,0-6-6H160a10,10,0,0,1-10-10V118Zm-32,72h26v36H152a50.06,50.06,0,0,1-50-50V112a6,6,0,0,0-6-6H70V77.67A54.12,54.12,0,0,0,117.67,30H138V72a6,6,0,0,0,6,6h42v28H144a6,6,0,0,0-6,6v56A22,22,0,0,0,160,190Z"/></svg>`,
     style: "light",
-    tags: ["tumblr", "logo"],
+    tags: ["tumblr", "logo", "social media", "blogging", "platform", "network", "app", "brand", "thin"],
     category: "light"
   },
   {
@@ -68394,7 +68394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tumblr Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,116a4,4,0,0,0,4-4V72a4,4,0,0,0-4-4H148V24a4,4,0,0,0-4-4H112a4,4,0,0,0-4,4A44.05,44.05,0,0,1,64,68a4,4,0,0,0-4,4v40a4,4,0,0,0,4,4H92v60a60.07,60.07,0,0,0,60,60h40a4,4,0,0,0,4-4V184a4,4,0,0,0-4-4H160a12,12,0,0,1-12-12V116Zm-32,72h28v40H152a52.06,52.06,0,0,1-52-52V112a4,4,0,0,0-4-4H68V75.85A52.09,52.09,0,0,0,115.85,28H140V72a4,4,0,0,0,4,4h44v32H144a4,4,0,0,0-4,4v56A20,20,0,0,0,160,188Z"/></svg>`,
     style: "thin",
-    tags: ["tumblr", "logo"],
+    tags: ["tumblr", "logo", "social media", "blogging", "platform", "network", "app", "brand", "light"],
     category: "thin"
   },
   {
@@ -68402,7 +68402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Tumblr Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,120a8,8,0,0,0,8-8V72a8,8,0,0,0-8-8H152V24a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8A40,40,0,0,1,64,64a8,8,0,0,0-8,8v40a8,8,0,0,0,8,8H88v56a64.07,64.07,0,0,0,64,64h40a8,8,0,0,0,8-8V184a8,8,0,0,0-8-8H160a8,8,0,0,1-8-8V120Zm-32,72h24v32H152a48.05,48.05,0,0,1-48-48V112a8,8,0,0,0-8-8H72V79.43A56.13,56.13,0,0,0,119.43,32H136V72a8,8,0,0,0,8,8h40v24H144a8,8,0,0,0-8,8v56A24,24,0,0,0,160,192Z"/></svg>`,
     style: "regular",
-    tags: ["tumblr", "logo"],
+    tags: ["tumblr", "logo", "social media", "blogging", "platform", "network", "app", "brand", "outlined"],
     category: "regular"
   },
   {
@@ -68410,7 +68410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitch Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,28H48A20,20,0,0,0,28,48V192a20,20,0,0,0,20,20H60v28a12,12,0,0,0,19.68,9.22L124.34,212H165.1a20.06,20.06,0,0,0,12.81-4.64l42.89-35.74a19.93,19.93,0,0,0,7.2-15.37V48A20,20,0,0,0,208,28Zm-4,126.38L163.66,188H120a12,12,0,0,0-7.68,2.78L84,214.38V200a12,12,0,0,0-12-12H52V52H204ZM156,136V88a12,12,0,0,1,24,0v48a12,12,0,0,1-24,0Zm-48,0V88a12,12,0,0,1,24,0v48a12,12,0,0,1-24,0Z"/></svg>`,
     style: "bold",
-    tags: ["twitch", "logo"],
+    tags: ["twitch", "logo", "streaming", "gaming", "social media", "platform", "video", "entertainment", "app", "bold"],
     category: "bold"
   },
   {
@@ -68418,7 +68418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitch Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48V156.25a8,8,0,0,1-2.88,6.15l-42.89,35.75A8.05,8.05,0,0,1,165.1,200H120L72,240V200H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2"/><path d="M208,32H48A16,16,0,0,0,32,48V192a16,16,0,0,0,16,16H64v32a8,8,0,0,0,13.12,6.15L122.9,208h42.2a16,16,0,0,0,10.25-3.71l42.89-35.75A15.93,15.93,0,0,0,224,156.25V48A16,16,0,0,0,208,32Zm0,124.25L165.1,192H120a8,8,0,0,0-5.12,1.85L80,222.92V200a8,8,0,0,0-8-8H48V48H208ZM160,136V88a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Zm-48,0V88a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Z"/></svg>`,
     style: "duotone",
-    tags: ["twitch", "logo"],
+    tags: ["twitch", "logo", "streaming", "gaming", "social media", "platform", "video", "entertainment", "app", "duotone"],
     category: "duotone"
   },
   {
@@ -68426,7 +68426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitch Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V192a16,16,0,0,0,16,16H64v32a8,8,0,0,0,13.12,6.15L122.9,208h42.2a16,16,0,0,0,10.25-3.71l42.89-35.75A15.93,15.93,0,0,0,224,156.25V48A16,16,0,0,0,208,32ZM128,136a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Zm48,0a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"/></svg>`,
     style: "fill",
-    tags: ["twitch", "logo"],
+    tags: ["twitch", "logo", "streaming", "gaming", "social media", "platform", "video", "entertainment", "app", "filled"],
     category: "fill"
   },
   {
@@ -68434,7 +68434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitch Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,34H48A14,14,0,0,0,34,48V192a14,14,0,0,0,14,14H66v34a6,6,0,0,0,9.84,4.61L122.17,206H165.1a14,14,0,0,0,9-3.25L217,167a14,14,0,0,0,5-10.76V48A14,14,0,0,0,208,34Zm2,122.25a2,2,0,0,1-.72,1.54l-42.9,35.75a2,2,0,0,1-1.28.46H120a6,6,0,0,0-3.84,1.39L78,227.19V200a6,6,0,0,0-6-6H48a2,2,0,0,1-2-2V48a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM174,88v48a6,6,0,0,1-12,0V88a6,6,0,0,1,12,0Zm-48,0v48a6,6,0,0,1-12,0V88a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["twitch", "logo"],
+    tags: ["twitch", "logo", "streaming", "gaming", "social media", "platform", "video", "entertainment", "app", "light"],
     category: "light"
   },
   {
@@ -68442,7 +68442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitch Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,36H48A12,12,0,0,0,36,48V192a12,12,0,0,0,12,12H68v36a4,4,0,0,0,2.3,3.62A3.9,3.9,0,0,0,72,244a4,4,0,0,0,2.56-.93L121.45,204H165.1a12.06,12.06,0,0,0,7.69-2.78l42.89-35.75a11.93,11.93,0,0,0,4.32-9.22V48A12,12,0,0,0,208,36Zm4,120.25a4,4,0,0,1-1.44,3.08l-42.9,35.74a4,4,0,0,1-2.56.93H120a4,4,0,0,0-2.56.93L76,231.46V200a4,4,0,0,0-4-4H48a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4H208a4,4,0,0,1,4,4ZM172,88v48a4,4,0,0,1-8,0V88a4,4,0,0,1,8,0Zm-48,0v48a4,4,0,0,1-8,0V88a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["twitch", "logo"],
+    tags: ["twitch", "logo", "streaming", "gaming", "social media", "platform", "video", "entertainment", "app", "thin"],
     category: "thin"
   },
   {
@@ -68450,7 +68450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitch Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V192a16,16,0,0,0,16,16H64v32a8,8,0,0,0,13.12,6.15L122.9,208h42.2a16,16,0,0,0,10.25-3.71l42.89-35.75A15.93,15.93,0,0,0,224,156.25V48A16,16,0,0,0,208,32Zm0,124.25L165.1,192H120a8,8,0,0,0-5.12,1.85L80,222.92V200a8,8,0,0,0-8-8H48V48H208ZM160,136V88a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Zm-48,0V88a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Z"/></svg>`,
     style: "regular",
-    tags: ["twitch", "logo"],
+    tags: ["twitch", "logo", "streaming", "gaming", "social media", "platform", "video", "entertainment", "app", "regular"],
     category: "regular"
   },
   {
@@ -68458,7 +68458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitter Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M251.09,67.41A12,12,0,0,0,240,60H211.82a52.73,52.73,0,0,0-43.67-24,50.85,50.85,0,0,0-36.6,14.85A51.87,51.87,0,0,0,116,88v.78c-36.83-11.57-66.38-40.9-66.7-41.23a12,12,0,0,0-20.47,7.38C22.52,125.1,53.48,162.72,70.89,178.05,56.4,192.83,36,200.68,35.8,200.76A12,12,0,0,0,30,218.66C32,221.55,43.44,236,80,236c72.25,0,132.7-55.26,139.6-126.63l28.88-28.88A12,12,0,0,0,251.09,67.41ZM199.52,95.52a11.93,11.93,0,0,0-3.49,7.72C192.14,164.23,141.18,212,80,212a90.78,90.78,0,0,1-12.49-.79C78,204.55,89.72,195.07,98,182.66a12,12,0,0,0-3.9-17c-.12-.07-12.33-7.49-23.43-24.42s-17.26-37-18.46-59.78C69.37,94.4,96,110.79,126,115.84A12,12,0,0,0,140,104V88a28,28,0,0,1,8.41-20.07A27.07,27.07,0,0,1,167.86,60a28.83,28.83,0,0,1,25.82,16.81,12,12,0,0,0,11,7.19H211Z"/></svg>`,
     style: "bold",
-    tags: ["twitter", "logo"],
+    tags: ["twitter", "logo", "x", "social media", "microblogging", "bird", "platform", "app", "bold"],
     category: "bold"
   },
   {
@@ -68466,7 +68466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitter Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,72l-32,32c-4.26,66.84-60.08,120-128,120-32,0-40-12-40-12s32-12,48-36c0,0-55.15-32-47.22-120,0,0,39.66,40,87.22,48V88c0-22,18-40.27,40-40a40.74,40.74,0,0,1,36.67,24Z" opacity="0.2"/><path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.65,48.65,0,0,0,168.1,40a46.87,46.87,0,0,0-33.74,13.7A47.87,47.87,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.3,47.79,9.57,79.77,22,98.18a110.92,110.92,0,0,0,21.89,24.2C61.43,195.2,37.45,204.41,37.2,204.51a8,8,0,0,0-3.85,11.93c.74,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.68,0,129.72-54.42,135.76-124.44l29.9-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.52-6.25,27.56-17,37.88-32.48a8,8,0,0,0-2.61-11.34c-.13-.08-12.86-7.74-24.48-25.29C54.54,124.11,48,100.38,48,73.09c16,13,45.25,33.18,78.69,38.8A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.89,30.89,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"/></svg>`,
     style: "duotone",
-    tags: ["twitter", "logo"],
+    tags: ["twitter", "logo", "x", "social media", "microblogging", "bird", "platform", "app", "duotone"],
     category: "duotone"
   },
   {
@@ -68474,7 +68474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitter Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M245.66,77.66l-29.9,29.9C209.72,177.58,150.67,232,80,232c-14.52,0-26.49-2.3-35.58-6.84-7.33-3.67-10.33-7.6-11.08-8.72a8,8,0,0,1,3.85-11.93c.26-.1,24.24-9.31,39.47-26.84a110.93,110.93,0,0,1-21.88-24.2c-12.4-18.41-26.28-50.39-22-98.18a8,8,0,0,1,13.65-4.92c.35.35,33.28,33.1,73.54,43.72V88a47.87,47.87,0,0,1,14.36-34.3A46.87,46.87,0,0,1,168.1,40a48.66,48.66,0,0,1,41.47,24H240a8,8,0,0,1,5.66,13.66Z"/></svg>`,
     style: "fill",
-    tags: ["twitter", "logo"],
+    tags: ["twitter", "logo", "x", "social media", "microblogging", "bird", "platform", "app", "filled"],
     category: "fill"
   },
   {
@@ -68482,7 +68482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitter Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M245.54,69.71A6,6,0,0,0,240,66H208.4a46.6,46.6,0,0,0-40.33-24,44.93,44.93,0,0,0-32.31,13.12A45.92,45.92,0,0,0,122,88v8.66c-42-10-76.6-44.52-77-44.88A6,6,0,0,0,34.8,55.46c-4.25,47.22,9.42,78.75,21.64,96.89a107.71,107.71,0,0,0,23.07,25c-15.49,19-41.34,28.89-41.62,29a6,6,0,0,0-2.88,9C36,216.83,45.78,230,80,230c69.88,0,128.23-54,133.82-123.34l30.42-30.41A6,6,0,0,0,245.54,69.71ZM203.76,99.76a6,6,0,0,0-1.75,3.86C197.93,167.76,144.33,218,80,218c-14,0-22.76-2.41-28.06-4.8,11.3-5.68,29.72-16.88,41.05-33.87a6,6,0,0,0,.85-4.67A6,6,0,0,0,91,170.82c-.13-.08-13.13-7.86-25-25.72C52,124,45.31,98.43,46,68.88c14.88,12.6,45.57,35.09,81,41a6,6,0,0,0,7-5.92V88a34,34,0,0,1,10.19-24.34A33.05,33.05,0,0,1,167.93,54c13.43.17,26,8.37,31.24,20.4a6,6,0,0,0,5.5,3.6h20.84Z"/></svg>`,
     style: "light",
-    tags: ["twitter", "logo"],
+    tags: ["twitter", "logo", "x", "social media", "microblogging", "bird", "platform", "app", "light"],
     category: "light"
   },
   {
@@ -68490,7 +68490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitter Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.7,70.47A4,4,0,0,0,240,68H207.2a44.57,44.57,0,0,0-39.15-24,42.76,42.76,0,0,0-30.88,12.55A43.85,43.85,0,0,0,124,88V99.16c-43.65-9.39-80-45.6-80.39-46a4,4,0,0,0-4.19-.95,4,4,0,0,0-2.63,3.41c-4.2,46.62,9.27,77.71,21.31,95.59A103.68,103.68,0,0,0,82.35,177c-15.68,20.49-43.46,31.13-43.75,31.24a4,4,0,0,0-1.93,6c.27.4,2.79,4,9.54,7.36C54.73,225.84,66.1,228,80,228c69.09,0,126.73-53.56,131.89-122.23l30.94-30.94A4,4,0,0,0,243.7,70.47Zm-38.53,30.7a4,4,0,0,0-1.16,2.58C199.85,168.94,145.38,220,80,220c-17.85,0-27.63-3.89-32.5-6.87,10.37-4.82,31.45-16.34,43.83-34.91a4,4,0,0,0,.56-3.12A3.93,3.93,0,0,0,90,172.55c-.13-.08-13.39-8-25.52-26.15C54,130.71,42.39,104.11,44.19,64.65c13.17,11.62,45.48,37,83.15,43.3a4,4,0,0,0,4.66-4V88a36,36,0,0,1,10.79-25.76A35,35,0,0,1,168,52c14.2.18,27.49,8.86,33.06,21.61A4,4,0,0,0,204.67,76h25.67Z"/></svg>`,
     style: "thin",
-    tags: ["twitter", "logo"],
+    tags: ["twitter", "logo", "x", "social media", "microblogging", "bird", "platform", "app", "thin"],
     category: "thin"
   },
   {
@@ -68498,7 +68498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Twitter Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"/></svg>`,
     style: "regular",
-    tags: ["twitter", "logo"],
+    tags: ["twitter", "logo", "x", "social media", "microblogging", "bird", "platform", "app", "regular"],
     category: "regular"
   },
   {
@@ -68506,7 +68506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.93,126.3A116.43,116.43,0,0,0,49,50.81a115.45,115.45,0,0,0-37,75.49A20,20,0,0,0,32,148h84v52a36,36,0,0,0,72,0,12,12,0,0,0-24,0,12,12,0,0,1-24,0V148h84a20,20,0,0,0,20-21.7ZM100.41,124c2.67-39.33,18.08-63.51,27.59-74.87,9.52,11.39,24.92,35.56,27.59,74.87ZM65.31,68.46A92,92,0,0,1,99,48.65C88.8,65.25,78.39,90.08,76.36,124H36.44A91.56,91.56,0,0,1,65.31,68.46ZM179.64,124c-2-33.92-12.44-58.75-22.65-75.35A92.19,92.19,0,0,1,219.56,124Z"/></svg>`,
     style: "bold",
-    tags: ["umbrella"],
+    tags: ["umbrella", "rain", "protection", "weather", "shelter", "accessory", "bold"],
     category: "bold"
   },
   {
@@ -68514,7 +68514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,32S88,64,88,136H32a8,8,0,0,1-8-8.71A104.21,104.21,0,0,1,128,32Zm104,95.29A104.21,104.21,0,0,0,128,32s40,32,40,104h56A8,8,0,0,0,232,127.29Z" opacity="0.2"/><path d="M240,126.63A112.44,112.44,0,0,0,51.75,53.75a111.56,111.56,0,0,0-35.7,72.88A16,16,0,0,0,32,144h88v56a32,32,0,0,0,64,0,8,8,0,0,0-16,0,16,16,0,0,1-32,0V144h88a16,16,0,0,0,16-17.37ZM32,128l0,0a96.15,96.15,0,0,1,76.2-85.89C96.48,58,81.85,86.11,80.17,128Zm64.15,0c1.39-30.77,10.53-52.81,18.3-66.24A106.44,106.44,0,0,1,128,43.16a106.31,106.31,0,0,1,13.52,18.6C154.8,84.7,159,109.28,159.82,128Zm79.65,0c-1.68-41.89-16.31-70-28-85.94A96.07,96.07,0,0,1,224,128Z"/></svg>`,
     style: "duotone",
-    tags: ["umbrella"],
+    tags: ["umbrella", "rain", "protection", "weather", "shelter", "accessory", "duotone"],
     category: "duotone"
   },
   {
@@ -68522,7 +68522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,126.63A112.21,112.21,0,0,0,128,24h0A112.21,112.21,0,0,0,16.05,126.63,16,16,0,0,0,32,144h88v56a32,32,0,0,0,64,0,8,8,0,0,0-16,0,16,16,0,0,1-32,0V144h88a16,16,0,0,0,16-17.37ZM32,128a96.15,96.15,0,0,1,76.2-85.89C96.48,58,81.85,86.11,80.17,128H32Zm143.83,0c-1.68-41.89-16.31-70-28-85.94A96.07,96.07,0,0,1,224,128Z"/></svg>`,
     style: "fill",
-    tags: ["umbrella"],
+    tags: ["umbrella", "rain", "protection", "weather", "shelter", "accessory", "filled"],
     category: "fill"
   },
   {
@@ -68530,7 +68530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238,126.79A110.43,110.43,0,0,0,53.11,55.22a109.51,109.51,0,0,0-35.06,71.57A14,14,0,0,0,32,142h90v58a30,30,0,0,0,60,0,6,6,0,0,0-12,0,18,18,0,0,1-36,0V142h90a14,14,0,0,0,14-15.21ZM94.11,130C95.8,78.79,118.81,49.84,128,40.27c9.2,9.58,32.2,38.53,33.89,89.73Zm-63.57-.65a2,2,0,0,1-.53-1.56,98.14,98.14,0,0,1,82.91-88.62c-12,15-29.43,44.44-30.83,90.83H32A2,2,0,0,1,30.54,129.35Zm194.92,0A2,2,0,0,1,224,130H173.91c-1.4-46.39-18.81-75.87-30.83-90.83A98.14,98.14,0,0,1,226,127.79,2,2,0,0,1,225.46,129.35Z"/></svg>`,
     style: "light",
-    tags: ["umbrella"],
+    tags: ["umbrella", "rain", "protection", "weather", "shelter", "accessory", "light"],
     category: "light"
   },
   {
@@ -68538,7 +68538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Simple Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.93,126.3A116.43,116.43,0,0,0,49,50.81a115.45,115.45,0,0,0-37,75.49A20,20,0,0,0,32,148h84v52a36,36,0,0,0,72,0,12,12,0,0,0-24,0,12,12,0,0,1-24,0V148h84a20,20,0,0,0,20-21.7ZM36.44,124A92.45,92.45,0,0,1,190.69,68.46,91.56,91.56,0,0,1,219.56,124Z"/></svg>`,
     style: "bold",
-    tags: ["umbrella", "simple"],
+    tags: ["umbrella", "simple", "rain", "protection", "weather", "shelter", "accessory", "minimal", "bold"],
     category: "bold"
   },
   {
@@ -68546,7 +68546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Simple Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,136H32a8,8,0,0,1-8-8.71,104.37,104.37,0,0,1,207.94,0A8,8,0,0,1,224,136Z" opacity="0.2"/><path d="M240,126.63A112.44,112.44,0,0,0,51.75,53.75a111.56,111.56,0,0,0-35.7,72.88A16,16,0,0,0,32,144h88v56a32,32,0,0,0,64,0,8,8,0,0,0-16,0,16,16,0,0,1-32,0V144h88a16,16,0,0,0,16-17.37ZM32,128l0,0A96.43,96.43,0,0,1,193.4,65.52,95.32,95.32,0,0,1,224,128Z"/></svg>`,
     style: "duotone",
-    tags: ["umbrella", "simple"],
+    tags: ["umbrella", "simple", "rain", "protection", "weather", "shelter", "accessory", "minimal", "duotone"],
     category: "duotone"
   },
   {
@@ -68554,7 +68554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Simple Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.76,138.83A16,16,0,0,1,224,144H136v56a16,16,0,0,0,32,0,8,8,0,0,1,16,0,32,32,0,0,1-64,0V144H32a16,16,0,0,1-16-17.37,112.44,112.44,0,0,1,188.2-72.88A111.56,111.56,0,0,1,240,126.63,16.1,16.1,0,0,1,235.76,138.83Z"/></svg>`,
     style: "fill",
-    tags: ["umbrella", "simple"],
+    tags: ["umbrella", "simple", "rain", "protection", "weather", "shelter", "accessory", "minimal", "filled"],
     category: "fill"
   },
   {
@@ -68562,7 +68562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Simple Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238,126.79A110.43,110.43,0,0,0,53.11,55.22a109.51,109.51,0,0,0-35.06,71.57A14,14,0,0,0,32,142h90v58a30,30,0,0,0,60,0,6,6,0,0,0-12,0,18,18,0,0,1-36,0V142h90a14,14,0,0,0,14-15.21Zm-12.49,2.56A2,2,0,0,1,224,130H32a2,2,0,0,1-1.49-.65,2,2,0,0,1-.53-1.56A98.43,98.43,0,0,1,194.76,64.05,97.5,97.5,0,0,1,226,127.79,2,2,0,0,1,225.46,129.35Z"/></svg>`,
     style: "light",
-    tags: ["umbrella", "simple"],
+    tags: ["umbrella", "simple", "rain", "protection", "weather", "shelter", "accessory", "minimal", "light"],
     category: "light"
   },
   {
@@ -68570,7 +68570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Simple Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,127A108.44,108.44,0,0,0,54.46,56.69,107.53,107.53,0,0,0,20,127a12,12,0,0,0,12,13h92v60a28,28,0,0,0,56,0,4,4,0,0,0-8,0,20,20,0,0,1-40,0V140h92a12,12,0,0,0,12-13Zm-9,3.74a4,4,0,0,1-3,1.3H32a4,4,0,0,1-4-4.38,100.43,100.43,0,0,1,168.1-65,99.53,99.53,0,0,1,31.88,65A4,4,0,0,1,226.93,130.7Z"/></svg>`,
     style: "thin",
-    tags: ["umbrella", "simple"],
+    tags: ["umbrella", "simple", "rain", "protection", "weather", "shelter", "accessory", "minimal", "thin"],
     category: "thin"
   },
   {
@@ -68578,7 +68578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Simple Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,126.63A112.44,112.44,0,0,0,51.75,53.75a111.56,111.56,0,0,0-35.7,72.88A16,16,0,0,0,32,144h88v56a32,32,0,0,0,64,0,8,8,0,0,0-16,0,16,16,0,0,1-32,0V144h88a16,16,0,0,0,16-17.37ZM32,128l0,0A96.43,96.43,0,0,1,193.4,65.52,95.32,95.32,0,0,1,224,128Z"/></svg>`,
     style: "regular",
-    tags: ["umbrella", "simple"],
+    tags: ["umbrella", "simple", "rain", "protection", "weather", "shelter", "accessory", "minimal", "regular"],
     category: "regular"
   },
   {
@@ -68586,7 +68586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,127A108.44,108.44,0,0,0,54.46,56.69,107.53,107.53,0,0,0,20,127a12,12,0,0,0,12,13h92v60a28,28,0,0,0,56,0,4,4,0,0,0-8,0,20,20,0,0,1-40,0V140h92a12,12,0,0,0,12-13ZM32,132a4,4,0,0,1-4-4.38,100.2,100.2,0,0,1,89.73-91.09C106,49.76,85.08,80.45,84,132Zm60,0c1.21-56,27.6-86.37,35.94-94.57C136.35,45.64,162.73,76,163.94,132Zm134.87-1.3a4,4,0,0,1-3,1.3H172c-1-51.55-22-82.24-33.7-95.47A100.2,100.2,0,0,1,228,127.62,4,4,0,0,1,226.93,130.7Z"/></svg>`,
     style: "thin",
-    tags: ["umbrella"],
+    tags: ["umbrella", "rain", "protection", "weather", "shelter", "accessory", "thin"],
     category: "thin"
   },
   {
@@ -68594,7 +68594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Umbrella Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,126.63A112.44,112.44,0,0,0,51.75,53.75a111.56,111.56,0,0,0-35.7,72.88A16,16,0,0,0,32,144h88v56a32,32,0,0,0,64,0,8,8,0,0,0-16,0,16,16,0,0,1-32,0V144h88a16,16,0,0,0,16-17.37ZM32,128l0,0a96.15,96.15,0,0,1,76.2-85.89C96.48,58,81.85,86.11,80.17,128Zm64.15,0c1.39-30.77,10.53-52.81,18.3-66.24A106.44,106.44,0,0,1,128,43.16a106.31,106.31,0,0,1,13.52,18.6C154.8,84.7,159,109.28,159.82,128Zm79.65,0c-1.68-41.89-16.31-70-28-85.94A96.07,96.07,0,0,1,224,128Z"/></svg>`,
     style: "regular",
-    tags: ["umbrella"],
+    tags: ["umbrella", "rain", "protection", "weather", "shelter", "accessory", "regular"],
     category: "regular"
   },
   {
@@ -68602,7 +68602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Union Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212,64v80a84,84,0,0,1-168,0V64a12,12,0,0,1,24,0v80a60,60,0,0,0,120,0V64a12,12,0,0,1,24,0Z"/></svg>`,
     style: "bold",
-    tags: ["union"],
+    tags: ["union", "combine", "merge", "join", "group", "connection", "collaboration", "geometric", "bold"],
     category: "bold"
   },
   {
@@ -68610,7 +68610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Union Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,64v80a72,72,0,0,1-144,0V64Z" opacity="0.2"/><path d="M208,64v80a80,80,0,0,1-160,0V64a8,8,0,0,1,16,0v80a64,64,0,0,0,128,0V64a8,8,0,0,1,16,0Z"/></svg>`,
     style: "duotone",
-    tags: ["union"],
+    tags: ["union", "merge", "combine", "join", "group", "interact", "geometric", "duotone", "abstract"],
     category: "duotone"
   },
   {
@@ -68618,7 +68618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Union Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM184,136a56,56,0,0,1-112,0V80a8,8,0,0,1,16,0v56a40,40,0,0,0,80,0V80a8,8,0,0,1,16,0Z"/></svg>`,
     style: "fill",
-    tags: ["union"],
+    tags: ["union", "merge", "combine", "join", "group", "interact", "geometric", "filled", "abstract"],
     category: "fill"
   },
   {
@@ -68626,7 +68626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Union Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M206,64v80a78,78,0,0,1-156,0V64a6,6,0,0,1,12,0v80a66,66,0,0,0,132,0V64a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["union"],
+    tags: ["union", "merge", "combine", "join", "group", "interact", "geometric", "minimal", "abstract"],
     category: "light"
   },
   {
@@ -68634,7 +68634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Union Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204,64v80a76,76,0,0,1-152,0V64a4,4,0,0,1,8,0v80a68,68,0,0,0,136,0V64a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["union"],
+    tags: ["union", "merge", "combine", "join", "group", "interact", "geometric", "minimal", "abstract"],
     category: "thin"
   },
   {
@@ -68642,7 +68642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Union Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,64v80a80,80,0,0,1-160,0V64a8,8,0,0,1,16,0v80a64,64,0,0,0,128,0V64a8,8,0,0,1,16,0Z"/></svg>`,
     style: "regular",
-    tags: ["union"],
+    tags: ["union", "merge", "combine", "join", "group", "interact", "geometric", "outline", "abstract"],
     category: "regular"
   },
   {
@@ -68650,7 +68650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M178,78A84,84,0,1,0,78,178,84,84,0,1,0,178,78Zm42,82a60.75,60.75,0,0,1-.38,6.65l-44-44a83.31,83.31,0,0,0,4-19.34A60.09,60.09,0,0,1,220,160Zm-74-30.94L126.94,110a59.57,59.57,0,0,1,28.9-9.81A59.57,59.57,0,0,1,146,129.06ZM110,126.94,129.06,146a59.57,59.57,0,0,1-28.9,9.81A59.57,59.57,0,0,1,110,126.94Zm42.7-50.6a83.31,83.31,0,0,0-19.34,4l-44-44A60.75,60.75,0,0,1,96,36,60.09,60.09,0,0,1,152.67,76.34ZM64.19,45.16l46.73,46.73a85,85,0,0,0-19,19L45.16,64.19A60.45,60.45,0,0,1,64.19,45.16ZM36,96a60.75,60.75,0,0,1,.38-6.65l44,44a83.31,83.31,0,0,0-4,19.34A60.09,60.09,0,0,1,36,96Zm67.33,83.66a83.31,83.31,0,0,0,19.34-4l44,44A60.75,60.75,0,0,1,160,220,60.09,60.09,0,0,1,103.33,179.66Zm88.48,31.18-46.73-46.73a85,85,0,0,0,19-19l46.73,46.73A60.45,60.45,0,0,1,191.81,210.84Z"/></svg>`,
     style: "bold",
-    tags: ["unite"],
+    tags: ["unite", "merge", "combine", "join", "group", "interact", "geometric", "bold", "abstract"],
     category: "bold"
   },
   {
@@ -68658,7 +68658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,160a72,72,0,0,1-143.6,7.6,72,72,0,1,1,79.2-79.2A72,72,0,0,1,232,160Z" opacity="0.2"/><path d="M174.63,81.37a80,80,0,1,0-93.26,93.26,80,80,0,1,0,93.26-93.26ZM32,96a64,64,0,0,1,126-16A80.08,80.08,0,0,0,80.05,158,64.11,64.11,0,0,1,32,96Zm128,0a64.07,64.07,0,0,1-64,64A64.07,64.07,0,0,1,160,96Zm0,128A64.11,64.11,0,0,1,98,176,80.08,80.08,0,0,0,176,98,64,64,0,0,1,160,224Z"/></svg>`,
     style: "duotone",
-    tags: ["unite"],
+    tags: ["unite", "merge", "combine", "join", "group", "interact", "geometric", "duotone", "abstract"],
     category: "duotone"
   },
   {
@@ -68666,7 +68666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,164a76,76,0,0,1-151.9,3.9,76,76,0,1,1,79.8-79.8A76.1,76.1,0,0,1,240,164Z"/></svg>`,
     style: "fill",
-    tags: ["unite"],
+    tags: ["unite", "merge", "combine", "join", "group", "interact", "geometric", "filled", "abstract"],
     category: "fill"
   },
   {
@@ -68674,7 +68674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M172.91,83.09a78,78,0,1,0-89.82,89.82,78,78,0,1,0,89.82-89.82ZM226,160a65.31,65.31,0,0,1-.62,8.9l-53.76-53.77A77.84,77.84,0,0,0,174,96c0-.17,0-.33,0-.49A66.1,66.1,0,0,1,226,160ZM45.31,53.79l55.5,55.5a77.86,77.86,0,0,0-12,19L34,73.48A66,66,0,0,1,45.31,53.79Zm88.92,96-28-28a66.47,66.47,0,0,1,15.52-15.52l28,28A66.47,66.47,0,0,1,134.23,149.75ZM162,96a65.62,65.62,0,0,1-6,27.49L132.51,100A65.62,65.62,0,0,1,160,94c.65,0,1.3,0,1.95,0C162,94.7,162,95.35,162,96Zm-52.71,4.81-55.5-55.5A66,66,0,0,1,73.48,34l54.8,54.81A77.86,77.86,0,0,0,109.29,100.81ZM94,160a65.62,65.62,0,0,1,6-27.49L123.49,156A65.62,65.62,0,0,1,96,162c-.65,0-1.3,0-2-.05C94,161.3,94,160.65,94,160Zm52.71-4.81,55.5,55.5A66,66,0,0,1,182.52,222l-54.8-54.81A77.86,77.86,0,0,0,146.71,155.19Zm8.48-8.48a77.86,77.86,0,0,0,12-19L222,182.52a66,66,0,0,1-11.35,19.69Zm5.3-64.7H160a77.84,77.84,0,0,0-19.13,2.38L87.1,30.62A65.31,65.31,0,0,1,96,30,66.1,66.1,0,0,1,160.49,82ZM30,96a65.31,65.31,0,0,1,.62-8.9l53.76,53.77A77.84,77.84,0,0,0,82,160c0,.17,0,.33,0,.49A66.1,66.1,0,0,1,30,96Zm65.51,78H96a77.84,77.84,0,0,0,19.13-2.38l53.77,53.76a65.31,65.31,0,0,1-8.9.62A66.1,66.1,0,0,1,95.51,174Z"/></svg>`,
     style: "light",
-    tags: ["unite"],
+    tags: ["unite", "merge", "combine", "join", "group", "interact", "geometric", "minimal", "abstract"],
     category: "light"
   },
   {
@@ -68682,7 +68682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Square Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,160V96a12,12,0,0,0-12-12H172V40a12,12,0,0,0-12-12H40A12,12,0,0,0,28,40V96h0v64a12,12,0,0,0,12,12H84v44a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V160Zm-63,44L52,91V69L187,204ZM69,52H91L204,165V187Zm135,79-23-23h23ZM148,75,125,52h23ZM52,125l23,23H52Zm56,56,23,23H108Z"/></svg>`,
     style: "bold",
-    tags: ["unite", "square"],
+    tags: ["unite", "square", "merge", "combine", "join", "group", "interact", "geometric", "bold", "abstract", "box"],
     category: "bold"
   },
   {
@@ -68690,7 +68690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Square Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,96V216H96V160H40V40H160V96Z" opacity="0.2"/><path d="M216,88H168V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V160a8,8,0,0,0,8,8H88v48a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V96A8,8,0,0,0,216,88Zm-8,120H104V160a8,8,0,0,0-8-8H48V48H152V96a8,8,0,0,0,8,8h48Z"/></svg>`,
     style: "duotone",
-    tags: ["unite", "square"],
+    tags: ["unite", "square", "merge", "combine", "join", "group", "interact", "geometric", "duotone", "abstract", "box"],
     category: "duotone"
   },
   {
@@ -68698,7 +68698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Square Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,96V216a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8V168H40a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8H160a8,8,0,0,1,8,8V88h48A8,8,0,0,1,224,96Z"/></svg>`,
     style: "fill",
-    tags: ["unite", "square"],
+    tags: ["unite", "square", "merge", "combine", "join", "group", "interact", "geometric", "filled", "abstract", "box"],
     category: "fill"
   },
   {
@@ -68706,7 +68706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Square Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,90H166V40a6,6,0,0,0-6-6H40a6,6,0,0,0-6,6V160a6,6,0,0,0,6,6H90v50a6,6,0,0,0,6,6H216a6,6,0,0,0,6-6V96A6,6,0,0,0,216,90ZM154.48,210,46,101.52v-47L201.52,210ZM54.48,46h47L210,154.48v47ZM210,137.52,174.48,102H210Zm-56-56L118.48,46H154Zm-108,37L81.52,154H46Zm56,56L137.52,210H102Z"/></svg>`,
     style: "light",
-    tags: ["unite", "square"],
+    tags: ["unite", "square", "merge", "combine", "join", "group", "interact", "geometric", "minimal", "abstract", "box"],
     category: "light"
   },
   {
@@ -68714,7 +68714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Square Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,92H164V40a4,4,0,0,0-4-4H40a4,4,0,0,0-4,4V160a4,4,0,0,0,4,4H92v52a4,4,0,0,0,4,4H216a4,4,0,0,0,4-4V96A4,4,0,0,0,216,92ZM153.66,212,44,102.34V49.66L206.34,212ZM49.66,44h52.68L212,153.66v52.68ZM212,142.34,169.66,100H212Zm-56-56L113.66,44H156ZM44,113.66,86.34,156H44Zm56,56L142.34,212H100Z"/></svg>`,
     style: "thin",
-    tags: ["unite", "square"],
+    tags: ["unite", "square", "merge", "combine", "join", "group", "interact", "geometric", "minimal", "abstract", "box"],
     category: "thin"
   },
   {
@@ -68722,7 +68722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Square Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,152V96a8,8,0,0,0-8-8H168V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8v64h0v56a8,8,0,0,0,8,8H88v48a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V152Zm-68.69,56L48,100.69V59.31L196.69,208Zm-96-160h41.38L208,155.31v41.38ZM208,132.69,179.31,104H208Zm-56-56L123.31,48H152ZM48,123.31,76.69,152H48Zm56,56L132.69,208H104Z"/></svg>`,
     style: "regular",
-    tags: ["unite", "square"],
+    tags: ["unite", "square", "merge", "combine", "join", "group", "interact", "geometric", "outline", "abstract", "box"],
     category: "regular"
   },
   {
@@ -68730,7 +68730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M171.17,84.83a76,76,0,1,0-86.34,86.34,76,76,0,1,0,86.34-86.34ZM228,160a68.63,68.63,0,0,1-1.27,13.07l-57.34-57.34A76,76,0,0,0,172,96c0-1,0-2-.07-2.93A68.1,68.1,0,0,1,228,160ZM45.2,50.86l58.34,58.33a76.35,76.35,0,0,0-14.09,22.6L31.67,74A68.14,68.14,0,0,1,45.2,50.86ZM74,31.67l57.78,57.78a76.35,76.35,0,0,0-22.6,14.09L50.86,45.2A68.14,68.14,0,0,1,74,31.67ZM164,96a67.59,67.59,0,0,1-7.45,30.89L129.11,99.45A67.59,67.59,0,0,1,160,92c1.3,0,2.6,0,3.88.12C164,93.4,164,94.7,164,96Zm-30,56.36L103.64,122A68.74,68.74,0,0,1,122,103.64L152.36,134A68.74,68.74,0,0,1,134,152.36ZM92,160a67.59,67.59,0,0,1,7.45-30.89l27.44,27.44A67.59,67.59,0,0,1,96,164c-1.3,0-2.6-.05-3.88-.12C92.05,162.6,92,161.3,92,160Zm54.81-7.54,58.33,58.34A68.14,68.14,0,0,1,182,224.33l-57.78-57.78A76.35,76.35,0,0,0,146.81,152.46Zm5.65-5.65a76.35,76.35,0,0,0,14.09-22.6L224.33,182a68.14,68.14,0,0,1-13.53,23.15Zm10.47-62.74c-1,0-2-.07-2.93-.07a76,76,0,0,0-19.73,2.61L82.93,29.27a68,68,0,0,1,80,54.8ZM28,96a68.63,68.63,0,0,1,1.27-13.07l57.34,57.34A76,76,0,0,0,84,160c0,1,0,2,.07,2.93A68.1,68.1,0,0,1,28,96Zm65.07,75.93c1,0,2,.07,2.93.07a76,76,0,0,0,19.73-2.61l57.34,57.34a68,68,0,0,1-80-54.8Z"/></svg>`,
     style: "thin",
-    tags: ["unite"],
+    tags: ["unite", "merge", "combine", "join", "group", "interact", "geometric", "minimal", "abstract"],
     category: "thin"
   },
   {
@@ -68738,7 +68738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Unite Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M174.63,81.37a80,80,0,1,0-93.26,93.26,80,80,0,1,0,93.26-93.26ZM224,160c0,1.52-.07,3-.18,4.51l-50-50A80,80,0,0,0,176,98,64.11,64.11,0,0,1,224,160ZM45.47,56.79,98.09,109.4a80.5,80.5,0,0,0-9.93,15.44L36.3,73A64,64,0,0,1,45.47,56.79ZM73,36.3l51.86,51.86a80.5,80.5,0,0,0-15.44,9.93L56.79,45.47A64,64,0,0,1,73,36.3Zm61.46,110.83-25.57-25.57a64.65,64.65,0,0,1,12.69-12.69l25.57,25.57A64.65,64.65,0,0,1,134.44,147.13ZM155.31,120,136,100.69A63.48,63.48,0,0,1,160,96,63.48,63.48,0,0,1,155.31,120Zm-54.62,16L120,155.31A63.48,63.48,0,0,1,96,160,63.48,63.48,0,0,1,100.69,136Zm45.91,21.91,52.61,52.62A64,64,0,0,1,183,219.7l-51.86-51.86A80.5,80.5,0,0,0,146.6,157.91Zm11.31-11.31a80.5,80.5,0,0,0,9.93-15.44L219.7,183a64,64,0,0,1-9.17,16.19ZM158,80.05a80,80,0,0,0-16.49,2.13l-50-50C93,32.07,94.48,32,96,32A64.11,64.11,0,0,1,158,80.05ZM32,96c0-1.52.07-3,.18-4.51l50,50A80,80,0,0,0,80.05,158,64.11,64.11,0,0,1,32,96ZM98,176a80,80,0,0,0,16.49-2.13l50,50c-1.49.11-3,.18-4.51.18A64.11,64.11,0,0,1,98,176Z"/></svg>`,
     style: "regular",
-    tags: ["unite"],
+    tags: ["unite", "merge", "combine", "join", "group", "interact", "geometric", "outline", "abstract"],
     category: "regular"
   },
   {
@@ -68746,7 +68746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M188,184a16,16,0,1,1,16-16A16,16,0,0,1,188,184Zm36-68H180a12,12,0,0,0,0,24h40v56H36V140H76a12,12,0,0,0,0-24H32a20,20,0,0,0-20,20v64a20,20,0,0,0,20,20H224a20,20,0,0,0,20-20V136A20,20,0,0,0,224,116ZM88.49,80.49,116,53v75a12,12,0,0,0,24,0V53l27.51,27.52a12,12,0,1,0,17-17l-48-48a12,12,0,0,0-17,0l-48,48a12,12,0,1,0,17,17Z"/></svg>`,
     style: "bold",
-    tags: ["upload"],
+    tags: ["upload", "send", "transfer", "publish", "share", "cloud", "arrow", "bold", "cta"],
     category: "bold"
   },
   {
@@ -68754,7 +68754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,136v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H224A8,8,0,0,1,232,136Z" opacity="0.2"/><path d="M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H80a8,8,0,0,1,0,16H32v64H224V136H176a8,8,0,0,1,0-16h48A16,16,0,0,1,240,136ZM85.66,77.66,120,43.31V128a8,8,0,0,0,16,0V43.31l34.34,34.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,77.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z"/></svg>`,
     style: "duotone",
-    tags: ["upload"],
+    tags: ["upload", "send", "transfer", "publish", "share", "cloud", "arrow", "duotone", "cta"],
     category: "duotone"
   },
   {
@@ -68762,7 +68762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M74.34,77.66a8,8,0,0,1,0-11.32l48-48a8,8,0,0,1,11.32,0l48,48a8,8,0,0,1-11.32,11.32L136,43.31V128a8,8,0,0,1-16,0V43.31L85.66,77.66A8,8,0,0,1,74.34,77.66ZM240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16h68a4,4,0,0,1,4,4v3.46c0,13.45,11,24.79,24.46,24.54A24,24,0,0,0,152,128v-4a4,4,0,0,1,4-4h68A16,16,0,0,1,240,136Zm-40,32a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z"/></svg>`,
     style: "fill",
-    tags: ["upload"],
+    tags: ["upload", "send", "transfer", "publish", "share", "cloud", "arrow", "filled", "cta"],
     category: "fill"
   },
   {
@@ -68770,7 +68770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238,136v64a14,14,0,0,1-14,14H32a14,14,0,0,1-14-14V136a14,14,0,0,1,14-14H80a6,6,0,0,1,0,12H32a2,2,0,0,0-2,2v64a2,2,0,0,0,2,2H224a2,2,0,0,0,2-2V136a2,2,0,0,0-2-2H176a6,6,0,0,1,0-12h48A14,14,0,0,1,238,136ZM84.24,76.24,122,38.49V128a6,6,0,0,0,12,0V38.49l37.76,37.75a6,6,0,0,0,8.48-8.48l-48-48a6,6,0,0,0-8.48,0l-48,48a6,6,0,0,0,8.48,8.48ZM198,168a10,10,0,1,0-10,10A10,10,0,0,0,198,168Z"/></svg>`,
     style: "light",
-    tags: ["upload"],
+    tags: ["upload", "send", "transfer", "publish", "share", "cloud", "arrow", "minimal", "cta"],
     category: "light"
   },
   {
@@ -68778,7 +68778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Simple Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,144v64a12,12,0,0,1-12,12H40a12,12,0,0,1-12-12V144a12,12,0,0,1,24,0v52H204V144a12,12,0,0,1,24,0ZM96.49,80.49,116,61v83a12,12,0,0,0,24,0V61l19.51,19.52a12,12,0,1,0,17-17l-40-40a12,12,0,0,0-17,0l-40,40a12,12,0,1,0,17,17Z"/></svg>`,
     style: "bold",
-    tags: ["upload", "simple"],
+    tags: ["upload", "simple", "send", "transfer", "publish", "share", "arrow", "bold", "cta", "basic"],
     category: "bold"
   },
   {
@@ -68786,7 +68786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Simple Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48V208H40V48A16,16,0,0,1,56,32H200A16,16,0,0,1,216,48Z" opacity="0.2"/><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0ZM93.66,77.66,120,51.31V144a8,8,0,0,0,16,0V51.31l26.34,26.35a8,8,0,0,0,11.32-11.32l-40-40a8,8,0,0,0-11.32,0l-40,40A8,8,0,0,0,93.66,77.66Z"/></svg>`,
     style: "duotone",
-    tags: ["upload", "simple"],
+    tags: ["upload", "simple", "send", "transfer", "publish", "share", "arrow", "duotone", "cta", "basic"],
     category: "duotone"
   },
   {
@@ -68794,7 +68794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Simple Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0ZM88,80h32v64a8,8,0,0,0,16,0V80h32a8,8,0,0,0,5.66-13.66l-40-40a8,8,0,0,0-11.32,0l-40,40A8,8,0,0,0,88,80Z"/></svg>`,
     style: "fill",
-    tags: ["upload", "simple"],
+    tags: ["upload", "simple", "send", "transfer", "publish", "share", "arrow", "filled", "cta", "basic"],
     category: "fill"
   },
   {
@@ -68802,7 +68802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Upload Simple Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222,144v64a6,6,0,0,1-6,6H40a6,6,0,0,1-6-6V144a6,6,0,0,1,12,0v58H210V144a6,6,0,0,1,12,0ZM92.24,76.24,122,46.49V144a6,6,0,0,0,12,0V46.49l29.76,29.75a6,6,0,0,0,8.48-8.48l-40-40a6,6,0,0,0-8.48,0l-40,40a6,6,0,0,0,8.48,8.48Z"/></svg>`,
     style: "light",
-    tags: ["upload", "simple"],
+    tags: ["upload", "simple", "send", "transfer", "publish", "share", "arrow", "minimal", "cta", "basic"],
     category: "light"
   },
   {
@@ -69010,7 +69010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Dashed Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a95.76,95.76,0,0,1-31.8,71.37A72,72,0,0,0,128,160a40,40,0,1,0-40-40,40,40,0,0,0,40,40,72,72,0,0,0-64.2,39.37h0A96,96,0,1,1,224,128Z" opacity="0.2"/><path d="M96.26,37A8,8,0,0,1,102,27.29a104.11,104.11,0,0,1,52,0,8,8,0,0,1-2,15.75,8.15,8.15,0,0,1-2-.26,88,88,0,0,0-44,0A8,8,0,0,1,96.26,37ZM33.35,110a8,8,0,0,0,9.85-5.57,87.88,87.88,0,0,1,22-38.09A8,8,0,0,0,53.79,55.14a104,104,0,0,0-26,45A8,8,0,0,0,33.35,110ZM150,213.22a88,88,0,0,1-44,0,8,8,0,0,0-4,15.49,104.11,104.11,0,0,0,52,0,8,8,0,0,0-4-15.49Zm62.8-108.77a8,8,0,0,0,15.42-4.28,104,104,0,0,0-26-45,8,8,0,1,0-11.41,11.21A88.14,88.14,0,0,1,212.79,104.45Zm15.44,51.39a103.68,103.68,0,0,1-30.68,49.47A8,8,0,0,1,185.07,203a64,64,0,0,0-114.14,0,8,8,0,0,1-5.67,4.23,8.11,8.11,0,0,1-1.46.14,8,8,0,0,1-5.35-2.05,103.74,103.74,0,0,1-30.68-49.49,8,8,0,0,1,15.42-4.27,87.58,87.58,0,0,0,19,34.88,79.57,79.57,0,0,1,36.1-28.77,48,48,0,1,1,59.38,0,79.57,79.57,0,0,1,36.1,28.77,87.58,87.58,0,0,0,19-34.88,8,8,0,1,1,15.42,4.28ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "circle", "dashed"],
+    tags: ["user", "circle", "dashed", "profile", "account", "avatar", "outline", "placeholder", "anonymous", "incomplete", "rounded"],
     category: "duotone"
   },
   {
@@ -69018,7 +69018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Dashed Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M96.26,37A8,8,0,0,1,102,27.29a104.11,104.11,0,0,1,52,0,8,8,0,0,1-2,15.75,8.15,8.15,0,0,1-2-.26,88,88,0,0,0-44,0A8,8,0,0,1,96.26,37ZM33.35,110a8,8,0,0,0,9.85-5.57,88,88,0,0,1,22-38.09A8,8,0,0,0,53.79,55.14a104.05,104.05,0,0,0-26,45A8,8,0,0,0,33.35,110Zm179.44-5.56a8,8,0,0,0,15.42-4.28,104,104,0,0,0-26-45,8,8,0,1,0-11.41,11.22A88,88,0,0,1,212.79,104.45ZM222.66,146a8,8,0,0,0-9.85,5.58,87.61,87.61,0,0,1-19,34.83A79.75,79.75,0,0,0,172,165.11a4,4,0,0,0-4.83.31,59.81,59.81,0,0,1-78.27,0,4,4,0,0,0-4.84-.31,79.52,79.52,0,0,0-22,21.12,87.7,87.7,0,0,1-18.83-34.67,8,8,0,0,0-15.42,4.28,104.07,104.07,0,0,0,200.46,0A8,8,0,0,0,222.66,146ZM128,164a44,44,0,1,0-44-44A44.05,44.05,0,0,0,128,164Z"/></svg>`,
     style: "fill",
-    tags: ["user", "circle", "dashed"],
+    tags: ["user", "circle", "dashed", "profile", "account", "avatar", "filled", "placeholder", "anonymous", "incomplete", "rounded"],
     category: "fill"
   },
   {
@@ -69026,7 +69026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Dashed Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M98.19,36.54a6,6,0,0,1,4.31-7.31,102,102,0,0,1,51,0,6,6,0,1,1-3,11.61,90,90,0,0,0-45,0A6,6,0,0,1,98.19,36.54Zm-64.3,71.54a5.88,5.88,0,0,0,1.6.22,6,6,0,0,0,5.78-4.4A90,90,0,0,1,63.78,65a6,6,0,1,0-8.56-8.41A102.12,102.12,0,0,0,29.7,100.7,6,6,0,0,0,33.89,108.08ZM150.5,215.15a90,90,0,0,1-45,0,6,6,0,1,0-3,11.61,102,102,0,0,0,51,0,6,6,0,0,0-3-11.62Zm64.22-111.24a6,6,0,0,0,5.78,4.4,5.88,5.88,0,0,0,1.6-.22,6,6,0,0,0,4.18-7.38,102,102,0,0,0-25.49-44.18,6,6,0,0,0-8.55,8.41A90.11,90.11,0,0,1,214.72,103.91ZM226.3,155.3a101.75,101.75,0,0,1-30.08,48.53,6,6,0,0,1-9.37-1.74,66,66,0,0,0-117.7,0,6,6,0,0,1-4.26,3.18,5.74,5.74,0,0,1-1.09.1,6,6,0,0,1-4-1.54A101.74,101.74,0,0,1,29.7,155.3a6,6,0,1,1,11.56-3.21,89.79,89.79,0,0,0,21.2,37.59,77.56,77.56,0,0,1,40-31.43,46,46,0,1,1,51,0,77.56,77.56,0,0,1,40,31.43,89.7,89.7,0,0,0,21.2-37.58,6,6,0,1,1,11.56,3.2ZM128,154a34,34,0,1,0-34-34A34,34,0,0,0,128,154Z"/></svg>`,
     style: "light",
-    tags: ["user", "circle", "dashed"],
+    tags: ["user", "circle", "dashed", "profile", "account", "avatar", "thin", "placeholder", "anonymous", "incomplete", "rounded"],
     category: "light"
   },
   {
@@ -69034,7 +69034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Dashed Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M100.13,36A4,4,0,0,1,103,31.17a100.09,100.09,0,0,1,50,0,4,4,0,0,1-1,7.88,4.36,4.36,0,0,1-1-.13,92,92,0,0,0-46,0A4,4,0,0,1,100.13,36ZM34.42,106.16a4,4,0,0,0,4.92-2.79,91.92,91.92,0,0,1,23-39.82,4,4,0,0,0-5.71-5.61,100.15,100.15,0,0,0-25,43.3A4,4,0,0,0,34.42,106.16ZM151,217.09a92,92,0,0,1-46,0,4,4,0,0,0-2,7.75,100,100,0,0,0,50,0,4,4,0,1,0-2-7.74Zm65.65-113.71a4,4,0,1,0,7.7-2.14,100.08,100.08,0,0,0-25-43.31,4,4,0,1,0-5.71,5.61A92,92,0,0,1,216.65,103.38Zm7.73,51.39a99.77,99.77,0,0,1-29.5,47.57,4,4,0,0,1-6.24-1.16,68,68,0,0,0-121.28,0,4,4,0,0,1-2.83,2.12,3.61,3.61,0,0,1-.73.07,4,4,0,0,1-2.68-1,99.8,99.8,0,0,1-29.5-47.58,4,4,0,1,1,7.71-2.13A91.89,91.89,0,0,0,62.8,192.91a75.66,75.66,0,0,1,44.54-34.08,44,44,0,1,1,41.32,0,75.66,75.66,0,0,1,44.54,34.08,91.83,91.83,0,0,0,23.47-40.28,4,4,0,0,1,7.71,2.14ZM128,156a36,36,0,1,0-36-36A36,36,0,0,0,128,156Z"/></svg>`,
     style: "thin",
-    tags: ["user", "circle", "dashed"],
+    tags: ["user", "circle", "dashed", "profile", "account", "avatar", "thin", "placeholder", "anonymous", "incomplete", "rounded"],
     category: "thin"
   },
   {
@@ -69042,7 +69042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Dashed Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M96.26,37A8,8,0,0,1,102,27.29a104.11,104.11,0,0,1,52,0,8,8,0,0,1-2,15.75,8.15,8.15,0,0,1-2-.26,88,88,0,0,0-44,0A8,8,0,0,1,96.26,37ZM33.35,110a8,8,0,0,0,9.85-5.57,87.88,87.88,0,0,1,22-38.09A8,8,0,0,0,53.8,55.14a103.92,103.92,0,0,0-26,45A8,8,0,0,0,33.35,110ZM150,213.22a88,88,0,0,1-44,0,8,8,0,0,0-4,15.49,104.11,104.11,0,0,0,52,0,8,8,0,0,0-4-15.49Zm62.8-108.77a8,8,0,0,0,15.42-4.28,104,104,0,0,0-26-45,8,8,0,1,0-11.41,11.21A88.14,88.14,0,0,1,212.79,104.45Zm15.44,51.39a103.68,103.68,0,0,1-30.68,49.47A8,8,0,0,1,185.07,203a64,64,0,0,0-114.14,0,8,8,0,0,1-12.48,2.32,103.74,103.74,0,0,1-30.68-49.49,8,8,0,0,1,15.42-4.27,87.58,87.58,0,0,0,19,34.88,79.57,79.57,0,0,1,36.1-28.77,48,48,0,1,1,59.38,0,79.57,79.57,0,0,1,36.1,28.77,87.58,87.58,0,0,0,19-34.88,8,8,0,1,1,15.42,4.28ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Z"/></svg>`,
     style: "regular",
-    tags: ["user", "circle", "dashed"],
+    tags: ["user", "circle", "dashed", "profile", "account", "avatar", "outline", "placeholder", "anonymous", "incomplete", "rounded"],
     category: "regular"
   },
   {
@@ -69050,7 +69050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a95.76,95.76,0,0,1-31.8,71.37A72,72,0,0,0,128,160a40,40,0,1,0-40-40,40,40,0,0,0,40,40,72,72,0,0,0-64.2,39.37h0A96,96,0,1,1,224,128Z" opacity="0.2"/><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "circle"],
+    tags: ["user", "circle", "profile", "account", "avatar", "outline", "person", "rounded", "login", "identity"],
     category: "duotone"
   },
   {
@@ -69058,7 +69058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M172,120a44,44,0,1,1-44-44A44.05,44.05,0,0,1,172,120Zm60,8A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88.09,88.09,0,0,0-91.47-87.93C77.43,41.89,39.87,81.12,40,128.25a87.65,87.65,0,0,0,22.24,58.16A79.71,79.71,0,0,1,84,165.1a4,4,0,0,1,4.83.32,59.83,59.83,0,0,0,78.28,0,4,4,0,0,1,4.83-.32,79.71,79.71,0,0,1,21.79,21.31A87.62,87.62,0,0,0,216,128Z"/></svg>`,
     style: "fill",
-    tags: ["user", "circle"],
+    tags: ["user", "circle", "profile", "account", "avatar", "filled", "person", "rounded", "login", "identity"],
     category: "fill"
   },
   {
@@ -69066,7 +69066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Gear Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M169.57,46.11a12,12,0,0,1,15.12-7.7L188,39.48V36a12,12,0,0,1,24,0v3.48l3.31-1.07a12,12,0,1,1,7.42,22.82l-3.31,1.08,2,2.82a12,12,0,1,1-19.41,14.1L200,76.42,198,79.23a12,12,0,1,1-19.41-14.1l2-2.82-3.31-1.08A12,12,0,0,1,169.57,46.11ZM236,128A108,108,0,1,1,128,20a109.19,109.19,0,0,1,18,1.49,12,12,0,0,1-4,23.67A85,85,0,0,0,128,44,83.94,83.94,0,0,0,62.05,179.94a83.48,83.48,0,0,1,29-23.42,52,52,0,1,1,74,0,83.48,83.48,0,0,1,29,23.42A83.57,83.57,0,0,0,212,128a85.2,85.2,0,0,0-1.16-14,12,12,0,0,1,23.67-4A109,109,0,0,1,236,128ZM128,148a28,28,0,1,0-28-28A28,28,0,0,0,128,148Zm0,64a83.53,83.53,0,0,0,48.43-15.43,60,60,0,0,0-96.86,0A83.53,83.53,0,0,0,128,212Z"/></svg>`,
     style: "bold",
-    tags: ["user", "circle", "gear"],
+    tags: ["user", "circle", "gear", "profile", "account", "settings", "preferences", "management", "cog", "bold", "rounded"],
     category: "bold"
   },
   {
@@ -69074,7 +69074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Gear Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a95.76,95.76,0,0,1-31.8,71.37A72,72,0,0,0,128,160a40,40,0,1,0-40-40,40,40,0,0,0,40,40,72,72,0,0,0-64.2,39.37h0A96,96,0,0,1,184.92,50.69a16,16,0,0,0,20.39,20.39A95.61,95.61,0,0,1,224,128Z" opacity="0.2"/><path d="M228.25,63.07l-4.66-2.69a23.6,23.6,0,0,0,0-8.76l4.66-2.69a8,8,0,0,0-8-13.86l-4.67,2.7A23.92,23.92,0,0,0,208,33.38V28a8,8,0,0,0-16,0v5.38a23.92,23.92,0,0,0-7.58,4.39l-4.67-2.7a8,8,0,1,0-8,13.86l4.66,2.69a23.6,23.6,0,0,0,0,8.76l-4.66,2.69a8,8,0,0,0,4,14.93,7.92,7.92,0,0,0,4-1.07l4.67-2.7A23.92,23.92,0,0,0,192,78.62V84a8,8,0,0,0,16,0V78.62a23.92,23.92,0,0,0,7.58-4.39l4.67,2.7a7.92,7.92,0,0,0,4,1.07,8,8,0,0,0,4-14.93ZM192,56a8,8,0,1,1,8,8A8,8,0,0,1,192,56Zm29.35,48.11a8,8,0,0,0-6.57,9.21A88.85,88.85,0,0,1,216,128a87.62,87.62,0,0,1-22.24,58.41,79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75A88,88,0,0,1,128,40a88.76,88.76,0,0,1,14.68,1.22,8,8,0,0,0,2.64-15.78,103.92,103.92,0,1,0,85.24,85.24A8,8,0,0,0,221.35,104.11ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "circle", "gear"],
+    tags: ["user", "circle", "gear", "profile", "account", "settings", "preferences", "management", "cog", "outline", "rounded"],
     category: "duotone"
   },
   {
@@ -69082,7 +69082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Gear Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.25,63.07l-4.66-2.69a23.6,23.6,0,0,0,0-8.76l4.66-2.69a8,8,0,0,0-8-13.86l-4.67,2.7A23.92,23.92,0,0,0,208,33.38V28a8,8,0,0,0-16,0v5.38a23.92,23.92,0,0,0-7.58,4.39l-4.67-2.7a8,8,0,1,0-8,13.86l4.66,2.69a23.6,23.6,0,0,0,0,8.76l-4.66,2.69a8,8,0,0,0,4,14.93,7.92,7.92,0,0,0,4-1.07l4.67-2.7A23.92,23.92,0,0,0,192,78.62V84a8,8,0,0,0,16,0V78.62a23.92,23.92,0,0,0,7.58-4.39l4.67,2.7a7.92,7.92,0,0,0,4,1.07,8,8,0,0,0,4-14.93ZM200,64a8,8,0,1,1,8-8A8,8,0,0,1,200,64ZM128,76a44,44,0,1,1-44,44A44,44,0,0,1,128,76Zm102.56,34.68a103.92,103.92,0,1,1-85.24-85.24,8,8,0,0,1-2.64,15.78A88.07,88.07,0,0,0,40,128a87.62,87.62,0,0,0,22.24,58.41A79.71,79.71,0,0,1,84,165.1a4,4,0,0,1,4.83.32,59.81,59.81,0,0,0,78.27,0,4,4,0,0,1,4.84-.32,79.86,79.86,0,0,1,21.79,21.31A87.62,87.62,0,0,0,216,128a88.85,88.85,0,0,0-1.22-14.68,8,8,0,1,1,15.78-2.64Z"/></svg>`,
     style: "fill",
-    tags: ["user", "circle", "gear"],
+    tags: ["user", "circle", "gear", "profile", "account", "settings", "preferences", "management", "cog", "filled", "rounded"],
     category: "fill"
   },
   {
@@ -69090,7 +69090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Gear Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M227.25,64.8l-5.92-3.41a22,22,0,0,0,0-10.78l5.92-3.41a6,6,0,0,0-6-10.4l-5.93,3.43A22,22,0,0,0,206,34.84V28a6,6,0,0,0-12,0v6.84a22,22,0,0,0-9.32,5.39l-5.93-3.43a6,6,0,0,0-6,10.4l5.92,3.41a22,22,0,0,0,0,10.78l-5.92,3.41a6,6,0,0,0,6,10.4l5.93-3.43A22,22,0,0,0,194,77.16V84a6,6,0,0,0,12,0V77.16a22,22,0,0,0,9.32-5.39l5.93,3.43a6,6,0,0,0,6-10.4ZM200,66a10,10,0,1,1,10-10A10,10,0,0,1,200,66Zm21.68,40.08a6,6,0,0,0-4.92,6.91A91.76,91.76,0,0,1,218,128a89.65,89.65,0,0,1-24.49,61.64,77.53,77.53,0,0,0-40-31.38,46,46,0,1,0-51,0,77.53,77.53,0,0,0-40,31.38A89.95,89.95,0,0,1,128,38a91.66,91.66,0,0,1,15,1.24,6,6,0,1,0,2-11.83,102,102,0,1,0,50,177.44c.65,1.36,1.68,0,2.34-2.11A102,102,0,0,0,228.59,111,6,6,0,0,0,221.68,106.08ZM94,120a34,34,0,1,1,34,34A34,34,0,0,1,94,120ZM71.44,198a66,66,0,0,1,113.12,0,89.8,89.8,0,0,1-113.12,0Z"/></svg>`,
     style: "light",
-    tags: ["user", "circle", "gear"],
+    tags: ["user", "circle", "gear", "profile", "account", "settings", "preferences", "management", "cog", "thin", "rounded"],
     category: "light"
   },
   {
@@ -69098,7 +69098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Gear Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M226.25,66.54,219,62.33a19.78,19.78,0,0,0,0-12.66l7.29-4.21a4,4,0,0,0-4-6.92l-7.31,4.21A20,20,0,0,0,204,36.4V28a4,4,0,0,0-8,0v8.4a20,20,0,0,0-10.94,6.35l-7.31-4.21a4,4,0,1,0-4,6.92L181,49.67a19.78,19.78,0,0,0,0,12.66l-7.29,4.21a4,4,0,0,0,2,7.46,3.92,3.92,0,0,0,2-.54l7.31-4.21A20,20,0,0,0,196,75.6V84a4,4,0,0,0,8,0V75.6a20,20,0,0,0,10.94-6.35l7.31,4.21a3.92,3.92,0,0,0,2,.54,4,4,0,0,0,2-7.46ZM200,68a12,12,0,1,1,12-12A12,12,0,0,1,200,68Zm22,40.06a4,4,0,0,0-3.28,4.6A93.58,93.58,0,0,1,220,128a91.69,91.69,0,0,1-26.83,64.87,75.61,75.61,0,0,0-44.51-34,44,44,0,1,0-41.32,0,75.61,75.61,0,0,0-44.51,34A92,92,0,0,1,128,36a93.4,93.4,0,0,1,15.34,1.27,4,4,0,0,0,1.32-7.89,99.89,99.89,0,1,0,82,82A4,4,0,0,0,222,108.06ZM92,120a36,36,0,1,1,36,36A36,36,0,0,1,92,120ZM68.87,198.42a68,68,0,0,1,118.27,0,91.81,91.81,0,0,1-118.27,0Z"/></svg>`,
     style: "thin",
-    tags: ["user", "circle", "gear"],
+    tags: ["user", "circle", "gear", "profile", "account", "settings", "preferences", "management", "cog", "thin", "rounded"],
     category: "thin"
   },
   {
@@ -69106,7 +69106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Gear Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.25,63.07l-4.66-2.69a23.6,23.6,0,0,0,0-8.76l4.66-2.69a8,8,0,0,0-8-13.86l-4.67,2.7A23.92,23.92,0,0,0,208,33.38V28a8,8,0,0,0-16,0v5.38a23.92,23.92,0,0,0-7.58,4.39l-4.67-2.7a8,8,0,1,0-8,13.86l4.66,2.69a23.6,23.6,0,0,0,0,8.76l-4.66,2.69a8,8,0,0,0,4,14.93,7.92,7.92,0,0,0,4-1.07l4.67-2.7A23.92,23.92,0,0,0,192,78.62V84a8,8,0,0,0,16,0V78.62a23.92,23.92,0,0,0,7.58-4.39l4.67,2.7a7.92,7.92,0,0,0,4,1.07,8,8,0,0,0,4-14.93ZM192,56a8,8,0,1,1,8,8A8,8,0,0,1,192,56Zm29.35,48.11a8,8,0,0,0-6.57,9.21A88.85,88.85,0,0,1,216,128a87.62,87.62,0,0,1-22.24,58.41,79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75A88,88,0,0,1,128,40a88.76,88.76,0,0,1,14.68,1.22,8,8,0,0,0,2.64-15.78,103.92,103.92,0,1,0,85.24,85.24A8,8,0,0,0,221.35,104.11ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0Z"/></svg>`,
     style: "regular",
-    tags: ["user", "circle", "gear"],
+    tags: ["user", "circle", "gear", "profile", "account", "settings", "preferences", "management", "cog", "outline", "rounded"],
     category: "regular"
   },
   {
@@ -69114,7 +69114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26ZM71.44,198a66,66,0,0,1,113.12,0,89.8,89.8,0,0,1-113.12,0ZM94,120a34,34,0,1,1,34,34A34,34,0,0,1,94,120Zm99.51,69.64a77.53,77.53,0,0,0-40-31.38,46,46,0,1,0-51,0,77.53,77.53,0,0,0-40,31.38,90,90,0,1,1,131,0Z"/></svg>`,
     style: "light",
-    tags: ["user", "circle"],
+    tags: ["user", "circle", "profile", "account", "avatar", "thin", "person", "rounded", "login", "identity"],
     category: "light"
   },
   {
@@ -69122,7 +69122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Minus Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164,56a12,12,0,0,1,12-12h48a12,12,0,0,1,0,24H176A12,12,0,0,1,164,56Zm65.85,36A108,108,0,1,1,128,20a109.19,109.19,0,0,1,18,1.49,12,12,0,0,1-4,23.67A85,85,0,0,0,128,44,83.94,83.94,0,0,0,62.05,179.94a83.48,83.48,0,0,1,29-23.42,52,52,0,1,1,74,0,83.36,83.36,0,0,1,29,23.42A83.94,83.94,0,0,0,207.22,100a12,12,0,0,1,22.63-8ZM128,148a28,28,0,1,0-28-28A28,28,0,0,0,128,148Zm0,64a83.53,83.53,0,0,0,48.43-15.43,60,60,0,0,0-96.86,0A83.53,83.53,0,0,0,128,212Z"/></svg>`,
     style: "bold",
-    tags: ["user", "circle", "minus"],
+    tags: ["user", "circle", "minus", "profile", "account", "remove", "delete", "unfollow", "bold", "rounded", "subtract"],
     category: "bold"
   },
   {
@@ -69130,7 +69130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Minus Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a95.76,95.76,0,0,1-31.8,71.37A72,72,0,0,0,128,160a40,40,0,1,0-40-40,40,40,0,0,0,40,40,72,72,0,0,0-64.2,39.37h0A96,96,0,1,1,224,128Z" opacity="0.2"/><path d="M168,56a8,8,0,0,1,8-8h48a8,8,0,0,1,0,16H176A8,8,0,0,1,168,56Zm58.08,37.33a103.93,103.93,0,1,1-80.76-67.89,8,8,0,0,1-2.64,15.78A88.07,88.07,0,0,0,40,128a87.62,87.62,0,0,0,22.24,58.41A79.66,79.66,0,0,1,98.3,157.66a48,48,0,1,1,59.4,0,79.66,79.66,0,0,1,36.06,28.75A88,88,0,0,0,211,98.67a8,8,0,0,1,15.09-5.34ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Zm0,64a87.57,87.57,0,0,0,53.92-18.5,64,64,0,0,0-107.84,0A87.57,87.57,0,0,0,128,216Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "circle", "minus"],
+    tags: ["user", "circle", "minus", "profile", "account", "remove", "delete", "unfollow", "outline", "rounded", "subtract"],
     category: "duotone"
   },
   {
@@ -69138,7 +69138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Minus Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,76a44,44,0,1,1-44,44A44,44,0,0,1,128,76Zm48-12h48a8,8,0,0,0,0-16H176a8,8,0,0,0,0,16Zm39.87,24.46A8,8,0,0,0,211,98.67a88,88,0,0,1-17.23,87.74A79.86,79.86,0,0,0,172,165.1a4,4,0,0,0-4.84.32,59.81,59.81,0,0,1-78.27,0A4,4,0,0,0,84,165.1a79.71,79.71,0,0,0-21.79,21.31A88,88,0,0,1,128,40a88.76,88.76,0,0,1,14.68,1.22,8,8,0,0,0,2.64-15.78,103.9,103.9,0,1,0,80.76,67.89A8,8,0,0,0,215.87,88.46Z"/></svg>`,
     style: "fill",
-    tags: ["user", "circle", "minus"],
+    tags: ["user", "circle", "minus", "profile", "account", "remove", "delete", "unfollow", "filled", "rounded", "subtract"],
     category: "fill"
   },
   {
@@ -69146,7 +69146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Minus Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M170,56a6,6,0,0,1,6-6h48a6,6,0,0,1,0,12H176A6,6,0,0,1,170,56Zm54.19,38A101.9,101.9,0,1,1,145,27.41a6,6,0,1,1-2,11.83A91.66,91.66,0,0,0,128,38,89.95,89.95,0,0,0,62.49,189.64a77.53,77.53,0,0,1,40-31.38,46,46,0,1,1,51,0,77.53,77.53,0,0,1,40,31.38A90,90,0,0,0,212.88,98a6,6,0,1,1,11.31-4ZM128,154a34,34,0,1,0-34-34A34,34,0,0,0,128,154Zm0,64A89.58,89.58,0,0,0,184.56,198a66,66,0,0,0-113.12,0A89.58,89.58,0,0,0,128,218Z"/></svg>`,
     style: "light",
-    tags: ["user", "circle", "minus"],
+    tags: ["user", "circle", "minus", "profile", "account", "remove", "delete", "unfollow", "thin", "rounded", "subtract"],
     category: "light"
   },
   {
@@ -69154,7 +69154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Minus Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M172,56a4,4,0,0,1,4-4h48a4,4,0,0,1,0,8H176A4,4,0,0,1,172,56Zm50.31,38.67A100,100,0,1,1,128,28a100.69,100.69,0,0,1,16.66,1.38,4,4,0,0,1-1.32,7.89A93.4,93.4,0,0,0,128,36,92,92,0,0,0,62.83,192.87a75.61,75.61,0,0,1,44.51-34,44,44,0,1,1,41.32,0,75.61,75.61,0,0,1,44.51,34,92,92,0,0,0,21.6-95.54,4,4,0,1,1,7.54-2.66ZM128,156a36,36,0,1,0-36-36A36,36,0,0,0,128,156Zm0,64a91.61,91.61,0,0,0,59.14-21.58,68,68,0,0,0-118.27,0A91.56,91.56,0,0,0,128,220Z"/></svg>`,
     style: "thin",
-    tags: ["user", "circle", "minus"],
+    tags: ["user", "circle", "minus", "profile", "account", "remove", "delete", "unfollow", "thin", "rounded", "subtract"],
     category: "thin"
   },
   {
@@ -69162,7 +69162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Minus Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,56a8,8,0,0,1,8-8h48a8,8,0,0,1,0,16H176A8,8,0,0,1,168,56Zm58.08,37.33a103.93,103.93,0,1,1-80.76-67.89,8,8,0,0,1-2.64,15.78A88.07,88.07,0,0,0,40,128a87.62,87.62,0,0,0,22.24,58.41A79.66,79.66,0,0,1,98.3,157.66a48,48,0,1,1,59.4,0,79.66,79.66,0,0,1,36.06,28.75A88,88,0,0,0,211,98.67a8,8,0,0,1,15.09-5.34ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Zm0,64a87.57,87.57,0,0,0,53.92-18.5,64,64,0,0,0-107.84,0A87.57,87.57,0,0,0,128,216Z"/></svg>`,
     style: "regular",
-    tags: ["user", "circle", "minus"],
+    tags: ["user", "circle", "minus", "profile", "account", "remove", "delete", "unfollow", "outline", "rounded", "subtract"],
     category: "regular"
   },
   {
@@ -69170,7 +69170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Plus Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164,56a12,12,0,0,1,12-12h12V32a12,12,0,0,1,24,0V44h12a12,12,0,0,1,0,24H212V80a12,12,0,0,1-24,0V68H176A12,12,0,0,1,164,56Zm70.51,54A107.88,107.88,0,1,1,146,21.49a12,12,0,0,1-4,23.67A85,85,0,0,0,128,44,83.94,83.94,0,0,0,62.05,179.94a83.48,83.48,0,0,1,29-23.42,52,52,0,1,1,74,0,83.36,83.36,0,0,1,29,23.42A83.52,83.52,0,0,0,212,128a85.2,85.2,0,0,0-1.16-14,12,12,0,0,1,23.67-4ZM128,148a28,28,0,1,0-28-28A28,28,0,0,0,128,148Zm0,64a83.53,83.53,0,0,0,48.43-15.43,60,60,0,0,0-96.86,0A83.53,83.53,0,0,0,128,212Z"/></svg>`,
     style: "bold",
-    tags: ["user", "circle", "plus"],
+    tags: ["user", "circle", "plus", "profile", "account", "add", "new", "follow", "bold", "rounded", "create"],
     category: "bold"
   },
   {
@@ -69178,7 +69178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Plus Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a95.76,95.76,0,0,1-31.8,71.37A72,72,0,0,0,128,160a40,40,0,1,0-40-40,40,40,0,0,0,40,40,72,72,0,0,0-64.2,39.37h0A96,96,0,1,1,224,128Z" opacity="0.2"/><path d="M168,56a8,8,0,0,1,8-8h16V32a8,8,0,0,1,16,0V48h16a8,8,0,0,1,0,16H208V80a8,8,0,0,1-16,0V64H176A8,8,0,0,1,168,56Zm62.56,54.68a103.92,103.92,0,1,1-85.24-85.24,8,8,0,0,1-2.64,15.78A88.07,88.07,0,0,0,40,128a87.62,87.62,0,0,0,22.24,58.41A79.66,79.66,0,0,1,98.3,157.66a48,48,0,1,1,59.4,0,79.66,79.66,0,0,1,36.06,28.75A87.62,87.62,0,0,0,216,128a88.85,88.85,0,0,0-1.22-14.68,8,8,0,1,1,15.78-2.64ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Zm0,64a87.57,87.57,0,0,0,53.92-18.5,64,64,0,0,0-107.84,0A87.57,87.57,0,0,0,128,216Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "circle", "plus"],
+    tags: ["user", "circle", "plus", "profile", "account", "add", "new", "follow", "outline", "rounded", "create"],
     category: "duotone"
   },
   {
@@ -69186,7 +69186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Plus Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,76a44,44,0,1,1-44,44A44,44,0,0,1,128,76Zm48-12h16V80a8,8,0,0,0,16,0V64h16a8,8,0,0,0,0-16H208V32a8,8,0,0,0-16,0V48H176a8,8,0,0,0,0,16Zm45.35,40.11a8,8,0,0,0-6.57,9.21A88.85,88.85,0,0,1,216,128a87.62,87.62,0,0,1-22.24,58.41A79.86,79.86,0,0,0,172,165.1a4,4,0,0,0-4.84.32,59.81,59.81,0,0,1-78.27,0A4,4,0,0,0,84,165.1a79.71,79.71,0,0,0-21.79,21.31A88,88,0,0,1,128,40a88.76,88.76,0,0,1,14.68,1.22,8,8,0,0,0,2.64-15.78,103.92,103.92,0,1,0,85.24,85.24A8,8,0,0,0,221.35,104.11Z"/></svg>`,
     style: "fill",
-    tags: ["user", "circle", "plus"],
+    tags: ["user", "circle", "plus", "profile", "account", "add", "new", "follow", "filled", "rounded", "create"],
     category: "fill"
   },
   {
@@ -69194,7 +69194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Plus Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M170,56a6,6,0,0,1,6-6h18V32a6,6,0,0,1,12,0V50h18a6,6,0,0,1,0,12H206V80a6,6,0,0,1-12,0V62H176A6,6,0,0,1,170,56Zm58.59,55A101.9,101.9,0,1,1,145,27.41a6,6,0,1,1-2,11.83A91.66,91.66,0,0,0,128,38,89.95,89.95,0,0,0,62.49,189.64a77.53,77.53,0,0,1,40-31.38,46,46,0,1,1,51,0,77.53,77.53,0,0,1,40,31.38A89.65,89.65,0,0,0,218,128a91.76,91.76,0,0,0-1.24-15,6,6,0,1,1,11.83-2ZM128,154a34,34,0,1,0-34-34A34,34,0,0,0,128,154Zm0,64A89.58,89.58,0,0,0,184.56,198a66,66,0,0,0-113.12,0A89.58,89.58,0,0,0,128,218Z"/></svg>`,
     style: "light",
-    tags: ["user", "circle", "plus"],
+    tags: ["user", "circle", "plus", "profile", "account", "add", "new", "follow", "thin", "rounded", "create"],
     category: "light"
   },
   {
@@ -69202,7 +69202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Plus Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M172,56a4,4,0,0,1,4-4h20V32a4,4,0,0,1,8,0V52h20a4,4,0,0,1,0,8H204V80a4,4,0,0,1-8,0V60H176A4,4,0,0,1,172,56Zm54.62,55.34a99.89,99.89,0,1,1-82-82,4,4,0,0,1-1.32,7.89A93.4,93.4,0,0,0,128,36,92,92,0,0,0,62.83,192.87a75.61,75.61,0,0,1,44.51-34,44,44,0,1,1,41.32,0,75.61,75.61,0,0,1,44.51,34A91.69,91.69,0,0,0,220,128a93.58,93.58,0,0,0-1.27-15.34,4,4,0,0,1,7.89-1.32ZM128,156a36,36,0,1,0-36-36A36,36,0,0,0,128,156Zm0,64a91.61,91.61,0,0,0,59.14-21.58,68,68,0,0,0-118.27,0A91.56,91.56,0,0,0,128,220Z"/></svg>`,
     style: "thin",
-    tags: ["user", "circle", "plus"],
+    tags: ["user", "circle", "plus", "profile", "account", "add", "new", "follow", "thin", "rounded", "create"],
     category: "thin"
   },
   {
@@ -69210,7 +69210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Plus Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,56a8,8,0,0,1,8-8h16V32a8,8,0,0,1,16,0V48h16a8,8,0,0,1,0,16H208V80a8,8,0,0,1-16,0V64H176A8,8,0,0,1,168,56Zm62.56,54.68a103.92,103.92,0,1,1-85.24-85.24,8,8,0,0,1-2.64,15.78A88.07,88.07,0,0,0,40,128a87.62,87.62,0,0,0,22.24,58.41A79.66,79.66,0,0,1,98.3,157.66a48,48,0,1,1,59.4,0,79.66,79.66,0,0,1,36.06,28.75A87.62,87.62,0,0,0,216,128a88.85,88.85,0,0,0-1.22-14.68,8,8,0,1,1,15.78-2.64ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Zm0,64a87.57,87.57,0,0,0,53.92-18.5,64,64,0,0,0-107.84,0A87.57,87.57,0,0,0,128,216Z"/></svg>`,
     style: "regular",
-    tags: ["user", "circle", "plus"],
+    tags: ["user", "circle", "plus", "add", "new", "profile", "account", "member", "sign up", "onboarding", "rounded", "outline"],
     category: "regular"
   },
   {
@@ -69218,7 +69218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28ZM68.87,198.42a68,68,0,0,1,118.26,0,91.8,91.8,0,0,1-118.26,0Zm124.3-5.55a75.61,75.61,0,0,0-44.51-34,44,44,0,1,0-41.32,0,75.61,75.61,0,0,0-44.51,34,92,92,0,1,1,130.34,0ZM128,156a36,36,0,1,1,36-36A36,36,0,0,1,128,156Z"/></svg>`,
     style: "thin",
-    tags: ["user", "circle"],
+    tags: ["user", "circle", "profile", "account", "member", "avatar", "minimal", "light", "rounded", "outline"],
     category: "thin"
   },
   {
@@ -69226,7 +69226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Circle Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"/></svg>`,
     style: "regular",
-    tags: ["user", "circle"],
+    tags: ["user", "circle", "profile", "account", "member", "avatar", "rounded", "outline", "person", "human"],
     category: "regular"
   },
   {
@@ -69234,7 +69234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,96a64,64,0,1,1-64-64A64,64,0,0,1,192,96Z" opacity="0.2"/><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"/></svg>`,
     style: "duotone",
-    tags: ["user"],
+    tags: ["user", "profile", "account", "member", "person", "human", "avatar", "two-tone", "shaded"],
     category: "duotone"
   },
   {
@@ -69242,7 +69242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M230.93,220a8,8,0,0,1-6.93,4H32a8,8,0,0,1-6.92-12c15.23-26.33,38.7-45.21,66.09-54.16a72,72,0,1,1,73.66,0c27.39,8.95,50.86,27.83,66.09,54.16A8,8,0,0,1,230.93,220Z"/></svg>`,
     style: "fill",
-    tags: ["user"],
+    tags: ["user", "profile", "account", "member", "person", "human", "avatar", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69250,7 +69250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Focus Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,40V76a12,12,0,0,1-24,0V52H180a12,12,0,0,1,0-24h36A12,12,0,0,1,228,40ZM216,168a12,12,0,0,0-12,12v24H180a12,12,0,0,0,0,24h36a12,12,0,0,0,12-12V180A12,12,0,0,0,216,168ZM76,204H52V180a12,12,0,0,0-24,0v36a12,12,0,0,0,12,12H76a12,12,0,0,0,0-24ZM40,88A12,12,0,0,0,52,76V52H76a12,12,0,0,0,0-24H40A12,12,0,0,0,28,40V76A12,12,0,0,0,40,88Zm136,92a12,12,0,0,1-9.6-4.79,48,48,0,0,0-76.82,0,12,12,0,0,1-19.18-14.42,72.1,72.1,0,0,1,23.92-20.5,44,44,0,1,1,67.34,0,72.1,72.1,0,0,1,23.92,20.5A12,12,0,0,1,176,180Zm-48-48a20,20,0,1,0-20-20A20,20,0,0,0,128,132Z"/></svg>`,
     style: "bold",
-    tags: ["user", "focus"],
+    tags: ["user", "focus", "target", "attention", "highlight", "profile", "account", "person", "bold", "thick"],
     category: "bold"
   },
   {
@@ -69258,7 +69258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Focus Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,112a32,32,0,1,1-32-32A32,32,0,0,1,160,112Z" opacity="0.2"/><path d="M224,40V76a8,8,0,0,1-16,0V48H180a8,8,0,0,1,0-16h36A8,8,0,0,1,224,40Zm-8,132a8,8,0,0,0-8,8v28H180a8,8,0,0,0,0,16h36a8,8,0,0,0,8-8V180A8,8,0,0,0,216,172ZM76,208H48V180a8,8,0,0,0-16,0v36a8,8,0,0,0,8,8H76a8,8,0,0,0,0-16ZM40,84a8,8,0,0,0,8-8V48H76a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8V76A8,8,0,0,0,40,84Zm136,92a8,8,0,0,1-6.41-3.19,52,52,0,0,0-83.2,0,8,8,0,1,1-12.8-9.62A67.94,67.94,0,0,1,101,141.51a40,40,0,1,1,53.94,0,67.94,67.94,0,0,1,27.43,21.68A8,8,0,0,1,176,176Zm-48-40a24,24,0,1,0-24-24A24,24,0,0,0,128,136Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "focus"],
+    tags: ["user", "focus", "target", "attention", "highlight", "profile", "account", "person", "two-tone", "shaded"],
     category: "duotone"
   },
   {
@@ -69266,7 +69266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Focus Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,40V76a8,8,0,0,1-16,0V48H180a8,8,0,0,1,0-16h36A8,8,0,0,1,224,40Zm-8,132a8,8,0,0,0-8,8v28H180a8,8,0,0,0,0,16h36a8,8,0,0,0,8-8V180A8,8,0,0,0,216,172ZM76,208H48V180a8,8,0,0,0-16,0v36a8,8,0,0,0,8,8H76a8,8,0,0,0,0-16ZM40,84a8,8,0,0,0,8-8V48H76a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8V76A8,8,0,0,0,40,84Zm61,57.51A67.94,67.94,0,0,0,73.6,163.19,8,8,0,0,0,80,176h96a8,8,0,0,0,6.4-12.81A67.94,67.94,0,0,0,155,141.51a40,40,0,1,0-53.94,0Z"/></svg>`,
     style: "fill",
-    tags: ["user", "focus"],
+    tags: ["user", "focus", "target", "attention", "highlight", "profile", "account", "person", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69274,7 +69274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Focus Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222,40V76a6,6,0,0,1-12,0V46H180a6,6,0,0,1,0-12h36A6,6,0,0,1,222,40Zm-6,134a6,6,0,0,0-6,6v30H180a6,6,0,0,0,0,12h36a6,6,0,0,0,6-6V180A6,6,0,0,0,216,174ZM76,210H46V180a6,6,0,0,0-12,0v36a6,6,0,0,0,6,6H76a6,6,0,0,0,0-12ZM40,82a6,6,0,0,0,6-6V46H76a6,6,0,0,0,0-12H40a6,6,0,0,0-6,6V76A6,6,0,0,0,40,82Zm136,92a6,6,0,0,1-4.8-2.4,54,54,0,0,0-86.4,0,6,6,0,1,1-9.6-7.2,65.65,65.65,0,0,1,29.69-22.26,38,38,0,1,1,46.22,0A65.65,65.65,0,0,1,180.8,164.4,6,6,0,0,1,176,174Zm-48-36a26,26,0,1,0-26-26A26,26,0,0,0,128,138Z"/></svg>`,
     style: "light",
-    tags: ["user", "focus"],
+    tags: ["user", "focus", "target", "attention", "highlight", "profile", "account", "person", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69282,7 +69282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Focus Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220,40V76a4,4,0,0,1-8,0V44H180a4,4,0,0,1,0-8h36A4,4,0,0,1,220,40Zm-4,136a4,4,0,0,0-4,4v32H180a4,4,0,0,0,0,8h36a4,4,0,0,0,4-4V180A4,4,0,0,0,216,176ZM76,212H44V180a4,4,0,0,0-8,0v36a4,4,0,0,0,4,4H76a4,4,0,0,0,0-8ZM40,80a4,4,0,0,0,4-4V44H76a4,4,0,0,0,0-8H40a4,4,0,0,0-4,4V76A4,4,0,0,0,40,80Zm136,92a4,4,0,0,1-3.2-1.6,56,56,0,0,0-89.6,0,4,4,0,1,1-6.4-4.8,63.65,63.65,0,0,1,32.5-22.85,36,36,0,1,1,37.4,0,63.65,63.65,0,0,1,32.5,22.85A4,4,0,0,1,176,172Zm-48-32a28,28,0,1,0-28-28A28,28,0,0,0,128,140Z"/></svg>`,
     style: "thin",
-    tags: ["user", "focus"],
+    tags: ["user", "focus", "target", "attention", "highlight", "profile", "account", "person", "minimal", "light"],
     category: "thin"
   },
   {
@@ -69290,7 +69290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Focus Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,40V76a8,8,0,0,1-16,0V48H180a8,8,0,0,1,0-16h36A8,8,0,0,1,224,40Zm-8,132a8,8,0,0,0-8,8v28H180a8,8,0,0,0,0,16h36a8,8,0,0,0,8-8V180A8,8,0,0,0,216,172ZM76,208H48V180a8,8,0,0,0-16,0v36a8,8,0,0,0,8,8H76a8,8,0,0,0,0-16ZM40,84a8,8,0,0,0,8-8V48H76a8,8,0,0,0,0-16H40a8,8,0,0,0-8,8V76A8,8,0,0,0,40,84Zm136,92a8,8,0,0,1-6.41-3.19,52,52,0,0,0-83.2,0,8,8,0,1,1-12.8-9.62A67.94,67.94,0,0,1,101,141.51a40,40,0,1,1,53.94,0,67.94,67.94,0,0,1,27.43,21.68A8,8,0,0,1,176,176Zm-48-40a24,24,0,1,0-24-24A24,24,0,0,0,128,136Z"/></svg>`,
     style: "regular",
-    tags: ["user", "focus"],
+    tags: ["user", "focus", "target", "attention", "highlight", "profile", "account", "person", "outline"],
     category: "regular"
   },
   {
@@ -69298,7 +69298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Gear Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M148.5,156.53a72,72,0,1,0-89,0,124,124,0,0,0-48.69,35.75,12,12,0,0,0,18.38,15.44C48.54,184.69,75.11,172,104,172c37,0,61.12,19.42,74.81,35.72a12,12,0,1,0,18.38-15.44A124,124,0,0,0,148.5,156.53ZM56,100a48,48,0,1,1,48,48A48.05,48.05,0,0,1,56,100Zm190.53,40-7.11,2.31,4.39,6.05a12,12,0,1,1-19.41,14.11l-4.4-6.06-4.4,6.06a12,12,0,1,1-19.41-14.11l4.39-6.05L193.47,140a12,12,0,1,1,7.41-22.83l7.12,2.31V112a12,12,0,0,1,24,0v7.48l7.12-2.31A12,12,0,1,1,246.53,140Z"/></svg>`,
     style: "bold",
-    tags: ["user", "gear"],
+    tags: ["user", "gear", "settings", "preferences", "admin", "management", "profile", "account", "bold", "thick"],
     category: "bold"
   },
   {
@@ -69306,7 +69306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Gear Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,100a60,60,0,1,1-60-60A60,60,0,0,1,168,100Z" opacity="0.2"/><path d="M144,157.68a68,68,0,1,0-71.9,0c-20.65,6.76-39.23,19.39-54.17,37.17a8,8,0,1,0,12.24,10.3C50.25,181.19,77.91,168,108,168s57.75,13.19,77.87,37.15a8,8,0,0,0,12.26-10.3C183.18,177.07,164.6,164.44,144,157.68ZM56,100a52,52,0,1,1,52,52A52.06,52.06,0,0,1,56,100Zm196.25,43.07-4.66-2.69a23.6,23.6,0,0,0,0-8.76l4.66-2.69a8,8,0,1,0-8-13.86l-4.67,2.7a23.92,23.92,0,0,0-7.58-4.39V108a8,8,0,0,0-16,0v5.38a23.92,23.92,0,0,0-7.58,4.39l-4.67-2.7a8,8,0,1,0-8,13.86l4.66,2.69a23.6,23.6,0,0,0,0,8.76l-4.66,2.69a8,8,0,0,0,8,13.86l4.67-2.7a23.92,23.92,0,0,0,7.58,4.39V164a8,8,0,0,0,16,0v-5.38a23.92,23.92,0,0,0,7.58-4.39l4.67,2.7a7.92,7.92,0,0,0,4,1.07,8,8,0,0,0,4-14.93ZM224,144a8,8,0,1,1,8-8A8,8,0,0,1,224,144Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "gear"],
+    tags: ["user", "gear", "settings", "preferences", "admin", "management", "profile", "account", "two-tone", "shaded"],
     category: "duotone"
   },
   {
@@ -69314,7 +69314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Gear Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M198.13,194.85A8,8,0,0,1,192,208H24a8,8,0,0,1-6.12-13.15c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,164.44,183.18,177.07,198.13,194.85ZM255.18,154a8,8,0,0,1-6.94,4,7.92,7.92,0,0,1-4-1.07l-4.67-2.7a23.92,23.92,0,0,1-7.58,4.39V164a8,8,0,0,1-16,0v-5.38a23.92,23.92,0,0,1-7.58-4.39l-4.67,2.7a7.92,7.92,0,0,1-4,1.07,8,8,0,0,1-4-14.93l4.66-2.69a23.6,23.6,0,0,1,0-8.76l-4.66-2.69a8,8,0,1,1,8-13.86l4.67,2.7a23.92,23.92,0,0,1,7.58-4.39V108a8,8,0,0,1,16,0v5.38a23.92,23.92,0,0,1,7.58,4.39l4.67-2.7a8,8,0,1,1,8,13.86l-4.66,2.69a23.6,23.6,0,0,1,0,8.76l4.66,2.69A8,8,0,0,1,255.18,154ZM224,144a8,8,0,1,0-8-8A8,8,0,0,0,224,144Z"/></svg>`,
     style: "fill",
-    tags: ["user", "gear"],
+    tags: ["user", "gear", "settings", "preferences", "admin", "management", "profile", "account", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69322,7 +69322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Gear Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M139,158.25a66,66,0,1,0-62,0c-22,6.23-41.88,19.16-57.61,37.89a6,6,0,0,0,9.18,7.72C49.1,179.44,77.31,166,108,166s58.9,13.44,79.41,37.86a6,6,0,1,0,9.18-7.72C180.86,177.41,161,164.48,139,158.25ZM54,100a54,54,0,1,1,54,54A54.06,54.06,0,0,1,54,100Zm197.25,44.8-5.92-3.41a22,22,0,0,0,0-10.78l5.92-3.41a6,6,0,0,0-6-10.4l-5.93,3.43a22,22,0,0,0-9.32-5.39V108a6,6,0,0,0-12,0v6.84a22,22,0,0,0-9.32,5.39l-5.93-3.43a6,6,0,0,0-6,10.4l5.92,3.41a22,22,0,0,0,0,10.78l-5.92,3.41a6,6,0,0,0,6,10.4l5.93-3.43a22,22,0,0,0,9.32,5.39V164a6,6,0,0,0,12,0v-6.84a22,22,0,0,0,9.32-5.39l5.93,3.43a6,6,0,0,0,6-10.4ZM224,146a10,10,0,1,1,10-10A10,10,0,0,1,224,146Z"/></svg>`,
     style: "light",
-    tags: ["user", "gear"],
+    tags: ["user", "gear", "settings", "preferences", "admin", "management", "profile", "account", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69330,7 +69330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Gear Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M133.17,158.84a64,64,0,1,0-50.34,0c-23.76,5.46-45.18,18.69-61.89,38.59a4,4,0,1,0,6.12,5.14C48,177.7,76.7,164,108,164s60,13.7,80.94,38.57a4,4,0,0,0,6.12-5.14C178.35,177.53,156.93,164.3,133.17,158.84ZM52,100a56,56,0,1,1,56,56A56.06,56.06,0,0,1,52,100Zm198.25,46.54L243,142.33a19.78,19.78,0,0,0,0-12.66l7.29-4.21a4,4,0,1,0-4-6.92l-7.31,4.21A20,20,0,0,0,228,116.4V108a4,4,0,0,0-8,0v8.4a20,20,0,0,0-10.94,6.35l-7.31-4.21a4,4,0,1,0-4,6.92l7.29,4.21a19.78,19.78,0,0,0,0,12.66l-7.29,4.21a4,4,0,0,0,2,7.46,3.92,3.92,0,0,0,2-.54l7.31-4.21A20,20,0,0,0,220,155.6V164a4,4,0,0,0,8,0v-8.4a20,20,0,0,0,10.94-6.35l7.31,4.21a3.92,3.92,0,0,0,2,.54,4,4,0,0,0,2-7.46ZM224,148a12,12,0,1,1,12-12A12,12,0,0,1,224,148Z"/></svg>`,
     style: "thin",
-    tags: ["user", "gear"],
+    tags: ["user", "gear", "settings", "preferences", "admin", "management", "profile", "account", "minimal", "light"],
     category: "thin"
   },
   {
@@ -69338,7 +69338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Gear Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,157.68a68,68,0,1,0-71.9,0c-20.65,6.76-39.23,19.39-54.17,37.17a8,8,0,1,0,12.24,10.3C50.25,181.19,77.91,168,108,168s57.75,13.19,77.87,37.15a8,8,0,0,0,12.26-10.3C183.18,177.07,164.6,164.44,144,157.68ZM56,100a52,52,0,1,1,52,52A52.06,52.06,0,0,1,56,100Zm196.25,43.07-4.66-2.69a23.6,23.6,0,0,0,0-8.76l4.66-2.69a8,8,0,1,0-8-13.86l-4.67,2.7a23.92,23.92,0,0,0-7.58-4.39V108a8,8,0,0,0-16,0v5.38a23.92,23.92,0,0,0-7.58,4.39l-4.67-2.7a8,8,0,1,0-8,13.86l4.66,2.69a23.6,23.6,0,0,0,0,8.76l-4.66,2.69a8,8,0,0,0,8,13.86l4.67-2.7a23.92,23.92,0,0,0,7.58,4.39V164a8,8,0,0,0,16,0v-5.38a23.92,23.92,0,0,0,7.58-4.39l4.67,2.7a7.92,7.92,0,0,0,4,1.07,8,8,0,0,0,4-14.93ZM216,136a8,8,0,1,1,8,8A8,8,0,0,1,216,136Z"/></svg>`,
     style: "regular",
-    tags: ["user", "gear"],
+    tags: ["user", "gear", "settings", "preferences", "admin", "management", "profile", "account", "outline"],
     category: "regular"
   },
   {
@@ -69346,7 +69346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.19,213c-15.81-27.32-40.63-46.49-69.47-54.62a70,70,0,1,0-63.44,0C67.44,166.5,42.62,185.67,26.81,213a6,6,0,1,0,10.38,6C56.4,185.81,90.34,166,128,166s71.6,19.81,90.81,53a6,6,0,1,0,10.38-6ZM70,96a58,58,0,1,1,58,58A58.07,58.07,0,0,1,70,96Z"/></svg>`,
     style: "light",
-    tags: ["user"],
+    tags: ["user", "profile", "account", "member", "person", "human", "avatar", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69354,7 +69354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User List Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,80a12,12,0,0,1,12-12h80a12,12,0,0,1,0,24H164A12,12,0,0,1,152,80Zm92,36H164a12,12,0,0,0,0,24h80a12,12,0,0,0,0-24Zm0,48H188a12,12,0,0,0,0,24h56a12,12,0,0,0,0-24Zm-88.38,25a12,12,0,1,1-23.24,6c-5.72-22.23-28.24-39-52.38-39s-46.66,16.76-52.38,39a12,12,0,1,1-23.24-6c5.38-20.9,20.09-38.16,39.11-48a52,52,0,1,1,73,0C135.53,150.85,150.24,168.11,155.62,189ZM80,132a28,28,0,1,0-28-28A28,28,0,0,0,80,132Z"/></svg>`,
     style: "bold",
-    tags: ["user", "list"],
+    tags: ["user", "list", "members", "team", "directory", "group", "roster", "profile", "account", "bold", "thick"],
     category: "bold"
   },
   {
@@ -69362,7 +69362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User List Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,104A40,40,0,1,1,80,64,40,40,0,0,1,120,104Z" opacity="0.2"/><path d="M152,80a8,8,0,0,1,8-8h88a8,8,0,0,1,0,16H160A8,8,0,0,1,152,80Zm96,40H160a8,8,0,0,0,0,16h88a8,8,0,0,0,0-16Zm0,48H184a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm-96.25,22a8,8,0,0,1-5.76,9.74,7.55,7.55,0,0,1-2,.26,8,8,0,0,1-7.75-6c-6.16-23.94-30.34-42-56.25-42s-50.09,18.05-56.25,42a8,8,0,0,1-15.5-4c5.59-21.71,21.84-39.29,42.46-48a48,48,0,1,1,58.58,0C129.91,150.71,146.16,168.29,151.75,190ZM80,136a32,32,0,1,0-32-32A32,32,0,0,0,80,136Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "list"],
+    tags: ["user", "list", "members", "team", "directory", "group", "roster", "profile", "account", "two-tone", "shaded"],
     category: "duotone"
   },
   {
@@ -69370,7 +69370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User List Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,80a8,8,0,0,1,8-8h88a8,8,0,0,1,0,16H160A8,8,0,0,1,152,80Zm96,40H160a8,8,0,0,0,0,16h88a8,8,0,0,0,0-16Zm0,48H184a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16ZM109.29,142a48,48,0,1,0-58.58,0c-20.62,8.73-36.87,26.3-42.46,48A8,8,0,0,0,16,200H144a8,8,0,0,0,7.75-10C146.16,168.29,129.91,150.72,109.29,142Z"/></svg>`,
     style: "fill",
-    tags: ["user", "list"],
+    tags: ["user", "list", "members", "team", "directory", "group", "roster", "profile", "account", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69378,7 +69378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User List Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M154,80a6,6,0,0,1,6-6h88a6,6,0,0,1,0,12H160A6,6,0,0,1,154,80Zm94,42H160a6,6,0,0,0,0,12h88a6,6,0,0,0,0-12Zm0,48H184a6,6,0,0,0,0,12h64a6,6,0,0,0,0-12Zm-98.19,20.5a6,6,0,1,1-11.62,3C131.7,168.29,107.23,150,80,150s-51.7,18.29-58.19,43.49a6,6,0,1,1-11.62-3c5.74-22.28,23-40.07,44.67-48a46,46,0,1,1,50.28,0C126.79,150.43,144.08,168.22,149.81,190.5ZM80,138a34,34,0,1,0-34-34A34,34,0,0,0,80,138Z"/></svg>`,
     style: "light",
-    tags: ["user", "list"],
+    tags: ["user", "list", "members", "team", "directory", "group", "roster", "profile", "account", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69386,7 +69386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User List Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M156,80a4,4,0,0,1,4-4h88a4,4,0,0,1,0,8H160A4,4,0,0,1,156,80Zm92,44H160a4,4,0,0,0,0,8h88a4,4,0,0,0,0-8Zm0,48H184a4,4,0,0,0,0,8h64a4,4,0,0,0,0-8ZM147.87,191a4,4,0,0,1-2.87,4.87,3.87,3.87,0,0,1-1,.13,4,4,0,0,1-3.87-3c-6.71-26.08-32-45-60.13-45s-53.41,18.92-60.13,45a4,4,0,1,1-7.74-2c5.92-23,24.57-41.14,47.52-48a44,44,0,1,1,40.7,0C123.3,149.86,142,168,147.87,191ZM80,140a36,36,0,1,0-36-36A36,36,0,0,0,80,140Z"/></svg>`,
     style: "thin",
-    tags: ["user", "list"],
+    tags: ["user", "list", "members", "team", "directory", "group", "roster", "profile", "account", "minimal", "light"],
     category: "thin"
   },
   {
@@ -69394,7 +69394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User List Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,80a8,8,0,0,1,8-8h88a8,8,0,0,1,0,16H160A8,8,0,0,1,152,80Zm96,40H160a8,8,0,0,0,0,16h88a8,8,0,0,0,0-16Zm0,48H184a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm-96.25,22a8,8,0,0,1-5.76,9.74,7.55,7.55,0,0,1-2,.26,8,8,0,0,1-7.75-6c-6.16-23.94-30.34-42-56.25-42s-50.09,18.05-56.25,42a8,8,0,0,1-15.5-4c5.59-21.71,21.84-39.29,42.46-48a48,48,0,1,1,58.58,0C129.91,150.71,146.16,168.29,151.75,190ZM80,136a32,32,0,1,0-32-32A32,32,0,0,0,80,136Z"/></svg>`,
     style: "regular",
-    tags: ["user", "list"],
+    tags: ["user", "list", "members", "team", "directory", "group", "roster", "profile", "account", "outline"],
     category: "regular"
   },
   {
@@ -69402,7 +69402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Minus Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M256,136a12,12,0,0,1-12,12H204a12,12,0,0,1,0-24h40A12,12,0,0,1,256,136Zm-54.81,56.28a12,12,0,1,1-18.38,15.44C169.12,191.42,145,172,108,172c-28.89,0-55.46,12.68-74.81,35.72a12,12,0,0,1-18.38-15.44A124.08,124.08,0,0,1,63.5,156.53a72,72,0,1,1,89,0A124,124,0,0,1,201.19,192.28ZM108,148a48,48,0,1,0-48-48A48.05,48.05,0,0,0,108,148Z"/></svg>`,
     style: "bold",
-    tags: ["user", "minus"],
+    tags: ["user", "minus", "remove", "delete", "unfollow", "profile", "account", "member", "bold", "thick"],
     category: "bold"
   },
   {
@@ -69410,7 +69410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Minus Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,100a60,60,0,1,1-60-60A60,60,0,0,1,168,100Z" opacity="0.2"/><path d="M256,136a8,8,0,0,1-8,8H200a8,8,0,0,1,0-16h48A8,8,0,0,1,256,136Zm-57.87,58.85a8,8,0,0,1-12.26,10.3C165.75,181.19,138.09,168,108,168s-57.75,13.19-77.87,37.15a8,8,0,0,1-12.25-10.3c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,164.44,183.18,177.07,198.13,194.85ZM108,152a52,52,0,1,0-52-52A52.06,52.06,0,0,0,108,152Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "minus"],
+    tags: ["user", "minus", "remove", "delete", "account", "profile", "demote", "duotone", "filled", "outline"],
     category: "duotone"
   },
   {
@@ -69418,7 +69418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Minus Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M198.13,194.85A8,8,0,0,1,192,208H24a8,8,0,0,1-6.12-13.15c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,164.44,183.18,177.07,198.13,194.85ZM248,128H200a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16Z"/></svg>`,
     style: "fill",
-    tags: ["user", "minus"],
+    tags: ["user", "minus", "remove", "delete", "account", "profile", "demote", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69426,7 +69426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Minus Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M254,136a6,6,0,0,1-6,6H200a6,6,0,0,1,0-12h48A6,6,0,0,1,254,136Zm-57.41,60.14a6,6,0,1,1-9.18,7.72C166.9,179.45,138.69,166,108,166s-58.89,13.45-79.41,37.86a6,6,0,0,1-9.18-7.72C35.14,177.41,55,164.48,77,158.26a66,66,0,1,1,62,0C161,164.48,180.86,177.41,196.59,196.14ZM108,154a54,54,0,1,0-54-54A54.06,54.06,0,0,0,108,154Z"/></svg>`,
     style: "light",
-    tags: ["user", "minus"],
+    tags: ["user", "minus", "remove", "delete", "account", "profile", "demote", "light", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69434,7 +69434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Minus Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252,136a4,4,0,0,1-4,4H200a4,4,0,0,1,0-8h48A4,4,0,0,1,252,136Zm-56.94,61.43a4,4,0,0,1-6.12,5.14C168,177.7,139.3,164,108,164s-60,13.7-80.94,38.57a4,4,0,1,1-6.12-5.14c16.71-19.9,38.13-33.13,61.89-38.59a64,64,0,1,1,50.34,0C156.93,164.3,178.35,177.53,195.06,197.43ZM108,156a56,56,0,1,0-56-56A56.06,56.06,0,0,0,108,156Z"/></svg>`,
     style: "thin",
-    tags: ["user", "minus"],
+    tags: ["user", "minus", "remove", "delete", "account", "profile", "demote", "thin", "minimal", "delicate"],
     category: "thin"
   },
   {
@@ -69442,7 +69442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Minus Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M256,136a8,8,0,0,1-8,8H200a8,8,0,0,1,0-16h48A8,8,0,0,1,256,136Zm-57.87,58.85a8,8,0,0,1-12.26,10.3C165.75,181.19,138.09,168,108,168s-57.75,13.19-77.87,37.15a8,8,0,0,1-12.25-10.3c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,164.44,183.18,177.07,198.13,194.85ZM108,152a52,52,0,1,0-52-52A52.06,52.06,0,0,0,108,152Z"/></svg>`,
     style: "regular",
-    tags: ["user", "minus"],
+    tags: ["user", "minus", "remove", "delete", "account", "profile", "demote", "standard", "outline"],
     category: "regular"
   },
   {
@@ -69450,7 +69450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Plus Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M256,136a12,12,0,0,1-12,12h-8v8a12,12,0,0,1-24,0v-8h-8a12,12,0,0,1,0-24h8v-8a12,12,0,0,1,24,0v8h8A12,12,0,0,1,256,136Zm-54.81,56.28a12,12,0,1,1-18.38,15.44C169.12,191.42,145,172,108,172c-28.89,0-55.46,12.68-74.81,35.72a12,12,0,0,1-18.38-15.44A124.08,124.08,0,0,1,63.5,156.53a72,72,0,1,1,89,0A124,124,0,0,1,201.19,192.28ZM108,148a48,48,0,1,0-48-48A48.05,48.05,0,0,0,108,148Z"/></svg>`,
     style: "bold",
-    tags: ["user", "plus"],
+    tags: ["user", "plus", "add", "create", "account", "profile", "invite", "bold", "thick", "heavy"],
     category: "bold"
   },
   {
@@ -69458,7 +69458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Plus Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,100a60,60,0,1,1-60-60A60,60,0,0,1,168,100Z" opacity="0.2"/><path d="M256,136a8,8,0,0,1-8,8H232v16a8,8,0,0,1-16,0V144H200a8,8,0,0,1,0-16h16V112a8,8,0,0,1,16,0v16h16A8,8,0,0,1,256,136Zm-57.87,58.85a8,8,0,0,1-12.26,10.3C165.75,181.19,138.09,168,108,168s-57.75,13.19-77.87,37.15a8,8,0,0,1-12.25-10.3c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,164.44,183.18,177.07,198.13,194.85ZM108,152a52,52,0,1,0-52-52A52.06,52.06,0,0,0,108,152Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "plus"],
+    tags: ["user", "plus", "add", "create", "account", "profile", "invite", "duotone", "filled", "outline"],
     category: "duotone"
   },
   {
@@ -69466,7 +69466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Plus Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M256,136a8,8,0,0,1-8,8H232v16a8,8,0,0,1-16,0V144H200a8,8,0,0,1,0-16h16V112a8,8,0,0,1,16,0v16h16A8,8,0,0,1,256,136ZM144,157.68a68,68,0,1,0-71.9,0c-20.65,6.76-39.23,19.39-54.17,37.17A8,8,0,0,0,24,208H192a8,8,0,0,0,6.13-13.15C183.18,177.07,164.6,164.44,144,157.68Z"/></svg>`,
     style: "fill",
-    tags: ["user", "plus"],
+    tags: ["user", "plus", "add", "create", "account", "profile", "invite", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69474,7 +69474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Plus Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M254,136a6,6,0,0,1-6,6H230v18a6,6,0,0,1-12,0V142H200a6,6,0,0,1,0-12h18V112a6,6,0,0,1,12,0v18h18A6,6,0,0,1,254,136Zm-57.41,60.14a6,6,0,1,1-9.18,7.72C166.9,179.45,138.69,166,108,166s-58.89,13.45-79.41,37.86a6,6,0,0,1-9.18-7.72C35.14,177.41,55,164.48,77,158.25a66,66,0,1,1,62,0C161,164.48,180.86,177.41,196.59,196.14ZM108,154a54,54,0,1,0-54-54A54.06,54.06,0,0,0,108,154Z"/></svg>`,
     style: "light",
-    tags: ["user", "plus"],
+    tags: ["user", "plus", "add", "create", "account", "profile", "invite", "light", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69482,7 +69482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Plus Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252,136a4,4,0,0,1-4,4H228v20a4,4,0,0,1-8,0V140H200a4,4,0,0,1,0-8h20V112a4,4,0,0,1,8,0v20h20A4,4,0,0,1,252,136Zm-56.94,61.43a4,4,0,0,1-6.12,5.14C168,177.7,139.3,164,108,164s-60,13.7-80.94,38.57a4,4,0,1,1-6.12-5.14c16.71-19.9,38.13-33.13,61.89-38.59a64,64,0,1,1,50.34,0C156.93,164.3,178.35,177.53,195.06,197.43ZM108,156a56,56,0,1,0-56-56A56.06,56.06,0,0,0,108,156Z"/></svg>`,
     style: "thin",
-    tags: ["user", "plus"],
+    tags: ["user", "plus", "add", "create", "account", "profile", "invite", "thin", "minimal", "delicate"],
     category: "thin"
   },
   {
@@ -69490,7 +69490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Plus Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M256,136a8,8,0,0,1-8,8H232v16a8,8,0,0,1-16,0V144H200a8,8,0,0,1,0-16h16V112a8,8,0,0,1,16,0v16h16A8,8,0,0,1,256,136Zm-57.87,58.85a8,8,0,0,1-12.26,10.3C165.75,181.19,138.09,168,108,168s-57.75,13.19-77.87,37.15a8,8,0,0,1-12.25-10.3c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,164.44,183.18,177.07,198.13,194.85ZM108,152a52,52,0,1,0-52-52A52.06,52.06,0,0,0,108,152Z"/></svg>`,
     style: "regular",
-    tags: ["user", "plus"],
+    tags: ["user", "plus", "add", "create", "account", "profile", "invite", "standard", "outline"],
     category: "regular"
   },
   {
@@ -69498,7 +69498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Rectangle Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,36H40A20,20,0,0,0,20,56V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36ZM100,128a28,28,0,1,1,28,28A28,28,0,0,1,100,128Zm28,52a59.66,59.66,0,0,1,40.85,16H87.15A59.66,59.66,0,0,1,128,180Zm84,16H199.56A83.46,83.46,0,0,0,165,164.5a52,52,0,1,0-74,0A83.46,83.46,0,0,0,56.44,196H44V60H212Z"/></svg>`,
     style: "bold",
-    tags: ["user", "rectangle"],
+    tags: ["user", "rectangle", "profile", "account", "id card", "badge", "identification", "bold", "heavy", "thick"],
     category: "bold"
   },
   {
@@ -69506,7 +69506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Rectangle Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,56V200a8,8,0,0,1-8,8H195.9A72,72,0,0,0,128,160a40,40,0,1,0-40-40,40,40,0,0,0,40,40,72,72,0,0,0-67.9,48H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216A8,8,0,0,1,224,56Z" opacity="0.2"/><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120ZM72.57,200a64,64,0,0,1,110.86,0ZM216,200H201.33a80.14,80.14,0,0,0-43.69-42.28,48,48,0,1,0-59.28,0A80.14,80.14,0,0,0,54.67,200H40V56H216V200Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "rectangle"],
+    tags: ["user", "rectangle", "profile", "account", "id card", "badge", "identification", "duotone", "filled", "outline"],
     category: "duotone"
   },
   {
@@ -69514,7 +69514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Rectangle Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M172,120a44,44,0,1,1-44-44A44,44,0,0,1,172,120Zm60-64V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56ZM216,200V56H40V200H54.68a80,80,0,0,1,29.41-34.84,4,4,0,0,1,4.83.31,59.82,59.82,0,0,0,78.16,0,4,4,0,0,1,4.83-.31A80,80,0,0,1,201.32,200H216Z"/></svg>`,
     style: "fill",
-    tags: ["user", "rectangle"],
+    tags: ["user", "rectangle", "profile", "account", "id card", "badge", "identification", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69522,7 +69522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Rectangle Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,42H40A14,14,0,0,0,26,56V200a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42ZM94,120a34,34,0,1,1,34,34A34,34,0,0,1,94,120ZM69.21,202a66,66,0,0,1,117.58,0ZM218,200a2,2,0,0,1-2,2H200a78.18,78.18,0,0,0-46.55-43.71,46,46,0,1,0-50.9,0A78.18,78.18,0,0,0,56,202H40a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2Z"/></svg>`,
     style: "light",
-    tags: ["user", "rectangle"],
+    tags: ["user", "rectangle", "profile", "account", "id card", "badge", "identification", "light", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69530,7 +69530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Rectangle Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,44H40A12,12,0,0,0,28,56V200a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V56A12,12,0,0,0,216,44ZM66,204a68,68,0,0,1,124,0Zm154-4a4,4,0,0,1-4,4H198.67a76.17,76.17,0,0,0-50.06-45.14,44,44,0,1,0-41.22,0A76.17,76.17,0,0,0,57.33,204H40a4,4,0,0,1-4-4V56a4,4,0,0,1,4-4H216a4,4,0,0,1,4,4Zm-92-44a36,36,0,1,1,36-36A36,36,0,0,1,128,156Z"/></svg>`,
     style: "thin",
-    tags: ["user", "rectangle"],
+    tags: ["user", "rectangle", "profile", "account", "id card", "badge", "identification", "thin", "minimal", "delicate"],
     category: "thin"
   },
   {
@@ -69538,7 +69538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Rectangle Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120ZM72.57,200a64,64,0,0,1,110.86,0ZM216,200H201.33a80.14,80.14,0,0,0-43.69-42.28,48,48,0,1,0-59.28,0A80.14,80.14,0,0,0,54.67,200H40V56H216V200Z"/></svg>`,
     style: "regular",
-    tags: ["user", "rectangle"],
+    tags: ["user", "rectangle", "profile", "account", "id card", "badge", "identification", "standard", "outline"],
     category: "regular"
   },
   {
@@ -69546,7 +69546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Sound Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152.5,164.53a72,72,0,1,0-89,0,124.08,124.08,0,0,0-48.69,35.75,12,12,0,0,0,18.38,15.44C46.88,199.42,71,180,108,180s61.12,19.42,74.81,35.72a12,12,0,1,0,18.38-15.44A124,124,0,0,0,152.5,164.53ZM60,108a48,48,0,1,1,48,48A48.05,48.05,0,0,1,60,108Zm192,0a143.09,143.09,0,0,1-11.61,56.73,12,12,0,1,1-22-9.46,120.48,120.48,0,0,0,0-94.54,12,12,0,1,1,22-9.46A143.09,143.09,0,0,1,252,108ZM207,64.76a108.26,108.26,0,0,1,0,86.48,12,12,0,0,1-22-9.62,84.35,84.35,0,0,0,0-67.24,12,12,0,1,1,22-9.62Z"/></svg>`,
     style: "bold",
-    tags: ["user", "sound"],
+    tags: ["user", "sound", "profile", "account", "audio", "voice", "speaker", "bold", "heavy", "thick"],
     category: "bold"
   },
   {
@@ -69554,7 +69554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Sound Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,108a60,60,0,1,1-60-60A60,60,0,0,1,168,108Z" opacity="0.2"/><path d="M144,165.68a68,68,0,1,0-71.9,0c-20.65,6.76-39.23,19.39-54.17,37.17a8,8,0,0,0,12.25,10.3C50.25,189.19,77.91,176,108,176s57.75,13.19,77.88,37.15a8,8,0,1,0,12.25-10.3C183.18,185.07,164.6,172.44,144,165.68ZM56,108a52,52,0,1,1,52,52A52.06,52.06,0,0,1,56,108ZM207.36,65.6a108.36,108.36,0,0,1,0,84.8,8,8,0,0,1-7.36,4.86,8,8,0,0,1-7.36-11.15,92.26,92.26,0,0,0,0-72.22,8,8,0,0,1,14.72-6.29ZM248,108a139,139,0,0,1-11.29,55.15,8,8,0,0,1-14.7-6.3,124.43,124.43,0,0,0,0-97.7,8,8,0,1,1,14.7-6.3A139,139,0,0,1,248,108Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "sound"],
+    tags: ["user", "sound", "profile", "account", "audio", "voice", "speaker", "duotone", "filled", "outline"],
     category: "duotone"
   },
   {
@@ -69562,7 +69562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Sound Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M198.13,202.85A8,8,0,0,1,192,216H24a8,8,0,0,1-6.12-13.15c14.94-17.78,33.52-30.41,54.17-37.17a68,68,0,1,1,71.9,0C164.6,172.44,183.18,185.07,198.13,202.85ZM196.86,61.39a8,8,0,0,0-4.22,10.5,92.26,92.26,0,0,1,0,72.22,8,8,0,1,0,14.72,6.29,108.36,108.36,0,0,0,0-84.8A8,8,0,0,0,196.86,61.39Zm39.85-8.54a8,8,0,1,0-14.7,6.3,124.43,124.43,0,0,1,0,97.7,8,8,0,1,0,14.7,6.3,140.34,140.34,0,0,0,0-110.3Z"/></svg>`,
     style: "fill",
-    tags: ["user", "sound"],
+    tags: ["user", "sound", "profile", "account", "audio", "voice", "speaker", "filled", "solid"],
     category: "fill"
   },
   {
@@ -69570,7 +69570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Sound Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M139,166.26a66,66,0,1,0-62,0c-22,6.22-41.88,19.15-57.61,37.88a6,6,0,0,0,9.18,7.72C49.11,187.45,77.31,174,108,174s58.9,13.45,79.41,37.86a6,6,0,1,0,9.18-7.72C180.86,185.41,161,172.48,139,166.26ZM54,108a54,54,0,1,1,54,54A54.06,54.06,0,0,1,54,108ZM205.52,66.39a106.33,106.33,0,0,1,0,83.22,6,6,0,0,1-11-4.71,94.29,94.29,0,0,0,0-73.8,6,6,0,0,1,11-4.71ZM246,108a137.16,137.16,0,0,1-11.12,54.37,6,6,0,0,1-11-4.74,126.41,126.41,0,0,0,0-99.26,6,6,0,0,1,11-4.74A137.16,137.16,0,0,1,246,108Z"/></svg>`,
     style: "light",
-    tags: ["user", "sound"],
+    tags: ["user", "sound", "profile", "account", "audio", "voice", "speaker", "light", "minimal", "thin"],
     category: "light"
   },
   {
@@ -69578,7 +69578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Sound Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M133.17,166.84a64,64,0,1,0-50.34,0c-23.76,5.46-45.18,18.69-61.89,38.59a4,4,0,1,0,6.12,5.14C48,185.7,76.71,172,108,172s60,13.7,80.94,38.57a4,4,0,0,0,6.12-5.14C178.35,185.53,156.93,172.3,133.17,166.84ZM52,108a56,56,0,1,1,56,56A56.06,56.06,0,0,1,52,108ZM203.68,67.17a104.35,104.35,0,0,1,0,81.66,4,4,0,0,1-3.68,2.43,4.12,4.12,0,0,1-1.57-.32,4,4,0,0,1-2.11-5.25,96.32,96.32,0,0,0,0-75.38,4,4,0,0,1,7.36-3.14ZM244,108a135.2,135.2,0,0,1-11,53.58,4,4,0,0,1-3.68,2.42,3.94,3.94,0,0,1-1.57-.32,4,4,0,0,1-2.1-5.26,128.44,128.44,0,0,0,0-100.84A4,4,0,1,1,233,54.42,135.2,135.2,0,0,1,244,108Z"/></svg>`,
     style: "thin",
-    tags: ["user", "sound"],
+    tags: ["user", "sound", "profile", "account", "audio", "voice", "speaker", "thin", "minimal", "delicate"],
     category: "thin"
   },
   {
@@ -69586,7 +69586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Sound Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,165.68a68,68,0,1,0-71.9,0c-20.65,6.76-39.23,19.39-54.17,37.17a8,8,0,0,0,12.25,10.3C50.25,189.19,77.91,176,108,176s57.75,13.19,77.88,37.15a8,8,0,1,0,12.25-10.3C183.18,185.07,164.6,172.44,144,165.68ZM56,108a52,52,0,1,1,52,52A52.06,52.06,0,0,1,56,108ZM207.36,65.6a108.36,108.36,0,0,1,0,84.8,8,8,0,0,1-7.36,4.86,8,8,0,0,1-7.36-11.15,92.26,92.26,0,0,0,0-72.22,8,8,0,0,1,14.72-6.29ZM248,108a139,139,0,0,1-11.29,55.15,8,8,0,0,1-14.7-6.3,124.43,124.43,0,0,0,0-97.7,8,8,0,1,1,14.7-6.3A139,139,0,0,1,248,108Z"/></svg>`,
     style: "regular",
-    tags: ["user", "sound"],
+    tags: ["user", "sound", "profile", "account", "audio", "voice", "speaker", "standard", "outline"],
     category: "regular"
   },
   {
@@ -69594,7 +69594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Square Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,24V196.24a83.63,83.63,0,0,0-39.08-39.67,52,52,0,1,0-73.84,0A83.63,83.63,0,0,0,52,196.24V52ZM100,120a28,28,0,1,1,28,28A28,28,0,0,1,100,120Zm28,52a59.34,59.34,0,0,1,37.69,13.31A60.45,60.45,0,0,1,181.06,204H74.94a60.45,60.45,0,0,1,15.37-18.69A59.34,59.34,0,0,1,128,172Z"/></svg>`,
     style: "bold",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "id", "badge", "identification", "bold", "heavy", "thick"],
     category: "bold"
   },
   {
@@ -69602,7 +69602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Square Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,40H48a8,8,0,0,0-8,8V208a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V48A8,8,0,0,0,208,40ZM57.78,216A72,72,0,0,1,128,160a40,40,0,1,1,40-40,40,40,0,0,1-40,40,72,72,0,0,1,70.22,56Z" opacity="0.2"/><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120ZM68.67,208A64.45,64.45,0,0,1,87.8,182.2a64,64,0,0,1,80.4,0A64.45,64.45,0,0,1,187.33,208ZM208,208h-3.67a79.87,79.87,0,0,0-46.69-50.29,48,48,0,1,0-59.28,0A79.87,79.87,0,0,0,51.67,208H48V48H208V208Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "id", "badge", "identification", "duotone", "filled", "outline"],
     category: "duotone"
   },
   {
@@ -69610,7 +69610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Square Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M172,120a44,44,0,1,1-44-44A44,44,0,0,1,172,120Zm52-72V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM208,208V48H48V208h3.67a80.58,80.58,0,0,1,26.07-38.25q3.08-2.48,6.36-4.62a4,4,0,0,1,4.81.33,59.82,59.82,0,0,0,78.18,0,4,4,0,0,1,4.81-.33q3.28,2.15,6.36,4.62A80.58,80.58,0,0,1,204.33,208H208Z"/></svg>`,
     style: "fill",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "person", "filled", "solid", "avatar", "identity", "login", "rounded", "bold"],
     category: "fill"
   },
   {
@@ -69618,7 +69618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Square Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,34H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V48A14,14,0,0,0,208,34ZM94,120a34,34,0,1,1,34,34A34,34,0,0,1,94,120ZM65.77,210a66.43,66.43,0,0,1,20.77-29.36,66,66,0,0,1,82.92,0A66.43,66.43,0,0,1,190.23,210ZM210,208a2,2,0,0,1-2,2h-5.17a77.85,77.85,0,0,0-49.38-51.71,46,46,0,1,0-50.9,0A77.85,77.85,0,0,0,53.17,210H48a2,2,0,0,1-2-2V48a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2Z"/></svg>`,
     style: "light",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "person", "outline", "thin", "avatar", "identity", "login", "rounded", "lightweight"],
     category: "light"
   },
   {
@@ -69626,7 +69626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Square Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,36H48A12,12,0,0,0,36,48V208a12,12,0,0,0,12,12H208a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM63,212a68,68,0,0,1,130,0Zm149-4a4,4,0,0,1-4,4h-6.66a76,76,0,0,0-52.75-53.13,44,44,0,1,0-41.18,0A76,76,0,0,0,54.66,212H48a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4H208a4,4,0,0,1,4,4Zm-84-52a36,36,0,1,1,36-36A36,36,0,0,1,128,156Z"/></svg>`,
     style: "thin",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "person", "outline", "minimal", "avatar", "identity", "login", "rounded", "delicate"],
     category: "thin"
   },
   {
@@ -69634,7 +69634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Square Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120ZM68.67,208A64.36,64.36,0,0,1,87.8,182.2a64,64,0,0,1,80.4,0A64.36,64.36,0,0,1,187.33,208ZM208,208h-3.67a79.9,79.9,0,0,0-46.68-50.29,48,48,0,1,0-59.3,0A79.9,79.9,0,0,0,51.67,208H48V48H208V208Z"/></svg>`,
     style: "regular",
-    tags: ["user", "square"],
+    tags: ["user", "square", "profile", "account", "person", "outline", "standard", "avatar", "identity", "login", "rounded", "medium"],
     category: "regular"
   },
   {
@@ -69642,7 +69642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Switch Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M213,174.26A12,12,0,0,0,196.24,177q-1.47,2.06-3.05,4a76,76,0,0,0-30-28.37,48,48,0,1,0-70.28.08,76.8,76.8,0,0,0-30.06,28.25,83.62,83.62,0,0,1-18.3-43.55,12,12,0,0,0,16-17.88l-20-20a12,12,0,0,0-17,0l-20,20a12,12,0,0,0,16.83,17.1,107.88,107.88,0,0,0,37.72,73.61,12.33,12.33,0,0,0,1.88,1.57,107.82,107.82,0,0,0,136.47-.26,13.09,13.09,0,0,0,1.28-1.06,107.66,107.66,0,0,0,18-19.46A12,12,0,0,0,213,174.26ZM128,96a24,24,0,1,1-24,24A24,24,0,0,1,128,96Zm0,116a83.52,83.52,0,0,1-46.94-14.37,52,52,0,0,1,93.88,0A84.07,84.07,0,0,1,128,212Zm124.49-75.51-20,20a12,12,0,0,1-17,0l-20-20a12,12,0,0,1,16-17.88A84,84,0,0,0,59.74,79,12,12,0,1,1,40.26,65a108,108,0,0,1,195.4,54.4,12,12,0,0,1,16.83,17.1Z"/></svg>`,
     style: "bold",
-    tags: ["user", "switch"],
+    tags: ["user", "switch", "profile", "account", "change", "transfer", "arrow", "exchange", "swap", "filled", "bold", "direction"],
     category: "bold"
   },
   {
@@ -69650,7 +69650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Switch Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a95.76,95.76,0,0,1-31.8,71.37A72,72,0,0,0,128,160a40,40,0,1,0-40-40,40,40,0,0,0,40,40,72,72,0,0,0-64.2,39.37h0A96,96,0,1,1,224,128Z" opacity="0.2"/><path d="M253.66,133.66l-24,24a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L216,132.69V128A88,88,0,0,0,56.49,76.67a8,8,0,0,1-13-9.34A104,104,0,0,1,232,128v4.69l10.34-10.35a8,8,0,0,1,11.32,11.32Zm-41.18,55A104,104,0,0,1,24,128v-4.69L13.66,133.66A8,8,0,0,1,2.34,122.34l24-24a8,8,0,0,1,11.32,0l24,24a8,8,0,0,1-11.32,11.32L40,123.31V128a87.62,87.62,0,0,0,22.24,58.41A79.66,79.66,0,0,1,98.3,157.66a48,48,0,1,1,59.4,0,79.59,79.59,0,0,1,36.08,28.78,89.68,89.68,0,0,0,5.71-7.11,8,8,0,0,1,13,9.34ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Zm0,64a88.2,88.2,0,0,0,53.92-18.49,64,64,0,0,0-107.84,0A87.57,87.57,0,0,0,128,216Z"/></svg>`,
     style: "duotone",
-    tags: ["user", "switch"],
+    tags: ["user", "switch", "profile", "account", "change", "transfer", "arrow", "exchange", "swap", "two-tone", "gradient", "direction"],
     category: "duotone"
   },
   {
@@ -69658,7 +69658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Switch Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M84,120a44,44,0,1,1,44,44A44,44,0,0,1,84,120Zm126.16,57.18a8.21,8.21,0,0,0-10.86,2.41,87.42,87.42,0,0,1-5.52,6.85A79.76,79.76,0,0,0,172,165.1a4,4,0,0,0-4.84.32,59.8,59.8,0,0,1-78.26,0A4,4,0,0,0,84,165.1a79.71,79.71,0,0,0-21.79,21.31A87.66,87.66,0,0,1,40.37,136h15.4a8.2,8.2,0,0,0,6.69-3.28,8,8,0,0,0-.8-10.38l-24-24a8,8,0,0,0-11.32,0l-24,24a8,8,0,0,0-.8,10.38A8.2,8.2,0,0,0,8.23,136H24.3a104,104,0,0,0,188.18,52.67A8,8,0,0,0,210.16,177.18Zm45.23-52.24A8,8,0,0,0,248,120H231.7A104,104,0,0,0,43.52,67.33a8,8,0,0,0,13,9.34A88,88,0,0,1,215.63,120H200a8,8,0,0,0-5.66,13.66l24,24a8,8,0,0,0,11.32,0l24-24A8,8,0,0,0,255.39,124.94Z"/></svg>`,
     style: "fill",
-    tags: ["user", "switch"],
+    tags: ["user", "switch", "profile", "account", "change", "transfer", "arrow", "exchange", "swap", "filled", "solid", "direction"],
     category: "fill"
   },
   {
@@ -69666,7 +69666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Switch Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252.24,132.24l-24,24a6,6,0,0,1-8.48,0l-24-24a6,6,0,1,1,8.48-8.48L218,137.51V128A90,90,0,0,0,54.87,75.5a6,6,0,1,1-9.74-7A102,102,0,0,1,230,128v9.51l13.76-13.75a6,6,0,1,1,8.48,8.48ZM210.85,187.5A102,102,0,0,1,26,128v-9.51L12.24,132.24a6,6,0,0,1-8.48-8.48l24-24a6,6,0,0,1,8.48,0l24,24a6,6,0,1,1-8.48,8.48L38,118.49V128a89.65,89.65,0,0,0,24.49,61.64,77.53,77.53,0,0,1,40-31.38,46,46,0,1,1,51,0,77.49,77.49,0,0,1,40,31.41,89.35,89.35,0,0,0,7.58-9.17,6,6,0,1,1,9.74,7ZM128,154a34,34,0,1,0-34-34A34,34,0,0,0,128,154Zm0,64a90.24,90.24,0,0,0,56.57-20,66,66,0,0,0-113.13,0A89.58,89.58,0,0,0,128,218Z"/></svg>`,
     style: "light",
-    tags: ["user", "switch"],
+    tags: ["user", "switch", "profile", "account", "change", "transfer", "arrow", "exchange", "swap", "outline", "lightweight", "direction"],
     category: "light"
   },
   {
@@ -69674,7 +69674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Switch Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M250.83,130.83l-24,24a4,4,0,0,1-5.66,0l-24-24a4,4,0,1,1,5.66-5.66L220,142.34V128A92,92,0,0,0,53.25,74.34a4,4,0,0,1-6.5-4.68A100,100,0,0,1,228,128v14.34l17.17-17.17a4,4,0,1,1,5.66,5.66Zm-41.6,55.51A100,100,0,0,1,28,128V113.66L10.83,130.83a4,4,0,0,1-5.66-5.66l24-24a4,4,0,0,1,5.66,0l24,24a4,4,0,0,1-5.66,5.66L36,113.66V128a91.69,91.69,0,0,0,26.83,64.87,75.61,75.61,0,0,1,44.51-34,44,44,0,1,1,41.32,0,75.57,75.57,0,0,1,44.52,34.07,91.34,91.34,0,0,0,9.56-11.24,4,4,0,1,1,6.49,4.68ZM128,156a36,36,0,1,0-36-36A36,36,0,0,0,128,156Zm0,64a92.23,92.23,0,0,0,59.14-21.57,68,68,0,0,0-118.27,0A91.56,91.56,0,0,0,128,220Z"/></svg>`,
     style: "thin",
-    tags: ["user", "switch"],
+    tags: ["user", "switch", "profile", "account", "change", "transfer", "arrow", "exchange", "swap", "outline", "minimal", "direction"],
     category: "thin"
   },
   {
@@ -69682,7 +69682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Switch Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M253.66,133.66l-24,24a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L216,132.69V128A88,88,0,0,0,56.49,76.67a8,8,0,0,1-13-9.34A104,104,0,0,1,232,128v4.69l10.34-10.35a8,8,0,0,1,11.32,11.32Zm-41.18,55A104,104,0,0,1,24,128v-4.69L13.66,133.66A8,8,0,0,1,2.34,122.34l24-24a8,8,0,0,1,11.32,0l24,24a8,8,0,0,1-11.32,11.32L40,123.31V128a87.62,87.62,0,0,0,22.24,58.41A79.66,79.66,0,0,1,98.3,157.66a48,48,0,1,1,59.4,0,79.59,79.59,0,0,1,36.08,28.78,89.68,89.68,0,0,0,5.71-7.11,8,8,0,0,1,13,9.34ZM128,152a32,32,0,1,0-32-32A32,32,0,0,0,128,152Zm0,64a88.2,88.2,0,0,0,53.92-18.49,64,64,0,0,0-107.84,0A87.57,87.57,0,0,0,128,216Z"/></svg>`,
     style: "regular",
-    tags: ["user", "switch"],
+    tags: ["user", "switch", "profile", "account", "change", "transfer", "arrow", "exchange", "swap", "outline", "standard", "direction"],
     category: "regular"
   },
   {
@@ -69690,7 +69690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M227.46,214c-16.52-28.56-43-48.06-73.68-55.09a68,68,0,1,0-51.56,0c-30.64,7-57.16,26.53-73.68,55.09a4,4,0,0,0,6.92,4C55,184.19,89.62,164,128,164s73,20.19,92.54,54a4,4,0,0,0,3.46,2,3.93,3.93,0,0,0,2-.54A4,4,0,0,0,227.46,214ZM68,96a60,60,0,1,1,60,60A60.07,60.07,0,0,1,68,96Z"/></svg>`,
     style: "thin",
-    tags: ["user"],
+    tags: ["user", "profile", "account", "person", "avatar", "identity", "login", "outline", "minimal", "delicate", "individual"],
     category: "thin"
   },
   {
@@ -69698,7 +69698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "User Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"/></svg>`,
     style: "regular",
-    tags: ["user"],
+    tags: ["user", "profile", "account", "person", "avatar", "identity", "login", "outline", "standard", "medium", "individual"],
     category: "regular"
   },
   {
@@ -69706,7 +69706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M125.18,156.94a64,64,0,1,0-82.36,0,100.23,100.23,0,0,0-39.49,32,12,12,0,0,0,19.35,14.2,76,76,0,0,1,122.64,0,12,12,0,0,0,19.36-14.2A100.33,100.33,0,0,0,125.18,156.94ZM44,108a40,40,0,1,1,40,40A40,40,0,0,1,44,108Zm206.1,97.67a12,12,0,0,1-16.78-2.57A76.31,76.31,0,0,0,172,172a12,12,0,0,1,0-24,40,40,0,1,0-10.3-78.67,12,12,0,1,1-6.16-23.19,64,64,0,0,1,57.64,110.8,100.23,100.23,0,0,1,39.49,32A12,12,0,0,1,250.1,205.67Z"/></svg>`,
     style: "bold",
-    tags: ["users"],
+    tags: ["users", "group", "team", "community", "people", "audience", "filled", "solid", "bold", "social", "multiple"],
     category: "bold"
   },
   {
@@ -69714,7 +69714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,108A52,52,0,1,1,84,56,52,52,0,0,1,136,108Z" opacity="0.2"/><path d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"/></svg>`,
     style: "duotone",
-    tags: ["users"],
+    tags: ["users", "group", "team", "community", "people", "audience", "two-tone", "gradient", "social", "multiple", "collaboration"],
     category: "duotone"
   },
   {
@@ -69722,7 +69722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164.47,195.63a8,8,0,0,1-6.7,12.37H10.23a8,8,0,0,1-6.7-12.37,95.83,95.83,0,0,1,47.22-37.71,60,60,0,1,1,66.5,0A95.83,95.83,0,0,1,164.47,195.63Zm87.91-.15a95.87,95.87,0,0,0-47.13-37.56A60,60,0,0,0,144.7,54.59a4,4,0,0,0-1.33,6A75.83,75.83,0,0,1,147,150.53a4,4,0,0,0,1.07,5.53,112.32,112.32,0,0,1,29.85,30.83,23.92,23.92,0,0,1,3.65,16.47,4,4,0,0,0,3.95,4.64h60.3a8,8,0,0,0,7.73-5.93A8.22,8.22,0,0,0,252.38,195.48Z"/></svg>`,
     style: "fill",
-    tags: ["users"],
+    tags: ["users", "group", "team", "community", "people", "audience", "filled", "solid", "social", "multiple", "collaboration"],
     category: "fill"
   },
   {
@@ -69730,7 +69730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Four Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M24.79,121.59a12,12,0,0,0,16.81-2.38,48,48,0,0,1,76.81,0,12,12,0,0,0,16.8,2.39,12.24,12.24,0,0,0,2.38-2.39h0a48,48,0,0,1,76.81,0,12,12,0,1,0,19.19-14.41,72,72,0,0,0-25.3-21.22,40,40,0,1,0-64.58,0A71,71,0,0,0,128,94.31a71,71,0,0,0-15.71-10.74,40,40,0,1,0-64.58,0,72,72,0,0,0-25.3,21.22A12,12,0,0,0,24.79,121.59ZM176,44a16,16,0,1,1-16,16A16,16,0,0,1,176,44ZM80,44A16,16,0,1,1,64,60,16,16,0,0,1,80,44ZM208.29,195.57a40,40,0,1,0-64.58,0A71.31,71.31,0,0,0,128,206.3a71.31,71.31,0,0,0-15.71-10.73,40,40,0,1,0-64.58,0,72,72,0,0,0-25.3,21.22A12,12,0,0,0,41.6,231.21a48,48,0,0,1,76.81,0,12,12,0,0,0,16.8,2.39,12.24,12.24,0,0,0,2.38-2.39h0a48,48,0,0,1,76.81,0,12,12,0,1,0,19.19-14.41A71.91,71.91,0,0,0,208.29,195.57ZM80,156a16,16,0,1,1-16,16A16,16,0,0,1,80,156Zm96,0a16,16,0,1,1-16,16A16,16,0,0,1,176,156Z"/></svg>`,
     style: "bold",
-    tags: ["users", "four"],
+    tags: ["users", "four", "group", "team", "community", "people", "audience", "filled", "solid", "bold", "social", "collaboration"],
     category: "bold"
   },
   {
@@ -69738,7 +69738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Four Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112,168a32,32,0,1,1-32-32A32,32,0,0,1,112,168ZM80,32a32,32,0,1,0,32,32A32,32,0,0,0,80,32Zm96,104a32,32,0,1,0,32,32A32,32,0,0,0,176,136Zm0-40a32,32,0,1,0-32-32A32,32,0,0,0,176,96Z" opacity="0.2"/><path d="M27.2,126.4a8,8,0,0,0,11.2-1.6,52,52,0,0,1,83.2,0,8,8,0,0,0,11.2,1.59,7.73,7.73,0,0,0,1.59-1.59h0a52,52,0,0,1,83.2,0,8,8,0,0,0,12.8-9.61A67.85,67.85,0,0,0,203,93.51a40,40,0,1,0-53.94,0,67.27,67.27,0,0,0-21,14.31,67.27,67.27,0,0,0-21-14.31,40,40,0,1,0-53.94,0A67.88,67.88,0,0,0,25.6,115.2,8,8,0,0,0,27.2,126.4ZM176,40a24,24,0,1,1-24,24A24,24,0,0,1,176,40ZM80,40A24,24,0,1,1,56,64,24,24,0,0,1,80,40ZM203,197.51a40,40,0,1,0-53.94,0,67.27,67.27,0,0,0-21,14.31,67.27,67.27,0,0,0-21-14.31,40,40,0,1,0-53.94,0A67.88,67.88,0,0,0,25.6,219.2a8,8,0,1,0,12.8,9.6,52,52,0,0,1,83.2,0,8,8,0,0,0,11.2,1.59,7.73,7.73,0,0,0,1.59-1.59h0a52,52,0,0,1,83.2,0,8,8,0,0,0,12.8-9.61A67.85,67.85,0,0,0,203,197.51ZM80,144a24,24,0,1,1-24,24A24,24,0,0,1,80,144Zm96,0a24,24,0,1,1-24,24A24,24,0,0,1,176,144Z"/></svg>`,
     style: "duotone",
-    tags: ["users", "four"],
+    tags: ["users", "four", "group", "team", "community", "people", "audience", "two-tone", "gradient", "social", "collaboration", "multiple"],
     category: "duotone"
   },
   {
@@ -69746,7 +69746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Four Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M230.4,219.19A8,8,0,0,1,224,232H32a8,8,0,0,1-6.4-12.8A67.88,67.88,0,0,1,53,197.51a40,40,0,1,1,53.93,0,67.42,67.42,0,0,1,21,14.29,67.42,67.42,0,0,1,21-14.29,40,40,0,1,1,53.93,0A67.85,67.85,0,0,1,230.4,219.19ZM27.2,126.4a8,8,0,0,0,11.2-1.6,52,52,0,0,1,83.2,0,8,8,0,0,0,12.8,0,52,52,0,0,1,83.2,0,8,8,0,0,0,12.8-9.61A67.85,67.85,0,0,0,203,93.51a40,40,0,1,0-53.93,0,67.42,67.42,0,0,0-21,14.29,67.42,67.42,0,0,0-21-14.29,40,40,0,1,0-53.93,0A67.88,67.88,0,0,0,25.6,115.2,8,8,0,0,0,27.2,126.4Z"/></svg>`,
     style: "fill",
-    tags: ["users", "four"],
+    tags: ["users", "four", "group", "team", "community", "people", "audience", "filled", "solid", "social", "collaboration", "multiple"],
     category: "fill"
   },
   {
@@ -69754,7 +69754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Four Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M28.4,124.8a6,6,0,0,0,8.4-1.2,54,54,0,0,1,86.4,0,6,6,0,0,0,8.4,1.19,5.59,5.59,0,0,0,1.19-1.19h0a54,54,0,0,1,86.4,0,6,6,0,0,0,9.6-7.21,65.74,65.74,0,0,0-29.69-22.26,38,38,0,1,0-46.22,0A65.32,65.32,0,0,0,128,110.7a65.32,65.32,0,0,0-24.89-16.57,38,38,0,1,0-46.22,0A65.69,65.69,0,0,0,27.2,116.4,6,6,0,0,0,28.4,124.8ZM176,38a26,26,0,1,1-26,26A26,26,0,0,1,176,38ZM80,38A26,26,0,1,1,54,64,26,26,0,0,1,80,38ZM199.11,198.13a38,38,0,1,0-46.22,0A65.32,65.32,0,0,0,128,214.7a65.32,65.32,0,0,0-24.89-16.57,38,38,0,1,0-46.22,0A65.69,65.69,0,0,0,27.2,220.4a6,6,0,1,0,9.6,7.2,54,54,0,0,1,86.4,0,6,6,0,0,0,8.4,1.19,5.59,5.59,0,0,0,1.19-1.19h0a54,54,0,0,1,86.4,0,6,6,0,0,0,9.6-7.21A65.74,65.74,0,0,0,199.11,198.13ZM80,142a26,26,0,1,1-26,26A26,26,0,0,1,80,142Zm96,0a26,26,0,1,1-26,26A26,26,0,0,1,176,142Z"/></svg>`,
     style: "light",
-    tags: ["users", "four"],
+    tags: ["users", "four", "group", "team", "community", "people", "audience", "outline", "lightweight", "social", "collaboration", "multiple"],
     category: "light"
   },
   {
@@ -69762,7 +69762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Four Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M29.6,123.2a4,4,0,0,0,5.6-.8,56,56,0,0,1,89.6,0,3.93,3.93,0,0,0,6.38,0h0a56,56,0,0,1,89.6,0,4,4,0,1,0,6.4-4.8,63.55,63.55,0,0,0-32.5-22.85,36,36,0,1,0-37.4,0,63.39,63.39,0,0,0-29.3,19,63.34,63.34,0,0,0-29.3-19,36,36,0,1,0-37.4,0A63.61,63.61,0,0,0,28.8,117.6,4,4,0,0,0,29.6,123.2ZM148,64a28,28,0,1,1,28,28A28,28,0,0,1,148,64ZM52,64A28,28,0,1,1,80,92,28,28,0,0,1,52,64ZM194.7,198.75a36,36,0,1,0-37.4,0A63.39,63.39,0,0,0,128,217.7a63.34,63.34,0,0,0-29.3-18.95,36,36,0,1,0-37.4,0A63.61,63.61,0,0,0,28.8,221.6a4,4,0,0,0,6.4,4.8,56,56,0,0,1,89.6,0,3.93,3.93,0,0,0,6.38,0h0a56,56,0,0,1,89.6,0,4,4,0,0,0,6.4-4.8A63.55,63.55,0,0,0,194.7,198.75ZM52,168a28,28,0,1,1,28,28A28,28,0,0,1,52,168Zm96,0a28,28,0,1,1,28,28A28,28,0,0,1,148,168Z"/></svg>`,
     style: "thin",
-    tags: ["users", "four"],
+    tags: ["users", "four", "group", "team", "community", "people", "audience", "outline", "minimal", "social", "collaboration", "multiple"],
     category: "thin"
   },
   {
@@ -69770,7 +69770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Four Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M27.2,126.4a8,8,0,0,0,11.2-1.6,52,52,0,0,1,83.2,0,8,8,0,0,0,11.2,1.59,7.73,7.73,0,0,0,1.59-1.59h0a52,52,0,0,1,83.2,0,8,8,0,0,0,12.8-9.61A67.85,67.85,0,0,0,203,93.51a40,40,0,1,0-53.94,0,67.27,67.27,0,0,0-21,14.31,67.27,67.27,0,0,0-21-14.31,40,40,0,1,0-53.94,0A67.88,67.88,0,0,0,25.6,115.2,8,8,0,0,0,27.2,126.4ZM176,40a24,24,0,1,1-24,24A24,24,0,0,1,176,40ZM80,40A24,24,0,1,1,56,64,24,24,0,0,1,80,40ZM203,197.51a40,40,0,1,0-53.94,0,67.27,67.27,0,0,0-21,14.31,67.27,67.27,0,0,0-21-14.31,40,40,0,1,0-53.94,0A67.88,67.88,0,0,0,25.6,219.2a8,8,0,1,0,12.8,9.6,52,52,0,0,1,83.2,0,8,8,0,0,0,11.2,1.59,7.73,7.73,0,0,0,1.59-1.59h0a52,52,0,0,1,83.2,0,8,8,0,0,0,12.8-9.61A67.85,67.85,0,0,0,203,197.51ZM80,144a24,24,0,1,1-24,24A24,24,0,0,1,80,144Zm96,0a24,24,0,1,1-24,24A24,24,0,0,1,176,144Z"/></svg>`,
     style: "regular",
-    tags: ["users", "four"],
+    tags: ["users", "four", "group", "team", "community", "people", "audience", "outline", "standard", "social", "collaboration", "multiple"],
     category: "regular"
   },
   {
@@ -69778,7 +69778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M112.6,158.43a58,58,0,1,0-57.2,0A93.83,93.83,0,0,0,5.21,196.72a6,6,0,0,0,10.05,6.56,82,82,0,0,1,137.48,0,6,6,0,0,0,10-6.56A93.83,93.83,0,0,0,112.6,158.43ZM38,108a46,46,0,1,1,46,46A46.06,46.06,0,0,1,38,108Zm211,97a6,6,0,0,1-8.3-1.74A81.8,81.8,0,0,0,172,166a6,6,0,0,1,0-12,46,46,0,1,0-17.08-88.73,6,6,0,1,1-4.46-11.14,58,58,0,0,1,50.14,104.3,93.83,93.83,0,0,1,50.19,38.29A6,6,0,0,1,249,205Z"/></svg>`,
     style: "light",
-    tags: ["users"],
+    tags: ["users", "group", "team", "community", "people", "audience", "outline", "lightweight", "social", "multiple", "collaboration"],
     category: "light"
   },
   {
@@ -69786,7 +69786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M107.19,159a56,56,0,1,0-46.38,0A91.83,91.83,0,0,0,6.88,197.81a4,4,0,1,0,6.7,4.37,84,84,0,0,1,140.84,0,4,4,0,1,0,6.7-4.37A91.83,91.83,0,0,0,107.19,159ZM36,108a48,48,0,1,1,48,48A48.05,48.05,0,0,1,36,108Zm212,95.35a4,4,0,0,1-5.53-1.17A83.81,83.81,0,0,0,172,164a4,4,0,0,1,0-8,48,48,0,1,0-17.82-92.58,4,4,0,1,1-3-7.43,56,56,0,0,1,44,103,91.83,91.83,0,0,1,53.93,38.86A4,4,0,0,1,248,203.35Z"/></svg>`,
     style: "thin",
-    tags: ["users"],
+    tags: ["users", "group", "team", "community", "people", "audience", "outline", "minimal", "social", "multiple", "collaboration"],
     category: "thin"
   },
   {
@@ -69794,7 +69794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Three Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164.38,181.1a52,52,0,1,0-72.76,0,75.89,75.89,0,0,0-30,28.89,12,12,0,0,0,20.78,12,53,53,0,0,1,91.22,0,12,12,0,1,0,20.78-12A75.89,75.89,0,0,0,164.38,181.1ZM100,144a28,28,0,1,1,28,28A28,28,0,0,1,100,144Zm147.21,9.59a12,12,0,0,1-16.81-2.39c-8.33-11.09-19.85-19.59-29.33-21.64a12,12,0,0,1-1.82-22.91,20,20,0,1,0-24.78-28.3,12,12,0,1,1-21-11.6,44,44,0,1,1,73.28,48.35,92.18,92.18,0,0,1,22.85,21.69A12,12,0,0,1,247.21,153.59Zm-192.28-24c-9.48,2.05-21,10.55-29.33,21.65A12,12,0,0,1,6.41,136.79,92.37,92.37,0,0,1,29.26,115.1a44,44,0,1,1,73.28-48.35,12,12,0,1,1-21,11.6,20,20,0,1,0-24.78,28.3,12,12,0,0,1-1.82,22.91Z"/></svg>`,
     style: "bold",
-    tags: ["users", "three"],
+    tags: ["users", "three", "group", "team", "community", "people", "audience", "filled", "solid", "bold", "social", "collaboration"],
     category: "bold"
   },
   {
@@ -69802,7 +69802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Three Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,144a40,40,0,1,1-40-40A40,40,0,0,1,168,144ZM64,56A32,32,0,1,0,96,88,32,32,0,0,0,64,56Zm128,0a32,32,0,1,0,32,32A32,32,0,0,0,192,56Z" opacity="0.2"/><path d="M244.8,150.4a8,8,0,0,1-11.2-1.6A51.6,51.6,0,0,0,192,128a8,8,0,0,1,0-16,24,24,0,1,0-23.24-30,8,8,0,1,1-15.5-4A40,40,0,1,1,219,117.51a67.94,67.94,0,0,1,27.43,21.68A8,8,0,0,1,244.8,150.4ZM190.92,212a8,8,0,1,1-13.85,8,57,57,0,0,0-98.15,0,8,8,0,1,1-13.84-8,72.06,72.06,0,0,1,33.74-29.92,48,48,0,1,1,58.36,0A72.06,72.06,0,0,1,190.92,212ZM128,176a32,32,0,1,0-32-32A32,32,0,0,0,128,176ZM72,120a8,8,0,0,0-8-8A24,24,0,1,1,87.24,82a8,8,0,1,0,15.5-4A40,40,0,1,0,37,117.51,67.94,67.94,0,0,0,9.6,139.19a8,8,0,1,0,12.8,9.61A51.6,51.6,0,0,1,64,128,8,8,0,0,0,72,120Z"/></svg>`,
     style: "duotone",
-    tags: ["users", "three"],
+    tags: ["users", "three", "group", "team", "community", "people", "audience", "two-tone", "gradient", "social", "collaboration", "multiple"],
     category: "duotone"
   },
   {
@@ -69810,7 +69810,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Three Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M64.12,147.8a4,4,0,0,1-4,4.2H16a8,8,0,0,1-7.8-6.17,8.35,8.35,0,0,1,1.62-6.93A67.79,67.79,0,0,1,37,117.51a40,40,0,1,1,66.46-35.8,3.94,3.94,0,0,1-2.27,4.18A64.08,64.08,0,0,0,64,144C64,145.28,64,146.54,64.12,147.8Zm182-8.91A67.76,67.76,0,0,0,219,117.51a40,40,0,1,0-66.46-35.8,3.94,3.94,0,0,0,2.27,4.18A64.08,64.08,0,0,1,192,144c0,1.28,0,2.54-.12,3.8a4,4,0,0,0,4,4.2H240a8,8,0,0,0,7.8-6.17A8.33,8.33,0,0,0,246.17,138.89Zm-89,43.18a48,48,0,1,0-58.37,0A72.13,72.13,0,0,0,65.07,212,8,8,0,0,0,72,224H184a8,8,0,0,0,6.93-12A72.15,72.15,0,0,0,157.19,182.07Z"/></svg>`,
     style: "fill",
-    tags: ["users", "three"],
+    tags: ["users", "three", "group", "team", "community", "social", "audience", "filled", "bold", "profile", "people"],
     category: "fill"
   },
   {
@@ -69818,7 +69818,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Three Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M243.6,148.8a6,6,0,0,1-8.4-1.2A53.58,53.58,0,0,0,192,126a6,6,0,0,1,0-12,26,26,0,1,0-25.18-32.5,6,6,0,0,1-11.62-3,38,38,0,1,1,59.91,39.63A65.69,65.69,0,0,1,244.8,140.4,6,6,0,0,1,243.6,148.8ZM189.19,213a6,6,0,0,1-2.19,8.2,5.9,5.9,0,0,1-3,.81,6,6,0,0,1-5.2-3,59,59,0,0,0-101.62,0,6,6,0,1,1-10.38-6A70.1,70.1,0,0,1,103,182.55a46,46,0,1,1,50.1,0A70.1,70.1,0,0,1,189.19,213ZM128,178a34,34,0,1,0-34-34A34,34,0,0,0,128,178ZM70,120a6,6,0,0,0-6-6A26,26,0,1,1,89.18,81.49a6,6,0,1,0,11.62-3,38,38,0,1,0-59.91,39.63A65.69,65.69,0,0,0,11.2,140.4a6,6,0,1,0,9.6,7.2A53.58,53.58,0,0,1,64,126,6,6,0,0,0,70,120Z"/></svg>`,
     style: "light",
-    tags: ["users", "three"],
+    tags: ["users", "three", "group", "team", "community", "social", "audience", "light", "outline", "profile", "people"],
     category: "light"
   },
   {
@@ -69826,7 +69826,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Three Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237,147.44a4,4,0,0,1-5.48-1.4c-8.33-14-20.93-22-34.56-22a4,4,0,0,1-1.2-.2,36.76,36.76,0,0,1-3.8.2,4,4,0,0,1,0-8,28,28,0,1,0-27.12-35,4,4,0,0,1-7.75-2,36,36,0,1,1,54,39.48c10.81,3.85,20.51,12,27.31,23.48A4,4,0,0,1,237,147.44ZM187.46,214a4,4,0,0,1-1.46,5.46,3.93,3.93,0,0,1-2,.54,4,4,0,0,1-3.46-2,61,61,0,0,0-105.08,0,4,4,0,0,1-6.92-4,68.35,68.35,0,0,1,39.19-31,44,44,0,1,1,40.54,0A68.35,68.35,0,0,1,187.46,214ZM128,180a36,36,0,1,0-36-36A36,36,0,0,0,128,180ZM64,116A28,28,0,1,1,91.12,81a4,4,0,0,0,7.75-2A36,36,0,1,0,45.3,118.75,63.55,63.55,0,0,0,12.8,141.6a4,4,0,0,0,6.4,4.8A55.55,55.55,0,0,1,64,124a4,4,0,0,0,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["users", "three"],
+    tags: ["users", "three", "group", "team", "community", "social", "audience", "thin", "minimal", "profile", "people"],
     category: "thin"
   },
   {
@@ -69834,7 +69834,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Three Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244.8,150.4a8,8,0,0,1-11.2-1.6A51.6,51.6,0,0,0,192,128a8,8,0,0,1-7.37-4.89,8,8,0,0,1,0-6.22A8,8,0,0,1,192,112a24,24,0,1,0-23.24-30,8,8,0,1,1-15.5-4A40,40,0,1,1,219,117.51a67.94,67.94,0,0,1,27.43,21.68A8,8,0,0,1,244.8,150.4ZM190.92,212a8,8,0,1,1-13.84,8,57,57,0,0,0-98.16,0,8,8,0,1,1-13.84-8,72.06,72.06,0,0,1,33.74-29.92,48,48,0,1,1,58.36,0A72.06,72.06,0,0,1,190.92,212ZM128,176a32,32,0,1,0-32-32A32,32,0,0,0,128,176ZM72,120a8,8,0,0,0-8-8A24,24,0,1,1,87.24,82a8,8,0,1,0,15.5-4A40,40,0,1,0,37,117.51,67.94,67.94,0,0,0,9.6,139.19a8,8,0,1,0,12.8,9.61A51.6,51.6,0,0,1,64,128,8,8,0,0,0,72,120Z"/></svg>`,
     style: "regular",
-    tags: ["users", "three"],
+    tags: ["users", "three", "group", "team", "community", "social", "audience", "outline", "profile", "people", "standard"],
     category: "regular"
   },
   {
@@ -69842,7 +69842,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Users Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"/></svg>`,
     style: "regular",
-    tags: ["users"],
+    tags: ["users", "group", "team", "community", "social", "audience", "outline", "profile", "people", "standard"],
     category: "regular"
   },
   {
@@ -69850,7 +69850,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Van Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M253.11,104.18,207.54,51.09A19.94,19.94,0,0,0,192.26,44H32A20,20,0,0,0,12,64V176a20,20,0,0,0,20,20H46.06a36,36,0,0,0,67.88,0h40.12a36,36,0,0,0,67.88,0H236a20,20,0,0,0,20-20V112A12.05,12.05,0,0,0,253.11,104.18ZM217.89,100H176V68h14.42ZM104,100V68h48v32ZM80,68v32H36V68Zm0,128a12,12,0,1,1,12-12A12,12,0,0,1,80,196Zm108,0a12,12,0,1,1,12-12A12,12,0,0,1,188,196Zm33.94-24a36,36,0,0,0-67.88,0H113.94a36,36,0,0,0-67.88,0H36V124H232v48Z"/></svg>`,
     style: "bold",
-    tags: ["van"],
+    tags: ["van", "delivery", "transportation", "truck", "shipping", "logistics", "filled", "heavy", "vehicle", "travel"],
     category: "bold"
   },
   {
@@ -69858,7 +69858,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Van Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,112v64a8,8,0,0,1-8,8H216a24,24,0,0,0-48,0H104a24,24,0,0,0-48,0H32a8,8,0,0,1-8-8V112Z" opacity="0.2"/><path d="M254.07,106.79,208.53,53.73A16,16,0,0,0,196.26,48H32A16,16,0,0,0,16,64V176a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V112A8,8,0,0,0,254.07,106.79ZM230.59,104H176V64h20.26ZM104,104V64h56v40ZM88,64v40H32V64ZM80,200a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm112,0a16,16,0,1,1,16-16A16,16,0,0,1,192,200Zm31-24a32,32,0,0,0-62,0H111a32,32,0,0,0-62,0H32V120H240v56Z"/></svg>`,
     style: "duotone",
-    tags: ["van"],
+    tags: ["van", "delivery", "transportation", "truck", "shipping", "logistics", "two-tone", "vehicle", "travel"],
     category: "duotone"
   },
   {
@@ -69866,7 +69866,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Van Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M254.07,106.79,208.53,53.73A16,16,0,0,0,196.26,48H32A16,16,0,0,0,16,64V176a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V112A8,8,0,0,0,254.07,106.79ZM32,104V64H88v40Zm48,96a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm80-96H104V64h56Zm32,96a16,16,0,1,1,16-16A16,16,0,0,1,192,200Zm-16-96V64h20.26l34.33,40Z"/></svg>`,
     style: "fill",
-    tags: ["van"],
+    tags: ["van", "delivery", "transportation", "truck", "shipping", "logistics", "filled", "vehicle", "travel"],
     category: "fill"
   },
   {
@@ -69874,7 +69874,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Van Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M252.55,108.09,207,55a14,14,0,0,0-10.74-5H32A14,14,0,0,0,18,64V176a14,14,0,0,0,14,14H50.6a30,30,0,0,0,58.8,0h53.2a30,30,0,0,0,58.8,0H240a14,14,0,0,0,14-14V112A6,6,0,0,0,252.55,108.09Zm-54.7-45.32L234.94,106H174V62h22.26A2,2,0,0,1,197.85,62.77ZM102,106V62h60v44ZM32,62H90v44H30V64A2,2,0,0,1,32,62ZM80,202a18,18,0,1,1,18-18A18,18,0,0,1,80,202Zm112,0a18,18,0,1,1,18-18A18,18,0,0,1,192,202Zm48-24H221.4a30,30,0,0,0-58.8,0H109.4a30,30,0,0,0-58.8,0H32a2,2,0,0,1-2-2V118H242v58A2,2,0,0,1,240,178Z"/></svg>`,
     style: "light",
-    tags: ["van"],
+    tags: ["van", "delivery", "transportation", "truck", "shipping", "logistics", "light", "outline", "vehicle", "travel"],
     category: "light"
   },
   {
@@ -69882,7 +69882,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Van Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M251,109.4,205.47,56.3a12,12,0,0,0-9.21-4.3H32A12,12,0,0,0,20,64V176a12,12,0,0,0,12,12H52.29a28,28,0,0,0,55.42,0h56.58a28,28,0,0,0,55.42,0H240a12,12,0,0,0,12-12V112A4,4,0,0,0,251,109.4ZM199.36,61.47,239.3,108H172V60h24.26A4,4,0,0,1,199.36,61.47ZM100,108V60h64v48ZM32,60H92v48H28V64A4,4,0,0,1,32,60ZM80,204a20,20,0,1,1,20-20A20,20,0,0,1,80,204Zm112,0a20,20,0,1,1,20-20A20,20,0,0,1,192,204Zm48-24H219.71a28,28,0,0,0-55.42,0H107.71a28,28,0,0,0-55.42,0H32a4,4,0,0,1-4-4V116H244v60A4,4,0,0,1,240,180Z"/></svg>`,
     style: "thin",
-    tags: ["van"],
+    tags: ["van", "delivery", "transportation", "truck", "shipping", "logistics", "thin", "minimal", "vehicle", "travel"],
     category: "thin"
   },
   {
@@ -69890,7 +69890,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Van Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M254.07,106.79,208.53,53.73A16,16,0,0,0,196.26,48H32A16,16,0,0,0,16,64V176a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V112A8,8,0,0,0,254.07,106.79ZM230.59,104H176V64h20.26ZM104,104V64h56v40ZM88,64v40H32V64ZM80,200a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm112,0a16,16,0,1,1,16-16A16,16,0,0,1,192,200Zm31-24a32,32,0,0,0-62,0H111a32,32,0,0,0-62,0H32V120H240v56Z"/></svg>`,
     style: "regular",
-    tags: ["van"],
+    tags: ["van", "delivery", "transportation", "truck", "shipping", "logistics", "outline", "vehicle", "travel", "standard"],
     category: "regular"
   },
   {
@@ -69898,7 +69898,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vault Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,36H40A20,20,0,0,0,20,56V192a20,20,0,0,0,20,20H52v12a12,12,0,0,0,24,0V212H180v12a12,12,0,0,0,24,0V212h12a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36ZM44,188V60H212v52H190.32a44,44,0,1,0,0,24H212v52Zm124-64a20,20,0,1,1-20-20A20,20,0,0,1,168,124Z"/></svg>`,
     style: "bold",
-    tags: ["vault"],
+    tags: ["vault", "bank", "safe", "security", "finance", "money", "storage", "filled", "heavy", "protection"],
     category: "bold"
   },
   {
@@ -69906,7 +69906,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vault Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H40a8,8,0,0,0-8,8V192a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48ZM152,168a40,40,0,1,1,40-40A40,40,0,0,1,152,168Z" opacity="0.2"/><path d="M216,40H40A16,16,0,0,0,24,56V192a16,16,0,0,0,16,16H56v16a8,8,0,0,0,16,0V208H184v16a8,8,0,0,0,16,0V208h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,152H40V56H216v64H199.32a48,48,0,1,0,0,16H216v56Zm-50.16-72a16,16,0,1,0,0,16H183a32,32,0,1,1,0-16Z"/></svg>`,
     style: "duotone",
-    tags: ["vault"],
+    tags: ["vault", "bank", "safe", "security", "finance", "money", "storage", "two-tone", "protection"],
     category: "duotone"
   },
   {
@@ -69914,7 +69914,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vault Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V192a16,16,0,0,0,16,16H56v16a8,8,0,0,0,16,0V208H184v16a8,8,0,0,0,16,0V208h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-8,96H179.09a36,36,0,1,1,0-16H208a8,8,0,0,1,0,16Zm-44-8a20,20,0,1,1-20-20A20,20,0,0,1,164,128Z"/></svg>`,
     style: "fill",
-    tags: ["vault"],
+    tags: ["vault", "bank", "safe", "security", "finance", "money", "storage", "filled", "protection"],
     category: "fill"
   },
   {
@@ -69922,7 +69922,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vault Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,42H40A14,14,0,0,0,26,56V192a14,14,0,0,0,14,14H58v18a6,6,0,0,0,12,0V206H186v18a6,6,0,0,0,12,0V206h18a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42Zm0,152H40a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2v66H197.6a46,46,0,1,0,0,12H218v58A2,2,0,0,1,216,194Zm-51.37-72a14,14,0,1,0,0,12h20.83a34,34,0,1,1,0-12Z"/></svg>`,
     style: "light",
-    tags: ["vault"],
+    tags: ["vault", "bank", "safe", "security", "finance", "money", "storage", "light", "outline", "protection"],
     category: "light"
   },
   {
@@ -69930,7 +69930,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vault Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,44H40A12,12,0,0,0,28,56V192a12,12,0,0,0,12,12H60v20a4,4,0,0,0,8,0V204H188v20a4,4,0,0,0,8,0V204h20a12,12,0,0,0,12-12V56A12,12,0,0,0,216,44Zm0,152H40a4,4,0,0,1-4-4V56a4,4,0,0,1,4-4H216a4,4,0,0,1,4,4v68H195.81a44,44,0,1,0,0,8H220v60A4,4,0,0,1,216,196Zm-52.7-72a12,12,0,1,0,0,8h24.47a36,36,0,1,1,0-8Z"/></svg>`,
     style: "thin",
-    tags: ["vault"],
+    tags: ["vault", "bank", "safe", "security", "finance", "money", "storage", "thin", "minimal", "protection"],
     category: "thin"
   },
   {
@@ -69938,7 +69938,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vault Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V192a16,16,0,0,0,16,16H56v16a8,8,0,0,0,16,0V208H184v16a8,8,0,0,0,16,0V208h16a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,152H40V56H216v64H199.32a48,48,0,1,0,0,16H216v56Zm-50.16-72a16,16,0,1,0,0,16H183a32,32,0,1,1,0-16Z"/></svg>`,
     style: "regular",
-    tags: ["vault"],
+    tags: ["vault", "bank", "safe", "security", "finance", "money", "storage", "outline", "protection", "standard"],
     category: "regular"
   },
   {
@@ -69946,7 +69946,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Three Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.49,144.49l-32,32a12,12,0,0,1-17-17L203,148H125L77,196H96a12,12,0,0,1,0,24H48a12,12,0,0,1-12-12V160a12,12,0,0,1,24,0v19l48-48V53L96.49,64.49a12,12,0,1,1-17-17l32-32a12,12,0,0,1,17,0l32,32a12,12,0,0,1-17,17L132,53v71h71l-11.52-11.51a12,12,0,0,1,17-17l32,32A12,12,0,0,1,240.49,144.49Z"/></svg>`,
     style: "bold",
-    tags: ["vector", "three"],
+    tags: ["vector", "three", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "filled", "heavy"],
     category: "bold"
   },
   {
@@ -69954,7 +69954,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Three Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,40v96l-67.31,67.31A16,16,0,0,1,153.37,208H48V102.63a16,16,0,0,1,4.69-11.32L120,24h96A16,16,0,0,1,232,40Z" opacity="0.2"/><path d="M237.66,141.66l-32,32a8,8,0,0,1-11.32-11.32L212.69,144H123.31l-56,56H96a8,8,0,0,1,0,16H48a8,8,0,0,1-8-8V160a8,8,0,0,1,16,0v28.69l56-56V43.31L93.66,61.66A8,8,0,0,1,82.34,50.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L128,43.31V128h84.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,237.66,141.66Z"/></svg>`,
     style: "duotone",
-    tags: ["vector", "three"],
+    tags: ["vector", "three", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "two-tone"],
     category: "duotone"
   },
   {
@@ -69962,7 +69962,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Three Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.66,141.66l-32,32A8,8,0,0,1,192,168V144H123.31l-40,40,18.35,18.34A8,8,0,0,1,96,216H48a8,8,0,0,1-8-8V160a8,8,0,0,1,13.66-5.66L72,172.69l40-40V64H88a8,8,0,0,1-5.66-13.66l32-32a8,8,0,0,1,11.32,0l32,32A8,8,0,0,1,152,64H128v64h64V104a8,8,0,0,1,13.66-5.66l32,32A8,8,0,0,1,237.66,141.66Z"/></svg>`,
     style: "fill",
-    tags: ["vector", "three"],
+    tags: ["vector", "three", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "filled"],
     category: "fill"
   },
   {
@@ -69970,7 +69970,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Three Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.24,140.24l-32,32a6,6,0,0,1-8.48-8.48L217.51,142h-95l-60,60H96a6,6,0,0,1,0,12H48a6,6,0,0,1-6-6V160a6,6,0,0,1,12,0v33.51l60-60v-95L92.24,60.24a6,6,0,0,1-8.48-8.48l32-32a6,6,0,0,1,8.48,0l32,32a6,6,0,1,1-8.48,8.48L126,38.49V130h91.51l-21.75-21.76a6,6,0,0,1,8.48-8.48l32,32A6,6,0,0,1,236.24,140.24Z"/></svg>`,
     style: "light",
-    tags: ["vector", "three"],
+    tags: ["vector", "three", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "light", "outline"],
     category: "light"
   },
   {
@@ -69978,7 +69978,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Three Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234.83,138.83l-32,32a4,4,0,0,1-5.66-5.66L222.34,140H121.66l-64,64H96a4,4,0,0,1,0,8H48a4,4,0,0,1-4-4V160a4,4,0,0,1,8,0v38.34l64-64V33.66L90.83,58.83a4,4,0,0,1-5.66-5.66l32-32a4,4,0,0,1,5.66,0l32,32a4,4,0,0,1-5.66,5.66L124,33.66V132h98.34l-25.17-25.17a4,4,0,0,1,5.66-5.66l32,32A4,4,0,0,1,234.83,138.83Z"/></svg>`,
     style: "thin",
-    tags: ["vector", "three"],
+    tags: ["vector", "three", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -69986,7 +69986,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Three Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.66,141.66l-32,32a8,8,0,0,1-11.32-11.32L212.69,144H123.31l-56,56H96a8,8,0,0,1,0,16H48a8,8,0,0,1-8-8V160a8,8,0,0,1,16,0v28.69l56-56V43.31L93.66,61.66A8,8,0,0,1,82.34,50.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L128,43.31V128h84.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,237.66,141.66Z"/></svg>`,
     style: "regular",
-    tags: ["vector", "three"],
+    tags: ["vector", "three", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "outline", "standard"],
     category: "regular"
   },
   {
@@ -69994,7 +69994,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Two Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232.49,200.49l-32,32a12,12,0,0,1-17-17L195,204H80a12,12,0,0,1-12-12V69L56.49,80.49a12,12,0,1,1-17-17l32-32a12,12,0,0,1,17,0l32,32a12,12,0,0,1-17,17L92,69V180H195l-11.52-11.51a12,12,0,0,1,17-17l32,32A12,12,0,0,1,232.49,200.49Z"/></svg>`,
     style: "bold",
-    tags: ["vector", "two"],
+    tags: ["vector", "two", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "filled", "heavy"],
     category: "bold"
   },
   {
@@ -70002,7 +70002,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Two Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,56V192H80V40H208A16,16,0,0,1,224,56Z" opacity="0.2"/><path d="M229.66,197.66l-32,32a8,8,0,0,1-11.32-11.32L204.69,200H80a8,8,0,0,1-8-8V59.31L53.66,77.66A8,8,0,0,1,42.34,66.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L88,59.31V184H204.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,229.66,197.66Z"/></svg>`,
     style: "duotone",
-    tags: ["vector", "two"],
+    tags: ["vector", "two", "design", "path", "bezier", "nodes", "graphic", "edit", "tool", "two-tone"],
     category: "duotone"
   },
   {
@@ -70010,7 +70010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Two Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,197.66l-32,32A8,8,0,0,1,184,224V200H80a8,8,0,0,1-8-8V80H48a8,8,0,0,1-5.66-13.66l32-32a8,8,0,0,1,11.32,0l32,32A8,8,0,0,1,112,80H88V184h96V160a8,8,0,0,1,13.66-5.66l32,32A8,8,0,0,1,229.66,197.66Z"/></svg>`,
     style: "fill",
-    tags: ["vector", "two"],
+    tags: ["vector", "two", "bezier", "path", "design", "graphic", "shape", "line", "filled", "geometric", "edit", "tool"],
     category: "fill"
   },
   {
@@ -70018,7 +70018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Two Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228.24,196.24l-32,32a6,6,0,0,1-8.48-8.48L209.51,198H80a6,6,0,0,1-6-6V54.49L52.24,76.24a6,6,0,0,1-8.48-8.48l32-32a6,6,0,0,1,8.48,0l32,32a6,6,0,1,1-8.48,8.48L86,54.49V186H209.51l-21.75-21.76a6,6,0,0,1,8.48-8.48l32,32A6,6,0,0,1,228.24,196.24Z"/></svg>`,
     style: "light",
-    tags: ["vector", "two"],
+    tags: ["vector", "two", "bezier", "path", "design", "graphic", "shape", "line", "stroke", "geometric", "edit", "tool"],
     category: "light"
   },
   {
@@ -70026,7 +70026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Two Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M226.83,194.83l-32,32a4,4,0,0,1-5.66-5.66L214.34,196H80a4,4,0,0,1-4-4V49.66L50.83,74.83a4,4,0,0,1-5.66-5.66l32-32a4,4,0,0,1,5.66,0l32,32a4,4,0,0,1-5.66,5.66L84,49.66V188H214.34l-25.17-25.17a4,4,0,0,1,5.66-5.66l32,32A4,4,0,0,1,226.83,194.83Z"/></svg>`,
     style: "thin",
-    tags: ["vector", "two"],
+    tags: ["vector", "two", "bezier", "path", "design", "graphic", "shape", "line", "stroke", "geometric", "edit", "tool"],
     category: "thin"
   },
   {
@@ -70034,7 +70034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vector Two Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,197.66l-32,32a8,8,0,0,1-11.32-11.32L204.69,200H80a8,8,0,0,1-8-8V59.31L53.66,77.66A8,8,0,0,1,42.34,66.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L88,59.31V184H204.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,229.66,197.66Z"/></svg>`,
     style: "regular",
-    tags: ["vector", "two"],
+    tags: ["vector", "two", "bezier", "path", "design", "graphic", "shape", "line", "stroke", "geometric", "edit", "tool"],
     category: "regular"
   },
   {
@@ -70042,7 +70042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vibrate Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164,28H92A28,28,0,0,0,64,56V200a28,28,0,0,0,28,28h72a28,28,0,0,0,28-28V56A28,28,0,0,0,164,28Zm4,172a4,4,0,0,1-4,4H92a4,4,0,0,1-4-4V56a4,4,0,0,1,4-4h72a4,4,0,0,1,4,4Zm64-100v56a12,12,0,0,1-24,0V100a12,12,0,0,1,24,0ZM48,100v56a12,12,0,0,1-24,0V100a12,12,0,0,1,24,0Z"/></svg>`,
     style: "bold",
-    tags: ["vibrate"],
+    tags: ["vibrate", "haptic", "feedback", "alert", "phone", "mobile", "silent", "notification", "motion", "bold", "system"],
     category: "bold"
   },
   {
@@ -70050,7 +70050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vibrate Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,56V200a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16V56A16,16,0,0,1,96,40h64A16,16,0,0,1,176,56Z" opacity="0.2"/><path d="M160,32H96A24,24,0,0,0,72,56V200a24,24,0,0,0,24,24h64a24,24,0,0,0,24-24V56A24,24,0,0,0,160,32Zm8,168a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8ZM216,88v80a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Zm32,16v48a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0ZM56,88v80a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0ZM24,104v48a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z"/></svg>`,
     style: "duotone",
-    tags: ["vibrate"],
+    tags: ["vibrate", "haptic", "feedback", "alert", "phone", "mobile", "silent", "notification", "motion", "duotone", "system"],
     category: "duotone"
   },
   {
@@ -70058,7 +70058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vibrate Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,56V200a24,24,0,0,1-24,24H96a24,24,0,0,1-24-24V56A24,24,0,0,1,96,32h64A24,24,0,0,1,184,56Zm24,24a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V88A8,8,0,0,0,208,80Zm32,16a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V104A8,8,0,0,0,240,96ZM48,80a8,8,0,0,0-8,8v80a8,8,0,0,0,16,0V88A8,8,0,0,0,48,80ZM16,96a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V104A8,8,0,0,0,16,96Z"/></svg>`,
     style: "fill",
-    tags: ["vibrate"],
+    tags: ["vibrate", "haptic", "feedback", "alert", "phone", "mobile", "silent", "notification", "motion", "filled", "system"],
     category: "fill"
   },
   {
@@ -70066,7 +70066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vibrate Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,34H96A22,22,0,0,0,74,56V200a22,22,0,0,0,22,22h64a22,22,0,0,0,22-22V56A22,22,0,0,0,160,34Zm10,166a10,10,0,0,1-10,10H96a10,10,0,0,1-10-10V56A10,10,0,0,1,96,46h64a10,10,0,0,1,10,10ZM214,88v80a6,6,0,0,1-12,0V88a6,6,0,0,1,12,0Zm32,16v48a6,6,0,0,1-12,0V104a6,6,0,0,1,12,0ZM54,88v80a6,6,0,0,1-12,0V88a6,6,0,0,1,12,0ZM22,104v48a6,6,0,0,1-12,0V104a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["vibrate"],
+    tags: ["vibrate", "haptic", "feedback", "alert", "phone", "mobile", "silent", "notification", "motion", "stroke", "system"],
     category: "light"
   },
   {
@@ -70074,7 +70074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vibrate Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,36H96A20,20,0,0,0,76,56V200a20,20,0,0,0,20,20h64a20,20,0,0,0,20-20V56A20,20,0,0,0,160,36Zm12,164a12,12,0,0,1-12,12H96a12,12,0,0,1-12-12V56A12,12,0,0,1,96,44h64a12,12,0,0,1,12,12ZM212,88v80a4,4,0,0,1-8,0V88a4,4,0,0,1,8,0Zm32,16v48a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0ZM52,88v80a4,4,0,0,1-8,0V88a4,4,0,0,1,8,0ZM20,104v48a4,4,0,0,1-8,0V104a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["vibrate"],
+    tags: ["vibrate", "haptic", "feedback", "alert", "phone", "mobile", "silent", "notification", "motion", "stroke", "system"],
     category: "thin"
   },
   {
@@ -70082,7 +70082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vibrate Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,32H96A24,24,0,0,0,72,56V200a24,24,0,0,0,24,24h64a24,24,0,0,0,24-24V56A24,24,0,0,0,160,32Zm8,168a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8ZM216,88v80a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Zm32,16v48a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0ZM56,88v80a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0ZM24,104v48a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Z"/></svg>`,
     style: "regular",
-    tags: ["vibrate"],
+    tags: ["vibrate", "haptic", "feedback", "alert", "phone", "mobile", "silent", "notification", "motion", "stroke", "system"],
     category: "regular"
   },
   {
@@ -70090,7 +70090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,36H40A20,20,0,0,0,20,56V160a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36Zm-4,120H44V60H212Zm24,52a12,12,0,0,1-12,12H32a12,12,0,0,1,0-24H224A12,12,0,0,1,236,208ZM104,128V88a12,12,0,0,1,18.36-10.18l32,20a12,12,0,0,1,0,20.36l-32,20A12,12,0,0,1,104,128Z"/></svg>`,
     style: "bold",
-    tags: ["video"],
+    tags: ["video", "movie", "film", "play", "media", "entertainment", "streaming", "player", "bold", "ui"],
     category: "bold"
   },
   {
@@ -70098,7 +70098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M249.45,69.31a12,12,0,0,0-12.51,1L212,88.43V72a20,20,0,0,0-20-20H32A20,20,0,0,0,12,72V184a20,20,0,0,0,20,20H192a20,20,0,0,0,20-20V167.57l24.94,18.14A12,12,0,0,0,256,176V80A12,12,0,0,0,249.45,69.31ZM188,180H36V76H188Zm44-27.57-20-14.54V118.11l20-14.54Z"/></svg>`,
     style: "bold",
-    tags: ["video", "camera"],
+    tags: ["video", "camera", "camcorder", "record", "movie", "film", "live", "stream", "media", "bold", "device"],
     category: "bold"
   },
   {
@@ -70106,7 +70106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,72V184a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8H192A8,8,0,0,1,200,72Z" opacity="0.2"/><path d="M251.77,73a8,8,0,0,0-8.21.39L208,97.05V72a16,16,0,0,0-16-16H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V159l35.56,23.71A8,8,0,0,0,248,184a8,8,0,0,0,8-8V80A8,8,0,0,0,251.77,73ZM192,184H32V72H192V184Zm48-22.95-32-21.33V116.28L240,95Z"/></svg>`,
     style: "duotone",
-    tags: ["video", "camera"],
+    tags: ["video", "camera", "camcorder", "record", "movie", "film", "live", "stream", "media", "duotone", "device"],
     category: "duotone"
   },
   {
@@ -70114,7 +70114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,72V184a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V72A16,16,0,0,1,32,56H176A16,16,0,0,1,192,72Zm58,.25a8.23,8.23,0,0,0-6.63,1.22L209.78,95.86A4,4,0,0,0,208,99.19v57.62a4,4,0,0,0,1.78,3.33l33.78,22.52a8,8,0,0,0,8.58.19,8.33,8.33,0,0,0,3.86-7.17V80A8,8,0,0,0,250,72.25Z"/></svg>`,
     style: "fill",
-    tags: ["video", "camera"],
+    tags: ["video", "camera", "camcorder", "record", "movie", "film", "live", "stream", "media", "filled", "device"],
     category: "fill"
   },
   {
@@ -70122,7 +70122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M250.83,74.71a6,6,0,0,0-6.16.3L206,100.79V72a14,14,0,0,0-14-14H32A14,14,0,0,0,18,72V184a14,14,0,0,0,14,14H192a14,14,0,0,0,14-14V155.21L244.67,181a6,6,0,0,0,9.33-5V80A6,6,0,0,0,250.83,74.71ZM194,184a2,2,0,0,1-2,2H32a2,2,0,0,1-2-2V72a2,2,0,0,1,2-2H192a2,2,0,0,1,2,2Zm48-19.21-36-24V115.21l36-24Z"/></svg>`,
     style: "light",
-    tags: ["video", "camera"],
+    tags: ["video", "camera", "camcorder", "record", "movie", "film", "live", "stream", "media", "stroke", "device"],
     category: "light"
   },
   {
@@ -70130,7 +70130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Slash Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M249.45,69.31a12,12,0,0,0-12.51,1L212,88.43V72a20,20,0,0,0-20-20H123.88a12,12,0,0,0,0,24H188v68a12,12,0,0,0,4.46,9.33c.15.13.31.25.48.38l44,32A12,12,0,0,0,256,176V80A12,12,0,0,0,249.45,69.31ZM232,152.43l-20-14.54V118.11l20-14.54ZM56.88,31.93A12,12,0,1,0,39.12,48.07L42.69,52H32A20,20,0,0,0,12,72V184a20,20,0,0,0,20,20H180.87l18.25,20.07a12,12,0,0,0,17.76-16.14ZM36,180V76H64.51l94.55,104Z"/></svg>`,
     style: "bold",
-    tags: ["video", "camera", "slash"],
+    tags: ["video", "camera", "slash", "camcorder", "record", "off", "disabled", "private", "mute", "blocked", "bold", "security", "device"],
     category: "bold"
   },
   {
@@ -70138,7 +70138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Slash Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,72V184a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8H192A8,8,0,0,1,200,72Z" opacity="0.2"/><path d="M251.77,73a8,8,0,0,0-8.21.39L208,97.05V72a16,16,0,0,0-16-16H113.06a8,8,0,0,0,0,16H192v87.63a8,8,0,0,0,16,0V159l35.56,23.71A8,8,0,0,0,248,184a8,8,0,0,0,8-8V80A8,8,0,0,0,251.77,73ZM240,161.05l-32-21.33V116.28L240,95ZM53.92,34.62A8,8,0,1,0,42.08,45.38L51.73,56H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H182.64l19.44,21.38a8,8,0,1,0,11.84-10.76ZM32,184V72H66.28L168.1,184Z"/></svg>`,
     style: "duotone",
-    tags: ["video", "camera", "slash"],
+    tags: ["video", "camera", "slash", "camcorder", "record", "off", "disabled", "private", "mute", "blocked", "duotone", "security", "device"],
     category: "duotone"
   },
   {
@@ -70146,7 +70146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Slash Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M256,80.23v95.45a8.33,8.33,0,0,1-3.86,7.17,8,8,0,0,1-8.58-.19l-33.78-22.52a4,4,0,0,1-1.78-3.33V99.19a4,4,0,0,1,1.78-3.32l33.78-22.53a8,8,0,0,1,9.73.66A8.23,8.23,0,0,1,256,80.23ZM53.92,34.62A8,8,0,1,0,42.08,45.38L51.73,56H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H182.64l19.44,21.38a8,8,0,1,0,11.84-10.76ZM185,155.07a4,4,0,0,0,7-2.7V72a16,16,0,0,0-16-16H104a4,4,0,0,0-3,6.69Z"/></svg>`,
     style: "fill",
-    tags: ["video", "camera", "slash"],
+    tags: ["video", "camera", "slash", "camcorder", "record", "off", "disabled", "private", "mute", "blocked", "filled", "security", "device"],
     category: "fill"
   },
   {
@@ -70154,7 +70154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Slash Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M250.83,74.71a6,6,0,0,0-6.16.3L206,100.79V72a14,14,0,0,0-14-14H113.06a6,6,0,0,0,0,12H192a2,2,0,0,1,2,2v87.63a6,6,0,0,0,12,0v-4.42L244.67,181a6,6,0,0,0,9.33-5V80A6,6,0,0,0,250.83,74.71ZM242,164.79l-36-24V115.21l36-24ZM52.44,36A6,6,0,0,0,43.56,44L56.25,58H32A14,14,0,0,0,18,72V184a14,14,0,0,0,14,14H183.53l20,22a6,6,0,0,0,8.88-8.08ZM32,186a2,2,0,0,1-2-2V72a2,2,0,0,1,2-2H67.16L172.62,186Z"/></svg>`,
     style: "light",
-    tags: ["video", "camera", "slash"],
+    tags: ["video", "camera", "slash", "camcorder", "record", "off", "disabled", "private", "mute", "blocked", "stroke", "security", "device"],
     category: "light"
   },
   {
@@ -70162,7 +70162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Slash Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M249.89,76.47a4,4,0,0,0-4.11.2L204,104.53V72a12,12,0,0,0-12-12H113.06a4,4,0,0,0,0,8H192a4,4,0,0,1,4,4v87.63a4,4,0,0,0,8,0v-8.16l41.78,27.86A4,4,0,0,0,252,176V80A4,4,0,0,0,249.89,76.47ZM244,168.53l-40-26.67V114.14l40-26.67ZM51,37.31A4,4,0,0,0,45,42.69L60.78,60H32A12,12,0,0,0,20,72V184a12,12,0,0,0,12,12H184.41L205,218.69a4,4,0,1,0,5.92-5.38ZM32,188a4,4,0,0,1-4-4V72a4,4,0,0,1,4-4H68.05L177.14,188Z"/></svg>`,
     style: "thin",
-    tags: ["video", "camera", "slash"],
+    tags: ["video", "camera", "slash", "camcorder", "record", "off", "disabled", "private", "mute", "blocked", "stroke", "security", "device"],
     category: "thin"
   },
   {
@@ -70170,7 +70170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Slash Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M251.77,73a8,8,0,0,0-8.21.39L208,97.05V72a16,16,0,0,0-16-16H113.06a8,8,0,0,0,0,16H192v87.63a8,8,0,0,0,16,0V159l35.56,23.71A8,8,0,0,0,248,184a8,8,0,0,0,8-8V80A8,8,0,0,0,251.77,73ZM240,161.05l-32-21.33V116.28L240,95ZM53.92,34.62A8,8,0,1,0,42.08,45.38L51.73,56H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H182.64l19.44,21.38a8,8,0,1,0,11.84-10.76ZM32,184V72H66.28L168.1,184Z"/></svg>`,
     style: "regular",
-    tags: ["video", "camera", "slash"],
+    tags: ["video", "camera", "slash", "camcorder", "record", "off", "disabled", "private", "mute", "blocked", "stroke", "security", "device"],
     category: "regular"
   },
   {
@@ -70178,7 +70178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M249.89,76.47a4,4,0,0,0-4.11.2L204,104.53V72a12,12,0,0,0-12-12H32A12,12,0,0,0,20,72V184a12,12,0,0,0,12,12H192a12,12,0,0,0,12-12V151.47l41.78,27.86A4,4,0,0,0,252,176V80A4,4,0,0,0,249.89,76.47ZM196,184a4,4,0,0,1-4,4H32a4,4,0,0,1-4-4V72a4,4,0,0,1,4-4H192a4,4,0,0,1,4,4Zm48-15.47-40-26.67V114.14l40-26.67Z"/></svg>`,
     style: "thin",
-    tags: ["video", "camera"],
+    tags: ["video", "camera", "camcorder", "record", "movie", "film", "live", "stream", "media", "stroke", "device"],
     category: "thin"
   },
   {
@@ -70186,7 +70186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Camera Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M251.77,73a8,8,0,0,0-8.21.39L208,97.05V72a16,16,0,0,0-16-16H32A16,16,0,0,0,16,72V184a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V159l35.56,23.71A8,8,0,0,0,248,184a8,8,0,0,0,8-8V80A8,8,0,0,0,251.77,73ZM192,184H32V72H192V184Zm48-22.95-32-21.33V116.28L240,95Z"/></svg>`,
     style: "regular",
-    tags: ["video", "camera"],
+    tags: ["video", "camera", "camcorder", "record", "movie", "film", "live", "stream", "media", "stroke", "device"],
     category: "regular"
   },
   {
@@ -70194,7 +70194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Conference Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,36H40A20,20,0,0,0,20,56V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36Zm-4,80H156V60h56ZM52,120a12,12,0,1,1,12,12A12,12,0,0,1,52,120Zm-8,49.77C46.69,161.84,55,156,64,156c9.43,0,18.19,6.44,20.38,15a12,12,0,0,0,23.24-6,43.22,43.22,0,0,0-15.16-23A36,36,0,0,0,44,90.08V60h88V196H44ZM156,196V140h56v56ZM168,88a16,16,0,1,1,16,16A16,16,0,0,1,168,88Zm32,80a16,16,0,1,1-16-16A16,16,0,0,1,200,168Z"/></svg>`,
     style: "bold",
-    tags: ["video", "conference"],
+    tags: ["video", "conference", "meeting", "call", "group", "team", "remote", "online", "communication", "webinar", "bold", "social"],
     category: "bold"
   },
   {
@@ -70202,7 +70202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Conference Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M40,48a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H160V48Zm56,96a24,24,0,1,1,24-24A24,24,0,0,1,96,144Z" opacity="0.2"/><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,80H168V56h48ZM40,56H152V200H40ZM216,200H168V136h48v64ZM180,88a12,12,0,1,1,12,12A12,12,0,0,1,180,88Zm24,80a12,12,0,1,1-12-12A12,12,0,0,1,204,168Zm-68.25-2a39.76,39.76,0,0,0-17.19-23.34,32,32,0,1,0-45.12,0A39.84,39.84,0,0,0,56.25,166a8,8,0,0,0,15.5,4c2.64-10.25,13.06-18,24.25-18s21.62,7.73,24.25,18a8,8,0,1,0,15.5-4ZM80,120a16,16,0,1,1,16,16A16,16,0,0,1,80,120Z"/></svg>`,
     style: "duotone",
-    tags: ["video", "conference"],
+    tags: ["video", "conference", "meeting", "call", "group", "team", "remote", "online", "communication", "webinar", "duotone", "social"],
     category: "duotone"
   },
   {
@@ -70210,7 +70210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Conference Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204,88a12,12,0,1,1-12-12A12,12,0,0,1,204,88Zm-12,68a12,12,0,1,0,12,12A12,12,0,0,0,192,156ZM96,104a16,16,0,1,0,16,16A16,16,0,0,0,96,104ZM232,56V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-64,64h48V56H168Zm-32.25,46a39.76,39.76,0,0,0-17.19-23.34,32,32,0,1,0-45.12,0A39.84,39.84,0,0,0,56.25,166a8,8,0,0,0,15.5,4c2.64-10.25,13.06-18,24.25-18s21.62,7.73,24.25,18a8,8,0,1,0,15.5-4ZM216,200V136H168v64h48Z"/></svg>`,
     style: "fill",
-    tags: ["video", "conference"],
+    tags: ["video", "conference", "meeting", "call", "webinar", "communication", "collaboration", "filled", "solid", "team", "online"],
     category: "fill"
   },
   {
@@ -70218,7 +70218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Conference Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,42H40A14,14,0,0,0,26,56V200a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42Zm2,14v66H166V54h50A2,2,0,0,1,218,56ZM38,200V56a2,2,0,0,1,2-2H154V202H40A2,2,0,0,1,38,200Zm178,2H166V134h52v66A2,2,0,0,1,216,202ZM182,88a10,10,0,1,1,10,10A10,10,0,0,1,182,88Zm20,80a10,10,0,1,1-10-10A10,10,0,0,1,202,168Zm-68.19-1.49A38,38,0,0,0,115.23,143a30,30,0,1,0-38.45,0A38,38,0,0,0,58.19,166.5a6,6,0,0,0,11.62,3C72.67,158.38,83.93,150,96,150s23.34,8.38,26.19,19.49a6,6,0,0,0,11.62-3ZM78,120a18,18,0,1,1,18,18A18,18,0,0,1,78,120Z"/></svg>`,
     style: "light",
-    tags: ["video", "conference"],
+    tags: ["video", "conference", "meeting", "call", "webinar", "communication", "collaboration", "light", "thin", "outline", "team", "online"],
     category: "light"
   },
   {
@@ -70226,7 +70226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Conference Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,44H40A12,12,0,0,0,28,56V200a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V56A12,12,0,0,0,216,44Zm4,12v68H164V52h52A4,4,0,0,1,220,56ZM36,200V56a4,4,0,0,1,4-4H156V204H40A4,4,0,0,1,36,200Zm180,4H164V132h56v68A4,4,0,0,1,216,204ZM184,88a8,8,0,1,1,8,8A8,8,0,0,1,184,88Zm16,80a8,8,0,1,1-8-8A8,8,0,0,1,200,168Zm-68.13-1a36.2,36.2,0,0,0-20.43-23.67,28,28,0,1,0-30.88,0A36.28,36.28,0,0,0,60.13,167,4,4,0,0,0,63,171.87a3.87,3.87,0,0,0,1,.13,4,4,0,0,0,3.87-3C71,157,83.05,148,96,148s25.06,9,28.13,21a4,4,0,1,0,7.74-2ZM76,120a20,20,0,1,1,20,20A20,20,0,0,1,76,120Z"/></svg>`,
     style: "thin",
-    tags: ["video", "conference"],
+    tags: ["video", "conference", "meeting", "call", "webinar", "communication", "collaboration", "thin", "outline", "minimal", "team", "online"],
     category: "thin"
   },
   {
@@ -70234,7 +70234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Conference Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,80H168V56h48ZM40,56H152V200H40ZM216,200H168V136h48v64ZM180,88a12,12,0,1,1,12,12A12,12,0,0,1,180,88Zm24,80a12,12,0,1,1-12-12A12,12,0,0,1,204,168Zm-68.25-2a39.76,39.76,0,0,0-17.19-23.34,32,32,0,1,0-45.12,0A39.84,39.84,0,0,0,56.25,166a8,8,0,0,0,15.5,4c2.64-10.25,13.06-18,24.25-18s21.62,7.73,24.25,18a8,8,0,1,0,15.5-4ZM80,120a16,16,0,1,1,16,16A16,16,0,0,1,80,120Z"/></svg>`,
     style: "regular",
-    tags: ["video", "conference"],
+    tags: ["video", "conference", "meeting", "call", "webinar", "communication", "collaboration", "outline", "standard", "team", "online"],
     category: "regular"
   },
   {
@@ -70242,7 +70242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H40a8,8,0,0,0-8,8V168a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48ZM112,144V80l48,32Z" opacity="0.2"/><path d="M164.44,105.34l-48-32A8,8,0,0,0,104,80v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,129.05V95l25.58,17ZM216,40H40A16,16,0,0,0,24,56V168a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,128H40V56H216V168Zm16,40a8,8,0,0,1-8,8H32a8,8,0,0,1,0-16H224A8,8,0,0,1,232,208Z"/></svg>`,
     style: "duotone",
-    tags: ["video"],
+    tags: ["video", "camera", "movie", "film", "recording", "multimedia", "duotone", "layered", "play", "entertainment"],
     category: "duotone"
   },
   {
@@ -70250,7 +70250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,208a8,8,0,0,1-8,8H32a8,8,0,0,1,0-16H224A8,8,0,0,1,232,208Zm0-152V168a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-68,56a8,8,0,0,0-3.41-6.55l-40-28A8,8,0,0,0,108,84v56a8,8,0,0,0,12.59,6.55l40-28A8,8,0,0,0,164,112Z"/></svg>`,
     style: "fill",
-    tags: ["video"],
+    tags: ["video", "camera", "movie", "film", "recording", "multimedia", "filled", "solid", "play", "entertainment"],
     category: "fill"
   },
   {
@@ -70258,7 +70258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M163.33,107l-48-32A6,6,0,0,0,106,80v64a6,6,0,0,0,9.33,5l48-32a6,6,0,0,0,0-10ZM118,132.79V91.21L149.18,112ZM216,42H40A14,14,0,0,0,26,56V168a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42Zm2,126a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2Zm12,40a6,6,0,0,1-6,6H32a6,6,0,0,1,0-12H224A6,6,0,0,1,230,208Z"/></svg>`,
     style: "light",
-    tags: ["video"],
+    tags: ["video", "camera", "movie", "film", "recording", "multimedia", "light", "thin", "outline", "play", "entertainment"],
     category: "light"
   },
   {
@@ -70266,7 +70266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M162.22,108.67l-48-32A4,4,0,0,0,108,80v64a4,4,0,0,0,2.11,3.53,4,4,0,0,0,4.11-.2l48-32a4,4,0,0,0,0-6.66ZM116,136.53V87.47L152.79,112ZM216,44H40A12,12,0,0,0,28,56V168a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V56A12,12,0,0,0,216,44Zm4,124a4,4,0,0,1-4,4H40a4,4,0,0,1-4-4V56a4,4,0,0,1,4-4H216a4,4,0,0,1,4,4Zm8,40a4,4,0,0,1-4,4H32a4,4,0,0,1,0-8H224A4,4,0,0,1,228,208Z"/></svg>`,
     style: "thin",
-    tags: ["video"],
+    tags: ["video", "camera", "movie", "film", "recording", "multimedia", "thin", "outline", "minimal", "play", "entertainment"],
     category: "thin"
   },
   {
@@ -70274,7 +70274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Video Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164.44,105.34l-48-32A8,8,0,0,0,104,80v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,129.05V95l25.58,17ZM216,40H40A16,16,0,0,0,24,56V168a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,128H40V56H216V168Zm16,40a8,8,0,0,1-8,8H32a8,8,0,0,1,0-16H224A8,8,0,0,1,232,208Z"/></svg>`,
     style: "regular",
-    tags: ["video"],
+    tags: ["video", "camera", "movie", "film", "recording", "multimedia", "outline", "standard", "play", "entertainment"],
     category: "regular"
   },
   {
@@ -70282,7 +70282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vignette Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,36H40A20,20,0,0,0,20,56V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36Zm-4,160H44V60H212ZM81.43,166.05C94,175.05,110.56,180,128,180s34-4.95,46.57-13.95C188.19,156.32,196,142.45,196,128s-7.81-28.32-21.43-38C162,81,145.44,76,128,76S94,81,81.43,90C67.81,99.68,60,113.55,60,128S67.81,156.32,81.43,166.05ZM128,100c23.85,0,44,12.82,44,28s-20.15,28-44,28-44-12.82-44-28S104.15,100,128,100Z"/></svg>`,
     style: "bold",
-    tags: ["vignette"],
+    tags: ["vignette", "photo", "effect", "darken", "frame", "image", "bold", "thick", "editing", "photography"],
     category: "bold"
   },
   {
@@ -70290,7 +70290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vignette Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48H40a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48ZM128,176c-35.35,0-64-21.49-64-48s28.65-48,64-48,64,21.49,64,48S163.35,176,128,176Z" opacity="0.2"/><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM178.05,87.66C164.59,77.56,146.81,72,128,72S91.41,77.56,78,87.66C63.79,98.27,56,112.6,56,128s7.79,29.73,22,40.34C91.41,178.44,109.19,184,128,184s36.59-5.56,50.05-15.66C192.21,157.73,200,143.4,200,128S192.21,98.27,178.05,87.66ZM128,168c-30.88,0-56-17.94-56-40s25.12-40,56-40,56,17.94,56,40S158.88,168,128,168Z"/></svg>`,
     style: "duotone",
-    tags: ["vignette"],
+    tags: ["vignette", "photo", "effect", "darken", "frame", "image", "duotone", "layered", "editing", "photography"],
     category: "duotone"
   },
   {
@@ -70298,7 +70298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vignette Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-16,88c0,30.93-32.24,56-72,56s-72-25.07-72-56,32.24-56,72-56S200,97.07,200,128Z"/></svg>`,
     style: "fill",
-    tags: ["vignette"],
+    tags: ["vignette", "photo", "effect", "darken", "frame", "image", "filled", "solid", "editing", "photography"],
     category: "fill"
   },
   {
@@ -70306,7 +70306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vignette Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,42H40A14,14,0,0,0,26,56V200a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42Zm2,158a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2ZM128,74c-38.6,0-70,24.22-70,54s31.4,54,70,54,70-24.22,70-54S166.6,74,128,74Zm0,96c-32,0-58-18.84-58-42s26-42,58-42,58,18.84,58,42S160,170,128,170Z"/></svg>`,
     style: "light",
-    tags: ["vignette"],
+    tags: ["vignette", "photo", "effect", "darken", "frame", "image", "light", "thin", "outline", "editing", "photography"],
     category: "light"
   },
   {
@@ -70314,7 +70314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vignette Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,44H40A12,12,0,0,0,28,56V200a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V56A12,12,0,0,0,216,44Zm4,156a4,4,0,0,1-4,4H40a4,4,0,0,1-4-4V56a4,4,0,0,1,4-4H216a4,4,0,0,1,4,4ZM128,76c-37.5,0-68,23.33-68,52s30.5,52,68,52,68-23.33,68-52S165.5,76,128,76Zm0,96c-33.08,0-60-19.74-60-44s26.92-44,60-44,60,19.74,60,44S161.08,172,128,172Z"/></svg>`,
     style: "thin",
-    tags: ["vignette"],
+    tags: ["vignette", "photo", "effect", "darken", "frame", "image", "thin", "outline", "minimal", "editing", "photography"],
     category: "thin"
   },
   {
@@ -70322,7 +70322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vignette Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM178.05,87.66C164.59,77.56,146.81,72,128,72S91.41,77.56,78,87.66C63.79,98.27,56,112.6,56,128s7.79,29.73,22,40.34C91.41,178.44,109.19,184,128,184s36.59-5.56,50.05-15.66C192.21,157.73,200,143.4,200,128S192.21,98.27,178.05,87.66ZM128,168c-30.88,0-56-17.94-56-40s25.12-40,56-40,56,17.94,56,40S158.88,168,128,168Z"/></svg>`,
     style: "regular",
-    tags: ["vignette"],
+    tags: ["vignette", "photo", "effect", "darken", "frame", "image", "outline", "standard", "editing", "photography"],
     category: "regular"
   },
   {
@@ -70330,7 +70330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vinyl Record Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm0-128a44.05,44.05,0,0,0-44,44,12,12,0,0,1-24,0,68.07,68.07,0,0,1,68-68,12,12,0,0,1,0,24Zm68,44a68.07,68.07,0,0,1-68,68,12,12,0,0,1,0-24,44.05,44.05,0,0,0,44-44,12,12,0,0,1,24,0Zm-68,28a28,28,0,1,1,28-28A28,28,0,0,1,128,156Z"/></svg>`,
     style: "bold",
-    tags: ["vinyl", "record"],
+    tags: ["vinyl", "record", "music", "album", "audio", "disc", "player", "bold", "thick", "retro", "entertainment"],
     category: "bold"
   },
   {
@@ -70338,7 +70338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vinyl Record Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,32a96,96,0,1,0,96,96A96,96,0,0,0,128,32Zm0,120a24,24,0,1,1,24-24A24,24,0,0,1,128,152Z" opacity="0.2"/><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm0-144a56.06,56.06,0,0,0-56,56,8,8,0,0,1-16,0,72.08,72.08,0,0,1,72-72,8,8,0,0,1,0,16Zm72,56a72.08,72.08,0,0,1-72,72,8,8,0,0,1,0-16,56.06,56.06,0,0,0,56-56,8,8,0,0,1,16,0Zm-40,0a32,32,0,1,0-32,32A32,32,0,0,0,160,128Zm-48,0a16,16,0,1,1,16,16A16,16,0,0,1,112,128Z"/></svg>`,
     style: "duotone",
-    tags: ["vinyl", "record"],
+    tags: ["vinyl", "record", "music", "album", "audio", "disc", "player", "duotone", "layered", "retro", "entertainment"],
     category: "duotone"
   },
   {
@@ -70346,7 +70346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vinyl Record Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM72,128a8,8,0,0,1-16,0,72.08,72.08,0,0,1,72-72,8,8,0,0,1,0,16A56.06,56.06,0,0,0,72,128Zm32,0a24,24,0,1,1,24,24A24,24,0,0,1,104,128Zm24,72a8,8,0,0,1,0-16,56.06,56.06,0,0,0,56-56,8,8,0,0,1,16,0A72.08,72.08,0,0,1,128,200Z"/></svg>`,
     style: "fill",
-    tags: ["vinyl", "record"],
+    tags: ["vinyl", "record", "music", "album", "audio", "disc", "player", "filled", "solid", "retro", "entertainment"],
     category: "fill"
   },
   {
@@ -70354,7 +70354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vinyl Record Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm0,192a90,90,0,1,1,90-90A90.1,90.1,0,0,1,128,218Zm0-148a58.07,58.07,0,0,0-58,58,6,6,0,0,1-12,0,70.08,70.08,0,0,1,70-70,6,6,0,0,1,0,12Zm70,58a70.08,70.08,0,0,1-70,70,6,6,0,0,1,0-12,58.07,58.07,0,0,0,58-58,6,6,0,0,1,12,0Zm-40,0a30,30,0,1,0-30,30A30,30,0,0,0,158,128Zm-48,0a18,18,0,1,1,18,18A18,18,0,0,1,110,128Z"/></svg>`,
     style: "light",
-    tags: ["vinyl", "record"],
+    tags: ["vinyl", "record", "music", "album", "audio", "disc", "player", "light", "thin", "outline", "retro", "entertainment"],
     category: "light"
   },
   {
@@ -70362,7 +70362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vinyl Record Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm0,192a92,92,0,1,1,92-92A92.1,92.1,0,0,1,128,220Zm0-152a60.07,60.07,0,0,0-60,60,4,4,0,0,1-8,0,68.07,68.07,0,0,1,68-68,4,4,0,0,1,0,8Zm68,60a68.07,68.07,0,0,1-68,68,4,4,0,0,1,0-8,60.07,60.07,0,0,0,60-60,4,4,0,0,1,8,0Zm-40,0a28,28,0,1,0-28,28A28,28,0,0,0,156,128Zm-48,0a20,20,0,1,1,20,20A20,20,0,0,1,108,128Z"/></svg>`,
     style: "thin",
-    tags: ["vinyl", "record"],
+    tags: ["vinyl", "record", "music", "album", "audio", "disc", "player", "thin", "outline", "minimal", "retro", "entertainment"],
     category: "thin"
   },
   {
@@ -70370,7 +70370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Vinyl Record Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm0-144a56.06,56.06,0,0,0-56,56,8,8,0,0,1-16,0,72.08,72.08,0,0,1,72-72,8,8,0,0,1,0,16Zm72,56a72.08,72.08,0,0,1-72,72,8,8,0,0,1,0-16,56.06,56.06,0,0,0,56-56,8,8,0,0,1,16,0Zm-40,0a32,32,0,1,0-32,32A32,32,0,0,0,160,128Zm-48,0a16,16,0,1,1,16,16A16,16,0,0,1,112,128Z"/></svg>`,
     style: "regular",
-    tags: ["vinyl", "record"],
+    tags: ["vinyl", "record", "music", "album", "audio", "disc", "player", "outline", "standard", "retro", "entertainment"],
     category: "regular"
   },
   {
@@ -70378,7 +70378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virtual Reality Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M127,104.73l-24,56a12,12,0,0,1-22.06,0l-24-56A12,12,0,0,1,79,95.27l13,30.27,13-30.27A12,12,0,0,1,127,104.73ZM256,128a84.09,84.09,0,0,1-84,84H84A84,84,0,0,1,84,44h88A84.09,84.09,0,0,1,256,128Zm-24,0a60.07,60.07,0,0,0-60-60H84a60,60,0,0,0,0,120h88A60.07,60.07,0,0,0,232,128Zm-32-8a31.85,31.85,0,0,1-7.93,21.05l5.69,8A12,12,0,1,1,178.24,163l-7.91-11.06c-.77.05-1.55.09-2.33.09h-8v4a12,12,0,0,1-24,0V100a12,12,0,0,1,12-12h20A32,32,0,0,1,200,120Zm-40,8h8a8,8,0,0,0,0-16h-8Z"/></svg>`,
     style: "bold",
-    tags: ["virtual", "reality"],
+    tags: ["virtual", "reality", "vr", "headset", "gaming", "metaverse", "experience", "bold", "thick", "future", "technology"],
     category: "bold"
   },
   {
@@ -70386,7 +70386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virtual Reality Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,128h0a72,72,0,0,1-72,72H80A72,72,0,0,1,8,128H8A72,72,0,0,1,80,56h96A72,72,0,0,1,248,128Z" opacity="0.2"/><path d="M123.49,98.81l-24,64a8,8,0,0,1-15,0l-24-64a8,8,0,1,1,15-5.62l16.51,44,16.51-44a8,8,0,1,1,15,5.62ZM256,128a80.09,80.09,0,0,1-80,80H80A80,80,0,0,1,80,48h96A80.09,80.09,0,0,1,256,128Zm-16,0a64.07,64.07,0,0,0-64-64H80a64,64,0,0,0,0,128h96A64.07,64.07,0,0,0,240,128Zm-59.16,10.35L191,156a8,8,0,0,1-13.9,7.94l-11.44-20c-.53,0-1.07.05-1.61.05H152v16a8,8,0,0,1-16,0V96a8,8,0,0,1,8-8h20a28,28,0,0,1,16.84,50.35ZM152,128h12a12,12,0,0,0,0-24H152Z"/></svg>`,
     style: "duotone",
-    tags: ["virtual", "reality"],
+    tags: ["virtual", "reality", "vr", "headset", "gaming", "metaverse", "experience", "duotone", "layered", "future", "technology"],
     category: "duotone"
   },
   {
@@ -70394,7 +70394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virtual Reality Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,48H80a80,80,0,0,0,0,160h96a80,80,0,0,0,0-160ZM123.49,98.81l-24,64a8,8,0,0,1-15,0l-24-64a8,8,0,1,1,15-5.62l16.51,44,16.51-44a8,8,0,1,1,15,5.62ZM191,156a8,8,0,0,1-13.9,7.94l-11.44-20c-.53,0-1.07.05-1.61.05H152v16a8,8,0,0,1-16,0V96a8,8,0,0,1,8-8h20a28,28,0,0,1,16.84,50.35ZM176,116a12,12,0,0,1-12,12H152V104h12A12,12,0,0,1,176,116Z"/></svg>`,
     style: "fill",
-    tags: ["virtual", "reality"],
+    tags: ["virtual", "reality", "vr", "headset", "gaming", "metaverse", "experience", "filled", "solid", "future", "technology"],
     category: "fill"
   },
   {
@@ -70402,7 +70402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virtual Reality Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M121.62,98.11l-24,64a6,6,0,0,1-11.24,0l-24-64a6,6,0,0,1,11.24-4.22l18.38,49,18.38-49a6,6,0,1,1,11.24,4.22ZM254,128a78.09,78.09,0,0,1-78,78H80A78,78,0,0,1,80,50h96A78.09,78.09,0,0,1,254,128Zm-12,0a66.08,66.08,0,0,0-66-66H80a66,66,0,0,0,0,132h96A66.08,66.08,0,0,0,242,128Zm-63.8,9.76,11,19.26a6,6,0,0,1-10.42,6l-12.07-21.12A27.06,27.06,0,0,1,164,142H150v18a6,6,0,0,1-12,0V96a6,6,0,0,1,6-6h20a26,26,0,0,1,14.2,47.76ZM164,130a14,14,0,0,0,0-28H150v28Z"/></svg>`,
     style: "light",
-    tags: ["virtual", "reality"],
+    tags: ["virtual", "reality", "vr", "headset", "gaming", "metaverse", "experience", "light", "thin", "outline", "future", "technology"],
     category: "light"
   },
   {
@@ -70410,7 +70410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virtual Reality Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M119.75,97.4l-24,64a4,4,0,0,1-7.5,0l-24-64a4,4,0,1,1,7.5-2.8l20.25,54,20.25-54a4,4,0,0,1,7.5,2.8ZM252,128a76.08,76.08,0,0,1-76,76H80A76,76,0,0,1,80,52h96A76.08,76.08,0,0,1,252,128Zm-8,0a68.07,68.07,0,0,0-68-68H80a68,68,0,0,0,0,136h96A68.07,68.07,0,0,0,244,128Zm-68.5,9.06,12,21a4,4,0,0,1-1.49,5.45,3.92,3.92,0,0,1-2,.53,4,4,0,0,1-3.47-2L167.79,139.7a24.85,24.85,0,0,1-3.79.3H148v20a4,4,0,0,1-8,0V96a4,4,0,0,1,4-4h20a24,24,0,0,1,11.5,45.06ZM180,116a16,16,0,0,0-16-16H148v32h16A16,16,0,0,0,180,116Z"/></svg>`,
     style: "thin",
-    tags: ["virtual", "reality"],
+    tags: ["virtual", "reality", "vr", "headset", "goggles", "metaverse", "gaming", "future", "thin", "outline"],
     category: "thin"
   },
   {
@@ -70418,7 +70418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virtual Reality Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M123.49,98.81l-24,64a8,8,0,0,1-15,0l-24-64a8,8,0,1,1,15-5.62l16.51,44,16.51-44a8,8,0,1,1,15,5.62ZM256,128a80.09,80.09,0,0,1-80,80H80A80,80,0,0,1,80,48h96A80.09,80.09,0,0,1,256,128Zm-16,0a64.07,64.07,0,0,0-64-64H80a64,64,0,0,0,0,128h96A64.07,64.07,0,0,0,240,128Zm-59.16,10.35L191,156a8,8,0,0,1-13.9,7.94l-11.44-20c-.53,0-1.07.05-1.61.05H152v16a8,8,0,0,1-16,0V96a8,8,0,0,1,8-8h20a28,28,0,0,1,16.84,50.35ZM152,128h12a12,12,0,0,0,0-24H152Z"/></svg>`,
     style: "regular",
-    tags: ["virtual", "reality"],
+    tags: ["virtual", "reality", "vr", "headset", "goggles", "metaverse", "gaming", "future", "outlined", "regular"],
     category: "regular"
   },
   {
@@ -70426,7 +70426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virus Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M108,128a20,20,0,1,1,20-20A20,20,0,0,1,108,128Zm60-20a20,20,0,1,0,20,20A20,20,0,0,0,168,108Zm-40,40a20,20,0,1,0,20,20A20,20,0,0,0,128,148Zm124-20a12,12,0,0,1-12,12H227.28a99.62,99.62,0,0,1-20.62,49.69l9.83,9.82a12,12,0,0,1-17,17l-9.82-9.83A99.62,99.62,0,0,1,140,227.28V240a12,12,0,0,1-24,0V227.28a99.62,99.62,0,0,1-49.69-20.62l-9.82,9.83a12,12,0,0,1-17-17l9.83-9.82A99.62,99.62,0,0,1,28.72,140H16a12,12,0,0,1,0-24H28.72A99.62,99.62,0,0,1,49.34,66.31l-9.83-9.82a12,12,0,0,1,17-17l9.82,9.83A99.62,99.62,0,0,1,116,28.72V16a12,12,0,0,1,24,0V28.72a99.62,99.62,0,0,1,49.69,20.62l9.82-9.83a12,12,0,0,1,17,17l-9.83,9.82A99.62,99.62,0,0,1,227.28,116H240A12,12,0,0,1,252,128Zm-48,0a76,76,0,1,0-76,76A76.08,76.08,0,0,0,204,128Z"/></svg>`,
     style: "bold",
-    tags: ["virus"],
+    tags: ["virus", "bug", "bacteria", "illness", "disease", "infection", "microbe", "bold", "filled"],
     category: "bold"
   },
   {
@@ -70434,7 +70434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virus Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,40a88,88,0,1,0,88,88A88,88,0,0,0,128,40Zm-20,88a20,20,0,1,1,20-20A20,20,0,0,1,108,128Z" opacity="0.2"/><path d="M136,108a28,28,0,1,0-28,28A28,28,0,0,0,136,108Zm-28,12a12,12,0,1,1,12-12A12,12,0,0,1,108,120Zm68-8a16,16,0,1,1-16,16A16,16,0,0,1,176,112Zm-32,64a16,16,0,1,1-16-16A16,16,0,0,1,144,176Zm96-56H223.66a95.52,95.52,0,0,0-22.39-53.95l12.39-12.39a8,8,0,0,0-11.32-11.32L190,54.73A95.52,95.52,0,0,0,136,32.34V16a8,8,0,0,0-16,0V32.34A95.52,95.52,0,0,0,66.05,54.73L53.66,42.34A8,8,0,0,0,42.34,53.66L54.73,66.05a95.52,95.52,0,0,0-22.39,54H16a8,8,0,0,0,0,16H32.34A95.52,95.52,0,0,0,54.73,190L42.34,202.34a8,8,0,0,0,11.32,11.32l12.39-12.39a95.52,95.52,0,0,0,54,22.39V240a8,8,0,0,0,16,0V223.66A95.52,95.52,0,0,0,190,201.27l12.39,12.39a8,8,0,0,0,11.32-11.32L201.27,190A95.52,95.52,0,0,0,223.66,136H240a8,8,0,0,0,0-16ZM128,208a80,80,0,1,1,80-80A80.09,80.09,0,0,1,128,208Z"/></svg>`,
     style: "duotone",
-    tags: ["virus"],
+    tags: ["virus", "bug", "bacteria", "illness", "disease", "infection", "microbe", "duotone", "two-tone"],
     category: "duotone"
   },
   {
@@ -70442,7 +70442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virus Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,120H223.66a95.52,95.52,0,0,0-22.39-53.95l12.39-12.39a8,8,0,0,0-11.32-11.32L190,54.73A95.52,95.52,0,0,0,136,32.34V16a8,8,0,0,0-16,0V32.34A95.52,95.52,0,0,0,66.05,54.73L53.66,42.34A8,8,0,0,0,42.34,53.66L54.73,66.05a95.52,95.52,0,0,0-22.39,54H16a8,8,0,0,0,0,16H32.34A95.52,95.52,0,0,0,54.73,190L42.34,202.34a8,8,0,0,0,11.32,11.32l12.39-12.39a95.52,95.52,0,0,0,54,22.39V240a8,8,0,0,0,16,0V223.66A95.52,95.52,0,0,0,190,201.27l12.39,12.39a8,8,0,0,0,11.32-11.32L201.27,190A95.52,95.52,0,0,0,223.66,136H240a8,8,0,0,0,0-16ZM80,108a28,28,0,1,1,28,28A28,28,0,0,1,80,108Zm48,84a16,16,0,1,1,16-16A16,16,0,0,1,128,192Zm48-48a16,16,0,1,1,16-16A16,16,0,0,1,176,144Z"/></svg>`,
     style: "fill",
-    tags: ["virus"],
+    tags: ["virus", "bug", "bacteria", "illness", "disease", "infection", "microbe", "filled", "solid"],
     category: "fill"
   },
   {
@@ -70450,7 +70450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virus Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M134,108a26,26,0,1,0-26,26A26,26,0,0,0,134,108Zm-26,14a14,14,0,1,1,14-14A14,14,0,0,1,108,122Zm82,6a14,14,0,1,1-14-14A14,14,0,0,1,190,128Zm-48,48a14,14,0,1,1-14-14A14,14,0,0,1,142,176Zm98-54H221.8a93.57,93.57,0,0,0-23.26-56.06l13.7-13.7a6,6,0,0,0-8.48-8.48l-13.7,13.7A93.57,93.57,0,0,0,134,34.2V16a6,6,0,0,0-12,0V34.2A93.57,93.57,0,0,0,65.94,57.46l-13.7-13.7a6,6,0,0,0-8.48,8.48l13.7,13.7A93.57,93.57,0,0,0,34.2,122H16a6,6,0,0,0,0,12H34.2a93.57,93.57,0,0,0,23.26,56.06l-13.7,13.7a6,6,0,1,0,8.48,8.48l13.7-13.7A93.57,93.57,0,0,0,122,221.8V240a6,6,0,0,0,12,0V221.8a93.57,93.57,0,0,0,56.06-23.26l13.7,13.7a6,6,0,0,0,8.48-8.48l-13.7-13.7A93.57,93.57,0,0,0,221.8,134H240a6,6,0,0,0,0-12ZM128,210a82,82,0,1,1,82-82A82.1,82.1,0,0,1,128,210Z"/></svg>`,
     style: "light",
-    tags: ["virus"],
+    tags: ["virus", "bug", "bacteria", "illness", "disease", "infection", "microbe", "light", "outline"],
     category: "light"
   },
   {
@@ -70458,7 +70458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virus Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M132,108a24,24,0,1,0-24,24A24,24,0,0,0,132,108Zm-24,16a16,16,0,1,1,16-16A16,16,0,0,1,108,124Zm80,4a12,12,0,1,1-12-12A12,12,0,0,1,188,128Zm-48,48a12,12,0,1,1-12-12A12,12,0,0,1,140,176Zm100-52H219.91a91.64,91.64,0,0,0-24.12-58.13l15-15a4,4,0,1,0-5.66-5.66l-15,15A91.64,91.64,0,0,0,132,36.09V16a4,4,0,0,0-8,0V36.09A91.64,91.64,0,0,0,65.87,60.21l-15-15a4,4,0,0,0-5.66,5.66l15,15A91.64,91.64,0,0,0,36.09,124H16a4,4,0,0,0,0,8H36.09a91.64,91.64,0,0,0,24.12,58.13l-15,15a4,4,0,0,0,5.66,5.66l15-15A91.64,91.64,0,0,0,124,219.91V240a4,4,0,0,0,8,0V219.91a91.64,91.64,0,0,0,58.13-24.12l15,15a4,4,0,0,0,5.66-5.66l-15-15A91.64,91.64,0,0,0,219.91,132H240a4,4,0,0,0,0-8ZM128,212a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Z"/></svg>`,
     style: "thin",
-    tags: ["virus"],
+    tags: ["virus", "bug", "bacteria", "illness", "disease", "infection", "microbe", "thin", "outline"],
     category: "thin"
   },
   {
@@ -70466,7 +70466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Virus Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,108a28,28,0,1,0-28,28A28,28,0,0,0,136,108Zm-28,12a12,12,0,1,1,12-12A12,12,0,0,1,108,120Zm68-8a16,16,0,1,1-16,16A16,16,0,0,1,176,112Zm-32,64a16,16,0,1,1-16-16A16,16,0,0,1,144,176Zm96-56H223.66a95.52,95.52,0,0,0-22.39-53.95l12.39-12.39a8,8,0,0,0-11.32-11.32L190,54.73A95.52,95.52,0,0,0,136,32.34V16a8,8,0,0,0-16,0V32.34A95.52,95.52,0,0,0,66.05,54.73L53.66,42.34A8,8,0,0,0,42.34,53.66L54.73,66.05a95.52,95.52,0,0,0-22.39,54H16a8,8,0,0,0,0,16H32.34A95.52,95.52,0,0,0,54.73,190L42.34,202.34a8,8,0,0,0,11.32,11.32l12.39-12.39a95.52,95.52,0,0,0,54,22.39V240a8,8,0,0,0,16,0V223.66A95.52,95.52,0,0,0,190,201.27l12.39,12.39a8,8,0,0,0,11.32-11.32L201.27,190A95.52,95.52,0,0,0,223.66,136H240a8,8,0,0,0,0-16ZM128,208a80,80,0,1,1,80-80A80.09,80.09,0,0,1,128,208Z"/></svg>`,
     style: "regular",
-    tags: ["virus"],
+    tags: ["virus", "bug", "bacteria", "illness", "disease", "infection", "microbe", "outlined", "regular"],
     category: "regular"
   },
   {
@@ -70474,7 +70474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Visor Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M188,104a12,12,0,0,1-12,12H80a12,12,0,0,1,0-24h96A12,12,0,0,1,188,104Zm67.91,27.63A76.29,76.29,0,0,1,182.43,204c-.56,0-1.13,0-1.69,0-14.44,0-29.37-5.78-45.58-17.64a12.08,12.08,0,0,0-14.32,0C104,198.68,88.56,204.44,73.57,204A76.29,76.29,0,0,1,.09,131.63,76,76,0,0,1,76,52H180a76,76,0,0,1,75.91,79.63ZM217.62,92.1A51.56,51.56,0,0,0,180,76H76a52,52,0,0,0-51.94,54.51A52.19,52.19,0,0,0,74.32,180c9.42.29,20-4,32.35-13a36,36,0,0,1,42.66,0c12.36,9,22.91,13.29,32.35,13a52.19,52.19,0,0,0,50.26-49.48A51.63,51.63,0,0,0,217.62,92.1Z"/></svg>`,
     style: "bold",
-    tags: ["visor"],
+    tags: ["visor", "hat", "cap", "headwear", "sun", "sport", "bold", "filled"],
     category: "bold"
   },
   {
@@ -70482,7 +70482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Visor Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M248,127.15A64,64,0,0,1,184,192c-15.48,0-29.68-9.35-40.75-18.5a23.91,23.91,0,0,0-30.45-.05c-11.81,9.79-27.19,19.26-43.89,18.48A64,64,0,0,1,72,64H183.05C218.22,64,247.54,92,248,127.15Z" opacity="0.2"/><path d="M183.05,56H72A72,72,0,0,0,.08,131.4c1.69,36.69,31.76,66.79,68.45,68.52,15.85.74,32-5.9,49.38-20.3a15.88,15.88,0,0,1,20.24,0C148.72,188.39,165,200,184,200a72,72,0,0,0,72-72.95C255.49,87.87,222.76,56,183.05,56Zm40.81,111.34A55.63,55.63,0,0,1,184,184c-13.88,0-27-9.51-35.65-16.67a31.91,31.91,0,0,0-40.65,0C93.52,179,81,184.49,69.28,183.94a56.36,56.36,0,0,1-53.22-53.28A56,56,0,0,1,72,72H183.05c31,0,56.55,24.79,56.95,55.25A55.66,55.66,0,0,1,223.86,167.34ZM184,96a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,96Z"/></svg>`,
     style: "duotone",
-    tags: ["visor"],
+    tags: ["visor", "hat", "cap", "headwear", "sun", "sport", "duotone", "two-tone"],
     category: "duotone"
   },
   {
@@ -70490,7 +70490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Visor Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M183.05,56H72A72,72,0,0,0,.08,131.4c1.69,36.69,31.76,66.79,68.45,68.52,15.84.72,32-5.9,49.38-20.3a15.87,15.87,0,0,1,20.24,0C148.72,188.39,165,200,184,200a72,72,0,0,0,72-72.95C255.49,87.87,222.76,56,183.05,56ZM176,104H80a8,8,0,0,1,0-16h96a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["visor"],
+    tags: ["visor", "hat", "cap", "headwear", "sun", "sport", "filled", "solid"],
     category: "fill"
   },
   {
@@ -70498,7 +70498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Visor Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M183.05,58H72A70,70,0,0,0,2.08,131.3C3.72,167,33,196.24,68.62,197.92c15.31.71,31-5.77,48-19.84a17.89,17.89,0,0,1,22.8,0C149.75,186.66,165.6,198,184,198a70,70,0,0,0,70-70.93C253.5,89,221.67,58,183.05,58Zm42.23,110.74A57.57,57.57,0,0,1,184,186c-14.53,0-28-9.77-36.93-17.13a29.9,29.9,0,0,0-38.09,0h0c-14.58,12.09-27.6,17.67-39.78,17.1a58.36,58.36,0,0,1-55.12-55.18A58,58,0,0,1,72,70H183.05c32.09,0,58.54,25.67,58.95,57.23A57.62,57.62,0,0,1,225.28,168.74ZM182,96a6,6,0,0,1-6,6H80a6,6,0,0,1,0-12h96A6,6,0,0,1,182,96Z"/></svg>`,
     style: "light",
-    tags: ["visor"],
+    tags: ["visor", "hat", "cap", "headwear", "sun", "sport", "light", "outline"],
     category: "light"
   },
   {
@@ -70506,7 +70506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Visor Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M183.05,60H72A68,68,0,0,0,4.07,131.21c1.6,34.66,30,63.08,64.65,64.71,14.77.72,30-5.64,46.63-19.38a19.9,19.9,0,0,1,25.35,0C150.79,184.92,166.25,196,184,196a68,68,0,0,0,68-68.9C251.51,90.1,220.58,60,183.05,60ZM226.7,170.15A59.57,59.57,0,0,1,184,188c-15.17,0-29.07-10-38.2-17.58a27.88,27.88,0,0,0-35.55,0c-15,12.41-28.45,18.14-41.15,17.55a60.37,60.37,0,0,1-57-57.09A60,60,0,0,1,72,68H183.05c33.18,0,60.52,26.56,60.94,59.2A59.59,59.59,0,0,1,226.7,170.15ZM180,96a4,4,0,0,1-4,4H80a4,4,0,0,1,0-8h96A4,4,0,0,1,180,96Z"/></svg>`,
     style: "thin",
-    tags: ["visor"],
+    tags: ["visor", "hat", "cap", "headwear", "sun", "sport", "thin", "outline"],
     category: "thin"
   },
   {
@@ -70514,7 +70514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Visor Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M183.05,56H72A72,72,0,0,0,.08,131.4c1.69,36.69,31.76,66.79,68.45,68.52,15.85.74,32-5.9,49.38-20.3a15.88,15.88,0,0,1,20.24,0C148.72,188.39,165,200,184,200a72,72,0,0,0,72-72.95C255.49,87.87,222.76,56,183.05,56Zm40.81,111.34A55.63,55.63,0,0,1,184,184c-13.88,0-27-9.51-35.65-16.67a31.91,31.91,0,0,0-40.65,0C93.52,179,80.94,184.49,69.28,183.94a56.36,56.36,0,0,1-53.22-53.28A56,56,0,0,1,72,72H183.05c31,0,56.55,24.79,56.95,55.25A55.66,55.66,0,0,1,223.86,167.34ZM184,96a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,96Z"/></svg>`,
     style: "regular",
-    tags: ["visor"],
+    tags: ["visor", "hat", "cap", "headwear", "sun", "sport", "outlined", "regular"],
     category: "regular"
   },
   {
@@ -70522,7 +70522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Voicemail Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M196,68a60,60,0,0,0-48,96H108a60,60,0,1,0-48,24H196a60,60,0,0,0,0-120ZM24,128a36,36,0,1,1,36,36A36,36,0,0,1,24,128Zm172,36a36,36,0,1,1,36-36A36,36,0,0,1,196,164Z"/></svg>`,
     style: "bold",
-    tags: ["voicemail"],
+    tags: ["voicemail", "message", "phone", "audio", "inbox", "call", "bold", "filled"],
     category: "bold"
   },
   {
@@ -70530,7 +70530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Voicemail Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M104,128A48,48,0,1,1,56,80,48,48,0,0,1,104,128Zm96-48a48,48,0,1,0,48,48A48,48,0,0,0,200,80Z" opacity="0.2"/><path d="M200,72a56,56,0,0,0-39.14,96H95.14A56,56,0,1,0,56,184H200a56,56,0,0,0,0-112ZM16,128a40,40,0,1,1,40,40A40,40,0,0,1,16,128Zm184,40a40,40,0,1,1,40-40A40,40,0,0,1,200,168Z"/></svg>`,
     style: "duotone",
-    tags: ["voicemail"],
+    tags: ["voicemail", "message", "phone", "audio", "inbox", "call", "duotone", "two-tone"],
     category: "duotone"
   },
   {
@@ -70538,7 +70538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Voicemail Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,72a56,56,0,0,0-39.14,96H95.14A56,56,0,1,0,56,184H200a56,56,0,0,0,0-112ZM56,168a40,40,0,1,1,40-40A40,40,0,0,1,56,168Zm144,0a40,40,0,1,1,40-40A40,40,0,0,1,200,168Zm24-40a24,24,0,1,1-24-24A24,24,0,0,1,224,128ZM80,128a24,24,0,1,1-24-24A24,24,0,0,1,80,128Z"/></svg>`,
     style: "fill",
-    tags: ["voicemail"],
+    tags: ["voicemail", "message", "phone", "audio", "inbox", "call", "filled", "solid"],
     category: "fill"
   },
   {
@@ -70546,7 +70546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Voicemail Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,74a54,54,0,0,0-33.89,96H89.89A54,54,0,1,0,56,182H200a54,54,0,0,0,0-108ZM14,128a42,42,0,1,1,42,42A42,42,0,0,1,14,128Zm186,42a42,42,0,1,1,42-42A42,42,0,0,1,200,170Z"/></svg>`,
     style: "light",
-    tags: ["voicemail"],
+    tags: ["voicemail", "message", "phone", "audio", "inbox", "call", "light", "outline"],
     category: "light"
   },
   {
@@ -70554,7 +70554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Voicemail Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,76a52,52,0,0,0-27.66,96H83.66A52,52,0,1,0,56,180H200a52,52,0,0,0,0-104ZM12,128a44,44,0,1,1,44,44A44.05,44.05,0,0,1,12,128Zm188,44a44,44,0,1,1,44-44A44.05,44.05,0,0,1,200,172Z"/></svg>`,
     style: "thin",
-    tags: ["voicemail"],
+    tags: ["voicemail", "message", "phone", "audio", "inbox", "call", "thin", "outline"],
     category: "thin"
   },
   {
@@ -70562,7 +70562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Voicemail Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,72a56,56,0,0,0-39.14,96H95.14A56,56,0,1,0,56,184H200a56,56,0,0,0,0-112ZM16,128a40,40,0,1,1,40,40A40,40,0,0,1,16,128Zm184,40a40,40,0,1,1,40-40A40,40,0,0,1,200,168Z"/></svg>`,
     style: "regular",
-    tags: ["voicemail"],
+    tags: ["voicemail", "message", "phone", "audio", "inbox", "call", "outlined", "regular"],
     category: "regular"
   },
   {
@@ -70570,7 +70570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Volleyball Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20ZM96.83,50a83.49,83.49,0,0,1,17.92-5A84,84,0,0,1,161.26,116H134.93Zm38.1,90h76.2a83.37,83.37,0,0,1-4.69,18,84.07,84.07,0,0,1-84.68,4.79Zm76.2-24H185.29a107.43,107.43,0,0,0-14.4-49.71A108.71,108.71,0,0,0,159.5,50.15,84.21,84.21,0,0,1,211.13,116ZM76.07,62.05,89,84.39a107.44,107.44,0,0,0-35.85,37.32,108.9,108.9,0,0,0-8.28,18A83.65,83.65,0,0,1,76.07,62.05ZM62.79,180.87A84,84,0,0,1,101,105.2L114.14,128,76.07,194A84.68,84.68,0,0,1,62.79,180.87Zm34,25.11,12.92-22.37A107.41,107.41,0,0,0,160,196a109,109,0,0,0,19.59-1.78A83.72,83.72,0,0,1,96.83,206Z"/></svg>`,
     style: "bold",
-    tags: ["volleyball"],
+    tags: ["volleyball", "sport", "ball", "game", "beach", "team", "bold", "filled"],
     category: "bold"
   },
   {
@@ -70578,7 +70578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Volleyball Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.25,165.8A96,96,0,0,1,80,211.15h0a95.75,95.75,0,0,1-28.86-25.58h0A96,96,0,0,1,105.47,89L80,44.86a95.55,95.55,0,0,1,36.58-12.2h0A96,96,0,0,1,173.06,128H128l-22.53,39a96,96,0,0,0,110.78-1.22Z" opacity="0.2"/><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm81.74,136.58a88,88,0,0,1-93.49,3.78L132.62,136h83A87.16,87.16,0,0,1,209.74,160.58ZM91.12,48.11a87.57,87.57,0,0,1,24.22-7.2,88,88,0,0,1,50,79.09H132.62ZM215.63,120H181.37a104.18,104.18,0,0,0-35.78-78.23A88.18,88.18,0,0,1,215.63,120ZM77.27,56.13,94.39,85.78a104.14,104.14,0,0,0-49.86,70.09A87.95,87.95,0,0,1,77.27,56.13ZM58.9,182.43a88,88,0,0,1,43.49-82.79L118.76,128,77.27,199.87A88.62,88.62,0,0,1,58.9,182.43ZM128,216a87.5,87.5,0,0,1-36.88-8.11l17.13-29.67a104.23,104.23,0,0,0,85.53,8.17A87.81,87.81,0,0,1,128,216Z"/></svg>`,
     style: "duotone",
-    tags: ["volleyball"],
+    tags: ["volleyball", "sport", "ball", "game", "beach", "team", "duotone", "two-tone"],
     category: "duotone"
   },
   {
@@ -70586,7 +70586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Volleyball Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm87.63,96H181.37a104.18,104.18,0,0,0-35.78-78.23A88.18,88.18,0,0,1,215.63,120ZM44.53,155.87A87.95,87.95,0,0,1,77.27,56.13L94.39,85.78a104.14,104.14,0,0,0-49.86,70.09ZM58.9,182.43a88,88,0,0,1,43.49-82.79L118.76,128,77.27,199.87A88.62,88.62,0,0,1,58.9,182.43Zm150.84-21.85a88,88,0,0,1-93.49,3.78L132.62,136h83A87.16,87.16,0,0,1,209.74,160.58Z"/></svg>`,
     style: "fill",
-    tags: ["volleyball"],
+    tags: ["volleyball", "sport", "ball", "game", "beach", "team", "filled", "solid"],
     category: "fill"
   },
   {
@@ -70594,7 +70594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Volleyball Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm83.37,135.89a90,90,0,0,1-97.85,3.18L131.46,134H217.8A89.49,89.49,0,0,1,211.37,161.89ZM88.3,47.24a89.54,89.54,0,0,1,27.35-8.39A90,90,0,0,1,167.34,122H131.46ZM217.8,122H179.34A102.12,102.12,0,0,0,138.5,38.62,90.15,90.15,0,0,1,217.8,122ZM77.92,53.26,97.13,86.53a102.16,102.16,0,0,0-51.79,77.06A89.93,89.93,0,0,1,77.92,53.26ZM57,183.19a90,90,0,0,1,46.17-86.26L121.07,128,77.92,202.74A90.59,90.59,0,0,1,57,183.19ZM128,218a89.5,89.5,0,0,1-39.7-9.24l19.22-33.29a102.13,102.13,0,0,0,92.58,6.34A89.91,89.91,0,0,1,128,218Z"/></svg>`,
     style: "light",
-    tags: ["volleyball"],
+    tags: ["volleyball", "sport", "ball", "game", "beach", "team", "light", "outline"],
     category: "light"
   },
   {
@@ -70602,7 +70602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Volleyball Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm85,135.19a92,92,0,0,1-102.18,2.57L130.31,132h89.6A91.61,91.61,0,0,1,213,163.19ZM85.52,46.42A91.11,91.11,0,0,1,116,36.79,92,92,0,0,1,169.29,124h-39ZM219.91,124H177.29a100.06,100.06,0,0,0-46-87.93A92.11,92.11,0,0,1,219.91,124ZM78.59,50.42l21.3,36.89a100.09,100.09,0,0,0-53.16,83.77A91.92,91.92,0,0,1,78.59,50.42ZM55,183.94a92,92,0,0,1,48.87-89.7L123.38,128,78.59,205.58A92.75,92.75,0,0,1,55,183.94ZM128,220a91.37,91.37,0,0,1-42.48-10.42l21.3-36.89a100.07,100.07,0,0,0,99.1,4.16A92,92,0,0,1,128,220Z"/></svg>`,
     style: "thin",
-    tags: ["volleyball"],
+    tags: ["volleyball", "sport", "ball", "game", "beach", "team", "thin", "outline"],
     category: "thin"
   },
   {
@@ -70610,7 +70610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Volleyball Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm81.74,136.58a88,88,0,0,1-93.49,3.78L132.62,136h83A87.16,87.16,0,0,1,209.74,160.58ZM91.12,48.11a87.57,87.57,0,0,1,24.22-7.2,88,88,0,0,1,50,79.09H132.62ZM215.63,120H181.37a104.18,104.18,0,0,0-35.78-78.23A88.18,88.18,0,0,1,215.63,120ZM77.27,56.13,94.39,85.78a104.14,104.14,0,0,0-49.86,70.09A87.95,87.95,0,0,1,77.27,56.13ZM58.9,182.43a88,88,0,0,1,43.49-82.79L118.76,128,77.27,199.87A88.62,88.62,0,0,1,58.9,182.43ZM128,216a87.5,87.5,0,0,1-36.88-8.11l17.13-29.67a104.23,104.23,0,0,0,85.53,8.17A87.81,87.81,0,0,1,128,216Z"/></svg>`,
     style: "regular",
-    tags: ["volleyball"],
+    tags: ["volleyball", "sport", "game", "beach", "ball", "play", "activity", "recreation", "outdoor", "team", "circular"],
     category: "regular"
   },
   {
@@ -70618,7 +70618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wall Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,44H32A12,12,0,0,0,20,56V200a12,12,0,0,0,12,12H224a12,12,0,0,0,12-12V56A12,12,0,0,0,224,44ZM92,140V116h72v24Zm-48,0V116H68v24Zm144-24h24v24H188Zm24-24H140V68h72ZM116,68V92H44V68ZM44,164h72v24H44Zm96,24V164h72v24Z"/></svg>`,
     style: "bold",
-    tags: ["wall"],
+    tags: ["wall", "barrier", "boundary", "structure", "defense", "separation", "building", "construction", "solid", "bold", "geometric"],
     category: "bold"
   },
   {
@@ -70626,7 +70626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wall Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,104H32V56h96Zm48,0v48H128v48h96V104Z" opacity="0.2"/><path d="M224,48H32a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H224a8,8,0,0,0,8-8V56A8,8,0,0,0,224,48ZM88,144V112h80v32Zm-48,0V112H72v32Zm144-32h32v32H184Zm32-16H136V64h80ZM120,64V96H40V64ZM40,160h80v32H40Zm96,32V160h80v32Z"/></svg>`,
     style: "duotone",
-    tags: ["wall"],
+    tags: ["wall", "barrier", "boundary", "structure", "defense", "separation", "building", "construction", "duotone", "geometric", "layered"],
     category: "duotone"
   },
   {
@@ -70634,7 +70634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wall Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,56V88a4,4,0,0,1-4,4H136V52a4,4,0,0,1,4-4h84A8,8,0,0,1,232,56Zm-4,52H184v44h44a4,4,0,0,0,4-4V112A4,4,0,0,0,228,108ZM88,152h80V108H88Zm-60,0H72V108H28a4,4,0,0,0-4,4v36A4,4,0,0,0,28,152Zm200,16H136v36a4,4,0,0,0,4,4h84a8,8,0,0,0,8-8V172A4,4,0,0,0,228,168ZM28,92h92V52a4,4,0,0,0-4-4H32a8,8,0,0,0-8,8V88A4,4,0,0,0,28,92Zm-4,80v28a8,8,0,0,0,8,8h84a4,4,0,0,0,4-4V168H28A4,4,0,0,0,24,172Z"/></svg>`,
     style: "fill",
-    tags: ["wall"],
+    tags: ["wall", "barrier", "boundary", "structure", "defense", "separation", "building", "construction", "filled", "solid", "geometric"],
     category: "fill"
   },
   {
@@ -70642,7 +70642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wall Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,50H32a6,6,0,0,0-6,6V200a6,6,0,0,0,6,6H224a6,6,0,0,0,6-6V56A6,6,0,0,0,224,50ZM86,146V110h84v36Zm-48,0V110H74v36Zm144-36h36v36H182Zm36-12H134V62h84ZM122,62V98H38V62ZM38,158h84v36H38Zm96,36V158h84v36Z"/></svg>`,
     style: "light",
-    tags: ["wall"],
+    tags: ["wall", "barrier", "boundary", "structure", "defense", "separation", "building", "construction", "thin", "minimal", "geometric"],
     category: "light"
   },
   {
@@ -70650,7 +70650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wall Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,52H32a4,4,0,0,0-4,4V200a4,4,0,0,0,4,4H224a4,4,0,0,0,4-4V56A4,4,0,0,0,224,52ZM84,148V108h88v40Zm-48,0V108H76v40Zm144-40h40v40H180Zm40-8H132V60h88ZM124,60v40H36V60ZM36,156h88v40H36Zm96,40V156h88v40Z"/></svg>`,
     style: "thin",
-    tags: ["wall"],
+    tags: ["wall", "barrier", "boundary", "structure", "defense", "separation", "building", "construction", "thin", "minimal", "geometric"],
     category: "thin"
   },
   {
@@ -70658,7 +70658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wall Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48H32a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H224a8,8,0,0,0,8-8V56A8,8,0,0,0,224,48ZM88,144V112h80v32Zm-48,0V112H72v32Zm144-32h32v32H184Zm32-16H136V64h80ZM120,64V96H40V64ZM40,160h80v32H40Zm96,32V160h80v32Z"/></svg>`,
     style: "regular",
-    tags: ["wall"],
+    tags: ["wall", "barrier", "boundary", "structure", "defense", "separation", "building", "construction", "geometric", "outline", "solid"],
     category: "regular"
   },
   {
@@ -70666,7 +70666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wallet Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M196,136a16,16,0,1,1-16-16A16,16,0,0,1,196,136Zm40-36v80a32,32,0,0,1-32,32H60a32,32,0,0,1-32-32V60.92A32,32,0,0,1,60,28H192a12,12,0,0,1,0,24H60a8,8,0,0,0-8,8.26v.08A8.32,8.32,0,0,0,60.48,68H204A32,32,0,0,1,236,100Zm-24,0a8,8,0,0,0-8-8H60.48A33.72,33.72,0,0,1,52,90.92V180a8,8,0,0,0,8,8H204a8,8,0,0,0,8-8Z"/></svg>`,
     style: "bold",
-    tags: ["wallet"],
+    tags: ["wallet", "money", "cash", "finance", "payment", "cards", "purse", "bold", "transaction", "pocket", "storage"],
     category: "bold"
   },
   {
@@ -70674,7 +70674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wallet Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,80V192a8,8,0,0,1-8,8H56a16,16,0,0,1-16-16V56A16,16,0,0,0,56,72H216A8,8,0,0,1,224,80Z" opacity="0.2"/><path d="M216,64H56a8,8,0,0,1,0-16H192a8,8,0,0,0,0-16H56A24,24,0,0,0,32,56V184a24,24,0,0,0,24,24H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64Zm0,128H56a8,8,0,0,1-8-8V78.63A23.84,23.84,0,0,0,56,80H216Zm-48-60a12,12,0,1,1,12,12A12,12,0,0,1,168,132Z"/></svg>`,
     style: "duotone",
-    tags: ["wallet"],
+    tags: ["wallet", "money", "cash", "finance", "payment", "cards", "purse", "duotone", "transaction", "pocket", "storage"],
     category: "duotone"
   },
   {
@@ -70682,7 +70682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wallet Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64H56a8,8,0,0,1,0-16H192a8,8,0,0,0,0-16H56A24,24,0,0,0,32,56V184a24,24,0,0,0,24,24H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64Zm-36,80a12,12,0,1,1,12-12A12,12,0,0,1,180,144Z"/></svg>`,
     style: "fill",
-    tags: ["wallet"],
+    tags: ["wallet", "money", "cash", "finance", "payment", "cards", "purse", "filled", "transaction", "pocket", "storage"],
     category: "fill"
   },
   {
@@ -70690,7 +70690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wallet Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,66H56a10,10,0,0,1,0-20H192a6,6,0,0,0,0-12H56A22,22,0,0,0,34,56V184a22,22,0,0,0,22,22H216a14,14,0,0,0,14-14V80A14,14,0,0,0,216,66Zm2,126a2,2,0,0,1-2,2H56a10,10,0,0,1-10-10V75.59A21.84,21.84,0,0,0,56,78H216a2,2,0,0,1,2,2Zm-28-60a10,10,0,1,1-10-10A10,10,0,0,1,190,132Z"/></svg>`,
     style: "light",
-    tags: ["wallet"],
+    tags: ["wallet", "money", "cash", "finance", "payment", "cards", "purse", "thin", "transaction", "pocket", "storage"],
     category: "light"
   },
   {
@@ -70698,7 +70698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wallet Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,68H56a12,12,0,0,1,0-24H192a4,4,0,0,0,0-8H56A20,20,0,0,0,36,56V184a20,20,0,0,0,20,20H216a12,12,0,0,0,12-12V80A12,12,0,0,0,216,68Zm4,124a4,4,0,0,1-4,4H56a12,12,0,0,1-12-12V72a19.86,19.86,0,0,0,12,4H216a4,4,0,0,1,4,4Zm-32-60a8,8,0,1,1-8-8A8,8,0,0,1,188,132Z"/></svg>`,
     style: "thin",
-    tags: ["wallet"],
+    tags: ["wallet", "money", "cash", "finance", "payment", "cards", "purse", "thin", "transaction", "pocket", "storage"],
     category: "thin"
   },
   {
@@ -70706,7 +70706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wallet Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,64H56a8,8,0,0,1,0-16H192a8,8,0,0,0,0-16H56A24,24,0,0,0,32,56V184a24,24,0,0,0,24,24H216a16,16,0,0,0,16-16V80A16,16,0,0,0,216,64Zm0,128H56a8,8,0,0,1-8-8V78.63A23.84,23.84,0,0,0,56,80H216Zm-48-60a12,12,0,1,1,12,12A12,12,0,0,1,168,132Z"/></svg>`,
     style: "regular",
-    tags: ["wallet"],
+    tags: ["wallet", "money", "cash", "finance", "payment", "cards", "purse", "outline", "transaction", "pocket", "storage"],
     category: "regular"
   },
   {
@@ -70714,7 +70714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warehouse Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,180h-4V61.13l6.51-1.39a12,12,0,1,0-5-23.47l-224,48A12,12,0,0,0,16,108a12.21,12.21,0,0,0,2.53-.26l1.48-.32V180H16a12,12,0,0,0,0,24H240a12,12,0,0,0,0-24ZM44,102.27l168-36V180H192V120a12,12,0,0,0-12-12H76a12,12,0,0,0-12,12v60H44ZM168,144H88V132h80ZM88,168h80v12H88Z"/></svg>`,
     style: "bold",
-    tags: ["warehouse"],
+    tags: ["warehouse", "storage", "factory", "building", "logistics", "industrial", "shipping", "inventory", "bold", "supply chain", "distribution"],
     category: "bold"
   },
   {
@@ -70722,7 +70722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warehouse Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,128v64H72V128Z" opacity="0.2"/><path d="M240,184h-8V57.9l9.67-2.08a8,8,0,1,0-3.35-15.64l-224,48A8,8,0,0,0,16,104a8.16,8.16,0,0,0,1.69-.18L24,102.47V184H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,99,216,61.33V184H192V128a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8v56H40Zm136,53H80V136h96ZM80,168h96v16H80Z"/></svg>`,
     style: "duotone",
-    tags: ["warehouse"],
+    tags: ["warehouse", "storage", "factory", "building", "logistics", "industrial", "shipping", "inventory", "duotone", "supply chain", "distribution"],
     category: "duotone"
   },
   {
@@ -70730,7 +70730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warehouse Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,184h-8V57.9l9.67-2.08a8,8,0,1,0-3.35-15.64l-224,48A8,8,0,0,0,16,104a8.16,8.16,0,0,0,1.69-.18L24,102.47V184H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16Zm-56,0H72V168H184Zm0-32H72V136H184Z"/></svg>`,
     style: "fill",
-    tags: ["warehouse"],
+    tags: ["warehouse", "storage", "factory", "building", "logistics", "industrial", "shipping", "inventory", "filled", "supply chain", "distribution"],
     category: "fill"
   },
   {
@@ -70738,7 +70738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warehouse Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,186H230V56.28l11.26-2.41a6,6,0,1,0-2.52-11.74l-224,48a6,6,0,0,0,2.52,11.74L26,100v86H16a6,6,0,0,0,0,12H240a6,6,0,0,0,0-12ZM38,97.42,218,58.85V186H190V128a6,6,0,0,0-6-6H72a6,6,0,0,0-6,6v58H38ZM178,154H78V134H178ZM78,166H178v20H78Z"/></svg>`,
     style: "light",
-    tags: ["warehouse"],
+    tags: ["warehouse", "storage", "factory", "building", "logistics", "industrial", "shipping", "inventory", "thin", "supply chain", "distribution"],
     category: "light"
   },
   {
@@ -70746,7 +70746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warehouse Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,188H228V54.66l12.84-2.75a4,4,0,1,0-1.68-7.82l-224,48A4,4,0,0,0,16,100a4.07,4.07,0,0,0,.84-.09L28,97.52V188H16a4,4,0,0,0,0,8H240a4,4,0,0,0,0-8ZM36,95.81,220,56.38V188H188V128a4,4,0,0,0-4-4H72a4,4,0,0,0-4,4v60H36ZM180,156H76V132H180ZM76,164H180v24H76Z"/></svg>`,
     style: "thin",
-    tags: ["warehouse"],
+    tags: ["warehouse", "storage", "factory", "building", "logistics", "industrial", "shipping", "inventory", "thin", "supply chain", "distribution"],
     category: "thin"
   },
   {
@@ -70754,7 +70754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warehouse Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,184h-8V57.9l9.67-2.08a8,8,0,1,0-3.35-15.64l-224,48A8,8,0,0,0,16,104a8.16,8.16,0,0,0,1.69-.18L24,102.47V184H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,99,216,61.33V184H192V128a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8v56H40Zm136,53H80V136h96ZM80,168h96v16H80Z"/></svg>`,
     style: "regular",
-    tags: ["warehouse"],
+    tags: ["warehouse", "storage", "factory", "building", "logistics", "industrial", "shipping", "inventory", "outline", "supply chain", "distribution"],
     category: "regular"
   },
   {
@@ -70762,7 +70762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.26,186.1,152.81,34.23h0a28.74,28.74,0,0,0-49.62,0L15.74,186.1a27.45,27.45,0,0,0,0,27.71A28.31,28.31,0,0,0,40.55,228h174.9a28.31,28.31,0,0,0,24.79-14.19A27.45,27.45,0,0,0,240.26,186.1Zm-20.8,15.7a4.46,4.46,0,0,1-4,2.2H40.55a4.46,4.46,0,0,1-4-2.2,3.56,3.56,0,0,1,0-3.73L124,46.2a4.77,4.77,0,0,1,8,0l87.44,151.87A3.56,3.56,0,0,1,219.46,201.8ZM116,136V104a12,12,0,0,1,24,0v32a12,12,0,0,1-24,0Zm28,40a16,16,0,1,1-16-16A16,16,0,0,1,144,176Z"/></svg>`,
     style: "bold",
-    tags: ["warning"],
+    tags: ["warning", "alert", "danger", "caution", "error", "exclamation", "hazard", "notification", "bold", "triangle", "attention"],
     category: "bold"
   },
   {
@@ -70770,7 +70770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Circle Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm-12-80V80a12,12,0,0,1,24,0v52a12,12,0,0,1-24,0Zm28,40a16,16,0,1,1-16-16A16,16,0,0,1,144,172Z"/></svg>`,
     style: "bold",
-    tags: ["warning", "circle"],
+    tags: ["warning", "circle", "alert", "danger", "caution", "error", "exclamation", "hazard", "notification", "bold", "attention", "rounded"],
     category: "bold"
   },
   {
@@ -70778,7 +70778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Circle Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"/><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-80V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,172Z"/></svg>`,
     style: "duotone",
-    tags: ["warning", "circle"],
+    tags: ["warning", "circle", "alert", "danger", "caution", "error", "exclamation", "hazard", "notification", "duotone", "attention", "rounded"],
     category: "duotone"
   },
   {
@@ -70786,7 +70786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Circle Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-8,56a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm8,104a12,12,0,1,1,12-12A12,12,0,0,1,128,184Z"/></svg>`,
     style: "fill",
-    tags: ["warning", "circle"],
+    tags: ["warning", "circle", "alert", "danger", "caution", "error", "exclamation", "hazard", "notification", "filled", "attention", "rounded"],
     category: "fill"
   },
   {
@@ -70794,7 +70794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Circle Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm0,192a90,90,0,1,1,90-90A90.1,90.1,0,0,1,128,218Zm-6-82V80a6,6,0,0,1,12,0v56a6,6,0,0,1-12,0Zm16,36a10,10,0,1,1-10-10A10,10,0,0,1,138,172Z"/></svg>`,
     style: "light",
-    tags: ["warning", "circle"],
+    tags: ["warning", "circle", "alert", "danger", "caution", "error", "exclamation", "hazard", "notification", "thin", "attention", "rounded"],
     category: "light"
   },
   {
@@ -70802,7 +70802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Circle Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28Zm0,192a92,92,0,1,1,92-92A92.1,92.1,0,0,1,128,220Zm-4-84V80a4,4,0,0,1,8,0v56a4,4,0,0,1-8,0Zm12,36a8,8,0,1,1-8-8A8,8,0,0,1,136,172Z"/></svg>`,
     style: "thin",
-    tags: ["warning", "circle"],
+    tags: ["warning", "circle", "alert", "danger", "caution", "error", "exclamation", "hazard", "notification", "thin", "attention", "rounded"],
     category: "thin"
   },
   {
@@ -70810,7 +70810,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Circle Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-80V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,172Z"/></svg>`,
     style: "regular",
-    tags: ["warning", "circle"],
+    tags: ["warning", "circle", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "regular"],
     category: "regular"
   },
   {
@@ -70818,7 +70818,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Diamond Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,68a12,12,0,0,1,12,12v52a12,12,0,0,1-24,0V80A12,12,0,0,1,128,68Zm0,88a16,16,0,1,0,16,16A16,16,0,0,0,128,156Zm116-28a19.86,19.86,0,0,1-5.84,14.11l-96,96.06a20,20,0,0,1-28.21,0h0l-96-96.06a20,20,0,0,1,0-28.22l96.05-96.06a20,20,0,0,1,28.21,0l96.06,96.06A19.86,19.86,0,0,1,244,128Zm-25.68,0L128,37.67,37.68,128,128,218.33Z"/></svg>`,
     style: "bold",
-    tags: ["warning", "diamond"],
+    tags: ["warning", "diamond", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "bold"],
     category: "bold"
   },
   {
@@ -70826,7 +70826,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Diamond Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.67,133.62l-96,96a7.94,7.94,0,0,1-11.24,0l-96-96a7.94,7.94,0,0,1,0-11.24l96.05-96a7.94,7.94,0,0,1,11.24,0l96,96.05A7.94,7.94,0,0,1,229.67,133.62Z" opacity="0.2"/><path d="M128,72a8,8,0,0,1,8,8v56a8,8,0,0,1-16,0V80A8,8,0,0,1,128,72ZM116,172a12,12,0,1,0,12-12A12,12,0,0,0,116,172Zm124-44a15.85,15.85,0,0,1-4.67,11.28l-96.05,96.06a16,16,0,0,1-22.56,0h0l-96-96.06a16,16,0,0,1,0-22.56l96.05-96.06a16,16,0,0,1,22.56,0l96.05,96.06A15.85,15.85,0,0,1,240,128Zm-16,0L128,32,32,128,128,224h0Z"/></svg>`,
     style: "duotone",
-    tags: ["warning", "diamond"],
+    tags: ["warning", "diamond", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "duotone"],
     category: "duotone"
   },
   {
@@ -70834,7 +70834,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Diamond Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.33,116.72,139.28,20.66a16,16,0,0,0-22.56,0l-96,96.06a16,16,0,0,0,0,22.56l96.05,96.06h0a16,16,0,0,0,22.56,0l96.05-96.06a16,16,0,0,0,0-22.56ZM120,80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm8,104a12,12,0,1,1,12-12A12,12,0,0,1,128,184Z"/></svg>`,
     style: "fill",
-    tags: ["warning", "diamond"],
+    tags: ["warning", "diamond", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "filled"],
     category: "fill"
   },
   {
@@ -70842,7 +70842,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Diamond Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M122,136V80a6,6,0,0,1,12,0v56a6,6,0,0,1-12,0Zm6,26a10,10,0,1,0,10,10A10,10,0,0,0,128,162Zm110-34a13.82,13.82,0,0,1-4.09,9.86l-96,96.06a14,14,0,0,1-19.72,0h0l-96-96.06a13.93,13.93,0,0,1,0-19.72l96.05-96.06a14,14,0,0,1,19.72,0l96,96.06A13.82,13.82,0,0,1,238,128Zm-12,0a1.94,1.94,0,0,0-.57-1.38L129.38,30.56a2,2,0,0,0-2.76,0L30.57,126.62a2,2,0,0,0,0,2.76l96.05,96.06h0a2,2,0,0,0,2.76,0l96.05-96.06A1.94,1.94,0,0,0,226,128Z"/></svg>`,
     style: "light",
-    tags: ["warning", "diamond"],
+    tags: ["warning", "diamond", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "light"],
     category: "light"
   },
   {
@@ -70850,7 +70850,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Diamond Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M124,136V80a4,4,0,0,1,8,0v56a4,4,0,0,1-8,0Zm4,28a8,8,0,1,0,8,8A8,8,0,0,0,128,164Zm108-36a11.87,11.87,0,0,1-3.5,8.45l-96.05,96.06a12,12,0,0,1-16.9,0h0l-96-96.06a12,12,0,0,1,0-16.9l96.05-96.06a12,12,0,0,1,16.9,0l96.05,96.06A11.87,11.87,0,0,1,236,128Zm-8,0a3.9,3.9,0,0,0-1.16-2.79L130.79,29.15a4,4,0,0,0-5.58,0l-96,96.06a3.94,3.94,0,0,0,0,5.58l96.05,96.06a4,4,0,0,0,5.58,0l96.05-96.06A3.9,3.9,0,0,0,228,128Z"/></svg>`,
     style: "thin",
-    tags: ["warning", "diamond"],
+    tags: ["warning", "diamond", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "thin"],
     category: "thin"
   },
   {
@@ -70858,7 +70858,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Diamond Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,72a8,8,0,0,1,8,8v56a8,8,0,0,1-16,0V80A8,8,0,0,1,128,72ZM116,172a12,12,0,1,0,12-12A12,12,0,0,0,116,172Zm124-44a15.85,15.85,0,0,1-4.67,11.28l-96.05,96.06a16,16,0,0,1-22.56,0h0l-96-96.06a16,16,0,0,1,0-22.56l96.05-96.06a16,16,0,0,1,22.56,0l96.05,96.06A15.85,15.85,0,0,1,240,128Zm-16,0L128,32,32,128,128,224h0Z"/></svg>`,
     style: "regular",
-    tags: ["warning", "diamond"],
+    tags: ["warning", "diamond", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "regular"],
     category: "regular"
   },
   {
@@ -70866,7 +70866,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M215.46,216H40.54C27.92,216,20,202.79,26.13,192.09L113.59,40.22c6.3-11,22.52-11,28.82,0l87.46,151.87C236,202.79,228.08,216,215.46,216Z" opacity="0.2"/><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"/></svg>`,
     style: "duotone",
-    tags: ["warning"],
+    tags: ["warning", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "duotone"],
     category: "duotone"
   },
   {
@@ -70874,7 +70874,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM120,104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm8,88a12,12,0,1,1,12-12A12,12,0,0,1,128,192Z"/></svg>`,
     style: "fill",
-    tags: ["warning"],
+    tags: ["warning", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "filled"],
     category: "fill"
   },
   {
@@ -70882,7 +70882,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.07,189.09,147.61,37.22h0a22.75,22.75,0,0,0-39.22,0L20.93,189.09a21.53,21.53,0,0,0,0,21.72A22.35,22.35,0,0,0,40.55,222h174.9a22.35,22.35,0,0,0,19.6-11.19A21.53,21.53,0,0,0,235.07,189.09ZM224.66,204.8a10.46,10.46,0,0,1-9.21,5.2H40.55a10.46,10.46,0,0,1-9.21-5.2,9.51,9.51,0,0,1,0-9.72L118.79,43.21a10.75,10.75,0,0,1,18.42,0l87.46,151.87A9.51,9.51,0,0,1,224.66,204.8ZM122,144V104a6,6,0,0,1,12,0v40a6,6,0,0,1-12,0Zm16,36a10,10,0,1,1-10-10A10,10,0,0,1,138,180Z"/></svg>`,
     style: "light",
-    tags: ["warning"],
+    tags: ["warning", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "light"],
     category: "light"
   },
   {
@@ -70890,7 +70890,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Octagon Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M116,132V80a12,12,0,0,1,24,0v52a12,12,0,0,1-24,0ZM236,91.55v72.9a19.86,19.86,0,0,1-5.86,14.14l-51.55,51.55A19.85,19.85,0,0,1,164.45,236H91.55a19.85,19.85,0,0,1-14.14-5.86L25.86,178.59A19.86,19.86,0,0,1,20,164.45V91.55a19.86,19.86,0,0,1,5.86-14.14L77.41,25.86A19.85,19.85,0,0,1,91.55,20h72.9a19.85,19.85,0,0,1,14.14,5.86l51.55,51.55A19.86,19.86,0,0,1,236,91.55Zm-24,1.66L162.79,44H93.21L44,93.21v69.58L93.21,212h69.58L212,162.79ZM128,156a16,16,0,1,0,16,16A16,16,0,0,0,128,156Z"/></svg>`,
     style: "bold",
-    tags: ["warning", "octagon"],
+    tags: ["warning", "octagon", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "bold"],
     category: "bold"
   },
   {
@@ -70898,7 +70898,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Octagon Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,91.55v72.9a8,8,0,0,1-2.34,5.66l-51.55,51.55a8,8,0,0,1-5.66,2.34H91.55a8,8,0,0,1-5.66-2.34L34.34,170.11A8,8,0,0,1,32,164.45V91.55a8,8,0,0,1,2.34-5.66L85.89,34.34A8,8,0,0,1,91.55,32h72.9a8,8,0,0,1,5.66,2.34l51.55,51.55A8,8,0,0,1,224,91.55Z" opacity="0.2"/><path d="M120,136V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0ZM232,91.55v72.9a15.86,15.86,0,0,1-4.69,11.31l-51.55,51.55A15.86,15.86,0,0,1,164.45,232H91.55a15.86,15.86,0,0,1-11.31-4.69L28.69,175.76A15.86,15.86,0,0,1,24,164.45V91.55a15.86,15.86,0,0,1,4.69-11.31L80.24,28.69A15.86,15.86,0,0,1,91.55,24h72.9a15.86,15.86,0,0,1,11.31,4.69l51.55,51.55A15.86,15.86,0,0,1,232,91.55Zm-16,0L164.45,40H91.55L40,91.55v72.9L91.55,216h72.9L216,164.45ZM128,160a12,12,0,1,0,12,12A12,12,0,0,0,128,160Z"/></svg>`,
     style: "duotone",
-    tags: ["warning", "octagon"],
+    tags: ["warning", "octagon", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "duotone"],
     category: "duotone"
   },
   {
@@ -70906,7 +70906,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Octagon Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M227.31,80.23,175.77,28.69A16.13,16.13,0,0,0,164.45,24H91.55a16.13,16.13,0,0,0-11.32,4.69L28.69,80.23A16.13,16.13,0,0,0,24,91.55v72.9a16.13,16.13,0,0,0,4.69,11.32l51.54,51.54A16.13,16.13,0,0,0,91.55,232h72.9a16.13,16.13,0,0,0,11.32-4.69l51.54-51.54A16.13,16.13,0,0,0,232,164.45V91.55A16.13,16.13,0,0,0,227.31,80.23ZM120,80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm8,104a12,12,0,1,1,12-12A12,12,0,0,1,128,184Z"/></svg>`,
     style: "fill",
-    tags: ["warning", "octagon"],
+    tags: ["warning", "octagon", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "filled"],
     category: "fill"
   },
   {
@@ -70914,7 +70914,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Octagon Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M122,136V80a6,6,0,0,1,12,0v56a6,6,0,0,1-12,0ZM230,91.55v72.9a13.92,13.92,0,0,1-4.1,9.9L174.35,225.9a13.92,13.92,0,0,1-9.9,4.1H91.55a13.92,13.92,0,0,1-9.9-4.1L30.1,174.35a13.92,13.92,0,0,1-4.1-9.9V91.55a13.92,13.92,0,0,1,4.1-9.9L81.65,30.1a13.92,13.92,0,0,1,9.9-4.1h72.9a13.92,13.92,0,0,1,9.9,4.1L225.9,81.65A13.92,13.92,0,0,1,230,91.55Zm-12,0a2,2,0,0,0-.59-1.42L165.87,38.59a2,2,0,0,0-1.42-.59H91.55a2,2,0,0,0-1.41.59L38.58,90.13A2,2,0,0,0,38,91.55v72.9a2,2,0,0,0,.59,1.42l51.54,51.54a2,2,0,0,0,1.42.59h72.9a2,2,0,0,0,1.41-.59l51.56-51.54a2,2,0,0,0,.58-1.42ZM128,162a10,10,0,1,0,10,10A10,10,0,0,0,128,162Z"/></svg>`,
     style: "light",
-    tags: ["warning", "octagon"],
+    tags: ["warning", "octagon", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "light"],
     category: "light"
   },
   {
@@ -70922,7 +70922,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Octagon Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M124,136V80a4,4,0,0,1,8,0v56a4,4,0,0,1-8,0ZM228,91.55v72.9a12,12,0,0,1-3.51,8.49l-51.55,51.55a12,12,0,0,1-8.49,3.51H91.55a12,12,0,0,1-8.49-3.51L31.51,172.94A12,12,0,0,1,28,164.45V91.55a12,12,0,0,1,3.51-8.49L83.06,31.51A12,12,0,0,1,91.55,28h72.9a12,12,0,0,1,8.49,3.51l51.55,51.55A12,12,0,0,1,228,91.55Zm-8,0a4,4,0,0,0-1.17-2.83L167.28,37.17A4.06,4.06,0,0,0,164.45,36H91.55a4.06,4.06,0,0,0-2.83,1.17L37.17,88.72A4,4,0,0,0,36,91.55v72.9a4,4,0,0,0,1.17,2.83l51.55,51.55A4.06,4.06,0,0,0,91.55,220h72.9a4.06,4.06,0,0,0,2.83-1.17l51.55-51.55a4,4,0,0,0,1.17-2.83ZM128,164a8,8,0,1,0,8,8A8,8,0,0,0,128,164Z"/></svg>`,
     style: "thin",
-    tags: ["warning", "octagon"],
+    tags: ["warning", "octagon", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "thin"],
     category: "thin"
   },
   {
@@ -70930,7 +70930,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Octagon Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,136V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0ZM232,91.55v72.9a15.86,15.86,0,0,1-4.69,11.31l-51.55,51.55A15.86,15.86,0,0,1,164.45,232H91.55a15.86,15.86,0,0,1-11.31-4.69L28.69,175.76A15.86,15.86,0,0,1,24,164.45V91.55a15.86,15.86,0,0,1,4.69-11.31L80.24,28.69A15.86,15.86,0,0,1,91.55,24h72.9a15.86,15.86,0,0,1,11.31,4.69l51.55,51.55A15.86,15.86,0,0,1,232,91.55Zm-16,0L164.45,40H91.55L40,91.55v72.9L91.55,216h72.9L216,164.45ZM128,160a12,12,0,1,0,12,12A12,12,0,0,0,128,160Z"/></svg>`,
     style: "regular",
-    tags: ["warning", "octagon"],
+    tags: ["warning", "octagon", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "regular"],
     category: "regular"
   },
   {
@@ -70938,7 +70938,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M233.34,190.09,145.88,38.22h0a20.75,20.75,0,0,0-35.76,0L22.66,190.09a19.52,19.52,0,0,0,0,19.71A20.36,20.36,0,0,0,40.54,220H215.46a20.36,20.36,0,0,0,17.86-10.2A19.52,19.52,0,0,0,233.34,190.09ZM226.4,205.8a12.47,12.47,0,0,1-10.94,6.2H40.54a12.47,12.47,0,0,1-10.94-6.2,11.45,11.45,0,0,1,0-11.72L117.05,42.21a12.76,12.76,0,0,1,21.9,0L226.4,194.08A11.45,11.45,0,0,1,226.4,205.8ZM124,144V104a4,4,0,0,1,8,0v40a4,4,0,0,1-8,0Zm12,36a8,8,0,1,1-8-8A8,8,0,0,1,136,180Z"/></svg>`,
     style: "thin",
-    tags: ["warning"],
+    tags: ["warning", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "thin"],
     category: "thin"
   },
   {
@@ -70946,7 +70946,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Warning Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"/></svg>`,
     style: "regular",
-    tags: ["warning"],
+    tags: ["warning", "alert", "danger", "error", "exclamation", "notification", "caution", "ui", "system", "regular"],
     category: "regular"
   },
   {
@@ -70954,7 +70954,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Washing Machine Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,80a16,16,0,1,1,16,16A16,16,0,0,1,160,80Zm72-36V212a20,20,0,0,1-20,20H44a20,20,0,0,1-20-20V44A20,20,0,0,1,44,24H212A20,20,0,0,1,232,44Zm-24,4H48V208H208Zm-68.49,75.51-16,16a12,12,0,0,0,17,17l16-16a12,12,0,1,0-17-17Zm-15-16a12,12,0,0,0-17,0l-8,8a12,12,0,0,0,17,17l8-8A12,12,0,0,0,124.49,107.51ZM128,196a68.05,68.05,0,0,0,67.19-78.52,12,12,0,0,0-23.72,3.69,44,44,0,1,1-36.64-36.64,12,12,0,0,0,3.69-23.72A68,68,0,1,0,128,196Z"/></svg>`,
     style: "bold",
-    tags: ["washing", "machine"],
+    tags: ["washing", "machine", "laundry", "appliance", "household", "clean", "clothing", "bold", "utility", "home"],
     category: "bold"
   },
   {
@@ -70962,7 +70962,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Washing Machine Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,128a56,56,0,1,1-56-56A56,56,0,0,1,184,128Z" opacity="0.2"/><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM128,64a64,64,0,1,0,64,64A64.07,64.07,0,0,0,128,64Zm0,112a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176ZM200,68a12,12,0,1,1-12-12A12,12,0,0,1,200,68Zm-74.34,49.66-16,16a8,8,0,0,1-11.32-11.32l16-16a8,8,0,0,1,11.32,11.32Zm32-3.32a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32-11.32l32-32A8,8,0,0,1,157.66,114.34Z"/></svg>`,
     style: "duotone",
-    tags: ["washing", "machine"],
+    tags: ["washing", "machine", "laundry", "appliance", "household", "clean", "clothing", "duotone", "utility", "home"],
     category: "duotone"
   },
   {
@@ -70970,7 +70970,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Washing Machine Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM128,184a56,56,0,1,1,56-56A56,56,0,0,1,128,184ZM188,80a12,12,0,1,1,12-12A12,12,0,0,1,188,80Zm-54.34,29.66-32,32a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,11.32Zm32-3.32a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32-11.32l48-48A8,8,0,0,1,165.66,106.34Z"/></svg>`,
     style: "fill",
-    tags: ["washing", "machine"],
+    tags: ["washing", "machine", "laundry", "appliance", "household", "clean", "clothing", "filled", "utility", "home"],
     category: "fill"
   },
   {
@@ -70978,7 +70978,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Washing Machine Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,34H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V48A14,14,0,0,0,208,34Zm2,174a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V48a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM128,66a62,62,0,1,0,62,62A62.07,62.07,0,0,0,128,66Zm0,112a50,50,0,1,1,50-50A50.06,50.06,0,0,1,128,178ZM198,68a10,10,0,1,1-10-10A10,10,0,0,1,198,68Zm-73.76,48.24-16,16a6,6,0,0,1-8.48-8.48l16-16a6,6,0,0,1,8.48,8.48Zm32-.48a6,6,0,0,1,0,8.48l-32,32a6,6,0,0,1-8.48-8.48l32-32A6,6,0,0,1,156.24,115.76Z"/></svg>`,
     style: "light",
-    tags: ["washing", "machine"],
+    tags: ["washing", "machine", "laundry", "appliance", "household", "clean", "clothing", "light", "utility", "home"],
     category: "light"
   },
   {
@@ -70986,7 +70986,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Washing Machine Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,36H48A12,12,0,0,0,36,48V208a12,12,0,0,0,12,12H208a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36Zm4,172a4,4,0,0,1-4,4H48a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4H208a4,4,0,0,1,4,4ZM128,68a60,60,0,1,0,60,60A60.07,60.07,0,0,0,128,68Zm0,112a52,52,0,1,1,52-52A52.06,52.06,0,0,1,128,180ZM196,68a8,8,0,1,1-8-8A8,8,0,0,1,196,68Zm-73.17,46.83-16,16a4,4,0,0,1-5.66-5.66l16-16a4,4,0,0,1,5.66,5.66Zm32,2.34a4,4,0,0,1,0,5.66l-32,32a4,4,0,0,1-5.66-5.66l32-32A4,4,0,0,1,154.83,117.17Z"/></svg>`,
     style: "thin",
-    tags: ["washing", "machine"],
+    tags: ["washing", "machine", "laundry", "appliance", "household", "clean", "clothing", "thin", "utility", "home"],
     category: "thin"
   },
   {
@@ -70994,7 +70994,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Washing Machine Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM128,64a64,64,0,1,0,64,64A64.07,64.07,0,0,0,128,64Zm0,112a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176ZM200,68a12,12,0,1,1-12-12A12,12,0,0,1,200,68Zm-74.34,49.66-16,16a8,8,0,0,1-11.32-11.32l16-16a8,8,0,0,1,11.32,11.32Zm32-3.32a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32-11.32l32-32A8,8,0,0,1,157.66,114.34Z"/></svg>`,
     style: "regular",
-    tags: ["washing", "machine"],
+    tags: ["washing", "machine", "laundry", "appliance", "household", "clean", "clothing", "regular", "utility", "home"],
     category: "regular"
   },
   {
@@ -71002,7 +71002,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Watch Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,128a79.85,79.85,0,0,0-27.95-60.68L173,28.43A20,20,0,0,0,153.32,12H102.68A20,20,0,0,0,83,28.43L76,67.32a79.84,79.84,0,0,0,0,121.36l7,38.89A20,20,0,0,0,102.68,244h50.64A20,20,0,0,0,173,227.57l7.05-38.89A79.85,79.85,0,0,0,208,128ZM106,36h44l2.9,16a79.76,79.76,0,0,0-49.76,0Zm44,184H106l-2.9-16a79.76,79.76,0,0,0,49.76,0Zm-22-36a56,56,0,1,1,56-56A56.06,56.06,0,0,1,128,184Zm40-56a12,12,0,0,1-12,12H128a12,12,0,0,1-12-12V100a12,12,0,0,1,24,0v16h16A12,12,0,0,1,168,128Z"/></svg>`,
     style: "bold",
-    tags: ["watch"],
+    tags: ["watch", "timepiece", "clock", "timer", "accessory", "wearable", "device", "bold", "time", "fashion"],
     category: "bold"
   },
   {
@@ -71010,7 +71010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Watch Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,128a72,72,0,1,1-72-72A72,72,0,0,1,200,128Z" opacity="0.2"/><path d="M208,128a79.94,79.94,0,0,0-32.7-64.47l-6.24-34.38A16,16,0,0,0,153.32,16H102.68A16,16,0,0,0,86.94,29.15L80.7,63.53a79.9,79.9,0,0,0,0,128.94l6.24,34.38A16,16,0,0,0,102.68,240h50.64a16,16,0,0,0,15.74-13.15l6.24-34.38A79.94,79.94,0,0,0,208,128ZM102.68,32h50.64l3.91,21.55a79.75,79.75,0,0,0-58.46,0ZM64,128a64,64,0,1,1,64,64A64.07,64.07,0,0,1,64,128Zm89.32,96H102.68l-3.91-21.55a79.75,79.75,0,0,0,58.46,0ZM120,128V88a8,8,0,0,1,16,0v32h32a8,8,0,0,1,0,16H128A8,8,0,0,1,120,128Z"/></svg>`,
     style: "duotone",
-    tags: ["watch"],
+    tags: ["watch", "timepiece", "device", "accessory", "wrist", "smartwatch", "duotone", "rounded"],
     category: "duotone"
   },
   {
@@ -71018,7 +71018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Watch Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M175.3,63.53l-6.24-34.38A16,16,0,0,0,153.32,16H102.68A16,16,0,0,0,86.94,29.15L80.7,63.53a79.9,79.9,0,0,0,0,128.94l6.24,34.38A16,16,0,0,0,102.68,240h50.64a16,16,0,0,0,15.74-13.15l6.24-34.38a79.9,79.9,0,0,0,0-128.94ZM102.68,32h50.64l3.91,21.55a79.75,79.75,0,0,0-58.46,0Zm50.64,192H102.68l-3.91-21.55a79.75,79.75,0,0,0,58.46,0ZM168,136H128a8,8,0,0,1-8-8V88a8,8,0,0,1,16,0v32h32a8,8,0,0,1,0,16Z"/></svg>`,
     style: "fill",
-    tags: ["watch"],
+    tags: ["watch", "timepiece", "device", "accessory", "wrist", "smartwatch", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71026,7 +71026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Watch Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M206,128a77.92,77.92,0,0,0-32.53-63.31L167.1,29.5A14,14,0,0,0,153.32,18H102.68A14,14,0,0,0,88.9,29.5L82.53,64.69a77.87,77.87,0,0,0,0,126.62L88.9,226.5A14,14,0,0,0,102.68,238h50.64a14,14,0,0,0,13.78-11.5l6.37-35.19A77.92,77.92,0,0,0,206,128ZM100.71,31.64a2,2,0,0,1,2-1.64h50.64a2,2,0,0,1,2,1.64l4.56,25.19a77.68,77.68,0,0,0-63.7,0Zm54.58,192.72a2,2,0,0,1-2,1.64H102.68a2,2,0,0,1-2-1.64l-4.56-25.19a77.68,77.68,0,0,0,63.7,0ZM128,194a66,66,0,1,1,66-66A66.08,66.08,0,0,1,128,194Zm46-66a6,6,0,0,1-6,6H128a6,6,0,0,1-6-6V88a6,6,0,0,1,12,0v34h34A6,6,0,0,1,174,128Z"/></svg>`,
     style: "light",
-    tags: ["watch"],
+    tags: ["watch", "timepiece", "device", "accessory", "wrist", "smartwatch", "minimal", "thin"],
     category: "light"
   },
   {
@@ -71034,7 +71034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Watch Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204,128a75.94,75.94,0,0,0-32.35-62.16l-6.52-36A12,12,0,0,0,153.32,20H102.68a12,12,0,0,0-11.81,9.86l-6.52,36a75.89,75.89,0,0,0,0,124.32l6.52,36A12,12,0,0,0,102.68,236h50.64a12,12,0,0,0,11.81-9.86l6.52-36A75.94,75.94,0,0,0,204,128ZM98.74,31.29A4,4,0,0,1,102.68,28h50.64a4,4,0,0,1,3.94,3.29l5.26,29a75.69,75.69,0,0,0-69,0Zm58.52,193.42a4,4,0,0,1-3.94,3.29H102.68a4,4,0,0,1-3.94-3.29l-5.26-29a75.69,75.69,0,0,0,69,0ZM128,196a68,68,0,1,1,68-68A68.07,68.07,0,0,1,128,196Zm44-68a4,4,0,0,1-4,4H128a4,4,0,0,1-4-4V88a4,4,0,0,1,8,0v36h36A4,4,0,0,1,172,128Z"/></svg>`,
     style: "thin",
-    tags: ["watch"],
+    tags: ["watch", "timepiece", "device", "accessory", "wrist", "smartwatch", "delicate", "lightweight"],
     category: "thin"
   },
   {
@@ -71042,7 +71042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Watch Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,128a79.94,79.94,0,0,0-32.7-64.47l-6.24-34.38A16,16,0,0,0,153.32,16H102.68A16,16,0,0,0,86.94,29.15L80.7,63.53a79.9,79.9,0,0,0,0,128.94l6.24,34.38A16,16,0,0,0,102.68,240h50.64a16,16,0,0,0,15.74-13.15l6.24-34.38A79.94,79.94,0,0,0,208,128ZM102.68,32h50.64l3.91,21.55a79.75,79.75,0,0,0-58.46,0ZM64,128a64,64,0,1,1,64,64A64.07,64.07,0,0,1,64,128Zm89.32,96H102.68l-3.91-21.55a79.75,79.75,0,0,0,58.46,0ZM120,128V88a8,8,0,0,1,16,0v32h32a8,8,0,0,1,0,16H128A8,8,0,0,1,120,128Z"/></svg>`,
     style: "regular",
-    tags: ["watch"],
+    tags: ["watch", "timepiece", "device", "accessory", "wrist", "smartwatch", "standard", "outline"],
     category: "regular"
   },
   {
@@ -71050,7 +71050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sawtooth Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238.29,138.22l-104,64A12,12,0,0,1,116,192V85.47L30.29,138.22a12,12,0,0,1-12.58-20.44l104-64A12,12,0,0,1,140,64V170.53l85.71-52.75a12,12,0,1,1,12.58,20.44Z"/></svg>`,
     style: "bold",
-    tags: ["wave", "sawtooth"],
+    tags: ["wave", "sawtooth", "audio", "sound", "frequency", "signal", "jagged", "bold", "thick"],
     category: "bold"
   },
   {
@@ -71058,7 +71058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sawtooth Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,64v64H24Zm104,64H128v64Z" opacity="0.2"/><path d="M236.19,134.81l-104,64A8,8,0,0,1,120,192V78.32L28.19,134.81a8,8,0,0,1-8.38-13.62l104-64A8,8,0,0,1,136,64V177.68l91.81-56.49a8,8,0,0,1,8.38,13.62Z"/></svg>`,
     style: "duotone",
-    tags: ["wave", "sawtooth"],
+    tags: ["wave", "sawtooth", "audio", "sound", "frequency", "signal", "jagged", "duotone", "geometric"],
     category: "duotone"
   },
   {
@@ -71066,7 +71066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sawtooth Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-11.56,94.66-72,48A8,8,0,0,1,128,184a8,8,0,0,1-8-8V95L60.44,134.66a8,8,0,1,1-8.88-13.32l72-48A8,8,0,0,1,136,80v81.05l59.56-39.71a8,8,0,0,1,8.88,13.32Z"/></svg>`,
     style: "fill",
-    tags: ["wave", "sawtooth"],
+    tags: ["wave", "sawtooth", "audio", "sound", "frequency", "signal", "jagged", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71074,7 +71074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sawtooth Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.14,133.11l-104,64A6,6,0,0,1,122,192V74.74L27.15,133.11a6,6,0,1,1-6.29-10.22l104-64A6,6,0,0,1,134,64V181.26l94.85-58.37a6,6,0,1,1,6.29,10.22Z"/></svg>`,
     style: "light",
-    tags: ["wave", "sawtooth"],
+    tags: ["wave", "sawtooth", "audio", "sound", "frequency", "signal", "jagged", "minimal", "thin"],
     category: "light"
   },
   {
@@ -71082,7 +71082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sawtooth Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234.1,131.41l-104,64a4,4,0,0,1-2.1.59,4,4,0,0,1-4-4V71.16L26.1,131.41a4,4,0,0,1-4.2-6.82l104-64A4,4,0,0,1,132,64V184.84l97.9-60.25a4,4,0,1,1,4.2,6.82Z"/></svg>`,
     style: "thin",
-    tags: ["wave", "sawtooth"],
+    tags: ["wave", "sawtooth", "audio", "sound", "frequency", "signal", "jagged", "delicate", "lightweight"],
     category: "thin"
   },
   {
@@ -71090,7 +71090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sawtooth Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.19,134.81l-104,64A8,8,0,0,1,120,192V78.32L28.19,134.81a8,8,0,0,1-8.38-13.62l104-64A8,8,0,0,1,136,64V177.68l91.81-56.49a8,8,0,0,1,8.38,13.62Z"/></svg>`,
     style: "regular",
-    tags: ["wave", "sawtooth"],
+    tags: ["wave", "sawtooth", "audio", "sound", "frequency", "signal", "jagged", "standard", "outline"],
     category: "regular"
   },
   {
@@ -71098,7 +71098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sine Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M242.86,133.1c-23,49-43,70.9-64.82,70.9-27.64,0-43.8-34.44-60.9-70.9C110,117.78,102.53,102,94.92,90.73,88.39,81.09,82.53,76,78,76c-3.82,0-18.24,4.12-43.09,57.1a12,12,0,0,1-21.73-10.2c23-49,43-70.9,64.82-70.9,27.64,0,43.8,34.44,60.9,70.9,7.19,15.32,14.61,31.15,22.22,42.37,6.53,9.64,12.39,14.73,17,14.73,3.82,0,18.24-4.12,43.09-57.1a12,12,0,0,1,21.73,10.2Z"/></svg>`,
     style: "bold",
-    tags: ["wave", "sine"],
+    tags: ["wave", "sine", "audio", "sound", "frequency", "signal", "smooth", "bold", "thick", "oscillation"],
     category: "bold"
   },
   {
@@ -71106,7 +71106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sine Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,128c-52,110.85-78,55.43-104,0ZM24,128H128C102,72.57,76,17.15,24,128Z" opacity="0.2"/><path d="M239.24,131.4c-22,46.8-41.4,68.6-61.2,68.6-25.1,0-40.73-33.32-57.28-68.6C107.7,103.56,92.9,72,78,72c-16.4,0-36.31,37.21-46.72,59.4a8,8,0,0,1-14.48-6.8C38.71,77.8,58.16,56,78,56c25.1,0,40.73,33.32,57.28,68.6C148.3,152.44,163.1,184,178,184c16.4,0,36.31-37.21,46.72-59.4a8,8,0,0,1,14.48,6.8Z"/></svg>`,
     style: "duotone",
-    tags: ["wave", "sine"],
+    tags: ["wave", "sine", "audio", "sound", "frequency", "signal", "smooth", "duotone", "curve", "oscillation"],
     category: "duotone"
   },
   {
@@ -71114,7 +71114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sine Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-4.78,91.44c-16.68,35-31.06,50.56-46.65,50.56-19.68,0-31.39-24.56-43.79-50.56C112,113,101,90,91.43,90c-3.74,0-14.37,4-32.21,41.44a8,8,0,0,1-14.44-6.88C61.46,89.59,75.84,74,91.43,74c19.68,0,31.39,24.56,43.79,50.56C144,143,155,166,164.57,166c3.74,0,14.37-4,32.21-41.44a8,8,0,1,1,14.44,6.88Z"/></svg>`,
     style: "fill",
-    tags: ["wave", "sine"],
+    tags: ["wave", "sine", "audio", "sound", "frequency", "signal", "smooth", "filled", "solid", "oscillation"],
     category: "fill"
   },
   {
@@ -71122,7 +71122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sine Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M237.43,130.55C215.84,176.57,197,198,178,198c-23.83,0-39.2-32.76-55.47-67.45C109.26,102.17,94.17,70,78,70c-9.18,0-25,10.5-48.53,60.55a6,6,0,0,1-10.86-5.1C40.16,79.43,59,58,78,58c23.83,0,39.2,32.76,55.47,67.45C146.74,153.83,161.83,186,178,186c9.18,0,25.05-10.5,48.53-60.55a6,6,0,0,1,10.86,5.1Z"/></svg>`,
     style: "light",
-    tags: ["wave", "sine"],
+    tags: ["wave", "sine", "audio", "sound", "frequency", "signal", "smooth", "minimal", "thin", "oscillation"],
     category: "light"
   },
   {
@@ -71130,7 +71130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sine Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.62,129.7C214.4,174.93,196.1,196,178,196c-22.56,0-37.67-32.21-53.66-66.3C110.15,99.37,95.44,68,78,68c-14.2,0-31.13,20.76-50.34,61.7a4,4,0,0,1-7.24-3.4C41.6,81.07,59.9,60,78,60c22.56,0,37.67,32.21,53.66,66.3C145.85,156.63,160.56,188,178,188c14.2,0,31.13-20.76,50.34-61.7a4,4,0,0,1,7.24,3.4Z"/></svg>`,
     style: "thin",
-    tags: ["wave", "sine"],
+    tags: ["wave", "sine", "audio", "sound", "frequency", "signal", "smooth", "delicate", "lightweight", "oscillation"],
     category: "thin"
   },
   {
@@ -71138,7 +71138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Sine Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M239.24,131.4c-22,46.8-41.4,68.6-61.2,68.6-25.1,0-40.73-33.32-57.28-68.6C107.7,103.56,92.9,72,78,72c-16.4,0-36.31,37.21-46.72,59.4a8,8,0,0,1-14.48-6.8C38.71,77.8,58.16,56,78,56c25.1,0,40.73,33.32,57.28,68.6C148.3,152.44,163.1,184,178,184c16.4,0,36.31-37.21,46.72-59.4a8,8,0,0,1,14.48,6.8Z"/></svg>`,
     style: "regular",
-    tags: ["wave", "sine"],
+    tags: ["wave", "sine", "audio", "sound", "frequency", "signal", "smooth", "standard", "outline", "oscillation"],
     category: "regular"
   },
   {
@@ -71146,7 +71146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Square Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244,128v56a12,12,0,0,1-12,12H128a12,12,0,0,1-12-12V84H36v44a12,12,0,0,1-24,0V72A12,12,0,0,1,24,60H128a12,12,0,0,1,12,12V172h80V128a12,12,0,0,1,24,0Z"/></svg>`,
     style: "bold",
-    tags: ["wave", "square"],
+    tags: ["wave", "square", "audio", "sound", "frequency", "signal", "blocky", "bold", "thick", "digital"],
     category: "bold"
   },
   {
@@ -71154,7 +71154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Square Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,72v56H24V72Zm0,56v56H232V128Z" opacity="0.2"/><path d="M240,128v56a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V80H32v48a8,8,0,0,1-16,0V72a8,8,0,0,1,8-8H128a8,8,0,0,1,8,8V176h88V128a8,8,0,0,1,16,0Z"/></svg>`,
     style: "duotone",
-    tags: ["wave", "square"],
+    tags: ["wave", "square", "audio", "sound", "frequency", "signal", "blocky", "duotone", "geometric", "digital"],
     category: "duotone"
   },
   {
@@ -71162,7 +71162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Square Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-8,128a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V96H64v32a8,8,0,0,1-16,0V88a8,8,0,0,1,8-8h72a8,8,0,0,1,8,8v72h56V128a8,8,0,0,1,16,0Z"/></svg>`,
     style: "fill",
-    tags: ["wave", "square"],
+    tags: ["wave", "square", "audio", "sound", "frequency", "signal", "blocky", "filled", "solid", "digital"],
     category: "fill"
   },
   {
@@ -71170,7 +71170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Square Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238,128v56a6,6,0,0,1-6,6H128a6,6,0,0,1-6-6V78H30v50a6,6,0,0,1-12,0V72a6,6,0,0,1,6-6H128a6,6,0,0,1,6,6V178h92V128a6,6,0,0,1,12,0Z"/></svg>`,
     style: "light",
-    tags: ["wave", "square"],
+    tags: ["wave", "square", "audio", "sound", "frequency", "signal", "blocky", "minimal", "thin", "digital"],
     category: "light"
   },
   {
@@ -71178,7 +71178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Square Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236,128v56a4,4,0,0,1-4,4H128a4,4,0,0,1-4-4V76H28v52a4,4,0,0,1-8,0V72a4,4,0,0,1,4-4H128a4,4,0,0,1,4,4V180h96V128a4,4,0,0,1,8,0Z"/></svg>`,
     style: "thin",
-    tags: ["wave", "square"],
+    tags: ["wave", "square", "audio", "sound", "frequency", "signal", "blocky", "delicate", "lightweight", "digital"],
     category: "thin"
   },
   {
@@ -71186,7 +71186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Square Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240,128v56a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V80H32v48a8,8,0,0,1-16,0V72a8,8,0,0,1,8-8H128a8,8,0,0,1,8,8V176h88V128a8,8,0,0,1,16,0Z"/></svg>`,
     style: "regular",
-    tags: ["wave", "square"],
+    tags: ["wave", "square", "audio", "sound", "frequency", "signal", "blocky", "standard", "outline", "digital"],
     category: "regular"
   },
   {
@@ -71194,7 +71194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Triangle Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M241.73,135l-52,72a12,12,0,0,1-19.46,0L76,76.5,33.73,135A12,12,0,1,1,14.27,121l52-72a12,12,0,0,1,19.46,0L180,179.5,222.27,121A12,12,0,1,1,241.73,135Z"/></svg>`,
     style: "bold",
-    tags: ["wave", "triangle"],
+    tags: ["wave", "triangle", "audio", "sound", "frequency", "signal", "pointy", "bold", "thick", "geometric"],
     category: "bold"
   },
   {
@@ -71202,7 +71202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Triangle Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M76,56l52,72H24Zm156,72H128l52,72Z" opacity="0.2"/><path d="M238.48,132.68l-52,72a8,8,0,0,1-13,0L76,69.66l-45.51,63a8,8,0,1,1-13-9.36l52-72a8,8,0,0,1,13,0l97.51,135,45.51-63a8,8,0,1,1,13,9.36Z"/></svg>`,
     style: "duotone",
-    tags: ["wave", "triangle"],
+    tags: ["wave", "triangle", "audio", "sound", "frequency", "signal", "pointy", "duotone", "geometric", "sharp"],
     category: "duotone"
   },
   {
@@ -71210,7 +71210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Triangle Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-9.85,93.12-40,48A8,8,0,0,1,160,184h-.43a8,8,0,0,1-6.23-3.55l-58-87.09L62.15,133.12a8,8,0,0,1-12.3-10.24l40-48a8,8,0,0,1,12.81.68l58.05,87.09,33.14-39.77a8,8,0,1,1,12.3,10.24Z"/></svg>`,
     style: "fill",
-    tags: ["wave", "triangle"],
+    tags: ["wave", "triangle", "sound", "audio", "music", "frequency", "signal", "filled", "bold", "geometric"],
     category: "fill"
   },
   {
@@ -71218,7 +71218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Triangle Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M236.86,131.51l-52,72a6,6,0,0,1-9.72,0L76,66.25,28.86,131.51a6,6,0,1,1-9.72-7l52-72a6,6,0,0,1,9.72,0L180,189.75l47.14-65.26a6,6,0,0,1,9.72,7Z"/></svg>`,
     style: "light",
-    tags: ["wave", "triangle"],
+    tags: ["wave", "triangle", "sound", "audio", "music", "frequency", "signal", "outlined", "minimal", "geometric"],
     category: "light"
   },
   {
@@ -71226,7 +71226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Triangle Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M235.24,130.34l-52,72a4,4,0,0,1-6.48,0L76,62.83,27.24,130.34a4,4,0,1,1-6.48-4.68l52-72a4,4,0,0,1,6.48,0L180,193.17l48.76-67.51a4,4,0,0,1,6.48,4.68Z"/></svg>`,
     style: "thin",
-    tags: ["wave", "triangle"],
+    tags: ["wave", "triangle", "sound", "audio", "music", "frequency", "signal", "outlined", "delicate", "geometric"],
     category: "thin"
   },
   {
@@ -71234,7 +71234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wave Triangle Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238.48,132.68l-52,72a8,8,0,0,1-13,0L76,69.66l-45.51,63a8,8,0,1,1-13-9.36l52-72a8,8,0,0,1,13,0l97.51,135,45.51-63a8,8,0,1,1,13,9.36Z"/></svg>`,
     style: "regular",
-    tags: ["wave", "triangle"],
+    tags: ["wave", "triangle", "sound", "audio", "music", "frequency", "signal", "outlined", "standard", "geometric"],
     category: "regular"
   },
   {
@@ -71242,7 +71242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M60,96v64a12,12,0,0,1-24,0V96a12,12,0,0,1,24,0ZM88,20A12,12,0,0,0,76,32V224a12,12,0,0,0,24,0V32A12,12,0,0,0,88,20Zm40,32a12,12,0,0,0-12,12V192a12,12,0,0,0,24,0V64A12,12,0,0,0,128,52Zm40,32a12,12,0,0,0-12,12v64a12,12,0,0,0,24,0V96A12,12,0,0,0,168,84Zm40-16a12,12,0,0,0-12,12v96a12,12,0,0,0,24,0V80A12,12,0,0,0,208,68Z"/></svg>`,
     style: "bold",
-    tags: ["waveform"],
+    tags: ["waveform", "sound", "audio", "music", "frequency", "signal", "equalizer", "bold", "visualizer"],
     category: "bold"
   },
   {
@@ -71250,7 +71250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,96v64H48V96Z" opacity="0.2"/><path d="M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM88,24a8,8,0,0,0-8,8V224a8,8,0,0,0,16,0V32A8,8,0,0,0,88,24Zm40,32a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,128,56Zm40,32a8,8,0,0,0-8,8v64a8,8,0,0,0,16,0V96A8,8,0,0,0,168,88Zm40-16a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z"/></svg>`,
     style: "duotone",
-    tags: ["waveform"],
+    tags: ["waveform", "sound", "audio", "music", "frequency", "signal", "equalizer", "gradient", "visualizer"],
     category: "duotone"
   },
   {
@@ -71258,7 +71258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM72,152a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32,32a8,8,0,0,1-16,0V72a8,8,0,0,1,16,0Zm32-16a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Zm32-16a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32,8a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0Z"/></svg>`,
     style: "fill",
-    tags: ["waveform"],
+    tags: ["waveform", "sound", "audio", "music", "frequency", "signal", "equalizer", "filled", "visualizer"],
     category: "fill"
   },
   {
@@ -71266,7 +71266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M54,96v64a6,6,0,0,1-12,0V96a6,6,0,0,1,12,0ZM88,26a6,6,0,0,0-6,6V224a6,6,0,0,0,12,0V32A6,6,0,0,0,88,26Zm40,32a6,6,0,0,0-6,6V192a6,6,0,0,0,12,0V64A6,6,0,0,0,128,58Zm40,32a6,6,0,0,0-6,6v64a6,6,0,0,0,12,0V96A6,6,0,0,0,168,90Zm40-16a6,6,0,0,0-6,6v96a6,6,0,0,0,12,0V80A6,6,0,0,0,208,74Z"/></svg>`,
     style: "light",
-    tags: ["waveform"],
+    tags: ["waveform", "sound", "audio", "music", "frequency", "signal", "equalizer", "outlined", "visualizer"],
     category: "light"
   },
   {
@@ -71274,7 +71274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Slash Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M60,96v64a12,12,0,0,1-24,0V96a12,12,0,0,1,24,0ZM56.88,31.93A12,12,0,1,0,39.12,48.07L76,88.64V224a12,12,0,0,0,24,0V115l16,17.6V192a12,12,0,0,0,24,0V159l59.12,65a12,12,0,0,0,17.76-16.14ZM128,80.54a12,12,0,0,0,12-12V64a12,12,0,0,0-24,0v4.54A12,12,0,0,0,128,80.54Zm40,44a12,12,0,0,0,12-12V96a12,12,0,0,0-24,0v16.54A12,12,0,0,0,168,124.54ZM208,68a12,12,0,0,0-12,12v76.54a12,12,0,0,0,24,0V80A12,12,0,0,0,208,68Z"/></svg>`,
     style: "bold",
-    tags: ["waveform", "slash"],
+    tags: ["waveform", "slash", "mute", "silent", "no sound", "audio off", "disabled", "bold", "control", "ui"],
     category: "bold"
   },
   {
@@ -71282,7 +71282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Slash Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,96v64H48V96Z" opacity="0.2"/><path d="M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM53.92,34.62A8,8,0,1,0,42.08,45.38L80,87.09V224a8,8,0,0,0,16,0V104.69l24,26.4V192a8,8,0,0,0,16,0V148.69l66.08,72.69a8,8,0,1,0,11.84-10.76ZM88,44.43a8,8,0,0,0,8-8V32a8,8,0,0,0-16,0v4.43A8,8,0,0,0,88,44.43Zm40,44a8,8,0,0,0,8-8V64a8,8,0,0,0-16,0V80.43A8,8,0,0,0,128,88.43Zm40,44a8,8,0,0,0,8-8V96a8,8,0,0,0-16,0v28.43A8,8,0,0,0,168,132.43ZM208,72a8,8,0,0,0-8,8v88.43a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z"/></svg>`,
     style: "duotone",
-    tags: ["waveform", "slash"],
+    tags: ["waveform", "slash", "mute", "silent", "no sound", "audio off", "disabled", "gradient", "control", "ui"],
     category: "duotone"
   },
   {
@@ -71290,7 +71290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Slash Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM184,96a8,8,0,0,1,16,0v50.75a8,8,0,0,1-16,0Zm-32,8a8,8,0,0,1,16,0v10.75a8,8,0,0,1-16,0ZM72,152a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm125.66,45.66a8,8,0,0,1-11.32,0L136,147.31V168a8,8,0,0,1-16,0V131.31l-16-16V184a8,8,0,0,1-16,0V99.5c0-.06,0-.12,0-.18L58.34,69.66A8,8,0,0,1,69.66,58.34l128,128A8,8,0,0,1,197.66,197.66Z"/></svg>`,
     style: "fill",
-    tags: ["waveform", "slash"],
+    tags: ["waveform", "slash", "mute", "silent", "no sound", "audio off", "disabled", "filled", "control", "ui"],
     category: "fill"
   },
   {
@@ -71298,7 +71298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Slash Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M54,96v64a6,6,0,0,1-12,0V96a6,6,0,0,1,12,0ZM52.44,36A6,6,0,0,0,43.56,44L82,86.32V224a6,6,0,0,0,12,0V99.52l28,30.8V192a6,6,0,0,0,12,0V143.52L203.56,220a6,6,0,0,0,8.88-8.08ZM88,42.43a6,6,0,0,0,6-6V32a6,6,0,0,0-12,0v4.43A6,6,0,0,0,88,42.43Zm40,44a6,6,0,0,0,6-6V64a6,6,0,0,0-12,0V80.43A6,6,0,0,0,128,86.43Zm40,44a6,6,0,0,0,6-6V96a6,6,0,0,0-12,0v28.43A6,6,0,0,0,168,130.43ZM208,74a6,6,0,0,0-6,6v88.43a6,6,0,0,0,12,0V80A6,6,0,0,0,208,74Z"/></svg>`,
     style: "light",
-    tags: ["waveform", "slash"],
+    tags: ["waveform", "slash", "mute", "silent", "no sound", "audio off", "disabled", "outlined", "control", "ui"],
     category: "light"
   },
   {
@@ -71306,7 +71306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Slash Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M52,96v64a4,4,0,0,1-8,0V96a4,4,0,0,1,8,0ZM51,37.31A4,4,0,0,0,45,42.69L84,85.55V224a4,4,0,0,0,8,0V94.35l32,35.2V192a4,4,0,0,0,8,0V138.35l73,80.34a4,4,0,1,0,5.92-5.38Zm37,3.12a4,4,0,0,0,4-4V32a4,4,0,0,0-8,0v4.43A4,4,0,0,0,88,40.43Zm40,44a4,4,0,0,0,4-4V64a4,4,0,0,0-8,0V80.43A4,4,0,0,0,128,84.43Zm40,44a4,4,0,0,0,4-4V96a4,4,0,0,0-8,0v28.43A4,4,0,0,0,168,128.43ZM208,76a4,4,0,0,0-4,4v88.43a4,4,0,0,0,8,0V80A4,4,0,0,0,208,76Z"/></svg>`,
     style: "thin",
-    tags: ["waveform", "slash"],
+    tags: ["waveform", "slash", "mute", "silent", "no sound", "audio off", "disabled", "delicate", "control", "ui"],
     category: "thin"
   },
   {
@@ -71314,7 +71314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Slash Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM53.92,34.62A8,8,0,1,0,42.08,45.38L80,87.09V224a8,8,0,0,0,16,0V104.69l24,26.4V192a8,8,0,0,0,16,0V148.69l66.08,72.69a8,8,0,1,0,11.84-10.76ZM88,44.43a8,8,0,0,0,8-8V32a8,8,0,0,0-16,0v4.43A8,8,0,0,0,88,44.43Zm40,44a8,8,0,0,0,8-8V64a8,8,0,0,0-16,0V80.43A8,8,0,0,0,128,88.43Zm40,44a8,8,0,0,0,8-8V96a8,8,0,0,0-16,0v28.43A8,8,0,0,0,168,132.43ZM208,72a8,8,0,0,0-8,8v88.43a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z"/></svg>`,
     style: "regular",
-    tags: ["waveform", "slash"],
+    tags: ["waveform", "slash", "mute", "silent", "no sound", "audio off", "disabled", "standard", "control", "ui"],
     category: "regular"
   },
   {
@@ -71322,7 +71322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M52,96v64a4,4,0,0,1-8,0V96a4,4,0,0,1,8,0ZM88,28a4,4,0,0,0-4,4V224a4,4,0,0,0,8,0V32A4,4,0,0,0,88,28Zm40,32a4,4,0,0,0-4,4V192a4,4,0,0,0,8,0V64A4,4,0,0,0,128,60Zm40,32a4,4,0,0,0-4,4v64a4,4,0,0,0,8,0V96A4,4,0,0,0,168,92Zm40-16a4,4,0,0,0-4,4v96a4,4,0,0,0,8,0V80A4,4,0,0,0,208,76Z"/></svg>`,
     style: "thin",
-    tags: ["waveform"],
+    tags: ["waveform", "sound", "audio", "music", "frequency", "signal", "equalizer", "delicate", "visualizer"],
     category: "thin"
   },
   {
@@ -71330,7 +71330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waveform Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM88,24a8,8,0,0,0-8,8V224a8,8,0,0,0,16,0V32A8,8,0,0,0,88,24Zm40,32a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V64A8,8,0,0,0,128,56Zm40,32a8,8,0,0,0-8,8v64a8,8,0,0,0,16,0V96A8,8,0,0,0,168,88Zm40-16a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z"/></svg>`,
     style: "regular",
-    tags: ["waveform"],
+    tags: ["waveform", "sound", "audio", "music", "frequency", "signal", "equalizer", "standard", "visualizer"],
     category: "regular"
   },
   {
@@ -71338,7 +71338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waves Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M225.24,174.74a12,12,0,0,1-1.58,16.89C205.49,206.71,189.06,212,174.15,212c-19.76,0-36.86-9.29-51.88-17.44-25.06-13.62-44.86-24.37-74.61.3a12,12,0,1,1-15.32-18.48c42.25-35,75-17.23,101.39-2.92,25.06,13.61,44.86,24.37,74.61-.3A12,12,0,0,1,225.24,174.74Zm-16.9-57.59c-29.75,24.67-49.55,13.91-74.61.3-26.35-14.3-59.14-32.11-101.39,2.92a12,12,0,0,0,15.32,18.48c29.75-24.67,49.55-13.92,74.61-.3,15,8.15,32.12,17.44,51.88,17.44,14.91,0,31.34-5.29,49.51-20.36a12,12,0,0,0-15.32-18.48ZM47.66,82.84c29.75-24.67,49.55-13.92,74.61-.3,15,8.15,32.12,17.44,51.88,17.44,14.91,0,31.34-5.29,49.51-20.36a12,12,0,0,0-15.32-18.48c-29.75,24.67-49.55,13.92-74.61.3-26.35-14.3-59.14-32.11-101.39,2.93A12,12,0,1,0,47.66,82.84Z"/></svg>`,
     style: "bold",
-    tags: ["waves"],
+    tags: ["waves", "ocean", "water", "sea", "liquid", "ripple", "bold", "nature", "fluid"],
     category: "bold"
   },
   {
@@ -71346,7 +71346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waves Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,70.39v112c-72,59.69-104-56.47-176,3.22v-112C112,13.92,144,130.08,216,70.39Z" opacity="0.2"/><path d="M222.16,177.25a8,8,0,0,1-1,11.25c-17.36,14.39-32.86,19.5-47,19.5-18.58,0-34.82-8.82-49.93-17-25.35-13.76-47.24-25.64-79.07.74a8,8,0,1,1-10.22-12.31c40.17-33.28,70.32-16.92,96.93-2.48,25.35,13.75,47.24,25.63,79.07-.74A8,8,0,0,1,222.16,177.25Zm-11.27-57c-31.83,26.38-53.72,14.5-79.07.74-26.61-14.43-56.76-30.79-96.93,2.49a8,8,0,0,0,10.22,12.31c31.83-26.38,53.72-14.5,79.07-.74,15.11,8.19,31.35,17,49.93,17,14.14,0,29.64-5.11,47-19.5a8,8,0,1,0-10.22-12.31ZM45.11,79.8c31.83-26.37,53.72-14.49,79.07-.74,15.11,8.2,31.35,17,49.93,17,14.14,0,29.64-5.12,47-19.5a8,8,0,1,0-10.22-12.31c-31.83,26.38-53.72,14.5-79.07.74C105.21,50.58,75.06,34.22,34.89,67.5A8,8,0,1,0,45.11,79.8Z"/></svg>`,
     style: "duotone",
-    tags: ["waves"],
+    tags: ["waves", "ocean", "water", "sea", "liquid", "ripple", "gradient", "nature", "fluid"],
     category: "duotone"
   },
   {
@@ -71354,7 +71354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waves Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM197.2,176.87c-13.07,11.18-24.9,15.1-35.64,15.1-14.26,0-26.62-6.92-37.47-13-18.41-10.31-32.95-18.45-54.89.31a8,8,0,1,1-10.4-12.16c30.42-26,54.09-12.76,73.11-2.11,18.41,10.31,33,18.45,54.89-.31a8,8,0,0,1,10.4,12.16Zm0-44c-13.07,11.18-24.9,15.1-35.64,15.1-14.26,0-26.62-6.92-37.47-13-18.41-10.31-32.95-18.45-54.89.31a8,8,0,0,1-10.4-12.16c30.42-26,54.09-12.76,73.11-2.11,18.41,10.31,33,18.45,54.89-.31a8,8,0,1,1,10.4,12.16Zm0-44c-13.07,11.18-24.9,15.1-35.64,15.1-14.26,0-26.62-6.92-37.47-13-18.41-10.31-32.95-18.45-54.89.31A8,8,0,0,1,58.8,79.13c30.42-26,54.09-12.76,73.11-2.11,18.41,10.31,33,18.45,54.89-.31a8,8,0,1,1,10.4,12.16Z"/></svg>`,
     style: "fill",
-    tags: ["waves"],
+    tags: ["waves", "ocean", "water", "sea", "liquid", "ripple", "filled", "nature", "fluid"],
     category: "fill"
   },
   {
@@ -71362,7 +71362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waves Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220.62,178.58a6,6,0,0,1-.79,8.45c-16.87,14-32,19-45.75,19-18.19,0-34.13-8.66-48.94-16.7-26-14.12-48.44-26.31-81.31,1A6,6,0,0,1,36.17,181c39.13-32.45,68.65-16.41,94.69-2.26s48.44,26.31,81.31-1A6,6,0,0,1,220.62,178.58Zm-8.45-56.81c-32.87,27.27-55.32,15.07-81.31,1S75.3,92.54,36.17,125a6,6,0,0,0,7.66,9.25c32.87-27.27,55.32-15.08,81.31-1,14.81,8,30.75,16.71,48.94,16.71,13.79,0,28.88-5,45.75-19a6,6,0,0,0-7.66-9.24ZM43.83,78.21c32.87-27.27,55.32-15.07,81.31-1C140,85.3,155.89,94,174.08,94c13.79,0,28.88-5,45.75-19a6,6,0,1,0-7.66-9.24c-32.87,27.27-55.32,15.07-81.31,1S75.3,36.52,36.17,69a6,6,0,1,0,7.66,9.24Z"/></svg>`,
     style: "light",
-    tags: ["waves"],
+    tags: ["waves", "ocean", "water", "sea", "liquid", "ripple", "outlined", "nature", "fluid"],
     category: "light"
   },
   {
@@ -71370,7 +71370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waves Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M219.08,179.84a4,4,0,0,1-.53,5.63C203.56,197.9,188.9,204,173.93,204a54.84,54.84,0,0,1-6.12-.34c-15-1.65-28.6-9-41.72-16.14-25.52-13.86-49.62-27-83.54,1.18a4,4,0,0,1-5.1-6.16c17-14.12,33.62-20.08,50.74-18.19,15,1.64,28.6,9,41.72,16.14,25.52,13.86,49.62,26.94,83.54-1.18A4,4,0,0,1,219.08,179.84Zm-5.63-56.53c-33.92,28.12-58,15-83.54,1.17-13.12-7.12-26.69-14.49-41.72-16.14-17.12-1.88-33.72,4.07-50.74,18.19a4,4,0,1,0,5.1,6.16c33.92-28.12,58-15,83.54-1.17,13.12,7.12,26.69,14.49,41.72,16.14a57.34,57.34,0,0,0,6.12.34c15,0,29.63-6.1,44.62-18.53a4,4,0,1,0-5.1-6.16ZM42.55,76.69c33.92-28.13,58-15,83.54-1.18,13.12,7.13,26.69,14.5,41.72,16.14a54.84,54.84,0,0,0,6.12.34c15,0,29.63-6.1,44.62-18.53a4,4,0,1,0-5.1-6.16c-33.92,28.13-58,15-83.54,1.18C116.79,61.35,103.22,54,88.19,52.34c-17.12-1.88-33.72,4.07-50.74,18.19a4,4,0,1,0,5.1,6.16Z"/></svg>`,
     style: "thin",
-    tags: ["waves"],
+    tags: ["waves", "ocean", "water", "sea", "liquid", "ripple", "delicate", "nature", "fluid"],
     category: "thin"
   },
   {
@@ -71378,7 +71378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Waves Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M222.16,177.25a8,8,0,0,1-1,11.25c-17.36,14.39-32.86,19.5-47,19.5-18.58,0-34.82-8.82-49.93-17-25.35-13.76-47.24-25.64-79.07.74a8,8,0,1,1-10.22-12.31c40.17-33.28,70.32-16.92,96.93-2.48,25.35,13.75,47.24,25.63,79.07-.74A8,8,0,0,1,222.16,177.25Zm-11.27-57c-31.83,26.38-53.72,14.5-79.07.74-26.61-14.43-56.76-30.79-96.93,2.49a8,8,0,0,0,10.22,12.31c31.83-26.38,53.72-14.5,79.07-.74,15.11,8.19,31.35,17,49.93,17,14.14,0,29.64-5.11,47-19.5a8,8,0,1,0-10.22-12.31ZM45.11,79.8c31.83-26.37,53.72-14.49,79.07-.74,15.11,8.2,31.35,17,49.93,17,14.14,0,29.64-5.12,47-19.5a8,8,0,1,0-10.22-12.31c-31.83,26.38-53.72,14.5-79.07.74C105.21,50.58,75.06,34.22,34.89,67.5A8,8,0,1,0,45.11,79.8Z"/></svg>`,
     style: "regular",
-    tags: ["waves"],
+    tags: ["waves", "ocean", "water", "sea", "liquid", "ripple", "standard", "nature", "fluid"],
     category: "regular"
   },
   {
@@ -71386,7 +71386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,104a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-56,0a16,16,0,1,1,16,16A16,16,0,0,1,112,104Zm112,92H140v-8.87a84,84,0,1,0-24,0V196H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24ZM68,104a60,60,0,1,1,60,60A60.07,60.07,0,0,1,68,104Z"/></svg>`,
     style: "bold",
-    tags: ["webcam"],
+    tags: ["webcam", "camera", "video", "conference", "streaming", "recording", "bold", "device", "communication"],
     category: "bold"
   },
   {
@@ -71394,7 +71394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,32a72,72,0,1,0,72,72A72,72,0,0,0,128,32Zm0,104a32,32,0,1,1,32-32A32,32,0,0,1,128,136Z" opacity="0.2"/><path d="M168,104a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Zm120,96H136V183.6a80,80,0,1,0-16,0V200H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM64,104a64,64,0,1,1,64,64A64.07,64.07,0,0,1,64,104Z"/></svg>`,
     style: "duotone",
-    tags: ["webcam"],
+    tags: ["webcam", "camera", "video", "conference", "streaming", "recording", "gradient", "device", "communication"],
     category: "duotone"
   },
   {
@@ -71402,7 +71402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M160,104a32,32,0,1,1-32-32A32,32,0,0,1,160,104Zm72,104a8,8,0,0,1-8,8H32a8,8,0,0,1,0-16h88V183.6a80,80,0,1,1,16,0V200h88A8,8,0,0,1,232,208ZM128,152a48,48,0,1,0-48-48A48.05,48.05,0,0,0,128,152Z"/></svg>`,
     style: "fill",
-    tags: ["webcam"],
+    tags: ["webcam", "camera", "video", "conference", "streaming", "recording", "filled", "device", "communication"],
     category: "fill"
   },
   {
@@ -71410,7 +71410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M166,104a38,38,0,1,0-38,38A38,38,0,0,0,166,104Zm-64,0a26,26,0,1,1,26,26A26,26,0,0,1,102,104Zm122,98H134V181.75a78,78,0,1,0-12,0V202H32a6,6,0,0,0,0,12H224a6,6,0,0,0,0-12ZM62,104a66,66,0,1,1,66,66A66.08,66.08,0,0,1,62,104Z"/></svg>`,
     style: "light",
-    tags: ["webcam"],
+    tags: ["webcam", "camera", "video", "stream", "conference", "recording", "device", "thin", "outline"],
     category: "light"
   },
   {
@@ -71418,7 +71418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Slash Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.88,207.93l-160-176A12,12,0,1,0,39.12,48.07L53.93,64.36A84,84,0,0,0,116,187.13V196H32a12,12,0,0,0,0,24H195.42l3.7,4.07a12,12,0,0,0,17.76-16.14ZM68,104a59.84,59.84,0,0,1,3.52-20.29l12.91,14.2A44,44,0,0,0,128,148c.64,0,1.28,0,1.92-.05l12.9,14.19A60,60,0,0,1,68,104Zm72,92v-8.87a84.41,84.41,0,0,0,20.42-5.63L173.6,196ZM88.89,42.35a12,12,0,0,1,6.37-15.73A84,84,0,0,1,201.91,143.94a12,12,0,0,1-10.56,6.29,11.84,11.84,0,0,1-5.7-1.45,12,12,0,0,1-4.84-16.26,60,60,0,0,0-76.19-83.8A12,12,0,0,1,88.89,42.35ZM172,103.64a12,12,0,0,1-11.9,12.1H160a12,12,0,0,1-12-11.91A20,20,0,0,0,130.06,84.1a12,12,0,1,1,2.42-23.87A43.92,43.92,0,0,1,172,103.64Z"/></svg>`,
     style: "bold",
-    tags: ["webcam", "slash"],
+    tags: ["webcam", "slash", "camera", "video", "off", "disabled", "privacy", "mute", "bold", "filled"],
     category: "bold"
   },
   {
@@ -71426,7 +71426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Slash Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,32a72,72,0,1,0,72,72A72,72,0,0,0,128,32Zm0,104a32,32,0,1,1,32-32A32,32,0,0,1,128,136Z" opacity="0.2"/><path d="M213.92,210.62l-160-176A8,8,0,1,0,42.08,45.38L58.82,63.8A80,80,0,0,0,120,183.6V200H32a8,8,0,0,0,0,16H197.19l4.89,5.38a8,8,0,1,0,11.84-10.76ZM64,104a63.65,63.65,0,0,1,6.26-27.62L88.68,96.64A40,40,0,0,0,128,144c1.2,0,2.39-.06,3.58-.17L150,164.11A64,64,0,0,1,64,104Zm72,96V183.59a79.91,79.91,0,0,0,25.44-6.91L182.64,200ZM85.52,45.31a8,8,0,0,1,3-10.91,80,80,0,0,1,105,115.5,8,8,0,1,1-13.1-9.19,64,64,0,0,0-84-92.4A8,8,0,0,1,85.52,45.31Zm65.31,66.12A24,24,0,0,0,128,80a24.17,24.17,0,0,0-5.24.57A8,8,0,1,1,119.3,65,40,40,0,0,1,166,116.38a8,8,0,0,1-15.21-4.95Z"/></svg>`,
     style: "duotone",
-    tags: ["webcam", "slash"],
+    tags: ["webcam", "slash", "camera", "video", "off", "disabled", "privacy", "mute", "duotone", "gradient"],
     category: "duotone"
   },
   {
@@ -71434,7 +71434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Slash Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M83.34,43.19a4,4,0,0,1,.78-6A80,80,0,0,1,190.39,154a4,4,0,0,1-6.11.22l-16.43-18.08a4,4,0,0,1-.3-5,48,48,0,0,0-62.84-69.11,4,4,0,0,1-4.94-.78ZM126.93,72a31.8,31.8,0,0,0-8.43,1.42A4,4,0,0,0,116.75,80l34.12,37.53a4,4,0,0,0,6.67-1.18A31.84,31.84,0,0,0,160,104,32.36,32.36,0,0,0,126.93,72Zm86.45,149.9a8,8,0,0,1-11.3-.54L197.19,216H32a8,8,0,0,1-8-8.53A8.17,8.17,0,0,1,32.27,200H120V183.6A79.93,79.93,0,0,1,58.86,63.84L42.08,45.38A8,8,0,1,1,53.92,34.62l160,176A8,8,0,0,1,213.38,221.92ZM128,152a48.17,48.17,0,0,0,10-1.06l-13.79-15.17A32,32,0,0,1,96,104.71L82.23,89.55A48,48,0,0,0,128,152Zm54.64,48-21.22-23.34A79.24,79.24,0,0,1,136,183.6V200Z"/></svg>`,
     style: "fill",
-    tags: ["webcam", "slash"],
+    tags: ["webcam", "slash", "camera", "video", "off", "disabled", "privacy", "mute", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71442,7 +71442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Slash Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M212.44,212,52.44,36A6,6,0,0,0,43.56,44L61.31,63.56A78,78,0,0,0,122,181.75V202H32a6,6,0,0,0,0,12H198.07l5.49,6a6,6,0,0,0,8.88-8.08Zm-91.67-83a26.05,26.05,0,0,1-18.31-20.15ZM62,104a65.6,65.6,0,0,1,7.78-31.12L90.85,96.06A38,38,0,0,0,128,142a37.59,37.59,0,0,0,4.38-.26l21.06,23.17A66,66,0,0,1,62,104Zm72,98V181.76a78.27,78.27,0,0,0,27.93-7.51L187.16,202ZM87.26,44.32a6,6,0,0,1,2.26-8.18A78,78,0,0,1,191.89,148.75a6,6,0,1,1-9.82-6.89A66,66,0,0,0,95.44,46.57,6,6,0,0,1,87.26,44.32Zm65.47,67.73a26,26,0,0,0-30.4-33.43,6,6,0,1,1-2.6-11.72,38,38,0,0,1,44.41,48.86,6,6,0,0,1-11.41-3.71Z"/></svg>`,
     style: "light",
-    tags: ["webcam", "slash"],
+    tags: ["webcam", "slash", "camera", "video", "off", "disabled", "privacy", "mute", "thin", "outline"],
     category: "light"
   },
   {
@@ -71450,7 +71450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Slash Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M211,213.31,51,37.31A4,4,0,0,0,45,42.69L63.8,63.32A76,76,0,0,0,124,179.89V204H32a4,4,0,0,0,0,8H199l6.08,6.69a4,4,0,1,0,5.92-5.38ZM100,103.18l26.14,28.75A28,28,0,0,1,100,104C100,103.73,100,103.45,100,103.18ZM60,104a67.62,67.62,0,0,1,9.4-34.52L93,95.48a36,36,0,0,0,40.13,44.14l23.63,26A68,68,0,0,1,60,104Zm72,100V179.89a76.09,76.09,0,0,0,30.39-8.11L191.69,204ZM89,43.33a4,4,0,0,1,1.5-5.45A76,76,0,0,1,190.26,147.6a4,4,0,1,1-6.55-4.59A68,68,0,0,0,94.46,44.83,4,4,0,0,1,89,43.33Zm65.63,69.34a28,28,0,0,0-32.73-36,4,4,0,0,1-1.74-7.81,36,36,0,0,1,42.08,46.28,4,4,0,0,1-3.8,2.77,4.12,4.12,0,0,1-1.24-.2A4,4,0,0,1,154.63,112.67Z"/></svg>`,
     style: "thin",
-    tags: ["webcam", "slash"],
+    tags: ["webcam", "slash", "camera", "video", "off", "disabled", "privacy", "mute", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71458,7 +71458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Slash Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M213.92,210.62l-160-176A8,8,0,1,0,42.08,45.38L58.82,63.8A80,80,0,0,0,120,183.6V200H32a8,8,0,0,0,0,16H197.19l4.89,5.38a8,8,0,1,0,11.84-10.76ZM64,104a63.65,63.65,0,0,1,6.26-27.62L88.68,96.64A40,40,0,0,0,128,144c1.2,0,2.39-.06,3.58-.17L150,164.11A64,64,0,0,1,64,104Zm72,96V183.59a79.91,79.91,0,0,0,25.44-6.91L182.64,200ZM85.52,45.31a8,8,0,0,1,3-10.91,80,80,0,0,1,105,115.5,8,8,0,1,1-13.1-9.19,64,64,0,0,0-84-92.4A8,8,0,0,1,85.52,45.31Zm65.31,66.12A24,24,0,0,0,128,80a24.17,24.17,0,0,0-5.24.57A8,8,0,1,1,119.3,65,40,40,0,0,1,166,116.38a8,8,0,0,1-15.21-4.95Z"/></svg>`,
     style: "regular",
-    tags: ["webcam", "slash"],
+    tags: ["webcam", "slash", "camera", "video", "off", "disabled", "privacy", "mute", "outline", "standard"],
     category: "regular"
   },
   {
@@ -71466,7 +71466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164,104a36,36,0,1,0-36,36A36,36,0,0,0,164,104Zm-64,0a28,28,0,1,1,28,28A28,28,0,0,1,100,104ZM224,204H132V179.89a76,76,0,1,0-8,0V204H32a4,4,0,0,0,0,8H224a4,4,0,0,0,0-8ZM60,104a68,68,0,1,1,68,68A68.07,68.07,0,0,1,60,104Z"/></svg>`,
     style: "thin",
-    tags: ["webcam"],
+    tags: ["webcam", "camera", "video", "stream", "conference", "recording", "device", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71474,7 +71474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webcam Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168,104a40,40,0,1,0-40,40A40,40,0,0,0,168,104Zm-64,0a24,24,0,1,1,24,24A24,24,0,0,1,104,104Zm120,96H136V183.6a80,80,0,1,0-16,0V200H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM64,104a64,64,0,1,1,64,64A64.07,64.07,0,0,1,64,104Z"/></svg>`,
     style: "regular",
-    tags: ["webcam"],
+    tags: ["webcam", "camera", "video", "stream", "conference", "recording", "device", "outline", "standard"],
     category: "regular"
   },
   {
@@ -71482,7 +71482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webhooks Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M192,180H118.71a56,56,0,1,1-104.6-37.46,12,12,0,1,1,21.37,10.92A31.64,31.64,0,0,0,32,168a32,32,0,0,0,64,0,12,12,0,0,1,12-12h84a12,12,0,0,1,0,24Zm0-68a55.9,55.9,0,0,0-18.45,3.12L138.22,57.71a12,12,0,0,0-20.44,12.58l40.94,66.52a12,12,0,0,0,16.52,3.93,32,32,0,1,1,19.68,59.13A12,12,0,0,0,196,223.82a10.05,10.05,0,0,0,1.09,0A56,56,0,0,0,192,112ZM57.71,178.22a12,12,0,0,0,16.51-3.93l40.94-66.52a12,12,0,0,0-3.92-16.51,32,32,0,1,1,45.28-41.8,12,12,0,1,0,21.37-10.92A56,56,0,1,0,89.1,104.32L53.78,161.71A12,12,0,0,0,57.71,178.22Z"/></svg>`,
     style: "bold",
-    tags: ["webhooks", "logo"],
+    tags: ["webhooks", "logo", "api", "integration", "automation", "development", "data", "connection", "bold", "filled"],
     category: "bold"
   },
   {
@@ -71490,7 +71490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webhooks Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,104a40,40,0,1,1,40-40A40,40,0,0,1,128,104Zm64,24a40,40,0,1,0,40,40A40,40,0,0,0,192,128ZM64,128a40,40,0,1,0,40,40A40,40,0,0,0,64,128Z" opacity="0.2"/><path d="M178.16,176H111.32A48,48,0,1,1,25.6,139.19a8,8,0,0,1,12.8,9.61A31.69,31.69,0,0,0,32,168a32,32,0,0,0,64,0,8,8,0,0,1,8-8h74.16a16,16,0,1,1,0,16ZM64,184a16,16,0,0,0,14.08-23.61l35.77-58.14a8,8,0,0,0-2.62-11,32,32,0,1,1,46.1-40.06A8,8,0,1,0,172,44.79a48,48,0,1,0-75.62,55.33L64.44,152c-.15,0-.29,0-.44,0a16,16,0,0,0,0,32Zm128-64a48.18,48.18,0,0,0-18,3.49L142.08,71.6A16,16,0,1,0,128,80l.44,0,35.78,58.15a8,8,0,0,0,11,2.61A32,32,0,1,1,192,200a8,8,0,0,0,0,16,48,48,0,0,0,0-96Z"/></svg>`,
     style: "duotone",
-    tags: ["webhooks", "logo"],
+    tags: ["webhooks", "logo", "api", "integration", "automation", "development", "data", "connection", "duotone", "gradient"],
     category: "duotone"
   },
   {
@@ -71498,7 +71498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webhooks Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M50.15,160,89.07,92.57l-2.24-3.88a48,48,0,1,1,85.05-44.17,8.17,8.17,0,0,1-3.19,10.4,8,8,0,0,1-11.35-3.72,32,32,0,1,0-56.77,29.3.57.57,0,0,1,.08.13l13.83,23.94a8,8,0,0,1,0,8L77.86,176a16,16,0,0,1-27.71-16Zm141-40H178.81L141.86,56a16,16,0,0,0-27.71,16l34.64,60a8,8,0,0,0,6.92,4h35.63c17.89,0,32.95,14.64,32.66,32.53A32,32,0,0,1,192.31,200a8.23,8.23,0,0,0-8.28,7.33,8,8,0,0,0,8,8.67,48.05,48.05,0,0,0,48-48.93C239.49,140.79,217.48,120,191.19,120ZM208,167.23c-.4-8.61-7.82-15.23-16.43-15.23H114.81a8,8,0,0,0-6.93,4L91.72,184h0a32,32,0,1,1-53.47-35,8.2,8.2,0,0,0-.92-11,8,8,0,0,0-11.72,1.17A47.63,47.63,0,0,0,16,167.54,48,48,0,0,0,105.55,192v0l4.62-8H192A16,16,0,0,0,208,167.23Z"/></svg>`,
     style: "fill",
-    tags: ["webhooks", "logo"],
+    tags: ["webhooks", "logo", "api", "integration", "automation", "development", "data", "connection", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71506,7 +71506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webhooks Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M179.37,174H109.6a46,46,0,1,1-82.4-33.61,6,6,0,0,1,9.6,7.21A33.68,33.68,0,0,0,30,168a34,34,0,0,0,68,0,6,6,0,0,1,6-6h75.37a14,14,0,1,1,0,12ZM64,182a14,14,0,0,0,11.73-21.62l36.42-59.18a6,6,0,0,0-2-8.25,34,34,0,1,1,49-42.57,6,6,0,1,0,11-4.79A46,46,0,1,0,99,99.7L65.52,154.08c-.5-.05-1-.08-1.52-.08a14,14,0,0,0,0,28Zm128-60a46,46,0,0,0-18.8,4L139.73,71.61A14,14,0,1,0,128,78a12.79,12.79,0,0,0,1.52-.09l36.4,59.17a6.05,6.05,0,0,0,3.73,2.69,6,6,0,0,0,4.53-.73A34,34,0,1,1,192,202a6,6,0,0,0,0,12,46,46,0,0,0,0-92Z"/></svg>`,
     style: "light",
-    tags: ["webhooks", "logo"],
+    tags: ["webhooks", "logo", "api", "integration", "automation", "development", "data", "connection", "thin", "outline"],
     category: "light"
   },
   {
@@ -71514,7 +71514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webhooks Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M180.7,172H107.81a44,44,0,1,1-79-30.41,4,4,0,0,1,6.4,4.81A35.67,35.67,0,0,0,28,168a36,36,0,0,0,72,0,4,4,0,0,1,4-4h76.7a12,12,0,1,1,0,8ZM64,180a12,12,0,0,0,9.33-19.54l37.11-60.3a4,4,0,0,0-1.31-5.51A36,36,0,1,1,161,49.58a4,4,0,1,0,7.33-3.19,44,44,0,1,0-66.71,52.83l-35.1,57.05A11.58,11.58,0,0,0,64,156a12,12,0,0,0,0,24Zm128-56a44,44,0,0,0-19.56,4.58l-35.11-57A12,12,0,1,0,128,76a12.24,12.24,0,0,0,2.52-.27L167.63,136a4,4,0,0,0,5.5,1.31A36,36,0,1,1,192,204a4,4,0,0,0,0,8,44,44,0,0,0,0-88Z"/></svg>`,
     style: "thin",
-    tags: ["webhooks", "logo"],
+    tags: ["webhooks", "logo", "api", "integration", "automation", "development", "data", "connection", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71522,7 +71522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Webhooks Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M178.16,176H111.32A48,48,0,1,1,25.6,139.19a8,8,0,0,1,12.8,9.61A31.69,31.69,0,0,0,32,168a32,32,0,0,0,64,0,8,8,0,0,1,8-8h74.16a16,16,0,1,1,0,16ZM64,184a16,16,0,0,0,14.08-23.61l35.77-58.14a8,8,0,0,0-2.62-11,32,32,0,1,1,46.1-40.06A8,8,0,1,0,172,44.79a48,48,0,1,0-75.62,55.33L64.44,152c-.15,0-.29,0-.44,0a16,16,0,0,0,0,32Zm128-64a48.18,48.18,0,0,0-18,3.49L142.08,71.6A16,16,0,1,0,128,80l.44,0,35.78,58.15a8,8,0,0,0,11,2.61A32,32,0,1,1,192,200a8,8,0,0,0,0,16,48,48,0,0,0,0-96Z"/></svg>`,
     style: "regular",
-    tags: ["webhooks", "logo"],
+    tags: ["webhooks", "logo", "api", "integration", "automation", "development", "data", "connection", "outline", "standard"],
     category: "regular"
   },
   {
@@ -71530,7 +71530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wechat Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152,144a16,16,0,1,1-16-16A16,16,0,0,1,152,144Zm32-16a16,16,0,1,0,16,16A16,16,0,0,0,184,128Zm59.18,82.35a20,20,0,0,1-24.83,24.83l-23.26-6.84A84,84,0,0,1,83.72,187.11a83.2,83.2,0,0,1-22.82-6.77l-23.25,6.84A20.24,20.24,0,0,1,32,188a20,20,0,0,1-19.19-25.64l6.84-23.26A84,84,0,0,1,172.33,68.91a84,84,0,0,1,64,118.18ZM76.46,160.75A83.94,83.94,0,0,1,145,69.37,60,60,0,0,0,43.08,132.3a12,12,0,0,1,.93,9.06l-6.09,20.72L58.64,156a12,12,0,0,1,9.06.93A60.08,60.08,0,0,0,76.46,160.75ZM220,152a60,60,0,1,0-31.7,52.92,12,12,0,0,1,9.06-.93l20.72,6.09L212,189.36a12,12,0,0,1,.93-9.06A60.09,60.09,0,0,0,220,152Z"/></svg>`,
     style: "bold",
-    tags: ["wechat", "logo"],
+    tags: ["wechat", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "bold", "filled"],
     category: "bold"
   },
   {
@@ -71538,7 +71538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wechat Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M163.94,80.11h0C162.63,80,161.32,80,160,80a72,72,0,0,0-67.93,95.88h0a71.53,71.53,0,0,1-30-8.39l-27.76,8.16a8,8,0,0,1-9.93-9.93L32.5,138A72,72,0,1,1,163.94,80.11Z" opacity="0.2"/><path d="M144,140a12,12,0,1,1-12-12A12,12,0,0,1,144,140Zm44-12a12,12,0,1,0,12,12A12,12,0,0,0,188,128Zm51.34,83.47a16,16,0,0,1-19.87,19.87l-24.71-7.27A80,80,0,0,1,86.43,183.42a79,79,0,0,1-25.19-7.35l-24.71,7.27a16,16,0,0,1-19.87-19.87l7.27-24.71A80,80,0,1,1,169.58,72.59a80,80,0,0,1,62.49,114.17ZM81.3,166.3a79.94,79.94,0,0,1,70.38-93.87A64,64,0,0,0,39.55,134.19a8,8,0,0,1,.63,6L32,168l27.76-8.17a8,8,0,0,1,6,.63A63.45,63.45,0,0,0,81.3,166.3Zm135.15,15.89a64,64,0,1,0-26.26,26.26,8,8,0,0,1,6-.63L224,216l-8.17-27.76A8,8,0,0,1,216.45,182.19Z"/></svg>`,
     style: "duotone",
-    tags: ["wechat", "logo"],
+    tags: ["wechat", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "duotone", "gradient"],
     category: "duotone"
   },
   {
@@ -71546,7 +71546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wechat Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232.07,186.76A80,80,0,0,0,169.58,72.59,80,80,0,1,0,23.93,138.76l-7.27,24.71a16,16,0,0,0,19.87,19.87l24.71-7.27a79,79,0,0,0,25.19,7.35,80,80,0,0,0,108.33,40.65l24.71,7.27a16,16,0,0,0,19.87-19.87ZM132,152a12,12,0,1,1,12-12A12,12,0,0,1,132,152Zm-52,0a80.32,80.32,0,0,0,1.3,14.3,63.45,63.45,0,0,1-15.49-5.85,8,8,0,0,0-6-.63L32,168l8.17-27.76a8,8,0,0,0-.63-6A64,64,0,0,1,151.68,72.43,80.12,80.12,0,0,0,80,152Zm108,0a12,12,0,1,1,12-12A12,12,0,0,1,188,152Z"/></svg>`,
     style: "fill",
-    tags: ["wechat", "logo"],
+    tags: ["wechat", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71554,7 +71554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wechat Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M142,140a10,10,0,1,1-10-10A10,10,0,0,1,142,140Zm46-10a10,10,0,1,0,10,10A10,10,0,0,0,188,130Zm49.42,82A14,14,0,0,1,220,229.42l-25.46-7.49A78,78,0,0,1,87.84,181.58a77,77,0,0,1-26.42-7.65L36,181.42A14,14,0,0,1,18.58,164l7.49-25.46A78,78,0,1,1,168.19,74.43a78,78,0,0,1,61.74,112.15ZM83.86,168.87a77.92,77.92,0,0,1,71-94.68,66,66,0,1,0-117.1,60.94,6.05,6.05,0,0,1,.47,4.53l-8.17,27.76a2,2,0,0,0,2.48,2.49l27.77-8.17a6.06,6.06,0,0,1,4.53.47A65.2,65.2,0,0,0,83.86,168.87Zm134.35,14.26a66,66,0,1,0-27.08,27.08,6.06,6.06,0,0,1,4.53-.47l27.77,8.17a2,2,0,0,0,2.48-2.48l-8.17-27.77A6.05,6.05,0,0,1,218.21,183.13Z"/></svg>`,
     style: "light",
-    tags: ["wechat", "logo"],
+    tags: ["wechat", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "thin", "outline"],
     category: "light"
   },
   {
@@ -71562,7 +71562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wechat Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M140,140a8,8,0,1,1-8-8A8,8,0,0,1,140,140Zm48-8a8,8,0,1,0,8,8A8,8,0,0,0,188,132Zm47.5,80.6a12,12,0,0,1-14.9,14.9l-26.21-7.71A76,76,0,0,1,89.24,179.68a75,75,0,0,1-27.63-7.89L35.4,179.5a12,12,0,0,1-14.9-14.9l7.71-26.21A76,76,0,1,1,166.79,76.32a76,76,0,0,1,61,110.07Zm-149-41.28A76,76,0,0,1,158,76.05a68,68,0,1,0-122,60,4.07,4.07,0,0,1,.31,3l-8.17,27.76a4,4,0,0,0,5,5l27.76-8.17a4.07,4.07,0,0,1,3,.31A66.93,66.93,0,0,0,86.5,171.32Zm141.33,43.54-8.17-27.76a4.07,4.07,0,0,1,.31-3A68,68,0,1,0,192.08,212a4.07,4.07,0,0,1,1.89-.47,4,4,0,0,1,1.13.16l27.76,8.17a4,4,0,0,0,5-5Z"/></svg>`,
     style: "thin",
-    tags: ["wechat", "logo"],
+    tags: ["wechat", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71570,7 +71570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wechat Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,140a12,12,0,1,1-12-12A12,12,0,0,1,144,140Zm44-12a12,12,0,1,0,12,12A12,12,0,0,0,188,128Zm51.34,83.47a16,16,0,0,1-19.87,19.87l-24.71-7.27A80,80,0,0,1,86.43,183.42a79,79,0,0,1-25.19-7.35l-24.71,7.27a16,16,0,0,1-19.87-19.87l7.27-24.71A80,80,0,1,1,169.58,72.59a80,80,0,0,1,62.49,114.17ZM81.3,166.3a79.94,79.94,0,0,1,70.38-93.87A64,64,0,0,0,39.55,134.19a8,8,0,0,1,.63,6L32,168l27.76-8.17a8,8,0,0,1,6,.63A63.45,63.45,0,0,0,81.3,166.3Zm135.15,15.89a64,64,0,1,0-26.26,26.26,8,8,0,0,1,6-.63L224,216l-8.17-27.76A8,8,0,0,1,216.45,182.19Z"/></svg>`,
     style: "regular",
-    tags: ["wechat", "logo"],
+    tags: ["wechat", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "outline", "standard"],
     category: "regular"
   },
   {
@@ -71578,7 +71578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Whatsapp Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M187.3,159.06A36.09,36.09,0,0,1,152,188a84.09,84.09,0,0,1-84-84A36.09,36.09,0,0,1,96.94,68.7,12,12,0,0,1,110,75.1l11.48,23a12,12,0,0,1-.75,12l-8.52,12.78a44.56,44.56,0,0,0,20.91,20.91l12.78-8.52a12,12,0,0,1,12-.75l23,11.48A12,12,0,0,1,187.3,159.06ZM236,128A108,108,0,0,1,78.77,224.15L46.34,235A20,20,0,0,1,21,209.66l10.81-32.43A108,108,0,1,1,236,128Zm-24,0A84,84,0,1,0,55.27,170.06a12,12,0,0,1,1,9.81l-9.93,29.79,29.79-9.93a12.1,12.1,0,0,1,3.8-.62,12,12,0,0,1,6,1.62A84,84,0,0,0,212,128Z"/></svg>`,
     style: "bold",
-    tags: ["whatsapp", "logo"],
+    tags: ["whatsapp", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "bold", "filled"],
     category: "bold"
   },
   {
@@ -71586,7 +71586,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Whatsapp Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,32A96,96,0,0,0,44.89,176.07L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47A96,96,0,1,0,128,32Zm24,152a80,80,0,0,1-80-80,32,32,0,0,1,32-32l16,32-12.32,18.47a48.19,48.19,0,0,0,25.85,25.85L152,136l32,16A32,32,0,0,1,152,184Z" opacity="0.2"/><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.62-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></svg>`,
     style: "duotone",
-    tags: ["whatsapp", "logo"],
+    tags: ["whatsapp", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "duotone", "gradient"],
     category: "duotone"
   },
   {
@@ -71594,7 +71594,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Whatsapp Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M152.58,145.23l23,11.48A24,24,0,0,1,152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-40,24a8,8,0,0,0-4.42-7.16l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88A40,40,0,0,0,192,152Z"/></svg>`,
     style: "fill",
-    tags: ["whatsapp", "logo"],
+    tags: ["whatsapp", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71602,7 +71602,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Whatsapp Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M186.68,146.63l-32-16a6,6,0,0,0-6,.38L133,141.46A42.49,42.49,0,0,1,114.54,123L125,107.33a6,6,0,0,0,.38-6l-16-32A6,6,0,0,0,104,66a38,38,0,0,0-38,38,86.1,86.1,0,0,0,86,86,38,38,0,0,0,38-38A6,6,0,0,0,186.68,146.63ZM152,178a74.09,74.09,0,0,1-74-74,26,26,0,0,1,22.42-25.75l12.66,25.32-10.39,15.58a6,6,0,0,0-.54,5.63,54.43,54.43,0,0,0,29.07,29.07,6,6,0,0,0,5.63-.54l15.58-10.39,25.32,12.66A26,26,0,0,1,152,178ZM128,26A102,102,0,0,0,38.35,176.69L26.73,211.56a14,14,0,0,0,17.71,17.71l34.87-11.62A102,102,0,1,0,128,26Zm0,192a90,90,0,0,1-45.06-12.08,6.09,6.09,0,0,0-3-.81,6.2,6.2,0,0,0-1.9.31L40.65,217.88a2,2,0,0,1-2.53-2.53L50.58,178a6,6,0,0,0-.5-4.91A90,90,0,1,1,128,218Z"/></svg>`,
     style: "light",
-    tags: ["whatsapp", "logo"],
+    tags: ["whatsapp", "logo", "social media", "messaging", "chat", "app", "communication", "platform", "thin", "outline"],
     category: "light"
   },
   {
@@ -71610,7 +71610,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Whatsapp Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M185.79,148.42l-32-16a4,4,0,0,0-4,.25l-16.64,11.1a44.56,44.56,0,0,1-20.91-20.91l11.1-16.64a4,4,0,0,0,.25-4l-16-32A4,4,0,0,0,104,68a36,36,0,0,0-36,36,84.09,84.09,0,0,0,84,84,36,36,0,0,0,36-36A4,4,0,0,0,185.79,148.42ZM152,180a76.08,76.08,0,0,1-76-76,28,28,0,0,1,25.58-27.9l13.8,27.61-11,16.54A4,4,0,0,0,104,124a52.43,52.43,0,0,0,28,28,4,4,0,0,0,3.76-.37l16.54-11,27.61,13.8A28,28,0,0,1,152,180ZM128,28A100,100,0,0,0,40.53,176.5l-11.9,35.69a12,12,0,0,0,15.18,15.18l35.69-11.9A100,100,0,1,0,128,28Zm0,192a92,92,0,0,1-46.07-12.35,4.05,4.05,0,0,0-2-.54,3.93,3.93,0,0,0-1.27.21L41.28,219.78a4,4,0,0,1-5.06-5.06l12.46-37.38a4,4,0,0,0-.33-3.27A92,92,0,1,1,128,220Z"/></svg>`,
     style: "thin",
-    tags: ["whatsapp", "logo"],
+    tags: ["whatsapp", "logo", "social media", "chat", "messaging", "app", "communication", "thin", "outline", "brand"],
     category: "thin"
   },
   {
@@ -71618,7 +71618,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Whatsapp Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></svg>`,
     style: "regular",
-    tags: ["whatsapp", "logo"],
+    tags: ["whatsapp", "logo", "social media", "chat", "messaging", "app", "communication", "brand"],
     category: "regular"
   },
   {
@@ -71626,7 +71626,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255.14,187.54a12,12,0,0,0-15.6-6.68l-9.75,3.9-27.06-54.13A12,12,0,0,0,192,124H116V108h52a12,12,0,0,0,0-24H116V77.81a34,34,0,1,0-24,0v8.88a76,76,0,1,0,88.35,106.57,12,12,0,1,0-21.57-10.52A52,52,0,1,1,92,112v24a12,12,0,0,0,12,12h80.58l28.68,57.37a12,12,0,0,0,15.19,5.77l20-8A12,12,0,0,0,255.14,187.54ZM104,36A10,10,0,1,1,94,46,10,10,0,0,1,104,36Z"/></svg>`,
     style: "bold",
-    tags: ["wheelchair"],
+    tags: ["wheelchair", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "bold", "thick"],
     category: "bold"
   },
   {
@@ -71634,7 +71634,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,48a24,24,0,1,1-24-24A24,24,0,0,1,128,48Z" opacity="0.2"/><path d="M255.59,189.47a8,8,0,0,0-10.12-5.06l-17.42,5.81-28.9-57.8A8,8,0,0,0,192,128H112V104h56a8,8,0,0,0,0-16H112V79a32,32,0,1,0-16,0V89.81A72,72,0,0,0,112,232c33.52,0,63.69-22.71,71.75-54a8,8,0,1,0-15.5-4C162.09,198,137.91,216,112,216A56,56,0,0,1,96,106.34V136a8,8,0,0,0,8,8h83.05l29.79,59.58a8,8,0,0,0,9.69,4l24-8A8,8,0,0,0,255.59,189.47ZM88,48a16,16,0,1,1,16,16A16,16,0,0,1,88,48Z"/></svg>`,
     style: "duotone",
-    tags: ["wheelchair"],
+    tags: ["wheelchair", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -71642,7 +71642,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M250.53,199.59l-24,8a8,8,0,0,1-9.69-4L187.05,144H104a8,8,0,0,1-8-8V106.34A56,56,0,0,0,112,216c25.91,0,50.09-18.05,56.25-42a8,8,0,1,1,15.5,4c-8.06,31.3-38.23,54-71.75,54A72,72,0,0,1,96,89.81v-19a28,28,0,1,1,16,0V88h56a8,8,0,0,1,0,16H112v24h80a8,8,0,0,1,7.15,4.42l28.9,57.8,17.42-5.81a8,8,0,0,1,5.06,15.18Z"/></svg>`,
     style: "fill",
-    tags: ["wheelchair"],
+    tags: ["wheelchair", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71650,7 +71650,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M253.69,190.1a6,6,0,0,0-7.59-3.79L227,192.66l-29.68-59.34A6,6,0,0,0,192,130H110V102.05c.66,0,1.33,0,2,0h56a6,6,0,0,0,0-12H112c-.67,0-1.33,0-2,0V77.4a30,30,0,1,0-12,0v14A70,70,0,0,0,112,230c32.62,0,62-22.08,69.81-52.5a6,6,0,0,0-11.62-3c-6.49,25.21-31,43.5-58.19,43.5A58,58,0,0,1,98,103.72V136a6,6,0,0,0,6,6h84.29l30.34,60.68a6,6,0,0,0,7.27,3l24-8A6,6,0,0,0,253.69,190.1ZM86,48a18,18,0,1,1,18,18A18,18,0,0,1,86,48Z"/></svg>`,
     style: "light",
-    tags: ["wheelchair"],
+    tags: ["wheelchair", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "light", "subtle"],
     category: "light"
   },
   {
@@ -71658,7 +71658,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Motion Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,84a36,36,0,1,0-36-36A36,36,0,0,0,176,84Zm0-48a12,12,0,1,1-12,12A12,12,0,0,1,176,36Zm29.28,96.39a12,12,0,0,1,2.49,10l-16,80A12,12,0,0,1,180,232a11.87,11.87,0,0,1-2.36-.23,12,12,0,0,1-9.42-14.12L181.36,152H124a12,12,0,0,1-10.4-18l17.92-31.2a76.1,76.1,0,0,0-79.88,10.55A12,12,0,0,1,36.36,94.86a100,100,0,0,1,118.19-6.68,12,12,0,0,1,3.85,16L144.74,128H196A12,12,0,0,1,205.28,132.39Zm-41.47,44.52a64,64,0,1,1-73.64-68.16,12,12,0,0,1,3.66,23.72,40,40,0,1,0,46.05,42.62,12,12,0,1,1,23.93,1.82Z"/></svg>`,
     style: "bold",
-    tags: ["wheelchair", "motion"],
+    tags: ["wheelchair", "motion", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "movement", "active", "bold", "thick"],
     category: "bold"
   },
   {
@@ -71666,7 +71666,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Motion Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,48a24,24,0,1,1-24-24A24,24,0,0,1,200,48Z" opacity="0.2"/><path d="M176,80a32,32,0,1,0-32-32A32,32,0,0,0,176,80Zm0-48a16,16,0,1,1-16,16A16,16,0,0,1,176,32Zm-8,136a64,64,0,1,1-64-64,8,8,0,0,1,0,16,48,48,0,1,0,48,48,8,8,0,0,1,16,0Zm38.19-37.07a8,8,0,0,1,1.65,6.64l-16,80A8,8,0,0,1,184,224a7.77,7.77,0,0,1-1.58-.16,8,8,0,0,1-6.27-9.41L190.24,144H128a8,8,0,0,1-6.94-12l20.06-34.9a80.09,80.09,0,0,0-88,9.17A8,8,0,1,1,42.91,94a96,96,0,0,1,113.46-6.42,8,8,0,0,1,2.57,10.69L141.82,128H200A8,8,0,0,1,206.19,130.93Z"/></svg>`,
     style: "duotone",
-    tags: ["wheelchair", "motion"],
+    tags: ["wheelchair", "motion", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "movement", "active", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -71674,7 +71674,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Motion Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,48a32,32,0,1,1,32,32A32,32,0,0,1,144,48Zm16,112a8,8,0,0,0-8,8,48,48,0,1,1-48-48,8,8,0,0,0,0-16,64,64,0,1,0,64,64A8,8,0,0,0,160,160Zm40-32H141.82l17.12-29.78a8,8,0,0,0-2.57-10.69A96,96,0,0,0,42.91,94a8,8,0,1,0,10.18,12.33,80.09,80.09,0,0,1,88-9.17L121.06,132A8,8,0,0,0,128,144h62.24l-14.08,70.43a8,8,0,0,0,6.27,9.41A7.77,7.77,0,0,0,184,224a8,8,0,0,0,7.83-6.43l16-80A8,8,0,0,0,200,128Z"/></svg>`,
     style: "fill",
-    tags: ["wheelchair", "motion"],
+    tags: ["wheelchair", "motion", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "movement", "active", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71682,7 +71682,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Motion Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,78a30,30,0,1,0-30-30A30,30,0,0,0,176,78Zm0-48a18,18,0,1,1-18,18A18,18,0,0,1,176,30ZM166,168a62,62,0,1,1-62-62,6,6,0,0,1,0,12,50,50,0,1,0,50,50,6,6,0,0,1,12,0Zm38.64-35.8a6,6,0,0,1,1.24,5l-16,80A6,6,0,0,1,184,222a6.08,6.08,0,0,1-1.19-.12,6,6,0,0,1-4.7-7.06L192.68,142H128a6,6,0,0,1-5.2-9l21.07-36.68a82.05,82.05,0,0,0-92.05,8.41,6,6,0,1,1-7.64-9.25,94,94,0,0,1,111.1-6.28,6,6,0,0,1,1.92,8L138.37,130H200A6,6,0,0,1,204.64,132.2Z"/></svg>`,
     style: "light",
-    tags: ["wheelchair", "motion"],
+    tags: ["wheelchair", "motion", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "movement", "active", "light", "subtle"],
     category: "light"
   },
   {
@@ -71690,7 +71690,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Motion Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,76a28,28,0,1,0-28-28A28,28,0,0,0,176,76Zm0-48a20,20,0,1,1-20,20A20,20,0,0,1,176,28ZM164,168a60,60,0,1,1-60-60,4,4,0,0,1,0,8,52,52,0,1,0,52,52,4,4,0,0,1,8,0Zm39.09-34.54a4,4,0,0,1,.83,3.32l-16,80A4,4,0,0,1,184,220a3.44,3.44,0,0,1-.78-.08,4,4,0,0,1-3.14-4.7l15-75.22H128a4,4,0,0,1-3.47-6l22.08-38.42a84.05,84.05,0,0,0-96.06,7.61A4,4,0,0,1,45.45,97a92,92,0,0,1,108.73-6.15,4,4,0,0,1,1.29,5.34L134.91,132H200A4,4,0,0,1,203.09,133.46Z"/></svg>`,
     style: "thin",
-    tags: ["wheelchair", "motion"],
+    tags: ["wheelchair", "motion", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "movement", "active", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71698,7 +71698,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Motion Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,80a32,32,0,1,0-32-32A32,32,0,0,0,176,80Zm0-48a16,16,0,1,1-16,16A16,16,0,0,1,176,32Zm-8,136a64,64,0,1,1-64-64,8,8,0,0,1,0,16,48,48,0,1,0,48,48,8,8,0,0,1,16,0Zm38.19-37.07a8,8,0,0,1,1.65,6.64l-16,80A8,8,0,0,1,184,224a7.77,7.77,0,0,1-1.58-.16,8,8,0,0,1-6.27-9.41L190.24,144H128a8,8,0,0,1-6.94-12l20.06-34.9a80.09,80.09,0,0,0-88,9.17A8,8,0,1,1,42.91,94a96,96,0,0,1,113.46-6.42,8,8,0,0,1,2.57,10.69L141.82,128H200A8,8,0,0,1,206.19,130.93Z"/></svg>`,
     style: "regular",
-    tags: ["wheelchair", "motion"],
+    tags: ["wheelchair", "motion", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "movement", "active"],
     category: "regular"
   },
   {
@@ -71706,7 +71706,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M251.79,190.73a4,4,0,0,0-5.06-2.52l-20.7,6.9-30.45-60.9A4,4,0,0,0,192,132H108V100.15c1.32-.09,2.65-.15,4-.15h56a4,4,0,0,0,0-8H112c-1.34,0-2.68,0-4,.13V75.71a28,28,0,1,0-8,0V93.08A68,68,0,0,0,112,228c31.72,0,60.27-21.45,67.87-51a4,4,0,0,0-7.74-2c-6.71,26.08-32,45-60.13,45a60,60,0,0,1-12-118.79V136a4,4,0,0,0,4,4h85.53l30.89,61.79A4,4,0,0,0,224,204a3.92,3.92,0,0,0,1.26-.21l24-8A4,4,0,0,0,251.79,190.73ZM84,48a20,20,0,1,1,20,20A20,20,0,0,1,84,48Z"/></svg>`,
     style: "thin",
-    tags: ["wheelchair"],
+    tags: ["wheelchair", "accessibility", "disability", "mobility", "medical", "hospital", "transport", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71714,7 +71714,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wheelchair Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M255.59,189.47a8,8,0,0,0-10.12-5.06l-17.42,5.81-28.9-57.8A8,8,0,0,0,192,128H112V104h56a8,8,0,0,0,0-16H112V79a32,32,0,1,0-16,0V89.81A72,72,0,0,0,112,232c33.52,0,63.69-22.71,71.75-54a8,8,0,1,0-15.5-4C162.09,198,137.91,216,112,216A56,56,0,0,1,96,106.34V136a8,8,0,0,0,8,8h83.05l29.79,59.58a8,8,0,0,0,9.69,4l24-8A8,8,0,0,0,255.59,189.47ZM88,48a16,16,0,1,1,16,16A16,16,0,0,1,88,48Z"/></svg>`,
     style: "regular",
-    tags: ["wheelchair"],
+    tags: ["wheelchair", "accessibility", "disability", "mobility", "medical", "hospital", "transport"],
     category: "regular"
   },
   {
@@ -71722,7 +71722,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi High Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,204a16,16,0,1,1-16-16A16,16,0,0,1,144,204ZM239.61,83.91a176,176,0,0,0-223.22,0,12,12,0,1,0,15.23,18.55,152,152,0,0,1,192.76,0,12,12,0,1,0,15.23-18.55Zm-32.16,35.73a128,128,0,0,0-158.9,0,12,12,0,0,0,14.9,18.81,104,104,0,0,1,129.1,0,12,12,0,0,0,14.9-18.81ZM175.07,155.3a80.05,80.05,0,0,0-94.14,0,12,12,0,0,0,14.14,19.4,56,56,0,0,1,65.86,0,12,12,0,1,0,14.14-19.4Z"/></svg>`,
     style: "bold",
-    tags: ["wifi", "high"],
+    tags: ["wifi", "high", "internet", "connection", "signal", "network", "wireless", "reception", "bold", "thick"],
     category: "bold"
   },
   {
@@ -71730,7 +71730,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi High Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238.2,87.69l-104,125.43a8,8,0,0,1-12.3,0L17.8,87.69a7.79,7.79,0,0,1,1.31-11.21,180.75,180.75,0,0,1,217.78,0A7.79,7.79,0,0,1,238.2,87.69Z" opacity="0.2"/><path d="M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77l104-125.43A15.65,15.65,0,0,0,247.89,80.91ZM128,208,24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z"/></svg>`,
     style: "duotone",
-    tags: ["wifi", "high"],
+    tags: ["wifi", "high", "internet", "connection", "signal", "network", "wireless", "reception", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -71738,7 +71738,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi High Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M244.35,92.8l-104,125.43A15.93,15.93,0,0,1,128,224h0a15.93,15.93,0,0,1-12.31-5.77L11.65,92.8A15.65,15.65,0,0,1,8.11,80.91,15.93,15.93,0,0,1,14.28,70.1,186.67,186.67,0,0,1,128,32,186.67,186.67,0,0,1,241.72,70.1a15.93,15.93,0,0,1,6.17,10.81A15.65,15.65,0,0,1,244.35,92.8Z"/></svg>`,
     style: "fill",
-    tags: ["wifi", "high"],
+    tags: ["wifi", "high", "internet", "connection", "signal", "network", "wireless", "reception", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71746,7 +71746,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi High Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M138,204a10,10,0,1,1-10-10A10,10,0,0,1,138,204ZM235.81,88.55a170,170,0,0,0-215.62,0,6,6,0,1,0,7.62,9.27,158,158,0,0,1,200.38,0,6,6,0,1,0,7.62-9.27Zm-32.08,35.79a122,122,0,0,0-151.46,0,6,6,0,0,0,7.46,9.41,110,110,0,0,1,136.54,0A6,6,0,0,0,200,135a6,6,0,0,0,3.73-10.7Zm-32.2,35.81a74,74,0,0,0-87.06,0,6,6,0,0,0,7.06,9.7,62,62,0,0,1,72.94,0,6,6,0,0,0,8.38-1.32A6,6,0,0,0,171.53,160.15Z"/></svg>`,
     style: "light",
-    tags: ["wifi", "high"],
+    tags: ["wifi", "high", "internet", "connection", "signal", "network", "wireless", "reception", "light", "subtle"],
     category: "light"
   },
   {
@@ -71754,7 +71754,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi High Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,204a8,8,0,1,1-8-8A8,8,0,0,1,136,204ZM234.54,90.1a168,168,0,0,0-213.08,0,4,4,0,1,0,5.08,6.18,160,160,0,0,1,202.92,0,4,4,0,0,0,5.08-6.18Zm-32.06,35.81a120,120,0,0,0-149,0,4,4,0,0,0,5,6.27,112,112,0,0,1,139,0,4,4,0,0,0,5-6.27Zm-32.13,35.86a72,72,0,0,0-84.7,0,4,4,0,1,0,4.7,6.46,64.07,64.07,0,0,1,75.3,0,4,4,0,0,0,5.58-.87A4,4,0,0,0,170.35,161.77Z"/></svg>`,
     style: "thin",
-    tags: ["wifi", "high"],
+    tags: ["wifi", "high", "internet", "connection", "signal", "network", "wireless", "reception", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71762,7 +71762,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi High Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M140,204a12,12,0,1,1-12-12A12,12,0,0,1,140,204ZM237.08,87A172,172,0,0,0,18.92,87,8,8,0,0,0,29.08,99.37a156,156,0,0,1,197.84,0A8,8,0,0,0,237.08,87ZM205,122.77a124,124,0,0,0-153.94,0A8,8,0,0,0,61,135.31a108,108,0,0,1,134.06,0,8,8,0,0,0,11.24-1.3A8,8,0,0,0,205,122.77Zm-32.26,35.76a76.05,76.05,0,0,0-89.42,0,8,8,0,0,0,9.42,12.94,60,60,0,0,1,70.58,0,8,8,0,1,0,9.42-12.94Z"/></svg>`,
     style: "regular",
-    tags: ["wifi", "high"],
+    tags: ["wifi", "high", "internet", "connection", "signal", "network", "wireless", "reception"],
     category: "regular"
   },
   {
@@ -71770,7 +71770,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Low Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,204a16,16,0,1,1-16-16A16,16,0,0,1,144,204Zm31.06-48.7a80,80,0,0,0-94.12,0,12,12,0,1,0,14.13,19.4,56,56,0,0,1,65.86,0,12,12,0,1,0,14.13-19.4Z"/></svg>`,
     style: "bold",
-    tags: ["wifi", "low"],
+    tags: ["wifi", "low", "internet", "connection", "signal", "network", "wireless", "reception", "weak", "bold", "thick"],
     category: "bold"
   },
   {
@@ -71778,7 +71778,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Low Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M171.68,167.88l-37.53,45.24a8,8,0,0,1-12.3,0L84.32,167.88a68,68,0,0,1,87.36,0Z" opacity="0.2"/><path d="M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77h0l104-125.43A15.65,15.65,0,0,0,247.89,80.91ZM128,208l-32.1-38.7a60,60,0,0,1,64.2,0Zm42.37-51.08a75.89,75.89,0,0,0-84.74,0L24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z"/></svg>`,
     style: "duotone",
-    tags: ["wifi", "low"],
+    tags: ["wifi", "low", "internet", "connection", "signal", "network", "wireless", "reception", "weak", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -71786,7 +71786,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Low Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77h0l104-125.43A15.65,15.65,0,0,0,247.89,80.91Zm-77.52,76a75.89,75.89,0,0,0-84.74,0L24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z"/></svg>`,
     style: "fill",
-    tags: ["wifi", "low"],
+    tags: ["wifi", "low", "internet", "connection", "signal", "network", "wireless", "reception", "weak", "filled", "solid"],
     category: "fill"
   },
   {
@@ -71794,7 +71794,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Low Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M138,204a10,10,0,1,1-10-10A10,10,0,0,1,138,204Zm33.53-43.85a74,74,0,0,0-87.06,0,6,6,0,0,0,7.06,9.7,62,62,0,0,1,72.94,0,6,6,0,0,0,8.38-1.32A6,6,0,0,0,171.53,160.15Z"/></svg>`,
     style: "light",
-    tags: ["wifi", "low"],
+    tags: ["wifi", "low", "internet", "connection", "signal", "network", "wireless", "reception", "weak", "light", "subtle"],
     category: "light"
   },
   {
@@ -71802,7 +71802,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Low Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,204a8,8,0,1,1-8-8A8,8,0,0,1,136,204Zm34.35-42.23a72,72,0,0,0-84.7,0,4,4,0,1,0,4.71,6.46,64,64,0,0,1,75.28,0,4,4,0,1,0,4.71-6.46Z"/></svg>`,
     style: "thin",
-    tags: ["wifi", "low"],
+    tags: ["wifi", "low", "internet", "connection", "signal", "network", "wireless", "reception", "weak", "thin", "outline"],
     category: "thin"
   },
   {
@@ -71810,7 +71810,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Low Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M140,204a12,12,0,1,1-12-12A12,12,0,0,1,140,204Zm32.71-45.47a76.05,76.05,0,0,0-89.42,0,8,8,0,0,0,9.42,12.94,60,60,0,0,1,70.58,0,8,8,0,1,0,9.42-12.94Z"/></svg>`,
     style: "regular",
-    tags: ["wifi", "low"],
+    tags: ["wifi", "low", "signal", "connection", "internet", "network", "status", "weak", "connectivity", "ui", "interface"],
     category: "regular"
   },
   {
@@ -71818,7 +71818,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Medium Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,204a16,16,0,1,1-16-16A16,16,0,0,1,144,204Zm63.45-84.36a128,128,0,0,0-158.9,0,12,12,0,0,0,14.9,18.81,104,104,0,0,1,129.1,0,12,12,0,0,0,14.9-18.81ZM175.07,155.3a80.05,80.05,0,0,0-94.14,0,12,12,0,0,0,14.14,19.4,56,56,0,0,1,65.86,0,12,12,0,1,0,14.14-19.4Z"/></svg>`,
     style: "bold",
-    tags: ["wifi", "medium"],
+    tags: ["wifi", "medium", "signal", "connection", "internet", "network", "status", "average", "connectivity", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -71826,7 +71826,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Medium Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M202.33,130.94l-68.18,82.18a8,8,0,0,1-12.3,0L53.67,130.94a116,116,0,0,1,148.66,0Z" opacity="0.2"/><path d="M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77h0l104-125.43A15.65,15.65,0,0,0,247.89,80.91ZM128,208l-62.87-75.8a107.89,107.89,0,0,1,125.74,0Zm73.12-88.16a124,124,0,0,0-146.24,0L24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z"/></svg>`,
     style: "duotone",
-    tags: ["wifi", "medium"],
+    tags: ["wifi", "medium", "signal", "connection", "internet", "network", "status", "average", "connectivity", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -71834,7 +71834,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Medium Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77h0l104-125.43A15.65,15.65,0,0,0,247.89,80.91Zm-46.77,38.94a124,124,0,0,0-146.24,0L24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z"/></svg>`,
     style: "fill",
-    tags: ["wifi", "medium"],
+    tags: ["wifi", "medium", "signal", "connection", "internet", "network", "status", "average", "connectivity", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -71842,7 +71842,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Medium Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M138,204a10,10,0,1,1-10-10A10,10,0,0,1,138,204Zm65.73-79.66a122,122,0,0,0-151.46,0,6,6,0,0,0,7.46,9.41,110,110,0,0,1,136.54,0A6,6,0,0,0,200,135a6,6,0,0,0,3.73-10.7Zm-32.2,35.81a74,74,0,0,0-87.06,0,6,6,0,0,0,7.06,9.7,62,62,0,0,1,72.94,0,6,6,0,0,0,8.38-1.32A6,6,0,0,0,171.53,160.15Z"/></svg>`,
     style: "light",
-    tags: ["wifi", "medium"],
+    tags: ["wifi", "medium", "signal", "connection", "internet", "network", "status", "average", "connectivity", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -71850,7 +71850,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Medium Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,204a8,8,0,1,1-8-8A8,8,0,0,1,136,204Zm66.48-78.09a120,120,0,0,0-149,0,4,4,0,0,0,5,6.27,112,112,0,0,1,139,0,4,4,0,0,0,5-6.27Zm-32.13,35.86a72,72,0,0,0-84.7,0,4,4,0,1,0,4.71,6.46,64,64,0,0,1,75.28,0,4,4,0,1,0,4.71-6.46Z"/></svg>`,
     style: "thin",
-    tags: ["wifi", "medium"],
+    tags: ["wifi", "medium", "signal", "connection", "internet", "network", "status", "average", "connectivity", "thin", "delicate", "ui"],
     category: "thin"
   },
   {
@@ -71858,7 +71858,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Medium Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M140,204a12,12,0,1,1-12-12A12,12,0,0,1,140,204Zm65-81.23a124,124,0,0,0-153.94,0A8,8,0,0,0,61,135.31a108,108,0,0,1,134.06,0,8,8,0,0,0,11.24-1.3A8,8,0,0,0,205,122.77Zm-32.26,35.76a76.05,76.05,0,0,0-89.42,0,8,8,0,0,0,9.42,12.94,60,60,0,0,1,70.58,0,8,8,0,1,0,9.42-12.94Z"/></svg>`,
     style: "regular",
-    tags: ["wifi", "medium"],
+    tags: ["wifi", "medium", "signal", "connection", "internet", "network", "status", "average", "connectivity", "standard", "ui", "interface"],
     category: "regular"
   },
   {
@@ -71866,7 +71866,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi None Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,204a16,16,0,1,1-16-16A16,16,0,0,1,144,204Z"/></svg>`,
     style: "bold",
-    tags: ["wifi", "none"],
+    tags: ["wifi", "none", "signal", "connection", "internet", "network", "status", "disconnected", "offline", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -71874,7 +71874,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi None Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77h0l104-125.43A15.65,15.65,0,0,0,247.89,80.91ZM128,208,24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z"/></svg>`,
     style: "duotone",
-    tags: ["wifi", "none"],
+    tags: ["wifi", "none", "signal", "connection", "internet", "network", "status", "disconnected", "offline", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -71882,7 +71882,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi None Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77h0l104-125.43A15.65,15.65,0,0,0,247.89,80.91ZM128,208,24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z"/></svg>`,
     style: "fill",
-    tags: ["wifi", "none"],
+    tags: ["wifi", "none", "signal", "connection", "internet", "network", "status", "disconnected", "offline", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -71890,7 +71890,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi None Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M138,204a10,10,0,1,1-10-10A10,10,0,0,1,138,204Z"/></svg>`,
     style: "light",
-    tags: ["wifi", "none"],
+    tags: ["wifi", "none", "signal", "connection", "internet", "network", "status", "disconnected", "offline", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -71898,7 +71898,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi None Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,204a8,8,0,1,1-8-8A8,8,0,0,1,136,204Z"/></svg>`,
     style: "thin",
-    tags: ["wifi", "none"],
+    tags: ["wifi", "none", "signal", "connection", "internet", "network", "status", "disconnected", "offline", "thin", "delicate", "ui"],
     category: "thin"
   },
   {
@@ -71906,7 +71906,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi None Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M140,204a12,12,0,1,1-12-12A12,12,0,0,1,140,204Z"/></svg>`,
     style: "regular",
-    tags: ["wifi", "none"],
+    tags: ["wifi", "none", "signal", "connection", "internet", "network", "status", "disconnected", "offline", "standard", "ui", "interface"],
     category: "regular"
   },
   {
@@ -71914,7 +71914,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Slash Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.88,207.93a12,12,0,1,1-17.76,16.14L147.78,167.6a56.06,56.06,0,0,0-52.71,7.1,12,12,0,0,1-14.14-19.4,79.35,79.35,0,0,1,41.92-15.12L103.51,118.9a104.18,104.18,0,0,0-40.06,19.55,12,12,0,0,1-14.9-18.81A128.46,128.46,0,0,1,85.61,99.21l-17.31-19a151.14,151.14,0,0,0-36.68,22.28A12,12,0,1,1,16.39,83.91a175.52,175.52,0,0,1,35-22.38L39.12,48.07A12,12,0,1,1,56.88,31.93ZM128,188a16,16,0,1,0,16,16A16,16,0,0,0,128,188Zm64.55-49.55a12,12,0,0,0,14.9-18.81A127.27,127.27,0,0,0,170,99.05a12,12,0,0,0-7.87,22.67A103.62,103.62,0,0,1,192.55,138.45Zm47.06-54.54A176.33,176.33,0,0,0,128,44c-3.94,0-7.93.13-11.86.39a12,12,0,1,0,1.59,24c3.4-.23,6.86-.34,10.27-.34a152.24,152.24,0,0,1,96.38,34.46,12,12,0,1,0,15.23-18.55Z"/></svg>`,
     style: "bold",
-    tags: ["wifi", "slash"],
+    tags: ["wifi", "slash", "signal", "connection", "internet", "network", "status", "disabled", "unavailable", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -71922,7 +71922,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Slash Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M238.2,87.69l-104,125.43a8,8,0,0,1-12.3,0L17.8,87.69a7.79,7.79,0,0,1,1.31-11.21,180.75,180.75,0,0,1,217.78,0A7.79,7.79,0,0,1,238.2,87.69Z" opacity="0.2"/><path d="M53.92,34.62A8,8,0,1,0,42.08,45.38l4.55,5A187.93,187.93,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77l28.1-33.88,33.67,37a8,8,0,1,0,11.84-10.76ZM128,208,24.09,82.74A171.5,171.5,0,0,1,57.91,62.79l99.63,109.6ZM244.35,92.8l-49.42,59.58a8,8,0,0,1-12.32-10.21l49.3-59.43A170.76,170.76,0,0,0,128,48a175.15,175.15,0,0,0-32.39,3,8,8,0,1,1-3-15.72A190.62,190.62,0,0,1,128,32,186.67,186.67,0,0,1,241.72,70.1a15.93,15.93,0,0,1,6.17,10.81A15.65,15.65,0,0,1,244.35,92.8Z"/></svg>`,
     style: "duotone",
-    tags: ["wifi", "slash"],
+    tags: ["wifi", "slash", "signal", "connection", "internet", "network", "status", "disabled", "unavailable", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -71930,7 +71930,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Slash Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M213.92,210.62a8,8,0,1,1-11.84,10.76l-33.67-37-28.1,33.88A15.93,15.93,0,0,1,128,224h0a15.93,15.93,0,0,1-12.31-5.77L11.65,92.8A15.65,15.65,0,0,1,8.11,80.91,15.93,15.93,0,0,1,14.28,70.1,188.26,188.26,0,0,1,46.6,50.35l-4.29-4.72a8.22,8.22,0,0,1,.13-11.38,8,8,0,0,1,11.48.37Zm34-129.71a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32a191,191,0,0,0-42.49,4.75,4,4,0,0,0-2,6.59L186,156.07a4,4,0,0,0,6-.14L244.35,92.8A15.65,15.65,0,0,0,247.89,80.91Z"/></svg>`,
     style: "fill",
-    tags: ["wifi", "slash"],
+    tags: ["wifi", "slash", "signal", "connection", "internet", "network", "status", "disabled", "unavailable", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -71938,7 +71938,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Slash Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M138,204a10,10,0,1,1-10-10A10,10,0,0,1,138,204ZM52.44,36A6,6,0,0,0,43.56,44L61.33,63.58a169.41,169.41,0,0,0-41.14,25,6,6,0,1,0,7.62,9.27A157.58,157.58,0,0,1,69.91,73l26.48,29.13a122.21,122.21,0,0,0-44.12,22.19,6,6,0,0,0,7.46,9.41,110,110,0,0,1,45.87-21.47l31.13,34.25A74.4,74.4,0,0,0,128,146a73.44,73.44,0,0,0-43.53,14.15A6,6,0,0,0,88,171a5.93,5.93,0,0,0,3.53-1.15,62,62,0,0,1,59.76-7.31L203.56,220a6,6,0,0,0,8.88-8.08ZM235.81,88.55A170.32,170.32,0,0,0,128,50a173.45,173.45,0,0,0-21.76,1.38,6,6,0,1,0,1.52,11.9A160.58,160.58,0,0,1,128,62,158.26,158.26,0,0,1,228.19,97.82a6,6,0,1,0,7.62-9.27Zm-39.54,45.2A6,6,0,0,0,200,135a6,6,0,0,0,3.73-10.7,122.26,122.26,0,0,0-50.9-23.81,6,6,0,1,0-2.43,11.75A110,110,0,0,1,196.27,133.75Z"/></svg>`,
     style: "light",
-    tags: ["wifi", "slash"],
+    tags: ["wifi", "slash", "signal", "connection", "internet", "network", "status", "disabled", "unavailable", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -71946,7 +71946,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Slash Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,204a8,8,0,1,1-8-8A8,8,0,0,1,136,204ZM51,37.31A4,4,0,0,0,45,42.69L64.72,64.34A167.64,167.64,0,0,0,21.46,90.09a4,4,0,1,0,5.08,6.19A159.4,159.4,0,0,1,70.47,70.66l29.64,32.61a120.12,120.12,0,0,0-46.6,22.64,4,4,0,0,0,5,6.27,112,112,0,0,1,47.85-22.07L142,149.37A72.6,72.6,0,0,0,128,148a71.49,71.49,0,0,0-42.36,13.77A4,4,0,0,0,88,169a4.07,4.07,0,0,0,2.36-.76,64,64,0,0,1,62.11-7.38L205,218.69a4,4,0,1,0,5.92-5.38ZM234.54,90.09A168.33,168.33,0,0,0,128,52a171.08,171.08,0,0,0-21.5,1.36,4,4,0,0,0,1,7.94A162.68,162.68,0,0,1,128,60,160.22,160.22,0,0,1,229.46,96.28a4,4,0,0,0,5.08-6.19Zm-37,42.09a4,4,0,1,0,5-6.27,120.17,120.17,0,0,0-50.06-23.42,4,4,0,1,0-1.62,7.83A112.18,112.18,0,0,1,197.52,132.18Z"/></svg>`,
     style: "thin",
-    tags: ["wifi", "slash"],
+    tags: ["wifi", "slash", "signal", "connection", "internet", "network", "status", "disabled", "unavailable", "thin", "delicate", "ui"],
     category: "thin"
   },
   {
@@ -71954,7 +71954,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi Slash Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M213.92,210.62a8,8,0,1,1-11.84,10.76l-52-57.15a60,60,0,0,0-57.41,7.24,8,8,0,1,1-9.42-12.93A75.43,75.43,0,0,1,128,144c1.28,0,2.55,0,3.82.1L104.9,114.49A108,108,0,0,0,61,135.31,8,8,0,0,1,49.73,134,8,8,0,0,1,51,122.77a124.27,124.27,0,0,1,41.71-21.66L69.37,75.4a155.43,155.43,0,0,0-40.29,24A8,8,0,0,1,18.92,87,171.87,171.87,0,0,1,58,62.86L42.08,45.38A8,8,0,1,1,53.92,34.62ZM128,192a12,12,0,1,0,12,12A12,12,0,0,0,128,192ZM237.08,87A172.3,172.3,0,0,0,106,49.4a8,8,0,1,0,2,15.87A158.33,158.33,0,0,1,128,64a156.25,156.25,0,0,1,98.92,35.37A8,8,0,0,0,237.08,87ZM195,135.31a8,8,0,0,0,11.24-1.3,8,8,0,0,0-1.3-11.24,124.25,124.25,0,0,0-51.73-24.2A8,8,0,1,0,150,114.24,108.12,108.12,0,0,1,195,135.31Z"/></svg>`,
     style: "regular",
-    tags: ["wifi", "slash"],
+    tags: ["wifi", "slash", "signal", "connection", "internet", "network", "status", "disabled", "unavailable", "standard", "ui", "interface"],
     category: "regular"
   },
   {
@@ -71962,7 +71962,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi X Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M144,204a16,16,0,1,1-16-16A16,16,0,0,1,144,204ZM217,80l15.52-15.51a12,12,0,0,0-17-17L200,63,184.49,47.51a12,12,0,0,0-17,17L183,80,167.51,95.51a12,12,0,0,0,17,17L200,97l15.51,15.52a12,12,0,0,0,17-17Zm-41.9,75.3a80,80,0,0,0-94.13,0,12,12,0,1,0,14.13,19.4,56,56,0,0,1,65.87,0,12,12,0,0,0,14.13-19.4ZM140,56a12,12,0,0,0-12-12A176.27,176.27,0,0,0,16.39,83.91a12,12,0,1,0,15.23,18.55A152.24,152.24,0,0,1,128,68,12,12,0,0,0,140,56Zm0,48a12,12,0,0,0-12-12,126.66,126.66,0,0,0-79.45,27.64,12,12,0,0,0,14.9,18.81A102.89,102.89,0,0,1,128,116,12,12,0,0,0,140,104Z"/></svg>`,
     style: "bold",
-    tags: ["wifi", "x"],
+    tags: ["wifi", "x", "signal", "connection", "internet", "network", "status", "error", "failed", "bold", "thick", "ui"],
     category: "bold"
   },
   {
@@ -71970,7 +71970,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi X Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224.39,104.34,134.15,213.12a8,8,0,0,1-12.3,0L17.8,87.69a7.79,7.79,0,0,1,1.31-11.21A179.58,179.58,0,0,1,128,40a181.82,181.82,0,0,1,33.06,3,7.94,7.94,0,0,1,4.17,2.21L224,104Z" opacity="0.2"/><path d="M229.66,98.34a8,8,0,0,1-11.32,11.32L200,91.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L188.69,80,170.34,61.66a8,8,0,0,1,11.32-11.32L200,68.69l18.34-18.35a8,8,0,0,1,11.32,11.32L211.31,80Zm-33.06,39.5a8,8,0,0,0-11.27,1L128,208,24.09,82.74A170.76,170.76,0,0,1,128,48c2.54,0,5.11.06,7.65.17a8,8,0,0,0,.7-16c-2.77-.12-5.58-.18-8.35-.18A186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77l57.34-69.12A8,8,0,0,0,196.6,137.84Z"/></svg>`,
     style: "duotone",
-    tags: ["wifi", "x"],
+    tags: ["wifi", "x", "signal", "connection", "internet", "network", "status", "error", "failed", "duotone", "two-tone", "ui"],
     category: "duotone"
   },
   {
@@ -71978,7 +71978,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi X Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,98.34a8,8,0,0,1-11.32,11.32L200,91.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L188.69,80,170.34,61.66a8,8,0,0,1,11.32-11.32L200,68.69l18.34-18.35a8,8,0,0,1,11.32,11.32L211.31,80ZM206.85,131a32.75,32.75,0,0,1-4.15-3.14,4,4,0,0,0-5.37,0,32,32,0,0,1-45.18-45.18,4,4,0,0,0,0-5.34A32,32,0,0,1,149,38.91a4,4,0,0,0-3.11-6.08Q137,32,128,32A186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77l67.45-81.31A4,4,0,0,0,206.85,131Z"/></svg>`,
     style: "fill",
-    tags: ["wifi", "x"],
+    tags: ["wifi", "x", "signal", "connection", "internet", "network", "status", "error", "failed", "filled", "solid", "ui"],
     category: "fill"
   },
   {
@@ -71986,7 +71986,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi X Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M138,204a10,10,0,1,1-10-10A10,10,0,0,1,138,204ZM208.48,80l19.76-19.76a6,6,0,0,0-8.48-8.48L200,71.52,180.24,51.76a6,6,0,0,0-8.48,8.48L191.52,80,171.76,99.76a6,6,0,1,0,8.48,8.48L200,88.48l19.76,19.76a6,6,0,0,0,8.48-8.48Zm-36.95,80.15a74,74,0,0,0-87.06,0,6,6,0,0,0,7.06,9.7,62,62,0,0,1,72.94,0,6,6,0,0,0,8.38-1.32A6,6,0,0,0,171.53,160.15Zm-35.82-98a6,6,0,0,0,.58-12c-2.75-.13-5.54-.2-8.29-.2A170.32,170.32,0,0,0,20.19,88.55a6,6,0,1,0,7.62,9.27A158.26,158.26,0,0,1,128,62C130.56,62,133.16,62.06,135.71,62.18Zm-.12,48.08a6,6,0,1,0,.82-12c-2.79-.19-5.62-.29-8.41-.29a120.75,120.75,0,0,0-75.73,26.34,6,6,0,0,0,7.46,9.41A108.78,108.78,0,0,1,128,110C130.52,110,133.08,110.09,135.59,110.26Z"/></svg>`,
     style: "light",
-    tags: ["wifi", "x"],
+    tags: ["wifi", "x", "signal", "connection", "internet", "network", "status", "error", "failed", "light", "thin", "ui"],
     category: "light"
   },
   {
@@ -71994,7 +71994,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi X Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M136,204a8,8,0,1,1-8-8A8,8,0,0,1,136,204ZM205.66,80l21.17-21.17a4,4,0,1,0-5.66-5.66L200,74.34,178.83,53.17a4,4,0,0,0-5.66,5.66L194.34,80l-21.17,21.17a4,4,0,0,0,5.66,5.66L200,85.66l21.17,21.17a4,4,0,1,0,5.66-5.66Zm-35.31,81.77a72,72,0,0,0-84.71,0,4,4,0,0,0,4.71,6.46,64.05,64.05,0,0,1,75.29,0,4,4,0,1,0,4.71-6.46ZM135.81,60.19a4,4,0,1,0,.38-8c-2.71-.13-5.47-.2-8.19-.2A168.33,168.33,0,0,0,21.46,90.09a4,4,0,1,0,5.08,6.19A160.22,160.22,0,0,1,128,60C130.59,60,133.22,60.06,135.81,60.19Zm-.08,48.07a4,4,0,1,0,.54-8c-2.74-.19-5.52-.28-8.27-.28a118.72,118.72,0,0,0-74.48,25.91,4,4,0,0,0,5,6.27A110.84,110.84,0,0,1,128,108C130.57,108,133.17,108.09,135.73,108.26Z"/></svg>`,
     style: "thin",
-    tags: ["wifi", "x"],
+    tags: ["wifi", "x", "signal", "connection", "internet", "network", "status", "error", "failed", "thin", "delicate", "ui"],
     category: "thin"
   },
   {
@@ -72002,7 +72002,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wifi X Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M229.66,98.34a8,8,0,0,1-11.32,11.32L200,91.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L188.69,80,170.34,61.66a8,8,0,0,1,11.32-11.32L200,68.69l18.34-18.35a8,8,0,0,1,11.32,11.32L211.31,80ZM128,192a12,12,0,1,0,12,12A12,12,0,0,0,128,192Zm44.71-33.47a76.05,76.05,0,0,0-89.42,0,8,8,0,0,0,9.42,12.94,60,60,0,0,1,70.58,0,8,8,0,1,0,9.42-12.94ZM135.62,64.18a8,8,0,1,0,.76-16c-2.78-.13-5.6-.2-8.38-.2A172.35,172.35,0,0,0,18.92,87,8,8,0,1,0,29.08,99.37,156.25,156.25,0,0,1,128,64C130.53,64,133.09,64.06,135.62,64.18Zm-.16,48.07a8,8,0,1,0,1.08-16c-2.83-.19-5.7-.29-8.54-.29a122.74,122.74,0,0,0-77,26.77A8,8,0,0,0,56,137a7.93,7.93,0,0,0,5-1.73A106.87,106.87,0,0,1,128,112C130.48,112,133,112.08,135.46,112.25Z"/></svg>`,
     style: "regular",
-    tags: ["wifi", "x"],
+    tags: ["wifi", "x", "signal", "connection", "internet", "network", "status", "error", "failed", "standard", "ui", "interface"],
     category: "regular"
   },
   {
@@ -72010,7 +72010,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wind Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M24,104a12,12,0,0,1,0-24h96a12,12,0,0,0,0-24,15.07,15.07,0,0,0-10.26,4.45,12,12,0,0,1-17-16.9A39.34,39.34,0,0,1,120,32a36,36,0,0,1,0,72ZM208,68a39.34,39.34,0,0,0-27.3,11.55,12,12,0,0,0,17,16.9A15.07,15.07,0,0,1,208,92a12,12,0,0,1,0,24H32a12,12,0,0,0,0,24H208a36,36,0,0,0,0-72Zm-56,84H40a12,12,0,0,0,0,24H152a12,12,0,0,1,0,24,15.11,15.11,0,0,1-10.27-4.45,12,12,0,1,0-17,16.9A39.34,39.34,0,0,0,152,224a36,36,0,0,0,0-72Z"/></svg>`,
     style: "bold",
-    tags: ["wind"],
+    tags: ["wind", "air", "breeze", "weather", "movement", "nature", "fluid", "bold", "stroke"],
     category: "bold"
   },
   {
@@ -72018,7 +72018,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wind Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,96a24,24,0,1,1,24-24A24,24,0,0,1,120,96Zm88-16a24,24,0,1,0,24,24A24,24,0,0,0,208,80Zm-56,80a24,24,0,1,0,24,24A24,24,0,0,0,152,160Z" opacity="0.2"/><path d="M184,184a32,32,0,0,1-32,32c-13.7,0-26.95-8.93-31.5-21.22a8,8,0,0,1,15-5.56C137.74,195.27,145,200,152,200a16,16,0,0,0,0-32H40a8,8,0,0,1,0-16H152A32,32,0,0,1,184,184Zm-64-80a32,32,0,0,0,0-64c-13.7,0-26.95,8.93-31.5,21.22a8,8,0,0,0,15,5.56C105.74,60.73,113,56,120,56a16,16,0,0,1,0,32H24a8,8,0,0,0,0,16Zm88-32c-13.7,0-26.95,8.93-31.5,21.22a8,8,0,0,0,15,5.56C193.74,92.73,201,88,208,88a16,16,0,0,1,0,32H32a8,8,0,0,0,0,16H208a32,32,0,0,0,0-64Z"/></svg>`,
     style: "duotone",
-    tags: ["wind"],
+    tags: ["wind", "air", "breeze", "weather", "movement", "nature", "fluid", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -72026,7 +72026,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wind Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M120,104H24a8,8,0,0,1-8-8.53A8.17,8.17,0,0,1,24.27,88H112a8,8,0,0,0,8-8.53A8.17,8.17,0,0,0,111.73,72H92.29a4,4,0,0,1-4-4.58A32,32,0,1,1,120,104Zm119.92-2.29a32,32,0,0,0-63.59-2.29,4,4,0,0,0,4,4.58h19.44a8.17,8.17,0,0,1,8.25,7.47,8,8,0,0,1-8,8.53H32.27A8.17,8.17,0,0,0,24,127.47,8,8,0,0,0,32,136H208A32,32,0,0,0,239.92,101.71ZM152,152H40.27A8.17,8.17,0,0,0,32,159.47,8,8,0,0,0,40,168H143.73a8.17,8.17,0,0,1,8.25,7.47,8,8,0,0,1-8,8.53H124.29a4,4,0,0,0-4,4.58A32,32,0,1,0,152,152Z"/></svg>`,
     style: "fill",
-    tags: ["wind"],
+    tags: ["wind", "air", "breeze", "weather", "movement", "nature", "fluid", "filled", "solid"],
     category: "fill"
   },
   {
@@ -72034,7 +72034,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wind Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M182,184a30,30,0,0,1-30,30c-12.9,0-25.36-8.38-29.63-19.92a6,6,0,0,1,11.26-4.16C136.13,196.69,144.2,202,152,202a18,18,0,0,0,0-36H40a6,6,0,0,1,0-12H152A30,30,0,0,1,182,184ZM150,72a30,30,0,0,0-30-30c-12.9,0-25.36,8.38-29.63,19.92a6,6,0,1,0,11.26,4.16C104.13,59.31,112.2,54,120,54a18,18,0,0,1,0,36H24a6,6,0,0,0,0,12h96A30,30,0,0,0,150,72Zm58,2c-12.9,0-25.36,8.38-29.63,19.92a6,6,0,1,0,11.26,4.16C192.13,91.31,200.2,86,208,86a18,18,0,0,1,0,36H32a6,6,0,0,0,0,12H208a30,30,0,0,0,0-60Z"/></svg>`,
     style: "light",
-    tags: ["wind"],
+    tags: ["wind", "air", "breeze", "weather", "movement", "nature", "fluid", "light", "thin"],
     category: "light"
   },
   {
@@ -72042,7 +72042,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wind Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M180,184a28,28,0,0,1-28,28c-12.09,0-23.76-7.83-27.75-18.61a4,4,0,1,1,7.5-2.78C134.58,198.24,143.28,204,152,204a20,20,0,0,0,0-40H40a4,4,0,0,1,0-8H152A28,28,0,0,1,180,184ZM148,72a28,28,0,0,0-28-28c-12.09,0-23.76,7.83-27.75,18.61a4,4,0,0,0,7.5,2.78C102.58,57.76,111.28,52,120,52a20,20,0,0,1,0,40H24a4,4,0,0,0,0,8h96A28,28,0,0,0,148,72Zm60,4c-12.09,0-23.76,7.83-27.75,18.61a4,4,0,1,0,7.5,2.78C190.58,89.76,199.28,84,208,84a20,20,0,0,1,0,40H32a4,4,0,0,0,0,8H208a28,28,0,0,0,0-56Z"/></svg>`,
     style: "thin",
-    tags: ["wind"],
+    tags: ["wind", "air", "breeze", "weather", "movement", "nature", "fluid", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -72050,7 +72050,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wind Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184,184a32,32,0,0,1-32,32c-13.7,0-26.95-8.93-31.5-21.22a8,8,0,0,1,15-5.56C137.74,195.27,145,200,152,200a16,16,0,0,0,0-32H40a8,8,0,0,1,0-16H152A32,32,0,0,1,184,184Zm-64-80a32,32,0,0,0,0-64c-13.7,0-26.95,8.93-31.5,21.22a8,8,0,0,0,15,5.56C105.74,60.73,113,56,120,56a16,16,0,0,1,0,32H24a8,8,0,0,0,0,16Zm88-32c-13.7,0-26.95,8.93-31.5,21.22a8,8,0,0,0,15,5.56C193.74,92.73,201,88,208,88a16,16,0,0,1,0,32H32a8,8,0,0,0,0,16H208a32,32,0,0,0,0-64Z"/></svg>`,
     style: "regular",
-    tags: ["wind"],
+    tags: ["wind", "air", "breeze", "weather", "movement", "nature", "fluid", "standard", "outline"],
     category: "regular"
   },
   {
@@ -72058,7 +72058,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windmill Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,220H186.41l-4.72-33a20,20,0,0,0,23.55-8.83l12-20.33a20,20,0,0,0-7.09-27.4l-31.57-18.58,38.66-65.68a20,20,0,0,0-7.08-27.39l-20.34-12a20,20,0,0,0-27.39,7.09L143.84,45.43,78.15,6.77a20,20,0,0,0-27.39,7.09l-12,20.33a20,20,0,0,0,7.09,27.4L77.43,80.17,38.77,145.85a20,20,0,0,0,7.08,27.39l20.34,12a19.83,19.83,0,0,0,8,2.65L69.59,220H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24Zm-37.41-57.47-62.26-36.64,7.93-13.46,62.26,36.65Zm-5.52-133,13.46,7.93L157.89,99.67l-13.46-7.92Zm-111.66,0,62.26,36.64-7.93,13.46L61.48,42.93ZM61.47,154.59,98.11,92.34l13.46,7.92L74.93,162.52Zm40.34,9.56,10.35-17.57L155.3,172l6.86,48H93.84Z"/></svg>`,
     style: "bold",
-    tags: ["windmill"],
+    tags: ["windmill", "energy", "farm", "power", "electricity", "renewable", "nature", "bold", "stroke"],
     category: "bold"
   },
   {
@@ -72066,7 +72066,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windmill Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M176,232H80l10.27-71.89,17.63-30,58.46,34.41Z" opacity="0.2"/><path d="M224,224H182.94l-6.3-44.12,3.24,1.91a16,16,0,0,0,21.91-5.67l12-20.34a16,16,0,0,0-5.67-21.91l-35-20.61,40.69-69.13a16,16,0,0,0-5.67-21.91l-20.34-12a16,16,0,0,0-21.91,5.67l-20.61,35L76.12,10.22a16,16,0,0,0-21.91,5.67l-12,20.33a16,16,0,0,0,5.67,21.92l35,20.61L42.21,147.88a16,16,0,0,0,5.67,21.91l20.34,12a15.57,15.57,0,0,0,10.58,2L73.06,224H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16Zm-24-76.34L188,168l-69.13-40.69,12-20.35ZM179.66,24,200,36l-40.69,69.14L139,93.17ZM56,44.35,68,24,137.14,64.7l-12,20.35ZM76.34,168,56,156,96.69,86.86l20.36,12Zm12.88,56L98,162.8l12.77-21.7L159,169.5l7.79,54.5Z"/></svg>`,
     style: "duotone",
-    tags: ["windmill"],
+    tags: ["windmill", "energy", "farm", "power", "electricity", "renewable", "nature", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -72074,7 +72074,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windmill Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,231.47a8.17,8.17,0,0,0-8.25-7.47H182.94l-6.3-44.12,3.24,1.91a16,16,0,0,0,21.91-5.67l11.81-20a16.49,16.49,0,0,0,2.11-11.49,15.92,15.92,0,0,0-7.6-10.74L148.93,99a8.18,8.18,0,0,1-3.33-10.63,8,8,0,0,1,11.21-3.3l20.95,12.33A4,4,0,0,0,183.24,96l30.55-51.9a16,16,0,0,0-5.67-21.92l-20.34-12a16,16,0,0,0-21.91,5.67l-35,59.42a8,8,0,0,1-11.79,2.27A8.13,8.13,0,0,1,117.21,67l12.23-20.78A4,4,0,0,0,128,40.76L76.12,10.22a16,16,0,0,0-21.91,5.67l-11.81,20a16.47,16.47,0,0,0-2.11,11.48,16,16,0,0,0,7.6,10.75L107.08,93a8.16,8.16,0,0,1,3.47,10.3,8,8,0,0,1-11.36,3.62l-21-12.34A4,4,0,0,0,72.76,96l-30.55,51.9a16,16,0,0,0,5.67,21.91l20.34,12a15.57,15.57,0,0,0,10.58,2L73.06,224H32.27A8.17,8.17,0,0,0,24,231.47,8,8,0,0,0,32,240H224A8,8,0,0,0,232,231.47ZM89.22,224,98,162.8l12.77-21.7h0L125,116.93a8.18,8.18,0,0,1,10.62-3.33,8,8,0,0,1,3.3,11.21l-12.33,21a4,4,0,0,0,1.42,5.47l31,18.25L166.78,224Z"/></svg>`,
     style: "fill",
-    tags: ["windmill"],
+    tags: ["windmill", "energy", "farm", "power", "electricity", "renewable", "nature", "filled", "solid"],
     category: "fill"
   },
   {
@@ -72082,7 +72082,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windmill Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,226H181.2l-7.13-49.95,6.82,4a14,14,0,0,0,19.18-4.95l12-20.34a14,14,0,0,0-5-19.18L170.36,114l41.7-70.86a14,14,0,0,0-5-19.17L186.77,12a14,14,0,0,0-19.18,5L146,53.65,75.11,11.94a14,14,0,0,0-19.18,5l-12,20.34a14,14,0,0,0,5,19.17L85.64,78l-41.7,70.85a14,14,0,0,0,5,19.18l20.33,12A13.92,13.92,0,0,0,76.32,182a13.74,13.74,0,0,0,3.53-.46c.46-.12.91-.26,1.36-.42L74.8,226H32a6,6,0,0,0,0,12H224a6,6,0,0,0,0-12Zm-22.06-78.84a2,2,0,0,1-.22,1.51l-12,20.34a2,2,0,0,1-2.75.71L116.12,128l14-23.8L201,145.93A2,2,0,0,1,201.94,147.16ZM177.93,23a2,2,0,0,1,1.23-.92,2,2,0,0,1,1.51.21l20.34,12a2,2,0,0,1,.71,2.76L160,107.88l-23.81-14ZM54.06,44.85a2,2,0,0,1,.22-1.52L66.27,23A2,2,0,0,1,69,22.28L139.88,64l-14,23.8L55,46.07A2,2,0,0,1,54.06,44.85ZM78.07,169a2,2,0,0,1-2.74.71L55,157.73a2,2,0,0,1-.71-2.75L96,84.12l23.81,14Zm18-6.88,14-23.77,50.8,29.9L169.08,226H86.92Z"/></svg>`,
     style: "light",
-    tags: ["windmill"],
+    tags: ["windmill", "energy", "farm", "power", "electricity", "renewable", "nature", "light", "thin"],
     category: "light"
   },
   {
@@ -72090,7 +72090,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windmill Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,228H179.47l-8-55.78,10.4,6.12a12,12,0,0,0,16.45-4.25l12-20.34a12,12,0,0,0-4.26-16.43l-38.46-22.64L210.34,42.1a12,12,0,0,0-4.25-16.44l-20.34-12a12,12,0,0,0-16.44,4.25L146.68,56.38,74.1,13.66a12,12,0,0,0-16.45,4.25l-12,20.34a12,12,0,0,0,4.26,16.44L88.38,77.33,45.66,149.91a12,12,0,0,0,4.25,16.44l20.34,12a12,12,0,0,0,13.5-.91L76.53,228H32a4,4,0,0,0,0,8H224a4,4,0,0,0,0-8Zm-20.13-81.34a3.93,3.93,0,0,1-.43,3l-12,20.34a4,4,0,0,1-5.49,1.42l-72.58-42.72,16-27.25L202,144.21A4,4,0,0,1,203.87,146.66ZM176.21,22a4,4,0,0,1,5.48-1.42l20.34,12A4,4,0,0,1,203.44,38l-42.71,72.58-27.25-16ZM52.13,45.35a3.92,3.92,0,0,1,.43-3L64.55,22A4,4,0,0,1,70,20.56l72.58,42.72-16,27.25L54,47.79A4,4,0,0,1,52.13,45.35ZM77.34,171.87a4,4,0,0,1-3-.42L54,159.46a4,4,0,0,1-1.41-5.5L95.27,81.38l27.25,16L79.79,170A4,4,0,0,1,77.34,171.87Zm16.78-10.41,15.2-25.84L162.68,167l8.71,61H84.61Z"/></svg>`,
     style: "thin",
-    tags: ["windmill"],
+    tags: ["windmill", "energy", "farm", "power", "electricity", "renewable", "nature", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -72098,7 +72098,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windmill Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,224H182.94l-6.3-44.12,3.24,1.91a16,16,0,0,0,21.91-5.67l12-20.34a16,16,0,0,0-5.67-21.91l-35-20.61,40.69-69.13a16,16,0,0,0-5.67-21.91l-20.34-12a16,16,0,0,0-21.91,5.67l-20.61,35L76.12,10.22a16,16,0,0,0-21.91,5.67l-12,20.33a16,16,0,0,0,5.67,21.92l35,20.61L42.21,147.88a16,16,0,0,0,5.67,21.91l20.34,12a15.57,15.57,0,0,0,10.58,2L73.06,224H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16Zm-24-76.34L188,168l-69.13-40.69,12-20.35ZM179.66,24,200,36l-40.69,69.14L139,93.17ZM56,44.35,68,24,137.14,64.7l-12,20.35ZM76.34,168,56,156,96.69,86.86l20.36,12Zm12.88,56L98,162.8l12.77-21.7L159,169.5l7.79,54.5Z"/></svg>`,
     style: "regular",
-    tags: ["windmill"],
+    tags: ["windmill", "energy", "farm", "power", "electricity", "renewable", "nature", "standard", "outline"],
     category: "regular"
   },
   {
@@ -72106,7 +72106,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windows Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M99.69,51.88a12,12,0,0,0-9.84-2.6l-60,10.91A12,12,0,0,0,20,72v36a12,12,0,0,0,12,12H92a12,12,0,0,0,12-12V61.09A12,12,0,0,0,99.69,51.88ZM80,96H44V82l36-6.54ZM215.69,30.79a12,12,0,0,0-9.84-2.6L129.85,42A12,12,0,0,0,120,53.82V108a12,12,0,0,0,12,12h76a12,12,0,0,0,12-12V40A12,12,0,0,0,215.69,30.79ZM196,96H144V63.83l52-9.45ZM92,136H32a12,12,0,0,0-12,12v36a12,12,0,0,0,9.85,11.81l60,10.91A12,12,0,0,0,104,194.91V148A12,12,0,0,0,92,136ZM80,180.53,44,174V160H80ZM208,136H132a12,12,0,0,0-12,12v54.18A12,12,0,0,0,129.85,214l76,13.82A12,12,0,0,0,220,216V148A12,12,0,0,0,208,136Zm-12,65.62-52-9.45V160h52Z"/></svg>`,
     style: "bold",
-    tags: ["windows", "logo"],
+    tags: ["windows", "logo", "microsoft", "os", "operating system", "brand", "software", "bold", "geometric"],
     category: "bold"
   },
   {
@@ -72114,7 +72114,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windows Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,144h80v72l-80-14.55ZM32,184l64,11.64V144H32ZM128,54.55V112h80V40ZM32,112H96V60.36L32,72Z" opacity="0.2"/><path d="M208,136H128a8,8,0,0,0-8,8v57.45a8,8,0,0,0,6.57,7.88l80,14.54A7.61,7.61,0,0,0,208,224a8,8,0,0,0,8-8V144A8,8,0,0,0,208,136Zm-8,70.41-64-11.63V152h64ZM96,136H32a8,8,0,0,0-8,8v40a8,8,0,0,0,6.57,7.87l64,11.64a8.54,8.54,0,0,0,1.43.13,8,8,0,0,0,8-8V144A8,8,0,0,0,96,136Zm-8,50.05-48-8.73V152H88ZM213.13,33.86a8,8,0,0,0-6.56-1.73l-80,14.55A8,8,0,0,0,120,54.55V112a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V40A8,8,0,0,0,213.13,33.86ZM200,104H136V61.22l64-11.63ZM101.13,54.22a8,8,0,0,0-6.56-1.73l-64,11.64A8,8,0,0,0,24,72v40a8,8,0,0,0,8,8H96a8,8,0,0,0,8-8V60.36A8,8,0,0,0,101.13,54.22ZM88,104H40V78.68L88,70Z"/></svg>`,
     style: "duotone",
-    tags: ["windows", "logo"],
+    tags: ["windows", "logo", "microsoft", "os", "operating system", "brand", "software", "duotone", "geometric"],
     category: "duotone"
   },
   {
@@ -72122,7 +72122,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windows Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M104,144v51.64a8,8,0,0,1-8,8,8.54,8.54,0,0,1-1.43-.13l-64-11.64A8,8,0,0,1,24,184V144a8,8,0,0,1,8-8H96A8,8,0,0,1,104,144Zm-2.87-89.78a8,8,0,0,0-6.56-1.73l-64,11.64A8,8,0,0,0,24,72v40a8,8,0,0,0,8,8H96a8,8,0,0,0,8-8V60.36A8,8,0,0,0,101.13,54.22ZM208,136H128a8,8,0,0,0-8,8v57.45a8,8,0,0,0,6.57,7.88l80,14.54A7.61,7.61,0,0,0,208,224a8,8,0,0,0,8-8V144A8,8,0,0,0,208,136Zm5.13-102.14a8,8,0,0,0-6.56-1.73l-80,14.55A8,8,0,0,0,120,54.55V112a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V40A8,8,0,0,0,213.13,33.86Z"/></svg>`,
     style: "fill",
-    tags: ["windows", "logo"],
+    tags: ["windows", "logo", "microsoft", "os", "operating system", "brand", "software", "filled", "geometric"],
     category: "fill"
   },
   {
@@ -72130,7 +72130,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windows Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,138H128a6,6,0,0,0-6,6v57.45a6,6,0,0,0,4.93,5.91l80,14.54a5.46,5.46,0,0,0,1.07.1,6,6,0,0,0,6-6V144A6,6,0,0,0,208,138Zm-6,70.81-68-12.36V150h68ZM96,138H32a6,6,0,0,0-6,6v40a6,6,0,0,0,4.93,5.9l64,11.64a6.36,6.36,0,0,0,1.07.1,6,6,0,0,0,6-6V144A6,6,0,0,0,96,138Zm-6,50.45L38,179V150H90ZM211.84,35.39a6,6,0,0,0-4.91-1.29l-80,14.54A6,6,0,0,0,122,54.55V112a6,6,0,0,0,6,6h80a6,6,0,0,0,6-6V40A6,6,0,0,0,211.84,35.39ZM202,106H134V59.55l68-12.36ZM99.84,55.76a6,6,0,0,0-4.91-1.3l-64,11.64A6,6,0,0,0,26,72v40a6,6,0,0,0,6,6H96a6,6,0,0,0,6-6V60.36A6,6,0,0,0,99.84,55.76ZM90,106H38V77l52-9.46Z"/></svg>`,
     style: "light",
-    tags: ["windows", "logo"],
+    tags: ["windows", "logo", "microsoft", "os", "operating system", "brand", "software", "light", "geometric"],
     category: "light"
   },
   {
@@ -72138,7 +72138,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windows Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,140H128a4,4,0,0,0-4,4v57.45a4,4,0,0,0,3.28,3.94l80,14.55a4.37,4.37,0,0,0,.72.06,4,4,0,0,0,2.56-.93A4,4,0,0,0,212,216V144A4,4,0,0,0,208,140Zm-4,71.21-72-13.09V148h72ZM96,140H32a4,4,0,0,0-4,4v40a4,4,0,0,0,3.28,3.94l64,11.63a3.51,3.51,0,0,0,.72.07,4,4,0,0,0,4-4V144A4,4,0,0,0,96,140Zm-4,50.84L36,180.66V148H92ZM210.56,36.93a4,4,0,0,0-3.28-.87l-80,14.55A4,4,0,0,0,124,54.55V112a4,4,0,0,0,4,4h80a4,4,0,0,0,4-4V40A4,4,0,0,0,210.56,36.93ZM204,108H132V57.88l72-13.09ZM95.28,56.43l-64,11.63A4,4,0,0,0,28,72v40a4,4,0,0,0,4,4H96a4,4,0,0,0,4-4V60.36a4,4,0,0,0-4.72-3.93ZM92,108H36V75.34L92,65.16Z"/></svg>`,
     style: "thin",
-    tags: ["windows", "logo"],
+    tags: ["windows", "logo", "microsoft", "os", "operating system", "brand", "software", "thin", "geometric"],
     category: "thin"
   },
   {
@@ -72146,7 +72146,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Windows Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,136H128a8,8,0,0,0-8,8v57.45a8,8,0,0,0,6.57,7.88l80,14.54A7.61,7.61,0,0,0,208,224a8,8,0,0,0,8-8V144A8,8,0,0,0,208,136Zm-8,70.41-64-11.63V152h64ZM96,136H32a8,8,0,0,0-8,8v40a8,8,0,0,0,6.57,7.87l64,11.64a8.54,8.54,0,0,0,1.43.13,8,8,0,0,0,8-8V144A8,8,0,0,0,96,136Zm-8,50.05-48-8.73V152H88ZM213.13,33.86a8,8,0,0,0-6.56-1.73l-80,14.55A8,8,0,0,0,120,54.55V112a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V40A8,8,0,0,0,213.13,33.86ZM200,104H136V61.22l64-11.63ZM101.13,54.22a8,8,0,0,0-6.56-1.73l-64,11.64A8,8,0,0,0,24,72v40a8,8,0,0,0,8,8H96a8,8,0,0,0,8-8V60.36A8,8,0,0,0,101.13,54.22ZM88,104H40V78.68L88,70Z"/></svg>`,
     style: "regular",
-    tags: ["windows", "logo"],
+    tags: ["windows", "logo", "microsoft", "os", "operating system", "brand", "software", "standard", "geometric"],
     category: "regular"
   },
   {
@@ -72154,7 +72154,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wine Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M209.17,102.54,187.39,28.61A12,12,0,0,0,175.89,20H80.11a12,12,0,0,0-11.5,8.61L46.83,102.54a67.45,67.45,0,0,0,18.53,68.72A91.32,91.32,0,0,0,116,195.2V228H88a12,12,0,0,0,0,24h80a12,12,0,0,0,0-24H140V195.2a91.32,91.32,0,0,0,50.65-23.94A67.45,67.45,0,0,0,209.17,102.54ZM89.08,44h77.84l18.38,62.41c-10.88,2.8-28.05,3-51.88-9.12C110.68,85.78,91.92,83,77.24,84.22ZM128,172a67.5,67.5,0,0,1-46.26-18.27,43.55,43.55,0,0,1-12-43.89c18.44-5.33,38.64,1.66,52.87,8.87,11.55,5.85,30.18,13.28,50.26,13.28a74.15,74.15,0,0,0,14.29-1.35,43.2,43.2,0,0,1-12.87,23.09A67.5,67.5,0,0,1,128,172Z"/></svg>`,
     style: "bold",
-    tags: ["wine"],
+    tags: ["wine", "drink", "alcohol", "beverage", "celebration", "glass", "bold", "filled"],
     category: "bold"
   },
   {
@@ -72162,7 +72162,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wine Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M182.48,162.5a79.77,79.77,0,0,1-109,0A55.86,55.86,0,0,1,58.3,105.93l1.57-5.31h0C72.49,95.21,95.2,91.4,128,108c35.86,18.16,59.67,11.89,71.42,5.84h0A55.72,55.72,0,0,1,182.48,162.5Z" opacity="0.2"/><path d="M205.33,103.67,183.56,29.74A8,8,0,0,0,175.89,24H80.11a8,8,0,0,0-7.67,5.74L50.67,103.67a63.46,63.46,0,0,0,17.42,64.67A87.41,87.41,0,0,0,120,191.63V232H88a8,8,0,1,0,0,16h80a8,8,0,1,0,0-16H136V191.63a87.39,87.39,0,0,0,51.91-23.29A63.48,63.48,0,0,0,205.33,103.67ZM86.09,40h83.82L190,108.19c.09.3.17.6.25.9-21.42,7.68-45.54-1.6-58.63-8.23C106.43,88.11,86.43,86.49,71.68,88.93ZM177,156.65a71.69,71.69,0,0,1-98,0,47.55,47.55,0,0,1-13-48.46l.45-1.52c12-4.06,31.07-5.14,57.93,8.47,11.15,5.65,29.16,12.85,48.43,12.85a68.64,68.64,0,0,0,19.05-2.6A47.2,47.2,0,0,1,177,156.65Z"/></svg>`,
     style: "duotone",
-    tags: ["wine"],
+    tags: ["wine", "drink", "alcohol", "beverage", "celebration", "glass", "duotone", "shaded"],
     category: "duotone"
   },
   {
@@ -72170,7 +72170,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wine Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.33,103.67,183.56,29.74A8,8,0,0,0,175.89,24H80.11a8,8,0,0,0-7.67,5.74L50.67,103.67a63.46,63.46,0,0,0,17.42,64.67A87.41,87.41,0,0,0,120,191.63V232H88a8,8,0,1,0,0,16h80a8,8,0,1,0,0-16H136V191.63a87.39,87.39,0,0,0,51.91-23.29A63.48,63.48,0,0,0,205.33,103.67ZM86.09,40h83.82L190,108.19c.09.3.17.6.25.9-21.42,7.68-45.54-1.6-58.63-8.23C106.43,88.11,86.43,86.49,71.68,88.93Z"/></svg>`,
     style: "fill",
-    tags: ["wine"],
+    tags: ["wine", "drink", "alcohol", "beverage", "celebration", "glass", "filled", "solid"],
     category: "fill"
   },
   {
@@ -72178,7 +72178,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wine Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M203.41,104.23,181.64,30.3a6,6,0,0,0-5.75-4.3H80.11a6,6,0,0,0-5.75,4.3L52.59,104.23a61.48,61.48,0,0,0,16.87,62.65A85.35,85.35,0,0,0,122,189.77V234H88a6,6,0,1,0,0,12h80a6,6,0,1,0,0-12H134V189.77a85.38,85.38,0,0,0,52.54-22.89A61.48,61.48,0,0,0,203.41,104.23ZM84.6,38h86.8l20.51,69.63c.26.9.5,1.8.71,2.7-22.54,9.07-48.17-.73-61.91-7.68C104.1,89.17,83.48,88.34,68.83,91.52Zm93.75,120.11a73.67,73.67,0,0,1-100.7,0,49.53,49.53,0,0,1-13.56-50.48l.74-2.51c12.34-4.46,32.26-6.05,60.46,8.23,11,5.55,28.65,12.64,47.52,12.64A65.56,65.56,0,0,0,194,122.62,49.22,49.22,0,0,1,178.35,158.11Z"/></svg>`,
     style: "light",
-    tags: ["wine"],
+    tags: ["wine", "drink", "alcohol", "beverage", "celebration", "glass", "light", "thin"],
     category: "light"
   },
   {
@@ -72186,7 +72186,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wine Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M201.5,104.8,179.72,30.87A4,4,0,0,0,175.89,28H80.11a4,4,0,0,0-3.83,2.87L54.5,104.8a59.51,59.51,0,0,0,16.32,60.62A83.39,83.39,0,0,0,124,187.91V236H88a4,4,0,1,0,0,8h80a4,4,0,1,0,0-8H132V187.91a83.39,83.39,0,0,0,53.18-22.49A59.51,59.51,0,0,0,201.5,104.8ZM83.1,36h89.8l20.93,71.06c.43,1.49.8,3,1.1,4.47-23.64,10.47-50.76.18-65.12-7.1-28.22-14.29-49.48-14.1-63.88-10.14Zm96.62,123.57a75.68,75.68,0,0,1-103.44,0,51.53,51.53,0,0,1-14.11-52.51l1-3.46c12.66-4.87,33.45-7,63,8C137,117,154.33,124,172.8,124A62.78,62.78,0,0,0,196,119.78,51.26,51.26,0,0,1,179.72,159.57Z"/></svg>`,
     style: "thin",
-    tags: ["wine"],
+    tags: ["wine", "drink", "alcohol", "beverage", "celebration", "glass", "thin", "minimal"],
     category: "thin"
   },
   {
@@ -72194,7 +72194,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wine Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.33,103.67,183.56,29.74A8,8,0,0,0,175.89,24H80.11a8,8,0,0,0-7.67,5.74L50.67,103.67a63.46,63.46,0,0,0,17.42,64.67A87.39,87.39,0,0,0,120,191.63V232H88a8,8,0,1,0,0,16h80a8,8,0,1,0,0-16H136V191.63a87.41,87.41,0,0,0,51.91-23.29A63.46,63.46,0,0,0,205.33,103.67ZM86.09,40h83.82L190,108.19c.09.3.17.6.25.9-21.42,7.68-45.54-1.6-58.63-8.23C106.43,88.11,86.43,86.49,71.68,88.93ZM177,156.65a71.69,71.69,0,0,1-98,0,47.55,47.55,0,0,1-13-48.46l.45-1.52c12-4.06,31.07-5.14,57.93,8.47,11.15,5.65,29.16,12.85,48.43,12.85a68.64,68.64,0,0,0,19.05-2.6A47.2,47.2,0,0,1,177,156.65Z"/></svg>`,
     style: "regular",
-    tags: ["wine"],
+    tags: ["wine", "drink", "alcohol", "beverage", "celebration", "glass", "standard", "outline"],
     category: "regular"
   },
   {
@@ -72202,7 +72202,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wrench Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M230.47,67.5a12,12,0,0,0-19.26-4.32L172.43,99l-12.68-2.72L157,83.57l35.79-38.78a12,12,0,0,0-4.32-19.26A76.07,76.07,0,0,0,88.41,121.64L30.92,174.18a4.68,4.68,0,0,0-.39.38,36,36,0,0,0,50.91,50.91l.38-.39,52.54-57.49A76.05,76.05,0,0,0,230.47,67.5ZM160,148a51.5,51.5,0,0,1-23.35-5.52,12,12,0,0,0-14.26,2.62L64.31,208.66a12,12,0,0,1-17-17l63.55-58.07a12,12,0,0,0,2.62-14.26A51.5,51.5,0,0,1,108,96a52.06,52.06,0,0,1,52-52h.89L135.17,71.87a12,12,0,0,0-2.91,10.65l5.66,26.35a12,12,0,0,0,9.21,9.21l26.35,5.66a12,12,0,0,0,10.65-2.91L212,95.12c0,.3,0,.59,0,.89A52.06,52.06,0,0,1,160,148Z"/></svg>`,
     style: "bold",
-    tags: ["wrench"],
+    tags: ["wrench", "tool", "repair", "fix", "settings", "maintenance", "mechanical", "bold", "hardware"],
     category: "bold"
   },
   {
@@ -72210,7 +72210,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wrench Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,96a64,64,0,0,1-94.94,56L73,217A24,24,0,0,1,39,183L104,126.94a64,64,0,0,1,80-90.29L144,80l5.66,26.34L176,112l43.35-40A63.8,63.8,0,0,1,224,96Z" opacity="0.2"/><path d="M226.76,69a8,8,0,0,0-12.84-2.88l-40.3,37.19-17.23-3.7-3.7-17.23,37.19-40.3A8,8,0,0,0,187,29.24,72,72,0,0,0,88,96,72.34,72.34,0,0,0,94,124.94L33.79,177c-.15.12-.29.26-.43.39a32,32,0,0,0,45.26,45.26c.13-.13.27-.28.39-.42L131.06,162A72,72,0,0,0,232,96,71.56,71.56,0,0,0,226.76,69ZM160,152a56.14,56.14,0,0,1-27.07-7,8,8,0,0,0-9.92,1.77L67.11,211.51a16,16,0,0,1-22.62-22.62L109.18,133a8,8,0,0,0,1.77-9.93,56,56,0,0,1,58.36-82.31l-31.2,33.81a8,8,0,0,0-1.94,7.1L141.83,108a8,8,0,0,0,6.14,6.14l26.35,5.66a8,8,0,0,0,7.1-1.94l33.81-31.2A56.06,56.06,0,0,1,160,152Z"/></svg>`,
     style: "duotone",
-    tags: ["wrench"],
+    tags: ["wrench", "tool", "settings", "fix", "repair", "maintenance", "gear", "setup", "outline", "duotone"],
     category: "duotone"
   },
   {
@@ -72218,7 +72218,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wrench Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,96a72,72,0,0,1-100.94,66L79,222.22c-.12.14-.26.29-.39.42a32,32,0,0,1-45.26-45.26c.14-.13.28-.27.43-.39L94,124.94a72.07,72.07,0,0,1,83.54-98.78,8,8,0,0,1,3.93,13.19L144,80l5.66,26.35L176,112l40.65-37.52a8,8,0,0,1,13.19,3.93A72.6,72.6,0,0,1,232,96Z"/></svg>`,
     style: "fill",
-    tags: ["wrench"],
+    tags: ["wrench", "tool", "settings", "fix", "repair", "maintenance", "gear", "setup", "filled", "solid"],
     category: "fill"
   },
   {
@@ -72226,7 +72226,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wrench Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224.91,69.75a6,6,0,0,0-9.63-2.16l-41.07,37.9L154.7,101.3l-4.19-19.51,37.9-41.07a6,6,0,0,0-2.16-9.63,70,70,0,0,0-89.77,94.39l-61.39,53c-.11.09-.21.19-.32.3A30,30,0,0,0,77.2,221.23c.11-.11.21-.21.3-.32l53-61.39a70,70,0,0,0,94.39-89.77ZM160,154a58,58,0,0,1-28-7.22,6,6,0,0,0-7.45,1.33L68.57,212.88a18,18,0,0,1-25.45-25.45l64.76-55.94A6,6,0,0,0,109.2,124a58,58,0,0,1,64-84.53L139.58,75.93a6,6,0,0,0-1.45,5.33l5.65,26.35a6,6,0,0,0,4.61,4.61l26.35,5.65a6,6,0,0,0,5.33-1.45L216.49,82.8A58.06,58.06,0,0,1,160,154Z"/></svg>`,
     style: "light",
-    tags: ["wrench"],
+    tags: ["wrench", "tool", "settings", "fix", "repair", "maintenance", "gear", "setup", "thin", "minimal"],
     category: "light"
   },
   {
@@ -72234,7 +72234,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wrench Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M223.05,70.5a4,4,0,0,0-6.42-1.44l-41.82,38.6L153,103l-4.68-21.79,38.6-41.82a4,4,0,0,0-1.44-6.43A68,68,0,0,0,98.94,126L36.4,180l-.21.2a28,28,0,0,0,39.6,39.6l.2-.21,54-62.54A68,68,0,0,0,228,96,67.51,67.51,0,0,0,223.05,70.5ZM160,156a60,60,0,0,1-29-7.47,4,4,0,0,0-5,.89L70,214.25A20,20,0,0,1,41.75,186l64.82-56a4,4,0,0,0,.89-5,60,60,0,0,1,69.46-86.59L141.05,77.29a4,4,0,0,0-1,3.55l5.66,26.35a4,4,0,0,0,3.07,3.07l26.35,5.66a4,4,0,0,0,3.55-1l38.87-35.87A60.05,60.05,0,0,1,160,156Z"/></svg>`,
     style: "thin",
-    tags: ["wrench"],
+    tags: ["wrench", "tool", "settings", "fix", "repair", "maintenance", "gear", "setup", "lightweight", "delicate"],
     category: "thin"
   },
   {
@@ -72242,7 +72242,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Wrench Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M226.76,69a8,8,0,0,0-12.84-2.88l-40.3,37.19-17.23-3.7-3.7-17.23,37.19-40.3A8,8,0,0,0,187,29.24,72,72,0,0,0,88,96,72.34,72.34,0,0,0,94,124.94L33.79,177c-.15.12-.29.26-.43.39a32,32,0,0,0,45.26,45.26c.13-.13.27-.28.39-.42L131.06,162A72,72,0,0,0,232,96,71.56,71.56,0,0,0,226.76,69ZM160,152a56.14,56.14,0,0,1-27.07-7,8,8,0,0,0-9.92,1.77L67.11,211.51a16,16,0,0,1-22.62-22.62L109.18,133a8,8,0,0,0,1.77-9.93,56,56,0,0,1,58.36-82.31l-31.2,33.81a8,8,0,0,0-1.94,7.1L141.83,108a8,8,0,0,0,6.14,6.14l26.35,5.66a8,8,0,0,0,7.1-1.94l33.81-31.2A56.06,56.06,0,0,1,160,152Z"/></svg>`,
     style: "regular",
-    tags: ["wrench"],
+    tags: ["wrench", "tool", "settings", "fix", "repair", "maintenance", "gear", "setup", "standard", "outline"],
     category: "regular"
   },
   {
@@ -72250,7 +72250,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"/></svg>`,
     style: "bold",
-    tags: ["x"],
+    tags: ["x", "close", "delete", "cancel", "remove", "error", "stop", "heavy", "thick"],
     category: "bold"
   },
   {
@@ -72258,7 +72258,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Circle Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168.49,104.49,145,128l23.52,23.51a12,12,0,0,1-17,17L128,145l-23.51,23.52a12,12,0,0,1-17-17L111,128,87.51,104.49a12,12,0,0,1,17-17L128,111l23.51-23.52a12,12,0,0,1,17,17ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128Z"/></svg>`,
     style: "bold",
-    tags: ["x", "circle"],
+    tags: ["x", "circle", "close", "delete", "cancel", "remove", "error", "stop", "heavy", "thick", "rounded"],
     category: "bold"
   },
   {
@@ -72266,7 +72266,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Circle Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"/><path d="M165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"/></svg>`,
     style: "duotone",
-    tags: ["x", "circle"],
+    tags: ["x", "circle", "close", "delete", "cancel", "remove", "error", "stop", "outline", "duotone", "rounded"],
     category: "duotone"
   },
   {
@@ -72274,7 +72274,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Circle Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>`,
     style: "fill",
-    tags: ["x", "circle"],
+    tags: ["x", "circle", "close", "delete", "cancel", "remove", "error", "stop", "filled", "solid", "rounded"],
     category: "fill"
   },
   {
@@ -72282,7 +72282,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Circle Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164.24,100.24,136.48,128l27.76,27.76a6,6,0,1,1-8.48,8.48L128,136.48l-27.76,27.76a6,6,0,0,1-8.48-8.48L119.52,128,91.76,100.24a6,6,0,0,1,8.48-8.48L128,119.52l27.76-27.76a6,6,0,0,1,8.48,8.48ZM230,128A102,102,0,1,1,128,26,102.12,102.12,0,0,1,230,128Zm-12,0a90,90,0,1,0-90,90A90.1,90.1,0,0,0,218,128Z"/></svg>`,
     style: "light",
-    tags: ["x", "circle"],
+    tags: ["x", "circle", "close", "delete", "cancel", "remove", "error", "stop", "thin", "minimal", "rounded"],
     category: "light"
   },
   {
@@ -72290,7 +72290,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Circle Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M162.83,98.83,133.66,128l29.17,29.17a4,4,0,0,1-5.66,5.66L128,133.66,98.83,162.83a4,4,0,0,1-5.66-5.66L122.34,128,93.17,98.83a4,4,0,0,1,5.66-5.66L128,122.34l29.17-29.17a4,4,0,1,1,5.66,5.66ZM228,128A100,100,0,1,1,128,28,100.11,100.11,0,0,1,228,128Zm-8,0a92,92,0,1,0-92,92A92.1,92.1,0,0,0,220,128Z"/></svg>`,
     style: "thin",
-    tags: ["x", "circle"],
+    tags: ["x", "circle", "close", "delete", "cancel", "remove", "error", "stop", "lightweight", "delicate", "rounded"],
     category: "thin"
   },
   {
@@ -72298,7 +72298,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Circle Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"/></svg>`,
     style: "regular",
-    tags: ["x", "circle"],
+    tags: ["x", "circle", "close", "delete", "cancel", "remove", "error", "stop", "standard", "outline", "rounded"],
     category: "regular"
   },
   {
@@ -72306,7 +72306,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,56V200a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56A16,16,0,0,1,56,40H200A16,16,0,0,1,216,56Z" opacity="0.2"/><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>`,
     style: "duotone",
-    tags: ["x"],
+    tags: ["x", "close", "delete", "cancel", "remove", "error", "stop", "outline", "duotone"],
     category: "duotone"
   },
   {
@@ -72314,7 +72314,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM181.66,170.34a8,8,0,0,1-11.32,11.32L128,139.31,85.66,181.66a8,8,0,0,1-11.32-11.32L116.69,128,74.34,85.66A8,8,0,0,1,85.66,74.34L128,116.69l42.34-42.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>`,
     style: "fill",
-    tags: ["x"],
+    tags: ["x", "close", "delete", "cancel", "remove", "error", "stop", "filled", "solid"],
     category: "fill"
   },
   {
@@ -72322,7 +72322,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M204.24,195.76a6,6,0,1,1-8.48,8.48L128,136.49,60.24,204.24a6,6,0,0,1-8.48-8.48L119.51,128,51.76,60.24a6,6,0,0,1,8.48-8.48L128,119.51l67.76-67.75a6,6,0,0,1,8.48,8.48L136.49,128Z"/></svg>`,
     style: "light",
-    tags: ["x"],
+    tags: ["x", "close", "delete", "cancel", "remove", "error", "stop", "thin", "minimal"],
     category: "light"
   },
   {
@@ -72330,7 +72330,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M218.12,209.56l-61-95.8,59.72-65.69a12,12,0,0,0-17.76-16.14L143.81,92.77,106.12,33.56A12,12,0,0,0,96,28H48A12,12,0,0,0,37.88,46.44l61,95.8L39.12,207.93a12,12,0,1,0,17.76,16.14l55.31-60.84,37.69,59.21A12,12,0,0,0,160,228h48a12,12,0,0,0,10.12-18.44ZM166.59,204,69.86,52H89.41l96.73,152Z"/></svg>`,
     style: "bold",
-    tags: ["x", "logo"],
+    tags: ["x", "logo", "social media", "twitter", "brand", "heavy", "thick", "marketing", "platform"],
     category: "bold"
   },
   {
@@ -72338,7 +72338,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,216H160L48,40H96Z" opacity="0.2"/><path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"/></svg>`,
     style: "duotone",
-    tags: ["x", "logo"],
+    tags: ["x", "logo", "social media", "twitter", "brand", "outline", "duotone", "marketing", "platform"],
     category: "duotone"
   },
   {
@@ -72346,7 +72346,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M215,219.85a8,8,0,0,1-7,4.15H160a8,8,0,0,1-6.75-3.71l-40.49-63.63L53.92,221.38a8,8,0,0,1-11.84-10.76l61.77-68L41.25,44.3A8,8,0,0,1,48,32H96a8,8,0,0,1,6.75,3.71l40.49,63.63,58.84-64.72a8,8,0,0,1,11.84,10.76l-61.77,67.95,62.6,98.38A8,8,0,0,1,215,219.85Z"/></svg>`,
     style: "fill",
-    tags: ["x", "logo"],
+    tags: ["x", "logo", "social media", "twitter", "brand", "filled", "solid", "marketing", "platform"],
     category: "fill"
   },
   {
@@ -72354,7 +72354,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M213.06,212.78l-63.42-99.66L212.44,44A6,6,0,1,0,203.56,36L143,102.62l-41.9-65.84A6,6,0,0,0,96,34H48a6,6,0,0,0-5.06,9.22l63.42,99.66L43.56,212A6,6,0,0,0,52.44,220L113,153.38l41.9,65.84A6,6,0,0,0,160,222h48a6,6,0,0,0,5.06-9.22ZM163.29,210,58.93,46H92.71L197.07,210Z"/></svg>`,
     style: "light",
-    tags: ["x", "logo"],
+    tags: ["x", "logo", "social media", "twitter", "brand", "thin", "minimal", "marketing", "platform"],
     category: "light"
   },
   {
@@ -72362,7 +72362,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M211.37,213.85,147.13,112.9,211,42.69A4,4,0,0,0,205,37.31L142.68,105.9,99.38,37.85A4,4,0,0,0,96,36H48a4,4,0,0,0-3.37,6.15L108.87,143.1,45,213.31A4,4,0,1,0,51,218.69l62.36-68.59,43.3,68.05A4,4,0,0,0,160,220h48a4,4,0,0,0,3.37-6.15ZM162.2,212,55.29,44H93.8L200.71,212Z"/></svg>`,
     style: "thin",
-    tags: ["x", "logo"],
+    tags: ["x", "logo", "social media", "twitter", "brand", "lightweight", "delicate", "marketing", "platform"],
     category: "thin"
   },
   {
@@ -72370,7 +72370,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"/></svg>`,
     style: "regular",
-    tags: ["x", "logo"],
+    tags: ["x", "logo", "social media", "twitter", "brand", "standard", "outline", "marketing", "platform"],
     category: "regular"
   },
   {
@@ -72378,7 +72378,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Square Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,176H52V52H204ZM87.51,151.51,111,128,87.51,104.49a12,12,0,0,1,17-17L128,111l23.51-23.52a12,12,0,0,1,17,17L145,128l23.52,23.51a12,12,0,0,1-17,17L128,145l-23.51,23.52a12,12,0,0,1-17-17Z"/></svg>`,
     style: "bold",
-    tags: ["x", "square"],
+    tags: ["x", "square", "close", "delete", "cancel", "remove", "error", "stop", "heavy", "thick", "geometric"],
     category: "bold"
   },
   {
@@ -72386,7 +72386,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Square Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,48V208a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z" opacity="0.2"/><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32Z"/></svg>`,
     style: "duotone",
-    tags: ["x", "square"],
+    tags: ["x", "square", "close", "delete", "cancel", "remove", "error", "stop", "outline", "duotone", "geometric"],
     category: "duotone"
   },
   {
@@ -72394,7 +72394,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Square Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM165.66,154.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>`,
     style: "fill",
-    tags: ["x", "square"],
+    tags: ["x", "square", "close", "delete", "cancel", "remove", "error", "stop", "filled", "solid", "geometric"],
     category: "fill"
   },
   {
@@ -72402,7 +72402,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Square Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,34H48A14,14,0,0,0,34,48V208a14,14,0,0,0,14,14H208a14,14,0,0,0,14-14V48A14,14,0,0,0,208,34Zm2,174a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V48a2,2,0,0,1,2-2H208a2,2,0,0,1,2,2ZM164.24,100.24,136.48,128l27.76,27.76a6,6,0,1,1-8.48,8.48L128,136.48l-27.76,27.76a6,6,0,0,1-8.48-8.48L119.52,128,91.76,100.24a6,6,0,0,1,8.48-8.48L128,119.52l27.76-27.76a6,6,0,0,1,8.48,8.48Z"/></svg>`,
     style: "light",
-    tags: ["x", "square"],
+    tags: ["x", "square", "close", "delete", "cancel", "remove", "error", "stop", "thin", "minimal", "geometric"],
     category: "light"
   },
   {
@@ -72410,7 +72410,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Square Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,36H48A12,12,0,0,0,36,48V208a12,12,0,0,0,12,12H208a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36Zm4,172a4,4,0,0,1-4,4H48a4,4,0,0,1-4-4V48a4,4,0,0,1,4-4H208a4,4,0,0,1,4,4ZM162.83,98.83,133.66,128l29.17,29.17a4,4,0,0,1-5.66,5.66L128,133.66,98.83,162.83a4,4,0,0,1-5.66-5.66L122.34,128,93.17,98.83a4,4,0,0,1,5.66-5.66L128,122.34l29.17-29.17a4,4,0,1,1,5.66,5.66Z"/></svg>`,
     style: "thin",
-    tags: ["x", "square"],
+    tags: ["x", "square", "close", "delete", "remove", "cancel", "error", "clear", "stop", "thin", "minimal", "alert"],
     category: "thin"
   },
   {
@@ -72418,7 +72418,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Square Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM165.66,101.66,139.31,128l26.35,26.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32Z"/></svg>`,
     style: "regular",
-    tags: ["x", "square"],
+    tags: ["x", "square", "close", "delete", "remove", "cancel", "error", "clear", "stop", "geometric", "alert", "filled"],
     category: "regular"
   },
   {
@@ -72426,7 +72426,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M202.83,197.17a4,4,0,0,1-5.66,5.66L128,133.66,58.83,202.83a4,4,0,0,1-5.66-5.66L122.34,128,53.17,58.83a4,4,0,0,1,5.66-5.66L128,122.34l69.17-69.17a4,4,0,1,1,5.66,5.66L133.66,128Z"/></svg>`,
     style: "thin",
-    tags: ["x"],
+    tags: ["x", "close", "delete", "remove", "cancel", "error", "clear", "stop", "thin", "minimal", "alert"],
     category: "thin"
   },
   {
@@ -72434,7 +72434,7 @@ export const phosphorIcons: IconItem[] = [
     name: "X Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>`,
     style: "regular",
-    tags: ["x"],
+    tags: ["x", "close", "delete", "remove", "cancel", "error", "clear", "stop", "geometric", "alert", "filled"],
     category: "regular"
   },
   {
@@ -72442,7 +72442,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yarn Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,212H195.83A107.94,107.94,0,1,0,128,236l104,0a12,12,0,1,0,0-24ZM128,44a83.3,83.3,0,0,1,34.9,7.63Q153.21,56.45,144,62.14a227.58,227.58,0,0,0-32.13-16.58A84.49,84.49,0,0,1,128,44ZM79.33,59.6A201.6,201.6,0,0,1,122.5,77.31q-6.73,5.35-13,11.2A185.48,185.48,0,0,0,65,72.49,85,85,0,0,1,79.33,59.6ZM51.11,94.23a161.5,161.5,0,0,1,40.75,12.43q-5.44,6.25-10.44,12.9a145.86,145.86,0,0,0-35.37-9.92A83,83,0,0,1,51.11,94.23Zm2.76,73.23a83.49,83.49,0,0,1-9.66-33.83A122.15,122.15,0,0,1,67.79,140,228.76,228.76,0,0,0,53.87,167.46ZM71,189.67A205.38,205.38,0,0,1,186.1,67.42a85.36,85.36,0,0,1,11,12.86A187.87,187.87,0,0,0,84.55,199.86,84.08,84.08,0,0,1,71,189.67Zm51.67,22.15a84.08,84.08,0,0,1-16-2.55,163.87,163.87,0,0,1,101.07-107.4,83.43,83.43,0,0,1,3.52,15.78A148.76,148.76,0,0,0,122.71,211.82Zm26.4-2.51a124.78,124.78,0,0,1,61.31-65.15A84.25,84.25,0,0,1,149.11,209.31Z"/></svg>`,
     style: "bold",
-    tags: ["yarn"],
+    tags: ["yarn", "thread", "knit", "craft", "sewing", "wool", "hobby", "bold", "material", "textile"],
     category: "bold"
   },
   {
@@ -72450,7 +72450,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yarn Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z" opacity="0.2"/><path d="M232,216H183.39A103.95,103.95,0,1,0,128,232l104,0a8,8,0,1,0,0-16ZM128,40a87.51,87.51,0,0,1,43.93,11.77,222.06,222.06,0,0,0-27.88,15.09,222.23,222.23,0,0,0-45-22A87.52,87.52,0,0,1,128,40ZM78.56,55.24a206,206,0,0,1,51.11,21.57A225.76,225.76,0,0,0,110.1,93.36,181.54,181.54,0,0,0,57.73,75.09,88.67,88.67,0,0,1,78.56,55.24ZM48.72,89.82a165.82,165.82,0,0,1,49.67,15.51A228,228,0,0,0,82.76,124.5,142.65,142.65,0,0,0,41.28,113,87.5,87.5,0,0,1,48.72,89.82ZM40,129a126.07,126.07,0,0,1,33.63,9,222.36,222.36,0,0,0-19.07,38.45A87.51,87.51,0,0,1,40,129Zm26.42,61.81A209.36,209.36,0,0,1,187,62.74a89,89,0,0,1,16.22,19.57A183.89,183.89,0,0,0,87,205.82,88.56,88.56,0,0,1,66.43,190.81ZM125.66,216A87.66,87.66,0,0,1,101.83,212,167.84,167.84,0,0,1,210.28,96.79a87.35,87.35,0,0,1,5.38,23.55A144.59,144.59,0,0,0,125.66,216Zm89.82-78.44a88.19,88.19,0,0,1-72.67,77.22A128.64,128.64,0,0,1,215.48,137.53Z"/></svg>`,
     style: "duotone",
-    tags: ["yarn"],
+    tags: ["yarn", "thread", "knit", "craft", "sewing", "wool", "hobby", "duotone", "material", "textile"],
     category: "duotone"
   },
   {
@@ -72458,7 +72458,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yarn Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M69.4,144.89a220.94,220.94,0,0,0-18.77,42.6,4,4,0,0,1-7,1.19,103.44,103.44,0,0,1-18.83-48.11,4,4,0,0,1,4.13-4.47A119,119,0,0,1,69.4,144.89ZM44,77.14a180.06,180.06,0,0,1,63,19.12,226.9,226.9,0,0,1,22.6-19.49,206.42,206.42,0,0,0-69.28-25.6,4,4,0,0,0-3.42,1A105.3,105.3,0,0,0,41.08,71,4,4,0,0,0,44,77.14ZM239.58,221.35A7.91,7.91,0,0,0,232,216H183.36A104.25,104.25,0,0,0,230.25,147a4,4,0,0,0-5.27-4.52A120.6,120.6,0,0,0,150.88,216H134a136.55,136.55,0,0,1,94.78-91.37,4,4,0,0,0,2.92-4.15,102.59,102.59,0,0,0-3.58-20.56,4,4,0,0,0-4.89-2.8A164.53,164.53,0,0,0,103,225a4,4,0,0,0,3.08,4.69A103.9,103.9,0,0,0,128,232h0l104,0A8,8,0,0,0,239.58,221.35Zm-211-101.27a134.51,134.51,0,0,1,49.39,11A224.44,224.44,0,0,1,95.52,108.4,164.28,164.28,0,0,0,33.36,92.28a4,4,0,0,0-4,2.75,103,103,0,0,0-4.63,20.61A4,4,0,0,0,28.57,120.08ZM85.84,40.66A222.81,222.81,0,0,1,144,66.8a221.3,221.3,0,0,1,38.8-19.67,4,4,0,0,0,.7-7.08,103.86,103.86,0,0,0-98.2-6.85A4,4,0,0,0,85.84,40.66ZM216,82.51a4,4,0,0,0,2.4-5.87,105,105,0,0,0-12.82-17.81,4,4,0,0,0-4.21-1.19A208.81,208.81,0,0,0,62.21,205.51a4,4,0,0,0,1.44,4.13A104.25,104.25,0,0,0,82.2,221.36a4,4,0,0,0,5.71-2.75A180.61,180.61,0,0,1,216,82.51Z"/></svg>`,
     style: "fill",
-    tags: ["yarn"],
+    tags: ["yarn", "thread", "knit", "craft", "sewing", "wool", "hobby", "filled", "material", "textile"],
     category: "fill"
   },
   {
@@ -72466,7 +72466,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yarn Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,218H176a102,102,0,1,0-48,12l104,0a6,6,0,1,0,0-12ZM128,38a89.53,89.53,0,0,1,48.24,14,220.06,220.06,0,0,0-32.19,17.19A220.38,220.38,0,0,0,93.2,45,89.65,89.65,0,0,1,128,38ZM78.2,53.07a208.61,208.61,0,0,1,55.09,23.57A223.79,223.79,0,0,0,110.45,95.8,180,180,0,0,0,54.23,76.5,90.85,90.85,0,0,1,78.2,53.07ZM47.58,87.62a168.13,168.13,0,0,1,54.07,17.11A223.44,223.44,0,0,0,83.42,127,140.43,140.43,0,0,0,39,114.79,89.53,89.53,0,0,1,47.58,87.62Zm7.53,93.11A89.49,89.49,0,0,1,38,128c0-.42,0-.83,0-1.25A128.5,128.5,0,0,1,76.6,137.08,220.45,220.45,0,0,0,55.11,180.73Zm9,10.64A211.27,211.27,0,0,1,187.39,60.44a90.62,90.62,0,0,1,18.76,23A181.86,181.86,0,0,0,88.22,208.71,90.4,90.4,0,0,1,64.15,191.37Zm63,26.62a89.71,89.71,0,0,1-27.75-4.65,169.86,169.86,0,0,1,112-119,89.12,89.12,0,0,1,6.34,27.41A142.57,142.57,0,0,0,127.15,218Zm90.62-83.53a90.15,90.15,0,0,1-77.88,82.75A130.62,130.62,0,0,1,217.77,134.46Z"/></svg>`,
     style: "light",
-    tags: ["yarn"],
+    tags: ["yarn", "thread", "knit", "craft", "sewing", "wool", "hobby", "light", "material", "textile"],
     category: "light"
   },
   {
@@ -72474,7 +72474,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yarn Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,220h0l-64.79,0A100,100,0,1,0,128,228l104,0a4,4,0,0,0,0-8ZM128,36a91.5,91.5,0,0,1,52.43,16.44,219.41,219.41,0,0,0-36.38,19.18A218.63,218.63,0,0,0,87.63,45.35,91.31,91.31,0,0,1,128,36ZM77.85,50.91a210.45,210.45,0,0,1,59,25.6,220.83,220.83,0,0,0-26.07,21.77A177.81,177.81,0,0,0,50.81,78,92.59,92.59,0,0,1,77.85,50.91ZM46.44,85.46a169.84,169.84,0,0,1,58.47,18.73,221.81,221.81,0,0,0-20.84,25.32,138.5,138.5,0,0,0-47.36-12.94A91.36,91.36,0,0,1,46.44,85.46Zm9.32,99.44A91.54,91.54,0,0,1,36,128c0-1.16,0-2.3.07-3.45a130.5,130.5,0,0,1,43.46,11.67A218.37,218.37,0,0,0,55.76,184.9Zm6.12,7A213.32,213.32,0,0,1,187.79,58.13a92.71,92.71,0,0,1,21.28,26.42,179.87,179.87,0,0,0-119.53,127A92.65,92.65,0,0,1,61.88,191.9ZM128,220a91.62,91.62,0,0,1-31-5.37A171.82,171.82,0,0,1,212.59,91.84a91.29,91.29,0,0,1,7.28,31.28A140.54,140.54,0,0,0,128.69,220Zm91.92-88.45a92.13,92.13,0,0,1-82.81,88A132.58,132.58,0,0,1,219.92,131.55Z"/></svg>`,
     style: "thin",
-    tags: ["yarn"],
+    tags: ["yarn", "thread", "knit", "craft", "sewing", "wool", "hobby", "thin", "material", "textile"],
     category: "thin"
   },
   {
@@ -72482,7 +72482,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yarn Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,216H183.39A103.95,103.95,0,1,0,128,232l104,0a8,8,0,1,0,0-16ZM128,40a87.51,87.51,0,0,1,43.93,11.77,222.06,222.06,0,0,0-27.88,15.09,222.23,222.23,0,0,0-45-22A87.52,87.52,0,0,1,128,40ZM78.56,55.24a206,206,0,0,1,51.11,21.57A225.76,225.76,0,0,0,110.1,93.36,181.54,181.54,0,0,0,57.73,75.09,88.67,88.67,0,0,1,78.56,55.24ZM48.72,89.82a165.82,165.82,0,0,1,49.67,15.51A228,228,0,0,0,82.76,124.5,142.65,142.65,0,0,0,41.28,113,87.5,87.5,0,0,1,48.72,89.82ZM40,129a126.07,126.07,0,0,1,33.63,9,222.36,222.36,0,0,0-19.07,38.45A87.51,87.51,0,0,1,40,129Zm26.42,61.81A209.36,209.36,0,0,1,187,62.74a89,89,0,0,1,16.22,19.57A183.89,183.89,0,0,0,87,205.82,88.56,88.56,0,0,1,66.43,190.81ZM125.66,216A87.66,87.66,0,0,1,101.83,212,167.84,167.84,0,0,1,210.28,96.79a87.35,87.35,0,0,1,5.38,23.55A144.59,144.59,0,0,0,125.66,216Zm89.82-78.44a88.19,88.19,0,0,1-72.67,77.22A128.64,128.64,0,0,1,215.48,137.53Z"/></svg>`,
     style: "regular",
-    tags: ["yarn"],
+    tags: ["yarn", "thread", "knit", "craft", "sewing", "wool", "hobby", "material", "textile", "skein"],
     category: "regular"
   },
   {
@@ -72490,7 +72490,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yin Yang Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20ZM44,128a84.09,84.09,0,0,1,84-84,36,36,0,0,1,0,72,60,60,0,0,0-58.81,71.9A83.73,83.73,0,0,1,44,128Zm84,84a36,36,0,0,1,0-72,60,60,0,0,0,58.81-71.9A83.94,83.94,0,0,1,128,212Zm16-36a16,16,0,1,1-16-16A16,16,0,0,1,144,176ZM112,80a16,16,0,1,1,16,16A16,16,0,0,1,112,80Z"/></svg>`,
     style: "bold",
-    tags: ["yin", "yang"],
+    tags: ["yin", "yang", "balance", "harmony", "duality", "taoism", "spiritual", "philosophy", "bold", "circular", "contrast"],
     category: "bold"
   },
   {
@@ -72498,7 +72498,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yin Yang Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a96,96,0,0,1-96,96,48,48,0,0,1,0-96,48,48,0,0,0,0-96A96,96,0,0,1,224,128Z" opacity="0.2"/><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM40,128a88.1,88.1,0,0,1,88-88,40,40,0,0,1,0,80A56,56,0,0,0,77.39,200,88,88,0,0,1,40,128Zm88,88a40,40,0,0,1,0-80,56,56,0,0,0,50.61-79.95A88,88,0,0,1,128,216Zm12-40a12,12,0,1,1-12-12A12,12,0,0,1,140,176ZM116,80a12,12,0,1,1,12,12A12,12,0,0,1,116,80Z"/></svg>`,
     style: "duotone",
-    tags: ["yin", "yang"],
+    tags: ["yin", "yang", "balance", "harmony", "duality", "taoism", "spiritual", "philosophy", "duotone", "circular", "contrast"],
     category: "duotone"
   },
   {
@@ -72506,7 +72506,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yin Yang Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M140,80a12,12,0,1,1-12-12A12,12,0,0,1,140,80Zm92,48A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-92,48a12,12,0,1,0-12,12A12,12,0,0,0,140,176Zm32-92a44.05,44.05,0,0,0-44-44A88,88,0,0,0,81.09,202.42,52,52,0,0,1,128,128,44.05,44.05,0,0,0,172,84Z"/></svg>`,
     style: "fill",
-    tags: ["yin", "yang"],
+    tags: ["yin", "yang", "balance", "harmony", "duality", "taoism", "spiritual", "philosophy", "filled", "circular", "contrast"],
     category: "fill"
   },
   {
@@ -72514,7 +72514,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yin Yang Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26ZM38,128a90.1,90.1,0,0,1,90-90,42,42,0,0,1,0,84,54,54,0,0,0-44.88,84A90.06,90.06,0,0,1,38,128Zm90,90a42,42,0,0,1,0-84,54,54,0,0,0,44.88-84A90,90,0,0,1,128,218Zm10-42a10,10,0,1,1-10-10A10,10,0,0,1,138,176ZM118,80a10,10,0,1,1,10,10A10,10,0,0,1,118,80Z"/></svg>`,
     style: "light",
-    tags: ["yin", "yang"],
+    tags: ["yin", "yang", "balance", "harmony", "duality", "taoism", "spiritual", "philosophy", "light", "circular", "contrast"],
     category: "light"
   },
   {
@@ -72522,7 +72522,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yin Yang Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,28A100,100,0,1,0,228,128,100.11,100.11,0,0,0,128,28ZM36,128a92.1,92.1,0,0,1,92-92,44,44,0,0,1,0,88,52,52,0,0,0-37.44,88A92.14,92.14,0,0,1,36,128Zm92,92a44,44,0,0,1,0-88,52,52,0,0,0,37.44-88A92,92,0,0,1,128,220Zm8-44a8,8,0,1,1-8-8A8,8,0,0,1,136,176ZM120,80a8,8,0,1,1,8,8A8,8,0,0,1,120,80Z"/></svg>`,
     style: "thin",
-    tags: ["yin", "yang"],
+    tags: ["yin", "yang", "balance", "harmony", "duality", "taoism", "spiritual", "philosophy", "thin", "circular", "contrast"],
     category: "thin"
   },
   {
@@ -72530,7 +72530,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Yin Yang Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM40,128a88.1,88.1,0,0,1,88-88,40,40,0,0,1,0,80A56,56,0,0,0,77.39,200,88,88,0,0,1,40,128Zm88,88a40,40,0,0,1,0-80,56,56,0,0,0,50.61-79.95A88,88,0,0,1,128,216Zm12-40a12,12,0,1,1-12-12A12,12,0,0,1,140,176ZM116,80a12,12,0,1,1,12,12A12,12,0,0,1,116,80Z"/></svg>`,
     style: "regular",
-    tags: ["yin", "yang"],
+    tags: ["yin", "yang", "balance", "harmony", "duality", "taoism", "spiritual", "philosophy", "circular", "contrast", "symbol"],
     category: "regular"
   },
   {
@@ -72538,7 +72538,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Youtube Logo Bold",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M170.49,117.91l-56-36A12,12,0,0,0,96,92v72a12,12,0,0,0,18.49,10.09l56-36a12,12,0,0,0,0-20.18ZM120,142V114l21.81,14Zm118.21-73.5a28.05,28.05,0,0,0-16.93-19.14C186.4,35.91,131.29,36,128,36s-58.4-.09-93.28,13.38A28.05,28.05,0,0,0,17.79,68.52C15.15,78.72,12,97.32,12,128s3.15,49.28,5.79,59.48a28.05,28.05,0,0,0,16.93,19.14C68.21,219.55,120.36,220,127.37,220h1.26c7,0,59.16-.45,92.65-13.38a28.05,28.05,0,0,0,16.93-19.14c2.64-10.2,5.79-28.8,5.79-59.48S240.85,78.72,238.21,68.52ZM215,181.46a4,4,0,0,1-2.34,2.77C182.78,195.76,132.27,196,128.32,196h-.39c-.53,0-53.64.17-84.56-11.77A4,4,0,0,1,41,181.46c-1.88-7.24-5-23.82-5-53.46s3.15-46.22,5-53.46a4,4,0,0,1,2.34-2.77C74.29,59.83,127.39,60,127.92,60h.15c.54,0,53.64-.17,84.56,11.77A4,4,0,0,1,215,74.54c1.88,7.24,5,23.82,5,53.46S216.85,174.22,215,181.46Z"/></svg>`,
     style: "bold",
-    tags: ["youtube", "logo"],
+    tags: ["youtube", "logo", "video", "media", "social", "platform", "streaming", "play", "bold", "brand", "entertainment"],
     category: "bold"
   },
   {
@@ -72546,7 +72546,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Youtube Logo Duotone",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M226.59,71.53a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128s3.07,47.46,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47S228.93,80.54,226.59,71.53ZM112,160V96l48,32Z" opacity="0.2"/><path d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86.12,12s-54.37.18-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68C73.58,55.82,127.4,56,128.05,56s54.37-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"/></svg>`,
     style: "duotone",
-    tags: ["youtube", "logo"],
+    tags: ["youtube", "logo", "video", "media", "social", "platform", "streaming", "play", "duotone", "brand", "entertainment"],
     category: "duotone"
   },
   {
@@ -72554,7 +72554,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Youtube Logo Fill",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-73.74,65-40,28A8,8,0,0,1,108,156V100a8,8,0,0,1,12.59-6.55l40,28a8,8,0,0,1,0,13.1Z"/></svg>`,
     style: "fill",
-    tags: ["youtube", "logo"],
+    tags: ["youtube", "logo", "video", "media", "social", "platform", "streaming", "play", "filled", "brand", "entertainment"],
     category: "fill"
   },
   {
@@ -72562,7 +72562,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Youtube Logo Light",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M163.33,123l-48-32A6,6,0,0,0,106,96v64a6,6,0,0,0,9.33,5l48-32a6,6,0,0,0,0-10ZM118,148.79V107.21L149.18,128ZM232.4,70a22,22,0,0,0-13.28-15C185,41.79,130.27,42,128,42s-57-.21-91.16,13A22,22,0,0,0,23.6,70C21.05,79.89,18,98,18,128s3.05,48.11,5.6,58a22,22,0,0,0,13.28,15C71,214.21,125.72,214,128,214h.71c6.91,0,58-.44,90.45-13a22,22,0,0,0,13.28-15c2.55-9.87,5.6-27.93,5.6-58S235,79.89,232.4,70ZM220.78,183a10,10,0,0,1-6,6.86C182.78,202.19,128.58,202,128,202s-54.71.2-86.75-12.17a10,10,0,0,1-6-6.86C32.84,173.78,30,156.78,30,128s2.84-45.78,5.22-55a10,10,0,0,1,6-6.86C72.06,54.26,123.53,54,127.76,54H128c.54,0,54.71-.2,86.75,12.17a10,10,0,0,1,6,6.86c2.38,9.19,5.22,26.19,5.22,55S223.16,173.78,220.78,183Z"/></svg>`,
     style: "light",
-    tags: ["youtube", "logo"],
+    tags: ["youtube", "logo", "video", "media", "social", "platform", "streaming", "play", "light", "brand", "entertainment"],
     category: "light"
   },
   {
@@ -72570,7 +72570,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Youtube Logo Thin",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M162.22,124.67l-48-32A4,4,0,0,0,108,96v64a4,4,0,0,0,2.11,3.53,4,4,0,0,0,4.11-.2l48-32a4,4,0,0,0,0-6.66ZM116,152.53V103.47L152.79,128Zm114.46-82A20,20,0,0,0,218.4,56.85C184.6,43.79,130.27,44,128,44S71.4,43.79,37.6,56.85A20,20,0,0,0,25.54,70.52C23,80.27,20,98.16,20,128s3,47.73,5.54,57.48A20,20,0,0,0,37.6,199.15C71.4,212.21,125.73,212,128,212h.71c6.89,0,57.58-.43,89.72-12.85a20,20,0,0,0,12.06-13.67C233,175.72,236,157.84,236,128S233,80.27,230.46,70.52Zm-7.74,113a12,12,0,0,1-7.21,8.22C183.14,204.19,128.57,204,128,204s-55.11.19-87.48-12.31a12,12,0,0,1-7.21-8.22C30.87,174.17,28,157,28,128s2.87-46.17,5.28-55.47a12,12,0,0,1,7.21-8.22C72.86,51.81,127.43,52,128,52s55.11-.2,87.48,12.31a12,12,0,0,1,7.21,8.22C225.13,81.83,228,99,228,128S225.13,174.17,222.72,183.47Z"/></svg>`,
     style: "thin",
-    tags: ["youtube", "logo"],
+    tags: ["youtube", "logo", "video", "media", "social", "platform", "streaming", "play", "thin", "brand", "entertainment"],
     category: "thin"
   },
   {
@@ -72578,7 +72578,7 @@ export const phosphorIcons: IconItem[] = [
     name: "Youtube Logo Regular",
     svg: `<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"/></svg>`,
     style: "regular",
-    tags: ["youtube", "logo"],
+    tags: ["youtube", "logo", "video", "media", "social", "platform", "streaming", "play", "brand", "entertainment", "social media"],
     category: "regular"
   }
 ];
