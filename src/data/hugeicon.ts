@@ -35016,7 +35016,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.4 20.4L22 22M21.2 17.6C21.2 15.6118 19.5882 14 17.6 14C15.6118 14 14 15.6118 14 17.6C14 19.5882 15.6118 21.2 17.6 21.2C19.5882 21.2 21.2 19.5882 21.2 17.6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["property", "search"]
+    tags: ["property", "search", "home", "house", "real estate", "find", "magnifying glass", "discovery", "housing", "listing"],
+    category: "finance"
   },
   {
     id: "hugeicon-property-view",
@@ -35029,7 +35030,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.772 18.0225C21.924 18.2357 22 18.3422 22 18.5C22 18.6578 21.924 18.7643 21.772 18.9775C21.089 19.9353 19.3446 22 17 22C14.6554 22 12.911 19.9353 12.228 18.9775C12.076 18.7643 12 18.6578 12 18.5C12 18.3422 12.076 18.2357 12.228 18.0225C12.911 17.0647 14.6554 15 17 15C19.3446 15 21.089 17.0647 21.772 18.0225Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["property", "view"]
+    tags: ["property", "view", "home", "house", "real estate", "eye", "visibility", "housing", "listing", "monitor"],
+    category: "finance"
   },
   {
     id: "hugeicon-protection-mask",
@@ -35039,7 +35041,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.0752 14.8454L18.991 12.4141C19.0832 12.3568 19.1294 12.3282 19.1753 12.3058C19.2213 12.2834 19.2749 12.2638 19.382 12.2245C19.933 12.0226 20.5435 11.8047 21.0395 12.2243C21.3015 12.4459 21.4245 12.8352 21.6707 13.6138C21.8649 14.2282 22.0806 14.8351 21.9699 15.487C21.9119 15.8283 21.7602 16.1483 21.4567 16.7883L20.0275 19.8024C19.4737 20.9703 19.1968 21.5542 18.2759 21.8609C17.3551 22.1675 16.9484 21.9358 16.135 21.4725C12.4487 19.3724 5.30998 13.2604 7.36438 10.4879C8.14017 9.44098 10.1234 9.73499 15.0752 14.8454ZM15.0752 14.8454L14.0098 20.0793" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["protection", "mask"]
+    tags: ["protection", "mask", "security", "safety", "medical", "health", "face", "prevention", "virus", "healthcare", "respirator"],
+    category: "health"
   },
   {
     id: "hugeicon-pulley",
@@ -35055,7 +35058,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 17C18.2864 17 17.903 17.1994 17.6169 17.8964C17.2445 18.8038 16.7909 20.1496 17.1056 20.7031C17.2744 21 17.6601 21 18.4315 21H19.5685C20.3399 21 20.7256 21 20.8944 20.7031C21.2091 20.1496 20.7555 18.8038 20.3831 17.8964C20.1105 17.2323 19.7423 17 19 17Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pulley"]
+    tags: ["pulley", "mechanical", "machine", "lift", "hoist", "engineering", "wheel", "rope", "system"],
+    category: "tool"
   },
   {
     id: "hugeicon-pulse-01",
@@ -35064,7 +35068,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 12H6L7.5 8L9.5 15L13 6L15.5 18L18 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pulse", "01"]
+    tags: ["pulse", "01", "heartbeat", "medical", "health", "activity", "monitor", "rhythm", "line", "graph", "vital signs"],
+    category: "health"
   },
   {
     id: "hugeicon-pulse-02",
@@ -35073,7 +35078,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 12H5L6.5 8L9 15L10.5 12H12.5L14.5 7L16.5 17L19 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pulse", "02"]
+    tags: ["pulse", "02", "heartbeat", "medical", "health", "activity", "monitor", "rhythm", "line", "graph", "vital signs"],
+    category: "health"
   },
   {
     id: "hugeicon-pulse-rectangle-01",
@@ -35083,7 +35089,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 12H7.5L9 9.5L10.5 14L12.5 8L14.5 16L16.5 12H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pulse", "rectangle", "01"]
+    tags: ["pulse", "rectangle", "01", "heartbeat", "medical", "health", "activity", "monitor", "rhythm", "line", "graph", "vital signs"],
+    category: "health"
   },
   {
     id: "hugeicon-pulse-rectangle-02",
@@ -35093,7 +35100,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 13H7.5L9 9L10.5 16L12 13H13.5L15 8L16.5 13H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pulse", "rectangle", "02"]
+    tags: ["pulse", "rectangle", "02", "heartbeat", "medical", "health", "activity", "monitor", "rhythm", "line", "graph", "vital signs"],
+    category: "health"
   },
   {
     id: "hugeicon-pumpkin",
@@ -35106,7 +35114,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 6C12 4.66667 12.6 2 15 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pumpkin"]
+    tags: ["pumpkin", "halloween", "autumn", "fall", "vegetable", "gourd", "food", "harvest", "squash"],
+    category: "food"
   },
   {
     id: "hugeicon-punch",
@@ -35115,7 +35124,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.6 13.7821V11.5M6.6 13.7821C6.6 14.7644 5.79411 15.5607 4.8 15.5607C3.80589 15.5607 3 14.7644 3 13.7821V13C3 9.25027 3 7.3754 3.95491 6.06107C4.26331 5.6366 4.6366 5.26331 5.06107 4.95491C6.3754 4 8.25027 4 12 4C15.7497 4 17.6246 4 18.9389 4.95491C19.3634 5.26331 19.7367 5.6366 20.0451 6.06107C21 7.3754 21 9.26015 21 13.0296C21 14.5561 21 15.3193 20.8431 15.9483C20.3627 17.8739 18.8411 19.3774 16.8923 19.8521C16.4854 19.9512 15.7827 19.9869 14.9252 19.9998C14.0788 19.9998 13.35 20.0759 13.35 18.9998C13.35 17.9839 13.6769 16.8946 14.925 16.8946H15.6M6.6 13.7821V15.116C6.6 16.0983 7.40589 16.8946 8.4 16.8946C9.39411 16.8946 10.2 16.0983 10.2 15.116M10.2 15.116V11.1143M10.2 15.116V15.9123C10.2 16.8946 11.0059 17.6909 12 17.6909C12.9941 17.6909 13.8 16.8946 13.8 15.9123V15.116M17.4 11.5V15.116C17.4 16.0983 16.5941 16.8946 15.6 16.8946M13.8 15.116V11.1143M13.8 15.116C13.8 16.0983 14.6059 16.8946 15.6 16.8946" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["punch"]
+    tags: ["punch", "fist", "hit", "fight", "power", "strength", "attack", "hand", "sport"],
+    category: "sport"
   },
   {
     id: "hugeicon-punching-ball-01",
@@ -35127,7 +35137,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.002 9H9.00195" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["punching", "ball", "01"]
+    tags: ["punching", "ball", "01", "boxing", "sport", "training", "fitness", "exercise", "gym", "bag", "workout"],
+    category: "sport"
   },
   {
     id: "hugeicon-punching-ball-02",
@@ -35138,7 +35149,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 2C9.51472 2 7.5 3.17807 7.5 5.84619C7.5 8.18121 9.5105 8.74889 10.5152 10.9489C10.6595 11.2648 10.7316 11.4227 10.7782 11.4936C10.9831 11.8056 11.1795 11.9309 11.5517 11.9872C11.6363 12 11.7575 12 11.9999 12C12.2423 12 12.3636 12 12.4481 11.9873C12.8204 11.9311 13.0162 11.8063 13.2214 11.4945C13.268 11.4236 13.3404 11.2655 13.4853 10.9491C14.4901 8.75415 16.5 8.20205 16.5 5.84619C16.5 3.15386 14.4853 2 12 2Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["punching", "ball", "02"]
+    tags: ["punching", "ball", "02", "boxing", "sport", "training", "fitness", "exercise", "gym", "bag", "workout"],
+    category: "sport"
   },
   {
     id: "hugeicon-purse-01",
@@ -35150,7 +35162,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.863 15.0024C21.4147 12.9368 19.4727 10.4981 20.1725 8.38201C20.3978 7.70069 19.8861 7 19.1631 7H4.82864C4.10627 7 3.59628 7.70208 3.82496 8.38173C4.53702 10.4979 2.58784 12.9411 2.13769 15.0065C1.51926 17.8441 3.02182 20.7941 5.88585 21.3928C9.75734 22.2021 14.2396 22.2024 18.1116 21.3937C20.9776 20.7951 22.4795 17.8424 21.863 15.0024Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["purse", "01"]
+    tags: ["purse", "01", "wallet", "money", "fashion", "accessory", "bag", "finance", "shopping", "cash"],
+    category: "commerce"
   },
   {
     id: "hugeicon-purse",
@@ -35162,7 +35175,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 20H16C18.8284 20 20.2426 20 21.1213 19.1213C22 18.2426 22 16.8284 22 14V13C22 10.1716 22 8.75736 21.1213 7.87868C20.48 7.23738 19.5534 7.06413 18 7.01732M10 7H16C16.7641 7 17.425 7 18 7.01732M18 7.01732C18 6.06917 18 5.5951 17.8425 5.22208C17.6399 4.7421 17.2579 4.36014 16.7779 4.15749C16.4049 4 15.9308 4 14.9827 4H10C6.22876 4 4.34315 4 3.17157 5.17157C2 6.34315 2 7.22876 2 11V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["purse"]
+    tags: ["purse", "wallet", "money", "fashion", "accessory", "bag", "finance", "shopping", "cash"],
+    category: "commerce"
   },
   {
     id: "hugeicon-push-up-bar",
@@ -35178,7 +35192,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 20.5H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["push", "up", "bar"]
+    tags: ["push", "up", "bar", "fitness", "exercise", "workout", "gym", "sport", "strength", "training", "equipment"],
+    category: "sport"
   },
   {
     id: "hugeicon-puzzle",
@@ -35187,7 +35202,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.828 6.00096C12.9388 5.68791 12.999 5.35099 12.999 5C12.999 3.34315 11.6559 2 9.99904 2C8.34219 2 6.99904 3.34315 6.99904 5C6.99904 5.35099 7.05932 5.68791 7.17008 6.00096C4.88532 6.0093 3.66601 6.09039 2.87772 6.87868C2.08951 7.66689 2.00836 8.88603 2 11.1704C2.31251 11.06 2.64876 11 2.99904 11C4.6559 11 5.99904 12.3431 5.99904 14C5.99904 15.6569 4.6559 17 2.99904 17C2.64876 17 2.31251 16.94 2 16.8296C2.00836 19.114 2.08951 20.3331 2.87772 21.1213C3.66593 21.9095 4.88508 21.9907 7.16941 21.999C7.05908 21.6865 6.99904 21.3503 6.99904 21C6.99904 19.3431 8.34219 18 9.99904 18C11.6559 18 12.999 19.3431 12.999 21C12.999 21.3503 12.939 21.6865 12.8287 21.999C15.113 21.9907 16.3322 21.9095 17.1204 21.1213C17.9086 20.333 17.9897 19.1137 17.9981 16.829C18.3111 16.9397 18.648 17 18.999 17C20.6559 17 21.999 15.6569 21.999 14C21.999 12.3431 20.6559 11 18.999 11C18.648 11 18.3111 11.0603 17.9981 11.171C17.9897 8.88627 17.9086 7.66697 17.1204 6.87868C16.3321 6.09039 15.1128 6.0093 12.828 6.00096Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["puzzle"]
+    tags: ["puzzle", "game", "solution", "problem", "logic", "connection", "strategy", "piece", "teamwork", "challenge"],
+    category: "other"
   },
   {
     id: "hugeicon-pyramid-maslowo",
@@ -35198,7 +35214,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 9L12 21" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pyramid", "maslowo"]
+    tags: ["pyramid", "maslowo", "hierarchy", "structure", "needs", "psychology", "growth", "foundation", "levels", "development"],
+    category: "education"
   },
   {
     id: "hugeicon-pyramid-structure-01",
@@ -35209,7 +35226,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.24328 22H15.7567C19.3099 22 21.0866 22 21.7671 20.8828C22.1944 20.1813 22.0132 19.3288 21.392 18.0487C21.1514 17.5529 21.0311 17.305 20.7877 17.1525C20.5442 17 20.2499 17 19.6613 17H4.33871C3.75012 17 3.45582 17 3.21234 17.1525C2.96886 17.305 2.84856 17.5529 2.60797 18.0487C1.98681 19.3288 1.80564 20.1813 2.23293 20.8828C2.91344 22 4.69006 22 8.24328 22Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pyramid", "structure", "01"]
+    tags: ["pyramid", "structure", "01", "hierarchy", "organization", "levels", "management", "foundation", "growth", "chart", "business"],
+    category: "other"
   },
   {
     id: "hugeicon-pyramid-structure-02",
@@ -35219,7 +35237,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 15H21M6.81818 9H17" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pyramid", "structure", "02"]
+    tags: ["pyramid", "structure", "02", "hierarchy", "organization", "levels", "management", "foundation", "growth", "chart", "business"],
+    category: "other"
   },
   {
     id: "hugeicon-pyramid",
@@ -35229,7 +35248,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.8692 13.6759L21.9887 17.5864M21.9887 17.5864L21.9944 17.5895M21.9887 17.5864C22.0642 17.1494 21.7569 16.6584 21.1866 15.7472L13.7843 3.91929C12.9835 2.63976 12.5831 2 12 2C11.4169 2 11.0165 2.63976 10.2157 3.91929L2.81338 15.7472C2.24312 16.6584 1.93582 17.1494 2.01127 17.5864M21.9887 17.5864C21.9824 17.6232 21.9733 17.6597 21.9614 17.696C21.8087 18.1627 21.267 18.3791 20.1838 18.8118L12.7814 21.7688C12.3956 21.9229 12.2026 22 12 22C11.7974 22 11.6045 21.9229 11.2186 21.7688L3.8162 18.8118C2.73296 18.3791 2.19134 18.1627 2.0386 17.696C2.02672 17.6597 2.01764 17.6232 2.01127 17.5864M2.00558 17.5895L2.01127 17.5864M2.01127 17.5864L9.13079 13.6759" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["pyramid"]
+    tags: ["pyramid", "ancient", "egypt", "structure", "history", "geometry", "monument", "desert", "building"],
+    category: "other"
   },
   {
     id: "hugeicon-python",
@@ -35241,7 +35261,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 8.5V12H8.5V15.5M12 15.5H15.5M8.5 8.5H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["python"]
+    tags: ["python", "programming", "code", "language", "development", "coding", "software", "snake", "data science"],
+    category: "system"
   },
   {
     id: "hugeicon-qq-plot",
@@ -35256,7 +35277,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 17H13.009" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["qq", "plot"]
+    tags: ["qq", "plot", "statistics", "data", "analysis", "graph", "chart", "distribution", "comparison", "scientific"],
+    category: "other"
   },
   {
     id: "hugeicon-qr-code-01",
@@ -35271,7 +35293,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 10L17 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["qr", "code", "01"]
+    tags: ["qr", "code", "01", "scan", "barcode", "digital", "mobile", "information", "payment", "link", "quick response"],
+    category: "system"
   },
   {
     id: "hugeicon-qr-code",
@@ -35285,7 +35308,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 12H15C13.5858 12 12.8787 12 12.4393 12.4393C12 12.8787 12 13.5858 12 15M12 17.7692V20.5385M15 15V16.5C15 17.9464 15.7837 18 17 18C17.5523 18 18 18.4477 18 19M16 21H15M18 15C19.4142 15 20.1213 15 20.5607 15.44C21 15.8799 21 16.5881 21 18.0043C21 19.4206 21 20.1287 20.5607 20.5687C20.24 20.8898 19.7767 20.9766 19 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["qr", "code"]
+    tags: ["qr", "code", "scan", "barcode", "digital", "mobile", "information", "payment", "link", "quick response"],
+    category: "system"
   },
   {
     id: "hugeicon-question",
@@ -35297,7 +35321,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.2854 11.7889C10.2854 13.3202 9.04129 14.5616 7.50664 14.5616C5.97199 14.5616 4.72791 13.3202 4.72791 11.7889C4.72791 10.2576 5.97199 9.01624 7.50664 9.01624C9.04129 9.01624 10.2854 10.2576 10.2854 11.7889Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["question"]
+    tags: ["question", "help", "support", "faq", "query", "information", "doubt", "inquiry", "unknown", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-queue-01",
@@ -35309,7 +35334,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 6H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["queue", "01"]
+    tags: ["queue", "01", "line", "waiting", "order", "process", "sequence", "list", "management", "linear", "system"],
+    category: "system"
   },
   {
     id: "hugeicon-queue-02",
@@ -35320,7 +35346,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 6H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["queue", "02"]
+    tags: ["queue", "02", "line", "waiting", "order", "process", "sequence", "list", "management", "linear", "system"],
+    category: "system"
   },
   {
     id: "hugeicon-quill-write-01",
@@ -35330,7 +35357,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 22C4 15.5 7.84848 12.1818 10.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quill", "write", "01"]
+    tags: ["quill", "write", "01", "pen", "ink", "feather", "document", "signature", "history", "education", "creative", "author", "tool"],
+    category: "tool"
   },
   {
     id: "hugeicon-quill-write-02",
@@ -35341,7 +35369,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 17C11 11.5 12.9604 9.63636 15 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quill", "write", "02"]
+    tags: ["quill", "write", "02", "pen", "ink", "feather", "document", "signature", "history", "education", "creative", "author", "tool"],
+    category: "tool"
   },
   {
     id: "hugeicon-quiz-01",
@@ -35352,7 +35381,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.992 17H12.001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quiz", "01"]
+    tags: ["quiz", "01", "test", "question", "answer", "assessment", "education", "survey", "challenge", "brainstorm", "ui"],
+    category: "education"
   },
   {
     id: "hugeicon-quiz-02",
@@ -35364,7 +35394,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.992 14H12.001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quiz", "02"]
+    tags: ["quiz", "02", "test", "question", "answer", "assessment", "education", "survey", "challenge", "brainstorm", "ui"],
+    category: "education"
   },
   {
     id: "hugeicon-quiz-03",
@@ -35378,7 +35409,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 17C13.5 17 14 17 14.5 18C14.5 18 16.0882 15.5 17.5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quiz", "03"]
+    tags: ["quiz", "03", "test", "question", "answer", "assessment", "education", "survey", "challenge", "brainstorm", "ui"],
+    category: "education"
   },
   {
     id: "hugeicon-quiz-04",
@@ -35391,7 +35423,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 17C13.5 17 14 17 14.5 18C14.5 18 16.0882 15.5 17.5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quiz", "04"]
+    tags: ["quiz", "04", "test", "question", "answer", "assessment", "education", "survey", "challenge", "brainstorm", "ui"],
+    category: "education"
   },
   {
     id: "hugeicon-quiz-05",
@@ -35403,7 +35436,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.2365 17.0188C15.5829 16.7993 18.2485 14.1315 18.4678 10.7823C18.5107 10.1269 18.5107 9.4481 18.4678 8.79268C18.2485 5.44345 15.5829 2.77563 12.2365 2.55611C11.0948 2.48122 9.90285 2.48137 8.76352 2.55611C5.41711 2.77563 2.75153 5.44345 2.53219 8.79268C2.48927 9.4481 2.48927 10.1269 2.53219 10.7823C2.61208 12.0021 3.15875 13.1315 3.80233 14.0852C4.17601 14.7529 3.92939 15.5862 3.54017 16.3141C3.25953 16.8389 3.11921 17.1013 3.23187 17.2909C3.34454 17.4804 3.59621 17.4865 4.09954 17.4986C5.09493 17.5225 5.76615 17.244 6.29894 16.8563C6.60112 16.6364 6.75221 16.5264 6.85635 16.5138C6.96048 16.5012 7.16541 16.5845 7.57521 16.751C7.94352 16.9007 8.37117 16.9931 8.76352 17.0188C9.90285 17.0936 11.0948 17.0937 12.2365 17.0188Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quiz", "05"]
+    tags: ["quiz", "05", "test", "question", "answer", "assessment", "education", "survey", "challenge", "brainstorm", "ui"],
+    category: "education"
   },
   {
     id: "hugeicon-quora",
@@ -35414,7 +35448,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.2413 18.6619C12.5301 18.882 11.778 19 11 19C6.58172 19 3 15.1944 3 10.5C3 5.80558 6.58172 2 11 2C15.4183 2 19 5.80558 19 10.5C19 11.7477 18.747 12.9326 18.2925 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quora"]
+    tags: ["quora", "social media", "platform", "community", "questions", "answers", "knowledge", "discussion", "network", "social"],
+    category: "social"
   },
   {
     id: "hugeicon-quote-down-circle",
@@ -35424,7 +35459,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.7456 10C10.7456 9.05719 10.7456 8.58579 10.4347 8.29289C10.1239 8 9.62351 8 8.62281 8C7.62211 8 7.12176 8 6.81088 8.29289C6.5 8.58579 6.5 9.05719 6.5 10C6.5 10.9428 6.5 11.4142 6.81088 11.7071C7.12176 12 7.62211 12 8.62281 12C9.62351 12 10.1239 12 10.4347 11.7071C10.7456 11.4142 10.7456 10.9428 10.7456 10ZM10.7456 10L10.7456 12.0687C10.7456 13.9022 9.41052 15.4571 7.5614 16M17.5 10C17.5 9.05719 17.5 8.58579 17.1891 8.29289C16.8782 8 16.3779 8 15.3772 8C14.3765 8 13.8761 8 13.5653 8.29289C13.2544 8.58579 13.2544 9.05719 13.2544 10C13.2544 10.9428 13.2544 11.4142 13.5653 11.7071C13.8761 12 14.3765 12 15.3772 12C16.3779 12 16.8782 12 17.1891 11.7071C17.5 11.4142 17.5 10.9428 17.5 10ZM17.5 10V12.0687C17.5 13.9022 16.1649 15.4571 14.3158 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quote", "down", "circle"]
+    tags: ["quote", "down", "circle", "quotation", "citation", "testimonial", "speech", "dialogue", "comment", "circular", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-quote-down-square",
@@ -35434,7 +35470,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.7456 10C10.7456 9.05719 10.7456 8.58579 10.4347 8.29289C10.1239 8 9.62351 8 8.62281 8C7.62211 8 7.12176 8 6.81088 8.29289C6.5 8.58579 6.5 9.05719 6.5 10C6.5 10.9428 6.5 11.4142 6.81088 11.7071C7.12176 12 7.62211 12 8.62281 12C9.62351 12 10.1239 12 10.4347 11.7071C10.7456 11.4142 10.7456 10.9428 10.7456 10ZM10.7456 10L10.7456 12.0687C10.7456 13.9022 9.41052 15.4571 7.5614 16M17.5 10C17.5 9.05719 17.5 8.58579 17.1891 8.29289C16.8782 8 16.3779 8 15.3772 8C14.3765 8 13.8761 8 13.5653 8.29289C13.2544 8.58579 13.2544 9.05719 13.2544 10C13.2544 10.9428 13.2544 11.4142 13.5653 11.7071C13.8761 12 14.3765 12 15.3772 12C16.3779 12 16.8782 12 17.1891 11.7071C17.5 11.4142 17.5 10.9428 17.5 10ZM17.5 10V12.0687C17.5 13.9022 16.1649 15.4571 14.3158 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quote", "down", "square"]
+    tags: ["quote", "down", "square", "quotation", "citation", "testimonial", "speech", "dialogue", "comment", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-quote-down",
@@ -35446,7 +35483,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 7L22 11.4821C22 15.4547 19.4843 18.8237 16 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quote", "down"]
+    tags: ["quote", "down", "quotation", "citation", "testimonial", "speech", "dialogue", "comment", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-quote-up-circle",
@@ -35456,7 +35494,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.2544 14C13.2544 14.9428 13.2544 15.4142 13.5653 15.7071C13.8761 16 14.3765 16 15.3772 16C16.3779 16 16.8782 16 17.1891 15.7071C17.5 15.4142 17.5 14.9428 17.5 14C17.5 13.0572 17.5 12.5858 17.1891 12.2929C16.8782 12 16.3779 12 15.3772 12C14.3765 12 13.8761 12 13.5653 12.2929C13.2544 12.5858 13.2544 13.0572 13.2544 14ZM13.2544 14V11.9313C13.2544 10.0978 14.5895 8.54292 16.4386 8M6.5 14C6.5 14.9428 6.5 15.4142 6.81088 15.7071C7.12176 16 7.62211 16 8.62281 16C9.62351 16 10.1239 16 10.4347 15.7071C10.7456 15.4142 10.7456 14.9428 10.7456 14C10.7456 13.0572 10.7456 12.5858 10.4347 12.2929C10.1239 12 9.62351 12 8.62281 12C7.62211 12 7.12176 12 6.81088 12.2929C6.5 12.5858 6.5 13.0572 6.5 14ZM6.5 14V11.9313C6.5 10.0978 7.83509 8.54292 9.68421 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quote", "up", "circle"]
+    tags: ["quote", "up", "circle", "quotation", "citation", "testimonial", "speech", "dialogue", "comment", "circular", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-quote-up-square",
@@ -35466,7 +35505,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.2544 14C13.2544 14.9428 13.2544 15.4142 13.5653 15.7071C13.8761 16 14.3765 16 15.3772 16C16.3779 16 16.8782 16 17.1891 15.7071C17.5 15.4142 17.5 14.9428 17.5 14C17.5 13.0572 17.5 12.5858 17.1891 12.2929C16.8782 12 16.3779 12 15.3772 12C14.3765 12 13.8761 12 13.5653 12.2929C13.2544 12.5858 13.2544 13.0572 13.2544 14ZM13.2544 14V11.9313C13.2544 10.0978 14.5895 8.54292 16.4386 8M6.5 14C6.5 14.9428 6.5 15.4142 6.81088 15.7071C7.12176 16 7.62211 16 8.62281 16C9.62351 16 10.1239 16 10.4347 15.7071C10.7456 15.4142 10.7456 14.9428 10.7456 14C10.7456 13.0572 10.7456 12.5858 10.4347 12.2929C10.1239 12 9.62351 12 8.62281 12C7.62211 12 7.12176 12 6.81088 12.2929C6.5 12.5858 6.5 13.0572 6.5 14ZM6.5 14V11.9313C6.5 10.0978 7.83509 8.54292 9.68421 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quote", "up", "square"]
+    tags: ["quote", "up", "square", "quotation", "citation", "testimonial", "speech", "dialogue", "comment", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-quote-up",
@@ -35478,7 +35518,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 16V11.8626C2 8.19569 4.51571 5.08584 8 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quote", "up"]
+    tags: ["quote", "up", "quotation", "citation", "testimonial", "speech", "dialogue", "comment", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-quotes",
@@ -35488,7 +35529,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.7456 10C10.7456 9.05719 10.7456 8.58579 10.4347 8.29289C10.1239 8 9.62351 8 8.62281 8C7.62211 8 7.12176 8 6.81088 8.29289C6.5 8.58579 6.5 9.05719 6.5 10C6.5 10.9428 6.5 11.4142 6.81088 11.7071C7.12176 12 7.62211 12 8.62281 12C9.62351 12 10.1239 12 10.4347 11.7071C10.7456 11.4142 10.7456 10.9428 10.7456 10ZM10.7456 10L10.7456 12.0687C10.7456 13.9022 9.41052 15.4571 7.5614 16M17.5 10C17.5 9.05719 17.5 8.58579 17.1891 8.29289C16.8782 8 16.3779 8 15.3772 8C14.3765 8 13.8761 8 13.5653 8.29289C13.2544 8.58579 13.2544 9.05719 13.2544 10C13.2544 10.9428 13.2544 11.4142 13.5653 11.7071C13.8761 12 14.3765 12 15.3772 12C16.3779 12 16.8782 12 17.1891 11.7071C17.5 11.4142 17.5 10.9428 17.5 10ZM17.5 10V12.0687C17.5 13.9022 16.1649 15.4571 14.3158 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quotes"]
+    tags: ["quotes", "quotation marks", "citation", "testimonial", "speech", "dialogue", "comment", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-quran-01",
@@ -35498,7 +35540,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22.5 8.5L6.5 20.5V15.8043M2.5 8.5L18.5 20.5V15.8043" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quran", "01"]
+    tags: ["quran", "01", "holy book", "islam", "religion", "faith", "scripture", "spiritual", "education", "culture", "book"],
+    category: "education"
   },
   {
     id: "hugeicon-quran-02",
@@ -35510,7 +35553,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 19.5V5.5C4.5 3.567 6.067 2 8 2H18C19.933 2 21.5 3.567 21.5 5.5V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quran", "02"]
+    tags: ["quran", "02", "holy book", "islam", "religion", "faith", "scripture", "spiritual", "education", "culture", "book"],
+    category: "education"
   },
   {
     id: "hugeicon-quran-03",
@@ -35523,7 +35567,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 19.5V5.5C4 3.567 5.567 2 7.5 2H17.5C19.433 2 21 3.567 21 5.5V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["quran", "03"]
+    tags: ["quran", "03", "holy book", "islam", "religion", "faith", "scripture", "spiritual", "education", "culture", "book"],
+    category: "education"
   },
   {
     id: "hugeicon-qwen",
@@ -35534,7 +35579,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.0001 15.5L9.00006 10H15.0001L12.0001 15.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["qwen"]
+    tags: ["qwen", "ai", "artificial intelligence", "chatbot", "technology", "innovation", "digital", "future", "system", "robot"],
+    category: "system"
   },
   {
     id: "hugeicon-racing-flag",
@@ -35545,7 +35591,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 4.90476L10.8235 13M13.1765 3L16 10.619" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["racing", "flag"]
+    tags: ["racing", "flag", "finish line", "start", "competition", "sport", "event", "victory", "checkered", "celebration", "achievement"],
+    category: "sport"
   },
   {
     id: "hugeicon-radar-01",
@@ -35555,7 +35602,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 12L16.9497 7.05025C17.9829 6.01707 18.4995 5.50048 18.3867 4.75173C18.2739 4.00298 17.7382 3.7198 16.6667 3.15343C15.2736 2.41699 13.6855 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 10.5778 21.7031 9.22492 21.1679 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radar", "01"]
+    tags: ["radar", "01", "detection", "scan", "signal", "location", "security", "navigation", "technology", "system", "circular"],
+    category: "system"
   },
   {
     id: "hugeicon-radar-02",
@@ -35565,7 +35613,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C12.9401 6 13.8296 6.21619 14.6217 6.60156C15.3346 6.94843 15.6911 7.12186 15.7764 7.63009C15.8617 8.13832 15.5173 8.48274 14.8284 9.17157L12 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radar", "02"]
+    tags: ["radar", "02", "detection", "scan", "signal", "location", "security", "navigation", "technology", "system", "circular"],
+    category: "system"
   },
   {
     id: "hugeicon-radial",
@@ -35576,7 +35625,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radial"]
+    tags: ["radial", "circular", "concentric", "pattern", "design", "geometric", "abstract", "focus", "center", "system"],
+    category: "other"
   },
   {
     id: "hugeicon-radio-01",
@@ -35588,7 +35638,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 9H6.00898" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radio", "01"]
+    tags: ["radio", "01", "communication", "broadcast", "music", "audio", "vintage", "entertainment", "receiver", "old school"],
+    category: "communication"
   },
   {
     id: "hugeicon-radio-02",
@@ -35602,7 +35653,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="15" cy="13" r="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radio", "02"]
+    tags: ["radio", "02", "communication", "broadcast", "music", "audio", "vintage", "entertainment", "receiver", "old school"],
+    category: "communication"
   },
   {
     id: "hugeicon-radio-button",
@@ -35612,7 +35664,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radio", "button"]
+    tags: ["radio", "button", "ui", "selection", "choice", "option", "form", "input", "interactive", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-radio",
@@ -35624,7 +35677,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 12H7M6 15H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radio"]
+    tags: ["radio", "communication", "broadcast", "music", "audio", "entertainment", "receiver", "frequency", "sound"],
+    category: "communication"
   },
   {
     id: "hugeicon-radioactive-alert",
@@ -35635,7 +35689,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 13C3.91221 11.7857 5.36426 11 7 11C9.76142 11 12 13.2386 12 16C12 18.7614 9.76142 21 7 21C5.3644 21 3.91223 20.2147 3 19.0005" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radioactive", "alert"]
+    tags: ["radioactive", "alert", "warning", "danger", "hazard", "toxic", "nuclear", "radiation", "caution", "security", "biohazard"],
+    category: "security"
   },
   {
     id: "hugeicon-radius",
@@ -35646,7 +35701,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.0007 12H14M19.0007 12C19.0007 11.4398 16.9999 10 16.9999 10M19.0007 12C19.0007 12.5602 16.9999 14 16.9999 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["radius"]
+    tags: ["radius", "geometry", "circle", "measurement", "math", "dimension", "circular", "arc", "design"],
+    category: "other"
   },
   {
     id: "hugeicon-rain-double-drop",
@@ -35656,7 +35712,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 20C19.5386 20 22 16.6243 22 13.3424C22 9.9951 19.2617 6.68726 17.3398 4.77778C16.296 3.74074 14.704 3.74074 13.6602 4.77778" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rain", "double", "drop"]
+    tags: ["rain", "double", "drop", "weather", "water", "storm", "wet", "precipitation", "climate", "forecast", "liquid"],
+    category: "weather"
   },
   {
     id: "hugeicon-rain-drop",
@@ -35665,7 +35722,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.5 13.678C3.5 9.49387 7.08079 5.35907 9.59413 2.97222C10.9591 1.67593 13.0409 1.67593 14.4059 2.97222C16.9192 5.35907 20.5 9.49387 20.5 13.678C20.5 17.7804 17.2812 22 12 22C6.71878 22 3.5 17.7804 3.5 13.678Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["rain", "drop"]
+    tags: ["rain", "drop", "weather", "water", "storm", "wet", "precipitation", "climate", "forecast", "liquid"],
+    category: "weather"
   },
   {
     id: "hugeicon-rain",
@@ -35676,7 +35734,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 7.67122C14 5.99755 15.4744 4.34363 16.5093 3.38889C17.0714 2.87037 17.9286 2.87037 18.4907 3.38889C19.5256 4.34363 21 5.99755 21 7.67122C21 9.31217 19.6746 11 17.5 11C15.3254 11 14 9.31217 14 7.67122Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["rain"]
+    tags: ["rain", "weather", "water", "storm", "wet", "precipitation", "climate", "forecast", "liquid"],
+    category: "weather"
   },
   {
     id: "hugeicon-rainbow",
@@ -35688,7 +35747,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5127 15.2C19.5168 15.2 19.5209 15.2 19.525 15.2C20.8919 15.2 22 16.2745 22 17.6C22 18.9255 20.8919 20 19.525 20H13.75C12.2312 20 11 18.8061 11 17.3333C11 15.9469 12.0912 14.8075 13.4862 14.6788M19.5127 15.2C19.5208 15.1122 19.525 15.0232 19.525 14.9333C19.525 13.3133 18.1707 12 16.5 12C14.9178 12 13.6193 13.1779 13.4862 14.6788M19.5127 15.2C19.4564 15.8051 19.2107 16.3571 18.8336 16.8M13.4862 14.6788C13.573 14.6708 13.661 14.6667 13.75 14.6667C14.3692 14.6667 14.9406 14.8651 15.4003 15.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rainbow"]
+    tags: ["rainbow", "weather", "colorful", "spectrum", "arc", "nature", "hope", "diversity", "magic", "light"],
+    category: "nature"
   },
   {
     id: "hugeicon-ramadhan-01",
@@ -35698,7 +35758,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 11.8049C3 17.1594 7.34065 21.5 12.6951 21.5C17.101 21.5 20.8204 18.5611 22 14.5367C20.5791 15.5691 18.8306 16.1779 16.94 16.1779C12.1804 16.1779 8.32208 12.3196 8.32208 7.56005C8.32208 5.66937 8.93094 3.9209 9.96326 2.5C5.9389 3.67959 3 7.39904 3 11.8049Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ramadhan", "01"]
+    tags: ["ramadhan", "01", "islam", "muslim", "fasting", "holy month", "culture", "religion", "celebration", "eid", "moon"],
+    category: "other"
   },
   {
     id: "hugeicon-ramadhan-02",
@@ -35711,7 +35772,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 9H14.509" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ramadhan", "02"]
+    tags: ["ramadhan", "02", "islam", "muslim", "fasting", "holy month", "culture", "religion", "celebration", "eid", "moon"],
+    category: "other"
   },
   {
     id: "hugeicon-ramadhan-month",
@@ -35724,7 +35786,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 13H14.509" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ramadhan", "month"]
+    tags: ["ramadhan", "month", "islam", "muslim", "fasting", "holy month", "culture", "religion", "celebration", "eid", "moon"],
+    category: "other"
   },
   {
     id: "hugeicon-ranking",
@@ -35737,7 +35800,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.6911 2.57767L13.395 3.99715C13.491 4.19475 13.7469 4.38428 13.9629 4.42057L15.2388 4.6343C16.0547 4.77141 16.2467 5.36824 15.6587 5.957L14.6668 6.95709C14.4989 7.12646 14.4069 7.4531 14.4589 7.68699L14.7428 8.925C14.9668 9.90492 14.4509 10.284 13.591 9.77185L12.3951 9.05808C12.1791 8.92903 11.8232 8.92903 11.6032 9.05808L10.4073 9.77185C9.5514 10.284 9.03146 9.90089 9.25543 8.925L9.5394 7.68699C9.5914 7.4531 9.49941 7.12646 9.33143 6.95709L8.33954 5.957C7.7556 5.36824 7.94358 4.77141 8.75949 4.6343L10.0353 4.42057C10.2473 4.38428 10.5033 4.19475 10.5993 3.99715L11.3032 2.57767C11.6872 1.80744 12.3111 1.80744 12.6911 2.57767Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ranking"]
+    tags: ["ranking", "leaderboard", "top", "score", "achievement", "success", "competition", "performance", "award", "trophy"],
+    category: "other"
   },
   {
     id: "hugeicon-rar-01",
@@ -35747,7 +35811,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 19V16H6C6.82843 16 7.5 16.6716 7.5 17.5C7.5 18.3284 6.82843 19 6 19H5.5M4 19V22M4 19H5.5M5.5 19L7.5 22M16.5 19V16H18.5C19.3284 16 20 16.6716 20 17.5C20 18.3284 19.3284 19 18.5 19H18M16.5 19V22M16.5 19H18M18 19L20 22M10 22L11.75 16H12.25L14 22M11 20H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rar", "01"]
+    tags: ["rar", "01", "file", "archive", "compress", "document", "data", "folder", "storage", "zip"],
+    category: "file"
   },
   {
     id: "hugeicon-rar-02",
@@ -35757,7 +35822,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 16.5V14H8.75C9.44036 14 10 14.5596 10 15.25C10 15.9404 9.44036 16.5 8.75 16.5M7 16.5V19M7 16.5H8.75M8.75 16.5L10 19M18 16.5V14H19.75C20.4404 14 21 14.5596 21 15.25C21 15.9404 20.4404 16.5 19.75 16.5M18 16.5V19M18 16.5H19.75M19.75 16.5L21 19M12 19L13.75 14H14.25L16 19M13 17.5H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rar", "02"]
+    tags: ["rar", "02", "file", "archive", "compress", "document", "data", "folder", "storage", "zip"],
+    category: "file"
   },
   {
     id: "hugeicon-raw-01",
@@ -35769,7 +35835,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 16V22L18 20L20 22V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["raw", "01"]
+    tags: ["raw", "01", "file", "image", "photo", "unprocessed", "data", "document", "camera", "photography"],
+    category: "file"
   },
   {
     id: "hugeicon-raw-02",
@@ -35781,7 +35848,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 14V19L19 17L21 19V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["raw", "02"]
+    tags: ["raw", "02", "file", "image", "photo", "unprocessed", "data", "document", "camera", "photography"],
+    category: "file"
   },
   {
     id: "hugeicon-re",
@@ -35793,7 +35861,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 15.5V14.75C12 13.7835 12.7835 13 13.75 13C14.7165 13 15.5 13.7835 15.5 14.75V15.5H12ZM12 15.5V16.25C12 17.2165 12.7835 18 13.75 18C14.2397 18 14.6824 17.7989 15 17.4747" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["re"]
+    tags: ["re", "refresh", "reload", "repeat", "restart", "circular", "arrow", "update", "sync"],
+    category: "arrow"
   },
   {
     id: "hugeicon-react",
@@ -35805,7 +35874,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 12C13.5 12.8284 12.8284 13.5 12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5C12.8284 10.5 13.5 11.1716 13.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["react"]
+    tags: ["react", "javascript", "framework", "programming", "development", "code", "library", "frontend", "web"],
+    category: "tool"
   },
   {
     id: "hugeicon-real-estate-01",
@@ -35820,7 +35890,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5012 8L17.4922 8M17.5012 12H17.4922M17.5012 16H17.4922" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["real", "estate", "01"]
+    tags: ["real", "estate", "01", "house", "home", "building", "property", "housing", "architecture", "residence", "mortgage", "buy", "sell"],
+    category: "commerce"
   },
   {
     id: "hugeicon-real-estate-02",
@@ -35835,7 +35906,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.5 16V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["real", "estate", "02"]
+    tags: ["real", "estate", "02", "house", "home", "building", "property", "housing", "architecture", "residence", "mortgage", "buy", "sell"],
+    category: "commerce"
   },
   {
     id: "hugeicon-receipt-dollar",
@@ -35845,7 +35917,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.94 21.5124L9.02913 20.3073C8.54415 20.0014 8.30166 19.8485 8.03253 19.8397C7.74172 19.8301 7.49493 19.9768 6.97087 20.3073C6.38395 20.6774 5.21687 21.6971 4.46195 21.2108C4 20.9133 4 20.1575 4 18.6458V8.00002C4 5.17158 4 3.75736 4.82699 2.87868C5.65399 2 6.98501 2 9.64706 2H14.3529C17.015 2 18.346 2 19.173 2.87868C20 3.75736 20 5.17158 20 8.00002V18.6458C20 20.1575 20 20.9133 19.538 21.2108C18.7831 21.6971 17.6161 20.6774 17.0291 20.3073C16.5441 20.0014 16.3017 19.8485 16.0325 19.8397C15.7417 19.8301 15.4949 19.9768 14.9709 20.3073L13.06 21.5124C12.5445 21.8374 12.2868 22 12 22C11.7132 22 11.4554 21.8374 10.94 21.5124Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["receipt", "dollar"]
+    tags: ["receipt", "dollar", "invoice", "bill", "payment", "transaction", "shopping", "purchase", "finance", "money", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-record",
@@ -35854,7 +35927,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["record"]
+    tags: ["record", "media", "audio", "video", "capture", "save", "button", "camera", "microphone", "red"],
+    category: "media"
   },
   {
     id: "hugeicon-recovery-mail",
@@ -35865,7 +35939,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.6632 15.9994C21.1015 14.8169 19.8962 13.9994 18.5 13.9994C16.567 13.9994 15 15.5664 15 17.4994C15 19.4323 16.567 20.9994 18.5 20.9994C20.0853 20.9994 21.5695 19.9454 22 18.5M21.6632 15.9994V13.5M21.6632 15.9994L19.4277 16.1574" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["recovery", "mail"]
+    tags: ["recovery", "mail", "email", "security", "password", "reset", "account", "forgot", "verification", "access", "envelope"],
+    category: "security"
   },
   {
     id: "hugeicon-rectangular-01",
@@ -35875,7 +35950,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.01879 21.666C4.14189 22.0005 4.76432 22.0005 6.00918 22.0005H16C16.3645 22.0005 16.5467 22.0005 16.7153 21.9441M4.01879 21.666C3.89569 21.3315 4.38173 20.9608 5.3538 20.2196L7.68924 18.4387C7.97383 18.2217 8.11612 18.1132 8.28472 18.0568M4.01879 21.666V5.66597M8.28472 18.0568C8.45332 18.0005 8.63555 18.0005 9 18.0005H14M8.28472 18.0568V9.00046M16.7153 21.9441C16.8839 21.8877 17.0262 21.7792 17.3108 21.5622L19.6462 19.7813C20.6183 19.0401 21.1043 18.6695 20.9812 18.335V2.33496M16.7153 21.9441V5.94409" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rectangular", "01"]
+    tags: ["rectangular", "01", "square", "box", "geometric", "shape", "outline", "frame", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-rectangular",
@@ -35884,7 +35960,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 12C2 9.19974 2 7.79961 2.54497 6.73005C3.02433 5.78924 3.78924 5.02433 4.73005 4.54497C5.79961 4 7.19974 4 10 4H14C16.8003 4 18.2004 4 19.27 4.54497C20.2108 5.02433 20.9757 5.78924 21.455 6.73005C22 7.79961 22 9.19974 22 12C22 14.8003 22 16.2004 21.455 17.27C20.9757 18.2108 20.2108 18.9757 19.27 19.455C18.2004 20 16.8003 20 14 20H10C7.19974 20 5.79961 20 4.73005 19.455C3.78924 18.9757 3.02433 18.2108 2.54497 17.27C2 16.2004 2 14.8003 2 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rectangular"]
+    tags: ["rectangular", "square", "box", "geometric", "shape", "filled", "solid", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-recycle-01",
@@ -35895,7 +35972,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 8.03384L8.99165 6.15531C10.4526 3.38777 11.1831 2.004 12.2929 2.00001C13.4027 1.99601 14.1419 3.37449 15.6204 6.13145L15.8647 6.58709C16.7821 8.29766 17.2407 9.15294 16.8728 9.68491C16.5048 10.2169 15.6024 10.0032 13.7975 9.5758L13.715 9.55628" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["recycle", "01"]
+    tags: ["recycle", "01", "reuse", "eco", "environment", "sustainability", "arrows", "circular", "outline", "green"],
+    category: "other"
   },
   {
     id: "hugeicon-recycle-02",
@@ -35904,7 +35982,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.8386 19.7631H16.4671C19.3324 19.7631 20.7651 19.7631 21.4622 19.0038C21.6578 18.7907 21.8093 18.544 21.9087 18.2766C22.2627 17.3239 21.567 16.1237 20.1754 13.7234M10.8386 19.7631L13.7564 17.5262M10.8386 19.7631L13.7564 22M18.4896 10.8154L15.507 5.6705C14.2306 3.4687 13.5924 2.36781 12.7003 2.10134C12.248 1.96622 11.7634 1.96622 11.3111 2.10134C10.419 2.36781 9.78081 3.4687 8.50438 5.6705M18.4896 10.8154L15.0117 9.50645M18.4896 10.8154L19.0588 7.27638M6.81856 8.57849L3.73542 13.8968C2.43531 16.1395 1.78525 17.2608 2.06354 18.1613C2.17186 18.5119 2.36819 18.8316 2.63534 19.0926C3.32163 19.7631 4.66018 19.7631 7.33728 19.7631M6.81856 8.57849L7.36018 12.1215M6.81856 8.57849L3.33053 9.8626" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["recycle", "02"]
+    tags: ["recycle", "02", "reuse", "eco", "environment", "sustainability", "arrows", "circular", "filled", "solid", "green"],
+    category: "other"
   },
   {
     id: "hugeicon-recycle-03",
@@ -35913,7 +35992,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 3.72302C4.99202 4.63247 2 8.21683 2 12.5C2 13.0111 2.0426 13.5122 2.12444 14M9 3.72302L6 2.5M9 3.72302L8 6.5M19.0645 16.5C19.6633 15.295 20 13.9368 20 12.5C20 8.04051 16.7566 4.33855 12.5 3.62444M19.0645 16.5L22 14.5M19.0645 16.5L17.5 13.5M3.51555 17.5C5.13007 19.912 7.87958 21.5 11 21.5C13.3051 21.5 15.4077 20.6334 17 19.2083M3.51555 17.5H7M3.51555 17.5V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["recycle", "03"]
+    tags: ["recycle", "03", "reuse", "eco", "environment", "sustainability", "arrows", "circular", "minimal", "outline", "green"],
+    category: "other"
   },
   {
     id: "hugeicon-reddit",
@@ -35929,7 +36009,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.008 13L14.999 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reddit"]
+    tags: ["reddit", "social media", "platform", "community", "forum", "alien", "logo", "app", "social"],
+    category: "social"
   },
   {
     id: "hugeicon-redo-02",
@@ -35939,7 +36020,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.9991 3V4.27816C20.9991 6.47004 20.9991 7.56599 20.2918 8.16512C19.5846 8.76425 18.5036 8.58408 16.3415 8.22373L14.9991 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["redo", "02"]
+    tags: ["redo", "02", "forward", "repeat", "action", "arrow", "curve", "ui", "navigation", "outline"],
+    category: "arrow"
   },
   {
     id: "hugeicon-redo-03",
@@ -35949,7 +36031,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 4L18.1538 4.87652C20.0513 6.31801 21 7.03875 21 8C21 8.96125 20.0513 9.68199 18.1538 11.1235L17 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["redo", "03"]
+    tags: ["redo", "03", "forward", "repeat", "action", "arrow", "curve", "ui", "navigation", "filled"],
+    category: "arrow"
   },
   {
     id: "hugeicon-redo",
@@ -35958,7 +36041,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C15.2073 3 18.0227 4.67765 19.6166 7.20327M20.7066 3.00076L20.5344 5.05452C20.4104 6.53384 20.3484 7.27349 19.8664 7.68914C19.3844 8.10479 18.6733 8.03185 17.251 7.88595L15.2066 7.67625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["redo"]
+    tags: ["redo", "forward", "repeat", "action", "arrow", "curve", "ui", "navigation", "minimal"],
+    category: "arrow"
   },
   {
     id: "hugeicon-reflex",
@@ -35968,7 +36052,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.9368 10.5C15.9785 10.1889 16 9.87134 16 9.54873C16 5.65582 12.866 2.5 9 2.5C5.13401 2.5 2 5.65582 2 9.54873C2 12.3606 3.63505 14.8687 6 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reflex"]
+    tags: ["reflex", "camera", "photography", "lens", "shutter", "capture", "device", "media", "outline"],
+    category: "device"
   },
   {
     id: "hugeicon-refresh",
@@ -35977,7 +36062,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.0092 2V5.13219C20.0092 5.42605 19.6418 5.55908 19.4537 5.33333C17.6226 3.2875 14.9617 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["refresh"]
+    tags: ["refresh", "reload", "update", "sync", "circular", "arrows", "spin", "ui", "system"],
+    category: "system"
   },
   {
     id: "hugeicon-refrigerator",
@@ -35989,7 +36075,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 10H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["refrigerator"]
+    tags: ["refrigerator", "fridge", "appliance", "kitchen", "cold", "food storage", "home", "device", "outline"],
+    category: "device"
   },
   {
     id: "hugeicon-register",
@@ -35999,7 +36086,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 16V9C10 8.44772 10.4477 8 11 8H12.75C13.9926 8 15 9.00736 15 10.25C15 11.4926 13.9926 12.5 12.75 12.5H10M13 12.5L14.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["register"]
+    tags: ["register", "signup", "account", "user", "profile", "add user", "onboarding", "system", "outline"],
+    category: "system"
   },
   {
     id: "hugeicon-registered",
@@ -36009,7 +36097,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 12H12.5M9 12V7H12.5C13.8807 7 15 8.11929 15 9.5C15 10.8807 13.8807 12 12.5 12M9 12V17M12.5 12L15 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["registered"]
+    tags: ["registered", "trademark", "copyright", "brand", "legal", "official", "mark", "security", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-relieved-01",
@@ -36020,7 +36109,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 15C8.91212 16.2144 10.3643 17 12 17C13.6357 17 15.0879 16.2144 16 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["relieved", "01"]
+    tags: ["relieved", "01", "happy", "calm", "peaceful", "content", "emotion", "face", "emoji", "outline"],
+    category: "social"
   },
   {
     id: "hugeicon-relieved-02",
@@ -36031,7 +36121,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 17.5C10 17.5 8 16 7.5 14" stroke="currentColor" stroke-width="1.38889" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["relieved", "02"]
+    tags: ["relieved", "02", "happy", "calm", "peaceful", "content", "emotion", "face", "emoji", "filled"],
+    category: "social"
   },
   {
     id: "hugeicon-reload",
@@ -36040,7 +36131,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.1667 0.999756L15.7646 2.11753C16.1689 2.87322 16.371 3.25107 16.2374 3.41289C16.1037 3.57471 15.6635 3.44402 14.7831 3.18264C13.9029 2.92131 12.9684 2.78071 12 2.78071C6.75329 2.78071 2.5 6.90822 2.5 11.9998C2.5 13.6789 2.96262 15.2533 3.77093 16.6093M8.83333 22.9998L8.23536 21.882C7.83108 21.1263 7.62894 20.7484 7.7626 20.5866C7.89627 20.4248 8.33649 20.5555 9.21689 20.8169C10.0971 21.0782 11.0316 21.2188 12 21.2188C17.2467 21.2188 21.5 17.0913 21.5 11.9998C21.5 10.3206 21.0374 8.74623 20.2291 7.39023" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reload"]
+    tags: ["reload", "refresh", "update", "sync", "circular", "arrows", "spin", "ui", "system"],
+    category: "system"
   },
   {
     id: "hugeicon-reminder",
@@ -36052,7 +36144,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.3342 8.42912C11.9258 6.71484 15.4993 5.00055 15.4993 5.00055C15.4993 5.00055 19.0746 6.71484 16.6663 8.42912M14.3342 8.42912H16.6663M14.3342 8.42912L13.7507 11.0005M16.6663 8.42912L17.4821 11.0005" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reminder"]
+    tags: ["reminder", "alert", "notification", "bell", "alarm", "schedule", "time", "ui", "system"],
+    category: "time"
   },
   {
     id: "hugeicon-remote-control",
@@ -36066,7 +36159,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 8C15 9.65685 13.6569 11 12 11C10.3431 11 9 9.65685 9 8C9 6.34315 10.3431 5 12 5C13.6569 5 15 6.34315 15 8Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["remote", "control"]
+    tags: ["remote", "control", "controller", "tv", "device", "media", "electronics", "entertainment", "ui", "tool"],
+    category: "device"
   },
   {
     id: "hugeicon-remove-01",
@@ -36075,7 +36169,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 12L4 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "01"]
+    tags: ["remove", "01", "delete", "minus", "subtract", "clear", "close", "cancel", "ui", "system"],
+    category: "system"
   },
   {
     id: "hugeicon-remove-02",
@@ -36084,7 +36179,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 12C3 11.4188 3 11.1282 3.0575 10.8897C3.21354 10.2427 3.6684 9.73726 4.25074 9.56389C4.46534 9.5 4.72689 9.5 5.25 9.5H18.75C19.2731 9.5 19.5347 9.5 19.7493 9.56389C20.3316 9.73726 20.7865 10.2427 20.9425 10.8897C21 11.1282 21 11.4188 21 12C21 12.5812 21 12.8718 20.9425 13.1103C20.7865 13.7573 20.3316 14.2627 19.7493 14.4361C19.5347 14.5 19.2731 14.5 18.75 14.5H5.25C4.72689 14.5 4.46534 14.5 4.25074 14.4361C3.6684 14.2627 3.21354 13.7573 3.0575 13.1103C3 12.8718 3 12.5812 3 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "02"]
+    tags: ["remove", "02", "delete", "minus", "subtract", "clear", "close", "cancel", "ui", "system"],
+    category: "system"
   },
   {
     id: "hugeicon-remove-circle-half-dot",
@@ -36095,7 +36191,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 8.5C2.86239 7.67056 3.3189 6.89166 3.85601 6.17677M6.17681 3.85598C6.89168 3.31888 7.67058 2.86239 8.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "circle", "half", "dot"]
+    tags: ["remove", "circle", "half", "dot", "delete", "minus", "subtract", "clear", "close", "cancel", "ui", "system", "partial"],
+    category: "system"
   },
   {
     id: "hugeicon-remove-circle",
@@ -36105,7 +36202,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "circle"]
+    tags: ["remove", "circle", "delete", "minus", "subtract", "clear", "close", "cancel", "ui", "system", "circular"],
+    category: "system"
   },
   {
     id: "hugeicon-remove-female",
@@ -36115,7 +36213,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 22L19.5 19.5M19.5 19.5L22 17M19.5 19.5L17 17M19.5 19.5L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "female"]
+    tags: ["remove", "female", "delete user", "minus user", "person", "profile", "account", "system", "social"],
+    category: "social"
   },
   {
     id: "hugeicon-remove-male",
@@ -36125,7 +36224,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 22L19.5 19.5M19.5 19.5L22 17M19.5 19.5L17 17M19.5 19.5L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "male"]
+    tags: ["remove", "male", "delete user", "minus user", "person", "profile", "account", "system", "social"],
+    category: "social"
   },
   {
     id: "hugeicon-remove-pi",
@@ -36137,7 +36237,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.3333 17.5H15.6667M21 17.5C21 19.7091 19.2091 21.5 17 21.5C14.7909 21.5 13 19.7091 13 17.5C13 15.2909 14.7909 13.5 17 13.5C19.2091 13.5 21 15.2909 21 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "pi"]
+    tags: ["remove", "pi", "delete", "minus", "math", "calculation", "number", "circular", "geometric", "outline", "equation", "algebra"],
+    category: "other"
   },
   {
     id: "hugeicon-remove-square",
@@ -36147,7 +36248,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["remove", "square"]
+    tags: ["remove", "square", "delete", "minus", "box", "shape", "geometric", "outline", "ui", "control", "button"],
+    category: "ui"
   },
   {
     id: "hugeicon-renewable-energy-01",
@@ -36158,7 +36260,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.49981 12H7.50879" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["renewable", "energy", "01"]
+    tags: ["renewable", "energy", "01", "green", "eco", "environment", "power", "sustainable", "leaf", "nature", "circular", "clean", "ecology"],
+    category: "nature"
   },
   {
     id: "hugeicon-renewable-energy",
@@ -36168,7 +36271,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.61288 11.6647L12.112 7.17326C12.3857 6.82199 12.8986 7.04062 12.8986 7.50853V10.985C12.8986 11.2653 13.0998 11.4925 13.3479 11.4925H15.0498C15.4364 11.4925 15.6425 12.0074 15.3871 12.3353L11.888 16.8267C11.6143 17.178 11.1014 16.9594 11.1014 16.4915V13.015C11.1014 12.7347 10.9002 12.5075 10.6521 12.5075H8.95018C8.56356 12.5075 8.35747 11.9926 8.61288 11.6647Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["renewable", "energy"]
+    tags: ["renewable", "energy", "green", "eco", "environment", "power", "sustainable", "leaf", "nature", "circular", "clean", "ecology"],
+    category: "nature"
   },
   {
     id: "hugeicon-repair",
@@ -36180,7 +36284,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.797 14.5L17.401 20.1041C17.9288 20.6319 18.7846 20.6319 19.3124 20.1041L20.1041 19.3124C20.632 18.7845 20.632 17.9288 20.1041 17.401L14.5001 11.7969" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repair"]
+    tags: ["repair", "fix", "tool", "wrench", "maintenance", "settings", "gear", "service", "engineering", "mechanic", "troubleshoot"],
+    category: "tool"
   },
   {
     id: "hugeicon-repeat-off",
@@ -36191,7 +36296,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 12H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repeat", "off"]
+    tags: ["repeat", "off", "loop", "disable", "cancel", "music", "playback", "arrow", "crossed out", "control", "ui"],
+    category: "media"
   },
   {
     id: "hugeicon-repeat-one-01",
@@ -36202,7 +36308,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 15L13 9.31633C13 9.05613 12.7178 8.90761 12.52 9.06373L11 10.2636" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repeat", "one", "01"]
+    tags: ["repeat", "one", "01", "loop", "music", "playback", "arrow", "circular", "control", "ui", "single", "again", "reiterate"],
+    category: "media"
   },
   {
     id: "hugeicon-repeat-one-02",
@@ -36213,7 +36320,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.61156 21L6.60875 20.0243C6.16074 19.5883 5.93673 19.3704 6.01557 19.1852C6.09441 19 6.4112 19 7.04478 19H14.8058C18.2499 19 21.2943 16.6452 22 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repeat", "one", "02"]
+    tags: ["repeat", "one", "02", "loop", "music", "playback", "arrow", "circular", "control", "ui", "single", "again", "reiterate"],
+    category: "media"
   },
   {
     id: "hugeicon-repeat",
@@ -36223,7 +36331,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.61156 21L6.60875 20.0243C6.16074 19.5883 5.93673 19.3704 6.01557 19.1852C6.09441 19 6.4112 19 7.04478 19H14.8058C18.779 19 22 15.866 22 12C22 10.5128 21.5233 9.13383 20.7105 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repeat"]
+    tags: ["repeat", "loop", "music", "playback", "arrow", "circular", "control", "ui", "again", "reiterate", "continuous"],
+    category: "media"
   },
   {
     id: "hugeicon-replay",
@@ -36234,7 +36343,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.9453 12.3577C15.7686 12.9844 14.9333 13.4273 13.2629 14.3131C11.648 15.1693 10.8406 15.5975 10.1899 15.4254C9.9209 15.3542 9.6758 15.2191 9.47812 15.0329C9 14.5827 9 13.7094 9 11.9629C9 10.2163 9 9.34307 9.47812 8.89284C9.6758 8.7067 9.9209 8.57157 10.1899 8.50042C10.8406 8.32833 11.648 8.75646 13.2629 9.61272C14.9333 10.4985 15.7686 10.9414 15.9453 11.5681C16.0182 11.8268 16.0182 12.099 15.9453 12.3577Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["replay"]
+    tags: ["replay", "rewind", "playback", "video", "audio", "arrow", "circular", "control", "ui", "restart", "again"],
+    category: "media"
   },
   {
     id: "hugeicon-replit",
@@ -36245,7 +36355,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 9.5V14.5C20 15.0523 19.5523 15.5 19 15.5H12V8.5H19C19.5523 8.5 20 8.94772 20 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["replit"]
+    tags: ["replit", "code", "platform", "development", "programming", "ide", "coding", "brand", "logo", "text editor", "software"],
+    category: "other"
   },
   {
     id: "hugeicon-repository",
@@ -36257,7 +36368,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 6L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["repository"]
+    tags: ["repository", "code", "git", "folder", "storage", "version control", "development", "programming", "archive", "data", "project"],
+    category: "file"
   },
   {
     id: "hugeicon-reset-password",
@@ -36267,7 +36379,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 11V9.5C10 8.39543 10.8954 7.5 12 7.5C13.1046 7.5 14 8.39543 14 9.5V11M11.25 16.5H12.75C13.9228 16.5 14.5092 16.5 14.9131 16.19C15.0171 16.1102 15.1102 16.0171 15.19 15.9131C15.5 15.5092 15.5 14.9228 15.5 13.75C15.5 12.5772 15.5 11.9908 15.19 11.5869C15.1102 11.4829 15.0171 11.3898 14.9131 11.31C14.5092 11 13.9228 11 12.75 11H11.25C10.0772 11 9.49082 11 9.08686 11.31C8.98286 11.3898 8.88977 11.4829 8.80997 11.5869C8.5 11.9908 8.5 12.5772 8.5 13.75C8.5 14.9228 8.5 15.5092 8.80997 15.9131C8.88977 16.0171 8.98286 16.1102 9.08686 16.19C9.49082 16.5 10.0772 16.5 11.25 16.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reset", "password"]
+    tags: ["reset", "password", "security", "account", "key", "lock", "refresh", "arrow", "login", "authentication", "forgot", "update"],
+    category: "security"
   },
   {
     id: "hugeicon-resize-01",
@@ -36278,7 +36391,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.8348 22L9.8348 21.0513C9.8348 20.4058 9.6261 19.7775 9.23964 19.2595L5.58206 14.3566C5.16022 13.7911 4.8233 13.0896 5.1018 12.4419C5.55264 11.3935 6.82458 10.7124 8.38144 12.2843L9.97865 13.9937L9.97865 3.57057C10.0349 1.52742 13.3229 1.42614 13.4635 3.57057L13.4635 9.5106C14.9435 9.31946 21.9155 10.3629 20.8993 14.7831C20.851 14.9931 20.8028 15.2063 20.7557 15.4165C20.5501 16.3353 19.9422 17.9727 19.2719 18.93C18.5741 19.9266 18.8203 20.9192 18.8203 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["resize", "01"]
+    tags: ["resize", "01", "scale", "dimensions", "expand", "contract", "arrows", "ui", "adjust", "transform", "size", "layout"],
+    category: "ui"
   },
   {
     id: "hugeicon-resize-02",
@@ -36289,7 +36403,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 4.5L2.5 4.5M6.5 4.5C6.5 3.93982 5.0057 2.89322 4.5 2.5M6.5 4.5C6.5 5.06018 5.0057 6.10678 4.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["resize", "02"]
+    tags: ["resize", "02", "scale", "dimensions", "expand", "contract", "arrows", "ui", "adjust", "transform", "size", "layout"],
+    category: "ui"
   },
   {
     id: "hugeicon-resize-field-rectangle",
@@ -36299,7 +36414,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 18.0002L18 17.0002M13 18.0002L18 13.0002M9 18L18 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["resize", "field", "rectangle"]
+    tags: ["resize", "field", "rectangle", "scale", "dimensions", "text box", "input", "form", "ui", "adjust", "layout", "corners", "handle"],
+    category: "ui"
   },
   {
     id: "hugeicon-resize-field",
@@ -36308,7 +36424,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 18.0002L18 16.0002M11 18.0002L18 11.0002M6 18L18 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["resize", "field"]
+    tags: ["resize", "field", "scale", "dimensions", "text box", "input", "form", "ui", "adjust", "layout", "corners", "handle"],
+    category: "ui"
   },
   {
     id: "hugeicon-resources-add",
@@ -36320,7 +36437,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 2V10M22 6L14 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["resources", "add"]
+    tags: ["resources", "add", "assets", "plus", "folder", "data", "management", "file", "new", "create", "collection", "library"],
+    category: "file"
   },
   {
     id: "hugeicon-resources-remove",
@@ -36332,7 +36450,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 6L14 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["resources", "remove"]
+    tags: ["resources", "remove", "assets", "minus", "folder", "data", "management", "file", "delete", "erase", "collection", "library"],
+    category: "file"
   },
   {
     id: "hugeicon-restaurant-01",
@@ -36344,7 +36463,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.84473 9.84571C7.47968 11.2108 5.60771 11.552 3.90145 9.84571C2.19514 8.13939 1.30058 5.03166 2.66563 3.66661C4.03069 2.30156 7.13841 3.19611 8.84473 4.90243C10.551 6.60868 10.2098 8.48065 8.84473 9.84571ZM8.84473 9.84571L20 21.001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restaurant", "01"]
+    tags: ["restaurant", "01", "food", "dining", "eat", "cafe", "cutlery", "fork", "knife", "meal", "gourmet", "cooking"],
+    category: "food"
   },
   {
     id: "hugeicon-restaurant-02",
@@ -36357,7 +36477,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 21L12 13M12 13L2 3C2 6.84174 3.52612 10.5261 6.24264 13.2426L9 16L12 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restaurant", "02"]
+    tags: ["restaurant", "02", "food", "dining", "eat", "cafe", "cutlery", "fork", "knife", "meal", "gourmet", "cooking"],
+    category: "food"
   },
   {
     id: "hugeicon-restaurant-03",
@@ -36370,7 +36491,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 21L12 13M12 13L2 3C2 6.84174 3.52612 10.5261 6.24264 13.2426L9 16L12 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restaurant", "03"]
+    tags: ["restaurant", "03", "food", "dining", "eat", "cafe", "cutlery", "fork", "knife", "meal", "gourmet", "cooking"],
+    category: "food"
   },
   {
     id: "hugeicon-restaurant-table",
@@ -36381,7 +36503,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 17V21M12 21H14M12 21H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restaurant", "table"]
+    tags: ["restaurant", "table", "food", "dining", "eat", "cafe", "meal", "gourmet", "dinner", "seating", "furniture", "place setting"],
+    category: "food"
   },
   {
     id: "hugeicon-restaurant",
@@ -36394,7 +36517,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 14H12M17 14H12M12 14V21M12 21H11M12 21H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restaurant"]
+    tags: ["restaurant", "food", "dining", "eat", "cafe", "cutlery", "fork", "knife", "meal", "gourmet", "cooking"],
+    category: "food"
   },
   {
     id: "hugeicon-restore-bin",
@@ -36405,7 +36529,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.25 5.5H21.25M16.3057 5.5L15.6231 4.09173C15.1696 3.15626 14.9428 2.68852 14.5517 2.39681C14.465 2.3321 14.3731 2.27454 14.277 2.2247C13.8439 2 13.3241 2 12.2845 2C11.2188 2 10.686 2 10.2457 2.23412C10.1481 2.28601 10.055 2.3459 9.96729 2.41317C9.57164 2.7167 9.35063 3.20155 8.90861 4.17126L8.30292 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["restore", "bin"]
+    tags: ["restore", "bin", "recover", "undo", "trash", "recycle", "delete", "arrow", "circular", "system", "data", "retrieval"],
+    category: "system"
   },
   {
     id: "hugeicon-return-request",
@@ -36417,7 +36542,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.5 13.5H14C15.1046 13.5 16 14.3954 16 15.5C16 16.6046 15.1046 17.5 14 17.5H13M10 11.5L8 13.5L10 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["return", "request"]
+    tags: ["return", "request", "undo", "back", "exchange", "refund", "ecommerce", "shopping", "arrow", "circular"],
+    category: "commerce"
   },
   {
     id: "hugeicon-reverse-withdrawal-01",
@@ -36428,7 +36554,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11C21.1568 10.9209 21.2931 10.8212 21.4142 10.6955C22 10.0875 22 9.10893 22 7.15176C22 5.1946 22 4.21602 21.4142 3.60801C20.8284 3 19.8856 3 18 3L6 3C4.11438 3 3.17157 3 2.58579 3.60801C2 4.21602 2 5.1946 2 7.15176C2 9.10893 2 10.0875 2.58579 10.6955C2.70688 10.8212 2.84322 10.9209 3 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reverse", "withdrawal", "01"]
+    tags: ["reverse", "withdrawal", "01", "undo", "transaction", "finance", "money", "cashback", "arrow", "minimal"],
+    category: "finance"
   },
   {
     id: "hugeicon-reverse-withdrawal-02",
@@ -36440,7 +36567,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 7H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["reverse", "withdrawal", "02"]
+    tags: ["reverse", "withdrawal", "02", "undo", "transaction", "finance", "money", "cashback", "arrow", "filled"],
+    category: "finance"
   },
   {
     id: "hugeicon-rhombus-01",
@@ -36449,7 +36577,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.05622 4.78867C9.91534 2.92956 10.8449 2 12 2C13.1551 2 14.0847 2.92956 15.9438 4.78867L19.2113 8.05622C21.0704 9.91534 22 10.8449 22 12C22 13.1551 21.0704 14.0847 19.2113 15.9438L15.9438 19.2113C14.0847 21.0704 13.1551 22 12 22C10.8449 22 9.91534 21.0704 8.05622 19.2113L4.78867 15.9438C2.92956 14.0847 2 13.1551 2 12C2 10.8449 2.92956 9.91534 4.78867 8.05622L8.05622 4.78867Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rhombus", "01"]
+    tags: ["rhombus", "01", "diamond", "geometric", "shape", "abstract", "minimal", "outline"],
+    category: "other"
   },
   {
     id: "hugeicon-rhombus",
@@ -36458,7 +36587,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.91412 5.99584C9.31163 3.33195 10.5104 2 12 2C13.4896 2 14.6884 3.33195 17.0859 5.99584L17.4037 6.34903C19.8012 9.01292 21 10.3449 21 12C21 13.6551 19.8012 14.9871 17.4037 17.651L17.0859 18.0042C14.6884 20.6681 13.4896 22 12 22C10.5104 22 9.31163 20.6681 6.91412 18.0042L6.59626 17.651C4.19875 14.9871 3 13.6551 3 12C3 10.3449 4.19875 9.01292 6.59626 6.34903L6.91412 5.99584Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rhombus"]
+    tags: ["rhombus", "diamond", "geometric", "shape", "abstract", "minimal", "filled"],
+    category: "other"
   },
   {
     id: "hugeicon-rice-bowl-01",
@@ -36470,7 +36600,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 6L18 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rice", "bowl", "01"]
+    tags: ["rice", "bowl", "01", "food", "asian", "meal", "cuisine", "dinner", "chopsticks", "outline"],
+    category: "food"
   },
   {
     id: "hugeicon-rice-bowl-02",
@@ -36483,7 +36614,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 11L9.5 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rice", "bowl", "02"]
+    tags: ["rice", "bowl", "02", "food", "asian", "meal", "cuisine", "dinner", "chopsticks", "filled"],
+    category: "food"
   },
   {
     id: "hugeicon-right-angle",
@@ -36495,7 +36627,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 19H11C8.17157 19 6.75736 19 5.87868 18.1213C5 17.2426 5 15.8284 5 13L5 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["right", "angle"]
+    tags: ["right", "angle", "geometry", "math", "corner", "square", "measurement", "tool"],
+    category: "tool"
   },
   {
     id: "hugeicon-right-to-left-block-quote",
@@ -36507,7 +36640,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 3L19 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["right", "to", "left", "block", "quote"]
+    tags: ["right", "to", "left", "block", "quote", "text", "rtl", "writing", "paragraph", "formatting", "editor"],
+    category: "ui"
   },
   {
     id: "hugeicon-right-to-left-list-bullet",
@@ -36521,7 +36655,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 19L16 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["right", "to", "left", "list", "bullet"]
+    tags: ["right", "to", "left", "list", "bullet", "text", "rtl", "unordered", "formatting", "editor"],
+    category: "ui"
   },
   {
     id: "hugeicon-right-to-left-list-dash",
@@ -36535,7 +36670,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 19L21 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["right", "to", "left", "list", "dash"]
+    tags: ["right", "to", "left", "list", "dash", "text", "rtl", "unordered", "formatting", "editor"],
+    category: "ui"
   },
   {
     id: "hugeicon-right-to-left-list-number",
@@ -36548,7 +36684,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 3H19.2C19.3657 3 19.5 3.13431 19.5 3.3V9M19.5 9H18M19.5 9H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["right", "to", "left", "list", "number"]
+    tags: ["right", "to", "left", "list", "number", "text", "rtl", "numbered", "ordered", "formatting", "editor"],
+    category: "ui"
   },
   {
     id: "hugeicon-right-to-left-list-triangle",
@@ -36561,7 +36698,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 18.5L13 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["right", "to", "left", "list", "triangle"]
+    tags: ["right", "to", "left", "list", "triangle", "text", "rtl", "unordered", "formatting", "editor"],
+    category: "ui"
   },
   {
     id: "hugeicon-right-triangle",
@@ -36571,7 +36709,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 15H5C6.88562 15 7.82843 15 8.41421 15.5858C9 16.1716 9 17.1144 9 19V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["right", "triangle"]
+    tags: ["right", "triangle", "geometry", "math", "shape", "minimal", "outline", "angle"],
+    category: "other"
   },
   {
     id: "hugeicon-ripple",
@@ -36581,7 +36720,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 13.5C6.5 15.1569 7.84315 16.5 9.5 16.5C10.5435 16.5 11.4625 15.9672 12 15.1589C12.5375 15.9672 13.4565 16.5 14.5 16.5C16.1569 16.5 17.5 15.1569 17.5 13.5C17.5 11.9523 16.328 10.6784 14.8232 10.5172C14.9376 10.1996 15 9.85707 15 9.5C15 7.84314 13.6569 6.5 12 6.5C10.3431 6.5 9 7.84314 9 9.5C9 9.85707 9.06238 10.1996 9.17684 10.5172C7.67196 10.6784 6.5 11.9523 6.5 13.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ripple"]
+    tags: ["ripple", "wave", "water", "sound", "effect", "concentric", "abstract"],
+    category: "nature"
   },
   {
     id: "hugeicon-riyal-rectangle",
@@ -36595,7 +36735,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 15.5V15.51" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["riyal", "rectangle"]
+    tags: ["riyal", "rectangle", "currency", "money", "saudi", "finance", "payment", "cash"],
+    category: "finance"
   },
   {
     id: "hugeicon-riyal",
@@ -36609,7 +36750,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 15.5V15.51" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["riyal"]
+    tags: ["riyal", "currency", "money", "saudi", "finance", "payment", "cash", "circle"],
+    category: "finance"
   },
   {
     id: "hugeicon-road-01",
@@ -36621,7 +36763,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 16.4999L12 18.4999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["road", "01"]
+    tags: ["road", "01", "path", "route", "travel", "journey", "transportation", "navigation", "outline"],
+    category: "transport"
   },
   {
     id: "hugeicon-road-02",
@@ -36633,7 +36776,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 12L5.5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["road", "02"]
+    tags: ["road", "02", "path", "route", "travel", "journey", "transportation", "navigation", "filled"],
+    category: "transport"
   },
   {
     id: "hugeicon-road-location-01",
@@ -36645,7 +36789,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 8C19.7745 8.14988 20.3588 8.40002 20.8284 8.81749C22 9.85903 22 11.5353 22 14.888C22 18.2406 22 19.9169 20.8284 20.9585C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.9585C2 19.9169 2 18.2406 2 14.888C2 11.5353 2 9.85902 3.17157 8.81749C3.64118 8.40002 4.2255 8.14988 5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["road", "location", "01"]
+    tags: ["road", "location", "01", "map", "gps", "destination", "address", "pin", "navigation", "outline"],
+    category: "navigation"
   },
   {
     id: "hugeicon-road-location-02",
@@ -36657,7 +36802,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 8.08203C19.7745 8.23191 20.3588 8.48205 20.8284 8.89953C22 9.94106 22 11.6174 22 14.97C22 18.3227 22 19.999 20.8284 21.0405C19.6569 22.082 17.7712 22.082 14 22.082H10C6.22876 22.082 4.34315 22.082 3.17157 21.0405C2 19.999 2 18.3226 2 14.97C2 11.6174 2 9.94106 3.17157 8.89952C3.64118 8.48205 4.2255 8.23191 5 8.08203" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["road", "location", "02"]
+    tags: ["road", "location", "02", "map", "gps", "destination", "address", "pin", "navigation", "filled"],
+    category: "navigation"
   },
   {
     id: "hugeicon-road-wayside",
@@ -36674,7 +36820,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 12L2.5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["road", "wayside"]
+    tags: ["road", "wayside", "rest stop", "travel", "journey", "break", "scenery", "nature", "transport"],
+    category: "transport"
   },
   {
     id: "hugeicon-road",
@@ -36687,7 +36834,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.72533 5.65438L6.55526 6.41335M6.55526 6.41335C6.71446 6.14502 6.99041 5.67493 7.08183 5.38084C7.88067 2.81094 7.95145 2.10297 9.18504 2.00183H14.8119C16.0455 2.10297 16.1163 2.81094 16.9151 5.38084C17.0065 5.67493 17.2326 6.14502 17.3918 6.41335M6.55526 6.41335C5.95054 7.43262 5.1493 8.09969 5.02924 8.98037C5.0096 9.12441 5.02924 10.7318 5.02924 11.898C5.02924 12.7742 5.87312 12.7475 6.69535 12.8157C7.21787 12.859 7.74116 12.9538 8.26545 12.9592C11.1713 12.9888 13.0926 12.9919 15.9671 12.9606C16.5229 12.9545 17.083 12.85 17.637 12.803C18.2625 12.7499 18.9165 12.6794 18.9677 11.898C19.044 10.733 18.9873 9.12441 18.9677 8.98037C18.8476 8.09969 17.9965 7.43262 17.3918 6.41335M6.55526 6.41335H17.3918M17.3918 6.41335L18.364 5.65438M5.20362 8.42936L6.41209 9.34913M10.5581 10.5112L13.4968 10.5112M17.6201 9.32635L18.9548 8.90078M7.08183 12.855L7.00382 14.4987M16.9822 12.8755V14.4987" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["road"]
+    tags: ["road", "path", "route", "travel", "journey", "transportation", "navigation", "minimal"],
+    category: "transport"
   },
   {
     id: "hugeicon-robot-01",
@@ -36699,7 +36847,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 6.66667C5.5 6.04669 5.5 5.73669 5.56815 5.48236C5.75308 4.79218 6.29218 4.25308 6.98236 4.06815C7.23669 4 7.54669 4 8.16667 4H15.8333C16.4533 4 16.7633 4 17.0176 4.06815C17.7078 4.25308 18.2469 4.79218 18.4319 5.48236C18.5 5.73669 18.5 6.04669 18.5 6.66667C18.5 7.90663 18.5 8.52661 18.3637 9.03528C17.9938 10.4156 16.9156 11.4938 15.5353 11.8637C15.0266 12 14.4066 12 13.1667 12H10.8333C9.59337 12 8.97339 12 8.46472 11.8637C7.08436 11.4938 6.00617 10.4156 5.6363 9.03528C5.5 8.52661 5.5 7.90663 5.5 6.66667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["robot", "01"]
+    tags: ["robot", "01", "ai", "automation", "machine", "android", "technology", "future", "outline"],
+    category: "device"
   },
   {
     id: "hugeicon-robot-02",
@@ -36712,7 +36861,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 18.5H8.09861C8.66175 18.5 9.18763 18.2186 9.5 17.75C9.81237 17.2814 10.3383 17 10.9014 17H13.0986C13.6617 17 14.1876 17.2814 14.5 17.75C14.8124 18.2186 15.3383 18.5 15.9014 18.5H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["robot", "02"]
+    tags: ["robot", "02", "ai", "automation", "machine", "android", "technology", "future", "filled"],
+    category: "device"
   },
   {
     id: "hugeicon-robotic",
@@ -36728,7 +36878,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 17.5C10 17.5 10.6667 18 12 18C13.3333 18 14 17.5 14 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["robotic"]
+    tags: ["robotic", "robot", "ai", "automation", "android", "cyborg", "technology", "future", "machine", "bot"],
+    category: "system"
   },
   {
     id: "hugeicon-rocket-01",
@@ -36741,7 +36892,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 15.5L4.5 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rocket", "01"]
+    tags: ["rocket", "01", "launch", "startup", "boost", "space", "ambition", "progress", "growth", "takeoff", "ship"],
+    category: "transport"
   },
   {
     id: "hugeicon-rocket-02",
@@ -36754,7 +36906,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 15V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rocket", "02"]
+    tags: ["rocket", "02", "launch", "startup", "boost", "space", "ambition", "progress", "growth", "takeoff", "ship"],
+    category: "transport"
   },
   {
     id: "hugeicon-rocket",
@@ -36768,7 +36921,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.94 6.06006L16.5 7.50006" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rocket"]
+    tags: ["rocket", "launch", "startup", "boost", "space", "ambition", "progress", "growth", "takeoff", "ship"],
+    category: "transport"
   },
   {
     id: "hugeicon-rocking-chair",
@@ -36782,7 +36936,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 18C5.72574 20.412 8.66464 22 12 22C15.3354 22 18.2743 20.412 20 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rocking", "chair"]
+    tags: ["rocking", "chair", "furniture", "relax", "comfort", "home", "leisure", "old-fashioned", "rest", "cozy", "seat"],
+    category: "other"
   },
   {
     id: "hugeicon-rocking-horse",
@@ -36794,7 +36949,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 19L16.5383 16.2306C15.5598 15.1298 14.1573 14.5 12.6846 14.5C11.002 14.5 9.42536 15.3209 8.4605 16.6993L6.5 19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rocking", "horse"]
+    tags: ["rocking", "horse", "toy", "childhood", "play", "nostalgia", "wooden", "vintage", "baby", "fun"],
+    category: "other"
   },
   {
     id: "hugeicon-roller-skate",
@@ -36810,7 +36966,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 19H10M14 19H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["roller", "skate"]
+    tags: ["roller", "skate", "skating", "sport", "recreation", "fun", "activity", "retro", "wheels", "shoe"],
+    category: "sport"
   },
   {
     id: "hugeicon-rolling-pin",
@@ -36821,7 +36978,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 19.2904C5.65327 20.1754 4.98877 21.1891 4.62887 21.549C4.02748 22.1503 3.05243 22.1503 2.45104 21.549C1.84965 20.9476 1.84965 19.9725 2.45104 19.3711C2.81094 19.0112 3.82465 18.3467 4.70962 18" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["rolling", "pin"]
+    tags: ["rolling", "pin", "baking", "kitchen", "cooking", "dough", "utensil", "pastry", "food prep", "bakery"],
+    category: "food"
   },
   {
     id: "hugeicon-root-01",
@@ -36832,7 +36990,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.0005 10.998C19.5005 10.998 18.5405 12.66 17.7005 13.68C16.6205 15.24 15.4205 17.1 13.9805 16.98" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["root", "01"]
+    tags: ["root", "01", "mathematics", "square root", "equation", "calculation", "algebra", "math symbol", "number"],
+    category: "education"
   },
   {
     id: "hugeicon-root-02",
@@ -36844,7 +37003,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.7407 11.4199C15.8945 11.4199 15.3905 12.3659 14.9167 12.9587C14.3074 13.8654 13.6807 14.8799 12.8887 14.8519" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["root", "02"]
+    tags: ["root", "02", "mathematics", "square root", "equation", "calculation", "algebra", "math symbol", "number"],
+    category: "education"
   },
   {
     id: "hugeicon-root-1st-bracket",
@@ -36857,7 +37017,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 3C20.411 4.93486 22 8.24345 22 12C22 15.7565 20.411 19.0651 18 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["root", "1st", "bracket"]
+    tags: ["root", "1st", "bracket", "mathematics", "square root", "equation", "calculation", "algebra", "math symbol", "number", "parenthesis"],
+    category: "education"
   },
   {
     id: "hugeicon-root-2nd-bracket",
@@ -36868,7 +37029,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 3C4.90606 3.18809 4.10096 3.52076 3.46447 4.10918C2 5.46303 2 7.64202 2 12C2 16.358 2 18.537 3.46447 19.8908C4.10096 20.4792 4.90606 20.8119 6 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["root", "2nd", "bracket"]
+    tags: ["root", "2nd", "bracket", "mathematics", "square root", "equation", "calculation", "algebra", "math symbol", "number", "parenthesis"],
+    category: "education"
   },
   {
     id: "hugeicon-root-3rd-bracket",
@@ -36881,7 +37043,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 21C4.76784 21 3.76897 19.8487 3.76897 18.4286C3.76897 16.1808 3.86877 14.6865 2.32673 12.9091C1.89109 12.407 1.89109 11.593 2.32673 11.0909C3.83496 9.35251 3.76897 7.83992 3.76897 5.57143C3.76897 4.15127 4.76784 3 6 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["root", "3rd", "bracket"]
+    tags: ["root", "3rd", "bracket", "mathematics", "square root", "equation", "calculation", "algebra", "math symbol", "number", "parenthesis"],
+    category: "education"
   },
   {
     id: "hugeicon-root-circle",
@@ -36891,7 +37054,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["root", "circle"]
+    tags: ["root", "circle", "mathematics", "square root", "equation", "calculation", "algebra", "math symbol", "number", "circular"],
+    category: "education"
   },
   {
     id: "hugeicon-rotate-01",
@@ -36900,7 +37064,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.0092 2V5.13219C20.0092 5.42605 19.6418 5.55908 19.4537 5.33333C17.6226 3.2875 14.9617 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "01"]
+    tags: ["rotate", "01", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-02",
@@ -36910,7 +37075,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.2653 22.0001C11.7984 22.0001 11.3389 21.9688 10.8889 21.9084M21.7346 8.66675C21.847 9.06394 21.9352 9.46536 22 9.86901M21.9654 13.5381C21.8951 13.9381 21.8036 14.3343 21.6915 14.7245M20.1671 17.9963C19.9288 18.3497 19.6704 18.69 19.3929 19.0147M16.5714 21.3607C16.2177 21.5632 15.8496 21.7464 15.4677 21.9084" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "02"]
+    tags: ["rotate", "02", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-360",
@@ -36919,7 +37085,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.4371 12.5061C23.4219 7.00258 22.0614 3.26685 16.9548 3C13.2433 3.07086 9.41471 5.07063 6.35871 8.16433C3.79408 10.7606 1.26891 14.479 2.1959 18.018C2.40059 18.7994 2.79969 19.3318 3.43015 19.8328C5.12441 21.1791 6.7874 21.2976 9.99031 20.5113C13.2339 19.5257 15.2448 18.0408 16.9404 16.5217M16.9404 16.5217C16.9421 16.5201 16.9439 16.5185 16.9457 16.5169C16.9489 16.5141 16.9468 16.5087 16.9425 16.5087C16.9393 16.5087 16.937 16.512 16.9381 16.515C16.9389 16.5173 16.9396 16.5195 16.9404 16.5217ZM16.9404 16.5217C17.3108 17.6169 17.0762 18.5944 16.4385 20.5113" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "360"]
+    tags: ["rotate", "360", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow", "full rotation"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-bottom-left",
@@ -36929,7 +37096,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 14.4201L20.8899 13.0744C20.299 12.3581 20.0035 12 19.6364 12V13C19.6364 16.7712 19.6364 18.6569 18.4648 19.8284C17.2932 21 15.4076 21 11.6364 21H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "bottom", "left"]
+    tags: ["rotate", "bottom", "left", "refresh", "turn", "orientation", "direction", "reload", "spin", "arrow", "corner"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-bottom-right",
@@ -36939,7 +37107,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 14.4201L3.11013 13.0744C3.70104 12.3581 3.99649 12 4.36364 12L4.36364 13C4.36364 16.7712 4.36364 18.6569 5.53521 19.8284C6.70678 21 8.5924 21 12.3636 21L13 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "bottom", "right"]
+    tags: ["rotate", "bottom", "right", "refresh", "turn", "orientation", "direction", "reload", "spin", "arrow", "corner"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-clockwise",
@@ -36949,7 +37118,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.7347 22.0001C12.2016 22.0001 12.6611 21.9688 13.1111 21.9084M2.26537 8.66675C2.15297 9.06394 2.06477 9.46536 2 9.86901M2.03457 13.5381C2.10487 13.9381 2.19644 14.3343 2.30852 14.7245M3.83292 17.9963C4.07124 18.3497 4.3296 18.69 4.6071 19.0147M7.42857 21.3607C7.78228 21.5632 8.15042 21.7464 8.53228 21.9084" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "clockwise"]
+    tags: ["rotate", "clockwise", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow", "time"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-crop",
@@ -36961,7 +37131,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 19L17 12C17 9.64298 17 8.46447 16.2678 7.73223C15.5355 7 14.357 7 12 7L5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "crop"]
+    tags: ["rotate", "crop", "edit", "image", "photo", "adjust", "transform", "picture", "orientation", "tool"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-left-01",
@@ -36971,7 +37142,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.36184 4.96447C9.75873 5.36011 11.4854 5.24597 12.1223 5.16653M9.36184 4.96447C8.96494 4.56883 8.95358 2.63679 9.03328 2.0019M9.36184 4.96447C10.3829 3.19624 14.4425 0.375691 18.4708 3.19624C20.4175 4.55924 20.6922 5.4182 21 5.99362" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "left", "01"]
+    tags: ["rotate", "left", "01", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow", "undo"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-left-02",
@@ -36981,7 +37153,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.86287 4.46465C9.25977 4.8603 10.9864 4.74616 11.6233 4.66671M8.86287 4.46465C8.46598 4.06901 8.45462 2.13697 8.53431 1.50208M8.86287 4.46465C9.88394 2.69642 13.9435 -0.124125 17.9719 2.69642C19.9185 4.05942 20.1932 4.91838 20.5011 5.49381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "left", "02"]
+    tags: ["rotate", "left", "02", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow", "undo"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-left-03",
@@ -36991,7 +37164,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.86287 4.96465C9.25977 5.3603 10.9864 5.24616 11.6233 5.16671M8.86287 4.96465C8.46598 4.56901 8.45462 2.63697 8.53431 2.00208M8.86287 4.96465C9.88394 3.19642 13.9435 0.375875 17.9719 3.19642C19.9185 4.55942 20.1932 5.41838 20.5011 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "left", "03"]
+    tags: ["rotate", "left", "03", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow", "undo"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-left-04",
@@ -37001,7 +37175,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.36287 4.96465C9.75977 5.3603 11.4864 5.24616 12.1233 5.16671M9.36287 4.96465C8.96598 4.56901 8.95462 2.63697 9.03431 2.00208M9.36287 4.96465C10.3839 3.19642 14.4435 0.375874 18.4719 3.19642C20.4185 4.55942 20.6932 5.41838 21.0011 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "left", "04"]
+    tags: ["rotate", "left", "04", "refresh", "turn", "circular", "orientation", "direction", "reload", "spin", "arrow", "undo"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-left-05",
@@ -37011,7 +37186,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.36376 4.96465C9.76065 5.3603 11.4873 5.24616 12.1242 5.16671M9.36376 4.96465C8.96687 4.56901 8.95551 2.63697 9.0352 2.00208M9.36376 4.96465C10.3848 3.19642 14.4444 0.375874 18.4728 3.19642C20.4194 4.55942 20.6941 5.41838 21.002 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "left", "05"]
+    tags: ["rotate", "left", "05", "undo", "back", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-left-06",
@@ -37021,7 +37197,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.36287 4.96465C9.75977 5.3603 11.4864 5.24616 12.1233 5.16671M9.36287 4.96465C8.96598 4.56901 8.95462 2.63697 9.03431 2.00208M9.36287 4.96465C10.3839 3.19642 14.4435 0.375874 18.4719 3.19642C20.4185 4.55942 20.6932 5.41838 21.0011 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "left", "06"]
+    tags: ["rotate", "left", "06", "undo", "back", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-right-01",
@@ -37031,7 +37208,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.6474 4.72061C14.2501 5.11704 12.5218 5.00267 11.8843 4.92307M14.6474 4.72061C15.0446 4.32417 15.056 2.38825 14.9762 1.75209M14.6474 4.72061C13.6253 2.94883 9.56188 0.122614 5.52965 2.94883C3.58112 4.31456 3.30617 5.17524 2.99803 5.75183" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "right", "01"]
+    tags: ["rotate", "right", "01", "redo", "forward", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-right-02",
@@ -37041,7 +37219,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.1362 4.46465C14.7393 4.8603 13.0127 4.74616 12.3758 4.66671M15.1362 4.46465C15.5331 4.06901 15.5445 2.13697 15.4648 1.50208M15.1362 4.46465C14.1152 2.69642 10.0556 -0.124125 6.02724 2.69642C4.08057 4.05942 3.80588 4.91838 3.49804 5.49381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "right", "02"]
+    tags: ["rotate", "right", "02", "redo", "forward", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-right-03",
@@ -37051,7 +37230,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.1362 4.96465C14.7393 5.3603 13.0127 5.24616 12.3758 5.16671M15.1362 4.96465C15.5331 4.56901 15.5445 2.63697 15.4648 2.00208M15.1362 4.96465C14.1152 3.19642 10.0556 0.375875 6.02724 3.19642C4.08057 4.55942 3.80588 5.41838 3.49804 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "right", "03"]
+    tags: ["rotate", "right", "03", "redo", "forward", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-right-04",
@@ -37061,7 +37241,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.6362 4.96465C14.2393 5.3603 12.5127 5.24616 11.8758 5.16671M14.6362 4.96465C15.0331 4.56901 15.0445 2.63697 14.9648 2.00208M14.6362 4.96465C13.6152 3.19642 9.55562 0.375875 5.52724 3.19642C3.58057 4.55942 3.30588 5.41838 2.99804 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "right", "04"]
+    tags: ["rotate", "right", "04", "redo", "forward", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-right-05",
@@ -37071,7 +37252,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.6362 4.96465C14.2393 5.3603 12.5127 5.24616 11.8758 5.16671M14.6362 4.96465C15.0331 4.56901 15.0445 2.63697 14.9648 2.00208M14.6362 4.96465C13.6152 3.19642 9.55562 0.375875 5.52724 3.19642C3.58057 4.55942 3.30588 5.41838 2.99804 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "right", "05"]
+    tags: ["rotate", "right", "05", "redo", "forward", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-right-06",
@@ -37081,7 +37263,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.6362 4.96465C14.2393 5.3603 12.5127 5.24616 11.8758 5.16671M14.6362 4.96465C15.0331 4.56901 15.0445 2.63697 14.9648 2.00208M14.6362 4.96465C13.6152 3.19642 9.55562 0.375875 5.52724 3.19642C3.58057 4.55942 3.30588 5.41838 2.99804 5.99381" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "right", "06"]
+    tags: ["rotate", "right", "06", "redo", "forward", "refresh", "reload", "circular", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-square",
@@ -37090,7 +37273,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.66667 3.86984C9.998 2.62328 10.9234 2 12 2C13.4966 2 14.7009 3.20434 17.1096 5.61302L18.387 6.89042C20.7957 9.2991 22 10.5034 22 12C22 13.4966 20.7957 14.7009 18.387 17.1096L17.1096 18.387C14.7009 20.7957 13.4966 22 12 22C10.5034 22 9.2991 20.7957 6.89042 18.387L5.61302 17.1096C3.20434 14.7009 2 13.4966 2 12C2 10.8912 2.87352 9.7285 4.3058 8.22081C5.01214 7.47727 5.36531 7.1055 5.23534 6.80275C5.10536 6.5 4.59884 6.5 3.58579 6.5H2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "square"]
+    tags: ["rotate", "square", "transform", "orientation", "reposition", "geometric", "ui", "action", "tool"],
+    category: "ui"
   },
   {
     id: "hugeicon-rotate-top-left",
@@ -37100,7 +37284,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.4201 2L13.0744 3.11013C12.3581 3.70104 12 3.99649 12 4.36364L13 4.36364C16.7712 4.36364 18.6569 4.36364 19.8284 5.53521C21 6.70678 21 8.59241 21 12.3636V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "top", "left"]
+    tags: ["rotate", "top", "left", "transform", "orientation", "reposition", "diagonal", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-rotate-top-right",
@@ -37110,7 +37295,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.57987 2L10.9256 3.11013C11.6419 3.70104 12 3.99649 12 4.36364L11 4.36364C7.22876 4.36364 5.34315 4.36364 4.17157 5.53521C3 6.70678 3 8.5924 3 12.3636V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rotate", "top", "right"]
+    tags: ["rotate", "top", "right", "transform", "orientation", "reposition", "diagonal", "arrow", "ui", "action"],
+    category: "arrow"
   },
   {
     id: "hugeicon-route-01",
@@ -37121,7 +37307,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 5H8.5C6.567 5 5 6.567 5 8.5C5 10.433 6.567 12 8.5 12H15.5C17.433 12 19 13.567 19 15.5C19 17.433 17.433 19 15.5 19H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["route", "01"]
+    tags: ["route", "01", "path", "journey", "direction", "travel", "map", "navigation", "destination", "line"],
+    category: "navigation"
   },
   {
     id: "hugeicon-route-02",
@@ -37133,7 +37320,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 7H9.5C7.567 7 6 8.34315 6 10C6 11.6569 7.567 13 9.5 13H12.5C14.433 13 16 14.3431 16 16C16 17.6569 14.433 19 12.5 19H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["route", "02"]
+    tags: ["route", "02", "path", "journey", "direction", "travel", "map", "navigation", "destination", "line"],
+    category: "navigation"
   },
   {
     id: "hugeicon-route-03",
@@ -37145,7 +37333,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 7H9.5C7.567 7 6 8.34315 6 10C6 11.6569 7.567 13 9.5 13H12.5C14.433 13 16 14.3431 16 16C16 17.6569 14.433 19 12.5 19H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["route", "03"]
+    tags: ["route", "03", "path", "journey", "direction", "travel", "map", "navigation", "destination", "line"],
+    category: "navigation"
   },
   {
     id: "hugeicon-route-block",
@@ -37156,7 +37345,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 5H8.5C6.567 5 5 6.567 5 8.5C5 10.433 6.567 12 8.5 12H15.5C17.433 12 19 13.567 19 15.5C19 17.433 17.433 19 15.5 19H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["route", "block"]
+    tags: ["route", "block", "path", "journey", "direction", "travel", "map", "navigation", "blocked", "restricted", "stop"],
+    category: "navigation"
   },
   {
     id: "hugeicon-router-01",
@@ -37170,7 +37360,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 17H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["router", "01"]
+    tags: ["router", "01", "wifi", "network", "internet", "connection", "modem", "wireless", "device", "technology"],
+    category: "device"
   },
   {
     id: "hugeicon-router-02",
@@ -37183,7 +37374,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.99609 5.99683H9.00245" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["router", "02"]
+    tags: ["router", "02", "wifi", "network", "internet", "connection", "modem", "wireless", "device", "technology"],
+    category: "device"
   },
   {
     id: "hugeicon-router",
@@ -37196,7 +37388,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 17H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["router"]
+    tags: ["router", "wifi", "network", "internet", "connection", "modem", "wireless", "device", "technology"],
+    category: "device"
   },
   {
     id: "hugeicon-row-delete",
@@ -37207,7 +37400,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 7.99936L15 2M21 2.00064L15 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["row", "delete"]
+    tags: ["row", "delete", "table", "remove", "minus", "data", "spreadsheet", "ui", "action", "management"],
+    category: "ui"
   },
   {
     id: "hugeicon-row-insert",
@@ -37218,7 +37412,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 9L3.53318 10.5858C4.17772 11.2525 4.5 11.5858 4.5 12C4.5 12.4142 4.17773 12.7475 3.53318 13.4142L2 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["row", "insert"]
+    tags: ["row", "insert", "table", "add", "plus", "data", "spreadsheet", "ui", "action", "management"],
+    category: "ui"
   },
   {
     id: "hugeicon-rss-connected-01",
@@ -37230,7 +37425,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 16.2349C4.49328 16.2349 6.77053 18.5 6.77053 20.9996M10 20.9996C10 16.5 5.99511 13 2.04522 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rss", "connected", "01"]
+    tags: ["rss", "connected", "01", "feed", "subscribe", "news", "broadcast", "syndication", "web", "social", "communication"],
+    category: "communication"
   },
   {
     id: "hugeicon-rss-connected-02",
@@ -37242,7 +37438,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 17.2349C4.49328 17.2349 6.77053 19.5 6.77053 21.9996M10 21.9996C10 17.5 5.99511 14 2.04522 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rss", "connected", "02"]
+    tags: ["rss", "connected", "02", "feed", "subscribe", "news", "broadcast", "syndication", "web", "social", "communication"],
+    category: "communication"
   },
   {
     id: "hugeicon-rss-error",
@@ -37256,7 +37453,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 17.2349C4.49328 17.2349 6.77053 19.5 6.77053 21.9996M10 21.9996C10 17.5 5.99511 14 2.04522 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rss", "error"]
+    tags: ["rss", "error", "feed", "subscribe", "news", "broadcast", "syndication", "web", "alert", "warning", "issue"],
+    category: "communication"
   },
   {
     id: "hugeicon-rss-locked",
@@ -37268,7 +37466,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 17.2349C4.49328 17.2349 6.77053 19.5 6.77053 21.9996M10 21.9996C10 17.5 5.99511 14 2.04522 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rss", "locked"]
+    tags: ["rss", "locked", "feed", "subscribe", "news", "broadcast", "syndication", "web", "private", "secure", "restricted"],
+    category: "communication"
   },
   {
     id: "hugeicon-rss-unlocked",
@@ -37280,7 +37479,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 17.2349C4.49328 17.2349 6.77053 19.5 6.77053 21.9996M10 21.9996C10 17.5 5.99511 14 2.04522 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rss", "unlocked"]
+    tags: ["rss", "unlocked", "feed", "subscribe", "news", "broadcast", "syndication", "web", "public", "open", "access"],
+    category: "communication"
   },
   {
     id: "hugeicon-rss",
@@ -37291,7 +37491,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 15.7349C4.49328 15.7349 6.77053 18 6.77053 20.4996M10 20.4996C10 16 5.99511 12.5 2.04522 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rss"]
+    tags: ["rss", "feed", "syndication", "news", "blog", "updates", "subscribe", "content", "communication", "web"],
+    category: "communication"
   },
   {
     id: "hugeicon-rub-el-hizb",
@@ -37302,7 +37503,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12.5" cy="12" r="2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rub", "el", "hizb"]
+    tags: ["rub", "el", "hizb", "islamic", "star", "geometric", "quran", "religious", "symbol", "ornament", "eight-pointed", "arabic"],
+    category: "other"
   },
   {
     id: "hugeicon-rubber-duck",
@@ -37313,7 +37515,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.0012 18H12.5012C14.7103 18 17.5012 15.2091 17.5012 13H11.0012C9.62048 13 8.50119 14.1193 8.50119 15.5C8.50119 16.8807 9.62048 18 11.0012 18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rubber", "duck"]
+    tags: ["rubber", "duck", "bath", "toy", "childhood", "playful", "cute", "fun", "bathtub", "yellow", "animal"],
+    category: "other"
   },
   {
     id: "hugeicon-rubiks-cube",
@@ -37327,7 +37530,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 20.5V9.5L17 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["rubiks", "cube"]
+    tags: ["rubiks", "cube", "puzzle", "game", "toy", "challenge", "logic", "problem", "brain", "geometric", "playful"],
+    category: "other"
   },
   {
     id: "hugeicon-ruku",
@@ -37338,7 +37542,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 18.5V21.5M9 21.5H8C7.05719 21.5 6.58579 21.5 6.29289 21.2071C6 20.9142 6 20.4428 6 19.5V18.5M9 21.5H10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ruku"]
+    tags: ["ruku", "islamic", "prayer", "muslim", "worship", "religious", "posture", "salah", "spiritual"],
+    category: "other"
   },
   {
     id: "hugeicon-ruler",
@@ -37348,7 +37553,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5355 4.67767C11.9002 3.31296 12.5826 2.6306 13.3438 2.3153C14.3587 1.8949 15.4991 1.8949 16.5141 2.3153C17.2753 2.6306 17.9576 3.31296 19.3223 4.67767C20.687 6.04238 21.3694 6.72474 21.6847 7.48594C22.1051 8.50088 22.1051 9.64126 21.6847 10.6562C21.3694 11.4174 20.687 12.0998 19.3223 13.4645L13.4645 19.3223C12.0998 20.687 11.4174 21.3694 10.6562 21.6847C9.64126 22.1051 8.50088 22.1051 7.48594 21.6847C6.72474 21.3694 6.04238 20.687 4.67767 19.3223C3.31296 17.9576 2.6306 17.2753 2.3153 16.5141C1.8949 15.4991 1.8949 14.3587 2.3153 13.3438C2.6306 12.5826 3.31296 11.9002 4.67767 10.5355L10.5355 4.67767Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ruler"]
+    tags: ["ruler", "measure", "tool", "line", "straightedge", "design", "accuracy", "precision", "school", "geometric"],
+    category: "tool"
   },
   {
     id: "hugeicon-running-shoes",
@@ -37360,7 +37566,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 11L17 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["running", "shoes"]
+    tags: ["running", "shoes", "sneakers", "athletic", "sport", "fitness", "exercise", "jogging", "footwear", "active", "workout"],
+    category: "sport"
   },
   {
     id: "hugeicon-sad-01",
@@ -37371,7 +37578,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.00897 9H8M16 9H15.991" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sad", "01"]
+    tags: ["sad", "01", "unhappy", "frown", "disappointed", "mood", "emotion", "negative", "down", "face", "emoji"],
+    category: "social"
   },
   {
     id: "hugeicon-sad-02",
@@ -37383,7 +37591,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 16C14.1644 15.3721 13.1256 15 12 15C11.0893 15 10.2354 15.2436 9.5 15.6692" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sad", "02"]
+    tags: ["sad", "02", "unhappy", "frown", "disappointed", "mood", "emotion", "negative", "down", "face", "emoji"],
+    category: "social"
   },
   {
     id: "hugeicon-sad-dizzy",
@@ -37394,7 +37603,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 17C8.91212 15.7856 10.3643 15 12 15C13.6357 15 15.0879 15.7856 16 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sad", "dizzy"]
+    tags: ["sad", "dizzy", "unhappy", "confused", "disoriented", "mood", "emotion", "negative", "sick", "face", "emoji"],
+    category: "social"
   },
   {
     id: "hugeicon-safari",
@@ -37406,7 +37616,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12L20.5 12M2 12L3.5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safari"]
+    tags: ["safari", "browser", "web", "internet", "apple", "macos", "ios", "compass", "navigation", "app"],
+    category: "ui"
   },
   {
     id: "hugeicon-safe-delivery-01",
@@ -37418,7 +37629,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 5H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safe", "delivery", "01"]
+    tags: ["safe", "delivery", "01", "package", "shipping", "secure", "logistics", "transport", "box", "mail", "ecommerce", "guaranteed"],
+    category: "transport"
   },
   {
     id: "hugeicon-safe-delivery-02",
@@ -37430,7 +37642,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 9L12 15L20 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safe", "delivery", "02"]
+    tags: ["safe", "delivery", "02", "package", "shipping", "secure", "logistics", "transport", "box", "mail", "ecommerce", "guaranteed"],
+    category: "transport"
   },
   {
     id: "hugeicon-safe",
@@ -37440,7 +37653,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.1712 7.9091V9.5M16.1712 7.9091C16.1712 7.15599 16.8045 6.54546 17.5856 6.54546C18.3668 6.54546 19 7.15599 19 7.9091V9.5M16.1712 7.9091V5.18183C16.1712 4.42871 15.538 3.81819 14.7568 3.81819C13.9757 3.81819 13.3424 4.42871 13.3424 5.18183M13.3424 5.18183V9.5M13.3424 5.18183V3.36364C13.3424 2.61052 12.7092 2 11.928 2C11.1469 2 10.5136 2.61052 10.5136 3.36364V6.09092M10.5136 6.09092C10.5136 5.3378 9.8804 4.72728 9.09925 4.72728C8.3181 4.72728 7.68485 5.3378 7.68485 6.09092V12.638C7.68485 13.054 7.15233 13.2514 6.8624 12.9429L4.57112 10.5043C4.18153 10.0442 3.52308 9.88846 2.95688 10.1224C1.94855 10.539 1.71198 12.0103 2.36735 12.8584C3.48877 14.3098 4.63778 16.2915 5.56538 18.0388C6.82424 20.4102 9.30884 22 12.0719 22M10.5136 6.09092V9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safe"]
+    tags: ["safe", "vault", "security", "storage", "money", "protection", "locked", "finance", "treasure", "deposit"],
+    category: "security"
   },
   {
     id: "hugeicon-safety-pin-01",
@@ -37451,7 +37665,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 17.4103L12 7M6.58974 21L17 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safety", "pin", "01"]
+    tags: ["safety", "pin", "01", "fastener", "clothing", "repair", "utility", "secure", "baby", "sharp", "metal"],
+    category: "tool"
   },
   {
     id: "hugeicon-safety-pin-02",
@@ -37462,7 +37677,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 17.4103L7 5M6.58974 21L17 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["safety", "pin", "02"]
+    tags: ["safety", "pin", "02", "fastener", "clothing", "repair", "utility", "secure", "baby", "sharp", "metal"],
+    category: "tool"
   },
   {
     id: "hugeicon-sailboat-coastal",
@@ -37474,7 +37690,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 21L22 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sailboat", "coastal"]
+    tags: ["sailboat", "coastal", "boat", "sea", "ocean", "travel", "leisure", "water", "transport", "yacht", "vacation"],
+    category: "transport"
   },
   {
     id: "hugeicon-sailboat-offshore",
@@ -37486,7 +37703,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 21.6083C2.79944 22.106 3.83288 22.106 4.65182 21.6083C5.95823 20.7972 7.6546 20.7972 8.9805 21.6083C8.9805 21.6267 9.00001 21.6267 9.00001 21.6267C9.79945 22.1244 10.8524 22.1244 11.6518 21.6267C12.9777 20.8157 14.6741 20.8157 16 21.6267C16.7994 22.1244 17.8329 22.106 18.6518 21.6083C19.6529 20.9868 20.8831 20.8415 22 21.1726" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sailboat", "offshore"]
+    tags: ["sailboat", "offshore", "boat", "sea", "ocean", "travel", "leisure", "water", "transport", "yacht", "vacation"],
+    category: "transport"
   },
   {
     id: "hugeicon-sakura",
@@ -37496,7 +37714,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 18.0876C11.8851 18.2748 11.7593 18.4624 11.6225 18.6497C10.309 20.4472 8.49591 21.5041 7 21.5L6.69824 19.4251L4.62034 19.781C4.15412 18.3677 4.64876 16.267 5.96228 14.4694C3.93504 13.7655 2.44173 12.3965 2 11.0004L3.85945 10.0686L2.89359 8.20296C4.08097 7.32031 6.42003 7.2136 8.50944 7.90417C8.50944 5.5 9.33594 3.36961 10.5399 2.5L12 4L13.4601 2.5C14.6641 3.36961 15.502 5.5 15.4906 7.90417C17.58 7.2136 19.919 7.32031 21.1064 8.20296L20.1406 10.0686L22 11.0004C21.5583 12.3965 20.065 13.7655 18.0377 14.4694C19.3512 16.267 19.8459 18.3677 19.3797 19.781L17.3018 19.4251L17 21.5C15.5041 21.5041 13.691 20.4472 12.3775 18.6497C12.2407 18.4624 12.1149 18.2748 12 18.0876Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sakura"]
+    tags: ["sakura", "cherry blossom", "flower", "japan", "nature", "spring", "beauty", "bloom", "floral", "petal"],
+    category: "nature"
   },
   {
     id: "hugeicon-salah-time",
@@ -37507,7 +37726,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.1148 15.5486C11.7537 13.8925 11.5215 12.2295 13.469 10.2102C15.5149 8.38506 16.6931 7.52188 17.007 7.00244C17.3209 7.52188 18.5182 8.38506 20.5641 10.2102C22.4183 11.8643 22.3017 13.8925 20.9405 15.5486M13.1148 15.5486H12.5923M13.1148 15.5486H20.9405M20.9405 15.5486H21.4009M11.5215 15.5486H12.5923M12.5923 15.5486V21.0934C12.6323 21.7611 12.5923 22.0727 13.8035 21.9852H16.9881M21.4009 15.5486H22.5001M21.4009 15.5486V21.1949C21.5177 22.1018 20.7956 21.9427 20.3338 21.9852H16.9881M16.9881 21.9852L17.0235 19.8507" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["salah", "time"]
+    tags: ["salah", "time", "islamic", "prayer", "muslim", "worship", "religious", "clock", "spiritual", "adhan"],
+    category: "time"
   },
   {
     id: "hugeicon-salah",
@@ -37516,7 +37736,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 18C17.7128 17.2408 17.4563 16.1375 16.5 15.5C15 14.5 13.5 14 13.5 12.5C13.5 11 13 8 13 8L13.6955 7.26803C15.3935 8.02463 17 5.88071 17 4.5C17 3.11929 15.8807 2 14.5 2C13.1193 2 12 3.11929 12 4.5C12 5.5 11.2 6.1 10 6.5C8.5 7 6.5 8 6.5 13C6.5 17 8.33333 18.3333 9 19C5.8 19 5 21 5 22H18C19.1046 22 20 21.1046 20 20C20 18.8954 19.1046 18 18 18ZM18 18C10.2719 18 9.55992 13.3333 10 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["salah"]
+    tags: ["salah", "islamic", "prayer", "muslim", "worship", "religious", "posture", "spiritual", "namaz"],
+    category: "other"
   },
   {
     id: "hugeicon-sale-tag-01",
@@ -37527,7 +37748,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.2726 6.63305C19.1981 6.8108 19.4057 7.39525 19.682 9.01703C19.9309 10.4776 20.0007 12.2304 20.0007 12.9765C19.9753 13.2515 19.8625 13.5081 19.682 13.7174C17.7469 15.7455 13.9064 19.5753 11.9681 21.4778C11.2074 22.1569 10.0597 22.1716 9.25241 21.5482C7.59928 20.0612 6.01095 18.3803 4.45501 16.8625C3.82993 16.0574 3.84458 14.9129 4.52567 14.1544C6.57621 12.0272 10.2867 8.38602 12.3813 6.3745C12.5913 6.19455 12.8486 6.08199 13.1243 6.05672C13.5943 6.0566 14.4005 6.11977 15.1859 6.1653" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sale", "tag", "01"]
+    tags: ["sale", "tag", "01", "discount", "price", "offer", "shopping", "ecommerce", "promotion", "label", "deal", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-sale-tag-02",
@@ -37538,7 +37760,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.7884 12.3666C13.8097 11.9656 13.9222 11.232 13.3125 10.6745M13.3125 10.6745C13.1238 10.502 12.866 10.3463 12.5149 10.2225C11.2583 9.77964 9.71484 11.262 10.8067 12.6189C11.3936 13.3482 11.8461 13.5726 11.8035 14.4008C11.7735 14.9835 11.2012 15.5922 10.4469 15.8241C9.7916 16.0255 9.06876 15.7588 8.61156 15.2479C8.05332 14.6242 8.1097 14.0361 8.10492 13.7798M13.3125 10.6745L14.0006 9.98639M8.66131 15.3257L8.00781 15.9792" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sale", "tag", "02"]
+    tags: ["sale", "tag", "02", "discount", "price", "offer", "shopping", "ecommerce", "promotion", "label", "deal", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-sandals",
@@ -37550,7 +37773,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 13C21 12 20.3 9.3 17.5 8.5M17.5 8.5C15 9 14 10 13.5 10.5M17.5 8.5V7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sandals"]
+    tags: ["sandals", "footwear", "shoes", "summer", "beach", "casual", "fashion", "open-toe", "vacation"],
+    category: "other"
   },
   {
     id: "hugeicon-satellite-01",
@@ -37560,7 +37784,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.48804 15L4.75106 17.4884C3.3523 19.4923 2.65291 20.4942 3.17039 21.2471C3.68787 22 5.07589 22 7.85193 22H12.1481C14.9241 22 16.3121 22 16.8296 21.2471C17.301 20.5612 16.7625 19.6686 15.6053 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["satellite", "01"]
+    tags: ["satellite", "01", "space", "communication", "broadcast", "technology", "orbit", "dish", "network", "global", "connection"],
+    category: "communication"
   },
   {
     id: "hugeicon-satellite-02",
@@ -37574,7 +37799,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 16L14 14M9.99999 10L8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["satellite", "02"]
+    tags: ["satellite", "02", "space", "orbit", "communication", "technology", "broadcast", "internet", "rounded", "futuristic"],
+    category: "other"
   },
   {
     id: "hugeicon-satellite-03",
@@ -37585,7 +37811,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5293 5.52954L10.9336 3.8673C10.3555 3.2891 10.0664 3 9.70711 3C9.34786 3 9.05876 3.2891 8.48057 3.8673L7.8673 4.48057C7.2891 5.05876 7 5.34786 7 5.70711C7 6.06635 7.2891 6.35545 7.8673 6.93365L9.31826 8.38462M18.4214 11.355L20.1327 13.0664C20.7109 13.6445 21 13.9336 21 14.2929C21 14.6521 20.7109 14.9412 20.1327 15.5194L19.5194 16.1327C18.9412 16.7109 18.6521 17 18.2929 17C17.9336 17 17.6445 16.7109 17.0664 16.1327L15.5111 14.5775" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["satellite", "03"]
+    tags: ["satellite", "03", "space", "orbit", "communication", "technology", "broadcast", "internet", "minimal", "geometric"],
+    category: "other"
   },
   {
     id: "hugeicon-satellite",
@@ -37597,7 +37824,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5 7.13288L17.7134 5.5293L15.8766 10.5293" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["satellite"]
+    tags: ["satellite", "space", "orbit", "communication", "technology", "broadcast", "internet", "modern", "filled"],
+    category: "other"
   },
   {
     id: "hugeicon-saturn-01",
@@ -37607,7 +37835,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.8292 3.82152C18.5323 2.13939 20.7205 1.51937 21.6005 2.39789C23.1408 3.93544 20.0911 9.48081 14.7889 14.7838C9.48663 20.0868 3.93971 23.1394 2.39946 21.6018C1.52414 20.728 2.13121 18.5599 3.79165 15.8774" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["saturn", "01"]
+    tags: ["saturn", "01", "planet", "space", "astronomy", "solar system", "rings", "celestial", "minimal", "rounded"],
+    category: "other"
   },
   {
     id: "hugeicon-saturn-02",
@@ -37618,7 +37847,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.1733 6.37998C22.0683 4.52002 22.2767 3.07282 21.6005 2.39789C20.7268 1.52568 18.5637 2.13056 15.8873 3.78543M18.3049 10.8298C17.2978 12.1187 16.1137 13.4588 14.7889 14.7838C9.48663 20.0868 3.93971 23.1394 2.39946 21.6018C1.52229 20.7262 2.13378 18.5507 3.8022 15.8604" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["saturn", "02"]
+    tags: ["saturn", "02", "planet", "space", "astronomy", "solar system", "rings", "celestial", "outline", "friendly"],
+    category: "other"
   },
   {
     id: "hugeicon-saturn",
@@ -37627,7 +37857,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.8255 5.37555C17.6258 3.38071 19.9127 2.49436 20.7092 3.29084C21.5056 4.08733 20.6193 6.37425 18.6244 9.17452M5.37555 14.8255C3.38071 17.6258 2.49436 19.9127 3.29084 20.7092C4.08733 21.5056 6.37425 20.6193 9.17452 18.6244M18.6244 9.17452C17.4921 10.7641 16.0025 12.5191 14.2608 14.2608C12.5191 16.0025 10.7641 17.4921 9.17452 18.6244M18.6244 9.17452C18.9949 10.042 19.2 10.9971 19.2 12C19.2 15.9765 15.9765 19.2 12 19.2C10.9971 19.2 10.042 18.9949 9.17452 18.6244M17.0912 6.90883C15.7882 5.60589 13.9882 4.8 12 4.8C8.02355 4.8 4.8 8.02355 4.8 12C4.8 13.9882 5.60589 15.7882 6.90883 17.0912" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["saturn"]
+    tags: ["saturn", "planet", "space", "astronomy", "solar system", "rings", "celestial", "filled", "bold"],
+    category: "other"
   },
   {
     id: "hugeicon-sausage",
@@ -37638,7 +37869,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 15.667V17.2664M12 15.667C13.04 15.667 14.0463 15.513 15 15.2253M12 15.667C10.9599 15.667 9.95362 15.513 8.99995 15.2253M3.92872 15.6991C3.22294 16.8777 3.49636 18.4605 4.66103 19.1029C6.8592 20.3153 9.35461 21 12 21C14.6453 21 17.1408 20.3153 19.3389 19.1029C20.5036 18.4605 20.777 16.8777 20.0712 15.6991M3.92872 15.6991C4.70444 14.4037 6.3494 14.12 7.67417 14.7249C8.10277 14.9207 8.54538 15.0882 8.99995 15.2253M3.92872 15.6991L2 13M3.92872 15.6991L2 16.1998M20.0712 15.6991C19.2955 14.4037 17.6505 14.12 16.3258 14.7249C15.8972 14.9207 15.4546 15.0882 15 15.2253M20.0712 15.6991L22 16.1998M20.0712 15.667L22 13M15 15.2253L15.5 16.7331M8.99995 15.2253L8.5 16.7331" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sausage"]
+    tags: ["sausage", "food", "meat", "hot dog", "grill", "breakfast", "cooking", "snack", "delicious"],
+    category: "food"
   },
   {
     id: "hugeicon-save-energy-01",
@@ -37649,7 +37881,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 14H6.39482C6.68897 14 6.97908 14.0663 7.24217 14.1936L9.28415 15.1816C9.54724 15.3089 9.83735 15.3751 10.1315 15.3751H11.1741C12.1825 15.3751 13 16.1662 13 17.142C13 17.1814 12.973 17.2161 12.9338 17.2269L10.3929 17.9295C9.93707 18.0555 9.449 18.0116 9.025 17.8064L6.84211 16.7503M13 16.5L17.5928 15.0889C18.407 14.8352 19.2871 15.136 19.7971 15.8423C20.1659 16.3529 20.0157 17.0842 19.4785 17.3942L11.9629 21.7305C11.4849 22.0063 10.9209 22.0736 10.3952 21.9176L4 20.0199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["save", "energy", "01"]
+    tags: ["save", "energy", "01", "ecology", "environment", "power", "electricity", "sustainability", "eco-friendly", "green", "lightbulb", "conservation"],
+    category: "other"
   },
   {
     id: "hugeicon-save-energy-02",
@@ -37661,7 +37894,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13.5V20.5C12 21.3284 11.3284 22 10.5 22C9.67157 22 9 21.3284 9 20.5V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["save", "energy", "02"]
+    tags: ["save", "energy", "02", "ecology", "environment", "power", "electricity", "sustainability", "eco-friendly", "green", "lightbulb", "conservation"],
+    category: "other"
   },
   {
     id: "hugeicon-save-money-dollar",
@@ -37672,7 +37906,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 14H5.39482C5.68897 14 5.97908 14.0663 6.24217 14.1936L8.28415 15.1816C8.54724 15.3089 8.83735 15.3751 9.1315 15.3751H10.1741C11.1825 15.3751 12 16.1662 12 17.142C12 17.1814 11.973 17.2161 11.9338 17.2269L9.39287 17.9295C8.93707 18.0555 8.449 18.0116 8.025 17.8064L5.84211 16.7503M12 16.5L16.5928 15.0889C17.407 14.8352 18.2871 15.136 18.7971 15.8423C19.1659 16.3529 19.0157 17.0842 18.4785 17.3942L10.9629 21.7305C10.4849 22.0063 9.92094 22.0736 9.39516 21.9176L3 20.0199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["save", "money", "dollar"]
+    tags: ["save", "money", "dollar", "finance", "economy", "investment", "banking", "wealth", "budget", "dollar sign", "piggy bank", "currency"],
+    category: "finance"
   },
   {
     id: "hugeicon-save-money-euro",
@@ -37683,7 +37918,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 14H5.39482C5.68897 14 5.97908 14.0663 6.24217 14.1936L8.28415 15.1816C8.54724 15.3089 8.83735 15.3751 9.1315 15.3751H10.1741C11.1825 15.3751 12 16.1662 12 17.142C12 17.1814 11.973 17.2161 11.9338 17.2269L9.39287 17.9295C8.93707 18.0555 8.449 18.0116 8.025 17.8064L5.84211 16.7503M12 16.5L16.5928 15.0889C17.407 14.8352 18.2871 15.136 18.7971 15.8423C19.1659 16.3529 19.0157 17.0842 18.4785 17.3942L10.9629 21.7305C10.4849 22.0063 9.92094 22.0736 9.39516 21.9176L3 20.0199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["save", "money", "euro"]
+    tags: ["save", "money", "euro", "finance", "economy", "investment", "banking", "wealth", "budget", "euro sign", "piggy bank", "currency"],
+    category: "finance"
   },
   {
     id: "hugeicon-save-money-pound",
@@ -37694,7 +37930,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 14H5.39482C5.68897 14 5.97908 14.0663 6.24217 14.1936L8.28415 15.1816C8.54724 15.3089 8.83735 15.3751 9.1315 15.3751H10.1741C11.1825 15.3751 12 16.1662 12 17.142C12 17.1814 11.973 17.2161 11.9338 17.2269L9.39287 17.9295C8.93707 18.0555 8.449 18.0116 8.025 17.8064L5.84211 16.7503M12 16.5L16.5928 15.0889C17.407 14.8352 18.2871 15.136 18.7971 15.8423C19.1659 16.3529 19.0157 17.0842 18.4785 17.3942L10.9629 21.7305C10.4849 22.0063 9.92094 22.0736 9.39516 21.9176L3 20.0199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["save", "money", "pound"]
+    tags: ["save", "money", "pound", "finance", "economy", "investment", "banking", "wealth", "budget", "pound sign", "piggy bank", "currency"],
+    category: "finance"
   },
   {
     id: "hugeicon-save-money-yen",
@@ -37705,7 +37942,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 14H5.39482C5.68897 14 5.97908 14.0663 6.24217 14.1936L8.28415 15.1816C8.54724 15.3089 8.83735 15.3751 9.1315 15.3751H10.1741C11.1825 15.3751 12 16.1662 12 17.142C12 17.1814 11.973 17.2161 11.9338 17.2269L9.39287 17.9295C8.93707 18.0555 8.449 18.0116 8.025 17.8064L5.84211 16.7503M12 16.5L16.5928 15.0889C17.407 14.8352 18.2871 15.136 18.7971 15.8423C19.1659 16.3529 19.0157 17.0842 18.4785 17.3942L10.9629 21.7305C10.4849 22.0063 9.92094 22.0736 9.39516 21.9176L3 20.0199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["save", "money", "yen"]
+    tags: ["save", "money", "yen", "finance", "economy", "investment", "banking", "wealth", "budget", "yen sign", "piggy bank", "currency"],
+    category: "finance"
   },
   {
     id: "hugeicon-savings",
@@ -37717,7 +37955,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 7C19 9.76133 16.7614 12 14 12C11.2386 12 9 9.76133 9 7C9 4.23857 11.2386 2 14 2C16.7614 2 19 4.23857 19 7Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["savings"]
+    tags: ["savings", "finance", "economy", "investment", "banking", "wealth", "budget", "piggy bank", "money box", "financial planning"],
+    category: "finance"
   },
   {
     id: "hugeicon-scheme",
@@ -37731,7 +37970,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 13V7.04545M11 4.5H17M19.5 11V17M15.5 15.5L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scheme"]
+    tags: ["scheme", "plan", "diagram", "flowchart", "organization", "strategy", "blueprint", "structure", "process"],
+    category: "other"
   },
   {
     id: "hugeicon-school-01",
@@ -37746,7 +37986,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22L10 19C10 18.0572 10 17.5858 10.2929 17.2929C10.5858 17 11.0572 17 12 17C12.9428 17 13.4142 17 13.7071 17.2929C14 17.5858 14 18.0572 14 19V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["school", "01"]
+    tags: ["school", "01", "education", "learning", "academy", "university", "college", "building", "campus", "knowledge"],
+    category: "education"
   },
   {
     id: "hugeicon-school-bell-01",
@@ -37758,7 +37999,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="10.5" cy="10" r="2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["school", "bell", "01"]
+    tags: ["school", "bell", "01", "education", "class", "alarm", "notification", "break time", "lesson", "alert", "sound"],
+    category: "education"
   },
   {
     id: "hugeicon-school-bell-02",
@@ -37771,7 +38013,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 19.3137C7.08494 20.2288 5.60135 20.2288 4.68629 19.3137C3.77124 18.3987 3.77124 16.9151 4.68629 16" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["school", "bell", "02"]
+    tags: ["school", "bell", "02", "education", "class", "alarm", "notification", "break time", "lesson", "alert", "sound"],
+    category: "education"
   },
   {
     id: "hugeicon-school-bus",
@@ -37789,7 +38032,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["school", "bus"]
+    tags: ["school", "bus", "education", "transportation", "children", "ride", "journey", "vehicle", "yellow", "travel"],
+    category: "transport"
   },
   {
     id: "hugeicon-school-report-card",
@@ -37800,7 +38044,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 17L16 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["school", "report", "card"]
+    tags: ["school", "report", "card", "education", "grades", "results", "assessment", "progress", "transcript", "evaluation", "document"],
+    category: "education"
   },
   {
     id: "hugeicon-school-tie",
@@ -37811,7 +38056,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.99988 15C9.39212 15.6925 8.87749 16 8.49988 16C8.0155 16 7.14348 14.7794 6.75647 13.8954C6.57487 13.4806 6.48408 13.2732 6.50214 13.0108C6.52019 12.7484 6.63912 12.5565 6.87698 12.1727C8.22201 10.0024 10.5144 8.02113 11.9999 6" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["school", "tie"]
+    tags: ["school", "tie", "education", "uniform", "clothing", "student", "formal", "academy", "fashion", "accessory"],
+    category: "education"
   },
   {
     id: "hugeicon-school",
@@ -37826,7 +38072,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 7V4.98221M12 4.98221V2.97035C12 2.49615 12 2.25905 12.1464 2.11173C12.6061 1.64939 14.5 2.74303 15.2203 3.18653C15.8285 3.56105 16 4.30914 16 4.98221H12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["school"]
+    tags: ["school", "education", "learning", "academy", "university", "college", "building", "campus", "knowledge"],
+    category: "education"
   },
   {
     id: "hugeicon-scissor-01",
@@ -37836,7 +38083,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.4368 9.55807L10.6 12M10.6 12L7 15M10.6 12L13.4949 14.3865M10.6 12L7 9M16 8.5C16 9.32843 15.3284 10 14.5 10C13.6716 10 13 9.32843 13 8.5C13 7.67157 13.6716 7 14.5 7C15.3284 7 16 7.67157 16 8.5ZM16 15.5C16 16.3284 15.3284 17 14.5 17C13.6716 17 13 16.3284 13 15.5C13 14.6716 13.6716 14 14.5 14C15.3284 14 16 14.6716 16 15.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scissor", "01"]
+    tags: ["scissor", "01", "cut", "tool", "craft", "haircut", "trim", "snip", "sharp", "utility"],
+    category: "tool"
   },
   {
     id: "hugeicon-scissor-rectangle",
@@ -37846,7 +38094,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 9.5L11 12M11 12L7 16M11 12L13.5 14.5M11 12L7 8M17 8C17 9.10457 16.1046 10 15 10C13.8954 10 13 9.10457 13 8C13 6.89543 13.8954 6 15 6C16.1046 6 17 6.89543 17 8ZM17 16C17 17.1046 16.1046 18 15 18C13.8954 18 13 17.1046 13 16C13 14.8954 13.8954 14 15 14C16.1046 14 17 14.8954 17 16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scissor", "rectangle"]
+    tags: ["scissor", "rectangle", "cut", "tool", "craft", "haircut", "trim", "snip", "sharp", "utility", "geometric"],
+    category: "tool"
   },
   {
     id: "hugeicon-scissor",
@@ -37859,7 +38108,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 5.00011L8.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scissor"]
+    tags: ["scissor", "cut", "tool", "craft", "haircut", "trim", "snip", "sharp", "utility"],
+    category: "tool"
   },
   {
     id: "hugeicon-scooter-01",
@@ -37872,7 +38122,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.1203 4H16.1322C16.1874 4 16.215 4 16.2406 4.0003C17.7795 4.01851 19.1822 4.85203 19.8874 6.16725C19.8991 6.18913 19.9115 6.21285 19.9361 6.26031C19.9435 6.2744 19.9471 6.28145 19.9496 6.28656C20.1103 6.61381 19.8674 6.99169 19.4911 6.99987C19.4852 7 19.477 7 19.4607 7H16.8125C16.5191 7 16.3724 7 16.3111 7.09242C16.2497 7.18485 16.3116 7.31275 16.4352 7.56855L17.4565 9.68182C17.8386 10.4726 18.0297 10.8679 17.9856 11.2791C17.9415 11.6902 17.6705 12.0397 17.1285 12.7388L15.5361 14.7929C15.0769 15.3851 14.8473 15.6813 14.5171 15.8406C14.1868 16 13.8026 16 13.0343 16H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scooter", "01"]
+    tags: ["scooter", "01", "kick scooter", "moped", "transportation", "delivery", "travel", "urban", "vehicle", "mobility", "line", "outline"],
+    category: "transport"
   },
   {
     id: "hugeicon-scooter-02",
@@ -37885,7 +38136,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 8C17.3333 8.63768 20 11.1739 20 15M15.9899 5H16.5366C17.5214 5 18.4246 5.57927 18.8809 6.5034C19.1964 7.14264 18.8809 8 17.9849 8H15.9899M15.9899 5V8M15.9899 5H12.9444M15.9899 8C15.9899 9.91304 15.7776 16 12 16H17.6665" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scooter", "02"]
+    tags: ["scooter", "02", "kick scooter", "moped", "transportation", "delivery", "travel", "urban", "vehicle", "mobility", "filled", "solid"],
+    category: "transport"
   },
   {
     id: "hugeicon-scooter-03",
@@ -37898,7 +38150,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 18V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scooter", "03"]
+    tags: ["scooter", "03", "kick scooter", "moped", "transportation", "delivery", "travel", "urban", "vehicle", "mobility", "line", "outline"],
+    category: "transport"
   },
   {
     id: "hugeicon-scooter-04",
@@ -37909,7 +38162,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.51383 18H13.2887C14.0213 18 14.3876 18 14.6328 17.8445C14.878 17.689 15.0854 17.2491 15.5002 16.3693C15.735 15.8712 16.0361 15.411 16.3921 15M16.3921 15L4 16M16.3921 15C17.0623 14.2264 17.9273 13.6269 18.913 13.2759C19.4501 13.0846 19.7186 12.9889 19.8093 12.8143C19.8999 12.6397 19.8331 12.3991 19.6995 11.918L18.1691 6.4088C17.9184 5.50632 17.7931 5.05508 17.5225 4.72715C17.3256 4.4885 17.076 4.29879 16.7934 4.17293C16.405 4 15.9366 4 15 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scooter", "04"]
+    tags: ["scooter", "04", "kick scooter", "moped", "transportation", "delivery", "travel", "urban", "vehicle", "mobility", "filled", "solid"],
+    category: "transport"
   },
   {
     id: "hugeicon-scooter-electric",
@@ -37921,7 +38175,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.4626 7L10.0686 8.81238C9.91919 9.0066 10.0263 9.28605 10.2699 9.33776L11.7301 9.64772C11.9899 9.70285 12.0889 10.0122 11.9073 10.2011L10.1777 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scooter", "electric"]
+    tags: ["scooter", "electric", "e-scooter", "kick scooter", "moped", "transportation", "delivery", "travel", "urban", "vehicle", "mobility", "eco"],
+    category: "transport"
   },
   {
     id: "hugeicon-scratch-card",
@@ -37932,7 +38187,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 11.5C10 12.8807 8.88072 14 7.5 14C6.11928 14 5 12.8807 5 11.5C5 10.1193 6.11928 9 7.5 9C8.88072 9 10 10.1193 10 11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scratch", "card"]
+    tags: ["scratch", "card", "lottery", "game", "coupon", "prize", "discount", "reveal", "promotion", "winning", "voucher", "ui"],
+    category: "commerce"
   },
   {
     id: "hugeicon-screen-add-to-home-02",
@@ -37943,7 +38199,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 9H11V14M10.5 9.5L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen", "add", "to", "home", "02"]
+    tags: ["screen", "add", "to", "home", "02", "mobile", "app", "install", "shortcut", "bookmark", "device", "ui", "plus", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-screen-add-to-home",
@@ -37954,7 +38211,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 9H11V14M10.5 9.5L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen", "add", "to", "home"]
+    tags: ["screen", "add", "to", "home", "mobile", "app", "install", "shortcut", "bookmark", "device", "ui", "plus", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-screen-lock-rotation",
@@ -37965,7 +38223,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.7365 5.67839L15.7365 4.28742C15.7365 4.08196 15.7451 3.87395 15.8187 3.68209C16.0148 3.17138 16.5341 2.50232 17.4796 2.50232C18.4251 2.50232 18.9648 3.17138 19.1609 3.68209C19.2345 3.87395 19.2431 4.08196 19.2431 4.28742L19.2431 5.67839M15.806 11.5039H19.194C20.1914 11.5039 21 10.6969 21 9.70151V7.69927C21 6.70385 20.1914 5.89691 19.194 5.89691H15.806C14.8086 5.89691 14 6.70385 14 7.69927V9.70151C14 10.6969 14.8086 11.5039 15.806 11.5039Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen", "lock", "rotation"]
+    tags: ["screen", "lock", "rotation", "orientation", "display", "mobile", "tablet", "device", "ui", "security", "filled", "solid"],
+    category: "ui"
   },
   {
     id: "hugeicon-screen-rotation",
@@ -37976,7 +38235,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.07586 13.4458C6.71281 12.0827 6.03128 11.4012 6.00104 10.5846C5.97079 9.76793 6.60363 9.13508 7.86933 7.86939C9.13502 6.6037 9.76786 5.97085 10.5845 6.0011C11.4012 6.03134 12.0827 6.71287 13.4457 8.07592L15.9241 10.5543C17.2872 11.9174 17.9687 12.5989 17.999 13.4156C18.0292 14.2322 17.3964 14.865 16.1307 16.1307C14.865 17.3964 14.2321 18.0293 13.4155 17.999C12.5988 17.9688 11.9173 17.2873 10.5543 15.9242L8.07586 13.4458Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["screen", "rotation"]
+    tags: ["screen", "rotation", "orientation", "display", "mobile", "tablet", "device", "ui", "arrow", "refresh", "circular", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-scribd",
@@ -37986,7 +38246,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.89221 21.5863C6.26017 18.7986 3.54263 17.6062 2.34281 18.0723C2.34281 18.0723 2 16.6741 2 14.2702V10.1C2.29361 10.9332 3.89608 13.1929 7.9571 15.0752C12.0181 16.9576 12.9787 18.6656 12.9787 19.2348C13.0383 19.7208 12.8844 20.9048 11.737 21.9374C10.0055 22.0232 6.33792 22.102 5.89221 21.5863Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scribd"]
+    tags: ["scribd", "social media", "brand", "logo", "document sharing", "e-book", "reading", "platform", "app", "filled", "solid"],
+    category: "social"
   },
   {
     id: "hugeicon-scroll-horizontal",
@@ -37997,7 +38258,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.9989 12.0672C22.0396 10.6863 16.6545 7.43916 16.1473 8.08367C15.5721 8.81452 16.9473 10.9863 17.257 11.6779C17.4433 12.0938 17.4382 12.2741 17.2264 12.6896C16.2672 14.571 15.7915 15.5084 16.0871 15.9136C16.5585 16.5595 21.9591 13.4149 21.9989 12.0672Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["scroll", "horizontal"]
+    tags: ["scroll", "horizontal", "swipe", "move", "navigation", "gesture", "ui", "arrow", "left right", "interface", "line", "outline"],
+    category: "navigation"
   },
   {
     id: "hugeicon-scroll-vertical",
@@ -38008,7 +38270,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.0672 21.9998C10.6863 22.0403 7.43916 16.6805 8.08367 16.1756C8.81453 15.6032 10.9863 16.9719 11.6779 17.2801C12.0938 17.4655 12.2741 17.4604 12.6896 17.2497C13.2694 16.9554 15.1991 15.6005 15.9136 16.1157C16.5595 16.5849 13.4149 21.9602 12.0672 21.9998Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["scroll", "vertical"]
+    tags: ["scroll", "vertical", "swipe", "move", "navigation", "gesture", "ui", "arrow", "up down", "interface", "line", "outline"],
+    category: "navigation"
   },
   {
     id: "hugeicon-scroll",
@@ -38020,7 +38283,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 22C20.1046 22 21 21.1046 21 20V8C21 5.17157 21 3.75736 20.1213 2.87868C19.2426 2 17.8284 2 15 2H13C10.1716 2 8.75736 2 7.87868 2.87868C7 3.75736 7 5.17157 7 8V18M19 22C17.8954 22 17 21.1046 17 20C17 19.0572 17 18.5858 16.7071 18.2929C16.4142 18 15.9428 18 15 18H7M19 22H5C3.89543 22 3 21.1046 3 20C3 19.0572 3 18.5858 3.29289 18.2929C3.58579 18 4.05719 18 5 18H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["scroll"]
+    tags: ["scroll", "swipe", "move", "navigation", "gesture", "ui", "arrow", "interface", "line", "outline"],
+    category: "navigation"
   },
   {
     id: "hugeicon-sd-card",
@@ -38032,7 +38296,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.5 6V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sd", "card"]
+    tags: ["sd", "card", "memory card", "storage", "data", "digital", "electronics", "device", "media", "backup", "removable", "line"],
+    category: "device"
   },
   {
     id: "hugeicon-seal",
@@ -38041,7 +38306,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.77907 3.35212C10.3428 2.74898 10.6246 2.44741 10.9257 2.27941C11.5935 1.90686 12.4065 1.90686 13.0743 2.27941C13.3754 2.44741 13.6572 2.74898 14.2209 3.35212C14.8996 4.07828 15.5834 4.34707 16.5445 4.31459C17.3696 4.2867 17.7822 4.27276 18.1139 4.36689C18.8495 4.57561 19.4244 5.15054 19.6331 5.88612C19.7272 6.21784 19.7133 6.63038 19.6854 7.45546C19.6518 8.44883 19.9453 9.12242 20.6479 9.77907C21.251 10.3428 21.5526 10.6246 21.7206 10.9257C22.0931 11.5935 22.0931 12.4065 21.7206 13.0743C21.5526 13.3754 21.251 13.6572 20.6479 14.2209C19.9217 14.8996 19.6529 15.5834 19.6854 16.5445C19.7133 17.3696 19.7272 17.7822 19.6331 18.1139C19.4244 18.8495 18.8495 19.4244 18.1139 19.6331C17.7822 19.7272 17.3696 19.7133 16.5445 19.6854C15.5834 19.6529 14.8996 19.9217 14.2209 20.6479C13.6572 21.251 13.3754 21.5526 13.0743 21.7206C12.4065 22.0931 11.5935 22.0931 10.9257 21.7206C10.6246 21.5526 10.3428 21.251 9.77907 20.6479C9.12242 19.9453 8.44883 19.6518 7.45546 19.6854C6.63038 19.7133 6.21784 19.7272 5.88612 19.6331C5.15054 19.4244 4.57561 18.8495 4.36689 18.1139C4.27276 17.7822 4.2867 17.3696 4.31459 16.5445C4.34707 15.5834 4.07828 14.8996 3.35212 14.2209C2.74898 13.6572 2.44741 13.3754 2.27941 13.0743C1.90686 12.4065 1.90686 11.5935 2.27941 10.9257C2.44741 10.6246 2.74898 10.3428 3.35212 9.77907C4.07828 9.10038 4.34707 8.41658 4.31459 7.45546C4.2867 6.63038 4.27276 6.21784 4.36689 5.88612C4.57561 5.15054 5.15054 4.57561 5.88612 4.36689C7.32838 3.95764 8.57898 4.63615 9.77907 3.35212Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["seal"]
+    tags: ["seal", "approved", "certified", "guarantee", "quality", "stamp", "badge", "award", "official", "warranty", "line"],
+    category: "other"
   },
   {
     id: "hugeicon-search-01",
@@ -38051,7 +38317,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C15.4183 19 19 15.4183 19 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "01"]
+    tags: ["search", "01", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "ui", "line", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-02",
@@ -38062,7 +38329,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 9.5C16.5 5.63401 13.366 2.5 9.5 2.5C5.63401 2.5 2.5 5.63401 2.5 9.5C2.5 13.366 5.63401 16.5 9.5 16.5C13.366 16.5 16.5 13.366 16.5 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "02"]
+    tags: ["search", "02", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "ui", "filled", "solid"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-add",
@@ -38073,7 +38341,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 11L14.5 11M11 7.5V14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "add"]
+    tags: ["search", "add", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "ui", "plus", "new"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-area",
@@ -38083,7 +38352,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 3H14M3 10V14M6.5 21C4.567 21 3 19.433 3 17.5M17.5 3C19.433 3 21 4.567 21 6.5M3 6.5C3 4.567 4.567 3 6.5 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "area"]
+    tags: ["search", "area", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "map", "location", "gps"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-circle",
@@ -38093,7 +38363,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.8284 14.8285L17 17.0001M16 12.0001C16 9.79091 14.2091 8.00005 12 8.00005C9.79086 8.00005 8 9.79091 8 12.0001C8 14.2092 9.79086 16.0001 12 16.0001C14.2091 16.0001 16 14.2092 16 12.0001Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "circle"]
+    tags: ["search", "circle", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "ui", "circular", "rounded"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-dollar",
@@ -38104,7 +38375,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.2531 9.31112C13.3579 8.04662 11.4232 7.01413 9.94467 7.70685C8.09769 8.57218 8.25873 10.7594 10.5399 10.8751C11.555 10.9265 12.4429 10.8169 13.0463 11.4708C13.6497 12.1248 13.9112 13.7901 12.1325 14.3553C10.3539 14.9204 8.5 13.9125 8.5 12.6831M10.971 6.5V7.47767M10.971 14.7204V15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "dollar"]
+    tags: ["search", "dollar", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "money", "finance", "cost", "price"],
+    category: "finance"
   },
   {
     id: "hugeicon-search-focus",
@@ -38115,7 +38387,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.4924 7.5C8.77591 7.54342 8.31993 7.66286 7.99139 7.99139C7.66286 8.31993 7.54342 8.77591 7.5 9.4924M12.5076 7.5C13.2241 7.54342 13.6801 7.66286 14.0086 7.99139C14.3371 8.31993 14.4566 8.77591 14.5 9.4924M14.4923 12.6214C14.4431 13.273 14.3194 13.6978 14.0086 14.0086C13.6801 14.3371 13.2241 14.4566 12.5076 14.5M9.4924 14.5C8.7759 14.4566 8.31993 14.3371 7.99139 14.0086C7.6806 13.6978 7.55693 13.273 7.50772 12.6214" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "focus"]
+    tags: ["search", "focus", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "target", "precision", "zoom"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-list-01",
@@ -38127,7 +38400,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5355 17.0355L21.5 20M20 13.5C20 10.7386 17.7614 8.5 15 8.5C12.2386 8.5 10 10.7386 10 13.5C10 16.2614 12.2386 18.5 15 18.5C17.7614 18.5 20 16.2614 20 13.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "list", "01"]
+    tags: ["search", "list", "01", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "results", "menu", "line"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-list-02",
@@ -38139,7 +38413,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5355 13.0355L21.5 16M20 9.5C20 6.73858 17.7614 4.5 15 4.5C12.2386 4.5 10 6.73858 10 9.5C10 12.2614 12.2386 14.5 15 14.5C17.7614 14.5 20 12.2614 20 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "list", "02"]
+    tags: ["search", "list", "02", "find", "magnify", "explore", "discover", "lookup", "magnifying glass", "query", "results", "menu", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-minus",
@@ -38150,7 +38425,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 11L14.5 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "minus"]
+    tags: ["search", "minus", "zoom out", "decrease", "magnify", "reduce", "find", "minimal", "ui", "navigation"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-remove",
@@ -38161,7 +38437,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 8L11 11M11 11L14 14M11 11L14 8M11 11L8 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "remove"]
+    tags: ["search", "remove", "delete", "clear", "cancel", "magnify", "find", "close", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-replace",
@@ -38171,7 +38448,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.0001 11C20.0001 15.9706 15.9707 20 11.0001 20C7.46637 20 4.40831 17.9634 2.93561 15M2.00009 11C2.00009 6.02944 6.02953 2 11.0001 2C14.5338 2 17.5919 4.03656 19.0646 7M19.0646 7V2M19.0646 7H14.5001M2.93561 15L2.93561 20M2.93561 15L7.50009 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "replace"]
+    tags: ["search", "replace", "find and replace", "edit", "change", "magnify", "find", "swap", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-square",
@@ -38181,7 +38459,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.8284 14.8284L17 17M16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "square"]
+    tags: ["search", "square", "magnifying glass", "find", "locate", "explore", "discovery", "geometric", "ui", "navigation"],
+    category: "ui"
   },
   {
     id: "hugeicon-search-visual",
@@ -38191,7 +38470,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 21.5001C16.8623 21.5001 17.7935 21.5001 18.5391 21.2287C19.789 20.7738 20.7737 19.7891 21.2286 18.5392C21.5 17.7936 21.5 16.8624 21.5 15.0001M9 21.5001C7.13769 21.5001 6.20653 21.5001 5.46091 21.2287C4.21096 20.7738 3.22633 19.7891 2.77138 18.5392C2.5 17.7936 2.5 16.8624 2.5 15.0001M9 2.50011C7.13769 2.50011 6.20653 2.50011 5.46091 2.77149C4.21096 3.22643 3.22633 4.21107 2.77138 5.46102C2.5 6.20664 2.5 7.13779 2.5 9.00011M15 2.50011C16.8623 2.50011 17.7935 2.50011 18.5391 2.77149C19.789 3.22643 20.7737 4.21107 21.2286 5.46102C21.5 6.20664 21.5 7.13779 21.5 9.00011" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["search", "visual"]
+    tags: ["search", "visual", "image search", "camera", "magnifying glass", "find", "locate", "explore", "discovery", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-searching",
@@ -38202,7 +38482,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.7654 9C20.2554 8.79701 20.6448 8.40766 20.8478 7.91761C21 7.55007 21 6.93188 21 6C21 5.06812 21 4.60218 20.8478 4.23463C20.6448 3.74458 20.2554 3.35523 19.7654 3.15224C19.3978 3 18.9319 3 18 3H6C5.06812 3 4.60218 3 4.23463 3.15224C3.74458 3.35523 3.35523 3.74458 3.15224 4.23463C3 4.60218 3 5.06812 3 6C3 6.93188 3 7.55007 3.15224 7.91761C3.35523 8.40766 3.74458 8.79701 4.23463 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["searching"]
+    tags: ["searching", "magnifying glass", "find", "locate", "explore", "discovery", "loading", "progress", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-seat-selector",
@@ -38216,7 +38497,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 10V8C18.5 5.17157 18.5 3.75736 17.6213 2.87868C16.7426 2 15.3284 2 12.5 2H11.5C8.67157 2 7.25736 2 6.37868 2.87868C5.5 3.75736 5.5 5.17157 5.5 8V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["seat", "selector"]
+    tags: ["seat", "selector", "booking", "reservation", "theater", "airplane", "event", "arrangement", "map", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-secured-network",
@@ -38228,7 +38510,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 19V22M12 22H20M12 22H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["secured", "network"]
+    tags: ["secured", "network", "protection", "privacy", "connection", "internet", "wifi", "safe", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-security-block",
@@ -38238,7 +38521,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.7687 15.7687C20.5144 14.4519 21 12.9256 21 11.1834V8.28038C21 6.64038 21 5.82038 20.5959 5.28538C20.1918 4.75039 19.2781 4.49065 17.4507 3.97119C16.2022 3.61629 15.1016 3.18872 14.2223 2.79838C13.0234 2.26619 12.424 2.00009 12 2.00009C11.576 2.00009 10.9766 2.26619 9.77771 2.79838C9.16296 3.07127 8.44008 3.36236 7.63411 3.6341M4.57329 4.57338C3.9913 4.78663 3.62297 4.99564 3.40411 5.28538C3 5.82038 3 6.64038 3 8.28038V11.1834C3 16.8086 8.06277 20.1836 10.594 21.5195C11.2011 21.8399 11.5046 22.0001 12 22.0001C12.4954 22.0001 12.7989 21.8399 13.406 21.5195C14.647 20.8646 16.4964 19.7195 18.0594 18.0595" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "block"]
+    tags: ["security", "block", "protection", "privacy", "restricted", "access denied", "firewall", "stop", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-security-check",
@@ -38248,7 +38532,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1833V8.28029C21 6.64029 21 5.82028 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3 5.82028 3 6.64029 3 8.28029V11.1833C3 16.8085 8.06277 20.1835 10.594 21.5194C11.2011 21.8398 11.5046 22 12 22C12.4954 22 12.7989 21.8398 13.406 21.5194C15.9372 20.1835 21 16.8085 21 11.1833Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "check"]
+    tags: ["security", "check", "protection", "privacy", "verified", "approved", "safe", "validation", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-security-key-usb",
@@ -38260,7 +38545,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.5 4.5H10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "key", "usb"]
+    tags: ["security", "key", "usb", "authentication", "token", "dongle", "access", "protection", "hardware", "system", "device"],
+    category: "security"
   },
   {
     id: "hugeicon-security-lock",
@@ -38271,7 +38557,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1833V8.28029C21 6.64029 21 5.82028 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3 5.82028 3 6.64029 3 8.28029V11.1833C3 16.8085 8.06277 20.1835 10.594 21.5194C11.2011 21.8398 11.5046 22 12 22C12.4954 22 12.7989 21.8398 13.406 21.5194C15.9372 20.1835 21 16.8085 21 11.1833Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "lock"]
+    tags: ["security", "lock", "protection", "privacy", "locked", "access", "safe", "padlock", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-security-password",
@@ -38284,7 +38571,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.6338 16C17.951 18.8033 15.1069 20.6217 13.406 21.5194C12.7989 21.8398 12.4954 22 12 22C11.5046 22 11.2011 21.8398 10.594 21.5194C8.89306 20.6217 6.04902 18.8033 4.36621 16M20.9999 8C20.9986 6.54505 20.9763 5.7889 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3.02371 5.7889 3.00139 6.54505 3.00008 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "password"]
+    tags: ["security", "password", "protection", "privacy", "login", "access", "safe", "key", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-security-validation",
@@ -38295,7 +38583,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1833V8.28029C21 6.64029 21 5.82028 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3 5.82028 3 6.64029 3 8.28029V11.1833C3 16.8085 8.06277 20.1835 10.594 21.5194C11.2011 21.8398 11.5046 22 12 22C12.4954 22 12.7989 21.8398 13.406 21.5194C15.9372 20.1835 21 16.8085 21 11.1833Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "validation"]
+    tags: ["security", "validation", "protection", "privacy", "verified", "approved", "safe", "check", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-security-wifi",
@@ -38306,7 +38595,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1833V8.28029C21 6.64029 21 5.82028 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3 5.82028 3 6.64029 3 8.28029V11.1833C3 16.8085 8.06277 20.1835 10.594 21.5194C11.2011 21.8398 11.5046 22 12 22C12.4954 22 12.7989 21.8398 13.406 21.5194C15.9372 20.1835 21 16.8085 21 11.1833Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security", "wifi"]
+    tags: ["security", "wifi", "protection", "privacy", "connection", "internet", "network", "safe", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-security",
@@ -38316,7 +38606,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 7.00012L12 9.00012" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["security"]
+    tags: ["security", "protection", "privacy", "safe", "shield", "guard", "defense", "system", "data"],
+    category: "security"
   },
   {
     id: "hugeicon-seesaw",
@@ -38327,7 +38618,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.9036 5.63607L17.3268 5.3184M17.3268 5.3184L18.75 5.00073M17.3268 5.3184L17.9839 8.07033M3.56943 8.38917L4.9926 8.07151M4.9926 8.07151L6.41578 7.75384M4.9926 8.07151L5.64974 10.8234M2.56619 11.5117L21.0675 7.38205C21.4605 7.29433 21.8526 7.53124 21.9434 7.9112C22.2156 9.05108 21.4804 10.1885 20.3014 10.4516L4.6465 13.946C3.4675 14.2091 2.29107 13.4984 2.01888 12.3585C1.92815 11.9786 2.17319 11.5994 2.56619 11.5117Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["seesaw"]
+    tags: ["seesaw", "playground", "balance", "play", "childhood", "fun", "recreation", "park", "toy"],
+    category: "other"
   },
   {
     id: "hugeicon-segment",
@@ -38338,7 +38630,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 8.5V5C15 4.05719 15 3.58579 15.2929 3.29289C15.5858 3 16.0572 3 17 3H18.25C19.7688 3 21 4.23122 21 5.75C21 7.26878 19.7688 8.5 18.25 8.5H15ZM15 8.5H19.25C20.7688 8.5 22 9.73122 22 11.25C22 12.7688 20.7688 14 19.25 14H17C16.0572 14 15.5858 14 15.2929 13.7071C15 13.4142 15 12.9428 15 12V8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["segment"]
+    tags: ["segment", "divide", "split", "section", "part", "group", "analytics", "data", "system"],
+    category: "system"
   },
   {
     id: "hugeicon-select-01",
@@ -38348,7 +38641,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 5H15M12 22H15M18 5H18.5C20.433 5 22 6.567 22 8.5V9M22 18V18.5C22 20.433 20.433 22 18.5 22H18M9 22H8.5C6.567 22 5 20.433 5 18.5L5 18M22 12V15M5 12L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["select", "01"]
+    tags: ["select", "01", "choose", "pick", "option", "pointer", "cursor", "target", "ui", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-select-02",
@@ -38361,7 +38655,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 20C3 19.0572 3 18.5858 3.29289 18.2929C3.58579 18 4.05719 18 5 18C5.94281 18 6.41421 18 6.70711 18.2929C7 18.5858 7 19.0572 7 20C7 20.9428 7 21.4142 6.70711 21.7071C6.41421 22 5.94281 22 5 22C4.05719 22 3.58579 22 3.29289 21.7071C3 21.4142 3 20.9428 3 20Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["select", "02"]
+    tags: ["select", "02", "choose", "pick", "option", "pointer", "cursor", "target", "ui", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-self-transfer",
@@ -38373,7 +38668,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 5.49805C15.3284 5.49805 16 4.82647 16 3.99805C16 3.16962 15.3284 2.49805 14.5 2.49805C13.6716 2.49805 13 3.16962 13 3.99805C13 4.82647 13.6716 5.49805 14.5 5.49805Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["self", "transfer"]
+    tags: ["self", "transfer", "internal transfer", "account management", "move funds", "personal finance", "transaction", "banking", "arrow", "finance"],
+    category: "finance"
   },
   {
     id: "hugeicon-semi-truck",
@@ -38386,7 +38682,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 18.5C8 19.6046 7.10457 20.5 6 20.5C4.89543 20.5 4 19.6046 4 18.5C4 17.3954 4.89543 16.5 6 16.5C7.10457 16.5 8 17.3954 8 18.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["semi", "truck"]
+    tags: ["semi", "truck", "lorry", "freight", "transportation", "delivery", "logistics", "cargo", "shipping", "vehicle"],
+    category: "transport"
   },
   {
     id: "hugeicon-send-to-mobile-02",
@@ -38397,7 +38694,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 12.0337H12M17 9C17 9 19.0371 10.6469 19.8208 11.5533C19.9468 11.6991 20.0064 11.8627 19.9995 12.0253C19.9933 12.1711 19.9337 12.3162 19.8207 12.4468C19.0368 13.3531 17 15 17 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send", "to", "mobile", "02"]
+    tags: ["send", "to", "mobile", "02", "share", "download", "transfer", "phone", "device", "arrow", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-send-to-mobile",
@@ -38408,7 +38706,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 6C16.9855 4.29344 16.8908 3.35264 16.2702 2.73223C15.5378 2 14.3591 2 12.0016 2H9.001C6.64351 2 5.46476 2 4.73238 2.73223C4 3.46447 4 4.64298 4 7V17C4 19.357 4 20.5355 4.73238 21.2678C5.46476 22 6.64351 22 9.001 22H12.0016C14.3591 22 15.5378 22 16.2702 21.2678C16.8908 20.6473 16.9855 19.7065 17 17.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["send", "to", "mobile"]
+    tags: ["send", "to", "mobile", "share", "download", "transfer", "phone", "device", "arrow", "communication", "ui"],
+    category: "communication"
   },
   {
     id: "hugeicon-sending-order",
@@ -38419,7 +38718,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 18.5L15 18.5M21 18.5C21 19.2002 19.0057 20.5085 18.5 21M21 18.5C21 17.7998 19.0057 16.4915 18.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sending", "order"]
+    tags: ["sending", "order", "dispatch", "shipping", "delivery", "ecommerce", "purchase", "cart", "arrow", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-senseless",
@@ -38431,7 +38731,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 16.6L15.7307 16.4C15.0125 15.8667 14.1672 15.8667 13.4491 16.4L13.1798 16.6C12.4616 17.1333 11.6163 17.1333 10.8982 16.6L10.6288 16.4C9.91069 15.8667 9.06539 15.8667 8.34723 16.4L8 16.6579" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["senseless"]
+    tags: ["senseless", "mindless", "irrational", "absurd", "illogical", "meaningless", "pointless", "abstract", "conceptual", "confusion", "thoughtless"],
+    category: "other"
   },
   {
     id: "hugeicon-sent-02",
@@ -38442,7 +38743,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.49811 15.5V17.7274C9.49811 20.101 9.49811 21.2878 10.2083 21.4771C10.9185 21.6663 11.6664 20.6789 13.1622 18.7039L13.9981 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sent", "02"]
+    tags: ["sent", "02", "mail", "message", "delivered", "outbox", "email", "communication", "paper airplane", "filled", "solid", "outgoing"],
+    category: "communication"
   },
   {
     id: "hugeicon-sent",
@@ -38452,7 +38754,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5 12.5L15 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sent"]
+    tags: ["sent", "mail", "message", "delivered", "outbox", "email", "communication", "paper airplane", "outline", "stroke", "outgoing"],
+    category: "communication"
   },
   {
     id: "hugeicon-seo",
@@ -38462,7 +38765,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 15.1877C2.36394 14.0914 2 12.8191 2 11.4623C2 7.34099 5.35786 4 9.5 4H14.5C18.6421 4 22 7.34099 22 11.4623C22 14.7114 19.913 17.4756 17 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["seo"]
+    tags: ["seo", "optimization", "marketing", "analytics", "ranking", "search engine", "growth", "strategy", "performance", "data", "web"],
+    category: "other"
   },
   {
     id: "hugeicon-server-stack-01",
@@ -38476,7 +38780,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 7H10.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["server", "stack", "01"]
+    tags: ["server", "stack", "01", "data center", "hosting", "database", "network", "storage", "infrastructure", "cloud", "computing", "hardware", "stacked"],
+    category: "device"
   },
   {
     id: "hugeicon-server-stack-02",
@@ -38491,7 +38796,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 5.5H9.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["server", "stack", "02"]
+    tags: ["server", "stack", "02", "data center", "hosting", "database", "network", "storage", "infrastructure", "cloud", "computing", "hardware", "stacked"],
+    category: "device"
   },
   {
     id: "hugeicon-server-stack-03",
@@ -38508,7 +38814,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 18H9.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["server", "stack", "03"]
+    tags: ["server", "stack", "03", "data center", "hosting", "database", "network", "storage", "infrastructure", "cloud", "computing", "hardware", "stacked"],
+    category: "device"
   },
   {
     id: "hugeicon-service",
@@ -38517,7 +38824,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.4173 15.7133C23.368 10.7038 22.3007 5.73508 19.4626 3.99415C16.7809 2.34923 14.4404 3.01211 13.0344 4.06801L11.9998 4.84158M19.4173 15.7133C18.469 16.9156 17.2317 18.1204 15.6605 19.2834C14.1143 20.4278 13.3412 21 12 21C10.6588 21 9.88572 20.4278 8.33953 19.2834C0.22172 13.2749 1.01807 6.15293 4.53744 3.99415C7.21909 2.34923 9.55962 3.01211 10.9656 4.06801L11.9998 4.84158M19.4173 15.7133L13.8921 9.44479C13.6659 9.1882 13.2873 9.13296 12.9972 9.31424L10.8111 10.6806C10.0418 11.1614 9.04334 11.0532 8.3949 10.4187C7.53837 9.58062 7.62479 8.17769 8.5777 7.45106L11.9998 4.84158" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["service"]
+    tags: ["service", "support", "customer", "assistance", "help", "care", "maintenance", "offering", "solution", "business", "gears"],
+    category: "other"
   },
   {
     id: "hugeicon-serving-food",
@@ -38528,7 +38836,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 11.5C5 7.08171 8.58171 3.5 13 3.5M13 3.5C17.4183 3.5 21 7.08171 21 11.5M13 3.5V2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["serving", "food"]
+    tags: ["serving", "food", "restaurant", "catering", "meal", "dish", "waiter", "hospitality", "tray", "dining", "cuisine", "chef"],
+    category: "food"
   },
   {
     id: "hugeicon-setting-06",
@@ -38538,7 +38847,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 8L15 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "06"]
+    tags: ["setting", "06", "gear", "cog", "preferences", "options", "configuration", "management", "control", "adjust", "customization", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setting-07",
@@ -38548,7 +38858,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 12C15.5 13.933 13.933 15.5 12 15.5C10.067 15.5 8.5 13.933 8.5 12C8.5 10.067 10.067 8.5 12 8.5C13.933 8.5 15.5 10.067 15.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "07"]
+    tags: ["setting", "07", "gear", "cog", "preferences", "options", "configuration", "management", "control", "adjust", "customization", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setting-done-01",
@@ -38560,7 +38871,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.1599 9.44202C13.3199 8.75802 12.6599 8.49402 11.6999 8.49402C9.89986 8.51802 8.25586 10.005 8.25586 11.938C8.25586 13.0037 8.57986 13.678 9.19186 14.386" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "done", "01"]
+    tags: ["setting", "done", "01", "gear", "completed", "success", "finished", "configured", "checked", "approved", "ready", "tick", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setting-done-02",
@@ -38572,7 +38884,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.8795 9.2998C14.0995 8.2198 12.9235 7.7998 11.9635 7.7998C10.1635 7.82381 8.51953 9.3108 8.51953 11.2438C8.51953 12.3095 8.81953 13.0798 9.65953 13.9198" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "done", "02"]
+    tags: ["setting", "done", "02", "gear", "completed", "success", "finished", "configured", "checked", "approved", "ready", "tick", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setting-done-03",
@@ -38584,7 +38897,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.78 20.436C9.33442 19.9904 9.18844 19.8566 8.90573 19.7389C8.62149 19.6204 8.3257 19.6161 7.69171 19.6161C6.1838 19.6161 5.32083 19.6161 4.85239 19.1476C4.38394 18.6792 4.38394 17.8162 4.38394 16.3083C4.38394 15.6777 4.37981 15.3817 4.26299 15.0987C4.14573 14.8147 3.93965 14.6022 3.49166 14.1541C2.92759 13.59 2 12.8859 2 12C2 11.114 2.92756 10.4099 3.49166 9.84585C3.93756 9.39996 4.14378 9.18799 4.26137 8.90515C4.37951 8.62098 4.38394 8.32526 4.38394 7.69171C4.38394 6.1838 4.38394 5.32083 4.85239 4.85239C5.32083 4.38394 6.1838 4.38394 7.69171 4.38394C8.32091 4.38394 8.61661 4.38 8.89929 4.26379C9.18454 4.14652 9.39688 3.94064 9.84585 3.49166C10.4099 2.92756 11.2104 2 12 2C12.7896 2 13.59 2.92759 14.1541 3.49167C14.6029 3.94037 14.8155 4.14637 15.1001 4.26355C15.3827 4.37992 15.6787 4.38394 16.3083 4.38394C17.8162 4.38394 18.6792 4.38394 19.1476 4.85239C19.6161 5.32083 19.6161 6.1838 19.6161 7.69171C19.6161 8.32383 19.6202 8.6196 19.7378 8.9032C19.8555 9.18695 19.9891 9.3211 20.436 9.768" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "done", "03"]
+    tags: ["setting", "done", "03", "gear", "completed", "success", "finished", "configured", "checked", "approved", "ready", "tick", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setting-done-04",
@@ -38596,7 +38910,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.984 10.74C21.96 10.2 21.5969 9.5418 20.7906 8.15201L18.8669 4.83622C18.0638 3.45197 17.6623 2.75984 17.0019 2.37992C16.3416 2 15.5402 2 13.9373 2H10.0627C8.45982 2 7.6584 2 6.99807 2.37992C6.33774 2.75984 5.93619 3.45196 5.13311 4.83621L3.20942 8.152C2.40314 9.5418 2 10.2366 2 11C2 11.7634 2.40314 12.4582 3.20942 13.848L5.13311 17.1638C5.93619 18.548 6.33774 19.2402 6.99807 19.6201C7.62 19.92 7.99712 20 9.6 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "done", "04"]
+    tags: ["setting", "done", "04", "gear", "completed", "success", "finished", "configured", "checked", "approved", "ready", "tick", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setting-error-03",
@@ -38607,7 +38922,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.78 20.436C9.33442 19.9904 9.18844 19.8566 8.90573 19.7389C8.62149 19.6204 8.3257 19.6161 7.69171 19.6161C6.1838 19.6161 5.32083 19.6161 4.85239 19.1476C4.38394 18.6792 4.38394 17.8162 4.38394 16.3083C4.38394 15.6777 4.37981 15.3817 4.26299 15.0987C4.14573 14.8147 3.93965 14.6022 3.49166 14.1541C2.92759 13.59 2 12.8859 2 12C2 11.114 2.92756 10.4099 3.49166 9.84585C3.93756 9.39996 4.14378 9.18799 4.26137 8.90515C4.37951 8.62098 4.38394 8.32526 4.38394 7.69171C4.38394 6.1838 4.38394 5.32083 4.85239 4.85239C5.32083 4.38394 6.1838 4.38394 7.69171 4.38394C8.32091 4.38394 8.61661 4.38 8.89929 4.26379C9.18454 4.14652 9.39688 3.94064 9.84585 3.49166C10.4099 2.92756 11.2104 2 12 2C12.7896 2 13.59 2.92759 14.1541 3.49167C14.6029 3.94037 14.8155 4.14637 15.1001 4.26355C15.3827 4.37992 15.6787 4.38394 16.3083 4.38394C17.8162 4.38394 18.6792 4.38394 19.1476 4.85239C19.6161 5.32083 19.6161 6.1838 19.6161 7.69171C19.6161 8.32383 19.6202 8.6196 19.7378 8.90321C19.8555 9.18695 19.9891 9.3211 20.436 9.768" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "error", "03"]
+    tags: ["setting", "error", "03", "gear", "failure", "issue", "problem", "alert", "warning", "troubleshooting", "cross", "cancel", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setting-error-04",
@@ -38618,7 +38934,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.984 10.74C21.96 10.2 21.5969 9.5418 20.7906 8.15201L18.8669 4.83622C18.0638 3.45197 17.6623 2.75984 17.0019 2.37992C16.3416 2 15.5402 2 13.9373 2H10.0627C8.45982 2 7.6584 2 6.99807 2.37992C6.33774 2.75984 5.93619 3.45196 5.13311 4.83621L3.20942 8.152C2.40314 9.5418 2 10.2366 2 11C2 11.7634 2.40314 12.4582 3.20942 13.848L5.13311 17.1638C5.93619 18.548 6.33774 19.2402 6.99807 19.6201C7.62 19.92 7.99712 20 9.6 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setting", "error", "04"]
+    tags: ["setting", "error", "04", "gear", "failure", "issue", "problem", "alert", "warning", "troubleshooting", "cross", "cancel", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-settings-01",
@@ -38628,7 +38945,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5195 12C15.5195 13.933 13.9525 15.5 12.0195 15.5C10.0865 15.5 8.51953 13.933 8.51953 12C8.51953 10.067 10.0865 8.5 12.0195 8.5C13.9525 8.5 15.5195 10.067 15.5195 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "01"]
+    tags: ["settings", "01", "gear", "cog", "preferences", "options", "configuration", "management", "control", "adjust", "customization", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-settings-02",
@@ -38638,7 +38956,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.011 14.0965C21.5329 13.9558 21.7939 13.8854 21.8969 13.7508C22 13.6163 22 13.3998 22 12.9669V11.0332C22 10.6003 22 10.3838 21.8969 10.2493C21.7938 10.1147 21.5329 10.0443 21.011 9.90358C19.0606 9.37759 17.8399 7.33851 18.3433 5.40087C18.4817 4.86799 18.5509 4.60156 18.4848 4.44529C18.4187 4.28902 18.2291 4.18134 17.8497 3.96596L16.125 2.98673C15.7528 2.77539 15.5667 2.66972 15.3997 2.69222C15.2326 2.71472 15.0442 2.90273 14.6672 3.27873C13.208 4.73448 10.7936 4.73442 9.33434 3.27864C8.95743 2.90263 8.76898 2.71463 8.60193 2.69212C8.43489 2.66962 8.24877 2.77529 7.87653 2.98663L6.15184 3.96587C5.77253 4.18123 5.58287 4.28891 5.51678 4.44515C5.45068 4.6014 5.51987 4.86787 5.65825 5.4008C6.16137 7.3385 4.93972 9.37763 2.98902 9.9036C2.46712 10.0443 2.20617 10.1147 2.10308 10.2492C2 10.3838 2 10.6003 2 11.0332V12.9669C2 13.3998 2 13.6163 2.10308 13.7508C2.20615 13.8854 2.46711 13.9558 2.98902 14.0965C4.9394 14.6225 6.16008 16.6616 5.65672 18.5992C5.51829 19.1321 5.44907 19.3985 5.51516 19.5548C5.58126 19.7111 5.77092 19.8188 6.15025 20.0341L7.87495 21.0134C8.24721 21.2247 8.43334 21.3304 8.6004 21.3079C8.76746 21.2854 8.95588 21.0973 9.33271 20.7213C10.7927 19.2644 13.2088 19.2643 14.6689 20.7212C15.0457 21.0973 15.2341 21.2853 15.4012 21.3078C15.5682 21.3303 15.7544 21.2246 16.1266 21.0133L17.8513 20.034C18.2307 19.8187 18.4204 19.711 18.4864 19.5547C18.5525 19.3984 18.4833 19.132 18.3448 18.5991C17.8412 16.6616 19.0609 14.6226 21.011 14.0965Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "02"]
+    tags: ["settings", "02", "gear", "cog", "preferences", "options", "configuration", "management", "control", "adjust", "customization", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-settings-03",
@@ -38648,7 +38967,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.7906 9.15201C21.5969 10.5418 22 11.2366 22 12C22 12.7634 21.5969 13.4582 20.7906 14.848L18.8669 18.1638C18.0638 19.548 17.6623 20.2402 17.0019 20.6201C16.3416 21 15.5402 21 13.9373 21L10.0627 21C8.45982 21 7.6584 21 6.99807 20.6201C6.33774 20.2402 5.93619 19.548 5.13311 18.1638L3.20942 14.848C2.40314 13.4582 2 12.7634 2 12C2 11.2366 2.40314 10.5418 3.20942 9.152L5.13311 5.83621C5.93619 4.45196 6.33774 3.75984 6.99807 3.37992C7.6584 3 8.45982 3 10.0627 3L13.9373 3C15.5402 3 16.3416 3 17.0019 3.37992C17.6623 3.75984 18.0638 4.45197 18.8669 5.83622L20.7906 9.15201Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "03"]
+    tags: ["settings", "03", "gear", "cog", "preferences", "options", "configuration", "management", "control", "adjust", "customization", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-settings-04",
@@ -38661,7 +38981,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 10V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "04"]
+    tags: ["settings", "04", "gear", "cog", "preferences", "options", "configuration", "management", "control", "adjust", "customization", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-settings-05",
@@ -38674,7 +38995,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 15.5L7 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "05"]
+    tags: ["settings", "05", "gear", "cog", "preferences", "options", "configuration", "management", "control", "adjust", "customization", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-settings-error-01",
@@ -38685,7 +39007,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.1599 9.44605C13.3199 8.76205 12.6599 8.49805 11.6999 8.49805C9.89986 8.52205 8.25586 10.009 8.25586 11.942C8.25586 13.0077 8.57986 13.682 9.19186 14.39" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "error", "01"]
+    tags: ["settings", "error", "01", "gear", "failure", "issue", "problem", "alert", "warning", "troubleshooting", "cross", "cancel", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-settings-error-02",
@@ -38696,7 +39019,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 15V17M17.009 19H17M22 17C22 19.7614 19.7614 22 17 22C14.2386 22 12 19.7614 12 17C12 14.2386 14.2386 12 17 12C19.7614 12 22 14.2386 22 17Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["settings", "error", "02"]
+    tags: ["settings", "error", "02", "gear", "failure", "issue", "problem", "alert", "warning", "troubleshooting", "cross", "cancel", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-setup-01",
@@ -38707,7 +39031,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 2V4.85857C17.1962 3.09032 14.7255 2 12 2C6.47715 2 2 6.47715 2 12C2 13.4222 2.29689 14.7751 2.83209 16M5 22V19.1414C6.80375 20.9097 9.27455 22 12 22C17.5228 22 22 17.5228 22 12C22 10.5778 21.7031 9.22492 21.1679 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setup", "01"]
+    tags: ["setup", "01", "installation", "configuration", "onboarding", "preparation", "start", "initiate", "wizard", "process", "system", "gear"],
+    category: "ui"
   },
   {
     id: "hugeicon-setup-02",
@@ -38718,7 +39043,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 2V4.85857C17.1962 3.09032 14.7255 2 12 2C6.47715 2 2 6.47715 2 12C2 13.4222 2.29689 14.7751 2.83209 16M5 22V19.1414C6.80375 20.9097 9.27455 22 12 22C17.5228 22 22 17.5228 22 12C22 10.5778 21.7031 9.22492 21.1679 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["setup", "02"]
+    tags: ["setup", "02", "settings", "configuration", "preferences", "cog", "gear", "management", "system", "control", "outlined"],
+    category: "system"
   },
   {
     id: "hugeicon-seven-circle",
@@ -38728,7 +39054,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["seven", "circle"]
+    tags: ["seven", "circle", "number", "digit", "lucky", "circular", "numeric", "count", "outlined", "minimal"],
+    category: "other"
   },
   {
     id: "hugeicon-seven-square",
@@ -38738,7 +39065,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.49707 7H15.0811C15.3108 7 15.4971 7.18625 15.4971 7.41599C15.4971 7.47144 15.486 7.52632 15.4645 7.57742L11.4971 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["seven", "square"]
+    tags: ["seven", "square", "number", "digit", "numeric", "count", "outlined", "minimal", "geometric"],
+    category: "other"
   },
   {
     id: "hugeicon-shaka-01",
@@ -38747,7 +39075,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.329 5.95241L10.5 8.14663C11.8897 8.14663 12.5845 8.14663 13.1133 8.36021C14.0353 8.73264 14.7191 9.5491 14.9405 10.542C15.0675 11.1113 14.9644 11.8179 14.7583 13.2311L14 17.4011H19.25C20.2165 17.4011 21 18.2067 21 19.2005C21 20.1943 20.2165 21 19.25 21H11.0505C8.20258 21 6.7786 21 5.69477 20.4208C4.78184 19.9329 4.03745 19.1673 3.56312 18.2282C3 17.1134 3 15.6488 3 12.7195C3 11.1625 3 10.384 3.25654 9.68332C3.33566 9.46725 3.43232 9.25841 3.54552 9.05902C3.91257 8.41248 4.50018 7.92155 5.67536 6.93972L9.91166 3.40042C10.5469 2.86973 11.4559 2.86619 12.095 3.39191C12.8631 4.02379 12.9692 5.18442 12.329 5.95241Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shaka", "01"]
+    tags: ["shaka", "01", "hang loose", "surf", "hand gesture", "greeting", "friendly", "communication", "outlined", "playful"],
+    category: "social"
   },
   {
     id: "hugeicon-shaka-02",
@@ -38756,7 +39085,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.7116 11.671L15.6393 13.5C15.6393 12.1103 15.6393 11.4155 15.4376 10.8867C15.0858 9.96466 14.3147 9.28087 13.377 9.05945C12.8393 8.93248 12.172 9.03555 10.8373 9.2417L6.899 10V4.75C6.899 3.7835 6.13811 3 5.1995 3C4.26089 3 3.5 3.7835 3.5 4.75V13.1795C3.5 15.8106 3.5 17.1261 3.98274 18.1435C4.47679 19.1846 5.31535 20.0232 6.35655 20.5173C7.37391 21 8.68944 21 11.3205 21C12.791 21 13.5263 21 14.188 20.7435C14.392 20.6643 14.5893 20.5677 14.7776 20.4545C15.3882 20.0874 15.8519 19.4998 16.7792 18.3246L20.1218 14.0883C20.623 13.4531 20.6264 12.5441 20.1299 11.905C19.5331 11.1369 18.4369 11.0308 17.7116 11.671Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shaka", "02"]
+    tags: ["shaka", "02", "hang loose", "surf", "hand gesture", "greeting", "friendly", "communication", "outlined", "playful"],
+    category: "social"
   },
   {
     id: "hugeicon-shaka-03",
@@ -38765,7 +39095,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.0002 16.4885C14.8286 16.4885 15.5002 15.8175 15.5002 14.9898C15.5002 14.1621 14.8286 13.4911 14.0002 13.4911M14.0002 16.4885L20.1172 17.7347C20.9142 17.8629 21.5002 18.5502 21.5002 19.3568C21.5002 20.3551 20.6164 21.1227 19.6269 20.9837L10.8333 19.486C10.8333 19.486 7.81555 19.1582 6.95041 18.8274C5.28774 18.4177 4.26744 17.4877 2.5 17.4877M14.0002 16.4885H12.0002C11.1717 16.4885 10.5002 15.8175 10.5002 14.9898C10.5002 14.1621 11.1717 13.4911 12.0002 13.4911H12.5001M15.0002 10.4936C15.8283 10.4933 16.4995 9.82241 16.4995 8.9949C16.4995 8.16718 15.828 7.49618 14.9995 7.49618L13.0002 7.49639C12.1717 7.49639 11.5002 8.16739 11.5002 8.99511C11.5002 9.82284 12.1717 10.4938 13.0002 10.4938M15.0002 10.4936L13.0002 10.4938M15.0002 10.4936H14.5002C15.3286 10.4936 16.0002 11.1646 16.0002 11.9924C16.0002 12.8201 15.3286 13.4911 14.5002 13.4911H12.5001M13.0002 10.4938L12.5002 10.4938C11.6718 10.4937 11.0002 11.1647 11.0002 11.9924C11.0002 12.8201 11.6717 13.4911 12.5001 13.4911M11.0377 7.49618L12.6631 5.87725C13.3763 5.16693 13.3112 3.99687 12.5237 3.36934C11.9211 2.88917 11.0686 2.87591 10.4513 3.33709L5.85304 6.93373C4.97328 7.62186 3.61728 7.99575 2.5 7.99575" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shaka", "03"]
+    tags: ["shaka", "03", "hang loose", "surf", "hand gesture", "greeting", "friendly", "communication", "filled", "playful"],
+    category: "social"
   },
   {
     id: "hugeicon-shaka-04",
@@ -38774,7 +39105,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.51147 10C7.51147 9.17162 8.18247 8.50004 9.01019 8.50004C9.83792 8.50004 10.5089 9.17162 10.5089 10M7.51147 10L6.2653 3.88298C6.1371 3.08598 5.44981 2.5 4.64324 2.5C3.64488 2.5 2.87728 3.38384 3.01631 4.37332L4.51402 13.1669C4.51402 13.1669 4.8418 16.1847 5.17257 17.0498C5.57664 18.6894 6.51232 19.7414 6.51232 21.5002M7.51147 10V12C7.51147 12.8285 8.18247 13.5 9.01019 13.5C9.83792 13.5 10.5089 12.8285 10.5089 12V11.5001M13.5064 9.00004C13.5067 8.17191 14.1776 7.50068 15.0051 7.50068C15.8328 7.50068 16.5038 8.17226 16.5038 9.00068L16.5036 11C16.5036 11.8285 15.8326 12.5 15.0049 12.5C14.1772 12.5 13.5062 11.8285 13.5062 11M13.5064 9.00004L13.5062 11M13.5064 9.00004V9.50004C13.5064 8.67162 12.8354 8.00004 12.0076 8.00004C11.1799 8.00004 10.5089 8.67162 10.5089 9.50004V11.5001M13.5062 11L13.5062 11.5C13.5063 12.3284 12.8353 13 12.0076 13C11.1799 13 10.5089 12.3285 10.5089 11.5001M16.5038 12.9625L18.1227 11.3371C18.8331 10.6239 20.0031 10.689 20.6307 11.4765C21.1108 12.0791 21.1241 12.9316 20.6629 13.549L17.0663 18.1472C16.3781 19.0269 16.0042 20.3829 16.0042 21.5002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shaka", "04"]
+    tags: ["shaka", "04", "hang loose", "surf", "hand gesture", "greeting", "friendly", "communication", "filled", "playful"],
+    category: "social"
   },
   {
     id: "hugeicon-shampoo",
@@ -38786,7 +39118,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 13H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shampoo"]
+    tags: ["shampoo", "hair care", "bottle", "hygiene", "bathroom", "cosmetics", "personal care", "cleaning", "product"],
+    category: "other"
   },
   {
     id: "hugeicon-shape-collection",
@@ -38798,7 +39131,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.5 15V17.5C20.5 18.9142 20.5 19.6213 20.0607 20.0607C19.6213 20.5 18.9142 20.5 17.5 20.5H15M14.5 14.5L19.5 19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shape", "collection"]
+    tags: ["shape", "collection", "geometric", "abstract", "design", "elements", "forms", "pattern", "variety", "outlined"],
+    category: "other"
   },
   {
     id: "hugeicon-shapes",
@@ -38807,7 +39141,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 8C6.20914 8 8 6.20914 8 4C8 3.2722 8 2.90829 8.02385 2.80107C8.13266 2.31172 8.28121 2.16103 8.76894 2.0452C8.87582 2.01982 9.08666 2.01679 9.50835 2.01074C10.2571 2 11.084 2 12 2C13.3714 2 14.5433 2 15.5518 2.03606C15.9598 2.05065 16.1639 2.05794 16.2867 2.09469C16.7096 2.22123 16.8563 2.37333 16.9677 2.80046C17 2.92452 17 3.28301 17 4C17 6.20914 18.7909 8 21 8C21.4931 8 21.963 8.34313 21.9759 8.83609C22 9.75428 22 10.8009 22 12C22 12.916 22 13.7429 21.9893 14.4916C21.9832 14.9133 21.9802 15.1242 21.9548 15.2311C21.839 15.7188 21.6883 15.8673 21.1989 15.9762C21.0917 16 20.7278 16 20 16C17.7909 16 16 17.7909 16 20C16 20.7278 16 21.0917 15.9762 21.1989C15.8673 21.6883 15.7188 21.839 15.2311 21.9548C15.1242 21.9802 14.9133 21.9832 14.4917 21.9893C13.7429 22 12.916 22 12 22C11.084 22 10.2571 22 9.50835 21.9893C9.08666 21.9832 8.87582 21.9802 8.76894 21.9548C8.28121 21.839 8.13266 21.6883 8.02385 21.1989C8 21.0917 8 20.7278 8 20C8 17.7909 6.20914 16 4 16C3.27219 16 2.90829 16 2.80106 15.9762C2.31172 15.8673 2.16103 15.7188 2.0452 15.2311C2.01982 15.1242 2.01679 14.9133 2.01074 14.4916C2 13.7429 2 12.916 2 12C2 11.084 2 10.2571 2.01074 9.50835C2.01679 9.08666 2.01982 8.87582 2.0452 8.76894C2.16103 8.28121 2.31172 8.13266 2.80107 8.02385C2.90829 8 3.2722 8 4 8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shapes"]
+    tags: ["shapes", "geometric", "abstract", "design", "elements", "forms", "pattern", "variety", "outlined"],
+    category: "other"
   },
   {
     id: "hugeicon-share-01",
@@ -38817,7 +39152,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.1667 7V3.85355C16.1667 3.65829 16.3316 3.5 16.535 3.5C16.6326 3.5 16.7263 3.53725 16.7954 3.60355L21.5275 8.14645C21.7634 8.37282 21.8958 8.67986 21.8958 9C21.8958 9.32014 21.7634 9.62718 21.5275 9.85355L16.7954 14.3964C16.7263 14.4628 16.6326 14.5 16.535 14.5C16.3316 14.5 16.1667 14.3417 16.1667 14.1464V11H13.1157C8.875 11 7.3125 14.5 7.3125 14.5V12C7.3125 9.23858 9.64435 7 12.5208 7H16.1667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "01"]
+    tags: ["share", "01", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-02",
@@ -38829,7 +39165,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="19" cy="19" r="3" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "02"]
+    tags: ["share", "02", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-03",
@@ -38839,7 +39176,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 11C6.59987 11 5.8998 11 5.36502 11.2725C4.89462 11.5122 4.51217 11.8946 4.27248 12.365C4 12.8998 4 13.5999 4 15V16C4 18.357 4 19.5355 4.73223 20.2678C5.46447 21 6.64298 21 9 21H15C17.357 21 18.5355 21 19.2678 20.2678C20 19.5355 20 18.357 20 16V15C20 13.5999 20 12.8998 19.7275 12.365C19.4878 11.8946 19.1054 11.5122 18.635 11.2725C18.1002 11 17.4001 11 16 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "03"]
+    tags: ["share", "03", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-04",
@@ -38849,7 +39187,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 3H18C19.4142 3 20.1213 3 20.5607 3.43934C21 3.87868 21 4.58579 21 6V10M20 4L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "04"]
+    tags: ["share", "04", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-05",
@@ -38859,7 +39198,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 3H18C19.4142 3 20.1213 3 20.5607 3.43934C21 3.87868 21 4.58579 21 6V10M20 4L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "05"]
+    tags: ["share", "05", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "filled"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-06",
@@ -38869,7 +39209,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 3H18C19.4142 3 20.1213 3 20.5607 3.43934C21 3.87868 21 4.58579 21 6V10M20 4L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "06"]
+    tags: ["share", "06", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "filled"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-07",
@@ -38881,7 +39222,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5348 4.58109C14.1554 4.52765 13.7677 4.5 13.3733 4.5C10.2974 4.5 7.62058 6.18227 6.24054 8.66317M19.7131 7.49453C20.8311 8.86497 21.5 10.6056 21.5 12.5C21.5 13.8758 21.1472 15.1705 20.5258 16.3012M15.8816 20.1117C15.0917 20.3638 14.2486 20.5 13.3733 20.5C9.58287 20.5 6.39853 17.9454 5.5 14.4898" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "07"]
+    tags: ["share", "07", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "filled"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-08",
@@ -38893,7 +39235,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.72852 10.7495L15.2285 7.75M8.72852 13.25L15.2285 16.2495" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "08"]
+    tags: ["share", "08", "send", "distribute", "social media", "export", "upload", "arrow", "connection", "network", "filled"],
+    category: "communication"
   },
   {
     id: "hugeicon-share-knowledge",
@@ -38905,7 +39248,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 3H21M15 6H21M15 9H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "knowledge"]
+    tags: ["share", "knowledge", "education", "learning", "teaching", "collaboration", "wisdom", "information", "community", "outlined"],
+    category: "education"
   },
   {
     id: "hugeicon-share-location-01",
@@ -38917,7 +39261,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9961 11.5H12.0024" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "location", "01"]
+    tags: ["share", "location", "01", "gps", "map", "pin", "navigation", "directions", "tracking", "send", "outlined"],
+    category: "navigation"
   },
   {
     id: "hugeicon-share-location-02",
@@ -38929,7 +39274,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 7C14.4353 7 16.5 9.01649 16.5 11.4629C16.5 13.9482 14.4017 15.6924 12.4635 16.8783C12.3223 16.9581 12.1625 17 12 17C11.8375 17 11.6777 16.9581 11.5365 16.8783C9.60195 15.6808 7.5 13.9568 7.5 11.4629C7.5 9.01649 9.56472 7 12 7Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["share", "location", "02"]
+    tags: ["share", "location", "02", "gps", "map", "pin", "navigation", "directions", "tracking", "send", "filled"],
+    category: "navigation"
   },
   {
     id: "hugeicon-shared-drive",
@@ -38943,7 +39289,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 20V8C20 5.17157 20 3.75736 19.1213 2.87868C18.2426 2 16.8284 2 14 2H10C7.17157 2 5.75736 2 4.87868 2.87868C4 3.75736 4 5.17157 4 8V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shared", "drive"]
+    tags: ["shared", "drive", "cloud storage", "folder", "collaboration", "documents", "files", "network", "data", "outlined"],
+    category: "file"
   },
   {
     id: "hugeicon-shared-wifi",
@@ -38954,7 +39301,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 16H12.0064" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shared", "wifi"]
+    tags: ["shared", "wifi", "internet", "network", "connection", "wireless", "hotspot", "access", "connectivity", "outlined"],
+    category: "device"
   },
   {
     id: "hugeicon-sharing",
@@ -38965,7 +39313,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.49942 5H4C3.05719 5 2.58579 5 2.29289 5.29289C2 5.58579 2 6.05719 2 7V9.5M8 11.0006L2.49942 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sharing"]
+    tags: ["sharing", "distribute", "social media", "export", "upload", "connection", "network", "collaboration", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-shellfish",
@@ -38975,7 +39324,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 16L17.2412 19.7942C17.1009 20.4953 16.4853 21 15.7703 21H8.22971C7.51468 21 6.89906 20.4953 6.75883 19.7942L6 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shellfish"]
+    tags: ["shellfish", "seafood", "crab", "lobster", "ocean", "food", "animal", "marine", "outlined"],
+    category: "food"
   },
   {
     id: "hugeicon-sheriff-01",
@@ -38987,7 +39337,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 11C5 13.808 5.30317 16.4602 7.56884 18.0121C9.41265 19.2751 13.1426 19.3382 14 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sheriff", "01"]
+    tags: ["sheriff", "01", "badge", "law", "justice", "authority", "western", "star", "police", "security", "enforcement", "officer"],
+    category: "security"
   },
   {
     id: "hugeicon-sheriff-02",
@@ -38997,7 +39348,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sheriff", "02"]
+    tags: ["sheriff", "02", "badge", "law", "justice", "authority", "western", "star", "police", "security", "enforcement", "officer"],
+    category: "security"
   },
   {
     id: "hugeicon-shield-01",
@@ -39006,7 +39358,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1833V8.28029C21 6.64029 21 5.82028 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3 5.82028 3 6.64029 3 8.28029V11.1833C3 16.8085 8.06277 20.1835 10.594 21.5194C11.2011 21.8398 11.5046 22 12 22C12.4954 22 12.7989 21.8398 13.406 21.5194C15.9372 20.1835 21 16.8085 21 11.1833Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "01"]
+    tags: ["shield", "01", "protection", "security", "defense", "privacy", "safety", "guard", "secure", "antivirus"],
+    category: "security"
   },
   {
     id: "hugeicon-shield-02",
@@ -39016,7 +39369,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 11.5C14.5 12.8807 13.3807 14 12 14C10.6193 14 9.5 12.8807 9.5 11.5C9.5 10.1193 10.6193 9 12 9C13.3807 9 14.5 10.1193 14.5 11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "02"]
+    tags: ["shield", "02", "protection", "security", "defense", "privacy", "safety", "guard", "secure", "antivirus"],
+    category: "security"
   },
   {
     id: "hugeicon-shield-blockchain",
@@ -39026,7 +39380,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 16.0001C12.1396 16.0001 12.2694 15.9365 12.5289 15.8093L14.6152 14.7869C15.5384 14.3345 16 14.1083 16 13.7501V9.25012M12 16.0001C11.8604 16.0001 11.7306 15.9365 11.4711 15.8093L9.38478 14.7869C8.4616 14.3345 8 14.1083 8 13.7501V9.25012M12 16.0001V11.5001M16 9.25012C16 8.89191 15.5384 8.6657 14.6152 8.2133L12.5289 7.19092C12.2694 7.06372 12.1396 7.00012 12 7.00012C11.8604 7.00012 11.7306 7.06372 11.4711 7.19092L9.38478 8.2133C8.46159 8.6657 8 8.89191 8 9.25012M16 9.25012C16 9.60834 15.5384 9.83454 14.6152 10.2869L12.5289 11.3093C12.2694 11.4365 12.1396 11.5001 12 11.5001M8 9.25012C8 9.60834 8.46159 9.83454 9.38478 10.2869L11.4711 11.3093C11.7306 11.4365 11.8604 11.5001 12 11.5001" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "blockchain"]
+    tags: ["shield", "blockchain", "crypto", "decentralized", "security", "network", "ledger", "digital", "finance", "protection", "web3"],
+    category: "security"
   },
   {
     id: "hugeicon-shield-energy",
@@ -39036,7 +39391,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1835V8.28041C21 6.64041 21 5.82041 20.5959 5.28541C20.1918 4.75042 19.2781 4.49068 17.4507 3.97122C16.2022 3.61632 15.1016 3.18875 14.2223 2.79841C13.0234 2.26622 12.424 2.00012 12 2.00012C11.576 2.00012 10.9766 2.26622 9.77771 2.79841C8.89839 3.18875 7.79784 3.61632 6.54933 3.97122C4.72193 4.49068 3.80822 4.75042 3.40411 5.28541C3 5.82041 3 6.64041 3 8.28041V11.1835C3 16.8086 8.06277 20.1836 10.594 21.5195C11.2011 21.8399 11.5046 22.0001 12 22.0001C12.4954 22.0001 12.7989 21.8399 13.406 21.5195C15.9372 20.1836 21 16.8086 21 11.1835Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "energy"]
+    tags: ["shield", "energy", "power", "electricity", "sustainable", "green", "security", "protection", "renewable", "eco", "environment"],
+    category: "security"
   },
   {
     id: "hugeicon-shield-key",
@@ -39047,7 +39403,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1833V8.28029C21 6.64029 21 5.82028 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3 5.82028 3 6.64029 3 8.28029V11.1833C3 16.8085 8.06277 20.1835 10.594 21.5194C11.2011 21.8398 11.5046 22 12 22C12.4954 22 12.7989 21.8398 13.406 21.5194C15.9372 20.1835 21 16.8085 21 11.1833Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "key"]
+    tags: ["shield", "key", "access", "password", "security", "encryption", "privacy", "authentication", "login", "protection", "secret"],
+    category: "security"
   },
   {
     id: "hugeicon-shield-user",
@@ -39058,7 +39415,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 11.1833V8.28029C21 6.64029 21 5.82028 20.5959 5.28529C20.1918 4.75029 19.2781 4.49056 17.4507 3.9711C16.2022 3.6162 15.1016 3.18863 14.2223 2.79829C13.0234 2.2661 12.424 2 12 2C11.576 2 10.9766 2.2661 9.77771 2.79829C8.89839 3.18863 7.79784 3.61619 6.54933 3.9711C4.72193 4.49056 3.80822 4.75029 3.40411 5.28529C3 5.82028 3 6.64029 3 8.28029V11.1833C3 16.8085 8.06277 20.1835 10.594 21.5194C11.2011 21.8398 11.5046 22 12 22C12.4954 22 12.7989 21.8398 13.406 21.5194C15.9372 20.1835 21 16.8085 21 11.1833Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shield", "user"]
+    tags: ["shield", "user", "profile", "account", "privacy", "security", "identity", "authentication", "protection", "admin", "personal"],
+    category: "security"
   },
   {
     id: "hugeicon-shipment-tracking",
@@ -39071,7 +39429,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.0078 6L17.9988 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shipment", "tracking"]
+    tags: ["shipment", "tracking", "delivery", "logistics", "package", "order", "status", "shipping", "location", "transport"],
+    category: "transport"
   },
   {
     id: "hugeicon-shipping-center",
@@ -39083,7 +39442,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 6H13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shipping", "center"]
+    tags: ["shipping", "center", "warehouse", "distribution", "logistics", "fulfillment", "delivery", "hub", "storage", "factory", "industrial"],
+    category: "transport"
   },
   {
     id: "hugeicon-shipping-loading",
@@ -39096,7 +39456,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 19H17.009M11 19H11.009M5 19H5.00898" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shipping", "loading"]
+    tags: ["shipping", "loading", "delivery", "logistics", "package", "moving", "cargo", "transport", "box", "import", "export"],
+    category: "transport"
   },
   {
     id: "hugeicon-shipping-truck-01",
@@ -39107,7 +39468,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 17.5H9.5M19.5 17.5H20.2632C20.4831 17.5 20.5931 17.5 20.6855 17.4885C21.3669 17.4036 21.9036 16.8669 21.9885 16.1855C22 16.0931 22 15.9831 22 15.7632V13C22 9.41015 19.0899 6.5 15.5 6.5M15 15.5V7C15 5.58579 15 4.87868 14.5607 4.43934C14.1213 4 13.4142 4 12 4H5C3.58579 4 2.87868 4 2.43934 4.43934C2 4.87868 2 5.58579 2 7V15C2 15.9346 2 16.4019 2.20096 16.75C2.33261 16.978 2.52197 17.1674 2.75 17.299C3.09808 17.5 3.56538 17.5 4.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shipping", "truck", "01"]
+    tags: ["shipping", "truck", "01", "delivery", "logistics", "transport", "lorry", "freight", "vehicle", "cargo", "trucking"],
+    category: "transport"
   },
   {
     id: "hugeicon-shipping-truck-02",
@@ -39118,7 +39480,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 17.5H9.5M15 15.5V7C15 5.58579 15 4.87868 14.5607 4.43934C14.1213 4 13.4142 4 12 4H5C3.58579 4 2.87868 4 2.43934 4.43934C2 4.87868 2 5.58579 2 7V15C2 15.9346 2 16.4019 2.20096 16.75C2.33261 16.978 2.52197 17.1674 2.75 17.299C3.09808 17.5 3.56538 17.5 4.5 17.5M15.5 6.5H17.3014C18.1311 6.5 18.5459 6.5 18.8898 6.6947C19.2336 6.8894 19.4471 7.2451 19.8739 7.95651L21.5725 10.7875C21.7849 11.1415 21.8911 11.3186 21.9456 11.5151C22 11.7116 22 11.918 22 12.331V15C22 15.9346 22 16.4019 21.799 16.75C21.6674 16.978 21.478 17.1674 21.25 17.299C20.9019 17.5 20.4346 17.5 19.5 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shipping", "truck", "02"]
+    tags: ["shipping", "truck", "02", "delivery", "logistics", "transport", "lorry", "freight", "vehicle", "cargo", "trucking"],
+    category: "transport"
   },
   {
     id: "hugeicon-shirt-01",
@@ -39128,7 +39491,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.74073 12L3.04321 9.38915C2.34774 8.71602 2 8.37946 2 7.96123C2 7.543 2.34774 7.20644 3.04321 6.53331L5.04418 4.59664C5.39088 4.26107 5.56423 4.09329 5.77088 3.96968C5.97753 3.84607 6.21011 3.77103 6.67526 3.62096L8.32112 3.08997C8.56177 3.01233 8.68209 2.97351 8.76391 3.02018C8.84573 3.06686 8.87157 3.2013 8.92324 3.47018C9.19358 4.87684 10.4683 5.94185 12 5.94185C13.5317 5.94185 14.8064 4.87684 15.0768 3.47018C15.1284 3.2013 15.1543 3.06686 15.2361 3.02018C15.3179 2.97351 15.4382 3.01233 15.6789 3.08997L17.3247 3.62096C17.7899 3.77103 18.0225 3.84607 18.2291 3.96968C18.4358 4.09329 18.6091 4.26107 18.9558 4.59664L20.9568 6.53331C21.6523 7.20644 22 7.543 22 7.96123C22 8.37946 21.6523 8.71602 20.9568 9.38915L18.2593 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shirt", "01"]
+    tags: ["shirt", "01", "clothing", "apparel", "fashion", "t-shirt", "garment", "casual", "wear", "top", "tee"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shocked",
@@ -39140,7 +39504,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 9.5C17 10.3284 16.3284 11 15.5 11C14.6716 11 14 10.3284 14 9.5C14 8.67157 14.6716 8 15.5 8C16.3284 8 17 8.67157 17 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shocked"]
+    tags: ["shocked", "surprise", "amazed", "astonished", "emotion", "expression", "emoji", "face", "reaction", "speechless"],
+    category: "social"
   },
   {
     id: "hugeicon-shop-sign",
@@ -39150,7 +39515,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 16H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shop", "sign"]
+    tags: ["shop", "sign", "store", "retail", "business", "commerce", "boutique", "marketplace", "sale", "shopping", "location"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopify",
@@ -39163,7 +39529,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.7896 9.42437C11.7896 9.0035 9.19076 8.24627 8.50372 10.266C8.1332 11.3553 8.79795 12.5183 10.2171 13.6331C12.2041 15.1939 11.867 16.524 11.5033 17.0001C10.2176 18.6837 7.64621 17.7016 6.78906 17.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopify"]
+    tags: ["shopify", "e-commerce", "platform", "online store", "retail", "business", "marketplace", "shopping", "brand", "website"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-bag-01",
@@ -39174,7 +39541,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 11H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "01"]
+    tags: ["shopping", "bag", "01", "purchase", "cart", "checkout", "retail", "e-commerce", "basket", "buy", "store", "consumer"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-bag-02",
@@ -39185,7 +39553,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 11C14.87 12.4131 13.5657 13.5 12 13.5C10.4343 13.5 9.13002 12.4131 9 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "02"]
+    tags: ["shopping", "bag", "02", "purchase", "cart", "checkout", "retail", "e-commerce", "basket", "buy", "store", "consumer"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-bag-03",
@@ -39195,7 +39564,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 9L7.71501 5.98983C7.87559 3.74176 9.7462 2 12 2C14.2538 2 16.1244 3.74176 16.285 5.98983L16.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "03"]
+    tags: ["shopping", "bag", "03", "purchase", "cart", "checkout", "retail", "e-commerce", "basket", "buy", "store", "consumer"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-bag-add",
@@ -39207,7 +39577,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 11H12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "add"]
+    tags: ["shopping", "bag", "add", "add to cart", "purchase", "item", "plus", "e-commerce", "basket", "buy", "checkout", "new"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-bag-check",
@@ -39219,7 +39590,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 11H12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "check"]
+    tags: ["shopping", "bag", "check", "purchase", "completed", "success", "order", "done", "e-commerce", "confirmation", "verified", "approved"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-bag-favorite",
@@ -39231,7 +39603,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 11H12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "favorite"]
+    tags: ["shopping", "bag", "favorite", "wishlist", "like", "heart", "love", "preferred", "e-commerce", "save", "bookmark", "interest"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-bag-remove",
@@ -39243,7 +39616,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 11H12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "bag", "remove"]
+    tags: ["shopping", "bag", "remove", "delete", "minus", "cancel", "clear", "e-commerce", "remove from cart", "discard", "empty", "undo"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-01",
@@ -39253,7 +39627,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 7.5C17.5 4.46243 15.0376 2 12 2C8.96243 2 6.5 4.46243 6.5 7.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "01"]
+    tags: ["shopping", "basket", "01", "cart", "purchase", "checkout", "retail", "e-commerce", "buy", "store", "consumer", "grocery"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-02",
@@ -39264,7 +39639,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 17.5H19.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "02"]
+    tags: ["shopping", "basket", "02", "e-commerce", "store", "purchase", "empty state", "ui", "commerce", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-03",
@@ -39275,7 +39651,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "03"]
+    tags: ["shopping", "basket", "03", "e-commerce", "store", "purchase", "empty state", "ui", "commerce", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-add-01",
@@ -39286,7 +39663,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 7.5C17.5 4.46243 15.0376 2 12 2C8.96243 2 6.5 4.46243 6.5 7.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "add", "01"]
+    tags: ["shopping", "basket", "add", "01", "e-commerce", "store", "add to cart", "plus", "new item", "cta", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-add-02",
@@ -39298,7 +39676,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 17.5H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "add", "02"]
+    tags: ["shopping", "basket", "add", "02", "e-commerce", "store", "add to cart", "plus", "new item", "cta", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-add-03",
@@ -39309,7 +39688,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "add", "03"]
+    tags: ["shopping", "basket", "add", "03", "e-commerce", "store", "add to cart", "plus", "new item", "cta", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-check-in-01",
@@ -39320,7 +39700,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 16.5C16.9915 15.9943 18.2998 14 19 14M21.5 16.5C21.0085 15.9943 19.7002 14 19 14M19 14V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "check", "in", "01"]
+    tags: ["shopping", "basket", "check", "in", "01", "e-commerce", "store", "checkout", "confirm", "process", "payment", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-check-in-02",
@@ -39332,7 +39713,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 17.5H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "check", "in", "02"]
+    tags: ["shopping", "basket", "check", "in", "02", "e-commerce", "store", "checkout", "confirm", "process", "payment", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-check-in-03",
@@ -39343,7 +39725,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "check", "in", "03"]
+    tags: ["shopping", "basket", "check", "in", "03", "e-commerce", "store", "checkout", "confirm", "process", "payment", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-check-out-01",
@@ -39354,7 +39737,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 19.5C16.9915 20.0057 18.2998 22 19 22M21.5 19.5C21.0085 20.0057 19.7002 22 19 22M19 22V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "check", "out", "01"]
+    tags: ["shopping", "basket", "check", "out", "01", "e-commerce", "store", "remove item", "cancel", "delete", "return", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-check-out-02",
@@ -39366,7 +39750,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 17.5H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "check", "out", "02"]
+    tags: ["shopping", "basket", "check", "out", "02", "e-commerce", "store", "remove item", "cancel", "delete", "return", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-check-out-03",
@@ -39377,7 +39762,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "check", "out", "03"]
+    tags: ["shopping", "basket", "check", "out", "03", "e-commerce", "store", "remove item", "cancel", "delete", "return", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-done-01",
@@ -39388,7 +39774,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 7.5C17.5 4.46243 15.0376 2 12 2C8.96243 2 6.5 4.46243 6.5 7.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "done", "01"]
+    tags: ["shopping", "basket", "done", "01", "e-commerce", "store", "completed", "success", "purchased", "order", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-done-02",
@@ -39400,7 +39787,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 17.5H11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "done", "02"]
+    tags: ["shopping", "basket", "done", "02", "e-commerce", "store", "completed", "success", "purchased", "order", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-done-03",
@@ -39411,7 +39799,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "done", "03"]
+    tags: ["shopping", "basket", "done", "03", "e-commerce", "store", "completed", "success", "purchased", "order", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-favorite-01",
@@ -39422,7 +39811,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 7.5C17.5 4.46243 15.0376 2 12 2C8.96243 2 6.5 4.46243 6.5 7.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "favorite", "01"]
+    tags: ["shopping", "basket", "favorite", "01", "e-commerce", "store", "wishlist", "like", "preferred", "save", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-favorite-02",
@@ -39434,7 +39824,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 17.5H9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "favorite", "02"]
+    tags: ["shopping", "basket", "favorite", "02", "e-commerce", "store", "wishlist", "like", "preferred", "save", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-favorite-03",
@@ -39445,7 +39836,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "favorite", "03"]
+    tags: ["shopping", "basket", "favorite", "03", "e-commerce", "store", "wishlist", "like", "preferred", "save", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-remove-01",
@@ -39456,7 +39848,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 7.5C17.5 4.46243 15.0376 2 12 2C8.96243 2 6.5 4.46243 6.5 7.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "remove", "01"]
+    tags: ["shopping", "basket", "remove", "01", "e-commerce", "store", "delete item", "minus", "clear", "cancel", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-remove-02",
@@ -39468,7 +39861,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 17.5H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "remove", "02"]
+    tags: ["shopping", "basket", "remove", "02", "e-commerce", "store", "delete item", "minus", "clear", "cancel", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-remove-03",
@@ -39479,7 +39873,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "remove", "03"]
+    tags: ["shopping", "basket", "remove", "03", "e-commerce", "store", "delete item", "minus", "clear", "cancel", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-secure-01",
@@ -39490,7 +39885,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 7.5C17.5 4.46243 15.0376 2 12 2C8.96243 2 6.5 4.46243 6.5 7.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "secure", "01"]
+    tags: ["shopping", "basket", "secure", "01", "e-commerce", "store", "security", "privacy", "safe", "lock", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-secure-02",
@@ -39502,7 +39898,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 17.5V15C19 15 17.5 14 17.5 14C17.5 14 16 15 14 15V17.5C14 21 17.5 22 17.5 22C17.5 22 21 21 21 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "secure", "02"]
+    tags: ["shopping", "basket", "secure", "02", "e-commerce", "store", "security", "privacy", "safe", "lock", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-basket-secure-03",
@@ -39513,7 +39910,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 11L10 3M15 3L17.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "basket", "secure", "03"]
+    tags: ["shopping", "basket", "secure", "03", "e-commerce", "store", "security", "privacy", "safe", "lock", "filled", "solid", "bold"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-01",
@@ -39526,7 +39924,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "01"]
+    tags: ["shopping", "cart", "01", "e-commerce", "store", "purchase", "trolley", "empty state", "ui", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-02",
@@ -39540,7 +39939,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "02"]
+    tags: ["shopping", "cart", "02", "e-commerce", "store", "purchase", "trolley", "empty state", "ui", "line", "outline", "stroke"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-add-01",
@@ -39554,7 +39954,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "add", "01"]
+    tags: ["shopping", "cart", "add", "01", "ecommerce", "purchase", "basket", "plus", "filled", "commerce", "add to cart", "buy"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-add-02",
@@ -39569,7 +39970,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "add", "02"]
+    tags: ["shopping", "cart", "add", "02", "ecommerce", "purchase", "basket", "plus", "outline", "commerce", "add to cart", "buy"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-check-01",
@@ -39583,7 +39985,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "check", "01"]
+    tags: ["shopping", "cart", "check", "01", "ecommerce", "success", "confirmation", "done", "filled", "basket", "purchase complete", "order"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-check-02",
@@ -39598,7 +40001,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "check", "02"]
+    tags: ["shopping", "cart", "check", "02", "ecommerce", "success", "confirmation", "done", "outline", "basket", "purchase complete", "order"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-check-in-01",
@@ -39612,7 +40016,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "check", "in", "01"]
+    tags: ["shopping", "cart", "check", "in", "01", "ecommerce", "arrival", "delivery", "filled", "basket", "receive", "inbound", "purchase"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-check-in-02",
@@ -39627,7 +40032,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "check", "in", "02"]
+    tags: ["shopping", "cart", "check", "in", "02", "ecommerce", "arrival", "delivery", "outline", "basket", "receive", "inbound", "purchase"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-check-out-01",
@@ -39641,7 +40047,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "check", "out", "01"]
+    tags: ["shopping", "cart", "check", "out", "01", "ecommerce", "departure", "shipping", "filled", "basket", "send", "outbound", "purchase"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-check-out-02",
@@ -39656,7 +40063,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "check", "out", "02"]
+    tags: ["shopping", "cart", "check", "out", "02", "ecommerce", "departure", "shipping", "outline", "basket", "send", "outbound", "purchase"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-favorite-01",
@@ -39670,7 +40078,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "favorite", "01"]
+    tags: ["shopping", "cart", "favorite", "01", "ecommerce", "wishlist", "like", "heart", "filled", "basket", "save for later", "love"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-favorite-02",
@@ -39685,7 +40094,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "favorite", "02"]
+    tags: ["shopping", "cart", "favorite", "02", "ecommerce", "wishlist", "like", "heart", "outline", "basket", "save for later", "love"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-remove-01",
@@ -39699,7 +40109,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "remove", "01"]
+    tags: ["shopping", "cart", "remove", "01", "ecommerce", "delete", "minus", "filled", "basket", "clear", "remove item", "cancel"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shopping-cart-remove-02",
@@ -39714,7 +40125,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shopping", "cart", "remove", "02"]
+    tags: ["shopping", "cart", "remove", "02", "ecommerce", "delete", "minus", "outline", "basket", "clear", "remove item", "cancel"],
+    category: "commerce"
   },
   {
     id: "hugeicon-shorts-pants",
@@ -39727,7 +40139,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 5C17 7.00225 17 11.0068 21 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shorts", "pants"]
+    tags: ["shorts", "pants", "clothing", "apparel", "fashion", "trousers", "garment", "summer", "casual", "wear"],
+    category: "other"
   },
   {
     id: "hugeicon-shoulder",
@@ -39741,7 +40154,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 16.5L13 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shoulder"]
+    tags: ["shoulder", "body", "anatomy", "human", "medical", "health", "joint", "muscle", "person"],
+    category: "health"
   },
   {
     id: "hugeicon-shuffle-square",
@@ -39751,7 +40165,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["shuffle", "square"]
+    tags: ["shuffle", "square", "random", "mix", "rearrange", "music", "playlist", "arrows", "order"],
+    category: "media"
   },
   {
     id: "hugeicon-shuffle",
@@ -39761,7 +40176,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5576 20L20.4551 19.0243C20.8561 18.5883 21.0566 18.3704 20.9861 18.1852C20.9155 18 20.632 18 20.0649 18C18.7956 18 17.2771 18.2051 16.1111 17.5267C15.2976 17.0534 14.7629 16.1815 13.6935 14.4376L10.7038 9.5624C9.63441 7.81853 9.0997 6.9466 8.2862 6.4733C7.47269 6 6.50873 6 4.58082 6H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shuffle"]
+    tags: ["shuffle", "random", "mix", "rearrange", "music", "playlist", "arrows", "order", "intertwined"],
+    category: "media"
   },
   {
     id: "hugeicon-shut-down",
@@ -39771,7 +40187,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 3V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shut", "down"]
+    tags: ["shut", "down", "power", "off", "logout", "system", "exit", "button", "control", "interface"],
+    category: "system"
   },
   {
     id: "hugeicon-shutterstock",
@@ -39781,7 +40198,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 13V14C18 15.8856 18 16.8284 17.4142 17.4142C16.8284 18 15.8856 18 14 18H13M6 11V10C6 8.11438 6 7.17157 6.58579 6.58579C7.17157 6 8.11438 6 10 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["shutterstock"]
+    tags: ["shutterstock", "brand", "logo", "company", "stock photos", "media", "image", "photography", "platform"],
+    category: "other"
   },
   {
     id: "hugeicon-sidebar-bottom",
@@ -39792,7 +40210,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 18H7M10 18H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "bottom"]
+    tags: ["sidebar", "bottom", "layout", "panel", "ui", "interface", "footer", "section", "web design", "dashboard"],
+    category: "ui"
   },
   {
     id: "hugeicon-sidebar-left-01",
@@ -39805,7 +40224,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 10L15.7735 11.0572C15.2578 11.5016 15 11.7239 15 12C15 12.2761 15.2578 12.4984 15.7735 12.9428L17 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "left", "01"]
+    tags: ["sidebar", "left", "01", "layout", "panel", "ui", "interface", "navigation", "menu", "web design", "dashboard"],
+    category: "ui"
   },
   {
     id: "hugeicon-sidebar-left",
@@ -39816,7 +40236,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 7H6M5 10H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "left"]
+    tags: ["sidebar", "left", "layout", "panel", "ui", "interface", "navigation", "menu", "web design", "dashboard"],
+    category: "ui"
   },
   {
     id: "hugeicon-sidebar-right-01",
@@ -39829,7 +40250,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 10L9.22654 11.0572C9.74218 11.5016 10 11.7239 10 12C10 12.2761 9.74218 12.4984 9.22654 12.9428L8 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "right", "01"]
+    tags: ["sidebar", "right", "01", "layout", "panel", "ui", "interface", "navigation", "menu", "web design", "dashboard"],
+    category: "ui"
   },
   {
     id: "hugeicon-sidebar-right",
@@ -39840,7 +40262,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 7.00006H19M18 10.0001H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "right"]
+    tags: ["sidebar", "right", "layout", "panel", "ui", "interface", "navigation", "menu", "web design", "dashboard"],
+    category: "ui"
   },
   {
     id: "hugeicon-sidebar-top",
@@ -39851,7 +40274,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 6.00002H7M10 6.00002H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sidebar", "top"]
+    tags: ["sidebar", "top", "layout", "panel", "ui", "interface", "header", "section", "web design", "dashboard"],
+    category: "ui"
   },
   {
     id: "hugeicon-sign-language-c",
@@ -39860,7 +40284,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 21V14.3936C4 11.7663 4 10.4526 4.35874 9.30431C4.86959 7.66915 6.67366 5.92189 8.07257 4.90417C8.96802 4.25272 9.81367 3.99439 11.8656 3.29139C12.193 3.17921 12.3568 3.12312 12.653 3.06783C12.9492 3.01253 13.0208 3.00972 13.164 3.00409C13.5303 2.98969 13.981 3.00996 14.4588 3.11939C14.802 3.19799 15.1425 3.32672 15.8236 3.58417L17.7348 4.36953C18.4651 4.66967 18.8346 5.48739 18.5771 6.23385C18.3041 7.02521 17.433 7.43653 16.6485 7.14453M10.1089 8C10.1089 8 12.7243 6.70713 13.7702 6.57906C14.3505 6.508 15.0351 6.64817 15.7358 6.8626L16.6485 7.14453M12 21C12.3237 19.6659 13.7962 18.9617 14.1179 18.8222C14.1208 18.821 14.1222 18.8204 14.1602 18.8051C14.1983 18.7899 14.2136 18.7842 14.2444 18.7728C15.0617 18.4705 16.2171 17.9148 16.7268 17.5L19.5607 15.6506C20.1896 15.1388 19.8804 14.3849 19.3133 14.0088C17.4785 12.7921 15.719 13.853 14.0259 14.6951C12.5527 15.4278 10.6179 14.3622 10.6179 12.7238C10.6179 10.4887 14.1046 9.45724 15.8849 10.1656L18.0793 10.8095C18.8889 11.0471 19.7378 10.5779 19.9513 9.77491C20.1441 9.04982 19.7492 8.29863 19.0358 8.03307L16.6485 7.14453" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sign", "language", "c"]
+    tags: ["sign", "language", "c", "communication", "deaf", "alphabet", "hand gesture", "letter", "education", "accessibility", "human"],
+    category: "communication"
   },
   {
     id: "hugeicon-signal-full-01",
@@ -39874,7 +40299,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 7L21 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "full", "01"]
+    tags: ["signal", "full", "01", "connectivity", "wifi", "network", "bars", "strength", "connection", "status", "ui", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-full-02",
@@ -39885,7 +40311,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 17V8C21 7.05719 21 6.58579 20.7071 6.29289C20.4142 6 19.9428 6 19 6C18.0572 6 17.5858 6 17.2929 6.29289C17 6.58579 17 7.05719 17 8V17C17 17.9428 17 18.4142 17.2929 18.7071C17.5858 19 18.0572 19 19 19C19.9428 19 20.4142 19 20.7071 18.7071C21 18.4142 21 17.9428 21 17Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "full", "02"]
+    tags: ["signal", "full", "02", "connectivity", "wifi", "network", "bars", "strength", "connection", "status", "ui", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-low-01",
@@ -39899,7 +40326,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 19L22 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "low", "01"]
+    tags: ["signal", "low", "01", "connectivity", "wifi", "network", "bars", "weak", "connection", "status", "ui", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-low-02",
@@ -39910,7 +40338,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 17V16C7 15.0572 7 14.5858 6.70711 14.2929C6.41421 14 5.94281 14 5 14C4.05719 14 3.58579 14 3.29289 14.2929C3 14.5858 3 15.0572 3 16V17C3 17.9428 3 18.4142 3.29289 18.7071C3.58579 19 4.05719 19 5 19C5.94281 19 6.41421 19 6.70711 18.7071C7 18.4142 7 17.9428 7 17Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "low", "02"]
+    tags: ["signal", "low", "02", "connectivity", "wifi", "network", "bars", "weak", "connection", "status", "ui", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-low-medium",
@@ -39924,7 +40353,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 19L22 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "low", "medium"]
+    tags: ["signal", "low", "medium", "connectivity", "wifi", "network", "bars", "average", "connection", "status", "ui", "partial"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-medium-01",
@@ -39938,7 +40368,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 19L22 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "medium", "01"]
+    tags: ["signal", "medium", "01", "connectivity", "wifi", "network", "bars", "average", "connection", "status", "ui", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-medium-02",
@@ -39949,7 +40380,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 17V12C14 11.0572 14 10.5858 13.7071 10.2929C13.4142 10 12.9428 10 12 10C11.0572 10 10.5858 10 10.2929 10.2929C10 10.5858 10 11.0572 10 12V17C10 17.9428 10 18.4142 10.2929 18.7071C10.5858 19 11.0572 19 12 19C12.9428 19 13.4142 19 13.7071 18.7071C14 18.4142 14 17.9428 14 17Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "medium", "02"]
+    tags: ["signal", "medium", "02", "connectivity", "wifi", "network", "bars", "average", "connection", "status", "ui", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-no-01",
@@ -39964,7 +40396,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 19L21 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "no", "01"]
+    tags: ["signal", "no", "01", "connectivity", "wifi", "network", "bars", "disconnected", "offline", "connection", "status", "ui", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal-no-02",
@@ -39976,7 +40409,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 5L7.5 13M15.5 13L7.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal", "no", "02"]
+    tags: ["signal", "no", "02", "connectivity", "wifi", "network", "bars", "disconnected", "offline", "connection", "status", "ui", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-signal",
@@ -39986,7 +40420,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12C5 13.275 5.4044 14.4704 6 15.5L5 19L8.5 18C9.52961 18.5956 10.725 19 12 19Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signal"]
+    tags: ["signal", "connectivity", "wifi", "network", "bars", "strength", "connection", "status", "ui", "generic"],
+    category: "ui"
   },
   {
     id: "hugeicon-signature",
@@ -39996,7 +40431,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 21H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["signature"]
+    tags: ["signature", "autograph", "sign", "approve", "identity", "document", "contract", "legal", "pen", "handwriting"],
+    category: "ui"
   },
   {
     id: "hugeicon-silence",
@@ -40008,7 +40444,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 15L10.5 17M13.5 15L13.5 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["silence"]
+    tags: ["silence", "mute", "quiet", "do not disturb", "sound off", "volume", "audio", "notification", "alert", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-simcard-01",
@@ -40018,7 +40455,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 11.8584C3 7.28199 3 4.99376 4.38674 3.54394C4.43797 3.49038 4.49038 3.43797 4.54394 3.38674C5.99376 2 8.28199 2 12.8584 2C13.943 2 14.4655 2.00376 14.9628 2.18936C15.4417 2.3681 15.8429 2.70239 16.6452 3.37099L18.8411 5.20092C19.9027 6.08561 20.4335 6.52795 20.7168 7.13266C21 7.73737 21 8.42833 21 9.81025V13C21 16.7497 21 18.6246 20.0451 19.9389C19.7367 20.3634 19.3634 20.7367 18.9389 21.0451C17.6246 22 15.7497 22 12 22C8.25027 22 6.3754 22 5.06107 21.0451C4.6366 20.7367 4.26331 20.3634 3.95491 19.9389C3 18.6246 3 16.7497 3 13V11.8584Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["simcard", "01"]
+    tags: ["simcard", "01", "mobile", "phone", "chip", "cellular", "telecom", "connectivity", "device", "tech", "filled"],
+    category: "device"
   },
   {
     id: "hugeicon-simcard-02",
@@ -40028,7 +40466,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 14.5C7 16.1499 7 16.9749 7.43934 17.4874C7.87868 18 8.58579 18 10 18H14C15.4142 18 16.1213 18 16.5607 17.4874C17 16.9749 17 16.1499 17 14.5M7 14.5C7 12.8501 7 12.0251 7.43934 11.5126C7.87868 11 8.58579 11 10 11H14C15.4142 11 16.1213 11 16.5607 11.5126C17 12.0251 17 12.8501 17 14.5M7 14.5H9M17 14.5H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["simcard", "02"]
+    tags: ["simcard", "02", "mobile", "phone", "chip", "cellular", "telecom", "connectivity", "device", "tech", "outline"],
+    category: "device"
   },
   {
     id: "hugeicon-simcard-dual",
@@ -40038,7 +40477,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.9779 16C18.4869 16 19.7414 16 20.6209 15.3316C20.9049 15.1157 21.1547 14.8544 21.361 14.5572C22 13.6372 22 12.3248 22 9.7V7.46718C22 6.49983 22 6.01616 21.8105 5.59286C21.621 5.16956 21.2658 4.85992 20.5554 4.24065L19.0861 2.95969C18.5492 2.49168 18.2808 2.25767 17.9604 2.13256C17.6276 2.00263 17.278 2 16.5523 2C13.4901 2 11.959 2 10.9889 2.97071C10.953 3.00658 10.918 3.04327 10.8837 3.08076C10.2922 3.72771 10.0777 4.61316 10 6" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["simcard", "dual"]
+    tags: ["simcard", "dual", "mobile", "phone", "chip", "cellular", "telecom", "connectivity", "two", "device", "tech"],
+    category: "device"
   },
   {
     id: "hugeicon-sin",
@@ -40049,7 +40489,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.68959 8.61565C6.26371 7.65235 5.4428 7 4.5 7H4C2.89543 7 2 8.11929 2 9.5C2 10.8807 2.89543 12 4 12H5C6.10457 12 7 13.1193 7 14.5C7 15.8807 6.10457 17 5 17H4.5C3.47484 17 2.5938 16.2287 2.20802 15.125" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sin"]
+    tags: ["sin", "math", "function", "trigonometry", "wave", "graph", "calculation", "education", "science", "line"],
+    category: "education"
   },
   {
     id: "hugeicon-sine-01",
@@ -40063,7 +40504,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.54393 17C4.69124 17 4 17.6716 4 18.5V20.5C4 21.3284 4.69124 22 5.54393 22M5.54393 17C6.21616 17 6.78805 17.4174 7 18M5.54393 17C4.87169 17 4.2998 17.4174 4.08785 18M5.54393 22C4.87169 22 4.2998 21.5826 4.08785 21M5.54393 22C6.21616 22 6.78805 21.5826 7 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sine", "01"]
+    tags: ["sine", "01", "math", "function", "trigonometry", "wave", "graph", "calculation", "education", "science", "line"],
+    category: "education"
   },
   {
     id: "hugeicon-sine-02",
@@ -40076,7 +40518,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 12H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sine", "02"]
+    tags: ["sine", "02", "math", "function", "trigonometry", "wave", "graph", "calculation", "education", "science", "line"],
+    category: "education"
   },
   {
     id: "hugeicon-sing-left",
@@ -40087,7 +40530,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.00897 9H8M16 9H15.991" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sing", "left"]
+    tags: ["sing", "left", "music", "microphone", "vocal", "karaoke", "performance", "audio", "entertainment", "artist", "direction"],
+    category: "media"
   },
   {
     id: "hugeicon-sing-right",
@@ -40098,7 +40542,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.00897 9H8M16 9H15.991" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sing", "right"]
+    tags: ["sing", "right", "music", "microphone", "vocal", "karaoke", "performance", "audio", "entertainment", "artist", "direction"],
+    category: "media"
   },
   {
     id: "hugeicon-sink-01",
@@ -40111,7 +40556,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 22H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sink", "01"]
+    tags: ["sink", "01", "kitchen", "bathroom", "plumbing", "water", "wash", "household", "appliance", "home", "utility"],
+    category: "other"
   },
   {
     id: "hugeicon-sink-02",
@@ -40124,7 +40570,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 16.5L9.64223 20.0323C9.84941 21.1717 10.8418 22 12 22C13.1582 22 14.1506 21.1717 14.3578 20.0323L15 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sink", "02"]
+    tags: ["sink", "02", "kitchen", "bathroom", "plumbing", "water", "wash", "household", "appliance", "home", "utility"],
+    category: "other"
   },
   {
     id: "hugeicon-siri-new",
@@ -40134,7 +40581,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["siri", "new"]
+    tags: ["siri", "new", "ai", "assistant", "voice", "apple", "smart", "technology", "chatbot", "modern", "geometric"],
+    category: "device"
   },
   {
     id: "hugeicon-siri",
@@ -40147,7 +40595,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 18C10.5 18 14.6857 10 21 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["siri"]
+    tags: ["siri", "ai", "assistant", "voice", "apple", "smart", "technology", "chatbot", "classic", "geometric"],
+    category: "device"
   },
   {
     id: "hugeicon-six-circle",
@@ -40158,7 +40607,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["six", "circle"]
+    tags: ["six", "circle", "number", "digit", "count", "circular", "ui", "badge", "marker", "geometric"],
+    category: "ui"
   },
   {
     id: "hugeicon-six-square",
@@ -40169,7 +40619,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.49707 14.5V9C9.49707 7.89543 10.3925 7 11.4971 7H13.4971C14.6016 7 15.4971 7.89543 15.4971 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["six", "square"]
+    tags: ["six", "square", "grid", "layout", "pattern", "geometric", "dashboard", "gallery", "tiles", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-sketch",
@@ -40180,7 +40631,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 9.5L12 21L2 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sketch"]
+    tags: ["sketch", "drawing", "design", "art", "creative", "draft", "idea", "pencil", "illustration"],
+    category: "tool"
   },
   {
     id: "hugeicon-skew",
@@ -40193,7 +40645,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.9171 4.5752L17.0848 6.4255M19.1544 8.99455L19.8476 18.0061M18.0162 19.7523L5.98574 18.2484M8.32812 5.88435L4.67383 16.1164" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["skew"]
+    tags: ["skew", "transform", "angle", "distort", "perspective", "edit", "geometric", "diagonal", "adjust"],
+    category: "ui"
   },
   {
     id: "hugeicon-ski",
@@ -40204,7 +40657,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 12L17 21L19.5 20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ski"]
+    tags: ["ski", "winter", "sport", "snow", "mountain", "activity", "recreation", "outdoor", "travel"],
+    category: "sport"
   },
   {
     id: "hugeicon-skipping-rope",
@@ -40215,7 +40669,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.4897 12C20.3359 12.0171 21.1357 12.2076 21.404 12.4306C21.7125 12.8966 21.011 13.935 20.9034 14.3721L21.2567 17.2345L21.4962 19.7476C21.6414 22.4163 17.6228 23.0705 17.5083 19.7476L18.1207 14.427C17.8544 13.6301 17.2111 12.5758 17.6815 12.3293C18.166 12.0755 18.8414 11.9869 19.4897 12ZM19.4897 12C19.5291 11.014 19.5879 9.27148 19.3855 8.13919C19.3088 7.70989 19.1796 7.29042 19.0346 6.87912C17.5293 2.60859 10.8114 -0.613747 6.01109 4.98876" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["skipping", "rope"]
+    tags: ["skipping", "rope", "jump", "exercise", "fitness", "workout", "cardio", "play", "activity", "sport"],
+    category: "sport"
   },
   {
     id: "hugeicon-skool",
@@ -40225,7 +40680,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.50063 11.0005C4.9056 9.54528 7.66729 10.5005 8.50063 11.0005L10.0006 9.5C10.0006 9.5 8.73595 8 6.00085 8C3.93463 8 1.35357 8.41898 1.35357 11.919C1.35357 15.419 7.70823 14.6943 6.70911 16.9978C6.13523 18.321 3.15757 17.1094 2.15757 16.4428L1 18.7185C1.83333 19.2185 3.90085 20 5.50085 20C7.29193 20 10.0006 18.9128 10.0006 15.7212C10.0006 12.5296 3.99014 12.8348 4.50063 11.0005Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["skool"]
+    tags: ["skool", "school", "education", "learning", "campus", "university", "academy", "building", "knowledge"],
+    category: "education"
   },
   {
     id: "hugeicon-skull",
@@ -40236,7 +40692,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 9.01907C14 9.01907 12.1384 9.01907 11.3067 10.3287C11.0575 10.7213 10.6752 11.0693 10.2233 10.9881C9.01847 10.7716 7.65343 9.99767 7 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["skull"]
+    tags: ["skull", "death", "danger", "pirate", "halloween", "warning", "toxic", "gothic", "hazard"],
+    category: "other"
   },
   {
     id: "hugeicon-skype",
@@ -40246,7 +40703,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 20C20.2091 20 22 18.2091 22 16C22 14.9608 21.6037 14.0142 20.954 13.303C20.2792 12.5642 20.0562 12.2608 19.9675 11.2774C19.8052 9.47708 19.035 7.72126 17.6569 6.34315C15.4775 4.16375 12.3535 3.50467 9.60274 4.36591C8.65975 4.66116 8.29221 4.5711 7.3493 4.23329C6.92776 4.08227 6.47349 4 6 4C3.79086 4 2 5.79086 2 8C2 9.03918 2.39628 9.98581 3.04596 10.697C3.72081 11.4358 3.94384 11.7392 4.0325 12.7226C4.19482 14.5229 4.96503 16.2787 6.34315 17.6569C8.52254 19.8363 11.6465 20.4953 14.3973 19.6341C15.3403 19.3388 15.7078 19.4289 16.6507 19.7667C17.0722 19.9177 17.5265 20 18 20Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["skype"]
+    tags: ["skype", "social media", "video call", "communication", "messaging", "app", "platform", "chat", "internet"],
+    category: "social"
   },
   {
     id: "hugeicon-slack",
@@ -40262,7 +40720,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.75 17C4.7165 17 5.5 16.2165 5.5 15.25V13.5L3.75 13.5C2.7835 13.5 2 14.2835 2 15.25C2 16.2165 2.7835 17 3.75 17Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slack"]
+    tags: ["slack", "team", "collaboration", "work", "messaging", "communication", "app", "platform", "productivity"],
+    category: "social"
   },
   {
     id: "hugeicon-sleeping",
@@ -40274,7 +40733,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 2H19.9474C20.5675 2 20.8775 2 20.9601 2.20009C21.0427 2.40019 20.8317 2.64023 20.4098 3.1203L17.9846 5.8797C17.5627 6.35977 17.3517 6.59981 17.4343 6.79991C17.5169 7 17.8269 7 18.447 7H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sleeping"]
+    tags: ["sleeping", "rest", "bedtime", "dream", "relax", "night", "tired", "recharge", "comfort"],
+    category: "health"
   },
   {
     id: "hugeicon-sleeveless",
@@ -40284,7 +40744,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 2C14.2005 2.62236 13.1502 3 12 3C10.8498 3 9.79952 2.62236 9 2" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sleeveless"]
+    tags: ["sleeveless", "clothing", "fashion", "apparel", "shirt", "vest", "tank top", "garment", "summer"],
+    category: "commerce"
   },
   {
     id: "hugeicon-slide",
@@ -40297,7 +40758,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 7H12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slide"]
+    tags: ["slide", "presentation", "carousel", "gallery", "deck", "show", "image", "next", "previous"],
+    category: "ui"
   },
   {
     id: "hugeicon-sliders-horizontal",
@@ -40314,7 +40776,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.99963 19.0005L8.99963 19.0003" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sliders", "horizontal"]
+    tags: ["sliders", "horizontal", "settings", "controls", "adjust", "filter", "options", "preferences", "equalizer", "configuration"],
+    category: "ui"
   },
   {
     id: "hugeicon-sliders-vertical",
@@ -40331,7 +40794,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.0002 20.0001L18.9999 15.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sliders", "vertical"]
+    tags: ["sliders", "vertical", "settings", "controls", "adjust", "filter", "options", "preferences", "equalizer", "configuration"],
+    category: "ui"
   },
   {
     id: "hugeicon-slideshare",
@@ -40341,7 +40805,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.0093 8.99951C20.0001 5.88521 19.9014 4.23418 18.8345 3.17108C17.6587 1.99951 15.7664 1.99951 11.9818 1.99951C8.19706 1.99951 6.30473 1.99951 5.12897 3.17108C4.0621 4.23418 3.96331 5.88521 3.95416 8.99951" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slideshare"]
+    tags: ["slideshare", "presentation", "document", "sharing", "platform", "business", "education", "content", "social media"],
+    category: "social"
   },
   {
     id: "hugeicon-slow-winds",
@@ -40353,7 +40818,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 18.3767C4.16839 19.1953 5.66323 19.1953 6.83162 18.3767C7.53608 17.8744 8.46392 17.8744 9.16838 18.3767C10.3368 19.1953 11.8488 19.2139 13 18.3953" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["slow", "winds"]
+    tags: ["slow", "winds", "weather", "breeze", "air", "forecast", "gentle", "nature", "climate", "outdoor"],
+    category: "weather"
   },
   {
     id: "hugeicon-smart-ac",
@@ -40367,7 +40833,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 18V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "ac"]
+    tags: ["smart", "ac", "air conditioner", "climate control", "cooling", "heating", "smart home", "automation", "temperature", "device"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-phone-01",
@@ -40377,7 +40844,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 2H10.5C8.14298 2 6.96447 2 6.23223 2.73223C5.5 3.46447 5.5 4.64298 5.5 7V17C5.5 19.357 5.5 20.5355 6.23223 21.2678C6.96447 22 8.14298 22 10.5 22H13.5C15.857 22 17.0355 22 17.7678 21.2678C18.5 20.5355 18.5 19.357 18.5 17V7C18.5 4.64298 18.5 3.46447 17.7678 2.73223C17.0355 2 15.857 2 13.5 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "phone", "01"]
+    tags: ["smart", "phone", "01", "mobile", "cellphone", "device", "communication", "app", "technology", "handheld", "contact"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-phone-02",
@@ -40387,7 +40855,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 2H10L10.5 3H13.5L14 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "phone", "02"]
+    tags: ["smart", "phone", "02", "mobile", "cellphone", "device", "communication", "app", "technology", "handheld", "contact"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-phone-03",
@@ -40399,7 +40868,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 2H10L10.5 3H13.5L14 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "phone", "03"]
+    tags: ["smart", "phone", "03", "mobile", "cellphone", "device", "communication", "app", "technology", "handheld", "contact"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-phone-04",
@@ -40410,7 +40880,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5 2H7.5L8 3H11L11.5 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "phone", "04"]
+    tags: ["smart", "phone", "04", "mobile", "cellphone", "device", "communication", "app", "technology", "handheld", "contact"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-phone-landscape-02",
@@ -40420,7 +40891,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M1.99991 9.5L1.99991 13.5L2.99991 13L2.99991 10L1.99991 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "phone", "landscape", "02"]
+    tags: ["smart", "phone", "landscape", "02", "mobile", "cellphone", "device", "horizontal", "video", "gaming", "media", "tablet"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-phone-landscape",
@@ -40430,7 +40902,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 10.5L2 13.5C2 15.857 2 17.0355 2.73223 17.7678C3.46447 18.5 4.64298 18.5 7 18.5H17C19.357 18.5 20.5355 18.5 21.2678 17.7678C22 17.0355 22 15.857 22 13.5V10.5C22 8.14298 22 6.96447 21.2678 6.23223C20.5355 5.5 19.357 5.5 17 5.5L7 5.5C4.64298 5.5 3.46447 5.5 2.73223 6.23223C2 6.96447 2 8.14298 2 10.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "phone", "landscape"]
+    tags: ["smart", "phone", "landscape", "mobile", "cellphone", "device", "horizontal", "video", "gaming", "media", "tablet"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-watch-01",
@@ -40441,7 +40914,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 16.5C16 16.5 15.1027 18.0718 14.938 19.9804C14.8615 20.868 14.8232 21.3118 14.5736 21.5678C14.3241 21.8238 14.023 21.8574 13.4208 21.9248C13.0226 21.9693 12.549 22 12 22C11.451 22 10.9774 21.9693 10.5792 21.9248C9.97701 21.8574 9.67594 21.8238 9.42636 21.5678C9.17678 21.3118 9.13851 20.868 9.06196 19.9804C8.89734 18.0718 8 16.5 8 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "watch", "01"]
+    tags: ["smart", "watch", "01", "wearable", "device", "fitness tracker", "timepiece", "gadget", "technology", "health", "wrist"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-watch-02",
@@ -40452,7 +40926,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 17C15.5 17 14.811 18.3392 14.6558 19.9991C14.5717 20.8988 14.5296 21.3486 14.2761 21.6033C14.0225 21.8579 13.717 21.8879 13.1058 21.9477C12.783 21.9793 12.4137 22 12 22C11.5863 22 11.217 21.9793 10.8942 21.9477C10.283 21.8879 9.97748 21.8579 9.72393 21.6033C9.47038 21.3486 9.42833 20.8988 9.34422 19.9991C9.18904 18.3392 8.5 17 8.5 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "watch", "02"]
+    tags: ["smart", "watch", "02", "wearable", "device", "fitness tracker", "timepiece", "gadget", "technology", "health", "wrist"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-watch-03",
@@ -40464,7 +40939,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.3881 9.33138C10.3267 8.78308 11.1459 9.00404 11.638 9.356C11.8398 9.50032 11.9406 9.57248 12 9.57248C12.0594 9.57248 12.1602 9.50032 12.362 9.356C12.8541 9.00404 13.6733 8.78308 14.6119 9.33138C15.8437 10.051 16.1224 12.425 13.2812 14.4278C12.74 14.8093 12.4694 15 12 15C11.5306 15 11.26 14.8093 10.7188 14.4278C7.8776 12.425 8.15632 10.051 9.3881 9.33138Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "watch", "03"]
+    tags: ["smart", "watch", "03", "wearable", "device", "gadget", "timepiece", "fitness tracker", "rounded", "ui", "accessory", "digital"],
+    category: "device"
   },
   {
     id: "hugeicon-smart-watch-04",
@@ -40476,7 +40952,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 10L13 13M15 9L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart", "watch", "04"]
+    tags: ["smart", "watch", "04", "wearable", "device", "gadget", "timepiece", "fitness tracker", "rounded", "ui", "accessory", "digital"],
+    category: "device"
   },
   {
     id: "hugeicon-smart",
@@ -40487,7 +40964,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 9.01067C7 9.01067 8.40944 8.88341 9.19588 9.50798M9.19588 9.50798L8.93275 10.3427C8.82896 10.6719 9.10031 11 9.4764 11C9.87165 11 10.1327 10.6434 9.92918 10.3348C9.74877 10.0612 9.50309 9.75196 9.19588 9.50798ZM14 9.01067C14 9.01067 15.4094 8.88341 16.1959 9.50798M16.1959 9.50798L15.9328 10.3427C15.829 10.6719 16.1003 11 16.4764 11C16.8717 11 17.1327 10.6434 16.9292 10.3348C16.7488 10.0612 16.5031 9.75196 16.1959 9.50798Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smart"]
+    tags: ["smart", "intelligent", "clever", "brain", "idea", "solution", "thinking", "concept", "abstract", "modern"],
+    category: "other"
   },
   {
     id: "hugeicon-smartphone-lost-wifi",
@@ -40500,7 +40978,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 10H15.0064" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smartphone", "lost", "wifi"]
+    tags: ["smartphone", "lost", "wifi", "mobile", "phone", "cellular", "disconnected", "no signal", "offline", "internet", "broken", "warning", "communication"],
+    category: "device"
   },
   {
     id: "hugeicon-smartphone-wifi",
@@ -40512,7 +40991,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 10H15.0064" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smartphone", "wifi"]
+    tags: ["smartphone", "wifi", "mobile", "phone", "cellular", "connected", "internet", "signal", "online", "communication", "network"],
+    category: "device"
   },
   {
     id: "hugeicon-smile-dizzy",
@@ -40523,7 +41003,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 15C8.91212 16.2144 10.3643 17 12 17C13.6357 17 15.0879 16.2144 16 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smile", "dizzy"]
+    tags: ["smile", "dizzy", "happy", "confused", "overwhelmed", "funny", "emoji", "emotion", "face", "playful", "circular"],
+    category: "social"
   },
   {
     id: "hugeicon-smile",
@@ -40534,7 +41015,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.00897 9L8 9M16 9L15.991 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["smile"]
+    tags: ["smile", "happy", "joy", "friendly", "emoji", "emotion", "face", "positive", "circular", "happiness"],
+    category: "social"
   },
   {
     id: "hugeicon-sms-code",
@@ -40548,7 +41030,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 19V19.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sms", "code"]
+    tags: ["sms", "code", "message", "text", "verification", "authentication", "otp", "security", "mobile", "communication", "pin"],
+    category: "communication"
   },
   {
     id: "hugeicon-snail",
@@ -40557,7 +41040,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.57687 14C9.57687 16.5 11.5 20 15.5399 20C19.5798 20 21.9999 16.866 21.9999 13C21.9999 8.02944 17.7699 4 12.0615 4C6.41519 4 1.41338 8.25529 2.0558 15.3865C2.08969 15.7628 2.34812 16.0843 2.71438 16.1769C5.41315 16.8591 8.18768 15.8637 9.57687 14ZM9.57687 14C9.57687 8.87223 17.5276 7.79116 17.5276 13C17.5276 14.4689 16.4999 15.7264 15.043 16.2456" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["snail"]
+    tags: ["snail", "animal", "slow", "nature", "garden", "mollusk", "shell", "cute", "creature", "minimal"],
+    category: "nature"
   },
   {
     id: "hugeicon-snapchat",
@@ -40568,7 +41052,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 16C18.1764 13.9171 18.1764 11.9503 21.0441 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["snapchat"]
+    tags: ["snapchat", "social media", "app", "ghost", "platform", "messaging", "communication", "network", "logo", "brand"],
+    category: "social"
   },
   {
     id: "hugeicon-snow",
@@ -40580,7 +41065,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 12.0003H5M15.5 17.9998L8.5 6M15.5 6.00025L8.5 18" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["snow"]
+    tags: ["snow", "winter", "weather", "cold", "snowflake", "ice", "frozen", "seasonal", "nature", "climate"],
+    category: "weather"
   },
   {
     id: "hugeicon-socks",
@@ -40595,7 +41081,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.5 12C18.8431 12 17.5 13.3431 17.5 15C17.5 15.7684 17.7889 16.4692 18.2639 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["socks"]
+    tags: ["socks", "clothing", "apparel", "footwear", "garment", "fashion", "pair", "warmth", "comfort", "fabric"],
+    category: "other"
   },
   {
     id: "hugeicon-soda-can",
@@ -40608,7 +41095,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="2.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["soda", "can"]
+    tags: ["soda", "can", "drink", "beverage", "refreshment", "soft drink", "aluminum", "packaging", "fizzy", "food", "container"],
+    category: "food"
   },
   {
     id: "hugeicon-sofa-01",
@@ -40619,7 +41107,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 9C18.8954 9 18 9.89543 18 11V13C18 13.8273 17.8273 14 17 14H7C6.17267 14 6 13.8273 6 13V11C6 9.89543 5.10457 9 4 9C2.89543 9 2 9.89543 2 11C2 11.7403 2.4022 12.3866 3 12.7324V13C3 14.8856 3 15.8284 3.58579 16.4142C4.17157 17 5.11438 17 7 17H17C18.8856 17 19.8284 17 20.4142 16.4142C21 15.8284 21 14.8856 21 13V12.7324C21.5978 12.3866 22 11.7403 22 11C22 9.89543 21.1046 9 20 9Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sofa", "01"]
+    tags: ["sofa", "01", "furniture", "couch", "lounge", "seating", "living room", "home", "comfort", "interior", "minimal"],
+    category: "other"
   },
   {
     id: "hugeicon-sofa-02",
@@ -40631,7 +41120,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 9C18.8954 9 18 9.89543 18 11V13C18 13.8273 17.8273 14 17 14H7C6.17267 14 6 13.8273 6 13V11C6 9.89543 5.10457 9 4 9C2.89543 9 2 9.89543 2 11C2 11.7403 2.4022 12.3866 3 12.7324V13C3 14.8856 3 15.8284 3.58579 16.4142C4.17157 17 5.11438 17 7 17H17C18.8856 17 19.8284 17 20.4142 16.4142C21 15.8284 21 14.8856 21 13V12.7324C21.5978 12.3866 22 11.7403 22 11C22 9.89543 21.1046 9 20 9Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sofa", "02"]
+    tags: ["sofa", "02", "furniture", "couch", "lounge", "seating", "living room", "home", "comfort", "interior", "minimal"],
+    category: "other"
   },
   {
     id: "hugeicon-sofa-03",
@@ -40642,7 +41132,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 9L4.54003 8.89326C5.24623 7.01005 5.59933 6.06845 6.37022 5.53422C7.1411 5 8.14674 5 10.158 5H13.842C15.8533 5 16.8589 5 17.6298 5.53422C18.4007 6.06845 18.7538 7.01005 19.46 8.89326L19.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sofa", "03"]
+    tags: ["sofa", "03", "furniture", "couch", "lounge", "seating", "living room", "home", "comfort", "interior", "minimal"],
+    category: "other"
   },
   {
     id: "hugeicon-sofa-single",
@@ -40654,7 +41145,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.01633 9L6.83223 7.7071C6.45413 5.0517 6.26508 3.72399 7.01024 2.862C7.7554 2 9.09221 2 11.7658 2H12.2342C14.9078 2 16.2446 2 16.9898 2.862C17.7349 3.72399 17.5459 5.0517 17.1678 7.7071L16.9837 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sofa", "single"]
+    tags: ["sofa", "single", "furniture", "couch", "lounge", "seating", "armchair", "living room", "home", "comfort", "interior"],
+    category: "other"
   },
   {
     id: "hugeicon-soft-drink-01",
@@ -40667,7 +41159,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 16H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soft", "drink", "01"]
+    tags: ["soft", "drink", "01", "beverage", "refreshment", "soda", "juice", "bottle", "food", "liquid", "container"],
+    category: "food"
   },
   {
     id: "hugeicon-soft-drink-02",
@@ -40679,7 +41172,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.0089 16H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soft", "drink", "02"]
+    tags: ["soft", "drink", "02", "beverage", "refreshment", "soda", "juice", "bottle", "food", "liquid", "container"],
+    category: "food"
   },
   {
     id: "hugeicon-software-license",
@@ -40693,7 +41187,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 17H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["software", "license"]
+    tags: ["software", "license", "program", "application", "key", "agreement", "permission", "legal", "digital", "code", "document"],
+    category: "file"
   },
   {
     id: "hugeicon-software-uninstall",
@@ -40706,7 +41201,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 17L19 19.5M19 19.5L21.5 22M19 19.5L16.5 22M19 19.5L21.5 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["software", "uninstall"]
+    tags: ["software", "uninstall", "program", "application", "remove", "delete", "trash", "system", "digital", "cleanup", "management"],
+    category: "system"
   },
   {
     id: "hugeicon-software",
@@ -40719,7 +41215,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.8904 6.61055L17.9018 4.59912" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["software"]
+    tags: ["software", "program", "application", "code", "system", "digital", "development", "technology", "computer", "gear"],
+    category: "system"
   },
   {
     id: "hugeicon-soil-moisture-field",
@@ -40734,7 +41231,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 18.5034C16 17.2482 17.0532 16.0077 17.7924 15.2917C18.1939 14.9028 18.8061 14.9028 19.2076 15.2917C19.9468 16.0077 21 17.2482 21 18.5034C21 19.7341 20.0533 21 18.5 21C16.9467 21 16 19.7341 16 18.5034Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["soil", "moisture", "field"]
+    tags: ["soil", "moisture", "field", "agriculture", "farming", "earth", "water", "irrigation", "environment", "nature", "crop", "garden"],
+    category: "nature"
   },
   {
     id: "hugeicon-soil-moisture-global",
@@ -40749,7 +41247,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2C5.17533 2 8.15863 2.82221 10.7486 4.26534" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soil", "moisture", "global"]
+    tags: ["soil", "moisture", "global", "agriculture", "farming", "earth", "water", "irrigation", "environment", "nature", "world", "climate"],
+    category: "nature"
   },
   {
     id: "hugeicon-soil-temperature-field",
@@ -40764,7 +41263,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 21C20.6569 21 22 19.6569 22 18C22 17.3038 21.7629 16.663 21.365 16.154C20.861 15.5093 20.609 15.1869 20.5545 15.0286C20.5 14.8704 20.5 14.6628 20.5 14.2478V10.5C20.5 9.67157 19.8284 9 19 9C18.1716 9 17.5 9.67157 17.5 10.5V14.2478C17.5 14.6628 17.5 14.8704 17.4455 15.0286C17.391 15.1869 17.139 15.5093 16.635 16.154C16.2371 16.663 16 17.3038 16 18C16 19.6569 17.3431 21 19 21Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soil", "temperature", "field"]
+    tags: ["soil", "temperature", "field", "agriculture", "farming", "earth", "heat", "climate", "environment", "nature", "crop", "garden"],
+    category: "nature"
   },
   {
     id: "hugeicon-soil-temperature-global",
@@ -40779,7 +41279,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2C5.17533 2 8.15863 2.82221 10.7486 4.26534" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soil", "temperature", "global"]
+    tags: ["soil", "temperature", "global", "earth", "climate", "environment", "weather", "gauge", "measurement", "ecology", "planet", "geography", "data"],
+    category: "weather"
   },
   {
     id: "hugeicon-solar-energy",
@@ -40789,7 +41290,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 12C15 13.6569 13.6569 15 12 15M15 12C15 10.3431 13.6569 9 12 9M15 12H16.5M12 15C10.3431 15 9 13.6569 9 12M12 15V16.5M9 12C9 10.3431 10.3431 9 12 9M9 12L7.5 12M12 9V7.5M14.1213 9.87869L15.182 8.81803M9.87868 14.1213L8.81802 15.182M14.1213 14.1213L15.182 15.182M9.87868 9.87869L8.81802 8.81803" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "energy"]
+    tags: ["solar", "energy", "sun", "power", "renewable", "electricity", "eco", "green", "sustainable", "clean", "alternative", "light"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-panel-01",
@@ -40802,7 +41304,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.5 10H3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "panel", "01"]
+    tags: ["solar", "panel", "01", "photovoltaic", "pv", "renewable", "electricity", "eco", "green", "sustainable", "clean", "alternative", "module"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-panel-02",
@@ -40815,7 +41318,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 2.5H10.5L6.50003 15.5H11.5L15.5 2.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "panel", "02"]
+    tags: ["solar", "panel", "02", "photovoltaic", "pv", "renewable", "electricity", "eco", "green", "sustainable", "clean", "alternative", "module"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-panel-03",
@@ -40832,7 +41336,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.04959 4.05029L7.7567 4.7574" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "panel", "03"]
+    tags: ["solar", "panel", "03", "photovoltaic", "pv", "renewable", "electricity", "eco", "green", "sustainable", "clean", "alternative", "module"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-panel-04",
@@ -40845,7 +41350,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5 2L10 5.5H14L11.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "panel", "04"]
+    tags: ["solar", "panel", "04", "photovoltaic", "pv", "renewable", "electricity", "eco", "green", "sustainable", "clean", "alternative", "module"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-panel-05",
@@ -40863,7 +41369,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.75781 3.75781L8.11137 4.11137" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "panel", "05"]
+    tags: ["solar", "panel", "05", "photovoltaic", "pv", "renewable", "electricity", "eco", "green", "sustainable", "clean", "alternative", "module"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-power",
@@ -40877,7 +41384,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 22H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "power"]
+    tags: ["solar", "power", "sun", "energy", "renewable", "electricity", "eco", "green", "sustainable", "clean", "alternative", "light"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-system-01",
@@ -40891,7 +41399,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.009 12H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "system", "01"]
+    tags: ["solar", "system", "01", "planets", "universe", "galaxy", "astronomy", "space", "cosmos", "celestial", "science", "education", "discovery"],
+    category: "nature"
   },
   {
     id: "hugeicon-solar-system",
@@ -40901,7 +41410,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.48311 3.65819C6.11715 3.25395 5.58823 3 5 3C3.89543 3 3 3.89543 3 5C3 5.58823 3.25395 6.11715 3.65819 6.48311M6.48311 3.65819C6.80434 4.01303 7 4.48366 7 5C7 6.10457 6.10457 7 5 7C4.48366 7 4.01303 6.80434 3.65819 6.48311M6.48311 3.65819C8.0644 2.6103 9.96093 2 12 2C17.5228 2 22 6.47715 22 12C22 14.0318 21.394 15.9221 20.353 17.5M3.65819 6.48311C2.6103 8.0644 2 9.96093 2 12C2 17.5228 6.47715 22 12 22C14.0391 22 15.9356 21.3897 17.5169 20.3418M17.5169 20.3418C17.8828 20.7461 18.4118 21 19 21C20.1046 21 21 20.1046 21 19C21 17.8954 20.1046 17 19 17C17.8954 17 17 17.8954 17 19C17 19.5163 17.1957 19.987 17.5169 20.3418Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["solar", "system"]
+    tags: ["solar", "system", "planets", "universe", "galaxy", "astronomy", "space", "cosmos", "celestial", "science", "education", "discovery"],
+    category: "nature"
   },
   {
     id: "hugeicon-solid-line-01",
@@ -40910,7 +41420,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12L21.5002 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "filled",
-    tags: ["solid", "line", "01"]
+    tags: ["solid", "line", "01", "divider", "separator", "rule", "stroke", "geometric", "minimal", "design", "ui", "abstract", "border"],
+    category: "ui"
   },
   {
     id: "hugeicon-solid-line-02",
@@ -40919,7 +41430,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "filled",
-    tags: ["solid", "line", "02"]
+    tags: ["solid", "line", "02", "divider", "separator", "rule", "stroke", "geometric", "minimal", "design", "ui", "abstract", "border"],
+    category: "ui"
   },
   {
     id: "hugeicon-sort-by-down-01",
@@ -40930,7 +41442,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 17.5C3 16.2749 3 15.6623 3.23842 15.1944C3.44815 14.7828 3.78279 14.4481 4.1944 14.2384C4.66233 14 5.27489 14 6.5 14C7.72511 14 8.33767 14 8.8056 14.2384C9.21721 14.4481 9.55185 14.7828 9.76158 15.1944C10 15.6623 10 16.2749 10 17.5C10 18.7251 10 19.3377 9.76158 19.8056C9.55185 20.2172 9.21721 20.5519 8.8056 20.7616C8.33767 21 7.72511 21 6.5 21C5.27489 21 4.66233 21 4.1944 20.7616C3.78279 20.5519 3.44815 20.2172 3.23842 19.8056C3 19.3377 3 18.7251 3 17.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sort", "by", "down", "01"]
+    tags: ["sort", "by", "down", "01", "order", "arrange", "descending", "filter", "list", "data", "arrow", "interface", "organization", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-sort-by-down-02",
@@ -40942,7 +41455,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 21V9M18.5 21C17.7998 21 16.4915 19.0057 16 18.5M18.5 21C19.2002 21 20.5085 19.0057 21 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sort", "by", "down", "02"]
+    tags: ["sort", "by", "down", "02", "order", "arrange", "descending", "filter", "list", "data", "arrow", "interface", "organization", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-sort-by-up-01",
@@ -40953,7 +41467,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 17.5C3 16.2749 3 15.6623 3.23842 15.1944C3.44815 14.7828 3.78279 14.4481 4.1944 14.2384C4.66233 14 5.27489 14 6.5 14C7.72511 14 8.33767 14 8.8056 14.2384C9.21721 14.4481 9.55185 14.7828 9.76158 15.1944C10 15.6623 10 16.2749 10 17.5C10 18.7251 10 19.3377 9.76158 19.8056C9.55185 20.2172 9.21721 20.5519 8.8056 20.7616C8.33767 21 7.72511 21 6.5 21C5.27489 21 4.66233 21 4.1944 20.7616C3.78279 20.5519 3.44815 20.2172 3.23842 19.8056C3 19.3377 3 18.7251 3 17.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sort", "by", "up", "01"]
+    tags: ["sort", "by", "up", "01", "order", "arrange", "ascending", "filter", "list", "data", "arrow", "interface", "organization", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-sort-by-up-02",
@@ -40965,7 +41480,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 3V15M18.5 3C17.7998 3 16.4915 4.9943 16 5.5M18.5 3C19.2002 3 20.5085 4.9943 21 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sort", "by", "up", "02"]
+    tags: ["sort", "by", "up", "02", "order", "arrange", "ascending", "filter", "list", "data", "arrow", "interface", "organization", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-01",
@@ -40978,7 +41494,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 21V3M5.5 21C4.79977 21 3.49153 19.0057 3 18.5M5.5 21C6.20023 21 7.50847 19.0057 8 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "01"]
+    tags: ["sorting", "01", "order", "arrange", "filter", "list", "data", "interface", "organization", "control", "reorder", "categorize"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-02",
@@ -40991,7 +41508,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 21V3M5.5 21C4.79977 21 3.49153 19.0057 3 18.5M5.5 21C6.20023 21 7.50847 19.0057 8 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "02"]
+    tags: ["sorting", "02", "order", "arrange", "filter", "list", "data", "interface", "organization", "control", "reorder", "categorize"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-03",
@@ -41004,7 +41522,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 21V3M5.5 21C4.79977 21 3.49153 19.0057 3 18.5M5.5 21C6.20023 21 7.50847 19.0057 8 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "03"]
+    tags: ["sorting", "03", "order", "arrange", "filter", "list", "data", "interface", "organization", "control", "reorder", "categorize"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-04",
@@ -41017,7 +41536,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 21V3M5.5 21C4.79977 21 3.49153 19.0057 3 18.5M5.5 21C6.20023 21 7.50847 19.0057 8 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "04"]
+    tags: ["sorting", "04", "order", "arrange", "filter", "list", "data", "interface", "organization", "control", "reorder", "categorize"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-05",
@@ -41031,7 +41551,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 5.1875C3.39322 4.74501 4.43982 3 5 3M7 5.1875C6.60678 4.74501 5.56018 3 5 3M5 3L5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "05"]
+    tags: ["sorting", "05", "order", "arrange", "filter", "list", "data", "interface", "organization", "control", "reorder", "categorize"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-1-9",
@@ -41042,7 +41563,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 19.9991V3.99915M16.5 19.9991C15.7998 19.9991 14.4915 18.0048 14 17.4991M16.5 19.9991C17.2002 19.9991 18.5085 18.0048 19 17.4991" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "1", "9"]
+    tags: ["sorting", "1", "9", "numeric", "order", "ascending", "filter", "list", "data", "interface", "organization", "control", "numbers"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-9-1",
@@ -41053,7 +41575,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5001 19.999V3.99902M16.5001 19.999C15.7999 19.999 14.4916 18.0047 14.0001 17.499M16.5001 19.999C17.2003 19.999 18.5086 18.0047 19.0001 17.499" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "9", "1"]
+    tags: ["sorting", "9", "1", "numeric", "order", "descending", "filter", "list", "data", "interface", "organization", "control", "numbers"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-a-z-01",
@@ -41066,7 +41589,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 12H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "a", "z", "01"]
+    tags: ["sorting", "a", "z", "01", "alphabetical", "order", "ascending", "filter", "list", "data", "interface", "organization", "control", "letters"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-a-z-02",
@@ -41077,7 +41601,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 20V4M17.5 20C16.7998 20 15.4915 18.0057 15 17.5M17.5 20C18.2002 20 19.5085 18.0057 20 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "a", "z", "02"]
+    tags: ["sorting", "a", "z", "02", "alphabetical", "order", "ascending", "filter", "list", "data", "interface", "organization", "control", "letters"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-down",
@@ -41090,7 +41615,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 2.5V8.5M16 8.5L14 6.5M16 8.5L18 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "down"]
+    tags: ["sorting", "down", "descending", "order", "arrow", "list", "direction", "filter", "data", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-up",
@@ -41103,7 +41629,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 21.5L8 15.5M8 15.5L10 17.5M8 15.5L6 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "up"]
+    tags: ["sorting", "up", "ascending", "order", "arrow", "list", "direction", "filter", "data", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-sorting-z-a-01",
@@ -41114,7 +41641,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 20V3.99999M17.5 20C16.7998 20 15.4915 18.0057 15 17.5M17.5 20C18.2002 20 19.5085 18.0057 20 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sorting", "z", "a", "01"]
+    tags: ["sorting", "z", "a", "01", "alphabetical", "descending", "order", "list", "filter", "text", "data", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-soundcloud",
@@ -41124,7 +41652,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4776 10.6001C17.485 10.6 17.4925 10.6 17.5 10.6C19.9853 10.6 22 12.4804 22 14.8C22 17.1196 19.9853 19 17.5 19H14M17.4776 10.6001C17.4924 10.4463 17.5 10.2907 17.5 10.1333C17.5 7.29827 15.0376 5 12 5H11V19M17.4776 10.6001C17.3753 11.6589 16.9286 12.625 16.2428 13.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["soundcloud"]
+    tags: ["soundcloud", "music", "audio", "streaming", "platform", "social", "app", "brand", "logo"],
+    category: "social"
   },
   {
     id: "hugeicon-source-code-circle",
@@ -41136,7 +41665,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 9L11 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["source", "code", "circle"]
+    tags: ["source", "code", "circle", "coding", "programming", "development", "developer", "script", "terminal", "web"],
+    category: "tool"
   },
   {
     id: "hugeicon-source-code-square",
@@ -41148,7 +41678,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["source", "code", "square"]
+    tags: ["source", "code", "square", "coding", "programming", "development", "developer", "script", "terminal", "web"],
+    category: "tool"
   },
   {
     id: "hugeicon-source-code",
@@ -41159,7 +41690,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 4L9.5 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["source", "code"]
+    tags: ["source", "code", "coding", "programming", "development", "developer", "script", "terminal", "web", "command"],
+    category: "tool"
   },
   {
     id: "hugeicon-spaceship",
@@ -41172,7 +41704,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 17L6 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spaceship"]
+    tags: ["spaceship", "rocket", "space", "launch", "travel", "future", "exploration", "science", "transport"],
+    category: "transport"
   },
   {
     id: "hugeicon-spades",
@@ -41181,7 +41714,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.3747 21.3991C15.5506 21.1194 15.3236 20.6714 14.8696 19.7753C14.6285 19.2994 13.2915 16.8919 13.7551 16.4097C13.8763 16.2836 14.304 16.3909 15.1593 16.6054C16.4152 16.9205 18.0294 16.8096 19.4282 15.7714C24.7293 11.8367 15.1828 2 12 2C8.81719 2 -0.729335 11.8367 4.57182 15.7714C5.97058 16.8096 7.58483 16.9205 8.84066 16.6054C9.696 16.3909 10.1237 16.2836 10.2449 16.4097C10.7085 16.8919 9.37152 19.2994 9.13041 19.7753C8.67639 20.6714 8.44938 21.1194 8.6253 21.3991C9.04019 22.0588 14.789 22.3304 15.3747 21.3991Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spades"]
+    tags: ["spades", "card", "playing", "game", "suit", "casino", "heart", "club", "diamond"],
+    category: "other"
   },
   {
     id: "hugeicon-spaghetti",
@@ -41194,7 +41728,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 6.55561C9.43124 4.79022 11.3282 3.68242 13.2369 4.08128C15.1456 4.48014 16.3434 6.23461 15.9121 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spaghetti"]
+    tags: ["spaghetti", "pasta", "food", "italian", "meal", "dinner", "cuisine", "noodle", "dish"],
+    category: "food"
   },
   {
     id: "hugeicon-spam",
@@ -41205,7 +41740,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9922 13L11.9922 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spam"]
+    tags: ["spam", "junk", "email", "unwanted", "message", "filter", "security", "alert", "block"],
+    category: "communication"
   },
   {
     id: "hugeicon-sparkles",
@@ -41215,7 +41751,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 12L7.38481 13.7083C7.71121 15.1572 8.84275 16.2888 10.2917 16.6152L12 17L10.2917 17.3848C8.84275 17.7112 7.71121 18.8427 7.38481 20.2917L7 22L6.61519 20.2917C6.28879 18.8427 5.15725 17.7112 3.70827 17.3848L2 17L3.70827 16.6152C5.15725 16.2888 6.28879 15.1573 6.61519 13.7083L7 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sparkles"]
+    tags: ["sparkles", "magic", "glitter", "shine", "celebration", "effect", "wish", "stars", "festive"],
+    category: "other"
   },
   {
     id: "hugeicon-spartan-helmet",
@@ -41226,7 +41763,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9998 8H12.0088" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spartan", "helmet"]
+    tags: ["spartan", "helmet", "warrior", "ancient", "greek", "roman", "military", "protection", "history", "strength"],
+    category: "other"
   },
   {
     id: "hugeicon-spatula",
@@ -41237,7 +41775,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.375 8.84143L15.5294 6.68707" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spatula"]
+    tags: ["spatula", "cooking", "kitchen", "utensil", "baking", "flip", "food", "chef", "tool"],
+    category: "food"
   },
   {
     id: "hugeicon-speaker-01",
@@ -41248,7 +41787,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 6H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["speaker", "01"]
+    tags: ["speaker", "01", "audio", "sound", "volume", "music", "device", "mute", "broadcast", "media"],
+    category: "media"
   },
   {
     id: "hugeicon-speaker",
@@ -41259,7 +41799,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 7C13.5 7.82843 12.8284 8.5 12 8.5C11.1716 8.5 10.5 7.82843 10.5 7C10.5 6.17157 11.1716 5.5 12 5.5C12.8284 5.5 13.5 6.17157 13.5 7Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["speaker"]
+    tags: ["speaker", "audio", "sound", "volume", "music", "device", "mute", "broadcast", "media"],
+    category: "media"
   },
   {
     id: "hugeicon-speech-to-text",
@@ -41270,7 +41811,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.00006 13C4.00172 17.1517 4.04756 19.2749 5.31802 20.6124C6.63604 22 8.75736 22 13 22H13.45C17.2568 22 19.1601 22 20.4225 20.8649C20.6018 20.7038 20.7687 20.528 20.9218 20.3393C22 19.0103 22 17.0065 22 12.9989C22 8.99125 22 6.98744 20.9218 5.65845C20.7687 5.46974 20.6018 5.29398 20.4225 5.1328C19.3191 4.14066 17.7259 4.01573 14.8 4H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["speech", "to", "text"]
+    tags: ["speech", "to", "text", "voice", "recognition", "dictation", "transcribe", "audio", "language", "ai", "input"],
+    category: "communication"
   },
   {
     id: "hugeicon-speed-train-01",
@@ -41285,7 +41827,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 19V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["speed", "train", "01"]
+    tags: ["speed", "train", "01", "fast", "rail", "locomotive", "transportation", "travel", "journey", "public", "bullet"],
+    category: "transport"
   },
   {
     id: "hugeicon-speed-train-02",
@@ -41300,7 +41843,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 19V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["speed", "train", "02"]
+    tags: ["speed", "train", "02", "fast", "rail", "locomotive", "transportation", "travel", "journey", "public", "bullet"],
+    category: "transport"
   },
   {
     id: "hugeicon-sperm",
@@ -41310,7 +41854,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 21C3.41339 20.4523 4.05487 19.8823 5.17764 19.6079C6.07232 19.3892 6.51967 19.2799 6.68616 19.1665C7.02076 18.9388 7.12514 18.7561 7.14451 18.3644C7.15414 18.1695 7.04904 17.8687 6.83883 17.267C6.62862 16.6654 6.52352 16.3646 6.53315 16.1697C6.55252 15.778 6.6569 15.5953 6.9915 15.3675C7.15799 15.2542 7.60534 15.1449 8.50002 14.9262C9.29868 14.731 9.7855 14.3789 10 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sperm"]
+    tags: ["sperm", "fertility", "reproduction", "biology", "medical", "health", "science", "cell", "male"],
+    category: "health"
   },
   {
     id: "hugeicon-sphere",
@@ -41321,7 +41866,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 8C19.0571 8.52165 22 10.0733 22 11.9063C22 14.1672 17.5228 16 12 16C6.47715 16 2 14.1672 2 11.9063C2 10.0733 4.94289 8.52165 9 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sphere"]
+    tags: ["sphere", "globe", "ball", "3d", "geometric", "circle", "planet", "round", "abstract"],
+    category: "other"
   },
   {
     id: "hugeicon-spirals",
@@ -41330,7 +41876,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9532 2.00004C17.5019 2.00004 22 6.47719 22 12C22 17.5229 17.5019 22 11.9532 22C-0.631103 22 -1.82658 4.01759 11.4985 5.00004C14.8499 5.24714 18.0289 8.41019 18.0289 12C18.0289 16.5 15.2348 18.5 11.4985 18.5C4.5 18.5 3.19042 8.46695 11.0021 9.00004C12.508 9.1028 14.0162 10.3432 14.0162 12C14.0162 13.9279 13 15 11.1211 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spirals"]
+    tags: ["spirals", "swirl", "abstract", "pattern", "hypnosis", "vortex", "circular", "design", "curve"],
+    category: "other"
   },
   {
     id: "hugeicon-spoon-and-fork",
@@ -41342,7 +41889,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.20542 2.39669C10.0923 2.13908 11.03 2.00098 12 2.00098C13.1517 2.00098 14.2579 2.19567 15.2876 2.55394M2.04937 11.001C2.01672 11.3299 2 11.6635 2 12.001C2 14.0328 2.60598 15.9231 3.64707 17.501M7.77267 21.0661C9.05671 21.6659 10.4892 22.001 12 22.001C13.5244 22.001 14.9691 21.6599 16.262 21.0499M20.3529 17.501C21.394 15.9231 22 14.0328 22 12.001C22 11.4228 21.9509 10.8561 21.8567 10.3048" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spoon", "and", "fork"]
+    tags: ["spoon", "and", "fork", "cutlery", "dining", "eating", "restaurant", "meal", "kitchen", "utensil", "food"],
+    category: "food"
   },
   {
     id: "hugeicon-spoon-and-knife",
@@ -41355,7 +41903,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 9V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spoon", "and", "knife"]
+    tags: ["spoon", "and", "knife", "cutlery", "dining", "eating", "restaurant", "meal", "kitchen", "utensil", "food"],
+    category: "food"
   },
   {
     id: "hugeicon-spoon",
@@ -41364,7 +41913,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.105 2.89501C19.3895 1.17949 15.6577 2.12988 13.7277 4.05984C12.6875 5.10001 12.3831 6.21243 12.592 7.28565C12.8022 8.36561 12.7813 9.58474 11.9794 10.338L2.50346 19.2396C1.84652 19.8568 1.8303 20.895 2.46765 21.5324C3.105 22.1697 4.14323 22.1535 4.76036 21.4965L13.662 12.0206C14.4153 11.2187 15.6344 11.1978 16.7143 11.408C17.7876 11.6169 18.9 11.3125 19.9402 10.2723C21.8701 8.34233 22.8205 4.61053 21.105 2.89501Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spoon"]
+    tags: ["spoon", "cutlery", "dining", "eating", "restaurant", "meal", "kitchen", "utensil", "food"],
+    category: "food"
   },
   {
     id: "hugeicon-spotify",
@@ -41374,7 +41924,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 12.0685C8.59944 11.6998 9.77639 11.5 11 11.5C13.0238 11.5 14.9199 12.0465 16.5488 13M18 10C16.1509 8.7383 13.9122 8 11.5 8C9.90307 8 8.38216 8.32358 7 8.90839M15.129 16C13.8927 15.3609 12.4894 15 11.0018 15C10.1819 15 9.38762 15.1096 8.63281 15.315" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["spotify"]
+    tags: ["spotify", "music", "audio", "streaming", "app", "brand", "logo", "entertainment", "podcast", "social"],
+    category: "media"
   },
   {
     id: "hugeicon-sql",
@@ -41386,7 +41937,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 9V13C16.5 13.9428 16.5 14.4142 16.7929 14.7071C17.0858 15 17.5572 15 18.5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sql"]
+    tags: ["sql", "database", "code", "programming", "data", "query", "server", "backend", "development", "storage"],
+    category: "tool"
   },
   {
     id: "hugeicon-square-01",
@@ -41397,7 +41949,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22.0001 8.99985H18.0001L21.2002 6.59981C21.7038 6.22212 22.0001 5.62938 22.0001 4.9999C22.0001 3.89538 21.1046 2.99999 20 3C18.8955 3.00001 17.9999 3.89543 17.9999 4.99998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "01"]
+    tags: ["square", "01", "geometric", "shape", "minimal", "outline", "frame", "border", "basic", "empty", "container"],
+    category: "ui"
   },
   {
     id: "hugeicon-square-arrow-data-transfer-diagonal",
@@ -41408,7 +41961,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "data", "transfer", "diagonal"]
+    tags: ["square", "arrow", "data", "transfer", "diagonal", "exchange", "sync", "move", "flow", "process", "migration", "direction", "connection"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-data-transfer-horizontal",
@@ -41419,7 +41973,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.0844 16L15.9428 14.6828C16.3529 14.3922 16.5579 14.2469 16.4857 14.1235C16.4136 14 16.1237 14 15.5438 14H7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "data", "transfer", "horizontal"]
+    tags: ["square", "arrow", "data", "transfer", "horizontal", "exchange", "sync", "move", "flow", "process", "migration", "direction", "connection"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-data-transfer-vertical",
@@ -41430,7 +41985,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 9.91559L14.6828 8.05715C14.3922 7.64711 14.2469 7.4421 14.1235 7.51425C14 7.58641 14 7.87635 14 8.45623L14 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "data", "transfer", "vertical"]
+    tags: ["square", "arrow", "data", "transfer", "vertical", "exchange", "sync", "move", "flow", "process", "migration", "direction", "connection"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-diagonal-01",
@@ -41440,7 +41996,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "diagonal", "01"]
+    tags: ["square", "arrow", "diagonal", "01", "direction", "pointer", "movement", "path", "indicator", "forward", "navigation", "route"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-diagonal-02",
@@ -41450,7 +42007,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.8008 15.8008L8.19915 8.19915M15.8008 15.8008C16.2444 15.3573 15.8098 13.2652 15.8008 12.6335M15.8008 15.8008C15.3573 16.2444 13.2652 15.8098 12.6335 15.8008M8.19915 8.19915C8.64273 7.75558 10.7348 8.19018 11.3665 8.19916M8.19915 8.19915C7.75558 8.64273 8.19018 10.7348 8.19915 11.3665" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "diagonal", "02"]
+    tags: ["square", "arrow", "diagonal", "02", "direction", "pointer", "movement", "path", "indicator", "forward", "navigation", "route"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-down-01",
@@ -41460,7 +42018,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 10C17 10 13.3176 14 12 14C10.6824 14 7 10 7 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "down", "01"]
+    tags: ["square", "arrow", "down", "01", "download", "scroll", "collapse", "bottom", "indicator", "direction", "pointer", "navigation", "expand"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-down-02",
@@ -41470,7 +42029,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "down", "02"]
+    tags: ["square", "arrow", "down", "02", "download", "scroll", "collapse", "bottom", "indicator", "direction", "pointer", "navigation", "expand"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-down-03",
@@ -41480,7 +42040,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5078 11.4936C13.9781 12.0255 12.6886 14.0057 11.9432 13.9966C11.2053 13.9175 10.025 11.9976 9.50414 11.4936M12.0189 6.99805V13.9911M8.00391 17.0015H15.996" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "down", "03"]
+    tags: ["square", "arrow", "down", "03", "download", "scroll", "collapse", "bottom", "indicator", "direction", "pointer", "navigation", "expand"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-down-double",
@@ -41490,7 +42051,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 13.1667L10.1144 15.2109C11.0033 16.0703 11.4477 16.5 12 16.5C12.5523 16.5 12.9967 16.0703 13.8856 15.2109L16 13.1667M8 7.5L10.1144 9.54423C11.0033 10.4036 11.4477 10.8333 12 10.8333C12.5523 10.8333 12.9967 10.4036 13.8856 9.54423L16 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "down", "double"]
+    tags: ["square", "arrow", "down", "double", "scroll", "collapse", "bottom", "indicator", "direction", "pointer", "navigation", "expand", "multiple", "fast"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-down-left",
@@ -41500,7 +42062,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "down", "left"]
+    tags: ["square", "arrow", "down", "left", "direction", "pointer", "movement", "path", "indicator", "navigation", "route", "southwest", "corner"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-down-right",
@@ -41510,7 +42073,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.7731 14.7731L9 9M14.7731 14.7731C14.2678 15.2784 11.8846 14.7834 11.1649 14.7731M14.7731 14.7731C15.2784 14.2678 14.7834 11.8846 14.7731 11.1649" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "down", "right"]
+    tags: ["square", "arrow", "down", "right", "direction", "pointer", "movement", "path", "indicator", "navigation", "route", "southeast", "corner"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-expand-01",
@@ -41520,7 +42084,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "expand", "01"]
+    tags: ["square", "arrow", "expand", "01", "fullscreen", "maximize", "resize", "grow", "enlarge", "zoom", "interface", "view", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-square-arrow-expand-02",
@@ -41530,7 +42095,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "expand", "02"]
+    tags: ["square", "arrow", "expand", "02", "fullscreen", "maximize", "resize", "grow", "enlarge", "zoom", "interface", "view", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-square-arrow-horizontal",
@@ -41540,7 +42106,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 12H18M6 12C6 11.2998 7.9943 9.99153 8.5 9.5M6 12C6 12.7002 7.9943 14.0085 8.5 14.5M18 12C18 11.2998 16.0057 9.99153 15.5 9.5M18 12C18 12.7002 16.0057 14.0085 15.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "horizontal"]
+    tags: ["square", "arrow", "horizontal", "direction", "pointer", "movement", "path", "indicator", "navigation", "route", "left-right", "exchange", "sync"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-left-01",
@@ -41550,7 +42117,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 7C14 7 10 10.6824 10 12C9.99999 13.3176 14 17 14 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "left", "01"]
+    tags: ["square", "arrow", "left", "01", "back", "previous", "return", "west", "indicator", "direction", "pointer", "navigation", "undo"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-left-02",
@@ -41560,7 +42128,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 12L16 12M8 12C8 11.2998 9.9943 9.99153 10.5 9.5M8 12C8 12.7002 9.9943 14.0085 10.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "left", "02"]
+    tags: ["square", "arrow", "left", "02", "back", "previous", "return", "west", "indicator", "direction", "pointer", "navigation", "undo"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-left-03",
@@ -41570,7 +42139,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5192 14.5051C11.9845 13.9782 9.99749 12.6993 10.0025 11.9539C10.0777 11.2155 11.9912 10.025 12.4924 9.50145M17.0014 11.992L10.0084 12.0295M6.97656 8.03076L7.0194 16.0227" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "left", "03"]
+    tags: ["square", "arrow", "left", "03", "back", "previous", "return", "west", "indicator", "direction", "pointer", "navigation", "undo"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-left-double",
@@ -41580,7 +42150,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.8333 8L8.7891 10.1144C7.9297 11.0033 7.5 11.4477 7.5 12C7.5 12.5523 7.9297 12.9967 8.7891 13.8856L10.8333 16M16.5 8L14.4558 10.1144C13.5964 11.0033 13.1667 11.4477 13.1667 12C13.1667 12.5523 13.5964 12.9967 14.4558 13.8856L16.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "left", "double"]
+    tags: ["square", "arrow", "left", "double", "back", "previous", "return", "west", "indicator", "direction", "pointer", "navigation", "undo", "multiple", "fast"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-left-right",
@@ -41590,7 +42161,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 9L16 9M8 9C8 8.21775 10 7 10 7M8 9C8 9.78225 10 11 10 11M16 15H8M16 15C16 14.2178 14 13 14 13M16 15C16 15.7822 14 17 14 17" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "left", "right"]
+    tags: ["square", "arrow", "left", "right", "exchange", "swap", "horizontal", "transfer", "sync", "compare", "direction", "flow", "movement"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-move-down-left",
@@ -41600,7 +42172,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.84166 12.6589C9.16929 13.4488 7.80302 14.4272 8.04622 14.8917M8.04622 14.8917C7.91074 15.3654 9.23356 16.3017 9.84465 17.016M8.04622 14.8917C10.8015 14.9485 12.4873 14.6328 14.1146 13.0977C15.8094 11.4988 16.1249 9.77339 15.9877 7.00537" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "move", "down", "left"]
+    tags: ["square", "arrow", "move", "down", "left", "drag", "reposition", "relocate", "southwest", "direction", "pointer", "shift", "adjust"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-move-down-right",
@@ -41610,7 +42183,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.1746 12.6482C14.8469 13.4381 16.2132 14.4165 15.97 14.881M15.97 14.881C16.1055 15.3547 14.7827 16.291 14.1716 17.0052M15.97 14.881C13.2147 14.9378 11.5289 14.622 9.90163 13.0869C8.20681 11.4881 7.89136 9.76265 8.02853 6.99463" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "move", "down", "right"]
+    tags: ["square", "arrow", "move", "down", "right", "drag", "reposition", "relocate", "southeast", "direction", "pointer", "shift", "adjust"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-move-left-down",
@@ -41620,7 +42194,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.4654 15.1066C13.2366 15.7672 14.3293 17.1022 14.7827 16.9661M14.7827 16.9661C15.3109 16.9661 16.3181 15.6567 17.0566 15.1067M14.7827 16.9661C14.629 14.5755 15.1018 11.4944 14.0942 10.2393C12.976 8.91811 9.79651 9.40013 6.98226 9.26768M6.98226 9.26768C6.92317 9.93439 8.22401 10.7952 8.89747 11.5531M6.98226 9.26768C6.85917 8.82483 8.25247 7.69228 8.89459 7.02832" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "move", "left", "down"]
+    tags: ["square", "arrow", "move", "left", "down", "drag", "reposition", "relocate", "southwest", "direction", "pointer", "shift", "adjust"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-move-left-up",
@@ -41630,7 +42205,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.82506 11.3517C9.15268 10.5618 7.78642 9.58336 8.02962 9.11886M8.02962 9.11886C7.89414 8.64518 9.21696 7.70887 9.82805 6.99463M8.02962 9.11886C10.7849 9.06207 12.4707 9.37785 14.098 10.9129C15.7928 12.5118 16.1083 14.2372 15.9711 17.0052" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "move", "left", "up"]
+    tags: ["square", "arrow", "move", "left", "up", "diagonal", "northwest", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "corner", "top-left"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-move-right-down",
@@ -41640,7 +42216,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5502 15.1046C10.7789 15.7652 9.6863 17.1002 9.23284 16.9641M9.23284 16.9641C8.70468 16.9641 7.69746 15.6547 6.95898 15.1047M9.23284 16.9641C9.38659 14.5735 8.91377 11.4925 9.9214 10.2373C11.0396 8.91616 14.2191 9.39818 17.0333 9.26573M17.0333 9.26573C17.0924 9.93243 15.7916 10.7933 15.1181 11.5512M17.0333 9.26573C17.1564 8.82288 15.7631 7.69032 15.121 7.02637" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "move", "right", "down"]
+    tags: ["square", "arrow", "move", "right", "down", "diagonal", "southeast", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "corner", "bottom-right"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-move-right-up",
@@ -41650,7 +42227,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.1746 11.3517C14.8469 10.5618 16.2132 9.58336 15.97 9.11886M15.97 9.11886C16.1055 8.64518 14.7827 7.70887 14.1716 6.99463M15.97 9.11886C13.2147 9.06207 11.5289 9.37785 9.90163 10.9129C8.20681 12.5118 7.89136 14.2372 8.02853 17.0052" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "move", "right", "up"]
+    tags: ["square", "arrow", "move", "right", "up", "diagonal", "northeast", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "corner", "top-right"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-reload-01",
@@ -41660,7 +42238,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "reload", "01"]
+    tags: ["square", "arrow", "reload", "01", "refresh", "sync", "circular", "update", "loop", "cycle", "process", "ui", "system", "reset"],
+    category: "system"
   },
   {
     id: "hugeicon-square-arrow-reload-02",
@@ -41670,7 +42249,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 11.5455C16.5 9.89921 16.4684 9.27273 14.7 9.27273L8.74059 9.27273C7.78727 9.27273 7.67835 9.04753 8.27024 8.30021L9.3 7M7.5 12.4545C7.5 14.1008 7.53158 14.7273 9.3 14.7273H15.2594C16.2127 14.7273 16.3216 14.9525 15.7298 15.6998L14.7 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "reload", "02"]
+    tags: ["square", "arrow", "reload", "02", "refresh", "sync", "circular", "update", "loop", "cycle", "process", "ui", "system", "reset"],
+    category: "system"
   },
   {
     id: "hugeicon-square-arrow-right-01",
@@ -41680,7 +42260,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 7C10 7 14 10.6824 14 12C14 13.3176 10 17 10 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "right", "01"]
+    tags: ["square", "arrow", "right", "01", "next", "forward", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "cta", "go"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-right-02",
@@ -41690,7 +42271,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "right", "02"]
+    tags: ["square", "arrow", "right", "02", "next", "forward", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "cta", "go"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-right-03",
@@ -41700,7 +42282,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.4947 9.48552C12.0259 10.0159 14.0045 11.3078 13.9946 12.0531C13.9146 12.791 11.9933 13.969 11.4887 14.4892M6.99609 11.9691L13.9892 11.9775M16.9948 15.996L17.0043 8.00391" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "right", "03"]
+    tags: ["square", "arrow", "right", "03", "next", "forward", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "cta", "go"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-right-double",
@@ -41710,7 +42293,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.1667 8L15.2109 10.1144C16.0703 11.0033 16.5 11.4477 16.5 12C16.5 12.5523 16.0703 12.9967 15.2109 13.8856L13.1667 16M7.5 8L9.54423 10.1144C10.4036 11.0033 10.8333 11.4477 10.8333 12C10.8333 12.5523 10.4036 12.9967 9.54424 13.8856L7.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "right", "double"]
+    tags: ["square", "arrow", "right", "double", "fast forward", "skip", "next page", "end", "double arrow", "navigation", "media control", "ui", "progress", "interface"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-shrink-01",
@@ -41720,7 +42304,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.0167 11.0167C11.5915 10.4419 11.4959 8 11.4959 8M11.0167 11.0167C10.4419 11.5915 8 11.4958 8 11.4958M11.0167 11.0167L7 7M12.9869 12.9868C13.5617 12.412 16.0036 12.5077 16.0036 12.5077M12.9869 12.9868C12.4121 13.5616 12.5078 16.0035 12.5078 16.0035M12.9869 12.9868L17 16.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "shrink", "01"]
+    tags: ["square", "arrow", "shrink", "01", "collapse", "minimize", "zoom out", "resize", "contract", "interface", "ui", "system", "geometric", "corner"],
+    category: "ui"
   },
   {
     id: "hugeicon-square-arrow-shrink-02",
@@ -41730,7 +42315,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.9833 11.0167C12.4085 10.4419 12.5041 8 12.5041 8M12.9833 11.0167C13.5581 11.5915 16 11.4958 16 11.4958M12.9833 11.0167L17 7M11.0131 12.9868C10.4383 12.412 7.99641 12.5077 7.99641 12.5077M11.0131 12.9868C11.5879 13.5616 11.4922 16.0035 11.4922 16.0035M11.0131 12.9868L7 16.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "shrink", "02"]
+    tags: ["square", "arrow", "shrink", "02", "collapse", "minimize", "zoom out", "resize", "contract", "interface", "ui", "system", "geometric", "corner"],
+    category: "ui"
   },
   {
     id: "hugeicon-square-arrow-up-01",
@@ -41740,7 +42326,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 14C17 14 13.3176 10 12 10C10.6824 9.99999 7 14 7 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "01"]
+    tags: ["square", "arrow", "up", "01", "upload", "top", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "cta", "scroll"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-up-02",
@@ -41750,7 +42337,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "02"]
+    tags: ["square", "arrow", "up", "02", "upload", "top", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "cta", "scroll"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-up-03",
@@ -41760,7 +42348,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.48581 12.5068C10.0159 11.9753 11.3066 9.99591 12.0519 10.0054C12.7899 10.085 13.969 12.0056 14.4895 12.5099M11.9721 17.0039L11.9763 10.0108M15.9931 7.00289L8.00098 6.99805" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "03"]
+    tags: ["square", "arrow", "up", "03", "upload", "top", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "cta", "scroll"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-up-double",
@@ -41770,7 +42359,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 10.8333L13.8856 8.7891C12.9967 7.9297 12.5523 7.5 12 7.5C11.4477 7.5 11.0033 7.9297 10.1144 8.7891L8 10.8333M16 16.5L13.8856 14.4558C12.9967 13.5964 12.5523 13.1667 12 13.1667C11.4477 13.1667 11.0033 13.5964 10.1144 14.4558L8 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "double"]
+    tags: ["square", "arrow", "up", "double", "scroll to top", "page up", "double arrow", "navigation", "ui", "interface", "progress", "system", "speed"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-up-down",
@@ -41780,7 +42370,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 8V16M9 8C8.20516 8 7 10 7 10M9 8C9.78225 8 11 10 11 10M15 16V8M15 16C14.2178 16 13 14 13 14M15 16C15.7822 16 17 14 17 14" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "down"]
+    tags: ["square", "arrow", "up", "down", "sort", "reorder", "expand", "collapse", "vertical", "direction", "interface", "ui", "system", "toggle"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-up-left",
@@ -41790,7 +42381,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.22687 9.22687L15 15M9.22687 9.22687C9.73219 8.72156 12.1154 9.21665 12.8351 9.22687M9.22687 9.22687C8.72156 9.73219 9.21665 12.1154 9.22687 12.8351" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "left"]
+    tags: ["square", "arrow", "up", "left", "diagonal", "northwest", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "corner", "top-left"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-up-right-02",
@@ -41801,7 +42393,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 8.11274C10 8.11274 14.8288 7.70569 15.5615 8.43847C16.2943 9.17125 15.8872 14 15.8872 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "right", "02"]
+    tags: ["square", "arrow", "up", "right", "02", "diagonal", "northeast", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "corner", "top-right"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-up-right",
@@ -41811,7 +42404,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "up", "right"]
+    tags: ["square", "arrow", "up", "right", "diagonal", "northeast", "direction", "pointer", "interface", "navigation", "minimal", "geometric", "corner", "top-right"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-arrow-vertical",
@@ -41821,7 +42415,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "arrow", "vertical"]
+    tags: ["square", "arrow", "vertical", "up down", "sort", "reorder", "expand", "collapse", "direction", "interface", "ui", "system", "toggle"],
+    category: "arrow"
   },
   {
     id: "hugeicon-square-circle",
@@ -41833,7 +42428,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 11H14.5C14.5 11 16.5049 9.67917 16.7244 9.52908C16.9439 9.37899 17.5 9.05382 17.5 8.32833C17.5 7.60284 16.7751 6.99999 16.0073 7C15.2396 7.00001 14.5 7.53452 14.5 8.33583" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "circle"]
+    tags: ["square", "circle", "shape", "geometric", "abstract", "minimal", "contrast", "design", "ui", "pattern", "overlap", "friendly"],
+    category: "other"
   },
   {
     id: "hugeicon-square-lock-01",
@@ -41844,7 +42440,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9961 15.5H12.0051" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "01"]
+    tags: ["square", "lock", "01", "secure", "privacy", "closed", "protection", "access", "confidential", "system", "ui", "safety", "restricted"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-02",
@@ -41855,7 +42452,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 9V6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "02"]
+    tags: ["square", "lock", "02", "secure", "privacy", "closed", "protection", "access", "confidential", "system", "ui", "safety", "restricted"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-add-01",
@@ -41866,7 +42464,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 22L17 14M13 18H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "add", "01"]
+    tags: ["square", "lock", "add", "01", "add security", "new lock", "create password", "secure entry", "plus", "protection", "system", "ui", "safety", "access control"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-add-02",
@@ -41877,7 +42476,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 9V6.5C6.5 4.01472 8.51472 2 11 2C13.4853 2 15.5 4.01472 15.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "add", "02"]
+    tags: ["square", "lock", "add", "02", "add security", "new lock", "create password", "secure entry", "plus", "protection", "system", "ui", "safety", "access control"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-check-01",
@@ -41888,7 +42488,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 9V6.5C5.5 4.01472 7.51472 2 10 2C12.4853 2 14.5 4.01472 14.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "check", "01"]
+    tags: ["square", "lock", "check", "01", "security", "protection", "verified", "authentication", "access granted", "success", "approved", "filled", "geometric"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-check-02",
@@ -41899,7 +42500,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.6702 18.444C15.9702 18.588 16.3422 18.96 16.5222 19.26C16.5822 19.68 16.8822 18.06 18.3462 17.1M21.0002 18C21.0002 20.2091 19.2094 22 17.0002 22C14.7911 22 13.0002 20.2091 13.0002 18C13.0002 15.7909 14.7911 14 17.0002 14C19.2094 14 21.0002 15.7909 21.0002 18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "check", "02"]
+    tags: ["square", "lock", "check", "02", "security", "protection", "verified", "authentication", "access granted", "success", "approved", "outlined", "geometric"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-minus-01",
@@ -41910,7 +42512,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 9V6.5C6.5 4.01472 8.51472 2 11 2C13.4853 2 15.5 4.01472 15.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "minus", "01"]
+    tags: ["square", "lock", "minus", "01", "security", "restriction", "remove access", "revoke", "decrease", "filled", "geometric", "access control"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-minus-02",
@@ -41921,7 +42524,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 9V6.5C6.5 4.01472 8.51472 2 11 2C13.4853 2 15.5 4.01472 15.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "minus", "02"]
+    tags: ["square", "lock", "minus", "02", "security", "restriction", "remove access", "revoke", "decrease", "outlined", "geometric", "access control"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-password",
@@ -41932,7 +42536,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 9V6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "password"]
+    tags: ["square", "lock", "password", "security", "authentication", "login", "pin", "key", "access", "filled", "geometric", "privacy"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-remove-01",
@@ -41943,7 +42548,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 9V6.5C6.5 4.01472 8.51472 2 11 2C13.4853 2 15.5 4.01472 15.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "remove", "01"]
+    tags: ["square", "lock", "remove", "01", "security", "restriction", "delete access", "revoke", "cancel", "filled", "geometric", "access control"],
+    category: "security"
   },
   {
     id: "hugeicon-square-lock-remove-02",
@@ -41954,7 +42560,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 9V6.5C6.5 4.01472 8.51472 2 11 2C13.4853 2 15.5 4.01472 15.5 6.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "lock", "remove", "02"]
+    tags: ["square", "lock", "remove", "02", "security", "restriction", "delete access", "revoke", "cancel", "outlined", "geometric", "access control"],
+    category: "security"
   },
   {
     id: "hugeicon-square-root-square",
@@ -41964,7 +42571,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 7.99011H12.5167C11.7 7.99011 11.46 8.03011 11.299 8.85416L9.95406 14.4594C9.62198 15.7875 9.45066 15.9835 9.12 16.0101C8.76 15.8901 8.58977 15.5824 7.98 14.3301L7.63508 13.5701C7.37243 13.0307 7.28553 12.8031 7.02 12.7301C6.62037 12.6201 6.30716 12.9309 6 13.1301M13.1035 11.4222C13.5235 11.4083 13.9795 11.3902 14.2291 11.8062C14.5724 12.4986 15.1156 13.9174 15.3175 14.3675C15.4185 14.5406 15.4795 14.6902 15.8395 14.8102C16.1088 14.8448 16.4995 14.8542 16.4995 14.8542M16.7407 11.41C15.8945 11.41 15.3905 12.356 14.9167 12.9488C14.3074 13.8555 13.6807 14.87 12.8887 14.842" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "root", "square"]
+    tags: ["square", "root", "math", "calculation", "formula", "equation", "scientific", "geometric", "academic", "learning"],
+    category: "education"
   },
   {
     id: "hugeicon-square-square",
@@ -41976,7 +42584,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 11H15C15 11 17.0049 9.67917 17.2244 9.52908C17.4439 9.37899 18 9.05382 18 8.32833C18 7.60284 17.2751 6.99999 16.5073 7C15.7396 7.00001 15 7.53452 15 8.33583" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "square"]
+    tags: ["square", "geometric", "shape", "minimal", "basic", "container", "placeholder", "outlined", "design"],
+    category: "ui"
   },
   {
     id: "hugeicon-square-unlock-01",
@@ -41987,7 +42596,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9961 15.5H12.0051" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "unlock", "01"]
+    tags: ["square", "unlock", "01", "security", "access", "open", "unlocked", "permission", "filled", "geometric", "freedom"],
+    category: "security"
   },
   {
     id: "hugeicon-square-unlock-02",
@@ -41998,7 +42608,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 9V6.5C7.5 4.01472 9.51472 2 12 2C13.9593 2 15.5 3.5 16 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["square", "unlock", "02"]
+    tags: ["square", "unlock", "02", "security", "access", "open", "unlocked", "permission", "outlined", "geometric", "freedom"],
+    category: "security"
   },
   {
     id: "hugeicon-square",
@@ -42007,7 +42618,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["square"]
+    tags: ["square", "geometric", "shape", "minimal", "basic", "container", "placeholder", "filled", "design"],
+    category: "ui"
   },
   {
     id: "hugeicon-stack-star",
@@ -42018,7 +42630,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.6911 10.5777L11.395 11.9972C11.491 12.1947 11.7469 12.3843 11.9629 12.4206L13.2388 12.6343C14.0547 12.7714 14.2467 13.3682 13.6587 13.957L12.6668 14.9571C12.4989 15.1265 12.4069 15.4531 12.4589 15.687L12.7428 16.925C12.9668 17.9049 12.4509 18.284 11.591 17.7718L10.3951 17.0581C10.1791 16.929 9.82315 16.929 9.60318 17.0581L8.40731 17.7718C7.5514 18.284 7.03146 17.9009 7.25543 16.925L7.5394 15.687C7.5914 15.4531 7.49941 15.1265 7.33143 14.9571L6.33954 13.957C5.7556 13.3682 5.94358 12.7714 6.75949 12.6343L8.03535 12.4206C8.24732 12.3843 8.5033 12.1947 8.59929 11.9972L9.30321 10.5777C9.68717 9.80744 10.3111 9.80744 10.6911 10.5777Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stack", "star"]
+    tags: ["stack", "star", "ranking", "favorite", "priority", "rating", "layered", "multiple", "quality", "achievement"],
+    category: "ui"
   },
   {
     id: "hugeicon-stairs-01",
@@ -42027,7 +42640,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 3.5H18.5C19.4428 3.5 19.9142 3.5 20.2071 3.79289C20.5 4.08579 20.5 4.55719 20.5 5.5V16.5C20.5 18.3856 20.5 19.3284 19.9142 19.9142C19.3284 20.5 18.3856 20.5 16.5 20.5H5.5C4.55719 20.5 4.08579 20.5 3.79289 20.2071C3.5 19.9142 3.5 19.4428 3.5 18.5V17.5C3.5 16.5572 3.5 16.0858 3.79289 15.7929C4.08579 15.5 4.55719 15.5 5.5 15.5H7.5V13.5C7.5 12.5572 7.5 12.0858 7.79289 11.7929C8.08579 11.5 8.55719 11.5 9.5 11.5H11.5V9.5C11.5 8.55719 11.5 8.08579 11.7929 7.79289C12.0858 7.5 12.5572 7.5 13.5 7.5H15.5V5.5C15.5 4.55719 15.5 4.08579 15.7929 3.79289C16.0858 3.5 16.5572 3.5 17.5 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stairs", "01"]
+    tags: ["stairs", "01", "steps", "level up", "progress", "ascent", "path", "upward", "architecture", "building"],
+    category: "other"
   },
   {
     id: "hugeicon-stairs-02",
@@ -42040,7 +42654,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 6H13C12.0572 6 11.5858 6 11.2929 6.29289C11 6.58579 11 7.05719 11 8V9H19V6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stairs", "02"]
+    tags: ["stairs", "02", "steps", "level up", "progress", "ascent", "path", "upward", "architecture", "building"],
+    category: "other"
   },
   {
     id: "hugeicon-stairs-03",
@@ -42055,7 +42670,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 20H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stairs", "03"]
+    tags: ["stairs", "03", "steps", "level up", "progress", "ascent", "path", "upward", "architecture", "building"],
+    category: "other"
   },
   {
     id: "hugeicon-stairs-04",
@@ -42067,7 +42683,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 6H10C9.05719 6 8.58579 6 8.29289 6.29289C8 6.58579 8 7.05719 8 8V9H16V8C16 7.05719 16 6.58579 15.7071 6.29289C15.4142 6 14.9428 6 14 6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stairs", "04"]
+    tags: ["stairs", "04", "steps", "level up", "progress", "ascent", "path", "upward", "architecture", "building"],
+    category: "other"
   },
   {
     id: "hugeicon-stake",
@@ -42079,7 +42696,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 4V8.02171V12.0434C2 12.7473 3.17834 13.6328 6.12981 14M2.10726 8.54768C3.31161 9.60965 5.45881 10.0602 7.75359 10.0602M13.9884 4.12134V6.13597" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stake"]
+    tags: ["stake", "investment", "finance", "ownership", "share", "bet", "contribution", "capital", "funding"],
+    category: "finance"
   },
   {
     id: "hugeicon-stamp-01",
@@ -42089,7 +42707,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9887 19.0706L4.75696 19.0706C4.03899 19.0706 3.4179 18.485 3.50814 17.7727C3.6672 16.5171 4.30558 14.9994 6.83602 14.066C7.72556 13.7378 8.70501 13.4538 9.18761 12.6377C9.86497 11.4922 10.1635 10.2384 8.90009 8.0882C6.83602 4.0204 9.92439 1.99932 12.0114 1.99932C14.0983 1.99932 17.1489 4.1488 15.0643 8.0882C13.7986 10.2209 14.135 11.4922 14.8124 12.6377C15.295 13.4538 16.2744 13.7378 17.164 14.066C19.6944 14.9994 20.3328 16.5171 20.4918 17.7727C20.5821 18.485 19.961 19.0706 19.243 19.0706L12.0113 19.0706" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stamp", "01"]
+    tags: ["stamp", "01", "approval", "official", "mark", "seal", "verified", "authentication", "document", "postage"],
+    category: "file"
   },
   {
     id: "hugeicon-stamp-02",
@@ -42100,7 +42719,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.25262 20.1823C4.46592 19.645 4.57257 19.3764 4.72208 19.1551C5.10369 18.5902 5.70937 18.1937 6.40325 18.0545C6.67511 18 6.97885 18 7.58633 18L16.4137 18C17.0212 18 17.3249 18 17.5967 18.0545C18.2906 18.1937 18.8963 18.5902 19.2779 19.1551C19.4274 19.3764 19.5341 19.645 19.7474 20.1823C19.9125 20.5983 19.9951 20.8063 19.9996 20.9744C20.0115 21.4099 19.7234 21.8025 19.2876 21.945C19.1194 22 18.8842 22 18.4139 22H5.5861C5.11579 22 4.88064 22 4.71244 21.945C4.27658 21.8025 3.98853 21.4099 4.00035 20.9744C4.00491 20.8063 4.08748 20.5983 4.25262 20.1823Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["stamp", "02"]
+    tags: ["stamp", "02", "approval", "official", "mark", "seal", "verified", "authentication", "document", "postage"],
+    category: "file"
   },
   {
     id: "hugeicon-stamp",
@@ -42111,7 +42731,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 13H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stamp"]
+    tags: ["stamp", "approval", "official", "mark", "seal", "verified", "authentication", "document", "postage"],
+    category: "file"
   },
   {
     id: "hugeicon-star-award-01",
@@ -42123,7 +42744,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 16.3421L9.3736 20.6503C9.0459 21.5183 8.72171 21.9536 8.43671 22C8.15097 21.9578 7.97992 21.5263 7.63781 20.6632C7.39287 20.0453 7.25175 19.6893 6.99948 19.5226C6.92213 19.4715 6.83745 19.4312 6.74803 19.4027C6.45638 19.31 6.12101 19.4007 5.45027 19.582C4.73308 19.7758 4.2349 19.7186 4.03815 19.5788C3.92237 19.3735 4.07866 19.0531 4.39123 18.4124L6.54387 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "award", "01"]
+    tags: ["star", "award", "01", "achievement", "reward", "prize", "winner", "excellence", "recognition", "trophy", "success"],
+    category: "ui"
   },
   {
     id: "hugeicon-star-award-02",
@@ -42134,7 +42756,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.6686 5.21225C11.8066 4.92946 12.1934 4.92947 12.3314 5.21225L13.1449 6.87978C13.1989 6.99046 13.3003 7.06749 13.4178 7.08703L15.1862 7.38122C15.4859 7.43108 15.6054 7.81473 15.391 8.0392L14.125 9.36513C14.0412 9.45297 14.0025 9.57736 14.021 9.69991L14.3 11.5504C14.3473 11.8638 14.0345 12.101 13.7638 11.957L12.1688 11.1083C12.0628 11.0518 11.9372 11.0518 11.8312 11.1083L10.2362 11.957C9.96554 12.101 9.65271 11.8638 9.69996 11.5504L9.979 9.69991C9.99748 9.57736 9.95882 9.45297 9.87495 9.36513L8.60896 8.0392C8.39464 7.81473 8.51408 7.43108 8.8138 7.38122L10.5822 7.08703C10.6997 7.06749 10.8011 6.99046 10.8551 6.87978L11.6686 5.21225Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "award", "02"]
+    tags: ["star", "award", "02", "achievement", "reward", "prize", "winner", "excellence", "recognition", "trophy", "success"],
+    category: "ui"
   },
   {
     id: "hugeicon-star-circle",
@@ -42144,7 +42767,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.8638 7.72209L13.7437 9.49644C13.8637 9.74344 14.1837 9.98035 14.4536 10.0257L16.0485 10.2929C17.0684 10.4643 17.3083 11.2103 16.5734 11.9462L15.3335 13.1964C15.1236 13.4081 15.0086 13.8164 15.0736 14.1087L15.4285 15.6562C15.7085 16.8812 15.0636 17.355 13.9887 16.7148L12.4939 15.8226C12.2239 15.6613 11.7789 15.6613 11.504 15.8226L10.0091 16.7148C8.93925 17.355 8.28932 16.8761 8.56929 15.6562L8.92425 14.1087C8.98925 13.8164 8.87426 13.4081 8.66428 13.1964L7.42442 11.9462C6.6945 11.2103 6.92947 10.4643 7.94936 10.2929L9.54419 10.0257C9.80916 9.98035 10.1291 9.74344 10.2491 9.49644L11.129 7.72209C11.609 6.7593 12.3889 6.7593 12.8638 7.72209Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "circle"]
+    tags: ["star", "circle", "favorite", "rating", "quality", "highlight", "important", "circular", "achievement", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-star-face",
@@ -42156,7 +42780,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 15C8.91212 16.2144 10.3643 17 12 17C13.6357 17 15.0879 16.2144 16 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "face"]
+    tags: ["star", "face", "rating", "feedback", "review", "happy", "satisfied", "emotion", "quality", "experience"],
+    category: "social"
   },
   {
     id: "hugeicon-star-half",
@@ -42165,7 +42790,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 2L12.0034 19.4032C11.643 19.4025 11.2835 19.4831 11.0123 19.6452L8.02261 21.4296C5.87285 22.71 4.58299 21.7623 5.14293 19.3125L5.85285 16.2175C5.98284 15.6327 5.75286 14.8161 5.33291 14.3927L2.85318 11.8925C1.38335 10.4206 1.86329 8.92853 3.90307 8.58575L7.09271 8.05143C7.63266 7.9607 8.27258 7.48687 8.51256 6.99288L10.2724 3.44418C10.7464 2.48314 11.3725 2.00174 12 2ZM12 2H12.0034M15 20.8437L15.9817 21.4296C18.1215 22.71 19.4214 21.7522 18.8614 19.3125L18.1515 16.2175C18.0215 15.6327 18.2515 14.8161 18.6714 14.3927L21.1512 11.8925C22.611 10.4206 22.1411 8.92853 20.1013 8.58575L16.9116 8.05143C16.3817 7.9607 15.7418 7.48687 15.5018 6.99288L15 5.98101" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "half"]
+    tags: ["star", "half", "rating", "review", "feedback", "partial", "favorite", "quality", "progress", "outline", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-star-off",
@@ -42176,7 +42802,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 2L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "off"]
+    tags: ["star", "off", "unfavorite", "remove", "disabled", "inactive", "rating", "feedback", "outline", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-star-square",
@@ -42186,7 +42813,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.3638 7.72209L13.2437 9.49644C13.3637 9.74344 13.6837 9.98035 13.9536 10.0257L15.5485 10.2929C16.5684 10.4643 16.8083 11.2103 16.0734 11.9462L14.8335 13.1964C14.6236 13.4081 14.5086 13.8164 14.5736 14.1087L14.9285 15.6562C15.2085 16.8812 14.5636 17.355 13.4887 16.7148L11.9939 15.8226C11.7239 15.6613 11.2789 15.6613 11.004 15.8226L9.50913 16.7148C8.43925 17.355 7.78932 16.8761 8.06929 15.6562L8.42425 14.1087C8.48925 13.8164 8.37426 13.4081 8.16428 13.1964L6.92442 11.9462C6.1945 11.2103 6.42947 10.4643 7.44936 10.2929L9.04419 10.0257C9.30916 9.98035 9.62912 9.74344 9.74911 9.49644L10.629 7.72209C11.109 6.7593 11.8889 6.7593 12.3638 7.72209Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star", "square"]
+    tags: ["star", "square", "rating", "favorite", "geometric", "badge", "award", "ui", "feedback", "quality"],
+    category: "ui"
   },
   {
     id: "hugeicon-star",
@@ -42195,7 +42823,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.7276 3.44418L15.4874 6.99288C15.7274 7.48687 16.3673 7.9607 16.9073 8.05143L20.0969 8.58575C22.1367 8.92853 22.6167 10.4206 21.1468 11.8925L18.6671 14.3927C18.2471 14.8161 18.0172 15.6327 18.1471 16.2175L18.8571 19.3125C19.417 21.7623 18.1271 22.71 15.9774 21.4296L12.9877 19.6452C12.4478 19.3226 11.5579 19.3226 11.0079 19.6452L8.01827 21.4296C5.8785 22.71 4.57865 21.7522 5.13859 19.3125L5.84851 16.2175C5.97849 15.6327 5.74852 14.8161 5.32856 14.3927L2.84884 11.8925C1.389 10.4206 1.85895 8.92853 3.89872 8.58575L7.08837 8.05143C7.61831 7.9607 8.25824 7.48687 8.49821 6.99288L10.258 3.44418C11.2179 1.51861 12.7777 1.51861 13.7276 3.44418Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["star"]
+    tags: ["star", "favorite", "rating", "bookmark", "award", "quality", "feedback", "filled", "ui", "highlight"],
+    category: "ui"
   },
   {
     id: "hugeicon-stars",
@@ -42206,7 +42835,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 5C17 5 19 3 19 2C19 3 21 5 22 5C21 5 19 7 19 8C19 7 17 5 16 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stars"]
+    tags: ["stars", "rating", "favorite", "award", "magic", "quality", "feedback", "multiple", "sparkle", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-start-up-01",
@@ -42219,7 +42849,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.5 19C9.5 19 9.91667 21.5 12 22C14.0833 21.5 14.5 19 14.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["start", "up", "01"]
+    tags: ["start", "up", "01", "rocket", "launch", "business", "growth", "project", "ambition", "innovation", "progress", "bold"],
+    category: "business"
   },
   {
     id: "hugeicon-start-up-02",
@@ -42232,7 +42863,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.0952 7.753C18.0952 6.7328 17.2682 5.90578 16.248 5.90578C15.2278 5.90578 14.4008 6.7328 14.4008 7.753C14.4008 8.77319 15.2278 9.60022 16.248 9.60022C17.2682 9.60022 18.0952 8.77319 18.0952 7.753Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["start", "up", "02"]
+    tags: ["start", "up", "02", "rocket", "launch", "business", "growth", "project", "ambition", "innovation", "progress", "minimal"],
+    category: "business"
   },
   {
     id: "hugeicon-stationery",
@@ -42246,7 +42878,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 7C7 7.55228 6.10457 8 5 8C3.89543 8 3 7.55228 3 7" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["stationery"]
+    tags: ["stationery", "office", "supplies", "pen", "pencil", "desk", "school", "work", "education", "tool"],
+    category: "tool"
   },
   {
     id: "hugeicon-status",
@@ -42255,7 +42888,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
 </svg>`,
     style: "outline",
-    tags: ["status"]
+    tags: ["status", "progress", "indicator", "state", "info", "alert", "check", "activity", "notification", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-steak",
@@ -42266,7 +42900,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 11C18.5 11.8284 17.8284 12.5 17 12.5C16.1716 12.5 15.5 11.8284 15.5 11C15.5 10.1716 16.1716 9.5 17 9.5C17.8284 9.5 18.5 10.1716 18.5 11Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["steak"]
+    tags: ["steak", "meat", "food", "dinner", "restaurant", "cook", "meal", "carnivore", "bbq"],
+    category: "food"
   },
   {
     id: "hugeicon-steering",
@@ -42277,7 +42912,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.008 13L11.999 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["steering"]
+    tags: ["steering", "wheel", "car", "drive", "control", "direction", "automobile", "vehicle", "transport", "navigation"],
+    category: "transport"
   },
   {
     id: "hugeicon-step-into",
@@ -42289,7 +42925,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 20H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["step", "into"]
+    tags: ["step", "into", "arrow", "enter", "in", "login", "move", "forward", "direction", "action", "navigation"],
+    category: "arrow"
   },
   {
     id: "hugeicon-step-out",
@@ -42301,7 +42938,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 21H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["step", "out"]
+    tags: ["step", "out", "arrow", "exit", "logout", "leave", "back", "direction", "action", "navigation"],
+    category: "arrow"
   },
   {
     id: "hugeicon-step-over",
@@ -42312,7 +42950,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 20H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["step", "over"]
+    tags: ["step", "over", "arrow", "skip", "next", "jump", "forward", "direction", "action", "navigation", "bypass"],
+    category: "arrow"
   },
   {
     id: "hugeicon-stethoscope-02",
@@ -42325,7 +42964,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.5 13.5C20.5 14.6046 19.6046 15.5 18.5 15.5C17.3954 15.5 16.5 14.6046 16.5 13.5C16.5 12.3954 17.3954 11.5 18.5 11.5C19.6046 11.5 20.5 12.3954 20.5 13.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["stethoscope", "02"]
+    tags: ["stethoscope", "02", "doctor", "medical", "health", "hospital", "care", "diagnose", "medicine", "outline", "clinic"],
+    category: "health"
   },
   {
     id: "hugeicon-stethoscope",
@@ -42338,7 +42978,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.008 13L17.999 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stethoscope"]
+    tags: ["stethoscope", "doctor", "medical", "health", "hospital", "care", "diagnose", "medicine", "filled", "clinic"],
+    category: "health"
   },
   {
     id: "hugeicon-sticky-note-01",
@@ -42348,7 +42989,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 21.998C12.031 20.8176 10.5 18 8.5 18C7.20975 18.1059 6.53573 19.3611 5.84827 20.3287M5.84827 20.3287C5.45174 19.961 5.30251 19.4126 5.00406 18.3158L3.26022 11.9074C2.5584 9.32827 2.20749 8.0387 2.80316 7.02278C3.39882 6.00686 4.70843 5.66132 7.32766 4.97025L9.5 4.39708M5.84827 20.3287C6.2448 20.6965 6.80966 20.8103 7.9394 21.0379L12.0813 21.8725C12.9642 22.0504 12.9721 22.0502 13.8426 21.8205L16.6723 21.0739C19.2916 20.3828 20.6012 20.0373 21.1968 19.0214C21.7925 18.0055 21.4416 16.7159 20.7398 14.1368L19.0029 7.75375C18.301 5.17462 17.9501 3.88506 16.9184 3.29851C16.0196 2.78752 14.9098 2.98396 12.907 3.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sticky", "note", "01"]
+    tags: ["sticky", "note", "01", "memo", "reminder", "message", "post-it", "document", "paper", "task", "outline", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-sticky-note-02",
@@ -42358,7 +43000,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 5.00118C16.9356 3.92779 16.7573 3.2521 16.2484 2.76762C15.4689 2.02553 14.218 2.02184 11.716 2.01444L7.29321 2.00137C4.79129 1.99398 3.54033 1.99028 2.76535 2.72777C1.99037 3.46526 1.99402 4.65592 2.00132 7.03725L2.01938 12.9307C2.02668 15.3121 2.03033 16.5027 2.80984 17.2448C3.58935 17.9869 4.84031 17.9906 7.34224 17.998L8.02306 18" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sticky", "note", "02"]
+    tags: ["sticky", "note", "02", "memo", "reminder", "message", "post-it", "document", "paper", "task", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-sticky-note-03",
@@ -42368,7 +43011,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 3H11C7.22876 3 5.34315 3 4.17157 4.17157C3 5.34315 3 7.22876 3 11V13C3 16.7712 3 18.6569 4.17157 19.8284C5.34315 21 7.22876 21 11 21H12.3431C13.1606 21 13.5694 21 13.9369 20.8478C14.3045 20.6955 14.5935 20.4065 15.1716 19.8284L19.8284 15.1716C20.4065 14.5935 20.6955 14.3045 20.8478 13.9369C21 13.5694 21 13.1606 21 12.3431V11C21 7.22876 21 5.34315 19.8284 4.17157C18.6569 3 16.7712 3 13 3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sticky", "note", "03"]
+    tags: ["sticky", "note", "03", "memo", "reminder", "message", "post-it", "document", "paper", "task", "folded", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-stop-circle",
@@ -42378,7 +43022,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.38886 15.1629C9.89331 15.5 10.5955 15.5 12 15.5C13.4045 15.5 14.1067 15.5 14.6111 15.1629C14.8295 15.017 15.017 14.8295 15.1629 14.6111C15.5 14.1067 15.5 13.4045 15.5 12C15.5 10.5955 15.5 9.89331 15.1629 9.38886C15.017 9.17048 14.8295 8.98298 14.6111 8.83706C14.1067 8.5 13.4045 8.5 12 8.5C10.5955 8.5 9.89331 8.5 9.38886 8.83706C9.17048 8.98298 8.98298 9.17048 8.83706 9.38886C8.5 9.89331 8.5 10.5955 8.5 12C8.5 13.4045 8.5 14.1067 8.83706 14.6111C8.98298 14.8295 9.17048 15.017 9.38886 15.1629Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stop", "circle"]
+    tags: ["stop", "circle", "pause", "media", "control", "button", "alert", "warning", "prohibit", "ui", "filled"],
+    category: "media"
   },
   {
     id: "hugeicon-stop-loss-order",
@@ -42392,7 +43037,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 11.99V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stop", "loss", "order"]
+    tags: ["stop", "loss", "order", "finance", "trading", "investment", "market", "risk", "strategy", "economy", "chart", "money"],
+    category: "finance"
   },
   {
     id: "hugeicon-stop-watch",
@@ -42405,7 +43051,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 2H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stop", "watch"]
+    tags: ["stop", "watch", "timer", "time", "race", "sport", "measure", "event", "speed", "clock", "tool"],
+    category: "time"
   },
   {
     id: "hugeicon-stop",
@@ -42414,7 +43061,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 12C4 8.72077 4 7.08116 4.81382 5.91891C5.1149 5.48891 5.48891 5.1149 5.91891 4.81382C7.08116 4 8.72077 4 12 4C15.2792 4 16.9188 4 18.0811 4.81382C18.5111 5.1149 18.8851 5.48891 19.1862 5.91891C20 7.08116 20 8.72077 20 12C20 15.2792 20 16.9188 19.1862 18.0811C18.8851 18.5111 18.5111 18.8851 18.0811 19.1862C16.9188 20 15.2792 20 12 20C8.72077 20 7.08116 20 5.91891 19.1862C5.48891 18.8851 5.1149 18.5111 4.81382 18.0811C4 16.9188 4 15.2792 4 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["stop"]
+    tags: ["stop", "pause", "media", "control", "button", "alert", "warning", "prohibit", "ui", "square"],
+    category: "media"
   },
   {
     id: "hugeicon-store-01",
@@ -42425,7 +43073,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.1038 8.41848C9.82182 9.43688 8.79628 11.1936 6.84777 11.4482C5.12733 11.673 3.82246 10.922 3.48916 10.608C3.12168 10.3534 2.28416 9.53872 2.07906 9.02952C1.87395 8.52032 2.11324 7.41706 2.28416 6.96726L2.96743 4.98888C3.13423 4.49196 3.5247 3.31666 3.92501 2.91913C4.32533 2.5216 5.13581 2.5043 5.4694 2.5043H12.4749C14.2781 2.52978 18.2209 2.48822 19.0003 2.50431C19.7797 2.52039 20.2481 3.17373 20.3848 3.45379C21.5477 6.27061 22 7.88382 22 8.57124C21.8482 9.30456 21.22 10.6873 19.0003 11.2955C16.6933 11.9275 15.3854 10.6981 14.9751 10.2261M9.15522 10.2261C9.47997 10.625 10.4987 11.4279 11.9754 11.4482C13.4522 11.4686 14.7273 10.4383 15.1802 9.92062C15.3084 9.76786 15.5853 9.31467 15.8725 8.41848" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "01"]
+    tags: ["store", "01", "shop", "commerce", "retail", "marketplace", "building", "business", "e-commerce", "outline", "buy"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-02",
@@ -42436,7 +43085,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.1038 8.41812C9.82182 9.43652 8.79628 11.1933 6.84777 11.4479C5.12733 11.6727 3.82246 10.9217 3.48916 10.6077C3.12168 10.3531 2.28416 9.53836 2.07906 9.02916C1.87395 8.51996 2.11324 7.41669 2.28416 6.9669L2.96743 4.98851C3.13423 4.49159 3.5247 3.31629 3.92501 2.91876C4.32533 2.52123 5.13581 2.50394 5.4694 2.50394H12.4749C14.2781 2.52941 18.2209 2.48786 19.0003 2.50394C19.7797 2.52002 20.2481 3.17336 20.3848 3.45342C21.5477 6.27024 22 7.88346 22 8.57088C21.8482 9.30419 21.22 10.6869 19.0003 11.2951C16.6933 11.9272 15.3854 10.6978 14.9751 10.2258M9.15522 10.2258C9.47997 10.6246 10.4987 11.4275 11.9754 11.4479C13.4522 11.4682 14.7273 10.4379 15.1802 9.92026C15.3084 9.7675 15.5853 9.31431 15.8725 8.41812" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "02"]
+    tags: ["store", "02", "shop", "commerce", "retail", "marketplace", "building", "business", "e-commerce", "filled", "buy"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-03",
@@ -42447,7 +43097,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.7957 2.50294L6.14986 2.53202C4.41169 2.44248 3.96603 3.78259 3.96603 4.43768C3.96603 5.02359 3.89058 5.87774 2.82527 7.4831C1.75996 9.08846 1.84001 9.56536 2.44074 10.6767C2.93931 11.5991 4.20744 11.9594 4.86865 12.02C6.96886 12.0678 7.99068 10.2517 7.99068 8.97523C9.03254 12.1825 11.9956 12.1825 13.3158 11.8157C14.6386 11.4483 15.7717 10.1331 16.0391 8.97523C16.195 10.4142 16.6682 11.2538 18.0663 11.8308C19.5145 12.4284 20.7599 11.515 21.3848 10.9294C22.0097 10.3439 22.4107 9.04401 21.2968 7.6153C20.5286 6.63001 20.2084 5.7018 20.1033 4.73977C20.0423 4.18234 19.9888 3.58336 19.5972 3.20219C19.0248 2.64515 18.2036 2.47613 17.7957 2.50294Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "03"]
+    tags: ["store", "03", "shop", "retail", "commerce", "e-commerce", "market", "business", "building", "filled", "minimal"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-04",
@@ -42458,7 +43109,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.7957 2.50049L6.14986 2.52954C4.41169 2.44011 3.96603 3.77859 3.96603 4.4329C3.96603 5.01809 3.89058 5.8712 2.82527 7.47462C1.75996 9.07804 1.84001 9.55437 2.44074 10.6644C2.93931 11.5857 4.20744 11.9455 4.86865 12.0061C6.96886 12.0538 7.99068 10.2398 7.99068 8.96495C9.03254 12.1683 11.9956 12.1683 13.3158 11.802C14.6386 11.435 15.7717 10.1214 16.0391 8.96495C16.195 10.4021 16.6682 11.2408 18.0663 11.817C19.5145 12.4139 20.7599 11.5016 21.3848 10.9168C22.0097 10.332 22.4107 9.03364 21.2968 7.60666C20.5286 6.62257 20.2084 5.69548 20.1033 4.73462C20.0423 4.17787 19.9888 3.57961 19.5972 3.1989C19.0248 2.64253 18.2036 2.47372 17.7957 2.50049Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "04"]
+    tags: ["store", "04", "shop", "retail", "commerce", "e-commerce", "market", "business", "building", "outlined", "minimal"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-add-01",
@@ -42470,7 +43122,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.1038 7.92324C9.82182 8.94288 8.79628 10.7018 6.84777 10.9567C5.12733 11.1817 3.82246 10.4299 3.48916 10.1155C3.12168 9.86056 2.28416 9.04485 2.07906 8.53503C1.87395 8.02521 2.11324 6.9206 2.28416 6.47026L2.96743 4.48946C3.13423 3.99194 3.5247 2.81521 3.92501 2.4172C4.32533 2.01918 5.13581 2.00187 5.4694 2.00187H12.4749C14.2781 2.02737 18.2209 1.98577 19.0003 2.00187C19.7797 2.01797 20.2481 2.67211 20.3848 2.95251C21.5477 5.77276 22 7.38793 22 8.07619C21.8482 8.8104 21.22 10.1948 19.0003 10.8037C16.6933 11.4366 15.3854 10.2057 14.9751 9.7331M9.15522 9.7331C9.47997 10.1325 10.4987 10.9363 11.9754 10.9567C13.4522 10.9771 14.7273 9.94553 15.1802 9.42721C15.3084 9.27426 15.5853 8.82053 15.8725 7.92324" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "add", "01"]
+    tags: ["store", "add", "01", "shop", "retail", "new", "create", "plus", "inventory", "onboarding", "filled", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-add-02",
@@ -42482,7 +43135,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.7947 2.00254L6.14885 2.03002C4.41069 1.94542 3.96502 3.2116 3.96502 3.83056C3.96502 4.38414 3.88957 5.19117 2.82426 6.70798C1.75895 8.22478 1.839 8.67537 2.43973 9.72544C2.9383 10.5969 4.20643 10.9374 4.86764 10.9946C6.96785 11.0398 7.98968 9.32381 7.98968 8.1178C9.03154 11.1481 11.9946 11.1481 13.3148 10.8016C14.6376 10.4545 15.7707 9.2118 16.0381 8.1178C16.194 9.47735 16.6672 10.2707 18.0653 10.8158C19.5135 11.3805 20.7589 10.5174 21.3838 9.9642C22.0087 9.41096 22.4097 8.18278 21.2958 6.83288C20.5276 5.90195 20.2074 5.02494 20.1023 4.11599C20.0413 3.58931 19.9878 3.02336 19.5961 2.66323C19.0238 2.13691 18.2026 1.97722 17.7947 2.00254Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "add", "02"]
+    tags: ["store", "add", "02", "shop", "retail", "new", "create", "plus", "inventory", "onboarding", "outlined", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-location-01",
@@ -42495,7 +43149,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.1038 7.92324C9.82182 8.94288 8.79628 10.7018 6.84777 10.9567C5.12733 11.1817 3.82246 10.4299 3.48916 10.1155C3.12168 9.86056 2.28416 9.04485 2.07906 8.53503C1.87395 8.02521 2.11324 6.9206 2.28416 6.47026L2.96743 4.48946C3.13423 3.99194 3.5247 2.81521 3.92501 2.4172C4.32533 2.01918 5.13581 2.00187 5.4694 2.00187H12.4749C14.2781 2.02737 18.2209 1.98577 19.0003 2.00187C19.7797 2.01797 20.2481 2.67211 20.3848 2.95251C21.5477 5.77276 22 7.38793 22 8.07619C21.8482 8.8104 21.22 10.1948 19.0003 10.8037C16.6933 11.4366 15.3854 10.2057 14.9751 9.7331M9.15522 9.7331C9.47997 10.1325 10.4987 10.9363 11.9754 10.9567C13.4522 10.9771 14.7273 9.94553 15.1802 9.42721C15.3084 9.27426 15.5853 8.82053 15.8725 7.92324" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "location", "01"]
+    tags: ["store", "location", "01", "shop", "retail", "map", "pin", "address", "find", "navigation", "filled", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-location-02",
@@ -42508,7 +43163,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.7957 2.00254L6.14986 2.03002C4.41169 1.94542 3.96603 3.2116 3.96603 3.83056C3.96603 4.38414 3.89058 5.19117 2.82527 6.70798C1.75996 8.22478 1.84001 8.67537 2.44074 9.72544C2.93931 10.5969 4.20744 10.9374 4.86865 10.9946C6.96886 11.0398 7.99068 9.32381 7.99068 8.1178C9.03254 11.1481 11.9956 11.1481 13.3158 10.8016C14.6386 10.4545 15.7717 9.2118 16.0391 8.1178C16.195 9.47735 16.6682 10.2707 18.0663 10.8158C19.5145 11.3805 20.7599 10.5174 21.3848 9.9642C22.0097 9.41096 22.4107 8.18278 21.2968 6.83288C20.5286 5.90195 20.2084 5.02494 20.1033 4.11599C20.0423 3.58931 19.9888 3.02336 19.5972 2.66323C19.0248 2.13691 18.2036 1.97722 17.7957 2.00254Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "location", "02"]
+    tags: ["store", "location", "02", "shop", "retail", "map", "pin", "address", "find", "navigation", "outlined", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-management-01",
@@ -42519,7 +43175,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 15.3333L17.5 14M17.5 15.3333C16.5613 15.3333 15.7377 15.8338 15.2737 16.5865M17.5 15.3333C18.4387 15.3333 19.2623 15.8338 19.7263 16.5865M17.5 22L17.5 20.6667M17.5 20.6667C16.5613 20.6667 15.7377 20.1662 15.2737 19.4135M17.5 20.6667C18.4387 20.6667 19.2623 20.1662 19.7263 19.4135M14 20.2222L15.2737 19.4135M21 15.7778L19.7263 16.5865M14 15.7778L15.2737 16.5865M21 20.2222L19.7263 19.4135M15.2737 19.4135C15.0211 19.0037 14.875 18.5192 14.875 18C14.875 17.4808 15.0211 16.9963 15.2737 16.5865M19.7263 16.5865C19.9789 16.9963 20.125 17.4808 20.125 18C20.125 18.5192 19.9789 19.0037 19.7263 19.4135" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "management", "01"]
+    tags: ["store", "management", "01", "shop", "retail", "settings", "control", "admin", "gear", "business", "filled", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-management-02",
@@ -42530,7 +43187,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.7928 2.00269L6.1469 2.03178C4.40873 1.94224 3.96307 3.28234 3.96307 3.93744C3.96307 4.52334 3.88762 5.37749 2.82231 6.98285C1.757 8.58821 1.83705 9.06512 2.43778 10.1765C2.93635 11.0989 4.20448 11.4592 4.86569 11.5198C6.9659 11.5676 7.98772 9.75141 7.98772 8.47499C9.02958 11.6822 11.9926 11.6822 13.3129 11.3155C14.6356 10.9481 15.7688 9.63286 16.0361 8.47499C16.1921 9.91392 16.6652 10.7536 18.0633 11.3305C19.5115 11.9282 20.757 11.0147 21.3818 10.4292C22.0067 9.84365 22.4077 8.54376 21.2938 7.11505C20.5256 6.12977 20.2055 5.20155 20.1003 4.23953C20.0394 3.6821 19.9859 3.08311 19.5942 2.70195C19.0218 2.14491 18.2006 1.97589 17.7928 2.00269Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "management", "02"]
+    tags: ["store", "management", "02", "shop", "retail", "settings", "control", "admin", "gear", "business", "outlined", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-remove-01",
@@ -42542,7 +43200,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.1038 7.91391C9.82182 8.93195 8.79628 10.6881 6.84777 10.9426C5.12733 11.1673 3.82246 10.4166 3.48916 10.1027C3.12168 9.84817 2.28416 9.03375 2.07906 8.52473C1.87395 8.01572 2.11324 6.91285 2.28416 6.46322L2.96743 4.48554C3.13423 3.9888 3.5247 2.81393 3.92501 2.41654C4.32533 2.01915 5.13581 2.00186 5.4694 2.00186H12.4749C14.2781 2.02732 18.2209 1.98579 19.0003 2.00186C19.7797 2.01794 20.2481 2.67105 20.3848 2.95101C21.5477 5.76681 22 7.37945 22 8.06662C21.8482 8.79967 21.22 10.1819 19.0003 10.7899C16.6933 11.4217 15.3854 10.1927 14.9751 9.72092M9.15522 9.72092C9.47997 10.1196 10.4987 10.9222 11.9754 10.9426C13.4522 10.9629 14.7273 9.93301 15.1802 9.41551C15.3084 9.26281 15.5853 8.80978 15.8725 7.91391" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "remove", "01"]
+    tags: ["store", "remove", "01", "shop", "retail", "delete", "minus", "inventory", "filled", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-remove-02",
@@ -42554,7 +43213,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.7947 2.00134L6.14885 2.02895C4.41069 1.94393 3.96502 3.21638 3.96502 3.8384C3.96502 4.39473 3.88957 5.20575 2.82426 6.73007C1.75895 8.25438 1.839 8.70721 2.43973 9.76247C2.9383 10.6383 4.20643 10.9804 4.86764 11.0379C6.96785 11.0833 7.98968 9.35885 7.98968 8.14687C9.03154 11.1922 11.9946 11.1922 13.3148 10.844C14.6376 10.4951 15.7707 9.24628 16.0381 8.14687C16.194 9.51315 16.6672 10.3104 18.0653 10.8583C19.5135 11.4257 20.7589 10.5584 21.3838 10.0024C22.0087 9.44644 22.4097 8.21217 21.2958 6.85559C20.5276 5.92005 20.2074 5.0387 20.1023 4.12524C20.0413 3.59596 19.9878 3.02721 19.5961 2.66529C19.0238 2.13637 18.2026 1.97589 17.7947 2.00134Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "remove", "02"]
+    tags: ["store", "remove", "02", "shop", "retail", "delete", "minus", "inventory", "outlined", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-verified-01",
@@ -42565,7 +43225,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22.0003 7.01618C22.0003 9.78653 19.7585 12.0324 16.9932 12.0324C14.2278 12.0324 11.986 9.78653 11.986 7.01618C11.986 4.24582 14.2278 2 16.9932 2C19.7585 2 22.0003 4.24582 22.0003 7.01618Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "verified", "01"]
+    tags: ["store", "verified", "01", "shop", "retail", "approved", "checked", "trust", "security", "quality", "filled", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-store-verified-02",
@@ -42576,7 +43237,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.9 13.816L3.37834 13.2383L3.37834 13.2383L2.9 13.816ZM2.9 16.6667L2.15 16.6667V16.6667H2.9ZM18.3092 21.219L18.8362 21.7526V21.7526L18.3092 21.219ZM3.69081 21.219L3.16379 21.7526L3.16379 21.7526L3.69081 21.219ZM7.37364 11.7778L8.09752 11.5816C7.99917 11.2187 7.64735 10.9847 7.27467 11.0343C6.902 11.0839 6.62364 11.4018 6.62364 11.7778H7.37364ZM2.10213 12.7026L2.80388 12.438L2.10213 12.7026ZM2.4119 10.958L3.05989 11.3356L3.05989 11.3356L2.4119 10.958ZM3.2792 9.46982L2.63122 9.09217H2.63122L3.2792 9.46982ZM2.01147 11.9813L1.26412 11.9183L2.01147 11.9813ZM9.06189 6.75C9.47611 6.75 9.81189 6.41421 9.81189 6C9.81189 5.58579 9.47611 5.25 9.06189 5.25V6.75ZM13.3513 14.559C13.7082 14.3488 13.8272 13.889 13.617 13.5321C13.4068 13.1752 12.947 13.0563 12.5901 13.2665L13.3513 14.559ZM19.85 14.7215C19.85 14.3073 19.5142 13.9715 19.1 13.9715C18.6858 13.9715 18.35 14.3073 18.35 14.7215H19.85ZM2.15 13.816L2.15 16.6667L3.65 16.6667L3.65 13.816L2.15 13.816ZM8.3 22.75H13.7V21.25H8.3V22.75ZM13.7 22.75C14.9518 22.75 15.9653 22.7516 16.7614 22.6458C17.5781 22.5374 18.2779 22.304 18.8362 21.7526L17.7822 20.6853C17.5497 20.9149 17.2177 21.0721 16.5639 21.1589C15.8895 21.2484 14.9937 21.25 13.7 21.25V22.75ZM18.35 16.6667C18.35 17.9452 18.3484 18.8277 18.258 19.4916C18.1707 20.1329 18.0133 20.457 17.7822 20.6853L18.8362 21.7526C19.3958 21.1999 19.6339 20.5049 19.7443 19.6939C19.8516 18.9054 19.85 17.9023 19.85 16.6667H18.35ZM2.15 16.6667C2.15 17.9023 2.14837 18.9054 2.25571 19.6939C2.36611 20.5049 2.60416 21.1999 3.16379 21.7526L4.21784 20.6853C3.98665 20.457 3.82929 20.1329 3.742 19.4916C3.65163 18.8277 3.65 17.9452 3.65 16.6667H2.15ZM8.3 21.25C7.00626 21.25 6.11048 21.2484 5.43609 21.1589C4.78232 21.0721 4.45032 20.9149 4.21784 20.6853L3.16379 21.7526C3.72212 22.304 4.42191 22.5374 5.23864 22.6458C6.03474 22.7516 7.04815 22.75 8.3 22.75V21.25ZM6.62364 11.7778C6.62364 12.8225 5.75576 13.6944 4.65387 13.6944V15.1944C6.55616 15.1944 8.12364 13.6786 8.12364 11.7778H6.62364ZM4.65387 13.6944C4.16509 13.6944 3.72116 13.5222 3.37834 13.2383L2.42166 14.3936C3.02588 14.894 3.80601 15.1944 4.65387 15.1944V13.6944ZM3.37834 13.2383C3.12025 13.0246 2.92117 12.749 2.80388 12.438L1.40038 12.9673C1.61215 13.5288 1.96823 14.0182 2.42166 14.3936L3.37834 13.2383ZM11 13.6944C9.57871 13.6944 8.42067 12.7738 8.09752 11.5816L6.64976 11.974C7.15794 13.8488 8.93188 15.1944 11 15.1944V13.6944ZM3.05989 11.3356L3.92718 9.84747L2.63122 9.09217L1.76392 10.5803L3.05989 11.3356ZM4.49729 7.74163C4.49729 7.20784 4.94277 6.75 5.5236 6.75V5.25C4.14237 5.25 2.99729 6.35167 2.99729 7.74163H4.49729ZM3.92718 9.84747C4.30039 9.20711 4.49729 8.4812 4.49729 7.74163H2.99729C2.99729 8.21444 2.87149 8.6799 2.63122 9.09217L3.92718 9.84747ZM2.80388 12.438C2.75954 12.3204 2.75687 12.3069 2.75414 12.2897C2.75122 12.2713 2.74453 12.2137 2.75882 12.0443L1.26412 11.9183C1.24526 12.1419 1.24264 12.3356 1.2727 12.5249C1.30294 12.7154 1.36218 12.866 1.40038 12.9673L2.80388 12.438ZM1.76392 10.5803C1.52232 10.9948 1.31307 11.3377 1.26412 11.9183L2.75882 12.0443C2.77615 11.8386 2.81176 11.7614 3.05989 11.3356L1.76392 10.5803ZM5.5236 6.75H9.06189V5.25H5.5236V6.75ZM12.5901 13.2665C12.1314 13.5366 11.5874 13.6944 11 13.6944V15.1944C11.8588 15.1944 12.6652 14.963 13.3513 14.559L12.5901 13.2665ZM19.85 16.6667V14.7215H18.35V16.6667H19.85Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["store", "verified", "02"]
+    tags: ["store", "verified", "02", "shop", "retail", "approved", "checked", "trust", "security", "quality", "outlined", "commerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-straight-edge",
@@ -42588,7 +43250,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 19C7 20.1046 6.10457 21 5 21C3.89543 21 3 20.1046 3 19C3 17.8954 3.89543 17 5 17C6.10457 17 7 17.8954 7 19Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["straight", "edge"]
+    tags: ["straight", "edge", "ruler", "line", "measure", "geometry", "design", "tool", "drafting", "flat", "minimal"],
+    category: "tool"
   },
   {
     id: "hugeicon-strategy",
@@ -42599,7 +43262,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 21L18 16M18 21L13 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["strategy"]
+    tags: ["strategy", "plan", "goal", "target", "chess", "tactic", "business", "planning", "management", "vision"],
+    category: "other"
   },
   {
     id: "hugeicon-streering-wheel",
@@ -42612,7 +43276,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.009 14H12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["streering", "wheel"]
+    tags: ["streering", "wheel", "car", "drive", "auto", "vehicle", "control", "transport", "automotive", "journey"],
+    category: "transport"
   },
   {
     id: "hugeicon-street-food",
@@ -42626,7 +43291,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 5C13.5 3.34315 14.8431 2 16.5 2C18.1569 2 19.5 3.34315 19.5 5V14C19.5 15.6569 18.1569 17 16.5 17C14.8431 17 13.5 15.6569 13.5 14V5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["street", "food"]
+    tags: ["street", "food", "food truck", "vendor", "snack", "meal", "fast food", "takeaway", "urban", "cuisine", "cart"],
+    category: "food"
   },
   {
     id: "hugeicon-stripe",
@@ -42635,7 +43301,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.25 4V8.5C12.9921 6.77511 10.6642 7.08164 10.5482 8.14206C10.4322 9.20249 11.9677 9.82253 12.75 10C12.75 10 18.25 11 18.25 15.5C18.25 20 13.25 21 10.75 21C8.75 21 6.58333 20.1981 5.75 19.8648V15.1633C6.54997 15.6189 8.56994 16.5633 10.25 16.6959C12.3501 16.8616 12.9123 16.3765 13.0543 15.7639C13.3132 14.6468 11.4418 13.9934 10.25 13.5C7.05 12.3 5.75 11 5.75 8.5C5.75 4 9.75 3 12.25 3C14.65 3 16.5833 3.66667 17.25 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stripe"]
+    tags: ["stripe", "pattern", "lines", "texture", "design", "background", "geometric", "minimal", "payment", "brand"],
+    category: "other"
   },
   {
     id: "hugeicon-stroke-bottom",
@@ -42645,7 +43312,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 21L21 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stroke", "bottom"]
+    tags: ["stroke", "bottom", "line", "border", "underline", "format", "text editor", "ui", "design", "alignment"],
+    category: "ui"
   },
   {
     id: "hugeicon-stroke-center",
@@ -42657,7 +43325,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 17.5H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stroke", "center"]
+    tags: ["stroke", "center", "line", "border", "centered", "format", "text editor", "ui", "design", "alignment", "middle"],
+    category: "ui"
   },
   {
     id: "hugeicon-stroke-inside",
@@ -42667,7 +43336,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 22H18C19.8856 22 20.8284 22 21.4142 21.4142C22 20.8284 22 19.8856 22 18V17C22 15.1144 22 14.1716 21.4142 13.5858C20.8284 13 19.8856 13 18 13L15 13C13.1144 13 12.1716 13 11.5858 12.4142C11 11.8284 11 10.8856 11 9V6C11 4.11438 11 3.17157 10.4142 2.58579C9.82843 2 8.88562 2 7 2L6 2C4.11438 2 3.17157 2 2.58579 2.58579C2 3.17157 2 4.11438 2 6V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stroke", "inside"]
+    tags: ["stroke", "inside", "line", "border", "inner", "format", "text editor", "ui", "design", "alignment", "enclosed"],
+    category: "ui"
   },
   {
     id: "hugeicon-stroke-left",
@@ -42677,7 +43347,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 3V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stroke", "left"]
+    tags: ["stroke", "left", "line", "border", "left aligned", "format", "text editor", "ui", "design", "alignment"],
+    category: "ui"
   },
   {
     id: "hugeicon-stroke-outside",
@@ -42687,7 +43358,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["stroke", "outside"]
+    tags: ["stroke", "outside", "line", "border", "outer", "format", "text editor", "ui", "design", "alignment", "external"],
+    category: "ui"
   },
   {
     id: "hugeicon-stroke-right",
@@ -42697,7 +43369,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.998 21L20.998 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stroke", "right"]
+    tags: ["stroke", "right", "line", "border", "right aligned", "format", "text editor", "ui", "design", "alignment"],
+    category: "ui"
   },
   {
     id: "hugeicon-stroke-top",
@@ -42707,7 +43380,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 2.99805L3 2.99805" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stroke", "top"]
+    tags: ["stroke", "top", "line", "border", "overline", "format", "text editor", "ui", "design", "alignment"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-01",
@@ -42719,7 +43393,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.2857 3H13.7143C15.7888 3 16 4.10993 16 6C16 7.89007 15.7888 9 13.7143 9H10.2857C8.2112 9 8 7.89007 8 6C8 4.10993 8.2112 3 10.2857 3Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "01"]
+    tags: ["structure", "01", "hierarchy", "organization", "framework", "architecture", "blueprint", "plan", "system", "diagram", "business"],
+    category: "other"
   },
   {
     id: "hugeicon-structure-02",
@@ -42732,7 +43407,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 2H14C15.8152 2 16 2.92494 16 4.5C16 6.07506 15.8152 7 14 7H10C8.1848 7 8 6.07506 8 4.5C8 2.92494 8.1848 2 10 2Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "02"]
+    tags: ["structure", "02", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "minimal", "geometric"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-03",
@@ -42747,7 +43423,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 19L12 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "03"]
+    tags: ["structure", "03", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "minimal", "geometric"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-04",
@@ -42759,7 +43436,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 7L11 12L14 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "04"]
+    tags: ["structure", "04", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "minimal", "geometric"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-05",
@@ -42771,7 +43449,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 7L10 5L13.5714 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "05"]
+    tags: ["structure", "05", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "minimal", "geometric"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-add",
@@ -42783,7 +43462,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.02803 17.0364C9.80494 17.0364 12.0561 14.7846 12.0561 12.0068C12.0561 9.22901 9.80494 6.97717 7.02803 6.97717M7.02803 17.0364C4.25113 17.0364 2 14.7846 2 12.0068C2 9.22901 4.25113 6.97717 7.02803 6.97717M7.02803 17.0364C6.95809 19.1663 8.56235 19.9524 9.67527 19.9932H12.0021M7.02803 6.97717C6.95737 4.8171 8.54755 4.05751 9.67528 4.00977H12.0021" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "add"]
+    tags: ["structure", "add", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "create", "new"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-check",
@@ -42795,7 +43475,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.70927 10.8789L6.63787 13.0461C6.55977 13.1279 6.42966 13.1284 6.35094 13.0472L5.37904 12.0458" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "check"]
+    tags: ["structure", "check", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "success", "complete", "verified"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-fail",
@@ -42807,7 +43488,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.04533 17.0314C9.8101 17.0314 12.0103 14.7709 12.0103 11.9931C12.0103 9.21534 9.76898 6.9635 7.0042 6.9635M7.04533 17.0314C4.28055 17.0314 1.99813 14.7709 1.99813 11.9931C1.99813 9.21534 4.23943 6.9635 7.0042 6.9635M7.04533 17.0314C6.97569 19.1612 8.53182 19.9388 9.63988 19.9795H12.0103M7.0042 6.9635C6.93385 4.80343 8.51708 4.04384 9.63988 3.99609H12.021" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "fail"]
+    tags: ["structure", "fail", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "error", "failed", "cancel"],
+    category: "ui"
   },
   {
     id: "hugeicon-structure-folder-circle",
@@ -42819,7 +43501,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 10H12.5625C14.1425 10 14.9325 10 15.5 9.62549C15.7457 9.46336 15.9566 9.25502 16.1208 9.01238C16.5 8.45188 16.5 7.67163 16.5 6.11111C16.5 5.1748 16.5 4.70665 16.2725 4.37035C16.174 4.22476 16.0474 4.09976 15.9 4.00249C15.5595 3.77778 15.0855 3.77778 14.1375 3.77778H12.6425C12.5126 3.77778 12.4476 3.77778 12.3879 3.76912C12.1645 3.73672 11.9647 3.61544 11.8358 3.43402C11.8014 3.38555 11.7726 3.32861 11.715 3.21472C11.4788 2.74826 11.263 2.27872 10.7397 2.08489C10.5105 2 10.2486 2 9.72492 2C8.90751 2 8.4988 2 8.19213 2.16903C7.97352 2.28952 7.79314 2.46767 7.67114 2.68358C7.5 2.98647 7.5 3.39013 7.5 4.19745V5.55556C7.5 7.65069 7.5 8.69825 8.15901 9.34913C8.81802 10 9.87868 10 12 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "folder", "circle"]
+    tags: ["structure", "folder", "circle", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "directory", "document", "archive"],
+    category: "file"
   },
   {
     id: "hugeicon-structure-folder",
@@ -42831,7 +43514,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 10H12.5625C14.1425 10 14.9325 10 15.5 9.62549C15.7457 9.46336 15.9566 9.25502 16.1208 9.01238C16.5 8.45188 16.5 7.67163 16.5 6.11111C16.5 5.1748 16.5 4.70665 16.2725 4.37035C16.174 4.22476 16.0474 4.09976 15.9 4.00249C15.5595 3.77778 15.0855 3.77778 14.1375 3.77778H12.6425C12.5126 3.77778 12.4476 3.77778 12.3879 3.76912C12.1645 3.73672 11.9647 3.61544 11.8358 3.43402C11.8014 3.38555 11.7726 3.32861 11.715 3.21472C11.4788 2.74826 11.263 2.27872 10.7397 2.08489C10.5105 2 10.2486 2 9.72492 2C8.90751 2 8.4988 2 8.19213 2.16903C7.97352 2.28952 7.79314 2.46767 7.67114 2.68358C7.5 2.98647 7.5 3.39013 7.5 4.19745V5.55556C7.5 7.65069 7.5 8.69825 8.15901 9.34913C8.81802 10 9.87868 10 12 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["structure", "folder"]
+    tags: ["structure", "folder", "hierarchy", "organization", "network", "flowchart", "diagram", "nodes", "connections", "system", "directory", "document", "archive"],
+    category: "file"
   },
   {
     id: "hugeicon-student-card",
@@ -42843,7 +43527,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 13.5H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["student", "card"]
+    tags: ["student", "card", "id", "identity", "education", "school", "university", "badge", "identification", "profile", "access"],
+    category: "education"
   },
   {
     id: "hugeicon-student",
@@ -42854,7 +43539,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.78256 16.7033C6.68218 17.3878 3.79706 18.7854 5.55429 20.5342C6.41269 21.3885 7.36872 21.9995 8.57068 21.9995H15.4293C16.6313 21.9995 17.5873 21.3885 18.4457 20.5342C20.2029 18.7854 17.3178 17.3878 16.2174 16.7033C13.6371 15.0982 10.3629 15.0982 7.78256 16.7033Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["student"]
+    tags: ["student", "education", "learner", "pupil", "academic", "graduate", "school", "university", "person", "user"],
+    category: "education"
   },
   {
     id: "hugeicon-students",
@@ -42867,7 +43553,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 20H19.7048C20.4775 20 21.0921 19.624 21.6439 19.0983C22.7736 18.0221 20.9189 17.162 20.2115 16.7408C18.9362 15.9814 17.3972 15.8059 16 16.2141" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["students"]
+    tags: ["students", "education", "learners", "pupils", "academic", "graduates", "school", "university", "group", "team", "community"],
+    category: "education"
   },
   {
     id: "hugeicon-study-desk",
@@ -42881,7 +43568,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 12V7.5C7 6.37313 7.4506 6 8.5 6C9.5494 6 10 6.37313 10 7.5V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["study", "desk"]
+    tags: ["study", "desk", "education", "workspace", "learning", "office", "furniture", "work", "school", "table", "flat"],
+    category: "education"
   },
   {
     id: "hugeicon-study-lamp",
@@ -42894,7 +43582,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 15L11 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["study", "lamp"]
+    tags: ["study", "lamp", "education", "light", "illumination", "reading", "desk", "learning", "focus", "idea", "inspiration"],
+    category: "education"
   },
   {
     id: "hugeicon-stumbleupon",
@@ -42904,7 +43593,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["stumbleupon"]
+    tags: ["stumbleupon", "social media", "platform", "network", "share", "discovery", "website", "app", "logo", "brand"],
+    category: "social"
   },
   {
     id: "hugeicon-submarine",
@@ -42915,7 +43605,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 9V5C14 4.44772 14.4477 4 15 4H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["submarine"]
+    tags: ["submarine", "underwater", "sea", "ocean", "vehicle", "transportation", "exploration", "military", "travel", "boat"],
+    category: "transport"
   },
   {
     id: "hugeicon-submerge",
@@ -42927,7 +43618,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 14.8717C4.26409 16.7863 6.1743 15.7292 8.0217 14.833C9.59668 14.069 11.126 13.4219 12.79 14.833C16.0467 17.5465 18.9092 14.7526 22 14.1976" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["submerge"]
+    tags: ["submerge", "underwater", "sea", "ocean", "dive", "sink", "immerse", "water", "liquid", "depth"],
+    category: "nature"
   },
   {
     id: "hugeicon-subnode-add",
@@ -42939,7 +43631,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 9V14M20 11.5L15 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["subnode", "add"]
+    tags: ["subnode", "add", "hierarchy", "tree", "branch", "create", "new", "insert", "append", "system", "network", "flowchart"],
+    category: "ui"
   },
   {
     id: "hugeicon-subnode-delete",
@@ -42951,7 +43644,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5 9.5L17.5 11.5M17.5 11.5L15.5 13.5M17.5 11.5L19.5 13.5M17.5 11.5L15.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["subnode", "delete"]
+    tags: ["subnode", "delete", "hierarchy", "tree", "branch", "remove", "erase", "cancel", "system", "network", "flowchart", "minus"],
+    category: "ui"
   },
   {
     id: "hugeicon-subpoena",
@@ -42962,7 +43656,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.75 15.25C12.9368 16.4368 14.5 17.6429 14.5 17.6429L16.6429 15.5C16.6429 15.5 15.4368 13.9368 14.25 12.75C13.0632 11.5632 11.5 10.3571 11.5 10.3571L9.35714 12.5C9.35714 12.5 10.5632 14.0632 11.75 15.25ZM11.75 15.25L8 19M17 15.1429L14.1429 18M11.8571 10L9 12.8571" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["subpoena"]
+    tags: ["subpoena", "legal", "law", "court", "document", "notice", "justice", "order", "paper", "official"],
+    category: "other"
   },
   {
     id: "hugeicon-subtitle",
@@ -42973,7 +43668,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 14H15M12 14H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["subtitle"]
+    tags: ["subtitle", "text", "caption", "video", "movie", "language", "translation", "accessibility", "description", "label"],
+    category: "media"
   },
   {
     id: "hugeicon-suit-01",
@@ -42985,7 +43681,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.2758 2.11877C15.3442 1.59549 14.0587 2.94104 13.3954 3.4439C12.4891 4.13102 12.0359 4.47457 12.0026 4.92807C11.9991 4.97597 11.9991 5.02403 12.0026 5.07193C12.0359 5.52543 12.4891 5.86898 13.3954 6.5561C14.0587 7.05896 15.3442 8.40451 16.2758 7.88123C17.2414 7.33885 17.2414 2.66115 16.2758 2.11877Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["suit", "01"]
+    tags: ["suit", "01", "clothing", "formal", "business", "attire", "fashion", "gentleman", "executive", "professional", "apparel"],
+    category: "other"
   },
   {
     id: "hugeicon-suit-02",
@@ -42995,7 +43692,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.2866 7L11.1572 8.45155C11.3619 8.79287 11.4643 8.96353 11.4946 9.15509C11.525 9.34665 11.4804 9.54059 11.3912 9.92847L9.54874 17.9411C9.30243 19.327 10.0342 20.0017 10.7448 20.8903C11.3365 21.6301 11.6324 22 12 22C12.3676 22 12.6635 21.6301 13.2552 20.8903C13.9658 20.0017 14.6976 19.327 14.4513 17.9411L12.6093 9.92842C12.5201 9.54056 12.4755 9.34663 12.5059 9.15509C12.5362 8.96355 12.6386 8.7929 12.8433 8.45161L13.714 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["suit", "02"]
+    tags: ["suit", "02", "clothing", "formal", "business", "attire", "fashion", "gentleman", "executive", "professional", "apparel"],
+    category: "other"
   },
   {
     id: "hugeicon-sujood",
@@ -43005,7 +43703,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.0001 15.5C4.99881 15.5 3.79726 14 2.99623 14C2.16898 14 2.02519 14.3413 2.00019 16.9976C1.9898 18.1021 2.394 19 3.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sujood"]
+    tags: ["sujood", "islam", "prayer", "muslim", "religion", "worship", "kneel", "prostrate", "faith", "spiritual"],
+    category: "other"
   },
   {
     id: "hugeicon-summation-01",
@@ -43014,7 +43713,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 17.1429C19 18.6464 19 19.3982 18.6504 19.9471C18.468 20.2333 18.2227 20.4753 17.9325 20.6551C17.3761 21 16.6139 21 15.0895 21H9.19861C6.61368 21 5.32121 21 5.04567 20.2653C4.77014 19.5306 5.75145 18.701 7.71408 17.0417L11.6568 13.7083C12.5958 12.9144 13.0654 12.5174 13.0654 12C13.0654 11.4826 12.5958 11.0856 11.6568 10.2917L7.71408 6.95833C5.75145 5.29902 4.77014 4.46937 5.04567 3.73469C5.32121 3 6.61368 3 9.19861 3H15.0895C16.6139 3 17.3761 3 17.9325 3.34487C18.2227 3.52471 18.468 3.76672 18.6504 4.05293C19 4.60179 19 5.35357 19 6.85714" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["summation", "01"]
+    tags: ["summation", "01", "math", "calculation", "total", "add", "plus", "sigma", "equation", "formula", "aggregate"],
+    category: "other"
   },
   {
     id: "hugeicon-summation-02",
@@ -43024,7 +43724,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.9998 14.4986C14.9981 15.0266 14.983 15.3137 14.8502 15.5299C14.5236 16.0612 13.8736 15.9976 13.3241 15.9976H10.7994C9.69158 15.9976 9.13766 15.9976 9.01957 15.6713C8.90149 15.345 9.32205 14.9765 10.1632 14.2394L11.8529 12.7588C12.2554 12.4062 12.4566 12.2298 12.4566 12C12.4566 11.7702 12.2554 11.5938 11.8529 11.2412L10.1632 9.76058C9.32205 9.02355 8.90149 8.65503 9.01957 8.3287C9.13766 8.00237 9.69158 8.00237 10.7994 8.00237H13.3241C13.8736 8.00237 14.5236 7.93885 14.8502 8.47006C14.983 8.68627 14.9981 8.97338 14.9998 9.50144" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["summation", "02"]
+    tags: ["summation", "02", "math", "sigma", "total", "calculation", "add", "plus", "outline", "geometric", "data"],
+    category: "tool"
   },
   {
     id: "hugeicon-summation-circle",
@@ -43034,7 +43735,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["summation", "circle"]
+    tags: ["summation", "circle", "math", "sigma", "total", "calculation", "add", "plus", "filled", "circular", "data"],
+    category: "tool"
   },
   {
     id: "hugeicon-summation-square",
@@ -43044,7 +43746,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.9998 14.4986C14.9981 15.0266 14.983 15.3137 14.8502 15.5299C14.5236 16.0612 13.8736 15.9976 13.3241 15.9976H10.7994C9.69158 15.9976 9.13766 15.9976 9.01957 15.6713C8.90149 15.345 9.32205 14.9765 10.1632 14.2394L11.8529 12.7588C12.2554 12.4062 12.4566 12.2298 12.4566 12C12.4566 11.7702 12.2554 11.5938 11.8529 11.2412L10.1632 9.76058C9.32205 9.02355 8.90149 8.65503 9.01957 8.3287C9.13766 8.00237 9.69158 8.00237 10.7994 8.00237H13.3241C13.8736 8.00237 14.5236 7.93885 14.8502 8.47006C14.983 8.68627 14.9981 8.97338 14.9998 9.50144" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["summation", "square"]
+    tags: ["summation", "square", "math", "sigma", "total", "calculation", "add", "plus", "filled", "data"],
+    category: "tool"
   },
   {
     id: "hugeicon-sun-01",
@@ -43054,7 +43757,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9955 3H12.0045M11.9961 21H12.0051M18.3588 5.63599H18.3678M5.63409 18.364H5.64307M5.63409 5.63647H5.64307M18.3582 18.3645H18.3672M20.991 12.0006H21M3 12.0006H3.00898" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "01"]
+    tags: ["sun", "01", "weather", "day", "light", "bright", "summer", "climate", "outline", "celestial", "minimal"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-02",
@@ -43064,7 +43768,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 2C11.6227 2.33333 11.0945 3.2 12 4M12 20C12.3773 20.3333 12.9055 21.2 12 22M19.5 4.50271C18.9685 4.46982 17.9253 4.72293 18.0042 5.99847M5.49576 17.5C5.52865 18.0315 5.27555 19.0747 4 18.9958M5.00271 4.5C4.96979 5.03202 5.22315 6.0763 6.5 5.99729M18 17.5026C18.5315 17.4715 19.5747 17.7108 19.4958 18.9168M22 12C21.6667 11.6227 20.8 11.0945 20 12M4 11.5C3.66667 11.8773 2.8 12.4055 2 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "02"]
+    tags: ["sun", "02", "weather", "day", "light", "bright", "summer", "climate", "filled", "celestial", "minimal"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-03",
@@ -43074,7 +43779,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 2V3.5M12 20.5V22M19.0708 19.0713L18.0101 18.0106M5.98926 5.98926L4.9286 4.9286M22 12H20.5M3.5 12H2M19.0713 4.92871L18.0106 5.98937M5.98975 18.0107L4.92909 19.0714" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "03"]
+    tags: ["sun", "03", "weather", "day", "light", "bright", "summer", "climate", "outline", "celestial", "rounded", "warmth"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-01",
@@ -43084,7 +43790,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 5.65468C8.30552 4.65451 7.15088 4 5.84388 4C3.72096 4 2 5.72674 2 7.85679C2 9.15354 2.63783 10.3008 3.61588 11" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "01"]
+    tags: ["sun", "cloud", "01", "partly cloudy", "weather forecast", "daytime", "climate", "sky", "outline", "atmospheric", "light"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-02",
@@ -43094,7 +43801,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.95939 10.1937C2.21865 7.47179 3.85922 4.67397 6.6237 3.94463M2.95939 10.1937L2 10.4468M2.95939 10.1937C3.14359 10.8706 3.4577 11.479 3.86823 12M6.6237 3.94463L6.36663 3M6.6237 3.94463C8.66673 3.40563 10.7518 4.14719 12 5.66961M3.4765 6.32297L2.4644 5.74628M11.1407 3.45725L10.557 4.45494" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "02"]
+    tags: ["sun", "cloud", "02", "partly cloudy", "weather forecast", "daytime", "climate", "sky", "filled", "atmospheric", "light"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-angled-rain-01",
@@ -43105,7 +43813,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 3.65468C8.30552 2.65451 7.15088 2 5.84388 2C3.72096 2 2 3.72674 2 5.85679C2 7.15354 2.63783 8.30081 3.61588 9" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "angled", "rain", "01"]
+    tags: ["sun", "cloud", "angled", "rain", "01", "showers", "rainy", "drizzle", "weather forecast", "climate", "storm", "outline", "atmospheric"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-angled-rain-02",
@@ -43116,7 +43825,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.95939 9.19373C2.21865 6.47179 3.85922 3.67397 6.6237 2.94463M2.95939 9.19373L2 9.44684M2.95939 9.19373C3.14359 9.87059 3.4577 10.479 3.86823 11M6.6237 2.94463L6.36663 2M6.6237 2.94463C8.66673 2.40563 10.7518 3.14719 12 4.66961M3.4765 5.32297L2.4644 4.74628M11.1407 2.45725L10.557 3.45494" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "angled", "rain", "02"]
+    tags: ["sun", "cloud", "angled", "rain", "02", "showers", "rainy", "drizzle", "weather forecast", "climate", "storm", "filled", "atmospheric"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-angled-rain-zap-01",
@@ -43129,7 +43839,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 18.5L12 20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "angled", "rain", "zap", "01"]
+    tags: ["sun", "cloud", "angled", "rain", "zap", "01", "thunderstorm", "lightning", "stormy", "weather forecast", "climate", "outline", "atmospheric", "danger"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-angled-rain-zap-02",
@@ -43142,7 +43853,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4776 10.9008C17.485 10.9007 17.4925 10.9007 17.5 10.9007C19.9853 10.9007 22 12.8821 22 15.3263C22 17.2532 20.7478 18.8925 19 19.5M17.4776 10.9008C17.4924 10.7388 17.5 10.5748 17.5 10.409C17.5 7.42169 15.0376 5 12 5C9.12324 5 6.76233 7.17208 6.52042 9.9396M17.4776 10.9008C17.3753 12.0165 16.9286 13.0344 16.2428 13.8511M6.52042 9.9396C3.98398 10.177 2 12.2779 2 14.8345C2 16.4433 2.78555 17.8716 4 18.7687M6.52042 9.9396C6.67826 9.92483 6.83823 9.91727 7 9.91727C8.12582 9.91727 9.16474 10.2832 10.0005 10.9007" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "angled", "rain", "zap", "02"]
+    tags: ["sun", "cloud", "angled", "rain", "zap", "02", "thunderstorm", "lightning", "stormy", "weather forecast", "climate", "filled", "atmospheric", "danger"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-angled-zap-01",
@@ -43153,7 +43865,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5784 14L10.8043 16.6838C10.5668 17.0431 10.4481 17.2227 10.5217 17.3614C10.5952 17.5 10.8093 17.5 11.2375 17.5H12.7625C13.1907 17.5 13.4048 17.5 13.4783 17.6386C13.5519 17.7773 13.4332 17.9569 13.1957 18.3162L11.4216 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "angled", "zap", "01"]
+    tags: ["sun", "cloud", "angled", "zap", "01", "thunder", "lightning", "stormy", "weather forecast", "climate", "outline", "atmospheric", "danger", "electricity"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-angled-zap-02",
@@ -43164,7 +43877,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4776 11.0001C17.485 11 17.4925 11 17.5 11C19.9853 11 22 13.0147 22 15.5C22 17.8251 20.2624 19.7631 18 20M17.4776 11.0001C17.4924 10.8354 17.5 10.6686 17.5 10.5C17.5 7.46243 15.0376 5 12 5C9.12324 5 6.76233 7.20862 6.52042 10.0227M17.4776 11.0001C17.3753 12.1345 16.9286 13.1696 16.2428 14M6.52042 10.0227C3.98398 10.2641 2 12.4003 2 15C2 17.419 3.71776 19.512 6 19.9753M6.52042 10.0227C6.67826 10.0077 6.83823 10 7 10C8.12582 10 9.16474 10.3721 10.0005 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "angled", "zap", "02"]
+    tags: ["sun", "cloud", "angled", "zap", "02", "thunder", "lightning", "stormy", "weather forecast", "climate", "filled", "atmospheric", "danger", "electricity"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-big-rain-01",
@@ -43175,7 +43889,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.5 19.5034C9.5 18.2482 10.5532 17.0077 11.2924 16.2917C11.6939 15.9028 12.3061 15.9028 12.7076 16.2917C13.4468 17.0077 14.5 18.2482 14.5 19.5034C14.5 20.7341 13.5533 22 12 22C10.4467 22 9.5 20.7341 9.5 19.5034Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "big", "rain", "01"]
+    tags: ["sun", "cloud", "big", "rain", "01", "heavy rain", "downpour", "stormy", "weather forecast", "climate", "outline", "atmospheric", "wet"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-big-rain-02",
@@ -43186,7 +43901,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.95939 9.19376C2.21865 6.47182 3.85922 3.674 6.6237 2.94466M2.95939 9.19376L2 9.44687M2.95939 9.19376C3.14359 9.87063 3.4577 10.4791 3.86823 11M6.6237 2.94466L6.36663 2.00003M6.6237 2.94466C8.66673 2.40566 10.7518 3.14722 12 4.66964M3.4765 5.323L2.4644 4.74631M11.1407 2.45728L10.557 3.45497" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "big", "rain", "02"]
+    tags: ["sun", "cloud", "big", "rain", "02", "heavy rain", "downpour", "stormy", "weather forecast", "climate", "filled", "atmospheric", "wet"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-fast-wind-01",
@@ -43198,7 +43914,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4782 8.40196C17.4856 8.40192 17.4931 8.40191 17.5006 8.40191C19.9849 8.40191 21.8964 10.36 21.9983 12.6502C22.0763 15.7 19.4254 17.308 17.5062 17.248M17.4782 8.40196C17.493 8.24557 17.5006 8.08719 17.5006 7.92713C17.5006 4.96 15.0368 2.5 12.0005 2.5C9.06174 2.5 6.74504 4.77718 6.50324 7.44927M17.4782 8.40196C17.376 9.47916 17.0384 10.42 16.2347 11.356M6.50324 7.44927C3.96786 7.67846 2.12265 9.76 2.0027 12.1754C1.92473 14.5 3.54406 16.12 5.52323 16.9C9.18169 18.28 12.6602 17.104 13.8237 15.124C14.3155 14.104 13.7398 12.64 12.3604 12.37C11.5207 12.16 10.0813 12.7 9.99735 14.302M6.50324 7.44927C6.66101 7.43501 6.82091 7.42771 6.98262 7.42771C8.10796 7.42771 9.12172 7.72 10.0093 8.404" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "fast", "wind", "01"]
+    tags: ["sun", "cloud", "fast", "wind", "01", "windy", "breeze", "gusts", "weather forecast", "climate", "outline", "atmospheric", "movement"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-fast-wind-02",
@@ -43210,7 +43927,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4619 9.81274C17.4693 9.8127 17.4768 9.81269 17.4843 9.81269C19.9696 9.81269 21.752 11.7 21.752 13.8C21.728 16.62 18.968 17.88 17.468 17.772M17.4619 9.81274C17.4767 9.65635 17.4843 9.49797 17.4843 9.33791C17.4619 6.66869 15.1077 4.5 12.308 4.5C9.50839 4.5 7.26802 6.42 7.06483 8.94M17.4619 9.81274C17.288 10.92 16.988 11.616 16.268 12.48M7.06483 8.94C4.52839 9.16919 2.76802 11.1 2.74402 13.38C2.88802 15.84 4.62802 16.8439 5.94802 17.4C9.30802 18.72 12.8 17.76 14 15.84C14.468 14.76 13.688 13.56 12.608 13.38C11.888 13.2 10.394 13.608 10.352 15.12M7.06483 8.94C7.22267 8.92574 7.41906 8.91844 7.58083 8.91844C8.70802 8.94 9.63202 9.324 10.352 9.804" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "fast", "wind", "02"]
+    tags: ["sun", "cloud", "fast", "wind", "02", "windy", "breeze", "gusts", "weather forecast", "climate", "filled", "atmospheric", "movement"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-hailstone-01",
@@ -43221,7 +43939,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9978 15L12.0022 15.0078M14.9966 17.9967L15.0011 18.0044M8.99888 17.9967L9.00337 18.0044M17.9955 20.9933L18 21.0011M6 20.9933L6.00449 21.0011M11.9978 21.9922L12.0022 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "hailstone", "01"]
+    tags: ["sun", "cloud", "hailstone", "01", "hail", "sleet", "icy", "weather forecast", "climate", "outline", "atmospheric", "cold"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-hailstone-02",
@@ -43232,7 +43951,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.0017 15L12.0062 15.0078M15.0005 17.9967L15.005 18.0044M9.00278 17.9967L9.00727 18.0044M17.9994 20.9933L18.0039 21.0011M6.00391 20.9933L6.0084 21.0011M12.0017 21.9922L12.0062 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "hailstone", "02"]
+    tags: ["sun", "cloud", "hailstone", "02", "hail", "sleet", "icy", "weather forecast", "climate", "filled", "atmospheric", "cold"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-little-rain-01",
@@ -43243,7 +43963,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.0011 14.5V16M9 17.5V19M15 17.5V19M6.5 20.5V22M17.5 20.5V22M12 20.5V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "little", "rain", "01"]
+    tags: ["sun", "cloud", "little", "rain", "01", "light rain", "drizzle", "showers", "weather forecast", "climate", "outline", "atmospheric", "wet"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-little-rain-02",
@@ -43254,7 +43975,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.95939 9.19373C2.21865 6.47179 3.85922 3.67397 6.6237 2.94463M2.95939 9.19373L2 9.44684M2.95939 9.19373C3.14359 9.87059 3.4577 10.479 3.86823 11M6.6237 2.94463L6.36663 2M6.6237 2.94463C8.66673 2.40563 10.7518 3.14719 12 4.66961M3.4765 5.32297L2.4644 4.74628M11.1407 2.45725L10.557 3.45494" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "little", "rain", "02"]
+    tags: ["sun", "cloud", "little", "rain", "02", "light rain", "drizzle", "showers", "weather forecast", "climate", "filled", "atmospheric", "wet"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-little-snow-01",
@@ -43265,7 +43987,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 16L12 17M12 17L13 18M12 17L13 16M12 17L11 18M15 20L16 21M16 21L17 22M16 21L17 20M16 21L15 22M7 20L8 21M8 21L9 22M8 21L9 20M8 21L7 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "little", "snow", "01"]
+    tags: ["sun", "cloud", "little", "snow", "01", "light snow", "flurries", "winter", "weather forecast", "climate", "outline", "atmospheric", "cold"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-little-snow-02",
@@ -43276,7 +43999,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.95939 9.19373C2.21865 6.47179 3.85922 3.67397 6.6237 2.94463M2.95939 9.19373L2 9.44684M2.95939 9.19373C3.14359 9.87059 3.4577 10.479 3.86823 11M6.6237 2.94463L6.36663 2M6.6237 2.94463C8.66673 2.40563 10.7518 3.14719 12 4.66961M3.4765 5.32297L2.4644 4.74628M11.1407 2.45725L10.557 3.45494" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "little", "snow", "02"]
+    tags: ["sun", "cloud", "little", "snow", "02", "light snow", "flurries", "winter", "weather forecast", "climate", "filled", "atmospheric", "cold"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-mid-rain-01",
@@ -43289,7 +44013,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5434 18.5L14.407 19.536C13.8596 20.096 13.8596 20.992 14.4358 21.552C14.724 21.832 15.1401 22 15.5434 22C15.9468 22 16.2797 21.86 16.5678 21.608C17.1441 21.048 17.1441 20.124 16.5678 19.564L15.5434 18.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "mid", "rain", "01"]
+    tags: ["sun", "cloud", "mid", "rain", "01", "moderate rain", "showers", "weather forecast", "climate", "storm", "outline", "atmospheric", "wet"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-mid-rain-02",
@@ -43302,7 +44027,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5434 18.5L14.407 19.536C13.8596 20.096 13.8596 20.992 14.4358 21.552C14.724 21.832 15.1401 22 15.5434 22C15.9468 22 16.2797 21.86 16.5678 21.608C17.1441 21.048 17.1441 20.124 16.5678 19.564L15.5434 18.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "mid", "rain", "02"]
+    tags: ["sun", "cloud", "mid", "rain", "02", "weather", "forecast", "storm", "drizzle", "climate", "meteorology", "partly cloudy", "precipitation"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-mid-snow-01",
@@ -43313,7 +44039,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 14V20M14.5 15.5L9.50013 18.5M9.5 15.5L14.4999 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "mid", "snow", "01"]
+    tags: ["sun", "cloud", "mid", "snow", "01", "weather", "forecast", "winter", "cold", "blizzard", "climate", "meteorology", "partly cloudy", "snowfall"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-mid-snow-02",
@@ -43324,7 +44051,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.95939 9.19373C2.21865 6.47179 3.85922 3.67397 6.6237 2.94463M2.95939 9.19373L2 9.44684M2.95939 9.19373C3.14359 9.87059 3.4577 10.479 3.86823 11M6.6237 2.94463L6.36663 2M6.6237 2.94463C8.66673 2.40563 10.7518 3.14719 12 4.66961M3.4765 5.32297L2.4644 4.74628M11.1407 2.45725L10.557 3.45494" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "mid", "snow", "02"]
+    tags: ["sun", "cloud", "mid", "snow", "02", "weather", "forecast", "winter", "cold", "blizzard", "climate", "meteorology", "partly cloudy", "snowfall"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-slow-wind-01",
@@ -43335,7 +44063,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 17.6579L8.32669 17.4C9.00235 16.8667 9.79765 16.8667 10.4733 17.4L10.7267 17.6C11.4024 18.1333 12.1976 18.1333 12.8733 17.6L13.1267 17.4C13.8024 16.8667 14.5976 16.8667 15.2733 17.4L15.5267 17.6C15.6792 17.7204 15.8378 17.8136 15.9998 17.8796M14 21.6L14.2693 21.4C14.9875 20.8667 15.8328 20.8667 16.5509 21.4L16.8202 21.6C17.5384 22.1333 18.3837 22.1333 19.1018 21.6L19.3712 21.4C20.0893 20.8667 20.9346 20.8667 21.6528 21.4L22 21.6579M10 21.6L9.73069 21.4C9.01254 20.8667 8.16723 20.8667 7.44908 21.4L7.17977 21.6C6.46161 22.1333 5.61631 22.1333 4.89815 21.6L4.62885 21.4C3.91069 20.8667 3.06539 20.8667 2.34723 21.4L2 21.6579" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "slow", "wind", "01"]
+    tags: ["sun", "cloud", "slow", "wind", "01", "weather", "forecast", "breeze", "windy", "climate", "meteorology", "partly cloudy", "air"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-slow-wind-02",
@@ -43346,7 +44075,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4776 10.9008C17.485 10.9007 17.4925 10.9007 17.5 10.9007C19.9853 10.9007 22 12.8821 22 15.3263C22 16.4936 21.5404 17.7092 20.7895 18.5M17.4776 10.9008C17.4924 10.7388 17.5 10.5748 17.5 10.409C17.5 7.42169 15.0376 5 12 5C9.12324 5 6.76233 7.17208 6.52042 9.9396M17.4776 10.9008C17.3753 12.0165 16.9286 13.0344 16.2428 13.8511M6.52042 9.9396C3.98398 10.177 2 12.2779 2 14.8345C2 16.2101 2.57432 17.6076 3.5 18.5M6.52042 9.9396C6.67826 9.92483 6.83823 9.91727 7 9.91727C8.12582 9.91727 9.16474 10.2832 10.0005 10.9007" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "slow", "wind", "02"]
+    tags: ["sun", "cloud", "slow", "wind", "02", "weather", "forecast", "breeze", "windy", "climate", "meteorology", "partly cloudy", "air"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-snow-01",
@@ -43357,7 +44087,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9977 17.9973L12.0022 18.005M15.9954 15.9998L15.9999 16.0076M7.99991 15.9998L8.0044 16.0076M15.9954 19.9947L15.9999 20.0024M7.99991 19.9947L8.0044 20.0024M11.9977 21.9921L12.0022 21.9998" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "snow", "01"]
+    tags: ["sun", "cloud", "snow", "01", "weather", "forecast", "winter", "cold", "blizzard", "climate", "meteorology", "partly cloudy", "snowfall"],
+    category: "weather"
   },
   {
     id: "hugeicon-sun-cloud-snow-02",
@@ -43368,7 +44099,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.4776 11.0091C17.485 11.0091 17.4925 11.0091 17.5 11.0091C19.9853 11.0091 22 13.0269 22 15.5159C22 17.4782 20.7478 18.8813 19 19.5M17.4776 11.0091C17.4924 10.8442 17.5 10.6772 17.5 10.5083C17.5 7.46617 15.0376 5 12 5C9.12324 5 6.76233 7.21197 6.52042 10.0303M17.4776 11.0091C17.3954 11.9219 17 12.5 16.5 13M6.52042 10.0303C3.98398 10.2721 2 12.4116 2 15.0152C2 17.0686 3.2341 18.7103 5 19.5M6.52042 10.0303C6.67826 10.0153 6.83823 10.0076 7 10.0076C7.91072 10.0076 8.76457 10.2514 9.5 10.6775" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sun", "cloud", "snow", "02"]
+    tags: ["sun", "cloud", "snow", "02", "weather", "forecast", "winter", "cold", "blizzard", "climate", "meteorology", "partly cloudy", "snowfall"],
+    category: "weather"
   },
   {
     id: "hugeicon-sunglasses",
@@ -43380,7 +44112,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5 9.5C15 8 18 7.99999 20 8C20 8 20 13 17 13C14.5 13 12.5 9.5 12.5 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sunglasses"]
+    tags: ["sunglasses", "glasses", "shades", "eyewear", "fashion", "summer", "vacation", "accessories", "cool", "style"],
+    category: "other"
   },
   {
     id: "hugeicon-sunrise",
@@ -43395,7 +44128,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 17C16 14.7909 14.2091 13 12 13C9.79086 13 8 14.7909 8 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sunrise"]
+    tags: ["sunrise", "morning", "dawn", "daybreak", "new beginning", "hope", "nature", "weather", "light", "sky"],
+    category: "nature"
   },
   {
     id: "hugeicon-sunset",
@@ -43410,7 +44144,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 17C16 14.7909 14.2091 13 12 13C9.79086 13 8 14.7909 8 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sunset"]
+    tags: ["sunset", "evening", "dusk", "twilight", "end of day", "calm", "nature", "weather", "light", "sky"],
+    category: "nature"
   },
   {
     id: "hugeicon-super-mario-toad",
@@ -43424,7 +44159,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.6315 7C19.3317 7.31423 18.6732 8.8999 19.1608 10.5417C19.5992 12.0177 20.8145 13.0366 22 12.999" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["super", "mario", "toad"]
+    tags: ["super", "mario", "toad", "gaming", "nintendo", "character", "mushroom", "fantasy", "retro", "playful", "video game"],
+    category: "other"
   },
   {
     id: "hugeicon-super-mario",
@@ -43439,7 +44175,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 17C9.5 17.5 11 18 12 17C13 18 14.5 17.5 15 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["super", "mario"]
+    tags: ["super", "mario", "gaming", "nintendo", "character", "plumber", "fantasy", "retro", "playful", "video game"],
+    category: "other"
   },
   {
     id: "hugeicon-surfboard",
@@ -43450,7 +44187,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 17L8 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["surfboard"]
+    tags: ["surfboard", "surfing", "beach", "ocean", "sport", "summer", "vacation", "water", "leisure"],
+    category: "sport"
   },
   {
     id: "hugeicon-surprise",
@@ -43461,7 +44199,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.00897 9H8M16 9H15.991" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["surprise"]
+    tags: ["surprise", "emotion", "shock", "amazement", "wonder", "unexpected", "reaction", "feeling", "expression"],
+    category: "other"
   },
   {
     id: "hugeicon-sushi-01",
@@ -43473,7 +44212,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 12C15 10.0614 15.5118 6.73584 18 5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["sushi", "01"]
+    tags: ["sushi", "01", "food", "japanese", "cuisine", "nigiri", "seafood", "meal", "restaurant", "asian", "chopsticks"],
+    category: "food"
   },
   {
     id: "hugeicon-sushi-02",
@@ -43485,7 +44225,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12.5L2 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sushi", "02"]
+    tags: ["sushi", "02", "food", "japanese", "cuisine", "maki", "seafood", "meal", "restaurant", "asian", "chopsticks"],
+    category: "food"
   },
   {
     id: "hugeicon-sushi-03",
@@ -43498,7 +44239,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 14L5 12.65M22 5L14 8.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sushi", "03"]
+    tags: ["sushi", "03", "food", "japanese", "cuisine", "sashimi", "seafood", "meal", "restaurant", "asian", "chopsticks"],
+    category: "food"
   },
   {
     id: "hugeicon-suspicious",
@@ -43509,7 +44251,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 8.01067C7 8.01067 8.40944 7.88341 9.19588 8.50798M9.19588 8.50798L8.93275 9.34267C8.82896 9.67191 9.10031 10 9.4764 10C9.87165 10 10.1327 9.64338 9.92918 9.33476C9.74877 9.06118 9.50309 8.75196 9.19588 8.50798ZM14 8.01067C14 8.01067 15.4094 7.88341 16.1959 8.50798M16.1959 8.50798L15.9328 9.34267C15.829 9.67191 16.1003 10 16.4764 10C16.8717 10 17.1327 9.64338 16.9292 9.33476C16.7488 9.06118 16.5031 8.75196 16.1959 8.50798Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["suspicious"]
+    tags: ["suspicious", "emotion", "doubt", "skepticism", "distrust", "questioning", "uncertainty", "feeling", "expression"],
+    category: "other"
   },
   {
     id: "hugeicon-sustainable-energy",
@@ -43519,7 +44262,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5 7L9 12H15L11.5 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["sustainable", "energy"]
+    tags: ["sustainable", "energy", "renewable", "green", "environment", "eco-friendly", "power", "electricity", "clean", "future", "ecology"],
+    category: "other"
   },
   {
     id: "hugeicon-svg-01",
@@ -43531,7 +44275,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 17C20 16.4477 19.5523 16 19 16H17.5C16.9477 16 16.5 16.4477 16.5 17V21C16.5 21.5523 16.9477 22 17.5 22H19C19.5523 22 20 21.5523 20 21V19.5H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["svg", "01"]
+    tags: ["svg", "01", "file type", "vector", "graphic", "code", "web development", "design", "format", "programming"],
+    category: "file"
   },
   {
     id: "hugeicon-svg-02",
@@ -43543,7 +44288,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 14L13.75 19L15.5 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["svg", "02"]
+    tags: ["svg", "02", "file type", "vector", "graphic", "code", "web development", "design", "format", "programming"],
+    category: "file"
   },
   {
     id: "hugeicon-swarm",
@@ -43555,7 +44301,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 10.5C16 13.5398 17.5963 16.3439 20 18.0664M11 13.0581C11.183 15.8919 13.7098 18.888 16 20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swarm"]
+    tags: ["swarm", "group", "crowd", "collection", "many", "density", "together", "community", "multitude"],
+    category: "other"
   },
   {
     id: "hugeicon-swatch",
@@ -43568,7 +44315,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 8H13M2 13H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swatch"]
+    tags: ["swatch", "color", "palette", "sample", "design", "art", "paint", "selection", "hue", "tone"],
+    category: "ui"
   },
   {
     id: "hugeicon-swimming-cap",
@@ -43580,7 +44328,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 19C4 17.4634 6.1186 17.1143 7.23329 16.6688C8.80778 16.0396 10.5 17.2472 10.5 19C10.5 20.7528 8.80778 21.9604 7.23329 21.3312C6.1186 20.8857 4 20.5366 4 19ZM4 19L2 19M20 19C20 17.4634 17.8814 17.1143 16.7667 16.6688C15.1922 16.0396 13.5 17.2472 13.5 19C13.5 20.7528 15.1922 21.9604 16.7667 21.3312C17.8814 20.8857 20 20.5366 20 19ZM20 19L22 19M10.5 18.5C10.7994 17.9022 11.359 17.5 12 17.5C12.641 17.5 13.2006 17.9022 13.5 18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swimming", "cap"]
+    tags: ["swimming", "cap", "sport", "pool", "water", "headwear", "accessories", "aquatic", "athletic"],
+    category: "sport"
   },
   {
     id: "hugeicon-swimming",
@@ -43591,7 +44340,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 18.0843C3.05556 14.5527 7.7685 16.1736 11.5 18.0843C15.2315 19.995 19 21.2108 21 18.0843" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swimming"]
+    tags: ["swimming", "sport", "pool", "water", "athlete", "aquatic", "exercise", "leisure", "fitness"],
+    category: "sport"
   },
   {
     id: "hugeicon-swipe-down-01",
@@ -43601,7 +44351,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.8348 22L7.8348 21.0513C7.8348 20.4058 7.6261 19.7775 7.23964 19.2595L3.58206 14.3566C3.16022 13.7911 2.8233 13.0896 3.1018 12.4419C3.55264 11.3935 4.82458 10.7124 6.38144 12.2843L7.97865 13.9937L7.97865 3.57057C8.03487 1.52742 11.3229 1.42614 11.4635 3.57057L11.4635 9.5106C12.9435 9.31946 19.9155 10.3629 18.8993 14.7831C18.851 14.9931 18.8028 15.2063 18.7557 15.4165C18.5501 16.3353 17.9422 17.9727 17.2719 18.93C16.5741 19.9266 16.8203 20.9192 16.8203 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "01"]
+    tags: ["swipe", "down", "01", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "smooth", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-down-02",
@@ -43611,7 +44362,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.3913 21.998C15.3395 20.084 15.4684 19.8535 15.6052 19.4277C15.7419 19.002 16.6982 17.4665 17.0366 16.3695C18.1313 12.8202 17.111 12.0653 15.7507 11.0588C14.2422 9.94257 11.3968 9.37728 9.98573 9.49966V3.7462C9.98573 2.78288 9.20481 2.00195 8.24148 2.00195C7.27816 2.00195 6.49723 2.78288 6.49723 3.7462V9.96607M6.49774 21.9988V20.9854C6.43328 20.041 5.49529 18.9235 4.32672 17.3166C3.12509 15.576 2.86688 14.6973 3.05591 13.8848C3.15329 13.4694 3.40594 12.7832 4.64647 11.6104L6.49723 9.96607M6.49723 14.0323V9.96607" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "02"]
+    tags: ["swipe", "down", "02", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "bold", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-down-03",
@@ -43621,7 +44373,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 8L18.5 2M18.5 8C17.7998 8 16.4915 6.0057 16 5.5M18.5 8C19.2002 8 20.5085 6.0057 21 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "03"]
+    tags: ["swipe", "down", "03", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "line", "outline", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-down-04",
@@ -43631,7 +44384,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 8L18 2M18 8C17.2998 8 15.9915 6.0057 15.5 5.5M18 8C18.7002 8 20.0085 6.0057 20.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "04"]
+    tags: ["swipe", "down", "04", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "rounded", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-down-05",
@@ -43641,7 +44395,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 8L18.5 2M18.5 8C17.7998 8 16.4915 6.0057 16 5.5M18.5 8C19.2002 8 20.5085 6.0057 21 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "05"]
+    tags: ["swipe", "down", "05", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "diagonal", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-down-06",
@@ -43651,7 +44406,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.51286 13.5149V3.48587C6.51286 2.66424 7.1797 1.99817 8.00229 1.99817C8.82488 1.99817 9.49172 2.66423 9.49172 3.48587V8.68796M9.49172 8.68796V11.0116M9.49172 8.68796C10.2966 7.56953 12.0992 7.94205 12.4829 9.68091C12.4893 9.70978 12.4945 9.73886 12.4986 9.7681M12.5138 11.0076V10.0047C12.5138 9.92562 12.5098 9.84631 12.4986 9.7681M12.4986 9.7681C12.9919 8.41774 15.5029 8.92645 15.5029 10.861M15.5029 10.861V12.007M15.5029 10.861C15.9068 9.37047 18.5587 10.4122 18.5012 12.1546V15.3331C18.4983 17.0591 18.2102 18.3107 17.184 19.3401C16.236 20.4719 16.459 21.1055 16.4354 22.0018M6.51286 8.99062C5.19393 10.1845 3.69695 11.816 3.50583 12.2024C2.61651 13.5545 2.9328 14.6154 4.19662 16.4176C5.13716 17.7588 6.39863 19.2535 6.46471 19.3283C7.13732 20.0897 7.0055 20.6959 7.0055 21.9908" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "06"]
+    tags: ["swipe", "down", "06", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "bold", "angular", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-down-07",
@@ -43661,7 +44417,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5 8L19.5 2M19.5 8C18.7998 8 17.4915 6.0057 17 5.5M19.5 8C20.2002 8 21.5085 6.0057 22 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "07"]
+    tags: ["swipe", "down", "07", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "dotted", "dashed", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-down-08",
@@ -43671,7 +44428,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.53651 14.453V9.98787M5.53651 9.98787V4.47087C5.53651 3.651 6.22091 2.99023 7.04219 2.99023C7.86347 2.99023 8.51063 3.651 8.51063 4.47087V8.46818M5.53651 9.98787C4.21967 11.1791 2.80262 12.684 2.6118 13.0695C1.7239 14.4187 1.81696 15.0719 2.80647 16.7229C3.64691 18.1251 4.77717 19.6813 4.84315 19.7559C5.51469 20.5157 5.38117 20.5158 6.35451 21.2292C7.22367 21.8314 9.02652 22.251 13.253 21.8314C16.6962 21.3005 17.5211 18.3001 17.5032 16.8662V13.3253C17.7176 10.3823 16.4854 10.2495 14.2479 9.95981M8.51063 8.46818V10.9926M8.51063 8.46818C9.06899 7.55918 11.0969 7.92653 11.4922 9.64304M11.5279 10.9886V9.98787C11.5279 9.90897 11.5239 9.82983 11.5128 9.75178M11.4922 9.64304C11.4938 9.65026 11.4955 9.65751 11.4971 9.66478C11.5034 9.69358 11.5086 9.72261 11.5128 9.75178M11.4922 9.64304C11.4963 9.67802 11.5031 9.71427 11.5128 9.75178M11.4922 9.64304C11.3518 8.44663 14.3886 8.73828 14.5123 10.8424V11.9859" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "down", "08"]
+    tags: ["swipe", "down", "08", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "circular", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-01",
@@ -43681,7 +44439,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.8899 21.9882C16.8382 20.0749 16.9671 19.8446 17.1038 19.419C17.2405 18.9933 18.1967 17.4585 18.535 16.3619C19.6295 12.814 18.6094 12.0594 17.2493 11.0533C15.741 9.93751 12.8962 9.37244 11.4853 9.49477V3.74357C11.4853 2.78062 10.7045 2 9.74133 2C8.77816 2 7.99736 2.78062 7.99736 3.74357V14.0031L5.93753 11.8236C5.29802 11.1302 4.27027 11.0599 3.56885 11.6907C2.90415 12.2885 2.80714 13.2952 3.34548 14.0089L4.63762 15.7218M7.86803 22L7.8485 20.9496C7.89144 19.7183 6.99559 18.9149 5.8272 17.3087C5.74302 17.193 5.66111 17.0811 5.58135 16.9729M5.58135 16.9729C5.22735 16.4924 4.91587 16.0831 4.63762 15.7218M5.58135 16.9729L6.75058 18.5229M5.58135 16.9729L4.63762 15.7218M4.63762 15.7218C4.06634 14.9801 3.63509 14.441 3.26331 13.9055" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "01"]
+    tags: ["swipe", "left", "01", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "smooth", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-02",
@@ -43691,7 +44450,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.3913 21.998C15.3395 20.084 15.4684 19.8535 15.6052 19.4277C15.7419 19.002 16.6982 17.4665 17.0366 16.3695C18.1313 12.8202 17.111 12.0653 15.7507 11.0588C14.2422 9.94257 11.3968 9.37728 9.98573 9.49966V3.7462C9.98573 2.78288 9.20481 2.00195 8.24148 2.00195C7.27816 2.00195 6.49723 2.78288 6.49723 3.7462V9.96607M6.49774 21.9988V20.9854C6.43328 20.041 5.49529 18.9235 4.32672 17.3166C3.12509 15.576 2.86688 14.6973 3.05591 13.8848C3.15329 13.4694 3.40594 12.7832 4.64647 11.6104L6.49723 9.96607M6.49723 14.0323V9.96607" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "02"]
+    tags: ["swipe", "left", "02", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "bold", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-03",
@@ -43701,7 +44461,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 4.5L21 4.5M15 4.5C15 3.79977 16.9943 2.49153 17.5 2M15 4.5C15 5.20023 16.9943 6.50847 17.5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "03"]
+    tags: ["swipe", "left", "03", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "line", "outline", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-04",
@@ -43711,7 +44472,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 4.5L20.5 4.5M14.5 4.5C14.5 3.79977 16.4943 2.49153 17 2M14.5 4.5C14.5 5.20023 16.4943 6.50847 17 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "04"]
+    tags: ["swipe", "left", "04", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "rounded", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-05",
@@ -43721,7 +44483,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 4.5L21 4.5M15 4.5C15 3.79977 16.9943 2.49153 17.5 2M15 4.5C15 5.20023 16.9943 6.50847 17.5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "05"]
+    tags: ["swipe", "left", "05", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "diagonal", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-06",
@@ -43731,7 +44494,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.51282 13.5147V3.48575C6.51282 2.66411 7.17966 1.99805 8.00225 1.99805C8.82484 1.99805 9.49168 2.66411 9.49168 3.48575V8.68783M9.49168 8.68783V11.0115M9.49168 8.68783C10.2966 7.56941 12.0992 7.94193 12.4829 9.68079C12.4892 9.70965 12.4944 9.73874 12.4986 9.76798M12.5137 11.0075V10.0046C12.5137 9.9255 12.5098 9.84619 12.4986 9.76798M12.4986 9.76798C12.9918 8.41762 15.2563 8.93261 15.5028 10.8609M15.5028 10.8609V12.0069M15.5028 10.8609C15.9068 9.37034 18.5586 10.4121 18.5012 12.1544V15.3329C18.4982 17.059 18.2101 18.3105 17.184 19.34C16.236 20.4718 16.459 21.1053 16.4354 22.0017M6.51282 8.9905C5.19389 10.1843 3.69691 11.8159 3.50578 12.2023C2.61647 13.5544 2.93276 14.6153 4.19658 16.4175C5.13711 17.7587 6.39859 19.2534 6.46467 19.3282C7.13727 20.0896 7.00546 20.6958 7.00546 21.9907" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "06"]
+    tags: ["swipe", "left", "06", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "bold", "angular", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-07",
@@ -43741,7 +44505,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 4.5L21 4.5M15 4.5C15 3.79977 16.9943 2.49153 17.5 2M15 4.5C15 5.20023 16.9943 6.50847 17.5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "07"]
+    tags: ["swipe", "left", "07", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "dotted", "dashed", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-08",
@@ -43751,7 +44516,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.53624 14.4462V9.97685M6.53624 9.97685V4.45468C6.53624 3.63404 7.22077 2.97266 8.04222 2.97266C8.86367 2.97266 9.51096 3.63404 9.51096 4.45468V8.45574M6.53624 9.97685C5.21914 11.1692 3.80181 12.6755 3.61094 13.0613C2.72287 14.4119 2.81595 15.0657 3.80565 16.7182C4.64626 18.1217 5.77675 19.6794 5.84275 19.7541C6.51441 20.5146 6.38087 20.5147 7.3544 21.2287C8.22374 21.8315 10.027 22.2515 14.2543 21.8315C17.6981 21.3001 18.5232 18.2969 18.5053 16.8617V13.3175C18.7198 10.3717 17.4873 10.2387 15.2494 9.94876M9.51096 8.45574V10.9825M9.51096 8.45574C10.0694 7.54589 12.0977 7.91358 12.4931 9.6317M12.5288 10.9785V9.97685C12.5288 9.89788 12.5249 9.81866 12.5137 9.74054M12.4931 9.6317C12.4947 9.63893 12.4964 9.64618 12.498 9.65346C12.5043 9.68229 12.5095 9.71134 12.5137 9.74054M12.4931 9.6317C12.4972 9.66671 12.504 9.70299 12.5137 9.74054M12.4931 9.6317C12.3527 8.43417 15.3901 8.72609 15.5138 10.8321V11.9768" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "08"]
+    tags: ["swipe", "left", "08", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "circular", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-left-09",
@@ -43761,7 +44527,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 4.5H22M15.5 4.5C15.5 3.79977 17.4943 2.49153 18 2M15.5 4.5C15.5 5.20023 17.4943 6.50847 18 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "left", "09"]
+    tags: ["swipe", "left", "09", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "finger", "hand", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-01",
@@ -43771,7 +44538,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.8942 21.9884C16.8424 20.0751 16.9713 19.8448 17.1081 19.4191C17.2448 18.9935 18.2011 17.4587 18.5395 16.3621C19.6342 12.8141 18.6139 12.0595 17.2536 11.0534C15.7451 9.93759 12.8997 9.37252 11.4886 9.49486V3.74359C11.4886 2.78063 10.7077 2 9.74439 2C8.78106 2 8.00014 2.78063 8.00014 3.74359V14.0032L5.93997 11.8238C5.30035 11.1303 4.27243 11.06 3.5709 11.6908C2.90609 12.2886 2.80906 13.2953 3.34749 14.009L4.63984 15.722M7.87078 22.0002L7.85125 20.9498C7.89419 19.7185 6.9982 18.9151 5.82962 17.3089C5.74542 17.1931 5.6635 17.0813 5.58372 16.973M5.58372 16.973C5.22966 16.4926 4.91814 16.0832 4.63984 15.722M5.58372 16.973L6.75315 18.5231M5.58372 16.973L4.63984 15.722M4.63984 15.722C4.06847 14.9802 3.63715 14.4412 3.26531 13.9056" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "01"]
+    tags: ["swipe", "right", "01", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "smooth", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-02",
@@ -43781,7 +44549,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.3913 21.998C15.3395 20.084 15.4684 19.8535 15.6052 19.4277C15.7419 19.002 16.6982 17.4665 17.0366 16.3695C18.1313 12.8202 17.111 12.0653 15.7507 11.0588C14.2422 9.94257 11.3968 9.37728 9.98573 9.49966V3.7462C9.98573 2.78288 9.20481 2.00195 8.24148 2.00195C7.27816 2.00195 6.49723 2.78288 6.49723 3.7462V9.96607M6.49774 21.9988V20.9854C6.43328 20.041 5.49529 18.9235 4.32672 17.3166C3.12509 15.576 2.86688 14.6973 3.05591 13.8848C3.15329 13.4694 3.40594 12.7832 4.64647 11.6104L6.49723 9.96607M6.49723 14.0323V9.96607" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "02"]
+    tags: ["swipe", "right", "02", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "bold", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-03",
@@ -43791,7 +44560,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 4.5L15 4.5M21 4.5C21 3.79977 19.0057 2.49153 18.5 2M21 4.5C21 5.20023 19.0057 6.50847 18.5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "03"]
+    tags: ["swipe", "right", "03", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "line", "outline", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-04",
@@ -43801,7 +44571,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.5 4.5L14.5 4.5M20.5 4.5C20.5 3.79977 18.5057 2.49153 18 2M20.5 4.5C20.5 5.20023 18.5057 6.50847 18 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "04"]
+    tags: ["swipe", "right", "04", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "rounded", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-05",
@@ -43811,7 +44582,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.5 4.5L15.5 4.5M21.5 4.5C21.5 3.79977 19.5057 2.49153 19 2M21.5 4.5C21.5 5.20023 19.5057 6.50847 19 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "05"]
+    tags: ["swipe", "right", "05", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "diagonal", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-06",
@@ -43821,7 +44593,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.51282 13.5147V3.48575C6.51282 2.66411 7.17966 1.99805 8.00225 1.99805C8.82484 1.99805 9.49168 2.66411 9.49168 3.48575V8.68783M9.49168 8.68783V11.0115M9.49168 8.68783C10.2966 7.56941 12.0992 7.94193 12.4829 9.68079C12.4892 9.70965 12.4944 9.73874 12.4986 9.76798M12.5137 11.0075V10.0046C12.5137 9.9255 12.5098 9.84619 12.4986 9.76798M12.4986 9.76798C12.9918 8.41762 15.2563 8.93261 15.5028 10.8609M15.5028 10.8609V12.0069M15.5028 10.8609C15.9068 9.37034 18.5586 10.4121 18.5012 12.1544V15.3329C18.4982 17.059 18.2101 18.3105 17.184 19.34C16.236 20.4718 16.459 21.1053 16.4354 22.0017M6.51282 8.9905C5.19389 10.1843 3.69691 11.8159 3.50578 12.2023C2.61647 13.5544 2.93276 14.6153 4.19658 16.4175C5.13711 17.7587 6.39859 19.2534 6.46467 19.3282C7.13727 20.0896 7.00546 20.6958 7.00546 21.9907" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "06"]
+    tags: ["swipe", "right", "06", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "bold", "angular", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-07",
@@ -43831,7 +44604,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 4.5L15 4.5M21 4.5C21 3.79977 19.0057 2.49153 18.5 2M21 4.5C21 5.20023 19.0057 6.50847 18.5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "07"]
+    tags: ["swipe", "right", "07", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "dotted", "dashed", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-08",
@@ -43841,7 +44615,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.53738 14.4455V9.97574M6.53738 9.97574V4.453C6.53738 3.63227 7.22177 2.97083 8.04304 2.97083C8.86431 2.97083 9.51146 3.63227 9.51146 4.453V8.45447M6.53738 9.97574C5.22056 11.1682 3.80353 12.6747 3.61271 13.0606C2.72482 14.4112 2.81789 15.0651 3.80738 16.7178C4.64781 18.1215 5.77806 19.6793 5.84403 19.754C6.51556 20.5145 6.38204 20.5147 7.35536 21.2288C8.22452 21.8316 10.0273 22.2517 14.2538 21.8316C17.6969 21.3001 18.5218 18.2966 18.5039 16.8613V13.3167C18.7183 10.3706 17.4861 10.2376 15.2487 9.94765M9.51146 8.45447V10.9815M9.51146 8.45447C10.0698 7.54453 12.0977 7.91226 12.4929 9.63056M12.5287 10.9775V9.97574C12.5287 9.89676 12.5247 9.81754 12.5136 9.73941M12.4929 9.63056C12.4946 9.63779 12.4962 9.64504 12.4978 9.65232C12.5042 9.68115 12.5094 9.7102 12.5136 9.73941M12.4929 9.63056C12.497 9.66557 12.5039 9.70186 12.5136 9.73941M12.4929 9.63056C12.3526 8.4329 15.3894 8.72486 15.513 10.8311V11.9759" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["swipe", "right", "08"]
+    tags: ["swipe", "right", "08", "gesture", "touch", "mobile", "arrow", "pointer", "direction", "scroll", "circular", "filled", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-swipe-right-09",
@@ -44410,7 +45185,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 12L2 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["target", "03"]
+    tags: ["target", "03", "goal", "aim", "focus", "marketing", "dartboard", "precision", "filled", "success", "strategy"],
+    category: "other"
   },
   {
     id: "hugeicon-target-dollar",
@@ -44424,7 +45200,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 9C10.8954 9 10 9.67157 10 10.5C10 11.3284 10.8954 12 12 12C13.1046 12 14 12.6716 14 13.5C14 14.3284 13.1046 15 12 15M12 9C12.8708 9 13.6116 9.4174 13.8862 10M12 9V8M12 15C11.1292 15 10.3884 14.5826 10.1138 14M12 15V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["target", "dollar"]
+    tags: ["target", "dollar", "financial goal", "money", "investment", "profit", "revenue", "business", "economy", "filled", "currency"],
+    category: "finance"
   },
   {
     id: "hugeicon-tasbih",
@@ -44441,7 +45218,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.25863 14.8474L3.38689 17.3014C2.66033 17.6955 2.22616 18.1529 2.70032 18.999C2.90044 19.3688 3.32221 19.9905 3.92986 20.6024M9.6469 16.234L7.19892 21.0911C6.64939 22.1817 6.12307 22.0548 5.69013 21.8996C5.00008 21.5581 4.40754 21.0833 3.92986 20.6024M3.92986 20.6024L5.60533 18.893" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tasbih"]
+    tags: ["tasbih", "prayer beads", "rosary", "islamic", "meditation", "spiritual", "religious", "counting", "minimal", "faith"],
+    category: "other"
   },
   {
     id: "hugeicon-task-01",
@@ -44452,7 +45230,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.49609 3.75C7.49609 2.7835 8.2796 2 9.24609 2H14.7461C15.7126 2 16.4961 2.7835 16.4961 3.75C16.4961 4.7165 15.7126 5.5 14.7461 5.5H9.24609C8.2796 5.5 7.49609 4.7165 7.49609 3.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "01"]
+    tags: ["task", "01", "todo", "checklist", "assignment", "project", "management", "productivity", "outline", "list", "document"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-02",
@@ -44463,7 +45242,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 16H12M8 11H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "02"]
+    tags: ["task", "02", "todo", "checklist", "assignment", "project", "management", "productivity", "outline", "list", "document"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-add-01",
@@ -44475,7 +45255,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.49609 3.75C6.49609 2.7835 7.2796 2 8.24609 2H13.7461C14.7126 2 15.4961 2.7835 15.4961 3.75C15.4961 4.7165 14.7126 5.5 13.7461 5.5H8.24609C7.2796 5.5 6.49609 4.7165 6.49609 3.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "add", "01"]
+    tags: ["task", "add", "01", "new task", "create", "add item", "plus", "todo", "project management", "productivity", "outline", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-add-02",
@@ -44487,7 +45268,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 16H11M7 11H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "add", "02"]
+    tags: ["task", "add", "02", "new task", "create", "add item", "plus", "todo", "project management", "productivity", "outline", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-daily-01",
@@ -44501,7 +45283,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 17H9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "daily", "01"]
+    tags: ["task", "daily", "01", "schedule", "calendar", "routine", "daily plan", "agenda", "time management", "productivity", "filled", "event"],
+    category: "time"
   },
   {
     id: "hugeicon-task-daily-02",
@@ -44515,7 +45298,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 17H9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "daily", "02"]
+    tags: ["task", "daily", "02", "schedule", "calendar", "routine", "daily plan", "agenda", "time management", "productivity", "filled", "event"],
+    category: "time"
   },
   {
     id: "hugeicon-task-done-01",
@@ -44527,7 +45311,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.49609 3.75C6.49609 2.7835 7.2796 2 8.24609 2H13.7461C14.7126 2 15.4961 2.7835 15.4961 3.75C15.4961 4.7165 14.7126 5.5 13.7461 5.5H8.24609C7.2796 5.5 6.49609 4.7165 6.49609 3.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "done", "01"]
+    tags: ["task", "done", "01", "completed", "finished", "checked", "success", "achievement", "filled", "productivity", "checkmark"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-done-02",
@@ -44539,7 +45324,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 16H11M7 11H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "done", "02"]
+    tags: ["task", "done", "02", "completed", "finished", "checked", "success", "achievement", "filled", "productivity", "checkmark"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-edit-01",
@@ -44551,7 +45337,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.2776 14.375C16.9035 15.775 14.2553 18.275 14.2553 18.45C14.0417 18.7468 13.8555 19.35 13.7306 20.2C13.5737 20.9879 13.3858 21.675 13.6057 21.875C13.8256 22.075 14.6535 21.9064 15.5294 21.725C16.229 21.65 16.8785 21.4 17.2033 21.15C17.678 20.7298 20.9009 17.475 21.2756 17.05C21.5504 16.675 21.5754 15.975 21.3356 15.55C21.2007 15.25 20.3512 14.45 20.0764 14.225C19.5767 13.925 18.8772 13.875 18.2776 14.375Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "edit", "01"]
+    tags: ["task", "edit", "01", "modify", "update", "pencil", "write", "change", "document", "filled", "productivity", "settings"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-edit-02",
@@ -44563,7 +45350,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.2786 14.3787C16.9045 15.778 14.2563 18.2768 14.2563 18.4517C14.0427 18.7483 13.8565 19.3512 13.7316 20.2008C13.5747 20.9884 13.3868 21.6751 13.6067 21.875C13.8266 22.0749 14.6545 21.9064 15.5304 21.7251C16.2299 21.6501 16.8795 21.4002 17.2043 21.1504C17.679 20.7304 20.9018 17.4772 21.2766 17.0524C21.5514 16.6776 21.5764 15.9779 21.3365 15.5531C21.2016 15.2533 20.3522 14.4536 20.0774 14.2288C19.5777 13.9289 18.8782 13.8789 18.2786 14.3787Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "edit", "02"]
+    tags: ["task", "edit", "02", "modify", "update", "pencil", "write", "change", "document", "filled", "productivity", "settings"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-remove-01",
@@ -44575,7 +45363,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.49609 3.75C6.49609 2.7835 7.2796 2 8.24609 2H13.7461C14.7126 2 15.4961 2.7835 15.4961 3.75C15.4961 4.7165 14.7126 5.5 13.7461 5.5H8.24609C7.2796 5.5 6.49609 4.7165 6.49609 3.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "remove", "01"]
+    tags: ["task", "remove", "01", "delete", "cancel", "clear", "minus", "remove item", "filled", "productivity", "error", "decline"],
+    category: "ui"
   },
   {
     id: "hugeicon-task-remove-02",
@@ -44587,7 +45376,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 16H11M7 11H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["task", "remove", "02"]
+    tags: ["task", "remove", "02", "delete", "cancel", "clear", "minus", "remove item", "filled", "productivity", "error", "decline"],
+    category: "ui"
   },
   {
     id: "hugeicon-taxes",
@@ -44601,7 +45391,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="20.75" cy="20.75" r="0.75" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["taxes"]
+    tags: ["taxes", "money", "finance", "government", "income", "payment", "calculator", "economy", "accounting", "filled"],
+    category: "finance"
   },
   {
     id: "hugeicon-taxi-02",
@@ -44614,7 +45405,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 5.5V5C15 4.05719 15 3.58579 14.7071 3.29289C14.4142 3 13.9428 3 13 3H11C10.0572 3 9.58579 3 9.29289 3.29289C9 3.58579 9 4.05719 9 5V5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["taxi", "02"]
+    tags: ["taxi", "02", "cab", "transportation", "car", "travel", "ride", "vehicle", "urban", "filled", "service"],
+    category: "transport"
   },
   {
     id: "hugeicon-taxi",
@@ -44632,7 +45424,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 10.5H19.5C20.4572 11.4572 22 12.7902 22 14.2774V17.5552C22 18.094 21.6205 18.5474 21.1168 18.6104L18 19H6L2.88316 18.6104C2.37955 18.5474 2 18.094 2 17.5552V14.2774C2 12.7902 3.54279 11.4572 4.5 10.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["taxi"]
+    tags: ["taxi", "cab", "transportation", "car", "travel", "ride", "vehicle", "urban", "filled", "service"],
+    category: "transport"
   },
   {
     id: "hugeicon-tea-pod",
@@ -44643,7 +45436,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.16958 11.1285L6.65238 16.903C6.69082 16.9525 6.71276 17.0127 6.71512 17.0753L6.80491 19.4596C6.83613 20.2884 7.41233 20.9974 8.21953 21.2002L8.46708 21.2624C12.4487 22.2628 16.6198 22.242 20.5912 21.202C21.3686 20.9984 21.9164 20.3061 21.9338 19.5054L21.9942 16.7139C22.0796 12.7815 20.8064 11.9342 20.1836 11.3632C18.7421 10.0416 16.5969 9.72382 14.5369 9.72382C10.9645 9.72382 9.24461 10.7395 8.44615 11.4301C8.27084 11.5817 8.0179 11.618 7.81808 11.5003L3.84377 9.15827C3.49819 8.95462 3.05477 9.03649 2.80537 9.34999L2.17546 10.1418C1.946 10.4302 1.94358 10.8374 2.16958 11.1285Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tea", "pod"]
+    tags: ["tea", "pod", "drink", "beverage", "hot drink", "infuser", "kitchen", "relax", "minimal", "comfort", "food"],
+    category: "food"
   },
   {
     id: "hugeicon-tea",
@@ -44655,7 +45449,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.3089 2.5C10.7622 2.83861 10.0012 4 10.0012 5.5M7.53971 4C7.53971 4 7 4.5 7 5.5M14.0012 4C13.7279 4.1693 13.5 5 13.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tea"]
+    tags: ["tea", "drink", "beverage", "hot drink", "cup", "mug", "relax", "minimal", "comfort", "food"],
+    category: "food"
   },
   {
     id: "hugeicon-teacher",
@@ -44667,7 +45462,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 6.5C6 7.60457 5.10457 8.5 4 8.5C2.89543 8.5 2 7.60457 2 6.5C2 5.39543 2.89543 4.5 4 4.5C5.10457 4.5 6 5.39543 6 6.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["teacher"]
+    tags: ["teacher", "education", "professor", "mentor", "learning", "school", "academic", "person", "knowledge", "filled"],
+    category: "education"
   },
   {
     id: "hugeicon-teaching",
@@ -44679,7 +45475,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 7H18M18 11H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["teaching"]
+    tags: ["teaching", "education", "learning", "classroom", "presentation", "knowledge", "academic", "training", "filled", "school"],
+    category: "education"
   },
   {
     id: "hugeicon-teamviewer",
@@ -44689,7 +45486,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.9973 12.0838C18.9627 12.6123 18.4918 13.0126 17.55 13.8133C16.0773 15.0654 15.3409 15.6914 14.7351 15.4483C14.6734 15.4236 14.6138 15.3931 14.5571 15.3574C14.1246 15.085 14.0279 14.42 14.0062 13.1982H9.99377C9.97214 14.42 9.87543 15.085 9.44294 15.3574C9.38619 15.3931 9.32661 15.4236 9.26489 15.4483C8.65908 15.6914 7.92271 15.0654 6.44997 13.8133C5.50821 13.0126 5.03733 12.6123 5.00274 12.0838C4.99909 12.028 4.99909 11.972 5.00274 11.9162C5.03733 11.3877 5.50821 10.9874 6.44997 10.1867C7.92271 8.93464 8.65908 8.3086 9.26489 8.55167C9.32661 8.57644 9.38619 8.60687 9.44294 8.64262C9.86305 8.90724 9.96633 9.54228 9.99172 10.6982H14.0083C14.0337 9.54228 14.1369 8.90724 14.5571 8.64262C14.6138 8.60687 14.6734 8.57644 14.7351 8.55167C15.3409 8.3086 16.0773 8.93464 17.55 10.1867C18.4918 10.9874 18.9627 11.3877 18.9973 11.9162C19.0009 11.972 19.0009 12.028 18.9973 12.0838Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["teamviewer"]
+    tags: ["teamviewer", "app", "software", "remote access", "support", "connection", "brand", "collaboration", "filled", "social"],
+    category: "social"
   },
   {
     id: "hugeicon-telegram",
@@ -44698,7 +45496,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9854 15.4083L15.2268 19.0936C16.4277 20.4589 17.0282 21.1416 17.6567 20.9754C18.2852 20.8092 18.5008 19.9108 18.9318 18.1138L21.3229 8.1459C21.9868 5.37832 22.3187 3.99454 21.5808 3.312C20.843 2.62947 19.564 3.13725 17.0061 4.15282L5.13876 8.86449C3.09293 9.67674 2.07001 10.0829 2.00507 10.7808C1.99842 10.8522 1.99831 10.9241 2.00474 10.9955C2.06754 11.6937 3.08921 12.1033 5.13255 12.9223C6.05838 13.2934 6.5213 13.479 6.8532 13.8344C6.89052 13.8743 6.9264 13.9157 6.96078 13.9584C7.26658 14.3384 7.39709 14.8371 7.65808 15.8344L8.14653 17.701C8.4005 18.6715 8.52749 19.1568 8.86008 19.223C9.19267 19.2891 9.48225 18.8867 10.0614 18.0819L11.9854 15.4083ZM11.9854 15.4083L11.6676 15.0771C11.3059 14.7001 11.1251 14.5117 11.1251 14.2775C11.1251 14.0433 11.3059 13.8548 11.6676 13.4778L15.2406 9.75409" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["telegram"]
+    tags: ["telegram", "app", "messaging", "chat", "social media", "communication", "brand", "send", "filled", "network"],
+    category: "social"
   },
   {
     id: "hugeicon-telephone",
@@ -44709,7 +45508,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.96014 3.69772C5.6417 4.07415 4.69384 4.54112 3.82645 5.10455C2.45318 5.9966 1.86443 7.60404 2.02607 9.15513C2.09439 9.81068 2.62064 10.1241 3.23089 9.95455C3.69451 9.82571 4.15888 9.7003 4.61961 9.56364C5.96706 9.16397 6.28399 8.67812 6.47124 7.29885L6.96014 3.69772ZM6.96014 3.69772C10.2186 2.76743 13.7814 2.76743 17.0399 3.69772M17.0399 3.69772C18.3583 4.07415 19.3062 4.54112 20.1735 5.10455C21.5468 5.9966 22.1356 7.60404 21.9739 9.15513C21.9056 9.81068 21.3794 10.1241 20.7691 9.95455C20.3055 9.82571 19.8411 9.7003 19.3804 9.56364C18.0329 9.16397 17.716 8.67812 17.5288 7.29885L17.0399 3.69772Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["telephone"]
+    tags: ["telephone", "call", "phone", "contact", "communication", "support", "receiver", "filled", "device", "talk"],
+    category: "communication"
   },
   {
     id: "hugeicon-telescope-01",
@@ -44721,7 +45521,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 22L12 12L16.5 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["telescope", "01"]
+    tags: ["telescope", "01", "astronomy", "space", "discovery", "exploration", "science", "observation", "research", "vision", "circular", "outline"],
+    category: "other"
   },
   {
     id: "hugeicon-telescope-02",
@@ -44733,7 +45534,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 14.2645L2.73817 15.6322M2.73817 15.6322L3.47634 17M2.73817 15.6322L6.5 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["telescope", "02"]
+    tags: ["telescope", "02", "astronomy", "space", "discovery", "exploration", "science", "observation", "research", "vision", "circular", "filled"],
+    category: "other"
   },
   {
     id: "hugeicon-television-table",
@@ -44747,7 +45549,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 14V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["television", "table"]
+    tags: ["television", "table", "tv", "entertainment", "media", "screen", "display", "living room", "home", "retro", "device", "visual"],
+    category: "device"
   },
   {
     id: "hugeicon-temperature",
@@ -44757,7 +45560,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 15C10.8954 15 10 15.8954 10 17C10 18.1046 10.8954 19 12 19C13.1046 19 14 18.1046 14 17C14 15.8954 13.1046 15 12 15ZM12 15V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["temperature"]
+    tags: ["temperature", "weather", "thermometer", "celsius", "fahrenheit", "heat", "cold", "climate", "forecast", "gauge", "measurement"],
+    category: "weather"
   },
   {
     id: "hugeicon-tennis-ball",
@@ -44768,7 +45572,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 19C14.9901 15.4618 15.0099 8.52068 19 5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tennis", "ball"]
+    tags: ["tennis", "ball", "sport", "game", "play", "activity", "recreation", "yellow", "fuzzy", "round", "equipment", "athletic"],
+    category: "sport"
   },
   {
     id: "hugeicon-tennis-racket",
@@ -44778,7 +45583,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5071 7.48413L16.5 7.4912M13.5 10.5003L13.4929 10.5074M16.5 10.5003L16.4929 10.5074M13.5071 7.4924L13.5 7.49947" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tennis", "racket"]
+    tags: ["tennis", "racket", "sport", "game", "play", "activity", "recreation", "equipment", "athletic", "racquet", "swing", "court"],
+    category: "sport"
   },
   {
     id: "hugeicon-terrace",
@@ -44792,7 +45598,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 15H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["terrace"]
+    tags: ["terrace", "balcony", "patio", "outdoor", "architecture", "building", "house", "apartment", "view", "relax", "minimal"],
+    category: "other"
   },
   {
     id: "hugeicon-test-tube-01",
@@ -44805,7 +45612,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 11.5563C8.5 10.4029 10.0994 11.2343 12 12.3182C14.5 13.7439 16 12.65 16.5 11.6152" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["test", "tube", "01"]
+    tags: ["test", "tube", "01", "science", "experiment", "laboratory", "chemistry", "research", "medical", "sample", "liquid", "glassware", "outline"],
+    category: "tool"
   },
   {
     id: "hugeicon-test-tube-02",
@@ -44818,7 +45626,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 14.002L13.0087 13.9996" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["test", "tube", "02"]
+    tags: ["test", "tube", "02", "science", "experiment", "laboratory", "chemistry", "research", "medical", "sample", "liquid", "glassware", "filled"],
+    category: "tool"
   },
   {
     id: "hugeicon-test-tube-03",
@@ -44831,7 +45640,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.52681 2.21466V6.25726C9.52681 6.91922 9.17507 7.49 8.59392 7.80145C5.60873 9.40126 2.80483 13.9338 5.74597 18.5791C6.40428 19.7186 8.57672 21.9977 12 21.9977C15.4232 21.9977 17.5956 19.7186 18.2539 18.5791C21.1951 13.9338 18.3912 9.40126 15.406 7.80145C14.8248 7.49 14.4724 6.91922 14.4724 6.25726V2.26344" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["test", "tube", "03"]
+    tags: ["test", "tube", "03", "science", "experiment", "laboratory", "chemistry", "research", "medical", "sample", "liquid", "glassware", "outline"],
+    category: "tool"
   },
   {
     id: "hugeicon-test-tube",
@@ -44843,7 +45653,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5 7C11.5 9 13.8624 11.2121 15.4728 11C15.4728 12.6569 16.934 14 18.7364 14C20.5388 14 22 12.6569 22 11C22 9.34315 21 8 19 8C19 6 17.5 4 15.3799 4C15.3799 2.45687 14.5 2 13.5 2C12.5 2 12 3 12 3C12 3 9 3 9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["test", "tube"]
+    tags: ["test", "tube", "science", "experiment", "laboratory", "chemistry", "research", "medical", "sample", "liquid", "glassware", "outline"],
+    category: "tool"
   },
   {
     id: "hugeicon-tetris",
@@ -44855,7 +45666,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 9C3 8.05719 3 7.58579 3.29289 7.29289C3.58579 7 4.05719 7 5 7C5.94281 7 6.41421 7 6.70711 7.29289C7 7.58579 7 8.05719 7 9V13C7 13.9428 7 14.4142 6.70711 14.7071C6.41421 15 5.94281 15 5 15C4.05719 15 3.58579 15 3.29289 14.7071C3 14.4142 3 13.9428 3 13V9Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tetris"]
+    tags: ["tetris", "game", "blocks", "puzzle", "play", "retro", "stack", "geometric", "fun", "challenge", "arcade"],
+    category: "other"
   },
   {
     id: "hugeicon-text-align-center",
@@ -44867,7 +45679,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 21H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "center"]
+    tags: ["text", "align", "center", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "centered", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-align-justify-center",
@@ -44879,7 +45692,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 21H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "justify", "center"]
+    tags: ["text", "align", "justify", "center", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "justified", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-align-justify-left",
@@ -44891,7 +45705,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 21H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "justify", "left"]
+    tags: ["text", "align", "justify", "left", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "justified", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-align-justify-right",
@@ -44903,7 +45718,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 21H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "justify", "right"]
+    tags: ["text", "align", "justify", "right", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "justified", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-align-left-01",
@@ -44916,7 +45732,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 3V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "left", "01"]
+    tags: ["text", "align", "left", "01", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "left-aligned", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-align-left",
@@ -44928,7 +45745,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 21H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "left"]
+    tags: ["text", "align", "left", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "left-aligned", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-align-right-01",
@@ -44941,7 +45759,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 3V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "right", "01"]
+    tags: ["text", "align", "right", "01", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "right-aligned", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-align-right",
@@ -44953,7 +45772,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 21H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "align", "right"]
+    tags: ["text", "align", "right", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "right-aligned", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-all-caps",
@@ -44963,7 +45783,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5706 21H13.4277M15.9992 3V21M15.9992 3C17.1883 3 18.7159 3.12265 19.9321 3.24346C20.4465 3.29456 20.7036 3.32011 20.9313 3.41021C21.4048 3.59763 21.7865 4.00855 21.9301 4.48556C21.9992 4.71489 21.9992 4.97659 21.9992 5.5M15.9992 3C15.3921 3 14.6968 3.03196 13.9999 3.07933" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "all", "caps"]
+    tags: ["text", "all", "caps", "typography", "editor", "formatting", "document", "uppercase", "ui", "writing", "capitalization", "letters", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-bold",
@@ -44973,7 +45794,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.4286 12H13.6667C16.0599 12 18 14.0147 18 16.5C18 18.9853 16.0599 21 13.6667 21H8C6.58579 21 5.87868 21 5.43934 20.5607C5 20.1213 5 19.4142 5 18V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "bold"]
+    tags: ["text", "bold", "typography", "editor", "formatting", "document", "strong", "ui", "writing", "emphasis", "weight", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-centerline-center-top",
@@ -44988,7 +45810,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.58579 10.4142C9.17157 10.9999 10.1144 10.9999 12 10.9999C13.8856 10.9999 14.8284 10.9999 15.4142 10.4142C16 9.82837 16 8.88556 16 6.99994C16 5.11432 16 4.17151 15.4142 3.58573C14.8284 2.99994 13.8856 2.99994 12 2.99994C10.1144 2.99994 9.17157 2.99994 8.58579 3.58573C8 4.17151 8 5.11432 8 6.99994C8 8.88556 8 9.82837 8.58579 10.4142Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "centerline", "center", "top"]
+    tags: ["text", "centerline", "center", "top", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "centered", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-centerline-left",
@@ -45001,7 +45824,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5858 15.4142C14.1716 16 15.1144 16 17 16C18.8856 16 19.8284 16 20.4142 15.4142C21 14.8284 21 13.8856 21 12C21 10.1144 21 9.17157 20.4142 8.58579C19.8284 8 18.8856 8 17 8C15.1144 8 14.1716 8 13.5858 8.58579C13 9.17157 13 10.1144 13 12C13 13.8856 13 14.8284 13.5858 15.4142Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "centerline", "left"]
+    tags: ["text", "centerline", "left", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "left-aligned", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-centerline-middle",
@@ -45016,7 +45840,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.58579 15.4142C9.17157 16 10.1144 16 12 16C13.8856 16 14.8284 16 15.4142 15.4142C16 14.8284 16 13.8856 16 12C16 10.1144 16 9.17157 15.4142 8.58579C14.8284 8 13.8856 8 12 8C10.1144 8 9.17157 8 8.58579 8.58579C8 9.17157 8 10.1144 8 12C8 13.8856 8 14.8284 8.58579 15.4142Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "centerline", "middle"]
+    tags: ["text", "centerline", "middle", "typography", "editor", "formatting", "document", "paragraph", "ui", "layout", "centered", "writing", "lines"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-centerline-right",
@@ -45029,7 +45854,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.58579 15.4142C4.17157 16 5.11438 16 7 16C8.88562 16 9.82843 16 10.4142 15.4142C11 14.8284 11 13.8856 11 12C11 10.1144 11 9.17157 10.4142 8.58579C9.82843 8 8.88562 8 7 8C5.11438 8 4.17157 8 3.58579 8.58579C3 9.17157 3 10.1144 3 12C3 13.8856 3 14.8284 3.58579 15.4142Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "centerline", "right"]
+    tags: ["text", "centerline", "right", "alignment", "paragraph", "editor", "justify", "document", "formatting", "ui", "layout"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-check",
@@ -45041,7 +45867,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 15H8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "check"]
+    tags: ["text", "check", "proofread", "verify", "done", "complete", "editor", "document", "validation", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-circle",
@@ -45051,7 +45878,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "circle"]
+    tags: ["text", "circle", "highlight", "emphasis", "selection", "focus", "editor", "annotation", "ui", "rounded"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-clear",
@@ -45062,7 +45890,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 15L19 20M14 20L19 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "clear"]
+    tags: ["text", "clear", "erase", "remove", "reset", "delete", "editor", "document", "formatting", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-color",
@@ -45073,7 +45902,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 11H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "color"]
+    tags: ["text", "color", "palette", "hue", "design", "style", "editor", "appearance", "customization", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-creation",
@@ -45087,7 +45917,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 18H3C2.44772 18 2 18.4477 2 19V21C2 21.5523 2.44772 22 3 22H5C5.55228 22 6 21.5523 6 21V19C6 18.4477 5.55228 18 5 18Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "creation"]
+    tags: ["text", "creation", "new", "add", "generate", "compose", "editor", "document", "write", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-firstline-left",
@@ -45100,7 +45931,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5858 9.91421C14.1716 10.5 15.1144 10.5 17 10.5C18.8856 10.5 19.8284 10.5 20.4142 9.91421C21 9.32843 21 8.38562 21 6.5C21 4.61438 21 3.67157 20.4142 3.08579C19.8284 2.5 18.8856 2.5 17 2.5C15.1144 2.5 14.1716 2.5 13.5858 3.08579C13 3.67157 13 4.61438 13 6.5C13 8.38562 13 9.32843 13.5858 9.91421Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "firstline", "left"]
+    tags: ["text", "firstline", "left", "paragraph", "indentation", "editor", "document", "formatting", "layout", "ui", "align"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-firstline-right",
@@ -45113,7 +45945,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.58579 9.91421C4.17157 10.5 5.11438 10.5 7 10.5C8.88562 10.5 9.82843 10.5 10.4142 9.91421C11 9.32843 11 8.38562 11 6.5C11 4.61438 11 3.67157 10.4142 3.08579C9.82843 2.5 8.88562 2.5 7 2.5C5.11438 2.5 4.17157 2.5 3.58579 3.08579C3 3.67157 3 4.61438 3 6.5C3 8.38562 3 9.32843 3.58579 9.91421Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "firstline", "right"]
+    tags: ["text", "firstline", "right", "paragraph", "indentation", "editor", "document", "formatting", "layout", "ui", "align"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-font",
@@ -45123,7 +45956,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.9692 13.9392V18.4392M21.9692 13.9392C22.0164 13.1161 22.0182 12.4891 21.9194 11.9773C21.6864 10.7709 20.4258 10.0439 19.206 9.89599C18.0385 9.75447 17.1015 10.055 16.1535 11.4363M21.9692 13.9392L19.1256 13.9392C18.6887 13.9392 18.2481 13.9603 17.8272 14.0773C15.2545 14.7925 15.4431 18.4003 18.0233 18.845C18.3099 18.8944 18.6025 18.9156 18.8927 18.9026C19.5703 18.8724 20.1955 18.545 20.7321 18.1301C21.3605 17.644 21.9692 16.9655 21.9692 15.9392V13.9392Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "font"]
+    tags: ["text", "font", "typeface", "style", "typography", "editor", "design", "appearance", "customization", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-footnote",
@@ -45135,7 +45969,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 3.34984L9 21.0015" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "footnote"]
+    tags: ["text", "footnote", "reference", "note", "citation", "appendix", "editor", "document", "academic", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-indent-01",
@@ -45149,7 +45984,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 14L6.9352 15.1016C6.03401 16.0339 5.58342 16.5 5 16.5C4.41658 16.5 3.96599 16.0339 3.0648 15.1016L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "indent", "01"]
+    tags: ["text", "indent", "01", "paragraph", "spacing", "editor", "document", "formatting", "layout", "ui", "margin"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-indent-less",
@@ -45163,7 +45999,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 8.5L18.4578 9.74227C17.1526 10.7937 16.5 11.3193 16.5 12C16.5 12.6807 17.1526 13.2063 18.4578 14.2577L20 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "indent", "less"]
+    tags: ["text", "indent", "less", "outdent", "decrease", "paragraph", "editor", "document", "formatting", "layout", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-indent-more",
@@ -45177,7 +46014,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 8.5L5.54218 9.74227C6.84739 10.7937 7.5 11.3193 7.5 12C7.5 12.6807 6.84739 13.2063 5.54218 14.2577L4 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "indent", "more"]
+    tags: ["text", "indent", "more", "increase", "paragraph", "editor", "document", "formatting", "layout", "ui", "spacing"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-indent",
@@ -45189,7 +46027,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 3L4.54218 4.24227C5.84739 5.29366 6.5 5.81935 6.5 6.5C6.5 7.18065 5.84739 7.70635 4.54218 8.75773L3 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "indent"]
+    tags: ["text", "indent", "paragraph", "spacing", "editor", "document", "formatting", "layout", "ui", "margin"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-italic-slash",
@@ -45201,7 +46040,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 4L11.2 7.20003M8 20.0008L10.4001 10.4001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "italic", "slash"]
+    tags: ["text", "italic", "slash", "slant", "emphasis", "style", "editor", "document", "formatting", "typography", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-italic",
@@ -45212,7 +46052,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 20H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "italic"]
+    tags: ["text", "italic", "slant", "emphasis", "style", "editor", "document", "formatting", "typography", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-kerning",
@@ -45224,7 +46065,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 2.5L9.5 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "kerning"]
+    tags: ["text", "kerning", "spacing", "typography", "letter", "editor", "design", "layout", "adjustment", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-number-sign",
@@ -45235,7 +46077,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5806 4.58081C17.3546 3.80672 20.6454 3.80672 21.4194 4.58081C22.1935 5.35489 22.1935 8.6456 21.4194 9.41968C20.6454 10.1938 17.3546 10.1938 16.5806 9.41968C15.8065 8.6456 15.8065 5.35489 16.5806 4.58081Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "number", "sign"]
+    tags: ["text", "number", "sign", "hashtag", "pound", "symbol", "editor", "document", "metadata", "ui", "tag"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-selection",
@@ -45245,7 +46088,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.9698 15.9631V20.4428M20.9698 15.9631C21.017 15.1437 21.0187 14.5196 20.92 14.0101C20.6874 12.8091 19.4287 12.0854 18.2108 11.9382C17.0451 11.7973 16.1094 12.0965 15.1629 13.4715M20.9698 15.9631L18.1305 15.9631C17.6943 15.9631 17.2543 15.9841 16.834 16.1006C14.2653 16.8125 14.4536 20.404 17.0299 20.8467C17.316 20.8959 17.6082 20.9169 17.8979 20.904C18.5745 20.8739 19.1988 20.5481 19.7345 20.135C20.3621 19.6511 20.9698 18.9757 20.9698 17.9541V15.9631Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "selection"]
+    tags: ["text", "selection", "highlight", "choose", "pick", "editor", "document", "edit", "ui", "cursor"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-smallcaps",
@@ -45255,7 +46099,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.7143 21H16.2857M18 12V21M18 12C17.2072 12 16.1888 12.0818 15.3781 12.1623C15.0351 12.1964 14.8637 12.2134 14.7119 12.2735C14.3963 12.3984 14.1418 12.6724 14.046 12.9904C14 13.1433 14 13.3177 14 13.6667M18 12C18.7928 12 19.8112 12.0818 20.6219 12.1623C20.9649 12.1964 21.1363 12.2134 21.2881 12.2735C21.6037 12.3984 21.8582 12.6724 21.954 12.9904C22 13.1433 22 13.3177 22 13.6667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "smallcaps"]
+    tags: ["text", "smallcaps", "uppercase", "typography", "style", "editor", "document", "formatting", "design", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-square",
@@ -45265,7 +46110,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.89124 3.89124C2.5 5.28249 2.5 7.52166 2.5 12C2.5 16.4783 2.5 18.7175 3.89124 20.1088C5.28249 21.5 7.52166 21.5 12 21.5C16.4783 21.5 18.7175 21.5 20.1088 20.1088C21.5 18.7175 21.5 16.4783 21.5 12C21.5 7.52166 21.5 5.28249 20.1088 3.89124C18.7175 2.5 16.4783 2.5 12 2.5C7.52166 2.5 5.28249 2.5 3.89124 3.89124Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "square"]
+    tags: ["text", "square", "highlight", "emphasis", "selection", "focus", "editor", "annotation", "ui", "geometric"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-strikethrough",
@@ -45275,7 +46121,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 7.66667C17.5 5.08934 15.0376 3 12 3C8.96243 3 6.5 5.08934 6.5 7.66667C6.5 8.15279 6.55336 8.59783 6.6668 9M6 16.3333C6 18.9107 8.68629 21 12 21C15.3137 21 18 19.6667 18 16.3333C18 13.9404 16.9693 12.5782 14.9079 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "strikethrough"]
+    tags: ["text", "strikethrough", "delete", "cancel", "remove", "editor", "document", "formatting", "revision", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-subscript",
@@ -45287,7 +46134,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.5 21H19.5C19.0286 21 18.7929 21 18.6464 20.8566C18.5 20.7133 18.5 20.4825 18.5 20.021V19.0766C18.5 18.2812 18.676 18.1253 19.5004 18.1094C20.2769 18.0944 20.7401 18.0388 21.0607 17.8333C21.5 17.5516 21.5 17.0983 21.5 16.1916C21.5 14.4594 18.5 15.1262 18.5 15.1262" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "subscript"]
+    tags: ["text", "subscript", "baseline", "typography", "formula", "editor", "document", "formatting", "scientific", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-superscript",
@@ -45299,7 +46147,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12H20C19.5286 12 19.2929 12 19.1464 11.8566C19 11.7133 19 11.4825 19 11.021V10.0766C19 9.28117 19.176 9.12533 20.0004 9.10939C20.7769 9.09438 21.2401 9.03883 21.5607 8.83328C22 8.55161 22 8.09827 22 7.19159C22 5.45943 19 6.12617 19 6.12617" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "superscript"]
+    tags: ["text", "superscript", "exponent", "baseline", "typography", "editor", "document", "formatting", "mathematical", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-tracking",
@@ -45310,7 +46159,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 3L5.62066 13.3256C5.66763 13.4595 5.69112 13.5265 5.72083 13.5834C5.83469 13.8014 6.02907 13.9505 6.25065 13.9898C6.30847 14 6.37231 14 6.5 14C6.62768 14 6.69153 14 6.74934 13.9898C6.97093 13.9505 7.16531 13.8014 7.27917 13.5834C7.30888 13.5265 7.33237 13.4595 7.37934 13.3256L11 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "tracking"]
+    tags: ["text", "tracking", "letter-spacing", "typography", "adjustment", "editor", "design", "layout", "spacing", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-underline",
@@ -45320,7 +46170,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 21H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "underline"]
+    tags: ["text", "underline", "format", "editor", "typography", "document", "word", "style", "markup", "line", "highlight"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-variable-front",
@@ -45333,7 +46184,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="19" r="2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "variable", "front"]
+    tags: ["text", "variable", "front", "code", "programming", "developer", "dynamic", "placeholder", "input", "script", "data", "curly braces"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-vertical-alignment",
@@ -45348,7 +46200,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 21.5L6.71429 18.5M6.71429 18.5L5.58623 15.8679C5.55491 15.7948 5.53926 15.7583 5.51945 15.7272C5.44354 15.6083 5.31395 15.527 5.16623 15.5056C5.12769 15.5 5.08512 15.5 5 15.5C4.91488 15.5 4.87231 15.5 4.83377 15.5056C4.68605 15.527 4.55646 15.6083 4.48055 15.7272C4.46074 15.7583 4.44509 15.7948 4.41377 15.8679L3.28571 18.5M6.71429 18.5L3.28571 18.5M3.28571 18.5L2 21.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "vertical", "alignment"]
+    tags: ["text", "vertical", "alignment", "layout", "editor", "format", "position", "justify", "typography", "document", "style", "grid"],
+    category: "ui"
   },
   {
     id: "hugeicon-text-wrap",
@@ -45360,7 +46213,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 9H16.5C18.9853 9 21 11.0147 21 13.5C21 15.9853 18.9853 18 16.5 18H12M12 18C12 17.1597 14.3932 15.5898 15 15M12 18C12 18.8403 14.3932 20.4102 15 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text", "wrap"]
+    tags: ["text", "wrap", "layout", "editor", "format", "flow", "paragraph", "document", "typography", "content", "responsive"],
+    category: "ui"
   },
   {
     id: "hugeicon-text",
@@ -45370,7 +46224,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 3.00001V21.0008M12 3.00001C13.3874 3.00001 15.1695 3.03055 16.5884 3.17649C17.1885 3.2382 17.4886 3.26906 17.7541 3.37791C18.3066 3.60429 18.7518 4.10063 18.9194 4.67681C19 4.95382 19 5.26992 19 5.90215M12 3.00001C10.6126 3.00001 8.83047 3.03055 7.41161 3.17649C6.8115 3.2382 6.51144 3.26906 6.24586 3.37791C5.69344 3.60429 5.24816 4.10063 5.08057 4.67681C5 4.95382 5 5.26992 5 5.90215" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["text"]
+    tags: ["text", "document", "editor", "typography", "content", "paragraph", "article", "writing", "font", "word"],
+    category: "ui"
   },
   {
     id: "hugeicon-the-prophets-mosque",
@@ -45383,7 +46238,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.0006 8C12.984 10.25 16.9992 11 16.9992 17H5C5 11 9.01516 10.25 10.9986 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["the", "prophets", "mosque"]
+    tags: ["the", "prophets", "mosque", "islam", "muslim", "religion", "masjid", "madinah", "minaret", "dome", "holy", "arabic"],
+    category: "other"
   },
   {
     id: "hugeicon-thermometer-cold",
@@ -45393,7 +46249,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.04545 5V8.65625M9.04545 8.65625V14.3438M9.04545 8.65625L11.0909 6.625M9.04545 8.65625L7 6.625M9.04545 14.3438L9.04546 18M9.04545 14.3438L7 16.375M9.04545 14.3438L11.0909 16.375M4.13636 9.46875L6.18182 11.5M6.18182 11.5L4.13636 13.5312M6.18182 11.5H11.5M6.18182 11.5H2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thermometer", "cold"]
+    tags: ["thermometer", "cold", "temperature", "weather", "freeze", "low", "climate", "indicator", "gauge", "winter", "chilly"],
+    category: "weather"
   },
   {
     id: "hugeicon-thermometer-warm",
@@ -45403,7 +46260,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.3133 15.8303C8.67792 15.5416 7.36329 14.104 7.20333 12.2607C7.01373 10.076 8.51806 8.14861 10.5634 7.95588C10.883 7.92576 11.197 7.9398 11.5 7.99327M10.2201 4L10.323 5.18677M6.04201 7.57572L5.18359 6.81058M4.611 12.505L3.5 12.6097M6.86776 17.0868L6.15499 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thermometer", "warm"]
+    tags: ["thermometer", "warm", "temperature", "weather", "hot", "high", "climate", "indicator", "gauge", "summer", "fever"],
+    category: "weather"
   },
   {
     id: "hugeicon-thermometer",
@@ -45414,7 +46272,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.2634 6.7373L14.1055 9.8952" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thermometer"]
+    tags: ["thermometer", "temperature", "weather", "climate", "indicator", "gauge", "health", "fever", "measurement", "celsius", "fahrenheit"],
+    category: "weather"
   },
   {
     id: "hugeicon-thread",
@@ -45425,7 +46284,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.49988 4.49969L15.4999 4.49969C16.6044 4.49969 17.4999 3.60426 17.4999 2.49969L3.49988 2.49969C3.49988 3.60426 4.39531 4.49969 5.49988 4.49969Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thread"]
+    tags: ["thread", "sewing", "needle", "craft", "yarn", "textile", "fabric", "stitch", "fiber", "spool"],
+    category: "tool"
   },
   {
     id: "hugeicon-threads-ellipse",
@@ -45435,7 +46295,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 9.58944C15.9124 5.54334 12.1724 5.79609 12.1724 5.79609C12.1724 5.79609 7 5.45167 7 11.9999C7 18.5481 12.1724 18.2036 12.1724 18.2036C12.1724 18.2036 15.2467 18.4084 16.6552 15.5021C17.1149 14.2208 17 11.6584 12.5172 11.6584C12.5172 11.6584 10.4483 11.6584 10.4483 13.3825C10.4483 14.0559 11.1379 14.7619 12.1724 14.7619C13.2069 14.7619 14.3594 14.0534 14.5862 12.6929C15.2759 8.55496 11.4828 8.21013 10.4483 9.93427" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["threads", "ellipse"]
+    tags: ["threads", "ellipse", "social media", "platform", "meta", "app", "chat", "conversation", "network", "speech bubble", "circular"],
+    category: "social"
   },
   {
     id: "hugeicon-threads-rectangle",
@@ -45445,7 +46306,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 9.58944C15.9124 5.54334 12.1724 5.79609 12.1724 5.79609C12.1724 5.79609 7 5.45167 7 11.9999C7 18.5481 12.1724 18.2036 12.1724 18.2036C12.1724 18.2036 15.2467 18.4084 16.6552 15.5021C17.1149 14.2208 17 11.6584 12.5172 11.6584C12.5172 11.6584 10.4483 11.6584 10.4483 13.3825C10.4483 14.0559 11.1379 14.7619 12.1724 14.7619C13.2069 14.7619 14.3594 14.0534 14.5862 12.6929C15.2759 8.55496 11.4828 8.21013 10.4483 9.93427" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["threads", "rectangle"]
+    tags: ["threads", "rectangle", "social media", "platform", "meta", "app", "chat", "conversation", "network", "speech bubble", "square"],
+    category: "social"
   },
   {
     id: "hugeicon-threads",
@@ -45454,7 +46316,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.25 8.50488C17.6729 2.63804 12.25 3.00452 12.25 3.00452C12.25 3.00452 4.75 2.50512 4.75 12C4.75 21.4949 12.25 20.9955 12.25 20.9955C12.25 20.9955 16.7077 21.2924 18.75 17.0782C19.4167 15.2204 19.25 11.5049 12.75 11.5049C12.75 11.5049 9.75 11.5049 9.75 14.0049C9.75 14.9812 10.75 16.0049 12.25 16.0049C13.75 16.0049 15.4212 14.9777 15.75 13.0049C16.75 7.00488 11.25 6.50488 9.75 9.00488" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["threads"]
+    tags: ["threads", "social media", "platform", "meta", "app", "chat", "conversation", "network", "speech bubble", "logo"],
+    category: "social"
   },
   {
     id: "hugeicon-three-circle",
@@ -45464,7 +46327,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "circle"]
+    tags: ["three", "circle", "number", "digit", "count", "ordinal", "circular", "numeric", "geometric", "minimal", "badge"],
+    category: "ui"
   },
   {
     id: "hugeicon-three-finger-01",
@@ -45473,7 +46337,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.1816 5.49997C14.1816 4.67155 14.8328 3.99998 15.6361 3.99998C16.4394 3.99998 17.0906 4.67155 17.0906 5.49997L17.091 10.9999M14.1816 10.9999V3.49999C14.1816 2.67157 13.5304 2 12.7271 2C11.9237 2 11.2725 2.67157 11.2725 3.49999L11.2727 4.99998M17.0906 11.9999L17.091 10.9999M17.091 10.9999C17.091 10.4765 17.5468 10.0783 18.0475 10.1643L18.3795 10.2214C19.3146 10.3821 20 11.2165 20 12.1942L19.9996 13.6667C19.9996 15.84 19.9996 16.9267 19.6786 17.7919C19.4924 18.2937 19.0011 18.9337 18.6083 19.3962C18.2685 19.7963 18.0603 20.3037 18.0603 20.8354V22M11.2727 4.99998C11.2724 4.17185 10.6213 3.50063 9.81824 3.50063C9.01493 3.50063 8.36373 4.1722 8.36373 5.00062L8.36353 13.4623L6.79236 11.837C6.103 11.1238 4.96746 11.1889 4.35844 11.9764C3.89244 12.579 3.87957 13.4314 4.32715 14.0488L7.81767 18.647C8.4855 19.5267 8.84836 20.8827 8.84836 22M11.2727 4.99998V9.99993" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "finger", "01"]
+    tags: ["three", "finger", "01", "gesture", "hand", "touch", "swipe", "multitouch", "interface", "pointer", "screen", "interaction"],
+    category: "ui"
   },
   {
     id: "hugeicon-three-finger-02",
@@ -45482,7 +46347,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.75971 13.4795L7.74145 5.02886C7.73965 4.1996 8.41205 3.52639 9.2421 3.52639C10.0709 3.52639 10.7428 4.19762 10.7428 5.02563M10.7428 5.02563V10.0056M10.7428 5.02563L10.7428 3.49728C10.7428 2.66928 11.4146 1.99805 12.2434 1.99805C13.0735 1.99805 13.7459 2.67125 13.7441 3.50051L13.7441 11.0103M16.7454 11.9977V10.1448M16.7454 10.1448V5.48285C16.7472 4.65359 16.0748 3.98039 15.2448 3.98039C14.416 3.98039 13.7441 4.65162 13.7441 5.47962M16.7454 10.1448C17.552 10.024 19.5243 10.1448 19.7475 12.0023V15.684C19.7475 17.0435 19.5178 18.1434 18.1285 19.7409C17.6131 20.4161 17.6846 21.0947 17.6846 22.002M7.75002 8.9992C7.11294 9.55515 5.50173 11.0778 4.59852 12.4555C3.34405 14.369 5.82174 16.8627 6.84695 18.2521C8.36321 20.0648 8.26197 20.0142 8.26197 21.9951" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "finger", "02"]
+    tags: ["three", "finger", "02", "gesture", "hand", "touch", "swipe", "multitouch", "interface", "pointer", "screen", "interaction"],
+    category: "ui"
   },
   {
     id: "hugeicon-three-finger-03",
@@ -45491,7 +46357,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5004 6C11.5004 5.17157 10.8289 4.5 10.0004 4.5C9.172 4.5 8.50042 5.17157 8.50042 6V13.9627L6.8797 12.3369C6.16877 11.6237 4.99772 11.6888 4.36965 12.4763C3.88907 13.0789 3.8758 13.9314 4.33738 14.5487L7.34137 18.5667C8.02311 19.4785 8.36398 19.9344 8.77419 20.2888C9.40001 20.8294 10.1499 21.2056 10.9566 21.3834C11.4853 21.5 12.0534 21.5 13.1896 21.5C15.3562 21.5 16.4395 21.5 17.3019 21.1679C18.6207 20.6601 19.6627 19.6148 20.1689 18.2918C20.5 17.4267 20.5 16.34 20.5 14.1667V11.5C20.5 10.3954 19.605 9.5 18.5004 9.5H17.5004M11.5004 6V4C11.5004 3.17157 12.172 2.5 13.0004 2.5C13.8289 2.5 14.5004 3.17157 14.5004 4V6M11.5004 6V10.5M14.5004 6V10.5M14.5004 6C14.5004 5.17157 15.172 4.5 16.0004 4.5C16.8289 4.5 17.5004 5.17157 17.5004 6V9.5M17.5004 9.5V11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "finger", "03"]
+    tags: ["three", "finger", "03", "gesture", "hand", "touch", "swipe", "multitouch", "interface", "pointer", "screen", "interaction"],
+    category: "ui"
   },
   {
     id: "hugeicon-three-finger-04",
@@ -45500,7 +46367,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.76591 13.9903V5.98282C7.76412 5.15277 8.39407 4.48216 9.22412 4.48216C10.0529 4.48216 10.749 5.15727 10.749 5.98606M10.749 5.98606V10.4816M10.749 5.98606V3.99859C10.749 3.16979 11.4208 2.49792 12.2496 2.49792C13.0797 2.49792 13.7521 3.17177 13.7503 4.00183V10.475M16.7516 11.478V5.98606C16.7534 5.156 16.081 4.48216 15.251 4.48216C14.4222 4.48216 13.7503 5.15403 13.7503 5.98282M16.7516 9.62564C17.5582 9.50466 19.5438 9.62564 19.7467 11.4827V15.1446C19.7467 16.5054 19.8503 18.1424 18.6843 19.5346C17.9847 20.5756 16.4906 21.1453 16.4906 21.1453C14.9507 21.6538 13.5566 21.4484 12.6442 21.4816C11.6085 21.5194 10.9 21.5229 10.032 21.3303C10.032 21.3303 8.05237 20.9925 6.79365 18.8653C5.82699 17.2316 3.31365 14.9309 4.61865 12.8526C5.46058 11.5118 7.1236 10.0449 7.76591 9.48386" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "finger", "04"]
+    tags: ["three", "finger", "04", "gesture", "hand", "touch", "swipe", "multitouch", "interface", "pointer", "screen", "interaction"],
+    category: "ui"
   },
   {
     id: "hugeicon-three-finger-05",
@@ -45509,7 +46377,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.8101 5.70939C12.9539 4.89355 12.4092 4.11556 11.5933 3.97171C10.7775 3.82786 9.99949 4.37261 9.85564 5.18845L9.07422 9.62008L8.14704 14.6982L5.88875 12.3369C5.17559 11.6238 4.00086 11.6888 3.37081 12.4764C2.88873 13.079 2.87541 13.9314 3.33844 14.5488L6.35188 18.5667C7.03576 19.4786 7.3777 19.9345 7.7892 20.2889C8.41699 20.8295 9.16928 21.2056 9.97845 21.3835C10.5088 21.5001 11.0787 21.5001 12.2185 21.5001H14.7006C17.043 21.5001 19.0715 19.8739 19.5809 17.5875L20.8919 11.7039L20.9787 11.2115C21.1226 10.3956 20.5778 9.61763 19.762 9.47377C18.9462 9.32992 18.1682 9.87467 18.0243 10.6905M12.8101 5.70939L13.1574 3.73978C13.3012 2.92394 14.0792 2.37918 14.895 2.52304C15.7109 2.66689 16.2556 3.44488 16.1118 4.26072L15.7645 6.23034M12.8101 5.70939L12.0286 10.141M15.7645 6.23034L14.9831 10.662M15.7645 6.23034C15.9083 5.4145 16.6863 4.86974 17.5022 5.0136C18.318 5.15745 18.8628 5.93544 18.7189 6.75128L18.0243 10.6905M18.0243 10.6905L17.9375 11.1829" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "finger", "05"]
+    tags: ["three", "finger", "05", "gesture", "hand", "touch", "swipe", "multitouch", "interface", "pointer", "screen", "interaction"],
+    category: "ui"
   },
   {
     id: "hugeicon-three-square",
@@ -45519,7 +46388,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.5 12H11.5M12.5 12C13.8807 12 15 10.8807 15 9.5C15 8.11929 13.8807 7 12.5 7H11.5C10.1193 7 9 8.11929 9 9.5M12.5 12C13.8807 12 15 13.1193 15 14.5C15 15.8807 13.8807 17 12.5 17H11.5C10.1193 17 9 15.8807 9 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["three", "square"]
+    tags: ["three", "square", "number", "digit", "count", "ordinal", "numeric", "geometric", "minimal", "badge"],
+    category: "ui"
   },
   {
     id: "hugeicon-thumbs-down-ellipse",
@@ -45529,7 +46399,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.1525 15.2136L12.975 14.6571C12.8295 14.201 12.7567 13.973 12.8127 13.793C12.8579 13.6473 12.9573 13.5217 13.0927 13.4391C13.26 13.3369 13.5131 13.3369 14.0194 13.3369H14.2887C16.0021 13.3369 16.8588 13.3369 17.2634 12.8447C17.3097 12.7884 17.3508 12.7286 17.3864 12.6659C17.6977 12.1168 17.3438 11.3773 16.636 9.89811C15.9865 8.54072 15.6617 7.86203 15.0587 7.46255C15.0003 7.42387 14.9403 7.3874 14.8789 7.3532C14.244 7 13.4574 7 11.8843 7H11.5431C9.63715 7 8.68419 7 8.09209 7.55681C7.5 8.11363 7.5 9.00981 7.5 10.8022V11.4321C7.5 12.3741 7.5 12.845 7.67223 13.2761C7.84445 13.7071 8.17424 14.0616 8.8338 14.7705L11.5614 17.702C11.6298 17.7755 11.664 17.8123 11.6942 17.8378C11.9757 18.0755 12.4102 18.0488 12.6563 17.7785C12.6826 17.7495 12.7115 17.7089 12.7691 17.6276C12.8592 17.5004 12.9043 17.4369 12.9436 17.3739C13.2952 16.81 13.4016 16.1401 13.2405 15.5042C13.2225 15.4332 13.1992 15.3599 13.1525 15.2136Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "down", "ellipse"]
+    tags: ["thumbs", "down", "ellipse", "dislike", "negative", "disapprove", "feedback", "vote", "rating", "bad", "social media", "circular"],
+    category: "social"
   },
   {
     id: "hugeicon-thumbs-down-rectangle",
@@ -45539,7 +46410,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.6525 14.7136L12.475 14.1571C12.3295 13.701 12.2567 13.473 12.3127 13.293C12.3579 13.1473 12.4573 13.0217 12.5927 12.9391C12.76 12.8369 13.0131 12.8369 13.5194 12.8369H13.7887C15.5021 12.8369 16.3588 12.8369 16.7634 12.3447C16.8097 12.2884 16.8508 12.2286 16.8864 12.1659C17.1977 11.6168 16.8438 10.8773 16.136 9.39811C15.4865 8.04072 15.1617 7.36203 14.5587 6.96255C14.5003 6.92387 14.4403 6.8874 14.3789 6.8532C13.744 6.5 12.9574 6.5 11.3843 6.5H11.0431C9.13715 6.5 8.18419 6.5 7.59209 7.05681C7 7.61363 7 8.50981 7 10.3022V10.9321C7 11.8741 7 12.345 7.17223 12.7761C7.34445 13.2071 7.67424 13.5616 8.3338 14.2705L11.0614 17.202C11.1298 17.2755 11.164 17.3123 11.1942 17.3377C11.4757 17.5755 11.9102 17.5488 12.1563 17.2785C12.1826 17.2495 12.2115 17.2089 12.2691 17.1276C12.3592 17.0004 12.4043 16.9369 12.4436 16.8739C12.7952 16.31 12.9016 15.6401 12.7405 15.0042C12.7225 14.9332 12.6992 14.8599 12.6525 14.7136Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "down", "rectangle"]
+    tags: ["thumbs", "down", "rectangle", "dislike", "negative", "disapprove", "feedback", "vote", "rating", "bad", "social media", "square"],
+    category: "social"
   },
   {
     id: "hugeicon-thumbs-down",
@@ -45549,7 +46421,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.4787 16.1937L15.2124 15.3337C14.9942 14.6289 14.8851 14.2765 14.969 13.9982C15.0369 13.7731 15.1859 13.579 15.389 13.4513C15.64 13.2935 16.0197 13.2935 16.7791 13.2935H17.1831C19.7532 13.2935 21.0382 13.2935 21.6452 12.5327C21.7145 12.4458 21.7762 12.3533 21.8296 12.2563C22.2965 11.4079 21.7657 10.2649 20.704 7.9789C19.7297 5.88111 19.2425 4.83222 18.338 4.21485C18.2505 4.15508 18.1605 4.0987 18.0683 4.04586C17.116 3.5 15.9362 3.5 13.5764 3.5H13.0646C10.2057 3.5 8.77628 3.5 7.88814 4.36053C7 5.22106 7 6.60607 7 9.37607V10.3497C7 11.8054 7 12.5332 7.25834 13.1994C7.51668 13.8656 8.01135 14.4134 9.00069 15.5089L13.0921 20.0394C13.1947 20.1531 13.246 20.2099 13.2913 20.2493C13.7135 20.6167 14.3652 20.5754 14.7344 20.1577C14.774 20.1129 14.8172 20.0501 14.9036 19.9245C15.0388 19.728 15.1064 19.6297 15.1654 19.5323C15.6928 18.6609 15.8524 17.6256 15.6108 16.6429C15.5838 16.5331 15.5488 16.4199 15.4787 16.1937Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "down"]
+    tags: ["thumbs", "down", "dislike", "negative", "disapprove", "feedback", "vote", "rating", "bad", "social media", "hand gesture"],
+    category: "social"
   },
   {
     id: "hugeicon-thumbs-up-down",
@@ -45559,7 +46432,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.3475 19.2136L16.525 18.6571C16.6705 18.201 16.7433 17.973 16.6873 17.793C16.6421 17.6473 16.5427 17.5217 16.4073 17.4391C16.24 17.3369 15.9869 17.3369 15.4806 17.3369H15.2113C13.4979 17.3369 12.6412 17.3369 12.2366 16.8447C12.1903 16.7884 12.1492 16.7286 12.1136 16.6659C11.8023 16.1168 12.1562 15.3773 12.864 13.8981C13.5135 12.5407 13.8383 11.862 14.4413 11.4625C14.4997 11.4239 14.5597 11.3874 14.6211 11.3532C15.256 11 16.0426 11 17.6157 11H17.9569C19.8629 11 20.8158 11 21.4079 11.5568C22 12.1136 22 13.0098 22 14.8022V15.4321C22 16.3741 22 16.845 21.8278 17.2761C21.6555 17.7071 21.3258 18.0616 20.6662 18.7705L17.9386 21.702C17.8702 21.7755 17.836 21.8123 17.8058 21.8378C17.5243 22.0755 17.0898 22.0488 16.8437 21.7785C16.8174 21.7495 16.7885 21.7089 16.7309 21.6276C16.6408 21.5004 16.5957 21.4369 16.5564 21.3739C16.2048 20.81 16.0984 20.1401 16.2595 19.5042C16.2775 19.4332 16.3008 19.3599 16.3475 19.2136Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "up", "down"]
+    tags: ["thumbs", "up", "down", "vote", "rating", "feedback", "decision", "agree", "disagree", "like", "dislike", "social media"],
+    category: "social"
   },
   {
     id: "hugeicon-thumbs-up-ellipse",
@@ -45569,7 +46443,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.1525 8.78626L12.975 9.34278C12.8295 9.79881 12.7567 10.0268 12.8127 10.2069C12.8579 10.3526 12.9573 10.4782 13.0927 10.5608C13.26 10.6629 13.5131 10.6629 14.0194 10.6629H14.2887C16.0021 10.6629 16.8588 10.6629 17.2634 11.1552C17.3097 11.2114 17.3508 11.2712 17.3864 11.334C17.6977 11.883 17.3438 12.6226 16.636 14.1017C15.9865 15.4591 15.6617 16.1378 15.0587 16.5373C15.0003 16.576 14.9403 16.6125 14.8789 16.6467C14.244 16.9999 13.4574 16.9999 11.8843 16.9999H11.5431C9.63715 16.9999 8.68419 16.9999 8.09209 16.443C7.5 15.8862 7.5 14.99 7.5 13.1977V12.5677C7.5 11.6258 7.5 11.1548 7.67223 10.7238C7.84445 10.2927 8.17424 9.93827 8.8338 9.2294L11.5614 6.29786C11.6298 6.22434 11.664 6.18758 11.6942 6.1621C11.9757 5.92433 12.4102 5.95109 12.6563 6.22137C12.6826 6.25033 12.7115 6.29097 12.7691 6.37226C12.8592 6.49942 12.9043 6.56299 12.9436 6.62598C13.2952 7.18988 13.4016 7.85974 13.2405 8.49566C13.2225 8.56668 13.1992 8.63992 13.1525 8.78626Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "up", "ellipse"]
+    tags: ["thumbs", "up", "ellipse", "like", "positive", "approve", "feedback", "vote", "rating", "good", "social media", "circular"],
+    category: "social"
   },
   {
     id: "hugeicon-thumbs-up-rectangle",
@@ -45579,7 +46454,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.6525 9.2864L12.475 9.84293C12.3295 10.299 12.2567 10.527 12.3127 10.707C12.3579 10.8527 12.4573 10.9783 12.5927 11.0609C12.76 11.1631 13.0131 11.1631 13.5194 11.1631H13.7887C15.5021 11.1631 16.3588 11.1631 16.7634 11.6553C16.8097 11.7116 16.8508 11.7714 16.8864 11.8341C17.1977 12.3832 16.8438 13.1227 16.136 14.6019C15.4865 15.9593 15.1617 16.638 14.5587 17.0375C14.5003 17.0761 14.4403 17.1126 14.3789 17.1468C13.744 17.5 12.9574 17.5 11.3843 17.5H11.0431C9.13715 17.5 8.18419 17.5 7.59209 16.9432C7 16.3864 7 15.4902 7 13.6978V13.0679C7 12.1259 7 11.655 7.17223 11.2239C7.34445 10.7929 7.67424 10.4384 8.3338 9.72954L11.0614 6.79801C11.1298 6.72449 11.164 6.68772 11.1942 6.66225C11.4757 6.42448 11.9102 6.45124 12.1563 6.72152C12.1826 6.75047 12.2115 6.79112 12.2691 6.87241C12.3592 6.99956 12.4043 7.06314 12.4436 7.12613C12.7952 7.69003 12.9016 8.35988 12.7405 8.9958C12.7225 9.06683 12.6992 9.14006 12.6525 9.2864Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "up", "rectangle"]
+    tags: ["thumbs", "up", "rectangle", "like", "agree", "positive", "feedback", "approval", "social", "square", "outlined"],
+    category: "social"
   },
   {
     id: "hugeicon-thumbs-up",
@@ -45589,7 +46465,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.4787 7.80626L15.2124 8.66634C14.9942 9.37111 14.8851 9.72349 14.969 10.0018C15.0369 10.2269 15.1859 10.421 15.389 10.5487C15.64 10.7065 16.0197 10.7065 16.7791 10.7065H17.1831C19.7532 10.7065 21.0382 10.7065 21.6452 11.4673C21.7145 11.5542 21.7762 11.6467 21.8296 11.7437C22.2965 12.5921 21.7657 13.7351 20.704 16.0211C19.7297 18.1189 19.2425 19.1678 18.338 19.7852C18.2505 19.8449 18.1605 19.9013 18.0683 19.9541C17.116 20.5 15.9362 20.5 13.5764 20.5H13.0646C10.2057 20.5 8.77628 20.5 7.88814 19.6395C7 18.7789 7 17.3939 7 14.6239V13.6503C7 12.1946 7 11.4668 7.25834 10.8006C7.51668 10.1344 8.01135 9.58664 9.00069 8.49112L13.0921 3.96056C13.1947 3.84694 13.246 3.79012 13.2913 3.75075C13.7135 3.38328 14.3652 3.42464 14.7344 3.84235C14.774 3.8871 14.8172 3.94991 14.9036 4.07554C15.0388 4.27205 15.1064 4.37031 15.1654 4.46765C15.6928 5.33913 15.8524 6.37436 15.6108 7.35715C15.5838 7.46692 15.5488 7.5801 15.4787 7.80626Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["thumbs", "up"]
+    tags: ["thumbs", "up", "like", "agree", "positive", "feedback", "approval", "social", "hand", "gesture", "outlined"],
+    category: "social"
   },
   {
     id: "hugeicon-tic-tac-toe",
@@ -45601,7 +46478,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 3L21 8M21 3L16 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tic", "tac", "toe"]
+    tags: ["tic", "tac", "toe", "game", "play", "fun", "strategy", "boardgame", "crosses", "noughts", "entertainment"],
+    category: "other"
   },
   {
     id: "hugeicon-tick-01",
@@ -45610,7 +46488,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 14.5C5 14.5 6.5 14.5 8.5 18C8.5 18 14.0588 8.83333 19 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "01"]
+    tags: ["tick", "01", "check", "done", "complete", "confirm", "approve", "success", "validation", "checkmark", "outlined"],
+    category: "ui"
   },
   {
     id: "hugeicon-tick-02",
@@ -45619,7 +46498,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "02"]
+    tags: ["tick", "02", "check", "done", "complete", "confirm", "approve", "success", "validation", "checkmark", "outlined"],
+    category: "ui"
   },
   {
     id: "hugeicon-tick-03",
@@ -45628,7 +46508,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.4743 17.3058C14.4874 14.0819 17.3962 11.8949 21.0501 8.79776C22.1437 7.87072 22.3126 6.24578 21.4547 5.09453C20.5429 3.87098 18.8103 3.62642 17.6376 4.59913C14.2907 7.37521 11.6868 10.0482 9.21679 12.9051C9.08718 13.055 9.02237 13.13 8.95511 13.1722C8.78453 13.2792 8.57138 13.2803 8.3997 13.1751C8.33199 13.1336 8.26707 13.0601 8.13722 12.9131L6.82103 11.4229C5.6201 10.0631 3.46608 10.2137 2.46339 11.7274C1.76171 12.7867 1.86569 14.1905 2.71567 15.1334L4.7796 17.4229C6.32334 19.1353 7.09521 19.9916 8.02185 19.9999C8.94849 20.0083 9.79043 19.1075 11.4743 17.3058Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "03"]
+    tags: ["tick", "03", "check", "done", "complete", "confirm", "approve", "success", "validation", "checkmark", "outlined"],
+    category: "ui"
   },
   {
     id: "hugeicon-tick-04",
@@ -45637,7 +46518,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.8606 5.39176C22.2875 6.49635 21.6888 7.2526 20.5301 7.99754C19.5951 8.5986 18.4039 9.24975 17.1417 10.363C15.9044 11.4543 14.6968 12.7687 13.6237 14.0625C12.5549 15.351 11.6465 16.586 11.0046 17.5005C10.5898 18.0914 10.011 18.9729 10.011 18.9729C9.60281 19.6187 8.86895 20.0096 8.08206 19.9998C7.295 19.99 6.57208 19.5812 6.18156 18.9251C5.18328 17.248 4.41296 16.5857 4.05891 16.3478C3.11158 15.7112 2 15.6171 2 14.1335C2 12.9554 2.99489 12.0003 4.22216 12.0003C5.08862 12.0323 5.89398 12.373 6.60756 12.8526C7.06369 13.1591 7.54689 13.5645 8.04948 14.0981C8.63934 13.2936 9.35016 12.3653 10.147 11.4047C11.3042 10.0097 12.6701 8.51309 14.1349 7.22116C15.5748 5.95115 17.2396 4.76235 19.0042 4.13381C20.1549 3.72397 21.4337 4.28718 21.8606 5.39176Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "04"]
+    tags: ["tick", "04", "check", "done", "complete", "confirm", "approve", "success", "validation", "checkmark", "outlined"],
+    category: "ui"
   },
   {
     id: "hugeicon-tick-double-01",
@@ -45647,7 +46529,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 13.3333C8 13.3333 9.5 14 11.5 17C11.5 17 17 8.5 22 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "double", "01"]
+    tags: ["tick", "double", "01", "read", "seen", "delivered", "message", "confirmation", "success", "chat", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-tick-double-02",
@@ -45657,7 +46540,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 13.8333L11 17.5L21.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "double", "02"]
+    tags: ["tick", "double", "02", "read", "seen", "delivered", "message", "confirmation", "success", "chat", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-tick-double-03",
@@ -45667,7 +46551,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.1057 16.311C16.3656 13.6916 18.5472 11.9146 21.2876 9.39818C22.1078 8.64496 22.2345 7.3247 21.591 6.3893C20.9072 5.39517 19.6077 5.19647 18.7282 5.98679C16.218 8.24236 14.2651 10.4141 12.4126 12.7354C12.3154 12.8572 12.2668 12.9181 12.2163 12.9524C12.0884 13.0393 11.9285 13.0403 11.7998 12.9548C11.749 12.9211 11.7003 12.8613 11.6029 12.7419L10.6158 11.5311C9.71508 10.4263 8.09956 10.5486 7.34754 11.7785C6.82128 12.6392 6.89927 13.7798 7.53675 14.5458L9.0847 16.4061C10.2425 17.7974 10.8214 18.4931 11.5164 18.5C12.2114 18.5068 12.8428 17.7748 14.1057 16.311Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "double", "03"]
+    tags: ["tick", "double", "03", "read", "seen", "delivered", "message", "confirmation", "success", "chat", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-tick-double-04",
@@ -45677,7 +46562,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.43961 12.0755C4.28117 12.0236 4.13796 11.9909 4.01252 11.9713C3.94995 11.9615 3.89226 11.955 3.83976 11.951L3.69887 11.9454C2.76061 11.9454 2 12.728 2 13.6933C2 14.5669 2.62294 15.2908 3.43675 15.4205C3.4652 15.4355 3.51137 15.4624 3.57407 15.5076C3.84474 15.7025 4.43367 16.2452 5.19686 17.6193C5.49542 18.1569 6.04811 18.4918 6.64983 18.4999C7.06202 18.5054 7.45518 18.3567 7.76226 18.0924M15 5.5C13.6509 6.015 12.3781 6.98904 11.2773 8.02963C10.8929 8.39299 10.5174 8.77611 10.1542 9.16884" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tick", "double", "04"]
+    tags: ["tick", "double", "04", "read", "seen", "delivered", "message", "confirmation", "success", "chat", "outlined"],
+    category: "communication"
   },
   {
     id: "hugeicon-ticket-01",
@@ -45687,7 +46573,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 3.5L9 20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ticket", "01"]
+    tags: ["ticket", "01", "event", "voucher", "coupon", "admission", "pass", "booking", "entertainment", "outlined"],
+    category: "commerce"
   },
   {
     id: "hugeicon-ticket-02",
@@ -45697,7 +46584,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 15L9 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ticket", "02"]
+    tags: ["ticket", "02", "event", "voucher", "coupon", "admission", "pass", "booking", "entertainment", "outlined"],
+    category: "commerce"
   },
   {
     id: "hugeicon-ticket-03",
@@ -45708,7 +46596,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 16L17 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ticket", "03"]
+    tags: ["ticket", "03", "event", "voucher", "coupon", "admission", "pass", "booking", "entertainment", "outlined"],
+    category: "commerce"
   },
   {
     id: "hugeicon-ticket-star",
@@ -45720,7 +46609,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 8.87895C21.9331 7.33687 21.7456 6.33298 21.2203 5.53884C20.9181 5.08196 20.5428 4.68459 20.1112 4.36468C18.9447 3.5 17.299 3.5 14.0078 3.5H9.99305C6.70178 3.5 5.05614 3.5 3.88962 4.36468C3.45805 4.68459 3.08267 5.08196 2.78047 5.53884C2.25526 6.33289 2.06776 7.33665 2.00083 8.87843C1.98938 9.14208 2.21648 9.34375 2.46531 9.34375C3.85109 9.34375 4.97449 10.533 4.97449 12C4.97449 13.467 3.85109 14.6562 2.46531 14.6562C2.21648 14.6562 1.98938 14.8579 2.00083 15.1216C2.06776 16.6634 2.25526 17.6671 2.78047 18.4612C3.08267 18.918 3.45805 19.3154 3.88962 19.6353C5.05614 20.5 6.70178 20.5 9.99306 20.5H14.0078C17.299 20.5 18.9447 20.5 20.1112 19.6353C20.5428 19.3154 20.9181 18.918 21.2203 18.4612C21.7456 17.667 21.9331 16.6631 22 15.1211V8.87895Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ticket", "star"]
+    tags: ["ticket", "star", "event", "voucher", "coupon", "admission", "pass", "premium", "vip", "reward", "outlined"],
+    category: "commerce"
   },
   {
     id: "hugeicon-tie",
@@ -45730,7 +46620,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.0793 8L8.42064 15.1438C8.06093 16.6931 7.88108 17.4677 8.08657 18.1961C8.09058 18.2103 8.09469 18.2245 8.09891 18.2386C8.31533 18.9638 8.88063 19.5172 10.0112 20.6238C10.9439 21.5368 11.4103 21.9933 11.9837 21.9999C11.9946 22 12.0054 22 12.0163 21.9999C12.5897 21.9933 13.0561 21.5368 13.9888 20.6238C15.1194 19.5172 15.6847 18.9638 15.9011 18.2386C15.9053 18.2245 15.9094 18.2103 15.9134 18.1961C16.1189 17.4677 15.9391 16.6931 15.5794 15.1438L13.9207 8" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tie"]
+    tags: ["tie", "fashion", "business", "formal", "clothing", "professional", "suit", "accessory", "outlined"],
+    category: "other"
   },
   {
     id: "hugeicon-tiff-01",
@@ -45740,7 +46631,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 16H5.75M5.75 16H7.5M5.75 16V22M15 16H12.5V19M12.5 19V22M12.5 19H15M20 16H17.5V19M17.5 19V22M17.5 19H20M10 16V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tiff", "01"]
+    tags: ["tiff", "01", "file", "document", "image", "format", "graphic", "picture", "outlined"],
+    category: "file"
   },
   {
     id: "hugeicon-tiff-02",
@@ -45750,7 +46642,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 14H8M8 14H9.5M8 14V19M21 14H19V16.5M19 16.5V19M19 16.5H21M16.5 14H14.5V16.5M14.5 16.5V19M14.5 16.5H16.5M12 14V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tiff", "02"]
+    tags: ["tiff", "02", "file", "document", "image", "format", "graphic", "picture", "outlined"],
+    category: "file"
   },
   {
     id: "hugeicon-tiktok",
@@ -45760,7 +46653,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5359 11.0075C9.71585 10.8916 7.84666 11.0834 6.93011 12.7782C6.01355 14.4729 6.9373 16.2368 7.51374 16.9069C8.08298 17.5338 9.89226 18.721 11.8114 17.5619C12.2871 17.2746 12.8797 17.0603 13.552 14.8153L13.4738 5.98145C13.3441 6.95419 14.4186 9.23575 17.478 9.5057" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tiktok"]
+    tags: ["tiktok", "social media", "app", "video", "short-form", "entertainment", "platform", "logo", "filled"],
+    category: "social"
   },
   {
     id: "hugeicon-tiltify",
@@ -45770,7 +46664,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.1565 9.2571L7.15453 3.27281C6.23278 2.72131 5.03652 3.03305 4.5032 3.96374C3.9399 4.94674 4.35175 6.19982 5.38926 6.65964L9.55034 8.5L8.21738 19.608C8.12853 20.3484 8.70663 21 9.45232 21C10.0796 21 10.6087 20.5329 10.6865 19.9105L11.9779 9.57967L16.0806 11.398C16.6592 11.6544 17.3377 11.4117 17.6208 10.847C17.9064 10.2775 17.7041 9.58471 17.1565 9.2571Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tiltify"]
+    tags: ["tiltify", "fundraising", "charity", "donation", "platform", "stream", "community", "social good", "logo", "outlined"],
+    category: "social"
   },
   {
     id: "hugeicon-time-01",
@@ -45780,7 +46675,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.0078 10.5082C11.1794 10.5082 10.5078 11.1798 10.5078 12.0082C10.5078 12.8366 11.1794 13.5082 12.0078 13.5082C12.8362 13.5082 13.5078 12.8366 13.5078 12.0082C13.5078 11.1798 12.8362 10.5082 12.0078 10.5082ZM12.0078 10.5082V6.99902M15.0147 15.0198L13.0661 13.0712" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "01"]
+    tags: ["time", "01", "clock", "hour", "minute", "deadline", "schedule", "duration", "timer", "outlined"],
+    category: "time"
   },
   {
     id: "hugeicon-time-02",
@@ -45790,7 +46686,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.0078 10.5082C11.1794 10.5082 10.5078 11.1798 10.5078 12.0082C10.5078 12.8366 11.1794 13.5082 12.0078 13.5082C12.8362 13.5082 13.5078 12.8366 13.5078 12.0082C13.5078 11.1798 12.8362 10.5082 12.0078 10.5082ZM12.0078 10.5082V6.99902M15.0147 15.0198L13.0661 13.0712" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "02"]
+    tags: ["time", "02", "clock", "hour", "minute", "deadline", "schedule", "duration", "timer", "outlined"],
+    category: "time"
   },
   {
     id: "hugeicon-time-03",
@@ -45800,7 +46697,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 9L13.0001 12.9996M16 8L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "03"]
+    tags: ["time", "03", "clock", "hour", "minute", "deadline", "schedule", "duration", "timer", "outlined"],
+    category: "time"
   },
   {
     id: "hugeicon-time-04",
@@ -45810,7 +46708,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.5 9.5L12.9999 12.9996M16 8L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "04"]
+    tags: ["time", "04", "clock", "hour", "minute", "deadline", "schedule", "duration", "timer", "outlined"],
+    category: "time"
   },
   {
     id: "hugeicon-time-half-pass",
@@ -45821,7 +46720,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13.5C12.8284 13.5 13.5 12.8284 13.5 12C13.5 11.1716 12.8284 10.5 12 10.5M12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5M12 13.5V16M12 10.5V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "half", "pass"]
+    tags: ["time", "half", "pass", "clock", "half past", "schedule", "appointment", "deadline", "duration", "timer", "outlined"],
+    category: "time"
   },
   {
     id: "hugeicon-time-management-circle",
@@ -45833,7 +46733,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 6.5L13 5M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "management", "circle"]
+    tags: ["time", "management", "circle", "productivity", "planning", "deadline", "schedule", "circular", "filled", "clock", "efficiency"],
+    category: "time"
   },
   {
     id: "hugeicon-time-management",
@@ -45845,7 +46746,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 6.5L13 5M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "management"]
+    tags: ["time", "management", "productivity", "planning", "deadline", "schedule", "outline", "clock", "efficiency", "task"],
+    category: "time"
   },
   {
     id: "hugeicon-time-quarter-02",
@@ -45856,7 +46758,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.8475 4.17041C19.0217 4.3242 19.1911 4.48354 19.3555 4.648C19.5199 4.81246 19.6791 4.98203 19.8328 5.15629M15 2C15.4821 2.14255 15.9548 2.32634 16.4134 2.54664M21.4375 7.55457C21.6647 8.02313 21.8539 8.50663 22 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "quarter", "02"]
+    tags: ["time", "quarter", "02", "clock", "timer", "progress", "pie chart", "minimal", "countdown", "partially filled", "quarter past"],
+    category: "time"
   },
   {
     id: "hugeicon-time-quarter-pass",
@@ -45867,7 +46770,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12C22 6.47715 17.5228 2 12 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "quarter", "pass"]
+    tags: ["time", "quarter", "pass", "clock", "timer", "progress", "pie chart", "minimal", "countdown", "partially filled", "quarter past"],
+    category: "time"
   },
   {
     id: "hugeicon-time-quarter",
@@ -45878,7 +46782,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "quarter"]
+    tags: ["time", "quarter", "clock", "timer", "progress", "pie chart", "minimal", "countdown", "partially filled", "quarter past"],
+    category: "time"
   },
   {
     id: "hugeicon-time-schedule",
@@ -45889,7 +46794,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.0261 21.948C12.6888 21.9824 12.3464 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 12.6849 21.9311 13.3538 21.8 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "schedule"]
+    tags: ["time", "schedule", "calendar", "appointment", "event", "planning", "deadline", "agenda", "productivity", "date"],
+    category: "time"
   },
   {
     id: "hugeicon-time-setting-01",
@@ -45899,7 +46805,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 13.9669V10.0332C19.1433 10.0332 17.2857 6.93041 18.732 4.46691L15.2679 2.5001C13.8038 4.99405 10.1978 4.99395 8.73363 2.5L5.26953 4.46681C6.71586 6.93035 4.85673 10.0332 2 10.0332V13.9669C4.85668 13.9669 6.71425 17.0697 5.26795 19.5332L8.73205 21.5C10.1969 19.0048 13.8046 19.0047 15.2695 21.4999L18.7336 19.5331C17.2874 17.0696 19.1434 13.9669 22 13.9669Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "setting", "01"]
+    tags: ["time", "setting", "01", "clock", "gear", "configuration", "preferences", "adjustment", "setup", "options", "outline"],
+    category: "time"
   },
   {
     id: "hugeicon-time-setting-02",
@@ -45909,7 +46816,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 8V12L14.8037 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "setting", "02"]
+    tags: ["time", "setting", "02", "clock", "gear", "configuration", "preferences", "adjustment", "setup", "options", "filled"],
+    category: "time"
   },
   {
     id: "hugeicon-time-setting-03",
@@ -45919,7 +46827,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 8V12L14.8037 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["time", "setting", "03"]
+    tags: ["time", "setting", "03", "clock", "gear", "configuration", "preferences", "adjustment", "setup", "options", "outline"],
+    category: "time"
   },
   {
     id: "hugeicon-timer-01",
@@ -45929,7 +46838,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 4.82C3.14864 6.63902 2 9.17385 2 11.9776C2 17.5129 6.47715 22.0001 12 22.0001C17.5228 22.0001 22 17.5129 22 11.9776C22 7.1242 18.5581 3.07656 13.9872 2.15288C13.1512 1.98394 12.7332 1.89947 12.3666 2.20022C12 2.50097 12 2.98714 12 3.95949V4.96175" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["timer", "01"]
+    tags: ["timer", "01", "stopwatch", "countdown", "event", "duration", "measurement", "athletic", "outline", "sport"],
+    category: "time"
   },
   {
     id: "hugeicon-timer-02",
@@ -45944,7 +46854,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 19H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["timer", "02"]
+    tags: ["timer", "02", "stopwatch", "countdown", "event", "duration", "measurement", "athletic", "filled", "sport"],
+    category: "time"
   },
   {
     id: "hugeicon-tips",
@@ -45955,7 +46866,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 13.5H6.39482C6.68897 13.5 6.97908 13.5663 7.24217 13.6936L9.28415 14.6816C9.54724 14.8089 9.83735 14.8751 10.1315 14.8751H11.1741C12.1825 14.8751 13 15.6662 13 16.642C13 16.6814 12.973 16.7161 12.9338 16.7269L10.3929 17.4295C9.93707 17.5555 9.449 17.5116 9.025 17.3064L6.84211 16.2503M13 16L17.5928 14.5889C18.407 14.3352 19.2871 14.636 19.7971 15.3423C20.1659 15.8529 20.0157 16.5842 19.4785 16.8942L11.9629 21.2305C11.4849 21.5063 10.9209 21.5736 10.3952 21.4176L4 19.5199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tips"]
+    tags: ["tips", "idea", "advice", "bulb", "solution", "guidance", "suggestion", "education", "lightbulb"],
+    category: "education"
   },
   {
     id: "hugeicon-tire",
@@ -45969,7 +46881,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 12C13.5 12.8284 12.8284 13.5 12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5C12.8284 10.5 13.5 11.1716 13.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tire"]
+    tags: ["tire", "wheel", "car part", "automotive", "transportation", "vehicle", "rubber", "driving", "circular"],
+    category: "transport"
   },
   {
     id: "hugeicon-tired-01",
@@ -45980,7 +46893,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13.5C13.6732 13.5 15.1098 14.4559 15.7297 15.8205C15.9802 16.3718 16.1055 16.6475 15.8889 16.8748C15.6723 17.1022 15.2907 16.9913 14.5274 16.7696C13.8039 16.5595 12.9019 16.3703 12 16.3703C11.0981 16.3703 10.1961 16.5595 9.47257 16.7696C8.70933 16.9913 8.32771 17.1022 8.11112 16.8748C7.89454 16.6475 8.01978 16.3718 8.27026 15.8205C8.89021 14.4559 10.3268 13.5 12 13.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tired", "01"]
+    tags: ["tired", "01", "sleepy", "exhausted", "fatigue", "stress", "emotion", "sad", "face", "outline"],
+    category: "social"
   },
   {
     id: "hugeicon-tired-02",
@@ -45991,7 +46905,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13.5C13.6732 13.5 15.1098 14.4559 15.7297 15.8205C15.9802 16.3718 16.1055 16.6475 15.8889 16.8748C15.6723 17.1022 15.2907 16.9913 14.5274 16.7696C13.8039 16.5595 12.9019 16.3703 12 16.3703C11.0981 16.3703 10.1961 16.5595 9.47257 16.7696C8.70933 16.9913 8.32771 17.1022 8.11112 16.8748C7.89454 16.6475 8.01978 16.3718 8.27026 15.8205C8.89021 14.4559 10.3268 13.5 12 13.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tired", "02"]
+    tags: ["tired", "02", "sleepy", "exhausted", "fatigue", "stress", "emotion", "sad", "face", "filled"],
+    category: "social"
   },
   {
     id: "hugeicon-tissue-paper",
@@ -46002,7 +46917,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.00801 9.5L5.99902 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tissue", "paper"]
+    tags: ["tissue", "paper", "kleenex", "napkin", "hygiene", "cold", "sickness", "soft", "health", "comfort"],
+    category: "health"
   },
   {
     id: "hugeicon-toggle-off",
@@ -46012,7 +46928,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 6H8C4.68629 6 2 8.68629 2 12C2 15.3137 4.68629 18 8 18H16C19.3137 18 22 15.3137 22 12C22 8.68629 19.3137 6 16 6Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["toggle", "off"]
+    tags: ["toggle", "off", "switch", "inactive", "disabled", "control", "setting", "ui element", "off state", "slider"],
+    category: "ui"
   },
   {
     id: "hugeicon-toggle-on",
@@ -46022,7 +46939,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 6H8C4.68629 6 2 8.68629 2 12C2 15.3137 4.68629 18 8 18H16C19.3137 18 22 15.3137 22 12C22 8.68629 19.3137 6 16 6Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["toggle", "on"]
+    tags: ["toggle", "on", "switch", "active", "enabled", "control", "setting", "ui element", "on state", "slider"],
+    category: "ui"
   },
   {
     id: "hugeicon-toilet-01",
@@ -46034,7 +46952,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 17C15 18 16 21 17.9996 22H4C5 21 6.7 17.8 5.5 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["toilet", "01"]
+    tags: ["toilet", "01", "restroom", "bathroom", "wc", "public facility", "plumbing", "hygiene", "outline", "lavatory"],
+    category: "other"
   },
   {
     id: "hugeicon-toilet-02",
@@ -46045,7 +46964,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.2893 12C18.8844 12 19.3826 11.5702 19.4418 11.0059L19.8095 7.50176C20.0228 5.46884 20.1294 4.45238 19.7327 3.68365C18.746 1.77184 16.4338 2.00941 14.5944 2.00941H9.40559C7.56622 2.00941 5.25402 1.77184 4.26731 3.68365C3.87056 4.45238 3.9772 5.46884 4.1905 7.50176L4.55816 11.0059C4.61737 11.5702 5.11562 12 5.71068 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["toilet", "02"]
+    tags: ["toilet", "02", "restroom", "bathroom", "wc", "public facility", "plumbing", "hygiene", "filled", "lavatory"],
+    category: "other"
   },
   {
     id: "hugeicon-token-circle",
@@ -46055,7 +46975,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["token", "circle"]
+    tags: ["token", "circle", "coin", "currency", "crypto", "security", "finance", "payment", "circular", "blockchain"],
+    category: "finance"
   },
   {
     id: "hugeicon-token-square",
@@ -46065,7 +46986,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5384 7.2534C11.7534 6.91553 12.2466 6.91553 12.4616 7.2534L13.0837 8.23082C13.7716 9.3117 14.6883 10.2284 15.7692 10.9163L16.7466 11.5384C17.0845 11.7534 17.0845 12.2466 16.7466 12.4616L15.7692 13.0837C14.6883 13.7716 13.7716 14.6883 13.0837 15.7692L12.4616 16.7466C12.2466 17.0845 11.7534 17.0845 11.5384 16.7466L10.9163 15.7692C10.2284 14.6883 9.3117 13.7716 8.23082 13.0837L7.2534 12.4616C6.91553 12.2466 6.91553 11.7534 7.2534 11.5384L8.23082 10.9163C9.3117 10.2284 10.2284 9.3117 10.9163 8.23082L11.5384 7.2534Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["token", "square"]
+    tags: ["token", "square", "coin", "currency", "crypto", "security", "finance", "payment", "blockchain"],
+    category: "finance"
   },
   {
     id: "hugeicon-tongue-01",
@@ -46077,7 +46999,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 16V17.5C10 18.6046 10.8954 19.5 12 19.5C13.1046 19.5 14 18.6046 14 17.5V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tongue", "01"]
+    tags: ["tongue", "01", "mouth", "expression", "taste", "body part", "playful", "funny", "outline", "face"],
+    category: "social"
   },
   {
     id: "hugeicon-tongue-wink-left",
@@ -46090,7 +47013,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 16V17.5C10 18.6046 10.8954 19.5 12 19.5C13.1046 19.5 14 18.6046 14 17.5V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tongue", "wink", "left"]
+    tags: ["tongue", "wink", "left", "mouth", "expression", "playful", "funny", "silly", "face", "emoji", "humor"],
+    category: "social"
   },
   {
     id: "hugeicon-tongue-wink-right",
@@ -46103,7 +47027,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 16V17.5C10 18.6046 10.8954 19.5 12 19.5C13.1046 19.5 14 18.6046 14 17.5V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tongue", "wink", "right"]
+    tags: ["tongue", "wink", "right", "mouth", "expression", "playful", "funny", "silly", "face", "emoji", "humor"],
+    category: "social"
   },
   {
     id: "hugeicon-tongue",
@@ -46113,7 +47038,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 9L12.2702 8.72635C12.7293 8.26127 13.352 8 14.0014 8C15.1414 8 16.1306 8.79706 16.387 9.92227L17.3568 14.1793C18.1518 17.6686 15.5354 21 12 21C8.46456 21 5.84819 17.6686 6.64316 14.1793L7.61303 9.92227C7.86938 8.79706 8.85856 8 9.99863 8C10.648 8 11.2707 8.26127 11.7298 8.72635L12 9ZM12 9V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tongue"]
+    tags: ["tongue", "mouth", "taste", "lick", "body part", "human", "medical", "anatomy", "health"],
+    category: "health"
   },
   {
     id: "hugeicon-tools",
@@ -46125,7 +47051,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.203 14.5L6.59897 20.1041C6.07115 20.6319 5.2154 20.6319 4.68758 20.1041L3.89586 19.3124C3.36805 18.7846 3.36805 17.9288 3.89586 17.401L9.49994 11.7969" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tools"]
+    tags: ["tools", "settings", "options", "maintenance", "repair", "engineering", "construction", "work", "hardware", "utility"],
+    category: "tool"
   },
   {
     id: "hugeicon-tornado-01",
@@ -46136,7 +47063,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 19C16 20.1046 14.2091 21 12 21C9.79086 21 8 20.1046 8 19C8 17.8954 9.79086 17 12 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tornado", "01"]
+    tags: ["tornado", "01", "storm", "cyclone", "weather", "disaster", "wind", "natural", "danger", "swirl"],
+    category: "weather"
   },
   {
     id: "hugeicon-tornado-02",
@@ -46149,7 +47077,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.03906 18.5039C9.49304 18.8598 11.2867 18.8854 12.9988 18.6635" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tornado", "02"]
+    tags: ["tornado", "02", "storm", "cyclone", "weather", "disaster", "wind", "natural", "danger", "swirl", "filled"],
+    category: "weather"
   },
   {
     id: "hugeicon-torri-gate",
@@ -46161,7 +47090,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 3C18.5391 5.96343 15.5055 8 12 8C8.49452 8 5.46091 5.96343 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["torri", "gate"]
+    tags: ["torri", "gate", "japan", "shinto", "shrine", "culture", "architecture", "landmark", "entrance", "religious"],
+    category: "other"
   },
   {
     id: "hugeicon-touch-01",
@@ -46170,7 +47100,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.8933 21.9882C17.8416 20.075 17.9705 19.8446 18.1072 19.419C18.2439 18.9934 19.2002 17.4585 19.5386 16.3619C20.6334 12.814 19.613 12.0594 18.2527 11.0533C16.7442 9.93752 13.8989 9.37245 12.4878 9.49478V3.74357C12.4878 2.78062 11.7069 2 10.7435 2C9.78021 2 8.99928 2.78062 8.99928 3.74357V14.0031L6.93911 11.8237C6.29949 11.1302 5.27158 11.0599 4.57004 11.6907C3.90523 12.2885 3.80821 13.2952 4.34664 14.0089L5.63899 15.7218M8.86993 22L8.85039 20.9496C8.89334 19.7183 7.99734 18.9149 6.82877 17.3087C6.74457 17.193 6.66264 17.0811 6.58287 16.9729M6.58287 16.9729C6.22881 16.4924 5.91728 16.0831 5.63899 15.7218M6.58287 16.9729L7.75229 18.5229M6.58287 16.9729L5.63899 15.7218M5.63899 15.7218C5.06761 14.9801 4.63629 14.441 4.26446 13.9055" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "01"]
+    tags: ["touch", "01", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-02",
@@ -46179,7 +47110,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.1422 21.998C17.0905 20.084 17.2194 19.8535 17.3561 19.4277C17.4929 19.002 18.4492 17.4665 18.7875 16.3695C19.8823 12.8202 18.862 12.0653 17.5016 11.0588C15.9931 9.94257 13.1478 9.37728 11.7367 9.49966V3.7462C11.7367 2.78288 10.9558 2.00195 9.99246 2.00195C9.02914 2.00195 8.24821 2.78288 8.24821 3.7462V9.96607M8.24872 21.9988V20.9854C8.18426 20.041 7.24627 18.9235 6.0777 17.3166C4.87607 15.576 4.61785 14.6973 4.80689 13.8848C4.90426 13.4694 5.15692 12.7832 6.39745 11.6104L8.24821 9.96607M8.24821 14.0323V9.96607" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "02"]
+    tags: ["touch", "02", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-03",
@@ -46188,7 +47120,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.37124 12.171L8.50514 14V4.25C8.50514 3.2835 9.28864 2.5 10.2551 2.5C11.2216 2.5 12.0051 3.2835 12.0051 4.25V9.5L14.993 9.97757C16.9216 10.2669 17.886 10.4115 18.5652 10.8184C19.6872 11.4906 20.5 12.5 20.5 13.9736C20.5 15 20.2463 15.6886 19.6296 17.5387C19.2383 18.7127 19.0426 19.2996 18.7236 19.7643C18.1983 20.5293 17.4233 21.0878 16.5315 21.3442C15.9898 21.5 15.3711 21.5 14.1336 21.5H13.0847C11.4395 21.5 10.6169 21.5 9.88462 21.1981C9.75329 21.144 9.62494 21.0829 9.50012 21.0151C8.80405 20.6371 8.28533 19.9987 7.24791 18.7219L3.88941 14.5883C3.37331 13.9531 3.36987 13.0441 3.88114 12.405C4.49565 11.6369 5.62437 11.5308 6.37124 12.171Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "03"]
+    tags: ["touch", "03", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-04",
@@ -46197,7 +47130,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.41601 14V10.5M7.41601 10.5V4.25C7.41601 3.2835 8.19951 2.5 9.16601 2.5C10.1325 2.5 10.916 3.2835 10.916 4.25V9.5L13.993 9.97757C15.9216 10.2669 16.886 10.4115 17.5652 10.8184C18.6872 11.4906 19.5 12.5 19.5 13.9736C19.5 15 19.2463 15.6886 18.6296 17.5387C18.2383 18.7127 18.0426 19.2996 17.7236 19.7643C17.1983 20.5293 16.4233 21.0878 15.5315 21.3442C14.9898 21.5 14.3711 21.5 13.1336 21.5H11.7287C9.94422 21.5 9.05198 21.5 8.28584 21.1651C7.9397 21.0137 7.61674 20.8141 7.32659 20.5722C6.68438 20.0367 6.28536 19.2387 5.48731 17.6426C4.84015 16.3483 4.51657 15.7011 4.50083 15.0302C4.49373 14.7276 4.53246 14.4256 4.61571 14.1346C4.80031 13.4894 5.27678 12.9448 6.2297 11.8558L7.41601 10.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "04"]
+    tags: ["touch", "04", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-05",
@@ -46206,7 +47140,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.9906 22.0009L8.94324 21.2281L8.76895 20.4834C8.21686 18.298 7.44476 18.0561 6.21646 16.4898C5.66194 15.7826 4.66048 14.8221 3.71312 13.4686C3.08189 12.5667 3.86788 10.4113 5.78819 11.0363C6.10784 11.1403 6.37654 11.3487 6.61477 11.5776L8.47785 13.4686C8.4626 10.9364 8.49785 4.95306 8.45672 3.37114C8.41559 1.78922 11.285 1.28017 11.4541 3.44303V9.03715M11.4541 9.03715V9.97487M11.4541 9.03715C12.3925 7.84768 14.168 7.80581 14.4264 9.79709M14.4264 9.79709C14.4684 10.1213 14.4717 10.5 14.4264 10.9372M14.4264 9.79709C14.9006 8.40591 17.0594 8.94966 17.4739 10.5688M17.4739 10.5688C17.5721 10.9526 17.4344 11.4544 17.4739 11.9671M17.4739 10.5688C17.7431 9.78847 20.7661 9.82873 20.4831 12.8434L20.4477 15.5483C20.4477 17.1534 20.2337 17.8976 19.6205 18.6867C19.3941 18.9781 19.081 19.2696 18.862 19.5891C18.6912 19.8384 18.581 20.1284 18.533 20.4268C18.4661 20.8424 18.4572 21.4177 18.478 21.9687" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "05"]
+    tags: ["touch", "05", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-06",
@@ -46215,7 +47150,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.60007 13.5448V8.97127M7.60007 8.97127V3.42684C7.60007 2.6052 8.31572 2.00208 9.15459 2.00208C9.99346 2.00208 10.6655 2.6052 10.6655 3.42684L10.7336 8.49948M7.60007 8.97127C6.25503 10.1651 4.78345 11.5469 4.58854 11.9333C3.68163 13.2854 3.75296 14.4972 5.29666 16.5676C6.2809 17.8877 7.4477 19.2329 7.52014 19.3028C8.32096 20.0758 8.10396 21.1214 8.10396 21.9981M10.7336 8.49948V11.0293M10.7336 8.49948C11.4501 7.65751 13.3752 7.95667 13.7789 9.67687M13.8154 11.0253V10.0224C13.8154 9.94337 13.8114 9.86406 13.8 9.78584M13.7789 9.67687C13.7806 9.68411 13.7823 9.69137 13.7839 9.69866C13.7904 9.72752 13.7957 9.75661 13.8 9.78584M13.7789 9.67687C13.7831 9.71192 13.7901 9.74825 13.8 9.78584M13.7789 9.67687C14.007 8.49948 16.7374 8.77017 16.8637 10.8788V12.0248M17.8439 21.9935V20.9544C17.883 19.7278 18.9213 19.3568 19.5381 18.0169C20.1618 16.7846 19.973 13.6551 19.973 12.1565C20 11.8011 19.7572 10.7667 18.6313 10.3754C18.2775 10.2076 17.482 9.96654 16.7971 10.449" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "06"]
+    tags: ["touch", "06", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-07",
@@ -46224,7 +47160,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.2273 7.78947V3.57895C11.2273 2.70692 10.5353 2 9.68182 2C8.82829 2 8.13636 2.70692 8.13636 3.57895V14.0655L6.46696 12.3546C5.73449 11.6039 4.52795 11.6724 3.88085 12.5014C3.38571 13.1357 3.37204 14.033 3.8476 14.6829L6.94263 18.9123C7.64502 19.8721 7.99622 20.352 8.41886 20.725C9.06365 21.2941 9.83631 21.6901 10.6674 21.8773C11.2121 22 11.7975 22 12.9681 22C15.2003 22 16.3164 22 17.205 21.6504C18.5637 21.1159 19.6373 20.0155 20.1589 18.623C20.5 17.7123 20.5 16.5684 20.5 14.2807V11.6782C20.5 10.649 19.7718 9.77073 18.7782 9.60154L18.4254 9.54147C17.8934 9.45089 17.4091 9.87003 17.4091 10.4211M11.2273 7.78947L11.8225 7.48542C12.1086 7.33925 12.4286 7.24491 12.7397 7.3211C13.6452 7.54286 14.3182 8.37534 14.3182 9.36842M11.2273 7.78947V10.4211M14.3182 9.36842V10.4211M14.3182 9.36842C14.3182 8.78707 14.7795 8.31579 15.3485 8.31579C16.4865 8.31579 17.4091 9.25835 17.4091 10.4211M17.4091 10.4211V11.4737" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "07"]
+    tags: ["touch", "07", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-08",
@@ -46233,7 +47170,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.77888 13.9566V9.49309M7.77888 9.49309V3.97813C7.77888 3.15856 8.46218 2.49805 9.28215 2.49805C10.1021 2.49805 10.7482 3.15856 10.7482 3.97813V7.97397M7.77888 9.49309C6.46416 10.6839 5.04938 12.1882 4.85886 12.5736C3.97239 13.9223 4.06531 14.5753 5.05322 16.2256C5.89231 17.6273 7.02077 19.1829 7.08664 19.2576C7.7571 20.017 7.62379 20.0172 8.59557 20.7303C9.46334 21.3323 11.2633 21.7517 15.483 21.3323C18.9206 20.8015 19.7442 17.8022 19.7263 16.3689V12.8293C19.9405 9.8874 18.7102 9.75461 16.4763 9.46504M10.7482 7.97397V10.4974M10.7482 7.97397C11.3057 7.06531 13.3304 7.43252 13.725 9.1484M13.7606 10.4935V9.49309C13.7606 9.41423 13.7567 9.33512 13.7456 9.2571M13.725 9.1484C13.7266 9.15562 13.7283 9.16286 13.7299 9.17013C13.7362 9.19892 13.7414 9.22793 13.7456 9.2571M13.725 9.1484C13.7291 9.18336 13.7359 9.2196 13.7456 9.2571M13.725 9.1484C13.5848 7.95243 16.6168 8.24397 16.7402 10.3473V11.4904" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "08"]
+    tags: ["touch", "08", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-09",
@@ -46242,7 +47180,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.1121 8.68466L12.965 3.7607C13.1063 2.94487 12.5712 2.16689 11.7698 2.02304C10.9684 1.87919 10.2042 2.42393 10.0629 3.23976L8.35714 13.0877L8.21569 13.8509L6.30622 11.837C5.61343 11.1239 4.47226 11.1889 3.86022 11.9765C3.3919 12.5791 3.37897 13.4315 3.82877 14.0489L6.75611 18.0667C7.42045 18.9785 7.75263 19.4345 8.15236 19.7888C8.76222 20.3294 9.49302 20.7056 10.2791 20.8834C10.7943 21 11.3479 21 12.4552 21H14.7886C17.0993 21 19.0901 19.3242 19.549 16.9929L20.3921 12.7094L20.4774 12.2171C20.6187 11.4012 20.0836 10.6232 19.2822 10.4794C18.4808 10.3355 17.7166 10.8803 17.5752 11.6961L17.49 12.1885M12.1121 8.68466L11.8563 10.1618M12.1121 8.68466C12.2534 7.86883 13.0177 7.32408 13.8191 7.46794C14.6205 7.61179 15.1556 8.38977 15.0143 9.20559L14.8437 10.1904M14.8437 10.1904L14.7584 10.6828M14.8437 10.1904C14.985 9.37456 15.7492 8.82981 16.5506 8.97367C17.352 9.11752 17.8871 9.89549 17.7458 10.7113L17.6605 11.2037" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "09"]
+    tags: ["touch", "09", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-10",
@@ -46253,7 +47192,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 11.5C14.5 10.1193 13.3807 9 12 9C10.6193 9 9.5 10.1193 9.5 11.5V12.75C9.5 13.4404 10.0596 14 10.75 14H13.25C13.9404 14 14.5 13.4404 14.5 12.75V11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "10"]
+    tags: ["touch", "10", "finger", "tap", "press", "gesture", "interaction", "mobile", "ui", "pointer", "hand"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-interaction-01",
@@ -46263,7 +47203,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.0296 21.9913C17.9799 20.2775 18.1199 20.0519 18.2514 19.6706C18.3828 19.2893 19.1984 17.9357 19.5236 16.9534C20.576 13.7752 19.7712 13.2378 18.5104 12.2723C17.0658 11.1661 14.6208 10.6032 13.0946 10.7248V6.63467C13.0946 5.77207 12.2692 5.02148 11.3432 5.02148C10.4172 5.02148 9.59704 5.77207 9.59704 6.63467V14.3866L7.62568 12.7092C7.0938 12.1718 6.24275 12.221 5.62664 12.6277C5.43494 12.7543 5.27952 12.9319 5.18075 13.1393C4.90045 13.7279 4.98135 14.3942 5.42292 14.9396L6.54372 16.3843M9.52799 21.9972V21.0506C9.60063 19.8883 8.54484 18.9548 7.42153 17.516M7.42153 17.516C7.34059 17.4123 7.49821 17.613 7.42153 17.516ZM7.42153 17.516C7.08118 17.0856 6.81124 16.708 6.54372 16.3843M7.42153 17.516L8.52852 18.8698M7.42153 17.516L6.54372 16.3843" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "interaction", "01"]
+    tags: ["touch", "interaction", "01", "finger", "tap", "press", "gesture", "mobile", "ui", "pointer", "hand", "screen"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-interaction-02",
@@ -46273,7 +47214,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 8H6.17647C4.67907 8 3.93037 8 3.46518 7.56066C3 7.12132 3 6.41421 3 5C3 3.58579 3 2.87868 3.46518 2.43934C3.93037 2 4.67907 2 6.17647 2H17.8235C19.3209 2 20.0696 2 20.5348 2.43934C21 2.87868 21 3.58579 21 5C21 6.41421 21 7.12132 20.5348 7.56066C20.0696 8 19.3209 8 17.8235 8H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "interaction", "02"]
+    tags: ["touch", "interaction", "02", "finger", "tap", "press", "gesture", "mobile", "ui", "pointer", "hand", "screen"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-interaction-03",
@@ -46283,7 +47225,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 8H5.17647C3.67907 8 2.93037 8 2.46518 7.56066C2 7.12132 2 6.41421 2 5C2 3.58579 2 2.87868 2.46518 2.43934C2.93037 2 3.67907 2 5.17647 2H16.8235C18.3209 2 19.0696 2 19.5348 2.43934C20 2.87868 20 3.58579 20 5C20 6.41421 20 7.12132 19.5348 7.56066C19.0696 8 18.3209 8 16.8235 8H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "interaction", "03"]
+    tags: ["touch", "interaction", "03", "finger", "tap", "press", "gesture", "mobile", "ui", "pointer", "hand", "screen"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-interaction-04",
@@ -46293,7 +47236,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 8H6.17647C4.67907 8 3.93037 8 3.46518 7.56066C3 7.12132 3 6.41421 3 5C3 3.58579 3 2.87868 3.46518 2.43934C3.93037 2 4.67907 2 6.17647 2H17.8235C19.3209 2 20.0696 2 20.5348 2.43934C21 2.87868 21 3.58579 21 5C21 6.41421 21 7.12132 20.5348 7.56066C20.0696 8 19.3209 8 17.8235 8H16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "interaction", "04"]
+    tags: ["touch", "interaction", "04", "finger", "tap", "press", "gesture", "mobile", "ui", "pointer", "hand", "screen"],
+    category: "ui"
   },
   {
     id: "hugeicon-touch-locked-01",
@@ -46304,7 +47248,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 15.5C16 14.6716 16.6716 14 17.5 14C18.3284 14 19 14.6716 19 15.5V17H16V15.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "locked", "01"]
+    tags: ["touch", "locked", "01", "fingerprint", "security", "authentication", "access", "privacy", "biometric", "unlocked", "hand"],
+    category: "security"
   },
   {
     id: "hugeicon-touch-locked-02",
@@ -46315,7 +47260,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 15.5C15.5 14.6716 16.1716 14 17 14C17.8284 14 18.5 14.6716 18.5 15.5V17H15.5V15.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "locked", "02"]
+    tags: ["touch", "locked", "02", "fingerprint", "security", "authentication", "access", "privacy", "biometric", "unlocked", "hand"],
+    category: "security"
   },
   {
     id: "hugeicon-touch-locked-03",
@@ -46326,7 +47272,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 15.5C16.5 14.6716 17.1716 14 18 14C18.8284 14 19.5 14.6716 19.5 15.5V17H16.5V15.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "locked", "03"]
+    tags: ["touch", "locked", "03", "fingerprint", "security", "authentication", "access", "privacy", "biometric", "unlocked", "hand"],
+    category: "security"
   },
   {
     id: "hugeicon-touch-locked-04",
@@ -46337,7 +47284,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 15.5C15.5 14.6716 16.1716 14 17 14C17.8284 14 18.5 14.6716 18.5 15.5V17H15.5V15.5Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["touch", "locked", "04"]
+    tags: ["touch", "locked", "04", "fingerprint", "security", "authentication", "access", "privacy", "biometric", "unlocked", "hand"],
+    category: "security"
   },
   {
     id: "hugeicon-touchpad-01",
@@ -46347,7 +47295,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 9.99989C22 6.22866 22 4.34304 20.8284 3.17147C19.6569 1.99989 17.7712 1.99989 14 1.99989H10C6.22876 1.99989 4.34315 1.99989 3.17157 3.17147C2 4.34304 2 6.22866 2 9.99989V11.9999C2 13.8637 2 14.7955 2.30448 15.5306C2.71046 16.5107 3.48915 17.2894 4.46927 17.6954C5.05932 17.9398 5.77617 17.988 7 17.9976" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touchpad", "01"]
+    tags: ["touchpad", "01", "laptop", "computer", "mouse", "trackpad", "input", "device", "control", "navigation"],
+    category: "device"
   },
   {
     id: "hugeicon-touchpad-02",
@@ -46357,7 +47306,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 9.99989C22 6.22866 22 4.34304 20.8284 3.17147C19.6569 1.99989 17.7712 1.99989 14 1.99989H10C6.22876 1.99989 4.34315 1.99989 3.17157 3.17147C2 4.34304 2 6.22866 2 9.99989V11.9999C2 13.8637 2 14.7955 2.30448 15.5306C2.71046 16.5107 3.48915 17.2894 4.46927 17.6954C5.05932 17.9398 5.77617 17.988 7 17.9976" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touchpad", "02"]
+    tags: ["touchpad", "02", "laptop", "computer", "mouse", "trackpad", "input", "device", "control", "navigation"],
+    category: "device"
   },
   {
     id: "hugeicon-touchpad-03",
@@ -46367,7 +47317,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.00217 18C5.77781 17.9905 5.06065 17.9423 4.47034 17.6978C3.4898 17.2918 2.71077 16.513 2.30461 15.5327C2 14.7975 2 13.8655 2 12.0015V10.0012C2 6.22938 2 4.34349 3.17208 3.17174C4.34416 2 6.2306 2 10.0035 2H14.0052C17.7781 2 19.6645 2 20.8366 3.17174C21.7801 4.11497 21.9641 5.52095 22 8.00088" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touchpad", "03"]
+    tags: ["touchpad", "03", "trackpad", "mouse", "laptop", "computer", "input", "device", "interface", "gesture", "control", "ui"],
+    category: "device"
   },
   {
     id: "hugeicon-touchpad-04",
@@ -46377,7 +47328,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 8.01013C21.9641 5.52637 21.7801 4.11823 20.8366 3.17355C19.6645 2 17.7781 2 14.0052 2H10.0035C6.2306 2 4.34416 2 3.17208 3.17355C2 4.3471 2 6.2359 2 10.0135V12.0169C2 13.8838 2 14.8172 2.30461 15.5536C2.71077 16.5353 3.4898 17.3153 4.47034 17.722C4.87798 17.8911 5.34612 17.9664 6 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["touchpad", "04"]
+    tags: ["touchpad", "04", "trackpad", "mouse", "laptop", "computer", "input", "device", "interface", "gesture", "control", "ui"],
+    category: "device"
   },
   {
     id: "hugeicon-tow-truck",
@@ -46389,7 +47341,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.00651 18.996C5.00651 18.996 3.84703 19.0063 3.48717 18.96C3.18729 18.84 2.82289 18.5585 2.58753 18.402C1.86781 17.9235 2.01175 18.12 2.01175 17.688C2.01175 17.0126 2.00768 14.0063 2.00768 14.0063L2.00768 13.0463C2.00768 12.9863 1.946 12.9991 2.40752 13.0063L21.4801 13.0063M9.00508 19.002H15.0027" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tow", "truck"]
+    tags: ["tow", "truck", "breakdown", "recovery", "vehicle", "roadside", "assistance", "service", "transportation", "car", "automotive"],
+    category: "transport"
   },
   {
     id: "hugeicon-towels",
@@ -46399,7 +47352,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 4V5C22 5.93188 22 6.39782 21.8478 6.76537C21.6448 7.25542 21.2554 7.64477 20.7654 7.84776C20.3978 8 19.9319 8 19 8M2 4V5C2 5.93188 2 6.39782 2.15224 6.76537C2.35523 7.25542 2.74458 7.64477 3.23463 7.84776C3.60218 8 4.06812 8 5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["towels"]
+    tags: ["towels", "bath", "spa", "hygiene", "laundry", "textile", "fabric", "bathroom", "clean", "soft"],
+    category: "other"
   },
   {
     id: "hugeicon-toy-train",
@@ -46416,7 +47370,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 10V7M16 7H15M16 7H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["toy", "train"]
+    tags: ["toy", "train", "child", "play", "game", "locomotive", "steam", "engine", "railway", "miniature", "childhood"],
+    category: "other"
   },
   {
     id: "hugeicon-tractor",
@@ -46433,7 +47388,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 9V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tractor"]
+    tags: ["tractor", "farm", "agriculture", "farming", "vehicle", "harvest", "rural", "machinery", "field", "cultivation"],
+    category: "transport"
   },
   {
     id: "hugeicon-trade-down",
@@ -46443,7 +47399,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 16L15 11C14.1174 10.1174 13.6762 9.67615 13.1346 9.62737C13.045 9.6193 12.955 9.6193 12.8654 9.62737C12.3238 9.67615 11.8826 10.1174 11 11C10.1174 11.8826 9.67615 12.3238 9.13457 12.3726C9.04504 12.3807 8.95496 12.3807 8.86543 12.3726C8.32385 12.3238 7.88256 11.8826 7 11L4 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trade", "down"]
+    tags: ["trade", "down", "exchange", "decrease", "reduction", "sell", "finance", "investment", "stock", "market", "arrow"],
+    category: "finance"
   },
   {
     id: "hugeicon-trade-mark",
@@ -46453,7 +47410,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.99414 9.47593H8.5095M8.5095 9.47593H10.9932M8.5095 9.47593V15.4958M12.9904 15.4863V9.47598C13.3259 9.36901 15.5002 11.4773 15.5002 11.4773C15.5002 11.4773 17.6725 9.36901 18.0081 9.47599V15.4863" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trade", "mark"]
+    tags: ["trade", "mark", "registered", "brand", "copyright", "intellectual", "property", "legal", "identity", "business", "symbol"],
+    category: "security"
   },
   {
     id: "hugeicon-trade-up",
@@ -46463,7 +47421,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 8L15 13C14.1174 13.8826 13.6762 14.3238 13.1346 14.3726C13.045 14.3807 12.955 14.3807 12.8654 14.3726C12.3238 14.3238 11.8826 13.8826 11 13C10.1174 12.1174 9.67615 11.6762 9.13457 11.6274C9.04504 11.6193 8.95496 11.6193 8.86543 11.6274C8.32385 11.6762 7.88256 12.1174 7 13L4 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trade", "up"]
+    tags: ["trade", "up", "exchange", "increase", "growth", "buy", "finance", "investment", "stock", "market", "arrow"],
+    category: "finance"
   },
   {
     id: "hugeicon-trademark",
@@ -46473,7 +47432,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 8.5L8 8.5M10.5 8.5L8 8.5M13 15.5V8.5L15.75 12.5L18.5 8.5V15.5M8 8.5V15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trademark"]
+    tags: ["trademark", "registered", "brand", "copyright", "intellectual", "property", "legal", "identity", "business", "symbol"],
+    category: "security"
   },
   {
     id: "hugeicon-traffic-incident",
@@ -46483,7 +47443,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.7065 21.4604L10.7642 20.3555M10.7642 20.3555C11.0614 20.4324 11.5801 20.5692 11.8475 20.7111C14.1849 21.9509 14.724 22.3959 15.6596 21.6114L19.6081 17.7113C20.4039 16.7857 19.9641 16.2425 18.7478 13.8954C18.6087 13.6268 18.4423 13.142 18.3685 12.8444M10.7642 20.3555C9.6351 20.0633 8.61165 20.1531 7.91851 19.6217C7.80514 19.5348 6.70763 18.3994 5.90132 17.5855C5.29549 16.974 5.90619 16.4078 6.43603 15.7903C6.77273 15.3979 7.07438 14.969 7.43859 14.6019C9.4572 12.5671 10.8034 11.2332 12.8421 9.26272C13.2363 8.88166 13.7016 8.56633 14.1228 8.21523C14.5986 7.8187 15.1062 7.41457 15.6824 7.92444C16.5414 8.68456 17.6138 9.84647 17.6996 9.9606C18.2242 10.6584 18.0881 11.7139 18.3685 12.8444M10.7642 20.3555L18.3685 12.8444M18.3685 12.8444L19.4853 12.7076M8.02515 19.697L8.98808 18.466M10.9943 14.5029L12.7186 12.8895M16.506 10.9665L17.9194 10.3567M12.6945 9.36458L11.8555 8.48576C11.4739 8.08602 11.4897 7.4529 11.8908 7.07267L12.6923 6.31294C13.0846 5.94099 13.7021 5.94809 14.0858 6.32896L15.529 7.76154M7.40395 14.7194L6.53456 13.8706C6.13911 13.4845 5.50489 13.4922 5.11903 13.8879L4.34804 14.6784C3.97057 15.0654 3.96983 15.682 4.34637 16.0699L5.76263 17.5291" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["traffic", "incident"]
+    tags: ["traffic", "incident", "accident", "collision", "road", "danger", "warning", "emergency", "hazard", "alert", "car"],
+    category: "transport"
   },
   {
     id: "hugeicon-traffic-jam-01",
@@ -46501,7 +47462,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5004 11.5V11.51" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["traffic", "jam", "01"]
+    tags: ["traffic", "jam", "01", "congestion", "roadblock", "delay", "commute", "vehicle", "cars", "queue", "transportation", "gridlock"],
+    category: "transport"
   },
   {
     id: "hugeicon-traffic-jam-02",
@@ -46518,7 +47480,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 19V21H15V19H16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["traffic", "jam", "02"]
+    tags: ["traffic", "jam", "02", "congestion", "roadblock", "delay", "commute", "vehicle", "cars", "queue", "transportation", "gridlock"],
+    category: "transport"
   },
   {
     id: "hugeicon-traffic-light",
@@ -46534,7 +47497,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 15L5.95617 14.1235C4.64147 13.0195 3.98413 12.4675 4.00029 11.9662C4.00686 11.7624 4.07264 11.5655 4.18881 11.4021C4.47455 11 5.31637 11 7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["traffic", "light"]
+    tags: ["traffic", "light", "signal", "road", "control", "intersection", "stop", "go", "caution", "guidance", "transportation"],
+    category: "transport"
   },
   {
     id: "hugeicon-train-01",
@@ -46549,7 +47513,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 5H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["train", "01"]
+    tags: ["train", "01", "locomotive", "railway", "transportation", "commute", "travel", "public", "engine", "rail", "passenger"],
+    category: "transport"
   },
   {
     id: "hugeicon-train-02",
@@ -46561,7 +47526,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 19L3 22M19 19L21 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["train", "02"]
+    tags: ["train", "02", "locomotive", "railway", "transportation", "commute", "travel", "public", "engine", "rail", "passenger"],
+    category: "transport"
   },
   {
     id: "hugeicon-tram",
@@ -46577,7 +47543,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.5 17H7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tram"]
+    tags: ["tram", "streetcar", "trolley", "public", "transportation", "city", "urban", "commute", "rail", "electric"],
+    category: "transport"
   },
   {
     id: "hugeicon-trampoline",
@@ -46589,7 +47556,8 @@ export const hugeiconIcons: IconItem[] = [
 <ellipse cx="12" cy="10" rx="10" ry="6" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trampoline"]
+    tags: ["trampoline", "jump", "play", "fun", "exercise", "recreation", "sport", "bounce", "activity", "outdoor"],
+    category: "sport"
   },
   {
     id: "hugeicon-transaction-history",
@@ -46600,7 +47568,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 18.5L16.5 17.95V15.5M12 17.5C12 19.9853 14.0147 22 16.5 22C18.9853 22 21 19.9853 21 17.5C21 15.0147 18.9853 13 16.5 13C14.0147 13 12 15.0147 12 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["transaction", "history"]
+    tags: ["transaction", "history", "financial", "record", "log", "account", "banking", "money", "payment", "activity", "statement"],
+    category: "finance"
   },
   {
     id: "hugeicon-transaction",
@@ -46611,7 +47580,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.6039 9.72177C13.2524 9.35267 12.3906 8.48536 11.0292 9.10111C9.66784 9.71686 9.45159 11.698 11.5108 11.9085C12.4416 12.0036 13.0484 11.7981 13.6039 12.3794C14.1595 12.9607 14.2627 14.5774 12.8425 15.013C11.4222 15.4487 10.502 14.7292 10.2545 14.5041M11.9078 8.01953V8.81056M11.9078 15.1471V16.0195" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["transaction"]
+    tags: ["transaction", "financial", "payment", "exchange", "money", "transfer", "deal", "commerce", "banking", "purchase"],
+    category: "finance"
   },
   {
     id: "hugeicon-transition-bottom",
@@ -46622,7 +47592,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 15.9999C2 18.3388 2 19.5083 2.53646 20.3621C2.81621 20.8073 3.19267 21.1837 3.63789 21.4635C4.49167 21.9999 5.66111 21.9999 8 21.9999L16 21.9999C18.3389 21.9999 19.5083 21.9999 20.3621 21.4635C20.8073 21.1837 21.1838 20.8073 21.4635 20.3621C22 19.5083 22 18.3388 22 15.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["transition", "bottom"]
+    tags: ["transition", "bottom", "animation", "effect", "direction", "down", "movement", "ui", "design", "interface", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-transition-left",
@@ -46633,7 +47604,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8 22C5.66111 22 4.49167 22 3.63789 21.4635C3.19267 21.1838 2.81621 20.8073 2.53647 20.3621C2 19.5083 2 18.3389 2 16V8C2 5.66111 2 4.49167 2.53647 3.63789C2.81621 3.19267 3.19267 2.81621 3.63789 2.53647C4.49167 2 5.66111 2 8 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["transition", "left"]
+    tags: ["transition", "left", "animation", "effect", "direction", "movement", "ui", "design", "interface", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-transition-right",
@@ -46644,7 +47616,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 12H10M18 12C18 11.2998 16.0057 9.99153 15.5 9.5M18 12C18 12.7002 16.0057 14.0085 15.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["transition", "right"]
+    tags: ["transition", "right", "animation", "effect", "direction", "movement", "ui", "design", "interface", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-transition-top",
@@ -46655,7 +47628,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M1.99994 7.99994C1.99994 5.66105 1.99994 4.49161 2.5364 3.63783C2.81615 3.19261 3.19261 2.81615 3.63783 2.5364C4.49161 1.99994 5.66105 1.99994 7.99994 1.99994L15.9999 1.99994C18.3388 1.99994 19.5083 1.99994 20.3621 2.5364C20.8073 2.81615 21.1837 3.19261 21.4635 3.63783C21.9999 4.49161 21.9999 5.66105 21.9999 7.99994" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["transition", "top"]
+    tags: ["transition", "top", "animation", "effect", "direction", "up", "movement", "ui", "design", "interface", "arrow"],
+    category: "ui"
   },
   {
     id: "hugeicon-translate",
@@ -46669,7 +47643,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 7.5C20 6.09554 20 5.39331 19.6629 4.88886C19.517 4.67048 19.3295 4.48298 19.1111 4.33706C18.6067 4 17.9045 4 16.5 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["translate"]
+    tags: ["translate", "language", "interpret", "multilingual", "communication", "global", "dictionary", "linguistics", "text", "speech"],
+    category: "communication"
   },
   {
     id: "hugeicon-translation",
@@ -46680,7 +47655,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 19L13.8333 17M18 19L17.1667 17M13.8333 17L15.5 13L17.1667 17M13.8333 17H17.1667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["translation"]
+    tags: ["translation", "language", "convert", "localization", "multilingual", "globe", "communication", "exchange", "interface"],
+    category: "communication"
   },
   {
     id: "hugeicon-transmission",
@@ -46690,7 +47666,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.99994 11V9.50003C4.99994 6.21252 4.99994 4.56876 5.90791 3.46241C6.07412 3.25989 6.25982 3.07418 6.46235 2.90797C7.5687 2 9.21246 2 12.5 2C15.7875 2 17.4312 2 18.5376 2.90797C18.7401 3.07418 18.9258 3.25989 19.092 3.46241C20 4.56876 20 6.21252 20 9.50003V17C20 17.9293 20 18.394 19.9231 18.7804C19.6075 20.3671 18.3671 21.6075 16.7804 21.9231C16.394 22 15.9293 22 15 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["transmission"]
+    tags: ["transmission", "send", "receive", "data", "signal", "network", "transfer", "connectivity", "telecom"],
+    category: "communication"
   },
   {
     id: "hugeicon-transparency",
@@ -46701,7 +47678,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.5 2.5L15.5 11.5M2.5 6.5L11.5 15.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["transparency"]
+    tags: ["transparency", "clear", "visibility", "openness", "honesty", "clarity", "minimal", "design", "user-interface"],
+    category: "ui"
   },
   {
     id: "hugeicon-trapezoid-line-horizontal",
@@ -46711,7 +47689,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12L2 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trapezoid", "line", "horizontal"]
+    tags: ["trapezoid", "line", "horizontal", "shape", "geometric", "abstract", "minimal", "diagram", "layout", "design", "angled", "flat"],
+    category: "ui"
   },
   {
     id: "hugeicon-trapezoid-line-vertical",
@@ -46721,7 +47700,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 22L12 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trapezoid", "line", "vertical"]
+    tags: ["trapezoid", "line", "vertical", "shape", "geometric", "abstract", "minimal", "diagram", "layout", "design", "angled", "upright"],
+    category: "ui"
   },
   {
     id: "hugeicon-travel-bag",
@@ -46738,7 +47718,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 11V11.01" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["travel", "bag"]
+    tags: ["travel", "bag", "luggage", "vacation", "journey", "trip", "suitcase", "adventure", "tourism", "packing", "holiday"],
+    category: "transport"
   },
   {
     id: "hugeicon-treadmill-01",
@@ -46752,7 +47733,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 21V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["treadmill", "01"]
+    tags: ["treadmill", "01", "fitness", "exercise", "workout", "gym", "running", "cardio", "health", "sport", "activity"],
+    category: "sport"
   },
   {
     id: "hugeicon-treadmill-02",
@@ -46767,7 +47749,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 19L18 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["treadmill", "02"]
+    tags: ["treadmill", "02", "fitness", "exercise", "workout", "gym", "running", "cardio", "health", "sport", "activity"],
+    category: "sport"
   },
   {
     id: "hugeicon-treatment",
@@ -46778,7 +47761,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 16.5L17.5928 15.0889C18.407 14.8352 19.2871 15.136 19.7971 15.8423C20.1659 16.3529 20.0157 17.0842 19.4785 17.3942L11.9629 21.7305C11.4849 22.0063 10.9209 22.0736 10.3952 21.9176L4 20.0199" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["treatment"]
+    tags: ["treatment", "medical", "therapy", "care", "healing", "health", "hospital", "medicine", "wellness", "recovery"],
+    category: "health"
   },
   {
     id: "hugeicon-tree-01",
@@ -46791,7 +47775,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree", "01"]
+    tags: ["tree", "01", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "park", "outdoor"],
+    category: "nature"
   },
   {
     id: "hugeicon-tree-02",
@@ -46804,7 +47789,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree", "02"]
+    tags: ["tree", "02", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "park", "outdoor"],
+    category: "nature"
   },
   {
     id: "hugeicon-tree-03",
@@ -46817,7 +47803,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree", "03"]
+    tags: ["tree", "03", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "park", "outdoor"],
+    category: "nature"
   },
   {
     id: "hugeicon-tree-04",
@@ -46830,7 +47817,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree", "04"]
+    tags: ["tree", "04", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "park", "outdoor"],
+    category: "nature"
   },
   {
     id: "hugeicon-tree-05",
@@ -46843,7 +47831,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree", "05"]
+    tags: ["tree", "05", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "park", "outdoor"],
+    category: "nature"
   },
   {
     id: "hugeicon-tree-06",
@@ -46856,7 +47845,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree", "06"]
+    tags: ["tree", "06", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "park", "outdoor"],
+    category: "nature"
   },
   {
     id: "hugeicon-tree-07",
@@ -46869,7 +47859,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tree", "07"]
+    tags: ["tree", "07", "nature", "plant", "forest", "wood", "environment", "growth", "ecology", "park", "outdoor"],
+    category: "nature"
   },
   {
     id: "hugeicon-trello",
@@ -46880,7 +47871,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 8C13.5 7.05719 13.5 6.58579 13.7929 6.29289C14.0858 6 14.5572 6 15.5 6H16C16.9428 6 17.4142 6 17.7071 6.29289C18 6.58579 18 7.05719 18 8V10C18 10.9428 18 11.4142 17.7071 11.7071C17.4142 12 16.9428 12 16 12H15.5C14.5572 12 14.0858 12 13.7929 11.7071C13.5 11.4142 13.5 10.9428 13.5 10V8Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["trello"]
+    tags: ["trello", "app", "software", "project management", "kanban", "task", "board", "collaboration", "productivity", "social"],
+    category: "social"
   },
   {
     id: "hugeicon-triangle-01",
@@ -46893,7 +47885,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 14.409C5.88945 15.0512 7.25244 16.8771 7.25244 19.0294C7.25244 19.3617 7.21994 19.6863 7.158 20M16.842 20C16.7801 19.6863 16.7476 19.3617 16.7476 19.0294C16.7476 16.8771 18.1105 15.0512 20 14.409M15.2815 6C14.429 6.83606 13.273 7.34965 12 7.34965C10.727 7.34965 9.57102 6.83606 8.71851 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle", "01"]
+    tags: ["triangle", "01", "shape", "geometric", "arrowhead", "pointer", "minimal", "abstract", "direction", "design", "play"],
+    category: "ui"
   },
   {
     id: "hugeicon-triangle-02",
@@ -46905,7 +47898,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.33984 9L7.80395 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle", "02"]
+    tags: ["triangle", "02", "shape", "geometric", "arrowhead", "pointer", "minimal", "abstract", "direction", "design", "play"],
+    category: "ui"
   },
   {
     id: "hugeicon-triangle-03",
@@ -46918,7 +47912,8 @@ export const hugeiconIcons: IconItem[] = [
 <ellipse cx="16.0878" cy="8.01465" rx="1.38268" ry="1.375" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle", "03"]
+    tags: ["triangle", "03", "shape", "geometric", "arrowhead", "pointer", "minimal", "abstract", "direction", "design", "play"],
+    category: "ui"
   },
   {
     id: "hugeicon-triangle",
@@ -46927,7 +47922,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.59347 9.22474C7.83881 5.62322 8.96148 3.82246 10.4326 3.28C11.445 2.90667 12.555 2.90667 13.5674 3.28C15.0385 3.82246 16.1612 5.62322 18.4065 9.22474C20.9338 13.2785 22.1975 15.3054 21.9749 16.9779C21.8222 18.125 21.2521 19.173 20.3762 19.9163C19.0993 21 16.7328 21 12 21C7.26716 21 4.90074 21 3.62378 19.9163C2.74792 19.173 2.17775 18.125 2.02509 16.9779C1.80252 15.3054 3.06617 13.2785 5.59347 9.22474Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["triangle"]
+    tags: ["triangle", "shape", "geometric", "arrowhead", "pointer", "minimal", "abstract", "direction", "design", "play"],
+    category: "ui"
   },
   {
     id: "hugeicon-trolley-01",
@@ -46940,7 +47936,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 9H12C11.0572 9 10.5858 9 10.2929 8.63388C10 8.26777 10 7.67851 10 6.5C10 5.32149 10 4.73223 10.2929 4.36612C10.5858 4 11.0572 4 12 4H18C18.9428 4 19.4142 4 19.7071 4.36612C20 4.73223 20 5.32149 20 6.5C20 7.67851 20 8.26777 19.7071 8.63388C19.4142 9 18.9428 9 18 9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trolley", "01"]
+    tags: ["trolley", "01", "shopping", "cart", "ecommerce", "retail", "basket", "buy", "purchase", "store", "add to cart"],
+    category: "commerce"
   },
   {
     id: "hugeicon-trolley-02",
@@ -46953,7 +47950,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 7L17.5 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trolley", "02"]
+    tags: ["trolley", "02", "shopping", "cart", "ecommerce", "retail", "basket", "buy", "purchase", "store", "add to cart"],
+    category: "commerce"
   },
   {
     id: "hugeicon-tropical-storm-tracks-01",
@@ -46963,7 +47961,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tropical", "storm", "tracks", "01"]
+    tags: ["tropical", "storm", "tracks", "01", "weather", "hurricane", "cyclone", "forecast", "disaster", "map", "climate", "path"],
+    category: "weather"
   },
   {
     id: "hugeicon-tropical-storm-tracks-02",
@@ -46974,7 +47973,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5 7V12.5C19.5 16.6421 16.1421 20 12 20M19.5 7C20.2002 7 21.5085 8.9943 22 9.5M19.5 7C18.7998 7 17.4915 8.9943 17 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tropical", "storm", "tracks", "02"]
+    tags: ["tropical", "storm", "tracks", "02", "weather", "hurricane", "cyclone", "forecast", "disaster", "map", "climate", "path"],
+    category: "weather"
   },
   {
     id: "hugeicon-tropical-storm",
@@ -46984,7 +47984,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["tropical", "storm"]
+    tags: ["tropical", "storm", "hurricane", "cyclone", "weather event", "disaster", "wind", "rain", "climate", "forecast", "warning", "filled"],
+    category: "weather"
   },
   {
     id: "hugeicon-truck-delivery",
@@ -46998,7 +47999,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 6H16.3212C17.7766 6 18.5042 6 19.0964 6.35371C19.6886 6.70742 20.0336 7.34811 20.7236 8.6295L22 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["truck", "delivery"]
+    tags: ["truck", "delivery", "shipping", "logistics", "transportation", "cargo", "freight", "courier", "parcel", "e-commerce", "supply chain", "service"],
+    category: "transport"
   },
   {
     id: "hugeicon-truck-monster",
@@ -47014,7 +48016,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 20C18.933 20 20.5 18.433 20.5 16.5C20.5 14.567 18.933 13 17 13C15.067 13 13.5 14.567 13.5 16.5C13.5 18.433 15.067 20 17 20Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["truck", "monster"]
+    tags: ["truck", "monster", "monster truck", "off-road", "vehicle", "sport", "event", "entertainment", "power", "big wheels", "racing", "fun"],
+    category: "transport"
   },
   {
     id: "hugeicon-truck-return",
@@ -47027,7 +48030,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 13C10 13 9.3279 12.4436 8.73729 11.9161C8.31975 11.5803 8 11.2926 8 11.0048C8 10.7498 8.24949 10.5128 8.6558 10.1415C9.23188 9.66187 10 9 10 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["truck", "return"]
+    tags: ["truck", "return", "returns", "reverse logistics", "shipping back", "exchange", "refund", "customer service", "e-commerce", "arrow", "circular", "process"],
+    category: "transport"
   },
   {
     id: "hugeicon-truck",
@@ -47040,7 +48044,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.86957 17C3.51684 17 2.84048 17 2.42024 16.5607C2 16.1213 2 15.4142 2 14V7C2 5.58579 2 4.87868 2.42024 4.43934C2.84048 4 3.51684 4 4.86957 4H10.1304C11.4832 4 12.1595 4 12.5798 4.43934C13 4.87868 13 5.58579 13 7V17H8.69565" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["truck"]
+    tags: ["truck", "lorry", "vehicle", "transportation", "shipping", "logistics", "cargo", "delivery", "freight", "supply chain", "commerce"],
+    category: "transport"
   },
   {
     id: "hugeicon-trulli",
@@ -47052,7 +48057,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5002 11.9999L19.5002 19.9999C19.5002 20.9427 19.5002 21.4141 19.2074 21.707C18.9145 21.9999 18.4431 21.9999 17.5002 21.9999L6.50024 21.9999C5.55743 21.9999 5.08603 21.9999 4.79314 21.707C4.50024 21.4141 4.50024 20.9427 4.50024 19.9999L4.50024 11.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["trulli"]
+    tags: ["trulli", "architecture", "building", "house", "italy", "puglia", "historic", "tourism", "travel", "conical", "traditional"],
+    category: "other"
   },
   {
     id: "hugeicon-tsunami",
@@ -47064,7 +48070,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.88792 6.92656C7.25992 7.14256 7.97992 7.68256 9.17992 7.46656C10.6199 7.02256 11.8009 6.65115 12.7199 7.20256C13.6199 7.74256 14.2199 8.22256 14.5799 7.98256C14.7578 8.01814 15.0555 7.33634 14.9939 6.36256C14.9517 5.69425 14.7207 4.8884 14.2079 4.08256C13.9079 3.66256 13.7148 3.51528 13.6799 3.48256C11.7361 1.65713 8.59877 1.35756 5.81992 3.48256C2.69992 6.00256 2.27992 9.18256 2.09992 10.7426C1.79992 13.7426 2.27992 17.1626 2.75992 19.0226" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tsunami"]
+    tags: ["tsunami", "tidal wave", "natural disaster", "ocean", "sea", "water", "catastrophe", "warning", "emergency", "hazard", "climate"],
+    category: "weather"
   },
   {
     id: "hugeicon-tulip",
@@ -47078,7 +48085,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13C9.23858 13 7 10.7614 7 8V4C8.36273 4 9.59812 4.54516 10.5 5.42928" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tulip"]
+    tags: ["tulip", "flower", "plant", "spring", "nature", "garden", "bloom", "floral", "beauty", "decoration", "botany"],
+    category: "nature"
   },
   {
     id: "hugeicon-tumblr",
@@ -47087,7 +48095,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.90012 11.0183H7.01078C6.17867 11.0183 5.99989 10.8498 6 10.0181L6.00024 8.26617C6.00033 7.61097 5.98766 7.61186 6.65257 7.29099C8.35896 6.46753 9.86003 4.88315 10.2616 2.99294C10.3706 2.48002 10.4251 2.22356 10.5643 2.11178C10.7035 2 10.9282 2 11.3775 2H12.7521C13.2286 2 13.4668 2 13.6148 2.14645C13.7629 2.29289 13.7629 2.5286 13.7629 3V6.56483C13.7629 7.39637 13.9416 7.56483 14.7736 7.56483H16.6332C17.4653 7.56483 17.6441 7.73332 17.644 8.56496L17.6438 10.0184C17.6437 10.8499 17.4649 11.0183 16.633 11.0183H14.7733C13.9412 11.0183 13.7624 11.1868 13.7625 12.0184L13.7629 16.2597C13.7629 18.0202 15.3229 18.6002 16.6945 17.9926C17.1718 17.7811 17.1788 17.7952 17.3247 18.2389L17.9001 19.9882C18.0893 20.5636 18.0369 20.7786 17.5063 21.0836C13.5744 23.3432 8.91128 21.3694 8.91128 15.768L8.91091 12.0182C8.91083 11.1867 8.73205 11.0183 7.90012 11.0183Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tumblr"]
+    tags: ["tumblr", "social media", "blogging", "platform", "microblogging", "community", "sharing", "content", "app", "network", "logo"],
+    category: "social"
   },
   {
     id: "hugeicon-turtle-neck",
@@ -47098,7 +48107,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 5C10.8 6.33333 13.2 6.33333 15 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["turtle", "neck"]
+    tags: ["turtle", "neck", "clothing", "apparel", "fashion", "sweater", "garment", "winter", "style", "collar", "warm", "minimal"],
+    category: "other"
   },
   {
     id: "hugeicon-tv-01",
@@ -47108,7 +48118,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 3L12 6L16 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv", "01"]
+    tags: ["tv", "01", "television", "screen", "display", "entertainment", "media", "broadcast", "video", "monitor", "device", "electronics"],
+    category: "device"
   },
   {
     id: "hugeicon-tv-02",
@@ -47119,7 +48130,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 19L5 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv", "02"]
+    tags: ["tv", "02", "television", "screen", "display", "entertainment", "media", "broadcast", "video", "monitor", "device", "electronics"],
+    category: "device"
   },
   {
     id: "hugeicon-tv-fix",
@@ -47130,7 +48142,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 3L12 6L16 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv", "fix"]
+    tags: ["tv", "fix", "repair", "service", "maintenance", "technical support", "troubleshooting", "settings", "gear", "tool", "electronics", "system"],
+    category: "device"
   },
   {
     id: "hugeicon-tv-issue",
@@ -47142,7 +48155,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 3L12 6L16 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv", "issue"]
+    tags: ["tv", "issue", "error", "problem", "warning", "alert", "trouble", "bug", "failure", "exclamation", "electronics", "system"],
+    category: "device"
   },
   {
     id: "hugeicon-tv-smart",
@@ -47154,7 +48168,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 19L5 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["tv", "smart"]
+    tags: ["tv", "smart", "smart tv", "internet tv", "streaming", "apps", "connectivity", "home entertainment", "media center", "technology", "device", "wifi"],
+    category: "device"
   },
   {
     id: "hugeicon-twin-tower",
@@ -47174,7 +48189,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 22V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["twin", "tower"]
+    tags: ["twin", "tower", "building", "skyscraper", "architecture", "city", "urban", "landmark", "structure", "high-rise", "business", "finance"],
+    category: "other"
   },
   {
     id: "hugeicon-twitch",
@@ -47184,7 +48200,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 3H8C6.11438 3 5.17157 3 4.58579 3.58358C4 4.16716 4 5.10641 4 6.98492V13.56C4 13.9302 4 14.1153 4.02462 14.2702C4.16017 15.1228 4.83135 15.7914 5.68713 15.9265C5.8426 15.951 6.0284 15.951 6.4 15.951C6.4929 15.951 6.53935 15.951 6.57822 15.9571C6.79216 15.9909 6.95996 16.158 6.99384 16.3712C7 16.4099 7 16.4562 7 16.5487V18.0921C7 19.2742 7 19.8653 7.3345 19.9822C7.66899 20.0991 8.03962 19.6375 8.78087 18.7144L10.6998 16.3249C10.8473 16.1412 10.921 16.0493 11.0237 16.0002C11.1264 15.951 11.2445 15.951 11.4806 15.951H15.3431C16.1606 15.951 16.5694 15.951 16.9369 15.7993C17.3045 15.6477 17.5935 15.3597 18.1716 14.7838L18.8284 14.1295C19.4065 13.5536 19.6955 13.2656 19.8478 12.8995C20 12.5333 20 12.1261 20 11.3117V6.98492C20 5.10641 20 4.16716 19.4142 3.58358C18.8284 3 17.8856 3 16 3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["twitch"]
+    tags: ["twitch", "streaming", "gaming", "live stream", "esports", "platform", "video", "community", "entertainment", "social media", "app"],
+    category: "social"
   },
   {
     id: "hugeicon-twitter-square",
@@ -47194,7 +48211,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["twitter", "square"]
+    tags: ["twitter", "square", "social media", "x", "microblogging", "platform", "news", "communication", "sharing", "app", "network", "logo"],
+    category: "social"
   },
   {
     id: "hugeicon-twitter",
@@ -47203,7 +48221,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 18.5C3.76504 19.521 5.81428 20 8 20C14.4808 20 19.7617 14.8625 19.9922 8.43797L22 4.5L18.6458 5C17.9407 4.37764 17.0144 4 16 4C13.4276 4 11.5007 6.51734 12.1209 8.98003C8.56784 9.20927 5.34867 7.0213 3.48693 4.10523C2.25147 8.30185 3.39629 13.3561 6.5 16.4705C6.5 17.647 3.5 18.3488 2 18.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["twitter"]
+    tags: ["twitter", "social media", "x", "microblogging", "platform", "news", "communication", "sharing", "app", "network", "logo"],
+    category: "social"
   },
   {
     id: "hugeicon-two-circle",
@@ -47213,7 +48232,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "circle"]
+    tags: ["two", "circle", "circles", "overlap", "connection", "relationship", "intersection", "union", "geometric", "abstract", "minimal", "link"],
+    category: "ui"
   },
   {
     id: "hugeicon-two-factor-access",
@@ -47225,7 +48245,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 15C6 15 7 15.5 7.5 17C7.5 17 9 14 11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "factor", "access"]
+    tags: ["two", "factor", "access", "2fa", "authentication", "security", "login", "verification", "privacy", "account", "protection", "access control", "system"],
+    category: "security"
   },
   {
     id: "hugeicon-two-finger-01",
@@ -47234,7 +48255,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.091 10.9999V11.9999M17.091 10.9999C17.091 9.89537 16.2227 8.99994 15.1516 8.99994C14.6161 8.99994 14.182 9.44765 14.182 9.99993L14.1816 10.9999V3.49999C14.1816 2.67157 13.5304 2 12.7271 2C11.9237 2 11.2725 2.67157 11.2725 3.49999L11.2727 4.99998M17.091 10.9999C17.091 10.4765 17.5468 10.0783 18.0475 10.1643L18.3795 10.2214C19.3146 10.3821 20 11.2165 20 12.1942L19.9996 13.6667C19.9996 15.84 19.9996 16.9267 19.6786 17.7919C19.4924 18.2937 19.0011 18.9337 18.6083 19.3962C18.2685 19.7963 18.0603 20.3037 18.0603 20.8354V22M11.2727 4.99998C11.2727 4.17155 10.6215 3.49999 9.81824 3.49999C9.01493 3.49999 8.36373 4.17155 8.36373 4.99998L8.36353 13.4623L6.79236 11.837C6.103 11.1238 4.96746 11.1889 4.35844 11.9764C3.89244 12.579 3.87957 13.4314 4.32715 14.0488L7.81767 18.647C8.4855 19.5267 8.84836 20.8827 8.84836 22M11.2727 4.99998V9.99993" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "finger", "01"]
+    tags: ["two", "finger", "01", "gesture", "hand", "touch", "scroll", "swipe", "interaction", "ui", "pointer", "mobile", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-two-finger-02",
@@ -47243,7 +48265,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.26301 22.0012V21.1373C8.26301 20.6731 8.24974 20.1921 8.02536 19.7857C7.78125 19.3436 7.395 18.9721 6.88754 18.32C6.53526 17.8673 6.18154 17.414 5.83288 16.9585C5.35602 16.3355 4.84793 15.5595 4.5353 14.8912C4.19172 14.1567 4.13025 13.2691 4.52035 12.5582C4.70599 12.2198 5.01001 11.7854 5.50505 11.2165L7.74284 8.90318M7.74284 13.4416V8.90318M7.74284 8.90318L7.70416 5.20031C7.70416 4.23661 8.39323 3.45537 9.24324 3.45537C10.0932 3.45537 10.7086 4.08236 10.7086 5.04606L10.8094 9.99929L10.7086 3.74494C10.7086 2.78124 11.3976 2 12.2476 2C13.0976 2 13.7867 2.78124 13.7867 3.74494L13.748 7.44781L13.7603 11.0026V9.99929C13.7603 9.93755 13.7579 9.87566 13.7516 9.81426M13.7516 9.81426C13.7498 9.797 13.7477 9.77978 13.7452 9.76261M13.7516 9.81426C13.7579 9.84311 13.741 9.73336 13.7452 9.76261M13.7452 9.76261C13.7452 8.56901 15.8002 8.76815 16.5119 10.0177M16.7495 12.0024V10.856C16.7366 10.5391 16.6492 10.2588 16.5119 10.0177M16.5119 10.0177C18.9508 10.0641 19.5856 10.856 19.7478 12.0828V15.3298C19.7448 17.0565 19.4567 18.3086 18.4306 19.3384C17.4826 20.4707 17.7056 21.1045 17.682 22.0012" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "finger", "02"]
+    tags: ["two", "finger", "02", "gesture", "hand", "touch", "scroll", "swipe", "interaction", "ui", "pointer", "mobile", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-two-finger-03",
@@ -47252,7 +48275,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5 6C11.5 5.17157 10.8284 4.5 10 4.5C9.17157 4.5 8.5 5.17157 8.5 6V13.9623L6.8797 12.3369C6.16877 11.6237 4.99772 11.6888 4.36965 12.4763C3.88907 13.0789 3.8758 13.9314 4.33738 14.5487L7.34137 18.5667C8.02311 19.4785 8.36398 19.9344 8.77419 20.2888C9.40001 20.8294 10.1499 21.2056 10.9566 21.3834C11.4853 21.5 12.0534 21.5 13.1896 21.5C15.3562 21.5 16.4395 21.5 17.3019 21.1679C18.6207 20.6601 19.6627 19.6148 20.1689 18.2918C20.5 17.4267 20.5 16.34 20.5 14.1667V11.5C20.5 10.3954 19.6046 9.5 18.5 9.5C17.9477 9.5 17.5 9.94772 17.5 10.5M11.5 6V4C11.5 3.17157 12.1716 2.5 13 2.5C13.8284 2.5 14.5 3.17157 14.5 4V9M11.5 6V10.5M14.5 9V10.5M14.5 9L15.0777 8.71115C15.3554 8.57229 15.666 8.48266 15.9679 8.55504C16.8468 8.76572 17.5 9.55657 17.5 10.5M17.5 10.5V11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "finger", "03"]
+    tags: ["two", "finger", "03", "gesture", "hand", "touch", "scroll", "swipe", "interaction", "ui", "pointer", "mobile", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-two-finger-04",
@@ -47261,7 +48285,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.70761 14.0224V9.47081M7.70761 9.47081L7.74677 6.1081C7.74677 5.14719 8.37716 4.51616 9.14882 4.48315C10.089 4.44293 10.7542 5.04764 10.7542 6.00855L10.7757 10.4664L10.7542 4.07096C10.7542 3.11005 11.3985 2.5 12.2479 2.5C13.0974 2.5 13.7475 3.06246 13.7475 4.02337V6.96517L13.7598 10.5096V9.50925C13.7598 9.44769 13.7574 9.38598 13.751 9.32475M7.70761 9.47081L5.86823 11.3111C5.37351 11.8784 4.79033 12.5501 4.60481 12.8874C4.21497 13.5963 4.15674 14.2218 4.38773 14.9587C4.64889 15.6222 4.88352 16.0984 5.36007 16.7195C5.7085 17.1737 6.04584 17.8202 6.39788 18.2716C6.90502 18.9219 7.18209 19.3338 7.48867 19.7337C7.5219 19.777 7.55386 19.8163 7.58486 19.8522C8.01897 20.3558 8.62637 20.6827 9.21034 21.0015L9.4337 21.1234C10.1974 21.3711 11.2649 21.5831 13.0063 21.4711C14.2869 21.4724 15.753 21.607 16.7234 21.074C16.7653 21.051 16.8079 21.0292 16.8521 21.011L17.1538 20.8864C18.5667 20.1801 19.5521 18.6759 19.7013 17.1057C19.7692 16.3917 19.742 15.611 19.7433 14.8243V11.5867C19.5812 10.3634 18.9469 9.57388 16.5096 9.52762M13.751 9.32475C13.7492 9.30754 13.7471 9.29037 13.7447 9.27325M13.751 9.32475C13.7574 9.35352 13.7405 9.24409 13.7447 9.27325M13.7447 9.27325C13.7447 8.08311 15.7983 8.28168 16.5096 9.52762M16.747 11.5066V10.3634C16.7341 10.0475 16.6468 9.76804 16.5096 9.52762" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "finger", "04"]
+    tags: ["two", "finger", "04", "gesture", "hand", "touch", "scroll", "swipe", "interaction", "ui", "pointer", "mobile", "control"],
+    category: "ui"
   },
   {
     id: "hugeicon-two-finger-05",
@@ -47270,7 +48295,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.8111 5.70939C12.955 4.89355 12.4102 4.11556 11.5944 3.97171C10.7785 3.82786 10.0006 4.37261 9.8567 5.18845L9.07528 9.62008L8.14704 14.6982L5.88875 12.3369C5.17559 11.6238 4.00086 11.6888 3.37081 12.4764C2.88873 13.079 2.87541 13.9314 3.33844 14.5488L6.35188 18.5667C7.03576 19.4786 7.3777 19.9345 7.7892 20.2889C8.41699 20.8295 9.16928 21.2056 9.97845 21.3835C10.5088 21.5001 11.0787 21.5001 12.2185 21.5001H14.701C17.0433 21.5001 19.0716 19.8741 19.5812 17.588L20.893 11.7039L20.9798 11.2115C21.1237 10.3956 20.5789 9.61763 19.7631 9.47377C18.9472 9.32992 18.1692 9.87467 18.0254 10.6905M12.8111 5.70939L13.1584 3.73978C13.3023 2.92394 14.0803 2.37918 14.8961 2.52304C15.7119 2.66689 16.2567 3.44488 16.1128 4.26072L15.2446 9.18476M12.8111 5.70939L12.0297 10.141M15.2446 9.18476L14.9841 10.662M15.2446 9.18476C15.3885 8.36892 16.1664 7.82417 16.9823 7.96802C17.7981 8.11188 18.3429 8.88986 18.199 9.70571L18.0254 10.6905M18.0254 10.6905L17.9385 11.1829" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "finger", "05"]
+    tags: ["two", "finger", "05", "gesture", "touch", "scroll", "swipe", "interaction", "hand", "pointing", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-two-square",
@@ -47280,7 +48306,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10C15 12.0786 12.1196 13.9172 10.3503 14.8505C9.54685 15.2743 9 16.0917 9 17H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["two", "square"]
+    tags: ["two", "square", "layout", "split", "sections", "grid", "comparison", "geometric", "minimal", "duo"],
+    category: "ui"
   },
   {
     id: "hugeicon-txt-01",
@@ -47290,7 +48317,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 16L12 19M12 19L14 22M12 19L14 16M12 19L10 22M16.5 16H18.2499M18.2499 16H19.9999M18.2499 16V22M4 16H5.74997M5.74997 16H7.49993M5.74997 16V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["txt", "01"]
+    tags: ["txt", "01", "document", "file", "text", "data", "plain", "format", "note", "paper"],
+    category: "file"
   },
   {
     id: "hugeicon-txt-02",
@@ -47300,7 +48328,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 14H19.5M19.5 14H21M19.5 14V19M7 14H8.5M8.5 14H10M8.5 14V19M12.5 14L14 16.5M14 16.5L15.5 19M14 16.5L15.5 14M14 16.5L12.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["txt", "02"]
+    tags: ["txt", "02", "document", "file", "text", "data", "plain", "format", "note", "paper"],
+    category: "file"
   },
   {
     id: "hugeicon-type-cursor",
@@ -47310,7 +48339,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 3H9M11 3H9M9 3V21M9 21H7M9 21H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["type", "cursor"]
+    tags: ["type", "cursor", "typing", "text input", "writing", "edit", "pointer", "caret", "interface", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-typescript-01",
@@ -47321,7 +48351,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.5 12.0001H10.5M12.5 12.0001H10.5M10.5 12.0001V18.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["typescript", "01"]
+    tags: ["typescript", "01", "programming", "code", "javascript", "language", "development", "frontend", "backend", "web"],
+    category: "tool"
   },
   {
     id: "hugeicon-typescript-02",
@@ -47332,7 +48363,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.0002 16H15C14.4477 16 14 16.4477 14 17V18C14 18.5523 14.4477 19 15 19H17.0002C17.5525 19 18.0002 19.4477 18.0002 20V21C18.0002 21.5523 17.5525 22 17.0002 22H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["typescript", "02"]
+    tags: ["typescript", "02", "programming", "code", "javascript", "language", "development", "frontend", "backend", "web"],
+    category: "tool"
   },
   {
     id: "hugeicon-typescript-03",
@@ -47342,7 +48374,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 14H12.5M12.5 14H14.5M12.5 14V19M20 14H18C17.4477 14 17 14.4477 17 15V15.5C17 16.0523 17.4477 16.5 18 16.5H19C19.5523 16.5 20 16.9477 20 17.5V18C20 18.5523 19.5523 19 19 19H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["typescript", "03"]
+    tags: ["typescript", "03", "programming", "code", "javascript", "language", "development", "frontend", "backend", "web"],
+    category: "tool"
   },
   {
     id: "hugeicon-uber",
@@ -47353,7 +48386,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 12H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["uber"]
+    tags: ["uber", "brand", "app", "transportation", "ride-sharing", "taxi", "logistics", "travel", "service"],
+    category: "transport"
   },
   {
     id: "hugeicon-ufo-01",
@@ -47366,7 +48400,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 16L18.6838 18.0513C18.7683 18.3048 18.8105 18.4316 18.8755 18.5343C19.0134 18.7526 19.2305 18.909 19.4812 18.9709C19.5992 19 19.7328 19 20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ufo", "01"]
+    tags: ["ufo", "01", "alien", "spaceship", "extraterrestrial", "mystery", "sci-fi", "flying saucer", "space", "fantasy"],
+    category: "other"
   },
   {
     id: "hugeicon-ufo",
@@ -47378,7 +48413,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9998 19H12.0088" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ufo"]
+    tags: ["ufo", "alien", "spaceship", "extraterrestrial", "mystery", "sci-fi", "flying saucer", "space", "fantasy"],
+    category: "other"
   },
   {
     id: "hugeicon-umbrella-dollar",
@@ -47390,7 +48426,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 15.875C16.6716 15.875 16 16.4626 16 17.1875C16 17.9124 16.6716 18.5 17.5 18.5C18.3284 18.5 19 19.0876 19 19.8125C19 20.5374 18.3284 21.125 17.5 21.125M17.5 15.875C18.1531 15.875 18.7087 16.2402 18.9146 16.75M17.5 15.875V15M17.5 21.125C16.8469 21.125 16.2913 20.7598 16.0854 20.25M17.5 21.125V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["umbrella", "dollar"]
+    tags: ["umbrella", "dollar", "insurance", "finance", "protection", "security", "wealth", "money", "investment", "rainy day"],
+    category: "finance"
   },
   {
     id: "hugeicon-umbrella",
@@ -47401,7 +48438,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13.5V20.5C12 21.3284 11.3284 22 10.5 22C9.67157 22 9 21.3284 9 20.5V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["umbrella"]
+    tags: ["umbrella", "rain", "protection", "shelter", "weather", "cover", "accessory", "forecast", "open"],
+    category: "weather"
   },
   {
     id: "hugeicon-unamused",
@@ -47412,7 +48450,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 16L15 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unamused"]
+    tags: ["unamused", "emoji", "face", "expression", "indifferent", "neutral", "bored", "disappointed", "emotion"],
+    category: "social"
   },
   {
     id: "hugeicon-unarchive-03",
@@ -47423,7 +48462,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 11L12 17.5M9 13.5C9.58984 12.8932 11.1597 10.5 12 10.5C12.8403 10.5 14.4102 12.8932 15 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unarchive", "03"]
+    tags: ["unarchive", "03", "extract", "unpack", "folder", "file management", "data", "storage", "retrieve", "document"],
+    category: "file"
   },
   {
     id: "hugeicon-unavailable",
@@ -47433,7 +48473,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22.25 12C22.25 6.47715 17.7728 2 12.25 2C6.72715 2 2.25 6.47715 2.25 12C2.25 17.5228 6.72715 22 12.25 22C17.7728 22 22.25 17.5228 22.25 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["unavailable"]
+    tags: ["unavailable", "offline", "error", "restricted", "blocked", "access denied", "forbidden", "warning", "alert"],
+    category: "system"
   },
   {
     id: "hugeicon-underpants-01",
@@ -47444,7 +48485,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 8H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["underpants", "01"]
+    tags: ["underpants", "01", "underwear", "clothing", "garment", "fashion", "lingerie", "personal", "comfort", "briefs"],
+    category: "other"
   },
   {
     id: "hugeicon-underpants-02",
@@ -47455,7 +48497,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.5 8H20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["underpants", "02"]
+    tags: ["underpants", "02", "underwear", "clothing", "garment", "fashion", "lingerie", "personal", "comfort", "briefs"],
+    category: "other"
   },
   {
     id: "hugeicon-underpants-03",
@@ -47466,7 +48509,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 8V9.56091C2 9.86218 2.0252 10.134 2.10806 10.4238C2.93715 13.3235 5.92032 17.6665 9.52749 18.8626C9.85085 18.9698 10.1521 19 10.4924 19H13.5076C13.8479 19 14.1492 18.9698 14.4725 18.8626C18.0797 17.6665 21.0629 13.3235 21.8919 10.4238C21.9748 10.134 22 9.86218 22 9.56091V8C22 6.58579 22 5.87868 21.5607 5.43934C21.1213 5 20.4142 5 19 5H5C3.58579 5 2.87868 5 2.43934 5.43934C2 5.87868 2 6.58579 2 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["underpants", "03"]
+    tags: ["underpants", "03", "underwear", "clothing", "garment", "fashion", "lingerie", "personal", "comfort", "briefs"],
+    category: "other"
   },
   {
     id: "hugeicon-undo-02",
@@ -47476,7 +48520,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 3V4.27816C3 6.47004 3 7.56599 3.70725 8.16512C4.4145 8.76425 5.49553 8.58408 7.6576 8.22373L9 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["undo", "02"]
+    tags: ["undo", "02", "reverse", "back", "action", "history", "edit", "reset", "arrow", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-undo-03",
@@ -47486,7 +48531,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 4L5.8462 4.87652C3.94873 6.31801 3 7.03875 3 8C3 8.96125 3.94873 9.68199 5.8462 11.1235L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["undo", "03"]
+    tags: ["undo", "03", "reverse", "back", "action", "history", "edit", "reset", "arrow", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-undo",
@@ -47495,7 +48541,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C8.79275 3 5.97733 4.67765 4.38341 7.20327M3.29339 3.00076L3.46556 5.05452C3.58958 6.53384 3.65159 7.27349 4.13359 7.68914C4.61559 8.10479 5.32673 8.03185 6.74899 7.88595L8.79339 7.67625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["undo"]
+    tags: ["undo", "reverse", "back", "action", "history", "edit", "reset", "arrow", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-unfold-less",
@@ -47505,7 +48552,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 5.00004C18 5.00004 13.5811 9.99999 12 10C10.4188 10 6 5 6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unfold", "less"]
+    tags: ["unfold", "less", "collapse", "minimize", "shrink", "compress", "toggle", "accordion", "arrow", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-unfold-more",
@@ -47515,7 +48563,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.9999 9.99996C17.9999 9.99996 13.581 5.00001 11.9999 5C10.4188 4.99999 5.99994 10 5.99994 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unfold", "more"]
+    tags: ["unfold", "more", "expand", "maximize", "stretch", "enlarge", "toggle", "accordion", "arrow", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-ungroup-items",
@@ -47529,7 +48578,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 15C16.5 14.5341 16.5 14.3011 16.4239 14.1173C16.3224 13.8723 16.1277 13.6776 15.8827 13.5761C15.6989 13.5 15.4659 13.5 15 13.5H9C8.53406 13.5 8.30109 13.5 8.11732 13.5761C7.87229 13.6776 7.67761 13.8723 7.57612 14.1173C7.5 14.3011 7.5 14.5341 7.5 15C7.5 15.4659 7.5 15.6989 7.57612 15.8827C7.67761 16.1277 7.87229 16.3224 8.11732 16.4239C8.30109 16.5 8.53406 16.5 9 16.5H15C15.4659 16.5 15.6989 16.5 15.8827 16.4239C16.1277 16.3224 16.3224 16.1277 16.4239 15.8827C16.5 15.6989 16.5 15.4659 16.5 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ungroup", "items"]
+    tags: ["ungroup", "items", "separate", "disperse", "break apart", "rearrange", "layers", "objects", "design", "edit"],
+    category: "ui"
   },
   {
     id: "hugeicon-ungroup-layers",
@@ -47543,7 +48593,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.5 13.5C16.5 13.9782 15.813 14.3144 14.4389 14.9868L13.3503 15.5195C12.6958 15.8398 12.3685 16 12 16C11.6315 16 11.3042 15.8398 10.6497 15.5195L9.56106 14.9868C8.18702 14.3144 7.5 13.9782 7.5 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["ungroup", "layers"]
+    tags: ["ungroup", "layers", "rearrange", "stack", "separate", "organization", "management", "interface", "system", "edit", "geometric", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-unhappy",
@@ -47554,7 +48605,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 8.01067C7 8.01067 8.40944 7.88341 9.19588 8.50798M9.19588 8.50798L8.93275 9.34267C8.82896 9.67191 9.10031 10 9.4764 10C9.87165 10 10.1327 9.64338 9.92918 9.33476C9.74877 9.06118 9.50309 8.75196 9.19588 8.50798ZM14 8.01067C14 8.01067 15.4094 7.88341 16.1959 8.50798M16.1959 8.50798L15.9328 9.34267C15.829 9.67191 16.1003 10 16.4764 10C16.8717 10 17.1327 9.64338 16.9292 9.33476C16.7488 9.06118 16.5031 8.75196 16.1959 8.50798Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unhappy"]
+    tags: ["unhappy", "sad", "frown", "disappointed", "negative", "mood", "emotion", "feedback", "user experience", "face", "outline"],
+    category: "social"
   },
   {
     id: "hugeicon-universal-access-circle",
@@ -47566,7 +48618,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 14L14 18M13 14V10M13 14H12M10 18L11 14M11 14V10M11 14H12M12 14V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["universal", "access", "circle"]
+    tags: ["universal", "access", "circle", "accessibility", "disability", "inclusive", "handicap", "support", "human", "person", "interface", "rounded", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-universal-access",
@@ -47577,7 +48630,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 14.5L14.5 20.5M13.5 14.5V9M13.5 14.5H10.5M9.5 20.5L10.5 14.5M10.5 14.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["universal", "access"]
+    tags: ["universal", "access", "accessibility", "disability", "inclusive", "handicap", "support", "human", "person", "interface", "outline", "minimal"],
+    category: "ui"
   },
   {
     id: "hugeicon-university",
@@ -47594,7 +48648,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 16L10.5 16.5M13.5 16V16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["university"]
+    tags: ["university", "education", "campus", "college", "school", "academic", "learning", "building", "institution", "knowledge", "architecture"],
+    category: "education"
   },
   {
     id: "hugeicon-unlink-01",
@@ -47605,7 +48660,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 4L6 6M2 8L5 9M3 13.5L5 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unlink", "01"]
+    tags: ["unlink", "01", "disconnect", "break link", "separate", "chain", "connection", "remove", "interface", "system", "action", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-unlink-02",
@@ -47616,7 +48672,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 7H4.07889M7 2L7 4.07889" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unlink", "02"]
+    tags: ["unlink", "02", "disconnect", "break link", "separate", "chain", "connection", "remove", "interface", "system", "action", "diagonal"],
+    category: "ui"
   },
   {
     id: "hugeicon-unlink-03",
@@ -47629,7 +48686,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12.569 15.1086C13.3084 16.2489 13.1111 17.4178 12.2569 18.2723L9.26249 21.2673C8.28436 22.2456 6.69849 22.2456 5.72036 21.2673L2.73506 18.2813C1.75693 17.303 1.75693 15.7168 2.73506 14.7385L5.72944 11.7435C6.43119 11.0416 7.76493 10.6363 8.91107 11.4664" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unlink", "03"]
+    tags: ["unlink", "03", "disconnect", "break link", "separate", "chain", "connection", "remove", "interface", "system", "action", "horizontal"],
+    category: "ui"
   },
   {
     id: "hugeicon-unlink-04",
@@ -47641,7 +48699,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.00009 8H5.07898M8.00009 3L8.00009 5.07889" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unlink", "04"]
+    tags: ["unlink", "04", "disconnect", "break link", "separate", "chain", "connection", "remove", "interface", "system", "action", "vertical"],
+    category: "ui"
   },
   {
     id: "hugeicon-unlink-05",
@@ -47651,7 +48710,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 21L14 19.5M8.5 21L10 19.5M8.5 3L10 4.5M15.5 3L14 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unlink", "05"]
+    tags: ["unlink", "05", "disconnect", "break link", "separate", "chain", "connection", "remove", "interface", "system", "action", "crossed"],
+    category: "ui"
   },
   {
     id: "hugeicon-unlink-06",
@@ -47663,7 +48723,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4 10.5L2 9M4 14.5L2 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unlink", "06"]
+    tags: ["unlink", "06", "disconnect", "break link", "separate", "chain", "connection", "remove", "interface", "system", "action", "bold"],
+    category: "ui"
   },
   {
     id: "hugeicon-unsplash",
@@ -47673,7 +48734,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 16V11H19.5V19.5H4.5V11H8V16H16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["unsplash"]
+    tags: ["unsplash", "photo", "image", "stock", "photography", "platform", "brand", "social media", "app", "logo", "minimal"],
+    category: "social"
   },
   {
     id: "hugeicon-upload-01",
@@ -47683,7 +48745,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 3L12 13M12 3C11.2998 3 9.99153 4.9943 9.5 5.5M12 3C12.7002 3 14.0085 4.9943 14.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "01"]
+    tags: ["upload", "01", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "cloud"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-02",
@@ -47693,7 +48756,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 4V14M12 4C11.2997 4 9.99149 5.9943 9.49996 6.5M12 4C12.7002 4 14.0084 5.9943 14.5 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "02"]
+    tags: ["upload", "02", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "document"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-03",
@@ -47703,7 +48767,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 3L12 14M12 3C12.4683 3 12.8243 3.4381 13.5364 4.3143L14.5 5.5M12 3C11.5316 3 11.1756 3.4381 10.4635 4.3143L9.49995 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "03"]
+    tags: ["upload", "03", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "server"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-04",
@@ -47713,7 +48778,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 16.5C20 18.982 19.482 19.5 17 19.5H7C4.518 19.5 4 18.982 4 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "04"]
+    tags: ["upload", "04", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "folder"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-05",
@@ -47723,7 +48789,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5 19H19.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "05"]
+    tags: ["upload", "05", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "document"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-circle-01",
@@ -47733,7 +48800,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 8L12 16M12 8C11.2998 8 9.99153 9.9943 9.5 10.5M12 8C12.7002 8 14.0085 9.9943 14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "circle", "01"]
+    tags: ["upload", "circle", "01", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "rounded"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-circle-02",
@@ -47743,7 +48811,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9831 17L11.9831 11.0245M11.9831 11.0245C11.7217 11.021 11.4637 11.204 11.2734 11.4273L9.99903 12.8827M11.9831 11.0245C12.2353 11.028 12.4908 11.21 12.6927 11.4273L13.9745 12.8827M14.9902 8L8.99023 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "circle", "02"]
+    tags: ["upload", "circle", "02", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "filled"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-square-01",
@@ -47753,7 +48822,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "square", "01"]
+    tags: ["upload", "square", "01", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "squared"],
+    category: "file"
   },
   {
     id: "hugeicon-upload-square-02",
@@ -47763,7 +48833,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.9702 17.0386L11.9702 9.98823M11.9702 9.98823C11.6441 9.98389 11.3224 10.208 11.085 10.4816L9.49553 12.2643M11.9702 9.98823C12.2847 9.99242 12.6034 10.2154 12.8553 10.4816L14.454 12.2643M15.9863 7.03857L7.98633 7.03857" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upload", "square", "02"]
+    tags: ["upload", "square", "02", "send", "transfer", "publish", "share", "arrow up", "file management", "interface", "action", "data", "filled"],
+    category: "file"
   },
   {
     id: "hugeicon-upwork",
@@ -47772,7 +48843,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2 4.5V10.75C2 12.7925 3.7075 14.5 5.75 14.5C7.7925 14.5 9.5 12.7925 9.5 10.75V4.5C10.75 7.625 13.0965 14.5 17.625 14.5C20.0079 14.5 22 12.5079 22 10.125C22 7.74208 20.0079 5.75 17.625 5.75C15.0913 5.75 13.5912 7.625 13.25 9.5C12.9475 11.1625 11.375 19.5 11.375 19.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["upwork"]
+    tags: ["upwork", "freelance", "job", "platform", "employment", "work", "gig", "brand", "social media", "app", "logo"],
+    category: "social"
   },
   {
     id: "hugeicon-usb-bugs",
@@ -47784,7 +48856,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.9957 10.5014C14.9777 9.26104 14.8858 8.55783 14.4142 8.08606C13.8284 7.5 12.8856 7.5 11 7.5H9C7.11438 7.5 6.17157 7.5 5.58579 8.08606C5 8.67212 5 9.61538 5 11.5019V17.0045C5 17.9342 5 18.3991 5.07686 18.7857C5.39249 20.3732 6.63288 21.6141 8.21964 21.9299C8.43379 21.9725 8.67199 21.9915 9 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "bugs"]
+    tags: ["usb", "bugs", "error", "malfunction", "virus", "problem", "device", "connection", "hardware", "tech", "security", "warning"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-connected-01",
@@ -47797,7 +48870,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 13.5C12 13.5 13 13.5 14 15.5C14 15.5 17.1765 10.5 20 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "connected", "01"]
+    tags: ["usb", "connected", "01", "plugged in", "sync", "charging", "data transfer", "device", "connection", "hardware", "tech", "interface", "outline"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-connected-02",
@@ -47809,7 +48883,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 16C11 16 12 16 13 18C13 18 16.1765 13 19 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "connected", "02"]
+    tags: ["usb", "connected", "02", "plugged in", "sync", "charging", "data transfer", "device", "connection", "hardware", "tech", "interface", "filled"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-connected-03",
@@ -47821,7 +48896,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.6429 18.426C13.6429 18.426 14.0204 18.5412 14.5446 19.3092C14.5446 19.3092 15.3134 17.6512 16.3792 17.0752M18.9987 18.0167C18.9987 20.2166 17.2134 21.9999 15.0111 21.9999C12.8088 21.9999 11.0234 20.2166 11.0234 18.0167C11.0234 15.8168 12.8088 14.0334 15.0111 14.0334C17.2134 14.0334 18.9987 15.8168 18.9987 18.0167Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "connected", "03"]
+    tags: ["usb", "connected", "03", "connection", "device", "port", "interface", "data transfer", "peripheral", "hardware", "electronic", "charging"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-error",
@@ -47833,7 +48909,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.9749 16.3512V17.6428M14.9664 19.7497H14.9867M12.0081 22H17.8922C19.4603 22 20.545 20.2711 19.7132 18.939L18.2734 16.3859L16.7687 14.0064C15.9478 12.6918 14.037 12.6918 13.216 14.0064C12.8693 14.5617 12.2678 15.4549 11.7237 16.3859C11.4242 16.8982 11.1379 17.4117 10.9025 17.8424C10.5052 18.5697 9.95895 19.2975 10.0134 20.1249C10.0786 21.1158 10.8867 22 12.0081 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "error"]
+    tags: ["usb", "error", "failed", "warning", "issue", "problem", "malfunction", "alert", "troubleshooting", "unplugged", "disconnect"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-memory-01",
@@ -47844,7 +48921,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.5 5.35034L15.8832 3.96713C16.8613 2.98904 17.3503 2.5 17.958 2.5C18.5657 2.5 19.0548 2.98904 20.0329 3.96713C21.011 4.94521 21.5 5.43425 21.5 6.04195C21.5 6.64966 21.011 7.1387 20.0329 8.11678L18.6497 9.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "memory", "01"]
+    tags: ["usb", "memory", "01", "flash drive", "storage", "data", "drive", "portable", "backup", "thumb drive", "removable", "transfer"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-memory-02",
@@ -47855,7 +48933,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.5 4.5H12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "memory", "02"]
+    tags: ["usb", "memory", "02", "flash drive", "storage", "data", "drive", "portable", "backup", "thumb drive", "removable", "transfer"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-not-connected-01",
@@ -47868,7 +48947,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5 11L13.5 17M19.5 17L13.5 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "not", "connected", "01"]
+    tags: ["usb", "not", "connected", "01", "disconnected", "unplugged", "inactive", "missing", "port", "interface", "hardware", "device", "peripheral"],
+    category: "device"
   },
   {
     id: "hugeicon-usb-not-connected-02",
@@ -47880,7 +48960,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9.5 4.5H10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb", "not", "connected", "02"]
+    tags: ["usb", "not", "connected", "02", "disconnected", "unplugged", "inactive", "missing", "port", "interface", "hardware", "device", "peripheral"],
+    category: "device"
   },
   {
     id: "hugeicon-usb",
@@ -47892,7 +48973,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 8.5H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usb"]
+    tags: ["usb", "port", "interface", "connector", "device", "peripheral", "hardware", "electronic", "connection", "charging"],
+    category: "device"
   },
   {
     id: "hugeicon-usdt",
@@ -47902,7 +48984,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 10.4776V8C13.5 7.05719 13.5 6.58579 13.7929 6.29289C14.0858 6 14.5572 6 15.5 6H18C18.4659 6 18.6989 6 18.8827 5.92388C19.1277 5.82239 19.3224 5.62771 19.4239 5.38268C19.5 5.19891 19.5 4.96594 19.5 4.5C19.5 4.03406 19.5 3.80109 19.4239 3.61732C19.3224 3.37229 19.1277 3.17761 18.8827 3.07612C18.6989 3 18.4659 3 18 3H6C5.53406 3 5.30109 3 5.11732 3.07612C4.87229 3.17761 4.67761 3.37229 4.57612 3.61732C4.5 3.80109 4.5 4.03406 4.5 4.5C4.5 4.96594 4.5 5.19891 4.57612 5.38268C4.67761 5.62771 4.87229 5.82239 5.11732 5.92388C5.30109 6 5.53406 6 6 6H8.5C9.44281 6 9.91421 6 10.2071 6.29289C10.5 6.58579 10.5 7.05719 10.5 8V10.4776M13.5 12.9776V19.5C13.5 19.9659 13.5 20.1989 13.4239 20.3827C13.3224 20.6277 13.1277 20.8224 12.8827 20.9239C12.6989 21 12.4659 21 12 21C11.5341 21 11.3011 21 11.1173 20.9239C10.8723 20.8224 10.6776 20.6277 10.5761 20.3827C10.5 20.1989 10.5 19.9659 10.5 19.5V12.9776" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["usdt"]
+    tags: ["usdt", "tether", "cryptocurrency", "stablecoin", "blockchain", "digital currency", "finance", "crypto", "money", "token"],
+    category: "finance"
   },
   {
     id: "hugeicon-user-02",
@@ -47912,7 +48995,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="12" cy="7.5" r="3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "02"]
+    tags: ["user", "02", "profile", "person", "avatar", "account", "individual", "login", "human", "member", "customer"],
+    category: "social"
   },
   {
     id: "hugeicon-user-03",
@@ -47922,7 +49006,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 14H10C7.23858 14 5 16.2386 5 19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19C19 16.2386 16.7614 14 14 14Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "03"]
+    tags: ["user", "03", "profile", "person", "avatar", "account", "individual", "login", "human", "member", "customer"],
+    category: "social"
   },
   {
     id: "hugeicon-user-account",
@@ -47935,7 +49020,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 12H19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "account"]
+    tags: ["user", "account", "profile", "person", "avatar", "login", "individual", "settings", "dashboard", "member", "customer"],
+    category: "social"
   },
   {
     id: "hugeicon-user-add-01",
@@ -47946,7 +49032,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 20C3 16.134 6.13401 13 10 13C11.4872 13 12.8662 13.4638 14 14.2547" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "add", "01"]
+    tags: ["user", "add", "01", "new user", "invite", "register", "create account", "onboarding", "plus", "friend request", "team", "member"],
+    category: "social"
   },
   {
     id: "hugeicon-user-add-02",
@@ -47957,7 +49044,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 9V15M22 12L16 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "add", "02"]
+    tags: ["user", "add", "02", "new user", "invite", "register", "create account", "onboarding", "plus", "friend request", "team", "member"],
+    category: "social"
   },
   {
     id: "hugeicon-user-ai",
@@ -47969,7 +49057,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.9737 2.02148C18.9795 1.99284 19.0205 1.99284 19.0263 2.02148C19.3302 3.50808 20.4919 4.66984 21.9785 4.97368C22.0072 4.97954 22.0072 5.02046 21.9785 5.02632C20.4919 5.33016 19.3302 6.49192 19.0263 7.97852C19.0205 8.00716 18.9795 8.00716 18.9737 7.97852C18.6698 6.49192 17.5081 5.33016 16.0215 5.02632C15.9928 5.02046 15.9928 4.97954 16.0215 4.97368C17.5081 4.66984 18.6698 3.50808 18.9737 2.02148Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "ai"]
+    tags: ["user", "ai", "artificial intelligence", "robot", "bot", "machine learning", "automation", "future", "digital assistant", "cybernetic", "intelligence"],
+    category: "system"
   },
   {
     id: "hugeicon-user-arrow-left-right",
@@ -47981,7 +49070,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M4.5 11L3.1099 9.82582C2.36997 9.20083 2 8.88833 2 8.5C2 8.11168 2.36997 7.79917 3.1099 7.17417L4.5 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "arrow", "left", "right"]
+    tags: ["user", "arrow", "left", "right", "transfer", "move", "migrate", "switch", "exchange", "reassign", "flow", "direction", "relocate"],
+    category: "arrow"
   },
   {
     id: "hugeicon-user-block-01",
@@ -47992,7 +49082,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.55 15.05L20.45 19.95M21.5 17.5C21.5 15.567 19.933 14 18 14C16.067 14 14.5 15.567 14.5 17.5C14.5 19.433 16.067 21 18 21C19.933 21 21.5 19.433 21.5 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "block", "01"]
+    tags: ["user", "block", "01", "restrict", "ban", "deny", "private", "access denied", "security", "stop", "prohibit", "unfollow"],
+    category: "security"
   },
   {
     id: "hugeicon-user-block-02",
@@ -48003,7 +49094,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 20.5C16 16.634 12.866 13.5 9 13.5C5.13401 13.5 2 16.634 2 20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "block", "02"]
+    tags: ["user", "block", "02", "restrict", "ban", "deny", "private", "access denied", "security", "stop", "prohibit", "unfollow"],
+    category: "security"
   },
   {
     id: "hugeicon-user-check-01",
@@ -48014,7 +49106,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13 18.5C13 18.5 14.3485 19.0067 15 21C15 21 18.1765 16 21 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "check", "01"]
+    tags: ["user", "check", "01", "verified", "approve", "confirm", "success", "complete", "authenticate", "validate", "correct", "accept"],
+    category: "security"
   },
   {
     id: "hugeicon-user-check-02",
@@ -48025,7 +49118,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 12.3929C16 12.3929 17.2 13.0447 17.8 14C17.8 14 19.6 10.25 22 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "check", "02"]
+    tags: ["user", "check", "02", "verified", "approve", "confirm", "success", "complete", "authenticate", "validate", "correct", "accept"],
+    category: "security"
   },
   {
     id: "hugeicon-user-circle-02",
@@ -48036,7 +49130,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M5.49994 19.0001L6.06034 18.0194C6.95055 16.4616 8.60727 15.5001 10.4016 15.5001H13.5983C15.3926 15.5001 17.0493 16.4616 17.9395 18.0194L18.4999 19.0001" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "circle", "02"]
+    tags: ["user", "circle", "02", "profile", "person", "avatar", "account", "individual", "login", "human", "member", "customer"],
+    category: "social"
   },
   {
     id: "hugeicon-user-circle",
@@ -48047,7 +49142,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 17C17 14.2386 14.7614 12 12 12C9.23858 12 7 14.2386 7 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "circle"]
+    tags: ["user", "circle", "profile", "person", "avatar", "account", "individual", "login", "human", "member", "customer"],
+    category: "social"
   },
   {
     id: "hugeicon-user-edit-01",
@@ -48058,7 +49154,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20.1887 14.9339L19.5661 14.3113C19.151 13.8962 18.478 13.8962 18.0629 14.3113L14.7141 17.6601C14.269 18.1052 13.9656 18.6722 13.8421 19.2895L13.5 21L15.2105 20.6579C15.8278 20.5344 16.3948 20.231 16.8399 19.7859L20.1887 16.4371C20.6038 16.022 20.6038 15.349 20.1887 14.9339Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "edit", "01"]
+    tags: ["user", "edit", "01", "update profile", "settings", "modify", "customize", "pencil", "change", "configure", "personalize", "account management"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-full-view",
@@ -48068,7 +49165,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16.0415 9C17.5645 10.3353 18.5514 12.5969 17.6652 14.7052C17.4742 15.1594 17.0361 15.4539 16.5514 15.4539C16.0585 15.4539 15.249 15.296 15.0917 15.9374L13.9945 20.4123C13.7657 21.3454 12.9434 22 12.0001 22C11.0567 22 10.2344 21.3454 10.0056 20.4123L8.90839 15.9374C8.7511 15.296 7.94155 15.4539 7.44868 15.4539C6.96396 15.4539 6.52588 15.1594 6.33494 14.7052C5.44873 12.5969 6.43564 10.3353 7.95863 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "full", "view"]
+    tags: ["user", "full", "view", "full screen", "expand", "maximize", "detailed view", "profile", "person", "individual", "account", "zoom"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-group-02",
@@ -48082,7 +49180,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="6.5" cy="6.5" r="2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "group", "02"]
+    tags: ["user", "group", "02", "team", "community", "multiple users", "collaboration", "audience", "social", "network", "people", "friends"],
+    category: "social"
   },
   {
     id: "hugeicon-user-group-03",
@@ -48096,7 +49195,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.71429 19C2.76751 19 2 18.2325 2 17.2857C2 14.9188 3.91878 13 6.28571 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "group", "03"]
+    tags: ["user", "group", "03", "team", "community", "multiple users", "collaboration", "audience", "social", "network", "people", "friends"],
+    category: "social"
   },
   {
     id: "hugeicon-user-group",
@@ -48110,7 +49210,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.5 11.5C4.46243 11.5 2 13.7386 2 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "group"]
+    tags: ["user", "group", "team", "community", "collaboration", "social", "network", "people", "members", "filled", "rounded", "avatar"],
+    category: "social"
   },
   {
     id: "hugeicon-user-id-verification",
@@ -48121,7 +49222,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 17.5C17 14.7386 14.7614 12.5 12 12.5C9.23858 12.5 7 14.7386 7 17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "id", "verification"]
+    tags: ["user", "id", "verification", "identity", "authentication", "security", "approval", "document", "profile", "onboarding", "kyc", "filled", "minimal"],
+    category: "security"
   },
   {
     id: "hugeicon-user-list",
@@ -48134,7 +49236,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M20 16L22 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "list"]
+    tags: ["user", "list", "directory", "members", "roster", "team", "contacts", "management", "bulleted", "filled", "simple", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-lock-01",
@@ -48145,7 +49248,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.50195 20C2.50195 16.134 5.63596 13 9.50195 13C10.9892 13 12.3681 13.4638 13.502 14.2547" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "lock", "01"]
+    tags: ["user", "lock", "01", "security", "privacy", "restricted", "access", "private", "account", "profile", "filled", "protection", "login"],
+    category: "security"
   },
   {
     id: "hugeicon-user-lock-02",
@@ -48157,7 +49261,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 9H20.5C21.0523 9 21.5 9.44772 21.5 10V12C21.5 12.5523 21.0523 13 20.5 13H17.5C16.9477 13 16.5 12.5523 16.5 12V10C16.5 9.44772 16.9477 9 17.5 9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "lock", "02"]
+    tags: ["user", "lock", "02", "security", "privacy", "restricted", "access", "private", "account", "profile", "outline", "protection", "login"],
+    category: "security"
   },
   {
     id: "hugeicon-user-love-01",
@@ -48168,7 +49273,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 21.5C17.5 21.5 21.5 19.6471 21.5 16.6389C21.5 15.4576 20.6579 14.5 19.5 14.5C18.5526 14.5 17.9211 14.9118 17.5 15.7353C17.0789 14.9118 16.4474 14.5 15.5 14.5C14.3421 14.5 13.5 15.4576 13.5 16.6389C13.5 19.6471 17.5 21.5 17.5 21.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "love", "01"]
+    tags: ["user", "love", "01", "favorite", "like", "affection", "engagement", "profile", "social", "heart", "filled", "appreciation", "connection"],
+    category: "social"
   },
   {
     id: "hugeicon-user-love-02",
@@ -48179,7 +49285,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 14.5C19 14.5 22 13.1765 22 11.0278C22 10.184 21.3684 9.5 20.5 9.5C19.7895 9.5 19.3158 9.79412 19 10.3824C18.6842 9.79412 18.2105 9.5 17.5 9.5C16.6316 9.5 16 10.184 16 11.0278C16 13.1765 19 14.5 19 14.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "love", "02"]
+    tags: ["user", "love", "02", "favorite", "like", "affection", "engagement", "profile", "social", "heart", "outline", "appreciation", "connection"],
+    category: "social"
   },
   {
     id: "hugeicon-user-minus-01",
@@ -48190,7 +49297,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 20.5C3 16.634 6.13401 13.5 10 13.5C11.4872 13.5 12.8662 13.9638 14 14.7547" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "minus", "01"]
+    tags: ["user", "minus", "01", "remove", "delete", "unfollow", "block", "deactivate", "subtract", "profile", "filled", "management", "account"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-minus-02",
@@ -48201,7 +49309,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 12L16 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "minus", "02"]
+    tags: ["user", "minus", "02", "remove", "delete", "unfollow", "block", "deactivate", "subtract", "profile", "outline", "management", "account"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-multiple-02",
@@ -48213,7 +49322,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 14C19.7614 14 22 16.2386 22 19C22 20.1046 21.1046 21 20 21H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "multiple", "02"]
+    tags: ["user", "multiple", "02", "team", "community", "collaboration", "social", "network", "people", "members", "outline", "rounded", "avatars"],
+    category: "social"
   },
   {
     id: "hugeicon-user-multiple-03",
@@ -48225,7 +49335,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 4.14453C16.4457 4.57481 17.5 5.91408 17.5 7.49959C17.5 9.0851 16.4457 10.4244 15 10.8547" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "multiple", "03"]
+    tags: ["user", "multiple", "03", "team", "community", "collaboration", "social", "network", "people", "members", "outline", "rounded", "avatars"],
+    category: "social"
   },
   {
     id: "hugeicon-user-multiple",
@@ -48237,7 +49348,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 17C21 13.6863 18.3137 11 15 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "multiple"]
+    tags: ["user", "multiple", "team", "community", "collaboration", "social", "network", "people", "members", "filled", "rounded", "avatars"],
+    category: "social"
   },
   {
     id: "hugeicon-user-question-01",
@@ -48248,7 +49360,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.5 14.8462C15.5 13.8266 16.3954 13 17.5 13C18.6046 13 19.5 13.8266 19.5 14.8462C19.5 15.2137 19.3837 15.5561 19.1831 15.8438C18.5854 16.7012 17.5 17.0189 17.5 18.0385V18.5M17.4902 21H17.4992" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "question", "01"]
+    tags: ["user", "question", "01", "help", "support", "faq", "query", "unknown", "onboarding", "assistance", "filled", "customer service", "profile"],
+    category: "communication"
   },
   {
     id: "hugeicon-user-question-02",
@@ -48259,7 +49372,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 9.84615C17.5 8.82655 18.3954 8 19.5 8C20.6046 8 21.5 8.82655 21.5 9.84615C21.5 10.2137 21.3837 10.5561 21.1831 10.8438C20.5854 11.7012 19.5 12.0189 19.5 13.0385V13.5M19.4902 16H19.4992" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "question", "02"]
+    tags: ["user", "question", "02", "help", "support", "faq", "query", "unknown", "onboarding", "assistance", "outline", "customer service", "profile"],
+    category: "communication"
   },
   {
     id: "hugeicon-user-remove-01",
@@ -48270,7 +49384,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 20C2.5 16.134 5.63401 13 9.5 13C10.775 13 11.9704 13.3409 13 13.9365" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "remove", "01"]
+    tags: ["user", "remove", "01", "delete", "unfollow", "block", "deactivate", "cancel", "profile", "filled", "management", "account", "exit"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-remove-02",
@@ -48281,7 +49396,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 9L19.5 11.5M19.5 11.5L17 14M19.5 11.5L22 14M19.5 11.5L17 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "remove", "02"]
+    tags: ["user", "remove", "02", "delete", "unfollow", "block", "deactivate", "cancel", "profile", "outline", "management", "account", "exit"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-roadside",
@@ -48294,7 +49410,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 16.5L17 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "roadside"]
+    tags: ["user", "roadside", "assistance", "support", "breakdown", "travel", "emergency", "help", "car", "outline", "service", "location"],
+    category: "transport"
   },
   {
     id: "hugeicon-user-search-01",
@@ -48305,7 +49422,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 19.5C3 15.634 6.13401 12.5 10 12.5C11.0736 12.5 12.0907 12.7417 13 13.1736" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "search", "01"]
+    tags: ["user", "search", "01", "find", "discover", "explore", "lookup", "magnify", "profile", "filled", "directory", "investigate", "browse"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-search-02",
@@ -48316,7 +49434,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 20.5C16 16.634 12.866 13.5 9 13.5C5.13401 13.5 2 16.634 2 20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "search", "02"]
+    tags: ["user", "search", "02", "find", "discover", "explore", "lookup", "magnify", "profile", "outline", "directory", "investigate", "browse"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-settings-01",
@@ -48327,7 +49446,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 20C18.9293 20 19.7402 19.493 20.171 18.7404M18 20C17.0707 20 16.2598 19.493 15.829 18.7404M18 20L18 21.5M18 15C18.9292 15 19.74 15.5069 20.1709 16.2593M18 15C17.0708 15 16.26 15.5069 15.8291 16.2593M18 15L18 13.5M21.5 15.4998L20.1709 16.2593M14.5 19.4998L15.829 18.7404M21.5 19.4998L20.171 18.7404M14.5 15.4998L15.8291 16.2593M20.1709 16.2593C20.3803 16.6249 20.5 17.0485 20.5 17.5C20.5 17.9514 20.3804 18.3749 20.171 18.7404M15.829 18.7404C15.6196 18.3749 15.5 17.9514 15.5 17.5C15.5 17.0485 15.6197 16.6249 15.8291 16.2593" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "settings", "01"]
+    tags: ["user", "settings", "01", "preferences", "account", "configuration", "management", "control", "profile", "filled", "gear", "options", "admin"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-settings-02",
@@ -48338,7 +49458,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 13L19 14.5M19 13C19.737 13 20.3809 12.6013 20.7278 12.0079M19 13C18.263 13 17.6191 12.6013 17.2722 12.0079M19 9L19 7.5M19 9C19.737 9 20.3809 9.39866 20.7278 9.99209M19 9C18.263 9 17.6191 9.39865 17.2722 9.99209M22 9.25L20.7278 9.99209M16 12.75L17.2722 12.0079M22 12.75L20.7278 12.0079M16 9.25L17.2722 9.99209M20.7278 12.0079C20.9009 11.7119 21 11.3676 21 11C21 10.6324 20.9009 10.288 20.7278 9.99209M17.2722 9.99209C17.0992 10.288 17 10.6324 17 11C17 11.3676 17.0991 11.712 17.2722 12.0079" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "settings", "02"]
+    tags: ["user", "settings", "02", "preferences", "account", "configuration", "management", "control", "profile", "outline", "gear", "options", "admin"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-sharing",
@@ -48349,7 +49470,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18 21C18 17.6863 15.3137 15 12 15C8.68629 15 6 17.6863 6 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "sharing"]
+    tags: ["user", "sharing", "share", "distribute", "collaborate", "social", "network", "spread", "profile", "filled", "connection", "send"],
+    category: "social"
   },
   {
     id: "hugeicon-user-shield-01",
@@ -48360,7 +49482,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.5 17V14.5C19.5 14.5 18 13.5 18 13.5C18 13.5 16.5 14.5 14.5 14.5V17C14.5 20.5 18 21.5 18 21.5C18 21.5 21.5 20.5 21.5 17Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "shield", "01"]
+    tags: ["user", "shield", "01", "security", "protection", "privacy", "safety", "secure", "verified", "profile", "filled", "guarantee", "defense"],
+    category: "security"
   },
   {
     id: "hugeicon-user-shield-02",
@@ -48371,7 +49494,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 11.3438V9.3125C20.4286 9.3125 19.25 8.5 19.25 8.5C19.25 8.5 18.0714 9.3125 16.5 9.3125V11.3438C16.5 14.1875 19.25 15 19.25 15C19.25 15 22 14.1875 22 11.3438Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "shield", "02"]
+    tags: ["user", "shield", "02", "security", "protection", "privacy", "safety", "secure", "verified", "profile", "outline", "guarantee", "defense"],
+    category: "security"
   },
   {
     id: "hugeicon-user-square",
@@ -48382,7 +49506,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21 13V11C21 7.22876 21 5.34315 19.8284 4.17157C18.6569 3 16.7712 3 13 3H11C7.22876 3 5.34315 3 4.17157 4.17157C3 5.34315 3 7.22876 3 11V13C3 16.7712 3 18.6569 4.17157 19.8284C5.34315 21 7.22876 21 11 21H13C16.7712 21 18.6569 21 19.8284 19.8284C21 18.6569 21 16.7712 21 13Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "square"]
+    tags: ["user", "square", "profile", "account", "avatar", "person", "contact", "identity", "filled", "geometric", "minimal", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-star-01",
@@ -48393,7 +49518,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.1047 14.5055L18.7206 15.7475C18.8046 15.9204 19.0286 16.0862 19.2175 16.118L20.3339 16.305C21.0478 16.425 21.2158 16.9472 20.7014 17.4624L19.8335 18.3374C19.6865 18.4856 19.606 18.7715 19.6515 18.9761L19.9 20.0594C20.096 20.9168 19.6445 21.2485 18.8921 20.8004L17.8457 20.1758C17.6567 20.0629 17.3453 20.0629 17.1528 20.1758L16.1064 20.8004C15.3575 21.2485 14.9025 20.9133 15.0985 20.0594L15.347 18.9761C15.3925 18.7715 15.312 18.4856 15.165 18.3374L14.2971 17.4624C13.7861 16.9472 13.9506 16.425 14.6646 16.305L15.7809 16.118C15.9664 16.0862 16.1904 15.9204 16.2744 15.7475L16.8903 14.5055C17.2263 13.8315 17.7722 13.8315 18.1047 14.5055Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "star", "01"]
+    tags: ["user", "star", "01", "favorite", "vip", "premium", "profile", "account", "rating", "achievement", "highlight", "filled"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-star-02",
@@ -48404,7 +49530,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5183 8.93325L20.0462 9.99786C20.1182 10.1461 20.3102 10.2882 20.4722 10.3154L21.4291 10.4757C22.041 10.5786 22.185 11.0262 21.744 11.4677L21.0001 12.2178C20.8741 12.3448 20.8051 12.5898 20.8441 12.7652L21.0571 13.6937C21.2251 14.4287 20.8381 14.713 20.1932 14.3289L19.2963 13.7936C19.1343 13.6968 18.8674 13.6968 18.7024 13.7936L17.8055 14.3289C17.1636 14.713 16.7736 14.4257 16.9416 13.6937L17.1546 12.7652C17.1935 12.5898 17.1246 12.3448 16.9986 12.2178L16.2547 11.4677C15.8167 11.0262 15.9577 10.5786 16.5696 10.4757L17.5265 10.3154C17.6855 10.2882 17.8775 10.1461 17.9495 9.99786L18.4774 8.93325C18.7654 8.35558 19.2333 8.35558 19.5183 8.93325Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "star", "02"]
+    tags: ["user", "star", "02", "favorite", "vip", "premium", "profile", "account", "rating", "achievement", "highlight", "outline"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-status",
@@ -48416,7 +49543,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 17C7 14.2386 9.23858 12 12 12C13.5743 12 14.9786 12.7276 15.8951 13.8648" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "status"]
+    tags: ["user", "status", "profile", "account", "online", "offline", "availability", "presence", "indicator", "dot", "circular"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-story",
@@ -48428,7 +49556,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 17C17 14.2386 14.7614 12 12 12C9.23858 12 7 14.2386 7 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "story"]
+    tags: ["user", "story", "profile", "account", "narrative", "journey", "experience", "timeline", "social media", "content"],
+    category: "social"
   },
   {
     id: "hugeicon-user-switch",
@@ -48440,7 +49569,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M18.5 8.5C18.5 5.73571 16.2643 3.5 13.5 3.5L14 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "switch"]
+    tags: ["user", "switch", "profile", "account", "change", "swap", "transfer", "login", "logout", "arrow", "direction"],
+    category: "ui"
   },
   {
     id: "hugeicon-user-time-01",
@@ -48451,7 +49581,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 18L18 17.5V16M21.5 17.5C21.5 19.433 19.933 21 18 21C16.067 21 14.5 19.433 14.5 17.5C14.5 15.567 16.067 14 18 14C19.933 14 21.5 15.567 21.5 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "time", "01"]
+    tags: ["user", "time", "01", "profile", "account", "schedule", "appointment", "history", "activity", "clock", "deadline", "filled"],
+    category: "time"
   },
   {
     id: "hugeicon-user-time-02",
@@ -48462,7 +49593,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 18.5V16.4704C3 15.2281 3.55927 14.0099 4.68968 13.4946C6.0685 12.8661 7.72212 12.5 9.5 12.5C10.5541 12.5 11.5646 12.6287 12.5 12.8645" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "time", "02"]
+    tags: ["user", "time", "02", "profile", "account", "schedule", "appointment", "history", "activity", "clock", "deadline", "outline"],
+    category: "time"
   },
   {
     id: "hugeicon-user-time-03",
@@ -48473,7 +49605,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.5 20H5C3.89543 20 3 19.1046 3 18C3 15.2386 5.23858 13 8 13H12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "time", "03"]
+    tags: ["user", "time", "03", "profile", "account", "schedule", "appointment", "history", "activity", "clock", "deadline", "hourglass"],
+    category: "time"
   },
   {
     id: "hugeicon-user-unlock-01",
@@ -48484,7 +49617,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.50204 20C2.50204 16.134 5.63605 13 9.50204 13C10.9893 13 12.3682 13.4638 13.502 14.2547" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "unlock", "01"]
+    tags: ["user", "unlock", "01", "profile", "account", "access", "permission", "security", "authentication", "open", "padlock", "filled"],
+    category: "security"
   },
   {
     id: "hugeicon-user-unlock-02",
@@ -48496,7 +49630,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.5 9V7.5C17.5 6.67157 18.1716 6 19 6C19.3842 6 19.7346 6.14443 20 6.38195" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "unlock", "02"]
+    tags: ["user", "unlock", "02", "profile", "account", "access", "permission", "security", "authentication", "open", "padlock", "outline"],
+    category: "security"
   },
   {
     id: "hugeicon-user-warning-01",
@@ -48508,7 +49643,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 12V12.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "warning", "01"]
+    tags: ["user", "warning", "01", "profile", "account", "alert", "error", "caution", "problem", "notification", "exclamation", "filled"],
+    category: "security"
   },
   {
     id: "hugeicon-user-warning-02",
@@ -48520,7 +49656,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 13V13.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "warning", "02"]
+    tags: ["user", "warning", "02", "profile", "account", "alert", "error", "caution", "problem", "notification", "exclamation", "outline"],
+    category: "security"
   },
   {
     id: "hugeicon-user-warning-03",
@@ -48532,7 +49669,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.5 13V13.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user", "warning", "03"]
+    tags: ["user", "warning", "03", "profile", "account", "alert", "error", "caution", "problem", "notification", "triangle"],
+    category: "security"
   },
   {
     id: "hugeicon-user",
@@ -48542,7 +49680,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 20.5C19 16.634 15.866 13.5 12 13.5C8.13401 13.5 5 16.634 5 20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["user"]
+    tags: ["user", "profile", "account", "person", "avatar", "individual", "member", "contact", "human", "silhouette"],
+    category: "ui"
   },
   {
     id: "hugeicon-uv-01",
@@ -48551,7 +49690,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19.0398 10.3679C17.9251 9.7936 17.7602 9.33788 18.1319 8.17618C18.3274 7.56515 18.9174 6.39175 18.4745 5.76736C17.8935 4.94821 16.5388 5.63909 15.8237 5.86792C14.6294 6.25004 14.1906 6.04435 13.6319 4.96008C13.3117 4.33848 12.8801 3.00008 11.9998 3.00008C11.1194 3.00008 10.6878 4.33848 10.3676 4.96008C9.80895 6.04435 9.37015 6.25004 8.17585 5.86792C7.46067 5.63909 6.10601 4.94821 5.52499 5.76736C5.08211 6.39175 5.67208 7.56515 5.86759 8.17618C6.23928 9.33788 6.07445 9.7936 4.95975 10.3679C4.33819 10.6881 2.99986 11.1197 2.99976 12C2.99965 12.8804 4.33812 13.312 4.95975 13.6323C6.07445 14.2066 6.23928 14.6623 5.86759 15.824C5.65428 16.4906 5.0124 17.7434 5.63737 18.3656C6.26014 18.9857 7.51055 18.3451 8.17585 18.1322C9.37015 17.7501 9.80895 17.9558 10.3676 19.0401C10.6878 19.6617 11.1194 21.0001 11.9998 21.0001C12.8801 21.0001 13.3117 19.6617 13.6319 19.0401C14.1906 17.9558 14.6294 17.7501 15.8237 18.1322C16.489 18.3451 17.7394 18.9857 18.3621 18.3656C18.9871 17.7434 18.3452 16.4906 18.1319 15.824C17.7602 14.6623 17.9251 14.2066 19.0398 13.6323C19.6614 13.312 20.9999 12.8804 20.9998 12C20.9997 11.1197 19.6613 10.6881 19.0398 10.3679Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["uv", "01"]
+    tags: ["uv", "01", "sun", "radiation", "weather", "protection", "health", "indicator", "filled"],
+    category: "weather"
   },
   {
     id: "hugeicon-uv-02",
@@ -48567,7 +49707,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 16L15.5 21L17.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["uv", "02"]
+    tags: ["uv", "02", "sun", "radiation", "weather", "protection", "health", "indicator", "outline"],
+    category: "weather"
   },
   {
     id: "hugeicon-uv-03",
@@ -48583,7 +49724,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.5 16L15.5 21L17.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["uv", "03"]
+    tags: ["uv", "03", "sun", "radiation", "weather", "protection", "health", "indicator", "meter"],
+    category: "weather"
   },
   {
     id: "hugeicon-vaccine",
@@ -48598,7 +49740,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M13.4 18L13.9806 18.5806C14.2702 18.8702 14.415 19.015 14.5912 19.007C14.7675 18.999 14.8986 18.8417 15.1608 18.527L16.6 16.8M19 18C19 20.2091 17.2091 22 15 22C12.7909 22 11 20.2091 11 18C11 15.7909 12.7909 14 15 14C17.2091 14 19 15.7909 19 18Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vaccine"]
+    tags: ["vaccine", "health", "medical", "injection", "immunization", "prevention", "syringe", "medicine", "treatment"],
+    category: "health"
   },
   {
     id: "hugeicon-vacuum-cleaner",
@@ -48610,7 +49753,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 21H16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vacuum", "cleaner"]
+    tags: ["vacuum", "cleaner", "cleaning", "household", "appliance", "dust", "tidy", "maintenance", "tool"],
+    category: "tool"
   },
   {
     id: "hugeicon-validation-approval",
@@ -48623,7 +49767,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6 17H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["validation", "approval"]
+    tags: ["validation", "approval", "confirm", "approve", "verify", "success", "check", "authorize", "quality", "agreement"],
+    category: "ui"
   },
   {
     id: "hugeicon-validation",
@@ -48634,7 +49779,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7 15.6667C7 15.6667 7.625 15.6667 8.25 17C8.25 17 10.2353 13.6667 12 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["validation"]
+    tags: ["validation", "confirm", "verify", "check", "approve", "authorize", "quality", "agreement", "process"],
+    category: "ui"
   },
   {
     id: "hugeicon-van",
@@ -48646,7 +49792,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="7" cy="17" r="2" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["van"]
+    tags: ["van", "delivery", "transportation", "vehicle", "cargo", "logistics", "commercial", "truck"],
+    category: "transport"
   },
   {
     id: "hugeicon-variable",
@@ -48660,7 +49807,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10 13L14 17M14 13L10 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["variable"]
+    tags: ["variable", "math", "equation", "programming", "data", "changeable", "algebra", "formula", "code"],
+    category: "other"
   },
   {
     id: "hugeicon-vegetarian-food",
@@ -48670,7 +49818,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M10.655 5C11.5512 5 12.2778 4.32843 12.2778 3.5C12.2778 2.67157 11.5512 2 10.655 2H5.24561C4.34936 2 3.6228 2.67157 3.6228 3.5C3.6228 4.32843 4.34936 5 5.24561 5M11.1693 4.92311C12.1247 6.68943 12.9095 8.28337 13.3888 10C13.4279 10.1401 13.465 10.281 13.5 10.4229M10.428 22H6.32748C2.74721 22 2 21.3093 2 18V13.7771C2 10.3773 3.09757 7.88562 4.70467 4.91465" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vegetarian", "food"]
+    tags: ["vegetarian", "food", "diet", "healthy", "plant-based", "vegan", "nutrition", "organic", "leaf", "meal"],
+    category: "food"
   },
   {
     id: "hugeicon-versus",
@@ -48681,7 +49830,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M19 13.5V13C19 12.4477 18.5523 12 18 12H15C14.4477 12 14 12.4477 14 13V15C14 15.5523 14.4477 16 15 16H18C18.5523 16 19 16.4477 19 17V19C19 19.5523 18.5523 20 18 20H15C14.4477 20 14 19.5523 14 19V18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["versus"]
+    tags: ["versus", "vs", "comparison", "competition", "battle", "opposition", "contrast", "challenge", "versus sign"],
+    category: "other"
   },
   {
     id: "hugeicon-vertical-resize",
@@ -48695,7 +49845,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M12 18V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vertical", "resize"]
+    tags: ["vertical", "resize", "height", "adjust", "scale", "expand", "contract", "updown", "arrows", "ui", "layout"],
+    category: "ui"
   },
   {
     id: "hugeicon-vertical-scroll-point",
@@ -48706,7 +49857,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M16 17C16 17 13.054 21 12 21C10.9459 21 8 17 8 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vertical", "scroll", "point"]
+    tags: ["vertical", "scroll", "point", "pagination", "progress", "indicator", "dots", "navigation", "menu", "onboarding", "ui"],
+    category: "ui"
   },
   {
     id: "hugeicon-vest",
@@ -48718,7 +49870,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 2L15 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vest"]
+    tags: ["vest", "clothing", "jacket", "apparel", "fashion", "garment", "sleeveless", "outfit", "ecommerce"],
+    category: "commerce"
   },
   {
     id: "hugeicon-viber",
@@ -48731,7 +49884,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 9.5C17 7.29086 15.2091 5.5 13 5.5" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["viber"]
+    tags: ["viber", "social media", "messaging", "chat", "app", "communication", "platform", "brand", "logo"],
+    category: "social"
   },
   {
     id: "hugeicon-victory-finger-01",
@@ -48740,7 +49894,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.51708 13.0007L7.96439 10.0432M7.96439 10.0432L6.84918 4.07572C6.67303 3.13311 7.28511 2.22346 8.22351 2.03325C9.17309 1.84078 10.0983 2.45694 10.2885 3.40846L11.5024 9.48123L12.7225 3.40846C12.9127 2.45694 13.8379 1.84078 14.7875 2.03325C15.7259 2.22346 16.2701 3.13795 16.0939 4.08057L15.0677 9.82971M7.96439 10.0432C6.072 11.8178 4.91115 12.8595 4.67339 13.7962C4.40846 14.84 4.18905 15.9851 6.0778 18.2819C6.69951 19.0379 7.22362 19.5625 7.34491 19.7626C7.55609 20.111 8.00331 20.3723 8.00331 22.0023M15.0836 9.84861C17.3452 10.4912 18.8165 11.7103 19.2379 12.5798C19.7074 13.5487 19.5747 15.0057 18.5899 17.4059C18.2014 18.3528 17.7253 18.8915 17.6468 19.112C17.4638 19.6257 17.1848 20.1789 17.3131 21.9783" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["victory", "finger", "01"]
+    tags: ["victory", "finger", "01", "peace", "win", "success", "hand gesture", "celebration", "positive", "achievement", "human"],
+    category: "other"
   },
   {
     id: "hugeicon-victory-finger-02",
@@ -48749,7 +49904,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M7.33384 10.5L6.18585 11.8492C5.25059 12.9483 4.78295 13.4979 4.60625 14.1468C4.52985 14.4274 4.49431 14.7177 4.50074 15.0086C4.51561 15.6814 4.83662 16.3294 5.47865 17.6252C6.2779 19.2383 6.67752 20.0449 7.32318 20.5834C7.6028 20.8166 7.91282 21.0099 8.24455 21.158C9.01054 21.5 9.90412 21.5 11.6913 21.5H13.1498C14.3954 21.5 15.0182 21.5 15.5629 21.3393C16.434 21.0824 17.1913 20.5315 17.7083 19.7788C18.0316 19.3082 18.2285 18.7119 18.6224 17.5194L19.031 16.2824C19.2729 15.55 19.3939 15.1838 19.445 14.8763C19.7703 12.9193 18.6246 11.0174 16.7533 10.408C16.4593 10.3122 16.0814 10.252 15.3258 10.1316M14.9811 11.5L16.3803 4.62268C16.6033 3.52664 15.7736 2.5 14.6649 2.5C13.883 2.5 13.1959 3.02307 12.9811 3.78175L11.3621 9.5L9.74838 3.80011C9.5305 3.03056 8.83352 2.5 8.04045 2.5C6.93222 2.5 6.09458 3.51288 6.29282 4.61323L7.89392 13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["victory", "finger", "02"]
+    tags: ["victory", "finger", "02", "peace", "win", "success", "hand gesture", "celebration", "positive", "achievement", "human"],
+    category: "other"
   },
   {
     id: "hugeicon-victory-finger-03",
@@ -48758,7 +49914,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M6.97809 13.5196L6.38311 10.0699M6.38311 10.0699L5.32331 3.92521C5.17123 2.942 5.70202 2.23777 6.51218 2.03937C7.33198 1.83861 8.18303 2.48368 8.29549 3.18841L9.99009 10.0699L11.6372 3.36463C11.8014 2.37214 12.7453 1.93054 13.5651 2.1313C14.3752 2.3297 14.8096 2.942 14.6576 3.92521L13.4798 10.5572M6.38311 10.0699C5.69802 10.7529 4.5957 11.9809 4.24908 12.756C4.1635 12.9473 4.09591 13.1477 4.04777 13.3516C3.8181 14.3245 4.37723 15.4279 5.95195 17.5026C6.58241 18.2417 7.69179 19.6008 7.7582 19.8228C7.76482 19.8449 8.06999 20.2163 7.99161 21.9979M13.8734 8.34106C14.5178 7.87452 16.2467 7.70574 16.9221 9.47321C16.946 9.60185 16.9842 9.70326 16.9972 9.83092M16.9972 9.83092C17.0559 10.4083 16.9972 10.9603 16.9972 11.0299M16.9972 9.83092C17.3809 9.08115 19.624 10.0007 19.915 12.7239C20.1674 14.0971 19.8096 15.9667 19.5931 16.6261C19.2713 17.6064 18.3813 19.1284 18.1814 19.3561C17.3495 20.4835 17.4354 21.4492 17.4354 21.9829" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["victory", "finger", "03"]
+    tags: ["victory", "finger", "03", "peace", "win", "success", "hand gesture", "celebration", "positive", "achievement", "human"],
+    category: "other"
   },
   {
     id: "hugeicon-video-01",
@@ -48769,7 +49926,8 @@ export const hugeiconIcons: IconItem[] = [
 <circle cx="11.5" cy="9.5" r="1.5" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "01"]
+    tags: ["video", "01", "movie", "film", "play", "media player", "entertainment", "streaming", "multimedia", "content"],
+    category: "media"
   },
   {
     id: "hugeicon-video-02",
@@ -48780,7 +49938,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17 8.90585L17.1259 8.80196C19.2417 7.05623 20.2996 6.18336 21.1498 6.60482C22 7.02628 22 8.42355 22 11.2181V12.7819C22 15.5765 22 16.9737 21.1498 17.3952C20.2996 17.8166 19.2417 16.9438 17.1259 15.198L17 15.0941" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "02"]
+    tags: ["video", "02", "movie", "film", "play", "media player", "entertainment", "streaming", "multimedia", "content"],
+    category: "media"
   },
   {
     id: "hugeicon-video-ai",
@@ -48791,7 +49950,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.872 14.8357C22 13.9227 22 12.7279 22 11C22 8.19974 22 6.79961 21.455 5.73005C20.9757 4.78924 20.2108 4.02433 19.27 3.54497C18.2004 3 16.8003 3 14 3H10C7.19974 3 5.79961 3 4.73005 3.54497C3.78924 4.02433 3.02433 4.78924 2.54497 5.73005C2 6.79961 2 8.19974 2 11C2 13.8003 2 15.2004 2.54497 16.27C3.02433 17.2108 3.78924 17.9757 4.73005 18.455C5.79961 19 7.19974 19 10 19H13.4257" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "ai"]
+    tags: ["video", "ai", "artificial intelligence", "machine learning", "automation", "smart", "future", "tech", "robotics", "deep learning"],
+    category: "system"
   },
   {
     id: "hugeicon-video-camera-ai",
@@ -48803,7 +49963,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15.1207 2.30967C15.2051 1.89678 15.795 1.89678 15.8794 2.30967C16.0658 3.22159 16.7785 3.93424 17.6904 4.12063C18.1033 4.20503 18.1033 4.79497 17.6904 4.87937C16.7785 5.06576 16.0658 5.77841 15.8794 6.69033C15.795 7.10322 15.2051 7.10322 15.1207 6.69033C14.9343 5.77841 14.2217 5.06576 13.3097 4.87937C12.8968 4.79497 12.8968 4.20503 13.3097 4.12063C14.2217 3.93424 14.9343 3.22159 15.1207 2.30967Z" fill="currentColor"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "camera", "ai"]
+    tags: ["video", "camera", "ai", "artificial intelligence", "machine learning", "automation", "smart", "future", "tech", "robotics", "deep learning", "surveillance"],
+    category: "system"
   },
   {
     id: "hugeicon-video-console",
@@ -48815,7 +49976,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "console"]
+    tags: ["video", "console", "gaming", "controller", "entertainment", "playstation", "xbox", "retro", "joystick", "device"],
+    category: "device"
   },
   {
     id: "hugeicon-video-off",
@@ -48826,7 +49988,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M8.23627 4.0004C8.47815 3.99988 8.72995 3.99988 8.99217 3.99988H9.99093C13.2867 3.99988 14.9346 3.99988 15.9584 5.02501C16.9822 6.05013 16.9822 7.70005 16.9822 10.9999V12.7573M16.9822 9.2313L19.3018 7.52901C20.7729 6.54061 21.4489 7.17184 21.6674 7.64835C22.1191 8.92801 21.9768 11.3935 21.9768 14.5416C21.8703 16.5549 21.5952 16.7718 21.3137 16.9938L21.3107 16.9961" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "off"]
+    tags: ["video", "off", "mute", "disabled", "hidden", "private", "stop", "unavailable", "meeting", "webinar"],
+    category: "media"
   },
   {
     id: "hugeicon-video-replay",
@@ -48836,7 +49999,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14.9453 12.3948C14.7686 13.0215 13.9333 13.4644 12.2629 14.3502C10.648 15.2064 9.8406 15.6346 9.18992 15.4625C8.9209 15.3913 8.6758 15.2562 8.47812 15.07C8 14.6198 8 13.7465 8 12C8 10.2535 8 9.38018 8.47812 8.92995C8.6758 8.74381 8.9209 8.60868 9.18992 8.53753C9.8406 8.36544 10.648 8.79357 12.2629 9.64983C13.9333 10.5356 14.7686 10.9785 14.9453 11.6052C15.0182 11.8639 15.0182 12.1361 14.9453 12.3948Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["video", "replay"]
+    tags: ["video", "replay", "rewind", "loop", "repeat", "playback", "history", "again", "circular", "media player"],
+    category: "media"
   },
   {
     id: "hugeicon-view-off-slash",
@@ -48847,7 +50011,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3 3L21 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "off", "slash"]
+    tags: ["view", "off", "slash", "hide", "invisible", "private", "disabled", "hidden", "security", "privacy", "password"],
+    category: "security"
   },
   {
     id: "hugeicon-view-off",
@@ -48860,7 +50025,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M9 13.5L7.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["view", "off"]
+    tags: ["view", "off", "hide", "invisible", "private", "disabled", "hidden", "security", "privacy", "password"],
+    category: "security"
   },
   {
     id: "hugeicon-view",
@@ -48870,7 +50036,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["view"]
+    tags: ["view", "show", "visible", "public", "eye", "watch", "reveal", "preview", "visibility"],
+    category: "ui"
   },
   {
     id: "hugeicon-vimeo",
@@ -48879,7 +50046,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M21.3459 4.65406C19.0372 2.82124 15.4614 5.64316 14.5961 7.12694C15.8974 7.43176 18.5 7.54313 16 12.0276C15 13.6885 12.7 15.8145 11.5 11.0311C10 5.05175 10 0.567257 2 7.54313C2.47556 8.4911 3.76645 8.5883 4.74116 8.17029C5.62781 7.79005 6.54267 7.94136 7 9.53652C8 13.0245 8.5 19.9866 12 19.9866C15.6345 20.4812 24.461 7.12711 21.3459 4.65406Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vimeo"]
+    tags: ["vimeo", "social media", "video platform", "streaming", "brand", "logo", "content", "multimedia", "app"],
+    category: "social"
   },
   {
     id: "hugeicon-vine-square",
@@ -48889,7 +50057,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vine", "square"]
+    tags: ["vine", "square", "plant", "leaf", "nature", "growth", "floral", "organic", "ecology"],
+    category: "nature"
   },
   {
     id: "hugeicon-vine",
@@ -48898,7 +50067,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M3.04261 4.41495C2.7122 8.99913 4.26712 17.1284 8.97309 21.0871C10.406 22.2925 11.9014 22.3165 13.3266 21.0857C15.6727 19.0596 17.3041 15.9398 18.2214 14.2938C18.2214 14.2938 19.3849 14.6873 20.3522 14.7846C20.931 14.8427 21.4613 11.7387 20.3517 11.7315C17.4157 11.7122 14.1381 11.4181 13.6775 8.14692C13.1726 4.56122 17.2116 5.07346 16.7068 8.19571C17.7165 9.17141 19.7361 9.17141 19.7361 9.17141C20.7458 6.09795 18.7263 2 15.697 2C11.6579 2 10.1433 4.95167 10.1433 7.12244C10.1433 12.7571 14.6872 13.7816 14.6872 13.7816C13.9496 15.6526 12.6725 16.9898 11.8409 17.7649C11.2705 18.2965 11.0258 18.3051 10.5066 17.7152C7.16109 13.9145 6.21504 7.99135 6.55256 4.51754C6.62801 3.74099 3.10939 3.48846 3.04261 4.41495Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vine"]
+    tags: ["vine", "plant", "leaf", "nature", "growth", "floral", "organic", "ecology", "minimal"],
+    category: "nature"
   },
   {
     id: "hugeicon-vintage-clock",
@@ -48913,7 +50083,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11.0039 18H13.0039" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["vintage", "clock"]
+    tags: ["vintage", "clock", "retro", "old fashioned", "antique", "timepiece", "alarm", "timer", "classic", "nostalgia"],
+    category: "time"
   },
   {
     id: "hugeicon-virtual-reality-vr-01",
@@ -48924,7 +50095,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M22 15V12.4522C22 11.4723 22 10.9823 21.9227 10.5086C21.8844 10.2743 21.8322 10.0438 21.7664 9.81888C21.6333 9.36411 21.427 8.94392 21.0145 8.1036C20.1876 6.41927 19.7742 5.5771 19.1715 5.01138C18.8756 4.73365 18.5493 4.50788 18.2022 4.34065C17.4952 4 16.6916 4 15.0845 4H8.91548C7.30836 4 6.5048 4 5.79779 4.34065C5.45069 4.50788 5.12444 4.73365 4.82853 5.01138C4.22579 5.5771 3.81236 6.41927 2.9855 8.1036C2.57298 8.94394 2.36671 9.3641 2.23364 9.81888C2.16781 10.0438 2.11557 10.2743 2.07733 10.5086C2 10.9823 2 11.4723 2 12.4522V15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`,
     style: "outline",
-    tags: ["virtual", "reality", "vr", "01"]
+    tags: ["virtual", "reality", "vr", "01", "augmented reality", "metaverse", "headset", "experience", "gaming", "future", "technology", "simulation"],
+    category: "device"
   },
   {
     id: "hugeicon-virtual-reality-vr-02",
@@ -48934,7 +50106,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M11 10L9.24536 13.9123C8.92013 14.6374 8.75751 15 8.5 15C8.24249 15 8.07987 14.6374 7.75464 13.9123L6 10M14 15V13M14 13V11C14 10.5286 14 10.2929 14.1464 10.1464C14.2929 10 14.5286 10 15 10H16.5C17.3284 10 18 10.6716 18 11.5C18 12.3284 17.3284 13 16.5 13M14 13H16.5M16.5 13L17.5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["virtual", "reality", "vr", "02"]
+    tags: ["virtual", "reality", "vr", "02", "augmented reality", "metaverse", "headset", "experience", "gaming", "future", "technology", "simulation"],
+    category: "device"
   },
   {
     id: "hugeicon-vision",
@@ -48945,7 +50118,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14C13.1046 14 14 13.1046 14 12Z" stroke="currentColor" stroke-width="1.5"/>
 </svg>`,
     style: "outline",
-    tags: ["vision"]
+    tags: ["vision", "eye", "sight", "view", "perception", "insight", "observe", "optical", "human body"],
+    category: "health"
   },
   {
     id: "hugeicon-visual-studio-code",
@@ -48954,7 +50128,8 @@ export const hugeiconIcons: IconItem[] = [
 <path d="M17.0158 16.5V21.282C17.0158 21.6025 16.8064 21.874 16.5174 21.9663M17.0158 16.5L10.8772 12M17.0158 16.5V7.5M7.74691 9.7053L4.25118 7.03035C3.85429 6.72665 3.29466 6.76425 2.94169 7.11833L2.2921 7.76997C1.89399 8.16933 1.90433 8.81995 2.31494 9.20638L5.28343 12M7.74691 9.7053L10.8772 12M7.74691 9.7053L15.8129 2.19186C15.9453 2.06854 16.1193 2 16.3 2C16.3758 2 16.4488 2.01181 16.5174 2.0337M10.8772 12L17.0158 7.5M17.0158 7.5V2.71803C17.0158 2.39749 16.8064 2.126 16.5174 2.0337M7.74691 14.2947L4.25118 16.9696C3.85429 17.2733 3.29466 17.2357 2.94169 16.8817L2.2921 16.23C1.89399 15.8307 1.90433 15.18 2.31494 14.7936L5.28343 12M7.74691 14.2947L15.8129 21.8081C15.9453 21.9315 16.1193 22 16.3 22C16.3758 22 16.4488 21.9882 16.5174 21.9663M7.74691 14.2947L5.28343 12M16.5174 2.0337L21.4111 4.23506C21.7695 4.39626 22.0001 4.75353 22.0001 5.14752V18.8525C22.0001 19.2465 21.7695 19.6037 21.4111 19.7649L16.5174 21.9663" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
     style: "outline",
-    tags: ["visual", "studio", "code"]
+    tags: ["visual", "studio", "code", "development", "coding", "programming", "editor", "microsoft", "software", "ide", "tool"],
+    category: "tool"
   },
   {
     id: "hugeicon-vk-square",
