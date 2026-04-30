@@ -37,8 +37,7 @@ const LIBRARIES = [
   { id: 'iconoir', name: 'Iconoir', count: 1383 },
   { id: 'majesticon', name: 'Majesticon', count: 760 },
   { id: 'simple', name: 'Brand', count: 3355 },
-  { id: 'octicons', name: 'Octicons', count: 661 },
-  { id: 'devicon', name: 'Devicon', count: 1863 }
+  { id: 'octicons', name: 'Octicons', count: 661 }
 ];
 
 // Utility functions

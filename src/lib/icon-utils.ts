@@ -60,7 +60,6 @@ export function isFilledIconLibrary(iconId: string): boolean {
     'boxicons-', // BoxIcons are primarily filled
     'ant-', // Many Ant Design icons are filled
     'simple-', // Brand logos with embedded colors
-    'devicon-', // Devicon brand logos with embedded colors
   ];
 
   return filledLibraryPrefixes.some(prefix => iconId.startsWith(prefix));
