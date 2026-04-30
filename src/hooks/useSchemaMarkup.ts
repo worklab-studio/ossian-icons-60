@@ -59,6 +59,15 @@ export function useSchemaMarkup(options: UseSchemaMarkupOptions = {}) {
         if (creativeWorkSchema) {
           schemas.push(creativeWorkSchema);
         }
+        // ImageObject for the specific icon — strong SEO signal for image search
+        if (icons && icons.length > 0) {
+          const pathParts = location.pathname.split('/');
+          const iconSlug = pathParts[3] || '';
+          const imageSchema = SchemaService.generateIconImageObjectSchema(icons[0], libraryId, iconSlug);
+          if (imageSchema) {
+            schemas.push(imageSchema);
+          }
+        }
       }
     } else if (location.pathname === '/demo/icons') {
       // Demo page schemas
