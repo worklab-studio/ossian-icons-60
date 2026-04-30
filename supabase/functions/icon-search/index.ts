@@ -35,14 +35,18 @@ let indexPromise: Promise<IconIndex> | null = null;
 function loadIndex(): Promise<IconIndex> {
   if (!indexPromise) {
     indexPromise = (async () => {
-      const res = await fetch(INDEX_URL, {
-        headers: { "Accept-Encoding": "gzip" },
-      });
-      if (!res.ok) {
-        indexPromise = null;
-        throw new Error(`Failed to load index (${res.status})`);
+      let lastErr: unknown = null;
+      for (const url of INDEX_URLS) {
+        try {
+          const res = await fetch(url, { headers: { "Accept-Encoding": "gzip" } });
+          if (res.ok) return await res.json() as IconIndex;
+          lastErr = new Error(`${url} -> ${res.status}`);
+        } catch (e) {
+          lastErr = e;
+        }
       }
-      return await res.json() as IconIndex;
+      indexPromise = null;
+      throw lastErr ?? new Error("All index URLs failed");
     })();
   }
   return indexPromise;
