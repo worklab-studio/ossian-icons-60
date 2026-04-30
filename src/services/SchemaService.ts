@@ -150,6 +150,55 @@ export class SchemaService {
   }
 
   /**
+   * Generate ImageObject schema for an individual icon — boosts Google Images
+   * and structured-data eligibility on icon detail pages.
+   */
+  static generateIconImageObjectSchema(icon: IconItem, libraryId: string, iconSlug: string): SchemaMarkup | null {
+    const library = iconLibraryManager.libraries.find(lib => lib.id === libraryId);
+    if (!library) return null;
+
+    const url = `https://iconstack.io/icon/${libraryId}/${iconSlug}`;
+    const keywords = [
+      icon.name,
+      `${icon.name} icon`,
+      `${icon.name} svg`,
+      library.name,
+      library.style,
+      ...(icon.tags || []).slice(0, 8),
+    ].filter(Boolean).join(', ');
+
+    return {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "name": `${icon.name} icon`,
+      "alternateName": icon.name,
+      "description": `${icon.name} SVG icon from the ${library.name} icon library — free, MIT-licensed, fully customizable.`,
+      "contentUrl": url,
+      "url": url,
+      "encodingFormat": "image/svg+xml",
+      "width": "24",
+      "height": "24",
+      "representativeOfPage": true,
+      "isAccessibleForFree": true,
+      "license": "https://opensource.org/licenses/MIT",
+      "acquireLicensePage": "https://iconstack.io/license",
+      "creditText": library.name,
+      "creator": {
+        "@type": "Organization",
+        "name": library.name
+      },
+      "copyrightNotice": `${library.name} — MIT License`,
+      "keywords": keywords,
+      "category": icon.category || library.style,
+      "isPartOf": {
+        "@type": "CreativeWork",
+        "name": `${library.name} Icon Library`,
+        "url": `https://iconstack.io/library/${libraryId}`
+      }
+    };
+  }
+
+  /**
    * Generate ItemList schema for icon collections
    */
   static generateItemListSchema(items: IconItem[], libraryName?: string): SchemaMarkup {
