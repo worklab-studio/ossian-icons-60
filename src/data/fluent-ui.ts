@@ -4,7 +4,8 @@
 
 import { type IconItem } from '@/types/icon';
 
-const _fluentUiIconsRaw: any[] = [
+// @ts-ignore - large literal exceeds TS inference complexity
+const _fluentUiIconsRaw = [
   {
     id: "fluent-ui-ic_fluent_access_time_24_filled",
     name: "Ic Fluent Access Time 24 Filled",
