@@ -230,6 +230,11 @@ async function generateAllSitemaps() {
     const mainSitemap = generateMainSitemap();
     fs.writeFileSync(path.join(publicDir, 'sitemap-main.xml'), mainSitemap);
 
+    // Generate categories sitemap
+    console.log('📝 Generating categories sitemap...');
+    const categoriesSitemap = generateCategoriesSitemap();
+    fs.writeFileSync(path.join(publicDir, 'sitemap-categories.xml'), categoriesSitemap);
+
     // Generate library sitemaps
     console.log('📝 Generating library sitemaps...');
     for (const library of LIBRARIES) {
