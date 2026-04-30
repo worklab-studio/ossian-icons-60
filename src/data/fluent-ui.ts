@@ -4,7 +4,8 @@
 
 import { type IconItem } from '@/types/icon';
 
-export const fluentUiIcons: IconItem[] = [
+// @ts-ignore - large literal exceeds TS inference complexity
+const _fluentUiIconsRaw = [
   {
     id: "fluent-ui-ic_fluent_access_time_24_filled",
     name: "Ic Fluent Access Time 24 Filled",
@@ -44084,4 +44085,5 @@ export const fluentUiIcons: IconItem[] = [
     tags: ["ic", "fluent", "zoom", "out", "24", "regular", "magnify", "shrink", "minus", "overview", "outlined", "interface", "contract", "visual"],
     category: "ui"
   }
-];
+] as const;
+export const fluentUiIcons: IconItem[] = _fluentUiIconsRaw as unknown as IconItem[];

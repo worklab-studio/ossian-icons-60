@@ -59,6 +59,7 @@ function urlToIconName(iconName) {
 function generateSitemapIndex() {
   const sitemaps = [
     `${DOMAIN}/sitemap-main.xml`,
+    `${DOMAIN}/sitemap-categories.xml`,
     ...LIBRARIES.map(lib => `${DOMAIN}/sitemap-${lib.id}.xml`)
   ];
 
@@ -98,7 +99,50 @@ ${urls.map(({ url, priority, changefreq }) => `  <url>
   return xml;
 }
 
-// Load icon data from TypeScript files
+// Load SEO category slugs by parsing src/data/seo-categories.ts
+function loadCategorySlugs() {
+  try {
+    const filePath = path.resolve(__dirname, '..', 'src', 'data', 'seo-categories.ts');
+    const content = fs.readFileSync(filePath, 'utf8');
+    const slugs = [];
+    const re = /slug:\s*["']([^"']+)["']/g;
+    let m;
+    while ((m = re.exec(content)) !== null) {
+      slugs.push(m[1]);
+    }
+    return slugs;
+  } catch (err) {
+    console.warn('⚠️  Failed to load category slugs:', err.message);
+    return [];
+  }
+}
+
+// Generate categories sitemap (category landing + per-library category pages)
+function generateCategoriesSitemap() {
+  const slugs = loadCategorySlugs();
+  const urls = [];
+  for (const slug of slugs) {
+    urls.push({ url: `${DOMAIN}/icons/${slug}`, priority: '0.8', changefreq: 'weekly' });
+    for (const lib of LIBRARIES) {
+      urls.push({ url: `${DOMAIN}/icons/${slug}/${lib.id}`, priority: '0.6', changefreq: 'monthly' });
+    }
+  }
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map(({ url, priority, changefreq }) => `  <url>
+    <loc>${url}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>`).join('\n')}
+</urlset>`;
+
+  console.log(`✅ Generated categories sitemap: ${urls.length} URLs (${slugs.length} categories)`);
+  return xml;
+}
+
+
 async function loadIconData(libraryId) {
   try {
     console.log(`📦 Loading ${libraryId} icons...`);
@@ -185,6 +229,11 @@ async function generateAllSitemaps() {
     console.log('📝 Generating main sitemap...');
     const mainSitemap = generateMainSitemap();
     fs.writeFileSync(path.join(publicDir, 'sitemap-main.xml'), mainSitemap);
+
+    // Generate categories sitemap
+    console.log('📝 Generating categories sitemap...');
+    const categoriesSitemap = generateCategoriesSitemap();
+    fs.writeFileSync(path.join(publicDir, 'sitemap-categories.xml'), categoriesSitemap);
 
     // Generate library sitemaps
     console.log('📝 Generating library sitemaps...');
