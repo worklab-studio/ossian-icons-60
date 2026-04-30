@@ -1,23 +1,39 @@
-## Finish AI tag enrichment
+## Where we are
 
-Run the remaining work on `scripts/enrich-tags-ai.js` to completion, then stop. No code changes, no follow-ups in this pass.
+- **22 of 23 libraries fully enriched** (tags + categories filled by Gemini).
+- **fluent-ui**: 1,150 / 4,780 done (~24%). Last library remaining.
+- **Devicon**: fully removed.
+- **Foundations in place**: sitemaps, Schema.org JSON-LD, Sanity blog, 760 curated SEO pages, sidebar/footer/control-panel cross-promo, dark-mode polish.
 
-### Scope
-- Only one library left: **fluent-ui** (`src/data/fluent-ui.ts`).
-- All other 22 libraries are already at 100% per the checkpoint in `scripts/.enrichment-progress.json`.
+## Recommended next steps (pick one)
 
-### Steps
-1. Run `node scripts/enrich-tags-ai.js fluent-ui` from the sandbox (uses `LOVABLE_API_KEY`, batches of 25, auto-checkpoints, auto-retries on 429/5xx).
-2. If the run hits the 540s timeout cap, resume by re-running the same command — the script skips already-done icons via the checkpoint file.
-3. Repeat until the script reports `✓ done` for fluent-ui.
-4. Confirm completion by checking the progress file shows fluent-ui's `doneIds` length equals the icon count in `src/data/fluent-ui.ts`.
+### Option A — Finish fluent-ui enrichment (mechanical, finishes the data layer)
+- Run `node scripts/enrich-tags-ai.js fluent-ui` repeatedly under the 540s sandbox cap.
+- ~3,630 icons left, batches of 25 → ~145 batches. Expect **3–5 resume cycles**.
+- After completion, the entire icon dataset (24 libs, ~47k icons) is uniformly enriched → search relevance + category filters work consistently across every library.
+- Risk: requires Lovable AI credits; halts cleanly on 402.
 
-### What gets touched
-- `src/data/fluent-ui.ts` — `tags` arrays expanded, `category` filled where missing.
-- `scripts/.enrichment-progress.json` — checkpoint updated.
-- Nothing else. No frontend, no edge functions, no schema, no JSON-LD work (that's a separate follow-up if you want it later).
+### Option B — Convert the SEO foundation into traffic (highest ROI now that data is rich)
+The data is ready but the discovery surfaces could go further. Concrete wins:
+1. **Per-icon JSON-LD** on `IconDetailPage` — `ImageObject` + `HowTo` (copy SVG / install package / use in React) so Google can render rich snippets.
+2. **"Related icons" block** on detail pages, powered by shared `tags` + `category` (now meaningful thanks to enrichment). Big internal-linking boost.
+3. **Category landing pages** (e.g. `/category/navigation`, `/category/finance`) aggregating across libraries — pure mid-funnel SEO using the new `category` field.
+4. **OpenGraph image generation** per icon (edge function rendering SVG → PNG) so social shares look real.
 
-### Risks / notes
-- **Credits**: requires Lovable AI credits. If a 402 appears, the run halts cleanly and you'll need to top up before resuming.
-- **Time**: fluent-ui is one of the larger libs; expect 2–3 resume cycles under the 540s cap.
-- **Idempotent**: safe to re-run; already-enriched icons are skipped.
+### Option C — Quality pass on what's already shipped
+- Audit `src/components/SchemaMarkup.tsx` validation warnings in dev console.
+- Verify all 23 sitemaps in `public/` are referenced from `sitemap.xml` and submit fresh to Search Console.
+- Lighthouse pass on `LibraryPage` + `IconDetailPage` (likely LCP wins from lazy-loading the huge data files).
+
+### Option D — New surface area
+- Collections / user accounts (requires auth — bigger scope).
+- Compare-libraries page expansion.
+- Public API endpoint for icon search.
+
+## My recommendation
+
+**Do A first** (one more focused session, finishes the dataset cleanly), then **B in parallel-ish** — specifically B1 (per-icon JSON-LD) and B3 (category landing pages), since those directly cash in on the enrichment work you just completed. B2 and B4 are follow-ups after that.
+
+## What I need from you
+
+Tell me which option (A / B / C / D) — or which sub-items of B — you want to tackle next, and I'll execute.
