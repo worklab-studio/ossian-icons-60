@@ -52666,4 +52666,4 @@ export const hugeiconIcons: IconItem[] = ([
     tags: ["zzz", "sleep", "rest", "tired", "dream", "nap", "snore", "bedtime", "night", "calm", "relax"],
     category: "time"
   }
-];
+] as unknown) as IconItem[];
