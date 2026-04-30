@@ -1,0 +1,42 @@
+# IconStack
+
+> IconStack is a free icon browser and customization tool with 51,000+ icons across 21 popular open-source libraries (Tabler, Lucide, Heroicons, Phosphor, Material, Fluent UI, Bootstrap, Feather, and more). Browse, customize stroke/color/size, copy SVG/JSX, and access icons programmatically via a public JSON API.
+
+## Key resources
+
+- [Homepage](https://iconstack.io/): Browse and customize all 51k+ icons in one interface.
+- [Public Search API](https://iconstack.io/api): Free JSON API to search icons by query, library, category, or style. No auth required.
+- [Search API endpoint](https://sglpxftkuzsqdpdhftwv.supabase.co/functions/v1/icon-search): `GET ?q=<query>&library=<id>&category=<id>&style=<style>&limit=<n>&offset=<n>`
+- [Icon index file](https://iconstack.io/api/icons-index.json): Full searchable index (~7 MB) with id, name, library, style, category, and tags for every icon.
+- [Sitemap](https://iconstack.io/sitemap.xml): Master sitemap linking to per-library sitemaps with all icon detail pages.
+- [Blog](https://iconstack.io/blog): Articles on icon design, UI patterns, and library comparisons.
+
+## Icon libraries
+
+All libraries are free and open-source. Each has a dedicated browse page at `/library/<id>`:
+
+- Tabler, Lucide, Feather, Heroicons, Phosphor, Material Design, Fluent UI, Bootstrap, Solar, Iconsax, Radix, Line, Pixel Art, Huge Icons, Mingcute, Carbon, Iconamoon, Iconoir, Majesticon, Octicons, Simple Icons (brand logos).
+
+## Icon detail pages
+
+Every icon has its own page at `/icon/<library>/<icon-id>` with SVG/JSX code, related icons, alternatives across libraries, and usage examples. Example: `/icon/lucide/heart`.
+
+## API quick reference
+
+```
+GET https://sglpxftkuzsqdpdhftwv.supabase.co/functions/v1/icon-search?q=user&limit=5
+
+Response:
+{
+  "results": [{ "id", "name", "library", "style", "category", "tags", "score" }],
+  "total": 1234,
+  "limit": 5,
+  "offset": 0
+}
+```
+
+CORS is open. No API key required. Rate limit: ~60 req/min/IP.
+
+## Cross-promotion
+
+- [X-Autopilot](https://x-autopilot.com): Sister product — AI-powered X (Twitter) growth automation.
