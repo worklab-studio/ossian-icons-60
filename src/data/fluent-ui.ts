@@ -44084,4 +44084,4 @@ export const fluentUiIcons: IconItem[] = ([
     tags: ["ic", "fluent", "zoom", "out", "24", "regular", "magnify", "shrink", "minus", "overview", "outlined", "interface", "contract", "visual"],
     category: "ui"
   }
-];
+] as any);
