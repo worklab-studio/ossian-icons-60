@@ -44085,5 +44085,5 @@ const _fluentUiIconsRaw = [
     tags: ["ic", "fluent", "zoom", "out", "24", "regular", "magnify", "shrink", "minus", "overview", "outlined", "interface", "contract", "visual"],
     category: "ui"
   }
-];
-export const fluentUiIcons: IconItem[] = _fluentUiIconsRaw as IconItem[];
+] as const;
+export const fluentUiIcons: IconItem[] = _fluentUiIconsRaw as unknown as IconItem[];
