@@ -13,6 +13,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://iconstack.io/api</loc>
+    <lastmod>2026-04-30T10:19:34.587Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://iconstack.io/library/tabler</loc>
     <lastmod>2026-04-30T10:19:34.587Z</lastmod>
     <changefreq>weekly</changefreq>
