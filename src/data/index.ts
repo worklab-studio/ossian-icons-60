@@ -20,7 +20,6 @@ export * from './majesticon';
 export * from './simple';
 export * from './octicons';
 export * from './iconsax';
-export * from './devicon';
 
 // Add more icon library exports here as needed
 // export * from './other-icon-library';

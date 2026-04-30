@@ -60,7 +60,6 @@ const LIBRARIES = [
   { id: 'phosphor',   file: 'phosphor.ts',   exportName: 'phosphorIcons',   style: 'mixed',   kind: 'standard' },
   // brand libraries: lighter pass
   { id: 'simple',     file: 'simple.ts',     exportName: 'simpleIcons',     style: 'brand',   kind: 'brand' },
-  { id: 'devicon',    file: 'devicon.ts',    exportName: 'deviconIcons',    style: 'brand',   kind: 'brand' },
 ];
 
 const BATCH_SIZE = 25;
