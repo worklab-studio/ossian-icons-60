@@ -22,7 +22,12 @@ interface IconIndex {
   icons: IndexedIcon[];
 }
 
-const INDEX_URL = "https://iconstack.io/api/icons-index.json";
+// Try the production domain first, then fall back to the Lovable-hosted
+// preview so the function works even before a fresh production deploy.
+const INDEX_URLS = [
+  "https://iconstack.io/api/icons-index.json",
+  "https://iconstack.lovable.app/api/icons-index.json",
+];
 const PUBLIC_BASE = "https://iconstack.io";
 
 let indexPromise: Promise<IconIndex> | null = null;
