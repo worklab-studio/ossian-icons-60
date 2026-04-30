@@ -4,7 +4,7 @@
 
 import { type IconItem } from '@/types/icon';
 
-export const fluentUiIcons: IconItem[] = [
+export const fluentUiIcons: IconItem[] = ([
   {
     id: "fluent-ui-ic_fluent_access_time_24_filled",
     name: "Ic Fluent Access Time 24 Filled",
