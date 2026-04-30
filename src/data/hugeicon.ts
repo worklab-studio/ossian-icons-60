@@ -4,7 +4,7 @@
 
 import { type IconItem } from '@/types/icon';
 
-export const hugeiconIcons: IconItem[] = [
+export const hugeiconIcons: IconItem[] = ([
   {
     id: "hugeicon-1st-bracket-circle",
     name: "1St Bracket Circle",
