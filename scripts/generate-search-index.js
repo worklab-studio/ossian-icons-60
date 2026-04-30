@@ -114,12 +114,25 @@ const libraryMeta = {};
 const allIcons = [];
 
 for (const lib of LIBRARIES) {
-  const filePath = path.join(DATA_DIR, lib.file);
-  if (!fs.existsSync(filePath)) {
+  const tsPath = path.join(DATA_DIR, lib.file);
+  const jsonPath = path.join(DATA_DIR, lib.file.replace(/\.ts$/, '.json'));
+  let icons = [];
+  if (fs.existsSync(jsonPath)) {
+    // Some libraries store icons in a JSON sidecar imported by the .ts file.
+    const raw = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    icons = raw.map(ic => ({
+      id: ic.id,
+      n: ic.name,
+      s: ic.style || '',
+      c: ic.category || '',
+      t: Array.isArray(ic.tags) ? ic.tags : [],
+    })).filter(ic => ic.id && ic.n);
+  } else if (fs.existsSync(tsPath)) {
+    icons = parseLibraryFile(tsPath);
+  } else {
     console.warn(`  skip ${lib.id} — file missing`);
     continue;
   }
-  const icons = parseLibraryFile(filePath);
   console.log(`  ${lib.id.padEnd(12)} ${icons.length} icons`);
   libraryMeta[lib.id] = { name: lib.name, style: lib.style };
   for (const ic of icons) {
