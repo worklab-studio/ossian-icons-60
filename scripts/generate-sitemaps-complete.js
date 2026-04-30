@@ -59,6 +59,7 @@ function urlToIconName(iconName) {
 function generateSitemapIndex() {
   const sitemaps = [
     `${DOMAIN}/sitemap-main.xml`,
+    `${DOMAIN}/sitemap-categories.xml`,
     ...LIBRARIES.map(lib => `${DOMAIN}/sitemap-${lib.id}.xml`)
   ];
 
