@@ -15,6 +15,7 @@ import LibraryPage from "./pages/LibraryPage";
 import IconDetailPage from "./pages/IconDetailPage";
 import { IconsPopularPage } from "./pages/IconsPopularPage";
 import LicensePage from "./pages/LicensePage";
+import ApiDocsPage from "./pages/ApiDocsPage";
 import CollectionPage from "./pages/CollectionPage";
 import ComparisonPage from "./pages/ComparisonPage";
 import CategoryLibraryPage from "./pages/CategoryLibraryPage";
@@ -57,6 +58,7 @@ const App = () => (
             <Route path="/library/:libraryId" element={<LibraryPage />} />
             <Route path="/icon/:libraryId/:iconName" element={<IconDetailPage />} />
             <Route path="/license" element={<LicensePage />} />
+            <Route path="/api" element={<ApiDocsPage />} />
                 <Route path="/icons/:category/:libraryId" element={<CategoryLibraryPage />} />
                 <Route path="/icons/:category" element={<CollectionPage />} />
                 <Route path="/compare/:slug" element={<ComparisonPage />} />
