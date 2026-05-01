@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import dodoLogo from "@/assets/dodoinvoice-logo.avif";
 import xautopilotLogo from "@/assets/xautopilot-logo.png";
+import { prefetchByPath } from "@/lib/prefetch";
 
 type Promo = {
   brand: string;
@@ -86,19 +88,34 @@ export function RotatingFooter() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <a
-        key={index}
-        href={promo.href}
-        target={promo.href.startsWith("/") ? "_self" : "_blank"}
-        rel={promo.href.startsWith("/") ? undefined : "noopener noreferrer"}
-        className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group animate-fade-in"
-      >
-        {promo.logo}
-        <span>
-          <strong className="text-zinc-900 dark:text-white">{promo.brand}</strong> — {promo.tagline}
-        </span>
-        <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
-      </a>
+      {promo.href.startsWith("/") ? (
+        <Link
+          key={index}
+          to={promo.href}
+          onMouseEnter={() => prefetchByPath(promo.href)}
+          className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group animate-fade-in"
+        >
+          {promo.logo}
+          <span>
+            <strong className="text-zinc-900 dark:text-white">{promo.brand}</strong> — {promo.tagline}
+          </span>
+          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+        </Link>
+      ) : (
+        <a
+          key={index}
+          href={promo.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group animate-fade-in"
+        >
+          {promo.logo}
+          <span>
+            <strong className="text-zinc-900 dark:text-white">{promo.brand}</strong> — {promo.tagline}
+          </span>
+          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+        </a>
+      )}
     </footer>
   );
 }
