@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-05-01T06:59:37.662Z",
+  "total": 51378,
+  "libraries": {
+    "tabler": {
+      "count": 4964,
+      "sizeMb": 2.98
+    },
+    "feather": {
+      "count": 287,
+      "sizeMb": 0.1
+    },
+    "solar": {
+      "count": 1241,
+      "sizeMb": 3.15
+    },
+    "phosphor": {
+      "count": 9072,
+      "sizeMb": 5.1
+    },
+    "bootstrap": {
+      "count": 2078,
+      "sizeMb": 1.26
+    },
+    "iconsax": {
+      "count": 943,
+      "sizeMb": 1
+    },
+    "radix": {
+      "count": 318,
+      "sizeMb": 0.35
+    },
+    "line": {
+      "count": 606,
+      "sizeMb": 1.04
+    },
+    "pixelart": {
+      "count": 486,
+      "sizeMb": 0.13
+    },
+    "hugeicon": {
+      "count": 4497,
+      "sizeMb": 4.74
+    },
+    "mingcute": {
+      "count": 3102,
+      "sizeMb": 3.44
+    },
+    "heroicons": {
+      "count": 648,
+      "sizeMb": 0.57
+    },
+    "material": {
+      "count": 7447,
+      "sizeMb": 3.92
+    },
+    "fluent-ui": {
+      "count": 4780,
+      "sizeMb": 6.42
+    },
+    "lucide": {
+      "count": 1632,
+      "sizeMb": 0.71
+    },
+    "carbon": {
+      "count": 2510,
+      "sizeMb": 2.64
+    },
+    "iconamoon": {
+      "count": 608,
+      "sizeMb": 0.47
+    },
+    "iconoir": {
+      "count": 1383,
+      "sizeMb": 1.2
+    },
+    "majesticon": {
+      "count": 760,
+      "sizeMb": 0.37
+    },
+    "simple": {
+      "count": 3355,
+      "sizeMb": 4.92
+    },
+    "octicons": {
+      "count": 661,
+      "sizeMb": 0.39
+    }
+  }
+}
