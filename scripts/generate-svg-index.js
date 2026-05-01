@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'src/data');
-const OUT_PATH = path.join(ROOT, 'public/api/icons-svg.json');
+const OUT_DIR = path.join(ROOT, 'public/api/svg');
 
 const LIBRARIES = [
   { id: 'tabler',     file: 'tabler.ts'     },
@@ -85,9 +85,10 @@ function parseTsFile(filePath) {
   return out;
 }
 
-console.log('Building SVG index...');
-const map = {};
+console.log('Building per-library SVG index...');
+fs.mkdirSync(OUT_DIR, { recursive: true });
 let total = 0;
+const manifest = {};
 
 for (const lib of LIBRARIES) {
   const tsPath = path.join(DATA_DIR, lib.file);
@@ -102,16 +103,23 @@ for (const lib of LIBRARIES) {
     console.warn(`  skip ${lib.id}`);
     continue;
   }
-  console.log(`  ${lib.id.padEnd(12)} ${icons.length} icons`);
+  const libMap = {};
   for (const ic of icons) {
-    // strip the library prefix from id to keep keys short
     const shortId = ic.id.startsWith(`${lib.id}-`) ? ic.id.slice(lib.id.length + 1) : ic.id;
-    map[`${lib.id}/${shortId}`] = ic.svg;
-    total++;
+    libMap[shortId] = ic.svg;
   }
+  const outPath = path.join(OUT_DIR, `${lib.id}.json`);
+  fs.writeFileSync(outPath, JSON.stringify(libMap));
+  const sizeMb = (fs.statSync(outPath).size / 1024 / 1024).toFixed(2);
+  manifest[lib.id] = { count: icons.length, sizeMb: parseFloat(sizeMb) };
+  total += icons.length;
+  console.log(`  ${lib.id.padEnd(12)} ${String(icons.length).padStart(5)} icons (${sizeMb} MB)`);
 }
 
-fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-fs.writeFileSync(OUT_PATH, JSON.stringify(map));
-const sizeMb = (fs.statSync(OUT_PATH).size / 1024 / 1024).toFixed(2);
-console.log(`\nWrote ${total} svgs -> public/api/icons-svg.json (${sizeMb} MB)`);
+fs.writeFileSync(path.join(OUT_DIR, 'manifest.json'), JSON.stringify({
+  generatedAt: new Date().toISOString(),
+  total,
+  libraries: manifest,
+}, null, 2));
+
+console.log(`\nWrote ${total} svgs across ${Object.keys(manifest).length} files in public/api/svg/`);
