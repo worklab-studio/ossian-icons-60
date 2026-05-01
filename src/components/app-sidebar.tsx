@@ -110,21 +110,10 @@ export function AppSidebar({
                 </SidebarMenuItem>)}
               <SidebarMenuItem>
                 <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
-                  <a href="https://www.npmjs.com/package/iconstack-mcp" target="_blank" rel="noopener noreferrer">
-                    <div className="flex items-center gap-3">
-                      <Plug className="h-4 w-4" />
-                      <span>MCP</span>
-                    </div>
-                    <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
-                  </a>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
                   <a href="/api" target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center gap-3">
                       <Code2 className="h-4 w-4" />
-                      <span>API</span>
+                      <span>API & MCP</span>
                     </div>
                     <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
                   </a>
