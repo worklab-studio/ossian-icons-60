@@ -17,6 +17,13 @@
     <meta name="author" content="Iconstack" />
     <meta name="robots" content="index, follow" />
 
+    <!-- Canonical -->
+    <link rel="canonical" href="https://iconstack.io/" />
+
+    <!-- AI / machine-readable resources -->
+    <link rel="alternate" type="application/json" title="Iconstack icon index" href="https://iconstack.io/api/icons-index.json" />
+    <link rel="alternate" type="text/plain" title="LLMs.txt" href="https://iconstack.io/llms.txt" />
+
     <!-- Favicon & Bookmark Recall -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
@@ -68,20 +75,44 @@
     <meta name="msapplication-TileColor" content="#111111" />
     <meta name="msapplication-config" content="/browserconfig.xml" />
 
-    <!-- Structured Data (Schema.org for Google) -->
+    <!-- Structured Data (Schema.org for Google + AI assistants) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Iconstack",
         "url": "https://iconstack.io",
-        "description": "Iconstack: 50,000+ free SVG icons from Material, Tabler, Phosphor, Lucide, Remix, Bootstrap & more. Search, customize color & stroke, and download SVG/PNG/XML — no login.",
+        "description": "Iconstack: 51,000+ free SVG icons from Material, Tabler, Phosphor, Lucide, Bootstrap, Heroicons & more. Search, customize color & stroke, and download SVG/PNG/JSX — no login.",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "All",
+        "browserRequirements": "Requires JavaScript. Requires HTML5.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "featureList": [
+          "51,000+ free open-source SVG icons across 21 libraries",
+          "Search, filter and customize stroke, color and size",
+          "Copy as SVG, JSX or download PNG",
+          "Public JSON search API — no auth required",
+          "MCP server (npx iconstack-mcp) for Cursor, Claude Desktop and Windsurf"
+        ],
         "creator": {
           "@type": "Organization",
-          "name": "Ossian Design Lab"
+          "name": "Ossian Design Lab",
+          "url": "https://iconstack.io"
         }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://iconstack.io/" }
+        ]
       }
     </script>
 
