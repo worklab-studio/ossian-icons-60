@@ -266,8 +266,8 @@ for icon in data["results"]:
                   onMouseEnter={() => prefetchByPath('/')}
                   className="inline-flex items-center gap-2 group"
                 >
-                  <div className="h-7 w-7 rounded-md bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center text-primary-foreground text-xs font-bold">
-                    I
+                  <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary">
+                    <IconstackLogo className="h-4 w-4 text-primary-foreground" />
                   </div>
                   <div className="leading-tight">
                     <div className="text-sm font-semibold text-foreground">Iconstack</div>
