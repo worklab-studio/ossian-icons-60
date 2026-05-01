@@ -288,3 +288,12 @@
     overflow: visible;
   }
 }
+
+@layer utilities {
+  /* App shell height that compensates for the Product Hunt launch banner.
+     --ph-banner-h is 0px by default and set to the banner height at runtime
+     by ProductHuntBanner. */
+  .h-app-shell {
+    height: calc(100vh - var(--ph-banner-h));
+  }
+}
