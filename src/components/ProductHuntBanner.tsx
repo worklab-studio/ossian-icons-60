@@ -47,7 +47,7 @@ export function ProductHuntBanner() {
   const visible = PRODUCT_HUNT.enabled && state !== "hidden" && !dismissed;
   useEffect(() => {
     const root = document.documentElement;
-    root.style.setProperty("--ph-banner-h", visible ? "36px" : "0px");
+    root.style.setProperty("--ph-banner-h", visible ? "64px" : "0px");
     return () => {
       root.style.setProperty("--ph-banner-h", "0px");
     };
@@ -100,7 +100,7 @@ export function ProductHuntBanner() {
             "radial-gradient(600px 60px at 18% 50%, hsl(var(--ph-orange) / 0.25), transparent 70%)",
         }}
       />
-      <div className="relative flex h-9 items-center justify-center gap-2.5 px-3 pr-10 text-xs sm:text-[13px]">
+      <div className="relative flex h-16 items-center justify-center gap-2.5 px-3 pr-10 text-xs sm:text-[13px]">
         <span
           className="inline-flex h-5 items-center gap-1 rounded-full border border-[hsl(var(--ph-orange)/0.4)] bg-[hsl(var(--ph-orange)/0.15)] px-1.5 text-[10px] font-semibold uppercase tracking-wider text-[hsl(var(--ph-orange))]"
         >
