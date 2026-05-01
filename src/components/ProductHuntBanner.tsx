@@ -86,25 +86,39 @@ export function ProductHuntBanner() {
     <div
       role="region"
       aria-label="Product Hunt launch announcement"
-      className="fixed top-0 right-0 left-0 md:left-[16rem] z-[60] border-b border-border text-foreground"
+      className="fixed top-0 right-0 left-0 md:left-[16rem] z-[60] border-b border-border/60 text-foreground backdrop-blur-md"
       style={{
         background:
-          "linear-gradient(90deg, hsl(var(--ph-orange) / 0.18) 0%, hsl(var(--background)) 60%)",
+          "linear-gradient(90deg, hsl(var(--ph-orange) / 0.22) 0%, hsl(var(--ph-orange) / 0.08) 30%, hsl(var(--background) / 0.85) 70%, hsl(var(--background) / 0.85) 100%)",
       }}
     >
-      <div className="flex h-9 items-center justify-center gap-2 px-3 text-xs sm:text-sm md:h-9">
-        <PHIcon className="h-4 w-4 shrink-0" />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 opacity-60"
+        style={{
+          background:
+            "radial-gradient(600px 60px at 18% 50%, hsl(var(--ph-orange) / 0.25), transparent 70%)",
+        }}
+      />
+      <div className="relative flex h-9 items-center justify-center gap-2.5 px-3 pr-10 text-xs sm:text-[13px]">
+        <span
+          className="inline-flex h-5 items-center gap-1 rounded-full border border-[hsl(var(--ph-orange)/0.4)] bg-[hsl(var(--ph-orange)/0.15)] px-1.5 text-[10px] font-semibold uppercase tracking-wider text-[hsl(var(--ph-orange))]"
+        >
+          <PHIcon className="h-3 w-3" />
+          {isLive ? "Live" : "Soon"}
+        </span>
         {isLive ? (
           <span className="truncate">
-            <span className="hidden sm:inline">We&apos;re live on Product Hunt today 🎉 — </span>
-            <span className="sm:hidden">Live on Product Hunt — </span>
-            <span className="text-muted-foreground">help us reach #1</span>
+            <span className="font-medium">We&apos;re live on Product Hunt</span>
+            <span className="hidden text-muted-foreground sm:inline">
+              {" "}— help us reach #1 today 🎉
+            </span>
           </span>
         ) : (
           <span className="truncate">
-            <span className="font-medium">Coming soon on Product Hunt</span>
+            <span className="font-medium">Launching on Product Hunt</span>
             <span className="hidden text-muted-foreground sm:inline">
-              {" "}— {daysToGo} {daysToGo === 1 ? "day" : "days"} to go
+              {" "}in {daysToGo} {daysToGo === 1 ? "day" : "days"}
             </span>
           </span>
         )}
@@ -113,30 +127,27 @@ export function ProductHuntBanner() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleClick}
-          className="ml-1 inline-flex h-7 items-center gap-1 rounded-full px-3 text-xs font-medium text-white transition-opacity hover:opacity-90"
+          className="group ml-1 inline-flex h-7 items-center gap-1.5 rounded-full px-3 text-xs font-semibold text-white shadow-sm shadow-[hsl(var(--ph-orange)/0.4)] ring-1 ring-inset ring-white/10 transition-all hover:shadow-md hover:shadow-[hsl(var(--ph-orange)/0.5)] hover:brightness-110"
           style={{ backgroundColor: "hsl(var(--ph-orange))" }}
         >
           {isLive ? (
             <>
               <span className="hidden sm:inline">Upvote Iconstack</span>
               <span className="sm:hidden">Upvote</span>
-              <ArrowRight className="h-3.5 w-3.5" />
             </>
           ) : (
-            <>
-              <span>Notify me</span>
-              <ArrowRight className="h-3.5 w-3.5" />
-            </>
+            <span>Notify me</span>
           )}
+          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
         </a>
       </div>
       <button
         type="button"
         onClick={handleDismiss}
         aria-label="Dismiss Product Hunt banner"
-        className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-muted-foreground transition-colors hover:text-foreground"
+        className="absolute right-2 top-1/2 -translate-y-1/2 rounded-md p-1 text-muted-foreground transition-colors hover:bg-foreground/10 hover:text-foreground"
       >
-        <X className="h-4 w-4" />
+        <X className="h-3.5 w-3.5" />
       </button>
     </div>
   );
