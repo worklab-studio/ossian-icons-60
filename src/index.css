@@ -62,6 +62,9 @@
     /* Product Hunt brand accent */
     --ph-orange: 14 78% 52%;
     --ph-orange-foreground: 0 0% 100%;
+
+    /* Height of the Product Hunt launch banner; updated at runtime by ProductHuntBanner */
+    --ph-banner-h: 0px;
   }
 
   .dark {

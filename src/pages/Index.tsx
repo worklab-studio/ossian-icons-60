@@ -492,7 +492,7 @@ function IconGridPage() {
         </Helmet>
         
         <SchemaMarkup schema={schemaMarkup} />
-        <div className="flex flex-col h-screen w-full">
+        <div className="flex flex-col h-app-shell w-full">
           {/* Fixed top header - non-scrollable */}
           <div className="fixed top-0 left-0 right-0 z-50 bg-background">
             <MobileHeader
@@ -642,13 +642,13 @@ function IconGridPage() {
       <SchemaMarkup schema={schemaMarkup} />
       
       <SidebarProvider>
-      <div className="flex h-screen w-full overflow-hidden">{/* Fixed viewport height */}
+      <div className="flex h-app-shell w-full overflow-hidden">{/* Fixed viewport height */}
         <AppSidebar 
           selectedSet={selectedSet}
           onSetChange={setSelectedSet}
         />
         
-        <div className="flex-1 flex flex-col h-screen">{/* Fixed layout container */}
+        <div className="flex-1 flex flex-col h-app-shell">{/* Fixed layout container */}
           <Header 
             searchQuery={searchQuery}
             onSearchChange={setSearchQuery}
