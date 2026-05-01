@@ -1,60 +1,42 @@
-# SEO Status & Next Steps
+# SEO Status & Phase C Plan
 
-## What's already strong ✅
+## Already done (Phase A + B)
+- 52,830 URLs across 26 sitemaps, including blog from Sanity
+- Canonical tags on all major page types (Icon, Library, Comparison, Blog, Collection, Category)
+- Rich JSON-LD: WebApplication + offers + featureList + BreadcrumbList
+- Article schema on blog posts
+- `<link rel="alternate">` for icons-index.json + llms.txt (AI discovery)
+- llms.txt, robots.txt fully open to AI crawlers
+- Per-page Helmet meta on all 11 page types
 
-- Rich `index.html` meta (title, description, OG, Twitter, JSON-LD WebApplication)
-- `robots.txt` explicitly allows all major AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.)
-- `llms.txt` is comprehensive — lists API, MCP, sitemaps, libraries
-- 26 sitemap files, **38,669 URLs** indexed, sitemap index references all
-- Per-page `SchemaMarkup` (Breadcrumb, ItemList, CreativeWork, ImageObject, FAQ, Dataset)
-- Programmatic SEO: ~760 collection + comparison pages already in `sitemap-collections.xml` (1,354 URLs) and `sitemap-categories.xml` (1,188 URLs)
-- Public API + MCP server discoverable via `llms.txt` (huge AI-era win)
+## Still pending — Phase C (polish)
 
-## Gaps worth fixing 🔧
+### 1. Static discovery files (5 min)
+- `public/humans.txt` — credits / team / tech stack
+- `public/.well-known/security.txt` — security contact (expected by scanners; small SEO trust signal)
 
-### 1. Broken sitemaps (HIGH priority — losing ~9k indexed URLs)
-- `sitemap-material.xml`: **0 URLs**
-- `sitemap-simple.xml`: **0 URLs**
-- Total is 38.6k vs expected 47k+
-- Root cause: `scripts/generate-sitemaps.js` failing for these libraries. Need to debug + regenerate.
+### 2. Footer/homepage link to /api (2 min)
+The `/api` page (with MCP server + JSON API docs) is in sitemap but not linked from the homepage. Internal linking = both SEO juice and human discovery for the dev/AI-tools angle we built for PH.
+- Add an "API & MCP" link to the footer (RotatingFooter or main footer)
 
-### 2. Blog not in sitemap index
-- `BlogIndexPage` exists with Helmet meta, but no `sitemap-blog.xml` and not in `sitemap.xml` index
-- Sanity blog posts won't be discovered by Google
+### 3. Dynamic OG images (larger — optional)
+Right now every page shares one OG cover. Per-page OG would dramatically lift CTR on social/Slack previews for icon detail pages and library pages.
 
-### 3. Missing `<link rel="canonical">`
-- `index.html` has no canonical tag
-- Per-page canonicals via Helmet not consistently set (need to verify on IconDetailPage, LibraryPage, CollectionPage)
-- Risk: duplicate content penalties on category × library overlap pages
+Two options:
+- **Lightweight**: Static per-library OG images (21 PNGs, generated once with imagegen) — covers ~80% of share traffic
+- **Full**: Edge function rendering OG on demand from icon SVG + name (best, but more work)
 
-### 4. MCP / API discoverability for humans
-- `ApiDocsPage` exists but no link from homepage / footer to the new API + MCP
-- Add a "Developers" or "API & MCP" entry visible from `/`
-
-### 5. Minor wins
-- `index.html` JSON-LD doesn't include `aggregateRating` or `offers` (free) — both boost SERP appearance
-- No `BreadcrumbList` in static `index.html` (only client-side via Helmet, slower for crawlers)
-- `sitemap-collections.xml` lastmod is missing (uses default)
-
-## Proposed plan
-
-### Phase A — Fix what's broken (must do)
-1. Debug `generate-sitemaps.js` for material + simple libraries; regenerate full set
-2. Add `sitemap-blog.xml` generator pulling from Sanity, register in `sitemap.xml` index
-3. Add `<link rel="canonical">` to `index.html` and verify per-route canonicals via Helmet on IconDetailPage, LibraryPage, CategoryLibraryPage, ComparisonPage
-
-### Phase B — High-leverage AI-SEO wins
-4. Expand `index.html` JSON-LD: add `offers` (free), `aggregateRating` (if real reviews exist — otherwise skip), `featureList` mentioning MCP + API
-5. Add a homepage section / footer link "For developers — API & MCP" to surface `/api` page (also helps PH launch story)
-6. Add `<link rel="alternate" type="application/json" href="/api/icons-index.json">` in `index.html` so AI crawlers find the index file directly
-
-### Phase C — Optional polish
-7. Add `og:image` per library/icon detail page (dynamic OG via existing SVG)
-8. Generate `humans.txt` and `security.txt`
-9. Add Article schema to blog posts (BlogPostPage)
+### 4. Misc small wins
+- `<meta name="referrer" content="origin-when-cross-origin">` in index.html
+- Add `hreflang="x-default"` to canonical (signals language-agnostic)
+- Self-referencing canonical on every Helmet instance (verify they're absolute URLs, not relative)
 
 ## Recommendation
+Do **1 + 2 + 4 now** (15 min, all wins, zero risk). Decide on **3** separately — static per-library OG is the sweet spot.
 
-Do **Phase A immediately** — you're losing ~20% of potential indexed pages and have no canonicals (real SEO risk). Phase B is the AI-era moat that complements the MCP launch. Phase C is nice-to-have.
+## What I will NOT touch
+- Sitemaps (already complete and verified)
+- Existing canonical/schema implementations (already correct)
+- robots.txt / llms.txt (already optimal)
 
-Approve Phase A, or A+B together?
+Approve and I'll ship 1, 2, 4 — and static per-library OG images if you want #3 included.
