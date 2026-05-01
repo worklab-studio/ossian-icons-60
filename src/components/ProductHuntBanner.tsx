@@ -86,7 +86,7 @@ export function ProductHuntBanner() {
     <div
       role="region"
       aria-label="Product Hunt launch announcement"
-      className="fixed top-0 right-0 left-0 md:left-[16rem] z-[60] border-b border-border/60 text-foreground backdrop-blur-md"
+      className="fixed top-0 right-0 left-0 md:left-[16rem] md:right-[20rem] z-[60] border-b border-border/60 text-foreground backdrop-blur-md"
       style={{
         background:
           "linear-gradient(90deg, hsl(var(--ph-orange) / 0.22) 0%, hsl(var(--ph-orange) / 0.08) 30%, hsl(var(--background) / 0.85) 70%, hsl(var(--background) / 0.85) 100%)",
