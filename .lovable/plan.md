@@ -1,80 +1,44 @@
-## Goal
+## Problem
 
-Add a single, polished Product Hunt launch banner that sits at the very top of every page. It should:
+The Product Hunt banner sits above the app shell, but `src/pages/Index.tsx` and `src/components/control-panel.tsx` use a hardcoded `h-screen` (= `100vh`). When the 36px banner renders above them, the shell becomes 36px taller than the viewport, pushing the footer below the fold and making the right Customize panel run off the bottom (visible in screenshot 1). When the banner is dismissed, layout returns to normal (screenshot 2).
 
-- Look on-brand (works in both light and dark mode, matches our muted/minimal aesthetic).
-- Auto-switch between **Coming soon on Product Hunt** and **We're live on Product Hunt — upvote us** based on a launch date.
-- Be **dismissible** (per-visitor) so it never becomes annoying for repeat users.
-- Auto-hide ~48h after launch day so we don't have to remember to remove it.
-- Use a **placeholder PH post URL** in one central config so you can swap it in one place when you have the real one.
+The user wants the footer to stay pinned to the bottom regardless of whether the banner is showing.
 
-Out of scope (not requested): dedicated /launch page, OG image redesign, footer "Featured on" badge.
+## Fix (smallest possible change)
 
-## What the banner looks like
+Switch the app from "viewport-locked via `h-screen`" to "viewport-locked via a CSS variable that subtracts the banner height". The banner already knows its own height (36px), so we expose it as a CSS custom property on `<html>` and use it everywhere `h-screen` is currently used in the page shell.
 
-A slim 36px top bar above the existing header, full-width, subtle gradient background tinted with the Product Hunt orange (`#DA552F`) on the left edge fading into our normal surface. Inside:
+### Changes
 
-- Product Hunt cat logo (inline SVG, ~16px) in PH orange.
-- **Pre-launch state:** "Coming soon on Product Hunt — {N} days to go" + "Notify me" button (links to PH "upcoming" page placeholder).
-- **Live state (launch day + next 48h):** "We're live on Product Hunt today 🎉 — help us reach #1" + "Upvote Iconstack" button (links to PH post URL).
-- **Post-launch (>48h):** banner does not render at all.
-- Small `×` close button on the right that sets `localStorage.iconstack_ph_banner_dismissed = "<launch-date>"` so dismissals only apply to the current launch — a future relaunch reactivates it.
+1. **`src/components/ProductHuntBanner.tsx`** — when the banner mounts and is visible, set `document.documentElement.style.setProperty('--ph-banner-h', '36px')`. When it unmounts, hidden, or dismissed, set it to `'0px'`. This is a single `useEffect` driven by the existing `state` + `dismissed` values.
 
-```text
-[🐱 PH]  We're live on Product Hunt today — help us reach #1   [Upvote Iconstack →]   [×]
-```
+2. **`src/index.css`** — add a default in `:root`:
+   ```css
+   --ph-banner-h: 0px;
+   ```
+   And one utility class so we don't sprinkle arbitrary values:
+   ```css
+   .h-app-shell { height: calc(100vh - var(--ph-banner-h)); }
+   ```
 
-## Configuration (one place to edit)
+3. **`src/pages/Index.tsx`** — replace the three `h-screen` occurrences (lines 495, 645, 651) with `h-app-shell`. No other layout changes.
 
-New file `src/config/productHunt.ts`:
+4. **`src/components/control-panel.tsx`** — replace the `h-screen` on line 460 with `h-app-shell` so the right Customize panel matches the new shell height and its internal scroll area stays inside the viewport.
 
-```ts
-export const PRODUCT_HUNT = {
-  // Swap this with the real PH URL when you have it.
-  postUrl: "https://www.producthunt.com/posts/iconstack",
-  upcomingUrl: "https://www.producthunt.com/coming-soon/iconstack",
-  // ISO date (UTC) of launch. Banner auto-switches Coming Soon → Live → hidden.
-  launchDate: "2026-05-08",
-  // Hours after launchDate to keep the "live" banner visible.
-  liveWindowHours: 48,
-  // Master kill switch.
-  enabled: true,
-};
-```
+### Why this works
 
-## Files to create / edit
+- When the banner is hidden/dismissed, `--ph-banner-h` is `0px`, so `calc(100vh - 0px) = 100vh` — identical to today's behavior. Zero regression risk for the dismissed/post-launch state.
+- When the banner is visible, the shell becomes `100vh - 36px`, which exactly compensates for the banner above it. The footer (last child of the flex column in `Index.tsx`) sits flush at the bottom of the viewport again, and the right panel's `h-app-shell` keeps its Export buttons visible.
+- CSS variable approach avoids prop-drilling a banner-visible flag into multiple components and keeps the banner self-contained.
 
-- **Create** `src/config/productHunt.ts` — the single source of truth (URL, date, flag).
-- **Create** `src/components/ProductHuntBanner.tsx` — the banner component. Computes state (coming-soon / live / hidden), reads dismissal from localStorage, renders the bar with a tasteful PH-orange accent. Inline PH cat SVG so we don't ship an extra asset.
-- **Edit** `src/App.tsx` — render `<ProductHuntBanner />` once, just inside `<BrowserRouter>` and above `<Routes>`, so it appears on every page (Index, library pages, blog, /api, etc.) without each page needing to opt in.
-- **Edit** `src/index.css` — add a small `--ph-orange: 14 78% 52%;` token (HSL) and a `--ph-orange-foreground` so the banner stays themable and respects the design-system rule (no raw hex in components).
+### Out of scope
 
-## Behavior details
+- Not making the footer `position: fixed`. The footer already sits at the bottom via the flex column; the only bug is the parent being too tall. Fixing the parent is cleaner and avoids overlapping content under a fixed footer.
+- Not touching mobile layouts — they don't render `h-screen` shells the same way and the banner is already responsive (32–36px).
 
-- **State machine** (computed on each mount, using `Date.now()`):
-  - `now < launchDate` → "coming-soon"
-  - `launchDate ≤ now < launchDate + liveWindowHours` → "live"
-  - else → render `null`
-- **Dismissal:** stores the launch date string as the value, not just a boolean. If you change `launchDate` for a relaunch, prior dismissals are ignored automatically.
-- **No layout shift on first paint:** banner mounts synchronously, has fixed 36px height, and `<Header>` continues to position itself naturally below it (header is not `fixed`, so no offset math needed — verified from `src/pages/Index.tsx` structure).
-- **Mobile:** on small screens, drop the day-counter / emoji and shrink button to icon + label "Upvote". Banner stays single-line at 36px.
-- **Accessibility:** `role="region"`, `aria-label="Product Hunt launch announcement"`, dismiss button has `aria-label="Dismiss Product Hunt banner"`. Link has `rel="noopener noreferrer"` and `target="_blank"`.
-- **Analytics:** fire a lightweight `window.umami?.track?.("ph_banner_click", { state })` on the CTA click so you can see how many upvotes came from the site. No new dependency.
+## Files touched
 
-## Visual spec
-
-- Height: 36px (32px on mobile).
-- Background: `linear-gradient(90deg, hsl(var(--ph-orange) / 0.18) 0%, hsl(var(--background)) 60%)` with a 1px bottom border in `border`.
-- Text: `text-foreground` for body, `text-muted-foreground` for the "{N} days to go" part.
-- CTA: small pill button, `bg-[hsl(var(--ph-orange))] text-white hover:opacity-90`, ~28px tall.
-- Dismiss: `text-muted-foreground hover:text-foreground`, 16px ×.
-
-## Why this is enough for PH approval + upvotes
-
-- Product Hunt's review team mainly checks that your site clearly reflects the launching product and links back to PH on launch day. A clean live-day banner with a working upvote link satisfies that signal without changing your core product surface.
-- Repeat visitors aren't punished thanks to the dismiss + auto-hide window.
-- Everything is gated behind `PRODUCT_HUNT.enabled`, so you can flip it off in one line if needed.
-
-## After approval
-
-When you give me the real PH URL, the only edit needed is `postUrl` (and optionally `launchDate`) in `src/config/productHunt.ts`. No other files change.
+- Edit `src/components/ProductHuntBanner.tsx`
+- Edit `src/index.css` (add `--ph-banner-h` + `.h-app-shell`)
+- Edit `src/pages/Index.tsx` (3 line edits)
+- Edit `src/components/control-panel.tsx` (1 line edit)
