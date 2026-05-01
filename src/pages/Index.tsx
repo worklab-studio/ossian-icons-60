@@ -494,7 +494,7 @@ function IconGridPage() {
         <SchemaMarkup schema={schemaMarkup} />
         <div className="flex flex-col h-app-shell w-full">
           {/* Fixed top header - non-scrollable */}
-          <div className="fixed top-0 left-0 right-0 z-50 bg-background">
+          <div className="fixed left-0 right-0 z-50 bg-background" style={{ top: "var(--ph-banner-h, 0px)" }}>
             <MobileHeader
               searchQuery={searchQuery}
               onSearchChange={setSearchQuery}
