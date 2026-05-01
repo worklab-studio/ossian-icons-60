@@ -293,7 +293,15 @@
   /* App shell height that compensates for the Product Hunt launch banner.
      --ph-banner-h is 0px by default and set to the banner height at runtime
      by ProductHuntBanner. */
+  /* Full-viewport shell — sidebar uses this so it stays anchored to the
+     bottom of the viewport regardless of the Product Hunt banner. */
   .h-app-shell {
+    height: 100vh;
+  }
+
+  /* Inner shell — used by the center column and right control panel so they
+     start below the fixed banner and the footer remains visible. */
+  .h-app-shell-inner {
     height: calc(100vh - var(--ph-banner-h));
     margin-top: var(--ph-banner-h);
   }
