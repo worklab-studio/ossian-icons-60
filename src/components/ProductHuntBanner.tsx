@@ -42,7 +42,18 @@ export function ProductHuntBanner() {
     }
   }, []);
 
-  if (!PRODUCT_HUNT.enabled || state === "hidden" || dismissed) return null;
+  // Expose banner height as a CSS variable so the app shell can subtract it
+  // from 100vh and keep the footer pinned to the bottom of the viewport.
+  const visible = PRODUCT_HUNT.enabled && state !== "hidden" && !dismissed;
+  useEffect(() => {
+    const root = document.documentElement;
+    root.style.setProperty("--ph-banner-h", visible ? "36px" : "0px");
+    return () => {
+      root.style.setProperty("--ph-banner-h", "0px");
+    };
+  }, [visible]);
+
+  if (!visible) return null;
 
   const isLive = state === "live";
   const href = isLive ? PRODUCT_HUNT.postUrl : PRODUCT_HUNT.upcomingUrl;
