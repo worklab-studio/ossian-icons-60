@@ -10,6 +10,8 @@ import { useToast } from '@/hooks/use-toast';
 
 const FUNCTION_URL =
   `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-search`;
+const SVG_FUNCTION_URL =
+  `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-svg`;
 
 const PARAMS: { name: string; type: string; required?: boolean; desc: string; example: string }[] = [
   { name: 'q', type: 'string', required: true, desc: 'Search query (1–80 chars).', example: 'user' },
@@ -145,6 +147,7 @@ for icon in data["results"]:
               <Badge variant="secondary">MIT licensed</Badge>
               <Badge variant="secondary">No API key</Badge>
               <Badge variant="secondary">CORS enabled</Badge>
+              <Badge variant="secondary">MCP for Cursor & Claude</Badge>
               <Badge variant="secondary">v1</Badge>
             </div>
           </div>
