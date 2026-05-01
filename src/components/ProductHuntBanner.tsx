@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { X, ArrowRight } from "lucide-react";
+import { useLocation } from "react-router-dom";
 import { PRODUCT_HUNT } from "@/config/productHunt";
 
 const DISMISS_KEY = "iconstack_ph_banner_dismissed";
@@ -30,6 +31,8 @@ function PHIcon({ className }: { className?: string }) {
 export function ProductHuntBanner() {
   const [state, setState] = useState<State>("hidden");
   const [dismissed, setDismissed] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === "/";
 
   useEffect(() => {
     if (!PRODUCT_HUNT.enabled) return;
@@ -44,7 +47,7 @@ export function ProductHuntBanner() {
 
   // Expose banner height as a CSS variable so the app shell can subtract it
   // from 100vh and keep the footer pinned to the bottom of the viewport.
-  const visible = PRODUCT_HUNT.enabled && state !== "hidden" && !dismissed;
+  const visible = isHome && PRODUCT_HUNT.enabled && state !== "hidden" && !dismissed;
   useEffect(() => {
     const root = document.documentElement;
     root.style.setProperty("--ph-banner-h", visible ? "64px" : "0px");
