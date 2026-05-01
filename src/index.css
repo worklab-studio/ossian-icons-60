@@ -295,5 +295,6 @@
      by ProductHuntBanner. */
   .h-app-shell {
     height: calc(100vh - var(--ph-banner-h));
+    margin-top: var(--ph-banner-h);
   }
 }
