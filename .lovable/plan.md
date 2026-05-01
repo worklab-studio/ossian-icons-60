@@ -1,106 +1,80 @@
-## Goals
+## Goal
 
-1. Make `/api` (Iconstack API & MCP) feel deliberate at wide viewports — no empty left/right gutters.
-2. Make navigation between `/` and `/api` (and other pages) feel near-instant.
+Add a single, polished Product Hunt launch banner that sits at the very top of every page. It should:
 
----
+- Look on-brand (works in both light and dark mode, matches our muted/minimal aesthetic).
+- Auto-switch between **Coming soon on Product Hunt** and **We're live on Product Hunt — upvote us** based on a launch date.
+- Be **dismissible** (per-visitor) so it never becomes annoying for repeat users.
+- Auto-hide ~48h after launch day so we don't have to remember to remove it.
+- Use a **placeholder PH post URL** in one central config so you can swap it in one place when you have the real one.
 
-## Part 1 — UI: fill the empty sides on `/api`
+Out of scope (not requested): dedicated /launch page, OG image redesign, footer "Featured on" badge.
 
-Today the page uses `max-w-6xl mx-auto` with a 2-column grid `[1fr_180px]`. On a 1442px viewport that leaves ~200px of empty background on each side and a thin underused TOC on the right. We'll switch to a true 3-column app shell.
+## What the banner looks like
 
-### New layout (desktop ≥ lg)
+A slim 36px top bar above the existing header, full-width, subtle gradient background tinted with the Product Hunt orange (`#DA552F`) on the left edge fading into our normal surface. Inside:
+
+- Product Hunt cat logo (inline SVG, ~16px) in PH orange.
+- **Pre-launch state:** "Coming soon on Product Hunt — {N} days to go" + "Notify me" button (links to PH "upcoming" page placeholder).
+- **Live state (launch day + next 48h):** "We're live on Product Hunt today 🎉 — help us reach #1" + "Upvote Iconstack" button (links to PH post URL).
+- **Post-launch (>48h):** banner does not render at all.
+- Small `×` close button on the right that sets `localStorage.iconstack_ph_banner_dismissed = "<launch-date>"` so dismissals only apply to the current launch — a future relaunch reactivates it.
 
 ```text
-┌──────────────────────────────────────────────────────────────────────┐
-│  Sticky top bar (full width): ← Back · Iconstack/API · status pill   │
-├──────────────┬───────────────────────────────────┬───────────────────┤
-│              │                                   │                   │
-│  LEFT RAIL   │   MAIN CONTENT (centered, prose)  │   RIGHT RAIL      │
-│  240px       │   max-w-3xl, generous padding     │   260px           │
-│  sticky      │                                   │   sticky          │
-│              │                                   │                   │
-│  • Brand     │   Hero (compact, no longer        │   On this page    │
-│    block     │    full-bleed)                    │   (active section │
-│  • Section   │   Quickstart                      │    highlighted)   │
-│    nav       │   MCP                             │                   │
-│  • "Built    │   Try it                          │   Endpoint card   │
-│    with      │   …                               │   (base URL +     │
-│    MCP"      │                                   │    copy)          │
-│    badge     │                                   │                   │
-│  • Links:    │                                   │   "Try a query"   │
-│    Home,     │                                   │   mini playground │
-│    Library,  │                                   │   (q + Run)       │
-│    Blog,     │                                   │                   │
-│    License   │                                   │   Status pill     │
-│  • X-Auto-   │                                   │   + GitHub/npm    │
-│    pilot ad  │                                   │   links           │
-│              │                                   │                   │
-└──────────────┴───────────────────────────────────┴───────────────────┘
+[🐱 PH]  We're live on Product Hunt today — help us reach #1   [Upvote Iconstack →]   [×]
 ```
 
-### Concrete changes to `src/pages/ApiDocsPage.tsx`
+## Configuration (one place to edit)
 
-- Replace the outer wrapper grid with:
-  - Container: `max-w-[1400px] mx-auto px-4 sm:px-6`
-  - Body grid (≥lg): `lg:grid-cols-[240px_minmax(0,1fr)_260px] lg:gap-10`
-- **Left rail (new)** — sticky `top-16`, hidden on `<lg`:
-  - Small Iconstack logo + "API & MCP" label
-  - Vertical section nav reusing the existing `SECTIONS` array, with active-section highlight via IntersectionObserver
-  - Divider
-  - "Useful links" group: Back to icons, Browse libraries, Blog, License (uses `react-router-dom` `Link` for SPA nav)
-  - X-Autopilot promo card (matches existing cross-promotion style from sidebar/footer per project memory)
-- **Main column** — keep current sections, but constrain to `max-w-3xl` so line length stays readable; remove the inner `lg:grid-cols-[1fr_180px]` (right rail is now outside).
-- **Right rail (new/expanded)** — sticky `top-16`, hidden on `<lg`:
-  - "Endpoint" card: base URL with copy button
-  - Mini "Try a query" — single input + Run, reuses `runTryIt` logic, links full results down to `#try-it`
-  - "Status" card with the operational pill
-  - Resource links: GitHub, npm (`iconstack-mcp`), llms.txt, JSON index
-- Keep the existing rich Hero, but change its background to a subtle full-bleed gradient/border so the page feels intentional even though content is centered.
-- Mobile (`<lg`): everything stacks; left rail collapses into a "Jump to section" `<details>` above the hero; right rail content (endpoint card, mini playground, status, links) is dropped — all that info already exists in the main flow on mobile.
+New file `src/config/productHunt.ts`:
 
-No changes to design tokens; reuse `bg-card`, `border-border/60`, `bg-muted/30`, `text-muted-foreground`, etc.
+```ts
+export const PRODUCT_HUNT = {
+  // Swap this with the real PH URL when you have it.
+  postUrl: "https://www.producthunt.com/posts/iconstack",
+  upcomingUrl: "https://www.producthunt.com/coming-soon/iconstack",
+  // ISO date (UTC) of launch. Banner auto-switches Coming Soon → Live → hidden.
+  launchDate: "2026-05-08",
+  // Hours after launchDate to keep the "live" banner visible.
+  liveWindowHours: 48,
+  // Master kill switch.
+  enabled: true,
+};
+```
 
----
+## Files to create / edit
 
-## Part 2 — Faster page navigation
+- **Create** `src/config/productHunt.ts` — the single source of truth (URL, date, flag).
+- **Create** `src/components/ProductHuntBanner.tsx` — the banner component. Computes state (coming-soon / live / hidden), reads dismissal from localStorage, renders the bar with a tasteful PH-orange accent. Inline PH cat SVG so we don't ship an extra asset.
+- **Edit** `src/App.tsx` — render `<ProductHuntBanner />` once, just inside `<BrowserRouter>` and above `<Routes>`, so it appears on every page (Index, library pages, blog, /api, etc.) without each page needing to opt in.
+- **Edit** `src/index.css` — add a small `--ph-orange: 14 78% 52%;` token (HSL) and a `--ph-orange-foreground` so the banner stays themable and respects the design-system rule (no raw hex in components).
 
-`src/App.tsx` eagerly imports every page (Index, Library, IconDetail, Blog, ApiDocs, …). Index in particular pulls the icon library bundles, so when the user clicks "API" the browser has to render a brand-new tree while the old one is still in memory — feels slow, especially on the first navigation.
+## Behavior details
 
-### Changes
+- **State machine** (computed on each mount, using `Date.now()`):
+  - `now < launchDate` → "coming-soon"
+  - `launchDate ≤ now < launchDate + liveWindowHours` → "live"
+  - else → render `null`
+- **Dismissal:** stores the launch date string as the value, not just a boolean. If you change `launchDate` for a relaunch, prior dismissals are ignored automatically.
+- **No layout shift on first paint:** banner mounts synchronously, has fixed 36px height, and `<Header>` continues to position itself naturally below it (header is not `fixed`, so no offset math needed — verified from `src/pages/Index.tsx` structure).
+- **Mobile:** on small screens, drop the day-counter / emoji and shrink button to icon + label "Upvote". Banner stays single-line at 36px.
+- **Accessibility:** `role="region"`, `aria-label="Product Hunt launch announcement"`, dismiss button has `aria-label="Dismiss Product Hunt banner"`. Link has `rel="noopener noreferrer"` and `target="_blank"`.
+- **Analytics:** fire a lightweight `window.umami?.track?.("ph_banner_click", { state })` on the CTA click so you can see how many upvotes came from the site. No new dependency.
 
-1. **Code-split routes in `src/App.tsx`**
-   - Convert all page imports (Index, LibraryPage, IconDetailPage, IconsPopularPage, LicensePage, ApiDocsPage, CollectionPage, ComparisonPage, CategoryLibraryPage, BlogIndexPage, BlogPostPage, NotFound, IconsDemo) to `React.lazy(() => import('...'))`.
-   - Wrap `<Routes>` in `<Suspense fallback={null}>` (per project memory: no artificial loading screens — render nothing during the brief chunk fetch rather than a spinner).
-   - Effect: navigating to `/api` no longer drags the icon-library code with it; the ApiDocsPage chunk is small and loads fast.
+## Visual spec
 
-2. **Prefetch on hover/intent**
-   - Add a tiny helper `src/lib/prefetch.ts` exporting `prefetchApi()`, `prefetchLibrary()`, etc., each doing `import('../pages/ApiDocsPage')` etc.
-   - In `src/components/app-sidebar.tsx` (and any `<Link to="/api">` in header/footer), add `onMouseEnter` / `onFocus` handlers that fire the matching prefetch. By the time the user actually clicks, the chunk is already cached.
+- Height: 36px (32px on mobile).
+- Background: `linear-gradient(90deg, hsl(var(--ph-orange) / 0.18) 0%, hsl(var(--background)) 60%)` with a 1px bottom border in `border`.
+- Text: `text-foreground` for body, `text-muted-foreground` for the "{N} days to go" part.
+- CTA: small pill button, `bg-[hsl(var(--ph-orange))] text-white hover:opacity-90`, ~28px tall.
+- Dismiss: `text-muted-foreground hover:text-foreground`, 16px ×.
 
-3. **Use SPA navigation everywhere**
-   - Audit `src/pages/ApiDocsPage.tsx` and the sidebar for any `<a href="/...">` pointing at internal routes; convert them to `<Link to="/...">` so the browser doesn't do a full document reload (which is the worst case for "slow navigation").
+## Why this is enough for PH approval + upvotes
 
-4. **Vite chunking touch-up in `vite.config.ts`**
-   - Extend the existing `manualChunks` to put `react-helmet-async`, `@radix-ui/*`, and `lucide-react` into a shared `ui-vendor` chunk (already partially done) so route chunks stay small.
-   - Add a `docs` chunk for `ApiDocsPage` + `LicensePage` (low-traffic, infrequently updated) so they share one cached download.
+- Product Hunt's review team mainly checks that your site clearly reflects the launching product and links back to PH on launch day. A clean live-day banner with a working upvote link satisfies that signal without changing your core product surface.
+- Repeat visitors aren't punished thanks to the dismiss + auto-hide window.
+- Everything is gated behind `PRODUCT_HUNT.enabled`, so you can flip it off in one line if needed.
 
-5. **Scroll restoration**
-   - Add a small `<ScrollToTop />` component in `App.tsx` that calls `window.scrollTo(0, 0)` on `pathname` change, so navigating to `/api` doesn't appear "stuck" mid-scroll.
+## After approval
 
----
-
-## Files touched
-
-- `src/pages/ApiDocsPage.tsx` — new 3-column shell, left rail, expanded right rail, active-section tracking.
-- `src/App.tsx` — `React.lazy` for all routes, `Suspense`, `ScrollToTop`.
-- `src/lib/prefetch.ts` — **new**, tiny prefetch helpers.
-- `src/components/app-sidebar.tsx` — wire `onMouseEnter` prefetch on the API/Library/Blog links; ensure all internal links use `Link`.
-- `src/components/header.tsx` (if it links to `/api`) — same SPA-link + prefetch treatment.
-- `vite.config.ts` — extend `manualChunks` with `ui-vendor` + `docs` groupings.
-
-## Out of scope
-
-- No backend / edge function changes.
-- No copy changes to the API docs body content (only structural/layout).
-- No design-token changes; everything uses existing semantic colors.
+When you give me the real PH URL, the only edit needed is `postUrl` (and optionally `launchDate`) in `src/config/productHunt.ts`. No other files change.
