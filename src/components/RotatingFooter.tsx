@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import dodoLogo from "@/assets/dodoinvoice-logo.avif";
 import xautopilotLogo from "@/assets/xautopilot-logo.png";
+import { prefetchByPath } from "@/lib/prefetch";
 
 type Promo = {
   brand: string;
