@@ -648,7 +648,7 @@ function IconGridPage() {
           onSetChange={setSelectedSet}
         />
         
-        <div className="flex-1 flex flex-col h-app-shell">{/* Fixed layout container */}
+        <div className="flex-1 flex flex-col h-app-shell-inner min-w-0">{/* Inner shell offsets the fixed banner */}
           <Header 
             searchQuery={searchQuery}
             onSearchChange={setSearchQuery}
