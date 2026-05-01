@@ -100,23 +100,18 @@ export function ProductHuntBanner() {
             "radial-gradient(600px 60px at 18% 50%, hsl(var(--ph-orange) / 0.25), transparent 70%)",
         }}
       />
-      <div className="relative flex h-16 items-center justify-center gap-2.5 px-3 pr-10 text-xs sm:text-[13px]">
-        <span
-          className="inline-flex h-5 items-center gap-1 rounded-full border border-[hsl(var(--ph-orange)/0.4)] bg-[hsl(var(--ph-orange)/0.15)] px-1.5 text-[10px] font-semibold uppercase tracking-wider text-[hsl(var(--ph-orange))]"
-        >
-          <PHIcon className="h-3 w-3" />
-          {isLive ? "Live" : "Soon"}
-        </span>
+      <div className="relative flex h-16 items-center justify-center gap-3 px-3 pr-10 text-xs sm:text-[13px]">
+        <PHIcon className="h-7 w-7 shrink-0 drop-shadow-[0_0_12px_hsl(var(--ph-orange)/0.5)]" />
         {isLive ? (
           <span className="truncate">
-            <span className="font-medium">We&apos;re live on Product Hunt</span>
+            <span className="font-semibold">We&apos;re live on Product Hunt</span>
             <span className="hidden text-muted-foreground sm:inline">
               {" "}— help us reach #1 today 🎉
             </span>
           </span>
         ) : (
           <span className="truncate">
-            <span className="font-medium">Launching on Product Hunt</span>
+            <span className="font-semibold">Launching on Product Hunt</span>
             <span className="hidden text-muted-foreground sm:inline">
               {" "}in {daysToGo} {daysToGo === 1 ? "day" : "days"}
             </span>
@@ -127,16 +122,9 @@ export function ProductHuntBanner() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleClick}
-          className="group ml-1 inline-flex h-6 items-center gap-1 rounded-full border border-[hsl(var(--ph-orange)/0.35)] bg-[hsl(var(--ph-orange)/0.1)] px-2.5 text-[11px] font-medium text-[hsl(var(--ph-orange))] transition-colors hover:bg-[hsl(var(--ph-orange)/0.18)]"
+          className="group ml-1 inline-flex h-7 items-center gap-1.5 rounded-full border border-[hsl(var(--ph-orange)/0.4)] bg-[hsl(var(--ph-orange)/0.12)] px-3 text-[11px] font-medium text-[hsl(var(--ph-orange))] transition-colors hover:bg-[hsl(var(--ph-orange)/0.2)]"
         >
-          {isLive ? (
-            <>
-              <span className="hidden sm:inline">Upvote</span>
-              <span className="sm:hidden">Upvote</span>
-            </>
-          ) : (
-            <span>Notify me</span>
-          )}
+          <span>{isLive ? "Upvote" : "Notify me"}</span>
           <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
         </a>
       </div>
