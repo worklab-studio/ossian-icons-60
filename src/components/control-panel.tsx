@@ -457,7 +457,7 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
   };
 
   return (
-    <div className="w-80 border-l bg-background h-app-shell-inner flex flex-col">
+    <div className="w-80 border-l bg-background h-app-shell flex flex-col">
       {/* Fixed Header */}
       <div className="h-16 border-b flex items-center px-6">
         <h2 className="text-lg font-semibold">Customize</h2>
