@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* PERF: Inter is preloaded asynchronously via index.html (rel=preload + onload swap)
+   to avoid render-blocking. Do not re-add @import here. */
 
 @tailwind base;
 @tailwind components;
