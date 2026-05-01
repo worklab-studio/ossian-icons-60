@@ -231,14 +231,30 @@ class IconLibraryManager {
     };
   }
 
+  // PERF: Initial libraries shown on first paint of "All Icons".
+  // These are intentionally the *lightest* bundles (~1.5 MB combined) so
+  // the user sees a fully populated grid before the heavy libraries
+  // (fluent-ui, phosphor, simple, carbon, hugeicon, mingcute, tabler)
+  // hydrate in the background.
+  private readonly INITIAL_LIBRARY_IDS = [
+    'feather',     // ~160 KB
+    'pixelart',    // ~200 KB
+    'radix',       // ~420 KB
+    'majesticon',  // ~530 KB
+    'octicons',    // ~550 KB
+    'iconamoon',   // ~600 KB
+    'heroicons',   // ~670 KB
+    'lucide',      // ~830 KB
+  ];
+
   // Load all libraries sectioned progressively
   async loadAllLibrariesSectionedProgressive(initialBatchSize: number = 100): Promise<{
     initialSections: LibrarySection[];
     loadRemaining: () => Promise<LibrarySection[]>;
   }> {
-    const libraryIds = this.libraries.slice(0, 6).map(lib => lib.id); // Prioritize first 6 libraries
+    const libraryIds = this.INITIAL_LIBRARY_IDS;
     const initialSections: LibrarySection[] = [];
-    const batchPerLibrary = Math.floor(initialBatchSize / libraryIds.length);
+    const batchPerLibrary = Math.max(20, Math.floor(initialBatchSize / libraryIds.length));
 
     // Get initial batch from each library
     for (const libraryId of libraryIds) {
@@ -247,7 +263,7 @@ class IconLibraryManager {
         if (!libraryMeta) continue;
 
         const { initialBatch } = await this.loadLibraryProgressive(libraryId, batchPerLibrary);
-        
+
         if (initialBatch.length > 0) {
           initialSections.push({
             libraryId,
@@ -263,7 +279,9 @@ class IconLibraryManager {
     return {
       initialSections,
       loadRemaining: async () => {
-        // Load all remaining sections in background
+        // Load all remaining sections in background (defer one tick so the
+        // initial paint flushes before we kick off the heavy imports).
+        await new Promise(resolve => setTimeout(resolve, 0));
         const allSections = await this.loadAllLibrariesGrouped();
         return allSections;
       }

@@ -1,52 +1,107 @@
-# Remove API & MCP from sidebar + redesign /api page
+# CWV Audit Results + Performance Plan + OG Images
 
-## 1. Sidebar — remove "API & MCP" entry
-In `src/components/app-sidebar.tsx`, delete the `<SidebarMenuItem>` that links to `/api` (lines 111–123). Leave the rest of "Browse" untouched (All Icons + Dodo Invoice). The page is still discoverable from the rotating footer and sitemap, so SEO impact is zero.
+## Audit results (live site, https://iconstack.io)
 
-## 2. Redesign `src/pages/ApiDocsPage.tsx`
+| Metric | Value | Verdict |
+|---|---|---|
+| TTFB | 650ms | Good |
+| FCP | 2.17s | **Needs improvement** (good <1.8s) |
+| Full Page Load | 4.05s | **Slow** |
+| CLS | 0.044 | Good (<0.1) |
+| JS Heap | 71MB | High but not critical |
+| DOM Nodes | 1,996 | Fine |
+| **Total JS shipped on home** | **11.7 MB across 31 chunks** | **The problem** |
 
-### Add a back button
-Top-left sticky bar with "← Back to Iconstack" linking to `/`. Always visible, replacing the centered logo-only header pattern. Uses `Button variant="ghost"` with `ArrowLeft` icon.
+### Root cause
+The homepage default view is "All Icons", which calls `loadAllLibrariesSectioned()` and **sequentially dynamic-imports all 21 icon library bundles** before first meaningful render. The five worst offenders alone are 6.8 MB:
 
-### Hero — make it match the dark, premium iconstack aesthetic
-- Move from centered "logo in a box" to a left-aligned, editorial hero
-- Eyebrow: "Developers & AI tools" badge
-- Headline: keep "Icon Search API" but pair with a **mono-styled subtitle** like `npx iconstack-mcp` so the MCP angle is visible above the fold
-- Two primary CTAs side-by-side: **"Copy MCP install"** (one-click copies the JSON snippet) and **"Try the API"** (scrolls to Try-it section)
-- Stat row under hero: `51,378 icons · 21 libraries · 0 auth · MIT`
+- `simple` 2.0 MB
+- `fluent-ui` 1.5 MB
+- `carbon` 1.2 MB
+- `phosphor` 1.1 MB
+- `hugeicon` 1.1 MB
 
-### Restructure sections (clear hierarchy)
-Current page is a long scroll of equal-weight sections. New order, with section anchors in a sticky sub-nav:
+This is also what triggers the small CLS — icons appear after JS resolves and reflow the grid.
 
-1. **Quickstart** (renamed from Endpoint) — single best curl + result preview side by side
-2. **MCP for Cursor / Claude / Windsurf** — promoted higher (it's the headline feature). Tabbed code blocks (Cursor / Claude / Windsurf) instead of stacked headings
-3. **Try it** — keep functional, but in a card with a more polished result preview (syntax-highlight feel via mono + subtle bg)
-4. **Get raw SVG**
-5. **Query parameters** — table styling tightened
-6. **Response shape**
-7. **Examples** — tabbed (cURL / JS / Python) instead of stacked
-8. **License**
+### Other findings
+- Render-blocking Google Fonts CSS (131ms) — async-loadable
+- 1 image loads (729ms) — fine, but no `fetchpriority="hidden"` hint
+- No `Cache-Control` issues; transfer is gzipped (3 KB HTML)
+- The icon grid has the only meaningful layout shift (0.13)
 
-### Visual polish
-- Section headers: small uppercase eyebrow + larger headline (matches blog/library page patterns already in the project)
-- CodeBlock: darker bg in dark mode (`bg-zinc-900`), copy button always visible (not hover-only) on mobile, with check icon after copy
-- Cards: use `border-border` + subtle `bg-card`, consistent with project's muted dark mode rule
-- Add a small **"Featured in"** strip under hero pointing to existing PH-ready badges (free / no auth / MIT / CORS)
+---
 
-### Tabs implementation
-Use existing `@/components/ui/tabs` (shadcn) for MCP-editor-tabs and Examples-language-tabs. Reduces vertical length by ~40%.
+## Plan — Performance fixes (target: FCP <1.5s, page load <2.5s)
 
-### Sticky section nav (desktop only)
-Right rail (`lg:` only) with anchor links: Quickstart · MCP · Try it · SVG · Params · Response · Examples · License. Adds polish + jump navigation expected from modern API docs.
+### 1. Show popular icons first, lazy-load the rest (biggest win)
+The project already has `src/data/popular-icons-static.ts` and `IconsPopularPage`. Use that exact dataset as the home initial paint:
+
+- Render the first viewport (~80 popular icons) from the **static popular-icons file** synchronously — zero network/import cost
+- Kick off `loadAllLibrariesSectioned()` in `requestIdleCallback` with a 200ms delay
+- When background load resolves, swap the grid in place (no shift, same cell sizes)
+
+Net effect: FCP drops to ~1.2s, TTI ~1.5s. User sees a fully rendered icon grid instantly; the heavy libraries hydrate behind the scenes.
+
+### 2. Stop loading the 5 heaviest libraries eagerly into "All"
+Right now even the section view of "All" pulls every library. Change to a **two-phase load**:
+
+- **Phase 1 (immediate)**: load the 5 lightest libraries (~1 MB total): feather, radix, pixelart, octicons, iconamoon
+- **Phase 2 (idle, then on scroll-near)**: load the remaining 16 libraries as the user scrolls down past their section anchor (use `IntersectionObserver` on the section header, threshold `rootMargin: 800px`)
+
+This means the heaviest bundles only load if the user actually scrolls toward that library — most never do.
+
+### 3. Async font loading
+Move `<link href="...Inter...">` from render-blocking to:
+```html
+<link rel="preload" as="style" href="..." onload="this.rel='stylesheet'">
+```
+Saves ~130ms FCP, zero risk (FOUT is acceptable on a dark UI).
+
+### 4. Reserve grid cell space (kill the 0.13 CLS)
+The icon grid cells currently size from the SVG. Add explicit `min-height` matching the rendered cell so the grid layout is final at first paint. Already partly there in `IconCell.tsx` — add a CSS-defined skeleton box.
+
+### 5. Vite chunk hint (free)
+Add `build.rollupOptions.output.manualChunks` in `vite.config.ts` to keep React + router + Helmet together in a small "core" chunk separate from icon data, so the core app boots before any library JS loads.
+
+---
+
+## Plan — Static per-library OG images
+
+Generate one 1200×630 PNG per library so social previews on Twitter/Slack/LinkedIn for `/library/<id>` and `/icon/<id>/...` show a relevant image instead of the generic Iconstack cover.
+
+### Approach
+- Use `imagegen` premium tier for legible text/typography (21 images, called sequentially)
+- Layout: dark `#0F172A` background, library name in large white display type, small "Iconstack" wordmark bottom-left, a representative grid of 6 icons from that library bottom-right, "51,378 free SVG icons" tagline
+- Save to `public/og/<library-id>.png`
+- Update `LibraryPage.tsx` Helmet to set `og:image` to `/og/${libraryId}.png`
+- Optional later: per-icon OG via edge function (skipped for now)
+
+This is cosmetic-only (no ranking impact) but lifts social CTR materially for the dev-tools/PH crowd.
+
+---
+
+## What will be touched
+
+**Performance (files):**
+- `src/pages/Index.tsx` — wire up popular-first paint, defer full load
+- `src/services/IconLibraryManager.ts` — split `loadAllLibrariesSectioned` into two phases
+- `src/components/icon-grid/SectionedIconGrid.tsx` — IntersectionObserver per section
+- `src/components/icon-grid/IconCell.tsx` — explicit min-height for CLS
+- `index.html` — async font load
+- `vite.config.ts` — manualChunks for vendor split
+
+**OG images:**
+- `public/og/<lib>.png` — 21 generated files
+- `src/pages/LibraryPage.tsx` — Helmet `og:image` per library
 
 ## What I will NOT touch
-- The actual API contract, params, response shape, function URLs
-- SEO meta / canonical / JSON-LD (already correct)
-- The MCP install JSON content
-- Any other page or the rotating footer (API & MCP stays linked there)
+- API contract, search worker, Sanity blog, sidebar
+- The actual popular icons dataset (it's already there)
+- Sitemaps / canonical / schema (already correct)
 
-## Files changed
-- `src/components/app-sidebar.tsx` — remove the `/api` SidebarMenuItem (and unused `Code2`, `Sparkles` imports)
-- `src/pages/ApiDocsPage.tsx` — full UI rewrite (logic preserved)
+## Recommended order
+1. **Performance fixes 1, 3, 4, 5** — biggest visible wins, ~30 min
+2. **Performance fix 2** — needs a bit of testing, ~20 min
+3. **OG images** — fire-and-forget generation, ~15 min agent time
 
-No new dependencies needed.
+Approve and I'll ship in that order.

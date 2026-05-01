@@ -173,7 +173,11 @@ const LibraryPageContent = () => {
         <meta property="og:description" content={`${libraryMetadata.count ?? ''} ${libraryMetadata.style ?? ''} icons from ${libraryMetadata.name}`} />
         <meta property="og:url" content={`https://iconstack.io/library/${libraryId}`} />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content={`https://iconstack.io/og/${libraryId}.png`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={`https://iconstack.io/og/${libraryId}.png`} />
         <link rel="canonical" href={`https://iconstack.io/library/${encodeURIComponent(libraryId || '')}`} />
         <meta name="robots" content="index, follow" />
       </Helmet>
