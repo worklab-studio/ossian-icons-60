@@ -17,10 +17,10 @@ function computeState(): State {
 
 function PHIcon({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
-      <circle cx="12" cy="12" r="12" fill="hsl(var(--ph-orange))" />
+    <svg viewBox="0 0 40 40" className={className} aria-hidden="true">
+      <circle cx="20" cy="20" r="20" fill="hsl(var(--ph-orange))" />
       <path
-        d="M13.6 7H9v10h2v-3h2.6a3.5 3.5 0 0 0 0-7zm0 5H11V9h2.6a1.5 1.5 0 0 1 0 3z"
+        d="M22.667 20H17.5v-5.333h5.167a2.667 2.667 0 0 1 0 5.333zm0-8H14.5v16h3v-5h5.167a5.333 5.333 0 0 0 0-10.667z"
         fill="#fff"
       />
     </svg>
