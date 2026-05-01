@@ -1,0 +1,18 @@
+/* TEAM */
+  Site: Iconstack
+  Contact: hello [at] iconstack.io
+  Location: Remote / EU
+
+/* THANKS */
+  Open-source icon authors: Tabler, Phosphor, Lucide, Material, Bootstrap,
+  Heroicons, Carbon, Iconoir, Iconsax, Solar, Mingcute, Radix, Octicons,
+  Feather, Huge Icons, Iconamoon, Majesticon, Pixel Art, Line, Fluent UI,
+  Simple Icons.
+
+/* SITE */
+  Last update: 2026/05/01
+  Standards: HTML5, CSS3, ES2022
+  Components: React 18, Vite, TailwindCSS, shadcn/ui
+  Backend: Lovable Cloud (Supabase), edge functions
+  Search: Static JSON index + Web Worker
+  Distribution: Web app, Figma plugin, Framer plugin, MCP server (npx iconstack-mcp)
