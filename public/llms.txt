@@ -7,9 +7,25 @@
 - [Homepage](https://iconstack.io/): Browse and customize all 51k+ icons in one interface.
 - [Public Search API](https://iconstack.io/api): Free JSON API to search icons by query, library, category, or style. No auth required.
 - [Search API endpoint](https://sglpxftkuzsqdpdhftwv.supabase.co/functions/v1/icon-search): `GET ?q=<query>&library=<id>&category=<id>&style=<style>&limit=<n>&offset=<n>`
+- [Get-SVG endpoint](https://sglpxftkuzsqdpdhftwv.supabase.co/functions/v1/icon-svg): `GET ?library=<id>&id=<icon-id>` returns raw SVG markup. Add `&format=svg` for `image/svg+xml`.
+- [MCP server (npx iconstack-mcp)](https://www.npmjs.com/package/iconstack-mcp): Model Context Protocol server so Cursor / Claude Desktop / Windsurf can search and insert icons without leaving the editor. Tools: `search_icons`, `get_icon_svg`, `list_libraries`.
 - [Icon index file](https://iconstack.io/api/icons-index.json): Full searchable index (~7 MB) with id, name, library, style, category, and tags for every icon.
+- [Per-library SVG files](https://iconstack.io/api/svg/manifest.json): One JSON file per library at `/api/svg/<library>.json` mapping icon id → SVG markup.
 - [Sitemap](https://iconstack.io/sitemap.xml): Master sitemap linking to per-library sitemaps with all icon detail pages.
 - [Blog](https://iconstack.io/blog): Articles on icon design, UI patterns, and library comparisons.
+
+## MCP install (for AI editors)
+
+Add to `~/.cursor/mcp.json` (Cursor), `claude_desktop_config.json` (Claude Desktop), or `~/.codeium/windsurf/mcp_config.json` (Windsurf):
+
+```json
+{
+  "mcpServers": {
+    "iconstack": { "command": "npx", "args": ["-y", "iconstack-mcp"] }
+  }
+}
+```
+
 
 ## Icon libraries
 

@@ -10,6 +10,8 @@ import { useToast } from '@/hooks/use-toast';
 
 const FUNCTION_URL =
   `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-search`;
+const SVG_FUNCTION_URL =
+  `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-svg`;
 
 const PARAMS: { name: string; type: string; required?: boolean; desc: string; example: string }[] = [
   { name: 'q', type: 'string', required: true, desc: 'Search query (1–80 chars).', example: 'user' },
@@ -145,6 +147,7 @@ for icon in data["results"]:
               <Badge variant="secondary">MIT licensed</Badge>
               <Badge variant="secondary">No API key</Badge>
               <Badge variant="secondary">CORS enabled</Badge>
+              <Badge variant="secondary">MCP for Cursor & Claude</Badge>
               <Badge variant="secondary">v1</Badge>
             </div>
           </div>
@@ -182,7 +185,58 @@ for icon in data["results"]:
             </div>
           </section>
 
-          {/* Parameters */}
+          {/* MCP install */}
+          <section>
+            <h2 className="text-2xl font-semibold mb-3">Use inside Cursor, Claude & Windsurf</h2>
+            <p className="text-muted-foreground mb-4">
+              Install the <code className="px-1 py-0.5 rounded bg-muted text-xs font-mono">iconstack-mcp</code> server
+              and your AI editor can search 51,000+ icons and paste SVGs straight into your code — no browser, no copy/paste.
+            </p>
+            <h3 className="text-sm font-medium mb-2 text-muted-foreground">Cursor — <code className="font-mono text-xs">~/.cursor/mcp.json</code></h3>
+            <CodeBlock>{`{
+  "mcpServers": {
+    "iconstack": {
+      "command": "npx",
+      "args": ["-y", "iconstack-mcp"]
+    }
+  }
+}`}</CodeBlock>
+            <h3 className="text-sm font-medium mb-2 mt-4 text-muted-foreground">Claude Desktop — <code className="font-mono text-xs">claude_desktop_config.json</code></h3>
+            <CodeBlock>{`{
+  "mcpServers": {
+    "iconstack": {
+      "command": "npx",
+      "args": ["-y", "iconstack-mcp"]
+    }
+  }
+}`}</CodeBlock>
+            <p className="text-xs text-muted-foreground mt-3">
+              Then prompt your assistant with things like <em>"find a clean outline shopping cart icon and add it to the header"</em>{' '}
+              or <em>"replace this 🚀 with a Lucide rocket SVG"</em>. Tools exposed: <code className="font-mono text-xs">search_icons</code>,{' '}
+              <code className="font-mono text-xs">get_icon_svg</code>, <code className="font-mono text-xs">list_libraries</code>.
+            </p>
+          </section>
+
+          {/* Get SVG endpoint */}
+          <section>
+            <h2 className="text-2xl font-semibold mb-3">Get raw SVG</h2>
+            <p className="text-muted-foreground mb-3">
+              Fetch the raw SVG markup for a specific icon. Use the search endpoint above to discover the right{' '}
+              <code className="font-mono text-xs">library</code> + <code className="font-mono text-xs">id</code>.
+            </p>
+            <CodeBlock>{`GET ${SVG_FUNCTION_URL}?library=lucide&id=user
+GET ${SVG_FUNCTION_URL}?library=lucide&id=user&format=svg   # raw image/svg+xml`}</CodeBlock>
+            <h3 className="text-sm font-medium mt-4 mb-2 text-muted-foreground">JSON response</h3>
+            <CodeBlock>{`{
+  "library": "lucide",
+  "id": "user",
+  "fullId": "lucide-user",
+  "svg": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" ...>...</svg>",
+  "url": "https://iconstack.io/icon/lucide/user"
+}`}</CodeBlock>
+          </section>
+
+
           <section>
             <h2 className="text-2xl font-semibold mb-3">Query parameters</h2>
             <div className="border rounded-lg overflow-hidden">
