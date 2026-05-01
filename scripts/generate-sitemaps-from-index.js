@@ -160,7 +160,7 @@ async function main() {
     xmlUrl({ loc: `${DOMAIN}/blog`, lastmod, changefreq: 'weekly', priority: '0.8' }),
   ];
   try {
-    const projectId = 'gx6pftyq'; // public Sanity project — safe to hardcode for sitemap
+    const projectId = 'q9wjrixz'; // public Sanity project — safe to hardcode for sitemap
     const dataset = 'production';
     const query = encodeURIComponent('*[_type=="post" && defined(slug.current)]{slug,_updatedAt}');
     const url = `https://${projectId}.api.sanity.io/v2024-01-01/data/query/${dataset}?query=${query}`;
