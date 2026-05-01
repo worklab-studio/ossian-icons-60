@@ -93,9 +93,13 @@ for (let i = offsets.length - 1; i >= 0; i--) {
   }
 
   if (commentCat) {
+    // Read style so we can treat `category == style` as effectively empty
+    const styleMatch = tail.match(/style:\s*"([^"]*)"/);
+    const styleVal = styleMatch ? styleMatch[1] : '';
     const existingCatMatch = tail.match(/(\n\s*)category:\s*"([^"]*)"/);
     if (existingCatMatch) {
-      if (!existingCatMatch[2]) {
+      const existingVal = existingCatMatch[2];
+      if (!existingVal || existingVal === styleVal) {
         tail = tail.replace(/(\n\s*)category:\s*"[^"]*"/, `$1category: ${JSON.stringify(commentCat)}`);
       }
     } else {
