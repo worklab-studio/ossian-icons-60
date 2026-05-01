@@ -54,12 +54,21 @@ function loadSvgForLibrary(libraryId) {
   const data = JSON.parse(readFileSync(path, 'utf8'));
   const icons = data.icons || data;
   const samples = [];
-  // Try to find named icons first
+  // Handle both array and object shapes
+  if (Array.isArray(icons)) {
+    for (const v of icons) {
+      if (typeof v === 'string' && v.startsWith('<')) samples.push(v);
+      else if (v && typeof v === 'object' && typeof v.svg === 'string') samples.push(v.svg);
+      if (samples.length === 6) break;
+    }
+    return samples;
+  }
+  // Object: try to find named icons first
   for (const name of SAMPLE_NAMES) {
     const found = Object.entries(icons).find(([k]) =>
       k.toLowerCase() === name || k.toLowerCase().endsWith(`-${name}`) || k.toLowerCase() === `${name}-line`
     );
-    if (found) samples.push(found[1]);
+    if (found && typeof found[1] === 'string') samples.push(found[1]);
     if (samples.length === 6) break;
   }
   // Fall back to first N
