@@ -127,18 +127,17 @@ export function ProductHuntBanner() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleClick}
-          className="group ml-1 inline-flex h-7 items-center gap-1.5 rounded-full px-3 text-xs font-semibold text-white shadow-sm shadow-[hsl(var(--ph-orange)/0.4)] ring-1 ring-inset ring-white/10 transition-all hover:shadow-md hover:shadow-[hsl(var(--ph-orange)/0.5)] hover:brightness-110"
-          style={{ backgroundColor: "hsl(var(--ph-orange))" }}
+          className="group ml-1 inline-flex h-6 items-center gap-1 rounded-full border border-[hsl(var(--ph-orange)/0.35)] bg-[hsl(var(--ph-orange)/0.1)] px-2.5 text-[11px] font-medium text-[hsl(var(--ph-orange))] transition-colors hover:bg-[hsl(var(--ph-orange)/0.18)]"
         >
           {isLive ? (
             <>
-              <span className="hidden sm:inline">Upvote Iconstack</span>
+              <span className="hidden sm:inline">Upvote</span>
               <span className="sm:hidden">Upvote</span>
             </>
           ) : (
             <span>Notify me</span>
           )}
-          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+          <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
         </a>
       </div>
       <button
