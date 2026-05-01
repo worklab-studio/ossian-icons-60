@@ -1,0 +1,46 @@
+{
+  "name": "iconstack-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Iconstack — search 51,000+ icons across 21 libraries and insert SVGs without leaving Cursor, Claude Desktop, or Windsurf.",
+  "type": "module",
+  "bin": {
+    "iconstack-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "icons",
+    "svg",
+    "cursor",
+    "claude",
+    "windsurf",
+    "ai",
+    "iconstack"
+  ],
+  "author": "Iconstack",
+  "license": "MIT",
+  "homepage": "https://iconstack.io/api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iconstack/iconstack-mcp"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^20.0.0"
+  }
+}
