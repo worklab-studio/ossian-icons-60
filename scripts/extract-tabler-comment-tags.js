@@ -64,8 +64,12 @@ for (let i = offsets.length - 1; i >= 0; i--) {
 
   if (!commentTags.length && !commentCat) continue;
 
-  // Merge with any existing top-level fields
-  const existingTagsMatch = block.match(/(\n\s*)tags:\s*\[([^\]]*)\]/);
+  // Merge with any existing top-level fields. Search AFTER the closing
+  // backtick of the svg template literal so we never match the `tags:` line
+  // that lives inside the SVG `<!-- ... -->` comment.
+  const svgEnd = block.indexOf('`,', commentMatch.index);
+  const tail = svgEnd === -1 ? '' : block.slice(svgEnd);
+  const existingTagsMatch = tail.match(/(\n\s*)tags:\s*\[([^\]]*)\]/);
   const existingTags = existingTagsMatch
     ? [...existingTagsMatch[2].matchAll(/"([^"]*)"/g)].map(x => x[1])
     : [];
