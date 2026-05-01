@@ -169,16 +169,20 @@ function IconGridPage() {
     const loadIcons = async () => {
       try {
         console.log(`Loading icons for: ${selectedSet}`);
-        
+
         if (selectedSet === "all") {
-          console.log('Loading all libraries sectioned...');
-          await loadAllLibrariesSectioned();
+          // PERF: Use the progressive loader so we paint the first ~6 light
+          // libraries instantly and then hydrate the heavy ones (fluent-ui,
+          // phosphor, simple, carbon, hugeicon) in the background. Saves
+          // ~7 MB of JS off first paint.
+          console.log('Loading all libraries (progressive)...');
+          await loadAllLibrariesSectionedProgressive();
         } else {
           console.log(`🚀 Loading library: ${selectedSet}`);
           await loadLibrary(selectedSet);
           console.log(`✅ Completed loading: ${selectedSet}`);
         }
-        
+
         console.log(`Successfully loaded icons for: ${selectedSet}`, {
           iconsCount: icons.length,
           sectionsCount: sections.length,
@@ -189,9 +193,9 @@ function IconGridPage() {
         // Error is handled by the hook's internal error state
       }
     };
-    
+
     loadIcons();
-  }, [loadLibrary, loadAllLibrariesSectioned, selectedSet]);
+  }, [loadLibrary, loadAllLibrariesSectionedProgressive, selectedSet]);
 
   // Index loaded icons for search - with proper library separation for "all"
   useEffect(() => {
