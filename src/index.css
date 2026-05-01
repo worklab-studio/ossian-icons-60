@@ -58,6 +58,10 @@
     --hover-bg: 0 0% 97%;
     --icon-hover: 0 0% 94%;
     --search-shadow: 0 0% 0% / 0.1;
+
+    /* Product Hunt brand accent */
+    --ph-orange: 14 78% 52%;
+    --ph-orange-foreground: 0 0% 100%;
   }
 
   .dark {
@@ -103,6 +107,10 @@
     --hover-bg: 0 0% 10%;
     --icon-hover: 0 0% 15%;
     --search-shadow: 0 0% 0% / 0.3;
+
+    /* Product Hunt brand accent (slightly brighter on dark) */
+    --ph-orange: 14 85% 58%;
+    --ph-orange-foreground: 0 0% 100%;
   }
 }
 
