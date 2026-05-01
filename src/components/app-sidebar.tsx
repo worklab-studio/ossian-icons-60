@@ -113,7 +113,7 @@ export function AppSidebar({
                   <a href="https://www.npmjs.com/package/iconstack-mcp" target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center gap-3">
                       <Plug className="h-4 w-4" />
-                      <span>MCP Server</span>
+                      <span>MCP</span>
                     </div>
                     <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
                   </a>
@@ -124,7 +124,7 @@ export function AppSidebar({
                   <a href="/api" target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center gap-3">
                       <Code2 className="h-4 w-4" />
-                      <span>Public API</span>
+                      <span>API</span>
                     </div>
                     <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
                   </a>
