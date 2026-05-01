@@ -47,7 +47,7 @@ export function ProductHuntBanner() {
   const visible = PRODUCT_HUNT.enabled && state !== "hidden" && !dismissed;
   useEffect(() => {
     const root = document.documentElement;
-    root.style.setProperty("--ph-banner-h", visible ? "36px" : "0px");
+    root.style.setProperty("--ph-banner-h", visible ? "64px" : "0px");
     return () => {
       root.style.setProperty("--ph-banner-h", "0px");
     };
