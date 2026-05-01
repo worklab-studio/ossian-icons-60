@@ -1,4 +1,5 @@
-import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight } from "lucide-react";
+import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Code2, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import dodoLogo from "@/assets/dodoinvoice-logo.avif";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
 import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
@@ -107,6 +108,19 @@ export function AppSidebar({
                     </span>
                   </SidebarMenuButton>
                 </SidebarMenuItem>)}
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
+                  <Link to="/api">
+                    <div className="flex items-center gap-3">
+                      <Code2 className="h-4 w-4" />
+                      <span>API & MCP</span>
+                    </div>
+                    <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 text-primary text-[10px] font-semibold px-1.5 py-0.5">
+                      <Sparkles className="h-2.5 w-2.5" /> NEW
+                    </span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
                   <a href="https://dodoinvoice.com?ref=iconstack" target="_blank" rel="noopener noreferrer">
