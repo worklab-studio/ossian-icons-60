@@ -163,7 +163,7 @@ async function main() {
     const projectId = 'q9wjrixz'; // public Sanity project — safe to hardcode for sitemap
     const dataset = 'production';
     const query = encodeURIComponent('*[_type=="post" && defined(slug.current)]{slug,_updatedAt}');
-    const url = `https://${projectId}.api.sanity.io/v2024-01-01/data/query/${dataset}?query=${query}`;
+    const url = `https://${projectId}.api.sanity.io/v2021-10-21/data/query/${dataset}?query=${query}`;
     const res = await fetch(url);
     if (res.ok) {
       const json = await res.json();
