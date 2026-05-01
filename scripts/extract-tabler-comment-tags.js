@@ -64,11 +64,14 @@ for (let i = offsets.length - 1; i >= 0; i--) {
 
   if (!commentTags.length && !commentCat) continue;
 
-  // Merge with any existing top-level fields. Search AFTER the closing
-  // backtick of the svg template literal so we never match the `tags:` line
-  // that lives inside the SVG `<!-- ... -->` comment.
-  const svgEnd = block.indexOf('`,', commentMatch.index);
-  const tail = svgEnd === -1 ? '' : block.slice(svgEnd);
+  // Split block into svg-template part and metadata-tail part. We only want
+  // to read/write the metadata tail, never the comment inside the SVG.
+  const cmIdx = commentMatch.index ?? block.indexOf('`<!--');
+  const tailStart = block.indexOf('`,', cmIdx);
+  if (tailStart === -1) continue;
+  const head = block.slice(0, tailStart + 2); // include the closing "`,"
+  let tail = block.slice(tailStart + 2);
+
   const existingTagsMatch = tail.match(/(\n\s*)tags:\s*\[([^\]]*)\]/);
   const existingTags = existingTagsMatch
     ? [...existingTagsMatch[2].matchAll(/"([^"]*)"/g)].map(x => x[1])
@@ -83,23 +86,25 @@ for (let i = offsets.length - 1; i >= 0; i--) {
   const tagsLiteral = `[${merged.map(t => JSON.stringify(t)).join(', ')}]`;
 
   if (existingTagsMatch) {
-    block = block.replace(/(\n\s*)tags:\s*\[[^\]]*\]/, `$1tags: ${tagsLiteral}`);
+    tail = tail.replace(/(\n\s*)tags:\s*\[[^\]]*\]/, `$1tags: ${tagsLiteral}`);
   } else if (merged.length) {
-    // Insert before closing brace
-    block = block.replace(/(\n\s*)\}$/, `,$1  tags: ${tagsLiteral}$1}`);
+    tail = tail.replace(/(\n\s*)\}$/, `,$1  tags: ${tagsLiteral}$1}`);
     withTags++;
   }
 
   if (commentCat) {
-    if (/category:\s*"[^"]*"/.test(block)) {
-      // keep existing if non-empty, otherwise replace
-      block = block.replace(/category:\s*"([^"]*)"/, (full, v) => v ? full : `category: ${JSON.stringify(commentCat)}`);
+    const existingCatMatch = tail.match(/(\n\s*)category:\s*"([^"]*)"/);
+    if (existingCatMatch) {
+      if (!existingCatMatch[2]) {
+        tail = tail.replace(/(\n\s*)category:\s*"[^"]*"/, `$1category: ${JSON.stringify(commentCat)}`);
+      }
     } else {
-      block = block.replace(/(\n\s*)\}$/, `,$1  category: ${JSON.stringify(commentCat)}$1}`);
+      tail = tail.replace(/(\n\s*)\}$/, `,$1  category: ${JSON.stringify(commentCat)}$1}`);
       withCat++;
     }
   }
 
+  block = head + tail;
   out = out.slice(0, openIdx) + block + out.slice(endIdx + 1);
   touched++;
 }
