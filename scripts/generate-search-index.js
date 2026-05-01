@@ -91,13 +91,18 @@ function parseLibraryFile(filePath) {
     const block = src.slice(i, j + 1);
     const id = extractField(block, 'id');
     const name = extractField(block, 'name');
+    // Use the metadata tail (everything after the svg template literal) so we
+    // don't accidentally pick up `tags:` / `category:` lines that live inside
+    // the SVG `<!-- ... -->` header comment (tabler in particular does this).
+    const svgEnd = block.indexOf('`,');
+    const tail = svgEnd === -1 ? block : block.slice(svgEnd + 2);
     if (id && name) {
       items.push({
         id,
         n: name,
-        s: extractField(block, 'style') || '',
-        c: extractField(block, 'category') || '',
-        t: extractArrayField(block, 'tags'),
+        s: extractField(tail, 'style') || '',
+        c: extractField(tail, 'category') || '',
+        t: extractArrayField(tail, 'tags'),
       });
     }
     i = src.indexOf('{', j + 1);
