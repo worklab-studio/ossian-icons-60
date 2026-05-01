@@ -26,7 +26,20 @@ const FramerIcon = () => (
   </svg>
 );
 
+const McpIcon = () => (
+  <svg viewBox="0 0 24 24" className="h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <polyline points="16 18 22 12 16 6" />
+    <polyline points="8 6 2 12 8 18" />
+  </svg>
+);
+
 const promos: Promo[] = [
+  {
+    brand: "Iconstack API & MCP",
+    tagline: "Search 51,000+ icons from Cursor, Claude or your code.",
+    href: "/api",
+    logo: <McpIcon />,
+  },
   {
     brand: "Iconstack for Figma",
     tagline: "Drop icons straight into your designs.",
@@ -76,8 +89,8 @@ export function RotatingFooter() {
       <a
         key={index}
         href={promo.href}
-        target="_blank"
-        rel="noopener noreferrer"
+        target={promo.href.startsWith("/") ? "_self" : "_blank"}
+        rel={promo.href.startsWith("/") ? undefined : "noopener noreferrer"}
         className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group animate-fade-in"
       >
         {promo.logo}
