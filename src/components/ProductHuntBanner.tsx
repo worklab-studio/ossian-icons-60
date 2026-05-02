@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { X, ArrowRight } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import { PRODUCT_HUNT } from "@/config/productHunt";
+import phCat from "@/assets/ph-cat.png";
 
 const DISMISS_KEY = "iconstack_ph_banner_dismissed";
 
@@ -127,6 +128,13 @@ export function ProductHuntBanner() {
           background:
             "radial-gradient(600px 60px at 18% 50%, hsl(var(--ph-orange) / 0.25), transparent 70%)",
         }}
+      />
+      <img
+        src={phCat}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute right-2 hidden h-[72px] w-auto select-none object-contain sm:right-6 md:block"
+        style={{ bottom: "-3px" }}
       />
       <div className="relative flex h-16 items-center justify-center gap-3 px-3 pr-10 text-xs sm:text-[13px]">
         <PHIcon className="h-7 w-7 shrink-0 drop-shadow-[0_0_12px_hsl(var(--ph-orange)/0.5)]" />
