@@ -133,10 +133,10 @@ export function ProductHuntBanner() {
         src={phCat}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute right-2 hidden h-[56px] w-auto select-none object-contain sm:right-6 md:block"
+        className="pointer-events-none absolute right-12 hidden h-[56px] w-auto select-none object-contain sm:right-16 md:block"
         style={{ bottom: "-6px" }}
       />
-      <div className="relative flex h-16 items-center justify-center gap-3 px-3 pr-10 text-xs sm:text-[13px]">
+      <div className="relative flex h-16 items-center justify-center gap-3 px-3 pr-10 text-xs sm:text-[13px] md:pr-40">
         <PHIcon className="h-7 w-7 shrink-0 drop-shadow-[0_0_12px_hsl(var(--ph-orange)/0.5)]" />
         {isLive ? (
           <span className="truncate">
