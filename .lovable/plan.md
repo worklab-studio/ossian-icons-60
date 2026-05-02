@@ -1,18 +1,19 @@
-## Plan
+## Fix Product Hunt countdown timezone (PDT vs PST)
 
-1. **Move the Product Hunt banner out of the left sidebar area**
-   - Keep it fixed at the top, but start it after the desktop sidebar width.
-   - On mobile, keep it full width.
-   - Set its width to the remaining content area so it does not cover the Iconstack logo/sidebar header.
+### Problem
+The launch is configured as `2026-05-03T08:01:00Z`, which is interpreted as 12:01 AM PST (UTC-8). But Pacific time in early May is on **PDT (UTC-7)** due to daylight saving. So midnight Pacific on May 3 is actually **`07:01:00Z`**, not `08:01:00Z`. The countdown is off by exactly 1 hour (showing ~22h 25m when it should show ~21h 25m).
 
-2. **Keep the desktop shell aligned under the fixed banner**
-   - Remove the global top margin behavior from `.h-app-shell` that currently pushes the sidebar down.
-   - Keep the shell height compensation so the visible viewport still accounts for the banner.
-   - Apply the banner top offset only to the main desktop content and right control panel, not the left sidebar.
+### Change
+Single edit in `src/config/productHunt.ts`:
 
-3. **Make the footer visible at the bottom**
-   - Ensure the center column uses the available viewport height below the banner.
-   - Keep the icon grid as the only scrollable middle area so `RotatingFooter` remains pinned and visible.
+- `launchDateTime`: `"2026-05-03T08:01:00Z"` → `"2026-05-03T07:01:00Z"`
+- Update the inline comment to reflect PDT (UTC-7) instead of PST (UTC-8).
 
-4. **Mobile remains safe**
-   - Preserve the mobile banner/header stacking so the mobile header starts below the banner.
+### Files
+- `src/config/productHunt.ts` (1-line change + comment)
+
+No other files need changes — `ProductHuntBanner.tsx` reads `launchDateTime` directly and the countdown will recompute automatically.
+
+### Verification
+- Open `/` and confirm the banner now shows roughly 1 hour less than before.
+- At midnight Pacific on May 3, 2026 the banner should switch from countdown to the "We're live on Product Hunt" state.
