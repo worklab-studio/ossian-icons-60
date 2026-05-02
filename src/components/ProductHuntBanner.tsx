@@ -205,7 +205,7 @@ export function ProductHuntBanner() {
           onClick={handleClick}
           className="group ml-1 inline-flex h-7 items-center gap-1.5 rounded-full border border-[hsl(var(--ph-orange)/0.4)] bg-[hsl(var(--ph-orange)/0.12)] px-3 text-[11px] font-medium text-[hsl(var(--ph-orange))] transition-colors hover:bg-[hsl(var(--ph-orange)/0.2)]"
         >
-          <span>{isLive ? "Upvote" : "Notify me"}</span>
+          <span>{isLive ? "Upvote" : "Support us here"}</span>
           <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
         </a>
       </div>
