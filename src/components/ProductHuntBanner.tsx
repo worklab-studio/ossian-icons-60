@@ -7,13 +7,28 @@ const DISMISS_KEY = "iconstack_ph_banner_dismissed";
 
 type State = "coming-soon" | "live" | "hidden";
 
+function getLaunchMs(): number {
+  const cfg = PRODUCT_HUNT as { launchDateTime?: string; launchDate: string };
+  const iso = cfg.launchDateTime ?? cfg.launchDate + "T00:00:00Z";
+  return new Date(iso).getTime();
+}
+
 function computeState(): State {
   const now = Date.now();
-  const launch = new Date(PRODUCT_HUNT.launchDate + "T00:00:00Z").getTime();
+  const launch = getLaunchMs();
   const liveEnd = launch + PRODUCT_HUNT.liveWindowHours * 60 * 60 * 1000;
   if (now < launch) return "coming-soon";
   if (now < liveEnd) return "live";
   return "hidden";
+}
+
+function formatCountdown(ms: number): { d: number; h: number; m: number; s: number } {
+  const total = Math.max(0, Math.floor(ms / 1000));
+  const d = Math.floor(total / 86400);
+  const h = Math.floor((total % 86400) / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  return { d, h, m, s };
 }
 
 function PHIcon({ className }: { className?: string }) {
