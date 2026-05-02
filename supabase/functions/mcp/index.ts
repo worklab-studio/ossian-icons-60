@@ -23,8 +23,7 @@ const server = new McpServer({
   version: "1.0.0",
 });
 
-server.tool({
-  name: "search_icons",
+server.tool("search_icons", {
   description:
     "Search 51,000+ MIT-licensed icons across 21 libraries (Lucide, Phosphor, Tabler, Heroicons, Material, etc.). Returns icon ids, names, libraries, styles and tags. Use the returned id + library with get_icon_svg to fetch the actual SVG markup.",
   inputSchema: {
@@ -57,8 +56,7 @@ server.tool({
   },
 });
 
-server.tool({
-  name: "get_icon_svg",
+server.tool("get_icon_svg", {
   description:
     "Return the raw SVG markup for a specific icon. Use after search_icons to drop the SVG straight into code.",
   inputSchema: {
