@@ -123,11 +123,9 @@ export function ProductHuntBanner() {
   const isLive = state === "live";
   const href = isLive ? PRODUCT_HUNT.postUrl : PRODUCT_HUNT.upcomingUrl;
 
-  const launch = new Date(PRODUCT_HUNT.launchDate + "T00:00:00Z").getTime();
-  const daysToGo = Math.max(
-    1,
-    Math.ceil((launch - Date.now()) / (1000 * 60 * 60 * 24))
-  );
+  const launch = getLaunchMs();
+  const countdown = formatCountdown(launch - now);
+  const pad = (n: number) => n.toString().padStart(2, "0");
 
   const handleDismiss = () => {
     try {
