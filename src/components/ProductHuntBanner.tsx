@@ -31,6 +31,10 @@ function PHIcon({ className }: { className?: string }) {
 export function ProductHuntBanner() {
   const [state, setState] = useState<State>("hidden");
   const [dismissed, setDismissed] = useState(false);
+  // Defer rendering until after the page content has had a chance to paint.
+  // Without this, the banner (rendered outside <Suspense>) flashes in before
+  // the lazy-loaded route content arrives, which looks broken.
+  const [ready, setReady] = useState(false);
   const location = useLocation();
   const isHome = location.pathname === "/";
 
@@ -45,9 +49,43 @@ export function ProductHuntBanner() {
     }
   }, []);
 
+  useEffect(() => {
+    // Wait for the page to be fully loaded (and idle) before showing the banner
+    // so it never appears before the underlying content is rendered.
+    let idleId: number | undefined;
+    let timeoutId: number | undefined;
+
+    const reveal = () => {
+      const w = window as unknown as {
+        requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      };
+      if (typeof w.requestIdleCallback === "function") {
+        idleId = w.requestIdleCallback(() => setReady(true), { timeout: 1500 });
+      } else {
+        timeoutId = window.setTimeout(() => setReady(true), 600);
+      }
+    };
+
+    if (document.readyState === "complete") {
+      reveal();
+    } else {
+      window.addEventListener("load", reveal, { once: true });
+    }
+
+    return () => {
+      window.removeEventListener("load", reveal);
+      if (timeoutId) window.clearTimeout(timeoutId);
+      const w = window as unknown as { cancelIdleCallback?: (id: number) => void };
+      if (idleId && typeof w.cancelIdleCallback === "function") {
+        w.cancelIdleCallback(idleId);
+      }
+    };
+  }, []);
+
   // Expose banner height as a CSS variable so the app shell can subtract it
   // from 100vh and keep the footer pinned to the bottom of the viewport.
-  const visible = isHome && PRODUCT_HUNT.enabled && state !== "hidden" && !dismissed;
+  const visible =
+    ready && isHome && PRODUCT_HUNT.enabled && state !== "hidden" && !dismissed;
   useEffect(() => {
     const root = document.documentElement;
     root.style.setProperty("--ph-banner-h", visible ? "64px" : "0px");
