@@ -15,6 +15,8 @@ const FUNCTION_URL =
   `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-search`;
 const SVG_FUNCTION_URL =
   `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-svg`;
+const MCP_URL =
+  `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/mcp`;
 
 const PARAMS: { name: string; type: string; required?: boolean; desc: string; example: string }[] = [
   { name: 'q', type: 'string', required: true, desc: 'Search query (1–80 chars).', example: 'user' },
@@ -76,7 +78,7 @@ const MCP_SNIPPET = `{
   "mcpServers": {
     "iconstack": {
       "command": "npx",
-      "args": ["-y", "iconstack-mcp"]
+      "args": ["-y", "mcp-remote", "${MCP_URL}"]
     }
   }
 }`;
