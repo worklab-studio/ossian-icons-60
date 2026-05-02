@@ -173,12 +173,30 @@ export function ProductHuntBanner() {
             </span>
           </span>
         ) : (
-          <span className="truncate">
-            <span className="font-semibold">Launching on Product Hunt</span>
-            <span className="hidden text-muted-foreground sm:inline">
-              {" "}in {daysToGo} {daysToGo === 1 ? "day" : "days"}
-            </span>
-          </span>
+          <div className="flex items-center gap-2 truncate">
+            <span className="font-semibold whitespace-nowrap">Launching on Product Hunt in</span>
+            <div className="flex items-center gap-1 font-mono text-[11px] sm:text-xs">
+              {countdown.d > 0 && (
+                <>
+                  <span className="rounded bg-foreground/10 px-1.5 py-0.5 tabular-nums">
+                    {countdown.d}d
+                  </span>
+                  <span className="text-muted-foreground">:</span>
+                </>
+              )}
+              <span className="rounded bg-foreground/10 px-1.5 py-0.5 tabular-nums">
+                {pad(countdown.h)}h
+              </span>
+              <span className="text-muted-foreground">:</span>
+              <span className="rounded bg-foreground/10 px-1.5 py-0.5 tabular-nums">
+                {pad(countdown.m)}m
+              </span>
+              <span className="text-muted-foreground">:</span>
+              <span className="rounded bg-[hsl(var(--ph-orange)/0.18)] px-1.5 py-0.5 tabular-nums text-[hsl(var(--ph-orange))]">
+                {pad(countdown.s)}s
+              </span>
+            </div>
+          </div>
         )}
         <a
           href={href}
