@@ -15,6 +15,8 @@ const FUNCTION_URL =
   `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-search`;
 const SVG_FUNCTION_URL =
   `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/icon-svg`;
+const MCP_URL =
+  `https://${import.meta.env.VITE_SUPABASE_PROJECT_ID}.supabase.co/functions/v1/mcp`;
 
 const PARAMS: { name: string; type: string; required?: boolean; desc: string; example: string }[] = [
   { name: 'q', type: 'string', required: true, desc: 'Search query (1–80 chars).', example: 'user' },
@@ -76,7 +78,7 @@ const MCP_SNIPPET = `{
   "mcpServers": {
     "iconstack": {
       "command": "npx",
-      "args": ["-y", "iconstack-mcp"]
+      "args": ["-y", "mcp-remote", "${MCP_URL}"]
     }
   }
 }`;
@@ -366,10 +368,10 @@ for icon in data["results"]:
               <div className="mt-6 flex items-center gap-2 rounded-lg border border-border bg-zinc-950 dark:bg-zinc-900 px-3 py-2.5 max-w-md font-mono text-sm text-zinc-100">
                 <Terminal className="h-4 w-4 text-zinc-400 flex-shrink-0" />
                 <span className="text-zinc-400">$</span>
-                <span className="flex-1 truncate">npx -y iconstack-mcp</span>
+                <span className="flex-1 truncate">npx -y mcp-remote {MCP_URL}</span>
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText('npx -y iconstack-mcp');
+                    navigator.clipboard.writeText(`npx -y mcp-remote ${MCP_URL}`);
                     toast({ description: 'Copied', duration: 1200 });
                   }}
                   className="text-xs px-2 py-0.5 rounded bg-zinc-800 hover:bg-zinc-700 border border-zinc-700"
@@ -430,8 +432,8 @@ ${curlExample}`}</CodeBlock>
               {/* MCP */}
               <section id="mcp" className="scroll-mt-20">
                 <SectionHeader eyebrow="The headline feature" title="Use inside Cursor, Claude & Windsurf">
-                  Install the <code className="px-1 py-0.5 rounded bg-muted text-xs font-mono text-foreground">iconstack-mcp</code> server
-                  and your AI editor can search and paste SVGs straight into your code.
+                  Point your AI editor at the hosted <code className="px-1 py-0.5 rounded bg-muted text-xs font-mono text-foreground">iconstack</code> MCP server
+                  (via the official <code className="px-1 py-0.5 rounded bg-muted text-xs font-mono text-foreground">mcp-remote</code> proxy) and it can search and paste SVGs straight into your code. No install, no auth.
                 </SectionHeader>
 
                 <Tabs defaultValue="cursor" className="w-full">
@@ -694,8 +696,8 @@ GET ${SVG_FUNCTION_URL}?library=lucide&id=user&format=svg   # raw image/svg+xml`
                   Resources
                 </div>
                 <nav className="space-y-0.5">
-                  <SidebarLink to="https://www.npmjs.com/package/iconstack-mcp" icon={Terminal} external>
-                    iconstack-mcp on npm
+                  <SidebarLink to="https://github.com/geelen/mcp-remote" icon={Terminal} external>
+                    mcp-remote (proxy)
                   </SidebarLink>
                   <SidebarLink to="https://github.com/iconstack" icon={Github} external>
                     GitHub
