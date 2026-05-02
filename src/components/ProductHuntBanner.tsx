@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { X, ArrowRight } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import { PRODUCT_HUNT } from "@/config/productHunt";
+import phCat from "@/assets/ph-cat.png";
 
 const DISMISS_KEY = "iconstack_ph_banner_dismissed";
 
