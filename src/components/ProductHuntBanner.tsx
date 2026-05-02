@@ -46,9 +46,8 @@ function PHIcon({ className }: { className?: string }) {
 export function ProductHuntBanner() {
   const [state, setState] = useState<State>("hidden");
   const [dismissed, setDismissed] = useState(false);
+  const [now, setNow] = useState<number>(() => Date.now());
   // Defer rendering until after the page content has had a chance to paint.
-  // Without this, the banner (rendered outside <Suspense>) flashes in before
-  // the lazy-loaded route content arrives, which looks broken.
   const [ready, setReady] = useState(false);
   const location = useLocation();
   const isHome = location.pathname === "/";
@@ -62,6 +61,16 @@ export function ProductHuntBanner() {
     } catch {
       /* ignore */
     }
+  }, []);
+
+  // Tick every second to update the countdown / live state.
+  useEffect(() => {
+    if (!PRODUCT_HUNT.enabled) return;
+    const id = window.setInterval(() => {
+      setNow(Date.now());
+      setState(computeState());
+    }, 1000);
+    return () => window.clearInterval(id);
   }, []);
 
   useEffect(() => {
