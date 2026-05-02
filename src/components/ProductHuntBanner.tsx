@@ -7,13 +7,28 @@ const DISMISS_KEY = "iconstack_ph_banner_dismissed";
 
 type State = "coming-soon" | "live" | "hidden";
 
+function getLaunchMs(): number {
+  const cfg = PRODUCT_HUNT as { launchDateTime?: string; launchDate: string };
+  const iso = cfg.launchDateTime ?? cfg.launchDate + "T00:00:00Z";
+  return new Date(iso).getTime();
+}
+
 function computeState(): State {
   const now = Date.now();
-  const launch = new Date(PRODUCT_HUNT.launchDate + "T00:00:00Z").getTime();
+  const launch = getLaunchMs();
   const liveEnd = launch + PRODUCT_HUNT.liveWindowHours * 60 * 60 * 1000;
   if (now < launch) return "coming-soon";
   if (now < liveEnd) return "live";
   return "hidden";
+}
+
+function formatCountdown(ms: number): { d: number; h: number; m: number; s: number } {
+  const total = Math.max(0, Math.floor(ms / 1000));
+  const d = Math.floor(total / 86400);
+  const h = Math.floor((total % 86400) / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  return { d, h, m, s };
 }
 
 function PHIcon({ className }: { className?: string }) {
@@ -31,9 +46,8 @@ function PHIcon({ className }: { className?: string }) {
 export function ProductHuntBanner() {
   const [state, setState] = useState<State>("hidden");
   const [dismissed, setDismissed] = useState(false);
+  const [now, setNow] = useState<number>(() => Date.now());
   // Defer rendering until after the page content has had a chance to paint.
-  // Without this, the banner (rendered outside <Suspense>) flashes in before
-  // the lazy-loaded route content arrives, which looks broken.
   const [ready, setReady] = useState(false);
   const location = useLocation();
   const isHome = location.pathname === "/";
@@ -47,6 +61,16 @@ export function ProductHuntBanner() {
     } catch {
       /* ignore */
     }
+  }, []);
+
+  // Tick every second to update the countdown / live state.
+  useEffect(() => {
+    if (!PRODUCT_HUNT.enabled) return;
+    const id = window.setInterval(() => {
+      setNow(Date.now());
+      setState(computeState());
+    }, 1000);
+    return () => window.clearInterval(id);
   }, []);
 
   useEffect(() => {
@@ -99,11 +123,9 @@ export function ProductHuntBanner() {
   const isLive = state === "live";
   const href = isLive ? PRODUCT_HUNT.postUrl : PRODUCT_HUNT.upcomingUrl;
 
-  const launch = new Date(PRODUCT_HUNT.launchDate + "T00:00:00Z").getTime();
-  const daysToGo = Math.max(
-    1,
-    Math.ceil((launch - Date.now()) / (1000 * 60 * 60 * 24))
-  );
+  const launch = getLaunchMs();
+  const countdown = formatCountdown(launch - now);
+  const pad = (n: number) => n.toString().padStart(2, "0");
 
   const handleDismiss = () => {
     try {
@@ -151,12 +173,30 @@ export function ProductHuntBanner() {
             </span>
           </span>
         ) : (
-          <span className="truncate">
-            <span className="font-semibold">Launching on Product Hunt</span>
-            <span className="hidden text-muted-foreground sm:inline">
-              {" "}in {daysToGo} {daysToGo === 1 ? "day" : "days"}
-            </span>
-          </span>
+          <div className="flex items-center gap-2 truncate">
+            <span className="font-semibold whitespace-nowrap">Launching on Product Hunt in</span>
+            <div className="flex items-center gap-1 font-mono text-[11px] sm:text-xs">
+              {countdown.d > 0 && (
+                <>
+                  <span className="rounded bg-foreground/10 px-1.5 py-0.5 tabular-nums">
+                    {countdown.d}d
+                  </span>
+                  <span className="text-muted-foreground">:</span>
+                </>
+              )}
+              <span className="rounded bg-foreground/10 px-1.5 py-0.5 tabular-nums">
+                {pad(countdown.h)}h
+              </span>
+              <span className="text-muted-foreground">:</span>
+              <span className="rounded bg-foreground/10 px-1.5 py-0.5 tabular-nums">
+                {pad(countdown.m)}m
+              </span>
+              <span className="text-muted-foreground">:</span>
+              <span className="rounded bg-[hsl(var(--ph-orange)/0.18)] px-1.5 py-0.5 tabular-nums text-[hsl(var(--ph-orange))]">
+                {pad(countdown.s)}s
+              </span>
+            </div>
+          </div>
         )}
         <a
           href={href}
