@@ -1,19 +1,33 @@
-## Fix Product Hunt countdown timezone (PDT vs PST)
+## Product Hunt Upvote Popup
 
-### Problem
-The launch is configured as `2026-05-03T08:01:00Z`, which is interpreted as 12:01 AM PST (UTC-8). But Pacific time in early May is on **PDT (UTC-7)** due to daylight saving. So midnight Pacific on May 3 is actually **`07:01:00Z`**, not `08:01:00Z`. The countdown is off by exactly 1 hour (showing ~22h 25m when it should show ~21h 25m).
+Add a centered modal popup that appears 10 seconds after a user lands on the site, prompting them to upvote on Product Hunt.
 
-### Change
-Single edit in `src/config/productHunt.ts`:
+### Behavior
+- Triggers once per session, 10 seconds after first page load
+- Dismissable via X button, ESC key, or backdrop click
+- Once dismissed, stored in `localStorage` (keyed to launch date) so it doesn't reappear on subsequent visits
+- Hidden if the launch window is over (`state === "hidden"`) or banner feature is disabled
+- Shows different copy depending on state:
+  - **Coming soon**: "We're launching on Product Hunt soon — notify me / support us"
+  - **Live**: "We're live on Product Hunt — Upvote us now 🎉"
 
-- `launchDateTime`: `"2026-05-03T08:01:00Z"` → `"2026-05-03T07:01:00Z"`
-- Update the inline comment to reflect PDT (UTC-7) instead of PST (UTC-8).
+### Design
+- Centered modal with backdrop blur
+- Product Hunt orange accent (reuse `--ph-orange` token)
+- Cat mascot (`ph-cat.png`) as visual element
+- Headline + short subtext + primary CTA button (Upvote / Support) linking to `PRODUCT_HUNT.postUrl` or `upcomingUrl`
+- Secondary "Maybe later" text button to dismiss
+- Smooth fade-in/scale animation
 
-### Files
-- `src/config/productHunt.ts` (1-line change + comment)
+### Technical Details
+- New component: `src/components/ProductHuntPopup.tsx`
+- Mount in `src/App.tsx` alongside `<Toaster />` (or in `Index.tsx` if home-only desired — confirm)
+- Reuse `PRODUCT_HUNT` config and `computeState()` logic from `ProductHuntBanner.tsx` (extract into shared util or duplicate the small helpers)
+- `localStorage` key: `iconstack_ph_popup_dismissed` storing the launch date string
+- 10s timer via `setTimeout` in `useEffect`, cleared on unmount
+- Use existing shadcn `Dialog` component for accessibility (focus trap, ESC, ARIA)
+- Analytics: fire `ph_popup_shown` and `ph_popup_click` via `window.umami` (matching banner pattern)
 
-No other files need changes — `ProductHuntBanner.tsx` reads `launchDateTime` directly and the countdown will recompute automatically.
-
-### Verification
-- Open `/` and confirm the banner now shows roughly 1 hour less than before.
-- At midnight Pacific on May 3, 2026 the banner should switch from countdown to the "We're live on Product Hunt" state.
+### Open Questions
+- Show on every page or only homepage `/`? (Banner is home-only — I'll match that unless you say otherwise)
+- Should it still appear if the user already dismissed the top banner? (I'll treat them independently)
