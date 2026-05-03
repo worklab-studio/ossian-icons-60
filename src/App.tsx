@@ -67,6 +67,7 @@ const App = () => (
             <Sonner />
             <BrowserRouter>
               <ScrollToTop />
+              <ProductHuntPopup />
               <Suspense fallback={null}>
                 <Routes>
                   <Route path="/" element={<Index />} />
