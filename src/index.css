@@ -59,11 +59,11 @@
     --icon-hover: 0 0% 94%;
     --search-shadow: 0 0% 0% / 0.1;
 
-    /* Product Hunt brand accent */
-    --ph-orange: 14 78% 52%;
-    --ph-orange-foreground: 0 0% 100%;
+    /* Peerlist brand accent */
+    --peerlist-green: 145 100% 33%;
+    --peerlist-green-foreground: 0 0% 100%;
 
-    /* Height of the Product Hunt launch banner; updated at runtime by ProductHuntBanner */
+    /* Height of the Peerlist launch banner; updated at runtime by PeerlistBanner */
     --ph-banner-h: 0px;
   }
 
@@ -111,9 +111,9 @@
     --icon-hover: 0 0% 15%;
     --search-shadow: 0 0% 0% / 0.3;
 
-    /* Product Hunt brand accent (slightly brighter on dark) */
-    --ph-orange: 14 85% 58%;
-    --ph-orange-foreground: 0 0% 100%;
+    /* Peerlist brand accent (slightly brighter on dark) */
+    --peerlist-green: 145 75% 45%;
+    --peerlist-green-foreground: 0 0% 100%;
   }
 }
 

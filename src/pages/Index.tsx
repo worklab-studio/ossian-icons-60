@@ -31,7 +31,7 @@ import { HapticsManager } from "@/lib/haptics";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
 import { RotatingFooter } from "@/components/RotatingFooter";
-import { ProductHuntBanner } from "@/components/ProductHuntBanner";
+import { PeerlistBanner } from "@/components/PeerlistBanner";
 
 function IconGridPage() {
   console.log('IconGridPage component loading - LoadingWithTagline has been removed');
