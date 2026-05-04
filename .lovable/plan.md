@@ -1,33 +1,40 @@
-## Product Hunt Upvote Popup
+## Goal
+Replace all Product Hunt branding and links with Peerlist across the site banner and popup.
 
-Add a centered modal popup that appears 10 seconds after a user lands on the site, prompting them to upvote on Product Hunt.
+## Changes
 
-### Behavior
-- Triggers once per session, 10 seconds after first page load
-- Dismissable via X button, ESC key, or backdrop click
-- Once dismissed, stored in `localStorage` (keyed to launch date) so it doesn't reappear on subsequent visits
-- Hidden if the launch window is over (`state === "hidden"`) or banner feature is disabled
-- Shows different copy depending on state:
-  - **Coming soon**: "We're launching on Product Hunt soon — notify me / support us"
-  - **Live**: "We're live on Product Hunt — Upvote us now 🎉"
+### 1. `src/config/productHunt.ts` → rename to `src/config/peerlist.ts`
+- Export `PEERLIST` config:
+  - `postUrl`: `https://peerlist.io/thedeepflux/project/iconstack-mcpnative-icon-search`
+  - `upcomingUrl`: same URL
+  - Keep `launchDateTime`, `launchDate`, `liveWindowHours`, `enabled` fields (Peerlist launches don't have a strict countdown, but keeping the structure preserves the existing "coming soon → live" UI; we'll set launch to now so it shows "live" immediately).
 
-### Design
-- Centered modal with backdrop blur
-- Product Hunt orange accent (reuse `--ph-orange` token)
-- Cat mascot (`ph-cat.png`) as visual element
-- Headline + short subtext + primary CTA button (Upvote / Support) linking to `PRODUCT_HUNT.postUrl` or `upcomingUrl`
-- Secondary "Maybe later" text button to dismiss
-- Smooth fade-in/scale animation
+### 2. `src/components/ProductHuntBanner.tsx` → rename to `PeerlistBanner.tsx`
+- Replace PH orange (`--ph-orange`) with a Peerlist green token (`--peerlist-green`, hsl ~`145 65% 42%`).
+- Swap `PHIcon` SVG for the Peerlist "P" mark (rounded square with white P).
+- Update copy:
+  - Live: "We're live on Peerlist — support us"
+  - Coming soon: "Launching on Peerlist in …"
+  - CTA: "Upvote on Peerlist" / "Support us on Peerlist"
+- Update `aria-label`, dismiss key → `iconstack_peerlist_banner_dismissed`, analytics event → `peerlist_banner_click`.
+- Keep the cat mascot image as-is (decorative).
 
-### Technical Details
-- New component: `src/components/ProductHuntPopup.tsx`
-- Mount in `src/App.tsx` alongside `<Toaster />` (or in `Index.tsx` if home-only desired — confirm)
-- Reuse `PRODUCT_HUNT` config and `computeState()` logic from `ProductHuntBanner.tsx` (extract into shared util or duplicate the small helpers)
-- `localStorage` key: `iconstack_ph_popup_dismissed` storing the launch date string
-- 10s timer via `setTimeout` in `useEffect`, cleared on unmount
-- Use existing shadcn `Dialog` component for accessibility (focus trap, ESC, ARIA)
-- Analytics: fire `ph_popup_shown` and `ph_popup_click` via `window.umami` (matching banner pattern)
+### 3. `src/components/ProductHuntPopup.tsx` → rename to `PeerlistPopup.tsx`
+- Same color/icon/copy swap as the banner.
+- Dismiss key → `iconstack_peerlist_popup_dismissed`.
+- Analytics events → `peerlist_popup_shown`, `peerlist_popup_click`.
+- Headline: "We're live on Peerlist 🎉" / "We're launching on Peerlist".
 
-### Open Questions
-- Show on every page or only homepage `/`? (Banner is home-only — I'll match that unless you say otherwise)
-- Should it still appear if the user already dismissed the top banner? (I'll treat them independently)
+### 4. `src/index.css`
+- Add `--peerlist-green: 145 65% 42%;` token (light + dark mode).
+- Leave existing `--ph-orange` token in place to avoid breaking anything else (or remove if unused — will verify with a quick grep).
+
+### 5. `src/App.tsx`
+- Update imports/usages from `ProductHuntPopup` → `PeerlistPopup`.
+
+### 6. Anywhere else that imports `productHunt` config or PH components
+- Update import paths and component names. Will grep `PRODUCT_HUNT`, `ProductHunt`, `ph-orange` to catch all references.
+
+## Out of scope
+- No change to launch date logic, dismiss/persistence behavior, analytics wiring style, or layout/positioning.
+- Cat mascot image kept (it's just decorative).

@@ -31,7 +31,7 @@ import { HapticsManager } from "@/lib/haptics";
 import { SchemaMarkup } from "@/components/SchemaMarkup";
 import { useSchemaMarkup } from "@/hooks/useSchemaMarkup";
 import { RotatingFooter } from "@/components/RotatingFooter";
-import { ProductHuntBanner } from "@/components/ProductHuntBanner";
+import { PeerlistBanner } from "@/components/PeerlistBanner";
 
 function IconGridPage() {
   console.log('IconGridPage component loading - LoadingWithTagline has been removed');
@@ -493,7 +493,7 @@ function IconGridPage() {
         </Helmet>
         
         <SchemaMarkup schema={schemaMarkup} />
-        <ProductHuntBanner />
+        <PeerlistBanner />
         <div className="flex flex-col h-app-shell w-full">
           {/* Fixed top header - non-scrollable */}
           <div className="fixed left-0 right-0 z-50 bg-background" style={{ top: "var(--ph-banner-h, 0px)" }}>
@@ -642,7 +642,7 @@ function IconGridPage() {
       </Helmet>
       
       <SchemaMarkup schema={schemaMarkup} />
-      <ProductHuntBanner />
+      <PeerlistBanner />
       
       <SidebarProvider>
       <div className="flex h-app-shell w-full overflow-hidden">{/* Fixed viewport height */}
