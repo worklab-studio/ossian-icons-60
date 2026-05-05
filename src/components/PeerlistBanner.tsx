@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { X, ArrowRight } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import { PEERLIST } from "@/config/peerlist";
-import phCat from "@/assets/ph-cat.png";
 
 const DISMISS_KEY = "iconstack_peerlist_banner_dismissed";
 
