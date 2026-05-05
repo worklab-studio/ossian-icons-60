@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { X, ArrowRight } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import { PEERLIST } from "@/config/peerlist";
-import phCat from "@/assets/ph-cat.png";
 
 const DISMISS_KEY = "iconstack_peerlist_banner_dismissed";
 
@@ -126,14 +125,7 @@ export function PeerlistBanner() {
             "radial-gradient(600px 60px at 18% 50%, hsl(var(--peerlist-green) / 0.25), transparent 70%)",
         }}
       />
-      <img
-        src={phCat}
-        alt=""
-        aria-hidden="true"
-        className="pointer-events-none absolute right-12 hidden h-[56px] w-auto select-none object-contain sm:right-16 md:block"
-        style={{ bottom: "-6px" }}
-      />
-      <div className="relative flex h-16 items-center justify-center gap-3 px-3 pr-10 text-xs sm:text-[13px] md:pr-40">
+      <div className="relative flex h-16 items-center justify-center gap-3 px-3 pr-10 text-xs sm:text-[13px]">
         <PeerlistIcon className="h-7 w-7 shrink-0 drop-shadow-[0_0_12px_hsl(var(--peerlist-green)/0.5)]" />
         {isLive ? (
           <span className="truncate">
