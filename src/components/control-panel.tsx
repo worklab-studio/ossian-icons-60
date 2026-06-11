@@ -467,20 +467,20 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
       <div className="flex-1 overflow-hidden">
         <ScrollArea className="h-full scrollbar-none">
           <div className="p-6 space-y-6">
-            {/* Dodo Invoice Ad Banner */}
+            {/* Conclick Ad Banner */}
             <a
-              href="https://dodoinvoice.com?ref=iconstack"
+              href="https://conclick.io?ref=iconstack"
               target="_blank"
               rel="noopener noreferrer"
               className="block relative border border-border rounded-lg p-4 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors group"
             >
               <span className="absolute top-2 right-2 text-[10px] text-muted-foreground/50">Ad</span>
               <div className="flex items-center gap-2 mb-2">
-                <img src={dodoLogo} alt="Dodo Invoice" className="h-5 w-5 rounded" />
-                <span className="font-semibold text-sm text-foreground">Dodo Invoice</span>
+                <img src={conclickLogo.url} alt="Conclick" className="h-5 w-5 rounded" />
+                <span className="font-semibold text-sm text-foreground">Conclick</span>
                 <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
-              <p className="text-xs text-muted-foreground">AI invoicing for freelancers and agencies.</p>
+              <p className="text-xs text-muted-foreground">Lightweight analytics for modern websites.</p>
             </a>
 
             <Separator />
