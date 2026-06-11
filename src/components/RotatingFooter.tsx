@@ -61,10 +61,10 @@ const promos: Promo[] = [
     logo: <img src={xautopilotLogo} alt="X-Autopilot" className="h-4 w-4 rounded-sm" />,
   },
   {
-    brand: "Dodo Invoice",
-    tagline: "AI invoicing for freelancers and agencies.",
-    href: "https://dodoinvoice.com?ref=iconstack",
-    logo: <img src={dodoLogo} alt="Dodo Invoice" className="h-4 w-4 rounded-sm" />,
+    brand: "Conclick",
+    tagline: "Lightweight analytics for modern websites.",
+    href: "https://conclick.io?ref=iconstack",
+    logo: <img src={conclickLogo.url} alt="Conclick" className="h-4 w-4 rounded-sm" />,
   },
 ];
 
