@@ -1,6 +1,6 @@
 import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Plug, Code2 } from "lucide-react";
 import { Link } from "react-router-dom";
-import dodoLogo from "@/assets/dodoinvoice-logo.avif";
+import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
 import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
 import { cn } from "@/lib/utils";
@@ -121,10 +121,10 @@ export function AppSidebar({
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
-                  <a href="https://dodoinvoice.com?ref=iconstack" target="_blank" rel="noopener noreferrer">
+                  <a href="https://conclick.io?ref=iconstack" target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center gap-3">
-                      <img src={dodoLogo} alt="Dodo Invoice" className="h-4 w-4 rounded-sm" />
-                      <span>Dodo Invoice</span>
+                      <img src={conclickLogo.url} alt="Conclick" className="h-4 w-4 rounded-sm" />
+                      <span>Conclick</span>
                     </div>
                     <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
                   </a>
