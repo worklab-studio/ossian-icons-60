@@ -4,7 +4,7 @@ import { ColorPicker } from "./color-picker";
 import { StrokeSlider } from "./stroke-slider";
 import { Button } from "@/components/ui/button";
 import { Copy, Download, FileCode, Braces, Image, ArrowUpRight } from "lucide-react";
-import dodoLogo from "@/assets/dodoinvoice-logo.avif";
+import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
 import React from "react";
