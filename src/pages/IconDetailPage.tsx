@@ -626,20 +626,20 @@ export default function IconDetailPage() {
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Icon Display with quick actions */}
               <div className="w-[360px] flex-shrink-0 border-r border-border/30 flex flex-col">
-                <div className="p-6 flex-shrink-0">
+              <div className="p-6 flex-shrink-0">
                   <div className="flex items-center justify-center mb-6">
-                    <div className="flex items-center justify-center w-32 h-32">
+                    <div className="flex items-center justify-center w-40 h-40 rounded-2xl bg-muted/40 border border-border/50 shadow-sm">
                       {iconPreview}
                     </div>
                   </div>
                   
                   {/* Quick action buttons */}
-                  <div className="flex gap-2 justify-center mb-6">
-                    <Button variant="outline" size="sm" onClick={handleQuickCopySVG}>
+                  <div className="flex gap-2 justify-center mb-2">
+                    <Button variant="outline" size="sm" className="h-9 px-4" onClick={handleQuickCopySVG}>
                       <Copy className="h-3.5 w-3.5 mr-1.5" />
                       Copy SVG
                     </Button>
-                    <Button variant="default" size="sm" onClick={handleQuickDownloadSVG}>
+                    <Button variant="default" size="sm" className="h-9 px-4" onClick={handleQuickDownloadSVG}>
                       <Download className="h-3.5 w-3.5 mr-1.5" />
                       Download SVG
                     </Button>
