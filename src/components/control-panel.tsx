@@ -472,15 +472,15 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
               href="https://conclick.io?ref=iconstack"
               target="_blank"
               rel="noopener noreferrer"
-              className="block relative border border-border rounded-lg p-4 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors group"
+              className="block relative rounded-xl p-4 bg-gradient-to-br from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-zinc-800 border border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all group shadow-sm hover:shadow-md"
             >
-              <span className="absolute top-2 right-2 text-[10px] text-muted-foreground/50">Ad</span>
-              <div className="flex items-center gap-2 mb-2">
-                <img src={conclickLogo.url} alt="Conclick" className="h-5 w-5 rounded" />
+              <span className="absolute top-3 right-3 text-[10px] font-medium text-muted-foreground/60 bg-background/80 px-1.5 py-0.5 rounded">Ad</span>
+              <div className="flex items-center gap-2.5 mb-2">
+                <img src={conclickLogo.url} alt="Conclick" className="h-6 w-6 rounded-md" />
                 <span className="font-semibold text-sm text-foreground">Conclick</span>
-                <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
+                <ArrowUpRight className="h-3.5 w-3.5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
               </div>
-              <p className="text-xs text-muted-foreground">Lightweight analytics for modern websites.</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">Lightweight analytics for modern websites.</p>
             </a>
 
             <Separator />
@@ -513,10 +513,10 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   variant="outline" 
                   size="sm" 
                   onClick={handleCopyJSON} 
-                  disabled={!selectedIcon} 
-                  className="text-xs"
+                  disabled={undefined
+                  className="text-xs h-9"
                 >
-                  <Braces className="h-3 w-3 mr-1" />
+                  <Braces className="h-3.5 w-3.5 mr-1.5" />
                   Copy JSON
                 </Button>
                 <Button 
@@ -524,9 +524,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   size="sm" 
                   onClick={handleCopyTSX} 
                   disabled={!selectedIcon} 
-                  className="text-xs"
+                  className="text-xs h-9"
                 >
-                  <FileCode className="h-3 w-3 mr-1" />
+                  <FileCode className="h-3.5 w-3.5 mr-1.5" />
                   Copy TSX
                 </Button>
               </div>
@@ -535,9 +535,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                 size="sm" 
                 onClick={handleDownloadGIF} 
                 disabled={!selectedIcon} 
-                className="w-full text-xs"
+                className="w-full text-xs h-9"
               >
-                <Image className="h-3 w-3 mr-1" />
+                <Image className="h-3.5 w-3.5 mr-1.5" />
                 Download GIF
               </Button>
             </div>
@@ -550,9 +550,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   size="sm" 
                   onClick={handleCopySVG} 
                   disabled={!selectedIcon} 
-                  className="text-xs"
+                  className="text-xs h-9"
                 >
-                  <Copy className="h-3 w-3 mr-1" />
+                  <Copy className="h-3.5 w-3.5 mr-1.5" />
                   Copy SVG
                 </Button>
                 <Button 
@@ -560,9 +560,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   size="sm" 
                   onClick={handleCopyXML} 
                   disabled={!selectedIcon} 
-                  className="text-xs"
+                  className="text-xs h-9"
                 >
-                  <Copy className="h-3 w-3 mr-1" />
+                  <Code className="h-3.5 w-3.5 mr-1.5" />
                   Copy XML
                 </Button>
               </div>
@@ -571,9 +571,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                 size="sm" 
                 onClick={handleDownloadSVG} 
                 disabled={!selectedIcon} 
-                className="w-full text-xs"
+                className="w-full text-xs h-9"
               >
-                <Download className="h-3 w-3 mr-1" />
+                <Download className="h-3.5 w-3.5 mr-1.5" />
                 Download SVG
               </Button>
               <Button 
@@ -581,9 +581,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                 size="sm" 
                 onClick={handleDownloadPNG} 
                 disabled={!selectedIcon} 
-                className="w-full text-xs"
+                className="w-full text-xs h-9"
               >
-                <Download className="h-3 w-3 mr-1" />
+                <Image className="h-3.5 w-3.5 mr-1.5" />
                 Download PNG
               </Button>
             </>
