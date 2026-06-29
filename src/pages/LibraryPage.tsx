@@ -287,7 +287,7 @@ const LibraryPageContent = () => {
                   to="/"
                   className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  <ArrowLeft className="h-4 w-4" />
+                  <Home className="h-4 w-4" />
                   Back to all icons
                 </Link>
 
@@ -307,10 +307,17 @@ const LibraryPageContent = () => {
                       </>
                     )}
                   </div>
-                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
-                    Browse the complete list of {libraryMetadata.count?.toLocaleString()} {libraryMetadata.name} icons below. Search to find specific icons or filter by category.
-                  </p>
                 </div>
+
+                {/* Mini icon grid */}
+                {icons.length > 0 && (
+                  <div className="pt-2 border-t">
+                    <h3 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">
+                      Library Icons
+                    </h3>
+                    <SidebarIconGrid icons={icons} onIconClick={handleIconClick} />
+                  </div>
+                )}
               </div>
             </ScrollArea>
           </div>
