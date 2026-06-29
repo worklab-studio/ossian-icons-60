@@ -13,7 +13,7 @@ import { RotatingFooter } from '@/components/RotatingFooter';
 import { LibraryFAQ } from '@/components/LibraryFAQ';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { generateIconUrl } from '@/lib/url-helpers';
-import { ArrowLeft, Home } from 'lucide-react';
+import { Home, SearchX } from 'lucide-react';
 import { SidebarProvider } from '@/components/ui/sidebar';
 import { Header } from '@/components/header';
 import { ControlPanel } from '@/components/control-panel';
