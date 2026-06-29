@@ -3,7 +3,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { ColorPicker } from "./color-picker";
 import { StrokeSlider } from "./stroke-slider";
 import { Button } from "@/components/ui/button";
-import { Copy, Download, FileCode, Braces, Image, ArrowUpRight } from "lucide-react";
+import { Copy, Download, FileCode, Braces, Image, ArrowUpRight, Code } from "lucide-react";
 import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
