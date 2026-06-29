@@ -134,20 +134,41 @@ export function AppSidebar({
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {libraries.map(library => {
-              const IconComponent = iconMap[library.id as keyof typeof iconMap] || Home;
-              return <SidebarMenuItem key={library.id}>
-                    <SidebarMenuButton onClick={() => onSetChange(library.id)} className={cn("w-full justify-between gap-3 text-sm", selectedSet === library.id && "bg-accent text-accent-foreground font-medium")}>
-                      <div className="flex items-center gap-3">
-                        <IconComponent className="h-4 w-4" />
-                        <span>{library.name}</span>
-                      </div>
-                      <span className="text-xs text-muted-foreground tabular-nums">
-                        {library.count.toLocaleString()}
-                      </span>
-                    </SidebarMenuButton>
-                  </SidebarMenuItem>;
-            })}
+              {(() => {
+                const nodes: React.ReactNode[] = [];
+                for (const library of libraries) {
+                  const IconComponent = iconMap[library.id as keyof typeof iconMap] || Home;
+                  nodes.push(
+                    <SidebarMenuItem key={library.id}>
+                      <SidebarMenuButton onClick={() => onSetChange(library.id)} className={cn("w-full justify-between gap-3 text-sm", selectedSet === library.id && "bg-accent text-accent-foreground font-medium")}>
+                        <div className="flex items-center gap-3">
+                          <IconComponent className="h-4 w-4" />
+                          <span>{library.name}</span>
+                        </div>
+                        <span className="text-xs text-muted-foreground tabular-nums">
+                          {library.count.toLocaleString()}
+                        </span>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                  );
+                  if (library.id === 'feather') {
+                    nodes.push(
+                      <SidebarMenuItem key="conclick">
+                        <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
+                          <a href="https://conclick.io?ref=iconstack" target="_blank" rel="noopener noreferrer">
+                            <div className="flex items-center gap-3">
+                              <Globe className="h-4 w-4" />
+                              <span>Conclick</span>
+                            </div>
+                            <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
+                          </a>
+                        </SidebarMenuButton>
+                      </SidebarMenuItem>
+                    );
+                  }
+                }
+                return nodes;
+              })()}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
