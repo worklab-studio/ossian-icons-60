@@ -1,4 +1,4 @@
-import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Plug, Code2 } from "lucide-react";
+import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Plug, Code2, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
 import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
