@@ -47,24 +47,30 @@ function SidebarIconGrid({ icons, onIconClick }: { icons: IconItem[]; onIconClic
 
   return (
     <div className="grid grid-cols-5 gap-1 p-1">
-      {visibleIcons.map((icon) => (
-        <button
-          key={icon.id}
-          onClick={() => handleClick(icon)}
-          className="flex items-center justify-center aspect-square rounded-md hover:bg-accent/60 transition-colors"
-          title={icon.name}
-        >
-          {typeof icon.svg === 'string' ? (
+      {visibleIcons.map((icon) => {
+        let rendered: React.ReactNode = null;
+        if (typeof icon.svg === 'string') {
+          rendered = (
             <div
               dangerouslySetInnerHTML={{ __html: icon.svg }}
               className="[&>svg]:w-4 [&>svg]:h-4 text-muted-foreground"
             />
-          ) : React.isValidElement(icon.svg) || typeof icon.svg === 'function' ? {
-            const IconComponent = icon.svg as React.ComponentType<any>;
-            return <IconComponent size={16} className="text-muted-foreground" />;
-          } : null}
-        </button>
-      ))}
+          );
+        } else if (typeof icon.svg === 'function') {
+          const IconComponent = icon.svg as React.ComponentType<any>;
+          rendered = <IconComponent size={16} className="text-muted-foreground" />;
+        }
+        return (
+          <button
+            key={icon.id}
+            onClick={() => handleClick(icon)}
+            className="flex items-center justify-center aspect-square rounded-md hover:bg-accent/60 transition-colors"
+            title={icon.name}
+          >
+            {rendered}
+          </button>
+        );
+      })}
     </div>
   );
 }
