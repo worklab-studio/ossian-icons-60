@@ -13,7 +13,7 @@ import { RotatingFooter } from '@/components/RotatingFooter';
 import { LibraryFAQ } from '@/components/LibraryFAQ';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { generateIconUrl } from '@/lib/url-helpers';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Home } from 'lucide-react';
 import { SidebarProvider } from '@/components/ui/sidebar';
 import { Header } from '@/components/header';
 import { ControlPanel } from '@/components/control-panel';
@@ -26,6 +26,7 @@ import { useFirstTimeUser } from '@/hooks/useFirstTimeUser';
 import { showFirstCopyNudge } from '@/components/ui/first-copy-nudge';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { IconstackLogo } from '@/components/iconstack-logo';
+import { SidebarIconGrid } from '@/components/app-sidebar';
 import LoadingSpinner from '@/components/LoadingSpinner';
 
 const LibraryPageContent = () => {
