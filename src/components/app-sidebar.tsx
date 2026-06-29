@@ -119,17 +119,6 @@ export function AppSidebar({
                   </a>
                 </SidebarMenuButton>
               </SidebarMenuItem>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
-                  <a href="https://conclick.io?ref=iconstack" target="_blank" rel="noopener noreferrer">
-                    <div className="flex items-center gap-3">
-                      <img src={conclickLogo.url} alt="Conclick" className="h-4 w-4 rounded-sm" />
-                      <span>Conclick</span>
-                    </div>
-                    <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
-                  </a>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
