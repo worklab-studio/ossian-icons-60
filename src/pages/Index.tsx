@@ -569,17 +569,24 @@ function IconGridPage() {
               </div>
             ) : displayedIcons.length === 0 && !loading ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
-                <div className="space-y-2">
-                  <p className="text-lg text-muted-foreground">
+                <div className="space-y-3">
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-muted/60">
+                    {selectedSet === "favorites" ? (
+                      <Heart className="h-6 w-6 text-muted-foreground" />
+                    ) : (
+                      <SearchX className="h-6 w-6 text-muted-foreground" />
+                    )}
+                  </div>
+                  <p className="text-lg font-medium text-foreground">
                     {selectedSet === "favorites" ? "No favorites yet" : 
                      searchQuery ? "No icons found" : "No icons available"}
                   </p>
                   <p className="text-sm text-muted-foreground">
                     {selectedSet === "favorites" 
-                      ? "Tap library menu to browse icons"
+                      ? "Star some icons to see them here"
                       : searchQuery
                       ? "Try a different search term"
-                      : "Tap library menu to select icons"
+                      : "Select a library to get started"
                     }
                   </p>
                 </div>
