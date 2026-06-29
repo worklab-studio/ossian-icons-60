@@ -19,7 +19,7 @@ import { showFirstCopyNudge } from "@/components/ui/first-copy-nudge";
 import { Skeleton } from "@/components/ui/skeleton";
 
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { AlertCircle, Loader2 } from "lucide-react";
+import { AlertCircle, Loader2, SearchX, Heart } from "lucide-react";
 import { iconLibraryManager } from "@/services/IconLibraryManager";
 import { type LibrarySection } from "@/types/icon";
 import { useIsMobile } from "@/hooks/use-mobile";
