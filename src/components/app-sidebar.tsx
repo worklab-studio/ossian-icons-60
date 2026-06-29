@@ -38,7 +38,7 @@ function LiveCounter() {
 }
 
 /* Compact icon grid for the sidebar */
-function SidebarIconGrid({ icons, onIconClick }: { icons: IconItem[]; onIconClick?: (icon: IconItem) => void }) {
+export function SidebarIconGrid({ icons, onIconClick }: { icons: IconItem[]; onIconClick?: (icon: IconItem) => void }) {
   const visibleIcons = icons.slice(0, 48);
 
   const handleClick = (icon: IconItem) => {
