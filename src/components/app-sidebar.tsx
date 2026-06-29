@@ -1,6 +1,6 @@
-import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Plug, Code2 } from "lucide-react";
+import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Plug, Code2, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
-import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
+
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
 import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
 import { cn } from "@/lib/utils";
@@ -119,17 +119,6 @@ export function AppSidebar({
                   </a>
                 </SidebarMenuButton>
               </SidebarMenuItem>
-              <SidebarMenuItem>
-                <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
-                  <a href="https://conclick.io?ref=iconstack" target="_blank" rel="noopener noreferrer">
-                    <div className="flex items-center gap-3">
-                      <img src={conclickLogo.url} alt="Conclick" className="h-4 w-4 rounded-sm" />
-                      <span>Conclick</span>
-                    </div>
-                    <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
-                  </a>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
@@ -145,20 +134,41 @@ export function AppSidebar({
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {libraries.map(library => {
-              const IconComponent = iconMap[library.id as keyof typeof iconMap] || Home;
-              return <SidebarMenuItem key={library.id}>
-                    <SidebarMenuButton onClick={() => onSetChange(library.id)} className={cn("w-full justify-between gap-3 text-sm", selectedSet === library.id && "bg-accent text-accent-foreground font-medium")}>
-                      <div className="flex items-center gap-3">
-                        <IconComponent className="h-4 w-4" />
-                        <span>{library.name}</span>
-                      </div>
-                      <span className="text-xs text-muted-foreground tabular-nums">
-                        {library.count.toLocaleString()}
-                      </span>
-                    </SidebarMenuButton>
-                  </SidebarMenuItem>;
-            })}
+              {(() => {
+                const nodes: React.ReactNode[] = [];
+                for (const library of libraries) {
+                  const IconComponent = iconMap[library.id as keyof typeof iconMap] || Home;
+                  nodes.push(
+                    <SidebarMenuItem key={library.id}>
+                      <SidebarMenuButton onClick={() => onSetChange(library.id)} className={cn("w-full justify-between gap-3 text-sm", selectedSet === library.id && "bg-accent text-accent-foreground font-medium")}>
+                        <div className="flex items-center gap-3">
+                          <IconComponent className="h-4 w-4" />
+                          <span>{library.name}</span>
+                        </div>
+                        <span className="text-xs text-muted-foreground tabular-nums">
+                          {library.count.toLocaleString()}
+                        </span>
+                      </SidebarMenuButton>
+                    </SidebarMenuItem>
+                  );
+                  if (library.id === 'feather') {
+                    nodes.push(
+                      <SidebarMenuItem key="conclick">
+                        <SidebarMenuButton asChild className="w-full justify-between gap-3 text-sm">
+                          <a href="https://conclick.io?ref=iconstack" target="_blank" rel="noopener noreferrer">
+                            <div className="flex items-center gap-3">
+                              <Globe className="h-4 w-4" />
+                              <span>Conclick</span>
+                            </div>
+                            <ArrowUpRight className="h-3 w-3 text-muted-foreground" />
+                          </a>
+                        </SidebarMenuButton>
+                      </SidebarMenuItem>
+                    );
+                  }
+                }
+                return nodes;
+              })()}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>
