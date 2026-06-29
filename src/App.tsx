@@ -69,6 +69,7 @@ const App = () => (
             <BrowserRouter>
               <ScrollToTop />
               <PeerlistPopup />
+              <ConclickPopup />
               <Suspense fallback={null}>
                 <Routes>
                   <Route path="/" element={<Index />} />
