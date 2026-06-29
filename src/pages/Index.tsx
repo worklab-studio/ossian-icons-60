@@ -649,6 +649,8 @@ function IconGridPage() {
         <AppSidebar 
           selectedSet={selectedSet}
           onSetChange={setSelectedSet}
+          icons={displayedIcons}
+          onIconClick={handleIconClick}
         />
         
         <div className="flex-1 flex flex-col h-app-shell-inner min-w-0">{/* Inner shell offsets the fixed banner */}
