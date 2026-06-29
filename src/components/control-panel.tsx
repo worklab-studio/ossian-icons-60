@@ -513,7 +513,7 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   variant="outline" 
                   size="sm" 
                   onClick={handleCopyJSON} 
-                  disabled={undefined
+                  disabled={!selectedIcon} 
                   className="text-xs h-9"
                 >
                   <Braces className="h-3.5 w-3.5 mr-1.5" />
