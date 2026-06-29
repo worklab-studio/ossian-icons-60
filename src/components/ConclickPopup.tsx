@@ -40,7 +40,7 @@ export function ConclickPopup() {
         className="max-w-sm overflow-hidden border-border/60 p-0"
         style={{
           background:
-            "linear-gradient(160deg, hsl(var(--peerlist-green) / 0.12) 0%, hsl(var(--background)) 60%)",
+            "linear-gradient(160deg, hsl(215 25% 55% / 0.10) 0%, hsl(var(--background)) 60%)",
         }}
       >
         <button
@@ -69,7 +69,7 @@ export function ConclickPopup() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => handleOpenChange(false)}
-            className="group mt-5 inline-flex h-10 w-full items-center justify-center gap-2 rounded-full border border-[hsl(var(--peerlist-green)/0.5)] bg-[hsl(var(--peerlist-green))] px-5 text-sm font-semibold text-white shadow-lg shadow-[hsl(var(--peerlist-green)/0.3)] transition-transform hover:scale-[1.02]"
+            className="group mt-5 inline-flex h-10 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-sm font-semibold text-background shadow-lg shadow-foreground/20 transition-transform hover:scale-[1.02]"
           >
             <span>Try Conclick free</span>
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
