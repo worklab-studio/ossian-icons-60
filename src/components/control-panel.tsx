@@ -3,7 +3,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { ColorPicker } from "./color-picker";
 import { StrokeSlider } from "./stroke-slider";
 import { Button } from "@/components/ui/button";
-import { Copy, Download, FileCode, Braces, Image, ArrowUpRight, Code } from "lucide-react";
+import { Copy, Download, FileCode, Braces, Image, ArrowUpRight } from "lucide-react";
 import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
@@ -472,15 +472,15 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
               href="https://conclick.io?ref=iconstack"
               target="_blank"
               rel="noopener noreferrer"
-              className="block relative rounded-xl p-4 bg-gradient-to-br from-zinc-50 to-zinc-100 dark:from-zinc-900 dark:to-zinc-800 border border-zinc-200 dark:border-zinc-700 hover:border-zinc-300 dark:hover:border-zinc-600 transition-all group shadow-sm hover:shadow-md"
+              className="block relative border border-border rounded-lg p-4 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors group"
             >
-              <span className="absolute top-3 right-3 text-[10px] font-medium text-muted-foreground/60 bg-background/80 px-1.5 py-0.5 rounded">Ad</span>
-              <div className="flex items-center gap-2.5 mb-2">
-                <img src={conclickLogo.url} alt="Conclick" className="h-6 w-6 rounded-md" />
+              <span className="absolute top-2 right-2 text-[10px] text-muted-foreground/50">Ad</span>
+              <div className="flex items-center gap-2 mb-2">
+                <img src={conclickLogo.url} alt="Conclick" className="h-5 w-5 rounded" />
                 <span className="font-semibold text-sm text-foreground">Conclick</span>
-                <ArrowUpRight className="h-3.5 w-3.5 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
+                <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
-              <p className="text-xs text-muted-foreground leading-relaxed">Lightweight analytics for modern websites.</p>
+              <p className="text-xs text-muted-foreground">Lightweight analytics for modern websites.</p>
             </a>
 
             <Separator />
@@ -514,9 +514,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   size="sm" 
                   onClick={handleCopyJSON} 
                   disabled={!selectedIcon} 
-                  className="text-xs h-9"
+                  className="text-xs"
                 >
-                  <Braces className="h-3.5 w-3.5 mr-1.5" />
+                  <Braces className="h-3 w-3 mr-1" />
                   Copy JSON
                 </Button>
                 <Button 
@@ -524,9 +524,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   size="sm" 
                   onClick={handleCopyTSX} 
                   disabled={!selectedIcon} 
-                  className="text-xs h-9"
+                  className="text-xs"
                 >
-                  <FileCode className="h-3.5 w-3.5 mr-1.5" />
+                  <FileCode className="h-3 w-3 mr-1" />
                   Copy TSX
                 </Button>
               </div>
@@ -535,9 +535,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                 size="sm" 
                 onClick={handleDownloadGIF} 
                 disabled={!selectedIcon} 
-                className="w-full text-xs h-9"
+                className="w-full text-xs"
               >
-                <Image className="h-3.5 w-3.5 mr-1.5" />
+                <Image className="h-3 w-3 mr-1" />
                 Download GIF
               </Button>
             </div>
@@ -550,9 +550,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   size="sm" 
                   onClick={handleCopySVG} 
                   disabled={!selectedIcon} 
-                  className="text-xs h-9"
+                  className="text-xs"
                 >
-                  <Copy className="h-3.5 w-3.5 mr-1.5" />
+                  <Copy className="h-3 w-3 mr-1" />
                   Copy SVG
                 </Button>
                 <Button 
@@ -560,9 +560,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                   size="sm" 
                   onClick={handleCopyXML} 
                   disabled={!selectedIcon} 
-                  className="text-xs h-9"
+                  className="text-xs"
                 >
-                  <Code className="h-3.5 w-3.5 mr-1.5" />
+                  <Copy className="h-3 w-3 mr-1" />
                   Copy XML
                 </Button>
               </div>
@@ -571,9 +571,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                 size="sm" 
                 onClick={handleDownloadSVG} 
                 disabled={!selectedIcon} 
-                className="w-full text-xs h-9"
+                className="w-full text-xs"
               >
-                <Download className="h-3.5 w-3.5 mr-1.5" />
+                <Download className="h-3 w-3 mr-1" />
                 Download SVG
               </Button>
               <Button 
@@ -581,9 +581,9 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
                 size="sm" 
                 onClick={handleDownloadPNG} 
                 disabled={!selectedIcon} 
-                className="w-full text-xs h-9"
+                className="w-full text-xs"
               >
-                <Image className="h-3.5 w-3.5 mr-1.5" />
+                <Download className="h-3 w-3 mr-1" />
                 Download PNG
               </Button>
             </>

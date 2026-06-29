@@ -19,7 +19,7 @@ import { showFirstCopyNudge } from "@/components/ui/first-copy-nudge";
 import { Skeleton } from "@/components/ui/skeleton";
 
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { AlertCircle, Loader2, SearchX, Heart } from "lucide-react";
+import { AlertCircle, Loader2 } from "lucide-react";
 import { iconLibraryManager } from "@/services/IconLibraryManager";
 import { type LibrarySection } from "@/types/icon";
 import { useIsMobile } from "@/hooks/use-mobile";
@@ -569,24 +569,17 @@ function IconGridPage() {
               </div>
             ) : displayedIcons.length === 0 && !loading ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
-                <div className="space-y-3">
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-muted/60">
-                    {selectedSet === "favorites" ? (
-                      <Heart className="h-6 w-6 text-muted-foreground" />
-                    ) : (
-                      <SearchX className="h-6 w-6 text-muted-foreground" />
-                    )}
-                  </div>
-                  <p className="text-lg font-medium text-foreground">
+                <div className="space-y-2">
+                  <p className="text-lg text-muted-foreground">
                     {selectedSet === "favorites" ? "No favorites yet" : 
                      searchQuery ? "No icons found" : "No icons available"}
                   </p>
                   <p className="text-sm text-muted-foreground">
                     {selectedSet === "favorites" 
-                      ? "Star some icons to see them here"
+                      ? "Tap library menu to browse icons"
                       : searchQuery
                       ? "Try a different search term"
-                      : "Select a library to get started"
+                      : "Tap library menu to select icons"
                     }
                   </p>
                 </div>
@@ -656,8 +649,6 @@ function IconGridPage() {
         <AppSidebar 
           selectedSet={selectedSet}
           onSetChange={setSelectedSet}
-          icons={displayedIcons}
-          onIconClick={handleIconClick}
         />
         
         <div className="flex-1 flex flex-col h-app-shell-inner min-w-0">{/* Inner shell offsets the fixed banner */}
@@ -764,15 +755,8 @@ function IconGridPage() {
               </div>
             ) : displayedIcons.length === 0 && !loading ? (
               <div className="flex h-64 items-center justify-center text-center px-6">
-                <div className="space-y-3">
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-muted/60">
-                    {selectedSet === "favorites" ? (
-                      <Heart className="h-6 w-6 text-muted-foreground" />
-                    ) : (
-                      <SearchX className="h-6 w-6 text-muted-foreground" />
-                    )}
-                  </div>
-                  <p className="text-lg font-medium text-foreground">
+                <div className="space-y-2">
+                  <p className="text-lg text-muted-foreground">
                     {selectedSet === "favorites" ? "No favorites yet" : 
                      searchQuery ? "No icons found" : "No icons available"}
                   </p>

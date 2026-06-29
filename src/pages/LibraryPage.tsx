@@ -13,7 +13,7 @@ import { RotatingFooter } from '@/components/RotatingFooter';
 import { LibraryFAQ } from '@/components/LibraryFAQ';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { generateIconUrl } from '@/lib/url-helpers';
-import { Home, SearchX, ArrowLeft } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { SidebarProvider } from '@/components/ui/sidebar';
 import { Header } from '@/components/header';
 import { ControlPanel } from '@/components/control-panel';
@@ -26,7 +26,6 @@ import { useFirstTimeUser } from '@/hooks/useFirstTimeUser';
 import { showFirstCopyNudge } from '@/components/ui/first-copy-nudge';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { IconstackLogo } from '@/components/iconstack-logo';
-import { SidebarIconGrid } from '@/components/app-sidebar';
 import LoadingSpinner from '@/components/LoadingSpinner';
 
 const LibraryPageContent = () => {
@@ -287,7 +286,7 @@ const LibraryPageContent = () => {
                   to="/"
                   className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  <Home className="h-4 w-4" />
+                  <ArrowLeft className="h-4 w-4" />
                   Back to all icons
                 </Link>
 
@@ -307,17 +306,10 @@ const LibraryPageContent = () => {
                       </>
                     )}
                   </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mt-3">
+                    Browse the complete list of {libraryMetadata.count?.toLocaleString()} {libraryMetadata.name} icons below. Search to find specific icons or filter by category.
+                  </p>
                 </div>
-
-                {/* Mini icon grid */}
-                {icons.length > 0 && (
-                  <div className="pt-2 border-t">
-                    <h3 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">
-                      Library Icons
-                    </h3>
-                    <SidebarIconGrid icons={icons} onIconClick={handleIconClick} />
-                  </div>
-                )}
               </div>
             </ScrollArea>
           </div>
@@ -362,11 +354,8 @@ const LibraryPageContent = () => {
                 </div>
               ) : displayedIcons.length === 0 ? (
                 <div className="flex h-64 items-center justify-center text-center px-6">
-                  <div className="space-y-3">
-                    <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-muted/60">
-                      <SearchX className="h-6 w-6 text-muted-foreground" />
-                    </div>
-                    <p className="text-lg font-medium text-foreground">
+                  <div className="space-y-2">
+                    <p className="text-lg text-muted-foreground">
                       {searchQuery ? 'No icons found' : 'No icons available'}
                     </p>
                     <p className="text-sm text-muted-foreground">

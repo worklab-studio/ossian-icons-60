@@ -1,6 +1,11 @@
 import React from "react";
-import { cn } from "@/lib/utils";
-import { Tag } from "lucide-react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface CategoryFilterProps {
   categories: string[];
@@ -15,36 +20,32 @@ export function CategoryFilter({
 }: CategoryFilterProps) {
   if (categories.length === 0) return null;
 
+  const handleValueChange = (value: string) => {
+    onCategoryChange(value === "all" ? null : value);
+  };
+
   return (
     <div className="flex items-center gap-2">
-      <Tag className="h-4 w-4 text-muted-foreground hidden sm:block" />
-      <div className="flex items-center gap-1.5 flex-wrap">
-        <button
-          onClick={() => onCategoryChange(null)}
-          className={cn(
-            "px-2.5 py-1 rounded-full text-xs font-medium transition-colors border",
-            selectedCategory === null
-              ? "bg-foreground text-background border-foreground"
-              : "bg-background text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"
-          )}
-        >
-          All
-        </button>
-        {categories.slice(0, 8).map((category) => (
-          <button
-            key={category}
-            onClick={() => onCategoryChange(category === selectedCategory ? null : category)}
-            className={cn(
-              "px-2.5 py-1 rounded-full text-xs font-medium transition-colors border capitalize whitespace-nowrap",
-              selectedCategory === category
-                ? "bg-foreground text-background border-foreground"
-                : "bg-background text-muted-foreground border-border hover:border-foreground/30 hover:text-foreground"
-            )}
-          >
-            {category.replace(/[-_]/g, ' ')}
-          </button>
-        ))}
-      </div>
+      <span className="text-sm text-muted-foreground hidden sm:inline">
+        Category:
+      </span>
+      
+      <Select
+        value={selectedCategory || "all"}
+        onValueChange={handleValueChange}
+      >
+        <SelectTrigger className="w-[140px] h-8">
+          <SelectValue placeholder="All categories" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="all">All categories</SelectItem>
+          {categories.map(category => (
+            <SelectItem key={category} value={category}>
+              {category.charAt(0).toUpperCase() + category.slice(1).replace('-', ' ')}
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
     </div>
   );
 }
