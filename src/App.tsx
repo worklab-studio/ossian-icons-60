@@ -11,6 +11,7 @@ import { IconCustomizationProvider } from "@/contexts/IconCustomizationContext";
 import Sitemap from "./components/Sitemap";
 import { SitemapService } from "./services/SitemapService";
 import { PeerlistPopup } from "@/components/PeerlistPopup";
+import { ConclickPopup } from "@/components/ConclickPopup";
 
 // Code-split routes — keeps the initial JS bundle (Index + icon libs) out of
 // the way when users land on lighter pages like /api or /license.
@@ -68,6 +69,7 @@ const App = () => (
             <BrowserRouter>
               <ScrollToTop />
               <PeerlistPopup />
+              <ConclickPopup />
               <Suspense fallback={null}>
                 <Routes>
                   <Route path="/" element={<Index />} />
