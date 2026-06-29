@@ -174,7 +174,7 @@ export function AppSidebar({
           <SidebarGroupContent className="px-2">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button class-t                 className="w-full flex items-center justify-between rounded-md border px-3 py-2 text-sm hover:bg-accent/50 transition-colors"
+                <button className="w-full flex items-center justify-between rounded-md border px-3 py-2 text-sm hover:bg-accent/50 transition-colors"
                 >
                   <span className="font-medium truncate">
                     {selectedSet === "all"
