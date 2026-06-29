@@ -84,7 +84,7 @@ export function RotatingFooter() {
 
   return (
     <footer
-      className="border-t border-border p-3 text-center text-sm bg-zinc-100 dark:bg-zinc-900 overflow-hidden"
+      className="border-t border-border/50 p-3 text-center text-sm bg-muted/30 backdrop-blur-sm overflow-hidden"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -93,11 +93,11 @@ export function RotatingFooter() {
           key={index}
           to={promo.href}
           onMouseEnter={() => prefetchByPath(promo.href)}
-          className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group animate-fade-in"
+          className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors group animate-fade-in"
         >
           {promo.logo}
           <span>
-            <strong className="text-zinc-900 dark:text-white">{promo.brand}</strong> — {promo.tagline}
+            <strong className="text-foreground">{promo.brand}</strong> — {promo.tagline}
           </span>
           <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
         </Link>
@@ -107,11 +107,11 @@ export function RotatingFooter() {
           href={promo.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white transition-colors group animate-fade-in"
+          className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors group animate-fade-in"
         >
           {promo.logo}
           <span>
-            <strong className="text-zinc-900 dark:text-white">{promo.brand}</strong> — {promo.tagline}
+            <strong className="text-foreground">{promo.brand}</strong> — {promo.tagline}
           </span>
           <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
         </a>

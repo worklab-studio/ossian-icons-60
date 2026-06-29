@@ -626,20 +626,20 @@ export default function IconDetailPage() {
             <main className="flex-1 overflow-hidden flex h-full">
               {/* Left: Icon Display with quick actions */}
               <div className="w-[360px] flex-shrink-0 border-r border-border/30 flex flex-col">
-                <div className="p-6 flex-shrink-0">
+              <div className="p-6 flex-shrink-0">
                   <div className="flex items-center justify-center mb-6">
-                    <div className="flex items-center justify-center w-32 h-32">
+                    <div className="flex items-center justify-center w-40 h-40 rounded-2xl bg-muted/40 border border-border/50 shadow-sm">
                       {iconPreview}
                     </div>
                   </div>
                   
                   {/* Quick action buttons */}
-                  <div className="flex gap-2 justify-center mb-6">
-                    <Button variant="outline" size="sm" onClick={handleQuickCopySVG}>
+                  <div className="flex gap-2 justify-center mb-2">
+                    <Button variant="outline" size="sm" className="h-9 px-4" onClick={handleQuickCopySVG}>
                       <Copy className="h-3.5 w-3.5 mr-1.5" />
                       Copy SVG
                     </Button>
-                    <Button variant="default" size="sm" onClick={handleQuickDownloadSVG}>
+                    <Button variant="default" size="sm" className="h-9 px-4" onClick={handleQuickDownloadSVG}>
                       <Download className="h-3.5 w-3.5 mr-1.5" />
                       Download SVG
                     </Button>
@@ -665,27 +665,29 @@ export default function IconDetailPage() {
                   
                   {/* Technical Details */}
                   <div className="p-6 border-b border-border/30">
-                    <div className="grid grid-cols-2 gap-6 text-sm">
-                      <div className="space-y-3">
-                        <div>
-                          <div className="text-muted-foreground">Format</div>
-                          <div>SVG</div>
-                        </div>
-                        <div>
-                          <div className="text-muted-foreground">Library</div>
-                          <div>{libraryMetadata?.name || parsedLibraryId}</div>
-                        </div>
+                    <div className="grid grid-cols-2 gap-3 text-sm">
+                      <div className="rounded-xl bg-muted/40 border border-border/40 p-3.5 space-y-1">
+                        <div className="text-xs text-muted-foreground uppercase tracking-wider font-medium">Format</div>
+                        <div className="font-medium">SVG</div>
                       </div>
-                      <div className="space-y-3">
-                        <div>
-                          <div className="text-muted-foreground">ID</div>
-                          <div className="font-mono text-xs break-all">{icon.id}</div>
-                        </div>
-                        <div>
-                          <div className="text-muted-foreground">License</div>
-                          <div>Open Source</div>
-                        </div>
+                      <div className="rounded-xl bg-muted/40 border border-border/40 p-3.5 space-y-1">
+                        <div className="text-xs text-muted-foreground uppercase tracking-wider font-medium">Library</div>
+                        <div className="font-medium">{libraryMetadata?.name || parsedLibraryId}</div>
                       </div>
+                      <div className="rounded-xl bg-muted/40 border border-border/40 p-3.5 space-y-1 col-span-2">
+                        <div className="text-xs text-muted-foreground uppercase tracking-wider font-medium">ID</div>
+                        <div className="font-mono text-xs break-all">{icon.id}</div>
+                      </div>
+                      <div className="rounded-xl bg-muted/40 border border-border/40 p-3.5 space-y-1">
+                        <div className="text-xs text-muted-foreground uppercase tracking-wider font-medium">License</div>
+                        <div className="font-medium">Open Source</div>
+                      </div>
+                      {icon.style && (
+                        <div className="rounded-xl bg-muted/40 border border-border/40 p-3.5 space-y-1">
+                          <div className="text-xs text-muted-foreground uppercase tracking-wider font-medium">Style</div>
+                          <div className="font-medium capitalize">{icon.style}</div>
+                        </div>
+                      )}
                     </div>
                   </div>
                   
