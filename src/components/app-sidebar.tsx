@@ -1,6 +1,6 @@
 import { Home, Feather, Table, Sun, Lightbulb, Cpu, Component, Minus, Grid3X3, Maximize2, Smile, Shield, Palette, Workflow, Atom, Moon, Paintbrush, Crown, Tag, Github, Layers, FileText, ArrowUpRight, Plug, Code2 } from "lucide-react";
 import { Link } from "react-router-dom";
-import commentiLogo from "@/assets/commenti-logo.png.asset.json";
+import commentiLogo from "@/assets/commenti-logo.svg.asset.json";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader, SidebarFooter, SidebarSeparator } from "@/components/ui/sidebar";
 import { useFakeAudienceCount } from "@/hooks/useFakeAudienceCount";
 import { cn } from "@/lib/utils";
