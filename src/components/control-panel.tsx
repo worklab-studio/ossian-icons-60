@@ -4,7 +4,7 @@ import { ColorPicker } from "./color-picker";
 import { StrokeSlider } from "./stroke-slider";
 import { Button } from "@/components/ui/button";
 import { Copy, Download, FileCode, Braces, Image, ArrowUpRight } from "lucide-react";
-import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
+import commentiLogo from "@/assets/commenti-logo.png.asset.json";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
 import React from "react";
@@ -467,20 +467,20 @@ ${getCustomizedSVG().split('\n').map(line => `    ${line}`).join('\n')}
       <div className="flex-1 overflow-hidden">
         <ScrollArea className="h-full scrollbar-none">
           <div className="p-6 space-y-6">
-            {/* Conclick Ad Banner */}
+            {/* Commenti Ad Banner */}
             <a
-              href="https://conclick.io?ref=iconstack"
+              href="https://commenti.in?ref=iconstack"
               target="_blank"
               rel="noopener noreferrer"
               className="block relative border border-border rounded-lg p-4 bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors group"
             >
               <span className="absolute top-2 right-2 text-[10px] text-muted-foreground/50">Ad</span>
               <div className="flex items-center gap-2 mb-2">
-                <img src={conclickLogo.url} alt="Conclick" className="h-5 w-5 rounded" />
-                <span className="font-semibold text-sm text-foreground">Conclick</span>
+                <img src={commentiLogo.url} alt="Commenti" className="h-5 w-5 rounded" />
+                <span className="font-semibold text-sm text-foreground">Commenti</span>
                 <ArrowUpRight className="h-3 w-3 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
-              <p className="text-xs text-muted-foreground">Lightweight analytics for modern websites.</p>
+              <p className="text-xs text-muted-foreground">Grow your LinkedIn on autopilot with AI comments.</p>
             </a>
 
             <Separator />
