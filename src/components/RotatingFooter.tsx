@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import conclickLogo from "@/assets/conclick-logo.svg.asset.json";
+import commentiLogo from "@/assets/commenti-logo.svg.asset.json";
 import xautopilotLogo from "@/assets/xautopilot-logo.png";
 import { prefetchByPath } from "@/lib/prefetch";
 
@@ -61,10 +61,10 @@ const promos: Promo[] = [
     logo: <img src={xautopilotLogo} alt="X-Autopilot" className="h-4 w-4 rounded-sm" />,
   },
   {
-    brand: "Conclick",
-    tagline: "Lightweight analytics for modern websites.",
-    href: "https://conclick.io?ref=iconstack",
-    logo: <img src={conclickLogo.url} alt="Conclick" className="h-4 w-4 rounded-sm" />,
+    brand: "Commenti",
+    tagline: "Grow your LinkedIn on autopilot with AI comments.",
+    href: "https://commenti.in?ref=iconstack",
+    logo: <img src={commentiLogo.url} alt="Commenti" className="h-4 w-4 rounded-sm" />,
   },
 ];
 
