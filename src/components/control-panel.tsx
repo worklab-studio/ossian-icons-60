@@ -4,7 +4,7 @@ import { ColorPicker } from "./color-picker";
 import { StrokeSlider } from "./stroke-slider";
 import { Button } from "@/components/ui/button";
 import { Copy, Download, FileCode, Braces, Image, ArrowUpRight } from "lucide-react";
-import commentiLogo from "@/assets/commenti-logo.png.asset.json";
+import commentiLogo from "@/assets/commenti-logo.svg.asset.json";
 import { useIconCustomization } from "@/contexts/IconCustomizationContext";
 import { toast } from "@/hooks/use-toast";
 import React from "react";
